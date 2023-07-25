@@ -17,6 +17,11 @@ import java.util.*;
 import java.util.concurrent.TimeUnit;
 import java.util.function.Predicate;
 import java.util.regex.Pattern;
+import java.util.Collection;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.concurrent.TimeUnit;
 
 public class RQ5 {
 
@@ -35,14 +40,12 @@ public class RQ5 {
                 .readTimeout(60, TimeUnit.SECONDS)
                 .build();
         tokenQueue = new GitHubAPITokenQueue(apiTokens);
-        String apiToken = apiTokens.iterator().next();
-        GitPatchCache.initialize(httpConnector, apiToken);
     }
 
-    private void getPRStates() throws IOException {
-        File[] breakingUpdates = Path.of("test").toFile().listFiles();
+    public void getPRStates() throws IOException {
+        File[] breakingUpdates = Path.of("data/benchmark").toFile().listFiles();
         MapType jsonType = JsonUtils.getTypeFactory().constructMapType(Map.class, String.class, Object.class);
-        Path prStatesFilePath = Path.of("rq5_results/pr_states" + JsonUtils.JSON_FILE_ENDING);
+        Path prStatesFilePath = Path.of("pr_states" + JsonUtils.JSON_FILE_ENDING);
         if (Files.notExists(prStatesFilePath)) {
             Files.createFile(prStatesFilePath);
         }
