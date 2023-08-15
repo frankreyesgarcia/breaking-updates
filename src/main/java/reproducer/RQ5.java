@@ -5,6 +5,7 @@ import miner.GitHubAPITokenQueue;
 import miner.GitPatchCache;
 import miner.JsonUtils;
 import okhttp3.OkHttpClient;
+import org.apache.maven.artifact.versioning.ComparableVersion;
 import org.kohsuke.github.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -16,6 +17,7 @@ import java.nio.file.Path;
 import java.util.*;
 import java.util.concurrent.TimeUnit;
 import java.util.function.Predicate;
+import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.Collection;
 import java.util.HashMap;
@@ -76,7 +78,8 @@ public class RQ5 {
                         retrieveFixCommit(repository, prDate, (String) bu.get("breakingCommit"),
                                 (String) updatedDependency.get("dependencyGroupID"),
                                 (String) updatedDependency.get("dependencyArtifactID"),
-                                (String) updatedDependency.get("previousVersion"));
+                                (String) updatedDependency.get("previousVersion"),
+                                (String) updatedDependency.get("newVersion"));
                     }
                     prState.put("closedBy", parseAuthorType(prAsIssue.getClosedBy()));
                 }
@@ -119,7 +122,7 @@ public class RQ5 {
     }
 
     private void retrieveFixCommit(GHRepository repository, Date cutoffDate, String breakingCommit, String groupID,
-                                   String artifactID, String previousVersion) {
+                                   String artifactID, String previousVersion, String newVersion) {
         List<SuccessfulUpdate> sus = new ArrayList<>();
         PagedIterator<GHPullRequest> pullRequests = repository.queryPullRequests()
                 .state(GHIssueState.ALL)
@@ -136,10 +139,18 @@ public class RQ5 {
                     .takeWhile(createdBefore(cutoffDate).negate())
                     .filter(pr -> changesDependencyVersionInPomXML(pr, groupID, artifactID, previousVersion))
                     .filter(passesBuild)
-                    .map(pr -> new SuccessfulUpdate(pr, breakingCommit))
+                    .map(pr -> new SuccessfulUpdate(pr, breakingCommit, groupID, artifactID, previousVersion, newVersion))
                     .forEach(successfulUpdate -> {
                         log.info("    Found " + successfulUpdate.url);
                         sus.add(successfulUpdate);
+                        if (Objects.equals(successfulUpdate.updatedDependency.versionUpdateSimilarity, "lower") &&
+                                sus.size() == 1) {
+                            Calendar cal = Calendar.getInstance();
+                            cal.setTime(cutoffDate);
+                            cal.add(Calendar.DATE, successfulUpdate.fixDuration);
+                            successfulUpdate.updatedDependency.setHigherUpdatePR
+                                    (getHigherUpdate(pullRequests, groupID, artifactID, newVersion, cal.getTime()));
+                        }
                         writeSuccessfulUpdate(successfulUpdate);
                     });
         }
@@ -166,7 +177,7 @@ public class RQ5 {
                 .filter(run -> failedRuns.stream().noneMatch(failedRun -> failedRun.getHeadSha().equals(run.getHeadSha())))
                 .toList();
         // The GitHub REST API allows us to query for the head sha, but this is not currently supported
-        // by org.kohsuke.github query builder. To ensure that the run actually failed for this specific
+        // by org.kohsuke.github query builder. To ensure that the run actually passed for this specific
         // PR head, we have to verify it after the search.
         return filteredRuns.stream()
                 .anyMatch(run -> run.getHeadSha().equals(pr.getHead().getSha()));
@@ -178,8 +189,9 @@ public class RQ5 {
         String formattedGrpID = groupID.replace(".", "\\.");
         String formattedPrevVersion = previousVersion.replace(".", "\\.");
         Pattern dependency_version_change =
-                Pattern.compile(String.format("<dependency>(?=.*<groupId>%s</groupId>)(?=.*<artifactId>%s</artifactId>)" +
-                                        "(.*^-\\s*<version>%s</version>.*)(.*^[+]\\s*<version>.+</version>.*)</dependency>",
+                Pattern.compile(String.format("<groupId>%s</groupId>.*?" +
+                                        "<artifactId>%s</artifactId>.*?" +
+                                        ".*^-\\s*<version>%s</version>.*",
                                 formattedGrpID, artifactID, formattedPrevVersion),
                         Pattern.DOTALL | Pattern.MULTILINE);
         if (POM_XML_CHANGE.matcher(patch).find() && dependency_version_change.matcher(patch).find()) {
@@ -217,6 +229,51 @@ public class RQ5 {
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
+    }
+
+    private String getHigherUpdate(PagedIterator<GHPullRequest> pullRequests, String groupID, String artifactID,
+                                 String newVersion, Date cutoffDate) {
+        List<String> prs = new ArrayList<>();
+        while (pullRequests.hasNext()) {
+            List<GHPullRequest> nextPage = pullRequests.nextPage();
+            if (createdBefore(cutoffDate).test(nextPage.get(0))) {
+                log.info("Checked all PRs created after " + cutoffDate);
+                break;
+            }
+            nextPage.stream()
+                    .takeWhile(createdBefore(cutoffDate).negate())
+                    .filter(pr -> higherVersionUpdateExists(pr, groupID, artifactID, newVersion))
+                    .filter(passesBuild)
+                    .forEach(pr -> {
+                        log.info("    Found higher version: " + pr.getHtmlUrl());
+                        prs.add(String.valueOf(pr.getHtmlUrl()));
+                    });
+        }
+        return prs.get(prs.size() - 1);
+    }
+
+    private boolean higherVersionUpdateExists(GHPullRequest pr, String groupID, String artifactID,
+                                              String newVersion) {
+        String patch = GitPatchCache.get(pr).orElse("");
+        String formattedGrpID = groupID.replace(".", "\\.");
+        Pattern dependency_version_change =
+                Pattern.compile(String.format("<groupId>%s</groupId>.*?<artifactId>%s</artifactId>.*?" +
+                                        "-\\s*<version>.*</version>(?:\\s*<!--.*?-->)?\\s*" +
+                                        "\\+\\s*<version>(.*?)</version>",
+                                formattedGrpID, artifactID),
+                        Pattern.DOTALL | Pattern.MULTILINE);
+        if (POM_XML_CHANGE.matcher(patch).find()) {
+            Matcher versionMatcher = dependency_version_change.matcher(patch);
+            if (versionMatcher.find()) {
+                System.out.println(versionMatcher.group(1));
+                ComparableVersion v1 = new ComparableVersion(versionMatcher.group(1));
+                ComparableVersion v2 = new ComparableVersion(newVersion);
+                return v1.compareTo(v2) >= 0;
+            }
+        } else {
+            GitPatchCache.remove(pr);
+        }
+        return false;
     }
 
     public static void main(String[] args) throws IOException {
