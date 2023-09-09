@@ -1,29 +1,16 @@
 {
-<<<<<<<< HEAD:data/benchmark/17cc92fc964c1aaf486ed815c60725b6f65714d2.json
   "url" : "https://github.com/jenkinsci/amazon-ecr-plugin/pull/167",
   "project" : "amazon-ecr-plugin",
   "projectOrganisation" : "jenkinsci",
   "breakingCommit" : "17cc92fc964c1aaf486ed815c60725b6f65714d2",
-========
-  "url" : "https://github.com/jenkinsci/rest-list-parameter-plugin/pull/127",
-  "project" : "rest-list-parameter-plugin",
-  "breakingCommit" : "3e2f981f08e75926838fb0fa6d96fb3efba33bc3",
->>>>>>>> 9689e5845 (Update methods to retrieve the higher update versions):test/3e2f981f08e75926838fb0fa6d96fb3efba33bc3.json
   "prAuthor" : "bot",
   "preCommitAuthor" : "human",
   "breakingCommitAuthor" : "bot",
   "updatedDependency" : {
-<<<<<<<< HEAD:data/benchmark/17cc92fc964c1aaf486ed815c60725b6f65714d2.json
     "dependencyGroupID" : "org.jenkins-ci.plugins",
     "dependencyArtifactID" : "docker-commons",
     "previousVersion" : "1.21",
     "newVersion" : "422.v9d1a_89cede51",
-========
-    "dependencyGroupID" : "io.jenkins.plugins",
-    "dependencyArtifactID" : "jquery3-api",
-    "previousVersion" : "3.6.0-2",
-    "newVersion" : "3.6.0-3",
->>>>>>>> 9689e5845 (Update methods to retrieve the higher update versions):test/3e2f981f08e75926838fb0fa6d96fb3efba33bc3.json
     "dependencyScope" : "compile",
     "versionUpdateType" : "other",
     "dependencySection" : "dependencies",
@@ -32,13 +19,8 @@
     "mavenSourceLinkBreaking" : null,
     "updatedFileType" : "JAR"
   },
-<<<<<<<< HEAD:data/benchmark/17cc92fc964c1aaf486ed815c60725b6f65714d2.json
   "preCommitReproductionCommand" : "docker run ghcr.io/chains-project/breaking-updates:17cc92fc964c1aaf486ed815c60725b6f65714d2-pre",
   "breakingUpdateReproductionCommand" : "docker run ghcr.io/chains-project/breaking-updates:17cc92fc964c1aaf486ed815c60725b6f65714d2-breaking",
-========
-  "preCommitReproductionCommand" : "docker run ghcr.io/chains-project/breaking-updates:3e2f981f08e75926838fb0fa6d96fb3efba33bc3-pre",
-  "breakingUpdateReproductionCommand" : "docker run ghcr.io/chains-project/breaking-updates:3e2f981f08e75926838fb0fa6d96fb3efba33bc3-breaking",
->>>>>>>> 9689e5845 (Update methods to retrieve the higher update versions):test/3e2f981f08e75926838fb0fa6d96fb3efba33bc3.json
   "javaVersionUsedForReproduction" : "11",
   "failureCategory" : "JENKINS_PLUGIN_FAILURE"
 }

@@ -1,4 +1,4 @@
-package reproducer;
+package rqs;
 
 import com.fasterxml.jackson.databind.type.MapType;
 import miner.GitHubAPITokenQueue;
@@ -23,7 +23,6 @@ import java.util.Collection;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.concurrent.TimeUnit;
 
 public class RQ5 {
 
