@@ -32,7 +32,8 @@ public class Main {
 
         @Override
         public void run() {
-
+            ReproducibilityChecker reproducibilityChecker = new ReproducibilityChecker();
+            reproducibilityChecker.runReproducibilityChecker(benchmarkDir);
         }
     }
 }

@@ -1,7 +1,5 @@
 package rqs;
 
-import com.fasterxml.jackson.annotation.JsonCreator;
-import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.databind.type.MapType;
 import com.github.dockerjava.api.DockerClient;
 import com.github.dockerjava.api.command.CreateContainerCmd;
@@ -70,7 +68,7 @@ public class ReproducibilityChecker {
                 ReproducibleBreakingUpdate.FailureCategory.DEPENDENCY_LOCK_FAILURE);
     }
 
-    public void runReproducibilityChecker(Path benchmarkDir) throws IOException {
+    public void runReproducibilityChecker(Path benchmarkDir) {
 
         File[] breakingUpdates = benchmarkDir.toFile().listFiles();
         createDockerClient();
@@ -87,7 +85,7 @@ public class ReproducibilityChecker {
                 e.printStackTrace();
             }
         }
-        Map<String, Object> reproducibilityResults = JsonUtils.readFromNullableFile(reproducibilityResultsFilePath,
+        Map<String, Boolean> reproducibilityResults = JsonUtils.readFromNullableFile(reproducibilityResultsFilePath,
                 reproducibilityJsonType);
         if (reproducibilityResults == null) {
             reproducibilityResults = new HashMap<>();
@@ -95,7 +93,7 @@ public class ReproducibilityChecker {
 
         // Read dependency count results
         MapType depCountJsonType = JsonUtils.getTypeFactory().constructMapType(Map.class, String.class,
-                DependencyCounts.class);
+                Map.class);
         Path depCountResultsFilePath = Path.of("src/main/java/rqs/dep-count-results" +
                 JsonUtils.JSON_FILE_ENDING);
         if (Files.notExists(depCountResultsFilePath)) {
@@ -105,58 +103,76 @@ public class ReproducibilityChecker {
                 e.printStackTrace();
             }
         }
-        Map<String, DependencyCounts> depCountResults = JsonUtils.readFromNullableFile(depCountResultsFilePath,
+        Map<String, Map<String, Integer>> depCountResults = JsonUtils.readFromNullableFile(depCountResultsFilePath,
                 depCountJsonType);
         if (depCountResults == null) {
             depCountResults = new HashMap<>();
         }
 
-        int temp = 0;
         if (breakingUpdates != null) {
             for (File breakingUpdate : breakingUpdates) {
-                Map<String, Object> depCount = new HashMap<>();
                 Map<String, Object> bu = JsonUtils.readFromFile(breakingUpdate.toPath(), buJsonType);
+                Map<String, Integer> depCount = new HashMap<>();
+
                 if (!depCountResults.containsKey((String) bu.get("breakingCommit"))) {
                     String image = REGISTRY + ":" + bu.get("breakingCommit") + BREAKING_UPDATE_CONTAINER_TAG;
-                    Path projectPath = Files.createDirectories(Path.of("tempProject")
-                            .resolve(image.split(":")[1]));
+
+                    Path projectPath;
+                    try {
+                        projectPath = Files.createDirectories(Path.of("tempProject")
+                                .resolve(image.split(":")[1]));
+                    } catch (IOException e) {
+                        log.error("Could not create directories to copy the project.");
+                        throw new RuntimeException(e);
+                    }
+
                     ReproducibleBreakingUpdate.FailureCategory failureCategory =
                             ReproducibleBreakingUpdate.FailureCategory.valueOf((String) bu.get("failureCategory"));
-                    boolean isReproducible = isReproducible(failureCategory, (String) bu.get("breakingCommit"),
+                    Boolean isReproducible = isReproducible(failureCategory, (String) bu.get("breakingCommit"),
                             (String) bu.get("project"), projectPath);
-                    String treeFileName = "src/main/java/rqs/dep-trees/" + bu.get("breakingCommit") + ".txt";
-                    downloadDepTree(String.valueOf(projectPath), treeFileName);
-                    depCountResults.put((String) bu.get("breakingCommit"), countDependencies(treeFileName));
                     reproducibilityResults.put((String) bu.get("breakingCommit"), isReproducible);
-                    removeProject(image, projectPath);
-                    temp += 1;
-                    if (temp > 5) {
-                        JsonUtils.writeToFile(depCountResultsFilePath, depCountResults);
-                        JsonUtils.writeToFile(reproducibilityResultsFilePath, reproducibilityResults);
-                        System.out.println("written to file");
-                        temp = 0;
-                    }
+
+                    File treeFile = new File("src/main/java/rqs/dep-trees/" + bu.get("breakingCommit") + ".txt");
+                    downloadDepTree(projectPath + File.separator + bu.get("project"), treeFile);
+                    DependencyCounts allDepCounts = countDependencies(treeFile);
+                    depCount.put("directCount", allDepCounts.directCount);
+                    depCount.put("transitiveCount", allDepCounts.transitiveCount);
+                    depCountResults.put((String) bu.get("breakingCommit"), depCount);
+
+                    //removeProject(image, projectPath);
+
+                    JsonUtils.writeToFile(reproducibilityResultsFilePath, reproducibilityResults);
+                    JsonUtils.writeToFile(depCountResultsFilePath, depCountResults);
+                    System.out.println("written to file");
                 }
             }
         }
-        JsonUtils.writeToFile(depCountResultsFilePath, depCountResults);
-        JsonUtils.writeToFile(reproducibilityResultsFilePath, reproducibilityResults);
     }
 
-    private boolean isReproducible(ReproducibleBreakingUpdate.FailureCategory failureCategory, String buCommit,
+    private Boolean isReproducible(ReproducibleBreakingUpdate.FailureCategory failureCategory, String buCommit,
                                    String project, Path copyDir) {
         String prevImage = REGISTRY + ":" + buCommit + PRECEDING_COMMIT_CONTAINER_TAG;
         String breakingImage = REGISTRY + ":" + buCommit + BREAKING_UPDATE_CONTAINER_TAG;
-        String prevContainerId = startContainer(prevImage, true);
-        String breakingContainerId = startContainer(breakingImage, false);
-        if (prevContainerId == null || breakingContainerId == null)
+        Map.Entry<String, Boolean> prevContainer = startContainer(prevImage, true);
+        Map.Entry<String, Boolean> breakingContainer = startContainer(breakingImage, false);
+        if (prevContainer == null || breakingContainer == null)
+            return null;
+        Path copiedProjectPath = copyProject(prevContainer.getKey(), project, copyDir);
+        if (!prevContainer.getValue() || !breakingContainer.getValue())
             return false;
-        copyProject(breakingContainerId, project, copyDir);
-        Path logFilePath = Path.of(copyDir + "output.log");
-        return getFailureCategory(logFilePath).equals(failureCategory);
+        if (copiedProjectPath != null) {
+            Path logFilePath = Path.of(copyDir + File.separator + project + File.separator + "output.log");
+            System.out.println("checking the failure category in" + logFilePath);
+            return getFailureCategory(logFilePath).equals(failureCategory);
+        } else {
+            return null;
+        }
+
     }
 
-    private String startContainer(String image, boolean isPrevImage) {
+    /* Returns false as the value of the map if the build failed for the previous commit or build did not fail for the
+    breaking commit. The key of the map is the started containerID. */
+    private Map.Entry<String, Boolean> startContainer(String image, boolean isPrevImage) {
         try {
             dockerClient.inspectImageCmd(image).exec();
         } catch (NotFoundException e) {
@@ -170,32 +186,33 @@ public class ReproducibilityChecker {
             }
         }
         CreateContainerCmd containerCmd = dockerClient.createContainerCmd(image)
-                .withCmd("sh", "-c", "mvn clean test -B | tee output.log");
+                .withCmd("sh", "-c", "--network none", "set -o pipefail && (mvn clean test -B 2>&1 | tee output.log)");
         CreateContainerResponse container = containerCmd.exec();
         String containerId = container.getId();
+        dockerClient.startContainerCmd(containerId).exec();
+        System.out.println("created container for " + image + " container id " + containerId);
         WaitContainerResultCallback result = dockerClient.waitContainerCmd(containerId).exec(new WaitContainerResultCallback());
         if (result.awaitStatusCode().intValue() != EXIT_CODE_OK) {
             if (isPrevImage) {
                 log.error("Previous commit failed for {}", image);
-                return null;
+                return Map.entry(containerId, false);
             }
         } else {
             if (!isPrevImage) {
                 log.error("Breaking commit did not fail for {}", image);
+                return Map.entry(containerId, false);
             }
         }
-
-        return containerId;
+        return Map.entry(containerId, true);
     }
 
     private Path copyProject(String containerId, String project, Path dir) {
-        if (containerId == null)
-                return null;
         dockerClient.startContainerCmd(containerId).exec();
         containers.add(containerId);
 
         try (InputStream dependencyStream = dockerClient.copyArchiveFromContainerCmd
                 (containerId, "/" + project).exec()) {
+            System.out.println("Copying the project");
             try (TarArchiveInputStream tarStream = new TarArchiveInputStream(dependencyStream)) {
                 TarArchiveEntry entry;
                 while ((entry = tarStream.getNextTarEntry()) != null) {
@@ -212,49 +229,58 @@ public class ReproducibilityChecker {
                     }
                 }
             }
+            System.out.println("Successfully copied the project, or hope so");
             return dir;
         } catch (IOException e) {
-            e.printStackTrace();
+            log.error("Could not copy the project {}", project, e);
             return null;
         }
     }
 
-    private void downloadDepTree(String projectPath, String treeFileName) {
+    private void downloadDepTree(String projectPath, File treeFile) {
         ProcessBuilder processBuilder = new ProcessBuilder();
-        processBuilder.command("cmd.exe", "/c", "mvn -f %s".formatted(projectPath), "dependency:tree");
+        processBuilder.command("cmd.exe", "/c", "mvn compile -f %s".formatted(projectPath), "dependency:tree");
 
         try {
             Process process = processBuilder.start();
             BufferedReader reader =
                     new BufferedReader(new InputStreamReader(process.getInputStream()));
-            BufferedWriter writer = new BufferedWriter(new FileWriter(treeFileName));
+            BufferedWriter writer = new BufferedWriter(new FileWriter(treeFile, false));
             String line;
             while ((line = reader.readLine()) != null) {
-                System.out.println(line);
                 writer.write(line);
+                writer.newLine();
             }
 
             int exitCode = process.waitFor();
-            System.out.println("\nExited with error code : " + exitCode);
-
-        } catch (IOException | InterruptedException e) {
-            e.printStackTrace();
+            if (exitCode != EXIT_CODE_OK) {
+                log.error("Process for creating the dependency tree exited with error code {} for the tree in {}", exitCode,
+                        treeFile.getName());
+            }
+            writer.flush();
+            writer.close();
+        } catch (Exception e) {
+            log.error("Could not create the dependency tree for the tree in {} due to an error", treeFile.getName(), e);
         }
     }
 
-    private static DependencyCounts countDependencies(String filePath) throws IOException {
+    private static DependencyCounts countDependencies(File treeFile) {
         int directCount = 0;
         int transitiveCount = 0;
 
-        try (BufferedReader reader = new BufferedReader(new FileReader(filePath))) {
+        try (BufferedReader reader = new BufferedReader(new FileReader(treeFile))) {
             String line;
             while ((line = reader.readLine()) != null) {
-                if (line.matches("\\[INFO\\] \\+- .*")) {
+                if (line.matches("\\[INFO] \\+- .*") || line.matches("\\[INFO] \\\\- .*")) {
                     directCount++;
-                } else if (line.matches("\\[INFO\\] \\| .*")) {
+                } else if (line.matches("\\[INFO] \\| .*") || line.matches("\\[INFO]    \\+- .*") ||
+                        line.matches("\\[INFO]    \\| .*") || line.matches("\\[INFO]    \\\\- .*")) {
                     transitiveCount++;
                 }
             }
+        } catch (IOException e) {
+            log.error("Could not count dependencies for {}", treeFile.getName());
+            throw new RuntimeException(e);
         }
         return new DependencyCounts(directCount, transitiveCount);
     }
@@ -266,16 +292,20 @@ public class ReproducibilityChecker {
                 Pattern pattern = entry.getKey();
                 Matcher matcher = pattern.matcher(logContent);
                 if (matcher.find()) {
+                    System.out.println("Failure category found " + entry.getValue());
                     return entry.getValue();
                 }
             }
+            System.out.println("Did not find the failure category");
             return ReproducibleBreakingUpdate.FailureCategory.UNKNOWN_FAILURE;
         } catch (IOException e) {
+            log.error("Failure category could not be parsed for {}", path);
             throw new RuntimeException(e);
         }
     }
 
     private void removeProject(String image, Path projectPath) {
+        System.out.println("removing the project " + projectPath);
         try {
             for (String container : containers) {
                 dockerClient.stopContainerCmd(container).exec();
@@ -289,7 +319,7 @@ public class ReproducibilityChecker {
         try {
             FileUtils.forceDelete(new File(projectPath.toUri()));
         } catch (IOException e) {
-            e.printStackTrace();
+            log.error("Project {} could not be deleted.", projectPath, e);
         }
     }
 
@@ -305,15 +335,14 @@ public class ReproducibilityChecker {
         dockerClient = DockerClientImpl.getInstance(clientConfig, httpClient);
     }
 
-    private static class DependencyCounts {
+    public static class DependencyCounts {
         int directCount;
         int transitiveCount;
-        @JsonCreator
-        DependencyCounts(@JsonProperty("directCount") int directCount,
-                         @JsonProperty("transitiveCount") int transitiveCount) {
+
+        DependencyCounts(int directCount, int transitiveCount) {
             this.directCount = directCount;
             this.transitiveCount = transitiveCount;
         }
     }
-
 }
+
