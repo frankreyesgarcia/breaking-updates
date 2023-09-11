@@ -1,0 +1,108 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for net.javacrumbs.future-converter:future-converter-common-test:jar:1.2.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-deploy-plugin is missing. @ line 62, column 21
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] future-converter                                                   [pom]
+[INFO] future-converter-common                                            [jar]
+[INFO] future-converter-common-test                                       [jar]
+[INFO] future-converter-java8-common                                      [jar]
+[INFO] future-converter-guava-common                                      [jar]
+[INFO] future-converter-java8-guava                                       [jar]
+[INFO] future-converter-apifuture-common                                  [jar]
+[INFO] future-converter-java8-apifuture                                   [jar]
+[INFO] future-converter-rxjava-common                                     [jar]
+[INFO] future-converter-rxjava-java8                                      [jar]
+[INFO] future-converter-rxjava2-common                                    [jar]
+[INFO] future-converter-rxjava2-java8                                     [jar]
+[INFO] future-converter-guava-rxjava                                      [jar]
+[INFO] future-converter-guava-rxjava2                                     [jar]
+[INFO] future-converter-spring-common                                     [jar]
+[INFO] future-converter-spring-rxjava                                     [jar]
+[INFO] future-converter-spring-rxjava2                                    [jar]
+[INFO] future-converter-spring-guava                                      [jar]
+[INFO] future-converter-spring-java8                                      [jar]
+[INFO] 
+[INFO] ----------< net.javacrumbs.future-converter:future-converter >----------
+[INFO] Building future-converter 1.2.1-SNAPSHOT                          [1/19]
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:1.2:enforce (enforce-maven) @ future-converter ---
+[INFO] 
+[INFO] --- license:4.1:format (update-license) @ future-converter ---
+[INFO] Updating license headers...
+[INFO] 
+[INFO] --- dependency:2.8:tree (default-cli) @ future-converter ---
+[INFO] net.javacrumbs.future-converter:future-converter:pom:1.2.1-SNAPSHOT
+[INFO] +- junit:junit:jar:4.13.2:test
+[INFO] |  \- org.hamcrest:hamcrest-core:jar:1.3:test
+[INFO] \- org.mockito:mockito-core:jar:4.5.1:test
+[INFO]    +- net.bytebuddy:byte-buddy:jar:1.12.9:test
+[INFO]    +- net.bytebuddy:byte-buddy-agent:jar:1.12.9:test
+[INFO]    \- org.objenesis:objenesis:jar:3.2:test
+[INFO] 
+[INFO] ------< net.javacrumbs.future-converter:future-converter-common >-------
+[INFO] Building future-converter-common 1.2.1-SNAPSHOT                   [2/19]
+[INFO]   from common\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:1.2:enforce (enforce-maven) @ future-converter-common ---
+[INFO] 
+[INFO] --- license:4.1:format (update-license) @ future-converter-common ---
+[INFO] Updating license headers...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for future-converter 1.2.1-SNAPSHOT:
+[INFO] 
+[INFO] future-converter ................................... SUCCESS [  2.825 s]
+[INFO] future-converter-common ............................ FAILURE [  0.056 s]
+[INFO] future-converter-common-test ....................... SKIPPED
+[INFO] future-converter-java8-common ...................... SKIPPED
+[INFO] future-converter-guava-common ...................... SKIPPED
+[INFO] future-converter-java8-guava ....................... SKIPPED
+[INFO] future-converter-apifuture-common .................. SKIPPED
+[INFO] future-converter-java8-apifuture ................... SKIPPED
+[INFO] future-converter-rxjava-common ..................... SKIPPED
+[INFO] future-converter-rxjava-java8 ...................... SKIPPED
+[INFO] future-converter-rxjava2-common .................... SKIPPED
+[INFO] future-converter-rxjava2-java8 ..................... SKIPPED
+[INFO] future-converter-guava-rxjava ...................... SKIPPED
+[INFO] future-converter-guava-rxjava2 ..................... SKIPPED
+[INFO] future-converter-spring-common ..................... SKIPPED
+[INFO] future-converter-spring-rxjava ..................... SKIPPED
+[INFO] future-converter-spring-rxjava2 .................... SKIPPED
+[INFO] future-converter-spring-guava ...................... SKIPPED
+[INFO] future-converter-spring-java8 ...................... SKIPPED
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.617 s
+[INFO] Finished at: 2023-09-11T16:51:49+02:00
+[INFO] ------------------------------------------------------------------------
+[WARNING] 
+[WARNING] Plugin validation issues were detected in 4 plugin(s)
+[WARNING] 
+[WARNING]  * org.apache.maven.plugins:maven-site-plugin:3.12.1
+[WARNING]  * org.apache.maven.plugins:maven-dependency-plugin:2.8
+[WARNING]  * org.apache.maven.plugins:maven-enforcer-plugin:1.2
+[WARNING]  * com.mycila:license-maven-plugin:4.1
+[WARNING] 
+[WARNING] For more or less details, use 'maven.plugin.validation' property with one of the values (case insensitive): [BRIEF, DEFAULT, VERBOSE]
+[WARNING] 
+[ERROR] Failed to execute goal com.mycila:license-maven-plugin:4.1:format (update-license) on project future-converter-common: Execution update-license of goal com.mycila:license-maven-plugin:4.1:format failed: Cannot read header document header.txt. Cause: Resource header.txt not found in file system, classpath or URL: no protocol: header.txt -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/PluginExecutionException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <args> -rf :future-converter-common

@@ -1,0 +1,758 @@
+[INFO] Scanning for projects...
+[WARNING] The project org.quickfixj:quickfixj-parent:pom:3.0.0-SNAPSHOT uses prerequisites which is only intended for maven-plugin projects but not for non maven-plugin projects. For such purposes you should use the maven-enforcer-plugin. See https://maven.apache.org/enforcer/enforcer-rules/requireMavenVersion.html
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] QuickFIX/J Parent                                                  [pom]
+[INFO] QuickFIX/J Code Generator Maven Plugin                    [maven-plugin]
+[INFO] QuickFIX/J Dictionary Generator                                 [bundle]
+[INFO] QuickFIX/J Core engine                                          [bundle]
+[INFO] QuickFIX/J Message classes for various FIX specs                   [pom]
+[INFO] QuickFIX/J Message classes for FIX 4.0                             [jar]
+[INFO] QuickFIX/J Message classes for FIX 4.1                             [jar]
+[INFO] QuickFIX/J Message classes for FIX 4.2                             [jar]
+[INFO] QuickFIX/J Message classes for FIX 4.3                             [jar]
+[INFO] QuickFIX/J Message classes for FIX 4.4                             [jar]
+[INFO] QuickFIX/J Message classes for FIX 5.0                             [jar]
+[INFO] QuickFIX/J Message classes for FIX 5.0 SP1                         [jar]
+[INFO] QuickFIX/J Message classes for FIX 5.0 SP2                         [jar]
+[INFO] QuickFIX/J Message classes for FIXT 1.1                            [jar]
+[INFO] QuickFIX/J Message classes for all FIX specs                       [jar]
+[INFO] QuickFIX/J Examples                                                [pom]
+[INFO] QuickFIX/J Examples - Executor                                  [bundle]
+[INFO] QuickFIX/J Examples - Order Match                               [bundle]
+[INFO] QuickFIX/J Examples - Banzai                                    [bundle]
+[INFO] QuickFIX/J All runtime modules                                  [bundle]
+[INFO] QuickFIX/J Distribution                                            [pom]
+[INFO] 
+[INFO] -------------------< org.quickfixj:quickfixj-parent >-------------------
+[INFO] Building QuickFIX/J Parent 3.0.0-SNAPSHOT                         [1/21]
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- dependency:2.8:tree (default-cli) @ quickfixj-parent ---
+[INFO] org.quickfixj:quickfixj-parent:pom:3.0.0-SNAPSHOT
+[INFO] 
+[INFO] ---------------< org.quickfixj:quickfixj-codegenerator >----------------
+[INFO] Building QuickFIX/J Code Generator Maven Plugin 3.0.0-SNAPSHOT    [2/21]
+[INFO]   from quickfixj-codegenerator\pom.xml
+[INFO] ----------------------------[ maven-plugin ]----------------------------
+[INFO] 
+[INFO] --- resources:3.1.0:resources (default-resources) @ quickfixj-codegenerator ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 7 resources
+[INFO] 
+[INFO] --- compiler:3.8.0:compile (default-compile) @ quickfixj-codegenerator ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 4 source files to C:\Users\Yogya\Documents\KTH\BreakingUpdates\breaking-updates\tempProject\00a7cc31784ac4a9cc27d506a73ae589d6df36d6-breaking\quickfixj\quickfixj-codegenerator\target\classes
+[INFO] 
+[INFO] --- dependency:2.8:tree (default-cli) @ quickfixj-codegenerator ---
+[INFO] org.quickfixj:quickfixj-codegenerator:maven-plugin:3.0.0-SNAPSHOT
+[INFO] +- org.apache.maven:maven-plugin-api:jar:3.8.3:compile
+[INFO] |  +- org.apache.maven:maven-model:jar:3.8.3:compile
+[INFO] |  +- org.apache.maven:maven-artifact:jar:3.8.3:compile
+[INFO] |  |  \- org.apache.commons:commons-lang3:jar:3.8.1:compile
+[INFO] |  +- org.eclipse.sisu:org.eclipse.sisu.plexus:jar:0.3.5:compile
+[INFO] |  |  +- javax.annotation:javax.annotation-api:jar:1.2:compile
+[INFO] |  |  +- org.eclipse.sisu:org.eclipse.sisu.inject:jar:0.3.5:compile
+[INFO] |  |  \- org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:compile
+[INFO] |  +- org.codehaus.plexus:plexus-utils:jar:3.3.0:compile
+[INFO] |  \- org.codehaus.plexus:plexus-classworlds:jar:2.6.0:compile
+[INFO] +- org.apache.maven:maven-project:jar:2.2.1:compile
+[INFO] |  +- org.apache.maven:maven-settings:jar:2.2.1:compile
+[INFO] |  +- org.apache.maven:maven-profile:jar:2.2.1:compile
+[INFO] |  +- org.apache.maven:maven-artifact-manager:jar:2.2.1:compile
+[INFO] |  |  +- org.apache.maven:maven-repository-metadata:jar:2.2.1:compile
+[INFO] |  |  +- org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-6:compile
+[INFO] |  |  \- backport-util-concurrent:backport-util-concurrent:jar:3.1:compile
+[INFO] |  +- org.apache.maven:maven-plugin-registry:jar:2.2.1:compile
+[INFO] |  +- org.codehaus.plexus:plexus-interpolation:jar:1.11:compile
+[INFO] |  \- org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[INFO] |     +- junit:junit:jar:3.8.1:compile
+[INFO] |     \- classworlds:classworlds:jar:1.1-alpha-2:compile
+[INFO] \- net.sf.saxon:Saxon-HE:jar:9.9.1-8:compile
+[INFO] 
+[INFO] ---------------< org.quickfixj:quickfixj-dictgenerator >----------------
+[INFO] Building QuickFIX/J Dictionary Generator 3.0.0-SNAPSHOT           [3/21]
+[INFO]   from quickfixj-dictgenerator\pom.xml
+[INFO] -------------------------------[ bundle ]-------------------------------
+[INFO] 
+[INFO] --- resources:3.1.0:resources (default-resources) @ quickfixj-dictgenerator ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\Yogya\Documents\KTH\BreakingUpdates\breaking-updates\tempProject\00a7cc31784ac4a9cc27d506a73ae589d6df36d6-breaking\quickfixj\quickfixj-dictgenerator\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.8.0:compile (default-compile) @ quickfixj-dictgenerator ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 11 source files to C:\Users\Yogya\Documents\KTH\BreakingUpdates\breaking-updates\tempProject\00a7cc31784ac4a9cc27d506a73ae589d6df36d6-breaking\quickfixj\quickfixj-dictgenerator\target\classes
+[INFO] 
+[INFO] --- dependency:2.8:tree (default-cli) @ quickfixj-dictgenerator ---
+[INFO] org.quickfixj:quickfixj-dictgenerator:bundle:3.0.0-SNAPSHOT
+[INFO] +- org.dom4j:dom4j:jar:2.1.3:compile
+[INFO] \- jaxen:jaxen:jar:1.2.0:runtime
+[INFO] 
+[INFO] --------------------< org.quickfixj:quickfixj-core >--------------------
+[INFO] Building QuickFIX/J Core engine 3.0.0-SNAPSHOT                    [4/21]
+[INFO]   from quickfixj-core\pom.xml
+[INFO] -------------------------------[ bundle ]-------------------------------
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/mina/mina-core/2.1.5/mina-core-2.1.5.pom
+Progress (1): 1.4/6.3 kB
+Progress (1): 2.7/6.3 kB
+Progress (1): 4.1/6.3 kB
+Progress (1): 5.5/6.3 kB
+Progress (1): 6.3 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/mina/mina-core/2.1.5/mina-core-2.1.5.pom (6.3 kB at 9.3 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/mina/mina-parent/2.1.5/mina-parent-2.1.5.pom
+Progress (1): 1.4/31 kB
+Progress (1): 2.7/31 kB
+Progress (1): 4.1/31 kB
+Progress (1): 5.5/31 kB
+Progress (1): 6.9/31 kB
+Progress (1): 8.2/31 kB
+Progress (1): 9.6/31 kB
+Progress (1): 11/31 kB 
+Progress (1): 12/31 kB
+Progress (1): 14/31 kB
+Progress (1): 15/31 kB
+Progress (1): 16/31 kB
+Progress (1): 17/31 kB
+Progress (1): 19/31 kB
+Progress (1): 20/31 kB
+Progress (1): 21/31 kB
+Progress (1): 23/31 kB
+Progress (1): 24/31 kB
+Progress (1): 25/31 kB
+Progress (1): 27/31 kB
+Progress (1): 28/31 kB
+Progress (1): 30/31 kB
+Progress (1): 31/31 kB
+Progress (1): 31 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/mina/mina-parent/2.1.5/mina-parent-2.1.5.pom (31 kB at 532 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/mina/mina-core/2.1.5/mina-core-2.1.5.jar
+Progress (1): 16/669 kB
+Progress (1): 33/669 kB
+Progress (1): 49/669 kB
+Progress (1): 66/669 kB
+Progress (1): 82/669 kB
+Progress (1): 98/669 kB
+Progress (1): 115/669 kB
+Progress (1): 131/669 kB
+Progress (1): 147/669 kB
+Progress (1): 164/669 kB
+Progress (1): 180/669 kB
+Progress (1): 197/669 kB
+Progress (1): 213/669 kB
+Progress (1): 229/669 kB
+Progress (1): 246/669 kB
+Progress (1): 262/669 kB
+Progress (1): 279/669 kB
+Progress (1): 295/669 kB
+Progress (1): 311/669 kB
+Progress (1): 328/669 kB
+Progress (1): 344/669 kB
+Progress (1): 360/669 kB
+Progress (1): 377/669 kB
+Progress (1): 393/669 kB
+Progress (1): 410/669 kB
+Progress (1): 426/669 kB
+Progress (1): 442/669 kB
+Progress (1): 459/669 kB
+Progress (1): 475/669 kB
+Progress (1): 492/669 kB
+Progress (1): 508/669 kB
+Progress (1): 524/669 kB
+Progress (1): 541/669 kB
+Progress (1): 557/669 kB
+Progress (1): 573/669 kB
+Progress (1): 590/669 kB
+Progress (1): 606/669 kB
+Progress (1): 623/669 kB
+Progress (1): 639/669 kB
+Progress (1): 655/669 kB
+Progress (1): 669 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/mina/mina-core/2.1.5/mina-core-2.1.5.jar (669 kB at 6.2 MB/s)
+[INFO] 
+[INFO] --- quickfixj-codegenerator:3.0.0-SNAPSHOT:generate (fixt11) @ quickfixj-core ---
+[INFO] Successfully created an instance of the QuickFIX source generator
+[INFO] Initialising code generator task
+[INFO] Processing C:\Users\Yogya\Documents\KTH\BreakingUpdates\breaking-updates\tempProject\00a7cc31784ac4a9cc27d506a73ae589d6df36d6-breaking\quickfixj\quickfixj-messages\quickfixj-messages-fixt11\src\main\resources\FIXT11.xml
+[INFO] FIXT11.xml: generating field classes in C:\Users\Yogya\Documents\KTH\BreakingUpdates\breaking-updates\tempProject\00a7cc31784ac4a9cc27d506a73ae589d6df36d6-breaking\quickfixj\quickfixj-core\target\generated-sources/quickfix/field/
+[INFO] Loading predefined xslt file:Fields.xsl
+[INFO] FIXT11.xml: generating message base class
+[INFO] Loading predefined xslt file:Message.xsl
+[INFO] Loading predefined xslt file:MessageFactory.xsl
+[INFO] Loading predefined xslt file:MessageCracker.xsl
+[INFO] FIXT11.xml: generating component classes
+[INFO] Loading predefined xslt file:MessageSubclass.xsl
+[INFO] FIXT11.xml: generating message subclasses
+[INFO] Loading predefined xslt file:MessageSubclass.xsl
+[INFO] 
+[INFO] --- quickfixj-codegenerator:3.0.0-SNAPSHOT:generate (fix50sp2) @ quickfixj-core ---
+[INFO] Successfully created an instance of the QuickFIX source generator
+[INFO] Initialising code generator task
+[INFO] Processing C:\Users\Yogya\Documents\KTH\BreakingUpdates\breaking-updates\tempProject\00a7cc31784ac4a9cc27d506a73ae589d6df36d6-breaking\quickfixj\quickfixj-messages\quickfixj-messages-fix50sp2\src\main\resources\FIX50SP2.modified.xml
+[INFO] FIX50SP2.modified.xml: generating field classes in C:\Users\Yogya\Documents\KTH\BreakingUpdates\breaking-updates\tempProject\00a7cc31784ac4a9cc27d506a73ae589d6df36d6-breaking\quickfixj\quickfixj-core\target\generated-sources/quickfix/field/
+[INFO] Loading predefined xslt file:Fields.xsl
+[INFO] FIX50SP2.modified.xml: generating message base class
+[INFO] Loading predefined xslt file:Message.xsl
+[INFO] Loading predefined xslt file:MessageFactory.xsl
+[INFO] Loading predefined xslt file:MessageCracker.xsl
+[INFO] FIX50SP2.modified.xml: generating component classes
+[INFO] Loading predefined xslt file:MessageSubclass.xsl
+[INFO] FIX50SP2.modified.xml: generating message subclasses
+[INFO] Loading predefined xslt file:MessageSubclass.xsl
+[INFO] 
+[INFO] --- quickfixj-codegenerator:3.0.0-SNAPSHOT:generate (fix50sp1) @ quickfixj-core ---
+[INFO] Successfully created an instance of the QuickFIX source generator
+[INFO] Initialising code generator task
+[INFO] Processing C:\Users\Yogya\Documents\KTH\BreakingUpdates\breaking-updates\tempProject\00a7cc31784ac4a9cc27d506a73ae589d6df36d6-breaking\quickfixj\quickfixj-messages\quickfixj-messages-fix50sp1\src\main\resources\FIX50SP1.modified.xml
+[INFO] FIX50SP1.modified.xml: generating field classes in C:\Users\Yogya\Documents\KTH\BreakingUpdates\breaking-updates\tempProject\00a7cc31784ac4a9cc27d506a73ae589d6df36d6-breaking\quickfixj\quickfixj-core\target\generated-sources/quickfix/field/
+[INFO] Loading predefined xslt file:Fields.xsl
+[INFO] FIX50SP1.modified.xml: generating message base class
+[INFO] Loading predefined xslt file:Message.xsl
+[INFO] Loading predefined xslt file:MessageFactory.xsl
+[INFO] Loading predefined xslt file:MessageCracker.xsl
+[INFO] FIX50SP1.modified.xml: generating component classes
+[INFO] Loading predefined xslt file:MessageSubclass.xsl
+[INFO] FIX50SP1.modified.xml: generating message subclasses
+[INFO] Loading predefined xslt file:MessageSubclass.xsl
+[INFO] 
+[INFO] --- quickfixj-codegenerator:3.0.0-SNAPSHOT:generate (fix50) @ quickfixj-core ---
+[INFO] Successfully created an instance of the QuickFIX source generator
+[INFO] Initialising code generator task
+[INFO] Processing C:\Users\Yogya\Documents\KTH\BreakingUpdates\breaking-updates\tempProject\00a7cc31784ac4a9cc27d506a73ae589d6df36d6-breaking\quickfixj\quickfixj-messages\quickfixj-messages-fix50\src\main\resources\FIX50.xml
+[INFO] FIX50.xml: generating field classes in C:\Users\Yogya\Documents\KTH\BreakingUpdates\breaking-updates\tempProject\00a7cc31784ac4a9cc27d506a73ae589d6df36d6-breaking\quickfixj\quickfixj-core\target\generated-sources/quickfix/field/
+[INFO] Loading predefined xslt file:Fields.xsl
+[INFO] FIX50.xml: generating message base class
+[INFO] Loading predefined xslt file:Message.xsl
+[INFO] Loading predefined xslt file:MessageFactory.xsl
+[INFO] Loading predefined xslt file:MessageCracker.xsl
+[INFO] FIX50.xml: generating component classes
+[INFO] Loading predefined xslt file:MessageSubclass.xsl
+[INFO] FIX50.xml: generating message subclasses
+[INFO] Loading predefined xslt file:MessageSubclass.xsl
+[INFO] 
+[INFO] --- quickfixj-codegenerator:3.0.0-SNAPSHOT:generate (fix44) @ quickfixj-core ---
+[INFO] Successfully created an instance of the QuickFIX source generator
+[INFO] Initialising code generator task
+[INFO] Processing C:\Users\Yogya\Documents\KTH\BreakingUpdates\breaking-updates\tempProject\00a7cc31784ac4a9cc27d506a73ae589d6df36d6-breaking\quickfixj\quickfixj-messages\quickfixj-messages-fix44\src\main\resources\FIX44.modified.xml
+[INFO] FIX44.modified.xml: generating field classes in C:\Users\Yogya\Documents\KTH\BreakingUpdates\breaking-updates\tempProject\00a7cc31784ac4a9cc27d506a73ae589d6df36d6-breaking\quickfixj\quickfixj-core\target\generated-sources/quickfix/field/
+[INFO] Loading predefined xslt file:Fields.xsl
+[INFO] FIX44.modified.xml: generating message base class
+[INFO] Loading predefined xslt file:Message.xsl
+[INFO] Loading predefined xslt file:MessageFactory.xsl
+[INFO] Loading predefined xslt file:MessageCracker.xsl
+[INFO] FIX44.modified.xml: generating component classes
+[INFO] Loading predefined xslt file:MessageSubclass.xsl
+[INFO] FIX44.modified.xml: generating message subclasses
+[INFO] Loading predefined xslt file:MessageSubclass.xsl
+[INFO] 
+[INFO] --- quickfixj-codegenerator:3.0.0-SNAPSHOT:generate (fix43) @ quickfixj-core ---
+[INFO] Successfully created an instance of the QuickFIX source generator
+[INFO] Initialising code generator task
+[INFO] Processing C:\Users\Yogya\Documents\KTH\BreakingUpdates\breaking-updates\tempProject\00a7cc31784ac4a9cc27d506a73ae589d6df36d6-breaking\quickfixj\quickfixj-messages\quickfixj-messages-fix43\src\main\resources\FIX43.xml
+[INFO] FIX43.xml: generating field classes in C:\Users\Yogya\Documents\KTH\BreakingUpdates\breaking-updates\tempProject\00a7cc31784ac4a9cc27d506a73ae589d6df36d6-breaking\quickfixj\quickfixj-core\target\generated-sources/quickfix/field/
+[INFO] Loading predefined xslt file:Fields.xsl
+[INFO] FIX43.xml: generating message base class
+[INFO] Loading predefined xslt file:Message.xsl
+[INFO] Loading predefined xslt file:MessageFactory.xsl
+[INFO] Loading predefined xslt file:MessageCracker.xsl
+[INFO] FIX43.xml: generating component classes
+[INFO] Loading predefined xslt file:MessageSubclass.xsl
+[INFO] FIX43.xml: generating message subclasses
+[INFO] Loading predefined xslt file:MessageSubclass.xsl
+[INFO] 
+[INFO] --- quickfixj-codegenerator:3.0.0-SNAPSHOT:generate (fix42) @ quickfixj-core ---
+[INFO] Successfully created an instance of the QuickFIX source generator
+[INFO] Initialising code generator task
+[INFO] Processing C:\Users\Yogya\Documents\KTH\BreakingUpdates\breaking-updates\tempProject\00a7cc31784ac4a9cc27d506a73ae589d6df36d6-breaking\quickfixj\quickfixj-messages\quickfixj-messages-fix42\src\main\resources\FIX42.xml
+[INFO] FIX42.xml: generating field classes in C:\Users\Yogya\Documents\KTH\BreakingUpdates\breaking-updates\tempProject\00a7cc31784ac4a9cc27d506a73ae589d6df36d6-breaking\quickfixj\quickfixj-core\target\generated-sources/quickfix/field/
+[INFO] Loading predefined xslt file:Fields.xsl
+[INFO] FIX42.xml: generating message base class
+[INFO] Loading predefined xslt file:Message.xsl
+[INFO] Loading predefined xslt file:MessageFactory.xsl
+[INFO] Loading predefined xslt file:MessageCracker.xsl
+[INFO] FIX42.xml: generating component classes
+[INFO] Loading predefined xslt file:MessageSubclass.xsl
+[INFO] FIX42.xml: generating message subclasses
+[INFO] Loading predefined xslt file:MessageSubclass.xsl
+[INFO] 
+[INFO] --- quickfixj-codegenerator:3.0.0-SNAPSHOT:generate (fix41) @ quickfixj-core ---
+[INFO] Successfully created an instance of the QuickFIX source generator
+[INFO] Initialising code generator task
+[INFO] Processing C:\Users\Yogya\Documents\KTH\BreakingUpdates\breaking-updates\tempProject\00a7cc31784ac4a9cc27d506a73ae589d6df36d6-breaking\quickfixj\quickfixj-messages\quickfixj-messages-fix41\src\main\resources\FIX41.xml
+[INFO] FIX41.xml: generating field classes in C:\Users\Yogya\Documents\KTH\BreakingUpdates\breaking-updates\tempProject\00a7cc31784ac4a9cc27d506a73ae589d6df36d6-breaking\quickfixj\quickfixj-core\target\generated-sources/quickfix/field/
+[INFO] Loading predefined xslt file:Fields.xsl
+[INFO] FIX41.xml: generating message base class
+[INFO] Loading predefined xslt file:Message.xsl
+[INFO] Loading predefined xslt file:MessageFactory.xsl
+[INFO] Loading predefined xslt file:MessageCracker.xsl
+[INFO] FIX41.xml: generating component classes
+[INFO] Loading predefined xslt file:MessageSubclass.xsl
+[INFO] FIX41.xml: generating message subclasses
+[INFO] Loading predefined xslt file:MessageSubclass.xsl
+[INFO] 
+[INFO] --- quickfixj-codegenerator:3.0.0-SNAPSHOT:generate (fix40) @ quickfixj-core ---
+[INFO] Successfully created an instance of the QuickFIX source generator
+[INFO] Initialising code generator task
+[INFO] Processing C:\Users\Yogya\Documents\KTH\BreakingUpdates\breaking-updates\tempProject\00a7cc31784ac4a9cc27d506a73ae589d6df36d6-breaking\quickfixj\quickfixj-messages\quickfixj-messages-fix40\src\main\resources\FIX40.xml
+[INFO] FIX40.xml: generating field classes in C:\Users\Yogya\Documents\KTH\BreakingUpdates\breaking-updates\tempProject\00a7cc31784ac4a9cc27d506a73ae589d6df36d6-breaking\quickfixj\quickfixj-core\target\generated-sources/quickfix/field/
+[INFO] Loading predefined xslt file:Fields.xsl
+[INFO] FIX40.xml: generating message base class
+[INFO] Loading predefined xslt file:Message.xsl
+[INFO] Loading predefined xslt file:MessageFactory.xsl
+[INFO] Loading predefined xslt file:MessageCracker.xsl
+[INFO] FIX40.xml: generating component classes
+[INFO] Loading predefined xslt file:MessageSubclass.xsl
+[INFO] FIX40.xml: generating message subclasses
+[INFO] Loading predefined xslt file:MessageSubclass.xsl
+[INFO] 
+[INFO] --- resources:3.1.0:resources (default-resources) @ quickfixj-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 2 resources
+[INFO] Copying 2 resources
+[INFO] Copying 1 resource
+[INFO] Copying 2 resources
+[INFO] Copying 1 resource
+[INFO] Copying 1 resource
+[INFO] Copying 1 resource
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- compiler:3.8.0:compile (default-compile) @ quickfixj-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2802 source files to C:\Users\Yogya\Documents\KTH\BreakingUpdates\breaking-updates\tempProject\00a7cc31784ac4a9cc27d506a73ae589d6df36d6-breaking\quickfixj\quickfixj-core\target\classes
+[INFO] /C:/Users/Yogya/Documents/KTH/BreakingUpdates/breaking-updates/tempProject/00a7cc31784ac4a9cc27d506a73ae589d6df36d6-breaking/quickfixj/quickfixj-core/src/main/java/quickfix/ApplicationFunctionalAdapter.java: Some input files use unchecked or unsafe operations.
+[INFO] /C:/Users/Yogya/Documents/KTH/BreakingUpdates/breaking-updates/tempProject/00a7cc31784ac4a9cc27d506a73ae589d6df36d6-breaking/quickfixj/quickfixj-core/src/main/java/quickfix/ApplicationFunctionalAdapter.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- dependency:2.8:tree (default-cli) @ quickfixj-core ---
+[INFO] org.quickfixj:quickfixj-core:bundle:3.0.0-SNAPSHOT
+[INFO] +- junit:junit:jar:4.13.1:test
+[INFO] |  \- org.hamcrest:hamcrest-core:jar:1.3:test
+[INFO] +- org.mockito:mockito-core:jar:3.12.4:test
+[INFO] |  +- net.bytebuddy:byte-buddy:jar:1.11.13:test
+[INFO] |  +- net.bytebuddy:byte-buddy-agent:jar:1.11.13:test
+[INFO] |  \- org.objenesis:objenesis:jar:3.2:test
+[INFO] +- org.hamcrest:hamcrest-all:jar:1.1:test
+[INFO] +- hsqldb:hsqldb:jar:1.8.0.10:test
+[INFO] +- tyrex:tyrex:jar:1.0.1:test
+[INFO] +- org.slf4j:slf4j-jdk14:jar:1.7.32:test
+[INFO] +- org.apache.mina:mina-core:jar:2.1.5:compile
+[INFO] +- org.slf4j:slf4j-api:jar:1.7.32:compile
+[INFO] +- com.cloudhopper.proxool:proxool:jar:0.9.1:compile
+[INFO] +- com.cloudhopper.proxool:proxool-cglib:jar:0.9.1:compile
+[INFO] +- org.slf4j:jcl-over-slf4j:jar:1.7.32:runtime
+[INFO] \- com.sleepycat:je:jar:18.3.12:compile
+[INFO] 
+[INFO] ------------------< org.quickfixj:quickfixj-messages >------------------
+[INFO] Building QuickFIX/J Message classes for various FIX specs 3.0.0-SNAPSHOT [5/21]
+[INFO]   from quickfixj-messages\pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- dependency:2.8:tree (default-cli) @ quickfixj-messages ---
+[INFO] org.quickfixj:quickfixj-messages:pom:3.0.0-SNAPSHOT
+[INFO] 
+[INFO] ---------------< org.quickfixj:quickfixj-messages-fix40 >---------------
+[INFO] Building QuickFIX/J Message classes for FIX 4.0 3.0.0-SNAPSHOT    [6/21]
+[INFO]   from quickfixj-messages\quickfixj-messages-fix40\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.1.0:resources (default-resources) @ quickfixj-messages-fix40 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- compiler:3.8.0:compile (default-compile) @ quickfixj-messages-fix40 ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- dependency:2.8:tree (default-cli) @ quickfixj-messages-fix40 ---
+[INFO] org.quickfixj:quickfixj-messages-fix40:jar:3.0.0-SNAPSHOT
+[INFO] \- org.quickfixj:quickfixj-core:jar:3.0.0-SNAPSHOT:compile
+[INFO]    +- org.apache.mina:mina-core:jar:2.1.5:compile
+[INFO]    \- org.slf4j:slf4j-api:jar:1.7.32:compile
+[INFO] 
+[INFO] ---------------< org.quickfixj:quickfixj-messages-fix41 >---------------
+[INFO] Building QuickFIX/J Message classes for FIX 4.1 3.0.0-SNAPSHOT    [7/21]
+[INFO]   from quickfixj-messages\quickfixj-messages-fix41\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.1.0:resources (default-resources) @ quickfixj-messages-fix41 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- compiler:3.8.0:compile (default-compile) @ quickfixj-messages-fix41 ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- dependency:2.8:tree (default-cli) @ quickfixj-messages-fix41 ---
+[INFO] org.quickfixj:quickfixj-messages-fix41:jar:3.0.0-SNAPSHOT
+[INFO] \- org.quickfixj:quickfixj-core:jar:3.0.0-SNAPSHOT:compile
+[INFO]    +- org.apache.mina:mina-core:jar:2.1.5:compile
+[INFO]    \- org.slf4j:slf4j-api:jar:1.7.32:compile
+[INFO] 
+[INFO] ---------------< org.quickfixj:quickfixj-messages-fix42 >---------------
+[INFO] Building QuickFIX/J Message classes for FIX 4.2 3.0.0-SNAPSHOT    [8/21]
+[INFO]   from quickfixj-messages\quickfixj-messages-fix42\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.1.0:resources (default-resources) @ quickfixj-messages-fix42 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- compiler:3.8.0:compile (default-compile) @ quickfixj-messages-fix42 ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- dependency:2.8:tree (default-cli) @ quickfixj-messages-fix42 ---
+[INFO] org.quickfixj:quickfixj-messages-fix42:jar:3.0.0-SNAPSHOT
+[INFO] \- org.quickfixj:quickfixj-core:jar:3.0.0-SNAPSHOT:compile
+[INFO]    +- org.apache.mina:mina-core:jar:2.1.5:compile
+[INFO]    \- org.slf4j:slf4j-api:jar:1.7.32:compile
+[INFO] 
+[INFO] ---------------< org.quickfixj:quickfixj-messages-fix43 >---------------
+[INFO] Building QuickFIX/J Message classes for FIX 4.3 3.0.0-SNAPSHOT    [9/21]
+[INFO]   from quickfixj-messages\quickfixj-messages-fix43\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.1.0:resources (default-resources) @ quickfixj-messages-fix43 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- compiler:3.8.0:compile (default-compile) @ quickfixj-messages-fix43 ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- dependency:2.8:tree (default-cli) @ quickfixj-messages-fix43 ---
+[INFO] org.quickfixj:quickfixj-messages-fix43:jar:3.0.0-SNAPSHOT
+[INFO] \- org.quickfixj:quickfixj-core:jar:3.0.0-SNAPSHOT:compile
+[INFO]    +- org.apache.mina:mina-core:jar:2.1.5:compile
+[INFO]    \- org.slf4j:slf4j-api:jar:1.7.32:compile
+[INFO] 
+[INFO] ---------------< org.quickfixj:quickfixj-messages-fix44 >---------------
+[INFO] Building QuickFIX/J Message classes for FIX 4.4 3.0.0-SNAPSHOT   [10/21]
+[INFO]   from quickfixj-messages\quickfixj-messages-fix44\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.1.0:resources (default-resources) @ quickfixj-messages-fix44 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- compiler:3.8.0:compile (default-compile) @ quickfixj-messages-fix44 ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- dependency:2.8:tree (default-cli) @ quickfixj-messages-fix44 ---
+[INFO] org.quickfixj:quickfixj-messages-fix44:jar:3.0.0-SNAPSHOT
+[INFO] \- org.quickfixj:quickfixj-core:jar:3.0.0-SNAPSHOT:compile
+[INFO]    +- org.apache.mina:mina-core:jar:2.1.5:compile
+[INFO]    \- org.slf4j:slf4j-api:jar:1.7.32:compile
+[INFO] 
+[INFO] ---------------< org.quickfixj:quickfixj-messages-fix50 >---------------
+[INFO] Building QuickFIX/J Message classes for FIX 5.0 3.0.0-SNAPSHOT   [11/21]
+[INFO]   from quickfixj-messages\quickfixj-messages-fix50\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.1.0:resources (default-resources) @ quickfixj-messages-fix50 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- compiler:3.8.0:compile (default-compile) @ quickfixj-messages-fix50 ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- dependency:2.8:tree (default-cli) @ quickfixj-messages-fix50 ---
+[INFO] org.quickfixj:quickfixj-messages-fix50:jar:3.0.0-SNAPSHOT
+[INFO] \- org.quickfixj:quickfixj-core:jar:3.0.0-SNAPSHOT:compile
+[INFO]    +- org.apache.mina:mina-core:jar:2.1.5:compile
+[INFO]    \- org.slf4j:slf4j-api:jar:1.7.32:compile
+[INFO] 
+[INFO] -------------< org.quickfixj:quickfixj-messages-fix50sp1 >--------------
+[INFO] Building QuickFIX/J Message classes for FIX 5.0 SP1 3.0.0-SNAPSHOT [12/21]
+[INFO]   from quickfixj-messages\quickfixj-messages-fix50sp1\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.1.0:resources (default-resources) @ quickfixj-messages-fix50sp1 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- compiler:3.8.0:compile (default-compile) @ quickfixj-messages-fix50sp1 ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- dependency:2.8:tree (default-cli) @ quickfixj-messages-fix50sp1 ---
+[INFO] org.quickfixj:quickfixj-messages-fix50sp1:jar:3.0.0-SNAPSHOT
+[INFO] \- org.quickfixj:quickfixj-core:jar:3.0.0-SNAPSHOT:compile
+[INFO]    +- org.apache.mina:mina-core:jar:2.1.5:compile
+[INFO]    \- org.slf4j:slf4j-api:jar:1.7.32:compile
+[INFO] 
+[INFO] -------------< org.quickfixj:quickfixj-messages-fix50sp2 >--------------
+[INFO] Building QuickFIX/J Message classes for FIX 5.0 SP2 3.0.0-SNAPSHOT [13/21]
+[INFO]   from quickfixj-messages\quickfixj-messages-fix50sp2\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.1.0:resources (default-resources) @ quickfixj-messages-fix50sp2 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- compiler:3.8.0:compile (default-compile) @ quickfixj-messages-fix50sp2 ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- dependency:2.8:tree (default-cli) @ quickfixj-messages-fix50sp2 ---
+[INFO] org.quickfixj:quickfixj-messages-fix50sp2:jar:3.0.0-SNAPSHOT
+[INFO] \- org.quickfixj:quickfixj-core:jar:3.0.0-SNAPSHOT:compile
+[INFO]    +- org.apache.mina:mina-core:jar:2.1.5:compile
+[INFO]    \- org.slf4j:slf4j-api:jar:1.7.32:compile
+[INFO] 
+[INFO] --------------< org.quickfixj:quickfixj-messages-fixt11 >---------------
+[INFO] Building QuickFIX/J Message classes for FIXT 1.1 3.0.0-SNAPSHOT  [14/21]
+[INFO]   from quickfixj-messages\quickfixj-messages-fixt11\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.1.0:resources (default-resources) @ quickfixj-messages-fixt11 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- compiler:3.8.0:compile (default-compile) @ quickfixj-messages-fixt11 ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- dependency:2.8:tree (default-cli) @ quickfixj-messages-fixt11 ---
+[INFO] org.quickfixj:quickfixj-messages-fixt11:jar:3.0.0-SNAPSHOT
+[INFO] \- org.quickfixj:quickfixj-core:jar:3.0.0-SNAPSHOT:compile
+[INFO]    +- org.apache.mina:mina-core:jar:2.1.5:compile
+[INFO]    \- org.slf4j:slf4j-api:jar:1.7.32:compile
+[INFO] 
+[INFO] ----------------< org.quickfixj:quickfixj-messages-all >----------------
+[INFO] Building QuickFIX/J Message classes for all FIX specs 3.0.0-SNAPSHOT [15/21]
+[INFO]   from quickfixj-messages\quickfixj-messages-all\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.1.0:resources (default-resources) @ quickfixj-messages-all ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 1 resource
+[INFO] Copying 2 resources
+[INFO] Copying 1 resource
+[INFO] Copying 1 resource
+[INFO] Copying 1 resource
+[INFO] Copying 1 resource
+[INFO] Copying 2 resources
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- compiler:3.8.0:compile (default-compile) @ quickfixj-messages-all ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- dependency:2.8:tree (default-cli) @ quickfixj-messages-all ---
+[INFO] org.quickfixj:quickfixj-messages-all:jar:3.0.0-SNAPSHOT
+[INFO] \- org.quickfixj:quickfixj-core:jar:3.0.0-SNAPSHOT:compile
+[INFO]    +- org.apache.mina:mina-core:jar:2.1.5:compile
+[INFO]    \- org.slf4j:slf4j-api:jar:1.7.32:compile
+[INFO] 
+[INFO] ------------------< org.quickfixj:quickfixj-examples >------------------
+[INFO] Building QuickFIX/J Examples 3.0.0-SNAPSHOT                      [16/21]
+[INFO]   from quickfixj-examples\pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- dependency:2.8:tree (default-cli) @ quickfixj-examples ---
+[INFO] org.quickfixj:quickfixj-examples:pom:3.0.0-SNAPSHOT
+[INFO] +- org.quickfixj:quickfixj-core:jar:3.0.0-SNAPSHOT:compile
+[INFO] |  \- org.apache.mina:mina-core:jar:2.1.5:compile
+[INFO] +- org.quickfixj:quickfixj-messages-all:jar:3.0.0-SNAPSHOT:compile
+[INFO] +- org.slf4j:slf4j-api:jar:1.7.32:compile
+[INFO] \- org.slf4j:slf4j-jdk14:jar:1.7.32:runtime
+[INFO] 
+[INFO] -------------< org.quickfixj:quickfixj-examples-executor >--------------
+[INFO] Building QuickFIX/J Examples - Executor 3.0.0-SNAPSHOT           [17/21]
+[INFO]   from quickfixj-examples\executor\pom.xml
+[INFO] -------------------------------[ bundle ]-------------------------------
+[INFO] 
+[INFO] --- resources:3.1.0:resources (default-resources) @ quickfixj-examples-executor ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- compiler:3.8.0:compile (default-compile) @ quickfixj-examples-executor ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to C:\Users\Yogya\Documents\KTH\BreakingUpdates\breaking-updates\tempProject\00a7cc31784ac4a9cc27d506a73ae589d6df36d6-breaking\quickfixj\quickfixj-examples\executor\target\classes
+[INFO] 
+[INFO] --- dependency:2.8:tree (default-cli) @ quickfixj-examples-executor ---
+[INFO] org.quickfixj:quickfixj-examples-executor:bundle:3.0.0-SNAPSHOT
+[INFO] +- org.quickfixj:quickfixj-core:jar:3.0.0-SNAPSHOT:compile
+[INFO] |  \- org.apache.mina:mina-core:jar:2.1.5:compile
+[INFO] +- org.quickfixj:quickfixj-messages-all:jar:3.0.0-SNAPSHOT:compile
+[INFO] +- org.slf4j:slf4j-api:jar:1.7.32:compile
+[INFO] \- org.slf4j:slf4j-jdk14:jar:1.7.32:runtime
+[INFO] 
+[INFO] ------------< org.quickfixj:quickfixj-examples-ordermatch >-------------
+[INFO] Building QuickFIX/J Examples - Order Match 3.0.0-SNAPSHOT        [18/21]
+[INFO]   from quickfixj-examples\ordermatch\pom.xml
+[INFO] -------------------------------[ bundle ]-------------------------------
+[INFO] 
+[INFO] --- resources:3.1.0:resources (default-resources) @ quickfixj-examples-ordermatch ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- compiler:3.8.0:compile (default-compile) @ quickfixj-examples-ordermatch ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 6 source files to C:\Users\Yogya\Documents\KTH\BreakingUpdates\breaking-updates\tempProject\00a7cc31784ac4a9cc27d506a73ae589d6df36d6-breaking\quickfixj\quickfixj-examples\ordermatch\target\classes
+[INFO] 
+[INFO] --- dependency:2.8:tree (default-cli) @ quickfixj-examples-ordermatch ---
+[INFO] org.quickfixj:quickfixj-examples-ordermatch:bundle:3.0.0-SNAPSHOT
+[INFO] +- org.quickfixj:quickfixj-core:jar:3.0.0-SNAPSHOT:compile
+[INFO] |  \- org.apache.mina:mina-core:jar:2.1.5:compile
+[INFO] +- org.quickfixj:quickfixj-messages-all:jar:3.0.0-SNAPSHOT:compile
+[INFO] +- org.slf4j:slf4j-api:jar:1.7.32:compile
+[INFO] \- org.slf4j:slf4j-jdk14:jar:1.7.32:runtime
+[INFO] 
+[INFO] --------------< org.quickfixj:quickfixj-examples-banzai >---------------
+[INFO] Building QuickFIX/J Examples - Banzai 3.0.0-SNAPSHOT             [19/21]
+[INFO]   from quickfixj-examples\banzai\pom.xml
+[INFO] -------------------------------[ bundle ]-------------------------------
+[INFO] 
+[INFO] --- resources:3.1.0:resources (default-resources) @ quickfixj-examples-banzai ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- compiler:3.8.0:compile (default-compile) @ quickfixj-examples-banzai ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 21 source files to C:\Users\Yogya\Documents\KTH\BreakingUpdates\breaking-updates\tempProject\00a7cc31784ac4a9cc27d506a73ae589d6df36d6-breaking\quickfixj\quickfixj-examples\banzai\target\classes
+[INFO] 
+[INFO] --- dependency:2.8:tree (default-cli) @ quickfixj-examples-banzai ---
+[INFO] org.quickfixj:quickfixj-examples-banzai:bundle:3.0.0-SNAPSHOT
+[INFO] +- org.quickfixj:quickfixj-core:jar:3.0.0-SNAPSHOT:compile
+[INFO] |  \- org.apache.mina:mina-core:jar:2.1.5:compile
+[INFO] +- org.quickfixj:quickfixj-messages-all:jar:3.0.0-SNAPSHOT:compile
+[INFO] +- org.slf4j:slf4j-api:jar:1.7.32:compile
+[INFO] \- org.slf4j:slf4j-jdk14:jar:1.7.32:runtime
+[INFO] 
+[INFO] --------------------< org.quickfixj:quickfixj-all >---------------------
+[INFO] Building QuickFIX/J All runtime modules 3.0.0-SNAPSHOT           [20/21]
+[INFO]   from quickfixj-all\pom.xml
+[INFO] -------------------------------[ bundle ]-------------------------------
+[INFO] 
+[INFO] --- resources:3.1.0:resources (default-resources) @ quickfixj-all ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\Yogya\Documents\KTH\BreakingUpdates\breaking-updates\tempProject\00a7cc31784ac4a9cc27d506a73ae589d6df36d6-breaking\quickfixj\quickfixj-all\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.8.0:compile (default-compile) @ quickfixj-all ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- dependency:2.8:tree (default-cli) @ quickfixj-all ---
+[INFO] org.quickfixj:quickfixj-all:bundle:3.0.0-SNAPSHOT
+[INFO] +- org.quickfixj:quickfixj-core:jar:3.0.0-SNAPSHOT:compile
+[INFO] |  +- org.apache.mina:mina-core:jar:2.1.5:compile
+[INFO] |  \- org.slf4j:slf4j-api:jar:1.7.32:compile
+[INFO] +- org.quickfixj:quickfixj-messages-all:jar:3.0.0-SNAPSHOT:compile
+[INFO] +- org.quickfixj:quickfixj-codegenerator:jar:3.0.0-SNAPSHOT:compile
+[INFO] |  +- org.apache.maven:maven-plugin-api:jar:3.8.3:compile
+[INFO] |  |  +- org.apache.maven:maven-model:jar:3.8.3:compile
+[INFO] |  |  +- org.apache.maven:maven-artifact:jar:3.8.3:compile
+[INFO] |  |  |  \- org.apache.commons:commons-lang3:jar:3.8.1:compile
+[INFO] |  |  +- org.eclipse.sisu:org.eclipse.sisu.plexus:jar:0.3.5:compile
+[INFO] |  |  |  +- javax.annotation:javax.annotation-api:jar:1.2:compile
+[INFO] |  |  |  +- org.eclipse.sisu:org.eclipse.sisu.inject:jar:0.3.5:compile
+[INFO] |  |  |  \- org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:compile
+[INFO] |  |  +- org.codehaus.plexus:plexus-utils:jar:3.3.0:compile
+[INFO] |  |  \- org.codehaus.plexus:plexus-classworlds:jar:2.6.0:compile
+[INFO] |  +- org.apache.maven:maven-project:jar:2.2.1:compile
+[INFO] |  |  +- org.apache.maven:maven-settings:jar:2.2.1:compile
+[INFO] |  |  +- org.apache.maven:maven-profile:jar:2.2.1:compile
+[INFO] |  |  +- org.apache.maven:maven-artifact-manager:jar:2.2.1:compile
+[INFO] |  |  |  +- org.apache.maven:maven-repository-metadata:jar:2.2.1:compile
+[INFO] |  |  |  +- org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-6:compile
+[INFO] |  |  |  \- backport-util-concurrent:backport-util-concurrent:jar:3.1:compile
+[INFO] |  |  +- org.apache.maven:maven-plugin-registry:jar:2.2.1:compile
+[INFO] |  |  +- org.codehaus.plexus:plexus-interpolation:jar:1.11:compile
+[INFO] |  |  \- org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[INFO] |  |     +- junit:junit:jar:3.8.1:compile
+[INFO] |  |     \- classworlds:classworlds:jar:1.1-alpha-2:compile
+[INFO] |  \- net.sf.saxon:Saxon-HE:jar:9.9.1-8:compile
+[INFO] \- org.quickfixj:quickfixj-dictgenerator:jar:3.0.0-SNAPSHOT:compile
+[INFO]    \- jaxen:jaxen:jar:1.2.0:runtime
+[INFO] 
+[INFO] ----------------< org.quickfixj:quickfixj-distribution >----------------
+[INFO] Building QuickFIX/J Distribution 3.0.0-SNAPSHOT                  [21/21]
+[INFO]   from quickfixj-distribution\pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- dependency:2.8:tree (default-cli) @ quickfixj-distribution ---
+[INFO] org.quickfixj:quickfixj-distribution:pom:3.0.0-SNAPSHOT
+[INFO] +- org.quickfixj:quickfixj-codegenerator:jar:3.0.0-SNAPSHOT:compile
+[INFO] |  +- org.apache.maven:maven-plugin-api:jar:3.8.3:compile
+[INFO] |  |  +- org.apache.maven:maven-model:jar:3.8.3:compile
+[INFO] |  |  +- org.apache.maven:maven-artifact:jar:3.8.3:compile
+[INFO] |  |  |  \- org.apache.commons:commons-lang3:jar:3.8.1:compile
+[INFO] |  |  +- org.eclipse.sisu:org.eclipse.sisu.plexus:jar:0.3.5:compile
+[INFO] |  |  |  +- javax.annotation:javax.annotation-api:jar:1.2:compile
+[INFO] |  |  |  +- org.eclipse.sisu:org.eclipse.sisu.inject:jar:0.3.5:compile
+[INFO] |  |  |  \- org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:compile
+[INFO] |  |  +- org.codehaus.plexus:plexus-utils:jar:3.3.0:compile
+[INFO] |  |  \- org.codehaus.plexus:plexus-classworlds:jar:2.6.0:compile
+[INFO] |  +- org.apache.maven:maven-project:jar:2.2.1:compile
+[INFO] |  |  +- org.apache.maven:maven-settings:jar:2.2.1:compile
+[INFO] |  |  +- org.apache.maven:maven-profile:jar:2.2.1:compile
+[INFO] |  |  +- org.apache.maven:maven-artifact-manager:jar:2.2.1:compile
+[INFO] |  |  |  +- org.apache.maven:maven-repository-metadata:jar:2.2.1:compile
+[INFO] |  |  |  +- org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-6:compile
+[INFO] |  |  |  \- backport-util-concurrent:backport-util-concurrent:jar:3.1:compile
+[INFO] |  |  +- org.apache.maven:maven-plugin-registry:jar:2.2.1:compile
+[INFO] |  |  +- org.codehaus.plexus:plexus-interpolation:jar:1.11:compile
+[INFO] |  |  \- org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[INFO] |  |     +- junit:junit:jar:3.8.1:compile
+[INFO] |  |     \- classworlds:classworlds:jar:1.1-alpha-2:compile
+[INFO] |  \- net.sf.saxon:Saxon-HE:jar:9.9.1-8:compile
+[INFO] +- org.quickfixj:quickfixj-dictgenerator:jar:3.0.0-SNAPSHOT:compile
+[INFO] |  \- jaxen:jaxen:jar:1.2.0:runtime
+[INFO] +- org.quickfixj:quickfixj-core:jar:3.0.0-SNAPSHOT:compile
+[INFO] |  +- org.apache.mina:mina-core:jar:2.1.5:compile
+[INFO] |  \- org.slf4j:slf4j-api:jar:1.7.32:compile
+[INFO] +- org.quickfixj:quickfixj-all:jar:3.0.0-SNAPSHOT:compile
+[INFO] +- org.quickfixj:quickfixj-examples-banzai:jar:3.0.0-SNAPSHOT:compile
+[INFO] |  \- org.slf4j:slf4j-jdk14:jar:1.7.32:runtime
+[INFO] +- org.quickfixj:quickfixj-examples-executor:jar:3.0.0-SNAPSHOT:compile
+[INFO] +- org.quickfixj:quickfixj-examples-ordermatch:jar:3.0.0-SNAPSHOT:compile
+[INFO] +- org.quickfixj:quickfixj-messages-all:jar:3.0.0-SNAPSHOT:compile
+[INFO] +- org.quickfixj:quickfixj-messages-fix50sp2:jar:3.0.0-SNAPSHOT:compile
+[INFO] +- org.quickfixj:quickfixj-messages-fix50sp1:jar:3.0.0-SNAPSHOT:compile
+[INFO] +- org.quickfixj:quickfixj-messages-fixt11:jar:3.0.0-SNAPSHOT:compile
+[INFO] +- org.quickfixj:quickfixj-messages-fix50:jar:3.0.0-SNAPSHOT:compile
+[INFO] +- org.quickfixj:quickfixj-messages-fix44:jar:3.0.0-SNAPSHOT:compile
+[INFO] +- org.quickfixj:quickfixj-messages-fix43:jar:3.0.0-SNAPSHOT:compile
+[INFO] +- org.quickfixj:quickfixj-messages-fix42:jar:3.0.0-SNAPSHOT:compile
+[INFO] +- org.quickfixj:quickfixj-messages-fix41:jar:3.0.0-SNAPSHOT:compile
+[INFO] \- org.quickfixj:quickfixj-messages-fix40:jar:3.0.0-SNAPSHOT:compile
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for QuickFIX/J Parent 3.0.0-SNAPSHOT:
+[INFO] 
+[INFO] QuickFIX/J Parent .................................. SUCCESS [  1.142 s]
+[INFO] QuickFIX/J Code Generator Maven Plugin ............. SUCCESS [  2.743 s]
+[INFO] QuickFIX/J Dictionary Generator .................... SUCCESS [  0.748 s]
+[INFO] QuickFIX/J Core engine ............................. SUCCESS [14:54 min]
+[INFO] QuickFIX/J Message classes for various FIX specs ... SUCCESS [  0.041 s]
+[INFO] QuickFIX/J Message classes for FIX 4.0 ............. SUCCESS [  0.234 s]
+[INFO] QuickFIX/J Message classes for FIX 4.1 ............. SUCCESS [  0.036 s]
+[INFO] QuickFIX/J Message classes for FIX 4.2 ............. SUCCESS [  0.025 s]
+[INFO] QuickFIX/J Message classes for FIX 4.3 ............. SUCCESS [  0.018 s]
+[INFO] QuickFIX/J Message classes for FIX 4.4 ............. SUCCESS [  0.020 s]
+[INFO] QuickFIX/J Message classes for FIX 5.0 ............. SUCCESS [  0.035 s]
+[INFO] QuickFIX/J Message classes for FIX 5.0 SP1 ......... SUCCESS [  0.027 s]
+[INFO] QuickFIX/J Message classes for FIX 5.0 SP2 ......... SUCCESS [  0.027 s]
+[INFO] QuickFIX/J Message classes for FIXT 1.1 ............ SUCCESS [  0.031 s]
+[INFO] QuickFIX/J Message classes for all FIX specs ....... SUCCESS [  0.193 s]
+[INFO] QuickFIX/J Examples ................................ SUCCESS [  0.040 s]
+[INFO] QuickFIX/J Examples - Executor ..................... SUCCESS [  3.025 s]
+[INFO] QuickFIX/J Examples - Order Match .................. SUCCESS [  1.241 s]
+[INFO] QuickFIX/J Examples - Banzai ....................... SUCCESS [  1.848 s]
+[INFO] QuickFIX/J All runtime modules ..................... SUCCESS [  0.087 s]
+[INFO] QuickFIX/J Distribution ............................ SUCCESS [  0.070 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  15:09 min
+[INFO] Finished at: 2023-09-11T16:24:42+02:00
+[INFO] ------------------------------------------------------------------------
+[WARNING] 
+[WARNING] Plugin validation issues were detected in 6 plugin(s)
+[WARNING] 
+[WARNING]  * org.apache.maven.plugins:maven-compiler-plugin:3.8.0
+[WARNING]  * org.apache.maven.plugins:maven-resources-plugin:3.1.0
+[WARNING]  * org.apache.maven.plugins:maven-site-plugin:3.12.1
+[WARNING]  * org.apache.maven.plugins:maven-plugin-plugin:3.6.1
+[WARNING]  * org.quickfixj:quickfixj-codegenerator:3.0.0-SNAPSHOT
+[WARNING]  * org.apache.maven.plugins:maven-dependency-plugin:2.8
+[WARNING] 
+[WARNING] For more or less details, use 'maven.plugin.validation' property with one of the values (case insensitive): [BRIEF, DEFAULT, VERBOSE]
+[WARNING] 
