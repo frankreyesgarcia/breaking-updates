@@ -111,12 +111,14 @@ public class ReproducibilityChecker {
                 Map<String, Object> bu = JsonUtils.readFromFile(breakingUpdate.toPath(), buJsonType);
                 Map<String, Integer> depCount = new HashMap<>();
 
+                String prevImage = REGISTRY + ":" + bu.get("breakingCommit") + PRECEDING_COMMIT_CONTAINER_TAG;
+                String breakingImage = REGISTRY + ":" + bu.get("breakingCommit") + BREAKING_UPDATE_CONTAINER_TAG;
+
                 // Create directories to copy the project.
-                String image = REGISTRY + ":" + bu.get("breakingCommit") + BREAKING_UPDATE_CONTAINER_TAG;
                 Path projectPath;
                 try {
                     projectPath = Files.createDirectories(Path.of("tempProject")
-                            .resolve(image.split(":")[1]));
+                            .resolve((String) bu.get("breakingCommit")));
                 } catch (IOException e) {
                     log.error("Could not create directories to copy the project.");
                     throw new RuntimeException(e);
@@ -128,8 +130,8 @@ public class ReproducibilityChecker {
 
                     ReproducibleBreakingUpdate.FailureCategory failureCategory =
                             ReproducibleBreakingUpdate.FailureCategory.valueOf((String) bu.get("failureCategory"));
-                    Boolean isReproducible = isReproducible(failureCategory, (String) bu.get("breakingCommit"),
-                            (String) bu.get("project"), projectPath);
+                    Boolean isReproducible = isReproducible(failureCategory, (String) bu.get("project"), projectPath,
+                            prevImage, breakingImage);
                     reproducibilityResults.put((String) bu.get("breakingCommit"), isReproducible);
 
                     projectCopied = true;
@@ -147,18 +149,15 @@ public class ReproducibilityChecker {
                     depCountResults.put(bu.get("projectOrganisation") + "/" + bu.get("project"), depCount);
 
                     JsonUtils.writeToFile(depCountResultsFilePath, depCountResults);
-                    System.out.println("Written to file");
                 }
                 if (projectCopied)
-                    removeProject(image, projectPath);
+                    removeProject(prevImage, breakingImage, projectPath);
             }
         }
     }
 
-    private Boolean isReproducible(ReproducibleBreakingUpdate.FailureCategory failureCategory, String buCommit,
-                                   String project, Path copyDir) {
-        String prevImage = REGISTRY + ":" + buCommit + PRECEDING_COMMIT_CONTAINER_TAG;
-        String breakingImage = REGISTRY + ":" + buCommit + BREAKING_UPDATE_CONTAINER_TAG;
+    private Boolean isReproducible(ReproducibleBreakingUpdate.FailureCategory failureCategory, String project,
+                                   Path copyDir, String prevImage, String breakingImage) {
         Map.Entry<String, Boolean> prevContainer = startContainer(prevImage, true, project);
         Map.Entry<String, Boolean> breakingContainer = startContainer(breakingImage, false, project);
         if (prevContainer == null || breakingContainer == null)
@@ -176,7 +175,6 @@ public class ReproducibilityChecker {
         }
         Path logFilePath = storeLogFile(project, breakingContainer.getKey(), logFolder);
         if (logFilePath != null) {
-            System.out.println("Checking the failure category in " + logFilePath);
             return getFailureCategory(logFilePath).equals(failureCategory);
         }
         return null;
@@ -203,7 +201,7 @@ public class ReproducibilityChecker {
         CreateContainerResponse container = containerCmd.exec();
         String containerId = container.getId();
         dockerClient.startContainerCmd(containerId).exec();
-        System.out.println("Created container for " + image + " container id " + containerId);
+        log.info("Created container for " + image);
         WaitContainerResultCallback result = dockerClient.waitContainerCmd(containerId).exec(new WaitContainerResultCallback());
         if (result.awaitStatusCode().intValue() != EXIT_CODE_OK) {
             if (isPrevImage) {
@@ -238,7 +236,6 @@ public class ReproducibilityChecker {
 
         try (InputStream dependencyStream = dockerClient.copyArchiveFromContainerCmd
                 (containerId, "/" + project).exec()) {
-            System.out.println("Copying the project");
             try (TarArchiveInputStream tarStream = new TarArchiveInputStream(dependencyStream)) {
                 TarArchiveEntry entry;
                 while ((entry = tarStream.getNextTarEntry()) != null) {
@@ -255,7 +252,7 @@ public class ReproducibilityChecker {
                     }
                 }
             }
-            System.out.println("Successfully copied the project, or hope so");
+            log.info("Successfully copied the project {}.", project);
             return dir;
         } catch (Exception e) {
             log.error("Could not copy the project {}", project, e);
@@ -315,8 +312,6 @@ public class ReproducibilityChecker {
                     transitiveCount++;
                 }
             }
-            System.out.println("non unique counts" + directCount + " & " + transitiveCount);
-            System.out.println("unique counts" + uniqueDirDependencies.size() + " & " + uniqueTranDependencies.size());
         } catch (IOException e) {
             log.error("Could not count dependencies for {}", treeFile.getName());
             throw new RuntimeException(e);
@@ -331,11 +326,10 @@ public class ReproducibilityChecker {
                 Pattern pattern = entry.getKey();
                 Matcher matcher = pattern.matcher(logContent);
                 if (matcher.find()) {
-                    System.out.println("Failure category found " + entry.getValue());
                     return entry.getValue();
                 }
             }
-            System.out.println("Did not find the failure category");
+            log.error("Did not find the failure category");
             return ReproducibleBreakingUpdate.FailureCategory.UNKNOWN_FAILURE;
         } catch (IOException e) {
             log.error("Failure category could not be parsed for {}", path);
@@ -343,8 +337,7 @@ public class ReproducibilityChecker {
         }
     }
 
-    private void removeProject(String image, Path projectPath) {
-        System.out.println("removing the project " + projectPath);
+    private void removeProject(String prevImage, String breakingImage, Path projectPath) {
         try {
             for (String container : containers) {
                 dockerClient.stopContainerCmd(container).exec();
@@ -354,12 +347,14 @@ public class ReproducibilityChecker {
         } catch (Exception e) {
             e.printStackTrace();
         }
-        dockerClient.removeImageCmd(image).withForce(true).exec();
+        dockerClient.removeImageCmd(prevImage).withForce(true).exec();
+        dockerClient.removeImageCmd(breakingImage).withForce(true).exec();
         try {
             FileUtils.forceDelete(new File(projectPath.toUri()));
         } catch (Exception e) {
             log.error("Project {} could not be deleted.", projectPath, e);
         }
+        log.info("removed the images and the project.");
     }
 
     private void createDockerClient() {
