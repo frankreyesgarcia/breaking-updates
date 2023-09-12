@@ -326,6 +326,7 @@ public class ReproducibilityChecker {
                 Pattern pattern = entry.getKey();
                 Matcher matcher = pattern.matcher(logContent);
                 if (matcher.find()) {
+                    log.info("Failure category found: {}", entry.getValue());
                     return entry.getValue();
                 }
             }

@@ -46,5 +46,65 @@
   "jenkinsci/code-coverage-api-plugin" : {
     "directCount" : 83,
     "transitiveCount" : 395
+  },
+  "s4u/sign-maven-plugin" : {
+    "directCount" : 13,
+    "transitiveCount" : 45
+  },
+  "apache/opennlp" : {
+    "directCount" : 0,
+    "transitiveCount" : 0
+  },
+  "alphagov/pay-adminusers" : {
+    "directCount" : 55,
+    "transitiveCount" : 253
+  },
+  "camunda-community-hub/camunda-platform-7-mockito" : {
+    "directCount" : 16,
+    "transitiveCount" : 32
+  },
+  "assertj/assertj-guava" : {
+    "directCount" : 4,
+    "transitiveCount" : 11
+  },
+  "dadoonet/fscrawler" : {
+    "directCount" : 54,
+    "transitiveCount" : 264
+  },
+  "jenkinsci/pull-request-monitoring-plugin" : {
+    "directCount" : 38,
+    "transitiveCount" : 224
+  },
+  "simplelocalize/simplelocalize-cli" : {
+    "directCount" : 26,
+    "transitiveCount" : 144
+  },
+  "xdev-software/biapi" : {
+    "directCount" : 2,
+    "transitiveCount" : 18
+  },
+  "jenkinsci/webhook-step-plugin" : {
+    "directCount" : 20,
+    "transitiveCount" : 173
+  },
+  "fmtn/a" : {
+    "directCount" : 31,
+    "transitiveCount" : 58
+  },
+  "pac4j/dropwizard-pac4j" : {
+    "directCount" : 10,
+    "transitiveCount" : 106
+  },
+  "googleapis/java-pubsub-group-kafka-connector" : {
+    "directCount" : 30,
+    "transitiveCount" : 65
+  },
+  "Samsung/LPVS" : {
+    "directCount" : 12,
+    "transitiveCount" : 88
+  },
+  "jadler-mocking/jadler" : {
+    "directCount" : 0,
+    "transitiveCount" : 0
   }
 }

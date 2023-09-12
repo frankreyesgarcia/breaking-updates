@@ -4,9 +4,14 @@
 [INFO] Building lpvs 1.0.1
 [INFO]   from pom.xml
 [INFO] --------------------------------[ jar ]---------------------------------
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/code/gson/gson/maven-metadata.xml
+Progress (1): 1.4/1.4 kB
+Progress (1): 1.4 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/code/gson/gson/maven-metadata.xml (1.4 kB at 1.7 kB/s)
 [INFO] 
 [INFO] --- jacoco:0.8.8:prepare-agent (default) @ lpvs ---
-[INFO] argLine set to -javaagent:C:\\Users\\Yogya\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.8.8\\org.jacoco.agent-0.8.8-runtime.jar=destfile=C:\\Users\\Yogya\\Documents\\KTH\\BreakingUpdates\\breaking-updates\\tempProject\\0cdcc1f1319311f383676a89808c9b8eb190145c-breaking\\LPVS\\target\\jacoco.exec
+[INFO] argLine set to -javaagent:C:\\Users\\Yogya\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.8.8\\org.jacoco.agent-0.8.8-runtime.jar=destfile=C:\\Users\\Yogya\\Documents\\KTH\\BreakingUpdates\\breaking-updates\\tempProject\\0cdcc1f1319311f383676a89808c9b8eb190145c\\LPVS\\target\\jacoco.exec
 [INFO] 
 [INFO] --- resources:3.2.0:resources (default-resources) @ lpvs ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
@@ -15,7 +20,8 @@
 [INFO] Copying 1 resource
 [INFO] 
 [INFO] --- compiler:3.10.1:compile (default-compile) @ lpvs ---
-[INFO] Nothing to compile - all classes are up to date
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 15 source files to C:\Users\Yogya\Documents\KTH\BreakingUpdates\breaking-updates\tempProject\0cdcc1f1319311f383676a89808c9b8eb190145c\LPVS\target\classes
 [INFO] 
 [INFO] --- dependency:3.3.0:tree (default-cli) @ lpvs ---
 [INFO] com.lpvs:lpvs:jar:1.0.1
@@ -122,8 +128,8 @@
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  5.383 s
-[INFO] Finished at: 2023-09-11T13:36:46+02:00
+[INFO] Total time:  14.209 s
+[INFO] Finished at: 2023-09-12T13:59:35+02:00
 [INFO] ------------------------------------------------------------------------
 [WARNING] 
 [WARNING] Plugin validation issues were detected in 6 plugin(s)
