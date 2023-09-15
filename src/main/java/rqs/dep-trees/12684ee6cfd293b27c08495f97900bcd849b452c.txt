@@ -1,0 +1,795 @@
+[INFO] Scanning for projects...
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-javadoc-plugin/3.2.0/maven-javadoc-plugin-3.2.0.pom
+Progress (1): 1.4/20 kB
+Progress (1): 2.7/20 kB
+Progress (1): 4.1/20 kB
+Progress (1): 5.5/20 kB
+Progress (1): 6.9/20 kB
+Progress (1): 8.2/20 kB
+Progress (1): 9.6/20 kB
+Progress (1): 11/20 kB 
+Progress (1): 12/20 kB
+Progress (1): 14/20 kB
+Progress (1): 15/20 kB
+Progress (1): 16/20 kB
+Progress (1): 18/20 kB
+Progress (1): 19/20 kB
+Progress (1): 20 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-javadoc-plugin/3.2.0/maven-javadoc-plugin-3.2.0.pom (20 kB at 53 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-javadoc-plugin/3.2.0/maven-javadoc-plugin-3.2.0.jar
+Progress (1): 1.4/492 kB
+Progress (1): 2.7/492 kB
+Progress (1): 4.1/492 kB
+Progress (1): 5.5/492 kB
+Progress (1): 6.9/492 kB
+Progress (1): 8.2/492 kB
+Progress (1): 9.6/492 kB
+Progress (1): 11/492 kB 
+Progress (1): 12/492 kB
+Progress (1): 14/492 kB
+Progress (1): 15/492 kB
+Progress (1): 16/492 kB
+Progress (1): 32/492 kB
+Progress (1): 49/492 kB
+Progress (1): 65/492 kB
+Progress (1): 81/492 kB
+Progress (1): 98/492 kB
+Progress (1): 114/492 kB
+Progress (1): 131/492 kB
+Progress (1): 147/492 kB
+Progress (1): 163/492 kB
+Progress (1): 180/492 kB
+Progress (1): 196/492 kB
+Progress (1): 212/492 kB
+Progress (1): 229/492 kB
+Progress (1): 245/492 kB
+Progress (1): 262/492 kB
+Progress (1): 278/492 kB
+Progress (1): 294/492 kB
+Progress (1): 311/492 kB
+Progress (1): 327/492 kB
+Progress (1): 343/492 kB
+Progress (1): 360/492 kB
+Progress (1): 376/492 kB
+Progress (1): 393/492 kB
+Progress (1): 409/492 kB
+Progress (1): 425/492 kB
+Progress (1): 442/492 kB
+Progress (1): 458/492 kB
+Progress (1): 475/492 kB
+Progress (1): 491/492 kB
+Progress (1): 492 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-javadoc-plugin/3.2.0/maven-javadoc-plugin-3.2.0.jar (492 kB at 4.2 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jacoco/jacoco-maven-plugin/0.8.6/jacoco-maven-plugin-0.8.6.pom
+Progress (1): 4.4 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jacoco/jacoco-maven-plugin/0.8.6/jacoco-maven-plugin-0.8.6.pom (4.4 kB at 256 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.build/0.8.6/org.jacoco.build-0.8.6.pom
+Progress (1): 16/42 kB
+Progress (1): 33/42 kB
+Progress (1): 42 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.build/0.8.6/org.jacoco.build-0.8.6.pom (42 kB at 1.7 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jacoco/jacoco-maven-plugin/0.8.6/jacoco-maven-plugin-0.8.6.jar
+Progress (1): 16/53 kB
+Progress (1): 32/53 kB
+Progress (1): 49/53 kB
+Progress (1): 53 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jacoco/jacoco-maven-plugin/0.8.6/jacoco-maven-plugin-0.8.6.jar (53 kB at 2.1 MB/s)
+[INFO] Artifact org.apache.maven.plugins:maven-surefire-plugin:pom:2.18.1 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact org.apache.maven.plugins:maven-surefire-plugin:pom:2.18.1 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases)]
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.18.1/maven-surefire-plugin-2.18.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.18.1/maven-surefire-plugin-2.18.1.pom (0 B at 0 B/s)
+[INFO] Artifact org.apache.maven.surefire:surefire:pom:2.18.1 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact org.apache.maven.surefire:surefire:pom:2.18.1 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases)]
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire/2.18.1/surefire-2.18.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire/2.18.1/surefire-2.18.1.pom (0 B at 0 B/s)
+[INFO] Artifact org.apache.maven.plugins:maven-surefire-plugin:jar:2.18.1 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact org.apache.maven.plugins:maven-surefire-plugin:jar:2.18.1 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases)]
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.18.1/maven-surefire-plugin-2.18.1.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.18.1/maven-surefire-plugin-2.18.1.jar (0 B at 0 B/s)
+[INFO] Artifact org.apache.maven.plugins:maven-failsafe-plugin:pom:2.22.2 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact org.apache.maven.plugins:maven-failsafe-plugin:pom:2.22.2 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases)]
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-failsafe-plugin/2.22.2/maven-failsafe-plugin-2.22.2.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-failsafe-plugin/2.22.2/maven-failsafe-plugin-2.22.2.pom (0 B at 0 B/s)
+[INFO] Artifact org.apache.maven.plugins:maven-failsafe-plugin:jar:2.22.2 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact org.apache.maven.plugins:maven-failsafe-plugin:jar:2.22.2 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases)]
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-failsafe-plugin/2.22.2/maven-failsafe-plugin-2.22.2.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-failsafe-plugin/2.22.2/maven-failsafe-plugin-2.22.2.jar (0 B at 0 B/s)
+[INFO] 
+[INFO] ----------------< net.masterthought:cucumber-reporting >----------------
+[INFO] Building cucumber-reporting 5.7.6-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.13.2/jackson-datatype-jsr310-2.13.2.pom
+Progress (1): 4.9 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.13.2/jackson-datatype-jsr310-2.13.2.pom (4.9 kB at 213 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-modules-java8/2.13.2/jackson-modules-java8-2.13.2.pom
+Progress (1): 3.2 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-modules-java8/2.13.2/jackson-modules-java8-2.13.2.pom (3.2 kB at 189 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/velocity/velocity-engine-core/2.3/velocity-engine-core-2.3.pom
+Progress (1): 10 kB
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/velocity/velocity-engine-core/2.3/velocity-engine-core-2.3.pom (10 kB at 419 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/velocity/velocity-engine-parent/2.3/velocity-engine-parent-2.3.pom
+Progress (1): 14 kB
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/velocity/velocity-engine-parent/2.3/velocity-engine-parent-2.3.pom (14 kB at 659 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/velocity/velocity-master/4/velocity-master-4.pom
+Progress (1): 7.8 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/velocity/velocity-master/4/velocity-master-4.pom (7.8 kB at 353 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/commons-io/commons-io/2.7/commons-io-2.7.pom
+Progress (1): 16 kB
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/commons-io/commons-io/2.7/commons-io-2.7.pom (16 kB at 1.1 MB/s)
+[INFO] Artifact org.jsoup:jsoup:pom:1.15.4 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [sonatype-nexus-snapshots (https://oss.sonatype.org/content/repositories/snapshots, default, snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact org.jsoup:jsoup:pom:1.15.4 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [sonatype-nexus-snapshots (https://oss.sonatype.org/content/repositories/snapshots, default, snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+Downloading from central: https://repo.maven.apache.org/maven2/org/jsoup/jsoup/1.15.4/jsoup-1.15.4.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jsoup/jsoup/1.15.4/jsoup-1.15.4.pom (0 B at 0 B/s)
+[INFO] Artifact com.googlecode.owasp-java-html-sanitizer:owasp-java-html-sanitizer:pom:20220608.1 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [sonatype-nexus-snapshots (https://oss.sonatype.org/content/repositories/snapshots, default, snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact com.googlecode.owasp-java-html-sanitizer:owasp-java-html-sanitizer:pom:20220608.1 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [sonatype-nexus-snapshots (https://oss.sonatype.org/content/repositories/snapshots, default, snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+Downloading from central: https://repo.maven.apache.org/maven2/com/googlecode/owasp-java-html-sanitizer/owasp-java-html-sanitizer/20220608.1/owasp-java-html-sanitizer-20220608.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/com/googlecode/owasp-java-html-sanitizer/owasp-java-html-sanitizer/20220608.1/owasp-java-html-sanitizer-20220608.1.pom (0 B at 0 B/s)
+[INFO] Artifact com.googlecode.owasp-java-html-sanitizer:parent:pom:20220608.1 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [sonatype-nexus-snapshots (https://oss.sonatype.org/content/repositories/snapshots, default, snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact com.googlecode.owasp-java-html-sanitizer:parent:pom:20220608.1 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [sonatype-nexus-snapshots (https://oss.sonatype.org/content/repositories/snapshots, default, snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+Downloading from central: https://repo.maven.apache.org/maven2/com/googlecode/owasp-java-html-sanitizer/parent/20220608.1/parent-20220608.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/com/googlecode/owasp-java-html-sanitizer/parent/20220608.1/parent-20220608.1.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jmockit/jmockit/1.34/jmockit-1.34.pom
+Progress (1): 11 kB
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jmockit/jmockit/1.34/jmockit-1.34.pom (11 kB at 356 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-api-mockito/1.7.3/powermock-api-mockito-1.7.3.pom
+Progress (1): 5.8 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-api-mockito/1.7.3/powermock-api-mockito-1.7.3.pom (5.8 kB at 51 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-api-mockito-common/1.7.3/powermock-api-mockito-common-1.7.3.pom
+Progress (1): 6.4 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-api-mockito-common/1.7.3/powermock-api-mockito-common-1.7.3.pom (6.4 kB at 320 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-api-support/1.7.3/powermock-api-support-1.7.3.pom
+Progress (1): 5.8 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-api-support/1.7.3/powermock-api-support-1.7.3.pom (5.8 kB at 216 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-reflect/1.7.3/powermock-reflect-1.7.3.pom
+Progress (1): 5.7 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-reflect/1.7.3/powermock-reflect-1.7.3.pom (5.7 kB at 101 kB/s)
+[INFO] Artifact org.objenesis:objenesis:pom:2.4 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [sonatype-nexus-snapshots (https://oss.sonatype.org/content/repositories/snapshots, default, snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact org.objenesis:objenesis:pom:2.4 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [sonatype-nexus-snapshots (https://oss.sonatype.org/content/repositories/snapshots, default, snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+Downloading from central: https://repo.maven.apache.org/maven2/org/objenesis/objenesis/2.4/objenesis-2.4.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/objenesis/objenesis/2.4/objenesis-2.4.pom (0 B at 0 B/s)
+[INFO] Artifact org.objenesis:objenesis-parent:pom:2.4 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [sonatype-nexus-snapshots (https://oss.sonatype.org/content/repositories/snapshots, default, snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact org.objenesis:objenesis-parent:pom:2.4 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [sonatype-nexus-snapshots (https://oss.sonatype.org/content/repositories/snapshots, default, snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+Downloading from central: https://repo.maven.apache.org/maven2/org/objenesis/objenesis-parent/2.4/objenesis-parent-2.4.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/objenesis/objenesis-parent/2.4/objenesis-parent-2.4.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-core/1.7.3/powermock-core-1.7.3.pom
+Progress (1): 6.0 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-core/1.7.3/powermock-core-1.7.3.pom (6.0 kB at 355 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/mockito/mockito-core/2.8.9/mockito-core-2.8.9.pom
+Progress (1): 2.5 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/mockito/mockito-core/2.8.9/mockito-core-2.8.9.pom (2.5 kB at 110 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.6.14/byte-buddy-1.6.14.pom
+Progress (1): 12 kB
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.6.14/byte-buddy-1.6.14.pom (12 kB at 491 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-parent/1.6.14/byte-buddy-parent-1.6.14.pom
+Progress (1): 16/26 kB
+Progress (1): 26 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-parent/1.6.14/byte-buddy-parent-1.6.14.pom (26 kB at 1.1 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.6.14/byte-buddy-agent-1.6.14.pom
+Progress (1): 4.5 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.6.14/byte-buddy-agent-1.6.14.pom (4.5 kB at 180 kB/s)
+[INFO] Artifact org.mockito:mockito-core:pom:1.10.19 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [sonatype-nexus-snapshots (https://oss.sonatype.org/content/repositories/snapshots, default, snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact org.mockito:mockito-core:pom:1.10.19 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [sonatype-nexus-snapshots (https://oss.sonatype.org/content/repositories/snapshots, default, snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+Downloading from central: https://repo.maven.apache.org/maven2/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.pom (0 B at 0 B/s)
+[INFO] Artifact org.objenesis:objenesis:pom:2.1 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [sonatype-nexus-snapshots (https://oss.sonatype.org/content/repositories/snapshots, default, snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact org.objenesis:objenesis:pom:2.1 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [sonatype-nexus-snapshots (https://oss.sonatype.org/content/repositories/snapshots, default, snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+Downloading from central: https://repo.maven.apache.org/maven2/org/objenesis/objenesis/2.1/objenesis-2.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/objenesis/objenesis/2.1/objenesis-2.1.pom (0 B at 0 B/s)
+[INFO] Artifact org.objenesis:objenesis-parent:pom:2.1 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [sonatype-nexus-snapshots (https://oss.sonatype.org/content/repositories/snapshots, default, snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact org.objenesis:objenesis-parent:pom:2.1 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [sonatype-nexus-snapshots (https://oss.sonatype.org/content/repositories/snapshots, default, snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+Downloading from central: https://repo.maven.apache.org/maven2/org/objenesis/objenesis-parent/2.1/objenesis-parent-2.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/objenesis/objenesis-parent/2.1/objenesis-parent-2.1.pom (0 B)
+Downloading from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-module-junit4/1.7.3/powermock-module-junit4-1.7.3.pom
+Progress (1): 6.2 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-module-junit4/1.7.3/powermock-module-junit4-1.7.3.pom (6.2 kB at 326 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-module-junit4-common/1.7.3/powermock-module-junit4-common-1.7.3.pom
+Progress (1): 6.4 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-module-junit4-common/1.7.3/powermock-module-junit4-common-1.7.3.pom (6.4 kB at 399 kB/s)
+[INFO] Artifact commons-configuration:commons-configuration:pom:1.10 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [sonatype-nexus-snapshots (https://oss.sonatype.org/content/repositories/snapshots, default, snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact commons-configuration:commons-configuration:pom:1.10 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [sonatype-nexus-snapshots (https://oss.sonatype.org/content/repositories/snapshots, default, snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+Downloading from central: https://repo.maven.apache.org/maven2/commons-configuration/commons-configuration/1.10/commons-configuration-1.10.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/commons-configuration/commons-configuration/1.10/commons-configuration-1.10.pom (0 B at 0 B/s)
+[INFO] Artifact org.jsoup:jsoup:jar:1.15.4 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [sonatype-nexus-snapshots (https://oss.sonatype.org/content/repositories/snapshots, default, snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact com.googlecode.owasp-java-html-sanitizer:owasp-java-html-sanitizer:jar:20220608.1 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [sonatype-nexus-snapshots (https://oss.sonatype.org/content/repositories/snapshots, default, snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact org.mockito:mockito-core:jar:1.10.19 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [sonatype-nexus-snapshots (https://oss.sonatype.org/content/repositories/snapshots, default, snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact org.objenesis:objenesis:jar:2.1 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [sonatype-nexus-snapshots (https://oss.sonatype.org/content/repositories/snapshots, default, snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact org.javassist:javassist:jar:3.21.0-GA is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [sonatype-nexus-snapshots (https://oss.sonatype.org/content/repositories/snapshots, default, snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact org.jsoup:jsoup:jar:1.15.4 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [sonatype-nexus-snapshots (https://oss.sonatype.org/content/repositories/snapshots, default, snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact com.googlecode.owasp-java-html-sanitizer:owasp-java-html-sanitizer:jar:20220608.1 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [sonatype-nexus-snapshots (https://oss.sonatype.org/content/repositories/snapshots, default, snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact org.mockito:mockito-core:jar:1.10.19 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [sonatype-nexus-snapshots (https://oss.sonatype.org/content/repositories/snapshots, default, snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact org.objenesis:objenesis:jar:2.1 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [sonatype-nexus-snapshots (https://oss.sonatype.org/content/repositories/snapshots, default, snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact org.javassist:javassist:jar:3.21.0-GA is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [sonatype-nexus-snapshots (https://oss.sonatype.org/content/repositories/snapshots, default, snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.13.2/jackson-datatype-jsr310-2.13.2.jar
+Progress (1): 16/121 kB
+Progress (1): 32/121 kB
+Progress (1): 49/121 kB
+Progress (1): 65/121 kB
+Progress (1): 81/121 kB
+Progress (1): 98/121 kB
+Progress (1): 114/121 kB
+Progress (1): 121 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.13.2/jackson-datatype-jsr310-2.13.2.jar (121 kB at 4.2 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/commons-io/commons-io/2.7/commons-io-2.7.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/jsoup/jsoup/1.15.4/jsoup-1.15.4.jar
+Downloading from central: https://repo.maven.apache.org/maven2/com/googlecode/owasp-java-html-sanitizer/owasp-java-html-sanitizer/20220608.1/owasp-java-html-sanitizer-20220608.1.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/jmockit/jmockit/1.34/jmockit-1.34.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/velocity/velocity-engine-core/2.3/velocity-engine-core-2.3.jar
+Progress (1): 16/276 kB
+Progress (1): 32/276 kB
+Progress (1): 49/276 kB
+Progress (1): 65/276 kB
+Progress (1): 81/276 kB
+Progress (1): 98/276 kB
+                       
+Downloaded from central: https://repo.maven.apache.org/maven2/com/googlecode/owasp-java-html-sanitizer/owasp-java-html-sanitizer/20220608.1/owasp-java-html-sanitizer-20220608.1.jar (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-api-mockito/1.7.3/powermock-api-mockito-1.7.3.jar
+Progress (1): 114/276 kB
+Progress (2): 114/276 kB | 1.4/531 kB
+Progress (2): 114/276 kB | 2.7/531 kB
+Progress (2): 114/276 kB | 4.1/531 kB
+Progress (2): 114/276 kB | 5.5/531 kB
+Progress (2): 114/276 kB | 6.9/531 kB
+Progress (2): 114/276 kB | 8.2/531 kB
+Progress (2): 114/276 kB | 9.6/531 kB
+Progress (2): 114/276 kB | 11/531 kB 
+Progress (2): 114/276 kB | 12/531 kB
+                                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jsoup/jsoup/1.15.4/jsoup-1.15.4.jar (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-api-mockito-common/1.7.3/powermock-api-mockito-common-1.7.3.jar
+Progress (2): 114/276 kB | 14/531 kB
+Progress (2): 114/276 kB | 15/531 kB
+Progress (2): 114/276 kB | 16/531 kB
+Progress (2): 131/276 kB | 16/531 kB
+Progress (3): 131/276 kB | 16/531 kB | 1.4/36 kB
+Progress (3): 131/276 kB | 16/531 kB | 2.7/36 kB
+Progress (3): 131/276 kB | 16/531 kB | 4.1/36 kB
+Progress (3): 131/276 kB | 16/531 kB | 5.5/36 kB
+Progress (3): 131/276 kB | 16/531 kB | 6.9/36 kB
+Progress (3): 147/276 kB | 16/531 kB | 6.9/36 kB
+Progress (3): 147/276 kB | 16/531 kB | 8.2/36 kB
+Progress (3): 147/276 kB | 16/531 kB | 9.6/36 kB
+Progress (3): 147/276 kB | 16/531 kB | 11/36 kB 
+Progress (3): 147/276 kB | 16/531 kB | 12/36 kB
+Progress (3): 147/276 kB | 16/531 kB | 14/36 kB
+Progress (3): 147/276 kB | 16/531 kB | 15/36 kB
+Progress (3): 147/276 kB | 16/531 kB | 16/36 kB
+Progress (3): 147/276 kB | 16/531 kB | 18/36 kB
+Progress (3): 147/276 kB | 16/531 kB | 19/36 kB
+Progress (3): 147/276 kB | 16/531 kB | 21/36 kB
+Progress (3): 163/276 kB | 16/531 kB | 21/36 kB
+Progress (3): 163/276 kB | 16/531 kB | 22/36 kB
+Progress (3): 163/276 kB | 16/531 kB | 23/36 kB
+Progress (3): 163/276 kB | 16/531 kB | 25/36 kB
+Progress (3): 163/276 kB | 16/531 kB | 26/36 kB
+Progress (3): 163/276 kB | 16/531 kB | 27/36 kB
+Progress (3): 163/276 kB | 16/531 kB | 29/36 kB
+Progress (3): 163/276 kB | 16/531 kB | 30/36 kB
+Progress (3): 163/276 kB | 16/531 kB | 32/36 kB
+Progress (3): 163/276 kB | 16/531 kB | 33/36 kB
+Progress (4): 163/276 kB | 16/531 kB | 33/36 kB | 16/778 kB
+Progress (4): 163/276 kB | 16/531 kB | 34/36 kB | 16/778 kB
+Progress (4): 180/276 kB | 16/531 kB | 34/36 kB | 16/778 kB
+Progress (4): 180/276 kB | 16/531 kB | 36/36 kB | 16/778 kB
+Progress (4): 180/276 kB | 16/531 kB | 36 kB | 16/778 kB   
+                                                        
+Downloaded from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-api-mockito-common/1.7.3/powermock-api-mockito-common-1.7.3.jar (36 kB at 90 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-api-support/1.7.3/powermock-api-support-1.7.3.jar
+Progress (3): 180/276 kB | 16/531 kB | 33/778 kB
+Progress (4): 180/276 kB | 16/531 kB | 33/778 kB | 1.4/23 kB
+Progress (4): 180/276 kB | 16/531 kB | 33/778 kB | 2.7/23 kB
+Progress (4): 180/276 kB | 16/531 kB | 33/778 kB | 4.1/23 kB
+Progress (4): 196/276 kB | 16/531 kB | 33/778 kB | 4.1/23 kB
+Progress (4): 196/276 kB | 16/531 kB | 33/778 kB | 5.5/23 kB
+Progress (4): 196/276 kB | 16/531 kB | 33/778 kB | 6.9/23 kB
+Progress (4): 196/276 kB | 16/531 kB | 33/778 kB | 8.2/23 kB
+Progress (4): 196/276 kB | 16/531 kB | 33/778 kB | 9.6/23 kB
+Progress (4): 196/276 kB | 16/531 kB | 33/778 kB | 11/23 kB 
+Progress (4): 196/276 kB | 16/531 kB | 33/778 kB | 12/23 kB
+Progress (4): 196/276 kB | 16/531 kB | 33/778 kB | 14/23 kB
+Progress (4): 196/276 kB | 16/531 kB | 33/778 kB | 15/23 kB
+Progress (4): 196/276 kB | 16/531 kB | 33/778 kB | 16/23 kB
+Progress (4): 196/276 kB | 16/531 kB | 33/778 kB | 18/23 kB
+Progress (4): 196/276 kB | 32/531 kB | 33/778 kB | 18/23 kB
+Progress (4): 212/276 kB | 32/531 kB | 33/778 kB | 18/23 kB
+Progress (4): 212/276 kB | 32/531 kB | 33/778 kB | 19/23 kB
+Progress (4): 212/276 kB | 32/531 kB | 49/778 kB | 19/23 kB
+Progress (4): 212/276 kB | 32/531 kB | 49/778 kB | 21/23 kB
+Progress (4): 229/276 kB | 32/531 kB | 49/778 kB | 21/23 kB
+Progress (4): 229/276 kB | 32/531 kB | 49/778 kB | 22/23 kB
+Progress (4): 245/276 kB | 32/531 kB | 49/778 kB | 22/23 kB
+Progress (4): 245/276 kB | 32/531 kB | 49/778 kB | 23 kB   
+Progress (4): 262/276 kB | 32/531 kB | 49/778 kB | 23 kB
+Progress (4): 262/276 kB | 49/531 kB | 49/778 kB | 23 kB
+                                                        
+Downloaded from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-api-support/1.7.3/powermock-api-support-1.7.3.jar (23 kB at 41 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar
+Progress (3): 262/276 kB | 49/531 kB | 66/778 kB
+Progress (3): 276 kB | 49/531 kB | 66/778 kB    
+Progress (4): 276 kB | 49/531 kB | 66/778 kB | 16/86 kB
+                                                       
+Downloaded from central: https://repo.maven.apache.org/maven2/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/objenesis/objenesis/2.1/objenesis-2.1.jar
+Progress (4): 276 kB | 49/531 kB | 66/778 kB | 33/86 kB
+Progress (4): 276 kB | 49/531 kB | 66/778 kB | 49/86 kB
+                                                       
+Downloaded from central: https://repo.maven.apache.org/maven2/commons-io/commons-io/2.7/commons-io-2.7.jar (276 kB at 478 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-module-junit4/1.7.3/powermock-module-junit4-1.7.3.jar
+Progress (3): 65/531 kB | 66/778 kB | 49/86 kB
+                                              
+Downloaded from central: https://repo.maven.apache.org/maven2/org/objenesis/objenesis/2.1/objenesis-2.1.jar (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-module-junit4-common/1.7.3/powermock-module-junit4-common-1.7.3.jar
+Progress (3): 65/531 kB | 66/778 kB | 66/86 kB
+Progress (3): 65/531 kB | 82/778 kB | 66/86 kB
+Progress (3): 65/531 kB | 98/778 kB | 66/86 kB
+Progress (4): 65/531 kB | 98/778 kB | 66/86 kB | 16/48 kB
+Progress (4): 65/531 kB | 98/778 kB | 82/86 kB | 16/48 kB
+Progress (4): 65/531 kB | 98/778 kB | 86 kB | 16/48 kB   
+Progress (4): 65/531 kB | 98/778 kB | 86 kB | 33/48 kB
+Progress (4): 81/531 kB | 98/778 kB | 86 kB | 33/48 kB
+                                                      
+Downloaded from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-api-mockito/1.7.3/powermock-api-mockito-1.7.3.jar (86 kB at 142 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-reflect/1.7.3/powermock-reflect-1.7.3.jar
+Progress (3): 81/531 kB | 115/778 kB | 33/48 kB
+Progress (3): 81/531 kB | 115/778 kB | 48 kB   
+Progress (3): 81/531 kB | 131/778 kB | 48 kB
+Progress (3): 98/531 kB | 131/778 kB | 48 kB
+Progress (3): 98/531 kB | 147/778 kB | 48 kB
+                                            
+Downloaded from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-module-junit4/1.7.3/powermock-module-junit4-1.7.3.jar (48 kB at 77 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-core/1.7.3/powermock-core-1.7.3.jar
+Progress (2): 114/531 kB | 147/778 kB
+Progress (2): 114/531 kB | 164/778 kB
+Progress (2): 130/531 kB | 164/778 kB
+Progress (2): 130/531 kB | 180/778 kB
+Progress (2): 130/531 kB | 197/778 kB
+Progress (2): 147/531 kB | 197/778 kB
+Progress (3): 147/531 kB | 197/778 kB | 16/146 kB
+Progress (3): 163/531 kB | 197/778 kB | 16/146 kB
+Progress (3): 163/531 kB | 197/778 kB | 33/146 kB
+Progress (3): 163/531 kB | 213/778 kB | 33/146 kB
+Progress (3): 180/531 kB | 213/778 kB | 33/146 kB
+Progress (3): 180/531 kB | 213/778 kB | 49/146 kB
+Progress (3): 180/531 kB | 229/778 kB | 49/146 kB
+Progress (3): 196/531 kB | 229/778 kB | 49/146 kB
+Progress (3): 212/531 kB | 229/778 kB | 49/146 kB
+Progress (3): 212/531 kB | 246/778 kB | 49/146 kB
+Progress (3): 212/531 kB | 246/778 kB | 66/146 kB
+Progress (3): 212/531 kB | 246/778 kB | 82/146 kB
+Progress (3): 212/531 kB | 256/778 kB | 82/146 kB
+Progress (3): 229/531 kB | 256/778 kB | 82/146 kB
+Progress (3): 245/531 kB | 256/778 kB | 82/146 kB
+Progress (4): 245/531 kB | 256/778 kB | 82/146 kB | 16/66 kB
+Progress (4): 245/531 kB | 272/778 kB | 82/146 kB | 16/66 kB
+Progress (4): 245/531 kB | 272/778 kB | 82/146 kB | 33/66 kB
+Progress (4): 245/531 kB | 272/778 kB | 98/146 kB | 33/66 kB
+Progress (4): 262/531 kB | 272/778 kB | 98/146 kB | 33/66 kB
+Progress (4): 262/531 kB | 289/778 kB | 98/146 kB | 33/66 kB
+Progress (4): 262/531 kB | 289/778 kB | 115/146 kB | 33/66 kB
+Progress (4): 278/531 kB | 289/778 kB | 115/146 kB | 33/66 kB
+Progress (4): 278/531 kB | 289/778 kB | 115/146 kB | 49/66 kB
+Progress (4): 278/531 kB | 305/778 kB | 115/146 kB | 49/66 kB
+Progress (4): 278/531 kB | 305/778 kB | 131/146 kB | 49/66 kB
+Progress (4): 294/531 kB | 305/778 kB | 131/146 kB | 49/66 kB
+Progress (4): 294/531 kB | 305/778 kB | 131/146 kB | 66/66 kB
+Progress (4): 294/531 kB | 305/778 kB | 131/146 kB | 66 kB   
+Progress (4): 311/531 kB | 305/778 kB | 131/146 kB | 66 kB
+Progress (4): 311/531 kB | 321/778 kB | 131/146 kB | 66 kB
+                                                          
+Downloaded from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-reflect/1.7.3/powermock-reflect-1.7.3.jar (66 kB at 96 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/javassist/javassist/3.21.0-GA/javassist-3.21.0-GA.jar
+Progress (3): 311/531 kB | 321/778 kB | 146 kB
+Progress (3): 327/531 kB | 321/778 kB | 146 kB
+Progress (3): 343/531 kB | 321/778 kB | 146 kB
+Progress (3): 343/531 kB | 338/778 kB | 146 kB
+Progress (3): 360/531 kB | 338/778 kB | 146 kB
+                                              
+Downloaded from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-core/1.7.3/powermock-core-1.7.3.jar (146 kB at 211 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/commons-configuration/commons-configuration/1.10/commons-configuration-1.10.jar
+Progress (2): 360/531 kB | 354/778 kB
+Progress (2): 376/531 kB | 354/778 kB
+                                     
+Downloaded from central: https://repo.maven.apache.org/maven2/org/javassist/javassist/3.21.0-GA/javassist-3.21.0-GA.jar (0 B at 0 B/s)
+Progress (2): 393/531 kB | 354/778 kB
+Progress (2): 393/531 kB | 370/778 kB
+Progress (2): 409/531 kB | 370/778 kB
+Progress (2): 409/531 kB | 387/778 kB
+Progress (2): 425/531 kB | 387/778 kB
+Progress (2): 425/531 kB | 403/778 kB
+Progress (2): 442/531 kB | 403/778 kB
+Progress (2): 458/531 kB | 403/778 kB
+Progress (2): 475/531 kB | 403/778 kB
+Progress (2): 491/531 kB | 403/778 kB
+Progress (2): 491/531 kB | 420/778 kB
+Progress (2): 507/531 kB | 420/778 kB
+Progress (3): 507/531 kB | 420/778 kB | 16/363 kB
+Progress (3): 507/531 kB | 436/778 kB | 16/363 kB
+Progress (4): 507/531 kB | 436/778 kB | 16/363 kB | 16/18 kB
+Progress (4): 507/531 kB | 436/778 kB | 16/363 kB | 18 kB   
+Progress (4): 524/531 kB | 436/778 kB | 16/363 kB | 18 kB
+Progress (4): 524/531 kB | 436/778 kB | 33/363 kB | 18 kB
+Progress (4): 531 kB | 436/778 kB | 33/363 kB | 18 kB    
+Progress (4): 531 kB | 452/778 kB | 33/363 kB | 18 kB
+                                                     
+Downloaded from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-module-junit4-common/1.7.3/powermock-module-junit4-common-1.7.3.jar (18 kB at 24 kB/s)
+Progress (3): 531 kB | 469/778 kB | 33/363 kB
+Progress (3): 531 kB | 469/778 kB | 49/363 kB
+                                             
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/velocity/velocity-engine-core/2.3/velocity-engine-core-2.3.jar (531 kB at 722 kB/s)
+Progress (2): 469/778 kB | 66/363 kB
+Progress (2): 485/778 kB | 66/363 kB
+Progress (2): 502/778 kB | 66/363 kB
+Progress (2): 502/778 kB | 82/363 kB
+Progress (2): 512/778 kB | 82/363 kB
+Progress (2): 512/778 kB | 98/363 kB
+Progress (2): 528/778 kB | 98/363 kB
+Progress (2): 544/778 kB | 98/363 kB
+Progress (2): 544/778 kB | 115/363 kB
+Progress (2): 561/778 kB | 115/363 kB
+Progress (2): 561/778 kB | 131/363 kB
+Progress (2): 577/778 kB | 131/363 kB
+Progress (2): 577/778 kB | 147/363 kB
+Progress (2): 594/778 kB | 147/363 kB
+Progress (2): 594/778 kB | 164/363 kB
+Progress (2): 610/778 kB | 164/363 kB
+Progress (2): 610/778 kB | 180/363 kB
+Progress (2): 626/778 kB | 180/363 kB
+Progress (2): 626/778 kB | 197/363 kB
+Progress (2): 643/778 kB | 197/363 kB
+Progress (2): 643/778 kB | 213/363 kB
+Progress (2): 659/778 kB | 213/363 kB
+Progress (2): 675/778 kB | 213/363 kB
+Progress (2): 675/778 kB | 229/363 kB
+Progress (2): 692/778 kB | 229/363 kB
+Progress (2): 692/778 kB | 246/363 kB
+Progress (2): 708/778 kB | 246/363 kB
+Progress (2): 708/778 kB | 262/363 kB
+Progress (2): 725/778 kB | 262/363 kB
+Progress (2): 725/778 kB | 279/363 kB
+Progress (2): 725/778 kB | 295/363 kB
+Progress (2): 741/778 kB | 295/363 kB
+Progress (2): 757/778 kB | 295/363 kB
+Progress (2): 757/778 kB | 311/363 kB
+Progress (2): 767/778 kB | 311/363 kB
+Progress (2): 767/778 kB | 328/363 kB
+Progress (2): 778 kB | 328/363 kB    
+Progress (2): 778 kB | 344/363 kB
+                                 
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jmockit/jmockit/1.34/jmockit-1.34.jar (778 kB at 950 kB/s)
+Progress (1): 360/363 kB
+Progress (1): 363 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/commons-configuration/commons-configuration/1.10/commons-configuration-1.10.jar (363 kB at 440 kB/s)
+[INFO] 
+[INFO] --- enforcer:1.0:enforce (enforce-maven) @ cucumber-reporting ---
+[INFO] 
+[INFO] --- jacoco:0.8.6:prepare-agent (default) @ cucumber-reporting ---
+[INFO] Artifact org.apache.maven.reporting:maven-reporting-impl:pom:2.1 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact org.apache.maven.reporting:maven-reporting-impl:pom:2.1 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases)]
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-impl/2.1/maven-reporting-impl-2.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-impl/2.1/maven-reporting-impl-2.1.pom (0 B at 0 B/s)
+[INFO] Artifact org.apache.maven:maven-project:pom:2.0.10 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases), apache.snapshots (http://repository.apache.org/snapshots, default, snapshots)]
+[INFO] Artifact org.apache.maven:maven-project:pom:2.0.10 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases), apache.snapshots (http://repository.apache.org/snapshots, default, snapshots)]
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-project/2.0.10/maven-project-2.0.10.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-project/2.0.10/maven-project-2.0.10.pom (0 B)
+[INFO] Artifact org.apache.maven:maven:pom:2.0.10 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases), apache.snapshots (http://repository.apache.org/snapshots, default, snapshots)]
+[INFO] Artifact org.apache.maven:maven:pom:2.0.10 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases), apache.snapshots (http://repository.apache.org/snapshots, default, snapshots)]
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven/2.0.10/maven-2.0.10.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven/2.0.10/maven-2.0.10.pom (0 B at 0 B/s)
+[INFO] Artifact org.apache.maven:maven-settings:pom:2.0.10 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases), apache.snapshots (http://repository.apache.org/snapshots, default, snapshots)]
+[INFO] Artifact org.apache.maven:maven-settings:pom:2.0.10 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases), apache.snapshots (http://repository.apache.org/snapshots, default, snapshots)]
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/2.0.10/maven-settings-2.0.10.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/2.0.10/maven-settings-2.0.10.pom (0 B at 0 B/s)
+[INFO] Artifact org.apache.maven:maven-model:pom:2.0.10 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases), apache.snapshots (http://repository.apache.org/snapshots, default, snapshots)]
+[INFO] Artifact org.apache.maven:maven-model:pom:2.0.10 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases), apache.snapshots (http://repository.apache.org/snapshots, default, snapshots)]
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/2.0.10/maven-model-2.0.10.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/2.0.10/maven-model-2.0.10.pom (0 B)
+[INFO] Artifact org.codehaus.plexus:plexus-interpolation:pom:1.1 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases), apache.snapshots (http://repository.apache.org/snapshots, default, snapshots)]
+[INFO] Artifact org.codehaus.plexus:plexus-interpolation:pom:1.1 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases), apache.snapshots (http://repository.apache.org/snapshots, default, snapshots)]
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.1/plexus-interpolation-1.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.1/plexus-interpolation-1.1.pom (0 B at 0 B/s)
+[INFO] Artifact org.apache.maven:maven-profile:pom:2.0.10 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases), apache.snapshots (http://repository.apache.org/snapshots, default, snapshots)]
+[INFO] Artifact org.apache.maven:maven-profile:pom:2.0.10 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases), apache.snapshots (http://repository.apache.org/snapshots, default, snapshots)]
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-profile/2.0.10/maven-profile-2.0.10.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-profile/2.0.10/maven-profile-2.0.10.pom (0 B at 0 B/s)
+[INFO] Artifact org.apache.maven:maven-artifact-manager:pom:2.0.10 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases), apache.snapshots (http://repository.apache.org/snapshots, default, snapshots)]
+[INFO] Artifact org.apache.maven:maven-artifact-manager:pom:2.0.10 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases), apache.snapshots (http://repository.apache.org/snapshots, default, snapshots)]
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact-manager/2.0.10/maven-artifact-manager-2.0.10.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact-manager/2.0.10/maven-artifact-manager-2.0.10.pom (0 B at 0 B/s)
+[INFO] Artifact org.apache.maven:maven-repository-metadata:pom:2.0.10 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases), apache.snapshots (http://repository.apache.org/snapshots, default, snapshots)]
+[INFO] Artifact org.apache.maven:maven-repository-metadata:pom:2.0.10 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases), apache.snapshots (http://repository.apache.org/snapshots, default, snapshots)]
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/2.0.10/maven-repository-metadata-2.0.10.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/2.0.10/maven-repository-metadata-2.0.10.pom (0 B at 0 B/s)
+[INFO] Artifact org.apache.maven:maven-artifact:pom:2.0.10 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases), apache.snapshots (http://repository.apache.org/snapshots, default, snapshots)]
+[INFO] Artifact org.apache.maven:maven-artifact:pom:2.0.10 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases), apache.snapshots (http://repository.apache.org/snapshots, default, snapshots)]
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/2.0.10/maven-artifact-2.0.10.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/2.0.10/maven-artifact-2.0.10.pom (0 B at 0 B/s)
+[INFO] Artifact org.apache.maven:maven-plugin-registry:pom:2.0.10 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases), apache.snapshots (http://repository.apache.org/snapshots, default, snapshots)]
+[INFO] Artifact org.apache.maven:maven-plugin-registry:pom:2.0.10 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases), apache.snapshots (http://repository.apache.org/snapshots, default, snapshots)]
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-registry/2.0.10/maven-plugin-registry-2.0.10.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-registry/2.0.10/maven-plugin-registry-2.0.10.pom (0 B at 0 B/s)
+[INFO] Artifact org.apache.maven:maven-plugin-api:pom:2.0.10 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases), apache.snapshots (http://repository.apache.org/snapshots, default, snapshots)]
+[INFO] Artifact org.apache.maven:maven-plugin-api:pom:2.0.10 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases), apache.snapshots (http://repository.apache.org/snapshots, default, snapshots)]
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/2.0.10/maven-plugin-api-2.0.10.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/2.0.10/maven-plugin-api-2.0.10.pom (0 B at 0 B/s)
+[INFO] Artifact org.apache.maven.doxia:doxia-sink-api:pom:1.1.2 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases), apache.snapshots (http://repository.apache.org/snapshots, default, snapshots)]
+[INFO] Artifact org.apache.maven.doxia:doxia-sink-api:pom:1.1.2 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases), apache.snapshots (http://repository.apache.org/snapshots, default, snapshots)]
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.1.2/doxia-sink-api-1.1.2.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.1.2/doxia-sink-api-1.1.2.pom (0 B at 0 B/s)
+[INFO] Artifact org.apache.maven.doxia:doxia:pom:1.1.2 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases), apache.snapshots (http://repository.apache.org/snapshots, default, snapshots)]
+[INFO] Artifact org.apache.maven.doxia:doxia:pom:1.1.2 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases), apache.snapshots (http://repository.apache.org/snapshots, default, snapshots)]
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia/1.1.2/doxia-1.1.2.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia/1.1.2/doxia-1.1.2.pom (0 B at 0 B/s)
+[INFO] Artifact org.apache.maven.doxia:doxia-logging-api:pom:1.1.2 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases), apache.snapshots (http://repository.apache.org/snapshots, default, snapshots)]
+[INFO] Artifact org.apache.maven.doxia:doxia-logging-api:pom:1.1.2 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases), apache.snapshots (http://repository.apache.org/snapshots, default, snapshots)]
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-logging-api/1.1.2/doxia-logging-api-1.1.2.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-logging-api/1.1.2/doxia-logging-api-1.1.2.pom (0 B at 0 B/s)
+[INFO] Artifact org.apache.maven.doxia:doxia-core:pom:1.1.2 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases), apache.snapshots (http://repository.apache.org/snapshots, default, snapshots)]
+[INFO] Artifact org.apache.maven.doxia:doxia-core:pom:1.1.2 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases), apache.snapshots (http://repository.apache.org/snapshots, default, snapshots)]
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-core/1.1.2/doxia-core-1.1.2.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-core/1.1.2/doxia-core-1.1.2.pom (0 B at 0 B/s)
+[INFO] Artifact org.codehaus.plexus:plexus-utils:pom:1.5.12 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases), apache.snapshots (http://repository.apache.org/snapshots, default, snapshots)]
+[INFO] Artifact org.codehaus.plexus:plexus-utils:pom:1.5.12 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases), apache.snapshots (http://repository.apache.org/snapshots, default, snapshots)]
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.5.12/plexus-utils-1.5.12.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.5.12/plexus-utils-1.5.12.pom (0 B at 0 B/s)
+[INFO] Artifact org.apache.maven.doxia:doxia-site-renderer:pom:1.1.2 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases), apache.snapshots (http://repository.apache.org/snapshots, default, snapshots)]
+[INFO] Artifact org.apache.maven.doxia:doxia-site-renderer:pom:1.1.2 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases), apache.snapshots (http://repository.apache.org/snapshots, default, snapshots)]
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-site-renderer/1.1.2/doxia-site-renderer-1.1.2.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-site-renderer/1.1.2/doxia-site-renderer-1.1.2.pom (0 B)
+[INFO] Artifact org.apache.maven.doxia:doxia-sitetools:pom:1.1.2 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases), apache.snapshots (http://repository.apache.org/snapshots, default, snapshots)]
+[INFO] Artifact org.apache.maven.doxia:doxia-sitetools:pom:1.1.2 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases), apache.snapshots (http://repository.apache.org/snapshots, default, snapshots)]
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sitetools/1.1.2/doxia-sitetools-1.1.2.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sitetools/1.1.2/doxia-sitetools-1.1.2.pom (0 B at 0 B/s)
+[INFO] Artifact org.apache.maven.doxia:doxia-decoration-model:pom:1.1.2 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases), apache.snapshots (http://repository.apache.org/snapshots, default, snapshots)]
+[INFO] Artifact org.apache.maven.doxia:doxia-decoration-model:pom:1.1.2 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases), apache.snapshots (http://repository.apache.org/snapshots, default, snapshots)]
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-decoration-model/1.1.2/doxia-decoration-model-1.1.2.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-decoration-model/1.1.2/doxia-decoration-model-1.1.2.pom (0 B)
+[INFO] Artifact org.apache.maven.doxia:doxia-module-xhtml:pom:1.1.2 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases), apache.snapshots (http://repository.apache.org/snapshots, default, snapshots)]
+[INFO] Artifact org.apache.maven.doxia:doxia-module-xhtml:pom:1.1.2 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases), apache.snapshots (http://repository.apache.org/snapshots, default, snapshots)]
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-xhtml/1.1.2/doxia-module-xhtml-1.1.2.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-xhtml/1.1.2/doxia-module-xhtml-1.1.2.pom (0 B at 0 B/s)
+[INFO] Artifact org.apache.maven.doxia:doxia-modules:pom:1.1.2 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases), apache.snapshots (http://repository.apache.org/snapshots, default, snapshots)]
+[INFO] Artifact org.apache.maven.doxia:doxia-modules:pom:1.1.2 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases), apache.snapshots (http://repository.apache.org/snapshots, default, snapshots)]
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-modules/1.1.2/doxia-modules-1.1.2.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-modules/1.1.2/doxia-modules-1.1.2.pom (0 B at 0 B/s)
+[INFO] Artifact org.apache.maven.doxia:doxia-module-fml:pom:1.1.2 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases), apache.snapshots (http://repository.apache.org/snapshots, default, snapshots)]
+[INFO] Artifact org.apache.maven.doxia:doxia-module-fml:pom:1.1.2 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases), apache.snapshots (http://repository.apache.org/snapshots, default, snapshots)]
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-fml/1.1.2/doxia-module-fml-1.1.2.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-fml/1.1.2/doxia-module-fml-1.1.2.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.agent/0.8.6/org.jacoco.agent-0.8.6.pom
+Progress (1): 3.5 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.agent/0.8.6/org.jacoco.agent-0.8.6.pom (3.5 kB at 117 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.core/0.8.6/org.jacoco.core-0.8.6.pom
+Progress (1): 2.1 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.core/0.8.6/org.jacoco.core-0.8.6.pom (2.1 kB at 60 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/8.0.1/asm-8.0.1.pom
+Progress (1): 2.9 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/8.0.1/asm-8.0.1.pom (2.9 kB at 164 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/8.0.1/asm-commons-8.0.1.pom
+Progress (1): 3.7 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/8.0.1/asm-commons-8.0.1.pom (3.7 kB at 263 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/8.0.1/asm-tree-8.0.1.pom
+Progress (1): 3.1 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/8.0.1/asm-tree-8.0.1.pom (3.1 kB at 209 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-analysis/8.0.1/asm-analysis-8.0.1.pom
+Progress (1): 3.2 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-analysis/8.0.1/asm-analysis-8.0.1.pom (3.2 kB at 198 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.report/0.8.6/org.jacoco.report-0.8.6.pom
+Progress (1): 1.9 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.report/0.8.6/org.jacoco.report-0.8.6.pom (1.9 kB at 59 kB/s)
+[INFO] Artifact org.apache.maven.reporting:maven-reporting-impl:jar:2.1 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact org.apache.maven:maven-project:jar:2.0.10 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases), apache.snapshots (http://repository.apache.org/snapshots, default, snapshots)]
+[INFO] Artifact org.apache.maven:maven-profile:jar:2.0.10 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases), apache.snapshots (http://repository.apache.org/snapshots, default, snapshots)]
+[INFO] Artifact org.apache.maven:maven-plugin-registry:jar:2.0.10 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases), apache.snapshots (http://repository.apache.org/snapshots, default, snapshots)]
+[INFO] Artifact org.apache.maven.doxia:doxia-core:jar:1.1.2 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases), apache.snapshots (http://repository.apache.org/snapshots, default, snapshots)]
+[INFO] Artifact org.apache.maven.doxia:doxia-logging-api:jar:1.1.2 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases), apache.snapshots (http://repository.apache.org/snapshots, default, snapshots)]
+[INFO] Artifact org.apache.maven.doxia:doxia-site-renderer:jar:1.1.2 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases), apache.snapshots (http://repository.apache.org/snapshots, default, snapshots)]
+[INFO] Artifact org.apache.maven.doxia:doxia-decoration-model:jar:1.1.2 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases), apache.snapshots (http://repository.apache.org/snapshots, default, snapshots)]
+[INFO] Artifact org.apache.maven.doxia:doxia-module-xhtml:jar:1.1.2 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases), apache.snapshots (http://repository.apache.org/snapshots, default, snapshots)]
+[INFO] Artifact org.apache.maven.doxia:doxia-module-fml:jar:1.1.2 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases), apache.snapshots (http://repository.apache.org/snapshots, default, snapshots)]
+[INFO] Artifact org.apache.maven.reporting:maven-reporting-impl:jar:2.1 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact org.apache.maven:maven-project:jar:2.0.10 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases), apache.snapshots (http://repository.apache.org/snapshots, default, snapshots)]
+[INFO] Artifact org.apache.maven:maven-profile:jar:2.0.10 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases), apache.snapshots (http://repository.apache.org/snapshots, default, snapshots)]
+[INFO] Artifact org.apache.maven:maven-plugin-registry:jar:2.0.10 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases), apache.snapshots (http://repository.apache.org/snapshots, default, snapshots)]
+[INFO] Artifact org.apache.maven.doxia:doxia-core:jar:1.1.2 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases), apache.snapshots (http://repository.apache.org/snapshots, default, snapshots)]
+[INFO] Artifact org.apache.maven.doxia:doxia-logging-api:jar:1.1.2 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases), apache.snapshots (http://repository.apache.org/snapshots, default, snapshots)]
+[INFO] Artifact org.apache.maven.doxia:doxia-site-renderer:jar:1.1.2 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases), apache.snapshots (http://repository.apache.org/snapshots, default, snapshots)]
+[INFO] Artifact org.apache.maven.doxia:doxia-decoration-model:jar:1.1.2 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases), apache.snapshots (http://repository.apache.org/snapshots, default, snapshots)]
+[INFO] Artifact org.apache.maven.doxia:doxia-module-xhtml:jar:1.1.2 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases), apache.snapshots (http://repository.apache.org/snapshots, default, snapshots)]
+[INFO] Artifact org.apache.maven.doxia:doxia-module-fml:jar:1.1.2 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases), apache.snapshots (http://repository.apache.org/snapshots, default, snapshots)]
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-impl/2.1/maven-reporting-impl-2.1.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-impl/2.1/maven-reporting-impl-2.1.jar (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-project/2.0.10/maven-project-2.0.10.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-profile/2.0.10/maven-profile-2.0.10.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-registry/2.0.10/maven-plugin-registry-2.0.10.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-core/1.1.2/doxia-core-1.1.2.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-logging-api/1.1.2/doxia-logging-api-1.1.2.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-registry/2.0.10/maven-plugin-registry-2.0.10.jar (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-site-renderer/1.1.2/doxia-site-renderer-1.1.2.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-profile/2.0.10/maven-profile-2.0.10.jar (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-decoration-model/1.1.2/doxia-decoration-model-1.1.2.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-project/2.0.10/maven-project-2.0.10.jar (0 B at 0 B/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-core/1.1.2/doxia-core-1.1.2.jar (0 B at 0 B/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-logging-api/1.1.2/doxia-logging-api-1.1.2.jar (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-fml/1.1.2/doxia-module-fml-1.1.2.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-xhtml/1.1.2/doxia-module-xhtml-1.1.2.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.agent/0.8.6/org.jacoco.agent-0.8.6-runtime.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-site-renderer/1.1.2/doxia-site-renderer-1.1.2.jar (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.core/0.8.6/org.jacoco.core-0.8.6.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-xhtml/1.1.2/doxia-module-xhtml-1.1.2.jar (0 B at 0 B/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-fml/1.1.2/doxia-module-fml-1.1.2.jar (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/8.0.1/asm-commons-8.0.1.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/8.0.1/asm-8.0.1.jar
+Progress (1): 16/72 kB
+Progress (2): 16/72 kB | 16/199 kB
+Progress (2): 16/72 kB | 33/199 kB
+Progress (3): 16/72 kB | 33/199 kB | 16/122 kB
+Progress (3): 32/72 kB | 33/199 kB | 16/122 kB
+Progress (3): 32/72 kB | 49/199 kB | 16/122 kB
+Progress (3): 49/72 kB | 49/199 kB | 16/122 kB
+Progress (4): 49/72 kB | 49/199 kB | 16/122 kB | 16/292 kB
+                                                          
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-decoration-model/1.1.2/doxia-decoration-model-1.1.2.jar (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-analysis/8.0.1/asm-analysis-8.0.1.jar
+Progress (4): 49/72 kB | 49/199 kB | 32/122 kB | 16/292 kB
+Progress (4): 65/72 kB | 49/199 kB | 32/122 kB | 16/292 kB
+Progress (4): 72 kB | 49/199 kB | 32/122 kB | 16/292 kB   
+Progress (4): 72 kB | 66/199 kB | 32/122 kB | 16/292 kB
+Progress (4): 72 kB | 66/199 kB | 49/122 kB | 16/292 kB
+Progress (4): 72 kB | 82/199 kB | 49/122 kB | 16/292 kB
+Progress (4): 72 kB | 82/199 kB | 49/122 kB | 32/292 kB
+                                                       
+Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/8.0.1/asm-commons-8.0.1.jar (72 kB at 1.5 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/8.0.1/asm-tree-8.0.1.jar
+Progress (3): 98/199 kB | 49/122 kB | 32/292 kB
+Progress (3): 98/199 kB | 65/122 kB | 32/292 kB
+Progress (3): 115/199 kB | 65/122 kB | 32/292 kB
+Progress (3): 115/199 kB | 65/122 kB | 49/292 kB
+Progress (3): 115/199 kB | 81/122 kB | 49/292 kB
+Progress (3): 131/199 kB | 81/122 kB | 49/292 kB
+Progress (4): 131/199 kB | 81/122 kB | 49/292 kB | 16/33 kB
+Progress (4): 131/199 kB | 98/122 kB | 49/292 kB | 16/33 kB
+Progress (4): 131/199 kB | 98/122 kB | 65/292 kB | 16/33 kB
+Progress (4): 131/199 kB | 98/122 kB | 65/292 kB | 33/33 kB
+Progress (4): 131/199 kB | 98/122 kB | 65/292 kB | 33 kB   
+Progress (4): 147/199 kB | 98/122 kB | 65/292 kB | 33 kB
+Progress (4): 164/199 kB | 98/122 kB | 65/292 kB | 33 kB
+Progress (5): 164/199 kB | 98/122 kB | 65/292 kB | 33 kB | 16/53 kB
+Progress (5): 164/199 kB | 98/122 kB | 81/292 kB | 33 kB | 16/53 kB
+Progress (5): 164/199 kB | 98/122 kB | 81/292 kB | 33 kB | 32/53 kB
+                                                                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-analysis/8.0.1/asm-analysis-8.0.1.jar (33 kB at 471 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.report/0.8.6/org.jacoco.report-0.8.6.jar
+Progress (4): 164/199 kB | 114/122 kB | 81/292 kB | 32/53 kB
+Progress (4): 164/199 kB | 114/122 kB | 81/292 kB | 49/53 kB
+Progress (4): 164/199 kB | 114/122 kB | 81/292 kB | 53 kB   
+Progress (4): 164/199 kB | 122 kB | 81/292 kB | 53 kB    
+Progress (4): 180/199 kB | 122 kB | 81/292 kB | 53 kB
+Progress (4): 197/199 kB | 122 kB | 81/292 kB | 53 kB
+Progress (4): 199 kB | 122 kB | 81/292 kB | 53 kB    
+Progress (4): 199 kB | 122 kB | 98/292 kB | 53 kB
+                                                 
+Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/8.0.1/asm-8.0.1.jar (122 kB at 1.6 MB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/8.0.1/asm-tree-8.0.1.jar (53 kB at 658 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.core/0.8.6/org.jacoco.core-0.8.6.jar (199 kB at 2.5 MB/s)
+Progress (1): 114/292 kB
+Progress (1): 131/292 kB
+Progress (2): 131/292 kB | 16/129 kB
+Progress (2): 131/292 kB | 32/129 kB
+Progress (2): 147/292 kB | 32/129 kB
+Progress (2): 147/292 kB | 49/129 kB
+Progress (2): 163/292 kB | 49/129 kB
+Progress (2): 163/292 kB | 65/129 kB
+Progress (2): 163/292 kB | 81/129 kB
+Progress (2): 180/292 kB | 81/129 kB
+Progress (2): 180/292 kB | 98/129 kB
+Progress (2): 196/292 kB | 98/129 kB
+Progress (2): 196/292 kB | 114/129 kB
+Progress (2): 196/292 kB | 129 kB    
+Progress (2): 212/292 kB | 129 kB
+Progress (2): 229/292 kB | 129 kB
+                                 
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.report/0.8.6/org.jacoco.report-0.8.6.jar (129 kB at 1.1 MB/s)
+Progress (1): 245/292 kB
+Progress (1): 262/292 kB
+Progress (1): 278/292 kB
+Progress (1): 292 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.agent/0.8.6/org.jacoco.agent-0.8.6-runtime.jar (292 kB at 2.1 MB/s)
+[INFO] argLine set to -javaagent:C:\\Users\\Yogya\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.8.6\\org.jacoco.agent-0.8.6-runtime.jar=destfile=C:\\Users\\Yogya\\Documents\\KTH\\BreakingUpdates\\breaking-updates\\tempProject\\12684ee6cfd293b27c08495f97900bcd849b452c\\cucumber-reporting\\target\\jacoco.exec
+[INFO] 
+[INFO] --- resources:3.3.0:resources (default-resources) @ cucumber-reporting ---
+[INFO] Copying 58 resources
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ cucumber-reporting ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 59 source files to C:\Users\Yogya\Documents\KTH\BreakingUpdates\breaking-updates\tempProject\12684ee6cfd293b27c08495f97900bcd849b452c\cucumber-reporting\target\classes
+[INFO] 
+[INFO] --- dependency:2.8:tree (default-cli) @ cucumber-reporting ---
+[INFO] net.masterthought:cucumber-reporting:jar:5.7.6-SNAPSHOT
+[INFO] +- com.fasterxml.jackson.core:jackson-databind:jar:2.13.2.2:compile
+[INFO] |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.13.2:compile
+[INFO] |  \- com.fasterxml.jackson.core:jackson-core:jar:2.13.2:compile
+[INFO] +- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.13.2:compile
+[INFO] +- org.apache.velocity:velocity-engine-core:jar:2.3:compile
+[INFO] |  \- org.slf4j:slf4j-api:jar:1.7.30:compile
+[INFO] +- joda-time:joda-time:jar:2.12.2:compile
+[INFO] +- org.apache.commons:commons-lang3:jar:3.12.0:compile
+[INFO] +- commons-io:commons-io:jar:2.7:compile
+[INFO] +- org.codehaus.plexus:plexus-utils:jar:3.5.0:compile
+[INFO] +- org.jsoup:jsoup:jar:1.15.4:compile
+[INFO] +- com.googlecode.owasp-java-html-sanitizer:owasp-java-html-sanitizer:jar:20220608.1:compile
+[INFO] |  \- com.google.guava:guava:jar:30.1-jre:compile
+[INFO] |     +- com.google.guava:failureaccess:jar:1.0.1:compile
+[INFO] |     +- com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:compile
+[INFO] |     +- com.google.code.findbugs:jsr305:jar:3.0.2:compile
+[INFO] |     +- org.checkerframework:checker-qual:jar:3.5.0:compile
+[INFO] |     +- com.google.errorprone:error_prone_annotations:jar:2.3.4:compile
+[INFO] |     \- com.google.j2objc:j2objc-annotations:jar:1.3:compile
+[INFO] +- junit:junit:jar:4.13.2:test
+[INFO] |  \- org.hamcrest:hamcrest-core:jar:1.3:test
+[INFO] +- org.jmockit:jmockit:jar:1.34:test
+[INFO] +- org.powermock:powermock-api-mockito:jar:1.7.3:test
+[INFO] |  +- org.powermock:powermock-api-mockito-common:jar:1.7.3:test
+[INFO] |  |  \- org.powermock:powermock-api-support:jar:1.7.3:test
+[INFO] |  \- org.mockito:mockito-core:jar:1.10.19:test
+[INFO] |     \- org.objenesis:objenesis:jar:2.1:test
+[INFO] +- org.powermock:powermock-module-junit4:jar:1.7.3:test
+[INFO] |  \- org.powermock:powermock-module-junit4-common:jar:1.7.3:test
+[INFO] |     +- org.powermock:powermock-reflect:jar:1.7.3:test
+[INFO] |     \- org.powermock:powermock-core:jar:1.7.3:test
+[INFO] |        \- org.javassist:javassist:jar:3.21.0-GA:test
+[INFO] +- org.assertj:assertj-core:jar:3.24.2:test
+[INFO] |  \- net.bytebuddy:byte-buddy:jar:1.12.21:test
+[INFO] \- commons-configuration:commons-configuration:jar:1.10:compile
+[INFO]    +- commons-lang:commons-lang:jar:2.6:compile
+[INFO]    \- commons-logging:commons-logging:jar:1.1.1:compile
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  13.208 s
+[INFO] Finished at: 2023-09-12T22:26:26+02:00
+[INFO] ------------------------------------------------------------------------
+[WARNING] 
+[WARNING] Plugin validation issues were detected in 6 plugin(s)
+[WARNING] 
+[WARNING]  * org.apache.maven.plugins:maven-site-plugin:3.12.1
+[WARNING]  * org.jacoco:jacoco-maven-plugin:0.8.6
+[WARNING]  * org.apache.maven.plugins:maven-compiler-plugin:3.8.1
+[WARNING]  * org.apache.maven.plugins:maven-dependency-plugin:2.8
+[WARNING]  * org.apache.maven.plugins:maven-resources-plugin:3.3.0
+[WARNING]  * org.apache.maven.plugins:maven-enforcer-plugin:1.0
+[WARNING] 
+[WARNING] For more or less details, use 'maven.plugin.validation' property with one of the values (case insensitive): [BRIEF, DEFAULT, VERBOSE]
+[WARNING] 

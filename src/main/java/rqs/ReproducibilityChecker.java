@@ -100,7 +100,7 @@ public class ReproducibilityChecker {
                 e.printStackTrace();
             }
         }
-        Map<String, Map<String, Integer>> depCountResults = JsonUtils.readFromNullableFile(depCountResultsFilePath,
+        Map<String, Map<String, Object>> depCountResults = JsonUtils.readFromNullableFile(depCountResultsFilePath,
                 depCountJsonType);
         if (depCountResults == null) {
             depCountResults = new HashMap<>();
@@ -109,7 +109,7 @@ public class ReproducibilityChecker {
         if (breakingUpdates != null) {
             for (File breakingUpdate : breakingUpdates) {
                 Map<String, Object> bu = JsonUtils.readFromFile(breakingUpdate.toPath(), buJsonType);
-                Map<String, Integer> depCount = new HashMap<>();
+                Map<String, Object> depCount = new HashMap<>();
 
                 String prevImage = REGISTRY + ":" + bu.get("breakingCommit") + PRECEDING_COMMIT_CONTAINER_TAG;
                 String breakingImage = REGISTRY + ":" + bu.get("breakingCommit") + BREAKING_UPDATE_CONTAINER_TAG;
@@ -131,13 +131,23 @@ public class ReproducibilityChecker {
                     ReproducibleBreakingUpdate.FailureCategory failureCategory =
                             ReproducibleBreakingUpdate.FailureCategory.valueOf((String) bu.get("failureCategory"));
                     Boolean isReproducible = isReproducible(failureCategory, (String) bu.get("project"), projectPath,
-                            prevImage, breakingImage);
+                            prevImage, breakingImage, (String) bu.get("breakingCommit"));
                     reproducibilityResults.put((String) bu.get("breakingCommit"), isReproducible);
 
                     projectCopied = true;
 
                     JsonUtils.writeToFile(reproducibilityResultsFilePath, reproducibilityResults);
                 }
+
+//                if (depCountResults.containsKey(bu.get("projectOrganisation") + "/" + bu.get("project")) &&
+//                        (depCountResults.get(bu.get("projectOrganisation") + "/" + bu.get("project"))).get("buCommit") == null) {
+//                    System.out.println("awa" + bu.get("projectOrganisation") + "/" + bu.get("project"));
+//                    depCount.put("directCount", depCountResults.get(bu.get("projectOrganisation") + "/" + bu.get("project")).get("directCount"));
+//                    depCount.put("transitiveCount", depCountResults.get(bu.get("projectOrganisation") + "/" + bu.get("project")).get("transitiveCount"));
+//                    depCount.put("buCommit", bu.get("breakingCommit"));
+//                    depCountResults.put(bu.get("projectOrganisation") + "/" + bu.get("project"), depCount);
+//                    JsonUtils.writeToFile(depCountResultsFilePath, depCountResults);
+//                }
 
                 // Run dependency counter.
                 if (!depCountResults.containsKey(bu.get("projectOrganisation") + "/" + bu.get("project"))) {
@@ -146,6 +156,7 @@ public class ReproducibilityChecker {
                     DependencyCounts allDepCounts = countDependencies(treeFile);
                     depCount.put("directCount", allDepCounts.directCount);
                     depCount.put("transitiveCount", allDepCounts.transitiveCount);
+                    depCount.put("buCommit", (String) bu.get("breakingCommit"));
                     depCountResults.put(bu.get("projectOrganisation") + "/" + bu.get("project"), depCount);
 
                     JsonUtils.writeToFile(depCountResultsFilePath, depCountResults);
@@ -157,23 +168,24 @@ public class ReproducibilityChecker {
     }
 
     private Boolean isReproducible(ReproducibleBreakingUpdate.FailureCategory failureCategory, String project,
-                                   Path copyDir, String prevImage, String breakingImage) {
+                                   Path copyDir, String prevImage, String breakingImage, String buCommit) {
         Map.Entry<String, Boolean> prevContainer = startContainer(prevImage, true, project);
         Map.Entry<String, Boolean> breakingContainer = startContainer(breakingImage, false, project);
         if (prevContainer == null || breakingContainer == null)
             return null;
         Path copiedProjectPath = copyProject(prevContainer.getKey(), project, copyDir);
-        if (!prevContainer.getValue() || !breakingContainer.getValue())
-            return false;
-        Path logFolder = Path.of(copyDir + File.separator + project);
-        if (copiedProjectPath == null && Files.notExists(logFolder)) {
+        Path logFolder = Path.of( "src//main//java//rqs//logs" + File.separator + buCommit);
+        if (Files.notExists(logFolder)) {
             try {
                 Files.createDirectory(logFolder);
             } catch (IOException e) {
                 log.error("Could not create project directory to save log file.", e);
             }
         }
-        Path logFilePath = storeLogFile(project, breakingContainer.getKey(), logFolder);
+        storeLogFile(project, prevContainer.getKey(), logFolder, "prevCommitOutput.log");
+        Path logFilePath = storeLogFile(project, breakingContainer.getKey(), logFolder, "breakingCommitOutput.log");
+        if (!prevContainer.getValue() || !breakingContainer.getValue())
+            return false;
         if (logFilePath != null) {
             return getFailureCategory(logFilePath).equals(failureCategory);
         }
@@ -217,14 +229,14 @@ public class ReproducibilityChecker {
         return Map.entry(containerId, true);
     }
 
-    private Path storeLogFile(String project, String containerId, Path outputDir) {
-        Path logOutputLocation = outputDir.resolve("breakingCommitOutput.log");
+    private Path storeLogFile(String project, String containerId, Path outputDir, String filename) {
+        Path logOutputLocation = outputDir.resolve(filename);
         String logLocation = "/%s/output.log".formatted(project);
         try (InputStream logStream = dockerClient.copyArchiveFromContainerCmd(containerId, logLocation).exec()) {
             byte[] fileContent = logStream.readAllBytes();
             Files.write(logOutputLocation, fileContent);
             return logOutputLocation;
-        } catch (IOException e) {
+        } catch (Exception e) {
             log.error("Could not store the log file for the project {}", project);
             return null;
         }
@@ -288,8 +300,6 @@ public class ReproducibilityChecker {
     }
 
     private static DependencyCounts countDependencies(File treeFile) {
-        int directCount = 0;
-        int transitiveCount = 0;
         Set<String> uniqueDirDependencies = new HashSet<>();
         Set<String> uniqueTranDependencies = new HashSet<>();
         try (BufferedReader reader = new BufferedReader(new FileReader(treeFile))) {
@@ -301,7 +311,6 @@ public class ReproducibilityChecker {
                         String dependency = parts[0] + ":" + parts[1] + ":" + parts[2] + ":" + parts[3];
                         uniqueDirDependencies.add(dependency);
                     }
-                    directCount++;
                 } else if (line.matches("\\[INFO] \\| .*") || line.matches("\\[INFO]    \\+- .*") ||
                         line.matches("\\[INFO]    \\| .*") || line.matches("\\[INFO]    \\\\- .*")) {
                     String[] parts = line.split("- ")[1].split(":");
@@ -309,7 +318,6 @@ public class ReproducibilityChecker {
                         String dependency = parts[0] + ":" + parts[1] + ":" + parts[2] + ":" + parts[3];
                         uniqueTranDependencies.add(dependency);
                     }
-                    transitiveCount++;
                 }
             }
         } catch (IOException e) {
@@ -340,17 +348,8 @@ public class ReproducibilityChecker {
 
     private void removeProject(String prevImage, String breakingImage, Path projectPath) {
         try {
-            for (String container : containers) {
-                dockerClient.stopContainerCmd(container).exec();
-                dockerClient.removeContainerCmd(container).exec();
-            }
-            containers.clear();
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-        dockerClient.removeImageCmd(prevImage).withForce(true).exec();
-        dockerClient.removeImageCmd(breakingImage).withForce(true).exec();
-        try {
+            dockerClient.removeImageCmd(prevImage).withForce(true).exec();
+            dockerClient.removeImageCmd(breakingImage).withForce(true).exec();
             FileUtils.forceDelete(new File(projectPath.toUri()));
         } catch (Exception e) {
             log.error("Project {} could not be deleted.", projectPath, e);

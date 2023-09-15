@@ -1,0 +1,2945 @@
+[INFO] Scanning for projects...
+[INFO] Inspecting build with total of 9 modules...
+[INFO] Installing Nexus Staging features:
+[INFO]   ... total of 9 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] scheduler                                                          [pom]
+[INFO] scheduler-api                                                      [jar]
+[INFO] scheduler-json                                                     [jar]
+[INFO] scheduler-choco                                                    [jar]
+[INFO] scheduler-examples                                                 [jar]
+[INFO] btrpsl                                                             [jar]
+[INFO] safeplace                                                          [jar]
+[INFO] bench                                                              [jar]
+[INFO] scheduler-split                                                    [jar]
+[INFO] 
+[INFO] -----------------------< org.btrplace:scheduler >-----------------------
+[INFO] Building scheduler 1.12.1-SNAPSHOT                                 [1/9]
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+Downloading from sonatype: https://oss.sonatype.org/service/local/staging/deploy/maven2/org/testng/testng/7.3.0/testng-7.3.0.pom
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/org/testng/testng/7.3.0/testng-7.3.0.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/testng/testng/7.3.0/testng-7.3.0.pom
+Progress (1): 1.4/2.4 kB
+Progress (1): 2.4 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/testng/testng/7.3.0/testng-7.3.0.pom (2.4 kB at 17 kB/s)
+Downloading from sonatype: https://oss.sonatype.org/service/local/staging/deploy/maven2/com/beust/jcommander/1.78/jcommander-1.78.pom
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/com/beust/jcommander/1.78/jcommander-1.78.pom
+Downloading from central: https://repo.maven.apache.org/maven2/com/beust/jcommander/1.78/jcommander-1.78.pom
+Progress (1): 1.2 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/beust/jcommander/1.78/jcommander-1.78.pom (1.2 kB at 34 kB/s)
+Downloading from sonatype: https://oss.sonatype.org/service/local/staging/deploy/maven2/org/apache/ant/ant/1.10.3/ant-1.10.3.pom
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/org/apache/ant/ant/1.10.3/ant-1.10.3.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/ant/ant/1.10.3/ant-1.10.3.pom
+Progress (1): 1.4/10 kB
+Progress (1): 2.7/10 kB
+Progress (1): 4.1/10 kB
+Progress (1): 5.5/10 kB
+Progress (1): 6.9/10 kB
+Progress (1): 8.2/10 kB
+Progress (1): 9.6/10 kB
+Progress (1): 10 kB    
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/ant/ant/1.10.3/ant-1.10.3.pom (10 kB at 239 kB/s)
+Downloading from sonatype: https://oss.sonatype.org/service/local/staging/deploy/maven2/org/apache/ant/ant-parent/1.10.3/ant-parent-1.10.3.pom
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/org/apache/ant/ant-parent/1.10.3/ant-parent-1.10.3.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/ant/ant-parent/1.10.3/ant-parent-1.10.3.pom
+Progress (1): 1.4/5.7 kB
+Progress (1): 2.7/5.7 kB
+Progress (1): 4.1/5.7 kB
+Progress (1): 5.5/5.7 kB
+Progress (1): 5.7 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/ant/ant-parent/1.10.3/ant-parent-1.10.3.pom (5.7 kB at 173 kB/s)
+Downloading from sonatype: https://oss.sonatype.org/service/local/staging/deploy/maven2/org/apache/ant/ant-launcher/1.10.3/ant-launcher-1.10.3.pom
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/org/apache/ant/ant-launcher/1.10.3/ant-launcher-1.10.3.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/ant/ant-launcher/1.10.3/ant-launcher-1.10.3.pom
+Progress (1): 1.4/2.3 kB
+Progress (1): 2.3 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/ant/ant-launcher/1.10.3/ant-launcher-1.10.3.pom (2.3 kB at 87 kB/s)
+Downloading from sonatype: https://oss.sonatype.org/service/local/staging/deploy/maven2/org/yaml/snakeyaml/1.21/snakeyaml-1.21.pom
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/org/yaml/snakeyaml/1.21/snakeyaml-1.21.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/yaml/snakeyaml/1.21/snakeyaml-1.21.pom
+Progress (1): 1.4/38 kB
+Progress (1): 2.7/38 kB
+Progress (1): 4.1/38 kB
+Progress (1): 5.5/38 kB
+Progress (1): 6.9/38 kB
+Progress (1): 8.2/38 kB
+Progress (1): 9.6/38 kB
+Progress (1): 11/38 kB 
+Progress (1): 12/38 kB
+Progress (1): 14/38 kB
+Progress (1): 15/38 kB
+Progress (1): 16/38 kB
+Progress (1): 17/38 kB
+Progress (1): 19/38 kB
+Progress (1): 20/38 kB
+Progress (1): 21/38 kB
+Progress (1): 23/38 kB
+Progress (1): 24/38 kB
+Progress (1): 25/38 kB
+Progress (1): 27/38 kB
+Progress (1): 28/38 kB
+Progress (1): 30/38 kB
+Progress (1): 31/38 kB
+Progress (1): 32/38 kB
+Progress (1): 34/38 kB
+Progress (1): 35/38 kB
+Progress (1): 36/38 kB
+Progress (1): 38/38 kB
+Progress (1): 38 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/yaml/snakeyaml/1.21/snakeyaml-1.21.pom (38 kB at 461 kB/s)
+Downloading from sonatype: https://oss.sonatype.org/service/local/staging/deploy/maven2/org/openjdk/jmh/jmh-core/1.33/jmh-core-1.33.pom
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/org/openjdk/jmh/jmh-core/1.33/jmh-core-1.33.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/openjdk/jmh/jmh-core/1.33/jmh-core-1.33.pom
+Progress (1): 9.6 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/openjdk/jmh/jmh-core/1.33/jmh-core-1.33.pom (9.6 kB at 331 kB/s)
+Downloading from sonatype: https://oss.sonatype.org/service/local/staging/deploy/maven2/org/openjdk/jmh/jmh-parent/1.33/jmh-parent-1.33.pom
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/org/openjdk/jmh/jmh-parent/1.33/jmh-parent-1.33.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/openjdk/jmh/jmh-parent/1.33/jmh-parent-1.33.pom
+Progress (1): 11 kB
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/openjdk/jmh/jmh-parent/1.33/jmh-parent-1.33.pom (11 kB at 522 kB/s)
+[INFO] Artifact net.sf.jopt-simple:jopt-simple:pom:4.6 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [sonatype (https://oss.sonatype.org/service/local/staging/deploy/maven2, default, releases+snapshots), sonatype-snapshots (https://oss.sonatype.org/content/repositories/snapshots, default, releases+snapshots), central (https://repo.maven.apache.org/maven2, default, releases), java.net (http://download.java.net/maven/2, default, releases+snapshots)]
+[INFO] Artifact net.sf.jopt-simple:jopt-simple:pom:4.6 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [sonatype (https://oss.sonatype.org/service/local/staging/deploy/maven2, default, releases+snapshots), sonatype-snapshots (https://oss.sonatype.org/content/repositories/snapshots, default, releases+snapshots), central (https://repo.maven.apache.org/maven2, default, releases), java.net (http://download.java.net/maven/2, default, releases+snapshots)]
+Downloading from sonatype: https://oss.sonatype.org/service/local/staging/deploy/maven2/net/sf/jopt-simple/jopt-simple/4.6/jopt-simple-4.6.pom
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/net/sf/jopt-simple/jopt-simple/4.6/jopt-simple-4.6.pom
+Downloading from central: https://repo.maven.apache.org/maven2/net/sf/jopt-simple/jopt-simple/4.6/jopt-simple-4.6.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/net/sf/jopt-simple/jopt-simple/4.6/jopt-simple-4.6.pom (0 B at 0 B/s)
+Downloading from sonatype: https://oss.sonatype.org/service/local/staging/deploy/maven2/org/openjdk/jmh/jmh-generator-annprocess/1.33/jmh-generator-annprocess-1.33.pom
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/org/openjdk/jmh/jmh-generator-annprocess/1.33/jmh-generator-annprocess-1.33.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/openjdk/jmh/jmh-generator-annprocess/1.33/jmh-generator-annprocess-1.33.pom
+Progress (1): 3.8 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/openjdk/jmh/jmh-generator-annprocess/1.33/jmh-generator-annprocess-1.33.pom (3.8 kB at 85 kB/s)
+[INFO] Artifact net.sf.jopt-simple:jopt-simple:jar:4.6 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [sonatype (https://oss.sonatype.org/service/local/staging/deploy/maven2, default, releases+snapshots), sonatype-snapshots (https://oss.sonatype.org/content/repositories/snapshots, default, releases+snapshots), central (https://repo.maven.apache.org/maven2, default, releases), java.net (http://download.java.net/maven/2, default, releases+snapshots)]
+[INFO] Artifact net.sf.jopt-simple:jopt-simple:jar:4.6 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [sonatype (https://oss.sonatype.org/service/local/staging/deploy/maven2, default, releases+snapshots), sonatype-snapshots (https://oss.sonatype.org/content/repositories/snapshots, default, releases+snapshots), central (https://repo.maven.apache.org/maven2, default, releases), java.net (http://download.java.net/maven/2, default, releases+snapshots)]
+Downloading from sonatype: https://oss.sonatype.org/service/local/staging/deploy/maven2/org/testng/testng/7.3.0/testng-7.3.0.jar
+Downloading from sonatype: https://oss.sonatype.org/service/local/staging/deploy/maven2/com/beust/jcommander/1.78/jcommander-1.78.jar
+Downloading from sonatype: https://oss.sonatype.org/service/local/staging/deploy/maven2/org/apache/ant/ant-launcher/1.10.3/ant-launcher-1.10.3.jar
+Downloading from sonatype: https://oss.sonatype.org/service/local/staging/deploy/maven2/org/yaml/snakeyaml/1.21/snakeyaml-1.21.jar
+Downloading from sonatype: https://oss.sonatype.org/service/local/staging/deploy/maven2/org/openjdk/jmh/jmh-core/1.33/jmh-core-1.33.jar
+Downloading from sonatype: https://oss.sonatype.org/service/local/staging/deploy/maven2/org/apache/ant/ant/1.10.3/ant-1.10.3.jar
+Downloading from sonatype: https://oss.sonatype.org/service/local/staging/deploy/maven2/net/sf/jopt-simple/jopt-simple/4.6/jopt-simple-4.6.jar
+Downloading from sonatype: https://oss.sonatype.org/service/local/staging/deploy/maven2/org/openjdk/jmh/jmh-generator-annprocess/1.33/jmh-generator-annprocess-1.33.jar
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/org/testng/testng/7.3.0/testng-7.3.0.jar
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/com/beust/jcommander/1.78/jcommander-1.78.jar
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/org/apache/ant/ant/1.10.3/ant-1.10.3.jar
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/org/yaml/snakeyaml/1.21/snakeyaml-1.21.jar
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/org/apache/ant/ant-launcher/1.10.3/ant-launcher-1.10.3.jar
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/org/openjdk/jmh/jmh-core/1.33/jmh-core-1.33.jar
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/net/sf/jopt-simple/jopt-simple/4.6/jopt-simple-4.6.jar
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/org/openjdk/jmh/jmh-generator-annprocess/1.33/jmh-generator-annprocess-1.33.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/testng/testng/7.3.0/testng-7.3.0.jar
+Progress (1): 16/922 kB
+Progress (1): 33/922 kB
+Progress (1): 49/922 kB
+Progress (1): 66/922 kB
+Progress (1): 82/922 kB
+Progress (1): 98/922 kB
+Progress (1): 115/922 kB
+Progress (1): 131/922 kB
+Progress (1): 147/922 kB
+Progress (1): 164/922 kB
+Progress (1): 180/922 kB
+Progress (1): 197/922 kB
+Progress (1): 213/922 kB
+Progress (1): 229/922 kB
+Progress (1): 246/922 kB
+Progress (1): 262/922 kB
+Progress (1): 279/922 kB
+Progress (1): 295/922 kB
+Progress (1): 311/922 kB
+Progress (1): 328/922 kB
+Progress (1): 344/922 kB
+Progress (1): 360/922 kB
+Progress (1): 377/922 kB
+Progress (1): 393/922 kB
+Progress (1): 410/922 kB
+Progress (1): 426/922 kB
+Progress (1): 442/922 kB
+Progress (1): 459/922 kB
+Progress (1): 475/922 kB
+Progress (1): 492/922 kB
+Progress (1): 508/922 kB
+Progress (1): 524/922 kB
+Progress (1): 541/922 kB
+Progress (1): 557/922 kB
+Progress (1): 573/922 kB
+Progress (1): 590/922 kB
+Progress (1): 606/922 kB
+Progress (1): 623/922 kB
+Progress (1): 639/922 kB
+Progress (1): 655/922 kB
+Progress (1): 672/922 kB
+Progress (1): 688/922 kB
+Progress (1): 705/922 kB
+Progress (1): 721/922 kB
+Progress (1): 737/922 kB
+Progress (1): 754/922 kB
+Progress (1): 770/922 kB
+Progress (1): 786/922 kB
+Progress (1): 803/922 kB
+Progress (1): 819/922 kB
+Progress (1): 836/922 kB
+Progress (1): 841/922 kB
+Progress (1): 857/922 kB
+Progress (1): 873/922 kB
+Progress (1): 890/922 kB
+Progress (1): 906/922 kB
+Progress (1): 922 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/testng/testng/7.3.0/testng-7.3.0.jar (922 kB at 5.0 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/beust/jcommander/1.78/jcommander-1.78.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/ant/ant/1.10.3/ant-1.10.3.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/ant/ant-launcher/1.10.3/ant-launcher-1.10.3.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/yaml/snakeyaml/1.21/snakeyaml-1.21.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/openjdk/jmh/jmh-core/1.33/jmh-core-1.33.jar
+Progress (1): 16/19 kB
+Progress (1): 19 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/ant/ant-launcher/1.10.3/ant-launcher-1.10.3.jar (19 kB at 695 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/net/sf/jopt-simple/jopt-simple/4.6/jopt-simple-4.6.jar
+Progress (1): 16/299 kB
+                       
+Downloaded from central: https://repo.maven.apache.org/maven2/net/sf/jopt-simple/jopt-simple/4.6/jopt-simple-4.6.jar (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/openjdk/jmh/jmh-generator-annprocess/1.33/jmh-generator-annprocess-1.33.jar
+Progress (1): 33/299 kB
+Progress (1): 49/299 kB
+Progress (1): 66/299 kB
+Progress (1): 82/299 kB
+Progress (1): 98/299 kB
+Progress (1): 115/299 kB
+Progress (2): 115/299 kB | 0/2.2 MB
+Progress (2): 115/299 kB | 0/2.2 MB
+Progress (2): 115/299 kB | 0/2.2 MB
+Progress (2): 115/299 kB | 0/2.2 MB
+Progress (2): 115/299 kB | 0/2.2 MB
+Progress (2): 115/299 kB | 0/2.2 MB
+Progress (3): 115/299 kB | 0/2.2 MB | 16/84 kB
+Progress (3): 115/299 kB | 0/2.2 MB | 33/84 kB
+Progress (3): 115/299 kB | 0/2.2 MB | 33/84 kB
+Progress (4): 115/299 kB | 0/2.2 MB | 33/84 kB | 16/31 kB
+Progress (4): 115/299 kB | 0/2.2 MB | 33/84 kB | 16/31 kB
+Progress (4): 115/299 kB | 0/2.2 MB | 33/84 kB | 31 kB   
+Progress (4): 131/299 kB | 0/2.2 MB | 33/84 kB | 31 kB
+Progress (4): 131/299 kB | 0/2.2 MB | 33/84 kB | 31 kB
+Progress (4): 131/299 kB | 0/2.2 MB | 33/84 kB | 31 kB
+Progress (4): 131/299 kB | 0/2.2 MB | 33/84 kB | 31 kB
+Progress (4): 131/299 kB | 0/2.2 MB | 33/84 kB | 31 kB
+Progress (4): 131/299 kB | 0/2.2 MB | 33/84 kB | 31 kB
+Progress (4): 147/299 kB | 0/2.2 MB | 33/84 kB | 31 kB
+Progress (4): 164/299 kB | 0/2.2 MB | 33/84 kB | 31 kB
+Progress (4): 180/299 kB | 0/2.2 MB | 33/84 kB | 31 kB
+Progress (4): 180/299 kB | 0/2.2 MB | 49/84 kB | 31 kB
+Progress (4): 180/299 kB | 0/2.2 MB | 49/84 kB | 31 kB
+                                                      
+Downloaded from central: https://repo.maven.apache.org/maven2/org/openjdk/jmh/jmh-generator-annprocess/1.33/jmh-generator-annprocess-1.33.jar (31 kB at 385 kB/s)
+Progress (3): 180/299 kB | 0/2.2 MB | 66/84 kB
+Progress (3): 197/299 kB | 0/2.2 MB | 66/84 kB
+Progress (3): 197/299 kB | 0.1/2.2 MB | 66/84 kB
+Progress (3): 213/299 kB | 0.1/2.2 MB | 66/84 kB
+Progress (3): 213/299 kB | 0.1/2.2 MB | 82/84 kB
+Progress (3): 229/299 kB | 0.1/2.2 MB | 82/84 kB
+Progress (3): 229/299 kB | 0.1/2.2 MB | 82/84 kB
+Progress (3): 246/299 kB | 0.1/2.2 MB | 82/84 kB
+Progress (3): 246/299 kB | 0.1/2.2 MB | 84 kB   
+Progress (3): 256/299 kB | 0.1/2.2 MB | 84 kB
+Progress (3): 256/299 kB | 0.1/2.2 MB | 84 kB
+Progress (3): 256/299 kB | 0.1/2.2 MB | 84 kB
+Progress (3): 256/299 kB | 0.1/2.2 MB | 84 kB
+                                             
+Downloaded from central: https://repo.maven.apache.org/maven2/com/beust/jcommander/1.78/jcommander-1.78.jar (84 kB at 762 kB/s)
+Progress (2): 256/299 kB | 0.1/2.2 MB
+Progress (2): 256/299 kB | 0.2/2.2 MB
+Progress (2): 256/299 kB | 0.2/2.2 MB
+Progress (2): 272/299 kB | 0.2/2.2 MB
+Progress (2): 289/299 kB | 0.2/2.2 MB
+Progress (2): 289/299 kB | 0.2/2.2 MB
+Progress (2): 299 kB | 0.2/2.2 MB    
+Progress (2): 299 kB | 0.2/2.2 MB
+Progress (2): 299 kB | 0.2/2.2 MB
+                                 
+Downloaded from central: https://repo.maven.apache.org/maven2/org/yaml/snakeyaml/1.21/snakeyaml-1.21.jar (299 kB at 2.1 MB/s)
+Progress (1): 0.2/2.2 MB
+Progress (1): 0.3/2.2 MB
+Progress (2): 0.3/2.2 MB | 16/539 kB
+Progress (2): 0.3/2.2 MB | 16/539 kB
+Progress (2): 0.3/2.2 MB | 16/539 kB
+Progress (2): 0.3/2.2 MB | 16/539 kB
+Progress (2): 0.3/2.2 MB | 16/539 kB
+Progress (2): 0.3/2.2 MB | 16/539 kB
+Progress (2): 0.4/2.2 MB | 16/539 kB
+Progress (2): 0.4/2.2 MB | 33/539 kB
+Progress (2): 0.4/2.2 MB | 33/539 kB
+Progress (2): 0.4/2.2 MB | 33/539 kB
+Progress (2): 0.4/2.2 MB | 33/539 kB
+Progress (2): 0.4/2.2 MB | 33/539 kB
+Progress (2): 0.4/2.2 MB | 33/539 kB
+Progress (2): 0.5/2.2 MB | 33/539 kB
+Progress (2): 0.5/2.2 MB | 33/539 kB
+Progress (2): 0.5/2.2 MB | 33/539 kB
+Progress (2): 0.5/2.2 MB | 33/539 kB
+Progress (2): 0.5/2.2 MB | 33/539 kB
+Progress (2): 0.5/2.2 MB | 33/539 kB
+Progress (2): 0.5/2.2 MB | 33/539 kB
+Progress (2): 0.6/2.2 MB | 33/539 kB
+Progress (2): 0.6/2.2 MB | 33/539 kB
+Progress (2): 0.6/2.2 MB | 33/539 kB
+Progress (2): 0.6/2.2 MB | 49/539 kB
+Progress (2): 0.6/2.2 MB | 66/539 kB
+Progress (2): 0.6/2.2 MB | 66/539 kB
+Progress (2): 0.6/2.2 MB | 82/539 kB
+Progress (2): 0.6/2.2 MB | 98/539 kB
+Progress (2): 0.6/2.2 MB | 98/539 kB
+Progress (2): 0.6/2.2 MB | 115/539 kB
+Progress (2): 0.6/2.2 MB | 115/539 kB
+Progress (2): 0.7/2.2 MB | 115/539 kB
+Progress (2): 0.7/2.2 MB | 115/539 kB
+Progress (2): 0.7/2.2 MB | 115/539 kB
+Progress (2): 0.7/2.2 MB | 131/539 kB
+Progress (2): 0.7/2.2 MB | 131/539 kB
+Progress (2): 0.7/2.2 MB | 147/539 kB
+Progress (2): 0.7/2.2 MB | 164/539 kB
+Progress (2): 0.7/2.2 MB | 180/539 kB
+Progress (2): 0.7/2.2 MB | 180/539 kB
+Progress (2): 0.7/2.2 MB | 197/539 kB
+Progress (2): 0.7/2.2 MB | 197/539 kB
+Progress (2): 0.7/2.2 MB | 213/539 kB
+Progress (2): 0.8/2.2 MB | 213/539 kB
+Progress (2): 0.8/2.2 MB | 229/539 kB
+Progress (2): 0.8/2.2 MB | 229/539 kB
+Progress (2): 0.8/2.2 MB | 246/539 kB
+Progress (2): 0.8/2.2 MB | 262/539 kB
+Progress (2): 0.8/2.2 MB | 262/539 kB
+Progress (2): 0.8/2.2 MB | 279/539 kB
+Progress (2): 0.8/2.2 MB | 295/539 kB
+Progress (2): 0.8/2.2 MB | 311/539 kB
+Progress (2): 0.8/2.2 MB | 311/539 kB
+Progress (2): 0.8/2.2 MB | 328/539 kB
+Progress (2): 0.8/2.2 MB | 344/539 kB
+Progress (2): 0.8/2.2 MB | 344/539 kB
+Progress (2): 0.8/2.2 MB | 360/539 kB
+Progress (2): 0.8/2.2 MB | 377/539 kB
+Progress (2): 0.8/2.2 MB | 393/539 kB
+Progress (2): 0.8/2.2 MB | 393/539 kB
+Progress (2): 0.8/2.2 MB | 410/539 kB
+Progress (2): 0.9/2.2 MB | 410/539 kB
+Progress (2): 0.9/2.2 MB | 410/539 kB
+Progress (2): 0.9/2.2 MB | 426/539 kB
+Progress (2): 0.9/2.2 MB | 426/539 kB
+Progress (2): 0.9/2.2 MB | 442/539 kB
+Progress (2): 0.9/2.2 MB | 442/539 kB
+Progress (2): 0.9/2.2 MB | 459/539 kB
+Progress (2): 0.9/2.2 MB | 459/539 kB
+Progress (2): 0.9/2.2 MB | 475/539 kB
+Progress (2): 0.9/2.2 MB | 475/539 kB
+Progress (2): 0.9/2.2 MB | 492/539 kB
+Progress (2): 0.9/2.2 MB | 492/539 kB
+Progress (2): 1.0/2.2 MB | 492/539 kB
+Progress (2): 1.0/2.2 MB | 492/539 kB
+Progress (2): 1.0/2.2 MB | 492/539 kB
+Progress (2): 1.0/2.2 MB | 492/539 kB
+Progress (2): 1.0/2.2 MB | 492/539 kB
+Progress (2): 1.0/2.2 MB | 492/539 kB
+Progress (2): 1.1/2.2 MB | 492/539 kB
+Progress (2): 1.1/2.2 MB | 492/539 kB
+Progress (2): 1.1/2.2 MB | 508/539 kB
+Progress (2): 1.1/2.2 MB | 524/539 kB
+Progress (2): 1.1/2.2 MB | 524/539 kB
+Progress (2): 1.1/2.2 MB | 539 kB    
+Progress (2): 1.1/2.2 MB | 539 kB
+                                 
+Downloaded from central: https://repo.maven.apache.org/maven2/org/openjdk/jmh/jmh-core/1.33/jmh-core-1.33.jar (539 kB at 1.6 MB/s)
+Progress (1): 1.1/2.2 MB
+Progress (1): 1.1/2.2 MB
+Progress (1): 1.2/2.2 MB
+Progress (1): 1.2/2.2 MB
+Progress (1): 1.2/2.2 MB
+Progress (1): 1.2/2.2 MB
+Progress (1): 1.2/2.2 MB
+Progress (1): 1.2/2.2 MB
+Progress (1): 1.3/2.2 MB
+Progress (1): 1.3/2.2 MB
+Progress (1): 1.3/2.2 MB
+Progress (1): 1.3/2.2 MB
+Progress (1): 1.3/2.2 MB
+Progress (1): 1.3/2.2 MB
+Progress (1): 1.3/2.2 MB
+Progress (1): 1.4/2.2 MB
+Progress (1): 1.4/2.2 MB
+Progress (1): 1.4/2.2 MB
+Progress (1): 1.4/2.2 MB
+Progress (1): 1.4/2.2 MB
+Progress (1): 1.4/2.2 MB
+Progress (1): 1.5/2.2 MB
+Progress (1): 1.5/2.2 MB
+Progress (1): 1.5/2.2 MB
+Progress (1): 1.5/2.2 MB
+Progress (1): 1.5/2.2 MB
+Progress (1): 1.5/2.2 MB
+Progress (1): 1.6/2.2 MB
+Progress (1): 1.6/2.2 MB
+Progress (1): 1.6/2.2 MB
+Progress (1): 1.6/2.2 MB
+Progress (1): 1.6/2.2 MB
+Progress (1): 1.6/2.2 MB
+Progress (1): 1.7/2.2 MB
+Progress (1): 1.7/2.2 MB
+Progress (1): 1.7/2.2 MB
+Progress (1): 1.7/2.2 MB
+Progress (1): 1.7/2.2 MB
+Progress (1): 1.7/2.2 MB
+Progress (1): 1.8/2.2 MB
+Progress (1): 1.8/2.2 MB
+Progress (1): 1.8/2.2 MB
+Progress (1): 1.8/2.2 MB
+Progress (1): 1.8/2.2 MB
+Progress (1): 1.8/2.2 MB
+Progress (1): 1.9/2.2 MB
+Progress (1): 1.9/2.2 MB
+Progress (1): 1.9/2.2 MB
+Progress (1): 1.9/2.2 MB
+Progress (1): 1.9/2.2 MB
+Progress (1): 1.9/2.2 MB
+Progress (1): 1.9/2.2 MB
+Progress (1): 2.0/2.2 MB
+Progress (1): 2.0/2.2 MB
+Progress (1): 2.0/2.2 MB
+Progress (1): 2.0/2.2 MB
+Progress (1): 2.0/2.2 MB
+Progress (1): 2.0/2.2 MB
+Progress (1): 2.1/2.2 MB
+Progress (1): 2.1/2.2 MB
+Progress (1): 2.1/2.2 MB
+Progress (1): 2.1/2.2 MB
+Progress (1): 2.1/2.2 MB
+Progress (1): 2.1/2.2 MB
+Progress (1): 2.1/2.2 MB
+Progress (1): 2.2/2.2 MB
+Progress (1): 2.2/2.2 MB
+Progress (1): 2.2/2.2 MB
+Progress (1): 2.2 MB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/ant/ant/1.10.3/ant-1.10.3.jar (2.2 MB at 4.4 MB/s)
+[INFO] 
+[INFO] --- jacoco:0.8.7:prepare-agent (default) @ scheduler ---
+[INFO] argLine set to -javaagent:C:\\Users\\Yogya\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.8.7\\org.jacoco.agent-0.8.7-runtime.jar=destfile=C:\\Users\\Yogya\\Documents\\KTH\\BreakingUpdates\\breaking-updates\\tempProject\\165381d26b2c3d2278fde88c16f95807506451fe\\scheduler\\target\\jacoco.exec,excludes=org/btrplace/btrpsl/**/*:org/btrplace/safeplace/**/*:org/btrplace/bench/**/*:org/btrplace/scheduler/runner/disjoint/**/*
+[INFO] 
+[INFO] --- dependency:2.8:tree (default-cli) @ scheduler ---
+[INFO] org.btrplace:scheduler:pom:1.12.1-SNAPSHOT
+[INFO] +- org.testng:testng:jar:7.3.0:test
+[INFO] |  +- com.beust:jcommander:jar:1.78:test
+[INFO] |  +- org.apache.ant:ant:jar:1.10.3:test
+[INFO] |  |  \- org.apache.ant:ant-launcher:jar:1.10.3:test
+[INFO] |  +- junit:junit:jar:4.12:test
+[INFO] |  |  \- org.hamcrest:hamcrest-core:jar:1.3:test
+[INFO] |  +- com.google.inject:guice:jar:no_aop:4.2.2:test
+[INFO] |  |  +- javax.inject:javax.inject:jar:1:test
+[INFO] |  |  +- aopalliance:aopalliance:jar:1.0:test
+[INFO] |  |  \- com.google.guava:guava:jar:25.1-android:test
+[INFO] |  |     +- com.google.code.findbugs:jsr305:jar:3.0.2:test
+[INFO] |  |     +- org.checkerframework:checker-compat-qual:jar:2.0.0:test
+[INFO] |  |     +- com.google.errorprone:error_prone_annotations:jar:2.1.3:test
+[INFO] |  |     +- com.google.j2objc:j2objc-annotations:jar:1.1:test
+[INFO] |  |     \- org.codehaus.mojo:animal-sniffer-annotations:jar:1.14:test
+[INFO] |  \- org.yaml:snakeyaml:jar:1.21:test
+[INFO] +- org.slf4j:slf4j-api:jar:1.7.32:compile
+[INFO] +- org.mockito:mockito-core:jar:4.0.0:test
+[INFO] |  +- net.bytebuddy:byte-buddy:jar:1.11.19:test
+[INFO] |  +- net.bytebuddy:byte-buddy-agent:jar:1.11.19:test
+[INFO] |  \- org.objenesis:objenesis:jar:3.2:test
+[INFO] +- org.openjdk.jmh:jmh-core:jar:1.33:test
+[INFO] |  +- net.sf.jopt-simple:jopt-simple:jar:4.6:test
+[INFO] |  \- org.apache.commons:commons-math3:jar:3.2:test
+[INFO] \- org.openjdk.jmh:jmh-generator-annprocess:jar:1.33:test
+[INFO] 
+[INFO] ---------------------< org.btrplace:scheduler-api >---------------------
+[INFO] Building scheduler-api 1.12.1-SNAPSHOT                             [2/9]
+[INFO]   from api\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Artifact net.sf.trove4j:trove4j:pom:3.0.3 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [sonatype (https://oss.sonatype.org/service/local/staging/deploy/maven2, default, releases+snapshots), sonatype-snapshots (https://oss.sonatype.org/content/repositories/snapshots, default, releases+snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact net.sf.trove4j:trove4j:pom:3.0.3 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [sonatype (https://oss.sonatype.org/service/local/staging/deploy/maven2, default, releases+snapshots), sonatype-snapshots (https://oss.sonatype.org/content/repositories/snapshots, default, releases+snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+Downloading from sonatype: https://oss.sonatype.org/service/local/staging/deploy/maven2/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.pom
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.pom
+Downloading from central: https://repo.maven.apache.org/maven2/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.pom (0 B at 0 B/s)
+[INFO] Artifact net.sf.trove4j:trove4j:jar:3.0.3 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [sonatype (https://oss.sonatype.org/service/local/staging/deploy/maven2, default, releases+snapshots), sonatype-snapshots (https://oss.sonatype.org/content/repositories/snapshots, default, releases+snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact net.sf.trove4j:trove4j:jar:3.0.3 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [sonatype (https://oss.sonatype.org/service/local/staging/deploy/maven2, default, releases+snapshots), sonatype-snapshots (https://oss.sonatype.org/content/repositories/snapshots, default, releases+snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+Downloading from sonatype: https://oss.sonatype.org/service/local/staging/deploy/maven2/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar
+Downloading from central: https://repo.maven.apache.org/maven2/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar (0 B at 0 B/s)
+[INFO] 
+[INFO] --- jacoco:0.8.7:prepare-agent (default) @ scheduler-api ---
+[INFO] argLine set to -javaagent:C:\\Users\\Yogya\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.8.7\\org.jacoco.agent-0.8.7-runtime.jar=destfile=C:\\Users\\Yogya\\Documents\\KTH\\BreakingUpdates\\breaking-updates\\tempProject\\165381d26b2c3d2278fde88c16f95807506451fe\\scheduler\\api\\target\\jacoco.exec,excludes=org/btrplace/btrpsl/**/*:org/btrplace/safeplace/**/*:org/btrplace/bench/**/*:org/btrplace/scheduler/runner/disjoint/**/*
+[INFO] 
+[INFO] --- resources:3.3.0:resources (default-resources) @ scheduler-api ---
+[INFO] skip non existing resourceDirectory C:\Users\Yogya\Documents\KTH\BreakingUpdates\breaking-updates\tempProject\165381d26b2c3d2278fde88c16f95807506451fe\scheduler\api\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ scheduler-api ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 146 source files to C:\Users\Yogya\Documents\KTH\BreakingUpdates\breaking-updates\tempProject\165381d26b2c3d2278fde88c16f95807506451fe\scheduler\api\target\classes
+[INFO] /C:/Users/Yogya/Documents/KTH/BreakingUpdates/breaking-updates/tempProject/165381d26b2c3d2278fde88c16f95807506451fe/scheduler/api/src/main/java/org/btrplace/model/view/NamingService.java: Some input files use unchecked or unsafe operations.
+[INFO] /C:/Users/Yogya/Documents/KTH/BreakingUpdates/breaking-updates/tempProject/165381d26b2c3d2278fde88c16f95807506451fe/scheduler/api/src/main/java/org/btrplace/model/view/NamingService.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- dependency:2.8:tree (default-cli) @ scheduler-api ---
+[INFO] org.btrplace:scheduler-api:jar:1.12.1-SNAPSHOT
+[INFO] +- net.sf.trove4j:trove4j:jar:3.0.3:compile
+[INFO] +- org.testng:testng:jar:7.3.0:test
+[INFO] |  +- com.beust:jcommander:jar:1.78:test
+[INFO] |  +- org.apache.ant:ant:jar:1.10.3:test
+[INFO] |  |  \- org.apache.ant:ant-launcher:jar:1.10.3:test
+[INFO] |  +- junit:junit:jar:4.12:test
+[INFO] |  |  \- org.hamcrest:hamcrest-core:jar:1.3:test
+[INFO] |  +- com.google.inject:guice:jar:no_aop:4.2.2:test
+[INFO] |  |  +- javax.inject:javax.inject:jar:1:test
+[INFO] |  |  +- aopalliance:aopalliance:jar:1.0:test
+[INFO] |  |  \- com.google.guava:guava:jar:25.1-android:test
+[INFO] |  |     +- com.google.code.findbugs:jsr305:jar:3.0.2:test
+[INFO] |  |     +- org.checkerframework:checker-compat-qual:jar:2.0.0:test
+[INFO] |  |     +- com.google.errorprone:error_prone_annotations:jar:2.1.3:test
+[INFO] |  |     +- com.google.j2objc:j2objc-annotations:jar:1.1:test
+[INFO] |  |     \- org.codehaus.mojo:animal-sniffer-annotations:jar:1.14:test
+[INFO] |  \- org.yaml:snakeyaml:jar:1.21:test
+[INFO] +- org.slf4j:slf4j-api:jar:1.7.32:compile
+[INFO] +- org.mockito:mockito-core:jar:4.0.0:test
+[INFO] |  +- net.bytebuddy:byte-buddy:jar:1.11.19:test
+[INFO] |  +- net.bytebuddy:byte-buddy-agent:jar:1.11.19:test
+[INFO] |  \- org.objenesis:objenesis:jar:3.2:test
+[INFO] +- org.openjdk.jmh:jmh-core:jar:1.33:test
+[INFO] |  +- net.sf.jopt-simple:jopt-simple:jar:4.6:test
+[INFO] |  \- org.apache.commons:commons-math3:jar:3.2:test
+[INFO] \- org.openjdk.jmh:jmh-generator-annprocess:jar:1.33:test
+[INFO] 
+[INFO] --------------------< org.btrplace:scheduler-json >---------------------
+[INFO] Building scheduler-json 1.12.1-SNAPSHOT                            [3/9]
+[INFO]   from json\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- jacoco:0.8.7:prepare-agent (default) @ scheduler-json ---
+[INFO] argLine set to -javaagent:C:\\Users\\Yogya\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.8.7\\org.jacoco.agent-0.8.7-runtime.jar=destfile=C:\\Users\\Yogya\\Documents\\KTH\\BreakingUpdates\\breaking-updates\\tempProject\\165381d26b2c3d2278fde88c16f95807506451fe\\scheduler\\json\\target\\jacoco.exec,excludes=org/btrplace/btrpsl/**/*:org/btrplace/safeplace/**/*:org/btrplace/bench/**/*:org/btrplace/scheduler/runner/disjoint/**/*
+[INFO] 
+[INFO] --- resources:3.3.0:resources (default-resources) @ scheduler-json ---
+[INFO] skip non existing resourceDirectory C:\Users\Yogya\Documents\KTH\BreakingUpdates\breaking-updates\tempProject\165381d26b2c3d2278fde88c16f95807506451fe\scheduler\json\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ scheduler-json ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 61 source files to C:\Users\Yogya\Documents\KTH\BreakingUpdates\breaking-updates\tempProject\165381d26b2c3d2278fde88c16f95807506451fe\scheduler\json\target\classes
+[INFO] /C:/Users/Yogya/Documents/KTH/BreakingUpdates/breaking-updates/tempProject/165381d26b2c3d2278fde88c16f95807506451fe/scheduler/json/src/main/java/org/btrplace/json/model/constraint/ConstraintsConverter.java: Some input files use unchecked or unsafe operations.
+[INFO] /C:/Users/Yogya/Documents/KTH/BreakingUpdates/breaking-updates/tempProject/165381d26b2c3d2278fde88c16f95807506451fe/scheduler/json/src/main/java/org/btrplace/json/model/constraint/ConstraintsConverter.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- dependency:2.8:tree (default-cli) @ scheduler-json ---
+[INFO] org.btrplace:scheduler-json:jar:1.12.1-SNAPSHOT
+[INFO] +- org.btrplace:scheduler-api:jar:1.12.1-SNAPSHOT:compile
+[INFO] |  \- net.sf.trove4j:trove4j:jar:3.0.3:compile
+[INFO] +- net.minidev:json-smart:jar:2.4.7:compile
+[INFO] |  \- net.minidev:accessors-smart:jar:2.4.7:compile
+[INFO] |     \- org.ow2.asm:asm:jar:9.1:compile
+[INFO] +- org.testng:testng:jar:7.3.0:test
+[INFO] |  +- com.beust:jcommander:jar:1.78:test
+[INFO] |  +- org.apache.ant:ant:jar:1.10.3:test
+[INFO] |  |  \- org.apache.ant:ant-launcher:jar:1.10.3:test
+[INFO] |  +- junit:junit:jar:4.12:test
+[INFO] |  |  \- org.hamcrest:hamcrest-core:jar:1.3:test
+[INFO] |  +- com.google.inject:guice:jar:no_aop:4.2.2:test
+[INFO] |  |  +- javax.inject:javax.inject:jar:1:test
+[INFO] |  |  +- aopalliance:aopalliance:jar:1.0:test
+[INFO] |  |  \- com.google.guava:guava:jar:25.1-android:test
+[INFO] |  |     +- com.google.code.findbugs:jsr305:jar:3.0.2:test
+[INFO] |  |     +- org.checkerframework:checker-compat-qual:jar:2.0.0:test
+[INFO] |  |     +- com.google.errorprone:error_prone_annotations:jar:2.1.3:test
+[INFO] |  |     +- com.google.j2objc:j2objc-annotations:jar:1.1:test
+[INFO] |  |     \- org.codehaus.mojo:animal-sniffer-annotations:jar:1.14:test
+[INFO] |  \- org.yaml:snakeyaml:jar:1.21:test
+[INFO] +- org.slf4j:slf4j-api:jar:1.7.32:compile
+[INFO] +- org.mockito:mockito-core:jar:4.0.0:test
+[INFO] |  +- net.bytebuddy:byte-buddy:jar:1.11.19:test
+[INFO] |  +- net.bytebuddy:byte-buddy-agent:jar:1.11.19:test
+[INFO] |  \- org.objenesis:objenesis:jar:3.2:test
+[INFO] +- org.openjdk.jmh:jmh-core:jar:1.33:test
+[INFO] |  +- net.sf.jopt-simple:jopt-simple:jar:4.6:test
+[INFO] |  \- org.apache.commons:commons-math3:jar:3.2:test
+[INFO] \- org.openjdk.jmh:jmh-generator-annprocess:jar:1.33:test
+[INFO] 
+[INFO] --------------------< org.btrplace:scheduler-choco >--------------------
+[INFO] Building scheduler-choco 1.12.1-SNAPSHOT                           [4/9]
+[INFO]   from choco\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from sonatype: https://oss.sonatype.org/service/local/staging/deploy/maven2/org/choco-solver/choco-solver/4.10.7/choco-solver-4.10.7.pom
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/org/choco-solver/choco-solver/4.10.7/choco-solver-4.10.7.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/choco-solver/choco-solver/4.10.7/choco-solver-4.10.7.pom
+Progress (1): 3.2 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/choco-solver/choco-solver/4.10.7/choco-solver-4.10.7.pom (3.2 kB at 27 kB/s)
+Downloading from sonatype: https://oss.sonatype.org/service/local/staging/deploy/maven2/org/choco-solver/choco/4.10.7/choco-4.10.7.pom
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/org/choco-solver/choco/4.10.7/choco-4.10.7.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/choco-solver/choco/4.10.7/choco-4.10.7.pom
+Progress (1): 16/26 kB
+Progress (1): 26 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/choco-solver/choco/4.10.7/choco-4.10.7.pom (26 kB at 231 kB/s)
+Downloading from sonatype: https://oss.sonatype.org/service/local/staging/deploy/maven2/org/jgrapht/jgrapht-core/1.4.0/jgrapht-core-1.4.0.pom
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/org/jgrapht/jgrapht-core/1.4.0/jgrapht-core-1.4.0.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/jgrapht/jgrapht-core/1.4.0/jgrapht-core-1.4.0.pom
+Progress (1): 3.6 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jgrapht/jgrapht-core/1.4.0/jgrapht-core-1.4.0.pom (3.6 kB at 115 kB/s)
+Downloading from sonatype: https://oss.sonatype.org/service/local/staging/deploy/maven2/org/jgrapht/jgrapht/1.4.0/jgrapht-1.4.0.pom
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/org/jgrapht/jgrapht/1.4.0/jgrapht-1.4.0.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/jgrapht/jgrapht/1.4.0/jgrapht-1.4.0.pom
+Progress (1): 10 kB
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jgrapht/jgrapht/1.4.0/jgrapht-1.4.0.pom (10 kB at 493 kB/s)
+Downloading from sonatype: https://oss.sonatype.org/service/local/staging/deploy/maven2/org/jheaps/jheaps/0.11/jheaps-0.11.pom
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/org/jheaps/jheaps/0.11/jheaps-0.11.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/jheaps/jheaps/0.11/jheaps-0.11.pom
+Progress (1): 10 kB
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jheaps/jheaps/0.11/jheaps-0.11.pom (10 kB at 445 kB/s)
+Downloading from sonatype: https://oss.sonatype.org/service/local/staging/deploy/maven2/com/github/cp-profiler/cpprof-java/1.3.0/cpprof-java-1.3.0.pom
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/com/github/cp-profiler/cpprof-java/1.3.0/cpprof-java-1.3.0.pom
+Downloading from central: https://repo.maven.apache.org/maven2/com/github/cp-profiler/cpprof-java/1.3.0/cpprof-java-1.3.0.pom
+Progress (1): 5.5 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/github/cp-profiler/cpprof-java/1.3.0/cpprof-java-1.3.0.pom (5.5 kB at 157 kB/s)
+Downloading from sonatype: https://oss.sonatype.org/service/local/staging/deploy/maven2/com/google/protobuf/protobuf-java/2.6.1/protobuf-java-2.6.1.pom
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/com/google/protobuf/protobuf-java/2.6.1/protobuf-java-2.6.1.pom
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-java/2.6.1/protobuf-java-2.6.1.pom
+Progress (1): 9.3 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-java/2.6.1/protobuf-java-2.6.1.pom (9.3 kB at 386 kB/s)
+Downloading from sonatype: https://oss.sonatype.org/service/local/staging/deploy/maven2/org/knowm/xchart/xchart/3.8.1/xchart-3.8.1.pom
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/org/knowm/xchart/xchart/3.8.1/xchart-3.8.1.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/knowm/xchart/xchart/3.8.1/xchart-3.8.1.pom
+Progress (1): 918 B
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/knowm/xchart/xchart/3.8.1/xchart-3.8.1.pom (918 B at 57 kB/s)
+Downloading from sonatype: https://oss.sonatype.org/service/local/staging/deploy/maven2/org/knowm/xchart/xchart-parent/3.8.1/xchart-parent-3.8.1.pom
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/org/knowm/xchart/xchart-parent/3.8.1/xchart-parent-3.8.1.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/knowm/xchart/xchart-parent/3.8.1/xchart-parent-3.8.1.pom
+Progress (1): 7.6 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/knowm/xchart/xchart-parent/3.8.1/xchart-parent-3.8.1.pom (7.6 kB at 347 kB/s)
+Downloading from sonatype: https://oss.sonatype.org/service/local/staging/deploy/maven2/de/erichseifert/vectorgraphics2d/VectorGraphics2D/0.13/VectorGraphics2D-0.13.pom
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/de/erichseifert/vectorgraphics2d/VectorGraphics2D/0.13/VectorGraphics2D-0.13.pom
+Downloading from central: https://repo.maven.apache.org/maven2/de/erichseifert/vectorgraphics2d/VectorGraphics2D/0.13/VectorGraphics2D-0.13.pom
+Progress (1): 2.6 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/de/erichseifert/vectorgraphics2d/VectorGraphics2D/0.13/VectorGraphics2D-0.13.pom (2.6 kB at 100 kB/s)
+Downloading from sonatype: https://oss.sonatype.org/service/local/staging/deploy/maven2/com/madgag/animated-gif-lib/1.4/animated-gif-lib-1.4.pom
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/com/madgag/animated-gif-lib/1.4/animated-gif-lib-1.4.pom
+Downloading from central: https://repo.maven.apache.org/maven2/com/madgag/animated-gif-lib/1.4/animated-gif-lib-1.4.pom
+Progress (1): 2.7 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/madgag/animated-gif-lib/1.4/animated-gif-lib-1.4.pom (2.7 kB at 209 kB/s)
+Downloading from sonatype: https://oss.sonatype.org/service/local/staging/deploy/maven2/org/choco-solver/choco-solver/4.10.7/choco-solver-4.10.7.jar
+Downloading from sonatype: https://oss.sonatype.org/service/local/staging/deploy/maven2/org/jgrapht/jgrapht-core/1.4.0/jgrapht-core-1.4.0.jar
+Downloading from sonatype: https://oss.sonatype.org/service/local/staging/deploy/maven2/org/jheaps/jheaps/0.11/jheaps-0.11.jar
+Downloading from sonatype: https://oss.sonatype.org/service/local/staging/deploy/maven2/com/github/cp-profiler/cpprof-java/1.3.0/cpprof-java-1.3.0.jar
+Downloading from sonatype: https://oss.sonatype.org/service/local/staging/deploy/maven2/com/google/protobuf/protobuf-java/2.6.1/protobuf-java-2.6.1.jar
+Downloading from sonatype: https://oss.sonatype.org/service/local/staging/deploy/maven2/org/knowm/xchart/xchart/3.8.1/xchart-3.8.1.jar
+Downloading from sonatype: https://oss.sonatype.org/service/local/staging/deploy/maven2/de/erichseifert/vectorgraphics2d/VectorGraphics2D/0.13/VectorGraphics2D-0.13.jar
+Downloading from sonatype: https://oss.sonatype.org/service/local/staging/deploy/maven2/com/madgag/animated-gif-lib/1.4/animated-gif-lib-1.4.jar
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/org/choco-solver/choco-solver/4.10.7/choco-solver-4.10.7.jar
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/org/jgrapht/jgrapht-core/1.4.0/jgrapht-core-1.4.0.jar
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/org/jheaps/jheaps/0.11/jheaps-0.11.jar
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/com/github/cp-profiler/cpprof-java/1.3.0/cpprof-java-1.3.0.jar
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/com/google/protobuf/protobuf-java/2.6.1/protobuf-java-2.6.1.jar
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/org/knowm/xchart/xchart/3.8.1/xchart-3.8.1.jar
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/de/erichseifert/vectorgraphics2d/VectorGraphics2D/0.13/VectorGraphics2D-0.13.jar
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/com/madgag/animated-gif-lib/1.4/animated-gif-lib-1.4.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/choco-solver/choco-solver/4.10.7/choco-solver-4.10.7.jar
+Progress (1): 0/1.9 MB
+Progress (1): 0/1.9 MB
+Progress (1): 0/1.9 MB
+Progress (1): 0.1/1.9 MB
+Progress (1): 0.1/1.9 MB
+Progress (1): 0.1/1.9 MB
+Progress (1): 0.1/1.9 MB
+Progress (1): 0.1/1.9 MB
+Progress (1): 0.1/1.9 MB
+Progress (1): 0.2/1.9 MB
+Progress (1): 0.2/1.9 MB
+Progress (1): 0.2/1.9 MB
+Progress (1): 0.2/1.9 MB
+Progress (1): 0.2/1.9 MB
+Progress (1): 0.2/1.9 MB
+Progress (1): 0.3/1.9 MB
+Progress (1): 0.3/1.9 MB
+Progress (1): 0.3/1.9 MB
+Progress (1): 0.3/1.9 MB
+Progress (1): 0.3/1.9 MB
+Progress (1): 0.3/1.9 MB
+Progress (1): 0.4/1.9 MB
+Progress (1): 0.4/1.9 MB
+Progress (1): 0.4/1.9 MB
+Progress (1): 0.4/1.9 MB
+Progress (1): 0.4/1.9 MB
+Progress (1): 0.4/1.9 MB
+Progress (1): 0.5/1.9 MB
+Progress (1): 0.5/1.9 MB
+Progress (1): 0.5/1.9 MB
+Progress (1): 0.5/1.9 MB
+Progress (1): 0.5/1.9 MB
+Progress (1): 0.5/1.9 MB
+Progress (1): 0.6/1.9 MB
+Progress (1): 0.6/1.9 MB
+Progress (1): 0.6/1.9 MB
+Progress (1): 0.6/1.9 MB
+Progress (1): 0.6/1.9 MB
+Progress (1): 0.6/1.9 MB
+Progress (1): 0.7/1.9 MB
+Progress (1): 0.7/1.9 MB
+Progress (1): 0.7/1.9 MB
+Progress (1): 0.7/1.9 MB
+Progress (1): 0.7/1.9 MB
+Progress (1): 0.7/1.9 MB
+Progress (1): 0.8/1.9 MB
+Progress (1): 0.8/1.9 MB
+Progress (1): 0.8/1.9 MB
+Progress (1): 0.8/1.9 MB
+Progress (1): 0.8/1.9 MB
+Progress (1): 0.8/1.9 MB
+Progress (1): 0.8/1.9 MB
+Progress (1): 0.9/1.9 MB
+Progress (1): 0.9/1.9 MB
+Progress (1): 0.9/1.9 MB
+Progress (1): 0.9/1.9 MB
+Progress (1): 0.9/1.9 MB
+Progress (1): 0.9/1.9 MB
+Progress (1): 1.0/1.9 MB
+Progress (1): 1.0/1.9 MB
+Progress (1): 1.0/1.9 MB
+Progress (1): 1.0/1.9 MB
+Progress (1): 1.0/1.9 MB
+Progress (1): 1.0/1.9 MB
+Progress (1): 1.1/1.9 MB
+Progress (1): 1.1/1.9 MB
+Progress (1): 1.1/1.9 MB
+Progress (1): 1.1/1.9 MB
+Progress (1): 1.1/1.9 MB
+Progress (1): 1.1/1.9 MB
+Progress (1): 1.1/1.9 MB
+Progress (1): 1.2/1.9 MB
+Progress (1): 1.2/1.9 MB
+Progress (1): 1.2/1.9 MB
+Progress (1): 1.2/1.9 MB
+Progress (1): 1.2/1.9 MB
+Progress (1): 1.2/1.9 MB
+Progress (1): 1.3/1.9 MB
+Progress (1): 1.3/1.9 MB
+Progress (1): 1.3/1.9 MB
+Progress (1): 1.3/1.9 MB
+Progress (1): 1.3/1.9 MB
+Progress (1): 1.3/1.9 MB
+Progress (1): 1.4/1.9 MB
+Progress (1): 1.4/1.9 MB
+Progress (1): 1.4/1.9 MB
+Progress (1): 1.4/1.9 MB
+Progress (1): 1.4/1.9 MB
+Progress (1): 1.4/1.9 MB
+Progress (1): 1.5/1.9 MB
+Progress (1): 1.5/1.9 MB
+Progress (1): 1.5/1.9 MB
+Progress (1): 1.5/1.9 MB
+Progress (1): 1.5/1.9 MB
+Progress (1): 1.5/1.9 MB
+Progress (1): 1.6/1.9 MB
+Progress (1): 1.6/1.9 MB
+Progress (1): 1.6/1.9 MB
+Progress (1): 1.6/1.9 MB
+Progress (1): 1.6/1.9 MB
+Progress (1): 1.6/1.9 MB
+Progress (1): 1.6/1.9 MB
+Progress (1): 1.7/1.9 MB
+Progress (1): 1.7/1.9 MB
+Progress (1): 1.7/1.9 MB
+Progress (1): 1.7/1.9 MB
+Progress (1): 1.7/1.9 MB
+Progress (1): 1.7/1.9 MB
+Progress (1): 1.8/1.9 MB
+Progress (1): 1.8/1.9 MB
+Progress (1): 1.8/1.9 MB
+Progress (1): 1.8/1.9 MB
+Progress (1): 1.8/1.9 MB
+Progress (1): 1.8/1.9 MB
+Progress (1): 1.9/1.9 MB
+Progress (1): 1.9/1.9 MB
+Progress (1): 1.9/1.9 MB
+Progress (1): 1.9/1.9 MB
+Progress (1): 1.9 MB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/choco-solver/choco-solver/4.10.7/choco-solver-4.10.7.jar (1.9 MB at 3.5 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jgrapht/jgrapht-core/1.4.0/jgrapht-core-1.4.0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/jheaps/jheaps/0.11/jheaps-0.11.jar
+Downloading from central: https://repo.maven.apache.org/maven2/com/github/cp-profiler/cpprof-java/1.3.0/cpprof-java-1.3.0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-java/2.6.1/protobuf-java-2.6.1.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/knowm/xchart/xchart/3.8.1/xchart-3.8.1.jar
+Progress (1): 16/30 kB
+Progress (1): 30 kB   
+Progress (2): 30 kB | 0/1.1 MB
+                              
+Downloaded from central: https://repo.maven.apache.org/maven2/com/github/cp-profiler/cpprof-java/1.3.0/cpprof-java-1.3.0.jar (30 kB at 1.4 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/de/erichseifert/vectorgraphics2d/VectorGraphics2D/0.13/VectorGraphics2D-0.13.jar
+Progress (1): 0/1.1 MB
+Progress (2): 0/1.1 MB | 16/365 kB
+Progress (2): 0/1.1 MB | 33/365 kB
+Progress (2): 0/1.1 MB | 49/365 kB
+Progress (2): 0/1.1 MB | 66/365 kB
+Progress (2): 0/1.1 MB | 66/365 kB
+Progress (3): 0/1.1 MB | 66/365 kB | 16/597 kB
+Progress (3): 0/1.1 MB | 82/365 kB | 16/597 kB
+Progress (3): 0.1/1.1 MB | 82/365 kB | 16/597 kB
+Progress (4): 0.1/1.1 MB | 82/365 kB | 16/597 kB | 16/134 kB
+Progress (4): 0.1/1.1 MB | 98/365 kB | 16/597 kB | 16/134 kB
+Progress (4): 0.1/1.1 MB | 115/365 kB | 16/597 kB | 16/134 kB
+Progress (4): 0.1/1.1 MB | 115/365 kB | 16/597 kB | 16/134 kB
+Progress (4): 0.1/1.1 MB | 115/365 kB | 33/597 kB | 16/134 kB
+Progress (4): 0.1/1.1 MB | 115/365 kB | 33/597 kB | 16/134 kB
+Progress (4): 0.1/1.1 MB | 115/365 kB | 33/597 kB | 33/134 kB
+Progress (4): 0.1/1.1 MB | 115/365 kB | 33/597 kB | 33/134 kB
+Progress (4): 0.1/1.1 MB | 115/365 kB | 33/597 kB | 33/134 kB
+Progress (4): 0.1/1.1 MB | 115/365 kB | 33/597 kB | 49/134 kB
+Progress (4): 0.1/1.1 MB | 115/365 kB | 33/597 kB | 66/134 kB
+Progress (4): 0.1/1.1 MB | 115/365 kB | 33/597 kB | 82/134 kB
+Progress (4): 0.1/1.1 MB | 115/365 kB | 33/597 kB | 82/134 kB
+Progress (4): 0.1/1.1 MB | 115/365 kB | 49/597 kB | 82/134 kB
+Progress (4): 0.2/1.1 MB | 115/365 kB | 49/597 kB | 82/134 kB
+Progress (4): 0.2/1.1 MB | 115/365 kB | 49/597 kB | 98/134 kB
+Progress (4): 0.2/1.1 MB | 115/365 kB | 49/597 kB | 98/134 kB
+Progress (4): 0.2/1.1 MB | 115/365 kB | 49/597 kB | 98/134 kB
+Progress (4): 0.2/1.1 MB | 131/365 kB | 49/597 kB | 98/134 kB
+Progress (4): 0.2/1.1 MB | 131/365 kB | 66/597 kB | 98/134 kB
+Progress (4): 0.2/1.1 MB | 131/365 kB | 66/597 kB | 98/134 kB
+Progress (4): 0.2/1.1 MB | 131/365 kB | 66/597 kB | 98/134 kB
+Progress (4): 0.2/1.1 MB | 131/365 kB | 66/597 kB | 115/134 kB
+Progress (4): 0.2/1.1 MB | 131/365 kB | 66/597 kB | 115/134 kB
+Progress (4): 0.2/1.1 MB | 131/365 kB | 66/597 kB | 131/134 kB
+Progress (4): 0.2/1.1 MB | 131/365 kB | 66/597 kB | 134 kB    
+Progress (4): 0.3/1.1 MB | 131/365 kB | 66/597 kB | 134 kB
+Progress (4): 0.3/1.1 MB | 131/365 kB | 82/597 kB | 134 kB
+Progress (4): 0.3/1.1 MB | 131/365 kB | 82/597 kB | 134 kB
+                                                          
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jheaps/jheaps/0.11/jheaps-0.11.jar (134 kB at 1.5 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/madgag/animated-gif-lib/1.4/animated-gif-lib-1.4.jar
+Progress (3): 0.3/1.1 MB | 147/365 kB | 82/597 kB
+Progress (3): 0.3/1.1 MB | 147/365 kB | 82/597 kB
+Progress (3): 0.3/1.1 MB | 147/365 kB | 82/597 kB
+Progress (3): 0.3/1.1 MB | 164/365 kB | 82/597 kB
+Progress (3): 0.3/1.1 MB | 180/365 kB | 82/597 kB
+Progress (3): 0.3/1.1 MB | 180/365 kB | 98/597 kB
+Progress (3): 0.3/1.1 MB | 180/365 kB | 98/597 kB
+Progress (4): 0.3/1.1 MB | 180/365 kB | 98/597 kB | 16/94 kB
+Progress (4): 0.3/1.1 MB | 180/365 kB | 98/597 kB | 16/94 kB
+Progress (4): 0.4/1.1 MB | 180/365 kB | 98/597 kB | 16/94 kB
+Progress (4): 0.4/1.1 MB | 180/365 kB | 98/597 kB | 16/94 kB
+Progress (4): 0.4/1.1 MB | 180/365 kB | 98/597 kB | 33/94 kB
+Progress (4): 0.4/1.1 MB | 180/365 kB | 115/597 kB | 33/94 kB
+Progress (4): 0.4/1.1 MB | 180/365 kB | 115/597 kB | 49/94 kB
+Progress (4): 0.4/1.1 MB | 180/365 kB | 115/597 kB | 49/94 kB
+Progress (4): 0.4/1.1 MB | 180/365 kB | 115/597 kB | 66/94 kB
+Progress (4): 0.4/1.1 MB | 180/365 kB | 115/597 kB | 82/94 kB
+Progress (4): 0.4/1.1 MB | 180/365 kB | 115/597 kB | 94 kB   
+Progress (4): 0.4/1.1 MB | 180/365 kB | 115/597 kB | 94 kB
+Progress (4): 0.4/1.1 MB | 180/365 kB | 131/597 kB | 94 kB
+                                                          
+Downloaded from central: https://repo.maven.apache.org/maven2/de/erichseifert/vectorgraphics2d/VectorGraphics2D/0.13/VectorGraphics2D-0.13.jar (94 kB at 764 kB/s)
+Progress (3): 0.4/1.1 MB | 180/365 kB | 131/597 kB
+Progress (3): 0.4/1.1 MB | 180/365 kB | 147/597 kB
+Progress (3): 0.4/1.1 MB | 197/365 kB | 147/597 kB
+Progress (3): 0.4/1.1 MB | 213/365 kB | 147/597 kB
+Progress (3): 0.4/1.1 MB | 213/365 kB | 147/597 kB
+Progress (3): 0.4/1.1 MB | 229/365 kB | 147/597 kB
+Progress (3): 0.4/1.1 MB | 246/365 kB | 147/597 kB
+Progress (3): 0.4/1.1 MB | 246/365 kB | 164/597 kB
+Progress (3): 0.5/1.1 MB | 246/365 kB | 164/597 kB
+Progress (3): 0.5/1.1 MB | 246/365 kB | 164/597 kB
+Progress (3): 0.5/1.1 MB | 246/365 kB | 164/597 kB
+Progress (3): 0.5/1.1 MB | 246/365 kB | 180/597 kB
+Progress (3): 0.5/1.1 MB | 246/365 kB | 180/597 kB
+Progress (3): 0.5/1.1 MB | 246/365 kB | 180/597 kB
+Progress (3): 0.5/1.1 MB | 246/365 kB | 180/597 kB
+Progress (3): 0.6/1.1 MB | 246/365 kB | 180/597 kB
+Progress (3): 0.6/1.1 MB | 246/365 kB | 180/597 kB
+Progress (3): 0.6/1.1 MB | 262/365 kB | 180/597 kB
+Progress (3): 0.6/1.1 MB | 262/365 kB | 180/597 kB
+Progress (3): 0.6/1.1 MB | 279/365 kB | 180/597 kB
+Progress (3): 0.6/1.1 MB | 295/365 kB | 180/597 kB
+Progress (3): 0.6/1.1 MB | 295/365 kB | 180/597 kB
+Progress (3): 0.6/1.1 MB | 295/365 kB | 197/597 kB
+Progress (3): 0.6/1.1 MB | 311/365 kB | 197/597 kB
+Progress (3): 0.6/1.1 MB | 311/365 kB | 197/597 kB
+Progress (4): 0.6/1.1 MB | 311/365 kB | 197/597 kB | 16/21 kB
+Progress (4): 0.6/1.1 MB | 311/365 kB | 197/597 kB | 16/21 kB
+Progress (4): 0.6/1.1 MB | 311/365 kB | 197/597 kB | 21 kB   
+Progress (4): 0.6/1.1 MB | 328/365 kB | 197/597 kB | 21 kB
+Progress (4): 0.6/1.1 MB | 344/365 kB | 197/597 kB | 21 kB
+                                                          
+Downloaded from central: https://repo.maven.apache.org/maven2/com/madgag/animated-gif-lib/1.4/animated-gif-lib-1.4.jar (21 kB at 119 kB/s)
+Progress (3): 0.6/1.1 MB | 360/365 kB | 197/597 kB
+Progress (3): 0.6/1.1 MB | 360/365 kB | 213/597 kB
+Progress (3): 0.7/1.1 MB | 360/365 kB | 213/597 kB
+Progress (3): 0.7/1.1 MB | 365 kB | 213/597 kB    
+Progress (3): 0.7/1.1 MB | 365 kB | 213/597 kB
+Progress (3): 0.7/1.1 MB | 365 kB | 229/597 kB
+Progress (3): 0.7/1.1 MB | 365 kB | 229/597 kB
+Progress (3): 0.7/1.1 MB | 365 kB | 229/597 kB
+                                              
+Downloaded from central: https://repo.maven.apache.org/maven2/org/knowm/xchart/xchart/3.8.1/xchart-3.8.1.jar (365 kB at 1.9 MB/s)
+Progress (2): 0.7/1.1 MB | 229/597 kB
+Progress (2): 0.7/1.1 MB | 246/597 kB
+Progress (2): 0.7/1.1 MB | 246/597 kB
+Progress (2): 0.7/1.1 MB | 246/597 kB
+Progress (2): 0.7/1.1 MB | 256/597 kB
+Progress (2): 0.8/1.1 MB | 256/597 kB
+Progress (2): 0.8/1.1 MB | 256/597 kB
+Progress (2): 0.8/1.1 MB | 256/597 kB
+Progress (2): 0.8/1.1 MB | 256/597 kB
+Progress (2): 0.8/1.1 MB | 272/597 kB
+Progress (2): 0.8/1.1 MB | 272/597 kB
+Progress (2): 0.8/1.1 MB | 289/597 kB
+Progress (2): 0.8/1.1 MB | 289/597 kB
+Progress (2): 0.9/1.1 MB | 289/597 kB
+Progress (2): 0.9/1.1 MB | 305/597 kB
+Progress (2): 0.9/1.1 MB | 305/597 kB
+Progress (2): 0.9/1.1 MB | 305/597 kB
+Progress (2): 0.9/1.1 MB | 321/597 kB
+Progress (2): 0.9/1.1 MB | 321/597 kB
+Progress (2): 0.9/1.1 MB | 321/597 kB
+Progress (2): 0.9/1.1 MB | 321/597 kB
+Progress (2): 1.0/1.1 MB | 321/597 kB
+Progress (2): 1.0/1.1 MB | 321/597 kB
+Progress (2): 1.0/1.1 MB | 338/597 kB
+Progress (2): 1.0/1.1 MB | 338/597 kB
+Progress (2): 1.0/1.1 MB | 354/597 kB
+Progress (2): 1.0/1.1 MB | 354/597 kB
+Progress (2): 1.0/1.1 MB | 354/597 kB
+Progress (2): 1.0/1.1 MB | 354/597 kB
+Progress (2): 1.1/1.1 MB | 354/597 kB
+Progress (2): 1.1/1.1 MB | 370/597 kB
+Progress (2): 1.1/1.1 MB | 370/597 kB
+Progress (2): 1.1/1.1 MB | 387/597 kB
+Progress (2): 1.1 MB | 387/597 kB    
+Progress (2): 1.1 MB | 403/597 kB
+Progress (2): 1.1 MB | 420/597 kB
+Progress (2): 1.1 MB | 436/597 kB
+Progress (2): 1.1 MB | 452/597 kB
+                                 
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jgrapht/jgrapht-core/1.4.0/jgrapht-core-1.4.0.jar (1.1 MB at 4.2 MB/s)
+Progress (1): 469/597 kB
+Progress (1): 485/597 kB
+Progress (1): 502/597 kB
+Progress (1): 518/597 kB
+Progress (1): 534/597 kB
+Progress (1): 551/597 kB
+Progress (1): 567/597 kB
+Progress (1): 583/597 kB
+Progress (1): 597 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-java/2.6.1/protobuf-java-2.6.1.jar (597 kB at 2.1 MB/s)
+[INFO] 
+[INFO] --- jacoco:0.8.7:prepare-agent (default) @ scheduler-choco ---
+[INFO] argLine set to -javaagent:C:\\Users\\Yogya\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.8.7\\org.jacoco.agent-0.8.7-runtime.jar=destfile=C:\\Users\\Yogya\\Documents\\KTH\\BreakingUpdates\\breaking-updates\\tempProject\\165381d26b2c3d2278fde88c16f95807506451fe\\scheduler\\choco\\target\\jacoco.exec,excludes=org/btrplace/btrpsl/**/*:org/btrplace/safeplace/**/*:org/btrplace/bench/**/*:org/btrplace/scheduler/runner/disjoint/**/*
+[INFO] 
+[INFO] --- resources:3.3.0:resources (default-resources) @ scheduler-choco ---
+[INFO] skip non existing resourceDirectory C:\Users\Yogya\Documents\KTH\BreakingUpdates\breaking-updates\tempProject\165381d26b2c3d2278fde88c16f95807506451fe\scheduler\choco\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ scheduler-choco ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 118 source files to C:\Users\Yogya\Documents\KTH\BreakingUpdates\breaking-updates\tempProject\165381d26b2c3d2278fde88c16f95807506451fe\scheduler\choco\target\classes
+[INFO] /C:/Users/Yogya/Documents/KTH/BreakingUpdates/breaking-updates/tempProject/165381d26b2c3d2278fde88c16f95807506451fe/scheduler/choco/src/main/java/org/btrplace/scheduler/choco/DefaultReconfigurationProblem.java: C:\Users\Yogya\Documents\KTH\BreakingUpdates\breaking-updates\tempProject\165381d26b2c3d2278fde88c16f95807506451fe\scheduler\choco\src\main\java\org\btrplace\scheduler\choco\DefaultReconfigurationProblem.java uses or overrides a deprecated API.
+[INFO] /C:/Users/Yogya/Documents/KTH/BreakingUpdates/breaking-updates/tempProject/165381d26b2c3d2278fde88c16f95807506451fe/scheduler/choco/src/main/java/org/btrplace/scheduler/choco/DefaultReconfigurationProblem.java: Recompile with -Xlint:deprecation for details.
+[INFO] /C:/Users/Yogya/Documents/KTH/BreakingUpdates/breaking-updates/tempProject/165381d26b2c3d2278fde88c16f95807506451fe/scheduler/choco/src/main/java/org/btrplace/scheduler/choco/DefaultReconfigurationProblem.java: Some input files use unchecked or unsafe operations.
+[INFO] /C:/Users/Yogya/Documents/KTH/BreakingUpdates/breaking-updates/tempProject/165381d26b2c3d2278fde88c16f95807506451fe/scheduler/choco/src/main/java/org/btrplace/scheduler/choco/DefaultReconfigurationProblem.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- dependency:2.8:tree (default-cli) @ scheduler-choco ---
+[INFO] org.btrplace:scheduler-choco:jar:1.12.1-SNAPSHOT
+[INFO] +- org.btrplace:scheduler-api:jar:1.12.1-SNAPSHOT:compile
+[INFO] +- net.sf.trove4j:trove4j:jar:3.0.3:compile
+[INFO] +- org.choco-solver:choco-solver:jar:4.10.7:compile
+[INFO] |  +- dk.brics.automaton:automaton:jar:1.11-8:compile
+[INFO] |  +- org.jgrapht:jgrapht-core:jar:1.4.0:compile
+[INFO] |  |  \- org.jheaps:jheaps:jar:0.11:compile
+[INFO] |  +- com.github.cp-profiler:cpprof-java:jar:1.3.0:compile
+[INFO] |  |  \- com.google.protobuf:protobuf-java:jar:2.6.1:compile
+[INFO] |  \- org.knowm.xchart:xchart:jar:3.8.1:compile
+[INFO] |     +- de.erichseifert.vectorgraphics2d:VectorGraphics2D:jar:0.13:compile
+[INFO] |     +- de.rototor.pdfbox:graphics2d:jar:0.32:compile
+[INFO] |     |  \- org.apache.pdfbox:pdfbox:jar:2.0.24:compile
+[INFO] |     |     +- org.apache.pdfbox:fontbox:jar:2.0.24:compile
+[INFO] |     |     \- commons-logging:commons-logging:jar:1.2:compile
+[INFO] |     \- com.madgag:animated-gif-lib:jar:1.4:compile
+[INFO] +- org.btrplace:scheduler-json:jar:1.12.1-SNAPSHOT:test
+[INFO] |  \- net.minidev:json-smart:jar:2.4.7:test
+[INFO] |     \- net.minidev:accessors-smart:jar:2.4.7:test
+[INFO] |        \- org.ow2.asm:asm:jar:9.1:test
+[INFO] +- org.testng:testng:jar:7.3.0:test
+[INFO] |  +- com.beust:jcommander:jar:1.78:test
+[INFO] |  +- org.apache.ant:ant:jar:1.10.3:test
+[INFO] |  |  \- org.apache.ant:ant-launcher:jar:1.10.3:test
+[INFO] |  +- junit:junit:jar:4.12:test
+[INFO] |  |  \- org.hamcrest:hamcrest-core:jar:1.3:test
+[INFO] |  +- com.google.inject:guice:jar:no_aop:4.2.2:test
+[INFO] |  |  +- javax.inject:javax.inject:jar:1:test
+[INFO] |  |  +- aopalliance:aopalliance:jar:1.0:test
+[INFO] |  |  \- com.google.guava:guava:jar:25.1-android:test
+[INFO] |  |     +- com.google.code.findbugs:jsr305:jar:3.0.2:test
+[INFO] |  |     +- org.checkerframework:checker-compat-qual:jar:2.0.0:test
+[INFO] |  |     +- com.google.errorprone:error_prone_annotations:jar:2.1.3:test
+[INFO] |  |     +- com.google.j2objc:j2objc-annotations:jar:1.1:test
+[INFO] |  |     \- org.codehaus.mojo:animal-sniffer-annotations:jar:1.14:test
+[INFO] |  \- org.yaml:snakeyaml:jar:1.21:test
+[INFO] +- org.slf4j:slf4j-api:jar:1.7.32:compile
+[INFO] +- org.mockito:mockito-core:jar:4.0.0:test
+[INFO] |  +- net.bytebuddy:byte-buddy:jar:1.11.19:test
+[INFO] |  +- net.bytebuddy:byte-buddy-agent:jar:1.11.19:test
+[INFO] |  \- org.objenesis:objenesis:jar:3.2:test
+[INFO] +- org.openjdk.jmh:jmh-core:jar:1.33:test
+[INFO] |  +- net.sf.jopt-simple:jopt-simple:jar:4.6:test
+[INFO] |  \- org.apache.commons:commons-math3:jar:3.2:test
+[INFO] \- org.openjdk.jmh:jmh-generator-annprocess:jar:1.33:test
+[INFO] 
+[INFO] ------------------< org.btrplace:scheduler-examples >-------------------
+[INFO] Building scheduler-examples 1.12.1-SNAPSHOT                        [5/9]
+[INFO]   from examples\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from sonatype: https://oss.sonatype.org/service/local/staging/deploy/maven2/ch/qos/logback/logback-classic/1.2.7/logback-classic-1.2.7.pom
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/ch/qos/logback/logback-classic/1.2.7/logback-classic-1.2.7.pom
+Downloading from central: https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/1.2.7/logback-classic-1.2.7.pom
+Progress (1): 13 kB
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/1.2.7/logback-classic-1.2.7.pom (13 kB at 828 kB/s)
+Downloading from sonatype: https://oss.sonatype.org/service/local/staging/deploy/maven2/ch/qos/logback/logback-parent/1.2.7/logback-parent-1.2.7.pom
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/ch/qos/logback/logback-parent/1.2.7/logback-parent-1.2.7.pom
+Downloading from central: https://repo.maven.apache.org/maven2/ch/qos/logback/logback-parent/1.2.7/logback-parent-1.2.7.pom
+Progress (1): 16/19 kB
+Progress (1): 19 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/ch/qos/logback/logback-parent/1.2.7/logback-parent-1.2.7.pom (19 kB at 1.1 MB/s)
+Downloading from sonatype: https://oss.sonatype.org/service/local/staging/deploy/maven2/ch/qos/logback/logback-core/1.2.7/logback-core-1.2.7.pom
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/ch/qos/logback/logback-core/1.2.7/logback-core-1.2.7.pom
+Downloading from central: https://repo.maven.apache.org/maven2/ch/qos/logback/logback-core/1.2.7/logback-core-1.2.7.pom
+Progress (1): 4.2 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/ch/qos/logback/logback-core/1.2.7/logback-core-1.2.7.pom (4.2 kB at 210 kB/s)
+Downloading from sonatype: https://oss.sonatype.org/service/local/staging/deploy/maven2/ch/qos/logback/logback-classic/1.2.7/logback-classic-1.2.7.jar
+Downloading from sonatype: https://oss.sonatype.org/service/local/staging/deploy/maven2/ch/qos/logback/logback-core/1.2.7/logback-core-1.2.7.jar
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/ch/qos/logback/logback-classic/1.2.7/logback-classic-1.2.7.jar
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/ch/qos/logback/logback-core/1.2.7/logback-core-1.2.7.jar
+Downloading from central: https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/1.2.7/logback-classic-1.2.7.jar
+Progress (1): 16/292 kB
+Progress (1): 32/292 kB
+Progress (1): 49/292 kB
+Progress (1): 65/292 kB
+Progress (1): 81/292 kB
+Progress (1): 98/292 kB
+Progress (1): 114/292 kB
+Progress (1): 131/292 kB
+Progress (1): 147/292 kB
+Progress (1): 163/292 kB
+Progress (1): 180/292 kB
+Progress (1): 196/292 kB
+Progress (1): 212/292 kB
+Progress (1): 229/292 kB
+Progress (1): 245/292 kB
+Progress (1): 262/292 kB
+Progress (1): 278/292 kB
+Progress (1): 292 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/1.2.7/logback-classic-1.2.7.jar (292 kB at 4.3 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/ch/qos/logback/logback-core/1.2.7/logback-core-1.2.7.jar
+Progress (1): 16/473 kB
+Progress (1): 33/473 kB
+Progress (1): 49/473 kB
+Progress (1): 66/473 kB
+Progress (1): 82/473 kB
+Progress (1): 98/473 kB
+Progress (1): 115/473 kB
+Progress (1): 131/473 kB
+Progress (1): 147/473 kB
+Progress (1): 164/473 kB
+Progress (1): 180/473 kB
+Progress (1): 197/473 kB
+Progress (1): 213/473 kB
+Progress (1): 229/473 kB
+Progress (1): 246/473 kB
+Progress (1): 256/473 kB
+Progress (1): 272/473 kB
+Progress (1): 289/473 kB
+Progress (1): 305/473 kB
+Progress (1): 321/473 kB
+Progress (1): 338/473 kB
+Progress (1): 354/473 kB
+Progress (1): 370/473 kB
+Progress (1): 387/473 kB
+Progress (1): 403/473 kB
+Progress (1): 420/473 kB
+Progress (1): 436/473 kB
+Progress (1): 452/473 kB
+Progress (1): 469/473 kB
+Progress (1): 473 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/ch/qos/logback/logback-core/1.2.7/logback-core-1.2.7.jar (473 kB at 4.3 MB/s)
+[INFO] 
+[INFO] --- jacoco:0.8.7:prepare-agent (default) @ scheduler-examples ---
+[INFO] argLine set to -javaagent:C:\\Users\\Yogya\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.8.7\\org.jacoco.agent-0.8.7-runtime.jar=destfile=C:\\Users\\Yogya\\Documents\\KTH\\BreakingUpdates\\breaking-updates\\tempProject\\165381d26b2c3d2278fde88c16f95807506451fe\\scheduler\\examples\\target\\jacoco.exec,excludes=org/btrplace/btrpsl/**/*:org/btrplace/safeplace/**/*:org/btrplace/bench/**/*:org/btrplace/scheduler/runner/disjoint/**/*
+[INFO] 
+[INFO] --- resources:3.3.0:resources (default-resources) @ scheduler-examples ---
+[INFO] skip non existing resourceDirectory C:\Users\Yogya\Documents\KTH\BreakingUpdates\breaking-updates\tempProject\165381d26b2c3d2278fde88c16f95807506451fe\scheduler\examples\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ scheduler-examples ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 7 source files to C:\Users\Yogya\Documents\KTH\BreakingUpdates\breaking-updates\tempProject\165381d26b2c3d2278fde88c16f95807506451fe\scheduler\examples\target\classes
+[INFO] 
+[INFO] --- dependency:2.8:tree (default-cli) @ scheduler-examples ---
+[INFO] org.btrplace:scheduler-examples:jar:1.12.1-SNAPSHOT
+[INFO] +- org.btrplace:scheduler-api:jar:1.12.1-SNAPSHOT:compile
+[INFO] |  \- net.sf.trove4j:trove4j:jar:3.0.3:compile
+[INFO] +- org.btrplace:scheduler-choco:jar:1.12.1-SNAPSHOT:compile
+[INFO] |  \- org.choco-solver:choco-solver:jar:4.10.7:compile
+[INFO] |     +- dk.brics.automaton:automaton:jar:1.11-8:compile
+[INFO] |     +- org.jgrapht:jgrapht-core:jar:1.4.0:compile
+[INFO] |     |  \- org.jheaps:jheaps:jar:0.11:compile
+[INFO] |     +- com.github.cp-profiler:cpprof-java:jar:1.3.0:compile
+[INFO] |     |  \- com.google.protobuf:protobuf-java:jar:2.6.1:compile
+[INFO] |     \- org.knowm.xchart:xchart:jar:3.8.1:compile
+[INFO] |        +- de.erichseifert.vectorgraphics2d:VectorGraphics2D:jar:0.13:compile
+[INFO] |        +- de.rototor.pdfbox:graphics2d:jar:0.32:compile
+[INFO] |        |  \- org.apache.pdfbox:pdfbox:jar:2.0.24:compile
+[INFO] |        |     +- org.apache.pdfbox:fontbox:jar:2.0.24:compile
+[INFO] |        |     \- commons-logging:commons-logging:jar:1.2:compile
+[INFO] |        \- com.madgag:animated-gif-lib:jar:1.4:compile
+[INFO] +- ch.qos.logback:logback-classic:jar:1.2.7:compile
+[INFO] |  \- ch.qos.logback:logback-core:jar:1.2.7:compile
+[INFO] +- org.testng:testng:jar:7.3.0:test
+[INFO] |  +- com.beust:jcommander:jar:1.78:test
+[INFO] |  +- org.apache.ant:ant:jar:1.10.3:test
+[INFO] |  |  \- org.apache.ant:ant-launcher:jar:1.10.3:test
+[INFO] |  +- junit:junit:jar:4.12:test
+[INFO] |  |  \- org.hamcrest:hamcrest-core:jar:1.3:test
+[INFO] |  +- com.google.inject:guice:jar:no_aop:4.2.2:test
+[INFO] |  |  +- javax.inject:javax.inject:jar:1:test
+[INFO] |  |  +- aopalliance:aopalliance:jar:1.0:test
+[INFO] |  |  \- com.google.guava:guava:jar:25.1-android:test
+[INFO] |  |     +- com.google.code.findbugs:jsr305:jar:3.0.2:test
+[INFO] |  |     +- org.checkerframework:checker-compat-qual:jar:2.0.0:test
+[INFO] |  |     +- com.google.errorprone:error_prone_annotations:jar:2.1.3:test
+[INFO] |  |     +- com.google.j2objc:j2objc-annotations:jar:1.1:test
+[INFO] |  |     \- org.codehaus.mojo:animal-sniffer-annotations:jar:1.14:test
+[INFO] |  \- org.yaml:snakeyaml:jar:1.21:test
+[INFO] +- org.slf4j:slf4j-api:jar:1.7.32:compile
+[INFO] +- org.mockito:mockito-core:jar:4.0.0:test
+[INFO] |  +- net.bytebuddy:byte-buddy:jar:1.11.19:test
+[INFO] |  +- net.bytebuddy:byte-buddy-agent:jar:1.11.19:test
+[INFO] |  \- org.objenesis:objenesis:jar:3.2:test
+[INFO] +- org.openjdk.jmh:jmh-core:jar:1.33:test
+[INFO] |  +- net.sf.jopt-simple:jopt-simple:jar:4.6:test
+[INFO] |  \- org.apache.commons:commons-math3:jar:3.2:test
+[INFO] \- org.openjdk.jmh:jmh-generator-annprocess:jar:1.33:test
+[INFO] 
+[INFO] ------------------------< org.btrplace:btrpsl >-------------------------
+[INFO] Building btrpsl 1.12.1-SNAPSHOT                                    [6/9]
+[INFO]   from btrpsl\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from central: https://repo.maven.apache.org/maven2/org/antlr/antlr3-maven-plugin/3.5.2/antlr3-maven-plugin-3.5.2.pom
+Progress (1): 8.3 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/antlr/antlr3-maven-plugin/3.5.2/antlr3-maven-plugin-3.5.2.pom (8.3 kB at 397 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/antlr/antlr-master/3.5.2/antlr-master-3.5.2.pom
+Progress (1): 12 kB
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/antlr/antlr-master/3.5.2/antlr-master-3.5.2.pom (12 kB at 585 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/antlr/antlr3-maven-plugin/3.5.2/antlr3-maven-plugin-3.5.2.jar
+Progress (1): 13 kB
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/antlr/antlr3-maven-plugin/3.5.2/antlr3-maven-plugin-3.5.2.jar (13 kB at 600 kB/s)
+Downloading from sonatype: https://oss.sonatype.org/service/local/staging/deploy/maven2/org/antlr/antlr/3.5.2/antlr-3.5.2.pom
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/org/antlr/antlr/3.5.2/antlr-3.5.2.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/antlr/antlr/3.5.2/antlr-3.5.2.pom
+Progress (1): 2.7 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/antlr/antlr/3.5.2/antlr-3.5.2.pom (2.7 kB at 171 kB/s)
+Downloading from sonatype: https://oss.sonatype.org/service/local/staging/deploy/maven2/org/antlr/antlr-runtime/3.5.2/antlr-runtime-3.5.2.pom
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/org/antlr/antlr-runtime/3.5.2/antlr-runtime-3.5.2.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/antlr/antlr-runtime/3.5.2/antlr-runtime-3.5.2.pom
+Progress (1): 2.2 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/antlr/antlr-runtime/3.5.2/antlr-runtime-3.5.2.pom (2.2 kB at 140 kB/s)
+Downloading from sonatype: https://oss.sonatype.org/service/local/staging/deploy/maven2/org/antlr/ST4/4.0.8/ST4-4.0.8.pom
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/org/antlr/ST4/4.0.8/ST4-4.0.8.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/antlr/ST4/4.0.8/ST4-4.0.8.pom
+Progress (1): 14 kB
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/antlr/ST4/4.0.8/ST4-4.0.8.pom (14 kB at 982 kB/s)
+Downloading from sonatype: https://oss.sonatype.org/service/local/staging/deploy/maven2/org/antlr/antlr/3.5.2/antlr-3.5.2.jar
+Downloading from sonatype: https://oss.sonatype.org/service/local/staging/deploy/maven2/org/antlr/antlr-runtime/3.5.2/antlr-runtime-3.5.2.jar
+Downloading from sonatype: https://oss.sonatype.org/service/local/staging/deploy/maven2/org/antlr/ST4/4.0.8/ST4-4.0.8.jar
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/org/antlr/antlr/3.5.2/antlr-3.5.2.jar
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/org/antlr/antlr-runtime/3.5.2/antlr-runtime-3.5.2.jar
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/org/antlr/ST4/4.0.8/ST4-4.0.8.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/antlr/antlr/3.5.2/antlr-3.5.2.jar
+Progress (1): 0/1.2 MB
+Progress (1): 0/1.2 MB
+Progress (1): 0/1.2 MB
+Progress (1): 0.1/1.2 MB
+Progress (1): 0.1/1.2 MB
+Progress (1): 0.1/1.2 MB
+Progress (1): 0.1/1.2 MB
+Progress (1): 0.1/1.2 MB
+Progress (1): 0.1/1.2 MB
+Progress (1): 0.2/1.2 MB
+Progress (1): 0.2/1.2 MB
+Progress (1): 0.2/1.2 MB
+Progress (1): 0.2/1.2 MB
+Progress (1): 0.2/1.2 MB
+Progress (1): 0.2/1.2 MB
+Progress (1): 0.3/1.2 MB
+Progress (1): 0.3/1.2 MB
+Progress (1): 0.3/1.2 MB
+Progress (1): 0.3/1.2 MB
+Progress (1): 0.3/1.2 MB
+Progress (1): 0.3/1.2 MB
+Progress (1): 0.4/1.2 MB
+Progress (1): 0.4/1.2 MB
+Progress (1): 0.4/1.2 MB
+Progress (1): 0.4/1.2 MB
+Progress (1): 0.4/1.2 MB
+Progress (1): 0.4/1.2 MB
+Progress (1): 0.5/1.2 MB
+Progress (1): 0.5/1.2 MB
+Progress (1): 0.5/1.2 MB
+Progress (1): 0.5/1.2 MB
+Progress (1): 0.5/1.2 MB
+Progress (1): 0.5/1.2 MB
+Progress (1): 0.6/1.2 MB
+Progress (1): 0.6/1.2 MB
+Progress (1): 0.6/1.2 MB
+Progress (1): 0.6/1.2 MB
+Progress (1): 0.6/1.2 MB
+Progress (1): 0.6/1.2 MB
+Progress (1): 0.7/1.2 MB
+Progress (1): 0.7/1.2 MB
+Progress (1): 0.7/1.2 MB
+Progress (1): 0.7/1.2 MB
+Progress (1): 0.7/1.2 MB
+Progress (1): 0.7/1.2 MB
+Progress (1): 0.7/1.2 MB
+Progress (1): 0.8/1.2 MB
+Progress (1): 0.8/1.2 MB
+Progress (1): 0.8/1.2 MB
+Progress (1): 0.8/1.2 MB
+Progress (1): 0.8/1.2 MB
+Progress (1): 0.8/1.2 MB
+Progress (1): 0.9/1.2 MB
+Progress (1): 0.9/1.2 MB
+Progress (1): 0.9/1.2 MB
+Progress (1): 0.9/1.2 MB
+Progress (1): 0.9/1.2 MB
+Progress (1): 0.9/1.2 MB
+Progress (1): 1.0/1.2 MB
+Progress (1): 1.0/1.2 MB
+Progress (1): 1.0/1.2 MB
+Progress (1): 1.0/1.2 MB
+Progress (1): 1.0/1.2 MB
+Progress (1): 1.0/1.2 MB
+Progress (1): 1.1/1.2 MB
+Progress (1): 1.1/1.2 MB
+Progress (1): 1.1/1.2 MB
+Progress (1): 1.1/1.2 MB
+Progress (1): 1.1/1.2 MB
+Progress (1): 1.1/1.2 MB
+Progress (1): 1.1/1.2 MB
+Progress (1): 1.2 MB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/antlr/antlr/3.5.2/antlr-3.5.2.jar (1.2 MB at 7.2 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/antlr/antlr-runtime/3.5.2/antlr-runtime-3.5.2.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/antlr/ST4/4.0.8/ST4-4.0.8.jar
+Progress (1): 16/168 kB
+Progress (1): 32/168 kB
+Progress (2): 32/168 kB | 16/240 kB
+Progress (2): 49/168 kB | 16/240 kB
+Progress (2): 49/168 kB | 33/240 kB
+Progress (2): 65/168 kB | 33/240 kB
+Progress (2): 65/168 kB | 49/240 kB
+Progress (2): 81/168 kB | 49/240 kB
+Progress (2): 81/168 kB | 66/240 kB
+Progress (2): 98/168 kB | 66/240 kB
+Progress (2): 98/168 kB | 82/240 kB
+Progress (2): 114/168 kB | 82/240 kB
+Progress (2): 114/168 kB | 98/240 kB
+Progress (2): 130/168 kB | 98/240 kB
+Progress (2): 130/168 kB | 115/240 kB
+Progress (2): 147/168 kB | 115/240 kB
+Progress (2): 147/168 kB | 131/240 kB
+Progress (2): 163/168 kB | 131/240 kB
+Progress (2): 168 kB | 131/240 kB    
+Progress (2): 168 kB | 147/240 kB
+Progress (2): 168 kB | 164/240 kB
+Progress (2): 168 kB | 180/240 kB
+Progress (2): 168 kB | 197/240 kB
+                                 
+Downloaded from central: https://repo.maven.apache.org/maven2/org/antlr/antlr-runtime/3.5.2/antlr-runtime-3.5.2.jar (168 kB at 3.0 MB/s)
+Progress (1): 213/240 kB
+Progress (1): 229/240 kB
+Progress (1): 240 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/antlr/ST4/4.0.8/ST4-4.0.8.jar (240 kB at 3.4 MB/s)
+[INFO] 
+[INFO] --- jacoco:0.8.7:prepare-agent (default) @ btrpsl ---
+[INFO] argLine set to -javaagent:C:\\Users\\Yogya\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.8.7\\org.jacoco.agent-0.8.7-runtime.jar=destfile=C:\\Users\\Yogya\\Documents\\KTH\\BreakingUpdates\\breaking-updates\\tempProject\\165381d26b2c3d2278fde88c16f95807506451fe\\scheduler\\btrpsl\\target\\jacoco.exec,excludes=org/btrplace/btrpsl/**/*:org/btrplace/safeplace/**/*:org/btrplace/bench/**/*:org/btrplace/scheduler/runner/disjoint/**/*
+[INFO] 
+[INFO] --- antlr3:3.5.2:antlr (default) @ btrpsl ---
+[INFO] Artifact org.apache.maven:maven-plugin-api:pom:2.0 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases), sonatype-nexus-snapshots (https://oss.sonatype.org/content/repositories/snapshots, default, snapshots)]
+[INFO] Artifact org.apache.maven:maven-plugin-api:pom:2.0 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases), sonatype-nexus-snapshots (https://oss.sonatype.org/content/repositories/snapshots, default, snapshots)]
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/2.0/maven-plugin-api-2.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/2.0/maven-plugin-api-2.0.pom (0 B at 0 B/s)
+[INFO] Artifact org.apache.maven:maven:pom:2.0 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases), sonatype-nexus-snapshots (https://oss.sonatype.org/content/repositories/snapshots, default, snapshots)]
+[INFO] Artifact org.apache.maven:maven:pom:2.0 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases), sonatype-nexus-snapshots (https://oss.sonatype.org/content/repositories/snapshots, default, snapshots)]
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven/2.0/maven-2.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven/2.0/maven-2.0.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-project/2.0/maven-project-2.0.pom
+Progress (1): 1.6 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-project/2.0/maven-project-2.0.pom (1.6 kB at 82 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-profile/2.0/maven-profile-2.0.pom
+Progress (1): 1.4 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-profile/2.0/maven-profile-2.0.pom (1.4 kB at 69 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/2.0/maven-model-2.0.pom
+Progress (1): 2.4 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/2.0/maven-model-2.0.pom (2.4 kB at 120 kB/s)
+[INFO] Artifact junit:junit:pom:4.10 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases), sonatype-nexus-snapshots (https://oss.sonatype.org/content/repositories/snapshots, default, snapshots), snapshots (http://snapshots.maven.codehaus.org/maven2, default, snapshots)]
+[INFO] Artifact junit:junit:pom:4.10 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases), sonatype-nexus-snapshots (https://oss.sonatype.org/content/repositories/snapshots, default, snapshots), snapshots (http://snapshots.maven.codehaus.org/maven2, default, snapshots)]
+Downloading from central: https://repo.maven.apache.org/maven2/junit/junit/4.10/junit-4.10.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/junit/junit/4.10/junit-4.10.pom (0 B at 0 B/s)
+[INFO] Artifact org.apache.maven:maven-artifact-manager:pom:2.0 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases), sonatype-nexus-snapshots (https://oss.sonatype.org/content/repositories/snapshots, default, snapshots), snapshots (http://snapshots.maven.codehaus.org/maven2, default, snapshots)]
+[INFO] Artifact org.apache.maven:maven-artifact-manager:pom:2.0 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases), sonatype-nexus-snapshots (https://oss.sonatype.org/content/repositories/snapshots, default, snapshots), snapshots (http://snapshots.maven.codehaus.org/maven2, default, snapshots)]
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact-manager/2.0/maven-artifact-manager-2.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact-manager/2.0/maven-artifact-manager-2.0.pom (0 B at 0 B/s)
+[INFO] Artifact org.apache.maven:maven-repository-metadata:pom:2.0 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases), sonatype-nexus-snapshots (https://oss.sonatype.org/content/repositories/snapshots, default, snapshots), snapshots (http://snapshots.maven.codehaus.org/maven2, default, snapshots)]
+[INFO] Artifact org.apache.maven:maven-repository-metadata:pom:2.0 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases), sonatype-nexus-snapshots (https://oss.sonatype.org/content/repositories/snapshots, default, snapshots), snapshots (http://snapshots.maven.codehaus.org/maven2, default, snapshots)]
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/2.0/maven-repository-metadata-2.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/2.0/maven-repository-metadata-2.0.pom (0 B at 0 B/s)
+[INFO] Artifact org.apache.maven:maven-artifact:pom:2.0 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases), sonatype-nexus-snapshots (https://oss.sonatype.org/content/repositories/snapshots, default, snapshots), snapshots (http://snapshots.maven.codehaus.org/maven2, default, snapshots)]
+[INFO] Artifact org.apache.maven:maven-artifact:pom:2.0 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases), sonatype-nexus-snapshots (https://oss.sonatype.org/content/repositories/snapshots, default, snapshots), snapshots (http://snapshots.maven.codehaus.org/maven2, default, snapshots)]
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/2.0/maven-artifact-2.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/2.0/maven-artifact-2.0.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.0/plexus-compiler-api-2.0.pom
+Progress (1): 865 B
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.0/plexus-compiler-api-2.0.pom (865 B at 48 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler/2.0/plexus-compiler-2.0.pom
+Progress (1): 3.6 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler/2.0/plexus-compiler-2.0.pom (3.6 kB at 201 kB/s)
+[INFO] Artifact org.apache.maven:maven-plugin-api:jar:2.0 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases), sonatype-nexus-snapshots (https://oss.sonatype.org/content/repositories/snapshots, default, snapshots)]
+[INFO] Artifact org.apache.maven:maven-artifact-manager:jar:2.0 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases), sonatype-nexus-snapshots (https://oss.sonatype.org/content/repositories/snapshots, default, snapshots), snapshots (http://snapshots.maven.codehaus.org/maven2, default, snapshots)]
+[INFO] Artifact org.apache.maven:maven-repository-metadata:jar:2.0 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases), sonatype-nexus-snapshots (https://oss.sonatype.org/content/repositories/snapshots, default, snapshots), snapshots (http://snapshots.maven.codehaus.org/maven2, default, snapshots)]
+[INFO] Artifact org.apache.maven:maven-artifact:jar:2.0 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases), sonatype-nexus-snapshots (https://oss.sonatype.org/content/repositories/snapshots, default, snapshots), snapshots (http://snapshots.maven.codehaus.org/maven2, default, snapshots)]
+[INFO] Artifact org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-8 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases), sonatype-nexus-snapshots (https://oss.sonatype.org/content/repositories/snapshots, default, snapshots), snapshots (http://snapshots.maven.codehaus.org/maven2, default, snapshots)]
+[INFO] Artifact org.apache.maven:maven-plugin-api:jar:2.0 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases), sonatype-nexus-snapshots (https://oss.sonatype.org/content/repositories/snapshots, default, snapshots)]
+[INFO] Artifact org.apache.maven:maven-artifact-manager:jar:2.0 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases), sonatype-nexus-snapshots (https://oss.sonatype.org/content/repositories/snapshots, default, snapshots), snapshots (http://snapshots.maven.codehaus.org/maven2, default, snapshots)]
+[INFO] Artifact org.apache.maven:maven-repository-metadata:jar:2.0 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases), sonatype-nexus-snapshots (https://oss.sonatype.org/content/repositories/snapshots, default, snapshots), snapshots (http://snapshots.maven.codehaus.org/maven2, default, snapshots)]
+[INFO] Artifact org.apache.maven:maven-artifact:jar:2.0 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases), sonatype-nexus-snapshots (https://oss.sonatype.org/content/repositories/snapshots, default, snapshots), snapshots (http://snapshots.maven.codehaus.org/maven2, default, snapshots)]
+[INFO] Artifact org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-8 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases), sonatype-nexus-snapshots (https://oss.sonatype.org/content/repositories/snapshots, default, snapshots), snapshots (http://snapshots.maven.codehaus.org/maven2, default, snapshots)]
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/2.0/maven-plugin-api-2.0.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/2.0/maven-plugin-api-2.0.jar (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-project/2.0/maven-project-2.0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-profile/2.0/maven-profile-2.0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/2.0/maven-model-2.0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact-manager/2.0/maven-artifact-manager-2.0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/2.0/maven-repository-metadata-2.0.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact-manager/2.0/maven-artifact-manager-2.0.jar (0 B at 0 B/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/2.0/maven-repository-metadata-2.0.jar (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/2.0/maven-artifact-2.0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-container-default/1.0-alpha-8/plexus-container-default-1.0-alpha-8.jar
+Progress (1): 16/78 kB
+Progress (2): 16/78 kB | 16/105 kB
+Progress (3): 16/78 kB | 16/105 kB | 16/30 kB
+Progress (3): 16/78 kB | 33/105 kB | 16/30 kB
+Progress (3): 33/78 kB | 33/105 kB | 16/30 kB
+Progress (3): 33/78 kB | 33/105 kB | 30 kB   
+                                          
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-profile/2.0/maven-profile-2.0.jar (30 kB at 1.0 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.0/plexus-compiler-api-2.0.jar
+Progress (2): 33/78 kB | 49/105 kB
+Progress (2): 33/78 kB | 66/105 kB
+Progress (2): 49/78 kB | 66/105 kB
+Progress (2): 49/78 kB | 82/105 kB
+                                  
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-container-default/1.0-alpha-8/plexus-container-default-1.0-alpha-8.jar (0 B at 0 B/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/2.0/maven-artifact-2.0.jar (0 B at 0 B/s)
+Progress (2): 66/78 kB | 82/105 kB
+Progress (2): 66/78 kB | 98/105 kB
+Progress (2): 78 kB | 98/105 kB   
+Progress (2): 78 kB | 105 kB   
+                            
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-project/2.0/maven-project-2.0.jar (105 kB at 2.5 MB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/2.0/maven-model-2.0.jar (78 kB at 1.8 MB/s)
+Progress (1): 16/25 kB
+Progress (1): 25 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.0/plexus-compiler-api-2.0.jar (25 kB at 532 kB/s)
+[INFO] ANTLR: Processing source directory C:\Users\Yogya\Documents\KTH\BreakingUpdates\breaking-updates\tempProject\165381d26b2c3d2278fde88c16f95807506451fe\scheduler\btrpsl\src\main\antlr3
+Grammar C:\Users\Yogya\Documents\KTH\BreakingUpdates\breaking-updates\tempProject\165381d26b2c3d2278fde88c16f95807506451fe\scheduler\btrpsl\src\main\antlr3\org\btrplace\btrpsl\antlr\ANTLRBtrplaceSL2.g is up to date - build skipped
+[INFO] 
+[INFO] --- resources:3.3.0:resources (default-resources) @ btrpsl ---
+[INFO] skip non existing resourceDirectory C:\Users\Yogya\Documents\KTH\BreakingUpdates\breaking-updates\tempProject\165381d26b2c3d2278fde88c16f95807506451fe\scheduler\btrpsl\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ btrpsl ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 98 source files to C:\Users\Yogya\Documents\KTH\BreakingUpdates\breaking-updates\tempProject\165381d26b2c3d2278fde88c16f95807506451fe\scheduler\btrpsl\target\classes
+[INFO] 
+[INFO] --- dependency:2.8:tree (default-cli) @ btrpsl ---
+[INFO] org.btrplace:btrpsl:jar:1.12.1-SNAPSHOT
+[INFO] +- org.btrplace:scheduler-api:jar:1.12.1-SNAPSHOT:compile
+[INFO] |  \- net.sf.trove4j:trove4j:jar:3.0.3:compile
+[INFO] +- org.btrplace:scheduler-json:jar:1.12.1-SNAPSHOT:compile
+[INFO] |  \- net.minidev:json-smart:jar:2.4.7:compile
+[INFO] |     \- net.minidev:accessors-smart:jar:2.4.7:compile
+[INFO] |        \- org.ow2.asm:asm:jar:9.1:compile
+[INFO] +- org.antlr:antlr:jar:3.5.2:compile
+[INFO] |  +- org.antlr:antlr-runtime:jar:3.5.2:compile
+[INFO] |  \- org.antlr:ST4:jar:4.0.8:compile
+[INFO] +- org.reflections:reflections:jar:0.10.2:test
+[INFO] |  +- org.javassist:javassist:jar:3.28.0-GA:test
+[INFO] |  \- com.google.code.findbugs:jsr305:jar:3.0.2:test
+[INFO] +- org.btrplace:scheduler-choco:jar:1.12.1-SNAPSHOT:test
+[INFO] |  \- org.choco-solver:choco-solver:jar:4.10.7:test
+[INFO] |     +- dk.brics.automaton:automaton:jar:1.11-8:test
+[INFO] |     +- org.jgrapht:jgrapht-core:jar:1.4.0:test
+[INFO] |     |  \- org.jheaps:jheaps:jar:0.11:test
+[INFO] |     +- com.github.cp-profiler:cpprof-java:jar:1.3.0:test
+[INFO] |     |  \- com.google.protobuf:protobuf-java:jar:2.6.1:test
+[INFO] |     \- org.knowm.xchart:xchart:jar:3.8.1:test
+[INFO] |        +- de.erichseifert.vectorgraphics2d:VectorGraphics2D:jar:0.13:test
+[INFO] |        +- de.rototor.pdfbox:graphics2d:jar:0.32:test
+[INFO] |        |  \- org.apache.pdfbox:pdfbox:jar:2.0.24:test
+[INFO] |        |     +- org.apache.pdfbox:fontbox:jar:2.0.24:test
+[INFO] |        |     \- commons-logging:commons-logging:jar:1.2:test
+[INFO] |        \- com.madgag:animated-gif-lib:jar:1.4:test
+[INFO] +- org.testng:testng:jar:7.3.0:test
+[INFO] |  +- com.beust:jcommander:jar:1.78:test
+[INFO] |  +- org.apache.ant:ant:jar:1.10.3:test
+[INFO] |  |  \- org.apache.ant:ant-launcher:jar:1.10.3:test
+[INFO] |  +- junit:junit:jar:4.12:test
+[INFO] |  |  \- org.hamcrest:hamcrest-core:jar:1.3:test
+[INFO] |  +- com.google.inject:guice:jar:no_aop:4.2.2:test
+[INFO] |  |  +- javax.inject:javax.inject:jar:1:test
+[INFO] |  |  +- aopalliance:aopalliance:jar:1.0:test
+[INFO] |  |  \- com.google.guava:guava:jar:25.1-android:test
+[INFO] |  |     +- org.checkerframework:checker-compat-qual:jar:2.0.0:test
+[INFO] |  |     +- com.google.errorprone:error_prone_annotations:jar:2.1.3:test
+[INFO] |  |     +- com.google.j2objc:j2objc-annotations:jar:1.1:test
+[INFO] |  |     \- org.codehaus.mojo:animal-sniffer-annotations:jar:1.14:test
+[INFO] |  \- org.yaml:snakeyaml:jar:1.21:test
+[INFO] +- org.slf4j:slf4j-api:jar:1.7.32:compile
+[INFO] +- org.mockito:mockito-core:jar:4.0.0:test
+[INFO] |  +- net.bytebuddy:byte-buddy:jar:1.11.19:test
+[INFO] |  +- net.bytebuddy:byte-buddy-agent:jar:1.11.19:test
+[INFO] |  \- org.objenesis:objenesis:jar:3.2:test
+[INFO] +- org.openjdk.jmh:jmh-core:jar:1.33:test
+[INFO] |  +- net.sf.jopt-simple:jopt-simple:jar:4.6:test
+[INFO] |  \- org.apache.commons:commons-math3:jar:3.2:test
+[INFO] \- org.openjdk.jmh:jmh-generator-annprocess:jar:1.33:test
+[INFO] 
+[INFO] -----------------------< org.btrplace:safeplace >-----------------------
+[INFO] Building safeplace 1.12.1-SNAPSHOT                                 [7/9]
+[INFO]   from safeplace\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from central: https://repo.maven.apache.org/maven2/org/antlr/antlr4-maven-plugin/4.9.3/antlr4-maven-plugin-4.9.3.pom
+Progress (1): 5.9 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/antlr/antlr4-maven-plugin/4.9.3/antlr4-maven-plugin-4.9.3.pom (5.9 kB at 145 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/antlr/antlr4-maven-plugin/4.9.3/antlr4-maven-plugin-4.9.3.jar
+Progress (1): 16/30 kB
+Progress (1): 30 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/antlr/antlr4-maven-plugin/4.9.3/antlr4-maven-plugin-4.9.3.jar (30 kB at 1.4 MB/s)
+Downloading from sonatype: https://oss.sonatype.org/service/local/staging/deploy/maven2/io/github/lukehutch/fast-classpath-scanner/2.9.3/fast-classpath-scanner-2.9.3.pom
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/io/github/lukehutch/fast-classpath-scanner/2.9.3/fast-classpath-scanner-2.9.3.pom
+Downloading from central: https://repo.maven.apache.org/maven2/io/github/lukehutch/fast-classpath-scanner/2.9.3/fast-classpath-scanner-2.9.3.pom
+Progress (1): 8.3 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/io/github/lukehutch/fast-classpath-scanner/2.9.3/fast-classpath-scanner-2.9.3.pom (8.3 kB at 307 kB/s)
+Downloading from sonatype: https://oss.sonatype.org/service/local/staging/deploy/maven2/org/antlr/antlr4/4.9.3/antlr4-4.9.3.pom
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/org/antlr/antlr4/4.9.3/antlr4-4.9.3.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/antlr/antlr4/4.9.3/antlr4-4.9.3.pom
+Progress (1): 6.2 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/antlr/antlr4/4.9.3/antlr4-4.9.3.pom (6.2 kB at 364 kB/s)
+Downloading from sonatype: https://oss.sonatype.org/service/local/staging/deploy/maven2/org/antlr/ST4/4.3.1/ST4-4.3.1.pom
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/org/antlr/ST4/4.3.1/ST4-4.3.1.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/antlr/ST4/4.3.1/ST4-4.3.1.pom
+Progress (1): 4.9 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/antlr/ST4/4.3.1/ST4-4.3.1.pom (4.9 kB at 353 kB/s)
+Downloading from sonatype: https://oss.sonatype.org/service/local/staging/deploy/maven2/org/abego/treelayout/org.abego.treelayout.core/1.0.3/org.abego.treelayout.core-1.0.3.pom
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/org/abego/treelayout/org.abego.treelayout.core/1.0.3/org.abego.treelayout.core-1.0.3.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/abego/treelayout/org.abego.treelayout.core/1.0.3/org.abego.treelayout.core-1.0.3.pom
+Progress (1): 5.2 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/abego/treelayout/org.abego.treelayout.core/1.0.3/org.abego.treelayout.core-1.0.3.pom (5.2 kB at 398 kB/s)
+[INFO] Artifact org.glassfish:javax.json:pom:1.0.4 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [sonatype (https://oss.sonatype.org/service/local/staging/deploy/maven2, default, releases+snapshots), sonatype-snapshots (https://oss.sonatype.org/content/repositories/snapshots, default, releases+snapshots), central (https://repo.maven.apache.org/maven2, default, releases), sonatype-nexus-snapshots (https://oss.sonatype.org/content/repositories/snapshots, default, snapshots)]
+[INFO] Artifact org.glassfish:javax.json:pom:1.0.4 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [sonatype (https://oss.sonatype.org/service/local/staging/deploy/maven2, default, releases+snapshots), sonatype-snapshots (https://oss.sonatype.org/content/repositories/snapshots, default, releases+snapshots), central (https://repo.maven.apache.org/maven2, default, releases), sonatype-nexus-snapshots (https://oss.sonatype.org/content/repositories/snapshots, default, snapshots)]
+Downloading from sonatype: https://oss.sonatype.org/service/local/staging/deploy/maven2/org/glassfish/javax.json/1.0.4/javax.json-1.0.4.pom
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/org/glassfish/javax.json/1.0.4/javax.json-1.0.4.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/javax.json/1.0.4/javax.json-1.0.4.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/javax.json/1.0.4/javax.json-1.0.4.pom (0 B at 0 B/s)
+[INFO] Artifact org.glassfish:json:pom:1.0.4 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [sonatype (https://oss.sonatype.org/service/local/staging/deploy/maven2, default, releases+snapshots), sonatype-snapshots (https://oss.sonatype.org/content/repositories/snapshots, default, releases+snapshots), central (https://repo.maven.apache.org/maven2, default, releases), sonatype-nexus-snapshots (https://oss.sonatype.org/content/repositories/snapshots, default, snapshots)]
+[INFO] Artifact org.glassfish:json:pom:1.0.4 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [sonatype (https://oss.sonatype.org/service/local/staging/deploy/maven2, default, releases+snapshots), sonatype-snapshots (https://oss.sonatype.org/content/repositories/snapshots, default, releases+snapshots), central (https://repo.maven.apache.org/maven2, default, releases), sonatype-nexus-snapshots (https://oss.sonatype.org/content/repositories/snapshots, default, snapshots)]
+Downloading from sonatype: https://oss.sonatype.org/service/local/staging/deploy/maven2/org/glassfish/json/1.0.4/json-1.0.4.pom
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/org/glassfish/json/1.0.4/json-1.0.4.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/json/1.0.4/json-1.0.4.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/json/1.0.4/json-1.0.4.pom (0 B at 0 B/s)
+Downloading from sonatype: https://oss.sonatype.org/service/local/staging/deploy/maven2/com/ibm/icu/icu4j/69.1/icu4j-69.1.pom
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/com/ibm/icu/icu4j/69.1/icu4j-69.1.pom
+Downloading from central: https://repo.maven.apache.org/maven2/com/ibm/icu/icu4j/69.1/icu4j-69.1.pom
+Progress (1): 4.9 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/ibm/icu/icu4j/69.1/icu4j-69.1.pom (4.9 kB at 308 kB/s)
+Downloading from sonatype: https://oss.sonatype.org/service/local/staging/deploy/maven2/com/github/javaparser/javaparser-core/3.18.0/javaparser-core-3.18.0.pom
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/com/github/javaparser/javaparser-core/3.18.0/javaparser-core-3.18.0.pom
+Downloading from central: https://repo.maven.apache.org/maven2/com/github/javaparser/javaparser-core/3.18.0/javaparser-core-3.18.0.pom
+Progress (1): 4.9 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/github/javaparser/javaparser-core/3.18.0/javaparser-core-3.18.0.pom (4.9 kB at 271 kB/s)
+Downloading from sonatype: https://oss.sonatype.org/service/local/staging/deploy/maven2/com/github/javaparser/javaparser-parent/3.18.0/javaparser-parent-3.18.0.pom
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/com/github/javaparser/javaparser-parent/3.18.0/javaparser-parent-3.18.0.pom
+Downloading from central: https://repo.maven.apache.org/maven2/com/github/javaparser/javaparser-parent/3.18.0/javaparser-parent-3.18.0.pom
+Progress (1): 16/18 kB
+Progress (1): 18 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/com/github/javaparser/javaparser-parent/3.18.0/javaparser-parent-3.18.0.pom (18 kB at 1.2 MB/s)
+[INFO] Artifact org.glassfish:javax.json:jar:1.0.4 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [sonatype (https://oss.sonatype.org/service/local/staging/deploy/maven2, default, releases+snapshots), sonatype-snapshots (https://oss.sonatype.org/content/repositories/snapshots, default, releases+snapshots), central (https://repo.maven.apache.org/maven2, default, releases), sonatype-nexus-snapshots (https://oss.sonatype.org/content/repositories/snapshots, default, snapshots)]
+[INFO] Artifact org.glassfish:javax.json:jar:1.0.4 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [sonatype (https://oss.sonatype.org/service/local/staging/deploy/maven2, default, releases+snapshots), sonatype-snapshots (https://oss.sonatype.org/content/repositories/snapshots, default, releases+snapshots), central (https://repo.maven.apache.org/maven2, default, releases), sonatype-nexus-snapshots (https://oss.sonatype.org/content/repositories/snapshots, default, snapshots)]
+Downloading from sonatype: https://oss.sonatype.org/service/local/staging/deploy/maven2/io/github/lukehutch/fast-classpath-scanner/2.9.3/fast-classpath-scanner-2.9.3.jar
+Downloading from sonatype: https://oss.sonatype.org/service/local/staging/deploy/maven2/org/antlr/antlr4/4.9.3/antlr4-4.9.3.jar
+Downloading from sonatype: https://oss.sonatype.org/service/local/staging/deploy/maven2/org/antlr/ST4/4.3.1/ST4-4.3.1.jar
+Downloading from sonatype: https://oss.sonatype.org/service/local/staging/deploy/maven2/org/abego/treelayout/org.abego.treelayout.core/1.0.3/org.abego.treelayout.core-1.0.3.jar
+Downloading from sonatype: https://oss.sonatype.org/service/local/staging/deploy/maven2/org/glassfish/javax.json/1.0.4/javax.json-1.0.4.jar
+Downloading from sonatype: https://oss.sonatype.org/service/local/staging/deploy/maven2/com/ibm/icu/icu4j/69.1/icu4j-69.1.jar
+Downloading from sonatype: https://oss.sonatype.org/service/local/staging/deploy/maven2/com/github/javaparser/javaparser-core/3.18.0/javaparser-core-3.18.0.jar
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/io/github/lukehutch/fast-classpath-scanner/2.9.3/fast-classpath-scanner-2.9.3.jar
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/org/antlr/antlr4/4.9.3/antlr4-4.9.3.jar
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/org/antlr/ST4/4.3.1/ST4-4.3.1.jar
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/org/abego/treelayout/org.abego.treelayout.core/1.0.3/org.abego.treelayout.core-1.0.3.jar
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/org/glassfish/javax.json/1.0.4/javax.json-1.0.4.jar
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/com/ibm/icu/icu4j/69.1/icu4j-69.1.jar
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/com/github/javaparser/javaparser-core/3.18.0/javaparser-core-3.18.0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/io/github/lukehutch/fast-classpath-scanner/2.9.3/fast-classpath-scanner-2.9.3.jar
+Progress (1): 16/242 kB
+Progress (1): 32/242 kB
+Progress (1): 49/242 kB
+Progress (1): 65/242 kB
+Progress (1): 81/242 kB
+Progress (1): 98/242 kB
+Progress (1): 114/242 kB
+Progress (1): 131/242 kB
+Progress (1): 147/242 kB
+Progress (1): 163/242 kB
+Progress (1): 180/242 kB
+Progress (1): 196/242 kB
+Progress (1): 212/242 kB
+Progress (1): 229/242 kB
+Progress (1): 242 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/io/github/lukehutch/fast-classpath-scanner/2.9.3/fast-classpath-scanner-2.9.3.jar (242 kB at 6.1 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/antlr/antlr4/4.9.3/antlr4-4.9.3.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/antlr/ST4/4.3.1/ST4-4.3.1.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/abego/treelayout/org.abego.treelayout.core/1.0.3/org.abego.treelayout.core-1.0.3.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/javax.json/1.0.4/javax.json-1.0.4.jar
+Downloading from central: https://repo.maven.apache.org/maven2/com/ibm/icu/icu4j/69.1/icu4j-69.1.jar
+Progress (1): 16/251 kB
+Progress (1): 33/251 kB
+Progress (1): 49/251 kB
+Progress (1): 66/251 kB
+Progress (1): 82/251 kB
+Progress (1): 98/251 kB
+                       
+Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/javax.json/1.0.4/javax.json-1.0.4.jar (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/github/javaparser/javaparser-core/3.18.0/javaparser-core-3.18.0.jar
+Progress (1): 115/251 kB
+Progress (2): 115/251 kB | 0/2.6 MB
+Progress (2): 131/251 kB | 0/2.6 MB
+Progress (2): 131/251 kB | 0/2.6 MB
+Progress (2): 131/251 kB | 0/2.6 MB
+Progress (2): 131/251 kB | 0.1/2.6 MB
+Progress (2): 131/251 kB | 0.1/2.6 MB
+Progress (2): 131/251 kB | 0.1/2.6 MB
+Progress (2): 131/251 kB | 0.1/2.6 MB
+Progress (2): 131/251 kB | 0.1/2.6 MB
+Progress (2): 131/251 kB | 0.1/2.6 MB
+Progress (2): 131/251 kB | 0.2/2.6 MB
+Progress (2): 131/251 kB | 0.2/2.6 MB
+Progress (3): 131/251 kB | 0.2/2.6 MB | 16/27 kB
+Progress (3): 131/251 kB | 0.2/2.6 MB | 16/27 kB
+Progress (3): 131/251 kB | 0.2/2.6 MB | 16/27 kB
+Progress (3): 131/251 kB | 0.2/2.6 MB | 16/27 kB
+Progress (3): 131/251 kB | 0.2/2.6 MB | 16/27 kB
+Progress (3): 131/251 kB | 0.2/2.6 MB | 27 kB   
+Progress (3): 131/251 kB | 0.3/2.6 MB | 27 kB
+Progress (3): 131/251 kB | 0.3/2.6 MB | 27 kB
+Progress (3): 131/251 kB | 0.3/2.6 MB | 27 kB
+                                             
+Downloaded from central: https://repo.maven.apache.org/maven2/org/abego/treelayout/org.abego.treelayout.core/1.0.3/org.abego.treelayout.core-1.0.3.jar (27 kB at 462 kB/s)
+Progress (2): 131/251 kB | 0.3/2.6 MB
+Progress (2): 131/251 kB | 0.3/2.6 MB
+Progress (2): 131/251 kB | 0.3/2.6 MB
+Progress (2): 131/251 kB | 0.4/2.6 MB
+Progress (2): 131/251 kB | 0.4/2.6 MB
+Progress (3): 131/251 kB | 0.4/2.6 MB | 0/13 MB
+Progress (3): 131/251 kB | 0.4/2.6 MB | 0/13 MB
+Progress (3): 131/251 kB | 0.4/2.6 MB | 0/13 MB
+Progress (3): 131/251 kB | 0.4/2.6 MB | 0.1/13 MB
+Progress (3): 131/251 kB | 0.4/2.6 MB | 0.1/13 MB
+Progress (3): 131/251 kB | 0.4/2.6 MB | 0.1/13 MB
+Progress (3): 131/251 kB | 0.4/2.6 MB | 0.1/13 MB
+Progress (3): 131/251 kB | 0.4/2.6 MB | 0.1/13 MB
+Progress (3): 131/251 kB | 0.4/2.6 MB | 0.1/13 MB
+Progress (3): 131/251 kB | 0.4/2.6 MB | 0.2/13 MB
+Progress (3): 131/251 kB | 0.4/2.6 MB | 0.2/13 MB
+Progress (3): 131/251 kB | 0.4/2.6 MB | 0.2/13 MB
+Progress (3): 131/251 kB | 0.4/2.6 MB | 0.2/13 MB
+Progress (3): 147/251 kB | 0.4/2.6 MB | 0.2/13 MB
+Progress (3): 164/251 kB | 0.4/2.6 MB | 0.2/13 MB
+Progress (3): 180/251 kB | 0.4/2.6 MB | 0.2/13 MB
+Progress (3): 197/251 kB | 0.4/2.6 MB | 0.2/13 MB
+Progress (3): 197/251 kB | 0.4/2.6 MB | 0.2/13 MB
+Progress (3): 213/251 kB | 0.4/2.6 MB | 0.2/13 MB
+Progress (3): 229/251 kB | 0.4/2.6 MB | 0.2/13 MB
+Progress (3): 229/251 kB | 0.4/2.6 MB | 0.2/13 MB
+Progress (3): 229/251 kB | 0.4/2.6 MB | 0.2/13 MB
+Progress (3): 246/251 kB | 0.4/2.6 MB | 0.2/13 MB
+Progress (3): 246/251 kB | 0.4/2.6 MB | 0.2/13 MB
+Progress (3): 251 kB | 0.4/2.6 MB | 0.2/13 MB    
+Progress (3): 251 kB | 0.4/2.6 MB | 0.2/13 MB
+                                             
+Downloaded from central: https://repo.maven.apache.org/maven2/org/antlr/ST4/4.3.1/ST4-4.3.1.jar (251 kB at 2.4 MB/s)
+Progress (2): 0.4/2.6 MB | 0.2/13 MB
+Progress (2): 0.5/2.6 MB | 0.2/13 MB
+Progress (2): 0.5/2.6 MB | 0.3/13 MB
+Progress (2): 0.5/2.6 MB | 0.3/13 MB
+Progress (2): 0.5/2.6 MB | 0.3/13 MB
+Progress (2): 0.5/2.6 MB | 0.3/13 MB
+Progress (2): 0.5/2.6 MB | 0.3/13 MB
+Progress (2): 0.5/2.6 MB | 0.3/13 MB
+Progress (2): 0.5/2.6 MB | 0.3/13 MB
+Progress (3): 0.5/2.6 MB | 0.3/13 MB | 0/1.2 MB
+Progress (3): 0.5/2.6 MB | 0.3/13 MB | 0/1.2 MB
+Progress (3): 0.5/2.6 MB | 0.3/13 MB | 0/1.2 MB
+Progress (3): 0.5/2.6 MB | 0.3/13 MB | 0/1.2 MB
+Progress (3): 0.5/2.6 MB | 0.4/13 MB | 0/1.2 MB
+Progress (3): 0.5/2.6 MB | 0.4/13 MB | 0/1.2 MB
+Progress (3): 0.5/2.6 MB | 0.4/13 MB | 0/1.2 MB
+Progress (3): 0.5/2.6 MB | 0.4/13 MB | 0/1.2 MB
+Progress (3): 0.5/2.6 MB | 0.4/13 MB | 0/1.2 MB
+Progress (3): 0.5/2.6 MB | 0.4/13 MB | 0/1.2 MB
+Progress (3): 0.5/2.6 MB | 0.4/13 MB | 0.1/1.2 MB
+Progress (3): 0.5/2.6 MB | 0.4/13 MB | 0.1/1.2 MB
+Progress (3): 0.5/2.6 MB | 0.4/13 MB | 0.1/1.2 MB
+Progress (3): 0.5/2.6 MB | 0.4/13 MB | 0.1/1.2 MB
+Progress (3): 0.5/2.6 MB | 0.4/13 MB | 0.1/1.2 MB
+Progress (3): 0.6/2.6 MB | 0.4/13 MB | 0.1/1.2 MB
+Progress (3): 0.6/2.6 MB | 0.5/13 MB | 0.1/1.2 MB
+Progress (3): 0.6/2.6 MB | 0.5/13 MB | 0.1/1.2 MB
+Progress (3): 0.6/2.6 MB | 0.5/13 MB | 0.1/1.2 MB
+Progress (3): 0.6/2.6 MB | 0.5/13 MB | 0.1/1.2 MB
+Progress (3): 0.6/2.6 MB | 0.5/13 MB | 0.1/1.2 MB
+Progress (3): 0.6/2.6 MB | 0.5/13 MB | 0.1/1.2 MB
+Progress (3): 0.6/2.6 MB | 0.5/13 MB | 0.1/1.2 MB
+Progress (3): 0.6/2.6 MB | 0.5/13 MB | 0.1/1.2 MB
+Progress (3): 0.6/2.6 MB | 0.5/13 MB | 0.1/1.2 MB
+Progress (3): 0.6/2.6 MB | 0.5/13 MB | 0.1/1.2 MB
+Progress (3): 0.6/2.6 MB | 0.5/13 MB | 0.1/1.2 MB
+Progress (3): 0.6/2.6 MB | 0.5/13 MB | 0.1/1.2 MB
+Progress (3): 0.6/2.6 MB | 0.5/13 MB | 0.1/1.2 MB
+Progress (3): 0.6/2.6 MB | 0.6/13 MB | 0.1/1.2 MB
+Progress (3): 0.6/2.6 MB | 0.6/13 MB | 0.1/1.2 MB
+Progress (3): 0.6/2.6 MB | 0.6/13 MB | 0.2/1.2 MB
+Progress (3): 0.6/2.6 MB | 0.6/13 MB | 0.2/1.2 MB
+Progress (3): 0.6/2.6 MB | 0.6/13 MB | 0.2/1.2 MB
+Progress (3): 0.6/2.6 MB | 0.6/13 MB | 0.2/1.2 MB
+Progress (3): 0.6/2.6 MB | 0.6/13 MB | 0.2/1.2 MB
+Progress (3): 0.6/2.6 MB | 0.6/13 MB | 0.2/1.2 MB
+Progress (3): 0.6/2.6 MB | 0.6/13 MB | 0.2/1.2 MB
+Progress (3): 0.6/2.6 MB | 0.6/13 MB | 0.2/1.2 MB
+Progress (3): 0.6/2.6 MB | 0.6/13 MB | 0.2/1.2 MB
+Progress (3): 0.7/2.6 MB | 0.6/13 MB | 0.2/1.2 MB
+Progress (3): 0.7/2.6 MB | 0.6/13 MB | 0.2/1.2 MB
+Progress (3): 0.7/2.6 MB | 0.6/13 MB | 0.2/1.2 MB
+Progress (3): 0.7/2.6 MB | 0.6/13 MB | 0.2/1.2 MB
+Progress (3): 0.7/2.6 MB | 0.6/13 MB | 0.2/1.2 MB
+Progress (3): 0.7/2.6 MB | 0.7/13 MB | 0.2/1.2 MB
+Progress (3): 0.7/2.6 MB | 0.7/13 MB | 0.2/1.2 MB
+Progress (3): 0.7/2.6 MB | 0.7/13 MB | 0.2/1.2 MB
+Progress (3): 0.7/2.6 MB | 0.7/13 MB | 0.2/1.2 MB
+Progress (3): 0.7/2.6 MB | 0.7/13 MB | 0.2/1.2 MB
+Progress (3): 0.7/2.6 MB | 0.7/13 MB | 0.2/1.2 MB
+Progress (3): 0.7/2.6 MB | 0.7/13 MB | 0.2/1.2 MB
+Progress (3): 0.8/2.6 MB | 0.7/13 MB | 0.2/1.2 MB
+Progress (3): 0.8/2.6 MB | 0.7/13 MB | 0.2/1.2 MB
+Progress (3): 0.8/2.6 MB | 0.7/13 MB | 0.2/1.2 MB
+Progress (3): 0.8/2.6 MB | 0.7/13 MB | 0.2/1.2 MB
+Progress (3): 0.8/2.6 MB | 0.7/13 MB | 0.2/1.2 MB
+Progress (3): 0.8/2.6 MB | 0.7/13 MB | 0.2/1.2 MB
+Progress (3): 0.8/2.6 MB | 0.7/13 MB | 0.2/1.2 MB
+Progress (3): 0.9/2.6 MB | 0.7/13 MB | 0.2/1.2 MB
+Progress (3): 0.9/2.6 MB | 0.7/13 MB | 0.2/1.2 MB
+Progress (3): 0.9/2.6 MB | 0.7/13 MB | 0.2/1.2 MB
+Progress (3): 0.9/2.6 MB | 0.7/13 MB | 0.2/1.2 MB
+Progress (3): 0.9/2.6 MB | 0.7/13 MB | 0.2/1.2 MB
+Progress (3): 0.9/2.6 MB | 0.7/13 MB | 0.2/1.2 MB
+Progress (3): 0.9/2.6 MB | 0.8/13 MB | 0.2/1.2 MB
+Progress (3): 0.9/2.6 MB | 0.8/13 MB | 0.2/1.2 MB
+Progress (3): 0.9/2.6 MB | 0.8/13 MB | 0.2/1.2 MB
+Progress (3): 0.9/2.6 MB | 0.8/13 MB | 0.2/1.2 MB
+Progress (3): 0.9/2.6 MB | 0.8/13 MB | 0.2/1.2 MB
+Progress (3): 0.9/2.6 MB | 0.8/13 MB | 0.2/1.2 MB
+Progress (3): 0.9/2.6 MB | 0.8/13 MB | 0.2/1.2 MB
+Progress (3): 0.9/2.6 MB | 0.8/13 MB | 0.2/1.2 MB
+Progress (3): 0.9/2.6 MB | 0.8/13 MB | 0.2/1.2 MB
+Progress (3): 0.9/2.6 MB | 0.9/13 MB | 0.2/1.2 MB
+Progress (3): 0.9/2.6 MB | 0.9/13 MB | 0.2/1.2 MB
+Progress (3): 0.9/2.6 MB | 0.9/13 MB | 0.2/1.2 MB
+Progress (3): 0.9/2.6 MB | 0.9/13 MB | 0.3/1.2 MB
+Progress (3): 0.9/2.6 MB | 0.9/13 MB | 0.3/1.2 MB
+Progress (3): 1.0/2.6 MB | 0.9/13 MB | 0.3/1.2 MB
+Progress (3): 1.0/2.6 MB | 0.9/13 MB | 0.3/1.2 MB
+Progress (3): 1.0/2.6 MB | 0.9/13 MB | 0.3/1.2 MB
+Progress (3): 1.0/2.6 MB | 0.9/13 MB | 0.3/1.2 MB
+Progress (3): 1.0/2.6 MB | 0.9/13 MB | 0.3/1.2 MB
+Progress (3): 1.0/2.6 MB | 0.9/13 MB | 0.3/1.2 MB
+Progress (3): 1.0/2.6 MB | 1.0/13 MB | 0.3/1.2 MB
+Progress (3): 1.0/2.6 MB | 1.0/13 MB | 0.3/1.2 MB
+Progress (3): 1.0/2.6 MB | 1.0/13 MB | 0.3/1.2 MB
+Progress (3): 1.0/2.6 MB | 1.0/13 MB | 0.3/1.2 MB
+Progress (3): 1.0/2.6 MB | 1.0/13 MB | 0.3/1.2 MB
+Progress (3): 1.0/2.6 MB | 1.0/13 MB | 0.3/1.2 MB
+Progress (3): 1.0/2.6 MB | 1.0/13 MB | 0.3/1.2 MB
+Progress (3): 1.0/2.6 MB | 1.1/13 MB | 0.3/1.2 MB
+Progress (3): 1.0/2.6 MB | 1.1/13 MB | 0.3/1.2 MB
+Progress (3): 1.0/2.6 MB | 1.1/13 MB | 0.3/1.2 MB
+Progress (3): 1.0/2.6 MB | 1.1/13 MB | 0.3/1.2 MB
+Progress (3): 1.0/2.6 MB | 1.1/13 MB | 0.3/1.2 MB
+Progress (3): 1.0/2.6 MB | 1.1/13 MB | 0.3/1.2 MB
+Progress (3): 1.0/2.6 MB | 1.1/13 MB | 0.3/1.2 MB
+Progress (3): 1.0/2.6 MB | 1.1/13 MB | 0.3/1.2 MB
+Progress (3): 1.0/2.6 MB | 1.1/13 MB | 0.3/1.2 MB
+Progress (3): 1.0/2.6 MB | 1.1/13 MB | 0.4/1.2 MB
+Progress (3): 1.0/2.6 MB | 1.1/13 MB | 0.4/1.2 MB
+Progress (3): 1.0/2.6 MB | 1.1/13 MB | 0.4/1.2 MB
+Progress (3): 1.0/2.6 MB | 1.1/13 MB | 0.4/1.2 MB
+Progress (3): 1.0/2.6 MB | 1.1/13 MB | 0.4/1.2 MB
+Progress (3): 1.0/2.6 MB | 1.1/13 MB | 0.4/1.2 MB
+Progress (3): 1.0/2.6 MB | 1.1/13 MB | 0.4/1.2 MB
+Progress (3): 1.0/2.6 MB | 1.1/13 MB | 0.4/1.2 MB
+Progress (3): 1.0/2.6 MB | 1.2/13 MB | 0.4/1.2 MB
+Progress (3): 1.0/2.6 MB | 1.2/13 MB | 0.4/1.2 MB
+Progress (3): 1.0/2.6 MB | 1.2/13 MB | 0.4/1.2 MB
+Progress (3): 1.0/2.6 MB | 1.2/13 MB | 0.4/1.2 MB
+Progress (3): 1.1/2.6 MB | 1.2/13 MB | 0.4/1.2 MB
+Progress (3): 1.1/2.6 MB | 1.2/13 MB | 0.4/1.2 MB
+Progress (3): 1.1/2.6 MB | 1.2/13 MB | 0.4/1.2 MB
+Progress (3): 1.1/2.6 MB | 1.2/13 MB | 0.4/1.2 MB
+Progress (3): 1.1/2.6 MB | 1.2/13 MB | 0.4/1.2 MB
+Progress (3): 1.1/2.6 MB | 1.2/13 MB | 0.4/1.2 MB
+Progress (3): 1.1/2.6 MB | 1.3/13 MB | 0.4/1.2 MB
+Progress (3): 1.1/2.6 MB | 1.3/13 MB | 0.4/1.2 MB
+Progress (3): 1.1/2.6 MB | 1.3/13 MB | 0.4/1.2 MB
+Progress (3): 1.1/2.6 MB | 1.3/13 MB | 0.4/1.2 MB
+Progress (3): 1.1/2.6 MB | 1.3/13 MB | 0.5/1.2 MB
+Progress (3): 1.1/2.6 MB | 1.3/13 MB | 0.5/1.2 MB
+Progress (3): 1.1/2.6 MB | 1.3/13 MB | 0.5/1.2 MB
+Progress (3): 1.1/2.6 MB | 1.3/13 MB | 0.5/1.2 MB
+Progress (3): 1.1/2.6 MB | 1.3/13 MB | 0.5/1.2 MB
+Progress (3): 1.1/2.6 MB | 1.3/13 MB | 0.5/1.2 MB
+Progress (3): 1.1/2.6 MB | 1.3/13 MB | 0.5/1.2 MB
+Progress (3): 1.1/2.6 MB | 1.3/13 MB | 0.5/1.2 MB
+Progress (3): 1.2/2.6 MB | 1.3/13 MB | 0.5/1.2 MB
+Progress (3): 1.2/2.6 MB | 1.3/13 MB | 0.5/1.2 MB
+Progress (3): 1.2/2.6 MB | 1.3/13 MB | 0.5/1.2 MB
+Progress (3): 1.2/2.6 MB | 1.3/13 MB | 0.5/1.2 MB
+Progress (3): 1.2/2.6 MB | 1.3/13 MB | 0.5/1.2 MB
+Progress (3): 1.2/2.6 MB | 1.4/13 MB | 0.5/1.2 MB
+Progress (3): 1.2/2.6 MB | 1.4/13 MB | 0.5/1.2 MB
+Progress (3): 1.2/2.6 MB | 1.4/13 MB | 0.5/1.2 MB
+Progress (3): 1.2/2.6 MB | 1.4/13 MB | 0.5/1.2 MB
+Progress (3): 1.2/2.6 MB | 1.4/13 MB | 0.5/1.2 MB
+Progress (3): 1.2/2.6 MB | 1.4/13 MB | 0.5/1.2 MB
+Progress (3): 1.3/2.6 MB | 1.4/13 MB | 0.5/1.2 MB
+Progress (3): 1.3/2.6 MB | 1.4/13 MB | 0.5/1.2 MB
+Progress (3): 1.3/2.6 MB | 1.4/13 MB | 0.5/1.2 MB
+Progress (3): 1.3/2.6 MB | 1.4/13 MB | 0.5/1.2 MB
+Progress (3): 1.3/2.6 MB | 1.4/13 MB | 0.5/1.2 MB
+Progress (3): 1.3/2.6 MB | 1.5/13 MB | 0.5/1.2 MB
+Progress (3): 1.3/2.6 MB | 1.5/13 MB | 0.5/1.2 MB
+Progress (3): 1.3/2.6 MB | 1.5/13 MB | 0.5/1.2 MB
+Progress (3): 1.3/2.6 MB | 1.5/13 MB | 0.5/1.2 MB
+Progress (3): 1.3/2.6 MB | 1.5/13 MB | 0.5/1.2 MB
+Progress (3): 1.3/2.6 MB | 1.5/13 MB | 0.5/1.2 MB
+Progress (3): 1.3/2.6 MB | 1.5/13 MB | 0.5/1.2 MB
+Progress (3): 1.3/2.6 MB | 1.5/13 MB | 0.5/1.2 MB
+Progress (3): 1.3/2.6 MB | 1.5/13 MB | 0.5/1.2 MB
+Progress (3): 1.3/2.6 MB | 1.5/13 MB | 0.5/1.2 MB
+Progress (3): 1.3/2.6 MB | 1.5/13 MB | 0.5/1.2 MB
+Progress (3): 1.3/2.6 MB | 1.5/13 MB | 0.5/1.2 MB
+Progress (3): 1.3/2.6 MB | 1.5/13 MB | 0.5/1.2 MB
+Progress (3): 1.4/2.6 MB | 1.5/13 MB | 0.5/1.2 MB
+Progress (3): 1.4/2.6 MB | 1.5/13 MB | 0.5/1.2 MB
+Progress (3): 1.4/2.6 MB | 1.6/13 MB | 0.5/1.2 MB
+Progress (3): 1.4/2.6 MB | 1.6/13 MB | 0.5/1.2 MB
+Progress (3): 1.4/2.6 MB | 1.6/13 MB | 0.5/1.2 MB
+Progress (3): 1.4/2.6 MB | 1.6/13 MB | 0.5/1.2 MB
+Progress (3): 1.4/2.6 MB | 1.6/13 MB | 0.5/1.2 MB
+Progress (3): 1.4/2.6 MB | 1.6/13 MB | 0.5/1.2 MB
+Progress (3): 1.4/2.6 MB | 1.6/13 MB | 0.5/1.2 MB
+Progress (3): 1.4/2.6 MB | 1.6/13 MB | 0.6/1.2 MB
+Progress (3): 1.4/2.6 MB | 1.6/13 MB | 0.6/1.2 MB
+Progress (3): 1.4/2.6 MB | 1.6/13 MB | 0.6/1.2 MB
+Progress (3): 1.4/2.6 MB | 1.6/13 MB | 0.6/1.2 MB
+Progress (3): 1.4/2.6 MB | 1.6/13 MB | 0.6/1.2 MB
+Progress (3): 1.4/2.6 MB | 1.6/13 MB | 0.6/1.2 MB
+Progress (3): 1.4/2.6 MB | 1.7/13 MB | 0.6/1.2 MB
+Progress (3): 1.4/2.6 MB | 1.7/13 MB | 0.6/1.2 MB
+Progress (3): 1.4/2.6 MB | 1.7/13 MB | 0.6/1.2 MB
+Progress (3): 1.4/2.6 MB | 1.7/13 MB | 0.6/1.2 MB
+Progress (3): 1.5/2.6 MB | 1.7/13 MB | 0.6/1.2 MB
+Progress (3): 1.5/2.6 MB | 1.7/13 MB | 0.6/1.2 MB
+Progress (3): 1.5/2.6 MB | 1.7/13 MB | 0.6/1.2 MB
+Progress (3): 1.5/2.6 MB | 1.7/13 MB | 0.6/1.2 MB
+Progress (3): 1.5/2.6 MB | 1.7/13 MB | 0.6/1.2 MB
+Progress (3): 1.5/2.6 MB | 1.7/13 MB | 0.6/1.2 MB
+Progress (3): 1.5/2.6 MB | 1.7/13 MB | 0.6/1.2 MB
+Progress (3): 1.5/2.6 MB | 1.8/13 MB | 0.6/1.2 MB
+Progress (3): 1.5/2.6 MB | 1.8/13 MB | 0.6/1.2 MB
+Progress (3): 1.5/2.6 MB | 1.8/13 MB | 0.6/1.2 MB
+Progress (3): 1.5/2.6 MB | 1.8/13 MB | 0.6/1.2 MB
+Progress (3): 1.5/2.6 MB | 1.8/13 MB | 0.6/1.2 MB
+Progress (3): 1.5/2.6 MB | 1.8/13 MB | 0.6/1.2 MB
+Progress (3): 1.5/2.6 MB | 1.8/13 MB | 0.6/1.2 MB
+Progress (3): 1.5/2.6 MB | 1.8/13 MB | 0.6/1.2 MB
+Progress (3): 1.5/2.6 MB | 1.8/13 MB | 0.7/1.2 MB
+Progress (3): 1.5/2.6 MB | 1.8/13 MB | 0.7/1.2 MB
+Progress (3): 1.5/2.6 MB | 1.9/13 MB | 0.7/1.2 MB
+Progress (3): 1.5/2.6 MB | 1.9/13 MB | 0.7/1.2 MB
+Progress (3): 1.5/2.6 MB | 1.9/13 MB | 0.7/1.2 MB
+Progress (3): 1.5/2.6 MB | 1.9/13 MB | 0.7/1.2 MB
+Progress (3): 1.5/2.6 MB | 1.9/13 MB | 0.7/1.2 MB
+Progress (3): 1.5/2.6 MB | 1.9/13 MB | 0.7/1.2 MB
+Progress (3): 1.5/2.6 MB | 1.9/13 MB | 0.7/1.2 MB
+Progress (3): 1.5/2.6 MB | 1.9/13 MB | 0.7/1.2 MB
+Progress (3): 1.5/2.6 MB | 1.9/13 MB | 0.7/1.2 MB
+Progress (3): 1.5/2.6 MB | 1.9/13 MB | 0.7/1.2 MB
+Progress (3): 1.5/2.6 MB | 1.9/13 MB | 0.7/1.2 MB
+Progress (3): 1.5/2.6 MB | 1.9/13 MB | 0.7/1.2 MB
+Progress (3): 1.5/2.6 MB | 2.0/13 MB | 0.7/1.2 MB
+Progress (3): 1.6/2.6 MB | 2.0/13 MB | 0.7/1.2 MB
+Progress (3): 1.6/2.6 MB | 2.0/13 MB | 0.7/1.2 MB
+Progress (3): 1.6/2.6 MB | 2.0/13 MB | 0.7/1.2 MB
+Progress (3): 1.6/2.6 MB | 2.0/13 MB | 0.7/1.2 MB
+Progress (3): 1.6/2.6 MB | 2.0/13 MB | 0.7/1.2 MB
+Progress (3): 1.6/2.6 MB | 2.0/13 MB | 0.7/1.2 MB
+Progress (3): 1.6/2.6 MB | 2.0/13 MB | 0.7/1.2 MB
+Progress (3): 1.6/2.6 MB | 2.0/13 MB | 0.7/1.2 MB
+Progress (3): 1.6/2.6 MB | 2.0/13 MB | 0.7/1.2 MB
+Progress (3): 1.6/2.6 MB | 2.0/13 MB | 0.7/1.2 MB
+Progress (3): 1.6/2.6 MB | 2.0/13 MB | 0.7/1.2 MB
+Progress (3): 1.6/2.6 MB | 2.0/13 MB | 0.7/1.2 MB
+Progress (3): 1.6/2.6 MB | 2.0/13 MB | 0.7/1.2 MB
+Progress (3): 1.6/2.6 MB | 2.0/13 MB | 0.8/1.2 MB
+Progress (3): 1.6/2.6 MB | 2.0/13 MB | 0.8/1.2 MB
+Progress (3): 1.6/2.6 MB | 2.1/13 MB | 0.8/1.2 MB
+Progress (3): 1.6/2.6 MB | 2.1/13 MB | 0.8/1.2 MB
+Progress (3): 1.7/2.6 MB | 2.1/13 MB | 0.8/1.2 MB
+Progress (3): 1.7/2.6 MB | 2.1/13 MB | 0.8/1.2 MB
+Progress (3): 1.7/2.6 MB | 2.1/13 MB | 0.8/1.2 MB
+Progress (3): 1.7/2.6 MB | 2.1/13 MB | 0.8/1.2 MB
+Progress (3): 1.7/2.6 MB | 2.1/13 MB | 0.8/1.2 MB
+Progress (3): 1.7/2.6 MB | 2.1/13 MB | 0.8/1.2 MB
+Progress (3): 1.7/2.6 MB | 2.1/13 MB | 0.8/1.2 MB
+Progress (3): 1.7/2.6 MB | 2.1/13 MB | 0.8/1.2 MB
+Progress (3): 1.7/2.6 MB | 2.2/13 MB | 0.8/1.2 MB
+Progress (3): 1.7/2.6 MB | 2.2/13 MB | 0.8/1.2 MB
+Progress (3): 1.7/2.6 MB | 2.2/13 MB | 0.8/1.2 MB
+Progress (3): 1.7/2.6 MB | 2.2/13 MB | 0.8/1.2 MB
+Progress (3): 1.7/2.6 MB | 2.2/13 MB | 0.8/1.2 MB
+Progress (3): 1.7/2.6 MB | 2.2/13 MB | 0.8/1.2 MB
+Progress (3): 1.7/2.6 MB | 2.2/13 MB | 0.8/1.2 MB
+Progress (3): 1.7/2.6 MB | 2.2/13 MB | 0.8/1.2 MB
+Progress (3): 1.8/2.6 MB | 2.2/13 MB | 0.8/1.2 MB
+Progress (3): 1.8/2.6 MB | 2.2/13 MB | 0.8/1.2 MB
+Progress (3): 1.8/2.6 MB | 2.2/13 MB | 0.8/1.2 MB
+Progress (3): 1.8/2.6 MB | 2.2/13 MB | 0.8/1.2 MB
+Progress (3): 1.8/2.6 MB | 2.2/13 MB | 0.8/1.2 MB
+Progress (3): 1.8/2.6 MB | 2.2/13 MB | 0.8/1.2 MB
+Progress (3): 1.8/2.6 MB | 2.2/13 MB | 0.8/1.2 MB
+Progress (3): 1.8/2.6 MB | 2.2/13 MB | 0.8/1.2 MB
+Progress (3): 1.8/2.6 MB | 2.2/13 MB | 0.8/1.2 MB
+Progress (3): 1.9/2.6 MB | 2.2/13 MB | 0.8/1.2 MB
+Progress (3): 1.9/2.6 MB | 2.3/13 MB | 0.8/1.2 MB
+Progress (3): 1.9/2.6 MB | 2.3/13 MB | 0.8/1.2 MB
+Progress (3): 1.9/2.6 MB | 2.3/13 MB | 0.8/1.2 MB
+Progress (3): 1.9/2.6 MB | 2.3/13 MB | 0.8/1.2 MB
+Progress (3): 1.9/2.6 MB | 2.3/13 MB | 0.8/1.2 MB
+Progress (3): 1.9/2.6 MB | 2.3/13 MB | 0.8/1.2 MB
+Progress (3): 1.9/2.6 MB | 2.3/13 MB | 0.8/1.2 MB
+Progress (3): 1.9/2.6 MB | 2.3/13 MB | 0.8/1.2 MB
+Progress (3): 1.9/2.6 MB | 2.3/13 MB | 0.8/1.2 MB
+Progress (3): 1.9/2.6 MB | 2.3/13 MB | 0.8/1.2 MB
+Progress (3): 1.9/2.6 MB | 2.3/13 MB | 0.8/1.2 MB
+Progress (3): 1.9/2.6 MB | 2.3/13 MB | 0.8/1.2 MB
+Progress (3): 1.9/2.6 MB | 2.3/13 MB | 0.9/1.2 MB
+Progress (3): 1.9/2.6 MB | 2.4/13 MB | 0.9/1.2 MB
+Progress (3): 1.9/2.6 MB | 2.4/13 MB | 0.9/1.2 MB
+Progress (3): 1.9/2.6 MB | 2.4/13 MB | 0.9/1.2 MB
+Progress (3): 1.9/2.6 MB | 2.4/13 MB | 0.9/1.2 MB
+Progress (3): 1.9/2.6 MB | 2.4/13 MB | 0.9/1.2 MB
+Progress (3): 1.9/2.6 MB | 2.4/13 MB | 0.9/1.2 MB
+Progress (3): 1.9/2.6 MB | 2.4/13 MB | 0.9/1.2 MB
+Progress (3): 1.9/2.6 MB | 2.4/13 MB | 0.9/1.2 MB
+Progress (3): 1.9/2.6 MB | 2.4/13 MB | 0.9/1.2 MB
+Progress (3): 2.0/2.6 MB | 2.4/13 MB | 0.9/1.2 MB
+Progress (3): 2.0/2.6 MB | 2.4/13 MB | 0.9/1.2 MB
+Progress (3): 2.0/2.6 MB | 2.4/13 MB | 0.9/1.2 MB
+Progress (3): 2.0/2.6 MB | 2.5/13 MB | 0.9/1.2 MB
+Progress (3): 2.0/2.6 MB | 2.5/13 MB | 0.9/1.2 MB
+Progress (3): 2.0/2.6 MB | 2.5/13 MB | 0.9/1.2 MB
+Progress (3): 2.0/2.6 MB | 2.5/13 MB | 0.9/1.2 MB
+Progress (3): 2.0/2.6 MB | 2.5/13 MB | 0.9/1.2 MB
+Progress (3): 2.0/2.6 MB | 2.5/13 MB | 0.9/1.2 MB
+Progress (3): 2.0/2.6 MB | 2.5/13 MB | 0.9/1.2 MB
+Progress (3): 2.0/2.6 MB | 2.5/13 MB | 0.9/1.2 MB
+Progress (3): 2.0/2.6 MB | 2.5/13 MB | 0.9/1.2 MB
+Progress (3): 2.0/2.6 MB | 2.5/13 MB | 0.9/1.2 MB
+Progress (3): 2.0/2.6 MB | 2.6/13 MB | 0.9/1.2 MB
+Progress (3): 2.0/2.6 MB | 2.6/13 MB | 0.9/1.2 MB
+Progress (3): 2.0/2.6 MB | 2.6/13 MB | 0.9/1.2 MB
+Progress (3): 2.0/2.6 MB | 2.6/13 MB | 0.9/1.2 MB
+Progress (3): 2.0/2.6 MB | 2.6/13 MB | 1.0/1.2 MB
+Progress (3): 2.0/2.6 MB | 2.6/13 MB | 1.0/1.2 MB
+Progress (3): 2.0/2.6 MB | 2.6/13 MB | 1.0/1.2 MB
+Progress (3): 2.0/2.6 MB | 2.6/13 MB | 1.0/1.2 MB
+Progress (3): 2.0/2.6 MB | 2.6/13 MB | 1.0/1.2 MB
+Progress (3): 2.0/2.6 MB | 2.6/13 MB | 1.0/1.2 MB
+Progress (3): 2.0/2.6 MB | 2.7/13 MB | 1.0/1.2 MB
+Progress (3): 2.0/2.6 MB | 2.7/13 MB | 1.0/1.2 MB
+Progress (3): 2.0/2.6 MB | 2.7/13 MB | 1.0/1.2 MB
+Progress (3): 2.0/2.6 MB | 2.7/13 MB | 1.0/1.2 MB
+Progress (3): 2.0/2.6 MB | 2.7/13 MB | 1.0/1.2 MB
+Progress (3): 2.0/2.6 MB | 2.7/13 MB | 1.0/1.2 MB
+Progress (3): 2.0/2.6 MB | 2.7/13 MB | 1.0/1.2 MB
+Progress (3): 2.0/2.6 MB | 2.7/13 MB | 1.0/1.2 MB
+Progress (3): 2.0/2.6 MB | 2.7/13 MB | 1.0/1.2 MB
+Progress (3): 2.0/2.6 MB | 2.7/13 MB | 1.0/1.2 MB
+Progress (3): 2.1/2.6 MB | 2.7/13 MB | 1.0/1.2 MB
+Progress (3): 2.1/2.6 MB | 2.7/13 MB | 1.0/1.2 MB
+Progress (3): 2.1/2.6 MB | 2.7/13 MB | 1.0/1.2 MB
+Progress (3): 2.1/2.6 MB | 2.8/13 MB | 1.0/1.2 MB
+Progress (3): 2.1/2.6 MB | 2.8/13 MB | 1.0/1.2 MB
+Progress (3): 2.1/2.6 MB | 2.8/13 MB | 1.0/1.2 MB
+Progress (3): 2.1/2.6 MB | 2.8/13 MB | 1.0/1.2 MB
+Progress (3): 2.1/2.6 MB | 2.8/13 MB | 1.0/1.2 MB
+Progress (3): 2.1/2.6 MB | 2.8/13 MB | 1.0/1.2 MB
+Progress (3): 2.1/2.6 MB | 2.8/13 MB | 1.0/1.2 MB
+Progress (3): 2.1/2.6 MB | 2.8/13 MB | 1.0/1.2 MB
+Progress (3): 2.1/2.6 MB | 2.8/13 MB | 1.0/1.2 MB
+Progress (3): 2.1/2.6 MB | 2.8/13 MB | 1.0/1.2 MB
+Progress (3): 2.1/2.6 MB | 2.8/13 MB | 1.0/1.2 MB
+Progress (3): 2.1/2.6 MB | 2.9/13 MB | 1.0/1.2 MB
+Progress (3): 2.1/2.6 MB | 2.9/13 MB | 1.0/1.2 MB
+Progress (3): 2.2/2.6 MB | 2.9/13 MB | 1.0/1.2 MB
+Progress (3): 2.2/2.6 MB | 2.9/13 MB | 1.0/1.2 MB
+Progress (3): 2.2/2.6 MB | 2.9/13 MB | 1.1/1.2 MB
+Progress (3): 2.2/2.6 MB | 2.9/13 MB | 1.1/1.2 MB
+Progress (3): 2.2/2.6 MB | 2.9/13 MB | 1.1/1.2 MB
+Progress (3): 2.2/2.6 MB | 2.9/13 MB | 1.1/1.2 MB
+Progress (3): 2.2/2.6 MB | 2.9/13 MB | 1.1/1.2 MB
+Progress (3): 2.2/2.6 MB | 2.9/13 MB | 1.1/1.2 MB
+Progress (3): 2.2/2.6 MB | 2.9/13 MB | 1.1/1.2 MB
+Progress (3): 2.2/2.6 MB | 2.9/13 MB | 1.1/1.2 MB
+Progress (3): 2.2/2.6 MB | 2.9/13 MB | 1.1/1.2 MB
+Progress (3): 2.2/2.6 MB | 2.9/13 MB | 1.1/1.2 MB
+Progress (3): 2.2/2.6 MB | 2.9/13 MB | 1.1/1.2 MB
+Progress (3): 2.2/2.6 MB | 3.0/13 MB | 1.1/1.2 MB
+Progress (3): 2.2/2.6 MB | 3.0/13 MB | 1.1/1.2 MB
+Progress (3): 2.2/2.6 MB | 3.0/13 MB | 1.1/1.2 MB
+Progress (3): 2.2/2.6 MB | 3.0/13 MB | 1.1/1.2 MB
+Progress (3): 2.2/2.6 MB | 3.0/13 MB | 1.1/1.2 MB
+Progress (3): 2.2/2.6 MB | 3.0/13 MB | 1.1/1.2 MB
+Progress (3): 2.3/2.6 MB | 3.0/13 MB | 1.1/1.2 MB
+Progress (3): 2.3/2.6 MB | 3.0/13 MB | 1.1/1.2 MB
+Progress (3): 2.3/2.6 MB | 3.0/13 MB | 1.1/1.2 MB
+Progress (3): 2.3/2.6 MB | 3.0/13 MB | 1.1/1.2 MB
+Progress (3): 2.3/2.6 MB | 3.0/13 MB | 1.1/1.2 MB
+Progress (3): 2.3/2.6 MB | 3.0/13 MB | 1.1/1.2 MB
+Progress (3): 2.3/2.6 MB | 3.1/13 MB | 1.1/1.2 MB
+Progress (3): 2.3/2.6 MB | 3.1/13 MB | 1.1/1.2 MB
+Progress (3): 2.3/2.6 MB | 3.1/13 MB | 1.1/1.2 MB
+Progress (3): 2.3/2.6 MB | 3.1/13 MB | 1.1/1.2 MB
+Progress (3): 2.3/2.6 MB | 3.1/13 MB | 1.1/1.2 MB
+Progress (3): 2.3/2.6 MB | 3.1/13 MB | 1.1/1.2 MB
+Progress (3): 2.3/2.6 MB | 3.1/13 MB | 1.1/1.2 MB
+Progress (3): 2.3/2.6 MB | 3.1/13 MB | 1.1/1.2 MB
+Progress (3): 2.3/2.6 MB | 3.1/13 MB | 1.1/1.2 MB
+Progress (3): 2.3/2.6 MB | 3.1/13 MB | 1.2/1.2 MB
+Progress (3): 2.3/2.6 MB | 3.1/13 MB | 1.2/1.2 MB
+Progress (3): 2.4/2.6 MB | 3.1/13 MB | 1.2/1.2 MB
+Progress (3): 2.4/2.6 MB | 3.1/13 MB | 1.2/1.2 MB
+Progress (3): 2.4/2.6 MB | 3.1/13 MB | 1.2/1.2 MB
+Progress (3): 2.4/2.6 MB | 3.1/13 MB | 1.2/1.2 MB
+Progress (3): 2.4/2.6 MB | 3.2/13 MB | 1.2/1.2 MB
+Progress (3): 2.4/2.6 MB | 3.2/13 MB | 1.2/1.2 MB
+Progress (3): 2.4/2.6 MB | 3.2/13 MB | 1.2/1.2 MB
+Progress (3): 2.4/2.6 MB | 3.2/13 MB | 1.2/1.2 MB
+Progress (3): 2.4/2.6 MB | 3.2/13 MB | 1.2/1.2 MB
+Progress (3): 2.4/2.6 MB | 3.2/13 MB | 1.2/1.2 MB
+Progress (3): 2.4/2.6 MB | 3.2/13 MB | 1.2/1.2 MB
+Progress (3): 2.4/2.6 MB | 3.2/13 MB | 1.2/1.2 MB
+Progress (3): 2.4/2.6 MB | 3.2/13 MB | 1.2/1.2 MB
+Progress (3): 2.4/2.6 MB | 3.2/13 MB | 1.2/1.2 MB
+Progress (3): 2.4/2.6 MB | 3.2/13 MB | 1.2/1.2 MB
+Progress (3): 2.4/2.6 MB | 3.3/13 MB | 1.2/1.2 MB
+Progress (3): 2.4/2.6 MB | 3.3/13 MB | 1.2/1.2 MB
+Progress (3): 2.4/2.6 MB | 3.3/13 MB | 1.2 MB    
+Progress (3): 2.4/2.6 MB | 3.3/13 MB | 1.2 MB
+Progress (3): 2.4/2.6 MB | 3.3/13 MB | 1.2 MB
+Progress (3): 2.4/2.6 MB | 3.3/13 MB | 1.2 MB
+Progress (3): 2.4/2.6 MB | 3.3/13 MB | 1.2 MB
+Progress (3): 2.4/2.6 MB | 3.3/13 MB | 1.2 MB
+Progress (3): 2.4/2.6 MB | 3.3/13 MB | 1.2 MB
+                                             
+Downloaded from central: https://repo.maven.apache.org/maven2/com/github/javaparser/javaparser-core/3.18.0/javaparser-core-3.18.0.jar (1.2 MB at 1.8 MB/s)
+Progress (2): 2.5/2.6 MB | 3.3/13 MB
+Progress (2): 2.5/2.6 MB | 3.3/13 MB
+Progress (2): 2.5/2.6 MB | 3.4/13 MB
+Progress (2): 2.5/2.6 MB | 3.4/13 MB
+Progress (2): 2.5/2.6 MB | 3.4/13 MB
+Progress (2): 2.5/2.6 MB | 3.4/13 MB
+Progress (2): 2.5/2.6 MB | 3.4/13 MB
+Progress (2): 2.5/2.6 MB | 3.4/13 MB
+Progress (2): 2.5/2.6 MB | 3.4/13 MB
+Progress (2): 2.5/2.6 MB | 3.4/13 MB
+Progress (2): 2.5/2.6 MB | 3.4/13 MB
+Progress (2): 2.5/2.6 MB | 3.4/13 MB
+Progress (2): 2.5/2.6 MB | 3.4/13 MB
+Progress (2): 2.6/2.6 MB | 3.4/13 MB
+Progress (2): 2.6/2.6 MB | 3.4/13 MB
+Progress (2): 2.6/2.6 MB | 3.5/13 MB
+Progress (2): 2.6/2.6 MB | 3.5/13 MB
+Progress (2): 2.6/2.6 MB | 3.5/13 MB
+Progress (2): 2.6/2.6 MB | 3.5/13 MB
+Progress (2): 2.6/2.6 MB | 3.5/13 MB
+Progress (2): 2.6/2.6 MB | 3.5/13 MB
+Progress (2): 2.6/2.6 MB | 3.5/13 MB
+Progress (2): 2.6/2.6 MB | 3.5/13 MB
+Progress (2): 2.6/2.6 MB | 3.5/13 MB
+Progress (2): 2.6/2.6 MB | 3.6/13 MB
+Progress (2): 2.6 MB | 3.6/13 MB    
+Progress (2): 2.6 MB | 3.6/13 MB
+Progress (2): 2.6 MB | 3.6/13 MB
+Progress (2): 2.6 MB | 3.6/13 MB
+                                
+Downloaded from central: https://repo.maven.apache.org/maven2/org/antlr/antlr4/4.9.3/antlr4-4.9.3.jar (2.6 MB at 3.7 MB/s)
+Progress (1): 3.6/13 MB
+Progress (1): 3.6/13 MB
+Progress (1): 3.7/13 MB
+Progress (1): 3.7/13 MB
+Progress (1): 3.7/13 MB
+Progress (1): 3.7/13 MB
+Progress (1): 3.7/13 MB
+Progress (1): 3.7/13 MB
+Progress (1): 3.8/13 MB
+Progress (1): 3.8/13 MB
+Progress (1): 3.8/13 MB
+Progress (1): 3.8/13 MB
+Progress (1): 3.8/13 MB
+Progress (1): 3.8/13 MB
+Progress (1): 3.8/13 MB
+Progress (1): 3.9/13 MB
+Progress (1): 3.9/13 MB
+Progress (1): 3.9/13 MB
+Progress (1): 3.9/13 MB
+Progress (1): 3.9/13 MB
+Progress (1): 3.9/13 MB
+Progress (1): 4.0/13 MB
+Progress (1): 4.0/13 MB
+Progress (1): 4.0/13 MB
+Progress (1): 4.0/13 MB
+Progress (1): 4.0/13 MB
+Progress (1): 4.0/13 MB
+Progress (1): 4.1/13 MB
+Progress (1): 4.1/13 MB
+Progress (1): 4.1/13 MB
+Progress (1): 4.1/13 MB
+Progress (1): 4.1/13 MB
+Progress (1): 4.1/13 MB
+Progress (1): 4.2/13 MB
+Progress (1): 4.2/13 MB
+Progress (1): 4.2/13 MB
+Progress (1): 4.2/13 MB
+Progress (1): 4.2/13 MB
+Progress (1): 4.2/13 MB
+Progress (1): 4.2/13 MB
+Progress (1): 4.3/13 MB
+Progress (1): 4.3/13 MB
+Progress (1): 4.3/13 MB
+Progress (1): 4.3/13 MB
+Progress (1): 4.3/13 MB
+Progress (1): 4.3/13 MB
+Progress (1): 4.4/13 MB
+Progress (1): 4.4/13 MB
+Progress (1): 4.4/13 MB
+Progress (1): 4.4/13 MB
+Progress (1): 4.4/13 MB
+Progress (1): 4.4/13 MB
+Progress (1): 4.5/13 MB
+Progress (1): 4.5/13 MB
+Progress (1): 4.5/13 MB
+Progress (1): 4.5/13 MB
+Progress (1): 4.5/13 MB
+Progress (1): 4.5/13 MB
+Progress (1): 4.6/13 MB
+Progress (1): 4.6/13 MB
+Progress (1): 4.6/13 MB
+Progress (1): 4.6/13 MB
+Progress (1): 4.6/13 MB
+Progress (1): 4.6/13 MB
+Progress (1): 4.7/13 MB
+Progress (1): 4.7/13 MB
+Progress (1): 4.7/13 MB
+Progress (1): 4.7/13 MB
+Progress (1): 4.7/13 MB
+Progress (1): 4.7/13 MB
+Progress (1): 4.8/13 MB
+Progress (1): 4.8/13 MB
+Progress (1): 4.8/13 MB
+Progress (1): 4.8/13 MB
+Progress (1): 4.8/13 MB
+Progress (1): 4.8/13 MB
+Progress (1): 4.9/13 MB
+Progress (1): 4.9/13 MB
+Progress (1): 4.9/13 MB
+Progress (1): 4.9/13 MB
+Progress (1): 4.9/13 MB
+Progress (1): 4.9/13 MB
+Progress (1): 5.0/13 MB
+Progress (1): 5.0/13 MB
+Progress (1): 5.0/13 MB
+Progress (1): 5.0/13 MB
+Progress (1): 5.0/13 MB
+Progress (1): 5.0/13 MB
+Progress (1): 5.1/13 MB
+Progress (1): 5.1/13 MB
+Progress (1): 5.1/13 MB
+Progress (1): 5.1/13 MB
+Progress (1): 5.1/13 MB
+Progress (1): 5.1/13 MB
+Progress (1): 5.2/13 MB
+Progress (1): 5.2/13 MB
+Progress (1): 5.2/13 MB
+Progress (1): 5.2/13 MB
+Progress (1): 5.2/13 MB
+Progress (1): 5.2/13 MB
+Progress (1): 5.2/13 MB
+Progress (1): 5.3/13 MB
+Progress (1): 5.3/13 MB
+Progress (1): 5.3/13 MB
+Progress (1): 5.3/13 MB
+Progress (1): 5.3/13 MB
+Progress (1): 5.3/13 MB
+Progress (1): 5.4/13 MB
+Progress (1): 5.4/13 MB
+Progress (1): 5.4/13 MB
+Progress (1): 5.4/13 MB
+Progress (1): 5.4/13 MB
+Progress (1): 5.4/13 MB
+Progress (1): 5.5/13 MB
+Progress (1): 5.5/13 MB
+Progress (1): 5.5/13 MB
+Progress (1): 5.5/13 MB
+Progress (1): 5.5/13 MB
+Progress (1): 5.5/13 MB
+Progress (1): 5.6/13 MB
+Progress (1): 5.6/13 MB
+Progress (1): 5.6/13 MB
+Progress (1): 5.6/13 MB
+Progress (1): 5.6/13 MB
+Progress (1): 5.6/13 MB
+Progress (1): 5.6/13 MB
+Progress (1): 5.7/13 MB
+Progress (1): 5.7/13 MB
+Progress (1): 5.7/13 MB
+Progress (1): 5.7/13 MB
+Progress (1): 5.7/13 MB
+Progress (1): 5.7/13 MB
+Progress (1): 5.8/13 MB
+Progress (1): 5.8/13 MB
+Progress (1): 5.8/13 MB
+Progress (1): 5.8/13 MB
+Progress (1): 5.8/13 MB
+Progress (1): 5.8/13 MB
+Progress (1): 5.9/13 MB
+Progress (1): 5.9/13 MB
+Progress (1): 5.9/13 MB
+Progress (1): 5.9/13 MB
+Progress (1): 5.9/13 MB
+Progress (1): 5.9/13 MB
+Progress (1): 6.0/13 MB
+Progress (1): 6.0/13 MB
+Progress (1): 6.0/13 MB
+Progress (1): 6.0/13 MB
+Progress (1): 6.0/13 MB
+Progress (1): 6.0/13 MB
+Progress (1): 6.0/13 MB
+Progress (1): 6.1/13 MB
+Progress (1): 6.1/13 MB
+Progress (1): 6.1/13 MB
+Progress (1): 6.1/13 MB
+Progress (1): 6.1/13 MB
+Progress (1): 6.1/13 MB
+Progress (1): 6.2/13 MB
+Progress (1): 6.2/13 MB
+Progress (1): 6.2/13 MB
+Progress (1): 6.2/13 MB
+Progress (1): 6.2/13 MB
+Progress (1): 6.2/13 MB
+Progress (1): 6.3/13 MB
+Progress (1): 6.3/13 MB
+Progress (1): 6.3/13 MB
+Progress (1): 6.3/13 MB
+Progress (1): 6.3/13 MB
+Progress (1): 6.3/13 MB
+Progress (1): 6.4/13 MB
+Progress (1): 6.4/13 MB
+Progress (1): 6.4/13 MB
+Progress (1): 6.4/13 MB
+Progress (1): 6.4/13 MB
+Progress (1): 6.4/13 MB
+Progress (1): 6.4/13 MB
+Progress (1): 6.5/13 MB
+Progress (1): 6.5/13 MB
+Progress (1): 6.5/13 MB
+Progress (1): 6.5/13 MB
+Progress (1): 6.5/13 MB
+Progress (1): 6.5/13 MB
+Progress (1): 6.6/13 MB
+Progress (1): 6.6/13 MB
+Progress (1): 6.6/13 MB
+Progress (1): 6.6/13 MB
+Progress (1): 6.6/13 MB
+Progress (1): 6.6/13 MB
+Progress (1): 6.7/13 MB
+Progress (1): 6.7/13 MB
+Progress (1): 6.7/13 MB
+Progress (1): 6.7/13 MB
+Progress (1): 6.7/13 MB
+Progress (1): 6.7/13 MB
+Progress (1): 6.8/13 MB
+Progress (1): 6.8/13 MB
+Progress (1): 6.8/13 MB
+Progress (1): 6.8/13 MB
+Progress (1): 6.8/13 MB
+Progress (1): 6.8/13 MB
+Progress (1): 6.8/13 MB
+Progress (1): 6.9/13 MB
+Progress (1): 6.9/13 MB
+Progress (1): 6.9/13 MB
+Progress (1): 6.9/13 MB
+Progress (1): 6.9/13 MB
+Progress (1): 6.9/13 MB
+Progress (1): 7.0/13 MB
+Progress (1): 7.0/13 MB
+Progress (1): 7.0/13 MB
+Progress (1): 7.0/13 MB
+Progress (1): 7.0/13 MB
+Progress (1): 7.0/13 MB
+Progress (1): 7.1/13 MB
+Progress (1): 7.1/13 MB
+Progress (1): 7.1/13 MB
+Progress (1): 7.1/13 MB
+Progress (1): 7.1/13 MB
+Progress (1): 7.1/13 MB
+Progress (1): 7.2/13 MB
+Progress (1): 7.2/13 MB
+Progress (1): 7.2/13 MB
+Progress (1): 7.2/13 MB
+Progress (1): 7.2/13 MB
+Progress (1): 7.2/13 MB
+Progress (1): 7.2/13 MB
+Progress (1): 7.3/13 MB
+Progress (1): 7.3/13 MB
+Progress (1): 7.3/13 MB
+Progress (1): 7.3/13 MB
+Progress (1): 7.3/13 MB
+Progress (1): 7.3/13 MB
+Progress (1): 7.4/13 MB
+Progress (1): 7.4/13 MB
+Progress (1): 7.4/13 MB
+Progress (1): 7.4/13 MB
+Progress (1): 7.4/13 MB
+Progress (1): 7.4/13 MB
+Progress (1): 7.5/13 MB
+Progress (1): 7.5/13 MB
+Progress (1): 7.5/13 MB
+Progress (1): 7.5/13 MB
+Progress (1): 7.5/13 MB
+Progress (1): 7.5/13 MB
+Progress (1): 7.6/13 MB
+Progress (1): 7.6/13 MB
+Progress (1): 7.6/13 MB
+Progress (1): 7.6/13 MB
+Progress (1): 7.6/13 MB
+Progress (1): 7.6/13 MB
+Progress (1): 7.6/13 MB
+Progress (1): 7.7/13 MB
+Progress (1): 7.7/13 MB
+Progress (1): 7.7/13 MB
+Progress (1): 7.7/13 MB
+Progress (1): 7.7/13 MB
+Progress (1): 7.7/13 MB
+Progress (1): 7.8/13 MB
+Progress (1): 7.8/13 MB
+Progress (1): 7.8/13 MB
+Progress (1): 7.8/13 MB
+Progress (1): 7.8/13 MB
+Progress (1): 7.8/13 MB
+Progress (1): 7.9/13 MB
+Progress (1): 7.9/13 MB
+Progress (1): 7.9/13 MB
+Progress (1): 7.9/13 MB
+Progress (1): 7.9/13 MB
+Progress (1): 7.9/13 MB
+Progress (1): 8.0/13 MB
+Progress (1): 8.0/13 MB
+Progress (1): 8.0/13 MB
+Progress (1): 8.0/13 MB
+Progress (1): 8.0/13 MB
+Progress (1): 8.0/13 MB
+Progress (1): 8.0/13 MB
+Progress (1): 8.1/13 MB
+Progress (1): 8.1/13 MB
+Progress (1): 8.1/13 MB
+Progress (1): 8.1/13 MB
+Progress (1): 8.1/13 MB
+Progress (1): 8.1/13 MB
+Progress (1): 8.2/13 MB
+Progress (1): 8.2/13 MB
+Progress (1): 8.2/13 MB
+Progress (1): 8.2/13 MB
+Progress (1): 8.2/13 MB
+Progress (1): 8.2/13 MB
+Progress (1): 8.3/13 MB
+Progress (1): 8.3/13 MB
+Progress (1): 8.3/13 MB
+Progress (1): 8.3/13 MB
+Progress (1): 8.3/13 MB
+Progress (1): 8.3/13 MB
+Progress (1): 8.4/13 MB
+Progress (1): 8.4/13 MB
+Progress (1): 8.4/13 MB
+Progress (1): 8.4/13 MB
+Progress (1): 8.4/13 MB
+Progress (1): 8.4/13 MB
+Progress (1): 8.5/13 MB
+Progress (1): 8.5/13 MB
+Progress (1): 8.5/13 MB
+Progress (1): 8.5/13 MB
+Progress (1): 8.5/13 MB
+Progress (1): 8.5/13 MB
+Progress (1): 8.6/13 MB
+Progress (1): 8.6/13 MB
+Progress (1): 8.6/13 MB
+Progress (1): 8.6/13 MB
+Progress (1): 8.6/13 MB
+Progress (1): 8.6/13 MB
+Progress (1): 8.6/13 MB
+Progress (1): 8.7/13 MB
+Progress (1): 8.7/13 MB
+Progress (1): 8.7/13 MB
+Progress (1): 8.7/13 MB
+Progress (1): 8.7/13 MB
+Progress (1): 8.7/13 MB
+Progress (1): 8.8/13 MB
+Progress (1): 8.8/13 MB
+Progress (1): 8.8/13 MB
+Progress (1): 8.8/13 MB
+Progress (1): 8.8/13 MB
+Progress (1): 8.8/13 MB
+Progress (1): 8.9/13 MB
+Progress (1): 8.9/13 MB
+Progress (1): 8.9/13 MB
+Progress (1): 8.9/13 MB
+Progress (1): 8.9/13 MB
+Progress (1): 8.9/13 MB
+Progress (1): 8.9/13 MB
+Progress (1): 9.0/13 MB
+Progress (1): 9.0/13 MB
+Progress (1): 9.0/13 MB
+Progress (1): 9.0/13 MB
+Progress (1): 9.0/13 MB
+Progress (1): 9.0/13 MB
+Progress (1): 9.1/13 MB
+Progress (1): 9.1/13 MB
+Progress (1): 9.1/13 MB
+Progress (1): 9.1/13 MB
+Progress (1): 9.1/13 MB
+Progress (1): 9.1/13 MB
+Progress (1): 9.2/13 MB
+Progress (1): 9.2/13 MB
+Progress (1): 9.2/13 MB
+Progress (1): 9.2/13 MB
+Progress (1): 9.2/13 MB
+Progress (1): 9.2/13 MB
+Progress (1): 9.3/13 MB
+Progress (1): 9.3/13 MB
+Progress (1): 9.3/13 MB
+Progress (1): 9.3/13 MB
+Progress (1): 9.3/13 MB
+Progress (1): 9.3/13 MB
+Progress (1): 9.3/13 MB
+Progress (1): 9.4/13 MB
+Progress (1): 9.4/13 MB
+Progress (1): 9.4/13 MB
+Progress (1): 9.4/13 MB
+Progress (1): 9.4/13 MB
+Progress (1): 9.4/13 MB
+Progress (1): 9.5/13 MB
+Progress (1): 9.5/13 MB
+Progress (1): 9.5/13 MB
+Progress (1): 9.5/13 MB
+Progress (1): 9.5/13 MB
+Progress (1): 9.5/13 MB
+Progress (1): 9.6/13 MB
+Progress (1): 9.6/13 MB
+Progress (1): 9.6/13 MB
+Progress (1): 9.6/13 MB
+Progress (1): 9.6/13 MB
+Progress (1): 9.6/13 MB
+Progress (1): 9.6/13 MB
+Progress (1): 9.7/13 MB
+Progress (1): 9.7/13 MB
+Progress (1): 9.7/13 MB
+Progress (1): 9.7/13 MB
+Progress (1): 9.7/13 MB
+Progress (1): 9.7/13 MB
+Progress (1): 9.8/13 MB
+Progress (1): 9.8/13 MB
+Progress (1): 9.8/13 MB
+Progress (1): 9.8/13 MB
+Progress (1): 9.8/13 MB
+Progress (1): 9.8/13 MB
+Progress (1): 9.9/13 MB
+Progress (1): 9.9/13 MB
+Progress (1): 9.9/13 MB
+Progress (1): 9.9/13 MB
+Progress (1): 9.9/13 MB
+Progress (1): 9.9/13 MB
+Progress (1): 10.0/13 MB
+Progress (1): 10.0/13 MB
+Progress (1): 10.0/13 MB
+Progress (1): 10/13 MB  
+Progress (1): 10/13 MB
+Progress (1): 10/13 MB
+Progress (1): 10/13 MB
+Progress (1): 10/13 MB
+Progress (1): 10/13 MB
+Progress (1): 10/13 MB
+Progress (1): 10/13 MB
+Progress (1): 10/13 MB
+Progress (1): 10/13 MB
+Progress (1): 10/13 MB
+Progress (1): 10/13 MB
+Progress (1): 10/13 MB
+Progress (1): 10/13 MB
+Progress (1): 10/13 MB
+Progress (1): 10/13 MB
+Progress (1): 10/13 MB
+Progress (1): 10/13 MB
+Progress (1): 10/13 MB
+Progress (1): 10/13 MB
+Progress (1): 10/13 MB
+Progress (1): 10/13 MB
+Progress (1): 10/13 MB
+Progress (1): 10/13 MB
+Progress (1): 10/13 MB
+Progress (1): 10/13 MB
+Progress (1): 10/13 MB
+Progress (1): 10/13 MB
+Progress (1): 10/13 MB
+Progress (1): 10/13 MB
+Progress (1): 10/13 MB
+Progress (1): 11/13 MB
+Progress (1): 11/13 MB
+Progress (1): 11/13 MB
+Progress (1): 11/13 MB
+Progress (1): 11/13 MB
+Progress (1): 11/13 MB
+Progress (1): 11/13 MB
+Progress (1): 11/13 MB
+Progress (1): 11/13 MB
+Progress (1): 11/13 MB
+Progress (1): 11/13 MB
+Progress (1): 11/13 MB
+Progress (1): 11/13 MB
+Progress (1): 11/13 MB
+Progress (1): 11/13 MB
+Progress (1): 11/13 MB
+Progress (1): 11/13 MB
+Progress (1): 11/13 MB
+Progress (1): 11/13 MB
+Progress (1): 11/13 MB
+Progress (1): 11/13 MB
+Progress (1): 11/13 MB
+Progress (1): 11/13 MB
+Progress (1): 11/13 MB
+Progress (1): 11/13 MB
+Progress (1): 11/13 MB
+Progress (1): 11/13 MB
+Progress (1): 11/13 MB
+Progress (1): 11/13 MB
+Progress (1): 11/13 MB
+Progress (1): 11/13 MB
+Progress (1): 11/13 MB
+Progress (1): 11/13 MB
+Progress (1): 11/13 MB
+Progress (1): 11/13 MB
+Progress (1): 11/13 MB
+Progress (1): 11/13 MB
+Progress (1): 11/13 MB
+Progress (1): 11/13 MB
+Progress (1): 11/13 MB
+Progress (1): 11/13 MB
+Progress (1): 11/13 MB
+Progress (1): 11/13 MB
+Progress (1): 11/13 MB
+Progress (1): 11/13 MB
+Progress (1): 11/13 MB
+Progress (1): 11/13 MB
+Progress (1): 11/13 MB
+Progress (1): 11/13 MB
+Progress (1): 11/13 MB
+Progress (1): 11/13 MB
+Progress (1): 11/13 MB
+Progress (1): 11/13 MB
+Progress (1): 11/13 MB
+Progress (1): 11/13 MB
+Progress (1): 11/13 MB
+Progress (1): 11/13 MB
+Progress (1): 11/13 MB
+Progress (1): 11/13 MB
+Progress (1): 11/13 MB
+Progress (1): 11/13 MB
+Progress (1): 12/13 MB
+Progress (1): 12/13 MB
+Progress (1): 12/13 MB
+Progress (1): 12/13 MB
+Progress (1): 12/13 MB
+Progress (1): 12/13 MB
+Progress (1): 12/13 MB
+Progress (1): 12/13 MB
+Progress (1): 12/13 MB
+Progress (1): 12/13 MB
+Progress (1): 12/13 MB
+Progress (1): 12/13 MB
+Progress (1): 12/13 MB
+Progress (1): 12/13 MB
+Progress (1): 12/13 MB
+Progress (1): 12/13 MB
+Progress (1): 12/13 MB
+Progress (1): 12/13 MB
+Progress (1): 12/13 MB
+Progress (1): 12/13 MB
+Progress (1): 12/13 MB
+Progress (1): 12/13 MB
+Progress (1): 12/13 MB
+Progress (1): 12/13 MB
+Progress (1): 12/13 MB
+Progress (1): 12/13 MB
+Progress (1): 12/13 MB
+Progress (1): 12/13 MB
+Progress (1): 12/13 MB
+Progress (1): 12/13 MB
+Progress (1): 12/13 MB
+Progress (1): 12/13 MB
+Progress (1): 12/13 MB
+Progress (1): 12/13 MB
+Progress (1): 12/13 MB
+Progress (1): 12/13 MB
+Progress (1): 12/13 MB
+Progress (1): 12/13 MB
+Progress (1): 12/13 MB
+Progress (1): 12/13 MB
+Progress (1): 12/13 MB
+Progress (1): 12/13 MB
+Progress (1): 12/13 MB
+Progress (1): 12/13 MB
+Progress (1): 12/13 MB
+Progress (1): 12/13 MB
+Progress (1): 12/13 MB
+Progress (1): 12/13 MB
+Progress (1): 12/13 MB
+Progress (1): 12/13 MB
+Progress (1): 12/13 MB
+Progress (1): 12/13 MB
+Progress (1): 12/13 MB
+Progress (1): 12/13 MB
+Progress (1): 12/13 MB
+Progress (1): 12/13 MB
+Progress (1): 12/13 MB
+Progress (1): 12/13 MB
+Progress (1): 12/13 MB
+Progress (1): 12/13 MB
+Progress (1): 12/13 MB
+Progress (1): 12/13 MB
+Progress (1): 13/13 MB
+Progress (1): 13/13 MB
+Progress (1): 13/13 MB
+Progress (1): 13/13 MB
+Progress (1): 13/13 MB
+Progress (1): 13/13 MB
+Progress (1): 13/13 MB
+Progress (1): 13/13 MB
+Progress (1): 13/13 MB
+Progress (1): 13/13 MB
+Progress (1): 13/13 MB
+Progress (1): 13/13 MB
+Progress (1): 13/13 MB
+Progress (1): 13/13 MB
+Progress (1): 13/13 MB
+Progress (1): 13/13 MB
+Progress (1): 13/13 MB
+Progress (1): 13/13 MB
+Progress (1): 13/13 MB
+Progress (1): 13/13 MB
+Progress (1): 13/13 MB
+Progress (1): 13/13 MB
+Progress (1): 13/13 MB
+Progress (1): 13/13 MB
+Progress (1): 13/13 MB
+Progress (1): 13/13 MB
+Progress (1): 13/13 MB
+Progress (1): 13/13 MB
+Progress (1): 13/13 MB
+Progress (1): 13/13 MB
+Progress (1): 13/13 MB
+Progress (1): 13/13 MB
+Progress (1): 13/13 MB
+Progress (1): 13/13 MB
+Progress (1): 13/13 MB
+Progress (1): 13/13 MB
+Progress (1): 13/13 MB
+Progress (1): 13/13 MB
+Progress (1): 13/13 MB
+Progress (1): 13/13 MB
+Progress (1): 13/13 MB
+Progress (1): 13/13 MB
+Progress (1): 13/13 MB
+Progress (1): 13/13 MB
+Progress (1): 13/13 MB
+Progress (1): 13/13 MB
+Progress (1): 13/13 MB
+Progress (1): 13/13 MB
+Progress (1): 13/13 MB
+Progress (1): 13/13 MB
+Progress (1): 13/13 MB
+Progress (1): 13/13 MB
+Progress (1): 13/13 MB
+Progress (1): 13 MB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/com/ibm/icu/icu4j/69.1/icu4j-69.1.jar (13 MB at 8.2 MB/s)
+[INFO] 
+[INFO] --- jacoco:0.8.7:prepare-agent (default) @ safeplace ---
+[INFO] argLine set to -javaagent:C:\\Users\\Yogya\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.8.7\\org.jacoco.agent-0.8.7-runtime.jar=destfile=C:\\Users\\Yogya\\Documents\\KTH\\BreakingUpdates\\breaking-updates\\tempProject\\165381d26b2c3d2278fde88c16f95807506451fe\\scheduler\\safeplace\\target\\jacoco.exec,excludes=org/btrplace/btrpsl/**/*:org/btrplace/safeplace/**/*:org/btrplace/bench/**/*:org/btrplace/scheduler/runner/disjoint/**/*
+[INFO] 
+[INFO] --- antlr4:4.9.3:antlr4 (default) @ safeplace ---
+[INFO] No grammars to process
+[INFO] ANTLR 4: Processing source directory C:\Users\Yogya\Documents\KTH\BreakingUpdates\breaking-updates\tempProject\165381d26b2c3d2278fde88c16f95807506451fe\scheduler\safeplace\src\main\antlr
+[INFO] 
+[INFO] --- resources:3.3.0:resources (default-resources) @ safeplace ---
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ safeplace ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 125 source files to C:\Users\Yogya\Documents\KTH\BreakingUpdates\breaking-updates\tempProject\165381d26b2c3d2278fde88c16f95807506451fe\scheduler\safeplace\target\classes
+[INFO] /C:/Users/Yogya/Documents/KTH/BreakingUpdates/breaking-updates/tempProject/165381d26b2c3d2278fde88c16f95807506451fe/scheduler/safeplace/src/main/java/org/btrplace/safeplace/spec/MyCstrSpecVisitor.java: Some input files use or override a deprecated API.
+[INFO] /C:/Users/Yogya/Documents/KTH/BreakingUpdates/breaking-updates/tempProject/165381d26b2c3d2278fde88c16f95807506451fe/scheduler/safeplace/src/main/java/org/btrplace/safeplace/spec/MyCstrSpecVisitor.java: Recompile with -Xlint:deprecation for details.
+[INFO] /C:/Users/Yogya/Documents/KTH/BreakingUpdates/breaking-updates/tempProject/165381d26b2c3d2278fde88c16f95807506451fe/scheduler/safeplace/src/main/java/org/btrplace/safeplace/spec/term/Constant.java: Some input files use unchecked or unsafe operations.
+[INFO] /C:/Users/Yogya/Documents/KTH/BreakingUpdates/breaking-updates/tempProject/165381d26b2c3d2278fde88c16f95807506451fe/scheduler/safeplace/src/main/java/org/btrplace/safeplace/spec/term/Constant.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- dependency:2.8:tree (default-cli) @ safeplace ---
+[INFO] org.btrplace:safeplace:jar:1.12.1-SNAPSHOT
+[INFO] +- io.github.lukehutch:fast-classpath-scanner:jar:2.9.3:compile
+[INFO] +- org.antlr:antlr4-maven-plugin:jar:4.9.3:compile
+[INFO] |  +- org.apache.maven:maven-plugin-api:jar:3.0.5:compile
+[INFO] |  |  +- org.apache.maven:maven-model:jar:3.0.5:compile
+[INFO] |  |  +- org.apache.maven:maven-artifact:jar:3.0.5:compile
+[INFO] |  |  \- org.sonatype.sisu:sisu-inject-plexus:jar:2.3.0:compile
+[INFO] |  |     +- org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:compile
+[INFO] |  |     +- org.codehaus.plexus:plexus-classworlds:jar:2.4:compile
+[INFO] |  |     \- org.sonatype.sisu:sisu-inject-bean:jar:2.3.0:compile
+[INFO] |  |        \- org.sonatype.sisu:sisu-guice:jar:no_aop:3.1.0:compile
+[INFO] |  |           \- org.sonatype.sisu:sisu-guava:jar:0.9.9:compile
+[INFO] |  +- org.codehaus.plexus:plexus-compiler-api:jar:2.2:compile
+[INFO] |  |  \- org.codehaus.plexus:plexus-utils:jar:3.0.8:compile
+[INFO] |  +- org.sonatype.plexus:plexus-build-api:jar:0.0.7:compile
+[INFO] |  +- org.antlr:antlr4:jar:4.9.3:compile
+[INFO] |  |  +- org.antlr:antlr-runtime:jar:3.5.2:compile
+[INFO] |  |  +- org.antlr:ST4:jar:4.3.1:compile
+[INFO] |  |  +- org.abego.treelayout:org.abego.treelayout.core:jar:1.0.3:compile
+[INFO] |  |  +- org.glassfish:javax.json:jar:1.0.4:compile
+[INFO] |  |  \- com.ibm.icu:icu4j:jar:69.1:compile
+[INFO] |  \- org.apache.maven:maven-project:jar:2.2.1:compile
+[INFO] |     +- org.apache.maven:maven-settings:jar:2.2.1:compile
+[INFO] |     +- org.apache.maven:maven-profile:jar:2.2.1:compile
+[INFO] |     +- org.apache.maven:maven-artifact-manager:jar:2.2.1:compile
+[INFO] |     |  +- org.apache.maven:maven-repository-metadata:jar:2.2.1:compile
+[INFO] |     |  +- org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-6:compile
+[INFO] |     |  \- backport-util-concurrent:backport-util-concurrent:jar:3.1:compile
+[INFO] |     +- org.apache.maven:maven-plugin-registry:jar:2.2.1:compile
+[INFO] |     +- org.codehaus.plexus:plexus-interpolation:jar:1.11:compile
+[INFO] |     \- org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[INFO] |        \- classworlds:classworlds:jar:1.1-alpha-2:compile
+[INFO] +- org.antlr:antlr4-runtime:jar:4.9.3:compile
+[INFO] +- org.btrplace:scheduler-api:jar:1.12.1-SNAPSHOT:compile
+[INFO] |  \- net.sf.trove4j:trove4j:jar:3.0.3:compile
+[INFO] +- org.btrplace:scheduler-json:jar:1.12.1-SNAPSHOT:compile
+[INFO] |  \- net.minidev:json-smart:jar:2.4.7:compile
+[INFO] |     \- net.minidev:accessors-smart:jar:2.4.7:compile
+[INFO] |        \- org.ow2.asm:asm:jar:9.1:compile
+[INFO] +- org.btrplace:scheduler-choco:jar:1.12.1-SNAPSHOT:compile
+[INFO] |  \- org.choco-solver:choco-solver:jar:4.10.7:compile
+[INFO] |     +- dk.brics.automaton:automaton:jar:1.11-8:compile
+[INFO] |     +- org.jgrapht:jgrapht-core:jar:1.4.0:compile
+[INFO] |     |  \- org.jheaps:jheaps:jar:0.11:compile
+[INFO] |     +- com.github.cp-profiler:cpprof-java:jar:1.3.0:compile
+[INFO] |     |  \- com.google.protobuf:protobuf-java:jar:2.6.1:compile
+[INFO] |     \- org.knowm.xchart:xchart:jar:3.8.1:compile
+[INFO] |        +- de.erichseifert.vectorgraphics2d:VectorGraphics2D:jar:0.13:compile
+[INFO] |        +- de.rototor.pdfbox:graphics2d:jar:0.32:compile
+[INFO] |        |  \- org.apache.pdfbox:pdfbox:jar:2.0.24:compile
+[INFO] |        |     +- org.apache.pdfbox:fontbox:jar:2.0.24:compile
+[INFO] |        |     \- commons-logging:commons-logging:jar:1.2:compile
+[INFO] |        \- com.madgag:animated-gif-lib:jar:1.4:compile
+[INFO] +- org.testng:testng:jar:7.3.0:compile
+[INFO] |  +- com.beust:jcommander:jar:1.78:compile
+[INFO] |  +- org.apache.ant:ant:jar:1.10.3:compile
+[INFO] |  |  \- org.apache.ant:ant-launcher:jar:1.10.3:compile
+[INFO] |  +- junit:junit:jar:4.12:compile
+[INFO] |  |  \- org.hamcrest:hamcrest-core:jar:1.3:compile
+[INFO] |  +- com.google.inject:guice:jar:no_aop:4.2.2:compile
+[INFO] |  |  +- javax.inject:javax.inject:jar:1:compile
+[INFO] |  |  +- aopalliance:aopalliance:jar:1.0:compile
+[INFO] |  |  \- com.google.guava:guava:jar:25.1-android:compile
+[INFO] |  |     +- com.google.code.findbugs:jsr305:jar:3.0.2:compile
+[INFO] |  |     +- org.checkerframework:checker-compat-qual:jar:2.0.0:compile
+[INFO] |  |     +- com.google.errorprone:error_prone_annotations:jar:2.1.3:compile
+[INFO] |  |     +- com.google.j2objc:j2objc-annotations:jar:1.1:compile
+[INFO] |  |     \- org.codehaus.mojo:animal-sniffer-annotations:jar:1.14:compile
+[INFO] |  \- org.yaml:snakeyaml:jar:1.21:compile
+[INFO] +- com.github.javaparser:javaparser-core:jar:3.18.0:compile
+[INFO] +- org.slf4j:slf4j-api:jar:1.7.32:compile
+[INFO] +- org.mockito:mockito-core:jar:4.0.0:test
+[INFO] |  +- net.bytebuddy:byte-buddy:jar:1.11.19:test
+[INFO] |  +- net.bytebuddy:byte-buddy-agent:jar:1.11.19:test
+[INFO] |  \- org.objenesis:objenesis:jar:3.2:test
+[INFO] +- org.openjdk.jmh:jmh-core:jar:1.33:test
+[INFO] |  +- net.sf.jopt-simple:jopt-simple:jar:4.6:test
+[INFO] |  \- org.apache.commons:commons-math3:jar:3.2:test
+[INFO] \- org.openjdk.jmh:jmh-generator-annprocess:jar:1.33:test
+[INFO] 
+[INFO] -------------------------< org.btrplace:bench >-------------------------
+[INFO] Building bench 1.12.1-SNAPSHOT                                     [8/9]
+[INFO]   from bench\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Artifact args4j:args4j:pom:2.33 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [sonatype (https://oss.sonatype.org/service/local/staging/deploy/maven2, default, releases+snapshots), sonatype-snapshots (https://oss.sonatype.org/content/repositories/snapshots, default, releases+snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact args4j:args4j:pom:2.33 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [sonatype (https://oss.sonatype.org/service/local/staging/deploy/maven2, default, releases+snapshots), sonatype-snapshots (https://oss.sonatype.org/content/repositories/snapshots, default, releases+snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+Downloading from sonatype: https://oss.sonatype.org/service/local/staging/deploy/maven2/args4j/args4j/2.33/args4j-2.33.pom
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/args4j/args4j/2.33/args4j-2.33.pom
+Downloading from central: https://repo.maven.apache.org/maven2/args4j/args4j/2.33/args4j-2.33.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/args4j/args4j/2.33/args4j-2.33.pom (0 B at 0 B/s)
+[INFO] Artifact args4j:args4j-site:pom:2.33 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [sonatype (https://oss.sonatype.org/service/local/staging/deploy/maven2, default, releases+snapshots), sonatype-snapshots (https://oss.sonatype.org/content/repositories/snapshots, default, releases+snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact args4j:args4j-site:pom:2.33 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [sonatype (https://oss.sonatype.org/service/local/staging/deploy/maven2, default, releases+snapshots), sonatype-snapshots (https://oss.sonatype.org/content/repositories/snapshots, default, releases+snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+Downloading from sonatype: https://oss.sonatype.org/service/local/staging/deploy/maven2/args4j/args4j-site/2.33/args4j-site-2.33.pom
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/args4j/args4j-site/2.33/args4j-site-2.33.pom
+Downloading from central: https://repo.maven.apache.org/maven2/args4j/args4j-site/2.33/args4j-site-2.33.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/args4j/args4j-site/2.33/args4j-site-2.33.pom (0 B at 0 B/s)
+[INFO] Artifact org.kohsuke:pom:pom:14 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [sonatype (https://oss.sonatype.org/service/local/staging/deploy/maven2, default, releases+snapshots), sonatype-snapshots (https://oss.sonatype.org/content/repositories/snapshots, default, releases+snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact org.kohsuke:pom:pom:14 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [sonatype (https://oss.sonatype.org/service/local/staging/deploy/maven2, default, releases+snapshots), sonatype-snapshots (https://oss.sonatype.org/content/repositories/snapshots, default, releases+snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+Downloading from sonatype: https://oss.sonatype.org/service/local/staging/deploy/maven2/org/kohsuke/pom/14/pom-14.pom
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/org/kohsuke/pom/14/pom-14.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/kohsuke/pom/14/pom-14.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/kohsuke/pom/14/pom-14.pom (0 B at 0 B/s)
+[INFO] Artifact args4j:args4j:jar:2.33 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [sonatype (https://oss.sonatype.org/service/local/staging/deploy/maven2, default, releases+snapshots), sonatype-snapshots (https://oss.sonatype.org/content/repositories/snapshots, default, releases+snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact args4j:args4j:jar:2.33 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [sonatype (https://oss.sonatype.org/service/local/staging/deploy/maven2, default, releases+snapshots), sonatype-snapshots (https://oss.sonatype.org/content/repositories/snapshots, default, releases+snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+Downloading from sonatype: https://oss.sonatype.org/service/local/staging/deploy/maven2/args4j/args4j/2.33/args4j-2.33.jar
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/args4j/args4j/2.33/args4j-2.33.jar
+Downloading from central: https://repo.maven.apache.org/maven2/args4j/args4j/2.33/args4j-2.33.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/args4j/args4j/2.33/args4j-2.33.jar (0 B at 0 B/s)
+[INFO] 
+[INFO] --- jacoco:0.8.7:prepare-agent (default) @ bench ---
+[INFO] argLine set to -javaagent:C:\\Users\\Yogya\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.8.7\\org.jacoco.agent-0.8.7-runtime.jar=destfile=C:\\Users\\Yogya\\Documents\\KTH\\BreakingUpdates\\breaking-updates\\tempProject\\165381d26b2c3d2278fde88c16f95807506451fe\\scheduler\\bench\\target\\jacoco.exec,excludes=org/btrplace/btrpsl/**/*:org/btrplace/safeplace/**/*:org/btrplace/bench/**/*:org/btrplace/scheduler/runner/disjoint/**/*
+[INFO] 
+[INFO] --- resources:3.3.0:resources (default-resources) @ bench ---
+[INFO] skip non existing resourceDirectory C:\Users\Yogya\Documents\KTH\BreakingUpdates\breaking-updates\tempProject\165381d26b2c3d2278fde88c16f95807506451fe\scheduler\bench\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ bench ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to C:\Users\Yogya\Documents\KTH\BreakingUpdates\breaking-updates\tempProject\165381d26b2c3d2278fde88c16f95807506451fe\scheduler\bench\target\classes
+[INFO] 
+[INFO] --- dependency:2.8:tree (default-cli) @ bench ---
+[INFO] org.btrplace:bench:jar:1.12.1-SNAPSHOT
+[INFO] +- org.btrplace:scheduler-api:jar:1.12.1-SNAPSHOT:compile
+[INFO] |  \- net.sf.trove4j:trove4j:jar:3.0.3:compile
+[INFO] +- org.btrplace:scheduler-json:jar:1.12.1-SNAPSHOT:compile
+[INFO] |  \- net.minidev:json-smart:jar:2.4.7:compile
+[INFO] |     \- net.minidev:accessors-smart:jar:2.4.7:compile
+[INFO] |        \- org.ow2.asm:asm:jar:9.1:compile
+[INFO] +- org.btrplace:scheduler-choco:jar:1.12.1-SNAPSHOT:compile
+[INFO] |  \- org.choco-solver:choco-solver:jar:4.10.7:compile
+[INFO] |     +- dk.brics.automaton:automaton:jar:1.11-8:compile
+[INFO] |     +- org.jgrapht:jgrapht-core:jar:1.4.0:compile
+[INFO] |     |  \- org.jheaps:jheaps:jar:0.11:compile
+[INFO] |     +- com.github.cp-profiler:cpprof-java:jar:1.3.0:compile
+[INFO] |     |  \- com.google.protobuf:protobuf-java:jar:2.6.1:compile
+[INFO] |     \- org.knowm.xchart:xchart:jar:3.8.1:compile
+[INFO] |        +- de.erichseifert.vectorgraphics2d:VectorGraphics2D:jar:0.13:compile
+[INFO] |        +- de.rototor.pdfbox:graphics2d:jar:0.32:compile
+[INFO] |        |  \- org.apache.pdfbox:pdfbox:jar:2.0.24:compile
+[INFO] |        |     +- org.apache.pdfbox:fontbox:jar:2.0.24:compile
+[INFO] |        |     \- commons-logging:commons-logging:jar:1.2:compile
+[INFO] |        \- com.madgag:animated-gif-lib:jar:1.4:compile
+[INFO] +- org.btrplace:btrpsl:jar:1.12.1-SNAPSHOT:compile
+[INFO] |  \- org.antlr:antlr:jar:3.5.2:compile
+[INFO] |     +- org.antlr:antlr-runtime:jar:3.5.2:compile
+[INFO] |     \- org.antlr:ST4:jar:4.0.8:compile
+[INFO] +- commons-io:commons-io:jar:2.11.0:compile
+[INFO] +- args4j:args4j:jar:2.33:compile
+[INFO] +- org.testng:testng:jar:7.3.0:test
+[INFO] |  +- com.beust:jcommander:jar:1.78:test
+[INFO] |  +- org.apache.ant:ant:jar:1.10.3:test
+[INFO] |  |  \- org.apache.ant:ant-launcher:jar:1.10.3:test
+[INFO] |  +- junit:junit:jar:4.12:test
+[INFO] |  |  \- org.hamcrest:hamcrest-core:jar:1.3:test
+[INFO] |  +- com.google.inject:guice:jar:no_aop:4.2.2:test
+[INFO] |  |  +- javax.inject:javax.inject:jar:1:test
+[INFO] |  |  +- aopalliance:aopalliance:jar:1.0:test
+[INFO] |  |  \- com.google.guava:guava:jar:25.1-android:test
+[INFO] |  |     +- com.google.code.findbugs:jsr305:jar:3.0.2:test
+[INFO] |  |     +- org.checkerframework:checker-compat-qual:jar:2.0.0:test
+[INFO] |  |     +- com.google.errorprone:error_prone_annotations:jar:2.1.3:test
+[INFO] |  |     +- com.google.j2objc:j2objc-annotations:jar:1.1:test
+[INFO] |  |     \- org.codehaus.mojo:animal-sniffer-annotations:jar:1.14:test
+[INFO] |  \- org.yaml:snakeyaml:jar:1.21:test
+[INFO] +- org.slf4j:slf4j-api:jar:1.7.32:compile
+[INFO] +- org.mockito:mockito-core:jar:4.0.0:test
+[INFO] |  +- net.bytebuddy:byte-buddy:jar:1.11.19:test
+[INFO] |  +- net.bytebuddy:byte-buddy-agent:jar:1.11.19:test
+[INFO] |  \- org.objenesis:objenesis:jar:3.2:test
+[INFO] +- org.openjdk.jmh:jmh-core:jar:1.33:test
+[INFO] |  +- net.sf.jopt-simple:jopt-simple:jar:4.6:test
+[INFO] |  \- org.apache.commons:commons-math3:jar:3.2:test
+[INFO] \- org.openjdk.jmh:jmh-generator-annprocess:jar:1.33:test
+[INFO] 
+[INFO] -------------------------< org.btrplace:split >-------------------------
+[INFO] Building scheduler-split 1.12.1-SNAPSHOT                           [9/9]
+[INFO]   from split\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- jacoco:0.8.7:prepare-agent (default) @ split ---
+[INFO] argLine set to -javaagent:C:\\Users\\Yogya\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.8.7\\org.jacoco.agent-0.8.7-runtime.jar=destfile=C:\\Users\\Yogya\\Documents\\KTH\\BreakingUpdates\\breaking-updates\\tempProject\\165381d26b2c3d2278fde88c16f95807506451fe\\scheduler\\split\\target\\jacoco.exec,excludes=org/btrplace/btrpsl/**/*:org/btrplace/safeplace/**/*:org/btrplace/bench/**/*:org/btrplace/scheduler/runner/disjoint/**/*
+[INFO] 
+[INFO] --- resources:3.3.0:resources (default-resources) @ split ---
+[INFO] skip non existing resourceDirectory C:\Users\Yogya\Documents\KTH\BreakingUpdates\breaking-updates\tempProject\165381d26b2c3d2278fde88c16f95807506451fe\scheduler\split\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ split ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 32 source files to C:\Users\Yogya\Documents\KTH\BreakingUpdates\breaking-updates\tempProject\165381d26b2c3d2278fde88c16f95807506451fe\scheduler\split\target\classes
+[INFO] /C:/Users/Yogya/Documents/KTH/BreakingUpdates/breaking-updates/tempProject/165381d26b2c3d2278fde88c16f95807506451fe/scheduler/split/src/main/java/org/btrplace/scheduler/runner/disjoint/model/ElementSubSet.java: Some input files use unchecked or unsafe operations.
+[INFO] /C:/Users/Yogya/Documents/KTH/BreakingUpdates/breaking-updates/tempProject/165381d26b2c3d2278fde88c16f95807506451fe/scheduler/split/src/main/java/org/btrplace/scheduler/runner/disjoint/model/ElementSubSet.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- dependency:2.8:tree (default-cli) @ split ---
+[INFO] org.btrplace:split:jar:1.12.1-SNAPSHOT
+[INFO] +- org.btrplace:scheduler-api:jar:1.12.1-SNAPSHOT:compile
+[INFO] +- org.btrplace:scheduler-choco:jar:1.12.1-SNAPSHOT:compile
+[INFO] |  \- org.choco-solver:choco-solver:jar:4.10.7:compile
+[INFO] |     +- dk.brics.automaton:automaton:jar:1.11-8:compile
+[INFO] |     +- org.jgrapht:jgrapht-core:jar:1.4.0:compile
+[INFO] |     |  \- org.jheaps:jheaps:jar:0.11:compile
+[INFO] |     +- com.github.cp-profiler:cpprof-java:jar:1.3.0:compile
+[INFO] |     |  \- com.google.protobuf:protobuf-java:jar:2.6.1:compile
+[INFO] |     \- org.knowm.xchart:xchart:jar:3.8.1:compile
+[INFO] |        +- de.erichseifert.vectorgraphics2d:VectorGraphics2D:jar:0.13:compile
+[INFO] |        +- de.rototor.pdfbox:graphics2d:jar:0.32:compile
+[INFO] |        |  \- org.apache.pdfbox:pdfbox:jar:2.0.24:compile
+[INFO] |        |     +- org.apache.pdfbox:fontbox:jar:2.0.24:compile
+[INFO] |        |     \- commons-logging:commons-logging:jar:1.2:compile
+[INFO] |        \- com.madgag:animated-gif-lib:jar:1.4:compile
+[INFO] +- net.sf.trove4j:trove4j:jar:3.0.3:compile
+[INFO] +- org.testng:testng:jar:7.3.0:test
+[INFO] |  +- com.beust:jcommander:jar:1.78:test
+[INFO] |  +- org.apache.ant:ant:jar:1.10.3:test
+[INFO] |  |  \- org.apache.ant:ant-launcher:jar:1.10.3:test
+[INFO] |  +- junit:junit:jar:4.12:test
+[INFO] |  |  \- org.hamcrest:hamcrest-core:jar:1.3:test
+[INFO] |  +- com.google.inject:guice:jar:no_aop:4.2.2:test
+[INFO] |  |  +- javax.inject:javax.inject:jar:1:test
+[INFO] |  |  +- aopalliance:aopalliance:jar:1.0:test
+[INFO] |  |  \- com.google.guava:guava:jar:25.1-android:test
+[INFO] |  |     +- com.google.code.findbugs:jsr305:jar:3.0.2:test
+[INFO] |  |     +- org.checkerframework:checker-compat-qual:jar:2.0.0:test
+[INFO] |  |     +- com.google.errorprone:error_prone_annotations:jar:2.1.3:test
+[INFO] |  |     +- com.google.j2objc:j2objc-annotations:jar:1.1:test
+[INFO] |  |     \- org.codehaus.mojo:animal-sniffer-annotations:jar:1.14:test
+[INFO] |  \- org.yaml:snakeyaml:jar:1.21:test
+[INFO] +- org.slf4j:slf4j-api:jar:1.7.32:compile
+[INFO] +- org.mockito:mockito-core:jar:4.0.0:test
+[INFO] |  +- net.bytebuddy:byte-buddy:jar:1.11.19:test
+[INFO] |  +- net.bytebuddy:byte-buddy-agent:jar:1.11.19:test
+[INFO] |  \- org.objenesis:objenesis:jar:3.2:test
+[INFO] +- org.openjdk.jmh:jmh-core:jar:1.33:test
+[INFO] |  +- net.sf.jopt-simple:jopt-simple:jar:4.6:test
+[INFO] |  \- org.apache.commons:commons-math3:jar:3.2:test
+[INFO] \- org.openjdk.jmh:jmh-generator-annprocess:jar:1.33:test
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for scheduler 1.12.1-SNAPSHOT:
+[INFO] 
+[INFO] scheduler .......................................... SUCCESS [ 13.484 s]
+[INFO] scheduler-api ...................................... SUCCESS [  8.785 s]
+[INFO] scheduler-json ..................................... SUCCESS [  3.177 s]
+[INFO] scheduler-choco .................................... SUCCESS [ 11.621 s]
+[INFO] scheduler-examples ................................. SUCCESS [ 10.920 s]
+[INFO] btrpsl ............................................. SUCCESS [  7.410 s]
+[INFO] safeplace .......................................... SUCCESS [ 20.632 s]
+[INFO] bench .............................................. SUCCESS [  2.177 s]
+[INFO] scheduler-split .................................... SUCCESS [  1.384 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  01:23 min
+[INFO] Finished at: 2023-09-14T15:48:41+02:00
+[INFO] ------------------------------------------------------------------------
+[WARNING] 
+[WARNING] Plugin validation issues were detected in 8 plugin(s)
+[WARNING] 
+[WARNING]  * org.jacoco:jacoco-maven-plugin:0.8.7
+[WARNING]  * org.sonatype.plugins:nexus-staging-maven-plugin:1.6.8
+[WARNING]  * org.apache.maven.plugins:maven-site-plugin:3.12.1
+[WARNING]  * org.apache.maven.plugins:maven-compiler-plugin:3.8.1
+[WARNING]  * org.antlr:antlr3-maven-plugin:3.5.2
+[WARNING]  * org.apache.maven.plugins:maven-dependency-plugin:2.8
+[WARNING]  * org.apache.maven.plugins:maven-resources-plugin:3.3.0
+[WARNING]  * org.antlr:antlr4-maven-plugin:4.9.3
+[WARNING] 
+[WARNING] For more or less details, use 'maven.plugin.validation' property with one of the values (case insensitive): [BRIEF, DEFAULT, VERBOSE]
+[WARNING] 
