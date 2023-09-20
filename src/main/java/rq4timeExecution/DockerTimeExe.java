@@ -89,8 +89,8 @@ public class DockerTimeExe {
                     }
 
 
-                    imageMetadata.put("preImageTime", null);
-                    imageMetadata.put("preImageSize", null);
+                    imageMetadata.put("preImageTime", prevContainer.getValue().imageTime());
+                    imageMetadata.put("preImageSize", prevContainer.getValue().imageSize());
 
                     imageMetadata.put("breakingImageTime", breakingContainer.getValue().imageTime());
                     imageMetadata.put("breakingImageSize", breakingContainer.getValue().imageSize());
@@ -137,25 +137,15 @@ public class DockerTimeExe {
         //stop container
         long endTime = System.currentTimeMillis();
 
-//        if (exitCode != EXIT_CODE_OK) {
-//            if (isPrevImage) {
-//                log.error("Previous commit failed for {}", image);
-//                return Map.entry(containerId, imageData);
-//            }
-//        } else {
-//            if (!isPrevImage) {
-//                log.error("Breaking commit did not fail for {}", image);
-//                return Map.entry(containerId, imageData);
-//            }
-//        }
+
         long elapsedTime = endTime - startTime;
         long size = dockerClient.inspectImageCmd(image).exec().getSize();
 
         imageData = new ImageData(elapsedTime, size);
 
-        System.out.println("La imagen Docker se descargó y se ejecutó en " + elapsedTime + " milisegundos. y pesa  " + size);
+        System.out.println("Docker reproduce " + elapsedTime + " milisegundos. y size  " + size);
 
-        removeImage(image, containerId);
+//        removeImage(image, containerId);
 
         return Map.entry(containerId, imageData);
     }
