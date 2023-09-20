@@ -1,6 +1,7 @@
 {
   "url" : "https://github.com/jenkinsci/config-file-provider-plugin/pull/147",
   "project" : "config-file-provider-plugin",
+  "projectOrganisation" : "jenkinsci",
   "breakingCommit" : "1280336ece95fdbbed78274a754f90694f52ae56",
   "prAuthor" : "bot",
   "preCommitAuthor" : "human",
@@ -15,10 +16,11 @@
     "githubCompareLink" : "A GitHub repository could not be found for the updated dependency.",
     "mavenSourceLinkPre" : null,
     "mavenSourceLinkBreaking" : null,
-    "updatedFileType" : "POM"
+    "updatedFileType" : "POM",
+    "dependencySection" : "dependencyManagement"
   },
   "preCommitReproductionCommand" : "docker run ghcr.io/chains-project/breaking-updates:1280336ece95fdbbed78274a754f90694f52ae56-pre",
   "breakingUpdateReproductionCommand" : "docker run ghcr.io/chains-project/breaking-updates:1280336ece95fdbbed78274a754f90694f52ae56-breaking",
   "javaVersionUsedForReproduction" : "11",
-  "failureCategory" : "UNKNOWN_FAILURE"
+  "failureCategory" : "JENKINS_PLUGIN_FAILURE"
 }

@@ -1,6 +1,7 @@
 {
   "url" : "https://github.com/googleapis/java-firestore/pull/715",
   "project" : "java-firestore",
+  "projectOrganisation" : "googleapis",
   "breakingCommit" : "4ef9928eee8a3b357b15fd1c5b195800add63802",
   "prAuthor" : "bot",
   "preCommitAuthor" : "bot",
@@ -15,7 +16,8 @@
     "githubCompareLink" : "A GitHub repository could not be found for the updated dependency.",
     "mavenSourceLinkPre" : null,
     "mavenSourceLinkBreaking" : null,
-    "updatedFileType" : "POM"
+    "updatedFileType" : "POM",
+    "dependencySection" : "dependencyManagement"
   },
   "preCommitReproductionCommand" : "docker run ghcr.io/chains-project/breaking-updates:4ef9928eee8a3b357b15fd1c5b195800add63802-pre",
   "breakingUpdateReproductionCommand" : "docker run ghcr.io/chains-project/breaking-updates:4ef9928eee8a3b357b15fd1c5b195800add63802-breaking",

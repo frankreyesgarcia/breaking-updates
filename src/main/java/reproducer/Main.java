@@ -93,6 +93,30 @@ public class Main {
         )
         Path credentialsFile;
 
+        @CommandLine.Option(
+                names = {"-w", "--workflow-log-download-dir"},
+                paramLabel = "WORKFLOW-DIR",
+                description = "The directory to download workflow logs. If a workflow directory is not defined, " +
+                        "workflow log files will not be downloaded."
+        )
+        String workflowDir;
+
+        @CommandLine.Option(
+                names = {"-ud", "--user-data-dir"},
+                paramLabel = "USER-DATA-DIR",
+                description = "The directory where the user data in Chrome is saved. This is required to keep an active " +
+                        "web session with GitHub, when downloading the workflow log files. If it is not necessary to download" + 
+                        "workflow logs, this option can be ignored."
+        )
+        String userDataDir;
+
+        @CommandLine.Option(
+                names = {"-ch", "--chrome-driver-path"},
+                paramLabel = "CHROME-DRIVER-PATH",
+                description = "The chrome driver path. This is required to run the WorkflowLogFinder in Windows systems."
+        )
+        String chromeDriverPath;
+
         @Override
         public void run() {
             try {
@@ -100,7 +124,7 @@ public class Main {
                 ResultManager.GitHubPackagesCredentials credentials = ResultManager.GitHubPackagesCredentials
                         .fromJson(credentialsFile);
                 ResultManager resultManager = new ResultManager(apiTokens, benchmarkDir, unsuccessfulReproductionsDir,
-                        notReproducedDataDir, logDir, jarDir, credentials);
+                        notReproducedDataDir, logDir, jarDir, workflowDir, userDataDir, chromeDriverPath, credentials);
                 BreakingUpdateReproducer reproducer = new BreakingUpdateReproducer(resultManager);
                 if (breakingUpdateFile != null) {
                     BreakingUpdate bu = JsonUtils.readFromFile(breakingUpdateFile, BreakingUpdate.class);
