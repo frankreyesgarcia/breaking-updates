@@ -26,7 +26,7 @@ import java.util.Map;
 class Test {
     public static void main(String[] args) {
         DockerTimeExe dockerTimeExe = new DockerTimeExe();
-        dockerTimeExe.dockerMetadata(Path.of("/Users/frank/Documents/Work/PHD/chains-project/fork/breaking-updates-fork/example"));
+        dockerTimeExe.dockerMetadata(Path.of("test_data"));
     }
 }
 
