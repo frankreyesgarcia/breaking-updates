@@ -228,5 +228,190 @@
     "directCount" : 28,
     "buCommit" : "17f2bcaaba4805b218743f575919360c5aec5da4",
     "transitiveCount" : 170
+  },
+  "ORCID/ORCID-Source" : {
+    "directCount" : 120,
+    "buCommit" : "18102f7a87e7ab8308a86208d47696c060110d0c",
+    "transitiveCount" : 287
+  },
+  "alphagov/pay-connector" : {
+    "directCount" : 74,
+    "buCommit" : "187caaec31580839e578b962a6a3132fb05ed9cd",
+    "transitiveCount" : 263
+  },
+  "s4u/pgpverify-maven-plugin" : {
+    "directCount" : 29,
+    "buCommit" : "19249139eb66616953c389242c22edde60c4ac2f",
+    "transitiveCount" : 38
+  },
+  "apache/logging-chainsaw" : {
+    "directCount" : 13,
+    "buCommit" : "19e20b0d69cb6dadbc54313cb6c6e5f70670ac93",
+    "transitiveCount" : 2
+  },
+  "premium-minds/wicket-crudifier" : {
+    "directCount" : 11,
+    "buCommit" : "1a2fb9f65e12d6c43a8472b9b035299b29a75ce8",
+    "transitiveCount" : 22
+  },
+  "vandmo/dependency-lock-maven-plugin" : {
+    "directCount" : 14,
+    "buCommit" : "1a771d2096b043dc34982d78494b2f14f506176a",
+    "transitiveCount" : 33
+  },
+  "mathieucarbou/license-maven-plugin" : {
+    "directCount" : 0,
+    "buCommit" : "1c0972fc3d905b9f2a305a78f8a158a0b3fd8639",
+    "transitiveCount" : 0
+  },
+  "tokuhirom/avans" : {
+    "directCount" : 25,
+    "buCommit" : "1c3529eaf282deb4868f4b13439170ef47db3e8c",
+    "transitiveCount" : 44
+  },
+  "assertj/assertj-vavr" : {
+    "directCount" : 6,
+    "buCommit" : "1cc7071371953a7880c2c2c3a5a32c36af7f88f9",
+    "transitiveCount" : 11
+  },
+  "jenkinsci/github-oauth-plugin" : {
+    "directCount" : 19,
+    "buCommit" : "1d0c5406203e778b5e67534cdf72f4370fd6d301",
+    "transitiveCount" : 253
+  },
+  "codehaus-plexus/plexus-compiler" : {
+    "directCount" : 21,
+    "buCommit" : "1d2946ff87dfd82f15fa51920ce2560f32e4aa26",
+    "transitiveCount" : 71
+  },
+  "takari/polyglot-maven" : {
+    "directCount" : 14,
+    "buCommit" : "1e17e176460ab4283e463e62fece844d341da7f0",
+    "transitiveCount" : 57
+  },
+  "elimu-ai/webapp" : {
+    "directCount" : 50,
+    "buCommit" : "1eb6d9d5b2a07720a0839457cee81e066dd932f2",
+    "transitiveCount" : 135
+  },
+  "knaufk/flink-faker" : {
+    "directCount" : 10,
+    "buCommit" : "1ef97ea6c5b6e34151fe6167001b69e003449f95",
+    "transitiveCount" : 86
+  },
+  "googleapis/java-firestore" : {
+    "directCount" : 36,
+    "buCommit" : "20e787c7e1e6d0f8de9449551a3749575348a341",
+    "transitiveCount" : 42
+  },
+  "alphagov/pay-cardid" : {
+    "directCount" : 18,
+    "buCommit" : "22eec990412b563439a1dfae84134b43d85d9815",
+    "transitiveCount" : 126
+  },
+  "jcabi/jcabi-s3" : {
+    "directCount" : 22,
+    "buCommit" : "24d4a90ec1b375751e71f33d18949405c9529d77",
+    "transitiveCount" : 27
+  },
+  "googleapis/google-cloud-java" : {
+    "directCount" : 545,
+    "buCommit" : "27ea953051c0508f589cd9cec620b38572adb5f0",
+    "transitiveCount" : 76
+  },
+  "jenkinsci/github-checks-plugin" : {
+    "directCount" : 45,
+    "buCommit" : "283c6ddc77ec4f7c52e297926cb8a6960a3f8ab6",
+    "transitiveCount" : 251
+  },
+  "quick-perf/quickperf" : {
+    "directCount" : 1,
+    "buCommit" : "2ad5b0e1f3512246c9de99259c35af15df677c77",
+    "transitiveCount" : 0
+  },
+  "igniterealtime/openfire-hazelcast-plugin" : {
+    "directCount" : 2,
+    "buCommit" : "2b4d49d68112941b8abb818549389709d8327963",
+    "transitiveCount" : 99
+  },
+  "matteobaccan/html2pop3" : {
+    "directCount" : 14,
+    "buCommit" : "2b60dcd83ece76e58dee05be56f00eba6deb4ac6",
+    "transitiveCount" : 11
+  },
+  "qqxx6661/log-record" : {
+    "directCount" : 13,
+    "buCommit" : "2c04b9834112eba86fbb8ad1f925128d49449c41",
+    "transitiveCount" : 85
+  },
+  "apache/bval" : {
+    "directCount" : 18,
+    "buCommit" : "2dfaa41bfb97674d11f09a5885011f19808548a3",
+    "transitiveCount" : 8
+  },
+  "ASSERT-KTH/depclean" : {
+    "directCount" : 27,
+    "buCommit" : "2f01c46b96a8edf437edf20e6dbd848edcb27085",
+    "transitiveCount" : 63
+  },
+  "apache/directory-scimple" : {
+    "directCount" : 0,
+    "buCommit" : "2f9d75d4b01cd18afcb4676d134142882f9e0034",
+    "transitiveCount" : 0
+  },
+  "knowm/XChange" : {
+    "directCount" : 93,
+    "buCommit" : "35db97c86709ffab63eac39eb1fca428a21fa3d7",
+    "transitiveCount" : 133
+  },
+  "zold-io/java-api" : {
+    "directCount" : 0,
+    "buCommit" : "38c9915f0cfdf0c1a2b17c3c6f283c23a0aac0cf",
+    "transitiveCount" : 0
+  },
+  "camunda-community-hub/camunda-platform-7-camel" : {
+    "directCount" : 27,
+    "buCommit" : "3b26e04706e255544d99886b643936cfff6e2aeb",
+    "transitiveCount" : 85
+  },
+  "volodya-lombrozo/jtcop" : {
+    "directCount" : 14,
+    "buCommit" : "3b4a91979f0d93ca4cbb79e6cfa5029a6b8eaf01",
+    "transitiveCount" : 62
+  },
+  "sabomichal/jooq-meta-postgres-flyway" : {
+    "directCount" : 4,
+    "buCommit" : "3d0cc7db9d9c9420fa4f478a72067ef846ba8129",
+    "transitiveCount" : 22
+  },
+  "ASSERT-KTH/sorald" : {
+    "directCount" : 20,
+    "buCommit" : "3d29f9a6823fa68763d3148bc0353ac557f2a815",
+    "transitiveCount" : 44
+  },
+  "charite/jannovar" : {
+    "directCount" : 28,
+    "buCommit" : "3df0868d7dc52bea41d68c0d87e7aee09a8d62db",
+    "transitiveCount" : 38
+  },
+  "jenkinsci/rest-list-parameter-plugin" : {
+    "directCount" : 21,
+    "buCommit" : "3e2f981f08e75926838fb0fa6d96fb3efba33bc3",
+    "transitiveCount" : 209
+  },
+  "guhilling/cdi-test" : {
+    "directCount" : 36,
+    "buCommit" : "3f30dfff617fd652412260ecf648a25769a27101",
+    "transitiveCount" : 72
+  },
+  "codehaus-plexus/plexus-archiver" : {
+    "directCount" : 8,
+    "buCommit" : "3ff575ae202cdf76ddfa8a4228a1711a6fa1e921",
+    "transitiveCount" : 3
+  },
+  "games647/ChangeSkin" : {
+    "directCount" : 12,
+    "buCommit" : "402082609522c66a3b790aedafd0570148a7d53f",
+    "transitiveCount" : 79
   }
 }

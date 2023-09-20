@@ -1,0 +1,531 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------------< uk.gov.pay:pay-cardid >------------------------
+[INFO] Building pay-cardid 0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from central: https://repo.maven.apache.org/maven2/uk/gov/service/payments/logging/1.0.20220112152929/logging-1.0.20220112152929.pom
+Progress (1): 1.4/2.1 kB
+Progress (1): 2.1 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/uk/gov/service/payments/logging/1.0.20220112152929/logging-1.0.20220112152929.pom (2.1 kB at 4.8 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/uk/gov/service/payments/pay-java-commons/1.0.20220112152929/pay-java-commons-1.0.20220112152929.pom
+Progress (1): 1.4/10.0 kB
+Progress (1): 2.7/10.0 kB
+Progress (1): 4.1/10.0 kB
+Progress (1): 5.5/10.0 kB
+Progress (1): 6.9/10.0 kB
+Progress (1): 8.2/10.0 kB
+Progress (1): 9.6/10.0 kB
+Progress (1): 10.0 kB    
+                     
+Downloaded from central: https://repo.maven.apache.org/maven2/uk/gov/service/payments/pay-java-commons/1.0.20220112152929/pay-java-commons-1.0.20220112152929.pom (10.0 kB at 89 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/dhatim/dropwizard-sentry/2.0.22/dropwizard-sentry-2.0.22.pom
+Progress (1): 1.4/3.9 kB
+Progress (1): 2.7/3.9 kB
+Progress (1): 3.9 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/dhatim/dropwizard-sentry/2.0.22/dropwizard-sentry-2.0.22.pom (3.9 kB at 135 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/dhatim/root-oss/21.10.0/root-oss-21.10.0.pom
+Progress (1): 1.4/26 kB
+Progress (1): 2.7/26 kB
+Progress (1): 4.1/26 kB
+Progress (1): 5.5/26 kB
+Progress (1): 6.9/26 kB
+Progress (1): 8.2/26 kB
+Progress (1): 9.6/26 kB
+Progress (1): 11/26 kB 
+Progress (1): 12/26 kB
+Progress (1): 14/26 kB
+Progress (1): 15/26 kB
+Progress (1): 16/26 kB
+Progress (1): 17/26 kB
+Progress (1): 19/26 kB
+Progress (1): 20/26 kB
+Progress (1): 21/26 kB
+Progress (1): 23/26 kB
+Progress (1): 24/26 kB
+Progress (1): 25/26 kB
+Progress (1): 26 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/dhatim/root-oss/21.10.0/root-oss-21.10.0.pom (26 kB at 231 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-framework-bom/5.3.12/spring-framework-bom-5.3.12.pom
+Progress (1): 1.4/5.7 kB
+Progress (1): 2.7/5.7 kB
+Progress (1): 4.1/5.7 kB
+Progress (1): 5.5/5.7 kB
+Progress (1): 5.7 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-framework-bom/5.3.12/spring-framework-bom-5.3.12.pom (5.7 kB at 269 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/dropwizard/dropwizard-bom/2.0.25/dropwizard-bom-2.0.25.pom
+Progress (1): 1.4/6.3 kB
+Progress (1): 2.7/6.3 kB
+Progress (1): 4.1/6.3 kB
+Progress (1): 5.5/6.3 kB
+Progress (1): 6.3 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/io/dropwizard/dropwizard-bom/2.0.25/dropwizard-bom-2.0.25.pom (6.3 kB at 628 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/dropwizard/dropwizard-project/2.0.25/dropwizard-project-2.0.25.pom
+Progress (1): 16/24 kB
+Progress (1): 24 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/io/dropwizard/dropwizard-project/2.0.25/dropwizard-project-2.0.25.pom (24 kB at 2.2 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/sentry/sentry-logback/1.7.30/sentry-logback-1.7.30.pom
+Progress (1): 5.3 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/io/sentry/sentry-logback/1.7.30/sentry-logback-1.7.30.pom (5.3 kB at 444 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/sentry/sentry-all/1.7.30/sentry-all-1.7.30.pom
+Progress (1): 16/20 kB
+Progress (1): 20 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/io/sentry/sentry-all/1.7.30/sentry-all-1.7.30.pom (20 kB at 1.4 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/sentry/sentry/1.7.30/sentry-1.7.30.pom
+Progress (1): 8.0 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/io/sentry/sentry/1.7.30/sentry-1.7.30.pom (8.0 kB at 728 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/mockito/mockito-core/4.3.0/mockito-core-4.3.0.pom
+Progress (1): 2.5 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/mockito/mockito-core/4.3.0/mockito-core-4.3.0.pom (2.5 kB at 113 kB/s)
+[INFO] Artifact org.openjdk.jmh:jmh-core:pom:1.34 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [ossrh (https://s01.oss.sonatype.org/content/repositories/snapshots, default, snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact org.openjdk.jmh:jmh-core:pom:1.34 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [ossrh (https://s01.oss.sonatype.org/content/repositories/snapshots, default, snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+Downloading from central: https://repo.maven.apache.org/maven2/org/openjdk/jmh/jmh-core/1.34/jmh-core-1.34.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/openjdk/jmh/jmh-core/1.34/jmh-core-1.34.pom (0 B at 0 B/s)
+[INFO] Artifact org.openjdk.jmh:jmh-parent:pom:1.34 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [ossrh (https://s01.oss.sonatype.org/content/repositories/snapshots, default, snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact org.openjdk.jmh:jmh-parent:pom:1.34 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [ossrh (https://s01.oss.sonatype.org/content/repositories/snapshots, default, snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+Downloading from central: https://repo.maven.apache.org/maven2/org/openjdk/jmh/jmh-parent/1.34/jmh-parent-1.34.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/openjdk/jmh/jmh-parent/1.34/jmh-parent-1.34.pom (0 B at 0 B/s)
+[INFO] Artifact org.openjdk.jmh:jmh-generator-annprocess:pom:1.34 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [ossrh (https://s01.oss.sonatype.org/content/repositories/snapshots, default, snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact org.openjdk.jmh:jmh-generator-annprocess:pom:1.34 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [ossrh (https://s01.oss.sonatype.org/content/repositories/snapshots, default, snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+Downloading from central: https://repo.maven.apache.org/maven2/org/openjdk/jmh/jmh-generator-annprocess/1.34/jmh-generator-annprocess-1.34.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/openjdk/jmh/jmh-generator-annprocess/1.34/jmh-generator-annprocess-1.34.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/dropwizard/metrics/metrics-graphite/4.2.7/metrics-graphite-4.2.7.pom
+Progress (1): 3.3 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/io/dropwizard/metrics/metrics-graphite/4.2.7/metrics-graphite-4.2.7.pom (3.3 kB at 325 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/dropwizard/metrics/metrics-parent/4.2.7/metrics-parent-4.2.7.pom
+Progress (1): 16/20 kB
+Progress (1): 20 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/io/dropwizard/metrics/metrics-parent/4.2.7/metrics-parent-4.2.7.pom (20 kB at 1.8 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/dropwizard/metrics/metrics-bom/4.2.7/metrics-bom-4.2.7.pom
+Progress (1): 6.9 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/io/dropwizard/metrics/metrics-bom/4.2.7/metrics-bom-4.2.7.pom (6.9 kB at 764 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/jayway/jsonpath/json-path-assert/2.6.0/json-path-assert-2.6.0.pom
+Progress (1): 1.8 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/jayway/jsonpath/json-path-assert/2.6.0/json-path-assert-2.6.0.pom (1.8 kB at 135 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/mockito/mockito-junit-jupiter/4.3.0/mockito-junit-jupiter-4.3.0.pom
+Progress (1): 2.3 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/mockito/mockito-junit-jupiter/4.3.0/mockito-junit-jupiter-4.3.0.pom (2.3 kB at 165 kB/s)
+[INFO] Artifact org.openjdk.jmh:jmh-core:jar:1.34 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [ossrh (https://s01.oss.sonatype.org/content/repositories/snapshots, default, snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact org.openjdk.jmh:jmh-generator-annprocess:jar:1.34 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [ossrh (https://s01.oss.sonatype.org/content/repositories/snapshots, default, snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact org.openjdk.jmh:jmh-core:jar:1.34 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [ossrh (https://s01.oss.sonatype.org/content/repositories/snapshots, default, snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact org.openjdk.jmh:jmh-generator-annprocess:jar:1.34 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [ossrh (https://s01.oss.sonatype.org/content/repositories/snapshots, default, snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+Downloading from central: https://repo.maven.apache.org/maven2/uk/gov/service/payments/logging/1.0.20220112152929/logging-1.0.20220112152929.jar
+Progress (1): 12 kB
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/uk/gov/service/payments/logging/1.0.20220112152929/logging-1.0.20220112152929.jar (12 kB at 56 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/dhatim/dropwizard-sentry/2.0.22/dropwizard-sentry-2.0.22.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-io/9.4.44.v20210927/jetty-io-9.4.44.v20210927.jar
+Downloading from central: https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/1.2.9/logback-classic-1.2.9.jar
+Downloading from central: https://repo.maven.apache.org/maven2/io/sentry/sentry/1.7.30/sentry-1.7.30.jar
+Downloading from central: https://repo.maven.apache.org/maven2/io/sentry/sentry-logback/1.7.30/sentry-logback-1.7.30.jar
+Progress (1): 16/234 kB
+Progress (2): 16/234 kB | 16/179 kB
+Progress (2): 33/234 kB | 16/179 kB
+Progress (2): 33/234 kB | 33/179 kB
+Progress (2): 49/234 kB | 33/179 kB
+Progress (2): 49/234 kB | 49/179 kB
+Progress (2): 66/234 kB | 49/179 kB
+Progress (2): 66/234 kB | 66/179 kB
+Progress (2): 66/234 kB | 82/179 kB
+Progress (2): 66/234 kB | 98/179 kB
+Progress (2): 66/234 kB | 115/179 kB
+Progress (3): 66/234 kB | 115/179 kB | 16/181 kB
+Progress (3): 66/234 kB | 131/179 kB | 16/181 kB
+Progress (3): 66/234 kB | 131/179 kB | 33/181 kB
+Progress (3): 66/234 kB | 147/179 kB | 33/181 kB
+Progress (3): 82/234 kB | 147/179 kB | 33/181 kB
+Progress (3): 82/234 kB | 147/179 kB | 49/181 kB
+Progress (3): 82/234 kB | 164/179 kB | 49/181 kB
+Progress (3): 98/234 kB | 164/179 kB | 49/181 kB
+Progress (3): 98/234 kB | 164/179 kB | 66/181 kB
+Progress (3): 98/234 kB | 179 kB | 66/181 kB    
+Progress (3): 115/234 kB | 179 kB | 66/181 kB
+Progress (3): 115/234 kB | 179 kB | 82/181 kB
+Progress (3): 131/234 kB | 179 kB | 82/181 kB
+Progress (3): 131/234 kB | 179 kB | 98/181 kB
+                                             
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-io/9.4.44.v20210927/jetty-io-9.4.44.v20210927.jar (179 kB at 4.2 MB/s)
+Progress (2): 147/234 kB | 98/181 kB
+                                    
+Downloading from central: https://repo.maven.apache.org/maven2/org/openjdk/jmh/jmh-core/1.34/jmh-core-1.34.jar
+Progress (2): 147/234 kB | 115/181 kB
+Progress (2): 164/234 kB | 115/181 kB
+Progress (2): 164/234 kB | 131/181 kB
+Progress (2): 180/234 kB | 131/181 kB
+Progress (2): 180/234 kB | 147/181 kB
+Progress (2): 197/234 kB | 147/181 kB
+Progress (2): 197/234 kB | 164/181 kB
+Progress (2): 213/234 kB | 164/181 kB
+Progress (2): 213/234 kB | 180/181 kB
+Progress (2): 213/234 kB | 181 kB    
+Progress (2): 229/234 kB | 181 kB
+Progress (2): 234 kB | 181 kB    
+                             
+Downloaded from central: https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/1.2.9/logback-classic-1.2.9.jar (234 kB at 4.6 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/openjdk/jmh/jmh-generator-annprocess/1.34/jmh-generator-annprocess-1.34.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/io/sentry/sentry/1.7.30/sentry-1.7.30.jar (181 kB at 3.4 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/dropwizard/metrics/metrics-graphite/4.2.7/metrics-graphite-4.2.7.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/openjdk/jmh/jmh-core/1.34/jmh-core-1.34.jar (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/rabbitmq/amqp-client/5.14.0/amqp-client-5.14.0.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/openjdk/jmh/jmh-generator-annprocess/1.34/jmh-generator-annprocess-1.34.jar (0 B at 0 B/s)
+Progress (1): 1.4/9.5 kB
+Progress (1): 2.7/9.5 kB
+Progress (1): 4.1/9.5 kB
+Progress (1): 5.5/9.5 kB
+Progress (1): 6.9/9.5 kB
+Progress (1): 8.2/9.5 kB
+Progress (2): 8.2/9.5 kB | 16/23 kB
+Progress (2): 8.2/9.5 kB | 23 kB   
+Progress (2): 9.5 kB | 23 kB    
+                            
+Downloaded from central: https://repo.maven.apache.org/maven2/io/dropwizard/metrics/metrics-graphite/4.2.7/metrics-graphite-4.2.7.jar (23 kB at 369 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/io/sentry/sentry-logback/1.7.30/sentry-logback-1.7.30.jar (9.5 kB at 149 kB/s)
+Progress (1): 16/659 kB
+Progress (1): 32/659 kB
+Progress (1): 49/659 kB
+Progress (1): 65/659 kB
+Progress (1): 81/659 kB
+Progress (1): 98/659 kB
+Progress (1): 114/659 kB
+Progress (1): 131/659 kB
+Progress (1): 147/659 kB
+Progress (1): 163/659 kB
+Progress (1): 180/659 kB
+Progress (1): 196/659 kB
+Progress (1): 212/659 kB
+Progress (1): 229/659 kB
+Progress (1): 245/659 kB
+Progress (1): 262/659 kB
+Progress (1): 278/659 kB
+Progress (1): 294/659 kB
+Progress (1): 311/659 kB
+Progress (1): 327/659 kB
+Progress (1): 343/659 kB
+Progress (1): 360/659 kB
+Progress (1): 376/659 kB
+Progress (1): 393/659 kB
+Progress (1): 409/659 kB
+Progress (1): 425/659 kB
+Progress (1): 442/659 kB
+Progress (1): 458/659 kB
+Progress (1): 475/659 kB
+Progress (1): 491/659 kB
+Progress (1): 507/659 kB
+Progress (1): 524/659 kB
+Progress (1): 540/659 kB
+Progress (1): 556/659 kB
+Progress (1): 573/659 kB
+Progress (1): 589/659 kB
+Progress (1): 606/659 kB
+Progress (1): 622/659 kB
+Progress (1): 638/659 kB
+Progress (1): 655/659 kB
+Progress (1): 658/659 kB
+Progress (1): 659 kB    
+Progress (2): 659 kB | 16/18 kB
+                               
+Downloaded from central: https://repo.maven.apache.org/maven2/com/rabbitmq/amqp-client/5.14.0/amqp-client-5.14.0.jar (659 kB at 6.6 MB/s)
+Progress (1): 18 kB
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/dhatim/dropwizard-sentry/2.0.22/dropwizard-sentry-2.0.22.jar (18 kB at 181 kB/s)
+[INFO] 
+[INFO] --- resources:3.2.0:copy-resources (copy-resources) @ pay-cardid ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- resources:3.2.0:resources (default-resources) @ pay-cardid ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- compiler:3.9.0:compile (default-compile) @ pay-cardid ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 15 source files to D:\Bump\breaking-updates\tempProject\22eec990412b563439a1dfae84134b43d85d9815\pay-cardid\target\classes
+[INFO] /D:/Bump/breaking-updates/tempProject/22eec990412b563439a1dfae84134b43d85d9815/pay-cardid/src/main/java/uk/gov/pay/card/model/CardInformationRequest.java: D:\Bump\breaking-updates\tempProject\22eec990412b563439a1dfae84134b43d85d9815\pay-cardid\src\main\java\uk\gov\pay\card\model\CardInformationRequest.java uses or overrides a deprecated API.
+[INFO] /D:/Bump/breaking-updates/tempProject/22eec990412b563439a1dfae84134b43d85d9815/pay-cardid/src/main/java/uk/gov/pay/card/model/CardInformationRequest.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- dependency:3.2.0:tree (default-cli) @ pay-cardid ---
+Downloading from central: https://repo.maven.apache.org/maven2/org/mockito/mockito-core/4.3.0/mockito-core-4.3.0.jar
+Progress (1): 16/671 kB
+Progress (1): 33/671 kB
+Progress (1): 49/671 kB
+Progress (1): 66/671 kB
+Progress (1): 82/671 kB
+Progress (1): 98/671 kB
+Progress (1): 115/671 kB
+Progress (1): 131/671 kB
+Progress (1): 147/671 kB
+Progress (1): 164/671 kB
+Progress (1): 180/671 kB
+Progress (1): 197/671 kB
+Progress (1): 213/671 kB
+Progress (1): 229/671 kB
+Progress (1): 246/671 kB
+Progress (1): 256/671 kB
+Progress (1): 272/671 kB
+Progress (1): 289/671 kB
+Progress (1): 305/671 kB
+Progress (1): 321/671 kB
+Progress (1): 338/671 kB
+Progress (1): 354/671 kB
+Progress (1): 370/671 kB
+Progress (1): 387/671 kB
+Progress (1): 403/671 kB
+Progress (1): 420/671 kB
+Progress (1): 436/671 kB
+Progress (1): 452/671 kB
+Progress (1): 469/671 kB
+Progress (1): 485/671 kB
+Progress (1): 502/671 kB
+Progress (1): 518/671 kB
+Progress (1): 534/671 kB
+Progress (1): 551/671 kB
+Progress (1): 567/671 kB
+Progress (1): 583/671 kB
+Progress (1): 600/671 kB
+Progress (1): 616/671 kB
+Progress (1): 633/671 kB
+Progress (1): 649/671 kB
+Progress (1): 665/671 kB
+Progress (1): 671 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/mockito/mockito-core/4.3.0/mockito-core-4.3.0.jar (671 kB at 15 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/jayway/jsonpath/json-path-assert/2.6.0/json-path-assert-2.6.0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/com/jayway/jsonpath/json-path/2.6.0/json-path-2.6.0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter/5.8.2/junit-jupiter-5.8.2.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.8.2/junit-jupiter-engine-5.8.2.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.8.2/junit-platform-engine-1.8.2.jar
+Progress (1): 16/186 kB
+Progress (2): 16/186 kB | 16/230 kB
+Progress (2): 32/186 kB | 16/230 kB
+Progress (3): 32/186 kB | 16/230 kB | 16/239 kB
+Progress (3): 32/186 kB | 33/230 kB | 16/239 kB
+Progress (4): 32/186 kB | 33/230 kB | 16/239 kB | 1.4/17 kB
+Progress (4): 49/186 kB | 33/230 kB | 16/239 kB | 1.4/17 kB
+Progress (4): 49/186 kB | 49/230 kB | 16/239 kB | 1.4/17 kB
+Progress (4): 49/186 kB | 49/230 kB | 33/239 kB | 1.4/17 kB
+Progress (4): 65/186 kB | 49/230 kB | 33/239 kB | 1.4/17 kB
+Progress (4): 65/186 kB | 49/230 kB | 33/239 kB | 2.7/17 kB
+Progress (4): 65/186 kB | 49/230 kB | 33/239 kB | 4.1/17 kB
+Progress (4): 81/186 kB | 49/230 kB | 33/239 kB | 4.1/17 kB
+Progress (4): 81/186 kB | 49/230 kB | 33/239 kB | 5.5/17 kB
+Progress (4): 98/186 kB | 49/230 kB | 33/239 kB | 5.5/17 kB
+Progress (4): 114/186 kB | 49/230 kB | 33/239 kB | 5.5/17 kB
+Progress (4): 130/186 kB | 49/230 kB | 33/239 kB | 5.5/17 kB
+Progress (4): 130/186 kB | 49/230 kB | 49/239 kB | 5.5/17 kB
+Progress (4): 130/186 kB | 49/230 kB | 49/239 kB | 6.9/17 kB
+Progress (4): 130/186 kB | 49/230 kB | 49/239 kB | 8.2/17 kB
+Progress (4): 130/186 kB | 66/230 kB | 49/239 kB | 8.2/17 kB
+Progress (4): 130/186 kB | 66/230 kB | 66/239 kB | 8.2/17 kB
+Progress (4): 130/186 kB | 66/230 kB | 66/239 kB | 9.6/17 kB
+Progress (4): 130/186 kB | 66/230 kB | 66/239 kB | 11/17 kB 
+Progress (4): 147/186 kB | 66/230 kB | 66/239 kB | 11/17 kB
+Progress (4): 147/186 kB | 66/230 kB | 66/239 kB | 12/17 kB
+Progress (4): 147/186 kB | 82/230 kB | 66/239 kB | 12/17 kB
+Progress (4): 147/186 kB | 82/230 kB | 66/239 kB | 14/17 kB
+Progress (4): 147/186 kB | 82/230 kB | 66/239 kB | 15/17 kB
+Progress (4): 147/186 kB | 82/230 kB | 66/239 kB | 16/17 kB
+Progress (4): 147/186 kB | 82/230 kB | 82/239 kB | 16/17 kB
+Progress (4): 147/186 kB | 82/230 kB | 82/239 kB | 17 kB   
+Progress (4): 147/186 kB | 98/230 kB | 82/239 kB | 17 kB
+Progress (4): 163/186 kB | 98/230 kB | 82/239 kB | 17 kB
+Progress (4): 163/186 kB | 115/230 kB | 82/239 kB | 17 kB
+Progress (4): 163/186 kB | 115/230 kB | 98/239 kB | 17 kB
+Progress (4): 180/186 kB | 115/230 kB | 98/239 kB | 17 kB
+Progress (4): 180/186 kB | 131/230 kB | 98/239 kB | 17 kB
+Progress (4): 186 kB | 131/230 kB | 98/239 kB | 17 kB    
+Progress (4): 186 kB | 131/230 kB | 115/239 kB | 17 kB
+                                                      
+Downloaded from central: https://repo.maven.apache.org/maven2/com/jayway/jsonpath/json-path-assert/2.6.0/json-path-assert-2.6.0.jar (17 kB at 691 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/mockito/mockito-junit-jupiter/4.3.0/mockito-junit-jupiter-4.3.0.jar
+Progress (3): 186 kB | 147/230 kB | 115/239 kB
+Progress (3): 186 kB | 147/230 kB | 131/239 kB
+Progress (3): 186 kB | 164/230 kB | 131/239 kB
+Progress (3): 186 kB | 164/230 kB | 147/239 kB
+Progress (3): 186 kB | 180/230 kB | 147/239 kB
+Progress (3): 186 kB | 180/230 kB | 164/239 kB
+Progress (3): 186 kB | 197/230 kB | 164/239 kB
+Progress (3): 186 kB | 197/230 kB | 180/239 kB
+Progress (3): 186 kB | 213/230 kB | 180/239 kB
+Progress (3): 186 kB | 213/230 kB | 197/239 kB
+Progress (3): 186 kB | 229/230 kB | 197/239 kB
+                                              
+Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.8.2/junit-platform-engine-1.8.2.jar (186 kB at 6.9 MB/s)
+Progress (2): 229/230 kB | 213/239 kB
+Progress (2): 230 kB | 213/239 kB    
+Progress (2): 230 kB | 229/239 kB
+Progress (2): 230 kB | 239 kB    
+Progress (3): 230 kB | 239 kB | 6.4 kB
+Progress (4): 230 kB | 239 kB | 6.4 kB | 5.4 kB
+                                               
+Downloaded from central: https://repo.maven.apache.org/maven2/com/jayway/jsonpath/json-path/2.6.0/json-path-2.6.0.jar (239 kB at 8.0 MB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter/5.8.2/junit-jupiter-5.8.2.jar (6.4 kB at 199 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.8.2/junit-jupiter-engine-5.8.2.jar (230 kB at 7.4 MB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/mockito/mockito-junit-jupiter/4.3.0/mockito-junit-jupiter-4.3.0.jar (5.4 kB at 181 kB/s)
+[INFO] uk.gov.pay:pay-cardid:jar:0.1-SNAPSHOT
+[INFO] +- uk.gov.service.payments:logging:jar:1.0.20220112152929:compile
+[INFO] |  +- net.logstash.logback:logstash-logback-encoder:jar:7.0.1:compile
+[INFO] |  +- com.google.code.gson:gson:jar:2.8.9:compile
+[INFO] |  \- org.glassfish.jersey.bundles.repackaged:jersey-guava:jar:2.25.1:compile
+[INFO] +- io.dropwizard:dropwizard-core:jar:2.0.28:compile
+[INFO] |  +- io.dropwizard:dropwizard-util:jar:2.0.28:compile
+[INFO] |  +- io.dropwizard:dropwizard-jackson:jar:2.0.28:compile
+[INFO] |  |  +- com.github.ben-manes.caffeine:caffeine:jar:2.9.3:compile
+[INFO] |  |  +- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.13.1:compile
+[INFO] |  |  +- com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.13.1:compile
+[INFO] |  |  +- com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.13.1:compile
+[INFO] |  |  +- com.fasterxml.jackson.module:jackson-module-afterburner:jar:2.13.1:compile
+[INFO] |  |  \- com.fasterxml.jackson.datatype:jackson-datatype-joda:jar:2.13.1:compile
+[INFO] |  +- io.dropwizard:dropwizard-validation:jar:2.0.28:compile
+[INFO] |  |  +- com.fasterxml:classmate:jar:1.5.1:compile
+[INFO] |  |  \- org.glassfish:jakarta.el:jar:3.0.4:compile
+[INFO] |  +- io.dropwizard:dropwizard-configuration:jar:2.0.28:compile
+[INFO] |  |  +- com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.13.1:compile
+[INFO] |  |  |  \- org.yaml:snakeyaml:jar:1.28:compile
+[INFO] |  |  \- org.apache.commons:commons-text:jar:1.9:compile
+[INFO] |  +- io.dropwizard:dropwizard-logging:jar:2.0.28:compile
+[INFO] |  |  +- io.dropwizard.metrics:metrics-logback:jar:4.1.29:compile
+[INFO] |  |  +- org.slf4j:jul-to-slf4j:jar:1.7.32:compile
+[INFO] |  |  +- io.dropwizard.logback:logback-throttling-appender:jar:1.1.7:compile
+[INFO] |  |  +- org.slf4j:log4j-over-slf4j:jar:1.7.32:runtime
+[INFO] |  |  \- org.slf4j:jcl-over-slf4j:jar:1.7.32:runtime
+[INFO] |  +- io.dropwizard:dropwizard-metrics:jar:2.0.28:compile
+[INFO] |  +- io.dropwizard:dropwizard-jersey:jar:2.0.28:compile
+[INFO] |  |  +- org.glassfish.jersey.ext:jersey-metainf-services:jar:2.33:runtime
+[INFO] |  |  +- org.glassfish.jersey.inject:jersey-hk2:jar:2.33:runtime
+[INFO] |  |  |  \- org.glassfish.hk2:hk2-locator:jar:2.6.1:runtime
+[INFO] |  |  +- org.javassist:javassist:jar:3.28.0-GA:compile
+[INFO] |  |  +- io.dropwizard.metrics:metrics-jersey2:jar:4.1.29:compile
+[INFO] |  |  +- jakarta.annotation:jakarta.annotation-api:jar:1.3.5:compile
+[INFO] |  |  +- joda-time:joda-time:jar:2.10.13:compile
+[INFO] |  |  +- org.glassfish.hk2:hk2-api:jar:2.6.1:compile
+[INFO] |  |  |  +- org.glassfish.hk2:hk2-utils:jar:2.6.1:compile
+[INFO] |  |  |  \- org.glassfish.hk2.external:aopalliance-repackaged:jar:2.6.1:compile
+[INFO] |  |  +- org.glassfish.jersey.containers:jersey-container-servlet:jar:2.33:runtime
+[INFO] |  |  \- org.apache.commons:commons-lang3:jar:3.12.0:compile
+[INFO] |  +- io.dropwizard:dropwizard-servlets:jar:2.0.28:compile
+[INFO] |  +- io.dropwizard:dropwizard-jetty:jar:2.0.28:compile
+[INFO] |  |  \- org.eclipse.jetty:jetty-servlets:jar:9.4.44.v20210927:compile
+[INFO] |  |     \- org.eclipse.jetty:jetty-continuation:jar:9.4.44.v20210927:compile
+[INFO] |  +- io.dropwizard:dropwizard-lifecycle:jar:2.0.28:compile
+[INFO] |  +- io.dropwizard.metrics:metrics-core:jar:4.1.29:compile
+[INFO] |  +- io.dropwizard.metrics:metrics-jetty9:jar:4.1.29:compile
+[INFO] |  +- io.dropwizard.metrics:metrics-jvm:jar:4.1.29:compile
+[INFO] |  +- io.dropwizard.metrics:metrics-jmx:jar:4.1.29:compile
+[INFO] |  +- io.dropwizard.metrics:metrics-servlets:jar:4.1.29:compile
+[INFO] |  |  +- io.dropwizard.metrics:metrics-json:jar:4.1.29:compile
+[INFO] |  |  \- com.helger:profiler:jar:1.1.1:compile
+[INFO] |  +- io.dropwizard.metrics:metrics-healthchecks:jar:4.1.29:compile
+[INFO] |  +- io.dropwizard:dropwizard-request-logging:jar:2.0.28:compile
+[INFO] |  +- ch.qos.logback:logback-classic:jar:1.2.9:compile
+[INFO] |  +- com.google.code.findbugs:jsr305:jar:3.0.2:compile
+[INFO] |  +- jakarta.servlet:jakarta.servlet-api:jar:4.0.4:compile
+[INFO] |  +- jakarta.validation:jakarta.validation-api:jar:2.0.2:compile
+[INFO] |  +- jakarta.ws.rs:jakarta.ws.rs-api:jar:2.1.6:compile
+[INFO] |  +- net.sourceforge.argparse4j:argparse4j:jar:0.8.1:compile
+[INFO] |  +- org.eclipse.jetty:jetty-security:jar:9.4.44.v20210927:compile
+[INFO] |  +- org.eclipse.jetty:jetty-server:jar:9.4.44.v20210927:compile
+[INFO] |  +- org.eclipse.jetty:jetty-servlet:jar:9.4.44.v20210927:compile
+[INFO] |  |  \- org.eclipse.jetty:jetty-util-ajax:jar:9.4.44.v20210927:compile
+[INFO] |  +- org.eclipse.jetty:jetty-util:jar:9.4.44.v20210927:compile
+[INFO] |  +- org.eclipse.jetty.toolchain.setuid:jetty-setuid-java:jar:1.0.4:compile
+[INFO] |  +- org.glassfish.hk2.external:jakarta.inject:jar:2.6.1:compile
+[INFO] |  +- org.glassfish.jersey.core:jersey-common:jar:2.33:compile
+[INFO] |  |  \- org.glassfish.hk2:osgi-resource-locator:jar:1.0.3:compile
+[INFO] |  +- org.glassfish.jersey.ext:jersey-bean-validation:jar:2.33:compile
+[INFO] |  +- org.hibernate.validator:hibernate-validator:jar:6.1.7.Final:compile
+[INFO] |  |  \- org.jboss.logging:jboss-logging:jar:3.3.2.Final:compile
+[INFO] |  \- org.slf4j:slf4j-api:jar:1.7.32:compile
+[INFO] +- com.google.guava:guava:jar:31.0.1-jre:compile
+[INFO] |  +- com.google.guava:failureaccess:jar:1.0.1:compile
+[INFO] |  +- com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:compile
+[INFO] |  +- org.checkerframework:checker-qual:jar:3.21.0:compile
+[INFO] |  +- com.google.errorprone:error_prone_annotations:jar:2.10.0:compile
+[INFO] |  \- com.google.j2objc:j2objc-annotations:jar:1.3:compile
+[INFO] +- com.fasterxml.jackson.core:jackson-databind:jar:2.13.1:compile
+[INFO] |  \- com.fasterxml.jackson.core:jackson-core:jar:2.13.1:compile
+[INFO] +- com.fasterxml.jackson.core:jackson-annotations:jar:2.13.1:compile
+[INFO] +- org.dhatim:dropwizard-sentry:jar:2.0.22:compile
+[INFO] |  \- io.sentry:sentry-logback:jar:1.7.30:compile
+[INFO] |     \- io.sentry:sentry:jar:1.7.30:compile
+[INFO] +- io.dropwizard:dropwizard-json-logging:jar:2.0.28:compile
+[INFO] |  +- ch.qos.logback:logback-access:jar:1.2.9:compile
+[INFO] |  +- ch.qos.logback:logback-core:jar:1.2.9:compile
+[INFO] |  \- org.eclipse.jetty:jetty-http:jar:9.4.44.v20210927:compile
+[INFO] +- org.hamcrest:hamcrest:jar:2.2:test
+[INFO] +- org.hamcrest:hamcrest-library:jar:2.2:test
+[INFO] |  \- org.hamcrest:hamcrest-core:jar:2.2:test
+[INFO] +- io.dropwizard:dropwizard-testing:jar:2.0.28:test
+[INFO] |  +- io.dropwizard.metrics:metrics-annotation:jar:4.1.29:compile
+[INFO] |  +- com.fasterxml.jackson.datatype:jackson-datatype-guava:jar:2.13.1:compile
+[INFO] |  +- com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:jar:2.13.1:compile
+[INFO] |  |  +- com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:jar:2.13.1:compile
+[INFO] |  |  \- com.fasterxml.jackson.module:jackson-module-jaxb-annotations:jar:2.13.1:compile
+[INFO] |  +- org.eclipse.jetty:jetty-io:jar:9.4.44.v20210927:compile
+[INFO] |  +- org.glassfish.jersey.containers:jersey-container-servlet-core:jar:2.33:compile
+[INFO] |  +- org.glassfish.jersey.core:jersey-client:jar:2.33:compile
+[INFO] |  +- org.glassfish.jersey.core:jersey-server:jar:2.33:compile
+[INFO] |  +- org.glassfish.jersey.test-framework:jersey-test-framework-core:jar:2.33:test
+[INFO] |  |  +- org.glassfish.jersey.media:jersey-media-jaxb:jar:2.33:test
+[INFO] |  |  \- junit:junit:jar:4.13.2:test
+[INFO] |  +- org.glassfish.jersey.test-framework.providers:jersey-test-framework-provider-inmemory:jar:2.33:test
+[INFO] |  +- jakarta.activation:jakarta.activation-api:jar:1.2.2:runtime
+[INFO] |  \- jakarta.xml.bind:jakarta.xml.bind-api:jar:2.3.3:runtime
+[INFO] +- org.mockito:mockito-core:jar:4.3.0:test
+[INFO] |  +- net.bytebuddy:byte-buddy:jar:1.12.5:test
+[INFO] |  +- net.bytebuddy:byte-buddy-agent:jar:1.12.7:test
+[INFO] |  \- org.objenesis:objenesis:jar:3.2:test
+[INFO] +- io.rest-assured:rest-assured:jar:4.5.0:test
+[INFO] |  +- org.codehaus.groovy:groovy:jar:3.0.9:test
+[INFO] |  +- org.codehaus.groovy:groovy-xml:jar:3.0.9:test
+[INFO] |  +- org.apache.httpcomponents:httpclient:jar:4.5.13:test
+[INFO] |  |  +- org.apache.httpcomponents:httpcore:jar:4.4.15:test
+[INFO] |  |  \- commons-codec:commons-codec:jar:1.15:test
+[INFO] |  +- org.apache.httpcomponents:httpmime:jar:4.5.13:test
+[INFO] |  +- org.ccil.cowan.tagsoup:tagsoup:jar:1.2.1:test
+[INFO] |  +- io.rest-assured:json-path:jar:4.5.0:test
+[INFO] |  |  +- org.codehaus.groovy:groovy-json:jar:3.0.9:test
+[INFO] |  |  \- io.rest-assured:rest-assured-common:jar:4.5.0:test
+[INFO] |  \- io.rest-assured:xml-path:jar:4.5.0:test
+[INFO] +- org.openjdk.jmh:jmh-core:jar:1.34:compile
+[INFO] |  +- net.sf.jopt-simple:jopt-simple:jar:5.0.4:compile
+[INFO] |  \- org.apache.commons:commons-math3:jar:3.2:compile
+[INFO] +- org.openjdk.jmh:jmh-generator-annprocess:jar:1.34:provided
+[INFO] +- io.dropwizard.metrics:metrics-graphite:jar:4.2.7:compile
+[INFO] |  \- com.rabbitmq:amqp-client:jar:5.14.0:compile
+[INFO] +- com.jayway.jsonpath:json-path-assert:jar:2.6.0:test
+[INFO] |  \- com.jayway.jsonpath:json-path:jar:2.6.0:test
+[INFO] |     \- net.minidev:json-smart:jar:2.4.7:test
+[INFO] |        \- net.minidev:accessors-smart:jar:2.4.7:test
+[INFO] |           \- org.ow2.asm:asm:jar:9.1:test
+[INFO] +- org.junit.jupiter:junit-jupiter:jar:5.8.2:test
+[INFO] |  +- org.junit.jupiter:junit-jupiter-api:jar:5.8.2:test
+[INFO] |  |  +- org.opentest4j:opentest4j:jar:1.2.0:test
+[INFO] |  |  +- org.junit.platform:junit-platform-commons:jar:1.8.2:test
+[INFO] |  |  \- org.apiguardian:apiguardian-api:jar:1.1.2:test
+[INFO] |  +- org.junit.jupiter:junit-jupiter-params:jar:5.8.2:test
+[INFO] |  \- org.junit.jupiter:junit-jupiter-engine:jar:5.8.2:test
+[INFO] |     \- org.junit.platform:junit-platform-engine:jar:1.8.2:test
+[INFO] \- org.mockito:mockito-junit-jupiter:jar:4.3.0:test
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  10.072 s
+[INFO] Finished at: 2023-09-19T20:21:15Z
+[INFO] ------------------------------------------------------------------------
