@@ -25,7 +25,7 @@ import java.util.Map;
 class Test {
     public static void main(String[] args) {
         DockerTimeExe dockerTimeExe = new DockerTimeExe();
-        dockerTimeExe.dockerMetadata(Path.of("/Users/frank/Desktop/commit"));
+        dockerTimeExe.dockerMetadata(Path.of("test_data"));
     }
 }
 
@@ -47,7 +47,7 @@ public class DockerTimeExe {
         MapType buJsonType = JsonUtils.getTypeFactory().constructMapType(Map.class, String.class, Object.class);
         MapType dockerData = JsonUtils.getTypeFactory().constructMapType(Map.class, String.class, DockerImageData.class);
 
-        Path reproducibilityResultsFilePath = Path.of("results-none-internet" +
+        Path reproducibilityResultsFilePath = Path.of("results-without-none" +
                 JsonUtils.JSON_FILE_ENDING);
         if (Files.notExists(reproducibilityResultsFilePath)) {
             try {
@@ -124,7 +124,7 @@ public class DockerTimeExe {
 
         CreateContainerCmd containerCmd = dockerClient.createContainerCmd(image)
                 .withWorkingDir("/" + project)
-                .withCmd("sh", "-c", "--network none", "set -o pipefail && (mvn clean test -B 2>&1 | tee -ai output.log)");
+                .withCmd("sh", "-c", "set -o pipefail && (mvn clean test -B 2>&1 | tee -ai output.log)");
         CreateContainerResponse container = containerCmd.exec();
         String containerId = container.getId();
 
