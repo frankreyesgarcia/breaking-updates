@@ -159,7 +159,7 @@ public class DockerTimeExe {
         storeLogFile(project, containerId, logDirectory,name);
 
 
-        //        removeImage(image, containerId);
+        removeImage(image, containerId);
 
         return Map.entry(containerId, imageData);
     }
