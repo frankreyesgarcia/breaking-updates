@@ -1,0 +1,154 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< com.jcabi:jcabi-simpledb >----------------------
+[INFO] Building jcabi-simpledb 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from central: https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-simpledb/1.12.437/aws-java-sdk-simpledb-1.12.437.pom
+Progress (1): 1.4/3.6 kB
+Progress (1): 2.7/3.6 kB
+Progress (1): 3.6 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-simpledb/1.12.437/aws-java-sdk-simpledb-1.12.437.pom (3.6 kB at 7.6 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/javax/el/javax.el-api/3.0.1-b06/javax.el-api-3.0.1-b06.pom
+Progress (1): 1.4/11 kB
+Progress (1): 2.7/11 kB
+Progress (1): 4.1/11 kB
+Progress (1): 5.5/11 kB
+Progress (1): 6.9/11 kB
+Progress (1): 8.2/11 kB
+Progress (1): 9.6/11 kB
+Progress (1): 11/11 kB 
+Progress (1): 11 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/javax/el/javax.el-api/3.0.1-b06/javax.el-api-3.0.1-b06.pom (11 kB at 624 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/javax.el/3.0.1-b12/javax.el-3.0.1-b12.pom
+Progress (1): 1.4/18 kB
+Progress (1): 2.7/18 kB
+Progress (1): 4.1/18 kB
+Progress (1): 5.5/18 kB
+Progress (1): 6.9/18 kB
+Progress (1): 8.2/18 kB
+Progress (1): 9.6/18 kB
+Progress (1): 11/18 kB 
+Progress (1): 12/18 kB
+Progress (1): 14/18 kB
+Progress (1): 15/18 kB
+Progress (1): 16/18 kB
+Progress (1): 18 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/javax.el/3.0.1-b12/javax.el-3.0.1-b12.pom (18 kB at 674 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/hibernate/validator/hibernate-validator/6.2.5.Final/hibernate-validator-6.2.5.Final.pom
+Progress (1): 1.4/14 kB
+Progress (1): 2.7/14 kB
+Progress (1): 4.1/14 kB
+Progress (1): 5.5/14 kB
+Progress (1): 6.9/14 kB
+Progress (1): 8.2/14 kB
+Progress (1): 9.6/14 kB
+Progress (1): 11/14 kB 
+Progress (1): 12/14 kB
+Progress (1): 14/14 kB
+Progress (1): 14 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/hibernate/validator/hibernate-validator/6.2.5.Final/hibernate-validator-6.2.5.Final.pom (14 kB at 902 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/hibernate/validator/hibernate-validator-parent/6.2.5.Final/hibernate-validator-parent-6.2.5.Final.pom
+Progress (1): 16/78 kB
+Progress (1): 33/78 kB
+Progress (1): 49/78 kB
+Progress (1): 66/78 kB
+Progress (1): 78 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/hibernate/validator/hibernate-validator-parent/6.2.5.Final/hibernate-validator-parent-6.2.5.Final.pom (78 kB at 1.8 MB/s)
+[WARNING] The artifact org.slf4j:slf4j-log4j12:jar:2.0.7 has been relocated to org.slf4j:slf4j-reload4j:jar:2.0.7
+Downloading from central: https://repo.maven.apache.org/maven2/com/jcabi/jcabi-log/0.22.0/jcabi-log-0.22.0.jar
+Progress (1): 16/51 kB
+Progress (1): 32/51 kB
+Progress (1): 49/51 kB
+Progress (1): 51 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/com/jcabi/jcabi-log/0.22.0/jcabi-log-0.22.0.jar (51 kB at 3.2 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-simpledb/1.12.437/aws-java-sdk-simpledb-1.12.437.jar
+Progress (1): 16/151 kB
+Progress (1): 33/151 kB
+Progress (1): 49/151 kB
+Progress (1): 66/151 kB
+Progress (1): 82/151 kB
+Progress (1): 98/151 kB
+Progress (1): 115/151 kB
+Progress (1): 131/151 kB
+Progress (1): 147/151 kB
+Progress (1): 151 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-simpledb/1.12.437/aws-java-sdk-simpledb-1.12.437.jar (151 kB at 1.3 MB/s)
+[INFO] 
+[INFO] --- enforcer:3.1.0:enforce (enforce-maven) @ jcabi-simpledb ---
+[INFO] 
+[INFO] --- buildnumber:3.0.0:create (jcabi-build-number) @ jcabi-simpledb ---
+[INFO] ShortRevision tag detected. The value is '7'.
+[INFO] Executing: cmd.exe /X /C "git rev-parse --verify --short=7 HEAD"
+[INFO] Working directory: D:\Bump\breaking-updates\tempProject\7d97e1c7331f6722eb1d8192bf0a2686f5a33798\jcabi-simpledb
+[INFO] Storing buildNumber: c750f43 at timestamp: 2023-09-21T12:18:23
+[INFO] Storing buildScmBranch: rq5-test
+[INFO] 
+[INFO] --- buildnumber:3.0.0:create-timestamp (jcabi-build-number) @ jcabi-simpledb ---
+[INFO] Skipping because we are not in root module.
+[INFO] 
+[INFO] --- resources:3.3.0:resources (default-resources) @ jcabi-simpledb ---
+[INFO] skip non existing resourceDirectory D:\Bump\breaking-updates\tempProject\7d97e1c7331f6722eb1d8192bf0a2686f5a33798\jcabi-simpledb\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.10.1:compile (default-compile) @ jcabi-simpledb ---
+[WARNING]  Parameter 'optimize' (user property 'maven.compiler.optimize') is deprecated: This property is a no-op in {@code javac}.
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 8 source files to D:\Bump\breaking-updates\tempProject\7d97e1c7331f6722eb1d8192bf0a2686f5a33798\jcabi-simpledb\target\classes
+[INFO] 
+[INFO] --- dependency:3.3.0:tree (default-cli) @ jcabi-simpledb ---
+[WARNING] The artifact org.slf4j:slf4j-log4j12:jar:2.0.7 has been relocated to org.slf4j:slf4j-reload4j:jar:2.0.7
+[INFO] com.jcabi:jcabi-simpledb:jar:1.0-SNAPSHOT
+[INFO] +- com.jcabi:jcabi-aspects:jar:0.24.1:compile
+[INFO] |  \- com.jcabi:jcabi-log:jar:0.22.0:compile
+[INFO] +- org.projectlombok:lombok:jar:1.18.28:provided
+[INFO] +- com.amazonaws:aws-java-sdk-core:jar:1.12.437:compile
+[INFO] |  +- commons-logging:commons-logging:jar:1.1.3:compile
+[INFO] |  +- commons-codec:commons-codec:jar:1.15:compile
+[INFO] |  +- org.apache.httpcomponents:httpclient:jar:4.5.13:compile
+[INFO] |  |  \- org.apache.httpcomponents:httpcore:jar:4.4.13:compile
+[INFO] |  +- software.amazon.ion:ion-java:jar:1.0.2:compile
+[INFO] |  +- com.fasterxml.jackson.core:jackson-databind:jar:2.12.7.1:compile
+[INFO] |  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.12.7:compile
+[INFO] |  |  \- com.fasterxml.jackson.core:jackson-core:jar:2.12.7:compile
+[INFO] |  +- com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:jar:2.12.6:compile
+[INFO] |  \- joda-time:joda-time:jar:2.8.1:compile
+[INFO] +- com.amazonaws:aws-java-sdk-simpledb:jar:1.12.437:compile
+[INFO] |  \- com.amazonaws:jmespath-java:jar:1.12.437:compile
+[INFO] +- javax.validation:validation-api:jar:2.0.1.Final:compile
+[INFO] +- javax.el:javax.el-api:jar:3.0.1-b06:runtime
+[INFO] +- org.glassfish:javax.el:jar:3.0.1-b12:runtime
+[INFO] +- org.hibernate.validator:hibernate-validator:jar:6.2.5.Final:runtime
+[INFO] |  +- jakarta.validation:jakarta.validation-api:jar:2.0.2:runtime
+[INFO] |  +- org.jboss.logging:jboss-logging:jar:3.4.1.Final:runtime
+[INFO] |  \- com.fasterxml:classmate:jar:1.5.1:runtime
+[INFO] +- org.aspectj:aspectjrt:jar:1.9.19:runtime
+[INFO] +- org.apache.commons:commons-lang3:jar:3.12.0:compile
+[INFO] +- org.slf4j:slf4j-reload4j:jar:2.0.7:test
+[INFO] |  +- org.slf4j:slf4j-api:jar:2.0.7:compile
+[INFO] |  \- ch.qos.reload4j:reload4j:jar:1.2.22:test
+[INFO] +- log4j:log4j:jar:1.2.17:test
+[INFO] +- org.junit.jupiter:junit-jupiter-engine:jar:5.9.1:test
+[INFO] |  +- org.junit.platform:junit-platform-engine:jar:1.9.1:test
+[INFO] |  \- org.apiguardian:apiguardian-api:jar:1.1.2:test
+[INFO] +- org.junit.jupiter:junit-jupiter-params:jar:5.9.1:test
+[INFO] +- org.junit.jupiter:junit-jupiter-api:jar:5.9.1:test
+[INFO] |  +- org.opentest4j:opentest4j:jar:1.2.0:test
+[INFO] |  \- org.junit.platform:junit-platform-commons:jar:1.9.1:test
+[INFO] +- org.hamcrest:hamcrest:jar:2.2:test
+[INFO] \- org.mockito:mockito-core:jar:4.8.1:test
+[INFO]    +- net.bytebuddy:byte-buddy:jar:1.12.16:test
+[INFO]    +- net.bytebuddy:byte-buddy-agent:jar:1.12.16:test
+[INFO]    \- org.objenesis:objenesis:jar:3.2:test
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  10.870 s
+[INFO] Finished at: 2023-09-21T12:18:27Z
+[INFO] ------------------------------------------------------------------------

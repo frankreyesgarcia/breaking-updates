@@ -1,0 +1,854 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for edu.ksu.ome.lti:lti-launch:jar:1.5.0-SNAPSHOT
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.logging.log4j:log4j-core:jar -> duplicate declaration of version (?) @ line 361, column 17
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-release-plugin/3.0.0-M1/maven-release-plugin-3.0.0-M1.pom
+Progress (1): 1.4/9.5 kB
+Progress (1): 2.7/9.5 kB
+Progress (1): 4.1/9.5 kB
+Progress (1): 5.5/9.5 kB
+Progress (1): 6.9/9.5 kB
+Progress (1): 8.2/9.5 kB
+Progress (1): 9.5 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-release-plugin/3.0.0-M1/maven-release-plugin-3.0.0-M1.pom (9.5 kB at 29 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/release/maven-release/3.0.0-M1/maven-release-3.0.0-M1.pom
+Progress (1): 1.4/7.5 kB
+Progress (1): 2.7/7.5 kB
+Progress (1): 4.1/7.5 kB
+Progress (1): 5.5/7.5 kB
+Progress (1): 6.9/7.5 kB
+Progress (1): 7.5 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/release/maven-release/3.0.0-M1/maven-release-3.0.0-M1.pom (7.5 kB at 533 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-release-plugin/3.0.0-M1/maven-release-plugin-3.0.0-M1.jar
+Progress (1): 16/59 kB
+Progress (1): 33/59 kB
+Progress (1): 49/59 kB
+Progress (1): 59 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-release-plugin/3.0.0-M1/maven-release-plugin-3.0.0-M1.jar (59 kB at 1.3 MB/s)
+[INFO] 
+[INFO] ---------------------< edu.ksu.ome.lti:lti-launch >---------------------
+[INFO] Building LTI Launch 1.5.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from central: https://repo.maven.apache.org/maven2/edu/ksu/canvas/canvas-api/2.0.0/canvas-api-2.0.0.pom
+Progress (1): 14 kB
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/edu/ksu/canvas/canvas-api/2.0.0/canvas-api-2.0.0.pom (14 kB at 130 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.4/gson-2.4.pom
+Progress (1): 8.9 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.4/gson-2.4.pom (8.9 kB at 682 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.27/slf4j-api-1.7.27.pom
+Progress (1): 3.8 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.27/slf4j-api-1.7.27.pom (3.8 kB at 349 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.7.27/slf4j-parent-1.7.27.pom
+Progress (1): 14 kB
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.7.27/slf4j-parent-1.7.27.pom (14 kB at 986 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpmime/4.5.2/httpmime-4.5.2.pom
+Progress (1): 4.8 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpmime/4.5.2/httpmime-4.5.2.pom (4.8 kB at 435 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcomponents-client/4.5.2/httpcomponents-client-4.5.2.pom
+Progress (1): 16 kB
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcomponents-client/4.5.2/httpcomponents-client-4.5.2.pom (16 kB at 1.1 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2.pom
+Progress (1): 6.4 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2.pom (6.4 kB at 639 kB/s)
+[INFO] Artifact org.apache.httpcomponents:httpcore:pom:4.4.4 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases), maven-default-http-blocker (http://0.0.0.0/, default, snapshots, blocked)]
+[INFO] Artifact org.apache.httpcomponents:httpcore:pom:4.4.4 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases), maven-default-http-blocker (http://0.0.0.0/, default, snapshots, blocked)]
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.pom (0 B at 0 B/s)
+[INFO] Artifact org.apache.httpcomponents:httpcomponents-core:pom:4.4.4 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases), maven-default-http-blocker (http://0.0.0.0/, default, snapshots, blocked)]
+[INFO] Artifact org.apache.httpcomponents:httpcomponents-core:pom:4.4.4 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases), maven-default-http-blocker (http://0.0.0.0/, default, snapshots, blocked)]
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcomponents-core/4.4.4/httpcomponents-core-4.4.4.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcomponents-core/4.4.4/httpcomponents-core-4.4.4.pom (0 B at 0 B/s)
+[INFO] Artifact commons-codec:commons-codec:pom:1.9 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases), maven-default-http-blocker (http://0.0.0.0/, default, snapshots, blocked)]
+[INFO] Artifact commons-codec:commons-codec:pom:1.9 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases), maven-default-http-blocker (http://0.0.0.0/, default, snapshots, blocked)]
+Downloading from central: https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.9/commons-codec-1.9.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.9/commons-codec-1.9.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-web/4.1.6.RELEASE/spring-web-4.1.6.RELEASE.pom
+Progress (1): 7.5 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-web/4.1.6.RELEASE/spring-web-4.1.6.RELEASE.pom (7.5 kB at 837 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-aop/4.1.6.RELEASE/spring-aop-4.1.6.RELEASE.pom
+Progress (1): 2.7 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-aop/4.1.6.RELEASE/spring-aop-4.1.6.RELEASE.pom (2.7 kB at 177 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-beans/4.1.6.RELEASE/spring-beans-4.1.6.RELEASE.pom
+Progress (1): 2.5 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-beans/4.1.6.RELEASE/spring-beans-4.1.6.RELEASE.pom (2.5 kB at 192 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-core/4.1.6.RELEASE/spring-core-4.1.6.RELEASE.pom
+Progress (1): 2.5 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-core/4.1.6.RELEASE/spring-core-4.1.6.RELEASE.pom (2.5 kB at 311 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-context/4.1.6.RELEASE/spring-context-4.1.6.RELEASE.pom
+Progress (1): 4.8 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-context/4.1.6.RELEASE/spring-context-4.1.6.RELEASE.pom (4.8 kB at 603 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-expression/4.1.6.RELEASE/spring-expression-4.1.6.RELEASE.pom
+Progress (1): 1.7 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-expression/4.1.6.RELEASE/spring-expression-4.1.6.RELEASE.pom (1.7 kB at 191 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/security/oauth/spring-security-oauth/2.0.17.RELEASE/spring-security-oauth-2.0.17.RELEASE.pom
+Progress (1): 4.9 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/security/oauth/spring-security-oauth/2.0.17.RELEASE/spring-security-oauth-2.0.17.RELEASE.pom (4.9 kB at 53 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/security/oauth/spring-security-oauth-parent/2.0.17.RELEASE/spring-security-oauth-parent-2.0.17.RELEASE.pom
+Progress (1): 16 kB
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/security/oauth/spring-security-oauth-parent/2.0.17.RELEASE/spring-security-oauth-parent-2.0.17.RELEASE.pom (16 kB at 1.6 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-beans/4.0.9.RELEASE/spring-beans-4.0.9.RELEASE.pom
+Progress (1): 2.3 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-beans/4.0.9.RELEASE/spring-beans-4.0.9.RELEASE.pom (2.3 kB at 288 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-core/4.0.9.RELEASE/spring-core-4.0.9.RELEASE.pom
+Progress (1): 2.3 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-core/4.0.9.RELEASE/spring-core-4.0.9.RELEASE.pom (2.3 kB at 326 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-context/4.0.9.RELEASE/spring-context-4.0.9.RELEASE.pom
+Progress (1): 4.8 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-context/4.0.9.RELEASE/spring-context-4.0.9.RELEASE.pom (4.8 kB at 537 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-aop/4.0.9.RELEASE/spring-aop-4.0.9.RELEASE.pom
+Progress (1): 2.7 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-aop/4.0.9.RELEASE/spring-aop-4.0.9.RELEASE.pom (2.7 kB at 332 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-expression/4.0.9.RELEASE/spring-expression-4.0.9.RELEASE.pom
+Progress (1): 1.7 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-expression/4.0.9.RELEASE/spring-expression-4.0.9.RELEASE.pom (1.7 kB at 216 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-core/3.2.10.RELEASE/spring-security-core-3.2.10.RELEASE.pom
+Progress (1): 8.7 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-core/3.2.10.RELEASE/spring-security-core-3.2.10.RELEASE.pom (8.7 kB at 871 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-aop/3.2.18.RELEASE/spring-aop-3.2.18.RELEASE.pom
+Progress (1): 2.5 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-aop/3.2.18.RELEASE/spring-aop-3.2.18.RELEASE.pom (2.5 kB at 252 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-beans/3.2.18.RELEASE/spring-beans-3.2.18.RELEASE.pom
+Progress (1): 1.9 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-beans/3.2.18.RELEASE/spring-beans-3.2.18.RELEASE.pom (1.9 kB at 244 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-core/3.2.18.RELEASE/spring-core-3.2.18.RELEASE.pom
+Progress (1): 2.2 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-core/3.2.18.RELEASE/spring-core-3.2.18.RELEASE.pom (2.2 kB at 269 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-context/3.2.18.RELEASE/spring-context-3.2.18.RELEASE.pom
+Progress (1): 4.9 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-context/3.2.18.RELEASE/spring-context-3.2.18.RELEASE.pom (4.9 kB at 546 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-expression/3.2.18.RELEASE/spring-expression-3.2.18.RELEASE.pom
+Progress (1): 1.6 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-expression/3.2.18.RELEASE/spring-expression-3.2.18.RELEASE.pom (1.6 kB at 177 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-config/3.2.10.RELEASE/spring-security-config-3.2.10.RELEASE.pom
+Progress (1): 12 kB
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-config/3.2.10.RELEASE/spring-security-config-3.2.10.RELEASE.pom (12 kB at 1.4 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-web/3.2.10.RELEASE/spring-security-web-3.2.10.RELEASE.pom
+Progress (1): 7.7 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-web/3.2.10.RELEASE/spring-security-web-3.2.10.RELEASE.pom (7.7 kB at 702 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient/4.3.3/httpclient-4.3.3.pom
+Progress (1): 5.4 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient/4.3.3/httpclient-4.3.3.pom (5.4 kB at 672 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcomponents-client/4.3.3/httpcomponents-client-4.3.3.pom
+Progress (1): 16 kB
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcomponents-client/4.3.3/httpcomponents-client-4.3.3.pom (16 kB at 1.4 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/4.1.6.RELEASE/spring-webmvc-4.1.6.RELEASE.pom
+Progress (1): 12 kB
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/4.1.6.RELEASE/spring-webmvc-4.1.6.RELEASE.pom (12 kB at 774 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1.pom
+Progress (1): 13 kB
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1.pom (13 kB at 1.6 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/jstl/jstl/1.2/jstl-1.2.pom
+Progress (1): 141 B
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/jstl/jstl/1.2/jstl-1.2.pom (141 B at 13 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-test/4.1.6.RELEASE/spring-test-4.1.6.RELEASE.pom
+Progress (1): 6.8 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-test/4.1.6.RELEASE/spring-test-4.1.6.RELEASE.pom (6.8 kB at 685 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-api-mockito-common/1.6.5/powermock-api-mockito-common-1.6.5.pom
+Progress (1): 1.5 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-api-mockito-common/1.6.5/powermock-api-mockito-common-1.6.5.pom (1.5 kB at 167 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-api/1.6.5/powermock-api-1.6.5.pom
+Progress (1): 855 B
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-api/1.6.5/powermock-api-1.6.5.pom (855 B at 107 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/powermock/powermock/1.6.5/powermock-1.6.5.pom
+Progress (1): 16 kB
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/powermock/powermock/1.6.5/powermock-1.6.5.pom (16 kB at 1.6 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-api-support/1.6.5/powermock-api-support-1.6.5.pom
+Progress (1): 1.1 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-api-support/1.6.5/powermock-api-support-1.6.5.pom (1.1 kB at 88 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-core/1.6.5/powermock-core-1.6.5.pom
+Progress (1): 2.1 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-core/1.6.5/powermock-core-1.6.5.pom (2.1 kB at 238 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-reflect/1.6.5/powermock-reflect-1.6.5.pom
+Progress (1): 920 B
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-reflect/1.6.5/powermock-reflect-1.6.5.pom (920 B at 115 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/javassist/javassist/3.20.0-GA/javassist-3.20.0-GA.pom
+Progress (1): 9.8 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/javassist/javassist/3.20.0-GA/javassist-3.20.0-GA.pom (9.8 kB at 491 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-api-mockito/1.6.5/powermock-api-mockito-1.6.5.pom
+Progress (1): 1.3 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-api-mockito/1.6.5/powermock-api-mockito-1.6.5.pom (1.3 kB at 59 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-module-junit4/1.6.5/powermock-module-junit4-1.6.5.pom
+Progress (1): 1.4 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-module-junit4/1.6.5/powermock-module-junit4-1.6.5.pom (1.4 kB at 180 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-modules/1.6.5/powermock-modules-1.6.5.pom
+Progress (1): 771 B
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-modules/1.6.5/powermock-modules-1.6.5.pom (771 B at 2.2 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-module-junit4-common/1.6.5/powermock-module-junit4-common-1.6.5.pom
+Progress (1): 1.3 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-module-junit4-common/1.6.5/powermock-module-junit4-common-1.6.5.pom (1.3 kB at 142 kB/s)
+[INFO] Artifact commons-codec:commons-codec:jar:1.9 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact commons-codec:commons-codec:jar:1.9 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases)]
+Downloading from central: https://repo.maven.apache.org/maven2/edu/ksu/canvas/canvas-api/2.0.0/canvas-api-2.0.0.jar
+Progress (1): 16/401 kB
+Progress (1): 33/401 kB
+Progress (1): 49/401 kB
+Progress (1): 66/401 kB
+Progress (1): 82/401 kB
+Progress (1): 98/401 kB
+Progress (1): 115/401 kB
+Progress (1): 131/401 kB
+Progress (1): 147/401 kB
+Progress (1): 164/401 kB
+Progress (1): 180/401 kB
+Progress (1): 197/401 kB
+Progress (1): 213/401 kB
+Progress (1): 229/401 kB
+Progress (1): 246/401 kB
+Progress (1): 262/401 kB
+Progress (1): 279/401 kB
+Progress (1): 295/401 kB
+Progress (1): 311/401 kB
+Progress (1): 328/401 kB
+Progress (1): 344/401 kB
+Progress (1): 360/401 kB
+Progress (1): 377/401 kB
+Progress (1): 393/401 kB
+Progress (1): 401 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/edu/ksu/canvas/canvas-api/2.0.0/canvas-api-2.0.0.jar (401 kB at 3.2 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.27/slf4j-api-1.7.27.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-beans/4.1.6.RELEASE/spring-beans-4.1.6.RELEASE.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpmime/4.5.2/httpmime-4.5.2.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-web/4.1.6.RELEASE/spring-web-4.1.6.RELEASE.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-aop/4.1.6.RELEASE/spring-aop-4.1.6.RELEASE.jar
+Progress (1): 16/41 kB
+Progress (1): 33/41 kB
+Progress (1): 41 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.27/slf4j-api-1.7.27.jar (41 kB at 2.3 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-context/4.1.6.RELEASE/spring-context-4.1.6.RELEASE.jar
+Progress (1): 16/359 kB
+Progress (1): 33/359 kB
+Progress (1): 49/359 kB
+Progress (2): 49/359 kB | 16/719 kB
+Progress (2): 66/359 kB | 16/719 kB
+Progress (2): 66/359 kB | 33/719 kB
+Progress (2): 82/359 kB | 33/719 kB
+Progress (2): 98/359 kB | 33/719 kB
+Progress (2): 115/359 kB | 33/719 kB
+Progress (2): 131/359 kB | 33/719 kB
+Progress (2): 147/359 kB | 33/719 kB
+Progress (3): 147/359 kB | 33/719 kB | 0/1.0 MB
+Progress (3): 147/359 kB | 49/719 kB | 0/1.0 MB
+Progress (3): 147/359 kB | 49/719 kB | 0/1.0 MB
+Progress (3): 164/359 kB | 49/719 kB | 0/1.0 MB
+Progress (3): 164/359 kB | 66/719 kB | 0/1.0 MB
+Progress (3): 180/359 kB | 66/719 kB | 0/1.0 MB
+Progress (3): 180/359 kB | 82/719 kB | 0/1.0 MB
+Progress (3): 197/359 kB | 82/719 kB | 0/1.0 MB
+Progress (3): 197/359 kB | 98/719 kB | 0/1.0 MB
+Progress (3): 213/359 kB | 98/719 kB | 0/1.0 MB
+Progress (3): 213/359 kB | 115/719 kB | 0/1.0 MB
+Progress (3): 229/359 kB | 115/719 kB | 0/1.0 MB
+Progress (3): 229/359 kB | 131/719 kB | 0/1.0 MB
+Progress (3): 246/359 kB | 131/719 kB | 0/1.0 MB
+Progress (3): 256/359 kB | 131/719 kB | 0/1.0 MB
+Progress (3): 256/359 kB | 147/719 kB | 0/1.0 MB
+Progress (3): 272/359 kB | 147/719 kB | 0/1.0 MB
+Progress (3): 272/359 kB | 164/719 kB | 0/1.0 MB
+Progress (3): 289/359 kB | 164/719 kB | 0/1.0 MB
+Progress (3): 289/359 kB | 180/719 kB | 0/1.0 MB
+Progress (3): 305/359 kB | 180/719 kB | 0/1.0 MB
+Progress (3): 321/359 kB | 180/719 kB | 0/1.0 MB
+Progress (3): 338/359 kB | 180/719 kB | 0/1.0 MB
+Progress (3): 354/359 kB | 180/719 kB | 0/1.0 MB
+Progress (3): 354/359 kB | 180/719 kB | 0/1.0 MB
+Progress (4): 354/359 kB | 180/719 kB | 0/1.0 MB | 1.4/41 kB
+Progress (4): 359 kB | 180/719 kB | 0/1.0 MB | 1.4/41 kB    
+Progress (4): 359 kB | 197/719 kB | 0/1.0 MB | 1.4/41 kB
+Progress (4): 359 kB | 197/719 kB | 0.1/1.0 MB | 1.4/41 kB
+Progress (4): 359 kB | 197/719 kB | 0.1/1.0 MB | 2.7/41 kB
+Progress (4): 359 kB | 213/719 kB | 0.1/1.0 MB | 2.7/41 kB
+Progress (4): 359 kB | 213/719 kB | 0.1/1.0 MB | 2.7/41 kB
+Progress (4): 359 kB | 229/719 kB | 0.1/1.0 MB | 2.7/41 kB
+Progress (4): 359 kB | 229/719 kB | 0.1/1.0 MB | 2.7/41 kB
+Progress (4): 359 kB | 229/719 kB | 0.1/1.0 MB | 4.1/41 kB
+Progress (4): 359 kB | 246/719 kB | 0.1/1.0 MB | 4.1/41 kB
+Progress (5): 359 kB | 246/719 kB | 0.1/1.0 MB | 4.1/41 kB | 1.4/708 kB
+Progress (5): 359 kB | 246/719 kB | 0.1/1.0 MB | 5.5/41 kB | 1.4/708 kB
+Progress (5): 359 kB | 246/719 kB | 0.1/1.0 MB | 5.5/41 kB | 1.4/708 kB
+Progress (5): 359 kB | 246/719 kB | 0.1/1.0 MB | 6.9/41 kB | 1.4/708 kB
+                                                                       
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-aop/4.1.6.RELEASE/spring-aop-4.1.6.RELEASE.jar (359 kB at 6.9 MB/s)
+Progress (4): 262/719 kB | 0.1/1.0 MB | 6.9/41 kB | 1.4/708 kB
+Progress (4): 262/719 kB | 0.1/1.0 MB | 6.9/41 kB | 2.7/708 kB
+Progress (4): 279/719 kB | 0.1/1.0 MB | 6.9/41 kB | 2.7/708 kB
+Progress (4): 295/719 kB | 0.1/1.0 MB | 6.9/41 kB | 2.7/708 kB
+                                                              
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-core/4.1.6.RELEASE/spring-core-4.1.6.RELEASE.jar
+Progress (4): 311/719 kB | 0.1/1.0 MB | 6.9/41 kB | 2.7/708 kB
+Progress (4): 328/719 kB | 0.1/1.0 MB | 6.9/41 kB | 2.7/708 kB
+Progress (4): 328/719 kB | 0.1/1.0 MB | 8.2/41 kB | 2.7/708 kB
+Progress (4): 328/719 kB | 0.1/1.0 MB | 9.6/41 kB | 2.7/708 kB
+Progress (4): 328/719 kB | 0.1/1.0 MB | 11/41 kB | 2.7/708 kB 
+Progress (4): 328/719 kB | 0.1/1.0 MB | 12/41 kB | 2.7/708 kB
+Progress (4): 328/719 kB | 0.1/1.0 MB | 14/41 kB | 2.7/708 kB
+Progress (4): 328/719 kB | 0.1/1.0 MB | 15/41 kB | 2.7/708 kB
+Progress (4): 328/719 kB | 0.1/1.0 MB | 15/41 kB | 2.7/708 kB
+Progress (4): 328/719 kB | 0.1/1.0 MB | 16/41 kB | 2.7/708 kB
+Progress (4): 328/719 kB | 0.1/1.0 MB | 18/41 kB | 2.7/708 kB
+Progress (4): 328/719 kB | 0.1/1.0 MB | 18/41 kB | 4.1/708 kB
+Progress (4): 344/719 kB | 0.1/1.0 MB | 18/41 kB | 4.1/708 kB
+Progress (4): 344/719 kB | 0.1/1.0 MB | 18/41 kB | 5.5/708 kB
+Progress (4): 344/719 kB | 0.1/1.0 MB | 19/41 kB | 5.5/708 kB
+Progress (4): 344/719 kB | 0.1/1.0 MB | 19/41 kB | 6.9/708 kB
+Progress (4): 344/719 kB | 0.1/1.0 MB | 19/41 kB | 6.9/708 kB
+Progress (4): 344/719 kB | 0.1/1.0 MB | 19/41 kB | 8.2/708 kB
+Progress (4): 344/719 kB | 0.2/1.0 MB | 19/41 kB | 8.2/708 kB
+Progress (4): 344/719 kB | 0.2/1.0 MB | 19/41 kB | 9.6/708 kB
+Progress (4): 344/719 kB | 0.2/1.0 MB | 19/41 kB | 11/708 kB 
+Progress (4): 344/719 kB | 0.2/1.0 MB | 19/41 kB | 11/708 kB
+Progress (4): 344/719 kB | 0.2/1.0 MB | 19/41 kB | 12/708 kB
+Progress (4): 344/719 kB | 0.2/1.0 MB | 21/41 kB | 12/708 kB
+Progress (4): 344/719 kB | 0.2/1.0 MB | 22/41 kB | 12/708 kB
+Progress (4): 344/719 kB | 0.2/1.0 MB | 23/41 kB | 12/708 kB
+Progress (4): 344/719 kB | 0.2/1.0 MB | 25/41 kB | 12/708 kB
+Progress (4): 344/719 kB | 0.2/1.0 MB | 26/41 kB | 12/708 kB
+Progress (4): 344/719 kB | 0.2/1.0 MB | 27/41 kB | 12/708 kB
+Progress (4): 344/719 kB | 0.2/1.0 MB | 29/41 kB | 12/708 kB
+Progress (4): 344/719 kB | 0.2/1.0 MB | 30/41 kB | 12/708 kB
+Progress (4): 344/719 kB | 0.2/1.0 MB | 32/41 kB | 12/708 kB
+Progress (4): 360/719 kB | 0.2/1.0 MB | 32/41 kB | 12/708 kB
+Progress (4): 360/719 kB | 0.2/1.0 MB | 33/41 kB | 12/708 kB
+Progress (4): 360/719 kB | 0.2/1.0 MB | 33/41 kB | 14/708 kB
+Progress (4): 377/719 kB | 0.2/1.0 MB | 33/41 kB | 14/708 kB
+Progress (4): 377/719 kB | 0.2/1.0 MB | 33/41 kB | 14/708 kB
+Progress (5): 377/719 kB | 0.2/1.0 MB | 33/41 kB | 14/708 kB | 0/1.0 MB
+Progress (5): 377/719 kB | 0.2/1.0 MB | 33/41 kB | 15/708 kB | 0/1.0 MB
+Progress (5): 377/719 kB | 0.2/1.0 MB | 33/41 kB | 15/708 kB | 0/1.0 MB
+Progress (5): 377/719 kB | 0.2/1.0 MB | 33/41 kB | 16/708 kB | 0/1.0 MB
+Progress (5): 377/719 kB | 0.2/1.0 MB | 33/41 kB | 16/708 kB | 0/1.0 MB
+Progress (5): 377/719 kB | 0.2/1.0 MB | 33/41 kB | 16/708 kB | 0/1.0 MB
+Progress (5): 377/719 kB | 0.2/1.0 MB | 34/41 kB | 16/708 kB | 0/1.0 MB
+Progress (5): 377/719 kB | 0.2/1.0 MB | 34/41 kB | 16/708 kB | 0/1.0 MB
+Progress (5): 377/719 kB | 0.2/1.0 MB | 36/41 kB | 16/708 kB | 0/1.0 MB
+Progress (5): 393/719 kB | 0.2/1.0 MB | 36/41 kB | 16/708 kB | 0/1.0 MB
+Progress (5): 393/719 kB | 0.2/1.0 MB | 37/41 kB | 16/708 kB | 0/1.0 MB
+Progress (5): 393/719 kB | 0.2/1.0 MB | 37/41 kB | 16/708 kB | 0/1.0 MB
+Progress (5): 393/719 kB | 0.3/1.0 MB | 37/41 kB | 16/708 kB | 0/1.0 MB
+Progress (5): 393/719 kB | 0.3/1.0 MB | 38/41 kB | 16/708 kB | 0/1.0 MB
+Progress (5): 393/719 kB | 0.3/1.0 MB | 40/41 kB | 16/708 kB | 0/1.0 MB
+Progress (5): 393/719 kB | 0.3/1.0 MB | 40/41 kB | 16/708 kB | 0.1/1.0 MB
+Progress (5): 393/719 kB | 0.3/1.0 MB | 40/41 kB | 32/708 kB | 0.1/1.0 MB
+Progress (5): 393/719 kB | 0.3/1.0 MB | 40/41 kB | 32/708 kB | 0.1/1.0 MB
+Progress (5): 393/719 kB | 0.3/1.0 MB | 41 kB | 32/708 kB | 0.1/1.0 MB   
+Progress (5): 393/719 kB | 0.3/1.0 MB | 41 kB | 32/708 kB | 0.1/1.0 MB
+Progress (5): 393/719 kB | 0.3/1.0 MB | 41 kB | 32/708 kB | 0.1/1.0 MB
+Progress (5): 393/719 kB | 0.3/1.0 MB | 41 kB | 49/708 kB | 0.1/1.0 MB
+Progress (5): 393/719 kB | 0.3/1.0 MB | 41 kB | 49/708 kB | 0.1/1.0 MB
+Progress (5): 393/719 kB | 0.3/1.0 MB | 41 kB | 65/708 kB | 0.1/1.0 MB
+Progress (5): 410/719 kB | 0.3/1.0 MB | 41 kB | 65/708 kB | 0.1/1.0 MB
+Progress (5): 410/719 kB | 0.3/1.0 MB | 41 kB | 65/708 kB | 0.1/1.0 MB
+                                                                      
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpmime/4.5.2/httpmime-4.5.2.jar (41 kB at 383 kB/s)
+Progress (4): 410/719 kB | 0.3/1.0 MB | 65/708 kB | 0.1/1.0 MB
+                                                              
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/security/oauth/spring-security-oauth/2.0.17.RELEASE/spring-security-oauth-2.0.17.RELEASE.jar
+Progress (4): 426/719 kB | 0.3/1.0 MB | 65/708 kB | 0.1/1.0 MB
+Progress (4): 426/719 kB | 0.3/1.0 MB | 81/708 kB | 0.1/1.0 MB
+Progress (4): 426/719 kB | 0.3/1.0 MB | 81/708 kB | 0.1/1.0 MB
+Progress (4): 426/719 kB | 0.3/1.0 MB | 81/708 kB | 0.1/1.0 MB
+Progress (4): 426/719 kB | 0.3/1.0 MB | 98/708 kB | 0.1/1.0 MB
+Progress (4): 426/719 kB | 0.3/1.0 MB | 98/708 kB | 0.1/1.0 MB
+Progress (4): 426/719 kB | 0.4/1.0 MB | 98/708 kB | 0.1/1.0 MB
+Progress (4): 426/719 kB | 0.4/1.0 MB | 114/708 kB | 0.1/1.0 MB
+Progress (4): 426/719 kB | 0.4/1.0 MB | 114/708 kB | 0.1/1.0 MB
+Progress (4): 442/719 kB | 0.4/1.0 MB | 114/708 kB | 0.1/1.0 MB
+Progress (4): 442/719 kB | 0.4/1.0 MB | 131/708 kB | 0.1/1.0 MB
+Progress (4): 442/719 kB | 0.4/1.0 MB | 131/708 kB | 0.2/1.0 MB
+Progress (4): 459/719 kB | 0.4/1.0 MB | 131/708 kB | 0.2/1.0 MB
+Progress (4): 459/719 kB | 0.4/1.0 MB | 147/708 kB | 0.2/1.0 MB
+Progress (4): 459/719 kB | 0.4/1.0 MB | 147/708 kB | 0.2/1.0 MB
+Progress (4): 475/719 kB | 0.4/1.0 MB | 147/708 kB | 0.2/1.0 MB
+Progress (4): 475/719 kB | 0.4/1.0 MB | 147/708 kB | 0.2/1.0 MB
+Progress (4): 475/719 kB | 0.4/1.0 MB | 147/708 kB | 0.2/1.0 MB
+Progress (4): 475/719 kB | 0.4/1.0 MB | 147/708 kB | 0.2/1.0 MB
+Progress (4): 475/719 kB | 0.4/1.0 MB | 147/708 kB | 0.2/1.0 MB
+Progress (4): 475/719 kB | 0.4/1.0 MB | 147/708 kB | 0.2/1.0 MB
+Progress (4): 475/719 kB | 0.4/1.0 MB | 147/708 kB | 0.3/1.0 MB
+Progress (4): 475/719 kB | 0.4/1.0 MB | 147/708 kB | 0.3/1.0 MB
+Progress (4): 475/719 kB | 0.4/1.0 MB | 147/708 kB | 0.3/1.0 MB
+Progress (4): 475/719 kB | 0.4/1.0 MB | 147/708 kB | 0.3/1.0 MB
+Progress (4): 475/719 kB | 0.4/1.0 MB | 163/708 kB | 0.3/1.0 MB
+Progress (4): 475/719 kB | 0.4/1.0 MB | 163/708 kB | 0.3/1.0 MB
+Progress (4): 475/719 kB | 0.4/1.0 MB | 163/708 kB | 0.3/1.0 MB
+Progress (4): 475/719 kB | 0.4/1.0 MB | 180/708 kB | 0.3/1.0 MB
+Progress (4): 475/719 kB | 0.4/1.0 MB | 180/708 kB | 0.3/1.0 MB
+Progress (4): 492/719 kB | 0.4/1.0 MB | 180/708 kB | 0.3/1.0 MB
+Progress (4): 492/719 kB | 0.4/1.0 MB | 180/708 kB | 0.4/1.0 MB
+Progress (4): 492/719 kB | 0.4/1.0 MB | 196/708 kB | 0.4/1.0 MB
+Progress (4): 492/719 kB | 0.4/1.0 MB | 196/708 kB | 0.4/1.0 MB
+Progress (4): 508/719 kB | 0.4/1.0 MB | 196/708 kB | 0.4/1.0 MB
+Progress (4): 508/719 kB | 0.4/1.0 MB | 196/708 kB | 0.4/1.0 MB
+Progress (4): 508/719 kB | 0.4/1.0 MB | 212/708 kB | 0.4/1.0 MB
+Progress (4): 508/719 kB | 0.4/1.0 MB | 212/708 kB | 0.4/1.0 MB
+Progress (4): 508/719 kB | 0.4/1.0 MB | 212/708 kB | 0.4/1.0 MB
+Progress (4): 508/719 kB | 0.4/1.0 MB | 229/708 kB | 0.4/1.0 MB
+Progress (4): 508/719 kB | 0.4/1.0 MB | 229/708 kB | 0.4/1.0 MB
+Progress (4): 524/719 kB | 0.4/1.0 MB | 229/708 kB | 0.4/1.0 MB
+Progress (4): 524/719 kB | 0.4/1.0 MB | 245/708 kB | 0.4/1.0 MB
+Progress (4): 524/719 kB | 0.4/1.0 MB | 245/708 kB | 0.4/1.0 MB
+Progress (4): 524/719 kB | 0.4/1.0 MB | 245/708 kB | 0.4/1.0 MB
+Progress (4): 524/719 kB | 0.4/1.0 MB | 262/708 kB | 0.4/1.0 MB
+Progress (4): 524/719 kB | 0.4/1.0 MB | 262/708 kB | 0.4/1.0 MB
+Progress (4): 541/719 kB | 0.4/1.0 MB | 262/708 kB | 0.4/1.0 MB
+Progress (4): 541/719 kB | 0.4/1.0 MB | 262/708 kB | 0.5/1.0 MB
+Progress (4): 541/719 kB | 0.4/1.0 MB | 278/708 kB | 0.5/1.0 MB
+Progress (4): 557/719 kB | 0.4/1.0 MB | 278/708 kB | 0.5/1.0 MB
+Progress (4): 557/719 kB | 0.4/1.0 MB | 278/708 kB | 0.5/1.0 MB
+Progress (4): 557/719 kB | 0.5/1.0 MB | 278/708 kB | 0.5/1.0 MB
+Progress (4): 557/719 kB | 0.5/1.0 MB | 294/708 kB | 0.5/1.0 MB
+Progress (4): 557/719 kB | 0.5/1.0 MB | 294/708 kB | 0.5/1.0 MB
+Progress (4): 557/719 kB | 0.5/1.0 MB | 294/708 kB | 0.5/1.0 MB
+Progress (4): 557/719 kB | 0.5/1.0 MB | 311/708 kB | 0.5/1.0 MB
+Progress (4): 557/719 kB | 0.5/1.0 MB | 311/708 kB | 0.5/1.0 MB
+Progress (4): 557/719 kB | 0.5/1.0 MB | 311/708 kB | 0.5/1.0 MB
+Progress (4): 573/719 kB | 0.5/1.0 MB | 311/708 kB | 0.5/1.0 MB
+Progress (4): 573/719 kB | 0.5/1.0 MB | 327/708 kB | 0.5/1.0 MB
+Progress (4): 573/719 kB | 0.5/1.0 MB | 327/708 kB | 0.5/1.0 MB
+Progress (4): 585/719 kB | 0.5/1.0 MB | 327/708 kB | 0.5/1.0 MB
+Progress (4): 585/719 kB | 0.5/1.0 MB | 343/708 kB | 0.5/1.0 MB
+Progress (4): 585/719 kB | 0.5/1.0 MB | 343/708 kB | 0.5/1.0 MB
+Progress (4): 601/719 kB | 0.5/1.0 MB | 343/708 kB | 0.5/1.0 MB
+Progress (4): 601/719 kB | 0.5/1.0 MB | 343/708 kB | 0.6/1.0 MB
+Progress (4): 601/719 kB | 0.5/1.0 MB | 343/708 kB | 0.6/1.0 MB
+Progress (4): 617/719 kB | 0.5/1.0 MB | 343/708 kB | 0.6/1.0 MB
+Progress (4): 634/719 kB | 0.5/1.0 MB | 343/708 kB | 0.6/1.0 MB
+Progress (4): 650/719 kB | 0.5/1.0 MB | 343/708 kB | 0.6/1.0 MB
+Progress (4): 667/719 kB | 0.5/1.0 MB | 343/708 kB | 0.6/1.0 MB
+Progress (4): 683/719 kB | 0.5/1.0 MB | 343/708 kB | 0.6/1.0 MB
+Progress (4): 699/719 kB | 0.5/1.0 MB | 343/708 kB | 0.6/1.0 MB
+Progress (4): 716/719 kB | 0.5/1.0 MB | 343/708 kB | 0.6/1.0 MB
+Progress (4): 716/719 kB | 0.5/1.0 MB | 343/708 kB | 0.6/1.0 MB
+Progress (4): 716/719 kB | 0.5/1.0 MB | 343/708 kB | 0.6/1.0 MB
+Progress (4): 716/719 kB | 0.5/1.0 MB | 360/708 kB | 0.6/1.0 MB
+Progress (4): 716/719 kB | 0.5/1.0 MB | 360/708 kB | 0.6/1.0 MB
+Progress (4): 716/719 kB | 0.5/1.0 MB | 360/708 kB | 0.6/1.0 MB
+Progress (4): 716/719 kB | 0.5/1.0 MB | 376/708 kB | 0.6/1.0 MB
+Progress (4): 719 kB | 0.5/1.0 MB | 376/708 kB | 0.6/1.0 MB    
+Progress (4): 719 kB | 0.5/1.0 MB | 376/708 kB | 0.6/1.0 MB
+Progress (4): 719 kB | 0.5/1.0 MB | 376/708 kB | 0.6/1.0 MB
+Progress (4): 719 kB | 0.5/1.0 MB | 393/708 kB | 0.6/1.0 MB
+Progress (4): 719 kB | 0.5/1.0 MB | 393/708 kB | 0.7/1.0 MB
+Progress (4): 719 kB | 0.5/1.0 MB | 409/708 kB | 0.7/1.0 MB
+Progress (4): 719 kB | 0.5/1.0 MB | 409/708 kB | 0.7/1.0 MB
+Progress (4): 719 kB | 0.5/1.0 MB | 409/708 kB | 0.7/1.0 MB
+Progress (4): 719 kB | 0.5/1.0 MB | 409/708 kB | 0.7/1.0 MB
+                                                           
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-web/4.1.6.RELEASE/spring-web-4.1.6.RELEASE.jar (719 kB at 5.1 MB/s)
+Progress (3): 0.5/1.0 MB | 425/708 kB | 0.7/1.0 MB
+                                                  
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-core/3.2.10.RELEASE/spring-security-core-3.2.10.RELEASE.jar
+Progress (3): 0.6/1.0 MB | 425/708 kB | 0.7/1.0 MB
+Progress (3): 0.6/1.0 MB | 425/708 kB | 0.7/1.0 MB
+Progress (3): 0.6/1.0 MB | 442/708 kB | 0.7/1.0 MB
+Progress (3): 0.6/1.0 MB | 442/708 kB | 0.7/1.0 MB
+Progress (3): 0.6/1.0 MB | 442/708 kB | 0.7/1.0 MB
+Progress (3): 0.6/1.0 MB | 458/708 kB | 0.7/1.0 MB
+Progress (3): 0.6/1.0 MB | 458/708 kB | 0.7/1.0 MB
+Progress (3): 0.6/1.0 MB | 458/708 kB | 0.7/1.0 MB
+Progress (3): 0.6/1.0 MB | 475/708 kB | 0.7/1.0 MB
+Progress (3): 0.6/1.0 MB | 475/708 kB | 0.7/1.0 MB
+Progress (3): 0.6/1.0 MB | 475/708 kB | 0.8/1.0 MB
+Progress (3): 0.6/1.0 MB | 491/708 kB | 0.8/1.0 MB
+Progress (3): 0.6/1.0 MB | 491/708 kB | 0.8/1.0 MB
+Progress (3): 0.6/1.0 MB | 507/708 kB | 0.8/1.0 MB
+Progress (3): 0.6/1.0 MB | 507/708 kB | 0.8/1.0 MB
+Progress (3): 0.6/1.0 MB | 524/708 kB | 0.8/1.0 MB
+Progress (3): 0.7/1.0 MB | 524/708 kB | 0.8/1.0 MB
+Progress (3): 0.7/1.0 MB | 540/708 kB | 0.8/1.0 MB
+Progress (3): 0.7/1.0 MB | 540/708 kB | 0.8/1.0 MB
+Progress (3): 0.7/1.0 MB | 556/708 kB | 0.8/1.0 MB
+Progress (3): 0.7/1.0 MB | 556/708 kB | 0.8/1.0 MB
+Progress (3): 0.7/1.0 MB | 556/708 kB | 0.8/1.0 MB
+Progress (3): 0.7/1.0 MB | 573/708 kB | 0.8/1.0 MB
+Progress (3): 0.7/1.0 MB | 573/708 kB | 0.8/1.0 MB
+Progress (3): 0.7/1.0 MB | 589/708 kB | 0.8/1.0 MB
+Progress (3): 0.7/1.0 MB | 589/708 kB | 0.8/1.0 MB
+Progress (3): 0.7/1.0 MB | 589/708 kB | 0.8/1.0 MB
+Progress (4): 0.7/1.0 MB | 589/708 kB | 0.8/1.0 MB | 16/370 kB
+Progress (4): 0.7/1.0 MB | 589/708 kB | 0.8/1.0 MB | 16/370 kB
+Progress (4): 0.7/1.0 MB | 606/708 kB | 0.8/1.0 MB | 16/370 kB
+Progress (4): 0.7/1.0 MB | 606/708 kB | 0.8/1.0 MB | 16/370 kB
+Progress (4): 0.7/1.0 MB | 606/708 kB | 0.8/1.0 MB | 33/370 kB
+Progress (4): 0.7/1.0 MB | 622/708 kB | 0.8/1.0 MB | 33/370 kB
+Progress (4): 0.7/1.0 MB | 622/708 kB | 0.8/1.0 MB | 49/370 kB
+Progress (4): 0.7/1.0 MB | 622/708 kB | 0.8/1.0 MB | 49/370 kB
+Progress (4): 0.8/1.0 MB | 622/708 kB | 0.8/1.0 MB | 49/370 kB
+Progress (4): 0.8/1.0 MB | 622/708 kB | 0.8/1.0 MB | 66/370 kB
+Progress (4): 0.8/1.0 MB | 622/708 kB | 0.8/1.0 MB | 66/370 kB
+Progress (4): 0.8/1.0 MB | 638/708 kB | 0.8/1.0 MB | 66/370 kB
+Progress (4): 0.8/1.0 MB | 638/708 kB | 0.8/1.0 MB | 82/370 kB
+Progress (4): 0.8/1.0 MB | 638/708 kB | 0.8/1.0 MB | 82/370 kB
+Progress (4): 0.8/1.0 MB | 638/708 kB | 0.8/1.0 MB | 82/370 kB
+Progress (4): 0.8/1.0 MB | 638/708 kB | 0.8/1.0 MB | 98/370 kB
+Progress (4): 0.8/1.0 MB | 655/708 kB | 0.8/1.0 MB | 98/370 kB
+Progress (4): 0.8/1.0 MB | 655/708 kB | 0.8/1.0 MB | 98/370 kB
+Progress (4): 0.8/1.0 MB | 658/708 kB | 0.8/1.0 MB | 98/370 kB
+Progress (4): 0.8/1.0 MB | 658/708 kB | 0.8/1.0 MB | 115/370 kB
+Progress (4): 0.8/1.0 MB | 674/708 kB | 0.8/1.0 MB | 115/370 kB
+Progress (4): 0.8/1.0 MB | 674/708 kB | 0.8/1.0 MB | 131/370 kB
+Progress (4): 0.8/1.0 MB | 691/708 kB | 0.8/1.0 MB | 131/370 kB
+Progress (4): 0.8/1.0 MB | 691/708 kB | 0.8/1.0 MB | 147/370 kB
+Progress (4): 0.8/1.0 MB | 691/708 kB | 0.8/1.0 MB | 147/370 kB
+Progress (4): 0.8/1.0 MB | 707/708 kB | 0.8/1.0 MB | 147/370 kB
+Progress (4): 0.8/1.0 MB | 707/708 kB | 0.9/1.0 MB | 147/370 kB
+Progress (4): 0.8/1.0 MB | 708 kB | 0.9/1.0 MB | 147/370 kB    
+Progress (4): 0.8/1.0 MB | 708 kB | 0.9/1.0 MB | 164/370 kB
+Progress (4): 0.8/1.0 MB | 708 kB | 0.9/1.0 MB | 164/370 kB
+Progress (4): 0.8/1.0 MB | 708 kB | 0.9/1.0 MB | 180/370 kB
+Progress (4): 0.8/1.0 MB | 708 kB | 0.9/1.0 MB | 180/370 kB
+Progress (4): 0.8/1.0 MB | 708 kB | 0.9/1.0 MB | 197/370 kB
+                                                           
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-beans/4.1.6.RELEASE/spring-beans-4.1.6.RELEASE.jar (708 kB at 4.4 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-config/3.2.10.RELEASE/spring-security-config-3.2.10.RELEASE.jar
+Progress (3): 0.8/1.0 MB | 0.9/1.0 MB | 197/370 kB
+Progress (3): 0.8/1.0 MB | 0.9/1.0 MB | 213/370 kB
+Progress (3): 0.8/1.0 MB | 0.9/1.0 MB | 213/370 kB
+Progress (3): 0.8/1.0 MB | 0.9/1.0 MB | 213/370 kB
+Progress (3): 0.9/1.0 MB | 0.9/1.0 MB | 213/370 kB
+Progress (3): 0.9/1.0 MB | 0.9/1.0 MB | 213/370 kB
+Progress (3): 0.9/1.0 MB | 0.9/1.0 MB | 213/370 kB
+Progress (3): 0.9/1.0 MB | 0.9/1.0 MB | 213/370 kB
+Progress (3): 0.9/1.0 MB | 0.9/1.0 MB | 213/370 kB
+Progress (3): 0.9/1.0 MB | 0.9/1.0 MB | 213/370 kB
+Progress (3): 0.9/1.0 MB | 0.9/1.0 MB | 213/370 kB
+Progress (3): 0.9/1.0 MB | 1.0/1.0 MB | 213/370 kB
+Progress (3): 0.9/1.0 MB | 1.0/1.0 MB | 213/370 kB
+Progress (3): 0.9/1.0 MB | 1.0/1.0 MB | 229/370 kB
+Progress (3): 0.9/1.0 MB | 1.0/1.0 MB | 229/370 kB
+Progress (3): 0.9/1.0 MB | 1.0/1.0 MB | 229/370 kB
+Progress (3): 0.9/1.0 MB | 1.0/1.0 MB | 246/370 kB
+Progress (3): 0.9/1.0 MB | 1.0/1.0 MB | 246/370 kB
+Progress (3): 0.9/1.0 MB | 1.0/1.0 MB | 256/370 kB
+Progress (3): 1.0/1.0 MB | 1.0/1.0 MB | 256/370 kB
+Progress (3): 1.0/1.0 MB | 1.0 MB | 256/370 kB    
+Progress (3): 1.0/1.0 MB | 1.0 MB | 256/370 kB
+Progress (3): 1.0/1.0 MB | 1.0 MB | 272/370 kB
+Progress (3): 1.0/1.0 MB | 1.0 MB | 272/370 kB
+Progress (3): 1.0/1.0 MB | 1.0 MB | 289/370 kB
+Progress (3): 1.0/1.0 MB | 1.0 MB | 289/370 kB
+Progress (3): 1.0/1.0 MB | 1.0 MB | 305/370 kB
+Progress (4): 1.0/1.0 MB | 1.0 MB | 305/370 kB | 16/405 kB
+Progress (4): 1.0 MB | 1.0 MB | 305/370 kB | 16/405 kB    
+Progress (4): 1.0 MB | 1.0 MB | 321/370 kB | 16/405 kB
+Progress (4): 1.0 MB | 1.0 MB | 321/370 kB | 33/405 kB
+Progress (4): 1.0 MB | 1.0 MB | 338/370 kB | 33/405 kB
+Progress (4): 1.0 MB | 1.0 MB | 338/370 kB | 49/405 kB
+Progress (4): 1.0 MB | 1.0 MB | 354/370 kB | 49/405 kB
+Progress (4): 1.0 MB | 1.0 MB | 354/370 kB | 66/405 kB
+                                                      
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-core/4.1.6.RELEASE/spring-core-4.1.6.RELEASE.jar (1.0 MB at 5.8 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-web/3.2.10.RELEASE/spring-security-web-3.2.10.RELEASE.jar
+Progress (3): 1.0 MB | 370 kB | 66/405 kB
+Progress (3): 1.0 MB | 370 kB | 82/405 kB
+                                         
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-context/4.1.6.RELEASE/spring-context-4.1.6.RELEASE.jar (1.0 MB at 5.9 MB/s)
+Progress (2): 370 kB | 98/405 kB
+                                
+Downloading from central: https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.9/commons-codec-1.9.jar
+Progress (2): 370 kB | 115/405 kB
+Progress (2): 370 kB | 131/405 kB
+                                 
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-core/3.2.10.RELEASE/spring-security-core-3.2.10.RELEASE.jar (370 kB at 2.1 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/4.1.6.RELEASE/spring-webmvc-4.1.6.RELEASE.jar
+Progress (1): 147/405 kB
+Progress (1): 164/405 kB
+Progress (1): 180/405 kB
+Progress (1): 197/405 kB
+Progress (1): 213/405 kB
+Progress (1): 229/405 kB
+Progress (1): 246/405 kB
+Progress (1): 262/405 kB
+Progress (1): 279/405 kB
+Progress (1): 295/405 kB
+Progress (1): 311/405 kB
+Progress (2): 311/405 kB | 16/781 kB
+Progress (2): 328/405 kB | 16/781 kB
+Progress (2): 328/405 kB | 33/781 kB
+Progress (2): 328/405 kB | 49/781 kB
+Progress (2): 344/405 kB | 49/781 kB
+Progress (2): 344/405 kB | 66/781 kB
+Progress (2): 360/405 kB | 66/781 kB
+Progress (2): 360/405 kB | 82/781 kB
+Progress (2): 377/405 kB | 82/781 kB
+Progress (2): 377/405 kB | 98/781 kB
+Progress (2): 393/405 kB | 98/781 kB
+Progress (2): 393/405 kB | 115/781 kB
+Progress (2): 405 kB | 115/781 kB    
+Progress (2): 405 kB | 131/781 kB
+Progress (3): 405 kB | 131/781 kB | 16/347 kB
+Progress (3): 405 kB | 147/781 kB | 16/347 kB
+                                             
+Downloaded from central: https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.9/commons-codec-1.9.jar (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-expression/4.1.6.RELEASE/spring-expression-4.1.6.RELEASE.jar
+Progress (3): 405 kB | 164/781 kB | 16/347 kB
+Progress (3): 405 kB | 180/781 kB | 16/347 kB
+                                             
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-config/3.2.10.RELEASE/spring-security-config-3.2.10.RELEASE.jar (405 kB at 2.2 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1.jar
+Progress (2): 197/781 kB | 16/347 kB
+Progress (2): 213/781 kB | 16/347 kB
+Progress (2): 229/781 kB | 16/347 kB
+Progress (2): 246/781 kB | 16/347 kB
+Progress (2): 256/781 kB | 16/347 kB
+Progress (2): 272/781 kB | 16/347 kB
+Progress (2): 272/781 kB | 32/347 kB
+Progress (2): 289/781 kB | 32/347 kB
+Progress (2): 305/781 kB | 32/347 kB
+Progress (2): 321/781 kB | 32/347 kB
+Progress (3): 321/781 kB | 32/347 kB | 16/259 kB
+Progress (3): 338/781 kB | 32/347 kB | 16/259 kB
+Progress (3): 354/781 kB | 32/347 kB | 16/259 kB
+Progress (3): 354/781 kB | 32/347 kB | 33/259 kB
+Progress (3): 370/781 kB | 32/347 kB | 33/259 kB
+Progress (3): 370/781 kB | 32/347 kB | 49/259 kB
+Progress (3): 387/781 kB | 32/347 kB | 49/259 kB
+Progress (3): 387/781 kB | 32/347 kB | 66/259 kB
+Progress (3): 403/781 kB | 32/347 kB | 66/259 kB
+Progress (3): 420/781 kB | 32/347 kB | 66/259 kB
+Progress (3): 420/781 kB | 49/347 kB | 66/259 kB
+Progress (3): 436/781 kB | 49/347 kB | 66/259 kB
+Progress (3): 436/781 kB | 49/347 kB | 82/259 kB
+Progress (3): 436/781 kB | 65/347 kB | 82/259 kB
+Progress (3): 452/781 kB | 65/347 kB | 82/259 kB
+Progress (3): 452/781 kB | 81/347 kB | 82/259 kB
+Progress (3): 469/781 kB | 81/347 kB | 82/259 kB
+Progress (3): 469/781 kB | 98/347 kB | 82/259 kB
+Progress (3): 485/781 kB | 98/347 kB | 82/259 kB
+Progress (3): 502/781 kB | 98/347 kB | 82/259 kB
+Progress (3): 502/781 kB | 114/347 kB | 82/259 kB
+Progress (3): 512/781 kB | 114/347 kB | 82/259 kB
+Progress (3): 512/781 kB | 131/347 kB | 82/259 kB
+Progress (3): 528/781 kB | 131/347 kB | 82/259 kB
+Progress (3): 544/781 kB | 131/347 kB | 82/259 kB
+Progress (3): 544/781 kB | 147/347 kB | 82/259 kB
+Progress (3): 561/781 kB | 147/347 kB | 82/259 kB
+Progress (3): 561/781 kB | 163/347 kB | 82/259 kB
+Progress (3): 577/781 kB | 163/347 kB | 82/259 kB
+Progress (3): 577/781 kB | 180/347 kB | 82/259 kB
+Progress (3): 577/781 kB | 180/347 kB | 98/259 kB
+Progress (3): 594/781 kB | 180/347 kB | 98/259 kB
+Progress (3): 594/781 kB | 180/347 kB | 115/259 kB
+Progress (3): 610/781 kB | 180/347 kB | 115/259 kB
+Progress (3): 610/781 kB | 180/347 kB | 131/259 kB
+Progress (3): 626/781 kB | 180/347 kB | 131/259 kB
+Progress (4): 626/781 kB | 180/347 kB | 131/259 kB | 16/162 kB
+Progress (4): 626/781 kB | 180/347 kB | 147/259 kB | 16/162 kB
+Progress (4): 643/781 kB | 180/347 kB | 147/259 kB | 16/162 kB
+Progress (4): 643/781 kB | 180/347 kB | 164/259 kB | 16/162 kB
+Progress (5): 643/781 kB | 180/347 kB | 164/259 kB | 16/162 kB | 16/85 kB
+Progress (5): 643/781 kB | 180/347 kB | 164/259 kB | 33/162 kB | 16/85 kB
+Progress (5): 643/781 kB | 180/347 kB | 180/259 kB | 33/162 kB | 16/85 kB
+Progress (5): 643/781 kB | 180/347 kB | 180/259 kB | 33/162 kB | 32/85 kB
+Progress (5): 643/781 kB | 196/347 kB | 180/259 kB | 33/162 kB | 32/85 kB
+Progress (5): 659/781 kB | 196/347 kB | 180/259 kB | 33/162 kB | 32/85 kB
+Progress (5): 659/781 kB | 196/347 kB | 180/259 kB | 49/162 kB | 32/85 kB
+Progress (5): 659/781 kB | 196/347 kB | 197/259 kB | 49/162 kB | 32/85 kB
+Progress (5): 659/781 kB | 196/347 kB | 197/259 kB | 49/162 kB | 49/85 kB
+Progress (5): 659/781 kB | 212/347 kB | 197/259 kB | 49/162 kB | 49/85 kB
+Progress (5): 659/781 kB | 212/347 kB | 213/259 kB | 49/162 kB | 49/85 kB
+Progress (5): 675/781 kB | 212/347 kB | 213/259 kB | 49/162 kB | 49/85 kB
+Progress (5): 675/781 kB | 212/347 kB | 213/259 kB | 66/162 kB | 49/85 kB
+Progress (5): 675/781 kB | 212/347 kB | 213/259 kB | 66/162 kB | 65/85 kB
+Progress (5): 675/781 kB | 212/347 kB | 229/259 kB | 66/162 kB | 65/85 kB
+Progress (5): 692/781 kB | 212/347 kB | 229/259 kB | 66/162 kB | 65/85 kB
+Progress (5): 692/781 kB | 212/347 kB | 229/259 kB | 82/162 kB | 65/85 kB
+Progress (5): 692/781 kB | 212/347 kB | 246/259 kB | 82/162 kB | 65/85 kB
+Progress (5): 692/781 kB | 212/347 kB | 246/259 kB | 98/162 kB | 65/85 kB
+Progress (5): 692/781 kB | 212/347 kB | 246/259 kB | 98/162 kB | 81/85 kB
+Progress (5): 708/781 kB | 212/347 kB | 246/259 kB | 98/162 kB | 81/85 kB
+Progress (5): 708/781 kB | 212/347 kB | 246/259 kB | 115/162 kB | 81/85 kB
+Progress (5): 708/781 kB | 212/347 kB | 246/259 kB | 115/162 kB | 85 kB   
+Progress (5): 708/781 kB | 212/347 kB | 246/259 kB | 131/162 kB | 85 kB
+Progress (5): 708/781 kB | 212/347 kB | 256/259 kB | 131/162 kB | 85 kB
+Progress (5): 708/781 kB | 212/347 kB | 259 kB | 131/162 kB | 85 kB    
+Progress (5): 708/781 kB | 212/347 kB | 259 kB | 147/162 kB | 85 kB
+Progress (5): 725/781 kB | 212/347 kB | 259 kB | 147/162 kB | 85 kB
+Progress (5): 741/781 kB | 212/347 kB | 259 kB | 147/162 kB | 85 kB
+Progress (5): 741/781 kB | 229/347 kB | 259 kB | 147/162 kB | 85 kB
+Progress (5): 741/781 kB | 229/347 kB | 259 kB | 162 kB | 85 kB    
+Progress (5): 757/781 kB | 229/347 kB | 259 kB | 162 kB | 85 kB
+                                                               
+Downloaded from central: https://repo.maven.apache.org/maven2/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1.jar (85 kB at 388 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.4/gson-2.4.jar
+Progress (4): 774/781 kB | 229/347 kB | 259 kB | 162 kB
+Progress (4): 781 kB | 229/347 kB | 259 kB | 162 kB    
+Progress (4): 781 kB | 245/347 kB | 259 kB | 162 kB
+                                                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/security/oauth/spring-security-oauth/2.0.17.RELEASE/spring-security-oauth-2.0.17.RELEASE.jar (162 kB at 726 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/jstl/jstl/1.2/jstl-1.2.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/4.1.6.RELEASE/spring-webmvc-4.1.6.RELEASE.jar (781 kB at 3.5 MB/s)
+Progress (2): 262/347 kB | 259 kB
+Progress (2): 278/347 kB | 259 kB
+Progress (2): 294/347 kB | 259 kB
+Progress (2): 311/347 kB | 259 kB
+Progress (3): 311/347 kB | 259 kB | 16/212 kB
+Progress (3): 311/347 kB | 259 kB | 33/212 kB
+Progress (4): 311/347 kB | 259 kB | 33/212 kB | 16/414 kB
+Progress (4): 311/347 kB | 259 kB | 49/212 kB | 16/414 kB
+Progress (4): 311/347 kB | 259 kB | 49/212 kB | 32/414 kB
+Progress (4): 311/347 kB | 259 kB | 66/212 kB | 32/414 kB
+Progress (4): 311/347 kB | 259 kB | 66/212 kB | 49/414 kB
+Progress (4): 311/347 kB | 259 kB | 82/212 kB | 49/414 kB
+Progress (4): 311/347 kB | 259 kB | 82/212 kB | 65/414 kB
+Progress (4): 311/347 kB | 259 kB | 98/212 kB | 65/414 kB
+Progress (4): 311/347 kB | 259 kB | 98/212 kB | 81/414 kB
+Progress (4): 311/347 kB | 259 kB | 98/212 kB | 98/414 kB
+Progress (4): 311/347 kB | 259 kB | 98/212 kB | 114/414 kB
+Progress (4): 311/347 kB | 259 kB | 98/212 kB | 131/414 kB
+Progress (4): 327/347 kB | 259 kB | 98/212 kB | 131/414 kB
+Progress (4): 327/347 kB | 259 kB | 98/212 kB | 147/414 kB
+Progress (4): 343/347 kB | 259 kB | 98/212 kB | 147/414 kB
+Progress (4): 347 kB | 259 kB | 98/212 kB | 147/414 kB    
+                                                      
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-web/3.2.10.RELEASE/spring-security-web-3.2.10.RELEASE.jar (347 kB at 1.4 MB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-expression/4.1.6.RELEASE/spring-expression-4.1.6.RELEASE.jar (259 kB at 1.0 MB/s)
+Progress (2): 98/212 kB | 163/414 kB
+Progress (2): 98/212 kB | 180/414 kB
+Progress (2): 115/212 kB | 180/414 kB
+Progress (2): 115/212 kB | 196/414 kB
+Progress (2): 131/212 kB | 196/414 kB
+Progress (2): 131/212 kB | 212/414 kB
+Progress (2): 147/212 kB | 212/414 kB
+Progress (2): 147/212 kB | 229/414 kB
+Progress (2): 164/212 kB | 229/414 kB
+Progress (2): 164/212 kB | 245/414 kB
+Progress (2): 180/212 kB | 245/414 kB
+Progress (2): 180/212 kB | 262/414 kB
+Progress (2): 197/212 kB | 262/414 kB
+Progress (2): 197/212 kB | 278/414 kB
+Progress (2): 212 kB | 278/414 kB    
+Progress (2): 212 kB | 294/414 kB
+Progress (2): 212 kB | 311/414 kB
+Progress (2): 212 kB | 327/414 kB
+Progress (2): 212 kB | 343/414 kB
+                                 
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.4/gson-2.4.jar (212 kB at 822 kB/s)
+Progress (1): 360/414 kB
+Progress (1): 376/414 kB
+Progress (1): 393/414 kB
+Progress (1): 402/414 kB
+Progress (1): 414 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/jstl/jstl/1.2/jstl-1.2.jar (414 kB at 1.6 MB/s)
+[INFO] 
+[INFO] --- enforcer:3.0.0-M3:enforce (enforce-maven) @ lti-launch ---
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ lti-launch ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 3 resources from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ lti-launch ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[INFO] Compiling 18 source files to D:\Bump\breaking-updates\tempProject\4259baebb426fefbe9dbee26725d6803170dcb85\lti-launch\target\classes
+[INFO] 
+[INFO] --- dependency:3.6.0:tree (default-cli) @ lti-launch ---
+[INFO] edu.ksu.ome.lti:lti-launch:jar:1.5.0-SNAPSHOT
+[INFO] +- edu.ksu.canvas:canvas-api:jar:2.0.0:compile
+[INFO] |  +- javax.validation:validation-api:jar:1.1.0.Final:compile
+[INFO] |  +- com.google.guava:guava:jar:30.1-jre:compile
+[INFO] |  |  +- com.google.guava:failureaccess:jar:1.0.1:compile
+[INFO] |  |  +- com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:compile
+[INFO] |  |  +- com.google.code.findbugs:jsr305:jar:3.0.2:compile
+[INFO] |  |  +- org.checkerframework:checker-qual:jar:3.5.0:compile
+[INFO] |  |  +- com.google.errorprone:error_prone_annotations:jar:2.3.4:compile
+[INFO] |  |  \- com.google.j2objc:j2objc-annotations:jar:1.3:compile
+[INFO] |  +- org.slf4j:slf4j-api:jar:1.7.27:compile
+[INFO] |  +- org.apache.httpcomponents:httpclient:jar:4.5.13:compile
+[INFO] |  |  +- org.apache.httpcomponents:httpcore:jar:4.4.13:compile
+[INFO] |  |  \- commons-logging:commons-logging:jar:1.2:compile
+[INFO] |  \- org.apache.httpcomponents:httpmime:jar:4.5.2:compile
+[INFO] +- org.springframework:spring-web:jar:4.1.6.RELEASE:compile
+[INFO] |  +- org.springframework:spring-aop:jar:4.1.6.RELEASE:compile
+[INFO] |  |  \- aopalliance:aopalliance:jar:1.0:compile
+[INFO] |  +- org.springframework:spring-beans:jar:4.1.6.RELEASE:compile
+[INFO] |  +- org.springframework:spring-context:jar:4.1.6.RELEASE:compile
+[INFO] |  \- org.springframework:spring-core:jar:4.1.6.RELEASE:compile
+[INFO] +- org.springframework.security.oauth:spring-security-oauth:jar:2.0.17.RELEASE:compile
+[INFO] |  +- org.springframework.security:spring-security-core:jar:3.2.10.RELEASE:compile
+[INFO] |  +- org.springframework.security:spring-security-config:jar:3.2.10.RELEASE:compile
+[INFO] |  +- org.springframework.security:spring-security-web:jar:3.2.10.RELEASE:compile
+[INFO] |  \- commons-codec:commons-codec:jar:1.9:compile
+[INFO] +- org.springframework:spring-webmvc:jar:4.1.6.RELEASE:compile
+[INFO] |  \- org.springframework:spring-expression:jar:4.1.6.RELEASE:compile
+[INFO] +- org.apache.commons:commons-lang3:jar:3.3.2:compile
+[INFO] +- org.apache.logging.log4j:log4j-core:jar:2.17.1:compile
+[INFO] |  \- org.apache.logging.log4j:log4j-api:jar:2.17.1:compile
+[INFO] +- javax.servlet:javax.servlet-api:jar:3.0.1:provided
+[INFO] +- com.google.code.gson:gson:jar:2.4:compile
+[INFO] +- jstl:jstl:jar:1.2:compile
+[INFO] +- junit:junit:jar:4.13.1:test
+[INFO] |  \- org.hamcrest:hamcrest-core:jar:1.3:test
+[INFO] +- org.springframework:spring-test:jar:4.1.6.RELEASE:test
+[INFO] +- org.mockito:mockito-core:jar:1.10.19:test
+[INFO] |  \- org.objenesis:objenesis:jar:2.1:test
+[INFO] +- org.powermock:powermock-api-mockito-common:jar:1.6.5:test
+[INFO] |  \- org.powermock:powermock-api-support:jar:1.6.5:test
+[INFO] |     +- org.powermock:powermock-core:jar:1.6.5:test
+[INFO] |     |  \- org.javassist:javassist:jar:3.20.0-GA:test
+[INFO] |     \- org.powermock:powermock-reflect:jar:1.6.5:test
+[INFO] +- org.powermock:powermock-api-mockito:jar:1.6.5:test
+[INFO] \- org.powermock:powermock-module-junit4:jar:1.6.5:test
+[INFO]    \- org.powermock:powermock-module-junit4-common:jar:1.6.5:test
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  10.627 s
+[INFO] Finished at: 2023-09-21T06:15:00Z
+[INFO] ------------------------------------------------------------------------

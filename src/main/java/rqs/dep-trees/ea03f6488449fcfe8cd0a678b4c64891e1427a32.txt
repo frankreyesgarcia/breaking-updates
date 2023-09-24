@@ -1,0 +1,333 @@
+[INFO] Scanning for projects...
+[INFO] Inspecting build with total of 1 modules...
+[INFO] Installing Nexus Staging features:
+[INFO]   ... total of 1 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+Downloading from central: https://repo.maven.apache.org/maven2/org/jacoco/jacoco-maven-plugin/0.8.5/jacoco-maven-plugin-0.8.5.pom
+Progress (1): 1.4/4.4 kB
+Progress (1): 2.7/4.4 kB
+Progress (1): 4.1/4.4 kB
+Progress (1): 4.4 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jacoco/jacoco-maven-plugin/0.8.5/jacoco-maven-plugin-0.8.5.pom (4.4 kB at 10 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.build/0.8.5/org.jacoco.build-0.8.5.pom
+Progress (1): 1.4/41 kB
+Progress (1): 2.7/41 kB
+Progress (1): 4.1/41 kB
+Progress (1): 5.5/41 kB
+Progress (1): 6.9/41 kB
+Progress (1): 8.2/41 kB
+Progress (1): 9.6/41 kB
+Progress (1): 11/41 kB 
+Progress (1): 12/41 kB
+Progress (1): 14/41 kB
+Progress (1): 15/41 kB
+Progress (1): 16/41 kB
+Progress (1): 17/41 kB
+Progress (1): 19/41 kB
+Progress (1): 20/41 kB
+Progress (1): 21/41 kB
+Progress (1): 23/41 kB
+Progress (1): 24/41 kB
+Progress (1): 25/41 kB
+Progress (1): 27/41 kB
+Progress (1): 28/41 kB
+Progress (1): 30/41 kB
+Progress (1): 31/41 kB
+Progress (1): 32/41 kB
+Progress (1): 34/41 kB
+Progress (1): 35/41 kB
+Progress (1): 36/41 kB
+Progress (1): 38/41 kB
+Progress (1): 39/41 kB
+Progress (1): 41/41 kB
+Progress (1): 41 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.build/0.8.5/org.jacoco.build-0.8.5.pom (41 kB at 898 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jacoco/jacoco-maven-plugin/0.8.5/jacoco-maven-plugin-0.8.5.jar
+Progress (1): 16/53 kB
+Progress (1): 33/53 kB
+Progress (1): 49/53 kB
+Progress (1): 53 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jacoco/jacoco-maven-plugin/0.8.5/jacoco-maven-plugin-0.8.5.jar (53 kB at 2.0 MB/s)
+[INFO] 
+[INFO] ---------------------< com.redislabs:jredisgraph >----------------------
+[INFO] Building JRedisGraph 2.6.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from central: https://repo.maven.apache.org/maven2/redis/clients/jedis/3.9.0/jedis-3.9.0.pom
+Progress (1): 6.7 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/redis/clients/jedis/3.9.0/jedis-3.9.0.pom (6.7 kB at 372 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-simple/1.6.6/slf4j-simple-1.6.6.pom
+Progress (1): 1.5 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-simple/1.6.6/slf4j-simple-1.6.6.pom (1.5 kB at 82 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/nl/jqno/equalsverifier/equalsverifier/3.1.10/equalsverifier-3.1.10.pom
+Progress (1): 16/18 kB
+Progress (1): 18 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/nl/jqno/equalsverifier/equalsverifier/3.1.10/equalsverifier-3.1.10.pom (18 kB at 1.1 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/redis/clients/jedis/3.9.0/jedis-3.9.0.jar
+Progress (1): 16/904 kB
+Progress (1): 33/904 kB
+Progress (1): 49/904 kB
+Progress (1): 66/904 kB
+Progress (1): 82/904 kB
+Progress (1): 98/904 kB
+Progress (1): 115/904 kB
+Progress (1): 131/904 kB
+Progress (1): 147/904 kB
+Progress (1): 164/904 kB
+Progress (1): 180/904 kB
+Progress (1): 197/904 kB
+Progress (1): 213/904 kB
+Progress (1): 229/904 kB
+Progress (1): 246/904 kB
+Progress (1): 262/904 kB
+Progress (1): 279/904 kB
+Progress (1): 295/904 kB
+Progress (1): 311/904 kB
+Progress (1): 328/904 kB
+Progress (1): 344/904 kB
+Progress (1): 360/904 kB
+Progress (1): 377/904 kB
+Progress (1): 393/904 kB
+Progress (1): 410/904 kB
+Progress (1): 426/904 kB
+Progress (1): 442/904 kB
+Progress (1): 459/904 kB
+Progress (1): 475/904 kB
+Progress (1): 492/904 kB
+Progress (1): 508/904 kB
+Progress (1): 524/904 kB
+Progress (1): 541/904 kB
+Progress (1): 557/904 kB
+Progress (1): 573/904 kB
+Progress (1): 585/904 kB
+Progress (1): 601/904 kB
+Progress (1): 617/904 kB
+Progress (1): 634/904 kB
+Progress (1): 650/904 kB
+Progress (1): 667/904 kB
+Progress (1): 683/904 kB
+Progress (1): 699/904 kB
+Progress (1): 716/904 kB
+Progress (1): 732/904 kB
+Progress (1): 749/904 kB
+Progress (1): 765/904 kB
+Progress (1): 781/904 kB
+Progress (1): 798/904 kB
+Progress (1): 814/904 kB
+Progress (1): 830/904 kB
+Progress (1): 847/904 kB
+Progress (1): 863/904 kB
+Progress (1): 880/904 kB
+Progress (1): 896/904 kB
+Progress (1): 904 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/redis/clients/jedis/3.9.0/jedis-3.9.0.jar (904 kB at 11 MB/s)
+[INFO] 
+[INFO] --- jacoco:0.8.5:prepare-agent (default) @ jredisgraph ---
+Downloading from central: https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.agent/0.8.5/org.jacoco.agent-0.8.5.pom
+Progress (1): 3.5 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.agent/0.8.5/org.jacoco.agent-0.8.5.pom (3.5 kB at 318 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.core/0.8.5/org.jacoco.core-0.8.5.pom
+Progress (1): 2.1 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.core/0.8.5/org.jacoco.core-0.8.5.pom (2.1 kB at 208 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/7.2/asm-7.2.pom
+Progress (1): 2.9 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/7.2/asm-7.2.pom (2.9 kB at 294 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/7.2/asm-commons-7.2.pom
+Progress (1): 3.7 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/7.2/asm-commons-7.2.pom (3.7 kB at 524 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/7.2/asm-tree-7.2.pom
+Progress (1): 3.1 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/7.2/asm-tree-7.2.pom (3.1 kB at 391 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-analysis/7.2/asm-analysis-7.2.pom
+Progress (1): 3.2 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-analysis/7.2/asm-analysis-7.2.pom (3.2 kB at 351 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.report/0.8.5/org.jacoco.report-0.8.5.pom
+Progress (1): 1.9 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.report/0.8.5/org.jacoco.report-0.8.5.pom (1.9 kB at 171 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.agent/0.8.5/org.jacoco.agent-0.8.5-runtime.jar
+Progress (1): 16/282 kB
+Progress (1): 33/282 kB
+Progress (1): 49/282 kB
+Progress (1): 66/282 kB
+Progress (1): 82/282 kB
+Progress (1): 98/282 kB
+Progress (1): 115/282 kB
+Progress (1): 131/282 kB
+Progress (1): 147/282 kB
+Progress (1): 164/282 kB
+Progress (1): 180/282 kB
+Progress (1): 197/282 kB
+Progress (1): 213/282 kB
+Progress (1): 229/282 kB
+Progress (1): 246/282 kB
+Progress (1): 262/282 kB
+Progress (1): 279/282 kB
+Progress (1): 282 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.agent/0.8.5/org.jacoco.agent-0.8.5-runtime.jar (282 kB at 9.1 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.core/0.8.5/org.jacoco.core-0.8.5.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/7.2/asm-7.2.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-analysis/7.2/asm-analysis-7.2.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/7.2/asm-commons-7.2.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/7.2/asm-tree-7.2.jar
+Progress (1): 16/115 kB
+Progress (1): 32/115 kB
+Progress (1): 49/115 kB
+Progress (1): 65/115 kB
+Progress (1): 81/115 kB
+Progress (1): 98/115 kB
+Progress (1): 114/115 kB
+Progress (1): 115 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/7.2/asm-7.2.jar (115 kB at 4.8 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.report/0.8.5/org.jacoco.report-0.8.5.jar
+Progress (1): 16/70 kB
+Progress (1): 33/70 kB
+Progress (1): 49/70 kB
+Progress (1): 66/70 kB
+Progress (2): 66/70 kB | 16/195 kB
+Progress (2): 70 kB | 16/195 kB   
+Progress (3): 70 kB | 16/195 kB | 16/129 kB
+Progress (3): 70 kB | 16/195 kB | 33/129 kB
+                                           
+Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/7.2/asm-commons-7.2.jar (70 kB at 1.8 MB/s)
+Progress (3): 16/195 kB | 33/129 kB | 1.4/33 kB
+Progress (3): 16/195 kB | 49/129 kB | 1.4/33 kB
+Progress (3): 16/195 kB | 49/129 kB | 2.7/33 kB
+Progress (3): 16/195 kB | 66/129 kB | 2.7/33 kB
+Progress (3): 16/195 kB | 66/129 kB | 4.1/33 kB
+Progress (3): 16/195 kB | 66/129 kB | 5.5/33 kB
+Progress (3): 16/195 kB | 66/129 kB | 6.9/33 kB
+Progress (4): 16/195 kB | 66/129 kB | 6.9/33 kB | 1.4/50 kB
+Progress (4): 16/195 kB | 66/129 kB | 6.9/33 kB | 2.7/50 kB
+Progress (4): 16/195 kB | 66/129 kB | 6.9/33 kB | 4.1/50 kB
+Progress (4): 16/195 kB | 66/129 kB | 6.9/33 kB | 5.5/50 kB
+Progress (4): 16/195 kB | 66/129 kB | 6.9/33 kB | 6.9/50 kB
+Progress (4): 16/195 kB | 66/129 kB | 6.9/33 kB | 8.2/50 kB
+Progress (4): 16/195 kB | 66/129 kB | 6.9/33 kB | 9.6/50 kB
+Progress (4): 16/195 kB | 66/129 kB | 6.9/33 kB | 11/50 kB 
+Progress (4): 16/195 kB | 66/129 kB | 6.9/33 kB | 12/50 kB
+Progress (4): 33/195 kB | 66/129 kB | 6.9/33 kB | 12/50 kB
+Progress (4): 33/195 kB | 66/129 kB | 6.9/33 kB | 14/50 kB
+Progress (4): 33/195 kB | 82/129 kB | 6.9/33 kB | 14/50 kB
+Progress (4): 49/195 kB | 82/129 kB | 6.9/33 kB | 14/50 kB
+Progress (4): 49/195 kB | 98/129 kB | 6.9/33 kB | 14/50 kB
+Progress (4): 66/195 kB | 98/129 kB | 6.9/33 kB | 14/50 kB
+Progress (4): 66/195 kB | 115/129 kB | 6.9/33 kB | 14/50 kB
+Progress (4): 82/195 kB | 115/129 kB | 6.9/33 kB | 14/50 kB
+Progress (4): 98/195 kB | 115/129 kB | 6.9/33 kB | 14/50 kB
+Progress (4): 98/195 kB | 115/129 kB | 8.2/33 kB | 14/50 kB
+Progress (4): 98/195 kB | 129 kB | 8.2/33 kB | 14/50 kB    
+Progress (4): 115/195 kB | 129 kB | 8.2/33 kB | 14/50 kB
+Progress (4): 115/195 kB | 129 kB | 8.2/33 kB | 15/50 kB
+Progress (4): 115/195 kB | 129 kB | 8.2/33 kB | 16/50 kB
+Progress (4): 115/195 kB | 129 kB | 9.6/33 kB | 16/50 kB
+Progress (4): 115/195 kB | 129 kB | 9.6/33 kB | 18/50 kB
+Progress (4): 131/195 kB | 129 kB | 9.6/33 kB | 18/50 kB
+Progress (4): 131/195 kB | 129 kB | 9.6/33 kB | 19/50 kB
+Progress (4): 131/195 kB | 129 kB | 9.6/33 kB | 21/50 kB
+Progress (4): 131/195 kB | 129 kB | 9.6/33 kB | 22/50 kB
+Progress (4): 131/195 kB | 129 kB | 11/33 kB | 22/50 kB 
+Progress (4): 147/195 kB | 129 kB | 11/33 kB | 22/50 kB
+Progress (4): 147/195 kB | 129 kB | 11/33 kB | 23/50 kB
+                                                       
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.report/0.8.5/org.jacoco.report-0.8.5.jar (129 kB at 1.9 MB/s)
+Progress (3): 147/195 kB | 11/33 kB | 25/50 kB
+Progress (3): 147/195 kB | 12/33 kB | 25/50 kB
+Progress (3): 164/195 kB | 12/33 kB | 25/50 kB
+Progress (3): 164/195 kB | 12/33 kB | 26/50 kB
+Progress (3): 164/195 kB | 14/33 kB | 26/50 kB
+Progress (3): 164/195 kB | 14/33 kB | 27/50 kB
+Progress (3): 164/195 kB | 15/33 kB | 27/50 kB
+Progress (3): 164/195 kB | 15/33 kB | 29/50 kB
+Progress (3): 180/195 kB | 15/33 kB | 29/50 kB
+Progress (3): 180/195 kB | 15/33 kB | 30/50 kB
+Progress (3): 180/195 kB | 15/33 kB | 32/50 kB
+Progress (3): 180/195 kB | 16/33 kB | 32/50 kB
+Progress (3): 180/195 kB | 16/33 kB | 33/50 kB
+Progress (3): 195 kB | 16/33 kB | 33/50 kB    
+Progress (3): 195 kB | 16/33 kB | 34/50 kB
+Progress (3): 195 kB | 16/33 kB | 36/50 kB
+Progress (3): 195 kB | 17/33 kB | 36/50 kB
+Progress (3): 195 kB | 17/33 kB | 37/50 kB
+Progress (3): 195 kB | 17/33 kB | 38/50 kB
+Progress (3): 195 kB | 17/33 kB | 40/50 kB
+Progress (3): 195 kB | 17/33 kB | 41/50 kB
+Progress (3): 195 kB | 17/33 kB | 43/50 kB
+Progress (3): 195 kB | 17/33 kB | 44/50 kB
+Progress (3): 195 kB | 17/33 kB | 45/50 kB
+Progress (3): 195 kB | 17/33 kB | 47/50 kB
+Progress (3): 195 kB | 17/33 kB | 48/50 kB
+Progress (3): 195 kB | 17/33 kB | 49/50 kB
+Progress (3): 195 kB | 17/33 kB | 50 kB   
+Progress (3): 195 kB | 19/33 kB | 50 kB
+Progress (3): 195 kB | 20/33 kB | 50 kB
+Progress (3): 195 kB | 21/33 kB | 50 kB
+Progress (3): 195 kB | 23/33 kB | 50 kB
+Progress (3): 195 kB | 24/33 kB | 50 kB
+Progress (3): 195 kB | 25/33 kB | 50 kB
+Progress (3): 195 kB | 27/33 kB | 50 kB
+Progress (3): 195 kB | 28/33 kB | 50 kB
+Progress (3): 195 kB | 30/33 kB | 50 kB
+Progress (3): 195 kB | 31/33 kB | 50 kB
+                                       
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.core/0.8.5/org.jacoco.core-0.8.5.jar (195 kB at 2.3 MB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/7.2/asm-tree-7.2.jar (50 kB at 553 kB/s)
+Progress (1): 32/33 kB
+Progress (1): 33 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-analysis/7.2/asm-analysis-7.2.jar (33 kB at 352 kB/s)
+[INFO] argLine set to -javaagent:C:\\Users\\frank_bump\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.8.5\\org.jacoco.agent-0.8.5-runtime.jar=destfile=D:\\Bump\\breaking-updates\\tempProject\\ea03f6488449fcfe8cd0a678b4c64891e1427a32\\JRedisGraph\\target\\jacoco.exec
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ jredisgraph ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory D:\Bump\breaking-updates\tempProject\ea03f6488449fcfe8cd0a678b4c64891e1427a32\JRedisGraph\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ jredisgraph ---
+[INFO] Changes detected - recompiling the module! :dependency
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[INFO] Compiling 32 source files with javac [debug target 8] to target\classes
+[WARNING] bootstrap class path not set in conjunction with -source 8
+[INFO] /D:/Bump/breaking-updates/tempProject/ea03f6488449fcfe8cd0a678b4c64891e1427a32/JRedisGraph/src/main/java/com/redislabs/redisgraph/impl/api/RedisGraphTransaction.java: Some input files use or override a deprecated API.
+[INFO] /D:/Bump/breaking-updates/tempProject/ea03f6488449fcfe8cd0a678b4c64891e1427a32/JRedisGraph/src/main/java/com/redislabs/redisgraph/impl/api/RedisGraphTransaction.java: Recompile with -Xlint:deprecation for details.
+[INFO] /D:/Bump/breaking-updates/tempProject/ea03f6488449fcfe8cd0a678b4c64891e1427a32/JRedisGraph/src/main/java/com/redislabs/redisgraph/graph_entities/GraphEntity.java: Some input files use unchecked or unsafe operations.
+[INFO] /D:/Bump/breaking-updates/tempProject/ea03f6488449fcfe8cd0a678b4c64891e1427a32/JRedisGraph/src/main/java/com/redislabs/redisgraph/graph_entities/GraphEntity.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- dependency:3.6.0:tree (default-cli) @ jredisgraph ---
+[INFO] com.redislabs:jredisgraph:jar:2.6.0-SNAPSHOT
+[INFO] +- redis.clients:jedis:jar:3.9.0:compile
+[INFO] |  +- org.slf4j:slf4j-api:jar:1.7.30:compile
+[INFO] |  \- org.apache.commons:commons-pool2:jar:2.11.1:compile
+[INFO] +- org.apache.commons:commons-text:jar:1.10.0:compile
+[INFO] |  \- org.apache.commons:commons-lang3:jar:3.12.0:compile
+[INFO] +- junit:junit:jar:4.13.2:test
+[INFO] |  \- org.hamcrest:hamcrest-core:jar:1.3:test
+[INFO] +- org.slf4j:slf4j-simple:jar:1.6.6:test
+[INFO] +- org.junit.jupiter:junit-jupiter:jar:5.7.1:test
+[INFO] |  +- org.junit.jupiter:junit-jupiter-api:jar:5.7.1:test
+[INFO] |  |  +- org.apiguardian:apiguardian-api:jar:1.1.0:test
+[INFO] |  |  +- org.opentest4j:opentest4j:jar:1.2.0:test
+[INFO] |  |  \- org.junit.platform:junit-platform-commons:jar:1.7.1:test
+[INFO] |  +- org.junit.jupiter:junit-jupiter-params:jar:5.7.1:test
+[INFO] |  \- org.junit.jupiter:junit-jupiter-engine:jar:5.7.1:test
+[INFO] |     \- org.junit.platform:junit-platform-engine:jar:1.7.1:test
+[INFO] \- nl.jqno.equalsverifier:equalsverifier:jar:3.1.10:test
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  9.304 s
+[INFO] Finished at: 2023-09-21T20:56:06Z
+[INFO] ------------------------------------------------------------------------

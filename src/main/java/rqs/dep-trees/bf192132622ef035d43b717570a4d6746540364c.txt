@@ -1,0 +1,38 @@
+Downloading from central: https://repo.maven.apache.org/maven2/io/takari/aether/takari-local-repository/0.11.3/takari-local-repository-0.11.3.pom
+[WARNING] Failed to write tracking file 'C:\Users\frank_bump\.m2\repository\io\takari\aether\takari-local-repository\0.11.3\takari-local-repository-0.11.3.pom.lastUpdated'
+java.io.IOException: There is not enough space on the disk
+    at java.io.RandomAccessFile.writeBytes (Native Method)
+    at java.io.RandomAccessFile.write (RandomAccessFile.java:545)
+    at org.eclipse.aether.internal.impl.DefaultTrackingFileManager.update (DefaultTrackingFileManager.java:107)
+    at org.eclipse.aether.internal.impl.DefaultUpdateCheckManager.write (DefaultUpdateCheckManager.java:527)
+    at org.eclipse.aether.internal.impl.DefaultUpdateCheckManager.touchArtifact (DefaultUpdateCheckManager.java:474)
+    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.evaluateDownloads (DefaultArtifactResolver.java:635)
+    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads (DefaultArtifactResolver.java:544)
+    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve (DefaultArtifactResolver.java:448)
+    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts (DefaultArtifactResolver.java:260)
+    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact (DefaultArtifactResolver.java:242)
+    at org.apache.maven.repository.internal.DefaultArtifactDescriptorReader.loadPom (DefaultArtifactDescriptorReader.java:231)
+    at org.apache.maven.repository.internal.DefaultArtifactDescriptorReader.readArtifactDescriptor (DefaultArtifactDescriptorReader.java:172)
+    at org.eclipse.aether.internal.impl.collect.DependencyCollectorDelegate.collectDependencies (DependencyCollectorDelegate.java:179)
+    at org.eclipse.aether.internal.impl.collect.DefaultDependencyCollector.collectDependencies (DefaultDependencyCollector.java:87)
+    at org.eclipse.aether.internal.impl.DefaultRepositorySystem.collectDependencies (DefaultRepositorySystem.java:305)
+    at org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver.resolveInternal (DefaultPluginDependenciesResolver.java:212)
+    at org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver.resolveCoreExtension (DefaultPluginDependenciesResolver.java:155)
+    at org.apache.maven.cli.internal.BootstrapCoreExtensionManager.resolveExtension (BootstrapCoreExtensionManager.java:174)
+    at org.apache.maven.cli.internal.BootstrapCoreExtensionManager.resolveCoreExtensions (BootstrapCoreExtensionManager.java:115)
+    at org.apache.maven.cli.internal.BootstrapCoreExtensionManager.loadCoreExtensions (BootstrapCoreExtensionManager.java:99)
+    at org.apache.maven.cli.MavenCli.loadCoreExtensions (MavenCli.java:756)
+    at org.apache.maven.cli.MavenCli.container (MavenCli.java:627)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:277)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:206)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:77)
+    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:568)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:283)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:226)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:407)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:348)
+[ERROR] Error executing Maven.
+[ERROR] java.io.IOException: There is not enough space on the disk
+[ERROR] Caused by: There is not enough space on the disk

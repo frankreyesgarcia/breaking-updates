@@ -1,0 +1,298 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] OpenAS2                                                            [pom]
+[INFO] OpenAS2 Remote                                                     [jar]
+[INFO] OpenAS2 Server                                                     [jar]
+Downloading from central: https://repo.maven.apache.org/maven2/com/github/spotbugs/spotbugs-maven-plugin/4.6.0/spotbugs-maven-plugin-4.6.0.pom
+[WARNING] The POM for com.github.spotbugs:spotbugs-maven-plugin:jar:4.6.0 is missing, no dependency information available
+Downloading from central: https://repo.maven.apache.org/maven2/com/github/spotbugs/spotbugs-maven-plugin/4.6.0/spotbugs-maven-plugin-4.6.0.jar
+[WARNING] Failed to retrieve plugin descriptor for com.github.spotbugs:spotbugs-maven-plugin:4.6.0: Plugin com.github.spotbugs:spotbugs-maven-plugin:4.6.0 or one of its dependencies could not be resolved: The following artifacts could not be resolved: com.github.spotbugs:spotbugs-maven-plugin:jar:4.6.0 (absent): Could not find artifact com.github.spotbugs:spotbugs-maven-plugin:jar:4.6.0 in central (https://repo.maven.apache.org/maven2)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/versions-maven-plugin/2.10.0/versions-maven-plugin-2.10.0.pom
+Progress (1): 1.4/16 kB
+Progress (1): 2.7/16 kB
+Progress (1): 4.1/16 kB
+Progress (1): 5.5/16 kB
+Progress (1): 6.9/16 kB
+Progress (1): 8.2/16 kB
+Progress (1): 9.6/16 kB
+Progress (1): 11/16 kB 
+Progress (1): 12/16 kB
+Progress (1): 14/16 kB
+Progress (1): 15/16 kB
+Progress (1): 16 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/versions-maven-plugin/2.10.0/versions-maven-plugin-2.10.0.pom (16 kB at 400 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/versions-maven-plugin/2.10.0/versions-maven-plugin-2.10.0.jar
+Progress (1): 16/316 kB
+Progress (1): 33/316 kB
+Progress (1): 49/316 kB
+Progress (1): 66/316 kB
+Progress (1): 82/316 kB
+Progress (1): 98/316 kB
+Progress (1): 115/316 kB
+Progress (1): 131/316 kB
+Progress (1): 147/316 kB
+Progress (1): 164/316 kB
+Progress (1): 180/316 kB
+Progress (1): 197/316 kB
+Progress (1): 213/316 kB
+Progress (1): 229/316 kB
+Progress (1): 246/316 kB
+Progress (1): 256/316 kB
+Progress (1): 272/316 kB
+Progress (1): 289/316 kB
+Progress (1): 305/316 kB
+Progress (1): 316 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/versions-maven-plugin/2.10.0/versions-maven-plugin-2.10.0.jar (316 kB at 3.8 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.6.1/maven-compiler-plugin-3.6.1.pom
+Progress (1): 11 kB
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.6.1/maven-compiler-plugin-3.6.1.pom (11 kB at 1.1 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.6.1/maven-compiler-plugin-3.6.1.jar
+Progress (1): 16/59 kB
+Progress (1): 33/59 kB
+Progress (1): 49/59 kB
+Progress (1): 59 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.6.1/maven-compiler-plugin-3.6.1.jar (59 kB at 5.9 MB/s)
+[INFO] 
+[INFO] -----------------------< net.sf.openas2:OpenAS2 >-----------------------
+[INFO] Building OpenAS2 3.5.0                                             [1/3]
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[WARNING] The POM for com.github.spotbugs:spotbugs-maven-plugin:jar:4.6.0 is missing, no dependency information available
+[WARNING] Failed to retrieve plugin descriptor for com.github.spotbugs:spotbugs-maven-plugin:4.6.0: Plugin com.github.spotbugs:spotbugs-maven-plugin:4.6.0 or one of its dependencies could not be resolved: The following artifacts could not be resolved: com.github.spotbugs:spotbugs-maven-plugin:jar:4.6.0 (absent): com.github.spotbugs:spotbugs-maven-plugin:jar:4.6.0 was not found in https://repo.maven.apache.org/maven2 during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of central has elapsed or updates are forced
+[INFO] 
+[INFO] --- checkstyle:3.1.0:check (verify-style) @ OpenAS2 ---
+Downloading from central: https://repo.maven.apache.org/maven2/com/puppycrawl/tools/checkstyle/8.19/checkstyle-8.19.pom
+Progress (1): 16/126 kB
+Progress (1): 33/126 kB
+Progress (1): 49/126 kB
+Progress (1): 66/126 kB
+Progress (1): 82/126 kB
+Progress (1): 98/126 kB
+Progress (1): 115/126 kB
+Progress (1): 126 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/puppycrawl/tools/checkstyle/8.19/checkstyle-8.19.pom (126 kB at 7.9 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/info/picocli/picocli/3.9.5/picocli-3.9.5.pom
+Progress (1): 1.4 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/info/picocli/picocli/3.9.5/picocli-3.9.5.pom (1.4 kB at 131 kB/s)
+[INFO] Artifact commons-beanutils:commons-beanutils:pom:1.9.3 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases), apache.snapshots (https://repository.apache.org/snapshots, default, snapshots), sonatype-nexus-snapshots (https://oss.sonatype.org/content/repositories/snapshots, default, snapshots)]
+[INFO] Artifact commons-beanutils:commons-beanutils:pom:1.9.3 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases), apache.snapshots (https://repository.apache.org/snapshots, default, snapshots), sonatype-nexus-snapshots (https://oss.sonatype.org/content/repositories/snapshots, default, snapshots)]
+Downloading from central: https://repo.maven.apache.org/maven2/commons-beanutils/commons-beanutils/1.9.3/commons-beanutils-1.9.3.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/commons-beanutils/commons-beanutils/1.9.3/commons-beanutils-1.9.3.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/net/sf/saxon/Saxon-HE/9.9.1-2/Saxon-HE-9.9.1-2.pom
+Progress (1): 3.9 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/net/sf/saxon/Saxon-HE/9.9.1-2/Saxon-HE-9.9.1-2.pom (3.9 kB at 300 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/ibm/icu/icu4j/63.1/icu4j-63.1.pom
+Progress (1): 4.9 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/ibm/icu/icu4j/63.1/icu4j-63.1.pom (4.9 kB at 449 kB/s)
+[INFO] Artifact commons-beanutils:commons-beanutils:jar:1.9.3 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases), apache.snapshots (https://repository.apache.org/snapshots, default, snapshots), sonatype-nexus-snapshots (https://oss.sonatype.org/content/repositories/snapshots, default, snapshots)]
+[INFO] Artifact commons-beanutils:commons-beanutils:jar:1.9.3 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases), apache.snapshots (https://repository.apache.org/snapshots, default, snapshots), sonatype-nexus-snapshots (https://oss.sonatype.org/content/repositories/snapshots, default, snapshots)]
+Downloading from central: https://repo.maven.apache.org/maven2/com/puppycrawl/tools/checkstyle/8.19/checkstyle-8.19.jar
+Progress (1): 0/1.3 MB
+Progress (1): 0/1.3 MB
+Progress (1): 0/1.3 MB
+Progress (1): 0.1/1.3 MB
+Progress (1): 0.1/1.3 MB
+Progress (1): 0.1/1.3 MB
+Progress (1): 0.1/1.3 MB
+Progress (1): 0.1/1.3 MB
+Progress (1): 0.1/1.3 MB
+Progress (1): 0.2/1.3 MB
+Progress (1): 0.2/1.3 MB
+Progress (1): 0.2/1.3 MB
+Progress (1): 0.2/1.3 MB
+Progress (1): 0.2/1.3 MB
+Progress (1): 0.2/1.3 MB
+Progress (1): 0.3/1.3 MB
+Progress (1): 0.3/1.3 MB
+Progress (1): 0.3/1.3 MB
+Progress (1): 0.3/1.3 MB
+Progress (1): 0.3/1.3 MB
+Progress (1): 0.3/1.3 MB
+Progress (1): 0.4/1.3 MB
+Progress (1): 0.4/1.3 MB
+Progress (1): 0.4/1.3 MB
+Progress (1): 0.4/1.3 MB
+Progress (1): 0.4/1.3 MB
+Progress (1): 0.4/1.3 MB
+Progress (1): 0.5/1.3 MB
+Progress (1): 0.5/1.3 MB
+Progress (1): 0.5/1.3 MB
+Progress (1): 0.5/1.3 MB
+Progress (1): 0.5/1.3 MB
+Progress (1): 0.5/1.3 MB
+Progress (1): 0.5/1.3 MB
+Progress (1): 0.6/1.3 MB
+Progress (1): 0.6/1.3 MB
+Progress (1): 0.6/1.3 MB
+Progress (1): 0.6/1.3 MB
+Progress (1): 0.6/1.3 MB
+Progress (1): 0.6/1.3 MB
+Progress (1): 0.7/1.3 MB
+Progress (1): 0.7/1.3 MB
+Progress (1): 0.7/1.3 MB
+Progress (1): 0.7/1.3 MB
+Progress (1): 0.7/1.3 MB
+Progress (1): 0.7/1.3 MB
+Progress (1): 0.8/1.3 MB
+Progress (1): 0.8/1.3 MB
+Progress (1): 0.8/1.3 MB
+Progress (1): 0.8/1.3 MB
+Progress (1): 0.8/1.3 MB
+Progress (1): 0.8/1.3 MB
+Progress (1): 0.9/1.3 MB
+Progress (1): 0.9/1.3 MB
+Progress (1): 0.9/1.3 MB
+Progress (1): 0.9/1.3 MB
+Progress (1): 0.9/1.3 MB
+Progress (1): 0.9/1.3 MB
+Progress (1): 1.0/1.3 MB
+Progress (1): 1.0/1.3 MB
+Progress (1): 1.0/1.3 MB
+Progress (1): 1.0/1.3 MB
+Progress (1): 1.0/1.3 MB
+Progress (1): 1.0/1.3 MB
+Progress (1): 1.1/1.3 MB
+Progress (1): 1.1/1.3 MB
+Progress (1): 1.1/1.3 MB
+Progress (1): 1.1/1.3 MB
+Progress (1): 1.1/1.3 MB
+Progress (1): 1.1/1.3 MB
+Progress (1): 1.1/1.3 MB
+Progress (1): 1.2/1.3 MB
+Progress (1): 1.2/1.3 MB
+Progress (1): 1.2/1.3 MB
+Progress (1): 1.2/1.3 MB
+Progress (1): 1.2/1.3 MB
+Progress (1): 1.2/1.3 MB
+Progress (1): 1.3/1.3 MB
+Progress (1): 1.3/1.3 MB
+Progress (1): 1.3/1.3 MB
+Progress (1): 1.3/1.3 MB
+Progress (1): 1.3 MB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/puppycrawl/tools/checkstyle/8.19/checkstyle-8.19.jar (1.3 MB at 14 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/info/picocli/picocli/3.9.5/picocli-3.9.5.jar
+Downloading from central: https://repo.maven.apache.org/maven2/com/ibm/icu/icu4j/63.1/icu4j-63.1.jar
+Downloading from central: https://repo.maven.apache.org/maven2/commons-beanutils/commons-beanutils/1.9.3/commons-beanutils-1.9.3.jar
+Downloading from central: https://repo.maven.apache.org/maven2/net/sf/saxon/Saxon-HE/9.9.1-2/Saxon-HE-9.9.1-2.jar
+Progress (1): 16/263 kB
+Progress (1): 33/263 kB
+Progress (1): 49/263 kB
+Progress (1): 66/263 kB
+Progress (1): 82/263 kB
+Progress (1): 98/263 kB
+Progress (1): 115/263 kB
+Progress (1): 131/263 kB
+Progress (1): 147/263 kB
+Progress (1): 164/263 kB
+Progress (1): 180/263 kB
+Progress (1): 197/263 kB
+Progress (1): 213/263 kB
+Progress (1): 229/263 kB
+Progress (1): 246/263 kB
+Progress (1): 262/263 kB
+Progress (1): 263 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/info/picocli/picocli/3.9.5/picocli-3.9.5.jar (263 kB at 13 MB/s)
+Progress (1): 0/13 MB
+Progress (1): 0/13 MB
+Progress (1): 0/13 MB
+Progress (1): 0/13 MB
+Progress (1): 0/13 MB
+Progress (1): 0/13 MB
+Progress (1): 0/13 MB
+Progress (1): 0/13 MB
+Progress (1): 0/13 MB
+Progress (1): 0/13 MB
+Progress (1): 0/13 MB
+Progress (1): 0/13 MB
+Progress (1): 0/13 MB
+Progress (1): 0/13 MB
+Progress (1): 0/13 MB
+Progress (1): 0/13 MB
+Progress (1): 0/13 MB
+Progress (1): 0/13 MB
+                     
+Downloaded from central: https://repo.maven.apache.org/maven2/commons-beanutils/commons-beanutils/1.9.3/commons-beanutils-1.9.3.jar (0 B at 0 B/s)
+Progress (1): 0/13 MB
+Progress (1): 0/13 MB
+Progress (1): 0/13 MB
+Progress (1): 0/13 MB
+Progress (1): 0/13 MB
+Progress (1): 0/13 MB
+Progress (1): 0/13 MB
+Progress (1): 0/13 MB
+Progress (1): 0/13 MB
+Progress (1): 0/13 MB
+Progress (1): 0/13 MB
+Progress (1): 0/13 MB
+Progress (1): 0/13 MB
+Progress (1): 0/13 MB
+Progress (1): 0/13 MB
+Progress (1): 0/13 MB
+Progress (1): 0/13 MB
+Progress (1): 0/13 MB
+Progress (2): 0/13 MB | 0/5.5 MB
+Progress (2): 0.1/13 MB | 0/5.5 MB
+Progress (2): 0.1/13 MB | 0/5.5 MB
+Progress (2): 0.1/13 MB | 0/5.5 MB
+Progress (2): 0.1/13 MB | 0/5.5 MB
+Progress (2): 0.1/13 MB | 0/5.5 MB
+Progress (2): 0.1/13 MB | 0/5.5 MB
+Progress (2): 0.1/13 MB | 0/5.5 MB
+Progress (2): 0.1/13 MB | 0/5.5 MB
+Progress (2): 0.1/13 MB | 0/5.5 MB
+Progress (2): 0.1/13 MB | 0/5.5 MB
+Progress (2): 0.1/13 MB | 0/5.5 MB
+Progress (2): 0.1/13 MB | 0/5.5 MB
+Progress (2): 0.1/13 MB | 0/5.5 MB
+Progress (2): 0.1/13 MB | 0/5.5 MB
+Progress (2): 0.1/13 MB | 0/5.5 MB
+Progress (2): 0.1/13 MB | 0/5.5 MB
+Progress (2): 0.1/13 MB | 0/5.5 MB
+Progress (2): 0.1/13 MB | 0/5.5 MB
+Progress (2): 0.2/13 MB | 0/5.5 MB
+Progress (2): 0.2/13 MB | 0/5.5 MB
+Progress (2): 0.2/13 MB | 0/5.5 MB
+Progress (2): 0.2/13 MB | 0/5.5 MB
+Progress (2): 0.2/13 MB | 0/5.5 MB
+Progress (2): 0.2/13 MB | 0/5.5 MB
+Progress (2): 0.3/13 MB | 0/5.5 MB
+Progress (2): 0.3/13 MB | 0/5.5 MB
+Progress (2): 0.3/13 MB | 0/5.5 MB
+Progress (2): 0.3/13 MB | 0/5.5 MB
+Progress (2): 0.3/13 MB | 0/5.5 MB
+Progress (2): 0.3/13 MB | 0/5.5 MB
+Progress (2): 0.4/13 MB | 0/5.5 MB
+Progress (2): 0.4/13 MB | 0/5.5 MB
+Progress (2): 0.4/13 MB | 0/5.5 MB
+                                  
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for OpenAS2 3.5.0:
+[INFO] 
+[INFO] OpenAS2 ............................................ FAILURE [  1.882 s]
+[INFO] OpenAS2 Remote ..................................... SKIPPED
+[INFO] OpenAS2 Server ..................................... SKIPPED
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.553 s
+[INFO] Finished at: 2023-09-21T14:06:38Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-checkstyle-plugin:3.1.0:check (verify-style) on project OpenAS2: Execution verify-style of goal org.apache.maven.plugins:maven-checkstyle-plugin:3.1.0:check failed: Plugin org.apache.maven.plugins:maven-checkstyle-plugin:3.1.0 or one of its dependencies could not be resolved: The following artifacts could not be resolved: net.sf.saxon:Saxon-HE:jar:9.9.1-2 (absent), com.ibm.icu:icu4j:jar:63.1 (absent): Could not transfer artifact net.sf.saxon:Saxon-HE:jar:9.9.1-2 from/to central (https://repo.maven.apache.org/maven2): There is not enough space on the disk -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/PluginResolutionException

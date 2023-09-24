@@ -1,0 +1,807 @@
+[INFO] Scanning for projects...
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-javadoc-plugin/3.2.0/maven-javadoc-plugin-3.2.0.pom
+Progress (1): 1.4/20 kB
+Progress (1): 2.7/20 kB
+Progress (1): 4.1/20 kB
+Progress (1): 5.5/20 kB
+Progress (1): 6.9/20 kB
+Progress (1): 8.2/20 kB
+Progress (1): 9.6/20 kB
+Progress (1): 11/20 kB 
+Progress (1): 12/20 kB
+Progress (1): 14/20 kB
+Progress (1): 15/20 kB
+Progress (1): 16/20 kB
+Progress (1): 17/20 kB
+Progress (1): 19/20 kB
+Progress (1): 20 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-javadoc-plugin/3.2.0/maven-javadoc-plugin-3.2.0.pom (20 kB at 56 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-javadoc-plugin/3.2.0/maven-javadoc-plugin-3.2.0.jar
+Progress (1): 16/492 kB
+Progress (1): 33/492 kB
+Progress (1): 49/492 kB
+Progress (1): 66/492 kB
+Progress (1): 82/492 kB
+Progress (1): 98/492 kB
+Progress (1): 115/492 kB
+Progress (1): 131/492 kB
+Progress (1): 147/492 kB
+Progress (1): 164/492 kB
+Progress (1): 180/492 kB
+Progress (1): 197/492 kB
+Progress (1): 213/492 kB
+Progress (1): 229/492 kB
+Progress (1): 246/492 kB
+Progress (1): 262/492 kB
+Progress (1): 279/492 kB
+Progress (1): 295/492 kB
+Progress (1): 311/492 kB
+Progress (1): 328/492 kB
+Progress (1): 344/492 kB
+Progress (1): 360/492 kB
+Progress (1): 377/492 kB
+Progress (1): 393/492 kB
+Progress (1): 410/492 kB
+Progress (1): 426/492 kB
+Progress (1): 442/492 kB
+Progress (1): 459/492 kB
+Progress (1): 475/492 kB
+Progress (1): 492/492 kB
+Progress (1): 492 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-javadoc-plugin/3.2.0/maven-javadoc-plugin-3.2.0.jar (492 kB at 4.7 MB/s)
+[INFO] 
+[INFO] -----------------------< io.github.hap-java:hap >-----------------------
+[INFO] Building hap-java 2.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-common/4.1.42.Final/netty-common-4.1.42.Final.pom
+Progress (1): 10 kB
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-common/4.1.42.Final/netty-common-4.1.42.Final.pom (10 kB at 915 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-parent/4.1.42.Final/netty-parent-4.1.42.Final.pom
+Progress (1): 16/60 kB
+Progress (1): 32/60 kB
+Progress (1): 49/60 kB
+Progress (1): 60 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-parent/4.1.42.Final/netty-parent-4.1.42.Final.pom (60 kB at 2.0 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-buffer/4.1.42.Final/netty-buffer-4.1.42.Final.pom
+Progress (1): 1.6 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-buffer/4.1.42.Final/netty-buffer-4.1.42.Final.pom (1.6 kB at 105 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport/4.1.42.Final/netty-transport-4.1.42.Final.pom
+Progress (1): 1.9 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport/4.1.42.Final/netty-transport-4.1.42.Final.pom (1.9 kB at 84 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-resolver/4.1.42.Final/netty-resolver-4.1.42.Final.pom
+Progress (1): 1.6 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-resolver/4.1.42.Final/netty-resolver-4.1.42.Final.pom (1.6 kB at 83 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-handler/4.1.42.Final/netty-handler-4.1.42.Final.pom
+Progress (1): 3.4 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-handler/4.1.42.Final/netty-handler-4.1.42.Final.pom (3.4 kB at 199 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec/4.1.42.Final/netty-codec-4.1.42.Final.pom
+Progress (1): 3.6 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec/4.1.42.Final/netty-codec-4.1.42.Final.pom (3.6 kB at 256 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec-http/4.1.42.Final/netty-codec-http-4.1.42.Final.pom
+Progress (1): 2.4 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec-http/4.1.42.Final/netty-codec-http-4.1.42.Final.pom (2.4 kB at 150 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/nimbusds/srp6a/1.5.2/srp6a-1.5.2.pom
+Progress (1): 7.5 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/nimbusds/srp6a/1.5.2/srp6a-1.5.2.pom (7.5 kB at 750 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/bouncycastle/bcprov-jdk15on/1.51/bcprov-jdk15on-1.51.pom
+Progress (1): 1.2 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/bouncycastle/bcprov-jdk15on/1.51/bcprov-jdk15on-1.51.pom (1.2 kB at 128 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/net/vrallev/ecc/ecc-25519-java/1.0.1/ecc-25519-java-1.0.1.pom
+Progress (1): 1.7 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/net/vrallev/ecc/ecc-25519-java/1.0.1/ecc-25519-java-1.0.1.pom (1.7 kB at 112 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/zeromq/curve25519-java/0.1.0/curve25519-java-0.1.0.pom
+Progress (1): 3.1 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/zeromq/curve25519-java/0.1.0/curve25519-java-0.1.0.pom (3.1 kB at 308 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/javax/json/javax.json-api/1.0/javax.json-api-1.0.pom
+Progress (1): 6.4 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/javax/json/javax.json-api/1.0/javax.json-api-1.0.pom (6.4 kB at 637 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/json/1.0/json-1.0.pom
+Progress (1): 10 kB
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/json/1.0/json-1.0.pom (10 kB at 1.3 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jmdns/jmdns/3.5.6/jmdns-3.5.6.pom
+Progress (1): 8.4 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jmdns/jmdns/3.5.6/jmdns-3.5.6.pom (8.4 kB at 702 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/mockito/mockito-core/3.8.0/mockito-core-3.8.0.pom
+Progress (1): 2.5 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/mockito/mockito-core/3.8.0/mockito-core-3.8.0.pom (2.5 kB at 313 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.10.20/byte-buddy-1.10.20.pom
+Progress (1): 11 kB
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.10.20/byte-buddy-1.10.20.pom (11 kB at 345 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-parent/1.10.20/byte-buddy-parent-1.10.20.pom
+Progress (1): 16/41 kB
+Progress (1): 32/41 kB
+Progress (1): 41 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-parent/1.10.20/byte-buddy-parent-1.10.20.pom (41 kB at 4.1 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.10.20/byte-buddy-agent-1.10.20.pom
+Progress (1): 9.6 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.10.20/byte-buddy-agent-1.10.20.pom (9.6 kB at 1.6 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/objenesis/objenesis/3.1/objenesis-3.1.pom
+Progress (1): 3.5 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/objenesis/objenesis/3.1/objenesis-3.1.pom (3.5 kB at 186 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/objenesis/objenesis-parent/3.1/objenesis-parent-3.1.pom
+Progress (1): 16/18 kB
+Progress (1): 18 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/objenesis/objenesis-parent/3.1/objenesis-parent-3.1.pom (18 kB at 2.0 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.10/slf4j-api-1.7.10.jar
+Progress (1): 16/32 kB
+Progress (1): 32 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.10/slf4j-api-1.7.10.jar (32 kB at 4.0 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-common/4.1.42.Final/netty-common-4.1.42.Final.jar
+Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport/4.1.42.Final/netty-transport-4.1.42.Final.jar
+Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec/4.1.42.Final/netty-codec-4.1.42.Final.jar
+Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-buffer/4.1.42.Final/netty-buffer-4.1.42.Final.jar
+Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-handler/4.1.42.Final/netty-handler-4.1.42.Final.jar
+Progress (1): 16/604 kB
+Progress (1): 33/604 kB
+Progress (1): 49/604 kB
+Progress (1): 66/604 kB
+Progress (1): 82/604 kB
+Progress (1): 98/604 kB
+Progress (1): 115/604 kB
+Progress (1): 131/604 kB
+Progress (1): 147/604 kB
+Progress (1): 164/604 kB
+Progress (1): 180/604 kB
+Progress (1): 197/604 kB
+Progress (1): 213/604 kB
+Progress (1): 229/604 kB
+Progress (1): 246/604 kB
+Progress (1): 256/604 kB
+Progress (1): 272/604 kB
+Progress (1): 289/604 kB
+Progress (1): 305/604 kB
+Progress (1): 321/604 kB
+Progress (2): 321/604 kB | 16/318 kB
+Progress (2): 338/604 kB | 16/318 kB
+Progress (2): 354/604 kB | 16/318 kB
+Progress (2): 370/604 kB | 16/318 kB
+Progress (3): 370/604 kB | 16/318 kB | 1.4/473 kB
+Progress (3): 370/604 kB | 16/318 kB | 2.7/473 kB
+Progress (3): 370/604 kB | 16/318 kB | 4.1/473 kB
+Progress (3): 370/604 kB | 16/318 kB | 5.5/473 kB
+Progress (3): 370/604 kB | 16/318 kB | 6.9/473 kB
+Progress (3): 387/604 kB | 16/318 kB | 6.9/473 kB
+Progress (3): 387/604 kB | 33/318 kB | 6.9/473 kB
+Progress (3): 387/604 kB | 33/318 kB | 8.2/473 kB
+Progress (3): 403/604 kB | 33/318 kB | 8.2/473 kB
+Progress (3): 403/604 kB | 33/318 kB | 9.6/473 kB
+Progress (3): 403/604 kB | 33/318 kB | 11/473 kB 
+Progress (3): 403/604 kB | 33/318 kB | 12/473 kB
+Progress (3): 420/604 kB | 33/318 kB | 12/473 kB
+Progress (4): 420/604 kB | 33/318 kB | 12/473 kB | 1.4/437 kB
+Progress (5): 420/604 kB | 33/318 kB | 12/473 kB | 1.4/437 kB | 16/277 kB
+Progress (5): 436/604 kB | 33/318 kB | 12/473 kB | 1.4/437 kB | 16/277 kB
+Progress (5): 436/604 kB | 49/318 kB | 12/473 kB | 1.4/437 kB | 16/277 kB
+Progress (5): 436/604 kB | 49/318 kB | 14/473 kB | 1.4/437 kB | 16/277 kB
+Progress (5): 436/604 kB | 49/318 kB | 14/473 kB | 1.4/437 kB | 33/277 kB
+Progress (5): 436/604 kB | 66/318 kB | 14/473 kB | 1.4/437 kB | 33/277 kB
+Progress (5): 452/604 kB | 66/318 kB | 14/473 kB | 1.4/437 kB | 33/277 kB
+Progress (5): 452/604 kB | 82/318 kB | 14/473 kB | 1.4/437 kB | 33/277 kB
+Progress (5): 452/604 kB | 82/318 kB | 14/473 kB | 2.7/437 kB | 33/277 kB
+Progress (5): 452/604 kB | 82/318 kB | 14/473 kB | 4.1/437 kB | 33/277 kB
+Progress (5): 469/604 kB | 82/318 kB | 14/473 kB | 4.1/437 kB | 33/277 kB
+Progress (5): 469/604 kB | 82/318 kB | 14/473 kB | 4.1/437 kB | 49/277 kB
+Progress (5): 469/604 kB | 82/318 kB | 15/473 kB | 4.1/437 kB | 49/277 kB
+Progress (5): 485/604 kB | 82/318 kB | 15/473 kB | 4.1/437 kB | 49/277 kB
+Progress (5): 502/604 kB | 82/318 kB | 15/473 kB | 4.1/437 kB | 49/277 kB
+Progress (5): 512/604 kB | 82/318 kB | 15/473 kB | 4.1/437 kB | 49/277 kB
+Progress (5): 512/604 kB | 98/318 kB | 15/473 kB | 4.1/437 kB | 49/277 kB
+Progress (5): 512/604 kB | 115/318 kB | 15/473 kB | 4.1/437 kB | 49/277 kB
+Progress (5): 512/604 kB | 115/318 kB | 15/473 kB | 5.5/437 kB | 49/277 kB
+Progress (5): 528/604 kB | 115/318 kB | 15/473 kB | 5.5/437 kB | 49/277 kB
+Progress (5): 528/604 kB | 115/318 kB | 15/473 kB | 5.5/437 kB | 66/277 kB
+Progress (5): 528/604 kB | 115/318 kB | 16/473 kB | 5.5/437 kB | 66/277 kB
+Progress (5): 544/604 kB | 115/318 kB | 16/473 kB | 5.5/437 kB | 66/277 kB
+Progress (5): 544/604 kB | 131/318 kB | 16/473 kB | 5.5/437 kB | 66/277 kB
+Progress (5): 544/604 kB | 131/318 kB | 32/473 kB | 5.5/437 kB | 66/277 kB
+Progress (5): 544/604 kB | 131/318 kB | 32/473 kB | 6.9/437 kB | 66/277 kB
+Progress (5): 544/604 kB | 147/318 kB | 32/473 kB | 6.9/437 kB | 66/277 kB
+Progress (5): 544/604 kB | 147/318 kB | 32/473 kB | 6.9/437 kB | 82/277 kB
+Progress (5): 544/604 kB | 147/318 kB | 32/473 kB | 6.9/437 kB | 98/277 kB
+Progress (5): 544/604 kB | 147/318 kB | 32/473 kB | 6.9/437 kB | 115/277 kB
+Progress (5): 544/604 kB | 164/318 kB | 32/473 kB | 6.9/437 kB | 115/277 kB
+Progress (5): 544/604 kB | 164/318 kB | 49/473 kB | 6.9/437 kB | 115/277 kB
+Progress (5): 544/604 kB | 164/318 kB | 49/473 kB | 8.2/437 kB | 115/277 kB
+Progress (5): 544/604 kB | 164/318 kB | 49/473 kB | 9.6/437 kB | 115/277 kB
+Progress (5): 544/604 kB | 164/318 kB | 49/473 kB | 11/437 kB | 115/277 kB 
+Progress (5): 544/604 kB | 164/318 kB | 65/473 kB | 11/437 kB | 115/277 kB
+Progress (5): 544/604 kB | 180/318 kB | 65/473 kB | 11/437 kB | 115/277 kB
+Progress (5): 544/604 kB | 180/318 kB | 81/473 kB | 11/437 kB | 115/277 kB
+Progress (5): 561/604 kB | 180/318 kB | 81/473 kB | 11/437 kB | 115/277 kB
+Progress (5): 561/604 kB | 180/318 kB | 81/473 kB | 11/437 kB | 131/277 kB
+Progress (5): 561/604 kB | 197/318 kB | 81/473 kB | 11/437 kB | 131/277 kB
+Progress (5): 561/604 kB | 197/318 kB | 81/473 kB | 12/437 kB | 131/277 kB
+Progress (5): 561/604 kB | 197/318 kB | 81/473 kB | 12/437 kB | 147/277 kB
+Progress (5): 561/604 kB | 197/318 kB | 98/473 kB | 12/437 kB | 147/277 kB
+Progress (5): 561/604 kB | 213/318 kB | 98/473 kB | 12/437 kB | 147/277 kB
+Progress (5): 561/604 kB | 213/318 kB | 98/473 kB | 12/437 kB | 164/277 kB
+Progress (5): 561/604 kB | 213/318 kB | 98/473 kB | 14/437 kB | 164/277 kB
+Progress (5): 561/604 kB | 213/318 kB | 98/473 kB | 15/437 kB | 164/277 kB
+Progress (5): 561/604 kB | 213/318 kB | 98/473 kB | 16/437 kB | 164/277 kB
+Progress (5): 561/604 kB | 213/318 kB | 98/473 kB | 16/437 kB | 180/277 kB
+Progress (5): 561/604 kB | 213/318 kB | 98/473 kB | 32/437 kB | 180/277 kB
+Progress (5): 561/604 kB | 213/318 kB | 98/473 kB | 32/437 kB | 197/277 kB
+Progress (5): 561/604 kB | 213/318 kB | 98/473 kB | 49/437 kB | 197/277 kB
+Progress (5): 561/604 kB | 213/318 kB | 98/473 kB | 49/437 kB | 213/277 kB
+Progress (5): 561/604 kB | 213/318 kB | 98/473 kB | 65/437 kB | 213/277 kB
+Progress (5): 561/604 kB | 213/318 kB | 98/473 kB | 65/437 kB | 229/277 kB
+Progress (5): 561/604 kB | 213/318 kB | 98/473 kB | 81/437 kB | 229/277 kB
+Progress (5): 561/604 kB | 213/318 kB | 98/473 kB | 81/437 kB | 246/277 kB
+Progress (5): 561/604 kB | 213/318 kB | 98/473 kB | 98/437 kB | 246/277 kB
+Progress (5): 561/604 kB | 213/318 kB | 98/473 kB | 98/437 kB | 262/277 kB
+Progress (5): 561/604 kB | 213/318 kB | 98/473 kB | 114/437 kB | 262/277 kB
+Progress (5): 577/604 kB | 213/318 kB | 98/473 kB | 114/437 kB | 262/277 kB
+Progress (5): 577/604 kB | 229/318 kB | 98/473 kB | 114/437 kB | 262/277 kB
+Progress (5): 577/604 kB | 229/318 kB | 114/473 kB | 114/437 kB | 262/277 kB
+Progress (5): 577/604 kB | 229/318 kB | 114/473 kB | 114/437 kB | 277 kB    
+Progress (5): 577/604 kB | 229/318 kB | 114/473 kB | 130/437 kB | 277 kB
+Progress (5): 577/604 kB | 246/318 kB | 114/473 kB | 130/437 kB | 277 kB
+Progress (5): 577/604 kB | 246/318 kB | 130/473 kB | 130/437 kB | 277 kB
+Progress (5): 577/604 kB | 262/318 kB | 130/473 kB | 130/437 kB | 277 kB
+Progress (5): 577/604 kB | 262/318 kB | 147/473 kB | 130/437 kB | 277 kB
+Progress (5): 577/604 kB | 279/318 kB | 147/473 kB | 130/437 kB | 277 kB
+Progress (5): 577/604 kB | 279/318 kB | 147/473 kB | 147/437 kB | 277 kB
+Progress (5): 577/604 kB | 279/318 kB | 163/473 kB | 147/437 kB | 277 kB
+                                                                        
+Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-buffer/4.1.42.Final/netty-buffer-4.1.42.Final.jar (277 kB at 2.4 MB/s)
+Progress (4): 577/604 kB | 279/318 kB | 163/473 kB | 163/437 kB
+                                                               
+Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec-http/4.1.42.Final/netty-codec-http-4.1.42.Final.jar
+Progress (4): 577/604 kB | 295/318 kB | 163/473 kB | 163/437 kB
+Progress (4): 577/604 kB | 295/318 kB | 180/473 kB | 163/437 kB
+Progress (4): 577/604 kB | 295/318 kB | 180/473 kB | 180/437 kB
+Progress (4): 577/604 kB | 311/318 kB | 180/473 kB | 180/437 kB
+Progress (4): 577/604 kB | 318 kB | 180/473 kB | 180/437 kB    
+Progress (4): 594/604 kB | 318 kB | 180/473 kB | 180/437 kB
+Progress (4): 604 kB | 318 kB | 180/473 kB | 180/437 kB    
+Progress (4): 604 kB | 318 kB | 196/473 kB | 180/437 kB
+Progress (4): 604 kB | 318 kB | 212/473 kB | 180/437 kB
+Progress (4): 604 kB | 318 kB | 212/473 kB | 196/437 kB
+                                                       
+Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-common/4.1.42.Final/netty-common-4.1.42.Final.jar (604 kB at 4.9 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-resolver/4.1.42.Final/netty-resolver-4.1.42.Final.jar
+Progress (3): 318 kB | 229/473 kB | 196/437 kB
+Progress (3): 318 kB | 229/473 kB | 212/437 kB
+Progress (3): 318 kB | 245/473 kB | 212/437 kB
+Progress (3): 318 kB | 262/473 kB | 212/437 kB
+Progress (4): 318 kB | 262/473 kB | 212/437 kB | 16/594 kB
+Progress (4): 318 kB | 278/473 kB | 212/437 kB | 16/594 kB
+Progress (4): 318 kB | 278/473 kB | 212/437 kB | 33/594 kB
+Progress (4): 318 kB | 294/473 kB | 212/437 kB | 33/594 kB
+Progress (4): 318 kB | 294/473 kB | 212/437 kB | 49/594 kB
+Progress (4): 318 kB | 311/473 kB | 212/437 kB | 49/594 kB
+Progress (4): 318 kB | 311/473 kB | 212/437 kB | 66/594 kB
+Progress (4): 318 kB | 327/473 kB | 212/437 kB | 66/594 kB
+Progress (4): 318 kB | 327/473 kB | 212/437 kB | 82/594 kB
+Progress (4): 318 kB | 343/473 kB | 212/437 kB | 82/594 kB
+Progress (4): 318 kB | 343/473 kB | 212/437 kB | 98/594 kB
+Progress (4): 318 kB | 343/473 kB | 212/437 kB | 115/594 kB
+Progress (4): 318 kB | 343/473 kB | 212/437 kB | 131/594 kB
+Progress (5): 318 kB | 343/473 kB | 212/437 kB | 131/594 kB | 16/33 kB
+Progress (5): 318 kB | 343/473 kB | 212/437 kB | 147/594 kB | 16/33 kB
+Progress (5): 318 kB | 343/473 kB | 212/437 kB | 164/594 kB | 16/33 kB
+Progress (5): 318 kB | 343/473 kB | 212/437 kB | 180/594 kB | 16/33 kB
+                                                                      
+Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec/4.1.42.Final/netty-codec-4.1.42.Final.jar (318 kB at 2.4 MB/s)
+Progress (4): 343/473 kB | 212/437 kB | 180/594 kB | 33/33 kB
+Progress (4): 360/473 kB | 212/437 kB | 180/594 kB | 33/33 kB
+Progress (4): 360/473 kB | 229/437 kB | 180/594 kB | 33/33 kB
+Progress (4): 360/473 kB | 229/437 kB | 180/594 kB | 33 kB   
+                                                          
+Downloading from central: https://repo.maven.apache.org/maven2/com/nimbusds/srp6a/1.5.2/srp6a-1.5.2.jar
+Progress (4): 360/473 kB | 229/437 kB | 197/594 kB | 33 kB
+Progress (4): 376/473 kB | 229/437 kB | 197/594 kB | 33 kB
+Progress (4): 376/473 kB | 229/437 kB | 213/594 kB | 33 kB
+Progress (4): 376/473 kB | 245/437 kB | 213/594 kB | 33 kB
+Progress (4): 376/473 kB | 245/437 kB | 229/594 kB | 33 kB
+Progress (4): 376/473 kB | 262/437 kB | 229/594 kB | 33 kB
+Progress (4): 376/473 kB | 262/437 kB | 246/594 kB | 33 kB
+                                                          
+Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-resolver/4.1.42.Final/netty-resolver-4.1.42.Final.jar (33 kB at 238 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/bouncycastle/bcprov-jdk15on/1.51/bcprov-jdk15on-1.51.jar
+Progress (3): 376/473 kB | 278/437 kB | 246/594 kB
+Progress (3): 376/473 kB | 294/437 kB | 246/594 kB
+Progress (3): 393/473 kB | 294/437 kB | 246/594 kB
+Progress (3): 393/473 kB | 294/437 kB | 256/594 kB
+Progress (3): 393/473 kB | 311/437 kB | 256/594 kB
+Progress (3): 402/473 kB | 311/437 kB | 256/594 kB
+Progress (3): 402/473 kB | 327/437 kB | 256/594 kB
+Progress (3): 418/473 kB | 327/437 kB | 256/594 kB
+Progress (3): 418/473 kB | 343/437 kB | 256/594 kB
+Progress (3): 418/473 kB | 343/437 kB | 272/594 kB
+Progress (3): 435/473 kB | 343/437 kB | 272/594 kB
+Progress (3): 435/473 kB | 360/437 kB | 272/594 kB
+Progress (3): 435/473 kB | 360/437 kB | 289/594 kB
+Progress (3): 435/473 kB | 376/437 kB | 289/594 kB
+Progress (3): 451/473 kB | 376/437 kB | 289/594 kB
+Progress (3): 451/473 kB | 393/437 kB | 289/594 kB
+Progress (3): 451/473 kB | 393/437 kB | 305/594 kB
+Progress (3): 451/473 kB | 409/437 kB | 305/594 kB
+Progress (3): 451/473 kB | 409/437 kB | 321/594 kB
+Progress (3): 451/473 kB | 425/437 kB | 321/594 kB
+Progress (4): 451/473 kB | 425/437 kB | 321/594 kB | 0/2.8 MB
+Progress (4): 451/473 kB | 437 kB | 321/594 kB | 0/2.8 MB    
+Progress (4): 451/473 kB | 437 kB | 338/594 kB | 0/2.8 MB
+Progress (4): 451/473 kB | 437 kB | 338/594 kB | 0/2.8 MB
+Progress (4): 451/473 kB | 437 kB | 354/594 kB | 0/2.8 MB
+Progress (4): 451/473 kB | 437 kB | 354/594 kB | 0/2.8 MB
+                                                         
+Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-handler/4.1.42.Final/netty-handler-4.1.42.Final.jar (437 kB at 2.9 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/net/vrallev/ecc/ecc-25519-java/1.0.1/ecc-25519-java-1.0.1.jar
+Progress (3): 451/473 kB | 354/594 kB | 0.1/2.8 MB
+Progress (3): 451/473 kB | 370/594 kB | 0.1/2.8 MB
+Progress (4): 451/473 kB | 370/594 kB | 0.1/2.8 MB | 16/34 kB
+Progress (4): 451/473 kB | 370/594 kB | 0.1/2.8 MB | 16/34 kB
+Progress (4): 451/473 kB | 387/594 kB | 0.1/2.8 MB | 16/34 kB
+Progress (4): 451/473 kB | 387/594 kB | 0.1/2.8 MB | 32/34 kB
+Progress (4): 451/473 kB | 387/594 kB | 0.1/2.8 MB | 34 kB   
+Progress (4): 451/473 kB | 387/594 kB | 0.1/2.8 MB | 34 kB
+Progress (4): 468/473 kB | 387/594 kB | 0.1/2.8 MB | 34 kB
+Progress (4): 468/473 kB | 403/594 kB | 0.1/2.8 MB | 34 kB
+Progress (4): 468/473 kB | 403/594 kB | 0.1/2.8 MB | 34 kB
+Progress (4): 468/473 kB | 420/594 kB | 0.1/2.8 MB | 34 kB
+Progress (4): 468/473 kB | 420/594 kB | 0.1/2.8 MB | 34 kB
+                                                          
+Downloaded from central: https://repo.maven.apache.org/maven2/com/nimbusds/srp6a/1.5.2/srp6a-1.5.2.jar (34 kB at 214 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/zeromq/curve25519-java/0.1.0/curve25519-java-0.1.0.jar
+Progress (3): 468/473 kB | 436/594 kB | 0.1/2.8 MB
+Progress (3): 468/473 kB | 436/594 kB | 0.1/2.8 MB
+Progress (3): 468/473 kB | 452/594 kB | 0.1/2.8 MB
+Progress (3): 468/473 kB | 452/594 kB | 0.2/2.8 MB
+Progress (3): 473 kB | 452/594 kB | 0.2/2.8 MB    
+Progress (3): 473 kB | 469/594 kB | 0.2/2.8 MB
+Progress (3): 473 kB | 469/594 kB | 0.2/2.8 MB
+Progress (3): 473 kB | 485/594 kB | 0.2/2.8 MB
+Progress (3): 473 kB | 485/594 kB | 0.2/2.8 MB
+Progress (3): 473 kB | 502/594 kB | 0.2/2.8 MB
+Progress (3): 473 kB | 502/594 kB | 0.2/2.8 MB
+Progress (3): 473 kB | 518/594 kB | 0.2/2.8 MB
+Progress (3): 473 kB | 518/594 kB | 0.2/2.8 MB
+Progress (3): 473 kB | 534/594 kB | 0.2/2.8 MB
+Progress (3): 473 kB | 534/594 kB | 0.2/2.8 MB
+Progress (3): 473 kB | 534/594 kB | 0.3/2.8 MB
+Progress (3): 473 kB | 534/594 kB | 0.3/2.8 MB
+Progress (3): 473 kB | 534/594 kB | 0.3/2.8 MB
+Progress (3): 473 kB | 534/594 kB | 0.3/2.8 MB
+                                              
+Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport/4.1.42.Final/netty-transport-4.1.42.Final.jar (473 kB at 2.9 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/javax/json/javax.json-api/1.0/javax.json-api-1.0.jar
+Progress (2): 551/594 kB | 0.3/2.8 MB
+Progress (3): 551/594 kB | 0.3/2.8 MB | 16/64 kB
+Progress (3): 551/594 kB | 0.3/2.8 MB | 16/64 kB
+Progress (3): 567/594 kB | 0.3/2.8 MB | 16/64 kB
+Progress (3): 567/594 kB | 0.3/2.8 MB | 33/64 kB
+Progress (3): 567/594 kB | 0.3/2.8 MB | 33/64 kB
+Progress (3): 583/594 kB | 0.3/2.8 MB | 33/64 kB
+Progress (3): 583/594 kB | 0.4/2.8 MB | 33/64 kB
+Progress (3): 583/594 kB | 0.4/2.8 MB | 49/64 kB
+Progress (3): 583/594 kB | 0.4/2.8 MB | 49/64 kB
+Progress (3): 594 kB | 0.4/2.8 MB | 49/64 kB    
+Progress (3): 594 kB | 0.4/2.8 MB | 49/64 kB
+Progress (3): 594 kB | 0.4/2.8 MB | 49/64 kB
+Progress (3): 594 kB | 0.4/2.8 MB | 49/64 kB
+Progress (3): 594 kB | 0.4/2.8 MB | 49/64 kB
+Progress (3): 594 kB | 0.5/2.8 MB | 49/64 kB
+Progress (3): 594 kB | 0.5/2.8 MB | 64 kB   
+                                         
+Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec-http/4.1.42.Final/netty-codec-http-4.1.42.Final.jar (594 kB at 3.4 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jmdns/jmdns/3.5.6/jmdns-3.5.6.jar
+Progress (2): 0.5/2.8 MB | 64 kB
+                                
+Downloaded from central: https://repo.maven.apache.org/maven2/net/vrallev/ecc/ecc-25519-java/1.0.1/ecc-25519-java-1.0.1.jar (64 kB at 356 kB/s)
+Progress (1): 0.5/2.8 MB
+Progress (1): 0.5/2.8 MB
+Progress (1): 0.5/2.8 MB
+Progress (1): 0.5/2.8 MB
+Progress (1): 0.6/2.8 MB
+Progress (1): 0.6/2.8 MB
+Progress (1): 0.6/2.8 MB
+Progress (1): 0.6/2.8 MB
+Progress (1): 0.6/2.8 MB
+Progress (1): 0.6/2.8 MB
+Progress (1): 0.7/2.8 MB
+Progress (1): 0.7/2.8 MB
+Progress (1): 0.7/2.8 MB
+Progress (1): 0.7/2.8 MB
+Progress (1): 0.7/2.8 MB
+Progress (1): 0.7/2.8 MB
+Progress (1): 0.7/2.8 MB
+Progress (1): 0.8/2.8 MB
+Progress (1): 0.8/2.8 MB
+Progress (2): 0.8/2.8 MB | 14 kB
+Progress (2): 0.8/2.8 MB | 14 kB
+Progress (2): 0.8/2.8 MB | 14 kB
+                                
+Downloaded from central: https://repo.maven.apache.org/maven2/org/zeromq/curve25519-java/0.1.0/curve25519-java-0.1.0.jar (14 kB at 69 kB/s)
+Progress (1): 0.8/2.8 MB
+Progress (1): 0.8/2.8 MB
+Progress (2): 0.8/2.8 MB | 16/20 kB
+Progress (2): 0.8/2.8 MB | 20 kB   
+Progress (2): 0.9/2.8 MB | 20 kB
+Progress (2): 0.9/2.8 MB | 20 kB
+                                
+Downloaded from central: https://repo.maven.apache.org/maven2/javax/json/javax.json-api/1.0/javax.json-api-1.0.jar (20 kB at 94 kB/s)
+Progress (1): 0.9/2.8 MB
+Progress (1): 0.9/2.8 MB
+Progress (1): 0.9/2.8 MB
+Progress (1): 0.9/2.8 MB
+Progress (1): 1.0/2.8 MB
+Progress (1): 1.0/2.8 MB
+Progress (1): 1.0/2.8 MB
+Progress (1): 1.0/2.8 MB
+Progress (1): 1.0/2.8 MB
+Progress (1): 1.0/2.8 MB
+Progress (1): 1.1/2.8 MB
+Progress (1): 1.1/2.8 MB
+Progress (1): 1.1/2.8 MB
+Progress (1): 1.1/2.8 MB
+Progress (1): 1.1/2.8 MB
+Progress (1): 1.1/2.8 MB
+Progress (1): 1.2/2.8 MB
+Progress (1): 1.2/2.8 MB
+Progress (1): 1.2/2.8 MB
+Progress (1): 1.2/2.8 MB
+Progress (1): 1.2/2.8 MB
+Progress (1): 1.2/2.8 MB
+Progress (1): 1.3/2.8 MB
+Progress (1): 1.3/2.8 MB
+Progress (1): 1.3/2.8 MB
+Progress (1): 1.3/2.8 MB
+Progress (1): 1.3/2.8 MB
+Progress (1): 1.3/2.8 MB
+Progress (1): 1.4/2.8 MB
+Progress (1): 1.4/2.8 MB
+Progress (1): 1.4/2.8 MB
+Progress (1): 1.4/2.8 MB
+Progress (1): 1.4/2.8 MB
+Progress (1): 1.4/2.8 MB
+Progress (1): 1.5/2.8 MB
+Progress (1): 1.5/2.8 MB
+Progress (1): 1.5/2.8 MB
+Progress (1): 1.5/2.8 MB
+Progress (1): 1.5/2.8 MB
+Progress (1): 1.5/2.8 MB
+Progress (1): 1.5/2.8 MB
+Progress (1): 1.6/2.8 MB
+Progress (1): 1.6/2.8 MB
+Progress (1): 1.6/2.8 MB
+Progress (1): 1.6/2.8 MB
+Progress (1): 1.6/2.8 MB
+Progress (1): 1.6/2.8 MB
+Progress (1): 1.7/2.8 MB
+Progress (1): 1.7/2.8 MB
+Progress (1): 1.7/2.8 MB
+Progress (1): 1.7/2.8 MB
+Progress (1): 1.7/2.8 MB
+Progress (1): 1.7/2.8 MB
+Progress (1): 1.8/2.8 MB
+Progress (1): 1.8/2.8 MB
+Progress (1): 1.8/2.8 MB
+Progress (1): 1.8/2.8 MB
+Progress (1): 1.8/2.8 MB
+Progress (1): 1.8/2.8 MB
+Progress (1): 1.9/2.8 MB
+Progress (2): 1.9/2.8 MB | 16/216 kB
+Progress (2): 1.9/2.8 MB | 16/216 kB
+Progress (2): 1.9/2.8 MB | 32/216 kB
+Progress (2): 1.9/2.8 MB | 32/216 kB
+Progress (2): 1.9/2.8 MB | 32/216 kB
+Progress (2): 1.9/2.8 MB | 49/216 kB
+Progress (2): 1.9/2.8 MB | 49/216 kB
+Progress (2): 1.9/2.8 MB | 49/216 kB
+Progress (2): 1.9/2.8 MB | 65/216 kB
+Progress (2): 2.0/2.8 MB | 65/216 kB
+Progress (2): 2.0/2.8 MB | 81/216 kB
+Progress (2): 2.0/2.8 MB | 81/216 kB
+Progress (2): 2.0/2.8 MB | 98/216 kB
+Progress (2): 2.0/2.8 MB | 98/216 kB
+Progress (2): 2.0/2.8 MB | 114/216 kB
+Progress (2): 2.0/2.8 MB | 114/216 kB
+Progress (2): 2.0/2.8 MB | 131/216 kB
+Progress (2): 2.0/2.8 MB | 131/216 kB
+Progress (2): 2.0/2.8 MB | 147/216 kB
+Progress (2): 2.0/2.8 MB | 147/216 kB
+Progress (2): 2.0/2.8 MB | 163/216 kB
+Progress (2): 2.0/2.8 MB | 163/216 kB
+Progress (2): 2.0/2.8 MB | 180/216 kB
+Progress (2): 2.1/2.8 MB | 180/216 kB
+Progress (2): 2.1/2.8 MB | 196/216 kB
+Progress (2): 2.1/2.8 MB | 196/216 kB
+Progress (2): 2.1/2.8 MB | 212/216 kB
+Progress (2): 2.1/2.8 MB | 216 kB    
+                                 
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jmdns/jmdns/3.5.6/jmdns-3.5.6.jar (216 kB at 751 kB/s)
+Progress (1): 2.1/2.8 MB
+Progress (1): 2.1/2.8 MB
+Progress (1): 2.1/2.8 MB
+Progress (1): 2.1/2.8 MB
+Progress (1): 2.2/2.8 MB
+Progress (1): 2.2/2.8 MB
+Progress (1): 2.2/2.8 MB
+Progress (1): 2.2/2.8 MB
+Progress (1): 2.2/2.8 MB
+Progress (1): 2.2/2.8 MB
+Progress (1): 2.3/2.8 MB
+Progress (1): 2.3/2.8 MB
+Progress (1): 2.3/2.8 MB
+Progress (1): 2.3/2.8 MB
+Progress (1): 2.3/2.8 MB
+Progress (1): 2.3/2.8 MB
+Progress (1): 2.4/2.8 MB
+Progress (1): 2.4/2.8 MB
+Progress (1): 2.4/2.8 MB
+Progress (1): 2.4/2.8 MB
+Progress (1): 2.4/2.8 MB
+Progress (1): 2.4/2.8 MB
+Progress (1): 2.5/2.8 MB
+Progress (1): 2.5/2.8 MB
+Progress (1): 2.5/2.8 MB
+Progress (1): 2.5/2.8 MB
+Progress (1): 2.5/2.8 MB
+Progress (1): 2.5/2.8 MB
+Progress (1): 2.6/2.8 MB
+Progress (1): 2.6/2.8 MB
+Progress (1): 2.6/2.8 MB
+Progress (1): 2.6/2.8 MB
+Progress (1): 2.6/2.8 MB
+Progress (1): 2.6/2.8 MB
+Progress (1): 2.7/2.8 MB
+Progress (1): 2.7/2.8 MB
+Progress (1): 2.7/2.8 MB
+Progress (1): 2.7/2.8 MB
+Progress (1): 2.7/2.8 MB
+Progress (1): 2.7/2.8 MB
+Progress (1): 2.8/2.8 MB
+Progress (1): 2.8/2.8 MB
+Progress (1): 2.8/2.8 MB
+Progress (1): 2.8/2.8 MB
+Progress (1): 2.8/2.8 MB
+Progress (1): 2.8/2.8 MB
+Progress (1): 2.8 MB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/bouncycastle/bcprov-jdk15on/1.51/bcprov-jdk15on-1.51.jar (2.8 MB at 8.8 MB/s)
+[INFO] 
+[INFO] --- fmt:2.9:format (default) @ hap ---
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/27.0.1-jre/guava-27.0.1-jre.jar
+Progress (1): 0/2.7 MB
+Progress (1): 0/2.7 MB
+Progress (1): 0/2.7 MB
+Progress (1): 0.1/2.7 MB
+Progress (1): 0.1/2.7 MB
+Progress (1): 0.1/2.7 MB
+Progress (1): 0.1/2.7 MB
+Progress (1): 0.1/2.7 MB
+Progress (1): 0.1/2.7 MB
+Progress (1): 0.2/2.7 MB
+Progress (1): 0.2/2.7 MB
+Progress (1): 0.2/2.7 MB
+Progress (1): 0.2/2.7 MB
+Progress (1): 0.2/2.7 MB
+Progress (1): 0.2/2.7 MB
+Progress (1): 0.3/2.7 MB
+Progress (1): 0.3/2.7 MB
+Progress (1): 0.3/2.7 MB
+Progress (1): 0.3/2.7 MB
+Progress (1): 0.3/2.7 MB
+Progress (1): 0.3/2.7 MB
+Progress (1): 0.4/2.7 MB
+Progress (1): 0.4/2.7 MB
+Progress (1): 0.4/2.7 MB
+Progress (1): 0.4/2.7 MB
+Progress (1): 0.4/2.7 MB
+Progress (1): 0.4/2.7 MB
+Progress (1): 0.5/2.7 MB
+Progress (1): 0.5/2.7 MB
+Progress (1): 0.5/2.7 MB
+Progress (1): 0.5/2.7 MB
+Progress (1): 0.5/2.7 MB
+Progress (1): 0.5/2.7 MB
+Progress (1): 0.5/2.7 MB
+Progress (1): 0.6/2.7 MB
+Progress (1): 0.6/2.7 MB
+Progress (1): 0.6/2.7 MB
+Progress (1): 0.6/2.7 MB
+Progress (1): 0.6/2.7 MB
+Progress (1): 0.6/2.7 MB
+Progress (1): 0.7/2.7 MB
+Progress (1): 0.7/2.7 MB
+Progress (1): 0.7/2.7 MB
+Progress (1): 0.7/2.7 MB
+Progress (1): 0.7/2.7 MB
+Progress (1): 0.7/2.7 MB
+Progress (1): 0.8/2.7 MB
+Progress (1): 0.8/2.7 MB
+Progress (1): 0.8/2.7 MB
+Progress (1): 0.8/2.7 MB
+Progress (1): 0.8/2.7 MB
+Progress (1): 0.8/2.7 MB
+Progress (1): 0.9/2.7 MB
+Progress (1): 0.9/2.7 MB
+Progress (1): 0.9/2.7 MB
+Progress (1): 0.9/2.7 MB
+Progress (1): 0.9/2.7 MB
+Progress (1): 0.9/2.7 MB
+Progress (1): 0.9/2.7 MB
+Progress (1): 1.0/2.7 MB
+Progress (1): 1.0/2.7 MB
+Progress (1): 1.0/2.7 MB
+Progress (1): 1.0/2.7 MB
+Progress (1): 1.0/2.7 MB
+Progress (1): 1.0/2.7 MB
+Progress (1): 1.1/2.7 MB
+Progress (1): 1.1/2.7 MB
+Progress (1): 1.1/2.7 MB
+Progress (1): 1.1/2.7 MB
+Progress (1): 1.1/2.7 MB
+Progress (1): 1.1/2.7 MB
+Progress (1): 1.2/2.7 MB
+Progress (1): 1.2/2.7 MB
+Progress (1): 1.2/2.7 MB
+Progress (1): 1.2/2.7 MB
+Progress (1): 1.2/2.7 MB
+Progress (1): 1.2/2.7 MB
+Progress (1): 1.3/2.7 MB
+Progress (1): 1.3/2.7 MB
+Progress (1): 1.3/2.7 MB
+Progress (1): 1.3/2.7 MB
+Progress (1): 1.3/2.7 MB
+Progress (1): 1.3/2.7 MB
+Progress (1): 1.4/2.7 MB
+Progress (1): 1.4/2.7 MB
+Progress (1): 1.4/2.7 MB
+Progress (1): 1.4/2.7 MB
+Progress (1): 1.4/2.7 MB
+Progress (1): 1.4/2.7 MB
+Progress (1): 1.5/2.7 MB
+Progress (1): 1.5/2.7 MB
+Progress (1): 1.5/2.7 MB
+Progress (1): 1.5/2.7 MB
+Progress (1): 1.5/2.7 MB
+Progress (1): 1.5/2.7 MB
+Progress (1): 1.5/2.7 MB
+Progress (1): 1.6/2.7 MB
+Progress (1): 1.6/2.7 MB
+Progress (1): 1.6/2.7 MB
+Progress (1): 1.6/2.7 MB
+Progress (1): 1.6/2.7 MB
+Progress (1): 1.6/2.7 MB
+Progress (1): 1.7/2.7 MB
+Progress (1): 1.7/2.7 MB
+Progress (1): 1.7/2.7 MB
+Progress (1): 1.7/2.7 MB
+Progress (1): 1.7/2.7 MB
+Progress (1): 1.7/2.7 MB
+Progress (1): 1.8/2.7 MB
+Progress (1): 1.8/2.7 MB
+Progress (1): 1.8/2.7 MB
+Progress (1): 1.8/2.7 MB
+Progress (1): 1.8/2.7 MB
+Progress (1): 1.8/2.7 MB
+Progress (1): 1.9/2.7 MB
+Progress (1): 1.9/2.7 MB
+Progress (1): 1.9/2.7 MB
+Progress (1): 1.9/2.7 MB
+Progress (1): 1.9/2.7 MB
+Progress (1): 1.9/2.7 MB
+Progress (1): 2.0/2.7 MB
+Progress (1): 2.0/2.7 MB
+Progress (1): 2.0/2.7 MB
+Progress (1): 2.0/2.7 MB
+Progress (1): 2.0/2.7 MB
+Progress (1): 2.0/2.7 MB
+Progress (1): 2.0/2.7 MB
+Progress (1): 2.1/2.7 MB
+Progress (1): 2.1/2.7 MB
+Progress (1): 2.1/2.7 MB
+Progress (1): 2.1/2.7 MB
+Progress (1): 2.1/2.7 MB
+Progress (1): 2.1/2.7 MB
+Progress (1): 2.2/2.7 MB
+Progress (1): 2.2/2.7 MB
+Progress (1): 2.2/2.7 MB
+Progress (1): 2.2/2.7 MB
+Progress (1): 2.2/2.7 MB
+Progress (1): 2.2/2.7 MB
+Progress (1): 2.3/2.7 MB
+Progress (1): 2.3/2.7 MB
+Progress (1): 2.3/2.7 MB
+Progress (1): 2.3/2.7 MB
+Progress (1): 2.3/2.7 MB
+Progress (1): 2.3/2.7 MB
+Progress (1): 2.3/2.7 MB
+Progress (1): 2.4/2.7 MB
+Progress (1): 2.4/2.7 MB
+Progress (1): 2.4/2.7 MB
+Progress (1): 2.4/2.7 MB
+Progress (1): 2.4/2.7 MB
+Progress (1): 2.4/2.7 MB
+Progress (1): 2.5/2.7 MB
+Progress (1): 2.5/2.7 MB
+Progress (1): 2.5/2.7 MB
+Progress (1): 2.5/2.7 MB
+Progress (1): 2.5/2.7 MB
+Progress (1): 2.5/2.7 MB
+Progress (1): 2.6/2.7 MB
+Progress (1): 2.6/2.7 MB
+Progress (1): 2.6/2.7 MB
+Progress (1): 2.6/2.7 MB
+Progress (1): 2.6/2.7 MB
+Progress (1): 2.6/2.7 MB
+Progress (1): 2.7/2.7 MB
+Progress (1): 2.7/2.7 MB
+Progress (1): 2.7/2.7 MB
+Progress (1): 2.7/2.7 MB
+Progress (1): 2.7/2.7 MB
+Progress (1): 2.7/2.7 MB
+Progress (1): 2.7 MB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/27.0.1-jre/guava-27.0.1-jre.jar (2.7 MB at 24 MB/s)
+[INFO] Processed 100 files (0 reformatted).
+[INFO] Processed 200 files (0 reformatted).
+[INFO] Processed 300 files (0 reformatted).
+[INFO] Processed 349 files (0 reformatted).
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ hap ---
+[INFO] skip non existing resourceDirectory D:\Bump\breaking-updates\tempProject\6ad104c4fb9263ad1bb29e6b33618b8225efd92d\HAP-Java\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.8.0:compile (default-compile) @ hap ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 347 source files to D:\Bump\breaking-updates\tempProject\6ad104c4fb9263ad1bb29e6b33618b8225efd92d\HAP-Java\target\classes
+[INFO] /D:/Bump/breaking-updates/tempProject/6ad104c4fb9263ad1bb29e6b33618b8225efd92d/HAP-Java/src/main/java/io/github/hapjava/server/impl/http/impl/DefaultHttpRequestImpl.java: Some input files use or override a deprecated API.
+[INFO] /D:/Bump/breaking-updates/tempProject/6ad104c4fb9263ad1bb29e6b33618b8225efd92d/HAP-Java/src/main/java/io/github/hapjava/server/impl/http/impl/DefaultHttpRequestImpl.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- dependency:3.6.0:tree (default-cli) @ hap ---
+[INFO] io.github.hap-java:hap:jar:2.0.1-SNAPSHOT
+[INFO] +- org.slf4j:slf4j-api:jar:1.7.10:compile
+[INFO] +- io.netty:netty-common:jar:4.1.42.Final:compile
+[INFO] +- io.netty:netty-buffer:jar:4.1.42.Final:compile
+[INFO] +- io.netty:netty-transport:jar:4.1.42.Final:compile
+[INFO] +- io.netty:netty-handler:jar:4.1.42.Final:compile
+[INFO] +- io.netty:netty-codec:jar:4.1.42.Final:compile
+[INFO] +- io.netty:netty-codec-http:jar:4.1.42.Final:compile
+[INFO] +- io.netty:netty-resolver:jar:4.1.42.Final:compile
+[INFO] +- com.nimbusds:srp6a:jar:1.5.2:compile
+[INFO] +- org.bouncycastle:bcprov-jdk15on:jar:1.51:compile
+[INFO] +- net.vrallev.ecc:ecc-25519-java:jar:1.0.1:compile
+[INFO] +- org.zeromq:curve25519-java:jar:0.1.0:compile
+[INFO] +- javax.json:javax.json-api:jar:1.0:compile
+[INFO] +- org.glassfish:javax.json:jar:1.0.4:compile
+[INFO] +- org.jmdns:jmdns:jar:3.5.6:compile
+[INFO] +- junit:junit:jar:4.12:test
+[INFO] |  \- org.hamcrest:hamcrest-core:jar:1.3:test
+[INFO] +- org.mockito:mockito-core:jar:3.8.0:test
+[INFO] |  +- net.bytebuddy:byte-buddy:jar:1.10.20:test
+[INFO] |  +- net.bytebuddy:byte-buddy-agent:jar:1.10.20:test
+[INFO] |  \- org.objenesis:objenesis:jar:3.1:test
+[INFO] \- org.assertj:assertj-core:jar:3.19.0:test
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  18.216 s
+[INFO] Finished at: 2023-09-21T10:41:17Z
+[INFO] ------------------------------------------------------------------------

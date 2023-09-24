@@ -1,0 +1,949 @@
+[INFO] Scanning for projects...
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-war-plugin/3.3.1/maven-war-plugin-3.3.1.pom
+Progress (1): 1.4/8.8 kB
+Progress (1): 2.7/8.8 kB
+Progress (1): 4.1/8.8 kB
+Progress (1): 5.5/8.8 kB
+Progress (1): 6.9/8.8 kB
+Progress (1): 8.2/8.8 kB
+Progress (1): 8.8 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-war-plugin/3.3.1/maven-war-plugin-3.3.1.pom (8.8 kB at 23 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-war-plugin/3.3.1/maven-war-plugin-3.3.1.jar
+Progress (1): 16/82 kB
+Progress (1): 33/82 kB
+Progress (1): 49/82 kB
+Progress (1): 66/82 kB
+Progress (1): 82/82 kB
+Progress (1): 82 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-war-plugin/3.3.1/maven-war-plugin-3.3.1.jar (82 kB at 1.1 MB/s)
+[INFO] 
+[INFO] -------------------------< de.uniwue:ocr4all >--------------------------
+[INFO] Building OCR4all Maven Webapp 0.6.1
+[INFO]   from pom.xml
+[INFO] --------------------------------[ war ]---------------------------------
+Downloading from Internal project repository: file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/org/springframework/spring-core/4.3.18.RELEASE/spring-core-4.3.18.RELEASE.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-core/4.3.18.RELEASE/spring-core-4.3.18.RELEASE.pom
+Progress (1): 2.5 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-core/4.3.18.RELEASE/spring-core-4.3.18.RELEASE.pom (2.5 kB at 103 kB/s)
+Downloading from Internal project repository: file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/org/springframework/spring-web/4.3.18.RELEASE/spring-web-4.3.18.RELEASE.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-web/4.3.18.RELEASE/spring-web-4.3.18.RELEASE.pom
+Progress (1): 8.0 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-web/4.3.18.RELEASE/spring-web-4.3.18.RELEASE.pom (8.0 kB at 379 kB/s)
+Downloading from Internal project repository: file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/org/springframework/spring-aop/4.3.18.RELEASE/spring-aop-4.3.18.RELEASE.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-aop/4.3.18.RELEASE/spring-aop-4.3.18.RELEASE.pom
+Progress (1): 2.7 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-aop/4.3.18.RELEASE/spring-aop-4.3.18.RELEASE.pom (2.7 kB at 192 kB/s)
+Downloading from Internal project repository: file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/org/springframework/spring-beans/4.3.18.RELEASE/spring-beans-4.3.18.RELEASE.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-beans/4.3.18.RELEASE/spring-beans-4.3.18.RELEASE.pom
+Progress (1): 2.5 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-beans/4.3.18.RELEASE/spring-beans-4.3.18.RELEASE.pom (2.5 kB at 124 kB/s)
+Downloading from Internal project repository: file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/org/springframework/spring-context/4.3.18.RELEASE/spring-context-4.3.18.RELEASE.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-context/4.3.18.RELEASE/spring-context-4.3.18.RELEASE.pom
+Progress (1): 5.0 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-context/4.3.18.RELEASE/spring-context-4.3.18.RELEASE.pom (5.0 kB at 193 kB/s)
+Downloading from Internal project repository: file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/org/springframework/spring-expression/4.3.18.RELEASE/spring-expression-4.3.18.RELEASE.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-expression/4.3.18.RELEASE/spring-expression-4.3.18.RELEASE.pom
+Progress (1): 1.7 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-expression/4.3.18.RELEASE/spring-expression-4.3.18.RELEASE.pom (1.7 kB at 142 kB/s)
+Downloading from Internal project repository: file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/org/springframework/spring-webmvc/4.3.18.RELEASE/spring-webmvc-4.3.18.RELEASE.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/4.3.18.RELEASE/spring-webmvc-4.3.18.RELEASE.pom
+Progress (1): 10.0 kB
+                     
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/4.3.18.RELEASE/spring-webmvc-4.3.18.RELEASE.pom (10.0 kB at 997 kB/s)
+Downloading from Internal project repository: file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/taglibs/standard/1.1.2/standard-1.1.2.pom
+Downloading from central: https://repo.maven.apache.org/maven2/taglibs/standard/1.1.2/standard-1.1.2.pom
+Progress (1): 149 B
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/taglibs/standard/1.1.2/standard-1.1.2.pom (149 B at 6.8 kB/s)
+[INFO] Artifact javax.servlet:jsp-api:pom:2.0 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [Internal project repository (file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository, default, releases+snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact javax.servlet:jsp-api:pom:2.0 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [Internal project repository (file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository, default, releases+snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+Downloading from Internal project repository: file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/javax/servlet/jsp-api/2.0/jsp-api-2.0.pom
+Downloading from central: https://repo.maven.apache.org/maven2/javax/servlet/jsp-api/2.0/jsp-api-2.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/javax/servlet/jsp-api/2.0/jsp-api-2.0.pom (0 B at 0 B/s)
+Downloading from Internal project repository: file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/javax/servlet/servlet-api/2.4/servlet-api-2.4.pom
+Downloading from central: https://repo.maven.apache.org/maven2/javax/servlet/servlet-api/2.4/servlet-api-2.4.pom
+Progress (1): 156 B
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/javax/servlet/servlet-api/2.4/servlet-api-2.4.pom (156 B at 17 kB/s)
+Downloading from Internal project repository: file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/org/openpnp/opencv/3.2.0-1/opencv-3.2.0-1.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/openpnp/opencv/3.2.0-1/opencv-3.2.0-1.pom
+Progress (1): 10 kB
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/openpnp/opencv/3.2.0-1/opencv-3.2.0-1.pom (10 kB at 847 kB/s)
+Downloading from Internal project repository: file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/org/apache/pdfbox/pdfbox-tools/2.0.19/pdfbox-tools-2.0.19.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/pdfbox/pdfbox-tools/2.0.19/pdfbox-tools-2.0.19.pom
+Progress (1): 3.8 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/pdfbox/pdfbox-tools/2.0.19/pdfbox-tools-2.0.19.pom (3.8 kB at 236 kB/s)
+Downloading from Internal project repository: file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/org/apache/pdfbox/pdfbox-parent/2.0.19/pdfbox-parent-2.0.19.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/pdfbox/pdfbox-parent/2.0.19/pdfbox-parent-2.0.19.pom
+Progress (1): 16/20 kB
+Progress (1): 20 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/pdfbox/pdfbox-parent/2.0.19/pdfbox-parent-2.0.19.pom (20 kB at 1.3 MB/s)
+Downloading from Internal project repository: file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/org/apache/pdfbox/pdfbox-debugger/2.0.19/pdfbox-debugger-2.0.19.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/pdfbox/pdfbox-debugger/2.0.19/pdfbox-debugger-2.0.19.pom
+Progress (1): 3.2 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/pdfbox/pdfbox-debugger/2.0.19/pdfbox-debugger-2.0.19.pom (3.2 kB at 270 kB/s)
+Downloading from Internal project repository: file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/org/apache/pdfbox/pdfbox/2.0.19/pdfbox-2.0.19.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/pdfbox/pdfbox/2.0.19/pdfbox-2.0.19.pom
+Progress (1): 16/41 kB
+Progress (1): 32/41 kB
+Progress (1): 41 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/pdfbox/pdfbox/2.0.19/pdfbox-2.0.19.pom (41 kB at 2.8 MB/s)
+Downloading from Internal project repository: file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/org/apache/pdfbox/fontbox/2.0.19/fontbox-2.0.19.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/pdfbox/fontbox/2.0.19/fontbox-2.0.19.pom
+Progress (1): 5.2 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/pdfbox/fontbox/2.0.19/fontbox-2.0.19.pom (5.2 kB at 401 kB/s)
+Downloading from Internal project repository: file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/org/apache/pdfbox/jbig2-imageio/3.0.3/jbig2-imageio-3.0.3.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/pdfbox/jbig2-imageio/3.0.3/jbig2-imageio-3.0.3.pom
+Progress (1): 16/16 kB
+Progress (1): 16 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/pdfbox/jbig2-imageio/3.0.3/jbig2-imageio-3.0.3.pom (16 kB at 1.1 MB/s)
+Downloading from Internal project repository: file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/com/github/jai-imageio/jai-imageio-core/1.4.0/jai-imageio-core-1.4.0.pom
+Downloading from central: https://repo.maven.apache.org/maven2/com/github/jai-imageio/jai-imageio-core/1.4.0/jai-imageio-core-1.4.0.pom
+Progress (1): 12 kB
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/com/github/jai-imageio/jai-imageio-core/1.4.0/jai-imageio-core-1.4.0.pom (12 kB at 1.1 MB/s)
+Downloading from Internal project repository: file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/com/github/jai-imageio/jai-imageio-jpeg2000/1.3.0/jai-imageio-jpeg2000-1.3.0.pom
+Downloading from central: https://repo.maven.apache.org/maven2/com/github/jai-imageio/jai-imageio-jpeg2000/1.3.0/jai-imageio-jpeg2000-1.3.0.pom
+Progress (1): 10 kB
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/com/github/jai-imageio/jai-imageio-jpeg2000/1.3.0/jai-imageio-jpeg2000-1.3.0.pom (10 kB at 514 kB/s)
+Downloading from Internal project repository: file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/com/github/jai-imageio/jai-imageio-core/1.3.0/jai-imageio-core-1.3.0.pom
+Downloading from central: https://repo.maven.apache.org/maven2/com/github/jai-imageio/jai-imageio-core/1.3.0/jai-imageio-core-1.3.0.pom
+Progress (1): 9.9 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/github/jai-imageio/jai-imageio-core/1.3.0/jai-imageio-core-1.3.0.pom (9.9 kB at 617 kB/s)
+Downloading from Internal project repository: file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/org/docx4j/docx4j-JAXB-Internal/8.3.1/docx4j-JAXB-Internal-8.3.1.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/docx4j/docx4j-JAXB-Internal/8.3.1/docx4j-JAXB-Internal-8.3.1.pom
+Progress (1): 3.0 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/docx4j/docx4j-JAXB-Internal/8.3.1/docx4j-JAXB-Internal-8.3.1.pom (3.0 kB at 178 kB/s)
+Downloading from Internal project repository: file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/org/docx4j/docx4j-core/8.3.1/docx4j-core-8.3.1.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/docx4j/docx4j-core/8.3.1/docx4j-core-8.3.1.pom
+Progress (1): 6.8 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/docx4j/docx4j-core/8.3.1/docx4j-core-8.3.1.pom (6.8 kB at 757 kB/s)
+Downloading from Internal project repository: file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/org/docx4j/docx4j-openxml-objects/8.3.1/docx4j-openxml-objects-8.3.1.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/docx4j/docx4j-openxml-objects/8.3.1/docx4j-openxml-objects-8.3.1.pom
+Progress (1): 2.8 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/docx4j/docx4j-openxml-objects/8.3.1/docx4j-openxml-objects-8.3.1.pom (2.8 kB at 235 kB/s)
+Downloading from Internal project repository: file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/org/docx4j/docx4j-openxml-objects-pml/8.3.1/docx4j-openxml-objects-pml-8.3.1.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/docx4j/docx4j-openxml-objects-pml/8.3.1/docx4j-openxml-objects-pml-8.3.1.pom
+Progress (1): 3.0 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/docx4j/docx4j-openxml-objects-pml/8.3.1/docx4j-openxml-objects-pml-8.3.1.pom (3.0 kB at 274 kB/s)
+Downloading from Internal project repository: file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/org/docx4j/docx4j-openxml-objects-sml/8.3.1/docx4j-openxml-objects-sml-8.3.1.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/docx4j/docx4j-openxml-objects-sml/8.3.1/docx4j-openxml-objects-sml-8.3.1.pom
+Progress (1): 3.0 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/docx4j/docx4j-openxml-objects-sml/8.3.1/docx4j-openxml-objects-sml-8.3.1.pom (3.0 kB at 302 kB/s)
+Downloading from Internal project repository: file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/org/plutext/jaxb-svg11/1.0.2/jaxb-svg11-1.0.2.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/plutext/jaxb-svg11/1.0.2/jaxb-svg11-1.0.2.pom
+Progress (1): 5.1 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/plutext/jaxb-svg11/1.0.2/jaxb-svg11-1.0.2.pom (5.1 kB at 465 kB/s)
+Downloading from Internal project repository: file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/net/engio/mbassador/1.3.2/mbassador-1.3.2.pom
+Downloading from central: https://repo.maven.apache.org/maven2/net/engio/mbassador/1.3.2/mbassador-1.3.2.pom
+Progress (1): 14 kB
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/net/engio/mbassador/1.3.2/mbassador-1.3.2.pom (14 kB at 1.2 MB/s)
+Downloading from Internal project repository: file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/org/slf4j/jcl-over-slf4j/1.7.26/jcl-over-slf4j-1.7.26.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/jcl-over-slf4j/1.7.26/jcl-over-slf4j-1.7.26.pom
+Progress (1): 964 B
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/jcl-over-slf4j/1.7.26/jcl-over-slf4j-1.7.26.pom (964 B at 107 kB/s)
+Downloading from Internal project repository: file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/org/apache/xmlgraphics/xmlgraphics-commons/2.3/xmlgraphics-commons-2.3.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/xmlgraphics/xmlgraphics-commons/2.3/xmlgraphics-commons-2.3.pom
+Progress (1): 3.5 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/xmlgraphics/xmlgraphics-commons/2.3/xmlgraphics-commons-2.3.pom (3.5 kB at 316 kB/s)
+[INFO] Artifact commons-io:commons-io:pom:1.3.1 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [Internal project repository (file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository, default, releases+snapshots), central (https://repo.maven.apache.org/maven2, default, releases), sonatype-nexus-snapshots (https://oss.sonatype.org/content/repositories/snapshots, default, snapshots), maven-default-http-blocker (http://0.0.0.0/, default, snapshots, blocked)]
+[INFO] Artifact commons-io:commons-io:pom:1.3.1 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [Internal project repository (file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository, default, releases+snapshots), central (https://repo.maven.apache.org/maven2, default, releases), sonatype-nexus-snapshots (https://oss.sonatype.org/content/repositories/snapshots, default, snapshots), maven-default-http-blocker (http://0.0.0.0/, default, snapshots, blocked)]
+Downloading from Internal project repository: file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/commons-io/commons-io/1.3.1/commons-io-1.3.1.pom
+Downloading from central: https://repo.maven.apache.org/maven2/commons-io/commons-io/1.3.1/commons-io-1.3.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/commons-io/commons-io/1.3.1/commons-io-1.3.1.pom (0 B at 0 B/s)
+Downloading from Internal project repository: file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/org/docx4j/org/apache/xalan-metainf/8.0.0/xalan-metainf-8.0.0.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/docx4j/org/apache/xalan-metainf/8.0.0/xalan-metainf-8.0.0.pom
+Progress (1): 2.4 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/docx4j/org/apache/xalan-metainf/8.0.0/xalan-metainf-8.0.0.pom (2.4 kB at 217 kB/s)
+Downloading from Internal project repository: file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/org/docx4j/org/apache/xalan-interpretive/8.0.0/xalan-interpretive-8.0.0.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/docx4j/org/apache/xalan-interpretive/8.0.0/xalan-interpretive-8.0.0.pom
+Progress (1): 2.8 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/docx4j/org/apache/xalan-interpretive/8.0.0/xalan-interpretive-8.0.0.pom (2.8 kB at 156 kB/s)
+Downloading from Internal project repository: file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/org/docx4j/org/apache/xalan-serializer/8.0.0/xalan-serializer-8.0.0.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/docx4j/org/apache/xalan-serializer/8.0.0/xalan-serializer-8.0.0.pom
+Progress (1): 2.4 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/docx4j/org/apache/xalan-serializer/8.0.0/xalan-serializer-8.0.0.pom (2.4 kB at 264 kB/s)
+Downloading from Internal project repository: file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/net/arnx/wmf2svg/0.9.8/wmf2svg-0.9.8.pom
+Downloading from central: https://repo.maven.apache.org/maven2/net/arnx/wmf2svg/0.9.8/wmf2svg-0.9.8.pom
+Progress (1): 1.3 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/net/arnx/wmf2svg/0.9.8/wmf2svg-0.9.8.pom (1.3 kB at 24 kB/s)
+Downloading from Internal project repository: file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/org/checkerframework/checker-qual/2.8.1/checker-qual-2.8.1.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/checkerframework/checker-qual/2.8.1/checker-qual-2.8.1.pom
+Progress (1): 2.4 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/checkerframework/checker-qual/2.8.1/checker-qual-2.8.1.pom (2.4 kB at 343 kB/s)
+Downloading from Internal project repository: file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/org/apache/xmlgraphics/fop-events/2.5/fop-events-2.5.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/xmlgraphics/fop-events/2.5/fop-events-2.5.pom
+Progress (1): 5.1 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/xmlgraphics/fop-events/2.5/fop-events-2.5.pom (5.1 kB at 566 kB/s)
+Downloading from Internal project repository: file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/org/apache/xmlgraphics/fop-parent/2.5/fop-parent-2.5.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/xmlgraphics/fop-parent/2.5/fop-parent-2.5.pom
+Progress (1): 5.9 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/xmlgraphics/fop-parent/2.5/fop-parent-2.5.pom (5.9 kB at 740 kB/s)
+Downloading from Internal project repository: file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/org/apache/xmlgraphics/fop-util/2.5/fop-util-2.5.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/xmlgraphics/fop-util/2.5/fop-util-2.5.pom
+Progress (1): 3.3 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/xmlgraphics/fop-util/2.5/fop-util-2.5.pom (3.3 kB at 298 kB/s)
+Downloading from Internal project repository: file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/org/apache/xmlgraphics/xmlgraphics-commons/2.4/xmlgraphics-commons-2.4.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/xmlgraphics/xmlgraphics-commons/2.4/xmlgraphics-commons-2.4.pom
+Progress (1): 3.5 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/xmlgraphics/xmlgraphics-commons/2.4/xmlgraphics-commons-2.4.pom (3.5 kB at 218 kB/s)
+Downloading from Internal project repository: file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/com/thoughtworks/qdox/qdox/1.12/qdox-1.12.pom
+Downloading from central: https://repo.maven.apache.org/maven2/com/thoughtworks/qdox/qdox/1.12/qdox-1.12.pom
+Progress (1): 16/19 kB
+Progress (1): 19 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/com/thoughtworks/qdox/qdox/1.12/qdox-1.12.pom (19 kB at 3.7 MB/s)
+Downloading from Internal project repository: file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/org/apache/ant/ant/1.8.2/ant-1.8.2.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/ant/ant/1.8.2/ant-1.8.2.pom
+Progress (1): 9.9 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/ant/ant/1.8.2/ant-1.8.2.pom (9.9 kB at 1.4 MB/s)
+Downloading from Internal project repository: file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/org/apache/ant/ant-parent/1.8.2/ant-parent-1.8.2.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/ant/ant-parent/1.8.2/ant-parent-1.8.2.pom
+Progress (1): 4.7 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/ant/ant-parent/1.8.2/ant-parent-1.8.2.pom (4.7 kB at 521 kB/s)
+Downloading from Internal project repository: file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/org/apache/ant/ant-launcher/1.8.2/ant-launcher-1.8.2.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/ant/ant-launcher/1.8.2/ant-launcher-1.8.2.pom
+Progress (1): 2.4 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/ant/ant-launcher/1.8.2/ant-launcher-1.8.2.pom (2.4 kB at 242 kB/s)
+Downloading from Internal project repository: file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/org/primaresearch/basic/1.5b/basic-1.5b.pom
+Progress (1): 465 B
+[WARNING] Could not validate integrity of download from file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/org/primaresearch/basic/1.5b/basic-1.5b.pom
+org.eclipse.aether.transfer.ChecksumFailureException: Checksum validation failed, no checksums available
+    at org.eclipse.aether.internal.impl.AbstractChecksumPolicy.onNoMoreChecksums (AbstractChecksumPolicy.java:63)
+    at org.eclipse.aether.connector.basic.ChecksumValidator.validate (ChecksumValidator.java:112)
+    at org.eclipse.aether.connector.basic.BasicRepositoryConnector$GetTaskRunner.runTask (BasicRepositoryConnector.java:484)
+    at org.eclipse.aether.connector.basic.BasicRepositoryConnector$TaskRunner.run (BasicRepositoryConnector.java:414)
+    at org.eclipse.aether.connector.basic.BasicRepositoryConnector.get (BasicRepositoryConnector.java:260)
+    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads (DefaultArtifactResolver.java:536)
+    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve (DefaultArtifactResolver.java:448)
+    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts (DefaultArtifactResolver.java:260)
+    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact (DefaultArtifactResolver.java:242)
+    at org.apache.maven.repository.internal.DefaultArtifactDescriptorReader.loadPom (DefaultArtifactDescriptorReader.java:231)
+    at org.apache.maven.repository.internal.DefaultArtifactDescriptorReader.readArtifactDescriptor (DefaultArtifactDescriptorReader.java:172)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.resolveCachedArtifactDescriptor (DfDependencyCollector.java:382)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.getArtifactDescriptorResult (DfDependencyCollector.java:368)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.processDependency (DfDependencyCollector.java:218)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.processDependency (DfDependencyCollector.java:156)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.process (DfDependencyCollector.java:138)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.doCollectDependencies (DfDependencyCollector.java:108)
+    at org.eclipse.aether.internal.impl.collect.DependencyCollectorDelegate.collectDependencies (DependencyCollectorDelegate.java:222)
+    at org.eclipse.aether.internal.impl.collect.DefaultDependencyCollector.collectDependencies (DefaultDependencyCollector.java:87)
+    at org.eclipse.aether.internal.impl.DefaultRepositorySystem.collectDependencies (DefaultRepositorySystem.java:305)
+    at org.apache.maven.project.DefaultProjectDependenciesResolver.resolve (DefaultProjectDependenciesResolver.java:151)
+    at org.apache.maven.lifecycle.internal.LifecycleDependencyResolver.getDependencies (LifecycleDependencyResolver.java:224)
+    at org.apache.maven.lifecycle.internal.LifecycleDependencyResolver.resolveProjectDependencies (LifecycleDependencyResolver.java:136)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.ensureDependenciesAreResolved (MojoExecutor.java:355)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute (MojoExecutor.java:313)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:212)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:174)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.access$000 (MojoExecutor.java:75)
+    at org.apache.maven.lifecycle.internal.MojoExecutor$1.run (MojoExecutor.java:162)
+    at org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute (DefaultMojosExecutionStrategy.java:39)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:159)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:105)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:73)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:53)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:118)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:261)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:173)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:101)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:906)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:283)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:206)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:77)
+    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:568)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:283)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:226)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:407)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:348)
+                   
+[WARNING] Checksum validation failed, no checksums available from Internal project repository for file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/org/primaresearch/basic/1.5b/basic-1.5b.pom
+Downloaded from Internal project repository: file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/org/primaresearch/basic/1.5b/basic-1.5b.pom (465 B at 33 kB/s)
+Downloading from Internal project repository: file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/org/primaresearch/Dla/1.5b/Dla-1.5b.pom
+Progress (1): 463 B
+[WARNING] Could not validate integrity of download from file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/org/primaresearch/Dla/1.5b/Dla-1.5b.pom
+org.eclipse.aether.transfer.ChecksumFailureException: Checksum validation failed, no checksums available
+    at org.eclipse.aether.internal.impl.AbstractChecksumPolicy.onNoMoreChecksums (AbstractChecksumPolicy.java:63)
+    at org.eclipse.aether.connector.basic.ChecksumValidator.validate (ChecksumValidator.java:112)
+    at org.eclipse.aether.connector.basic.BasicRepositoryConnector$GetTaskRunner.runTask (BasicRepositoryConnector.java:484)
+    at org.eclipse.aether.connector.basic.BasicRepositoryConnector$TaskRunner.run (BasicRepositoryConnector.java:414)
+    at org.eclipse.aether.connector.basic.BasicRepositoryConnector.get (BasicRepositoryConnector.java:260)
+    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads (DefaultArtifactResolver.java:536)
+    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve (DefaultArtifactResolver.java:448)
+    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts (DefaultArtifactResolver.java:260)
+    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact (DefaultArtifactResolver.java:242)
+    at org.apache.maven.repository.internal.DefaultArtifactDescriptorReader.loadPom (DefaultArtifactDescriptorReader.java:231)
+    at org.apache.maven.repository.internal.DefaultArtifactDescriptorReader.readArtifactDescriptor (DefaultArtifactDescriptorReader.java:172)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.resolveCachedArtifactDescriptor (DfDependencyCollector.java:382)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.getArtifactDescriptorResult (DfDependencyCollector.java:368)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.processDependency (DfDependencyCollector.java:218)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.processDependency (DfDependencyCollector.java:156)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.process (DfDependencyCollector.java:138)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.doCollectDependencies (DfDependencyCollector.java:108)
+    at org.eclipse.aether.internal.impl.collect.DependencyCollectorDelegate.collectDependencies (DependencyCollectorDelegate.java:222)
+    at org.eclipse.aether.internal.impl.collect.DefaultDependencyCollector.collectDependencies (DefaultDependencyCollector.java:87)
+    at org.eclipse.aether.internal.impl.DefaultRepositorySystem.collectDependencies (DefaultRepositorySystem.java:305)
+    at org.apache.maven.project.DefaultProjectDependenciesResolver.resolve (DefaultProjectDependenciesResolver.java:151)
+    at org.apache.maven.lifecycle.internal.LifecycleDependencyResolver.getDependencies (LifecycleDependencyResolver.java:224)
+    at org.apache.maven.lifecycle.internal.LifecycleDependencyResolver.resolveProjectDependencies (LifecycleDependencyResolver.java:136)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.ensureDependenciesAreResolved (MojoExecutor.java:355)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute (MojoExecutor.java:313)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:212)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:174)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.access$000 (MojoExecutor.java:75)
+    at org.apache.maven.lifecycle.internal.MojoExecutor$1.run (MojoExecutor.java:162)
+    at org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute (DefaultMojosExecutionStrategy.java:39)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:159)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:105)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:73)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:53)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:118)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:261)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:173)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:101)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:906)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:283)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:206)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:77)
+    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:568)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:283)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:226)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:407)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:348)
+                   
+[WARNING] Checksum validation failed, no checksums available from Internal project repository for file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/org/primaresearch/Dla/1.5b/Dla-1.5b.pom
+Downloaded from Internal project repository: file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/org/primaresearch/Dla/1.5b/Dla-1.5b.pom (463 B at 46 kB/s)
+Downloading from Internal project repository: file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/org/primaresearch/Io/1.5b/Io-1.5b.pom
+Progress (1): 462 B
+[WARNING] Could not validate integrity of download from file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/org/primaresearch/Io/1.5b/Io-1.5b.pom
+org.eclipse.aether.transfer.ChecksumFailureException: Checksum validation failed, no checksums available
+    at org.eclipse.aether.internal.impl.AbstractChecksumPolicy.onNoMoreChecksums (AbstractChecksumPolicy.java:63)
+    at org.eclipse.aether.connector.basic.ChecksumValidator.validate (ChecksumValidator.java:112)
+    at org.eclipse.aether.connector.basic.BasicRepositoryConnector$GetTaskRunner.runTask (BasicRepositoryConnector.java:484)
+    at org.eclipse.aether.connector.basic.BasicRepositoryConnector$TaskRunner.run (BasicRepositoryConnector.java:414)
+    at org.eclipse.aether.connector.basic.BasicRepositoryConnector.get (BasicRepositoryConnector.java:260)
+    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads (DefaultArtifactResolver.java:536)
+    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve (DefaultArtifactResolver.java:448)
+    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts (DefaultArtifactResolver.java:260)
+    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact (DefaultArtifactResolver.java:242)
+    at org.apache.maven.repository.internal.DefaultArtifactDescriptorReader.loadPom (DefaultArtifactDescriptorReader.java:231)
+    at org.apache.maven.repository.internal.DefaultArtifactDescriptorReader.readArtifactDescriptor (DefaultArtifactDescriptorReader.java:172)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.resolveCachedArtifactDescriptor (DfDependencyCollector.java:382)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.getArtifactDescriptorResult (DfDependencyCollector.java:368)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.processDependency (DfDependencyCollector.java:218)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.processDependency (DfDependencyCollector.java:156)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.process (DfDependencyCollector.java:138)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.doCollectDependencies (DfDependencyCollector.java:108)
+    at org.eclipse.aether.internal.impl.collect.DependencyCollectorDelegate.collectDependencies (DependencyCollectorDelegate.java:222)
+    at org.eclipse.aether.internal.impl.collect.DefaultDependencyCollector.collectDependencies (DefaultDependencyCollector.java:87)
+    at org.eclipse.aether.internal.impl.DefaultRepositorySystem.collectDependencies (DefaultRepositorySystem.java:305)
+    at org.apache.maven.project.DefaultProjectDependenciesResolver.resolve (DefaultProjectDependenciesResolver.java:151)
+    at org.apache.maven.lifecycle.internal.LifecycleDependencyResolver.getDependencies (LifecycleDependencyResolver.java:224)
+    at org.apache.maven.lifecycle.internal.LifecycleDependencyResolver.resolveProjectDependencies (LifecycleDependencyResolver.java:136)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.ensureDependenciesAreResolved (MojoExecutor.java:355)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute (MojoExecutor.java:313)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:212)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:174)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.access$000 (MojoExecutor.java:75)
+    at org.apache.maven.lifecycle.internal.MojoExecutor$1.run (MojoExecutor.java:162)
+    at org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute (DefaultMojosExecutionStrategy.java:39)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:159)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:105)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:73)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:53)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:118)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:261)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:173)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:101)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:906)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:283)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:206)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:77)
+    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:568)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:283)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:226)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:407)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:348)
+                   
+[WARNING] Checksum validation failed, no checksums available from Internal project repository for file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/org/primaresearch/Io/1.5b/Io-1.5b.pom
+Downloaded from Internal project repository: file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/org/primaresearch/Io/1.5b/Io-1.5b.pom (462 B at 58 kB/s)
+Downloading from Internal project repository: file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/org/primaresearch/Maths/1.5b/Maths-1.5b.pom
+Progress (1): 465 B
+[WARNING] Could not validate integrity of download from file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/org/primaresearch/Maths/1.5b/Maths-1.5b.pom
+org.eclipse.aether.transfer.ChecksumFailureException: Checksum validation failed, no checksums available
+    at org.eclipse.aether.internal.impl.AbstractChecksumPolicy.onNoMoreChecksums (AbstractChecksumPolicy.java:63)
+    at org.eclipse.aether.connector.basic.ChecksumValidator.validate (ChecksumValidator.java:112)
+    at org.eclipse.aether.connector.basic.BasicRepositoryConnector$GetTaskRunner.runTask (BasicRepositoryConnector.java:484)
+    at org.eclipse.aether.connector.basic.BasicRepositoryConnector$TaskRunner.run (BasicRepositoryConnector.java:414)
+    at org.eclipse.aether.connector.basic.BasicRepositoryConnector.get (BasicRepositoryConnector.java:260)
+    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads (DefaultArtifactResolver.java:536)
+    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve (DefaultArtifactResolver.java:448)
+    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts (DefaultArtifactResolver.java:260)
+    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact (DefaultArtifactResolver.java:242)
+    at org.apache.maven.repository.internal.DefaultArtifactDescriptorReader.loadPom (DefaultArtifactDescriptorReader.java:231)
+    at org.apache.maven.repository.internal.DefaultArtifactDescriptorReader.readArtifactDescriptor (DefaultArtifactDescriptorReader.java:172)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.resolveCachedArtifactDescriptor (DfDependencyCollector.java:382)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.getArtifactDescriptorResult (DfDependencyCollector.java:368)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.processDependency (DfDependencyCollector.java:218)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.processDependency (DfDependencyCollector.java:156)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.process (DfDependencyCollector.java:138)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.doCollectDependencies (DfDependencyCollector.java:108)
+    at org.eclipse.aether.internal.impl.collect.DependencyCollectorDelegate.collectDependencies (DependencyCollectorDelegate.java:222)
+    at org.eclipse.aether.internal.impl.collect.DefaultDependencyCollector.collectDependencies (DefaultDependencyCollector.java:87)
+    at org.eclipse.aether.internal.impl.DefaultRepositorySystem.collectDependencies (DefaultRepositorySystem.java:305)
+    at org.apache.maven.project.DefaultProjectDependenciesResolver.resolve (DefaultProjectDependenciesResolver.java:151)
+    at org.apache.maven.lifecycle.internal.LifecycleDependencyResolver.getDependencies (LifecycleDependencyResolver.java:224)
+    at org.apache.maven.lifecycle.internal.LifecycleDependencyResolver.resolveProjectDependencies (LifecycleDependencyResolver.java:136)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.ensureDependenciesAreResolved (MojoExecutor.java:355)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute (MojoExecutor.java:313)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:212)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:174)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.access$000 (MojoExecutor.java:75)
+    at org.apache.maven.lifecycle.internal.MojoExecutor$1.run (MojoExecutor.java:162)
+    at org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute (DefaultMojosExecutionStrategy.java:39)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:159)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:105)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:73)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:53)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:118)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:261)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:173)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:101)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:906)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:283)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:206)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:77)
+    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:568)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:283)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:226)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:407)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:348)
+                   
+[WARNING] Checksum validation failed, no checksums available from Internal project repository for file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/org/primaresearch/Maths/1.5b/Maths-1.5b.pom
+Downloaded from Internal project repository: file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/org/primaresearch/Maths/1.5b/Maths-1.5b.pom (465 B at 52 kB/s)
+[INFO] Artifact com.fasterxml.jackson.core:jackson-databind:jar:2.10.0 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [Internal project repository (file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository, default, releases+snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact org.apache.pdfbox:pdfbox:jar:2.0.24 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [Internal project repository (file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository, default, releases+snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact org.apache.pdfbox:fontbox:jar:2.0.24 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [Internal project repository (file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository, default, releases+snapshots), central (https://repo.maven.apache.org/maven2, default, releases), apache.snapshots (https://repository.apache.org/snapshots, default, snapshots)]
+[INFO] Artifact com.fasterxml.jackson.core:jackson-databind:jar:2.10.0 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [Internal project repository (file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository, default, releases+snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact org.apache.pdfbox:pdfbox:jar:2.0.24 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [Internal project repository (file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository, default, releases+snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact org.apache.pdfbox:fontbox:jar:2.0.24 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [Internal project repository (file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository, default, releases+snapshots), central (https://repo.maven.apache.org/maven2, default, releases), apache.snapshots (https://repository.apache.org/snapshots, default, snapshots)]
+Downloading from Internal project repository: file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/org/springframework/spring-core/4.3.18.RELEASE/spring-core-4.3.18.RELEASE.jar
+Downloading from Internal project repository: file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/org/springframework/spring-web/4.3.18.RELEASE/spring-web-4.3.18.RELEASE.jar
+Downloading from Internal project repository: file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/org/springframework/spring-aop/4.3.18.RELEASE/spring-aop-4.3.18.RELEASE.jar
+Downloading from Internal project repository: file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/org/springframework/spring-context/4.3.18.RELEASE/spring-context-4.3.18.RELEASE.jar
+Downloading from Internal project repository: file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/org/springframework/spring-expression/4.3.18.RELEASE/spring-expression-4.3.18.RELEASE.jar
+Downloading from Internal project repository: file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/org/springframework/spring-webmvc/4.3.18.RELEASE/spring-webmvc-4.3.18.RELEASE.jar
+Downloading from Internal project repository: file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/taglibs/standard/1.1.2/standard-1.1.2.jar
+Downloading from Internal project repository: file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/com/fasterxml/jackson/core/jackson-databind/2.10.0/jackson-databind-2.10.0.jar
+Downloading from Internal project repository: file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/com/fasterxml/jackson/core/jackson-core/2.10.0/jackson-core-2.10.0.jar
+Downloading from Internal project repository: file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/javax/servlet/jsp-api/2.0/jsp-api-2.0.jar
+Downloading from Internal project repository: file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.0/jackson-annotations-2.10.0.jar
+Downloading from Internal project repository: file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/javax/servlet/servlet-api/2.4/servlet-api-2.4.jar
+Downloading from Internal project repository: file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/org/openpnp/opencv/3.2.0-1/opencv-3.2.0-1.jar
+Downloading from Internal project repository: file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/org/apache/pdfbox/pdfbox/2.0.24/pdfbox-2.0.24.jar
+Downloading from Internal project repository: file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/org/apache/pdfbox/fontbox/2.0.24/fontbox-2.0.24.jar
+Downloading from Internal project repository: file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/org/apache/pdfbox/pdfbox-tools/2.0.19/pdfbox-tools-2.0.19.jar
+Downloading from Internal project repository: file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/org/apache/pdfbox/pdfbox-debugger/2.0.19/pdfbox-debugger-2.0.19.jar
+Downloading from Internal project repository: file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/org/apache/pdfbox/jbig2-imageio/3.0.3/jbig2-imageio-3.0.3.jar
+Downloading from Internal project repository: file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/com/github/jai-imageio/jai-imageio-core/1.4.0/jai-imageio-core-1.4.0.jar
+Downloading from Internal project repository: file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/com/github/jai-imageio/jai-imageio-jpeg2000/1.3.0/jai-imageio-jpeg2000-1.3.0.jar
+Downloading from Internal project repository: file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/org/springframework/spring-beans/4.3.18.RELEASE/spring-beans-4.3.18.RELEASE.jar
+Downloading from Internal project repository: file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/org/docx4j/docx4j-JAXB-Internal/8.3.1/docx4j-JAXB-Internal-8.3.1.jar
+Downloading from Internal project repository: file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/org/docx4j/docx4j-core/8.3.1/docx4j-core-8.3.1.jar
+Downloading from Internal project repository: file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/org/docx4j/docx4j-openxml-objects/8.3.1/docx4j-openxml-objects-8.3.1.jar
+Downloading from Internal project repository: file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/org/docx4j/docx4j-openxml-objects-pml/8.3.1/docx4j-openxml-objects-pml-8.3.1.jar
+Downloading from Internal project repository: file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/org/plutext/jaxb-svg11/1.0.2/jaxb-svg11-1.0.2.jar
+Downloading from Internal project repository: file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/org/docx4j/docx4j-openxml-objects-sml/8.3.1/docx4j-openxml-objects-sml-8.3.1.jar
+Downloading from Internal project repository: file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/net/engio/mbassador/1.3.2/mbassador-1.3.2.jar
+Downloading from Internal project repository: file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/org/slf4j/jcl-over-slf4j/1.7.26/jcl-over-slf4j-1.7.26.jar
+Downloading from Internal project repository: file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/org/apache/xmlgraphics/xmlgraphics-commons/2.3/xmlgraphics-commons-2.3.jar
+Downloading from Internal project repository: file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/org/docx4j/org/apache/xalan-metainf/8.0.0/xalan-metainf-8.0.0.jar
+Downloading from Internal project repository: file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/org/docx4j/org/apache/xalan-interpretive/8.0.0/xalan-interpretive-8.0.0.jar
+Downloading from Internal project repository: file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/net/arnx/wmf2svg/0.9.8/wmf2svg-0.9.8.jar
+Downloading from Internal project repository: file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/org/docx4j/org/apache/xalan-serializer/8.0.0/xalan-serializer-8.0.0.jar
+Downloading from Internal project repository: file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/com/google/errorprone/error_prone_annotations/2.3.3/error_prone_annotations-2.3.3.jar
+Downloading from Internal project repository: file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/org/checkerframework/checker-qual/2.8.1/checker-qual-2.8.1.jar
+Downloading from Internal project repository: file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/org/apache/xmlgraphics/fop-events/2.5/fop-events-2.5.jar
+Downloading from Internal project repository: file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/org/apache/xmlgraphics/fop-util/2.5/fop-util-2.5.jar
+Downloading from Internal project repository: file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/com/thoughtworks/qdox/qdox/1.12/qdox-1.12.jar
+Downloading from Internal project repository: file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/org/apache/ant/ant/1.8.2/ant-1.8.2.jar
+Downloading from Internal project repository: file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/org/apache/ant/ant-launcher/1.8.2/ant-launcher-1.8.2.jar
+Downloading from Internal project repository: file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/org/primaresearch/basic/1.5b/basic-1.5b.jar
+Downloading from Internal project repository: file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/org/primaresearch/Dla/1.5b/Dla-1.5b.jar
+Downloading from Internal project repository: file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/org/primaresearch/Maths/1.5b/Maths-1.5b.jar
+Downloading from Internal project repository: file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/org/primaresearch/Io/1.5b/Io-1.5b.jar
+Progress (1): 28 kB
+Progress (2): 28 kB | 33/56 kB
+Progress (3): 28 kB | 33/56 kB | 8.4 kB
+Progress (3): 28 kB | 56 kB | 8.4 kB   
+Progress (4): 28 kB | 56 kB | 8.4 kB | 33/435 kB
+[WARNING] Could not validate integrity of download from file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/org/primaresearch/Maths/1.5b/Maths-1.5b.jar
+org.eclipse.aether.transfer.ChecksumFailureException: Checksum validation failed, no checksums available
+    at org.eclipse.aether.internal.impl.AbstractChecksumPolicy.onNoMoreChecksums (AbstractChecksumPolicy.java:63)
+    at org.eclipse.aether.connector.basic.ChecksumValidator.validate (ChecksumValidator.java:112)
+    at org.eclipse.aether.connector.basic.BasicRepositoryConnector$GetTaskRunner.runTask (BasicRepositoryConnector.java:484)
+    at org.eclipse.aether.connector.basic.BasicRepositoryConnector$TaskRunner.run (BasicRepositoryConnector.java:414)
+    at org.eclipse.aether.util.concurrency.RunnableErrorForwarder.lambda$wrap$0 (RunnableErrorForwarder.java:66)
+    at java.util.concurrent.ThreadPoolExecutor.runWorker (ThreadPoolExecutor.java:1136)
+    at java.util.concurrent.ThreadPoolExecutor$Worker.run (ThreadPoolExecutor.java:635)
+    at java.lang.Thread.run (Thread.java:833)
+Progress (4): 28 kB | 56 kB | 8.4 kB | 66/435 kB
+Progress (4): 28 kB | 56 kB | 8.4 kB | 98/435 kB
+Progress (4): 28 kB | 56 kB | 8.4 kB | 131/435 kB
+                                                 
+[WARNING] Checksum validation failed, no checksums available from Internal project repository for file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/org/primaresearch/Maths/1.5b/Maths-1.5b.jar
+[WARNING] Could not validate integrity of download from file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/org/primaresearch/Io/1.5b/Io-1.5b.jar
+org.eclipse.aether.transfer.ChecksumFailureException: Checksum validation failed, no checksums available
+    at org.eclipse.aether.internal.impl.AbstractChecksumPolicy.onNoMoreChecksumsProgress (4): 28 kB | 56 kB | 8.4 kB | 164/435 kB
+ (AbstractChecksumPolicy.java:63)
+    at org.eclipse.aether.connector.basic.ChecksumValidator.validate (ChecksumValidator.java:112)                                                 
+
+    at org.eclipse.aether.connector.basic.BasicRepositoryConnector$GetTaskRunner.runTaskDownloaded from Internal project repository: file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/org/primaresearch/Maths/1.5b/Maths-1.5b.jar (8.4 kB at 261 kB/s)
+ (BasicRepositoryConnector.java:484)
+    at org.eclipse.aether.connector.basic.BasicRepositoryConnector$TaskRunner.run (BasicRepositoryConnector.java:414)
+    at org.eclipse.aether.util.concurrency.RunnableErrorForwarder.lambda$wrap$0 (RunnableErrorForwarder.java:66)
+    at java.util.concurrent.ThreadPoolExecutor.runWorker (ThreadPoolExecutor.java:1136)
+    at java.util.concurrent.ThreadPoolExecutor$Worker.run (ThreadPoolExecutor.java:635)
+    at java.lang.Thread.run (Thread.java:833)
+[WARNING] Could not validate integrity of download from file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/org/primaresearch/basic/1.5b/basic-1.5b.jar
+org.eclipse.aether.transfer.ChecksumFailureException: Checksum validation failed, no checksums available
+    at org.eclipse.aether.internal.impl.AbstractChecksumPolicy.onNoMoreChecksums (AbstractChecksumPolicy.java:63)
+    at org.eclipse.aether.connector.basic.ChecksumValidator.validate (ChecksumValidator.java:112)
+    at org.eclipse.aether.connector.basic.BasicRepositoryConnector$GetTaskRunner.runTask (BasicRepositoryConnector.java:484)
+    at org.eclipse.aether.connector.basic.BasicRepositoryConnector$TaskRunner.run (BasicRepositoryConnector.java:414)
+    at org.eclipse.aether.util.concurrency.RunnableErrorForwarder.lambda$wrap$0 (RunnableErrorForwarder.java:66)
+    at java.util.concurrent.ThreadPoolExecutor.runWorker (ThreadPoolExecutor.java:1136)
+    at java.util.concurrent.ThreadPoolExecutor$Worker.run (ThreadPoolExecutor.java:635)
+    at java.lang.Thread.run (Thread.java:833)
+Progress (3): 28 kB | 56 kB | 197/435 kB
+                                        
+[WARNING] Checksum validation failed, no checksums available from Internal project repository for file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/org/primaresearch/basic/1.5b/basic-1.5b.jar
+[WARNING] Checksum validation failed, no checksums available from Internal project repository for file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/org/primaresearch/Io/1.5b/Io-1.5b.jar
+Progress (3): 28 kB | 56 kB | 229/435 kB
+                                        
+Downloaded from Internal project repository: file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/org/primaresearch/basic/1.5b/basic-1.5b.jar (56 kB at 1.5 MB/s)
+Downloaded from Internal project repository: file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/org/primaresearch/Io/1.5b/Io-1.5b.jar (28 kB at 796 kB/s)
+Progress (1): 262/435 kB
+Progress (1): 295/435 kB
+Progress (1): 328/435 kB
+Progress (1): 360/435 kB
+Progress (1): 393/435 kB
+Progress (1): 426/435 kB
+Progress (1): 435 kB    
+[WARNING] Could not validate integrity of download from file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/org/primaresearch/Dla/1.5b/Dla-1.5b.jar
+org.eclipse.aether.transfer.ChecksumFailureException: Checksum validation failed, no checksums available
+    at org.eclipse.aether.internal.impl.AbstractChecksumPolicy.onNoMoreChecksums (AbstractChecksumPolicy.java:63)
+    at org.eclipse.aether.connector.basic.ChecksumValidator.validate (ChecksumValidator.java:112)
+    at org.eclipse.aether.connector.basic.BasicRepositoryConnector$GetTaskRunner.runTask (BasicRepositoryConnector.java:484)
+    at org.eclipse.aether.connector.basic.BasicRepositoryConnector$TaskRunner.run (BasicRepositoryConnector.java:414)
+    at org.eclipse.aether.util.concurrency.RunnableErrorForwarder.lambda$wrap$0 (RunnableErrorForwarder.java:66)
+    at java.util.concurrent.ThreadPoolExecutor.runWorker (ThreadPoolExecutor.java:1136)
+    at java.util.concurrent.ThreadPoolExecutor$Worker.run (ThreadPoolExecutor.java:635)
+    at java.lang.Thread.run (Thread.java:833)
+                    
+[WARNING] Checksum validation failed, no checksums available from Internal project repository for file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/org/primaresearch/Dla/1.5b/Dla-1.5b.jar
+Downloaded from Internal project repository: file://D:\Bump\breaking-updates\tempProject\bd3ce213e2771c6ef7817c80818807a757d4e94a\OCR4all/src/lib/repository/org/primaresearch/Dla/1.5b/Dla-1.5b.jar (435 kB at 12 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-core/4.3.18.RELEASE/spring-core-4.3.18.RELEASE.jar
+Progress (1): 0/1.1 MB
+Progress (1): 0/1.1 MB
+Progress (1): 0/1.1 MB
+Progress (1): 0.1/1.1 MB
+Progress (1): 0.1/1.1 MB
+Progress (1): 0.1/1.1 MB
+Progress (1): 0.1/1.1 MB
+Progress (1): 0.1/1.1 MB
+Progress (1): 0.1/1.1 MB
+Progress (1): 0.2/1.1 MB
+Progress (1): 0.2/1.1 MB
+Progress (1): 0.2/1.1 MB
+Progress (1): 0.2/1.1 MB
+Progress (1): 0.2/1.1 MB
+Progress (1): 0.2/1.1 MB
+Progress (1): 0.3/1.1 MB
+Progress (1): 0.3/1.1 MB
+Progress (1): 0.3/1.1 MB
+Progress (1): 0.3/1.1 MB
+Progress (1): 0.3/1.1 MB
+Progress (1): 0.3/1.1 MB
+Progress (1): 0.4/1.1 MB
+Progress (1): 0.4/1.1 MB
+Progress (1): 0.4/1.1 MB
+Progress (1): 0.4/1.1 MB
+Progress (1): 0.4/1.1 MB
+Progress (1): 0.4/1.1 MB
+Progress (1): 0.5/1.1 MB
+Progress (1): 0.5/1.1 MB
+Progress (1): 0.5/1.1 MB
+Progress (1): 0.5/1.1 MB
+Progress (1): 0.5/1.1 MB
+Progress (1): 0.5/1.1 MB
+Progress (1): 0.5/1.1 MB
+Progress (1): 0.6/1.1 MB
+Progress (1): 0.6/1.1 MB
+Progress (1): 0.6/1.1 MB
+Progress (1): 0.6/1.1 MB
+Progress (1): 0.6/1.1 MB
+Progress (1): 0.6/1.1 MB
+Progress (1): 0.7/1.1 MB
+Progress (1): 0.7/1.1 MB
+Progress (1): 0.7/1.1 MB
+Progress (1): 0.7/1.1 MB
+Progress (1): 0.7/1.1 MB
+Progress (1): 0.7/1.1 MB
+Progress (1): 0.8/1.1 MB
+Progress (1): 0.8/1.1 MB
+Progress (1): 0.8/1.1 MB
+Progress (1): 0.8/1.1 MB
+Progress (1): 0.8/1.1 MB
+Progress (1): 0.8/1.1 MB
+Progress (1): 0.9/1.1 MB
+Progress (1): 0.9/1.1 MB
+Progress (1): 0.9/1.1 MB
+Progress (1): 0.9/1.1 MB
+Progress (1): 0.9/1.1 MB
+Progress (1): 0.9/1.1 MB
+Progress (1): 1.0/1.1 MB
+Progress (1): 1.0/1.1 MB
+Progress (1): 1.0/1.1 MB
+Progress (1): 1.0/1.1 MB
+Progress (1): 1.0/1.1 MB
+Progress (1): 1.0/1.1 MB
+Progress (1): 1.1/1.1 MB
+Progress (1): 1.1/1.1 MB
+Progress (1): 1.1/1.1 MB
+Progress (1): 1.1/1.1 MB
+Progress (1): 1.1/1.1 MB
+Progress (1): 1.1 MB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-core/4.3.18.RELEASE/spring-core-4.3.18.RELEASE.jar (1.1 MB at 14 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-beans/4.3.18.RELEASE/spring-beans-4.3.18.RELEASE.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-context/4.3.18.RELEASE/spring-context-4.3.18.RELEASE.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-web/4.3.18.RELEASE/spring-web-4.3.18.RELEASE.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-aop/4.3.18.RELEASE/spring-aop-4.3.18.RELEASE.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/4.3.18.RELEASE/spring-webmvc-4.3.18.RELEASE.jar
+Progress (1): 0/1.1 MB
+Progress (1): 0/1.1 MB
+Progress (1): 0/1.1 MB
+Progress (1): 0.1/1.1 MB
+Progress (1): 0.1/1.1 MB
+Progress (1): 0.1/1.1 MB
+Progress (1): 0.1/1.1 MB
+Progress (1): 0.1/1.1 MB
+Progress (1): 0.1/1.1 MB
+Progress (1): 0.2/1.1 MB
+Progress (1): 0.2/1.1 MB
+Progress (1): 0.2/1.1 MB
+Progress (1): 0.2/1.1 MB
+Progress (1): 0.2/1.1 MB
+Progress (1): 0.2/1.1 MB
+Progress (1): 0.3/1.1 MB
+Progress (1): 0.3/1.1 MB
+Progress (1): 0.3/1.1 MB
+Progress (1): 0.3/1.1 MB
+Progress (1): 0.3/1.1 MB
+Progress (1): 0.3/1.1 MB
+Progress (1): 0.4/1.1 MB
+Progress (1): 0.4/1.1 MB
+Progress (1): 0.4/1.1 MB
+Progress (2): 0.4/1.1 MB | 1.4/763 kB
+Progress (2): 0.4/1.1 MB | 1.4/763 kB
+Progress (2): 0.4/1.1 MB | 1.4/763 kB
+Progress (2): 0.4/1.1 MB | 1.4/763 kB
+Progress (2): 0.5/1.1 MB | 1.4/763 kB
+Progress (2): 0.5/1.1 MB | 1.4/763 kB
+Progress (2): 0.5/1.1 MB | 1.4/763 kB
+Progress (2): 0.5/1.1 MB | 1.4/763 kB
+Progress (2): 0.5/1.1 MB | 1.4/763 kB
+Progress (2): 0.5/1.1 MB | 1.4/763 kB
+Progress (2): 0.6/1.1 MB | 1.4/763 kB
+Progress (2): 0.6/1.1 MB | 1.4/763 kB
+Progress (2): 0.6/1.1 MB | 1.4/763 kB
+Progress (2): 0.6/1.1 MB | 2.7/763 kB
+Progress (2): 0.6/1.1 MB | 2.7/763 kB
+Progress (2): 0.6/1.1 MB | 4.1/763 kB
+Progress (2): 0.6/1.1 MB | 5.5/763 kB
+Progress (2): 0.6/1.1 MB | 6.9/763 kB
+Progress (2): 0.6/1.1 MB | 8.2/763 kB
+Progress (2): 0.6/1.1 MB | 8.2/763 kB
+Progress (2): 0.6/1.1 MB | 9.6/763 kB
+Progress (2): 0.6/1.1 MB | 11/763 kB 
+Progress (2): 0.6/1.1 MB | 11/763 kB
+Progress (2): 0.6/1.1 MB | 12/763 kB
+Progress (2): 0.6/1.1 MB | 14/763 kB
+Progress (2): 0.7/1.1 MB | 14/763 kB
+Progress (2): 0.7/1.1 MB | 15/763 kB
+Progress (2): 0.7/1.1 MB | 16/763 kB
+Progress (2): 0.7/1.1 MB | 16/763 kB
+Progress (2): 0.7/1.1 MB | 16/763 kB
+Progress (2): 0.7/1.1 MB | 16/763 kB
+Progress (2): 0.7/1.1 MB | 16/763 kB
+Progress (2): 0.7/1.1 MB | 16/763 kB
+Progress (2): 0.7/1.1 MB | 16/763 kB
+Progress (2): 0.8/1.1 MB | 16/763 kB
+Progress (2): 0.8/1.1 MB | 16/763 kB
+                                    
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-expression/4.3.18.RELEASE/spring-expression-4.3.18.RELEASE.jar
+Progress (2): 16/763 kB | 16/919 kB
+Progress (2): 16/763 kB | 33/919 kB
+Progress (3): 16/763 kB | 33/919 kB | 1.4/828 kB
+Progress (3): 16/763 kB | 49/919 kB | 1.4/828 kB
+Progress (3): 16/763 kB | 49/919 kB | 2.7/828 kB
+Progress (3): 16/763 kB | 66/919 kB | 2.7/828 kB
+Progress (3): 16/763 kB | 66/919 kB | 4.1/828 kB
+Progress (3): 16/763 kB | 66/919 kB | 5.5/828 kB
+Progress (3): 16/763 kB | 66/919 kB | 6.9/828 kB
+Progress (4): 16/763 kB | 66/919 kB | 6.9/828 kB | 16/380 kB
+Progress (4): 16/763 kB | 66/919 kB | 8.2/828 kB | 16/380 kB
+Progress (4): 16/763 kB | 82/919 kB | 8.2/828 kB | 16/380 kB
+Progress (4): 16/763 kB | 82/919 kB | 9.6/828 kB | 16/380 kB
+Progress (4): 16/763 kB | 82/919 kB | 9.6/828 kB | 33/380 kB
+Progress (5): 16/763 kB | 82/919 kB | 9.6/828 kB | 33/380 kB | 16/275 kB
+Progress (5): 16/763 kB | 98/919 kB | 9.6/828 kB | 33/380 kB | 16/275 kB
+Progress (5): 16/763 kB | 98/919 kB | 9.6/828 kB | 49/380 kB | 16/275 kB
+Progress (5): 16/763 kB | 98/919 kB | 9.6/828 kB | 49/380 kB | 32/275 kB
+Progress (5): 16/763 kB | 98/919 kB | 11/828 kB | 49/380 kB | 32/275 kB 
+Progress (5): 16/763 kB | 98/919 kB | 12/828 kB | 49/380 kB | 32/275 kB
+                                                                       
+Downloading from central: https://repo.maven.apache.org/maven2/taglibs/standard/1.1.2/standard-1.1.2.jar
+Progress (4): 98/919 kB | 12/828 kB | 49/380 kB | 49/275 kB
+Progress (4): 115/919 kB | 12/828 kB | 49/380 kB | 49/275 kB
+Progress (4): 115/919 kB | 12/828 kB | 66/380 kB | 49/275 kB
+Progress (4): 115/919 kB | 14/828 kB | 66/380 kB | 49/275 kB
+Progress (4): 115/919 kB | 14/828 kB | 66/380 kB | 65/275 kB
+Progress (4): 115/919 kB | 15/828 kB | 66/380 kB | 65/275 kB
+Progress (4): 115/919 kB | 15/828 kB | 82/380 kB | 65/275 kB
+Progress (4): 131/919 kB | 15/828 kB | 82/380 kB | 65/275 kB
+Progress (4): 131/919 kB | 15/828 kB | 82/380 kB | 81/275 kB
+Progress (4): 131/919 kB | 16/828 kB | 82/380 kB | 81/275 kB
+Progress (4): 131/919 kB | 16/828 kB | 82/380 kB | 98/275 kB
+Progress (4): 131/919 kB | 32/828 kB | 82/380 kB | 98/275 kB
+Progress (4): 131/919 kB | 32/828 kB | 82/380 kB | 114/275 kB
+Progress (4): 131/919 kB | 32/828 kB | 82/380 kB | 130/275 kB
+Progress (4): 131/919 kB | 32/828 kB | 82/380 kB | 147/275 kB
+Progress (4): 131/919 kB | 32/828 kB | 82/380 kB | 163/275 kB
+Progress (5): 131/919 kB | 32/828 kB | 82/380 kB | 163/275 kB | 16/393 kB
+Progress (5): 131/919 kB | 32/828 kB | 82/380 kB | 180/275 kB | 16/393 kB
+Progress (5): 147/919 kB | 32/828 kB | 82/380 kB | 180/275 kB | 16/393 kB
+Progress (5): 147/919 kB | 32/828 kB | 82/380 kB | 196/275 kB | 16/393 kB
+Progress (5): 147/919 kB | 32/828 kB | 82/380 kB | 212/275 kB | 16/393 kB
+Progress (5): 147/919 kB | 32/828 kB | 98/380 kB | 212/275 kB | 16/393 kB
+Progress (5): 147/919 kB | 32/828 kB | 98/380 kB | 212/275 kB | 33/393 kB
+Progress (5): 147/919 kB | 49/828 kB | 98/380 kB | 212/275 kB | 33/393 kB
+Progress (5): 147/919 kB | 49/828 kB | 115/380 kB | 212/275 kB | 33/393 kB
+Progress (5): 147/919 kB | 49/828 kB | 115/380 kB | 212/275 kB | 49/393 kB
+Progress (5): 147/919 kB | 65/828 kB | 115/380 kB | 212/275 kB | 49/393 kB
+Progress (5): 147/919 kB | 65/828 kB | 131/380 kB | 212/275 kB | 49/393 kB
+Progress (5): 164/919 kB | 65/828 kB | 131/380 kB | 212/275 kB | 49/393 kB
+Progress (5): 164/919 kB | 81/828 kB | 131/380 kB | 212/275 kB | 49/393 kB
+Progress (5): 164/919 kB | 81/828 kB | 147/380 kB | 212/275 kB | 49/393 kB
+Progress (5): 180/919 kB | 81/828 kB | 147/380 kB | 212/275 kB | 49/393 kB
+Progress (5): 180/919 kB | 81/828 kB | 164/380 kB | 212/275 kB | 49/393 kB
+Progress (5): 197/919 kB | 81/828 kB | 164/380 kB | 212/275 kB | 49/393 kB
+Progress (5): 197/919 kB | 81/828 kB | 180/380 kB | 212/275 kB | 49/393 kB
+Progress (5): 197/919 kB | 81/828 kB | 180/380 kB | 229/275 kB | 49/393 kB
+Progress (5): 213/919 kB | 81/828 kB | 180/380 kB | 229/275 kB | 49/393 kB
+Progress (5): 229/919 kB | 81/828 kB | 180/380 kB | 229/275 kB | 49/393 kB
+Progress (5): 246/919 kB | 81/828 kB | 180/380 kB | 229/275 kB | 49/393 kB
+Progress (5): 262/919 kB | 81/828 kB | 180/380 kB | 229/275 kB | 49/393 kB
+                                                                          
+Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.10.0/jackson-databind-2.10.0.jar
+Progress (4): 262/919 kB | 81/828 kB | 197/380 kB | 49/393 kB
+Progress (4): 279/919 kB | 81/828 kB | 197/380 kB | 49/393 kB
+Progress (4): 279/919 kB | 81/828 kB | 213/380 kB | 49/393 kB
+Progress (4): 295/919 kB | 81/828 kB | 213/380 kB | 49/393 kB
+Progress (4): 295/919 kB | 81/828 kB | 229/380 kB | 49/393 kB
+Progress (4): 311/919 kB | 81/828 kB | 229/380 kB | 49/393 kB
+Progress (4): 311/919 kB | 81/828 kB | 246/380 kB | 49/393 kB
+Progress (4): 311/919 kB | 81/828 kB | 256/380 kB | 49/393 kB
+Progress (4): 328/919 kB | 81/828 kB | 256/380 kB | 49/393 kB
+Progress (4): 328/919 kB | 81/828 kB | 272/380 kB | 49/393 kB
+Progress (4): 344/919 kB | 81/828 kB | 272/380 kB | 49/393 kB
+Progress (4): 344/919 kB | 81/828 kB | 289/380 kB | 49/393 kB
+Progress (4): 360/919 kB | 81/828 kB | 289/380 kB | 49/393 kB
+Progress (4): 360/919 kB | 81/828 kB | 305/380 kB | 49/393 kB
+Progress (4): 377/919 kB | 81/828 kB | 305/380 kB | 49/393 kB
+Progress (4): 377/919 kB | 81/828 kB | 321/380 kB | 49/393 kB
+Progress (4): 377/919 kB | 81/828 kB | 338/380 kB | 49/393 kB
+Progress (4): 377/919 kB | 81/828 kB | 354/380 kB | 49/393 kB
+Progress (4): 377/919 kB | 81/828 kB | 370/380 kB | 49/393 kB
+Progress (4): 377/919 kB | 81/828 kB | 380 kB | 49/393 kB    
+                                                         
+Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.10.0/jackson-annotations-2.10.0.jar
+Progress (3): 393/919 kB | 81/828 kB | 380 kB
+Progress (3): 410/919 kB | 81/828 kB | 380 kB
+                                             
+Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.10.0/jackson-databind-2.10.0.jar (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.10.0/jackson-core-2.10.0.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-aop/4.3.18.RELEASE/spring-aop-4.3.18.RELEASE.jar (380 kB at 3.5 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/javax/servlet/jsp-api/2.0/jsp-api-2.0.jar
+Progress (2): 426/919 kB | 81/828 kB
+Progress (2): 442/919 kB | 81/828 kB
+Progress (2): 459/919 kB | 81/828 kB
+Progress (2): 475/919 kB | 81/828 kB
+Progress (2): 492/919 kB | 81/828 kB
+Progress (2): 508/919 kB | 81/828 kB
+Progress (2): 524/919 kB | 81/828 kB
+                                    
+Downloading from central: https://repo.maven.apache.org/maven2/javax/servlet/servlet-api/2.4/servlet-api-2.4.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/openpnp/opencv/3.2.0-1/opencv-3.2.0-1.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/pdfbox/pdfbox/2.0.24/pdfbox-2.0.24.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/pdfbox/fontbox/2.0.24/fontbox-2.0.24.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/pdfbox/pdfbox-tools/2.0.19/pdfbox-tools-2.0.19.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/pdfbox/pdfbox-debugger/2.0.19/pdfbox-debugger-2.0.19.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/pdfbox/fontbox/2.0.24/fontbox-2.0.24.jar (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/pdfbox/jbig2-imageio/3.0.3/jbig2-imageio-3.0.3.jar
+Progress (1): 16/81 kB
+Progress (1): 33/81 kB
+Progress (1): 49/81 kB
+Progress (2): 49/81 kB | 0/66 MB
+Progress (2): 66/81 kB | 0/66 MB
+Progress (2): 66/81 kB | 0/66 MB
+Progress (2): 66/81 kB | 0/66 MB
+Progress (2): 66/81 kB | 0.1/66 MB
+Progress (3): 66/81 kB | 0.1/66 MB | 16/153 kB
+Progress (3): 81 kB | 0.1/66 MB | 16/153 kB   
+Progress (3): 81 kB | 0.1/66 MB | 16/153 kB
+Progress (3): 81 kB | 0.1/66 MB | 16/153 kB
+Progress (3): 81 kB | 0.1/66 MB | 16/153 kB
+                                           
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/pdfbox/pdfbox/2.0.24/pdfbox-2.0.24.jar (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/github/jai-imageio/jai-imageio-core/1.4.0/jai-imageio-core-1.4.0.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/pdfbox/pdfbox-tools/2.0.19/pdfbox-tools-2.0.19.jar (81 kB at 568 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/github/jai-imageio/jai-imageio-jpeg2000/1.3.0/jai-imageio-jpeg2000-1.3.0.jar
+Progress (2): 0.1/66 MB | 16/153 kB
+Progress (2): 0.1/66 MB | 16/153 kB
+Progress (2): 0.2/66 MB | 16/153 kB
+Progress (2): 0.2/66 MB | 16/153 kB
+Progress (2): 0.2/66 MB | 16/153 kB
+Progress (2): 0.2/66 MB | 32/153 kB
+Progress (2): 0.2/66 MB | 49/153 kB
+Progress (2): 0.2/66 MB | 49/153 kB
+Progress (2): 0.2/66 MB | 65/153 kB
+Progress (2): 0.2/66 MB | 65/153 kB
+Progress (2): 0.2/66 MB | 81/153 kB
+Progress (2): 0.2/66 MB | 81/153 kB
+                                   
+Downloading from central: https://repo.maven.apache.org/maven2/org/docx4j/docx4j-JAXB-Internal/8.3.1/docx4j-JAXB-Internal-8.3.1.jar
+Progress (2): 0.2/66 MB | 16/461 kB
+Progress (2): 0.2/66 MB | 33/461 kB
+Progress (2): 0.2/66 MB | 49/461 kB
+Progress (2): 0.2/66 MB | 66/461 kB
+Progress (2): 0.2/66 MB | 82/461 kB
+                                   
+Downloading from central: https://repo.maven.apache.org/maven2/org/docx4j/docx4j-core/8.3.1/docx4j-core-8.3.1.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/docx4j/docx4j-openxml-objects/8.3.1/docx4j-openxml-objects-8.3.1.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/docx4j/docx4j-openxml-objects-pml/8.3.1/docx4j-openxml-objects-pml-8.3.1.jar
+Progress (2): 0.2/66 MB | 0/3.5 MB
+Progress (2): 0.2/66 MB | 0/3.5 MB
+Progress (2): 0.2/66 MB | 0/3.5 MB
+Progress (2): 0.2/66 MB | 0.1/3.5 MB
+Progress (2): 0.2/66 MB | 0.1/3.5 MB
+Progress (2): 0.2/66 MB | 0.1/3.5 MB
+Progress (2): 0.2/66 MB | 0.1/3.5 MB
+Progress (2): 0.2/66 MB | 0.1/3.5 MB
+Progress (2): 0.2/66 MB | 0.1/3.5 MB
+Progress (2): 0.2/66 MB | 0.2/3.5 MB
+Progress (2): 0.2/66 MB | 0.2/3.5 MB
+Progress (2): 0.2/66 MB | 0.2/3.5 MB
+                                    
+Downloading from central: https://repo.maven.apache.org/maven2/org/docx4j/docx4j-openxml-objects-sml/8.3.1/docx4j-openxml-objects-sml-8.3.1.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/plutext/jaxb-svg11/1.0.2/jaxb-svg11-1.0.2.jar
+Downloading from central: https://repo.maven.apache.org/maven2/net/engio/mbassador/1.3.2/mbassador-1.3.2.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/jcl-over-slf4j/1.7.26/jcl-over-slf4j-1.7.26.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/xmlgraphics/xmlgraphics-commons/2.3/xmlgraphics-commons-2.3.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/docx4j/org/apache/xalan-metainf/8.0.0/xalan-metainf-8.0.0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/docx4j/org/apache/xalan-interpretive/8.0.0/xalan-interpretive-8.0.0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/docx4j/org/apache/xalan-serializer/8.0.0/xalan-serializer-8.0.0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/net/arnx/wmf2svg/0.9.8/wmf2svg-0.9.8.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/checkerframework/checker-qual/2.8.1/checker-qual-2.8.1.jar
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.3.3/error_prone_annotations-2.3.3.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/xmlgraphics/fop-events/2.5/fop-events-2.5.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/xmlgraphics/fop-util/2.5/fop-util-2.5.jar
+Downloading from central: https://repo.maven.apache.org/maven2/com/thoughtworks/qdox/qdox/1.12/qdox-1.12.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/ant/ant/1.8.2/ant-1.8.2.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/ant/ant-launcher/1.8.2/ant-launcher-1.8.2.jar
+Downloading from apache.releases.https: https://repository.apache.org/content/repositories/releases/org/apache/xmlgraphics/fop-util/2.5/fop-util-2.5.jar
+Progress (1): 7.8/26 kB
+Progress (1): 8.2/26 kB
+Progress (1): 16/26 kB 
+Progress (1): 24/26 kB
+Progress (1): 25/26 kB
+Progress (1): 26 kB   
+                   
+Downloaded from apache.releases.https: https://repository.apache.org/content/repositories/releases/org/apache/xmlgraphics/fop-util/2.5/fop-util-2.5.jar (26 kB at 96 kB/s)
+Downloading from apache.releases.https: https://repository.apache.org/content/repositories/releases/com/thoughtworks/qdox/qdox/1.12/qdox-1.12.jar
+Downloading from apache.releases.https: https://repository.apache.org/content/repositories/releases/org/apache/ant/ant/1.8.2/ant-1.8.2.jar
+Downloading from apache.releases.https: https://repository.apache.org/content/repositories/releases/org/apache/ant/ant-launcher/1.8.2/ant-launcher-1.8.2.jar
+Progress (1): 7.8/12 kB
+Progress (1): 8.2/12 kB
+Progress (1): 12 kB    
+Progress (2): 12 kB | 0/1.9 MB
+Progress (2): 12 kB | 0/1.9 MB
+                              
+Downloaded from apache.releases.https: https://repository.apache.org/content/repositories/releases/org/apache/ant/ant-launcher/1.8.2/ant-launcher-1.8.2.jar (12 kB at 83 kB/s)
+Progress (1): 0/1.9 MB
+Progress (1): 0/1.9 MB
+Progress (1): 0/1.9 MB
+Progress (1): 0/1.9 MB
+                      
+Downloading from jboss.org: https://repository.jboss.org/nexus/content/repositories/thirdparty-releases/com/thoughtworks/qdox/qdox/1.12/qdox-1.12.jar
+Downloading from jboss.org: https://repository.jboss.org/nexus/content/repositories/thirdparty-releases/org/apache/ant/ant/1.8.2/ant-1.8.2.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  5.372 s
+[INFO] Finished at: 2023-09-21T17:25:56Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal on project ocr4all: Could not resolve dependencies for project de.uniwue:ocr4all:war:0.6.1: The following artifacts could not be resolved: org.springframework:spring-web:jar:4.3.18.RELEASE (absent), org.springframework:spring-beans:jar:4.3.18.RELEASE (absent), org.springframework:spring-context:jar:4.3.18.RELEASE (absent), org.springframework:spring-webmvc:jar:4.3.18.RELEASE (absent), org.springframework:spring-expression:jar:4.3.18.RELEASE (absent), taglibs:standard:jar:1.1.2 (absent), com.fasterxml.jackson.core:jackson-annotations:jar:2.10.0 (absent), com.fasterxml.jackson.core:jackson-core:jar:2.10.0 (absent), javax.servlet:jsp-api:jar:2.0 (absent), javax.servlet:servlet-api:jar:2.4 (absent), org.openpnp:opencv:jar:3.2.0-1 (absent), org.apache.pdfbox:pdfbox-debugger:jar:2.0.19 (absent), org.apache.pdfbox:jbig2-imageio:jar:3.0.3 (absent), com.github.jai-imageio:jai-imageio-core:jar:1.4.0 (absent), com.github.jai-imageio:jai-imageio-jpeg2000:jar:1.3.0 (absent), org.docx4j:docx4j-JAXB-Internal:jar:8.3.1 (absent), org.docx4j:docx4j-core:jar:8.3.1 (absent), org.docx4j:docx4j-openxml-objects:jar:8.3.1 (absent), org.docx4j:docx4j-openxml-objects-pml:jar:8.3.1 (absent), org.docx4j:docx4j-openxml-objects-sml:jar:8.3.1 (absent), org.plutext:jaxb-svg11:jar:1.0.2 (absent), net.engio:mbassador:jar:1.3.2 (absent), org.slf4j:jcl-over-slf4j:jar:1.7.26 (absent), org.apache.xmlgraphics:xmlgraphics-commons:jar:2.3 (absent), org.docx4j.org.apache:xalan-metainf:jar:8.0.0 (absent), org.docx4j.org.apache:xalan-interpretive:jar:8.0.0 (absent), org.docx4j.org.apache:xalan-serializer:jar:8.0.0 (absent), net.arnx:wmf2svg:jar:0.9.8 (absent), org.checkerframework:checker-qual:jar:2.8.1 (absent), com.google.errorprone:error_prone_annotations:jar:2.3.3 (absent), org.apache.xmlgraphics:fop-events:jar:2.5 (absent), com.thoughtworks.qdox:qdox:jar:1.12 (absent), org.apache.ant:ant:jar:1.8.2 (absent): Could not transfer artifact org.springframework:spring-web:jar:4.3.18.RELEASE from/to central (https://repo.maven.apache.org/maven2): There is not enough space on the disk -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException

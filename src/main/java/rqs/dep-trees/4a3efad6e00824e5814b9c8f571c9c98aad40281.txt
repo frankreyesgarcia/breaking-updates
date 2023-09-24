@@ -1,0 +1,1556 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< org.openpdfsign:openpdfsign >---------------------
+[INFO] Building openpdfsign 0.1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/org/apache/pdfbox/pdfbox/2.0.26/pdfbox-2.0.26.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/pdfbox/pdfbox/2.0.26/pdfbox-2.0.26.pom
+Progress (1): 1.4/42 kB
+Progress (1): 2.7/42 kB
+Progress (1): 4.1/42 kB
+Progress (1): 5.5/42 kB
+Progress (1): 6.9/42 kB
+Progress (1): 8.2/42 kB
+Progress (1): 9.6/42 kB
+Progress (1): 11/42 kB 
+Progress (1): 12/42 kB
+Progress (1): 14/42 kB
+Progress (1): 15/42 kB
+Progress (1): 16/42 kB
+Progress (1): 17/42 kB
+Progress (1): 19/42 kB
+Progress (1): 20/42 kB
+Progress (1): 21/42 kB
+Progress (1): 23/42 kB
+Progress (1): 24/42 kB
+Progress (1): 25/42 kB
+Progress (1): 27/42 kB
+Progress (1): 28/42 kB
+Progress (1): 30/42 kB
+Progress (1): 31/42 kB
+Progress (1): 32/42 kB
+Progress (1): 34/42 kB
+Progress (1): 35/42 kB
+Progress (1): 36/42 kB
+Progress (1): 38/42 kB
+Progress (1): 39/42 kB
+Progress (1): 41/42 kB
+Progress (1): 42/42 kB
+Progress (1): 42 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/pdfbox/pdfbox/2.0.26/pdfbox-2.0.26.pom (42 kB at 360 kB/s)
+Downloading from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/org/apache/pdfbox/pdfbox-parent/2.0.26/pdfbox-parent-2.0.26.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/pdfbox/pdfbox-parent/2.0.26/pdfbox-parent-2.0.26.pom
+Progress (1): 1.4/20 kB
+Progress (1): 2.7/20 kB
+Progress (1): 4.1/20 kB
+Progress (1): 5.5/20 kB
+Progress (1): 6.9/20 kB
+Progress (1): 8.2/20 kB
+Progress (1): 9.6/20 kB
+Progress (1): 11/20 kB 
+Progress (1): 12/20 kB
+Progress (1): 14/20 kB
+Progress (1): 15/20 kB
+Progress (1): 16/20 kB
+Progress (1): 18/20 kB
+Progress (1): 19/20 kB
+Progress (1): 20 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/pdfbox/pdfbox-parent/2.0.26/pdfbox-parent-2.0.26.pom (20 kB at 1.3 MB/s)
+Downloading from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/org/apache/pdfbox/fontbox/2.0.26/fontbox-2.0.26.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/pdfbox/fontbox/2.0.26/fontbox-2.0.26.pom
+Progress (1): 6.6 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/pdfbox/fontbox/2.0.26/fontbox-2.0.26.pom (6.6 kB at 657 kB/s)
+Downloading from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/eu/europa/ec/joinup/sd-dss/dss-pades/5.9/dss-pades-5.9.pom
+Progress (1): 1.4 kB
+                    
+Downloaded from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/eu/europa/ec/joinup/sd-dss/dss-pades/5.9/dss-pades-5.9.pom (1.4 kB at 29 kB/s)
+Downloading from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/eu/europa/ec/joinup/sd-dss/sd-dss/5.9/sd-dss-5.9.pom
+Progress (1): 7.5/36 kB
+Progress (1): 8.2/36 kB
+Progress (1): 16/36 kB 
+Progress (1): 16/36 kB
+Progress (1): 24/36 kB
+Progress (1): 25/36 kB
+Progress (1): 32/36 kB
+Progress (1): 33/36 kB
+Progress (1): 36 kB   
+                   
+Downloaded from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/eu/europa/ec/joinup/sd-dss/sd-dss/5.9/sd-dss-5.9.pom (36 kB at 591 kB/s)
+Downloading from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/eu/europa/ec/joinup/sd-dss/dss-cades/5.9/dss-cades-5.9.pom
+Progress (1): 1.1 kB
+                    
+Downloaded from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/eu/europa/ec/joinup/sd-dss/dss-cades/5.9/dss-cades-5.9.pom (1.1 kB at 21 kB/s)
+Downloading from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/eu/europa/ec/joinup/sd-dss/dss-document/5.9/dss-document-5.9.pom
+Progress (1): 2.6 kB
+                    
+Downloaded from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/eu/europa/ec/joinup/sd-dss/dss-document/5.9/dss-document-5.9.pom (2.6 kB at 57 kB/s)
+Downloading from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/eu/europa/ec/joinup/sd-dss/dss-spi/5.9/dss-spi-5.9.pom
+Progress (1): 2.3 kB
+                    
+Downloaded from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/eu/europa/ec/joinup/sd-dss/dss-spi/5.9/dss-spi-5.9.pom (2.3 kB at 45 kB/s)
+Downloading from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/eu/europa/ec/joinup/sd-dss/dss-model/5.9/dss-model-5.9.pom
+Progress (1): 1.6 kB
+                    
+Downloaded from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/eu/europa/ec/joinup/sd-dss/dss-model/5.9/dss-model-5.9.pom (1.6 kB at 34 kB/s)
+Downloading from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/eu/europa/ec/joinup/sd-dss/dss-enumerations/5.9/dss-enumerations-5.9.pom
+Progress (1): 771 B
+                   
+Downloaded from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/eu/europa/ec/joinup/sd-dss/dss-enumerations/5.9/dss-enumerations-5.9.pom (771 B at 18 kB/s)
+Downloading from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/org/slf4j/slf4j-api/1.7.31/slf4j-api-1.7.31.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.31/slf4j-api-1.7.31.pom
+Progress (1): 3.8 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.31/slf4j-api-1.7.31.pom (3.8 kB at 274 kB/s)
+Downloading from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/org/slf4j/slf4j-parent/1.7.31/slf4j-parent-1.7.31.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.7.31/slf4j-parent-1.7.31.pom
+Progress (1): 14 kB
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.7.31/slf4j-parent-1.7.31.pom (14 kB at 1.5 MB/s)
+Downloading from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/eu/europa/ec/joinup/sd-dss/dss-utils/5.9/dss-utils-5.9.pom
+Progress (1): 975 B
+                   
+Downloaded from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/eu/europa/ec/joinup/sd-dss/dss-utils/5.9/dss-utils-5.9.pom (975 B at 17 kB/s)
+Downloading from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/eu/europa/ec/joinup/sd-dss/dss-crl-parser/5.9/dss-crl-parser-5.9.pom
+Progress (1): 1.5 kB
+                    
+Downloaded from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/eu/europa/ec/joinup/sd-dss/dss-crl-parser/5.9/dss-crl-parser-5.9.pom (1.5 kB at 32 kB/s)
+Downloading from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/org/bouncycastle/bcprov-jdk15on/1.69/bcprov-jdk15on-1.69.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/bouncycastle/bcprov-jdk15on/1.69/bcprov-jdk15on-1.69.pom
+Progress (1): 1.1 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/bouncycastle/bcprov-jdk15on/1.69/bcprov-jdk15on-1.69.pom (1.1 kB at 143 kB/s)
+Downloading from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/org/bouncycastle/bcpkix-jdk15on/1.69/bcpkix-jdk15on-1.69.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/bouncycastle/bcpkix-jdk15on/1.69/bcpkix-jdk15on-1.69.pom
+Progress (1): 1.6 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/bouncycastle/bcpkix-jdk15on/1.69/bcpkix-jdk15on-1.69.pom (1.6 kB at 182 kB/s)
+Downloading from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/org/bouncycastle/bcutil-jdk15on/1.69/bcutil-jdk15on-1.69.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/bouncycastle/bcutil-jdk15on/1.69/bcutil-jdk15on-1.69.pom
+Progress (1): 1.3 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/bouncycastle/bcutil-jdk15on/1.69/bcutil-jdk15on-1.69.pom (1.3 kB at 189 kB/s)
+Downloading from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/eu/europa/ec/joinup/sd-dss/validation-policy/5.9/validation-policy-5.9.pom
+Progress (1): 3.0 kB
+                    
+Downloaded from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/eu/europa/ec/joinup/sd-dss/validation-policy/5.9/validation-policy-5.9.pom (3.0 kB at 57 kB/s)
+Downloading from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/eu/europa/ec/joinup/sd-dss/dss-policy-jaxb/5.9/dss-policy-jaxb-5.9.pom
+Progress (1): 3.3 kB
+                    
+Downloaded from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/eu/europa/ec/joinup/sd-dss/dss-policy-jaxb/5.9/dss-policy-jaxb-5.9.pom (3.3 kB at 61 kB/s)
+Downloading from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/eu/europa/ec/joinup/sd-dss/dss-jaxb-parsers/5.9/dss-jaxb-parsers-5.9.pom
+Progress (1): 1.7 kB
+                    
+Downloaded from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/eu/europa/ec/joinup/sd-dss/dss-jaxb-parsers/5.9/dss-jaxb-parsers-5.9.pom (1.7 kB at 33 kB/s)
+Downloading from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/eu/europa/ec/joinup/sd-dss/dss-jaxb-common/5.9/dss-jaxb-common-5.9.pom
+Progress (1): 2.1 kB
+                    
+Downloaded from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/eu/europa/ec/joinup/sd-dss/dss-jaxb-common/5.9/dss-jaxb-common-5.9.pom (2.1 kB at 45 kB/s)
+Downloading from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/eu/europa/ec/joinup/sd-dss/dss-alert/5.9/dss-alert-5.9.pom
+Progress (1): 1.2 kB
+                    
+Downloaded from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/eu/europa/ec/joinup/sd-dss/dss-alert/5.9/dss-alert-5.9.pom (1.2 kB at 27 kB/s)
+Downloading from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/eu/europa/ec/joinup/sd-dss/dss-diagnostic-jaxb/5.9/dss-diagnostic-jaxb-5.9.pom
+Progress (1): 3.8 kB
+                    
+Downloaded from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/eu/europa/ec/joinup/sd-dss/dss-diagnostic-jaxb/5.9/dss-diagnostic-jaxb-5.9.pom (3.8 kB at 86 kB/s)
+Downloading from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/eu/europa/ec/joinup/sd-dss/dss-simple-report-jaxb/5.9/dss-simple-report-jaxb-5.9.pom
+Progress (1): 4.7 kB
+                    
+Downloaded from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/eu/europa/ec/joinup/sd-dss/dss-simple-report-jaxb/5.9/dss-simple-report-jaxb-5.9.pom (4.7 kB at 110 kB/s)
+Downloading from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/eu/europa/ec/joinup/sd-dss/dss-simple-certificate-report-jaxb/5.9/dss-simple-certificate-report-jaxb-5.9.pom
+Progress (1): 5.2 kB
+                    
+Downloaded from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/eu/europa/ec/joinup/sd-dss/dss-simple-certificate-report-jaxb/5.9/dss-simple-certificate-report-jaxb-5.9.pom (5.2 kB at 119 kB/s)
+Downloading from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/eu/europa/ec/joinup/sd-dss/dss-detailed-report-jaxb/5.9/dss-detailed-report-jaxb-5.9.pom
+Progress (1): 4.8 kB
+                    
+Downloaded from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/eu/europa/ec/joinup/sd-dss/dss-detailed-report-jaxb/5.9/dss-detailed-report-jaxb-5.9.pom (4.8 kB at 113 kB/s)
+Downloading from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/eu/europa/ec/joinup/sd-dss/specs-validation-report/5.9/specs-validation-report-5.9.pom
+Progress (1): 4.5 kB
+                    
+Downloaded from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/eu/europa/ec/joinup/sd-dss/specs-validation-report/5.9/specs-validation-report-5.9.pom (4.5 kB at 96 kB/s)
+Downloading from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/eu/europa/ec/joinup/sd-dss/specs-xmldsig/5.9/specs-xmldsig-5.9.pom
+Progress (1): 3.5 kB
+                    
+Downloaded from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/eu/europa/ec/joinup/sd-dss/specs-xmldsig/5.9/specs-xmldsig-5.9.pom (3.5 kB at 79 kB/s)
+Downloading from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/eu/europa/ec/joinup/sd-dss/specs-xades/5.9/specs-xades-5.9.pom
+Progress (1): 4.4 kB
+                    
+Downloaded from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/eu/europa/ec/joinup/sd-dss/specs-xades/5.9/specs-xades-5.9.pom (4.4 kB at 97 kB/s)
+Downloading from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/eu/europa/ec/joinup/sd-dss/specs-trusted-list/5.9/specs-trusted-list-5.9.pom
+Progress (1): 4.6 kB
+                    
+Downloaded from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/eu/europa/ec/joinup/sd-dss/specs-trusted-list/5.9/specs-trusted-list-5.9.pom (4.6 kB at 74 kB/s)
+Downloading from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/eu/europa/ec/joinup/sd-dss/dss-i18n/5.9/dss-i18n-5.9.pom
+Progress (1): 1.3 kB
+                    
+Downloaded from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/eu/europa/ec/joinup/sd-dss/dss-i18n/5.9/dss-i18n-5.9.pom (1.3 kB at 26 kB/s)
+Downloading from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/eu/europa/ec/joinup/sd-dss/dss-pades-pdfbox/5.9/dss-pades-pdfbox-5.9.pom
+Progress (1): 2.1 kB
+                    
+Downloaded from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/eu/europa/ec/joinup/sd-dss/dss-pades-pdfbox/5.9/dss-pades-pdfbox-5.9.pom (2.1 kB at 46 kB/s)
+[INFO] Artifact org.apache.pdfbox:pdfbox:pom:2.0.24 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [cefdigital (https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/, default, releases+snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact org.apache.pdfbox:pdfbox:pom:2.0.24 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [cefdigital (https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/, default, releases+snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+Downloading from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/org/apache/pdfbox/pdfbox/2.0.24/pdfbox-2.0.24.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/pdfbox/pdfbox/2.0.24/pdfbox-2.0.24.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/pdfbox/pdfbox/2.0.24/pdfbox-2.0.24.pom (0 B at 0 B/s)
+[INFO] Artifact org.apache.pdfbox:pdfbox-parent:pom:2.0.24 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [cefdigital (https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/, default, releases+snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact org.apache.pdfbox:pdfbox-parent:pom:2.0.24 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [cefdigital (https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/, default, releases+snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+Downloading from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/org/apache/pdfbox/pdfbox-parent/2.0.24/pdfbox-parent-2.0.24.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/pdfbox/pdfbox-parent/2.0.24/pdfbox-parent-2.0.24.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/pdfbox/pdfbox-parent/2.0.24/pdfbox-parent-2.0.24.pom (0 B at 0 B/s)
+[INFO] Artifact org.apache.pdfbox:fontbox:pom:2.0.24 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [cefdigital (https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/, default, releases+snapshots), central (https://repo.maven.apache.org/maven2, default, releases), apache.snapshots (https://repository.apache.org/snapshots, default, snapshots)]
+[INFO] Artifact org.apache.pdfbox:fontbox:pom:2.0.24 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [cefdigital (https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/, default, releases+snapshots), central (https://repo.maven.apache.org/maven2, default, releases), apache.snapshots (https://repository.apache.org/snapshots, default, snapshots)]
+Downloading from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/org/apache/pdfbox/fontbox/2.0.24/fontbox-2.0.24.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/pdfbox/fontbox/2.0.24/fontbox-2.0.24.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/pdfbox/fontbox/2.0.24/fontbox-2.0.24.pom (0 B at 0 B/s)
+Downloading from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/eu/europa/ec/joinup/sd-dss/dss-token/5.9/dss-token-5.9.pom
+Progress (1): 1.6 kB
+                    
+Downloaded from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/eu/europa/ec/joinup/sd-dss/dss-token/5.9/dss-token-5.9.pom (1.6 kB at 37 kB/s)
+Downloading from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/eu/europa/ec/joinup/sd-dss/dss-utils-apache-commons/5.9/dss-utils-apache-commons-5.9.pom
+Progress (1): 2.0 kB
+                    
+Downloaded from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/eu/europa/ec/joinup/sd-dss/dss-utils-apache-commons/5.9/dss-utils-apache-commons-5.9.pom (2.0 kB at 41 kB/s)
+Downloading from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/commons-io/commons-io/2.10.0/commons-io-2.10.0.pom
+Downloading from central: https://repo.maven.apache.org/maven2/commons-io/commons-io/2.10.0/commons-io-2.10.0.pom
+Progress (1): 16/21 kB
+Progress (1): 21 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/commons-io/commons-io/2.10.0/commons-io-2.10.0.pom (21 kB at 2.6 MB/s)
+Downloading from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/eu/europa/ec/joinup/sd-dss/dss-service/5.9/dss-service-5.9.pom
+Progress (1): 3.0 kB
+                    
+Downloaded from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/eu/europa/ec/joinup/sd-dss/dss-service/5.9/dss-service-5.9.pom (3.0 kB at 71 kB/s)
+Downloading from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/com/github/vandeseer/easytable/0.8.5/easytable-0.8.5.pom
+Downloading from central: https://repo.maven.apache.org/maven2/com/github/vandeseer/easytable/0.8.5/easytable-0.8.5.pom
+Progress (1): 7.5 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/github/vandeseer/easytable/0.8.5/easytable-0.8.5.pom (7.5 kB at 830 kB/s)
+Downloading from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/org/apache/commons/commons-configuration2/2.8.0/commons-configuration2-2.8.0.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-configuration2/2.8.0/commons-configuration2-2.8.0.pom
+Progress (1): 16/31 kB
+Progress (1): 31 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-configuration2/2.8.0/commons-configuration2-2.8.0.pom (31 kB at 3.1 MB/s)
+Downloading from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/org/apache/commons/commons-parent/53/commons-parent-53.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/53/commons-parent-53.pom
+Progress (1): 16/82 kB
+Progress (1): 33/82 kB
+Progress (1): 49/82 kB
+Progress (1): 66/82 kB
+Progress (1): 82/82 kB
+Progress (1): 82 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/53/commons-parent-53.pom (82 kB at 7.5 MB/s)
+Downloading from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/org/slf4j/slf4j-simple/1.7.21/slf4j-simple-1.7.21.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-simple/1.7.21/slf4j-simple-1.7.21.pom
+Progress (1): 1.0 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-simple/1.7.21/slf4j-simple-1.7.21.pom (1.0 kB at 145 kB/s)
+Downloading from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/org/slf4j/slf4j-parent/1.7.21/slf4j-parent-1.7.21.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.7.21/slf4j-parent-1.7.21.pom
+Progress (1): 14 kB
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.7.21/slf4j-parent-1.7.21.pom (14 kB at 1.5 MB/s)
+Downloading from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/org/slf4j/slf4j-api/1.7.21/slf4j-api-1.7.21.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.21/slf4j-api-1.7.21.pom
+Progress (1): 2.8 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.21/slf4j-api-1.7.21.pom (2.8 kB at 308 kB/s)
+Downloading from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/org/apache/pdfbox/pdfbox/2.0.26/pdfbox-2.0.26.jar
+Downloading from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/eu/europa/ec/joinup/sd-dss/dss-pades/5.9/dss-pades-5.9.jar
+Downloading from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/eu/europa/ec/joinup/sd-dss/dss-document/5.9/dss-document-5.9.jar
+Downloading from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/eu/europa/ec/joinup/sd-dss/dss-cades/5.9/dss-cades-5.9.jar
+Downloading from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/org/apache/pdfbox/fontbox/2.0.26/fontbox-2.0.26.jar
+Downloading from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/eu/europa/ec/joinup/sd-dss/validation-policy/5.9/validation-policy-5.9.jar
+Progress (1): 7.5/264 kB
+Progress (1): 8.2/264 kB
+Progress (1): 16/264 kB 
+Progress (1): 16/264 kB
+Progress (1): 24/264 kB
+Progress (1): 25/264 kB
+Progress (1): 32/264 kB
+Progress (1): 33/264 kB
+Progress (1): 40/264 kB
+Progress (1): 41/264 kB
+Progress (1): 48/264 kB
+Progress (1): 49/264 kB
+Progress (1): 56/264 kB
+Progress (1): 57/264 kB
+Progress (1): 64/264 kB
+Progress (1): 66/264 kB
+Progress (1): 72/264 kB
+Progress (1): 74/264 kB
+Progress (1): 80/264 kB
+Progress (1): 82/264 kB
+Progress (1): 88/264 kB
+Progress (1): 90/264 kB
+Progress (1): 96/264 kB
+Progress (1): 98/264 kB
+Progress (1): 104/264 kB
+Progress (1): 106/264 kB
+Progress (1): 112/264 kB
+                        
+Downloading from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/eu/europa/ec/joinup/sd-dss/dss-policy-jaxb/5.9/dss-policy-jaxb-5.9.jar
+Progress (1): 115/264 kB
+Progress (1): 120/264 kB
+Progress (1): 123/264 kB
+Progress (1): 128/264 kB
+Progress (2): 128/264 kB | 7.5/256 kB
+Progress (2): 128/264 kB | 8.2/256 kB
+Progress (2): 131/264 kB | 8.2/256 kB
+Progress (2): 136/264 kB | 8.2/256 kB
+Progress (2): 136/264 kB | 16/256 kB 
+Progress (2): 139/264 kB | 16/256 kB
+Progress (2): 139/264 kB | 16/256 kB
+Progress (2): 144/264 kB | 16/256 kB
+Progress (3): 144/264 kB | 16/256 kB | 7.5/133 kB
+Progress (3): 147/264 kB | 16/256 kB | 7.5/133 kB
+Progress (3): 147/264 kB | 16/256 kB | 8.2/133 kB
+Progress (3): 152/264 kB | 16/256 kB | 8.2/133 kB
+Progress (3): 152/264 kB | 16/256 kB | 16/133 kB 
+Progress (3): 152/264 kB | 16/256 kB | 16/133 kB
+Progress (3): 156/264 kB | 16/256 kB | 16/133 kB
+Progress (3): 156/264 kB | 24/256 kB | 16/133 kB
+Progress (3): 160/264 kB | 24/256 kB | 16/133 kB
+Progress (3): 160/264 kB | 24/256 kB | 24/133 kB
+Progress (3): 160/264 kB | 24/256 kB | 25/133 kB
+Progress (3): 160/264 kB | 24/256 kB | 32/133 kB
+Progress (3): 160/264 kB | 24/256 kB | 33/133 kB
+Progress (3): 164/264 kB | 24/256 kB | 33/133 kB
+Progress (3): 168/264 kB | 24/256 kB | 33/133 kB
+Progress (3): 168/264 kB | 24/256 kB | 40/133 kB
+Progress (3): 168/264 kB | 24/256 kB | 41/133 kB
+Progress (3): 172/264 kB | 24/256 kB | 41/133 kB
+Progress (3): 172/264 kB | 24/256 kB | 48/133 kB
+Progress (3): 172/264 kB | 24/256 kB | 49/133 kB
+Progress (3): 172/264 kB | 24/256 kB | 56/133 kB
+Progress (3): 176/264 kB | 24/256 kB | 56/133 kB
+Progress (3): 176/264 kB | 24/256 kB | 57/133 kB
+Progress (3): 180/264 kB | 24/256 kB | 57/133 kB
+Progress (3): 180/264 kB | 25/256 kB | 57/133 kB
+Progress (3): 180/264 kB | 25/256 kB | 64/133 kB
+Progress (3): 180/264 kB | 25/256 kB | 66/133 kB
+Progress (3): 180/264 kB | 25/256 kB | 72/133 kB
+Progress (3): 180/264 kB | 25/256 kB | 74/133 kB
+Progress (3): 184/264 kB | 25/256 kB | 74/133 kB
+Progress (3): 188/264 kB | 25/256 kB | 74/133 kB
+Progress (3): 188/264 kB | 32/256 kB | 74/133 kB
+Progress (3): 188/264 kB | 32/256 kB | 80/133 kB
+Progress (3): 188/264 kB | 32/256 kB | 82/133 kB
+Progress (3): 192/264 kB | 32/256 kB | 82/133 kB
+Progress (3): 192/264 kB | 32/256 kB | 88/133 kB
+Progress (3): 192/264 kB | 32/256 kB | 90/133 kB
+Progress (3): 192/264 kB | 32/256 kB | 96/133 kB
+Progress (3): 192/264 kB | 32/256 kB | 98/133 kB
+Progress (3): 197/264 kB | 32/256 kB | 98/133 kB
+Progress (3): 197/264 kB | 33/256 kB | 98/133 kB
+Progress (3): 200/264 kB | 33/256 kB | 98/133 kB
+Progress (3): 200/264 kB | 33/256 kB | 104/133 kB
+Progress (3): 200/264 kB | 33/256 kB | 106/133 kB
+Progress (3): 200/264 kB | 40/256 kB | 106/133 kB
+Progress (3): 200/264 kB | 40/256 kB | 112/133 kB
+Progress (4): 200/264 kB | 40/256 kB | 112/133 kB | 7.5/536 kB
+Progress (4): 200/264 kB | 40/256 kB | 115/133 kB | 7.5/536 kB
+Progress (4): 200/264 kB | 41/256 kB | 115/133 kB | 7.5/536 kB
+Progress (4): 200/264 kB | 41/256 kB | 115/133 kB | 8.2/536 kB
+Progress (4): 200/264 kB | 41/256 kB | 120/133 kB | 8.2/536 kB
+Progress (4): 200/264 kB | 48/256 kB | 120/133 kB | 8.2/536 kB
+Progress (4): 200/264 kB | 49/256 kB | 120/133 kB | 8.2/536 kB
+Progress (4): 200/264 kB | 56/256 kB | 120/133 kB | 8.2/536 kB
+Progress (4): 200/264 kB | 57/256 kB | 120/133 kB | 8.2/536 kB
+Progress (4): 200/264 kB | 57/256 kB | 123/133 kB | 8.2/536 kB
+Progress (4): 200/264 kB | 64/256 kB | 123/133 kB | 8.2/536 kB
+Progress (4): 200/264 kB | 64/256 kB | 128/133 kB | 8.2/536 kB
+Progress (4): 200/264 kB | 66/256 kB | 128/133 kB | 8.2/536 kB
+Progress (4): 205/264 kB | 66/256 kB | 128/133 kB | 8.2/536 kB
+Progress (4): 208/264 kB | 66/256 kB | 128/133 kB | 8.2/536 kB
+Progress (4): 213/264 kB | 66/256 kB | 128/133 kB | 8.2/536 kB
+Progress (4): 213/264 kB | 66/256 kB | 131/133 kB | 8.2/536 kB
+Progress (4): 216/264 kB | 66/256 kB | 131/133 kB | 8.2/536 kB
+Progress (4): 221/264 kB | 66/256 kB | 131/133 kB | 8.2/536 kB
+Progress (4): 224/264 kB | 66/256 kB | 131/133 kB | 8.2/536 kB
+Progress (4): 229/264 kB | 66/256 kB | 131/133 kB | 8.2/536 kB
+Progress (4): 232/264 kB | 66/256 kB | 131/133 kB | 8.2/536 kB
+Progress (4): 238/264 kB | 66/256 kB | 131/133 kB | 8.2/536 kB
+Progress (4): 240/264 kB | 66/256 kB | 131/133 kB | 8.2/536 kB
+Progress (4): 246/264 kB | 66/256 kB | 131/133 kB | 8.2/536 kB
+Progress (4): 248/264 kB | 66/256 kB | 131/133 kB | 8.2/536 kB
+Progress (4): 254/264 kB | 66/256 kB | 131/133 kB | 8.2/536 kB
+Progress (4): 256/264 kB | 66/256 kB | 131/133 kB | 8.2/536 kB
+Progress (4): 262/264 kB | 66/256 kB | 131/133 kB | 8.2/536 kB
+Progress (4): 264/264 kB | 66/256 kB | 131/133 kB | 8.2/536 kB
+Progress (4): 264 kB | 66/256 kB | 131/133 kB | 8.2/536 kB    
+                                                          
+Downloaded from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/eu/europa/ec/joinup/sd-dss/dss-pades/5.9/dss-pades-5.9.jar (264 kB at 1.5 MB/s)
+Downloading from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/eu/europa/ec/joinup/sd-dss/dss-jaxb-parsers/5.9/dss-jaxb-parsers-5.9.jar
+Progress (3): 72/256 kB | 131/133 kB | 8.2/536 kB
+Progress (3): 72/256 kB | 131/133 kB | 16/536 kB 
+Progress (3): 72/256 kB | 133 kB | 16/536 kB    
+Progress (3): 74/256 kB | 133 kB | 16/536 kB
+Progress (3): 80/256 kB | 133 kB | 16/536 kB
+Progress (3): 82/256 kB | 133 kB | 16/536 kB
+Progress (3): 82/256 kB | 133 kB | 16/536 kB
+Progress (3): 82/256 kB | 133 kB | 24/536 kB
+Progress (3): 88/256 kB | 133 kB | 24/536 kB
+Progress (3): 90/256 kB | 133 kB | 24/536 kB
+Progress (3): 96/256 kB | 133 kB | 24/536 kB
+Progress (3): 98/256 kB | 133 kB | 24/536 kB
+                                            
+Downloaded from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/eu/europa/ec/joinup/sd-dss/dss-cades/5.9/dss-cades-5.9.jar (133 kB at 714 kB/s)
+Downloading from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/eu/europa/ec/joinup/sd-dss/dss-jaxb-common/5.9/dss-jaxb-common-5.9.jar
+Progress (2): 104/256 kB | 24/536 kB
+Progress (2): 106/256 kB | 24/536 kB
+Progress (2): 112/256 kB | 24/536 kB
+Progress (2): 115/256 kB | 24/536 kB
+Progress (2): 120/256 kB | 24/536 kB
+Progress (2): 123/256 kB | 24/536 kB
+Progress (2): 128/256 kB | 24/536 kB
+Progress (2): 131/256 kB | 24/536 kB
+Progress (2): 136/256 kB | 24/536 kB
+Progress (2): 139/256 kB | 24/536 kB
+Progress (2): 144/256 kB | 24/536 kB
+Progress (2): 147/256 kB | 24/536 kB
+Progress (2): 152/256 kB | 24/536 kB
+Progress (2): 156/256 kB | 24/536 kB
+Progress (2): 160/256 kB | 24/536 kB
+Progress (2): 164/256 kB | 24/536 kB
+Progress (2): 168/256 kB | 24/536 kB
+Progress (2): 172/256 kB | 24/536 kB
+Progress (2): 172/256 kB | 25/536 kB
+Progress (2): 176/256 kB | 25/536 kB
+Progress (2): 176/256 kB | 32/536 kB
+Progress (2): 176/256 kB | 33/536 kB
+Progress (2): 180/256 kB | 33/536 kB
+Progress (2): 180/256 kB | 40/536 kB
+Progress (2): 184/256 kB | 40/536 kB
+Progress (2): 184/256 kB | 41/536 kB
+Progress (2): 184/256 kB | 48/536 kB
+Progress (2): 188/256 kB | 48/536 kB
+Progress (2): 188/256 kB | 49/536 kB
+Progress (2): 188/256 kB | 56/536 kB
+Progress (2): 188/256 kB | 57/536 kB
+Progress (2): 188/256 kB | 64/536 kB
+Progress (2): 192/256 kB | 64/536 kB
+Progress (2): 192/256 kB | 66/536 kB
+Progress (2): 197/256 kB | 66/536 kB
+Progress (2): 197/256 kB | 72/536 kB
+Progress (2): 200/256 kB | 72/536 kB
+Progress (2): 200/256 kB | 74/536 kB
+Progress (2): 205/256 kB | 74/536 kB
+Progress (2): 205/256 kB | 80/536 kB
+Progress (2): 208/256 kB | 80/536 kB
+Progress (2): 208/256 kB | 82/536 kB
+Progress (2): 213/256 kB | 82/536 kB
+Progress (2): 213/256 kB | 88/536 kB
+Progress (2): 216/256 kB | 88/536 kB
+Progress (2): 216/256 kB | 90/536 kB
+Progress (2): 221/256 kB | 90/536 kB
+Progress (2): 221/256 kB | 96/536 kB
+Progress (2): 224/256 kB | 96/536 kB
+Progress (2): 224/256 kB | 98/536 kB
+Progress (2): 229/256 kB | 98/536 kB
+Progress (2): 229/256 kB | 104/536 kB
+Progress (2): 232/256 kB | 104/536 kB
+Progress (2): 232/256 kB | 106/536 kB
+Progress (2): 238/256 kB | 106/536 kB
+Progress (2): 238/256 kB | 112/536 kB
+Progress (2): 240/256 kB | 112/536 kB
+Progress (2): 240/256 kB | 115/536 kB
+Progress (2): 246/256 kB | 115/536 kB
+Progress (2): 246/256 kB | 120/536 kB
+Progress (2): 248/256 kB | 120/536 kB
+Progress (2): 248/256 kB | 123/536 kB
+Progress (2): 254/256 kB | 123/536 kB
+Progress (2): 254/256 kB | 128/536 kB
+Progress (2): 256 kB | 128/536 kB    
+Progress (2): 256 kB | 131/536 kB
+Progress (2): 256 kB | 136/536 kB
+Progress (2): 256 kB | 139/536 kB
+Progress (2): 256 kB | 144/536 kB
+Progress (2): 256 kB | 147/536 kB
+Progress (2): 256 kB | 152/536 kB
+Progress (2): 256 kB | 156/536 kB
+Progress (2): 256 kB | 160/536 kB
+Progress (2): 256 kB | 164/536 kB
+Progress (2): 256 kB | 168/536 kB
+Progress (2): 256 kB | 172/536 kB
+Progress (2): 256 kB | 176/536 kB
+Progress (2): 256 kB | 180/536 kB
+                                 
+Downloaded from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/eu/europa/ec/joinup/sd-dss/dss-document/5.9/dss-document-5.9.jar (256 kB at 1.2 MB/s)
+Downloading from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/eu/europa/ec/joinup/sd-dss/dss-alert/5.9/dss-alert-5.9.jar
+Progress (1): 184/536 kB
+Progress (1): 188/536 kB
+Progress (1): 192/536 kB
+Progress (1): 197/536 kB
+Progress (1): 200/536 kB
+Progress (1): 205/536 kB
+Progress (2): 205/536 kB | 7.5/58 kB
+Progress (2): 208/536 kB | 7.5/58 kB
+Progress (2): 213/536 kB | 7.5/58 kB
+Progress (2): 213/536 kB | 8.2/58 kB
+Progress (2): 216/536 kB | 8.2/58 kB
+Progress (2): 221/536 kB | 8.2/58 kB
+Progress (2): 224/536 kB | 8.2/58 kB
+Progress (2): 229/536 kB | 8.2/58 kB
+Progress (2): 232/536 kB | 8.2/58 kB
+Progress (2): 238/536 kB | 8.2/58 kB
+Progress (2): 240/536 kB | 8.2/58 kB
+Progress (2): 246/536 kB | 8.2/58 kB
+Progress (2): 248/536 kB | 8.2/58 kB
+Progress (2): 248/536 kB | 16/58 kB 
+Progress (2): 248/536 kB | 16/58 kB
+Progress (2): 248/536 kB | 24/58 kB
+Progress (2): 254/536 kB | 24/58 kB
+Progress (2): 254/536 kB | 25/58 kB
+Progress (2): 256/536 kB | 25/58 kB
+Progress (2): 256/536 kB | 32/58 kB
+Progress (2): 256/536 kB | 33/58 kB
+Progress (2): 262/536 kB | 33/58 kB
+Progress (2): 264/536 kB | 33/58 kB
+Progress (2): 264/536 kB | 40/58 kB
+Progress (2): 270/536 kB | 40/58 kB
+Progress (2): 270/536 kB | 41/58 kB
+Progress (2): 272/536 kB | 41/58 kB
+Progress (2): 272/536 kB | 48/58 kB
+Progress (2): 272/536 kB | 49/58 kB
+Progress (2): 272/536 kB | 56/58 kB
+Progress (2): 279/536 kB | 56/58 kB
+Progress (2): 280/536 kB | 56/58 kB
+Progress (2): 280/536 kB | 57/58 kB
+Progress (2): 287/536 kB | 57/58 kB
+Progress (2): 288/536 kB | 57/58 kB
+Progress (2): 295/536 kB | 57/58 kB
+Progress (2): 296/536 kB | 57/58 kB
+Progress (2): 303/536 kB | 57/58 kB
+Progress (2): 304/536 kB | 57/58 kB
+Progress (2): 304/536 kB | 58 kB   
+Progress (2): 311/536 kB | 58 kB
+Progress (2): 312/536 kB | 58 kB
+                                
+Downloaded from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/eu/europa/ec/joinup/sd-dss/dss-policy-jaxb/5.9/dss-policy-jaxb-5.9.jar (58 kB at 245 kB/s)
+Downloading from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/eu/europa/ec/joinup/sd-dss/dss-diagnostic-jaxb/5.9/dss-diagnostic-jaxb-5.9.jar
+Progress (1): 319/536 kB
+Progress (1): 320/536 kB
+Progress (1): 328/536 kB
+Progress (1): 328/536 kB
+Progress (1): 336/536 kB
+Progress (1): 336/536 kB
+Progress (1): 344/536 kB
+Progress (1): 344/536 kB
+Progress (1): 352/536 kB
+Progress (1): 352/536 kB
+Progress (1): 360/536 kB
+Progress (1): 360/536 kB
+Progress (1): 368/536 kB
+Progress (1): 369/536 kB
+Progress (1): 376/536 kB
+Progress (1): 377/536 kB
+Progress (1): 384/536 kB
+Progress (2): 384/536 kB | 7.5/22 kB
+Progress (2): 385/536 kB | 7.5/22 kB
+Progress (2): 392/536 kB | 7.5/22 kB
+Progress (2): 393/536 kB | 7.5/22 kB
+Progress (2): 393/536 kB | 8.2/22 kB
+Progress (2): 400/536 kB | 8.2/22 kB
+Progress (2): 401/536 kB | 8.2/22 kB
+Progress (2): 408/536 kB | 8.2/22 kB
+Progress (2): 408/536 kB | 16/22 kB 
+Progress (2): 408/536 kB | 16/22 kB
+Progress (3): 408/536 kB | 16/22 kB | 7.5/22 kB
+Progress (3): 408/536 kB | 16/22 kB | 8.2/22 kB
+Progress (3): 408/536 kB | 22 kB | 8.2/22 kB   
+Progress (3): 408/536 kB | 22 kB | 16/22 kB 
+Progress (3): 408/536 kB | 22 kB | 16/22 kB
+Progress (3): 408/536 kB | 22 kB | 22 kB   
+                                        
+Downloaded from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/eu/europa/ec/joinup/sd-dss/dss-jaxb-parsers/5.9/dss-jaxb-parsers-5.9.jar (22 kB at 81 kB/s)
+Downloaded from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/eu/europa/ec/joinup/sd-dss/dss-jaxb-common/5.9/dss-jaxb-common-5.9.jar (22 kB at 79 kB/s)
+Downloading from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/eu/europa/ec/joinup/sd-dss/dss-simple-certificate-report-jaxb/5.9/dss-simple-certificate-report-jaxb-5.9.jar
+Progress (1): 410/536 kB
+                        
+Downloading from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/eu/europa/ec/joinup/sd-dss/dss-simple-report-jaxb/5.9/dss-simple-report-jaxb-5.9.jar
+Progress (2): 410/536 kB | 7.5/14 kB
+Progress (2): 410/536 kB | 8.2/14 kB
+Progress (2): 416/536 kB | 8.2/14 kB
+Progress (2): 418/536 kB | 8.2/14 kB
+Progress (2): 424/536 kB | 8.2/14 kB
+Progress (2): 426/536 kB | 8.2/14 kB
+Progress (2): 432/536 kB | 8.2/14 kB
+Progress (2): 434/536 kB | 8.2/14 kB
+Progress (2): 440/536 kB | 8.2/14 kB
+Progress (2): 442/536 kB | 8.2/14 kB
+Progress (2): 448/536 kB | 8.2/14 kB
+Progress (2): 451/536 kB | 8.2/14 kB
+Progress (2): 451/536 kB | 14 kB    
+Progress (2): 456/536 kB | 14 kB
+Progress (2): 459/536 kB | 14 kB
+Progress (2): 464/536 kB | 14 kB
+Progress (2): 467/536 kB | 14 kB
+Progress (2): 472/536 kB | 14 kB
+Progress (2): 475/536 kB | 14 kB
+Progress (2): 480/536 kB | 14 kB
+Progress (2): 483/536 kB | 14 kB
+Progress (2): 488/536 kB | 14 kB
+Progress (2): 492/536 kB | 14 kB
+Progress (2): 496/536 kB | 14 kB
+Progress (2): 500/536 kB | 14 kB
+Progress (2): 504/536 kB | 14 kB
+                                
+Downloaded from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/eu/europa/ec/joinup/sd-dss/dss-alert/5.9/dss-alert-5.9.jar (14 kB at 49 kB/s)
+Progress (1): 508/536 kB
+                        
+Downloading from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/eu/europa/ec/joinup/sd-dss/dss-detailed-report-jaxb/5.9/dss-detailed-report-jaxb-5.9.jar
+Progress (1): 512/536 kB
+Progress (1): 516/536 kB
+Progress (1): 520/536 kB
+Progress (1): 524/536 kB
+Progress (1): 528/536 kB
+Progress (1): 532/536 kB
+Progress (1): 536/536 kB
+Progress (1): 536 kB    
+                    
+Downloaded from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/eu/europa/ec/joinup/sd-dss/validation-policy/5.9/validation-policy-5.9.jar (536 kB at 1.8 MB/s)
+Downloading from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/eu/europa/ec/joinup/sd-dss/specs-validation-report/5.9/specs-validation-report-5.9.jar
+Progress (1): 7.5/170 kB
+Progress (1): 8.2/170 kB
+Progress (1): 16/170 kB 
+Progress (1): 16/170 kB
+Progress (1): 24/170 kB
+Progress (1): 25/170 kB
+Progress (1): 32/170 kB
+Progress (1): 33/170 kB
+Progress (1): 40/170 kB
+Progress (1): 41/170 kB
+Progress (1): 48/170 kB
+Progress (1): 49/170 kB
+Progress (1): 56/170 kB
+Progress (1): 57/170 kB
+Progress (1): 64/170 kB
+Progress (1): 66/170 kB
+Progress (1): 72/170 kB
+Progress (1): 74/170 kB
+Progress (1): 80/170 kB
+Progress (1): 82/170 kB
+Progress (1): 88/170 kB
+Progress (1): 90/170 kB
+Progress (1): 96/170 kB
+Progress (1): 98/170 kB
+Progress (1): 104/170 kB
+Progress (1): 106/170 kB
+Progress (1): 112/170 kB
+Progress (1): 115/170 kB
+Progress (1): 120/170 kB
+Progress (1): 123/170 kB
+Progress (1): 128/170 kB
+Progress (1): 131/170 kB
+Progress (1): 136/170 kB
+Progress (1): 139/170 kB
+Progress (1): 144/170 kB
+Progress (1): 147/170 kB
+Progress (1): 152/170 kB
+Progress (1): 156/170 kB
+Progress (1): 160/170 kB
+Progress (1): 164/170 kB
+Progress (1): 168/170 kB
+Progress (1): 170 kB    
+                    
+Downloaded from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/eu/europa/ec/joinup/sd-dss/dss-diagnostic-jaxb/5.9/dss-diagnostic-jaxb-5.9.jar (170 kB at 506 kB/s)
+Downloading from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/eu/europa/ec/joinup/sd-dss/specs-xmldsig/5.9/specs-xmldsig-5.9.jar
+Progress (1): 7.5/33 kB
+Progress (1): 8.2/33 kB
+Progress (1): 16/33 kB 
+Progress (1): 16/33 kB
+Progress (2): 16/33 kB | 7.5/43 kB
+Progress (2): 16/33 kB | 8.2/43 kB
+Progress (2): 24/33 kB | 8.2/43 kB
+Progress (2): 25/33 kB | 8.2/43 kB
+Progress (2): 25/33 kB | 16/43 kB 
+Progress (2): 32/33 kB | 16/43 kB
+Progress (2): 32/33 kB | 16/43 kB
+Progress (2): 32/33 kB | 24/43 kB
+Progress (2): 32/33 kB | 25/43 kB
+Progress (2): 33/33 kB | 25/43 kB
+Progress (3): 33/33 kB | 25/43 kB | 7.5/94 kB
+Progress (3): 33 kB | 25/43 kB | 7.5/94 kB   
+Progress (3): 33 kB | 25/43 kB | 8.2/94 kB
+Progress (3): 33 kB | 32/43 kB | 8.2/94 kB
+Progress (3): 33 kB | 33/43 kB | 8.2/94 kB
+Progress (3): 33 kB | 33/43 kB | 16/94 kB 
+Progress (3): 33 kB | 40/43 kB | 16/94 kB
+Progress (3): 33 kB | 41/43 kB | 16/94 kB
+Progress (3): 33 kB | 43 kB | 16/94 kB   
+Progress (3): 33 kB | 43 kB | 16/94 kB
+                                      
+Downloaded from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/eu/europa/ec/joinup/sd-dss/dss-simple-certificate-report-jaxb/5.9/dss-simple-certificate-report-jaxb-5.9.jar (33 kB at 94 kB/s)
+Downloading from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/eu/europa/ec/joinup/sd-dss/specs-xades/5.9/specs-xades-5.9.jar
+Progress (2): 43 kB | 24/94 kB
+Progress (2): 43 kB | 25/94 kB
+Progress (2): 43 kB | 32/94 kB
+                              
+Downloaded from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/eu/europa/ec/joinup/sd-dss/dss-simple-report-jaxb/5.9/dss-simple-report-jaxb-5.9.jar (43 kB at 121 kB/s)
+Downloading from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/eu/europa/ec/joinup/sd-dss/specs-trusted-list/5.9/specs-trusted-list-5.9.jar
+Progress (2): 32/94 kB | 7.5/82 kB
+Progress (2): 33/94 kB | 7.5/82 kB
+Progress (2): 33/94 kB | 8.2/82 kB
+Progress (2): 40/94 kB | 8.2/82 kB
+Progress (2): 40/94 kB | 16/82 kB 
+Progress (2): 41/94 kB | 16/82 kB
+Progress (2): 48/94 kB | 16/82 kB
+Progress (2): 49/94 kB | 16/82 kB
+Progress (2): 49/94 kB | 16/82 kB
+Progress (2): 56/94 kB | 16/82 kB
+Progress (2): 57/94 kB | 16/82 kB
+Progress (2): 64/94 kB | 16/82 kB
+Progress (2): 64/94 kB | 24/82 kB
+Progress (2): 66/94 kB | 24/82 kB
+Progress (2): 66/94 kB | 25/82 kB
+Progress (2): 72/94 kB | 25/82 kB
+Progress (2): 72/94 kB | 32/82 kB
+Progress (2): 74/94 kB | 32/82 kB
+Progress (2): 80/94 kB | 32/82 kB
+Progress (2): 80/94 kB | 33/82 kB
+Progress (2): 80/94 kB | 40/82 kB
+Progress (2): 82/94 kB | 40/82 kB
+Progress (2): 82/94 kB | 41/82 kB
+Progress (2): 88/94 kB | 41/82 kB
+Progress (2): 88/94 kB | 48/82 kB
+Progress (2): 88/94 kB | 49/82 kB
+Progress (2): 90/94 kB | 49/82 kB
+Progress (2): 94 kB | 49/82 kB   
+Progress (2): 94 kB | 56/82 kB
+Progress (2): 94 kB | 57/82 kB
+Progress (2): 94 kB | 64/82 kB
+Progress (2): 94 kB | 66/82 kB
+                              
+Downloaded from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/eu/europa/ec/joinup/sd-dss/specs-validation-report/5.9/specs-validation-report-5.9.jar (94 kB at 258 kB/s)
+Downloading from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/eu/europa/ec/joinup/sd-dss/dss-i18n/5.9/dss-i18n-5.9.jar
+Progress (1): 72/82 kB
+Progress (1): 74/82 kB
+Progress (1): 80/82 kB
+Progress (1): 82/82 kB
+Progress (1): 82 kB   
+                   
+Downloaded from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/eu/europa/ec/joinup/sd-dss/dss-detailed-report-jaxb/5.9/dss-detailed-report-jaxb-5.9.jar (82 kB at 222 kB/s)
+Downloading from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/eu/europa/ec/joinup/sd-dss/dss-pades-pdfbox/5.9/dss-pades-pdfbox-5.9.jar
+Progress (1): 7.5/38 kB
+Progress (1): 8.2/38 kB
+Progress (1): 16/38 kB 
+Progress (1): 16/38 kB
+Progress (1): 24/38 kB
+Progress (1): 25/38 kB
+Progress (1): 32/38 kB
+Progress (1): 33/38 kB
+Progress (1): 38 kB   
+                   
+Downloaded from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/eu/europa/ec/joinup/sd-dss/specs-xmldsig/5.9/specs-xmldsig-5.9.jar (38 kB at 97 kB/s)
+Downloading from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/eu/europa/ec/joinup/sd-dss/dss-token/5.9/dss-token-5.9.jar
+Progress (1): 7.5/74 kB
+Progress (2): 7.5/74 kB | 7.5/181 kB
+Progress (2): 7.5/74 kB | 8.2/181 kB
+Progress (2): 7.5/74 kB | 16/181 kB 
+Progress (2): 7.5/74 kB | 16/181 kB
+Progress (2): 7.5/74 kB | 24/181 kB
+Progress (2): 7.5/74 kB | 25/181 kB
+Progress (2): 7.5/74 kB | 32/181 kB
+Progress (2): 7.5/74 kB | 33/181 kB
+Progress (2): 7.5/74 kB | 40/181 kB
+Progress (2): 7.5/74 kB | 41/181 kB
+Progress (2): 7.5/74 kB | 48/181 kB
+Progress (2): 7.5/74 kB | 49/181 kB
+Progress (2): 7.5/74 kB | 56/181 kB
+Progress (2): 7.5/74 kB | 57/181 kB
+Progress (2): 8.2/74 kB | 57/181 kB
+Progress (2): 8.2/74 kB | 64/181 kB
+Progress (2): 16/74 kB | 64/181 kB 
+Progress (2): 16/74 kB | 64/181 kB
+Progress (2): 24/74 kB | 64/181 kB
+Progress (2): 25/74 kB | 64/181 kB
+Progress (2): 25/74 kB | 66/181 kB
+Progress (2): 25/74 kB | 72/181 kB
+Progress (2): 25/74 kB | 74/181 kB
+Progress (2): 25/74 kB | 80/181 kB
+Progress (2): 25/74 kB | 82/181 kB
+Progress (2): 32/74 kB | 82/181 kB
+Progress (2): 33/74 kB | 82/181 kB
+Progress (2): 40/74 kB | 82/181 kB
+Progress (2): 40/74 kB | 88/181 kB
+Progress (2): 41/74 kB | 88/181 kB
+Progress (2): 41/74 kB | 90/181 kB
+Progress (2): 48/74 kB | 90/181 kB
+Progress (2): 48/74 kB | 96/181 kB
+Progress (2): 49/74 kB | 96/181 kB
+Progress (2): 49/74 kB | 98/181 kB
+Progress (2): 56/74 kB | 98/181 kB
+Progress (2): 56/74 kB | 104/181 kB
+Progress (2): 56/74 kB | 106/181 kB
+Progress (2): 56/74 kB | 112/181 kB
+Progress (2): 56/74 kB | 115/181 kB
+Progress (2): 56/74 kB | 120/181 kB
+Progress (2): 56/74 kB | 123/181 kB
+Progress (3): 56/74 kB | 123/181 kB | 7.5/32 kB
+Progress (3): 56/74 kB | 123/181 kB | 8.2/32 kB
+Progress (3): 56/74 kB | 123/181 kB | 16/32 kB 
+Progress (3): 56/74 kB | 128/181 kB | 16/32 kB
+Progress (3): 56/74 kB | 128/181 kB | 16/32 kB
+Progress (3): 56/74 kB | 131/181 kB | 16/32 kB
+Progress (3): 56/74 kB | 136/181 kB | 16/32 kB
+Progress (3): 57/74 kB | 136/181 kB | 16/32 kB
+Progress (3): 57/74 kB | 139/181 kB | 16/32 kB
+Progress (3): 64/74 kB | 139/181 kB | 16/32 kB
+Progress (3): 64/74 kB | 139/181 kB | 24/32 kB
+Progress (3): 64/74 kB | 144/181 kB | 24/32 kB
+Progress (3): 66/74 kB | 144/181 kB | 24/32 kB
+Progress (3): 66/74 kB | 147/181 kB | 24/32 kB
+Progress (3): 66/74 kB | 147/181 kB | 25/32 kB
+Progress (3): 72/74 kB | 147/181 kB | 25/32 kB
+Progress (3): 74/74 kB | 147/181 kB | 25/32 kB
+Progress (3): 74/74 kB | 147/181 kB | 32/32 kB
+Progress (3): 74/74 kB | 152/181 kB | 32/32 kB
+Progress (3): 74 kB | 152/181 kB | 32/32 kB   
+Progress (3): 74 kB | 152/181 kB | 32 kB   
+Progress (3): 74 kB | 156/181 kB | 32 kB
+Progress (3): 74 kB | 160/181 kB | 32 kB
+Progress (3): 74 kB | 164/181 kB | 32 kB
+Progress (3): 74 kB | 168/181 kB | 32 kB
+Progress (3): 74 kB | 172/181 kB | 32 kB
+Progress (3): 74 kB | 176/181 kB | 32 kB
+Progress (3): 74 kB | 180/181 kB | 32 kB
+Progress (3): 74 kB | 181 kB | 32 kB    
+                                    
+Downloaded from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/eu/europa/ec/joinup/sd-dss/dss-i18n/5.9/dss-i18n-5.9.jar (32 kB at 75 kB/s)
+Downloading from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/eu/europa/ec/joinup/sd-dss/dss-model/5.9/dss-model-5.9.jar
+Downloaded from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/eu/europa/ec/joinup/sd-dss/specs-trusted-list/5.9/specs-trusted-list-5.9.jar (74 kB at 172 kB/s)
+Downloading from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/eu/europa/ec/joinup/sd-dss/dss-enumerations/5.9/dss-enumerations-5.9.jar
+Progress (2): 181 kB | 7.5/55 kB
+Progress (2): 181 kB | 8.2/55 kB
+Progress (2): 181 kB | 16/55 kB 
+Progress (2): 181 kB | 16/55 kB
+                               
+Downloaded from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/eu/europa/ec/joinup/sd-dss/specs-xades/5.9/specs-xades-5.9.jar (181 kB at 418 kB/s)
+Downloading from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/org/slf4j/slf4j-api/1.7.31/slf4j-api-1.7.31.jar
+Progress (1): 24/55 kB
+Progress (1): 25/55 kB
+Progress (1): 32/55 kB
+Progress (1): 33/55 kB
+Progress (1): 40/55 kB
+Progress (1): 41/55 kB
+Progress (1): 48/55 kB
+Progress (1): 49/55 kB
+Progress (1): 55 kB   
+                   
+Downloaded from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/eu/europa/ec/joinup/sd-dss/dss-pades-pdfbox/5.9/dss-pades-pdfbox-5.9.jar (55 kB at 124 kB/s)
+Downloading from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/eu/europa/ec/joinup/sd-dss/dss-utils-apache-commons/5.9/dss-utils-apache-commons-5.9.jar
+Progress (1): 7.5/24 kB
+Progress (1): 8.2/24 kB
+Progress (1): 16/24 kB 
+Progress (1): 16/24 kB
+Progress (1): 24/24 kB
+Progress (1): 24 kB   
+                   
+Downloaded from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/eu/europa/ec/joinup/sd-dss/dss-token/5.9/dss-token-5.9.jar (24 kB at 52 kB/s)
+Downloading from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/eu/europa/ec/joinup/sd-dss/dss-utils/5.9/dss-utils-5.9.jar
+Progress (1): 7.5/99 kB
+Progress (1): 8.2/99 kB
+Progress (2): 8.2/99 kB | 7.5/54 kB
+Progress (2): 16/99 kB | 7.5/54 kB 
+Progress (2): 16/99 kB | 8.2/54 kB
+Progress (2): 16/99 kB | 16/54 kB 
+Progress (2): 16/99 kB | 16/54 kB
+Progress (2): 16/99 kB | 16/54 kB
+Progress (2): 24/99 kB | 16/54 kB
+Progress (2): 25/99 kB | 16/54 kB
+Progress (2): 25/99 kB | 24/54 kB
+Progress (2): 25/99 kB | 25/54 kB
+                                 
+Downloading from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/commons-io/commons-io/2.10.0/commons-io-2.10.0.jar
+Progress (2): 32/99 kB | 25/54 kB
+Progress (2): 33/99 kB | 25/54 kB
+Progress (2): 33/99 kB | 32/54 kB
+Progress (2): 33/99 kB | 33/54 kB
+Progress (2): 33/99 kB | 40/54 kB
+Progress (2): 40/99 kB | 40/54 kB
+Progress (2): 41/99 kB | 40/54 kB
+Progress (2): 48/99 kB | 40/54 kB
+Progress (2): 49/99 kB | 40/54 kB
+Progress (2): 49/99 kB | 41/54 kB
+Progress (2): 56/99 kB | 41/54 kB
+Progress (2): 57/99 kB | 41/54 kB
+Progress (2): 57/99 kB | 48/54 kB
+Progress (2): 57/99 kB | 49/54 kB
+Progress (2): 57/99 kB | 54 kB   
+Progress (2): 64/99 kB | 54 kB
+                              
+Downloaded from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/eu/europa/ec/joinup/sd-dss/dss-model/5.9/dss-model-5.9.jar (54 kB at 108 kB/s)
+Downloading from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/eu/europa/ec/joinup/sd-dss/dss-service/5.9/dss-service-5.9.jar
+Progress (1): 66/99 kB
+Progress (1): 72/99 kB
+Progress (1): 74/99 kB
+Progress (2): 74/99 kB | 6.4 kB
+                               
+Downloaded from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/eu/europa/ec/joinup/sd-dss/dss-utils-apache-commons/5.9/dss-utils-apache-commons-5.9.jar (6.4 kB at 13 kB/s)
+Downloading from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/eu/europa/ec/joinup/sd-dss/dss-spi/5.9/dss-spi-5.9.jar
+Progress (1): 80/99 kB
+Progress (1): 82/99 kB
+Progress (1): 88/99 kB
+Progress (1): 90/99 kB
+Progress (1): 96/99 kB
+Progress (1): 98/99 kB
+Progress (1): 99 kB   
+                   
+Downloaded from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/eu/europa/ec/joinup/sd-dss/dss-enumerations/5.9/dss-enumerations-5.9.jar (99 kB at 192 kB/s)
+Downloading from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/eu/europa/ec/joinup/sd-dss/dss-crl-parser/5.9/dss-crl-parser-5.9.jar
+Progress (1): 6.0 kB
+                    
+Downloaded from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/eu/europa/ec/joinup/sd-dss/dss-utils/5.9/dss-utils-5.9.jar (6.0 kB at 11 kB/s)
+Downloading from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/org/bouncycastle/bcpkix-jdk15on/1.69/bcpkix-jdk15on-1.69.jar
+Progress (1): 7.5/58 kB
+Progress (1): 8.2/58 kB
+Progress (1): 16/58 kB 
+Progress (2): 16/58 kB | 7.5/11 kB
+Progress (2): 16/58 kB | 8.2/11 kB
+Progress (2): 16/58 kB | 11 kB    
+Progress (2): 16/58 kB | 11 kB
+Progress (3): 16/58 kB | 11 kB | 7.5/193 kB
+Progress (3): 24/58 kB | 11 kB | 7.5/193 kB
+                                           
+Downloaded from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/eu/europa/ec/joinup/sd-dss/dss-crl-parser/5.9/dss-crl-parser-5.9.jar (11 kB at 19 kB/s)
+Downloading from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/org/bouncycastle/bcutil-jdk15on/1.69/bcutil-jdk15on-1.69.jar
+Progress (2): 24/58 kB | 8.2/193 kB
+Progress (2): 25/58 kB | 8.2/193 kB
+Progress (2): 25/58 kB | 16/193 kB 
+Progress (2): 32/58 kB | 16/193 kB
+Progress (2): 32/58 kB | 16/193 kB
+Progress (2): 33/58 kB | 16/193 kB
+Progress (2): 33/58 kB | 24/193 kB
+Progress (2): 40/58 kB | 24/193 kB
+Progress (2): 40/58 kB | 25/193 kB
+Progress (2): 41/58 kB | 25/193 kB
+Progress (2): 41/58 kB | 32/193 kB
+Progress (2): 41/58 kB | 33/193 kB
+Progress (2): 41/58 kB | 40/193 kB
+Progress (2): 41/58 kB | 41/193 kB
+Progress (2): 41/58 kB | 48/193 kB
+Progress (2): 41/58 kB | 49/193 kB
+Progress (2): 48/58 kB | 49/193 kB
+Progress (2): 49/58 kB | 49/193 kB
+Progress (2): 56/58 kB | 49/193 kB
+Progress (2): 57/58 kB | 49/193 kB
+Progress (2): 58 kB | 49/193 kB   
+Progress (2): 58 kB | 56/193 kB
+Progress (2): 58 kB | 57/193 kB
+Progress (2): 58 kB | 64/193 kB
+Progress (2): 58 kB | 66/193 kB
+Progress (2): 58 kB | 72/193 kB
+Progress (2): 58 kB | 74/193 kB
+                               
+Downloading from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/com/github/vandeseer/easytable/0.8.5/easytable-0.8.5.jar
+Progress (2): 58 kB | 80/193 kB
+Progress (2): 58 kB | 82/193 kB
+                               
+Downloaded from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/eu/europa/ec/joinup/sd-dss/dss-service/5.9/dss-service-5.9.jar (58 kB at 95 kB/s)
+Downloading from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/org/apache/commons/commons-configuration2/2.8.0/commons-configuration2-2.8.0.jar
+Progress (1): 88/193 kB
+                       
+Downloading from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/org/slf4j/slf4j-simple/1.7.21/slf4j-simple-1.7.21.jar
+Progress (1): 90/193 kB
+Progress (1): 96/193 kB
+Progress (1): 98/193 kB
+Progress (1): 104/193 kB
+Progress (1): 106/193 kB
+Progress (1): 112/193 kB
+Progress (1): 115/193 kB
+Progress (1): 120/193 kB
+Progress (1): 123/193 kB
+Progress (1): 128/193 kB
+Progress (1): 131/193 kB
+Progress (1): 136/193 kB
+Progress (1): 139/193 kB
+Progress (1): 144/193 kB
+Progress (1): 147/193 kB
+Progress (1): 152/193 kB
+Progress (1): 156/193 kB
+Progress (1): 160/193 kB
+Progress (1): 164/193 kB
+Progress (1): 168/193 kB
+Progress (1): 172/193 kB
+Progress (1): 176/193 kB
+Progress (1): 180/193 kB
+Progress (1): 184/193 kB
+Progress (1): 188/193 kB
+Progress (1): 192/193 kB
+Progress (1): 193 kB    
+                    
+Downloaded from cefdigital: https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/eu/europa/ec/joinup/sd-dss/dss-spi/5.9/dss-spi-5.9.jar (193 kB at 313 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/pdfbox/pdfbox/2.0.26/pdfbox-2.0.26.jar
+Progress (1): 0/2.8 MB
+Progress (1): 0/2.8 MB
+Progress (1): 0/2.8 MB
+Progress (1): 0.1/2.8 MB
+Progress (1): 0.1/2.8 MB
+Progress (1): 0.1/2.8 MB
+Progress (1): 0.1/2.8 MB
+Progress (1): 0.1/2.8 MB
+Progress (1): 0.1/2.8 MB
+Progress (1): 0.2/2.8 MB
+Progress (1): 0.2/2.8 MB
+Progress (1): 0.2/2.8 MB
+Progress (1): 0.2/2.8 MB
+Progress (1): 0.2/2.8 MB
+Progress (1): 0.2/2.8 MB
+Progress (1): 0.2/2.8 MB
+Progress (1): 0.3/2.8 MB
+Progress (1): 0.3/2.8 MB
+Progress (1): 0.3/2.8 MB
+Progress (1): 0.3/2.8 MB
+Progress (1): 0.3/2.8 MB
+Progress (1): 0.3/2.8 MB
+Progress (1): 0.4/2.8 MB
+Progress (1): 0.4/2.8 MB
+Progress (1): 0.4/2.8 MB
+Progress (1): 0.4/2.8 MB
+Progress (1): 0.4/2.8 MB
+Progress (1): 0.4/2.8 MB
+Progress (1): 0.5/2.8 MB
+Progress (1): 0.5/2.8 MB
+Progress (1): 0.5/2.8 MB
+Progress (1): 0.5/2.8 MB
+Progress (1): 0.5/2.8 MB
+Progress (1): 0.5/2.8 MB
+Progress (1): 0.5/2.8 MB
+Progress (1): 0.6/2.8 MB
+Progress (1): 0.6/2.8 MB
+Progress (1): 0.6/2.8 MB
+Progress (1): 0.6/2.8 MB
+Progress (1): 0.6/2.8 MB
+Progress (1): 0.6/2.8 MB
+Progress (1): 0.7/2.8 MB
+Progress (1): 0.7/2.8 MB
+Progress (1): 0.7/2.8 MB
+Progress (1): 0.7/2.8 MB
+Progress (1): 0.7/2.8 MB
+Progress (1): 0.7/2.8 MB
+Progress (1): 0.8/2.8 MB
+Progress (1): 0.8/2.8 MB
+Progress (1): 0.8/2.8 MB
+Progress (1): 0.8/2.8 MB
+Progress (1): 0.8/2.8 MB
+Progress (1): 0.8/2.8 MB
+Progress (1): 0.9/2.8 MB
+Progress (1): 0.9/2.8 MB
+Progress (1): 0.9/2.8 MB
+Progress (1): 0.9/2.8 MB
+Progress (1): 0.9/2.8 MB
+Progress (1): 0.9/2.8 MB
+Progress (1): 1.0/2.8 MB
+Progress (1): 1.0/2.8 MB
+Progress (1): 1.0/2.8 MB
+Progress (1): 1.0/2.8 MB
+Progress (1): 1.0/2.8 MB
+Progress (1): 1.0/2.8 MB
+Progress (1): 1.0/2.8 MB
+Progress (1): 1.1/2.8 MB
+Progress (1): 1.1/2.8 MB
+Progress (1): 1.1/2.8 MB
+Progress (1): 1.1/2.8 MB
+Progress (1): 1.1/2.8 MB
+Progress (1): 1.1/2.8 MB
+Progress (1): 1.2/2.8 MB
+Progress (1): 1.2/2.8 MB
+Progress (1): 1.2/2.8 MB
+Progress (1): 1.2/2.8 MB
+Progress (1): 1.2/2.8 MB
+Progress (1): 1.2/2.8 MB
+Progress (1): 1.3/2.8 MB
+Progress (1): 1.3/2.8 MB
+Progress (1): 1.3/2.8 MB
+Progress (1): 1.3/2.8 MB
+Progress (1): 1.3/2.8 MB
+Progress (1): 1.3/2.8 MB
+Progress (1): 1.4/2.8 MB
+Progress (1): 1.4/2.8 MB
+Progress (1): 1.4/2.8 MB
+Progress (1): 1.4/2.8 MB
+Progress (1): 1.4/2.8 MB
+Progress (1): 1.4/2.8 MB
+Progress (1): 1.5/2.8 MB
+Progress (1): 1.5/2.8 MB
+Progress (1): 1.5/2.8 MB
+Progress (1): 1.5/2.8 MB
+Progress (1): 1.5/2.8 MB
+Progress (1): 1.5/2.8 MB
+Progress (1): 1.6/2.8 MB
+Progress (1): 1.6/2.8 MB
+Progress (1): 1.6/2.8 MB
+Progress (1): 1.6/2.8 MB
+Progress (1): 1.6/2.8 MB
+Progress (1): 1.6/2.8 MB
+Progress (1): 1.7/2.8 MB
+Progress (1): 1.7/2.8 MB
+Progress (1): 1.7/2.8 MB
+Progress (1): 1.7/2.8 MB
+Progress (1): 1.7/2.8 MB
+Progress (1): 1.7/2.8 MB
+Progress (1): 1.8/2.8 MB
+Progress (1): 1.8/2.8 MB
+Progress (1): 1.8/2.8 MB
+Progress (1): 1.8/2.8 MB
+Progress (1): 1.8/2.8 MB
+Progress (1): 1.8/2.8 MB
+Progress (1): 1.9/2.8 MB
+Progress (1): 1.9/2.8 MB
+Progress (1): 1.9/2.8 MB
+Progress (1): 1.9/2.8 MB
+Progress (1): 1.9/2.8 MB
+Progress (1): 1.9/2.8 MB
+Progress (1): 2.0/2.8 MB
+Progress (1): 2.0/2.8 MB
+Progress (1): 2.0/2.8 MB
+Progress (1): 2.0/2.8 MB
+Progress (1): 2.0/2.8 MB
+Progress (1): 2.0/2.8 MB
+Progress (1): 2.0/2.8 MB
+Progress (1): 2.1/2.8 MB
+Progress (1): 2.1/2.8 MB
+Progress (1): 2.1/2.8 MB
+Progress (1): 2.1/2.8 MB
+Progress (1): 2.1/2.8 MB
+Progress (1): 2.1/2.8 MB
+Progress (1): 2.2/2.8 MB
+Progress (1): 2.2/2.8 MB
+Progress (1): 2.2/2.8 MB
+Progress (1): 2.2/2.8 MB
+Progress (1): 2.2/2.8 MB
+Progress (1): 2.2/2.8 MB
+Progress (1): 2.3/2.8 MB
+Progress (1): 2.3/2.8 MB
+Progress (1): 2.3/2.8 MB
+Progress (1): 2.3/2.8 MB
+Progress (1): 2.3/2.8 MB
+Progress (1): 2.3/2.8 MB
+Progress (1): 2.4/2.8 MB
+Progress (1): 2.4/2.8 MB
+Progress (1): 2.4/2.8 MB
+Progress (1): 2.4/2.8 MB
+Progress (1): 2.4/2.8 MB
+Progress (1): 2.4/2.8 MB
+Progress (1): 2.4/2.8 MB
+Progress (1): 2.5/2.8 MB
+Progress (1): 2.5/2.8 MB
+Progress (1): 2.5/2.8 MB
+Progress (1): 2.5/2.8 MB
+Progress (1): 2.5/2.8 MB
+Progress (1): 2.5/2.8 MB
+Progress (1): 2.6/2.8 MB
+Progress (1): 2.6/2.8 MB
+Progress (1): 2.6/2.8 MB
+Progress (1): 2.6/2.8 MB
+Progress (1): 2.6/2.8 MB
+Progress (1): 2.6/2.8 MB
+Progress (1): 2.7/2.8 MB
+Progress (1): 2.7/2.8 MB
+Progress (1): 2.7/2.8 MB
+Progress (1): 2.7/2.8 MB
+Progress (1): 2.7/2.8 MB
+Progress (1): 2.7/2.8 MB
+Progress (1): 2.8/2.8 MB
+Progress (1): 2.8/2.8 MB
+Progress (1): 2.8 MB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/pdfbox/pdfbox/2.0.26/pdfbox-2.0.26.jar (2.8 MB at 47 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/pdfbox/fontbox/2.0.26/fontbox-2.0.26.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/bouncycastle/bcpkix-jdk15on/1.69/bcpkix-jdk15on-1.69.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/bouncycastle/bcutil-jdk15on/1.69/bcutil-jdk15on-1.69.jar
+Downloading from central: https://repo.maven.apache.org/maven2/commons-io/commons-io/2.10.0/commons-io-2.10.0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.31/slf4j-api-1.7.31.jar
+Progress (1): 0/1.6 MB
+Progress (1): 0/1.6 MB
+Progress (1): 0/1.6 MB
+Progress (1): 0.1/1.6 MB
+Progress (1): 0.1/1.6 MB
+Progress (1): 0.1/1.6 MB
+Progress (1): 0.1/1.6 MB
+Progress (1): 0.1/1.6 MB
+Progress (1): 0.1/1.6 MB
+Progress (1): 0.2/1.6 MB
+Progress (1): 0.2/1.6 MB
+Progress (1): 0.2/1.6 MB
+Progress (1): 0.2/1.6 MB
+Progress (1): 0.2/1.6 MB
+Progress (1): 0.2/1.6 MB
+Progress (1): 0.3/1.6 MB
+Progress (1): 0.3/1.6 MB
+Progress (1): 0.3/1.6 MB
+Progress (1): 0.3/1.6 MB
+Progress (1): 0.3/1.6 MB
+Progress (1): 0.3/1.6 MB
+Progress (1): 0.4/1.6 MB
+Progress (1): 0.4/1.6 MB
+Progress (1): 0.4/1.6 MB
+Progress (1): 0.4/1.6 MB
+Progress (1): 0.4/1.6 MB
+Progress (1): 0.4/1.6 MB
+Progress (1): 0.5/1.6 MB
+Progress (1): 0.5/1.6 MB
+Progress (1): 0.5/1.6 MB
+Progress (1): 0.5/1.6 MB
+Progress (1): 0.5/1.6 MB
+Progress (1): 0.5/1.6 MB
+Progress (2): 0.5/1.6 MB | 16/326 kB
+Progress (3): 0.5/1.6 MB | 16/326 kB | 1.4/359 kB
+Progress (3): 0.6/1.6 MB | 16/326 kB | 1.4/359 kB
+Progress (3): 0.6/1.6 MB | 16/326 kB | 2.7/359 kB
+Progress (3): 0.6/1.6 MB | 16/326 kB | 2.7/359 kB
+Progress (3): 0.6/1.6 MB | 16/326 kB | 4.1/359 kB
+Progress (3): 0.6/1.6 MB | 16/326 kB | 5.5/359 kB
+Progress (3): 0.6/1.6 MB | 16/326 kB | 6.9/359 kB
+Progress (3): 0.6/1.6 MB | 16/326 kB | 8.2/359 kB
+Progress (3): 0.6/1.6 MB | 16/326 kB | 9.6/359 kB
+Progress (3): 0.6/1.6 MB | 33/326 kB | 9.6/359 kB
+Progress (4): 0.6/1.6 MB | 33/326 kB | 9.6/359 kB | 1.4/41 kB
+Progress (4): 0.6/1.6 MB | 33/326 kB | 9.6/359 kB | 2.7/41 kB
+Progress (4): 0.6/1.6 MB | 33/326 kB | 9.6/359 kB | 4.1/41 kB
+Progress (4): 0.6/1.6 MB | 33/326 kB | 9.6/359 kB | 5.5/41 kB
+Progress (4): 0.6/1.6 MB | 33/326 kB | 9.6/359 kB | 6.9/41 kB
+Progress (4): 0.6/1.6 MB | 33/326 kB | 9.6/359 kB | 6.9/41 kB
+Progress (4): 0.6/1.6 MB | 33/326 kB | 11/359 kB | 6.9/41 kB 
+Progress (4): 0.6/1.6 MB | 49/326 kB | 11/359 kB | 6.9/41 kB
+Progress (4): 0.6/1.6 MB | 49/326 kB | 11/359 kB | 8.2/41 kB
+Progress (4): 0.6/1.6 MB | 49/326 kB | 11/359 kB | 9.6/41 kB
+Progress (4): 0.6/1.6 MB | 49/326 kB | 11/359 kB | 9.6/41 kB
+Progress (4): 0.6/1.6 MB | 49/326 kB | 11/359 kB | 9.6/41 kB
+Progress (4): 0.6/1.6 MB | 49/326 kB | 11/359 kB | 9.6/41 kB
+Progress (4): 0.7/1.6 MB | 49/326 kB | 11/359 kB | 9.6/41 kB
+Progress (4): 0.7/1.6 MB | 49/326 kB | 11/359 kB | 9.6/41 kB
+Progress (4): 0.7/1.6 MB | 66/326 kB | 11/359 kB | 9.6/41 kB
+Progress (4): 0.7/1.6 MB | 82/326 kB | 11/359 kB | 9.6/41 kB
+Progress (4): 0.7/1.6 MB | 82/326 kB | 12/359 kB | 9.6/41 kB
+Progress (4): 0.7/1.6 MB | 98/326 kB | 12/359 kB | 9.6/41 kB
+Progress (4): 0.7/1.6 MB | 98/326 kB | 14/359 kB | 9.6/41 kB
+Progress (4): 0.7/1.6 MB | 98/326 kB | 15/359 kB | 9.6/41 kB
+Progress (4): 0.7/1.6 MB | 98/326 kB | 16/359 kB | 9.6/41 kB
+Progress (4): 0.7/1.6 MB | 115/326 kB | 16/359 kB | 9.6/41 kB
+Progress (4): 0.7/1.6 MB | 115/326 kB | 16/359 kB | 9.6/41 kB
+Progress (4): 0.7/1.6 MB | 131/326 kB | 16/359 kB | 9.6/41 kB
+Progress (4): 0.7/1.6 MB | 131/326 kB | 16/359 kB | 11/41 kB 
+Progress (4): 0.7/1.6 MB | 131/326 kB | 16/359 kB | 11/41 kB
+Progress (4): 0.7/1.6 MB | 131/326 kB | 32/359 kB | 11/41 kB
+Progress (4): 0.7/1.6 MB | 147/326 kB | 32/359 kB | 11/41 kB
+Progress (4): 0.7/1.6 MB | 147/326 kB | 32/359 kB | 12/41 kB
+Progress (4): 0.7/1.6 MB | 147/326 kB | 49/359 kB | 12/41 kB
+Progress (4): 0.7/1.6 MB | 147/326 kB | 49/359 kB | 14/41 kB
+Progress (4): 0.7/1.6 MB | 147/326 kB | 49/359 kB | 14/41 kB
+Progress (4): 0.7/1.6 MB | 147/326 kB | 65/359 kB | 14/41 kB
+Progress (4): 0.7/1.6 MB | 147/326 kB | 65/359 kB | 14/41 kB
+Progress (4): 0.7/1.6 MB | 147/326 kB | 81/359 kB | 14/41 kB
+Progress (4): 0.8/1.6 MB | 147/326 kB | 81/359 kB | 14/41 kB
+Progress (4): 0.8/1.6 MB | 147/326 kB | 98/359 kB | 14/41 kB
+Progress (4): 0.8/1.6 MB | 147/326 kB | 98/359 kB | 14/41 kB
+Progress (4): 0.8/1.6 MB | 147/326 kB | 114/359 kB | 14/41 kB
+Progress (4): 0.8/1.6 MB | 147/326 kB | 114/359 kB | 14/41 kB
+Progress (4): 0.8/1.6 MB | 147/326 kB | 130/359 kB | 14/41 kB
+Progress (4): 0.8/1.6 MB | 147/326 kB | 130/359 kB | 14/41 kB
+Progress (4): 0.8/1.6 MB | 147/326 kB | 147/359 kB | 14/41 kB
+Progress (4): 0.8/1.6 MB | 147/326 kB | 147/359 kB | 14/41 kB
+Progress (4): 0.8/1.6 MB | 147/326 kB | 163/359 kB | 14/41 kB
+Progress (4): 0.8/1.6 MB | 147/326 kB | 163/359 kB | 14/41 kB
+Progress (4): 0.8/1.6 MB | 147/326 kB | 180/359 kB | 14/41 kB
+Progress (4): 0.9/1.6 MB | 147/326 kB | 180/359 kB | 14/41 kB
+Progress (4): 0.9/1.6 MB | 147/326 kB | 196/359 kB | 14/41 kB
+Progress (4): 0.9/1.6 MB | 147/326 kB | 196/359 kB | 14/41 kB
+Progress (4): 0.9/1.6 MB | 147/326 kB | 196/359 kB | 14/41 kB
+Progress (4): 0.9/1.6 MB | 147/326 kB | 196/359 kB | 14/41 kB
+Progress (4): 0.9/1.6 MB | 147/326 kB | 196/359 kB | 14/41 kB
+Progress (4): 0.9/1.6 MB | 147/326 kB | 196/359 kB | 14/41 kB
+Progress (4): 0.9/1.6 MB | 147/326 kB | 196/359 kB | 14/41 kB
+Progress (4): 0.9/1.6 MB | 147/326 kB | 196/359 kB | 15/41 kB
+Progress (4): 0.9/1.6 MB | 147/326 kB | 212/359 kB | 15/41 kB
+Progress (4): 1.0/1.6 MB | 147/326 kB | 212/359 kB | 15/41 kB
+Progress (4): 1.0/1.6 MB | 164/326 kB | 212/359 kB | 15/41 kB
+Progress (4): 1.0/1.6 MB | 164/326 kB | 229/359 kB | 15/41 kB
+Progress (4): 1.0/1.6 MB | 180/326 kB | 229/359 kB | 15/41 kB
+Progress (4): 1.0/1.6 MB | 180/326 kB | 229/359 kB | 15/41 kB
+Progress (4): 1.0/1.6 MB | 180/326 kB | 245/359 kB | 15/41 kB
+Progress (4): 1.0/1.6 MB | 197/326 kB | 245/359 kB | 15/41 kB
+Progress (4): 1.0/1.6 MB | 197/326 kB | 262/359 kB | 15/41 kB
+Progress (4): 1.0/1.6 MB | 213/326 kB | 262/359 kB | 15/41 kB
+Progress (4): 1.0/1.6 MB | 213/326 kB | 278/359 kB | 15/41 kB
+Progress (4): 1.0/1.6 MB | 229/326 kB | 278/359 kB | 15/41 kB
+Progress (4): 1.0/1.6 MB | 229/326 kB | 294/359 kB | 15/41 kB
+Progress (4): 1.0/1.6 MB | 246/326 kB | 294/359 kB | 15/41 kB
+Progress (4): 1.0/1.6 MB | 246/326 kB | 311/359 kB | 15/41 kB
+Progress (4): 1.0/1.6 MB | 262/326 kB | 311/359 kB | 15/41 kB
+Progress (4): 1.0/1.6 MB | 262/326 kB | 327/359 kB | 15/41 kB
+Progress (4): 1.0/1.6 MB | 279/326 kB | 327/359 kB | 15/41 kB
+Progress (4): 1.0/1.6 MB | 279/326 kB | 343/359 kB | 15/41 kB
+Progress (4): 1.0/1.6 MB | 295/326 kB | 343/359 kB | 15/41 kB
+Progress (4): 1.0/1.6 MB | 295/326 kB | 359 kB | 15/41 kB    
+Progress (4): 1.0/1.6 MB | 311/326 kB | 359 kB | 15/41 kB
+Progress (4): 1.0/1.6 MB | 311/326 kB | 359 kB | 16/41 kB
+Progress (5): 1.0/1.6 MB | 311/326 kB | 359 kB | 16/41 kB | 16/909 kB
+Progress (5): 1.0/1.6 MB | 311/326 kB | 359 kB | 16/41 kB | 16/909 kB
+Progress (5): 1.0/1.6 MB | 311/326 kB | 359 kB | 16/41 kB | 16/909 kB
+Progress (5): 1.0/1.6 MB | 326 kB | 359 kB | 16/41 kB | 16/909 kB    
+Progress (5): 1.0/1.6 MB | 326 kB | 359 kB | 18/41 kB | 16/909 kB
+                                                                 
+Downloaded from central: https://repo.maven.apache.org/maven2/org/bouncycastle/bcutil-jdk15on/1.69/bcutil-jdk15on-1.69.jar (359 kB at 7.3 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/github/vandeseer/easytable/0.8.5/easytable-0.8.5.jar
+Progress (4): 1.0/1.6 MB | 326 kB | 18/41 kB | 16/909 kB
+Progress (4): 1.0/1.6 MB | 326 kB | 18/41 kB | 16/909 kB
+Progress (4): 1.1/1.6 MB | 326 kB | 18/41 kB | 16/909 kB
+Progress (4): 1.1/1.6 MB | 326 kB | 18/41 kB | 33/909 kB
+Progress (4): 1.1/1.6 MB | 326 kB | 18/41 kB | 33/909 kB
+Progress (4): 1.1/1.6 MB | 326 kB | 18/41 kB | 33/909 kB
+Progress (4): 1.1/1.6 MB | 326 kB | 18/41 kB | 49/909 kB
+Progress (4): 1.1/1.6 MB | 326 kB | 18/41 kB | 66/909 kB
+Progress (4): 1.1/1.6 MB | 326 kB | 18/41 kB | 82/909 kB
+Progress (4): 1.1/1.6 MB | 326 kB | 18/41 kB | 98/909 kB
+Progress (4): 1.1/1.6 MB | 326 kB | 18/41 kB | 115/909 kB
+Progress (4): 1.1/1.6 MB | 326 kB | 19/41 kB | 115/909 kB
+Progress (4): 1.1/1.6 MB | 326 kB | 19/41 kB | 131/909 kB
+Progress (4): 1.1/1.6 MB | 326 kB | 21/41 kB | 131/909 kB
+Progress (4): 1.1/1.6 MB | 326 kB | 22/41 kB | 131/909 kB
+Progress (4): 1.1/1.6 MB | 326 kB | 22/41 kB | 131/909 kB
+Progress (4): 1.1/1.6 MB | 326 kB | 22/41 kB | 147/909 kB
+Progress (4): 1.1/1.6 MB | 326 kB | 22/41 kB | 147/909 kB
+Progress (4): 1.1/1.6 MB | 326 kB | 22/41 kB | 147/909 kB
+Progress (5): 1.1/1.6 MB | 326 kB | 22/41 kB | 147/909 kB | 16/120 kB
+Progress (5): 1.2/1.6 MB | 326 kB | 22/41 kB | 147/909 kB | 16/120 kB
+Progress (5): 1.2/1.6 MB | 326 kB | 22/41 kB | 147/909 kB | 33/120 kB
+                                                                     
+Downloaded from central: https://repo.maven.apache.org/maven2/commons-io/commons-io/2.10.0/commons-io-2.10.0.jar (326 kB at 5.7 MB/s)
+Progress (4): 1.2/1.6 MB | 23/41 kB | 147/909 kB | 33/120 kB
+                                                            
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-configuration2/2.8.0/commons-configuration2-2.8.0.jar
+Progress (4): 1.2/1.6 MB | 23/41 kB | 147/909 kB | 49/120 kB
+Progress (4): 1.2/1.6 MB | 23/41 kB | 147/909 kB | 49/120 kB
+Progress (4): 1.2/1.6 MB | 25/41 kB | 147/909 kB | 49/120 kB
+Progress (4): 1.2/1.6 MB | 26/41 kB | 147/909 kB | 49/120 kB
+Progress (4): 1.2/1.6 MB | 27/41 kB | 147/909 kB | 49/120 kB
+Progress (4): 1.2/1.6 MB | 29/41 kB | 147/909 kB | 49/120 kB
+Progress (4): 1.2/1.6 MB | 29/41 kB | 147/909 kB | 49/120 kB
+Progress (4): 1.2/1.6 MB | 29/41 kB | 147/909 kB | 66/120 kB
+Progress (4): 1.2/1.6 MB | 29/41 kB | 147/909 kB | 66/120 kB
+Progress (4): 1.2/1.6 MB | 29/41 kB | 147/909 kB | 82/120 kB
+Progress (4): 1.2/1.6 MB | 29/41 kB | 147/909 kB | 82/120 kB
+Progress (4): 1.2/1.6 MB | 29/41 kB | 147/909 kB | 98/120 kB
+Progress (4): 1.2/1.6 MB | 29/41 kB | 147/909 kB | 98/120 kB
+Progress (4): 1.2/1.6 MB | 29/41 kB | 164/909 kB | 98/120 kB
+Progress (4): 1.3/1.6 MB | 29/41 kB | 164/909 kB | 98/120 kB
+Progress (4): 1.3/1.6 MB | 29/41 kB | 180/909 kB | 98/120 kB
+Progress (4): 1.3/1.6 MB | 29/41 kB | 180/909 kB | 98/120 kB
+Progress (4): 1.3/1.6 MB | 29/41 kB | 197/909 kB | 98/120 kB
+Progress (4): 1.3/1.6 MB | 29/41 kB | 213/909 kB | 98/120 kB
+Progress (4): 1.3/1.6 MB | 29/41 kB | 229/909 kB | 98/120 kB
+Progress (4): 1.3/1.6 MB | 29/41 kB | 246/909 kB | 98/120 kB
+Progress (4): 1.3/1.6 MB | 30/41 kB | 246/909 kB | 98/120 kB
+Progress (4): 1.3/1.6 MB | 30/41 kB | 262/909 kB | 98/120 kB
+Progress (4): 1.3/1.6 MB | 30/41 kB | 262/909 kB | 98/120 kB
+Progress (4): 1.3/1.6 MB | 30/41 kB | 279/909 kB | 98/120 kB
+Progress (4): 1.3/1.6 MB | 30/41 kB | 279/909 kB | 98/120 kB
+Progress (4): 1.3/1.6 MB | 30/41 kB | 279/909 kB | 115/120 kB
+Progress (4): 1.3/1.6 MB | 30/41 kB | 279/909 kB | 120 kB    
+Progress (4): 1.3/1.6 MB | 30/41 kB | 295/909 kB | 120 kB
+Progress (4): 1.3/1.6 MB | 30/41 kB | 311/909 kB | 120 kB
+Progress (4): 1.3/1.6 MB | 30/41 kB | 328/909 kB | 120 kB
+Progress (4): 1.3/1.6 MB | 30/41 kB | 344/909 kB | 120 kB
+Progress (4): 1.3/1.6 MB | 30/41 kB | 344/909 kB | 120 kB
+Progress (4): 1.3/1.6 MB | 30/41 kB | 360/909 kB | 120 kB
+Progress (4): 1.3/1.6 MB | 30/41 kB | 360/909 kB | 120 kB
+Progress (4): 1.3/1.6 MB | 30/41 kB | 377/909 kB | 120 kB
+Progress (4): 1.4/1.6 MB | 30/41 kB | 377/909 kB | 120 kB
+Progress (4): 1.4/1.6 MB | 30/41 kB | 393/909 kB | 120 kB
+Progress (4): 1.4/1.6 MB | 30/41 kB | 393/909 kB | 120 kB
+Progress (4): 1.4/1.6 MB | 30/41 kB | 393/909 kB | 120 kB
+Progress (4): 1.4/1.6 MB | 30/41 kB | 410/909 kB | 120 kB
+Progress (4): 1.4/1.6 MB | 30/41 kB | 410/909 kB | 120 kB
+                                                         
+Downloaded from central: https://repo.maven.apache.org/maven2/com/github/vandeseer/easytable/0.8.5/easytable-0.8.5.jar (120 kB at 1.8 MB/s)
+Progress (3): 1.4/1.6 MB | 30/41 kB | 410/909 kB
+Progress (3): 1.4/1.6 MB | 30/41 kB | 410/909 kB
+Progress (3): 1.4/1.6 MB | 30/41 kB | 426/909 kB
+Progress (3): 1.5/1.6 MB | 30/41 kB | 426/909 kB
+Progress (3): 1.5/1.6 MB | 30/41 kB | 442/909 kB
+Progress (3): 1.5/1.6 MB | 30/41 kB | 442/909 kB
+                                                
+Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-simple/1.7.21/slf4j-simple-1.7.21.jar
+Progress (3): 1.5/1.6 MB | 30/41 kB | 459/909 kB
+Progress (3): 1.5/1.6 MB | 30/41 kB | 459/909 kB
+Progress (3): 1.5/1.6 MB | 30/41 kB | 459/909 kB
+Progress (3): 1.5/1.6 MB | 30/41 kB | 475/909 kB
+Progress (3): 1.5/1.6 MB | 30/41 kB | 475/909 kB
+Progress (3): 1.5/1.6 MB | 30/41 kB | 492/909 kB
+Progress (3): 1.5/1.6 MB | 30/41 kB | 508/909 kB
+Progress (3): 1.5/1.6 MB | 30/41 kB | 508/909 kB
+Progress (3): 1.5/1.6 MB | 30/41 kB | 524/909 kB
+Progress (3): 1.5/1.6 MB | 30/41 kB | 524/909 kB
+Progress (3): 1.5/1.6 MB | 30/41 kB | 541/909 kB
+Progress (3): 1.6/1.6 MB | 30/41 kB | 541/909 kB
+Progress (3): 1.6 MB | 30/41 kB | 541/909 kB    
+Progress (3): 1.6 MB | 30/41 kB | 557/909 kB
+Progress (3): 1.6 MB | 30/41 kB | 573/909 kB
+Progress (3): 1.6 MB | 30/41 kB | 585/909 kB
+Progress (3): 1.6 MB | 32/41 kB | 585/909 kB
+Progress (3): 1.6 MB | 33/41 kB | 585/909 kB
+Progress (3): 1.6 MB | 34/41 kB | 585/909 kB
+Progress (3): 1.6 MB | 34/41 kB | 601/909 kB
+Progress (3): 1.6 MB | 36/41 kB | 601/909 kB
+Progress (3): 1.6 MB | 37/41 kB | 601/909 kB
+Progress (3): 1.6 MB | 37/41 kB | 617/909 kB
+                                            
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/pdfbox/fontbox/2.0.26/fontbox-2.0.26.jar (1.6 MB at 21 MB/s)
+Progress (2): 38/41 kB | 617/909 kB
+Progress (2): 38/41 kB | 634/909 kB
+Progress (2): 40/41 kB | 634/909 kB
+Progress (2): 40/41 kB | 650/909 kB
+Progress (2): 41/41 kB | 650/909 kB
+Progress (2): 41/41 kB | 667/909 kB
+Progress (2): 41 kB | 667/909 kB   
+Progress (3): 41 kB | 667/909 kB | 11 kB
+Progress (3): 41 kB | 683/909 kB | 11 kB
+Progress (3): 41 kB | 699/909 kB | 11 kB
+Progress (3): 41 kB | 716/909 kB | 11 kB
+Progress (3): 41 kB | 732/909 kB | 11 kB
+Progress (3): 41 kB | 749/909 kB | 11 kB
+Progress (3): 41 kB | 765/909 kB | 11 kB
+Progress (3): 41 kB | 781/909 kB | 11 kB
+Progress (3): 41 kB | 798/909 kB | 11 kB
+Progress (3): 41 kB | 814/909 kB | 11 kB
+Progress (3): 41 kB | 830/909 kB | 11 kB
+Progress (3): 41 kB | 847/909 kB | 11 kB
+Progress (3): 41 kB | 863/909 kB | 11 kB
+Progress (3): 41 kB | 880/909 kB | 11 kB
+Progress (3): 41 kB | 896/909 kB | 11 kB
+Progress (3): 41 kB | 909 kB | 11 kB    
+                                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-simple/1.7.21/slf4j-simple-1.7.21.jar (11 kB at 138 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/bouncycastle/bcpkix-jdk15on/1.69/bcpkix-jdk15on-1.69.jar (909 kB at 11 MB/s)
+Progress (2): 41 kB | 16/633 kB
+Progress (2): 41 kB | 33/633 kB
+Progress (2): 41 kB | 49/633 kB
+Progress (2): 41 kB | 66/633 kB
+Progress (2): 41 kB | 82/633 kB
+Progress (2): 41 kB | 98/633 kB
+Progress (2): 41 kB | 115/633 kB
+Progress (2): 41 kB | 131/633 kB
+Progress (2): 41 kB | 147/633 kB
+Progress (2): 41 kB | 164/633 kB
+Progress (2): 41 kB | 180/633 kB
+Progress (2): 41 kB | 197/633 kB
+Progress (2): 41 kB | 213/633 kB
+Progress (2): 41 kB | 229/633 kB
+Progress (2): 41 kB | 246/633 kB
+Progress (2): 41 kB | 262/633 kB
+Progress (2): 41 kB | 279/633 kB
+Progress (2): 41 kB | 295/633 kB
+Progress (2): 41 kB | 311/633 kB
+Progress (2): 41 kB | 328/633 kB
+Progress (2): 41 kB | 344/633 kB
+Progress (2): 41 kB | 360/633 kB
+Progress (2): 41 kB | 377/633 kB
+Progress (2): 41 kB | 393/633 kB
+Progress (2): 41 kB | 410/633 kB
+Progress (2): 41 kB | 426/633 kB
+Progress (2): 41 kB | 442/633 kB
+Progress (2): 41 kB | 459/633 kB
+Progress (2): 41 kB | 475/633 kB
+Progress (2): 41 kB | 492/633 kB
+Progress (2): 41 kB | 508/633 kB
+Progress (2): 41 kB | 524/633 kB
+Progress (2): 41 kB | 541/633 kB
+Progress (2): 41 kB | 557/633 kB
+Progress (2): 41 kB | 573/633 kB
+Progress (2): 41 kB | 585/633 kB
+Progress (2): 41 kB | 601/633 kB
+                                
+Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.31/slf4j-api-1.7.31.jar (41 kB at 403 kB/s)
+Progress (1): 617/633 kB
+Progress (1): 633 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-configuration2/2.8.0/commons-configuration2-2.8.0.jar (633 kB at 5.7 MB/s)
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ openpdfsign ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 5 resources from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ openpdfsign ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[INFO] Compiling 9 source files to D:\Bump\breaking-updates\tempProject\4a3efad6e00824e5814b9c8f571c9c98aad40281\open-pdf-sign\target\classes
+[INFO] 
+[INFO] --- dependency:3.6.0:tree (default-cli) @ openpdfsign ---
+[INFO] org.openpdfsign:openpdfsign:jar:0.1.0-SNAPSHOT
+[INFO] +- org.apache.pdfbox:pdfbox:jar:2.0.26:compile
+[INFO] |  +- org.apache.pdfbox:fontbox:jar:2.0.26:compile
+[INFO] |  \- commons-logging:commons-logging:jar:1.2:compile
+[INFO] +- eu.europa.ec.joinup.sd-dss:dss-pades:jar:5.9:compile
+[INFO] |  \- eu.europa.ec.joinup.sd-dss:dss-cades:jar:5.9:compile
+[INFO] |     \- eu.europa.ec.joinup.sd-dss:dss-document:jar:5.9:compile
+[INFO] |        \- eu.europa.ec.joinup.sd-dss:validation-policy:jar:5.9:compile
+[INFO] |           +- eu.europa.ec.joinup.sd-dss:dss-policy-jaxb:jar:5.9:compile
+[INFO] |           |  \- eu.europa.ec.joinup.sd-dss:dss-jaxb-parsers:jar:5.9:compile
+[INFO] |           |     +- eu.europa.ec.joinup.sd-dss:dss-jaxb-common:jar:5.9:compile
+[INFO] |           |     |  \- eu.europa.ec.joinup.sd-dss:dss-alert:jar:5.9:compile
+[INFO] |           |     +- jakarta.xml.bind:jakarta.xml.bind-api:jar:2.3.2:compile
+[INFO] |           |     |  \- jakarta.activation:jakarta.activation-api:jar:1.2.1:compile
+[INFO] |           |     \- org.glassfish.jaxb:jaxb-runtime:jar:2.3.2:runtime
+[INFO] |           |        +- org.glassfish.jaxb:txw2:jar:2.3.2:runtime
+[INFO] |           |        +- com.sun.istack:istack-commons-runtime:jar:3.0.8:runtime
+[INFO] |           |        +- org.jvnet.staxex:stax-ex:jar:1.8.1:runtime
+[INFO] |           |        \- com.sun.xml.fastinfoset:FastInfoset:jar:1.2.16:runtime
+[INFO] |           +- eu.europa.ec.joinup.sd-dss:dss-diagnostic-jaxb:jar:5.9:compile
+[INFO] |           +- eu.europa.ec.joinup.sd-dss:dss-simple-report-jaxb:jar:5.9:compile
+[INFO] |           +- eu.europa.ec.joinup.sd-dss:dss-simple-certificate-report-jaxb:jar:5.9:compile
+[INFO] |           +- eu.europa.ec.joinup.sd-dss:dss-detailed-report-jaxb:jar:5.9:compile
+[INFO] |           +- eu.europa.ec.joinup.sd-dss:specs-validation-report:jar:5.9:compile
+[INFO] |           |  +- eu.europa.ec.joinup.sd-dss:specs-xmldsig:jar:5.9:compile
+[INFO] |           |  +- eu.europa.ec.joinup.sd-dss:specs-xades:jar:5.9:compile
+[INFO] |           |  \- eu.europa.ec.joinup.sd-dss:specs-trusted-list:jar:5.9:compile
+[INFO] |           \- eu.europa.ec.joinup.sd-dss:dss-i18n:jar:5.9:compile
+[INFO] +- eu.europa.ec.joinup.sd-dss:dss-pades-pdfbox:jar:5.9:compile
+[INFO] +- eu.europa.ec.joinup.sd-dss:dss-token:jar:5.9:compile
+[INFO] |  +- eu.europa.ec.joinup.sd-dss:dss-model:jar:5.9:compile
+[INFO] |  |  \- eu.europa.ec.joinup.sd-dss:dss-enumerations:jar:5.9:compile
+[INFO] |  \- org.slf4j:slf4j-api:jar:1.7.31:compile
+[INFO] +- eu.europa.ec.joinup.sd-dss:dss-utils-apache-commons:jar:5.9:compile
+[INFO] |  +- eu.europa.ec.joinup.sd-dss:dss-utils:jar:5.9:compile
+[INFO] |  +- org.apache.commons:commons-lang3:jar:3.12.0:compile
+[INFO] |  +- org.apache.commons:commons-collections4:jar:4.4:compile
+[INFO] |  +- commons-codec:commons-codec:jar:1.15:compile
+[INFO] |  \- commons-io:commons-io:jar:2.10.0:compile
+[INFO] +- eu.europa.ec.joinup.sd-dss:dss-service:jar:5.9:compile
+[INFO] |  +- eu.europa.ec.joinup.sd-dss:dss-spi:jar:5.9:compile
+[INFO] |  |  +- eu.europa.ec.joinup.sd-dss:dss-crl-parser:jar:5.9:compile
+[INFO] |  |  \- org.bouncycastle:bcpkix-jdk15on:jar:1.69:compile
+[INFO] |  |     \- org.bouncycastle:bcutil-jdk15on:jar:1.69:compile
+[INFO] |  \- org.apache.httpcomponents:httpclient:jar:4.5.13:compile
+[INFO] |     \- org.apache.httpcomponents:httpcore:jar:4.4.13:compile
+[INFO] +- com.beust:jcommander:jar:1.82:compile
+[INFO] +- org.projectlombok:lombok:jar:1.18.24:provided
+[INFO] +- com.github.vandeseer:easytable:jar:0.8.5:compile
+[INFO] +- org.junit.jupiter:junit-jupiter:jar:5.8.2:test
+[INFO] |  +- org.junit.jupiter:junit-jupiter-api:jar:5.8.2:test
+[INFO] |  |  +- org.opentest4j:opentest4j:jar:1.2.0:test
+[INFO] |  |  +- org.junit.platform:junit-platform-commons:jar:1.8.2:test
+[INFO] |  |  \- org.apiguardian:apiguardian-api:jar:1.1.2:test
+[INFO] |  +- org.junit.jupiter:junit-jupiter-params:jar:5.8.2:test
+[INFO] |  \- org.junit.jupiter:junit-jupiter-engine:jar:5.8.2:test
+[INFO] |     \- org.junit.platform:junit-platform-engine:jar:1.8.2:test
+[INFO] +- org.bouncycastle:bcprov-jdk15on:jar:1.70:compile
+[INFO] +- org.apache.commons:commons-configuration2:jar:2.8.0:compile
+[INFO] |  \- org.apache.commons:commons-text:jar:1.9:compile
+[INFO] +- commons-beanutils:commons-beanutils:jar:1.9.4:compile
+[INFO] |  \- commons-collections:commons-collections:jar:3.2.2:compile
+[INFO] \- org.slf4j:slf4j-simple:jar:1.7.21:compile
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  12.737 s
+[INFO] Finished at: 2023-09-21T08:24:17Z
+[INFO] ------------------------------------------------------------------------

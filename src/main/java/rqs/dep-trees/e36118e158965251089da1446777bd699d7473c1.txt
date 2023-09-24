@@ -1,0 +1,557 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< com.artipie:files-adapter >----------------------
+[INFO] Building files-adapter 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from central: https://repo.maven.apache.org/maven2/com/artipie/asto/v1.9.0/asto-v1.9.0.pom
+Progress (1): 1.4/11 kB
+Progress (1): 2.7/11 kB
+Progress (1): 4.1/11 kB
+Progress (1): 5.5/11 kB
+Progress (1): 6.9/11 kB
+Progress (1): 8.2/11 kB
+Progress (1): 9.6/11 kB
+Progress (1): 11/11 kB 
+Progress (1): 11 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/com/artipie/asto/v1.9.0/asto-v1.9.0.pom (11 kB at 25 kB/s)
+Downloading from OSS sonnatype: https://oss.sonatype.org/content/repositories/snapshots/io/vertx/vertx-dependencies/4.1.1/vertx-dependencies-4.1.1.pom
+Downloading from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-dependencies/4.1.1/vertx-dependencies-4.1.1.pom
+Progress (1): 1.4/34 kB
+Progress (1): 2.7/34 kB
+Progress (1): 4.1/34 kB
+Progress (1): 5.5/34 kB
+Progress (1): 6.9/34 kB
+Progress (1): 8.2/34 kB
+Progress (1): 9.6/34 kB
+Progress (1): 11/34 kB 
+Progress (1): 12/34 kB
+Progress (1): 14/34 kB
+Progress (1): 15/34 kB
+Progress (1): 16/34 kB
+Progress (1): 18/34 kB
+Progress (1): 19/34 kB
+Progress (1): 21/34 kB
+Progress (1): 22/34 kB
+Progress (1): 23/34 kB
+Progress (1): 25/34 kB
+Progress (1): 26/34 kB
+Progress (1): 27/34 kB
+Progress (1): 29/34 kB
+Progress (1): 30/34 kB
+Progress (1): 32/34 kB
+Progress (1): 33/34 kB
+Progress (1): 34 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-dependencies/4.1.1/vertx-dependencies-4.1.1.pom (34 kB at 857 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/jcabi/jcabi-log/0.20.0/jcabi-log-0.20.0.pom
+Progress (1): 1.4/4.8 kB
+Progress (1): 2.7/4.8 kB
+Progress (1): 4.1/4.8 kB
+Progress (1): 4.8 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/jcabi/jcabi-log/0.20.0/jcabi-log-0.20.0.pom (4.8 kB at 341 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-retry/1.5.0/resilience4j-retry-1.5.0.pom
+Progress (1): 1.4/2.1 kB
+Progress (1): 2.1 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-retry/1.5.0/resilience4j-retry-1.5.0.pom (2.1 kB at 195 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-core/1.5.0/resilience4j-core-1.5.0.pom
+Progress (1): 1.4/1.9 kB
+Progress (1): 1.9 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-core/1.5.0/resilience4j-core-1.5.0.pom (1.9 kB at 162 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/artipie/asto/0.28/asto-0.28.pom
+Progress (1): 9.3 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/artipie/asto/0.28/asto-0.28.pom (9.3 kB at 98 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/artipie/ppom/0.3.9/ppom-0.3.9.pom
+Progress (1): 12 kB
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/com/artipie/ppom/0.3.9/ppom-0.3.9.pom (12 kB at 129 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/jcabi/parent/0.50.1/parent-0.50.1.pom
+Progress (1): 16/62 kB
+Progress (1): 32/62 kB
+Progress (1): 49/62 kB
+Progress (1): 62 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/com/jcabi/parent/0.50.1/parent-0.50.1.pom (62 kB at 522 kB/s)
+Downloading from OSS sonnatype: https://oss.sonatype.org/content/repositories/snapshots/io/vertx/vertx-dependencies/3.9.0/vertx-dependencies-3.9.0.pom
+Downloading from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-dependencies/3.9.0/vertx-dependencies-3.9.0.pom
+Progress (1): 16/31 kB
+Progress (1): 31 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-dependencies/3.9.0/vertx-dependencies-3.9.0.pom (31 kB at 2.6 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/cqfn/rio/0.2.1/rio-0.2.1.pom
+Progress (1): 8.7 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/cqfn/rio/0.2.1/rio-0.2.1.pom (8.7 kB at 91 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jctools/jctools-core/3.0.0/jctools-core-3.0.0.pom
+Progress (1): 4.2 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jctools/jctools-core/3.0.0/jctools-core-3.0.0.pom (4.2 kB at 466 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/software/amazon/awssdk/s3/2.7.19/s3-2.7.19.pom
+Progress (1): 3.4 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/software/amazon/awssdk/s3/2.7.19/s3-2.7.19.pom (3.4 kB at 283 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/software/amazon/awssdk/services/2.7.19/services-2.7.19.pom
+Progress (1): 13 kB
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/software/amazon/awssdk/services/2.7.19/services-2.7.19.pom (13 kB at 1.6 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/software/amazon/awssdk/aws-sdk-java-pom/2.7.19/aws-sdk-java-pom-2.7.19.pom
+Progress (1): 16/56 kB
+Progress (1): 33/56 kB
+Progress (1): 49/56 kB
+Progress (1): 56 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/software/amazon/awssdk/aws-sdk-java-pom/2.7.19/aws-sdk-java-pom-2.7.19.pom (56 kB at 4.0 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/software/amazon/awssdk/bom-internal/2.7.19/bom-internal-2.7.19.pom
+Progress (1): 13 kB
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/software/amazon/awssdk/bom-internal/2.7.19/bom-internal-2.7.19.pom (13 kB at 1.3 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/software/amazon/awssdk/aws-xml-protocol/2.7.19/aws-xml-protocol-2.7.19.pom
+Progress (1): 2.5 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/software/amazon/awssdk/aws-xml-protocol/2.7.19/aws-xml-protocol-2.7.19.pom (2.5 kB at 250 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/software/amazon/awssdk/protocols/2.7.19/protocols-2.7.19.pom
+Progress (1): 1.0 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/software/amazon/awssdk/protocols/2.7.19/protocols-2.7.19.pom (1.0 kB at 91 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/software/amazon/awssdk/core/2.7.19/core-2.7.19.pom
+Progress (1): 2.1 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/software/amazon/awssdk/core/2.7.19/core-2.7.19.pom (2.1 kB at 230 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/software/amazon/awssdk/aws-query-protocol/2.7.19/aws-query-protocol-2.7.19.pom
+Progress (1): 2.8 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/software/amazon/awssdk/aws-query-protocol/2.7.19/aws-query-protocol-2.7.19.pom (2.8 kB at 81 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/software/amazon/awssdk/protocol-core/2.7.19/protocol-core-2.7.19.pom
+Progress (1): 2.4 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/software/amazon/awssdk/protocol-core/2.7.19/protocol-core-2.7.19.pom (2.4 kB at 221 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/software/amazon/awssdk/sdk-core/2.7.19/sdk-core-2.7.19.pom
+Progress (1): 10 kB
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/software/amazon/awssdk/sdk-core/2.7.19/sdk-core-2.7.19.pom (10 kB at 1.0 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/software/amazon/awssdk/annotations/2.7.19/annotations-2.7.19.pom
+Progress (1): 1.1 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/software/amazon/awssdk/annotations/2.7.19/annotations-2.7.19.pom (1.1 kB at 109 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/software/amazon/awssdk/http-client-spi/2.7.19/http-client-spi-2.7.19.pom
+Progress (1): 3.3 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/software/amazon/awssdk/http-client-spi/2.7.19/http-client-spi-2.7.19.pom (3.3 kB at 65 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/software/amazon/awssdk/utils/2.7.19/utils-2.7.19.pom
+Progress (1): 3.6 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/software/amazon/awssdk/utils/2.7.19/utils-2.7.19.pom (3.6 kB at 33 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/software/amazon/awssdk/profiles/2.7.19/profiles-2.7.19.pom
+Progress (1): 2.7 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/software/amazon/awssdk/profiles/2.7.19/profiles-2.7.19.pom (2.7 kB at 246 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/software/amazon/awssdk/aws-core/2.7.19/aws-core-2.7.19.pom
+Progress (1): 5.4 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/software/amazon/awssdk/aws-core/2.7.19/aws-core-2.7.19.pom (5.4 kB at 539 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/software/amazon/awssdk/regions/2.7.19/regions-2.7.19.pom
+Progress (1): 5.2 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/software/amazon/awssdk/regions/2.7.19/regions-2.7.19.pom (5.2 kB at 399 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/software/amazon/awssdk/auth/2.7.19/auth-2.7.19.pom
+Progress (1): 5.0 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/software/amazon/awssdk/auth/2.7.19/auth-2.7.19.pom (5.0 kB at 277 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/software/amazon/awssdk/apache-client/2.7.19/apache-client-2.7.19.pom
+Progress (1): 3.6 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/software/amazon/awssdk/apache-client/2.7.19/apache-client-2.7.19.pom (3.6 kB at 323 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/software/amazon/awssdk/http-clients/2.7.19/http-clients-2.7.19.pom
+Progress (1): 1.8 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/software/amazon/awssdk/http-clients/2.7.19/http-clients-2.7.19.pom (1.8 kB at 20 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/software/amazon/awssdk/netty-nio-client/2.7.19/netty-nio-client-2.7.19.pom
+Progress (1): 7.2 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/software/amazon/awssdk/netty-nio-client/2.7.19/netty-nio-client-2.7.19.pom (7.2 kB at 716 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec-http2/4.1.69.Final/netty-codec-http2-4.1.69.Final.pom
+Progress (1): 3.6 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec-http2/4.1.69.Final/netty-codec-http2-4.1.69.Final.pom (3.6 kB at 298 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec/4.1.33.Final/netty-codec-4.1.33.Final.pom
+Progress (1): 3.6 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec/4.1.33.Final/netty-codec-4.1.33.Final.pom (3.6 kB at 359 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-parent/4.1.33.Final/netty-parent-4.1.33.Final.pom
+Progress (1): 16/56 kB
+Progress (1): 32/56 kB
+Progress (1): 49/56 kB
+Progress (1): 56 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-parent/4.1.33.Final/netty-parent-4.1.33.Final.pom (56 kB at 4.3 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/typesafe/netty/netty-reactive-streams-http/2.0.0/netty-reactive-streams-http-2.0.0.pom
+Progress (1): 1.5 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/typesafe/netty/netty-reactive-streams-http/2.0.0/netty-reactive-streams-http-2.0.0.pom (1.5 kB at 184 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/typesafe/netty/netty-reactive-streams-parent/2.0.0/netty-reactive-streams-parent-2.0.0.pom
+Progress (1): 7.9 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/typesafe/netty/netty-reactive-streams-parent/2.0.0/netty-reactive-streams-parent-2.0.0.pom (7.9 kB at 723 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/typesafe/netty/netty-reactive-streams/2.0.0/netty-reactive-streams-2.0.0.pom
+Progress (1): 1.2 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/typesafe/netty/netty-reactive-streams/2.0.0/netty-reactive-streams-2.0.0.pom (1.2 kB at 134 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/artipie/http/v0.26.1/http-v0.26.1.pom
+Progress (1): 12 kB
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/com/artipie/http/v0.26.1/http-v0.26.1.pom (12 kB at 115 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-collections4/4.3/commons-collections4-4.3.pom
+Progress (1): 16/23 kB
+Progress (1): 23 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-collections4/4.3/commons-collections4-4.3.pom (23 kB at 2.5 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/artipie/asto/v1.8.0/asto-v1.8.0.pom
+Progress (1): 11 kB
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/com/artipie/asto/v1.8.0/asto-v1.8.0.pom (11 kB at 114 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/wtf/g4s8/mime/v2.2/mime-v2.2.pom
+Progress (1): 5.7 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/wtf/g4s8/mime/v2.2/mime-v2.2.pom (5.7 kB at 406 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/artipie/vertx-server/0.5/vertx-server-0.5.pom
+Progress (1): 4.3 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/artipie/vertx-server/0.5/vertx-server-0.5.pom (4.3 kB at 42 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-rx-java2/4.2.1/vertx-rx-java2-4.2.1.pom
+Progress (1): 16/26 kB
+Progress (1): 26 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-rx-java2/4.2.1/vertx-rx-java2-4.2.1.pom (26 kB at 261 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-rx/4.2.1/vertx-rx-4.2.1.pom
+Progress (1): 4.2 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-rx/4.2.1/vertx-rx-4.2.1.pom (4.2 kB at 46 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1.pom
+Progress (1): 16/32 kB
+Progress (1): 32 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1.pom (32 kB at 3.2 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-handler-proxy/4.1.69.Final/netty-handler-proxy-4.1.69.Final.pom
+Progress (1): 2.8 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-handler-proxy/4.1.69.Final/netty-handler-proxy-4.1.69.Final.pom (2.8 kB at 215 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec-socks/4.1.69.Final/netty-codec-socks-4.1.69.Final.pom
+Progress (1): 2.0 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec-socks/4.1.69.Final/netty-codec-socks-4.1.69.Final.pom (2.0 kB at 198 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-resolver-dns/4.1.69.Final/netty-resolver-dns-4.1.69.Final.pom
+Progress (1): 3.2 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-resolver-dns/4.1.69.Final/netty-resolver-dns-4.1.69.Final.pom (3.2 kB at 352 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec-dns/4.1.69.Final/netty-codec-dns-4.1.69.Final.pom
+Progress (1): 2.1 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec-dns/4.1.69.Final/netty-codec-dns-4.1.69.Final.pom (2.1 kB at 195 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-rx-java2-gen/4.2.1/vertx-rx-java2-gen-4.2.1.pom
+Progress (1): 8.0 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-rx-java2-gen/4.2.1/vertx-rx-java2-gen-4.2.1.pom (8.0 kB at 85 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-rx-gen/4.2.1/vertx-rx-gen-4.2.1.pom
+Progress (1): 1.3 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-rx-gen/4.2.1/vertx-rx-gen-4.2.1.pom (1.3 kB at 14 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-codegen/4.2.1/vertx-codegen-4.2.1.pom
+Progress (1): 14 kB
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-codegen/4.2.1/vertx-codegen-4.2.1.pom (14 kB at 1.5 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-web-client/4.2.1/vertx-web-client-4.2.1.pom
+Progress (1): 2.7 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-web-client/4.2.1/vertx-web-client-4.2.1.pom (2.7 kB at 303 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-web-parent/4.2.1/vertx-web-parent-4.2.1.pom
+Progress (1): 2.7 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-web-parent/4.2.1/vertx-web-parent-4.2.1.pom (2.7 kB at 209 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-web-common/4.2.1/vertx-web-common-4.2.1.pom
+Progress (1): 488 B
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-web-common/4.2.1/vertx-web-common-4.2.1.pom (488 B at 35 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-auth-common/4.2.1/vertx-auth-common-4.2.1.pom
+Progress (1): 2.5 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-auth-common/4.2.1/vertx-auth-common-4.2.1.pom (2.5 kB at 192 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-auth/4.2.1/vertx-auth-4.2.1.pom
+Progress (1): 2.8 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-auth/4.2.1/vertx-auth-4.2.1.pom (2.8 kB at 348 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/artipie/asto/v1.9.0/asto-v1.9.0.jar
+Progress (1): 16/138 kB
+Progress (1): 33/138 kB
+Progress (1): 49/138 kB
+Progress (1): 66/138 kB
+Progress (1): 82/138 kB
+Progress (1): 98/138 kB
+Progress (1): 115/138 kB
+Progress (1): 131/138 kB
+Progress (1): 138 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/artipie/asto/v1.9.0/asto-v1.9.0.jar (138 kB at 485 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/jcabi/jcabi-log/0.20.0/jcabi-log-0.20.0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-retry/1.5.0/resilience4j-retry-1.5.0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-core/1.5.0/resilience4j-core-1.5.0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/com/artipie/http/v0.26.1/http-v0.26.1.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-collections4/4.3/commons-collections4-4.3.jar
+Progress (1): 16/51 kB
+Progress (1): 33/51 kB
+Progress (1): 49/51 kB
+Progress (1): 51 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/com/jcabi/jcabi-log/0.20.0/jcabi-log-0.20.0.jar (51 kB at 2.6 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/wtf/g4s8/mime/v2.2/mime-v2.2.jar
+Progress (1): 1.4/46 kB
+Progress (1): 2.7/46 kB
+Progress (1): 4.1/46 kB
+Progress (1): 5.5/46 kB
+Progress (1): 6.9/46 kB
+Progress (1): 8.2/46 kB
+Progress (1): 9.6/46 kB
+Progress (1): 11/46 kB 
+Progress (1): 12/46 kB
+Progress (1): 14/46 kB
+Progress (1): 15/46 kB
+Progress (1): 16/46 kB
+Progress (1): 18/46 kB
+Progress (1): 19/46 kB
+Progress (1): 21/46 kB
+Progress (1): 22/46 kB
+Progress (1): 23/46 kB
+Progress (2): 23/46 kB | 1.4/54 kB
+Progress (2): 23/46 kB | 2.7/54 kB
+Progress (2): 23/46 kB | 4.1/54 kB
+Progress (2): 23/46 kB | 5.5/54 kB
+Progress (2): 23/46 kB | 6.9/54 kB
+Progress (2): 23/46 kB | 8.2/54 kB
+Progress (2): 23/46 kB | 9.6/54 kB
+Progress (2): 23/46 kB | 11/54 kB 
+Progress (2): 23/46 kB | 12/54 kB
+Progress (2): 25/46 kB | 12/54 kB
+Progress (3): 25/46 kB | 12/54 kB | 1.4/754 kB
+Progress (3): 26/46 kB | 12/54 kB | 1.4/754 kB
+Progress (3): 26/46 kB | 14/54 kB | 1.4/754 kB
+Progress (3): 27/46 kB | 14/54 kB | 1.4/754 kB
+Progress (3): 27/46 kB | 14/54 kB | 2.7/754 kB
+Progress (3): 29/46 kB | 14/54 kB | 2.7/754 kB
+Progress (3): 29/46 kB | 15/54 kB | 2.7/754 kB
+Progress (3): 30/46 kB | 15/54 kB | 2.7/754 kB
+Progress (3): 30/46 kB | 15/54 kB | 4.1/754 kB
+Progress (3): 32/46 kB | 15/54 kB | 4.1/754 kB
+Progress (3): 32/46 kB | 15/54 kB | 5.5/754 kB
+Progress (3): 32/46 kB | 16/54 kB | 5.5/754 kB
+Progress (3): 33/46 kB | 16/54 kB | 5.5/754 kB
+Progress (3): 33/46 kB | 16/54 kB | 6.9/754 kB
+Progress (3): 33/46 kB | 18/54 kB | 6.9/754 kB
+Progress (3): 33/46 kB | 18/54 kB | 8.2/754 kB
+Progress (3): 33/46 kB | 19/54 kB | 8.2/754 kB
+Progress (3): 34/46 kB | 19/54 kB | 8.2/754 kB
+Progress (3): 34/46 kB | 21/54 kB | 8.2/754 kB
+Progress (3): 34/46 kB | 22/54 kB | 8.2/754 kB
+Progress (3): 34/46 kB | 22/54 kB | 9.6/754 kB
+Progress (3): 34/46 kB | 23/54 kB | 9.6/754 kB
+Progress (3): 36/46 kB | 23/54 kB | 9.6/754 kB
+Progress (3): 36/46 kB | 25/54 kB | 9.6/754 kB
+Progress (3): 36/46 kB | 25/54 kB | 11/754 kB 
+Progress (3): 37/46 kB | 25/54 kB | 11/754 kB
+Progress (3): 37/46 kB | 26/54 kB | 11/754 kB
+Progress (3): 38/46 kB | 26/54 kB | 11/754 kB
+Progress (3): 40/46 kB | 26/54 kB | 11/754 kB
+Progress (3): 40/46 kB | 26/54 kB | 12/754 kB
+Progress (3): 40/46 kB | 26/54 kB | 14/754 kB
+Progress (3): 40/46 kB | 27/54 kB | 14/754 kB
+Progress (3): 40/46 kB | 27/54 kB | 15/754 kB
+Progress (3): 41/46 kB | 27/54 kB | 15/754 kB
+Progress (3): 41/46 kB | 29/54 kB | 15/754 kB
+Progress (3): 41/46 kB | 29/54 kB | 16/754 kB
+Progress (3): 43/46 kB | 29/54 kB | 16/754 kB
+Progress (3): 43/46 kB | 30/54 kB | 16/754 kB
+Progress (3): 44/46 kB | 30/54 kB | 16/754 kB
+Progress (3): 44/46 kB | 32/54 kB | 16/754 kB
+Progress (3): 45/46 kB | 32/54 kB | 16/754 kB
+Progress (3): 45/46 kB | 33/54 kB | 16/754 kB
+Progress (3): 46 kB | 33/54 kB | 16/754 kB   
+Progress (3): 46 kB | 34/54 kB | 16/754 kB
+Progress (3): 46 kB | 34/54 kB | 32/754 kB
+Progress (3): 46 kB | 36/54 kB | 32/754 kB
+Progress (3): 46 kB | 37/54 kB | 32/754 kB
+Progress (3): 46 kB | 38/54 kB | 32/754 kB
+Progress (3): 46 kB | 38/54 kB | 49/754 kB
+Progress (3): 46 kB | 40/54 kB | 49/754 kB
+Progress (3): 46 kB | 41/54 kB | 49/754 kB
+Progress (3): 46 kB | 43/54 kB | 49/754 kB
+Progress (3): 46 kB | 43/54 kB | 65/754 kB
+Progress (3): 46 kB | 44/54 kB | 65/754 kB
+Progress (3): 46 kB | 45/54 kB | 65/754 kB
+                                          
+Downloaded from central: https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-retry/1.5.0/resilience4j-retry-1.5.0.jar (46 kB at 874 kB/s)
+Progress (2): 47/54 kB | 65/754 kB
+Progress (2): 48/54 kB | 65/754 kB
+Progress (2): 49/54 kB | 65/754 kB
+Progress (2): 51/54 kB | 65/754 kB
+Progress (2): 52/54 kB | 65/754 kB
+Progress (2): 53/54 kB | 65/754 kB
+Progress (2): 53/54 kB | 81/754 kB
+Progress (2): 54 kB | 81/754 kB   
+Progress (2): 54 kB | 98/754 kB
+Progress (2): 54 kB | 114/754 kB
+                                
+Downloaded from central: https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-core/1.5.0/resilience4j-core-1.5.0.jar (54 kB at 911 kB/s)
+Progress (1): 130/754 kB
+Progress (1): 147/754 kB
+Progress (1): 163/754 kB
+Progress (1): 180/754 kB
+Progress (1): 196/754 kB
+Progress (1): 212/754 kB
+Progress (1): 229/754 kB
+Progress (1): 245/754 kB
+Progress (1): 262/754 kB
+Progress (1): 278/754 kB
+Progress (1): 294/754 kB
+Progress (1): 311/754 kB
+Progress (1): 327/754 kB
+Progress (1): 343/754 kB
+Progress (1): 360/754 kB
+Progress (1): 376/754 kB
+Progress (1): 393/754 kB
+Progress (1): 402/754 kB
+Progress (1): 418/754 kB
+Progress (1): 435/754 kB
+Progress (1): 451/754 kB
+Progress (1): 468/754 kB
+Progress (1): 484/754 kB
+Progress (1): 500/754 kB
+Progress (1): 517/754 kB
+Progress (1): 533/754 kB
+Progress (1): 549/754 kB
+Progress (1): 566/754 kB
+Progress (1): 582/754 kB
+Progress (1): 599/754 kB
+Progress (1): 615/754 kB
+Progress (1): 631/754 kB
+Progress (1): 648/754 kB
+Progress (1): 658/754 kB
+Progress (1): 674/754 kB
+Progress (1): 691/754 kB
+Progress (1): 707/754 kB
+Progress (1): 723/754 kB
+Progress (1): 740/754 kB
+Progress (1): 754 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-collections4/4.3/commons-collections4-4.3.jar (754 kB at 8.3 MB/s)
+Progress (1): 16 kB
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/wtf/g4s8/mime/v2.2/mime-v2.2.jar (16 kB at 146 kB/s)
+Progress (1): 16/191 kB
+Progress (1): 33/191 kB
+Progress (1): 49/191 kB
+Progress (1): 66/191 kB
+Progress (1): 82/191 kB
+Progress (1): 98/191 kB
+Progress (1): 115/191 kB
+Progress (1): 131/191 kB
+Progress (1): 147/191 kB
+Progress (1): 164/191 kB
+Progress (1): 180/191 kB
+Progress (1): 191 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/artipie/http/v0.26.1/http-v0.26.1.jar (191 kB at 1.5 MB/s)
+[INFO] 
+[INFO] --- enforcer:3.0.0-M3:enforce (enforce-maven) @ files-adapter ---
+[INFO] 
+[INFO] --- resources:3.2.0:resources (default-resources) @ files-adapter ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] skip non existing resourceDirectory D:\Bump\breaking-updates\tempProject\e36118e158965251089da1446777bd699d7473c1\files-adapter\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ files-adapter ---
+[WARNING]  Parameter 'optimize' (user property 'maven.compiler.optimize') is deprecated: This property is a no-op in {@code javac}.
+[INFO] Compiling 1 source file to D:\Bump\breaking-updates\tempProject\e36118e158965251089da1446777bd699d7473c1\files-adapter\target\classes
+[INFO] 
+[INFO] --- dependency:3.6.0:tree (default-cli) @ files-adapter ---
+[INFO] com.artipie:files-adapter:jar:1.0-SNAPSHOT
+[INFO] +- com.artipie:asto:jar:v1.9.0:compile
+[INFO] |  +- com.google.guava:guava:jar:30.1.1-jre:compile
+[INFO] |  |  +- com.google.guava:failureaccess:jar:1.0.1:compile
+[INFO] |  |  +- com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:compile
+[INFO] |  |  +- com.google.code.findbugs:jsr305:jar:3.0.2:compile
+[INFO] |  |  +- org.checkerframework:checker-qual:jar:3.8.0:compile
+[INFO] |  |  +- com.google.errorprone:error_prone_annotations:jar:2.5.1:compile
+[INFO] |  |  \- com.google.j2objc:j2objc-annotations:jar:1.3:compile
+[INFO] |  +- com.jcabi:jcabi-log:jar:0.20.0:compile
+[INFO] |  |  \- org.mockito:mockito-core:jar:3.4.6:compile
+[INFO] |  |     +- net.bytebuddy:byte-buddy:jar:1.10.13:compile
+[INFO] |  |     +- net.bytebuddy:byte-buddy-agent:jar:1.10.13:compile
+[INFO] |  |     \- org.objenesis:objenesis:jar:2.6:compile
+[INFO] |  +- com.github.akarnokd:rxjava2-jdk8-interop:jar:0.3.7:compile
+[INFO] |  |  \- io.reactivex.rxjava2:rxjava:jar:2.2.10:compile
+[INFO] |  +- com.github.akarnokd:rxjava2-extensions:jar:0.20.10:compile
+[INFO] |  |  \- org.reactivestreams:reactive-streams:jar:1.0.3:compile
+[INFO] |  +- org.cqfn:rio:jar:0.3:compile
+[INFO] |  |  \- org.jctools:jctools-core:jar:3.1.0:compile
+[INFO] |  +- io.github.resilience4j:resilience4j-retry:jar:1.5.0:compile
+[INFO] |  |  +- io.vavr:vavr:jar:0.10.2:compile
+[INFO] |  |  |  \- io.vavr:vavr-match:jar:0.10.2:compile
+[INFO] |  |  \- io.github.resilience4j:resilience4j-core:jar:1.5.0:compile
+[INFO] |  \- commons-codec:commons-codec:jar:1.15:compile
+[INFO] +- com.artipie:http-client:jar:0.3.6:compile
+[INFO] |  +- org.eclipse.jetty:jetty-reactive-httpclient:jar:1.1.10:compile
+[INFO] |  |  \- org.eclipse.jetty:jetty-client:jar:9.4.43.v20210629:compile
+[INFO] |  |     +- org.eclipse.jetty:jetty-http:jar:9.4.43.v20210629:compile
+[INFO] |  |     |  \- org.eclipse.jetty:jetty-util:jar:9.4.43.v20210629:compile
+[INFO] |  |     \- org.eclipse.jetty:jetty-io:jar:9.4.43.v20210629:compile
+[INFO] |  +- javax.json:javax.json-api:jar:1.1.4:compile
+[INFO] |  \- org.glassfish:javax.json:jar:1.1.4:compile
+[INFO] +- com.artipie:http:jar:v0.26.1:compile
+[INFO] |  +- org.cactoos:cactoos:jar:0.46:compile
+[INFO] |  +- org.apache.commons:commons-lang3:jar:3.12.0:compile
+[INFO] |  +- org.apache.commons:commons-collections4:jar:4.3:compile
+[INFO] |  +- org.apache.httpcomponents:httpclient:jar:4.5.13:compile
+[INFO] |  |  +- org.apache.httpcomponents:httpcore:jar:4.4.13:compile
+[INFO] |  |  \- commons-logging:commons-logging:jar:1.2:compile
+[INFO] |  \- wtf.g4s8:mime:jar:v2.2:compile
+[INFO] +- com.artipie:vertx-server:jar:0.5:test
+[INFO] |  \- io.vertx:vertx-rx-java2:jar:4.2.1:test
+[INFO] |     +- io.vertx:vertx-rx-java2-gen:jar:4.2.1:test
+[INFO] |     \- io.vertx:vertx-rx-gen:jar:4.2.1:test
+[INFO] |        \- io.vertx:vertx-codegen:jar:4.2.1:test
+[INFO] +- org.junit.jupiter:junit-jupiter-api:jar:5.8.1:test
+[INFO] |  +- org.opentest4j:opentest4j:jar:1.2.0:test
+[INFO] |  +- org.junit.platform:junit-platform-commons:jar:1.8.1:test
+[INFO] |  \- org.apiguardian:apiguardian-api:jar:1.1.2:test
+[INFO] +- org.junit.jupiter:junit-jupiter-engine:jar:5.8.1:test
+[INFO] |  \- org.junit.platform:junit-platform-engine:jar:1.8.1:test
+[INFO] +- org.hamcrest:hamcrest:jar:2.2:test
+[INFO] +- org.slf4j:slf4j-simple:jar:1.7.32:test
+[INFO] +- io.vertx:vertx-web-client:jar:4.2.1:test
+[INFO] |  +- io.vertx:vertx-web-common:jar:4.2.1:test
+[INFO] |  +- io.vertx:vertx-auth-common:jar:4.2.1:test
+[INFO] |  \- io.vertx:vertx-core:jar:4.2.1:test
+[INFO] |     +- io.netty:netty-common:jar:4.1.69.Final:test
+[INFO] |     +- io.netty:netty-buffer:jar:4.1.69.Final:test
+[INFO] |     +- io.netty:netty-transport:jar:4.1.69.Final:test
+[INFO] |     +- io.netty:netty-handler:jar:4.1.69.Final:test
+[INFO] |     |  \- io.netty:netty-codec:jar:4.1.69.Final:test
+[INFO] |     +- io.netty:netty-handler-proxy:jar:4.1.69.Final:test
+[INFO] |     |  \- io.netty:netty-codec-socks:jar:4.1.69.Final:test
+[INFO] |     +- io.netty:netty-codec-http:jar:4.1.69.Final:test
+[INFO] |     +- io.netty:netty-codec-http2:jar:4.1.69.Final:test
+[INFO] |     +- io.netty:netty-resolver:jar:4.1.69.Final:test
+[INFO] |     +- io.netty:netty-resolver-dns:jar:4.1.69.Final:test
+[INFO] |     |  \- io.netty:netty-codec-dns:jar:4.1.69.Final:test
+[INFO] |     \- com.fasterxml.jackson.core:jackson-core:jar:2.11.4:test
+[INFO] +- com.google.code.findbugs:annotations:jar:3.0.1u2:provided
+[INFO] \- org.slf4j:slf4j-api:jar:1.7.30:provided
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  9.431 s
+[INFO] Finished at: 2023-09-21T20:35:51Z
+[INFO] ------------------------------------------------------------------------

@@ -1,0 +1,277 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.facebook.business.sdk:facebook-java-business-sdk:jar:17.0.1
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-source-plugin is missing. @ line 39, column 15
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] Inspecting build with total of 1 modules...
+[INFO] Installing Nexus Staging features:
+[INFO]   ... total of 1 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-source-plugin/maven-metadata.xml
+Progress (1): 936 B
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-source-plugin/maven-metadata.xml (936 B at 2.6 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-javadoc-plugin/3.3.0/maven-javadoc-plugin-3.3.0.pom
+Progress (1): 1.4/21 kB
+Progress (1): 2.7/21 kB
+Progress (1): 4.1/21 kB
+Progress (1): 5.5/21 kB
+Progress (1): 6.9/21 kB
+Progress (1): 8.2/21 kB
+Progress (1): 9.6/21 kB
+Progress (1): 11/21 kB 
+Progress (1): 12/21 kB
+Progress (1): 14/21 kB
+Progress (1): 15/21 kB
+Progress (1): 16/21 kB
+Progress (1): 18/21 kB
+Progress (1): 19/21 kB
+Progress (1): 21 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-javadoc-plugin/3.3.0/maven-javadoc-plugin-3.3.0.pom (21 kB at 707 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-javadoc-plugin/3.3.0/maven-javadoc-plugin-3.3.0.jar
+Progress (1): 16/515 kB
+Progress (1): 33/515 kB
+Progress (1): 49/515 kB
+Progress (1): 66/515 kB
+Progress (1): 82/515 kB
+Progress (1): 98/515 kB
+Progress (1): 115/515 kB
+Progress (1): 131/515 kB
+Progress (1): 147/515 kB
+Progress (1): 164/515 kB
+Progress (1): 180/515 kB
+Progress (1): 197/515 kB
+Progress (1): 213/515 kB
+Progress (1): 229/515 kB
+Progress (1): 246/515 kB
+Progress (1): 256/515 kB
+Progress (1): 272/515 kB
+Progress (1): 289/515 kB
+Progress (1): 305/515 kB
+Progress (1): 321/515 kB
+Progress (1): 338/515 kB
+Progress (1): 354/515 kB
+Progress (1): 370/515 kB
+Progress (1): 387/515 kB
+Progress (1): 403/515 kB
+Progress (1): 420/515 kB
+Progress (1): 436/515 kB
+Progress (1): 452/515 kB
+Progress (1): 469/515 kB
+Progress (1): 485/515 kB
+Progress (1): 502/515 kB
+Progress (1): 515 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-javadoc-plugin/3.3.0/maven-javadoc-plugin-3.3.0.jar (515 kB at 5.2 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-shade-plugin/2.4.1/maven-shade-plugin-2.4.1.pom
+Progress (1): 8.6 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-shade-plugin/2.4.1/maven-shade-plugin-2.4.1.pom (8.6 kB at 956 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-shade-plugin/2.4.1/maven-shade-plugin-2.4.1.jar
+Progress (1): 16/103 kB
+Progress (1): 32/103 kB
+Progress (1): 49/103 kB
+Progress (1): 65/103 kB
+Progress (1): 81/103 kB
+Progress (1): 98/103 kB
+Progress (1): 103 kB   
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-shade-plugin/2.4.1/maven-shade-plugin-2.4.1.jar (103 kB at 5.7 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-maven-plugin/1.6.0/kotlin-maven-plugin-1.6.0.pom
+Progress (1): 5.9 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-maven-plugin/1.6.0/kotlin-maven-plugin-1.6.0.pom (5.9 kB at 585 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-project/1.6.0/kotlin-project-1.6.0.pom
+Progress (1): 10 kB
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-project/1.6.0/kotlin-project-1.6.0.pom (10 kB at 550 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-maven-plugin/1.6.0/kotlin-maven-plugin-1.6.0.jar
+Progress (1): 16/80 kB
+Progress (1): 33/80 kB
+Progress (1): 49/80 kB
+Progress (1): 66/80 kB
+Progress (1): 80 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-maven-plugin/1.6.0/kotlin-maven-plugin-1.6.0.jar (80 kB at 5.7 MB/s)
+[INFO] 
+[INFO] --------< com.facebook.business.sdk:facebook-java-business-sdk >--------
+[INFO] Building com.facebook.business.sdk:facebook-java-business-sdk 17.0.1
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from central: https://repo.maven.apache.org/maven2/com/squareup/okhttp3/okhttp/3.9.1/okhttp-3.9.1.pom
+Progress (1): 1.7 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/squareup/okhttp3/okhttp/3.9.1/okhttp-3.9.1.pom (1.7 kB at 188 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/squareup/okhttp3/parent/3.9.1/parent-3.9.1.pom
+Progress (1): 16/18 kB
+Progress (1): 18 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/com/squareup/okhttp3/parent/3.9.1/parent-3.9.1.pom (18 kB at 2.2 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/squareup/okio/okio/1.13.0/okio-1.13.0.pom
+Progress (1): 1.6 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/squareup/okio/okio/1.13.0/okio-1.13.0.pom (1.6 kB at 96 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/squareup/okio/okio-parent/1.13.0/okio-parent-1.13.0.pom
+Progress (1): 4.8 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/squareup/okio/okio-parent/1.13.0/okio-parent-1.13.0.pom (4.8 kB at 345 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/squareup/okio/okio/2.1.0/okio-2.1.0.pom
+Progress (1): 2.0 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/squareup/okio/okio/2.1.0/okio-2.1.0.pom (2.0 kB at 166 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.2.60/kotlin-stdlib-1.2.60.pom
+Progress (1): 1.8 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.2.60/kotlin-stdlib-1.2.60.pom (1.8 kB at 136 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/1.2.60/kotlin-stdlib-common-1.2.60.pom
+Progress (1): 1.6 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/1.2.60/kotlin-stdlib-common-1.2.60.pom (1.6 kB at 161 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-test-junit/1.6.0/kotlin-test-junit-1.6.0.pom
+Progress (1): 1.9 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-test-junit/1.6.0/kotlin-test-junit-1.6.0.pom (1.9 kB at 237 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-test/1.6.0/kotlin-test-1.6.0.pom
+Progress (1): 1.7 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-test/1.6.0/kotlin-test-1.6.0.pom (1.7 kB at 157 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/mockk/mockk/1.9.3/mockk-1.9.3.pom
+Progress (1): 3.4 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/io/mockk/mockk/1.9.3/mockk-1.9.3.pom (3.4 kB at 342 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/mockk/mockk-common/1.9.3/mockk-common-1.9.3.pom
+Progress (1): 1.7 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/io/mockk/mockk-common/1.9.3/mockk-common-1.9.3.pom (1.7 kB at 185 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/mockk/mockk-dsl/1.9.3/mockk-dsl-1.9.3.pom
+Progress (1): 1.5 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/io/mockk/mockk-dsl/1.9.3/mockk-dsl-1.9.3.pom (1.5 kB at 128 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/mockk/mockk-dsl-jvm/1.9.3/mockk-dsl-jvm-1.9.3.pom
+Progress (1): 2.9 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/io/mockk/mockk-dsl-jvm/1.9.3/mockk-dsl-jvm-1.9.3.pom (2.9 kB at 243 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-reflect/1.3.0/kotlin-reflect-1.3.0.pom
+Progress (1): 1.4 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-reflect/1.3.0/kotlin-reflect-1.3.0.pom (1.4 kB at 697 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.3.0/kotlin-stdlib-1.3.0.pom
+Progress (1): 1.8 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.3.0/kotlin-stdlib-1.3.0.pom (1.8 kB at 220 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/1.3.0/kotlin-stdlib-common-1.3.0.pom
+Progress (1): 1.6 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/1.3.0/kotlin-stdlib-common-1.3.0.pom (1.6 kB at 107 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/mockk/mockk-agent-jvm/1.9.3/mockk-agent-jvm-1.9.3.pom
+Progress (1): 3.4 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/io/mockk/mockk-agent-jvm/1.9.3/mockk-agent-jvm-1.9.3.pom (3.4 kB at 312 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/mockk/mockk-agent-api/1.9.3/mockk-agent-api-1.9.3.pom
+Progress (1): 2.5 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/io/mockk/mockk-agent-api/1.9.3/mockk-agent-api-1.9.3.pom (2.5 kB at 231 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/mockk/mockk-agent-common/1.9.3/mockk-agent-common-1.9.3.pom
+Progress (1): 2.7 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/io/mockk/mockk-agent-common/1.9.3/mockk-agent-common-1.9.3.pom (2.7 kB at 341 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/mockito/mockito-core/3.5.11/mockito-core-3.5.11.pom
+Progress (1): 16/25 kB
+Progress (1): 25 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/mockito/mockito-core/3.5.11/mockito-core-3.5.11.pom (25 kB at 2.5 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/squareup/okhttp3/okhttp/3.9.1/okhttp-3.9.1.jar
+Progress (1): 16/406 kB
+Progress (1): 32/406 kB
+Progress (1): 49/406 kB
+Progress (1): 65/406 kB
+Progress (1): 81/406 kB
+Progress (1): 98/406 kB
+Progress (1): 114/406 kB
+Progress (1): 130/406 kB
+Progress (1): 147/406 kB
+Progress (1): 163/406 kB
+Progress (1): 180/406 kB
+Progress (1): 196/406 kB
+Progress (1): 212/406 kB
+Progress (1): 229/406 kB
+Progress (1): 245/406 kB
+Progress (1): 262/406 kB
+Progress (1): 278/406 kB
+Progress (1): 294/406 kB
+Progress (1): 311/406 kB
+Progress (1): 327/406 kB
+Progress (1): 343/406 kB
+Progress (1): 360/406 kB
+Progress (1): 376/406 kB
+Progress (1): 393/406 kB
+Progress (1): 406 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/squareup/okhttp3/okhttp/3.9.1/okhttp-3.9.1.jar (406 kB at 12 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/squareup/okio/okio/2.1.0/okio-2.1.0.jar
+Progress (1): 16/169 kB
+Progress (1): 33/169 kB
+Progress (1): 49/169 kB
+Progress (1): 66/169 kB
+Progress (1): 82/169 kB
+Progress (1): 98/169 kB
+Progress (1): 115/169 kB
+Progress (1): 131/169 kB
+Progress (1): 147/169 kB
+Progress (1): 164/169 kB
+Progress (1): 169 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/squareup/okio/okio/2.1.0/okio-2.1.0.jar (169 kB at 12 MB/s)
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ facebook-java-business-sdk ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory D:\Bump\breaking-updates\tempProject\83a25390887d8afa7d43b70070d710da3c90a7a6\facebook-java-business-sdk\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ facebook-java-business-sdk ---
+[INFO] Changes detected - recompiling the module! :dependency
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[INFO] Compiling 476 source files with javac [debug target 1.8] to target\classes
+[WARNING] bootstrap class path not set in conjunction with -source 8
+[WARNING] /D:/Bump/breaking-updates/tempProject/83a25390887d8afa7d43b70070d710da3c90a7a6/facebook-java-business-sdk/src/main/java/com/facebook/ads/sdk/APIRequest.java: unknown enum constant kotlin.DeprecationLevel.ERROR
+  reason: class file for kotlin.DeprecationLevel not found
+[WARNING] /D:/Bump/breaking-updates/tempProject/83a25390887d8afa7d43b70070d710da3c90a7a6/facebook-java-business-sdk/src/main/java/com/facebook/ads/sdk/APIRequest.java: unknown enum constant kotlin.DeprecationLevel.ERROR
+[INFO] /D:/Bump/breaking-updates/tempProject/83a25390887d8afa7d43b70070d710da3c90a7a6/facebook-java-business-sdk/src/main/java/com/facebook/ads/sdk/APIException.java: Some input files use or override a deprecated API.
+[INFO] /D:/Bump/breaking-updates/tempProject/83a25390887d8afa7d43b70070d710da3c90a7a6/facebook-java-business-sdk/src/main/java/com/facebook/ads/sdk/APIException.java: Recompile with -Xlint:deprecation for details.
+[INFO] /D:/Bump/breaking-updates/tempProject/83a25390887d8afa7d43b70070d710da3c90a7a6/facebook-java-business-sdk/src/main/java/com/facebook/ads/sdk/ProductSetMetadata.java: Some input files use unchecked or unsafe operations.
+[INFO] /D:/Bump/breaking-updates/tempProject/83a25390887d8afa7d43b70070d710da3c90a7a6/facebook-java-business-sdk/src/main/java/com/facebook/ads/sdk/ProductSetMetadata.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- dependency:3.6.0:tree (default-cli) @ facebook-java-business-sdk ---
+[INFO] com.facebook.business.sdk:facebook-java-business-sdk:jar:17.0.1
+[INFO] +- com.google.code.gson:gson:jar:2.8.9:compile
+[INFO] +- com.squareup.okhttp3:okhttp:jar:3.9.1:compile
+[INFO] +- com.google.guava:guava:jar:20.0:compile
+[INFO] +- com.squareup.okio:okio:jar:2.1.0:compile
+[INFO] +- junit:junit:jar:4.13.1:test
+[INFO] |  \- org.hamcrest:hamcrest-core:jar:1.3:test
+[INFO] +- org.jetbrains.kotlin:kotlin-test-junit:jar:1.6.0:test
+[INFO] |  \- org.jetbrains.kotlin:kotlin-test:jar:1.6.0:test
+[INFO] +- org.jetbrains.kotlin:kotlin-stdlib:jar:1.6.0:test
+[INFO] |  +- org.jetbrains:annotations:jar:13.0:test
+[INFO] |  \- org.jetbrains.kotlin:kotlin-stdlib-common:jar:1.6.0:test
+[INFO] +- io.mockk:mockk:jar:1.9.3:test
+[INFO] |  +- io.mockk:mockk-common:jar:1.9.3:test
+[INFO] |  |  \- io.mockk:mockk-dsl:jar:1.9.3:test
+[INFO] |  +- io.mockk:mockk-dsl-jvm:jar:1.9.3:test
+[INFO] |  +- io.mockk:mockk-agent-jvm:jar:1.9.3:test
+[INFO] |  |  +- io.mockk:mockk-agent-api:jar:1.9.3:test
+[INFO] |  |  \- io.mockk:mockk-agent-common:jar:1.9.3:test
+[INFO] |  \- org.jetbrains.kotlin:kotlin-reflect:jar:1.3.0:test
+[INFO] \- org.mockito:mockito-core:jar:3.5.11:test
+[INFO]    +- net.bytebuddy:byte-buddy:jar:1.10.13:test
+[INFO]    +- net.bytebuddy:byte-buddy-agent:jar:1.10.13:test
+[INFO]    \- org.objenesis:objenesis:jar:3.1:test
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  26.970 s
+[INFO] Finished at: 2023-09-21T12:43:22Z
+[INFO] ------------------------------------------------------------------------

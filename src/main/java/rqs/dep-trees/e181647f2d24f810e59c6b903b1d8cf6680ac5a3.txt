@@ -1,0 +1,1404 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.google.api.grpc:proto-google-cloud-vision-v1p4beta1:jar:0.86.8-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:animal-sniffer-maven-plugin is missing. @ com.google.cloud:google-cloud-shared-config:1.0.0, C:\Users\frank_bump\.m2\repository\com\google\cloud\google-cloud-shared-config\1.0.0\google-cloud-shared-config-1.0.0.pom, line 413, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.google.api.grpc:proto-google-cloud-vision-v1:jar:1.103.8-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:animal-sniffer-maven-plugin is missing. @ com.google.cloud:google-cloud-shared-config:1.0.0, C:\Users\frank_bump\.m2\repository\com\google\cloud\google-cloud-shared-config\1.0.0\google-cloud-shared-config-1.0.0.pom, line 413, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.google.api.grpc:proto-google-cloud-vision-v1p1beta1:jar:0.86.8-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:animal-sniffer-maven-plugin is missing. @ com.google.cloud:google-cloud-shared-config:1.0.0, C:\Users\frank_bump\.m2\repository\com\google\cloud\google-cloud-shared-config\1.0.0\google-cloud-shared-config-1.0.0.pom, line 413, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.google.api.grpc:proto-google-cloud-vision-v1p3beta1:jar:0.86.8-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:animal-sniffer-maven-plugin is missing. @ com.google.cloud:google-cloud-shared-config:1.0.0, C:\Users\frank_bump\.m2\repository\com\google\cloud\google-cloud-shared-config\1.0.0\google-cloud-shared-config-1.0.0.pom, line 413, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.google.api.grpc:proto-google-cloud-vision-v1p2beta1:jar:1.103.8-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:animal-sniffer-maven-plugin is missing. @ com.google.cloud:google-cloud-shared-config:1.0.0, C:\Users\frank_bump\.m2\repository\com\google\cloud\google-cloud-shared-config\1.0.0\google-cloud-shared-config-1.0.0.pom, line 413, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.google.api.grpc:grpc-google-cloud-vision-v1p3beta1:jar:0.86.8-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:animal-sniffer-maven-plugin is missing. @ com.google.cloud:google-cloud-shared-config:1.0.0, C:\Users\frank_bump\.m2\repository\com\google\cloud\google-cloud-shared-config\1.0.0\google-cloud-shared-config-1.0.0.pom, line 413, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.google.api.grpc:grpc-google-cloud-vision-v1p1beta1:jar:0.86.8-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:animal-sniffer-maven-plugin is missing. @ com.google.cloud:google-cloud-shared-config:1.0.0, C:\Users\frank_bump\.m2\repository\com\google\cloud\google-cloud-shared-config\1.0.0\google-cloud-shared-config-1.0.0.pom, line 413, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.google.api.grpc:grpc-google-cloud-vision-v1p4beta1:jar:0.86.8-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:animal-sniffer-maven-plugin is missing. @ com.google.cloud:google-cloud-shared-config:1.0.0, C:\Users\frank_bump\.m2\repository\com\google\cloud\google-cloud-shared-config\1.0.0\google-cloud-shared-config-1.0.0.pom, line 413, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.google.api.grpc:grpc-google-cloud-vision-v1p2beta1:jar:1.103.8-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:animal-sniffer-maven-plugin is missing. @ com.google.cloud:google-cloud-shared-config:1.0.0, C:\Users\frank_bump\.m2\repository\com\google\cloud\google-cloud-shared-config\1.0.0\google-cloud-shared-config-1.0.0.pom, line 413, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.google.api.grpc:grpc-google-cloud-vision-v1:jar:1.103.8-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:animal-sniffer-maven-plugin is missing. @ com.google.cloud:google-cloud-shared-config:1.0.0, C:\Users\frank_bump\.m2\repository\com\google\cloud\google-cloud-shared-config\1.0.0\google-cloud-shared-config-1.0.0.pom, line 413, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.google.cloud:google-cloud-vision:jar:1.103.8-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:animal-sniffer-maven-plugin is missing. @ com.google.cloud:google-cloud-shared-config:1.0.0, C:\Users\frank_bump\.m2\repository\com\google\cloud\google-cloud-shared-config\1.0.0\google-cloud-shared-config-1.0.0.pom, line 413, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.google.cloud:google-cloud-vision-bom:pom:1.103.8-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:animal-sniffer-maven-plugin is missing. @ com.google.cloud:google-cloud-shared-config:1.0.0, C:\Users\frank_bump\.m2\repository\com\google\cloud\google-cloud-shared-config\1.0.0\google-cloud-shared-config-1.0.0.pom, line 413, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.google.cloud:google-cloud-vision-parent:pom:1.103.8-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:animal-sniffer-maven-plugin is missing. @ com.google.cloud:google-cloud-shared-config:1.0.0, C:\Users\frank_bump\.m2\repository\com\google\cloud\google-cloud-shared-config\1.0.0\google-cloud-shared-config-1.0.0.pom, line 413, column 15
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] Inspecting build with total of 13 modules...
+[INFO] Installing Nexus Staging features:
+[INFO]   ... total of 13 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Google Cloud Vision Parent                                         [pom]
+[INFO] proto-google-cloud-vision-v1p4beta1                                [jar]
+[INFO] proto-google-cloud-vision-v1                                       [jar]
+[INFO] proto-google-cloud-vision-v1p1beta1                                [jar]
+[INFO] proto-google-cloud-vision-v1p3beta1                                [jar]
+[INFO] proto-google-cloud-vision-v1p2beta1                                [jar]
+[INFO] grpc-google-cloud-vision-v1p3beta1                                 [jar]
+[INFO] grpc-google-cloud-vision-v1p1beta1                                 [jar]
+[INFO] grpc-google-cloud-vision-v1p4beta1                                 [jar]
+[INFO] grpc-google-cloud-vision-v1p2beta1                                 [jar]
+[INFO] grpc-google-cloud-vision-v1                                        [jar]
+[INFO] Google Cloud Vision                                                [jar]
+[INFO] Google Cloud Vision BOM                                            [pom]
+[INFO] 
+[INFO] ------------< com.google.cloud:google-cloud-vision-parent >-------------
+[INFO] Building Google Cloud Vision Parent 1.103.8-SNAPSHOT              [1/13]
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:3.0.0-M3:enforce (enforce) @ google-cloud-vision-parent ---
+[INFO] Adding ignore: module-info
+[INFO] Adding ignore: META-INF/versions/*/module-info
+[INFO] 
+[INFO] --- checkstyle:3.1.2:check (checkstyle) @ google-cloud-vision-parent ---
+[INFO] Starting audit...
+Audit done.
+[INFO] You have 0 Checkstyle violations.
+[INFO] 
+[INFO] --- jacoco:0.8.7:prepare-agent (default) @ google-cloud-vision-parent ---
+[INFO] argLine set to -javaagent:C:\\Users\\frank_bump\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.8.7\\org.jacoco.agent-0.8.7-runtime.jar=destfile=D:\\Bump\\breaking-updates\\tempProject\\e181647f2d24f810e59c6b903b1d8cf6680ac5a3\\java-vision\\target\\jacoco.exec
+[INFO] 
+[INFO] --- build-helper:3.2.0:add-resource (add-main-proto-resources) @ google-cloud-vision-parent ---
+[INFO] 
+[INFO] --- dependency:3.1.2:tree (default-cli) @ google-cloud-vision-parent ---
+[INFO] com.google.cloud:google-cloud-vision-parent:pom:1.103.8-SNAPSHOT
+[INFO] 
+[INFO] ------< com.google.api.grpc:proto-google-cloud-vision-v1p4beta1 >-------
+[INFO] Building proto-google-cloud-vision-v1p4beta1 0.86.8-SNAPSHOT      [2/13]
+[INFO]   from proto-google-cloud-vision-v1p4beta1\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:3.0.0-M3:enforce (enforce) @ proto-google-cloud-vision-v1p4beta1 ---
+[INFO] Adding ignore: module-info
+[INFO] Adding ignore: META-INF/versions/*/module-info
+[INFO] 
+[INFO] --- checkstyle:3.1.2:check (checkstyle) @ proto-google-cloud-vision-v1p4beta1 ---
+[INFO] Starting audit...
+Audit done.
+[INFO] You have 0 Checkstyle violations.
+[INFO] 
+[INFO] --- jacoco:0.8.7:prepare-agent (default) @ proto-google-cloud-vision-v1p4beta1 ---
+[INFO] argLine set to -javaagent:C:\\Users\\frank_bump\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.8.7\\org.jacoco.agent-0.8.7-runtime.jar=destfile=D:\\Bump\\breaking-updates\\tempProject\\e181647f2d24f810e59c6b903b1d8cf6680ac5a3\\java-vision\\proto-google-cloud-vision-v1p4beta1\\target\\jacoco.exec
+[INFO] 
+[INFO] --- build-helper:3.2.0:add-resource (add-main-proto-resources) @ proto-google-cloud-vision-v1p4beta1 ---
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ proto-google-cloud-vision-v1p4beta1 ---
+[INFO] skip non existing resourceDirectory D:\Bump\breaking-updates\tempProject\e181647f2d24f810e59c6b903b1d8cf6680ac5a3\java-vision\proto-google-cloud-vision-v1p4beta1\src\main\resources
+[INFO] Copying 7 resources from src\main\proto to target\classes
+[INFO] 
+[INFO] --- flatten:1.2.7:flatten (flatten) @ proto-google-cloud-vision-v1p4beta1 ---
+[INFO] Generating flattened POM of project com.google.api.grpc:proto-google-cloud-vision-v1p4beta1:jar:0.86.8-SNAPSHOT...
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ proto-google-cloud-vision-v1p4beta1 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 184 source files to D:\Bump\breaking-updates\tempProject\e181647f2d24f810e59c6b903b1d8cf6680ac5a3\java-vision\proto-google-cloud-vision-v1p4beta1\target\classes
+[WARNING] bootstrap class path not set in conjunction with -source 8
+[INFO] 
+[INFO] --- dependency:3.1.2:tree (default-cli) @ proto-google-cloud-vision-v1p4beta1 ---
+[INFO] com.google.api.grpc:proto-google-cloud-vision-v1p4beta1:jar:0.86.8-SNAPSHOT
+[INFO] +- com.google.protobuf:protobuf-java:jar:3.17.3:compile
+[INFO] +- com.google.api.grpc:proto-google-common-protos:jar:2.3.2:compile
+[INFO] +- com.google.guava:guava:jar:30.1.1-android:compile
+[INFO] |  +- com.google.guava:failureaccess:jar:1.0.1:compile
+[INFO] |  +- com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:compile
+[INFO] |  +- com.google.code.findbugs:jsr305:jar:3.0.2:compile
+[INFO] |  +- org.checkerframework:checker-compat-qual:jar:2.5.5:compile
+[INFO] |  +- com.google.errorprone:error_prone_annotations:jar:2.7.1:compile
+[INFO] |  \- com.google.j2objc:j2objc-annotations:jar:1.3:compile
+[INFO] \- com.google.api:api-common:jar:1.10.4:compile
+[INFO]    +- javax.annotation:javax.annotation-api:jar:1.3.2:compile
+[INFO]    \- com.google.auto.value:auto-value-annotations:jar:1.8.2:compile
+[INFO] 
+[INFO] ----------< com.google.api.grpc:proto-google-cloud-vision-v1 >----------
+[INFO] Building proto-google-cloud-vision-v1 1.103.8-SNAPSHOT            [3/13]
+[INFO]   from proto-google-cloud-vision-v1\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:3.0.0-M3:enforce (enforce) @ proto-google-cloud-vision-v1 ---
+[INFO] Adding ignore: module-info
+[INFO] Adding ignore: META-INF/versions/*/module-info
+[INFO] 
+[INFO] --- checkstyle:3.1.2:check (checkstyle) @ proto-google-cloud-vision-v1 ---
+[INFO] Starting audit...
+Audit done.
+[INFO] You have 0 Checkstyle violations.
+[INFO] 
+[INFO] --- jacoco:0.8.7:prepare-agent (default) @ proto-google-cloud-vision-v1 ---
+[INFO] argLine set to -javaagent:C:\\Users\\frank_bump\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.8.7\\org.jacoco.agent-0.8.7-runtime.jar=destfile=D:\\Bump\\breaking-updates\\tempProject\\e181647f2d24f810e59c6b903b1d8cf6680ac5a3\\java-vision\\proto-google-cloud-vision-v1\\target\\jacoco.exec
+[INFO] 
+[INFO] --- build-helper:3.2.0:add-resource (add-main-proto-resources) @ proto-google-cloud-vision-v1 ---
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ proto-google-cloud-vision-v1 ---
+[INFO] skip non existing resourceDirectory D:\Bump\breaking-updates\tempProject\e181647f2d24f810e59c6b903b1d8cf6680ac5a3\java-vision\proto-google-cloud-vision-v1\src\main\resources
+[INFO] Copying 6 resources from src\main\proto to target\classes
+[INFO] 
+[INFO] --- flatten:1.2.7:flatten (flatten) @ proto-google-cloud-vision-v1 ---
+[INFO] Generating flattened POM of project com.google.api.grpc:proto-google-cloud-vision-v1:jar:1.103.8-SNAPSHOT...
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ proto-google-cloud-vision-v1 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 178 source files to D:\Bump\breaking-updates\tempProject\e181647f2d24f810e59c6b903b1d8cf6680ac5a3\java-vision\proto-google-cloud-vision-v1\target\classes
+[WARNING] bootstrap class path not set in conjunction with -source 8
+[INFO] 
+[INFO] --- dependency:3.1.2:tree (default-cli) @ proto-google-cloud-vision-v1 ---
+[INFO] com.google.api.grpc:proto-google-cloud-vision-v1:jar:1.103.8-SNAPSHOT
+[INFO] +- com.google.protobuf:protobuf-java:jar:3.17.3:compile
+[INFO] +- com.google.api.grpc:proto-google-common-protos:jar:2.3.2:compile
+[INFO] +- com.google.guava:guava:jar:30.1.1-android:compile
+[INFO] |  +- com.google.guava:failureaccess:jar:1.0.1:compile
+[INFO] |  +- com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:compile
+[INFO] |  +- com.google.code.findbugs:jsr305:jar:3.0.2:compile
+[INFO] |  +- org.checkerframework:checker-compat-qual:jar:2.5.5:compile
+[INFO] |  +- com.google.errorprone:error_prone_annotations:jar:2.7.1:compile
+[INFO] |  \- com.google.j2objc:j2objc-annotations:jar:1.3:compile
+[INFO] \- com.google.api:api-common:jar:1.10.4:compile
+[INFO]    +- javax.annotation:javax.annotation-api:jar:1.3.2:compile
+[INFO]    \- com.google.auto.value:auto-value-annotations:jar:1.8.2:compile
+[INFO] 
+[INFO] ------< com.google.api.grpc:proto-google-cloud-vision-v1p1beta1 >-------
+[INFO] Building proto-google-cloud-vision-v1p1beta1 0.86.8-SNAPSHOT      [4/13]
+[INFO]   from proto-google-cloud-vision-v1p1beta1\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:3.0.0-M3:enforce (enforce) @ proto-google-cloud-vision-v1p1beta1 ---
+[INFO] Adding ignore: module-info
+[INFO] Adding ignore: META-INF/versions/*/module-info
+[INFO] 
+[INFO] --- checkstyle:3.1.2:check (checkstyle) @ proto-google-cloud-vision-v1p1beta1 ---
+[INFO] Starting audit...
+Audit done.
+[INFO] You have 0 Checkstyle violations.
+[INFO] 
+[INFO] --- jacoco:0.8.7:prepare-agent (default) @ proto-google-cloud-vision-v1p1beta1 ---
+[INFO] argLine set to -javaagent:C:\\Users\\frank_bump\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.8.7\\org.jacoco.agent-0.8.7-runtime.jar=destfile=D:\\Bump\\breaking-updates\\tempProject\\e181647f2d24f810e59c6b903b1d8cf6680ac5a3\\java-vision\\proto-google-cloud-vision-v1p1beta1\\target\\jacoco.exec
+[INFO] 
+[INFO] --- build-helper:3.2.0:add-resource (add-main-proto-resources) @ proto-google-cloud-vision-v1p1beta1 ---
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ proto-google-cloud-vision-v1p1beta1 ---
+[INFO] skip non existing resourceDirectory D:\Bump\breaking-updates\tempProject\e181647f2d24f810e59c6b903b1d8cf6680ac5a3\java-vision\proto-google-cloud-vision-v1p1beta1\src\main\resources
+[INFO] Copying 4 resources from src\main\proto to target\classes
+[INFO] 
+[INFO] --- flatten:1.2.7:flatten (flatten) @ proto-google-cloud-vision-v1p1beta1 ---
+[INFO] Generating flattened POM of project com.google.api.grpc:proto-google-cloud-vision-v1p1beta1:jar:0.86.8-SNAPSHOT...
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ proto-google-cloud-vision-v1p1beta1 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 69 source files to D:\Bump\breaking-updates\tempProject\e181647f2d24f810e59c6b903b1d8cf6680ac5a3\java-vision\proto-google-cloud-vision-v1p1beta1\target\classes
+[WARNING] bootstrap class path not set in conjunction with -source 8
+[INFO] 
+[INFO] --- dependency:3.1.2:tree (default-cli) @ proto-google-cloud-vision-v1p1beta1 ---
+[INFO] com.google.api.grpc:proto-google-cloud-vision-v1p1beta1:jar:0.86.8-SNAPSHOT
+[INFO] +- com.google.protobuf:protobuf-java:jar:3.17.3:compile
+[INFO] \- com.google.api.grpc:proto-google-common-protos:jar:2.3.2:compile
+[INFO] 
+[INFO] ------< com.google.api.grpc:proto-google-cloud-vision-v1p3beta1 >-------
+[INFO] Building proto-google-cloud-vision-v1p3beta1 0.86.8-SNAPSHOT      [5/13]
+[INFO]   from proto-google-cloud-vision-v1p3beta1\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:3.0.0-M3:enforce (enforce) @ proto-google-cloud-vision-v1p3beta1 ---
+[INFO] Adding ignore: module-info
+[INFO] Adding ignore: META-INF/versions/*/module-info
+[INFO] 
+[INFO] --- checkstyle:3.1.2:check (checkstyle) @ proto-google-cloud-vision-v1p3beta1 ---
+[INFO] Starting audit...
+Audit done.
+[INFO] You have 0 Checkstyle violations.
+[INFO] 
+[INFO] --- jacoco:0.8.7:prepare-agent (default) @ proto-google-cloud-vision-v1p3beta1 ---
+[INFO] argLine set to -javaagent:C:\\Users\\frank_bump\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.8.7\\org.jacoco.agent-0.8.7-runtime.jar=destfile=D:\\Bump\\breaking-updates\\tempProject\\e181647f2d24f810e59c6b903b1d8cf6680ac5a3\\java-vision\\proto-google-cloud-vision-v1p3beta1\\target\\jacoco.exec
+[INFO] 
+[INFO] --- build-helper:3.2.0:add-resource (add-main-proto-resources) @ proto-google-cloud-vision-v1p3beta1 ---
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ proto-google-cloud-vision-v1p3beta1 ---
+[INFO] skip non existing resourceDirectory D:\Bump\breaking-updates\tempProject\e181647f2d24f810e59c6b903b1d8cf6680ac5a3\java-vision\proto-google-cloud-vision-v1p3beta1\src\main\resources
+[INFO] Copying 6 resources from src\main\proto to target\classes
+[INFO] 
+[INFO] --- flatten:1.2.7:flatten (flatten) @ proto-google-cloud-vision-v1p3beta1 ---
+[INFO] Generating flattened POM of project com.google.api.grpc:proto-google-cloud-vision-v1p3beta1:jar:0.86.8-SNAPSHOT...
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ proto-google-cloud-vision-v1p3beta1 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 167 source files to D:\Bump\breaking-updates\tempProject\e181647f2d24f810e59c6b903b1d8cf6680ac5a3\java-vision\proto-google-cloud-vision-v1p3beta1\target\classes
+[WARNING] bootstrap class path not set in conjunction with -source 8
+[INFO] 
+[INFO] --- dependency:3.1.2:tree (default-cli) @ proto-google-cloud-vision-v1p3beta1 ---
+[INFO] com.google.api.grpc:proto-google-cloud-vision-v1p3beta1:jar:0.86.8-SNAPSHOT
+[INFO] +- com.google.protobuf:protobuf-java:jar:3.17.3:compile
+[INFO] +- com.google.api.grpc:proto-google-common-protos:jar:2.3.2:compile
+[INFO] +- com.google.guava:guava:jar:30.1.1-android:compile
+[INFO] |  +- com.google.guava:failureaccess:jar:1.0.1:compile
+[INFO] |  +- com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:compile
+[INFO] |  +- com.google.code.findbugs:jsr305:jar:3.0.2:compile
+[INFO] |  +- org.checkerframework:checker-compat-qual:jar:2.5.5:compile
+[INFO] |  +- com.google.errorprone:error_prone_annotations:jar:2.7.1:compile
+[INFO] |  \- com.google.j2objc:j2objc-annotations:jar:1.3:compile
+[INFO] \- com.google.api:api-common:jar:1.10.4:compile
+[INFO]    +- javax.annotation:javax.annotation-api:jar:1.3.2:compile
+[INFO]    \- com.google.auto.value:auto-value-annotations:jar:1.8.2:compile
+[INFO] 
+[INFO] ------< com.google.api.grpc:proto-google-cloud-vision-v1p2beta1 >-------
+[INFO] Building proto-google-cloud-vision-v1p2beta1 1.103.8-SNAPSHOT     [6/13]
+[INFO]   from proto-google-cloud-vision-v1p2beta1\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:3.0.0-M3:enforce (enforce) @ proto-google-cloud-vision-v1p2beta1 ---
+[INFO] Adding ignore: module-info
+[INFO] Adding ignore: META-INF/versions/*/module-info
+[INFO] 
+[INFO] --- checkstyle:3.1.2:check (checkstyle) @ proto-google-cloud-vision-v1p2beta1 ---
+[INFO] Starting audit...
+Audit done.
+[INFO] You have 0 Checkstyle violations.
+[INFO] 
+[INFO] --- jacoco:0.8.7:prepare-agent (default) @ proto-google-cloud-vision-v1p2beta1 ---
+[INFO] argLine set to -javaagent:C:\\Users\\frank_bump\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.8.7\\org.jacoco.agent-0.8.7-runtime.jar=destfile=D:\\Bump\\breaking-updates\\tempProject\\e181647f2d24f810e59c6b903b1d8cf6680ac5a3\\java-vision\\proto-google-cloud-vision-v1p2beta1\\target\\jacoco.exec
+[INFO] 
+[INFO] --- build-helper:3.2.0:add-resource (add-main-proto-resources) @ proto-google-cloud-vision-v1p2beta1 ---
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ proto-google-cloud-vision-v1p2beta1 ---
+[INFO] skip non existing resourceDirectory D:\Bump\breaking-updates\tempProject\e181647f2d24f810e59c6b903b1d8cf6680ac5a3\java-vision\proto-google-cloud-vision-v1p2beta1\src\main\resources
+[INFO] Copying 4 resources from src\main\proto to target\classes
+[INFO] 
+[INFO] --- flatten:1.2.7:flatten (flatten) @ proto-google-cloud-vision-v1p2beta1 ---
+[INFO] Generating flattened POM of project com.google.api.grpc:proto-google-cloud-vision-v1p2beta1:jar:1.103.8-SNAPSHOT...
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ proto-google-cloud-vision-v1p2beta1 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 93 source files to D:\Bump\breaking-updates\tempProject\e181647f2d24f810e59c6b903b1d8cf6680ac5a3\java-vision\proto-google-cloud-vision-v1p2beta1\target\classes
+[WARNING] bootstrap class path not set in conjunction with -source 8
+[INFO] 
+[INFO] --- dependency:3.1.2:tree (default-cli) @ proto-google-cloud-vision-v1p2beta1 ---
+[INFO] com.google.api.grpc:proto-google-cloud-vision-v1p2beta1:jar:1.103.8-SNAPSHOT
+[INFO] +- com.google.protobuf:protobuf-java:jar:3.17.3:compile
+[INFO] \- com.google.api.grpc:proto-google-common-protos:jar:2.3.2:compile
+[INFO] 
+[INFO] -------< com.google.api.grpc:grpc-google-cloud-vision-v1p3beta1 >-------
+[INFO] Building grpc-google-cloud-vision-v1p3beta1 0.86.8-SNAPSHOT       [7/13]
+[INFO]   from grpc-google-cloud-vision-v1p3beta1\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-stub/1.39.0/grpc-stub-1.39.0.pom
+Progress (1): 1.4/1.6 kB
+Progress (1): 1.6 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-stub/1.39.0/grpc-stub-1.39.0.pom (1.6 kB at 3.6 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-protobuf/1.39.0/grpc-protobuf-1.39.0.pom
+Progress (1): 1.4/2.7 kB
+Progress (1): 2.7 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-protobuf/1.39.0/grpc-protobuf-1.39.0.pom (2.7 kB at 245 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-protobuf-lite/1.39.0/grpc-protobuf-lite-1.39.0.pom
+Progress (1): 1.4/2.0 kB
+Progress (1): 2.0 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-protobuf-lite/1.39.0/grpc-protobuf-lite-1.39.0.pom (2.0 kB at 117 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-stub/1.39.0/grpc-stub-1.39.0.jar
+Progress (1): 1.4/50 kB
+Progress (1): 2.7/50 kB
+Progress (1): 4.1/50 kB
+Progress (1): 5.5/50 kB
+Progress (1): 6.9/50 kB
+Progress (1): 8.2/50 kB
+Progress (1): 9.6/50 kB
+Progress (1): 11/50 kB 
+Progress (1): 12/50 kB
+Progress (1): 14/50 kB
+Progress (1): 15/50 kB
+Progress (1): 16/50 kB
+Progress (1): 17/50 kB
+Progress (1): 19/50 kB
+Progress (1): 20/50 kB
+Progress (1): 21/50 kB
+Progress (1): 23/50 kB
+Progress (1): 24/50 kB
+Progress (1): 25/50 kB
+Progress (1): 27/50 kB
+Progress (1): 28/50 kB
+Progress (1): 30/50 kB
+Progress (1): 31/50 kB
+Progress (1): 32/50 kB
+Progress (1): 34/50 kB
+Progress (1): 35/50 kB
+Progress (1): 36/50 kB
+Progress (1): 38/50 kB
+Progress (1): 39/50 kB
+Progress (1): 40/50 kB
+Progress (1): 42/50 kB
+Progress (1): 43/50 kB
+Progress (1): 45/50 kB
+Progress (1): 46/50 kB
+Progress (1): 47/50 kB
+Progress (1): 49/50 kB
+Progress (1): 50 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-stub/1.39.0/grpc-stub-1.39.0.jar (50 kB at 992 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-protobuf/1.39.0/grpc-protobuf-1.39.0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-protobuf-lite/1.39.0/grpc-protobuf-lite-1.39.0.jar
+Progress (1): 1.4/5.2 kB
+Progress (1): 2.7/5.2 kB
+Progress (1): 4.1/5.2 kB
+Progress (1): 5.2 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-protobuf/1.39.0/grpc-protobuf-1.39.0.jar (5.2 kB at 398 kB/s)
+Progress (1): 1.4/7.6 kB
+Progress (1): 2.7/7.6 kB
+Progress (1): 4.1/7.6 kB
+Progress (1): 5.5/7.6 kB
+Progress (1): 6.9/7.6 kB
+Progress (1): 7.6 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-protobuf-lite/1.39.0/grpc-protobuf-lite-1.39.0.jar (7.6 kB at 263 kB/s)
+[INFO] 
+[INFO] --- enforcer:3.0.0-M3:enforce (enforce) @ grpc-google-cloud-vision-v1p3beta1 ---
+[INFO] Adding ignore: module-info
+[INFO] Adding ignore: META-INF/versions/*/module-info
+[INFO] 
+[INFO] --- checkstyle:3.1.2:check (checkstyle) @ grpc-google-cloud-vision-v1p3beta1 ---
+[INFO] Starting audit...
+Audit done.
+[INFO] You have 0 Checkstyle violations.
+[INFO] 
+[INFO] --- jacoco:0.8.7:prepare-agent (default) @ grpc-google-cloud-vision-v1p3beta1 ---
+[INFO] argLine set to -javaagent:C:\\Users\\frank_bump\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.8.7\\org.jacoco.agent-0.8.7-runtime.jar=destfile=D:\\Bump\\breaking-updates\\tempProject\\e181647f2d24f810e59c6b903b1d8cf6680ac5a3\\java-vision\\grpc-google-cloud-vision-v1p3beta1\\target\\jacoco.exec
+[INFO] 
+[INFO] --- build-helper:3.2.0:add-resource (add-main-proto-resources) @ grpc-google-cloud-vision-v1p3beta1 ---
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ grpc-google-cloud-vision-v1p3beta1 ---
+[INFO] skip non existing resourceDirectory D:\Bump\breaking-updates\tempProject\e181647f2d24f810e59c6b903b1d8cf6680ac5a3\java-vision\grpc-google-cloud-vision-v1p3beta1\src\main\resources
+[INFO] skip non existing resourceDirectory D:\Bump\breaking-updates\tempProject\e181647f2d24f810e59c6b903b1d8cf6680ac5a3\java-vision\grpc-google-cloud-vision-v1p3beta1\src\main\proto
+[INFO] 
+[INFO] --- flatten:1.2.7:flatten (flatten) @ grpc-google-cloud-vision-v1p3beta1 ---
+[INFO] Generating flattened POM of project com.google.api.grpc:grpc-google-cloud-vision-v1p3beta1:jar:0.86.8-SNAPSHOT...
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ grpc-google-cloud-vision-v1p3beta1 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to D:\Bump\breaking-updates\tempProject\e181647f2d24f810e59c6b903b1d8cf6680ac5a3\java-vision\grpc-google-cloud-vision-v1p3beta1\target\classes
+[WARNING] bootstrap class path not set in conjunction with -source 8
+[INFO] 
+[INFO] --- dependency:3.1.2:tree (default-cli) @ grpc-google-cloud-vision-v1p3beta1 ---
+[INFO] com.google.api.grpc:grpc-google-cloud-vision-v1p3beta1:jar:0.86.8-SNAPSHOT
+[INFO] +- io.grpc:grpc-api:jar:1.39.0:compile
+[INFO] |  +- io.grpc:grpc-context:jar:1.39.0:compile
+[INFO] |  +- com.google.code.findbugs:jsr305:jar:3.0.2:compile
+[INFO] |  \- com.google.errorprone:error_prone_annotations:jar:2.7.1:compile
+[INFO] +- io.grpc:grpc-stub:jar:1.39.0:compile
+[INFO] +- io.grpc:grpc-protobuf:jar:1.39.0:compile
+[INFO] |  \- io.grpc:grpc-protobuf-lite:jar:1.39.0:compile
+[INFO] +- com.google.protobuf:protobuf-java:jar:3.17.3:compile
+[INFO] +- com.google.api.grpc:proto-google-cloud-vision-v1p3beta1:jar:0.86.8-SNAPSHOT:compile
+[INFO] |  \- com.google.api:api-common:jar:1.10.4:compile
+[INFO] |     \- com.google.auto.value:auto-value-annotations:jar:1.8.2:compile
+[INFO] +- com.google.guava:guava:jar:30.1.1-android:compile
+[INFO] |  +- com.google.guava:failureaccess:jar:1.0.1:compile
+[INFO] |  +- com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:compile
+[INFO] |  +- org.checkerframework:checker-compat-qual:jar:2.5.5:compile
+[INFO] |  \- com.google.j2objc:j2objc-annotations:jar:1.3:compile
+[INFO] +- com.google.api.grpc:proto-google-common-protos:jar:2.3.2:compile
+[INFO] \- javax.annotation:javax.annotation-api:jar:1.3.2:compile
+[INFO] 
+[INFO] -------< com.google.api.grpc:grpc-google-cloud-vision-v1p1beta1 >-------
+[INFO] Building grpc-google-cloud-vision-v1p1beta1 0.86.8-SNAPSHOT       [8/13]
+[INFO]   from grpc-google-cloud-vision-v1p1beta1\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:3.0.0-M3:enforce (enforce) @ grpc-google-cloud-vision-v1p1beta1 ---
+[INFO] Adding ignore: module-info
+[INFO] Adding ignore: META-INF/versions/*/module-info
+[INFO] 
+[INFO] --- checkstyle:3.1.2:check (checkstyle) @ grpc-google-cloud-vision-v1p1beta1 ---
+[INFO] Starting audit...
+Audit done.
+[INFO] You have 0 Checkstyle violations.
+[INFO] 
+[INFO] --- jacoco:0.8.7:prepare-agent (default) @ grpc-google-cloud-vision-v1p1beta1 ---
+[INFO] argLine set to -javaagent:C:\\Users\\frank_bump\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.8.7\\org.jacoco.agent-0.8.7-runtime.jar=destfile=D:\\Bump\\breaking-updates\\tempProject\\e181647f2d24f810e59c6b903b1d8cf6680ac5a3\\java-vision\\grpc-google-cloud-vision-v1p1beta1\\target\\jacoco.exec
+[INFO] 
+[INFO] --- build-helper:3.2.0:add-resource (add-main-proto-resources) @ grpc-google-cloud-vision-v1p1beta1 ---
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ grpc-google-cloud-vision-v1p1beta1 ---
+[INFO] skip non existing resourceDirectory D:\Bump\breaking-updates\tempProject\e181647f2d24f810e59c6b903b1d8cf6680ac5a3\java-vision\grpc-google-cloud-vision-v1p1beta1\src\main\resources
+[INFO] skip non existing resourceDirectory D:\Bump\breaking-updates\tempProject\e181647f2d24f810e59c6b903b1d8cf6680ac5a3\java-vision\grpc-google-cloud-vision-v1p1beta1\src\main\proto
+[INFO] 
+[INFO] --- flatten:1.2.7:flatten (flatten) @ grpc-google-cloud-vision-v1p1beta1 ---
+[INFO] Generating flattened POM of project com.google.api.grpc:grpc-google-cloud-vision-v1p1beta1:jar:0.86.8-SNAPSHOT...
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ grpc-google-cloud-vision-v1p1beta1 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to D:\Bump\breaking-updates\tempProject\e181647f2d24f810e59c6b903b1d8cf6680ac5a3\java-vision\grpc-google-cloud-vision-v1p1beta1\target\classes
+[WARNING] bootstrap class path not set in conjunction with -source 8
+[INFO] 
+[INFO] --- dependency:3.1.2:tree (default-cli) @ grpc-google-cloud-vision-v1p1beta1 ---
+[INFO] com.google.api.grpc:grpc-google-cloud-vision-v1p1beta1:jar:0.86.8-SNAPSHOT
+[INFO] +- io.grpc:grpc-api:jar:1.39.0:compile
+[INFO] |  +- io.grpc:grpc-context:jar:1.39.0:compile
+[INFO] |  +- com.google.code.findbugs:jsr305:jar:3.0.2:compile
+[INFO] |  \- com.google.errorprone:error_prone_annotations:jar:2.7.1:compile
+[INFO] +- io.grpc:grpc-stub:jar:1.39.0:compile
+[INFO] +- io.grpc:grpc-protobuf:jar:1.39.0:compile
+[INFO] |  +- com.google.api.grpc:proto-google-common-protos:jar:2.3.2:compile
+[INFO] |  \- io.grpc:grpc-protobuf-lite:jar:1.39.0:compile
+[INFO] +- com.google.protobuf:protobuf-java:jar:3.17.3:compile
+[INFO] +- com.google.api.grpc:proto-google-cloud-vision-v1p1beta1:jar:0.86.8-SNAPSHOT:compile
+[INFO] +- com.google.guava:guava:jar:30.1.1-android:compile
+[INFO] |  +- com.google.guava:failureaccess:jar:1.0.1:compile
+[INFO] |  +- com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:compile
+[INFO] |  +- org.checkerframework:checker-compat-qual:jar:2.5.5:compile
+[INFO] |  \- com.google.j2objc:j2objc-annotations:jar:1.3:compile
+[INFO] \- javax.annotation:javax.annotation-api:jar:1.3.2:compile
+[INFO] 
+[INFO] -------< com.google.api.grpc:grpc-google-cloud-vision-v1p4beta1 >-------
+[INFO] Building grpc-google-cloud-vision-v1p4beta1 0.86.8-SNAPSHOT       [9/13]
+[INFO]   from grpc-google-cloud-vision-v1p4beta1\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:3.0.0-M3:enforce (enforce) @ grpc-google-cloud-vision-v1p4beta1 ---
+[INFO] Adding ignore: module-info
+[INFO] Adding ignore: META-INF/versions/*/module-info
+[INFO] 
+[INFO] --- checkstyle:3.1.2:check (checkstyle) @ grpc-google-cloud-vision-v1p4beta1 ---
+[INFO] Starting audit...
+Audit done.
+[INFO] You have 0 Checkstyle violations.
+[INFO] 
+[INFO] --- jacoco:0.8.7:prepare-agent (default) @ grpc-google-cloud-vision-v1p4beta1 ---
+[INFO] argLine set to -javaagent:C:\\Users\\frank_bump\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.8.7\\org.jacoco.agent-0.8.7-runtime.jar=destfile=D:\\Bump\\breaking-updates\\tempProject\\e181647f2d24f810e59c6b903b1d8cf6680ac5a3\\java-vision\\grpc-google-cloud-vision-v1p4beta1\\target\\jacoco.exec
+[INFO] 
+[INFO] --- build-helper:3.2.0:add-resource (add-main-proto-resources) @ grpc-google-cloud-vision-v1p4beta1 ---
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ grpc-google-cloud-vision-v1p4beta1 ---
+[INFO] skip non existing resourceDirectory D:\Bump\breaking-updates\tempProject\e181647f2d24f810e59c6b903b1d8cf6680ac5a3\java-vision\grpc-google-cloud-vision-v1p4beta1\src\main\resources
+[INFO] skip non existing resourceDirectory D:\Bump\breaking-updates\tempProject\e181647f2d24f810e59c6b903b1d8cf6680ac5a3\java-vision\grpc-google-cloud-vision-v1p4beta1\src\main\proto
+[INFO] 
+[INFO] --- flatten:1.2.7:flatten (flatten) @ grpc-google-cloud-vision-v1p4beta1 ---
+[INFO] Generating flattened POM of project com.google.api.grpc:grpc-google-cloud-vision-v1p4beta1:jar:0.86.8-SNAPSHOT...
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ grpc-google-cloud-vision-v1p4beta1 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to D:\Bump\breaking-updates\tempProject\e181647f2d24f810e59c6b903b1d8cf6680ac5a3\java-vision\grpc-google-cloud-vision-v1p4beta1\target\classes
+[WARNING] bootstrap class path not set in conjunction with -source 8
+[INFO] 
+[INFO] --- dependency:3.1.2:tree (default-cli) @ grpc-google-cloud-vision-v1p4beta1 ---
+[INFO] com.google.api.grpc:grpc-google-cloud-vision-v1p4beta1:jar:0.86.8-SNAPSHOT
+[INFO] +- io.grpc:grpc-api:jar:1.39.0:compile
+[INFO] |  +- io.grpc:grpc-context:jar:1.39.0:compile
+[INFO] |  +- com.google.code.findbugs:jsr305:jar:3.0.2:compile
+[INFO] |  \- com.google.errorprone:error_prone_annotations:jar:2.7.1:compile
+[INFO] +- io.grpc:grpc-stub:jar:1.39.0:compile
+[INFO] +- io.grpc:grpc-protobuf:jar:1.39.0:compile
+[INFO] |  \- io.grpc:grpc-protobuf-lite:jar:1.39.0:compile
+[INFO] +- com.google.protobuf:protobuf-java:jar:3.17.3:compile
+[INFO] +- com.google.api.grpc:proto-google-cloud-vision-v1p4beta1:jar:0.86.8-SNAPSHOT:compile
+[INFO] |  \- com.google.api:api-common:jar:1.10.4:compile
+[INFO] |     \- com.google.auto.value:auto-value-annotations:jar:1.8.2:compile
+[INFO] +- com.google.guava:guava:jar:30.1.1-android:compile
+[INFO] |  +- com.google.guava:failureaccess:jar:1.0.1:compile
+[INFO] |  +- com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:compile
+[INFO] |  +- org.checkerframework:checker-compat-qual:jar:2.5.5:compile
+[INFO] |  \- com.google.j2objc:j2objc-annotations:jar:1.3:compile
+[INFO] +- com.google.api.grpc:proto-google-common-protos:jar:2.3.2:compile
+[INFO] \- javax.annotation:javax.annotation-api:jar:1.3.2:compile
+[INFO] 
+[INFO] -------< com.google.api.grpc:grpc-google-cloud-vision-v1p2beta1 >-------
+[INFO] Building grpc-google-cloud-vision-v1p2beta1 1.103.8-SNAPSHOT     [10/13]
+[INFO]   from grpc-google-cloud-vision-v1p2beta1\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:3.0.0-M3:enforce (enforce) @ grpc-google-cloud-vision-v1p2beta1 ---
+[INFO] Adding ignore: module-info
+[INFO] Adding ignore: META-INF/versions/*/module-info
+[INFO] 
+[INFO] --- checkstyle:3.1.2:check (checkstyle) @ grpc-google-cloud-vision-v1p2beta1 ---
+[INFO] Starting audit...
+Audit done.
+[INFO] You have 0 Checkstyle violations.
+[INFO] 
+[INFO] --- jacoco:0.8.7:prepare-agent (default) @ grpc-google-cloud-vision-v1p2beta1 ---
+[INFO] argLine set to -javaagent:C:\\Users\\frank_bump\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.8.7\\org.jacoco.agent-0.8.7-runtime.jar=destfile=D:\\Bump\\breaking-updates\\tempProject\\e181647f2d24f810e59c6b903b1d8cf6680ac5a3\\java-vision\\grpc-google-cloud-vision-v1p2beta1\\target\\jacoco.exec
+[INFO] 
+[INFO] --- build-helper:3.2.0:add-resource (add-main-proto-resources) @ grpc-google-cloud-vision-v1p2beta1 ---
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ grpc-google-cloud-vision-v1p2beta1 ---
+[INFO] skip non existing resourceDirectory D:\Bump\breaking-updates\tempProject\e181647f2d24f810e59c6b903b1d8cf6680ac5a3\java-vision\grpc-google-cloud-vision-v1p2beta1\src\main\resources
+[INFO] skip non existing resourceDirectory D:\Bump\breaking-updates\tempProject\e181647f2d24f810e59c6b903b1d8cf6680ac5a3\java-vision\grpc-google-cloud-vision-v1p2beta1\src\main\proto
+[INFO] 
+[INFO] --- flatten:1.2.7:flatten (flatten) @ grpc-google-cloud-vision-v1p2beta1 ---
+[INFO] Generating flattened POM of project com.google.api.grpc:grpc-google-cloud-vision-v1p2beta1:jar:1.103.8-SNAPSHOT...
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ grpc-google-cloud-vision-v1p2beta1 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to D:\Bump\breaking-updates\tempProject\e181647f2d24f810e59c6b903b1d8cf6680ac5a3\java-vision\grpc-google-cloud-vision-v1p2beta1\target\classes
+[WARNING] bootstrap class path not set in conjunction with -source 8
+[INFO] 
+[INFO] --- dependency:3.1.2:tree (default-cli) @ grpc-google-cloud-vision-v1p2beta1 ---
+[INFO] com.google.api.grpc:grpc-google-cloud-vision-v1p2beta1:jar:1.103.8-SNAPSHOT
+[INFO] +- io.grpc:grpc-api:jar:1.39.0:compile
+[INFO] |  +- io.grpc:grpc-context:jar:1.39.0:compile
+[INFO] |  +- com.google.code.findbugs:jsr305:jar:3.0.2:compile
+[INFO] |  \- com.google.errorprone:error_prone_annotations:jar:2.7.1:compile
+[INFO] +- io.grpc:grpc-stub:jar:1.39.0:compile
+[INFO] +- io.grpc:grpc-protobuf:jar:1.39.0:compile
+[INFO] |  \- io.grpc:grpc-protobuf-lite:jar:1.39.0:compile
+[INFO] +- com.google.protobuf:protobuf-java:jar:3.17.3:compile
+[INFO] +- com.google.api.grpc:proto-google-cloud-vision-v1p2beta1:jar:1.103.8-SNAPSHOT:compile
+[INFO] +- com.google.guava:guava:jar:30.1.1-android:compile
+[INFO] |  +- com.google.guava:failureaccess:jar:1.0.1:compile
+[INFO] |  +- com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:compile
+[INFO] |  +- org.checkerframework:checker-compat-qual:jar:2.5.5:compile
+[INFO] |  \- com.google.j2objc:j2objc-annotations:jar:1.3:compile
+[INFO] +- com.google.api.grpc:proto-google-common-protos:jar:2.3.2:compile
+[INFO] \- javax.annotation:javax.annotation-api:jar:1.3.2:compile
+[INFO] 
+[INFO] ----------< com.google.api.grpc:grpc-google-cloud-vision-v1 >-----------
+[INFO] Building grpc-google-cloud-vision-v1 1.103.8-SNAPSHOT            [11/13]
+[INFO]   from grpc-google-cloud-vision-v1\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:3.0.0-M3:enforce (enforce) @ grpc-google-cloud-vision-v1 ---
+[INFO] Adding ignore: module-info
+[INFO] Adding ignore: META-INF/versions/*/module-info
+[INFO] 
+[INFO] --- checkstyle:3.1.2:check (checkstyle) @ grpc-google-cloud-vision-v1 ---
+[INFO] Starting audit...
+Audit done.
+[INFO] You have 0 Checkstyle violations.
+[INFO] 
+[INFO] --- jacoco:0.8.7:prepare-agent (default) @ grpc-google-cloud-vision-v1 ---
+[INFO] argLine set to -javaagent:C:\\Users\\frank_bump\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.8.7\\org.jacoco.agent-0.8.7-runtime.jar=destfile=D:\\Bump\\breaking-updates\\tempProject\\e181647f2d24f810e59c6b903b1d8cf6680ac5a3\\java-vision\\grpc-google-cloud-vision-v1\\target\\jacoco.exec
+[INFO] 
+[INFO] --- build-helper:3.2.0:add-resource (add-main-proto-resources) @ grpc-google-cloud-vision-v1 ---
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ grpc-google-cloud-vision-v1 ---
+[INFO] skip non existing resourceDirectory D:\Bump\breaking-updates\tempProject\e181647f2d24f810e59c6b903b1d8cf6680ac5a3\java-vision\grpc-google-cloud-vision-v1\src\main\resources
+[INFO] skip non existing resourceDirectory D:\Bump\breaking-updates\tempProject\e181647f2d24f810e59c6b903b1d8cf6680ac5a3\java-vision\grpc-google-cloud-vision-v1\src\main\proto
+[INFO] 
+[INFO] --- flatten:1.2.7:flatten (flatten) @ grpc-google-cloud-vision-v1 ---
+[INFO] Generating flattened POM of project com.google.api.grpc:grpc-google-cloud-vision-v1:jar:1.103.8-SNAPSHOT...
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ grpc-google-cloud-vision-v1 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to D:\Bump\breaking-updates\tempProject\e181647f2d24f810e59c6b903b1d8cf6680ac5a3\java-vision\grpc-google-cloud-vision-v1\target\classes
+[WARNING] bootstrap class path not set in conjunction with -source 8
+[INFO] 
+[INFO] --- dependency:3.1.2:tree (default-cli) @ grpc-google-cloud-vision-v1 ---
+[INFO] com.google.api.grpc:grpc-google-cloud-vision-v1:jar:1.103.8-SNAPSHOT
+[INFO] +- io.grpc:grpc-api:jar:1.39.0:compile
+[INFO] |  +- io.grpc:grpc-context:jar:1.39.0:compile
+[INFO] |  +- com.google.code.findbugs:jsr305:jar:3.0.2:compile
+[INFO] |  \- com.google.errorprone:error_prone_annotations:jar:2.7.1:compile
+[INFO] +- io.grpc:grpc-stub:jar:1.39.0:compile
+[INFO] +- io.grpc:grpc-protobuf:jar:1.39.0:compile
+[INFO] |  \- io.grpc:grpc-protobuf-lite:jar:1.39.0:compile
+[INFO] +- com.google.protobuf:protobuf-java:jar:3.17.3:compile
+[INFO] +- com.google.api.grpc:proto-google-cloud-vision-v1:jar:1.103.8-SNAPSHOT:compile
+[INFO] |  \- com.google.api:api-common:jar:1.10.4:compile
+[INFO] |     \- com.google.auto.value:auto-value-annotations:jar:1.8.2:compile
+[INFO] +- com.google.guava:guava:jar:30.1.1-android:compile
+[INFO] |  +- com.google.guava:failureaccess:jar:1.0.1:compile
+[INFO] |  +- com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:compile
+[INFO] |  +- org.checkerframework:checker-compat-qual:jar:2.5.5:compile
+[INFO] |  \- com.google.j2objc:j2objc-annotations:jar:1.3:compile
+[INFO] +- com.google.api.grpc:proto-google-common-protos:jar:2.3.2:compile
+[INFO] \- javax.annotation:javax.annotation-api:jar:1.3.2:compile
+[INFO] 
+[INFO] ----------------< com.google.cloud:google-cloud-vision >----------------
+[INFO] Building Google Cloud Vision 1.103.8-SNAPSHOT                    [12/13]
+[INFO]   from google-cloud-vision\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/api/gax-grpc/1.66.0/gax-grpc-1.66.0.pom
+Progress (1): 1.4/3.6 kB
+Progress (1): 2.7/3.6 kB
+Progress (1): 3.6 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/api/gax-grpc/1.66.0/gax-grpc-1.66.0.pom (3.6 kB at 299 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-auth/1.39.0/grpc-auth-1.39.0.pom
+Progress (1): 1.4/1.8 kB
+Progress (1): 1.8 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-auth/1.39.0/grpc-auth-1.39.0.pom (1.8 kB at 255 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-netty-shaded/1.39.0/grpc-netty-shaded-1.39.0.pom
+Progress (1): 1.4/2.0 kB
+Progress (1): 2.0 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-netty-shaded/1.39.0/grpc-netty-shaded-1.39.0.pom (2.0 kB at 220 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-core/1.39.0/grpc-core-1.39.0.pom
+Progress (1): 1.4/2.5 kB
+Progress (1): 2.5 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-core/1.39.0/grpc-core-1.39.0.pom (2.5 kB at 279 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-alts/1.39.0/grpc-alts-1.39.0.pom
+Progress (1): 1.4/2.9 kB
+Progress (1): 2.7/2.9 kB
+Progress (1): 2.9 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-alts/1.39.0/grpc-alts-1.39.0.pom (2.9 kB at 317 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-grpclb/1.39.0/grpc-grpclb-1.39.0.pom
+Progress (1): 1.4/2.5 kB
+Progress (1): 2.5 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-grpclb/1.39.0/grpc-grpclb-1.39.0.pom (2.5 kB at 70 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/api/gax-grpc/1.66.0/gax-grpc-1.66.0.jar
+Progress (1): 16/124 kB
+Progress (1): 33/124 kB
+Progress (1): 49/124 kB
+Progress (1): 66/124 kB
+Progress (1): 82/124 kB
+Progress (1): 98/124 kB
+Progress (1): 115/124 kB
+Progress (1): 124 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/api/gax-grpc/1.66.0/gax-grpc-1.66.0.jar (124 kB at 6.5 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-auth/1.39.0/grpc-auth-1.39.0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-netty-shaded/1.39.0/grpc-netty-shaded-1.39.0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-alts/1.39.0/grpc-alts-1.39.0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-core/1.39.0/grpc-core-1.39.0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-grpclb/1.39.0/grpc-grpclb-1.39.0.jar
+Progress (1): 16/656 kB
+Progress (1): 32/656 kB
+Progress (1): 49/656 kB
+Progress (1): 65/656 kB
+Progress (1): 81/656 kB
+Progress (1): 98/656 kB
+Progress (2): 98/656 kB | 1.4/14 kB
+Progress (2): 98/656 kB | 2.7/14 kB
+Progress (2): 98/656 kB | 4.1/14 kB
+Progress (2): 98/656 kB | 5.5/14 kB
+Progress (2): 98/656 kB | 6.9/14 kB
+Progress (2): 114/656 kB | 6.9/14 kB
+Progress (3): 114/656 kB | 6.9/14 kB | 16/318 kB
+Progress (3): 114/656 kB | 8.2/14 kB | 16/318 kB
+Progress (3): 114/656 kB | 9.6/14 kB | 16/318 kB
+Progress (3): 130/656 kB | 9.6/14 kB | 16/318 kB
+Progress (3): 130/656 kB | 9.6/14 kB | 33/318 kB
+Progress (4): 130/656 kB | 9.6/14 kB | 33/318 kB | 1.4/178 kB
+Progress (4): 147/656 kB | 9.6/14 kB | 33/318 kB | 1.4/178 kB
+Progress (4): 147/656 kB | 11/14 kB | 33/318 kB | 1.4/178 kB 
+Progress (4): 147/656 kB | 11/14 kB | 49/318 kB | 1.4/178 kB
+Progress (4): 163/656 kB | 11/14 kB | 49/318 kB | 1.4/178 kB
+Progress (4): 163/656 kB | 11/14 kB | 66/318 kB | 1.4/178 kB
+Progress (4): 180/656 kB | 11/14 kB | 66/318 kB | 1.4/178 kB
+Progress (4): 180/656 kB | 11/14 kB | 66/318 kB | 2.7/178 kB
+Progress (4): 180/656 kB | 11/14 kB | 66/318 kB | 4.1/178 kB
+Progress (4): 180/656 kB | 12/14 kB | 66/318 kB | 4.1/178 kB
+Progress (4): 180/656 kB | 12/14 kB | 82/318 kB | 4.1/178 kB
+Progress (4): 180/656 kB | 12/14 kB | 82/318 kB | 5.5/178 kB
+Progress (4): 196/656 kB | 12/14 kB | 82/318 kB | 5.5/178 kB
+Progress (4): 196/656 kB | 12/14 kB | 98/318 kB | 5.5/178 kB
+Progress (4): 196/656 kB | 14/14 kB | 98/318 kB | 5.5/178 kB
+Progress (4): 196/656 kB | 14/14 kB | 115/318 kB | 5.5/178 kB
+Progress (4): 196/656 kB | 14/14 kB | 115/318 kB | 6.9/178 kB
+Progress (4): 212/656 kB | 14/14 kB | 115/318 kB | 6.9/178 kB
+Progress (4): 212/656 kB | 14/14 kB | 115/318 kB | 8.2/178 kB
+Progress (4): 212/656 kB | 14/14 kB | 131/318 kB | 8.2/178 kB
+Progress (4): 229/656 kB | 14/14 kB | 131/318 kB | 8.2/178 kB
+Progress (4): 229/656 kB | 14/14 kB | 131/318 kB | 9.6/178 kB
+Progress (4): 229/656 kB | 14 kB | 131/318 kB | 9.6/178 kB   
+Progress (4): 229/656 kB | 14 kB | 131/318 kB | 11/178 kB 
+Progress (4): 229/656 kB | 14 kB | 131/318 kB | 12/178 kB
+Progress (4): 229/656 kB | 14 kB | 147/318 kB | 12/178 kB
+Progress (4): 245/656 kB | 14 kB | 147/318 kB | 12/178 kB
+Progress (4): 245/656 kB | 14 kB | 147/318 kB | 14/178 kB
+Progress (4): 262/656 kB | 14 kB | 147/318 kB | 14/178 kB
+                                                         
+Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-auth/1.39.0/grpc-auth-1.39.0.jar (14 kB at 284 kB/s)
+Progress (3): 262/656 kB | 147/318 kB | 15/178 kB
+Progress (3): 262/656 kB | 164/318 kB | 15/178 kB
+Progress (3): 278/656 kB | 164/318 kB | 15/178 kB
+Progress (3): 278/656 kB | 164/318 kB | 16/178 kB
+Progress (3): 294/656 kB | 164/318 kB | 16/178 kB
+Progress (3): 311/656 kB | 164/318 kB | 16/178 kB
+Progress (3): 327/656 kB | 164/318 kB | 16/178 kB
+Progress (3): 343/656 kB | 164/318 kB | 16/178 kB
+Progress (3): 360/656 kB | 164/318 kB | 16/178 kB
+Progress (3): 360/656 kB | 164/318 kB | 32/178 kB
+Progress (3): 360/656 kB | 180/318 kB | 32/178 kB
+Progress (3): 376/656 kB | 180/318 kB | 32/178 kB
+Progress (3): 376/656 kB | 180/318 kB | 49/178 kB
+Progress (3): 393/656 kB | 180/318 kB | 49/178 kB
+Progress (3): 393/656 kB | 180/318 kB | 65/178 kB
+Progress (3): 402/656 kB | 180/318 kB | 65/178 kB
+Progress (3): 402/656 kB | 197/318 kB | 65/178 kB
+Progress (3): 418/656 kB | 197/318 kB | 65/178 kB
+Progress (3): 418/656 kB | 197/318 kB | 81/178 kB
+Progress (3): 418/656 kB | 213/318 kB | 81/178 kB
+Progress (3): 435/656 kB | 213/318 kB | 81/178 kB
+Progress (3): 435/656 kB | 213/318 kB | 98/178 kB
+Progress (3): 435/656 kB | 229/318 kB | 98/178 kB
+Progress (3): 451/656 kB | 229/318 kB | 98/178 kB
+Progress (3): 451/656 kB | 229/318 kB | 114/178 kB
+Progress (3): 451/656 kB | 246/318 kB | 114/178 kB
+Progress (3): 468/656 kB | 246/318 kB | 114/178 kB
+Progress (3): 468/656 kB | 246/318 kB | 130/178 kB
+Progress (3): 468/656 kB | 256/318 kB | 130/178 kB
+Progress (3): 484/656 kB | 256/318 kB | 130/178 kB
+Progress (3): 484/656 kB | 256/318 kB | 147/178 kB
+Progress (3): 484/656 kB | 272/318 kB | 147/178 kB
+Progress (3): 500/656 kB | 272/318 kB | 147/178 kB
+Progress (3): 500/656 kB | 272/318 kB | 163/178 kB
+Progress (3): 500/656 kB | 289/318 kB | 163/178 kB
+Progress (3): 517/656 kB | 289/318 kB | 163/178 kB
+Progress (3): 517/656 kB | 289/318 kB | 178 kB    
+Progress (3): 517/656 kB | 305/318 kB | 178 kB
+Progress (3): 533/656 kB | 305/318 kB | 178 kB
+Progress (3): 533/656 kB | 318 kB | 178 kB    
+Progress (3): 549/656 kB | 318 kB | 178 kB
+Progress (3): 566/656 kB | 318 kB | 178 kB
+                                          
+Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-grpclb/1.39.0/grpc-grpclb-1.39.0.jar (178 kB at 2.6 MB/s)
+Progress (2): 582/656 kB | 318 kB
+Progress (2): 599/656 kB | 318 kB
+Progress (2): 615/656 kB | 318 kB
+Progress (2): 631/656 kB | 318 kB
+Progress (2): 648/656 kB | 318 kB
+Progress (2): 656 kB | 318 kB    
+                             
+Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-core/1.39.0/grpc-core-1.39.0.jar (656 kB at 8.7 MB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-alts/1.39.0/grpc-alts-1.39.0.jar (318 kB at 4.2 MB/s)
+Progress (1): 0/8.0 MB
+Progress (1): 0/8.0 MB
+Progress (1): 0/8.0 MB
+Progress (1): 0.1/8.0 MB
+Progress (1): 0.1/8.0 MB
+Progress (1): 0.1/8.0 MB
+Progress (1): 0.1/8.0 MB
+Progress (1): 0.1/8.0 MB
+Progress (1): 0.1/8.0 MB
+Progress (1): 0.2/8.0 MB
+Progress (1): 0.2/8.0 MB
+Progress (1): 0.2/8.0 MB
+Progress (1): 0.2/8.0 MB
+Progress (1): 0.2/8.0 MB
+Progress (1): 0.2/8.0 MB
+Progress (1): 0.3/8.0 MB
+Progress (1): 0.3/8.0 MB
+Progress (1): 0.3/8.0 MB
+Progress (1): 0.3/8.0 MB
+Progress (1): 0.3/8.0 MB
+Progress (1): 0.3/8.0 MB
+Progress (1): 0.4/8.0 MB
+Progress (1): 0.4/8.0 MB
+Progress (1): 0.4/8.0 MB
+Progress (1): 0.4/8.0 MB
+Progress (1): 0.4/8.0 MB
+Progress (1): 0.4/8.0 MB
+Progress (1): 0.5/8.0 MB
+Progress (1): 0.5/8.0 MB
+Progress (1): 0.5/8.0 MB
+Progress (1): 0.5/8.0 MB
+Progress (1): 0.5/8.0 MB
+Progress (1): 0.5/8.0 MB
+Progress (1): 0.6/8.0 MB
+Progress (1): 0.6/8.0 MB
+Progress (1): 0.6/8.0 MB
+Progress (1): 0.6/8.0 MB
+Progress (1): 0.6/8.0 MB
+Progress (1): 0.6/8.0 MB
+Progress (1): 0.6/8.0 MB
+Progress (1): 0.7/8.0 MB
+Progress (1): 0.7/8.0 MB
+Progress (1): 0.7/8.0 MB
+Progress (1): 0.7/8.0 MB
+Progress (1): 0.7/8.0 MB
+Progress (1): 0.7/8.0 MB
+Progress (1): 0.8/8.0 MB
+Progress (1): 0.8/8.0 MB
+Progress (1): 0.8/8.0 MB
+Progress (1): 0.8/8.0 MB
+Progress (1): 0.8/8.0 MB
+Progress (1): 0.8/8.0 MB
+Progress (1): 0.9/8.0 MB
+Progress (1): 0.9/8.0 MB
+Progress (1): 0.9/8.0 MB
+Progress (1): 0.9/8.0 MB
+Progress (1): 0.9/8.0 MB
+Progress (1): 0.9/8.0 MB
+Progress (1): 1.0/8.0 MB
+Progress (1): 1.0/8.0 MB
+Progress (1): 1.0/8.0 MB
+Progress (1): 1.0/8.0 MB
+Progress (1): 1.0/8.0 MB
+Progress (1): 1.0/8.0 MB
+Progress (1): 1.1/8.0 MB
+Progress (1): 1.1/8.0 MB
+Progress (1): 1.1/8.0 MB
+Progress (1): 1.1/8.0 MB
+Progress (1): 1.1/8.0 MB
+Progress (1): 1.1/8.0 MB
+Progress (1): 1.1/8.0 MB
+Progress (1): 1.2/8.0 MB
+Progress (1): 1.2/8.0 MB
+Progress (1): 1.2/8.0 MB
+Progress (1): 1.2/8.0 MB
+Progress (1): 1.2/8.0 MB
+Progress (1): 1.2/8.0 MB
+Progress (1): 1.3/8.0 MB
+Progress (1): 1.3/8.0 MB
+Progress (1): 1.3/8.0 MB
+Progress (1): 1.3/8.0 MB
+Progress (1): 1.3/8.0 MB
+Progress (1): 1.3/8.0 MB
+Progress (1): 1.4/8.0 MB
+Progress (1): 1.4/8.0 MB
+Progress (1): 1.4/8.0 MB
+Progress (1): 1.4/8.0 MB
+Progress (1): 1.4/8.0 MB
+Progress (1): 1.4/8.0 MB
+Progress (1): 1.5/8.0 MB
+Progress (1): 1.5/8.0 MB
+Progress (1): 1.5/8.0 MB
+Progress (1): 1.5/8.0 MB
+Progress (1): 1.5/8.0 MB
+Progress (1): 1.5/8.0 MB
+Progress (1): 1.6/8.0 MB
+Progress (1): 1.6/8.0 MB
+Progress (1): 1.6/8.0 MB
+Progress (1): 1.6/8.0 MB
+Progress (1): 1.6/8.0 MB
+Progress (1): 1.6/8.0 MB
+Progress (1): 1.7/8.0 MB
+Progress (1): 1.7/8.0 MB
+Progress (1): 1.7/8.0 MB
+Progress (1): 1.7/8.0 MB
+Progress (1): 1.7/8.0 MB
+Progress (1): 1.7/8.0 MB
+Progress (1): 1.8/8.0 MB
+Progress (1): 1.8/8.0 MB
+Progress (1): 1.8/8.0 MB
+Progress (1): 1.8/8.0 MB
+Progress (1): 1.8/8.0 MB
+Progress (1): 1.8/8.0 MB
+Progress (1): 1.9/8.0 MB
+Progress (1): 1.9/8.0 MB
+Progress (1): 1.9/8.0 MB
+Progress (1): 1.9/8.0 MB
+Progress (1): 1.9/8.0 MB
+Progress (1): 1.9/8.0 MB
+Progress (1): 2.0/8.0 MB
+Progress (1): 2.0/8.0 MB
+Progress (1): 2.0/8.0 MB
+Progress (1): 2.0/8.0 MB
+Progress (1): 2.0/8.0 MB
+Progress (1): 2.0/8.0 MB
+Progress (1): 2.1/8.0 MB
+Progress (1): 2.1/8.0 MB
+Progress (1): 2.1/8.0 MB
+Progress (1): 2.1/8.0 MB
+Progress (1): 2.1/8.0 MB
+Progress (1): 2.1/8.0 MB
+Progress (1): 2.1/8.0 MB
+Progress (1): 2.2/8.0 MB
+Progress (1): 2.2/8.0 MB
+Progress (1): 2.2/8.0 MB
+Progress (1): 2.2/8.0 MB
+Progress (1): 2.2/8.0 MB
+Progress (1): 2.2/8.0 MB
+Progress (1): 2.3/8.0 MB
+Progress (1): 2.3/8.0 MB
+Progress (1): 2.3/8.0 MB
+Progress (1): 2.3/8.0 MB
+Progress (1): 2.3/8.0 MB
+Progress (1): 2.3/8.0 MB
+Progress (1): 2.4/8.0 MB
+Progress (1): 2.4/8.0 MB
+Progress (1): 2.4/8.0 MB
+Progress (1): 2.4/8.0 MB
+Progress (1): 2.4/8.0 MB
+Progress (1): 2.4/8.0 MB
+Progress (1): 2.5/8.0 MB
+Progress (1): 2.5/8.0 MB
+Progress (1): 2.5/8.0 MB
+Progress (1): 2.5/8.0 MB
+Progress (1): 2.5/8.0 MB
+Progress (1): 2.5/8.0 MB
+Progress (1): 2.6/8.0 MB
+Progress (1): 2.6/8.0 MB
+Progress (1): 2.6/8.0 MB
+Progress (1): 2.6/8.0 MB
+Progress (1): 2.6/8.0 MB
+Progress (1): 2.6/8.0 MB
+Progress (1): 2.7/8.0 MB
+Progress (1): 2.7/8.0 MB
+Progress (1): 2.7/8.0 MB
+Progress (1): 2.7/8.0 MB
+Progress (1): 2.7/8.0 MB
+Progress (1): 2.7/8.0 MB
+Progress (1): 2.8/8.0 MB
+Progress (1): 2.8/8.0 MB
+Progress (1): 2.8/8.0 MB
+Progress (1): 2.8/8.0 MB
+Progress (1): 2.8/8.0 MB
+Progress (1): 2.8/8.0 MB
+Progress (1): 2.9/8.0 MB
+Progress (1): 2.9/8.0 MB
+Progress (1): 2.9/8.0 MB
+Progress (1): 2.9/8.0 MB
+Progress (1): 2.9/8.0 MB
+Progress (1): 2.9/8.0 MB
+Progress (1): 3.0/8.0 MB
+Progress (1): 3.0/8.0 MB
+Progress (1): 3.0/8.0 MB
+Progress (1): 3.0/8.0 MB
+Progress (1): 3.0/8.0 MB
+Progress (1): 3.0/8.0 MB
+Progress (1): 3.1/8.0 MB
+Progress (1): 3.1/8.0 MB
+Progress (1): 3.1/8.0 MB
+Progress (1): 3.1/8.0 MB
+Progress (1): 3.1/8.0 MB
+Progress (1): 3.1/8.0 MB
+Progress (1): 3.1/8.0 MB
+Progress (1): 3.2/8.0 MB
+Progress (1): 3.2/8.0 MB
+Progress (1): 3.2/8.0 MB
+Progress (1): 3.2/8.0 MB
+Progress (1): 3.2/8.0 MB
+Progress (1): 3.2/8.0 MB
+Progress (1): 3.3/8.0 MB
+Progress (1): 3.3/8.0 MB
+Progress (1): 3.3/8.0 MB
+Progress (1): 3.3/8.0 MB
+Progress (1): 3.3/8.0 MB
+Progress (1): 3.3/8.0 MB
+Progress (1): 3.4/8.0 MB
+Progress (1): 3.4/8.0 MB
+Progress (1): 3.4/8.0 MB
+Progress (1): 3.4/8.0 MB
+Progress (1): 3.4/8.0 MB
+Progress (1): 3.4/8.0 MB
+Progress (1): 3.5/8.0 MB
+Progress (1): 3.5/8.0 MB
+Progress (1): 3.5/8.0 MB
+Progress (1): 3.5/8.0 MB
+Progress (1): 3.5/8.0 MB
+Progress (1): 3.5/8.0 MB
+Progress (1): 3.6/8.0 MB
+Progress (1): 3.6/8.0 MB
+Progress (1): 3.6/8.0 MB
+Progress (1): 3.6/8.0 MB
+Progress (1): 3.6/8.0 MB
+Progress (1): 3.6/8.0 MB
+Progress (1): 3.7/8.0 MB
+Progress (1): 3.7/8.0 MB
+Progress (1): 3.7/8.0 MB
+Progress (1): 3.7/8.0 MB
+Progress (1): 3.7/8.0 MB
+Progress (1): 3.7/8.0 MB
+Progress (1): 3.8/8.0 MB
+Progress (1): 3.8/8.0 MB
+Progress (1): 3.8/8.0 MB
+Progress (1): 3.8/8.0 MB
+Progress (1): 3.8/8.0 MB
+Progress (1): 3.8/8.0 MB
+Progress (1): 3.9/8.0 MB
+Progress (1): 3.9/8.0 MB
+Progress (1): 3.9/8.0 MB
+Progress (1): 3.9/8.0 MB
+Progress (1): 3.9/8.0 MB
+Progress (1): 3.9/8.0 MB
+Progress (1): 4.0/8.0 MB
+Progress (1): 4.0/8.0 MB
+Progress (1): 4.0/8.0 MB
+Progress (1): 4.0/8.0 MB
+Progress (1): 4.0/8.0 MB
+Progress (1): 4.0/8.0 MB
+Progress (1): 4.0/8.0 MB
+Progress (1): 4.1/8.0 MB
+Progress (1): 4.1/8.0 MB
+Progress (1): 4.1/8.0 MB
+Progress (1): 4.1/8.0 MB
+Progress (1): 4.1/8.0 MB
+Progress (1): 4.1/8.0 MB
+Progress (1): 4.2/8.0 MB
+Progress (1): 4.2/8.0 MB
+Progress (1): 4.2/8.0 MB
+Progress (1): 4.2/8.0 MB
+Progress (1): 4.2/8.0 MB
+Progress (1): 4.2/8.0 MB
+Progress (1): 4.3/8.0 MB
+Progress (1): 4.3/8.0 MB
+Progress (1): 4.3/8.0 MB
+Progress (1): 4.3/8.0 MB
+Progress (1): 4.3/8.0 MB
+Progress (1): 4.3/8.0 MB
+Progress (1): 4.4/8.0 MB
+Progress (1): 4.4/8.0 MB
+Progress (1): 4.4/8.0 MB
+Progress (1): 4.4/8.0 MB
+Progress (1): 4.4/8.0 MB
+Progress (1): 4.4/8.0 MB
+Progress (1): 4.5/8.0 MB
+Progress (1): 4.5/8.0 MB
+Progress (1): 4.5/8.0 MB
+Progress (1): 4.5/8.0 MB
+Progress (1): 4.5/8.0 MB
+Progress (1): 4.5/8.0 MB
+Progress (1): 4.6/8.0 MB
+Progress (1): 4.6/8.0 MB
+Progress (1): 4.6/8.0 MB
+Progress (1): 4.6/8.0 MB
+Progress (1): 4.6/8.0 MB
+Progress (1): 4.6/8.0 MB
+Progress (1): 4.7/8.0 MB
+Progress (1): 4.7/8.0 MB
+Progress (1): 4.7/8.0 MB
+Progress (1): 4.7/8.0 MB
+Progress (1): 4.7/8.0 MB
+Progress (1): 4.7/8.0 MB
+Progress (1): 4.8/8.0 MB
+Progress (1): 4.8/8.0 MB
+Progress (1): 4.8/8.0 MB
+Progress (1): 4.8/8.0 MB
+Progress (1): 4.8/8.0 MB
+Progress (1): 4.8/8.0 MB
+Progress (1): 4.9/8.0 MB
+Progress (1): 4.9/8.0 MB
+Progress (1): 4.9/8.0 MB
+Progress (1): 4.9/8.0 MB
+Progress (1): 4.9/8.0 MB
+Progress (1): 4.9/8.0 MB
+Progress (1): 5.0/8.0 MB
+Progress (1): 5.0/8.0 MB
+Progress (1): 5.0/8.0 MB
+Progress (1): 5.0/8.0 MB
+Progress (1): 5.0/8.0 MB
+Progress (1): 5.0/8.0 MB
+Progress (1): 5.0/8.0 MB
+Progress (1): 5.1/8.0 MB
+Progress (1): 5.1/8.0 MB
+Progress (1): 5.1/8.0 MB
+Progress (1): 5.1/8.0 MB
+Progress (1): 5.1/8.0 MB
+Progress (1): 5.1/8.0 MB
+Progress (1): 5.2/8.0 MB
+Progress (1): 5.2/8.0 MB
+Progress (1): 5.2/8.0 MB
+Progress (1): 5.2/8.0 MB
+Progress (1): 5.2/8.0 MB
+Progress (1): 5.2/8.0 MB
+Progress (1): 5.3/8.0 MB
+Progress (1): 5.3/8.0 MB
+Progress (1): 5.3/8.0 MB
+Progress (1): 5.3/8.0 MB
+Progress (1): 5.3/8.0 MB
+Progress (1): 5.3/8.0 MB
+Progress (1): 5.4/8.0 MB
+Progress (1): 5.4/8.0 MB
+Progress (1): 5.4/8.0 MB
+Progress (1): 5.4/8.0 MB
+Progress (1): 5.4/8.0 MB
+Progress (1): 5.4/8.0 MB
+Progress (1): 5.5/8.0 MB
+Progress (1): 5.5/8.0 MB
+Progress (1): 5.5/8.0 MB
+Progress (1): 5.5/8.0 MB
+Progress (1): 5.5/8.0 MB
+Progress (1): 5.5/8.0 MB
+Progress (1): 5.6/8.0 MB
+Progress (1): 5.6/8.0 MB
+Progress (1): 5.6/8.0 MB
+Progress (1): 5.6/8.0 MB
+Progress (1): 5.6/8.0 MB
+Progress (1): 5.6/8.0 MB
+Progress (1): 5.7/8.0 MB
+Progress (1): 5.7/8.0 MB
+Progress (1): 5.7/8.0 MB
+Progress (1): 5.7/8.0 MB
+Progress (1): 5.7/8.0 MB
+Progress (1): 5.7/8.0 MB
+Progress (1): 5.8/8.0 MB
+Progress (1): 5.8/8.0 MB
+Progress (1): 5.8/8.0 MB
+Progress (1): 5.8/8.0 MB
+Progress (1): 5.8/8.0 MB
+Progress (1): 5.8/8.0 MB
+Progress (1): 5.9/8.0 MB
+Progress (1): 5.9/8.0 MB
+Progress (1): 5.9/8.0 MB
+Progress (1): 5.9/8.0 MB
+Progress (1): 5.9/8.0 MB
+Progress (1): 5.9/8.0 MB
+Progress (1): 6.0/8.0 MB
+Progress (1): 6.0/8.0 MB
+Progress (1): 6.0/8.0 MB
+Progress (1): 6.0/8.0 MB
+Progress (1): 6.0/8.0 MB
+Progress (1): 6.0/8.0 MB
+Progress (1): 6.0/8.0 MB
+Progress (1): 6.1/8.0 MB
+Progress (1): 6.1/8.0 MB
+Progress (1): 6.1/8.0 MB
+Progress (1): 6.1/8.0 MB
+Progress (1): 6.1/8.0 MB
+Progress (1): 6.1/8.0 MB
+Progress (1): 6.2/8.0 MB
+Progress (1): 6.2/8.0 MB
+Progress (1): 6.2/8.0 MB
+Progress (1): 6.2/8.0 MB
+Progress (1): 6.2/8.0 MB
+Progress (1): 6.2/8.0 MB
+Progress (1): 6.3/8.0 MB
+Progress (1): 6.3/8.0 MB
+Progress (1): 6.3/8.0 MB
+Progress (1): 6.3/8.0 MB
+Progress (1): 6.3/8.0 MB
+Progress (1): 6.3/8.0 MB
+Progress (1): 6.4/8.0 MB
+Progress (1): 6.4/8.0 MB
+Progress (1): 6.4/8.0 MB
+Progress (1): 6.4/8.0 MB
+Progress (1): 6.4/8.0 MB
+Progress (1): 6.4/8.0 MB
+Progress (1): 6.5/8.0 MB
+Progress (1): 6.5/8.0 MB
+Progress (1): 6.5/8.0 MB
+Progress (1): 6.5/8.0 MB
+Progress (1): 6.5/8.0 MB
+Progress (1): 6.5/8.0 MB
+Progress (1): 6.6/8.0 MB
+Progress (1): 6.6/8.0 MB
+Progress (1): 6.6/8.0 MB
+Progress (1): 6.6/8.0 MB
+Progress (1): 6.6/8.0 MB
+Progress (1): 6.6/8.0 MB
+Progress (1): 6.7/8.0 MB
+Progress (1): 6.7/8.0 MB
+Progress (1): 6.7/8.0 MB
+Progress (1): 6.7/8.0 MB
+Progress (1): 6.7/8.0 MB
+Progress (1): 6.7/8.0 MB
+Progress (1): 6.8/8.0 MB
+Progress (1): 6.8/8.0 MB
+Progress (1): 6.8/8.0 MB
+Progress (1): 6.8/8.0 MB
+Progress (1): 6.8/8.0 MB
+Progress (1): 6.8/8.0 MB
+Progress (1): 6.9/8.0 MB
+Progress (1): 6.9/8.0 MB
+Progress (1): 6.9/8.0 MB
+Progress (1): 6.9/8.0 MB
+Progress (1): 6.9/8.0 MB
+Progress (1): 6.9/8.0 MB
+Progress (1): 6.9/8.0 MB
+Progress (1): 7.0/8.0 MB
+Progress (1): 7.0/8.0 MB
+Progress (1): 7.0/8.0 MB
+Progress (1): 7.0/8.0 MB
+Progress (1): 7.0/8.0 MB
+Progress (1): 7.0/8.0 MB
+Progress (1): 7.1/8.0 MB
+Progress (1): 7.1/8.0 MB
+Progress (1): 7.1/8.0 MB
+Progress (1): 7.1/8.0 MB
+Progress (1): 7.1/8.0 MB
+Progress (1): 7.1/8.0 MB
+Progress (1): 7.2/8.0 MB
+Progress (1): 7.2/8.0 MB
+Progress (1): 7.2/8.0 MB
+Progress (1): 7.2/8.0 MB
+Progress (1): 7.2/8.0 MB
+Progress (1): 7.2/8.0 MB
+Progress (1): 7.3/8.0 MB
+Progress (1): 7.3/8.0 MB
+Progress (1): 7.3/8.0 MB
+Progress (1): 7.3/8.0 MB
+Progress (1): 7.3/8.0 MB
+Progress (1): 7.3/8.0 MB
+Progress (1): 7.4/8.0 MB
+Progress (1): 7.4/8.0 MB
+Progress (1): 7.4/8.0 MB
+Progress (1): 7.4/8.0 MB
+Progress (1): 7.4/8.0 MB
+Progress (1): 7.4/8.0 MB
+Progress (1): 7.5/8.0 MB
+Progress (1): 7.5/8.0 MB
+Progress (1): 7.5/8.0 MB
+Progress (1): 7.5/8.0 MB
+Progress (1): 7.5/8.0 MB
+Progress (1): 7.5/8.0 MB
+Progress (1): 7.6/8.0 MB
+Progress (1): 7.6/8.0 MB
+Progress (1): 7.6/8.0 MB
+Progress (1): 7.6/8.0 MB
+Progress (1): 7.6/8.0 MB
+Progress (1): 7.6/8.0 MB
+Progress (1): 7.7/8.0 MB
+Progress (1): 7.7/8.0 MB
+Progress (1): 7.7/8.0 MB
+Progress (1): 7.7/8.0 MB
+Progress (1): 7.7/8.0 MB
+Progress (1): 7.7/8.0 MB
+Progress (1): 7.8/8.0 MB
+Progress (1): 7.8/8.0 MB
+Progress (1): 7.8/8.0 MB
+Progress (1): 7.8/8.0 MB
+Progress (1): 7.8/8.0 MB
+Progress (1): 7.8/8.0 MB
+Progress (1): 7.9/8.0 MB
+Progress (1): 7.9/8.0 MB
+Progress (1): 7.9/8.0 MB
+Progress (1): 7.9/8.0 MB
+Progress (1): 7.9/8.0 MB
+Progress (1): 7.9/8.0 MB
+Progress (1): 7.9/8.0 MB
+Progress (1): 8.0/8.0 MB
+Progress (1): 8.0/8.0 MB
+Progress (1): 8.0 MB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-netty-shaded/1.39.0/grpc-netty-shaded-1.39.0.jar (8.0 MB at 16 MB/s)
+[INFO] 
+[INFO] --- enforcer:3.0.0-M3:enforce (enforce) @ google-cloud-vision ---
+[INFO] Adding ignore: module-info
+[INFO] Adding ignore: META-INF/versions/*/module-info
+[INFO] 
+[INFO] --- checkstyle:3.1.2:check (checkstyle) @ google-cloud-vision ---
+[INFO] Starting audit...
+Audit done.
+[INFO] You have 0 Checkstyle violations.
+[INFO] 
+[INFO] --- jacoco:0.8.7:prepare-agent (default) @ google-cloud-vision ---
+[INFO] argLine set to -javaagent:C:\\Users\\frank_bump\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.8.7\\org.jacoco.agent-0.8.7-runtime.jar=destfile=D:\\Bump\\breaking-updates\\tempProject\\e181647f2d24f810e59c6b903b1d8cf6680ac5a3\\java-vision\\google-cloud-vision\\target\\jacoco.exec
+[INFO] 
+[INFO] --- build-helper:3.2.0:add-resource (add-main-proto-resources) @ google-cloud-vision ---
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ google-cloud-vision ---
+[INFO] skip non existing resourceDirectory D:\Bump\breaking-updates\tempProject\e181647f2d24f810e59c6b903b1d8cf6680ac5a3\java-vision\google-cloud-vision\src\main\resources
+[INFO] skip non existing resourceDirectory D:\Bump\breaking-updates\tempProject\e181647f2d24f810e59c6b903b1d8cf6680ac5a3\java-vision\google-cloud-vision\src\main\proto
+[INFO] 
+[INFO] --- flatten:1.2.7:flatten (flatten) @ google-cloud-vision ---
+[INFO] Generating flattened POM of project com.google.cloud:google-cloud-vision:jar:1.103.8-SNAPSHOT...
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ google-cloud-vision ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 53 source files to D:\Bump\breaking-updates\tempProject\e181647f2d24f810e59c6b903b1d8cf6680ac5a3\java-vision\google-cloud-vision\target\classes
+[WARNING] bootstrap class path not set in conjunction with -source 8
+[INFO] /D:/Bump/breaking-updates/tempProject/e181647f2d24f810e59c6b903b1d8cf6680ac5a3/java-vision/google-cloud-vision/src/main/java/com/google/cloud/vision/v1p4beta1/stub/ImageAnnotatorStubSettings.java: Some input files use unchecked or unsafe operations.
+[INFO] /D:/Bump/breaking-updates/tempProject/e181647f2d24f810e59c6b903b1d8cf6680ac5a3/java-vision/google-cloud-vision/src/main/java/com/google/cloud/vision/v1p4beta1/stub/ImageAnnotatorStubSettings.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- dependency:3.1.2:tree (default-cli) @ google-cloud-vision ---
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/api/gax-grpc/1.66.0/gax-grpc-1.66.0-testlib.jar
+Progress (1): 16/28 kB
+Progress (1): 28 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/api/gax-grpc/1.66.0/gax-grpc-1.66.0-testlib.jar (28 kB at 287 kB/s)
+[INFO] com.google.cloud:google-cloud-vision:jar:1.103.8-SNAPSHOT
+[INFO] +- io.grpc:grpc-api:jar:1.39.0:compile
+[INFO] |  +- io.grpc:grpc-context:jar:1.39.0:compile
+[INFO] |  +- com.google.code.findbugs:jsr305:jar:3.0.2:compile
+[INFO] |  \- com.google.errorprone:error_prone_annotations:jar:2.7.1:compile
+[INFO] +- io.grpc:grpc-stub:jar:1.39.0:compile
+[INFO] +- io.grpc:grpc-protobuf:jar:1.39.0:compile
+[INFO] |  \- io.grpc:grpc-protobuf-lite:jar:1.39.0:compile
+[INFO] +- com.google.api:api-common:jar:1.10.4:compile
+[INFO] |  \- com.google.auto.value:auto-value-annotations:jar:1.8.2:compile
+[INFO] +- com.google.protobuf:protobuf-java:jar:3.17.3:compile
+[INFO] +- com.google.api.grpc:proto-google-common-protos:jar:2.3.2:compile
+[INFO] +- com.google.api.grpc:proto-google-cloud-vision-v1p4beta1:jar:0.86.8-SNAPSHOT:compile
+[INFO] +- com.google.api.grpc:proto-google-cloud-vision-v1:jar:1.103.8-SNAPSHOT:compile
+[INFO] +- com.google.api.grpc:proto-google-cloud-vision-v1p1beta1:jar:0.86.8-SNAPSHOT:compile
+[INFO] +- com.google.api.grpc:proto-google-cloud-vision-v1p3beta1:jar:0.86.8-SNAPSHOT:compile
+[INFO] +- com.google.api.grpc:proto-google-cloud-vision-v1p2beta1:jar:1.103.8-SNAPSHOT:compile
+[INFO] +- com.google.guava:guava:jar:30.1.1-android:compile
+[INFO] |  +- com.google.guava:failureaccess:jar:1.0.1:compile
+[INFO] |  +- com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:compile
+[INFO] |  +- org.checkerframework:checker-compat-qual:jar:2.5.5:compile
+[INFO] |  \- com.google.j2objc:j2objc-annotations:jar:1.3:compile
+[INFO] +- com.google.api:gax:jar:1.66.0:compile
+[INFO] |  +- com.google.auth:google-auth-library-oauth2-http:jar:0.26.0:compile
+[INFO] |  \- io.opencensus:opencensus-api:jar:0.28.0:compile
+[INFO] +- com.google.api:gax-grpc:jar:1.66.0:compile
+[INFO] |  +- io.grpc:grpc-auth:jar:1.39.0:compile
+[INFO] |  +- com.google.auth:google-auth-library-credentials:jar:0.26.0:compile
+[INFO] |  +- io.grpc:grpc-netty-shaded:jar:1.39.0:compile
+[INFO] |  |  +- io.perfmark:perfmark-api:jar:0.23.0:runtime
+[INFO] |  |  \- io.grpc:grpc-core:jar:1.39.0:compile
+[INFO] |  |     +- com.google.android:annotations:jar:4.1.1.4:runtime
+[INFO] |  |     \- org.codehaus.mojo:animal-sniffer-annotations:jar:1.20:runtime
+[INFO] |  \- io.grpc:grpc-alts:jar:1.39.0:compile
+[INFO] |     +- io.grpc:grpc-grpclb:jar:1.39.0:compile
+[INFO] |     \- org.conscrypt:conscrypt-openjdk-uber:jar:2.5.1:compile
+[INFO] +- org.threeten:threetenbp:jar:1.5.1:compile
+[INFO] +- junit:junit:jar:4.13.2:test
+[INFO] |  \- org.hamcrest:hamcrest-core:jar:1.3:test
+[INFO] +- com.google.cloud:google-cloud-core:jar:1.95.4:test
+[INFO] |  +- com.google.protobuf:protobuf-java-util:jar:3.17.3:runtime
+[INFO] |  |  \- com.google.code.gson:gson:jar:2.8.7:compile
+[INFO] |  +- com.google.api.grpc:proto-google-iam-v1:jar:1.0.14:test
+[INFO] |  +- com.google.http-client:google-http-client:jar:1.39.2:compile
+[INFO] |  |  +- org.apache.httpcomponents:httpclient:jar:4.5.13:compile
+[INFO] |  |  |  +- commons-logging:commons-logging:jar:1.2:compile
+[INFO] |  |  |  \- commons-codec:commons-codec:jar:1.15:compile
+[INFO] |  |  +- org.apache.httpcomponents:httpcore:jar:4.4.14:compile
+[INFO] |  |  \- io.opencensus:opencensus-contrib-http-util:jar:0.28.0:compile
+[INFO] |  \- com.google.http-client:google-http-client-gson:jar:1.39.2:compile
+[INFO] +- com.google.api.grpc:grpc-google-cloud-vision-v1p3beta1:jar:0.86.8-SNAPSHOT:test
+[INFO] +- com.google.api.grpc:grpc-google-cloud-vision-v1p1beta1:jar:0.86.8-SNAPSHOT:test
+[INFO] +- com.google.api.grpc:grpc-google-cloud-vision-v1p4beta1:jar:0.86.8-SNAPSHOT:test
+[INFO] +- com.google.api.grpc:grpc-google-cloud-vision-v1p2beta1:jar:1.103.8-SNAPSHOT:test
+[INFO] +- com.google.api.grpc:grpc-google-cloud-vision-v1:jar:1.103.8-SNAPSHOT:test
+[INFO] +- com.google.truth:truth:jar:1.1.3:test
+[INFO] |  +- org.checkerframework:checker-qual:jar:3.13.0:test
+[INFO] |  \- org.ow2.asm:asm:jar:9.1:test
+[INFO] +- com.google.api:gax-grpc:jar:testlib:1.66.0:test
+[INFO] \- javax.annotation:javax.annotation-api:jar:1.3.2:compile
+[INFO] 
+[INFO] --------------< com.google.cloud:google-cloud-vision-bom >--------------
+[INFO] Building Google Cloud Vision BOM 1.103.8-SNAPSHOT                [13/13]
+[INFO]   from google-cloud-vision-bom\pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:3.0.0-M3:enforce (enforce) @ google-cloud-vision-bom ---
+[INFO] Adding ignore: module-info
+[INFO] Adding ignore: META-INF/versions/*/module-info
+[INFO] 
+[INFO] --- checkstyle:3.1.2:check (checkstyle) @ google-cloud-vision-bom ---
+[INFO] 
+[INFO] --- jacoco:0.8.7:prepare-agent (default) @ google-cloud-vision-bom ---
+[INFO] argLine set to -javaagent:C:\\Users\\frank_bump\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.8.7\\org.jacoco.agent-0.8.7-runtime.jar=destfile=D:\\Bump\\breaking-updates\\tempProject\\e181647f2d24f810e59c6b903b1d8cf6680ac5a3\\java-vision\\google-cloud-vision-bom\\target\\jacoco.exec
+[INFO] 
+[INFO] --- build-helper:3.2.0:add-resource (add-main-proto-resources) @ google-cloud-vision-bom ---
+[INFO] 
+[INFO] --- dependency:3.1.2:tree (default-cli) @ google-cloud-vision-bom ---
+[INFO] com.google.cloud:google-cloud-vision-bom:pom:1.103.8-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Google Cloud Vision Parent 1.103.8-SNAPSHOT ........ SUCCESS [  4.041 s]
+[INFO] proto-google-cloud-vision-v1p4beta1 0.86.8-SNAPSHOT  SUCCESS [ 11.225 s]
+[INFO] proto-google-cloud-vision-v1 1.103.8-SNAPSHOT ...... SUCCESS [  5.346 s]
+[INFO] proto-google-cloud-vision-v1p1beta1 0.86.8-SNAPSHOT  SUCCESS [  2.224 s]
+[INFO] proto-google-cloud-vision-v1p3beta1 0.86.8-SNAPSHOT  SUCCESS [  3.450 s]
+[INFO] proto-google-cloud-vision-v1p2beta1 1.103.8-SNAPSHOT SUCCESS [  1.933 s]
+[INFO] grpc-google-cloud-vision-v1p3beta1 0.86.8-SNAPSHOT . SUCCESS [  1.756 s]
+[INFO] grpc-google-cloud-vision-v1p1beta1 0.86.8-SNAPSHOT . SUCCESS [  0.440 s]
+[INFO] grpc-google-cloud-vision-v1p4beta1 0.86.8-SNAPSHOT . SUCCESS [  0.583 s]
+[INFO] grpc-google-cloud-vision-v1p2beta1 1.103.8-SNAPSHOT  SUCCESS [  0.381 s]
+[INFO] grpc-google-cloud-vision-v1 1.103.8-SNAPSHOT ....... SUCCESS [  0.555 s]
+[INFO] Google Cloud Vision 1.103.8-SNAPSHOT ............... SUCCESS [  3.571 s]
+[INFO] Google Cloud Vision BOM 1.103.8-SNAPSHOT ........... SUCCESS [  0.007 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  37.878 s
+[INFO] Finished at: 2023-09-21T20:33:03Z
+[INFO] ------------------------------------------------------------------------

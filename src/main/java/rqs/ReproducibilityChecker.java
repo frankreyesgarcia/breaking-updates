@@ -43,25 +43,35 @@ public class ReproducibilityChecker {
     public static final Map<Pattern, ReproducibleBreakingUpdate.FailureCategory> FAILURE_PATTERNS = new HashMap<>();
 
     static {
-        FAILURE_PATTERNS.put(Pattern.compile("(?i)(COMPILATION ERROR | Failed to execute goal io\\.takari\\.maven\\.plugins:takari-lifecycle-plugin.*?:compile)"),
+        FAILURE_PATTERNS.put(Pattern.compile(
+                "(?i)(COMPILATION ERROR|COMPILATION_ERROR|Failed to execute goal io\\.takari\\.maven\\.plugins:takari-lifecycle-plugin.*?:compile)"),
                 ReproducibleBreakingUpdate.FailureCategory.COMPILATION_FAILURE);
-        FAILURE_PATTERNS.put(Pattern.compile("(?i)(\\[ERROR] Tests run: | There are test failures | There were test failures |" +
+        FAILURE_PATTERNS.put(
+                Pattern.compile("(?i)(\\[ERROR] Tests run:|There are test failures|There were test failures|" +
                         "Failed to execute goal org\\.apache\\.maven\\.plugins:maven-surefire-plugin)"),
                 ReproducibleBreakingUpdate.FailureCategory.TEST_FAILURE);
         FAILURE_PATTERNS.put(Pattern.compile("(?i)(Failed to execute goal org\\.jenkins-ci\\.tools:maven-hpi-plugin)"),
                 ReproducibleBreakingUpdate.FailureCategory.JENKINS_PLUGIN_FAILURE);
-        FAILURE_PATTERNS.put(Pattern.compile("(?i)(Failed to execute goal org\\.jvnet\\.jaxb2\\.maven2:maven-jaxb2-plugin)"),
+        FAILURE_PATTERNS.put(
+                Pattern.compile("(?i)(Failed to execute goal org\\.jvnet\\.jaxb2\\.maven2:maven-jaxb2-plugin)"),
                 ReproducibleBreakingUpdate.FailureCategory.JAXB_FAILURE);
-        FAILURE_PATTERNS.put(Pattern.compile("(?i)(Failed to execute goal org\\.apache\\.maven\\.plugins:maven-scm-plugin:.*?:checkout)"),
+        FAILURE_PATTERNS.put(
+                Pattern.compile(
+                        "(?i)(Failed to execute goal org\\.apache\\.maven\\.plugins:maven-scm-plugin:.*?:checkout)"),
                 ReproducibleBreakingUpdate.FailureCategory.SCM_CHECKOUT_FAILURE);
-        FAILURE_PATTERNS.put(Pattern.compile("(?i)(Failed to execute goal org\\.apache\\.maven\\.plugins:maven-checkstyle-plugin:.*?:check)"),
+        FAILURE_PATTERNS.put(Pattern.compile(
+                "(?i)(Failed to execute goal org\\.apache\\.maven\\.plugins:maven-checkstyle-plugin:.*?:check)"),
                 ReproducibleBreakingUpdate.FailureCategory.CHECKSTYLE_FAILURE);
-        FAILURE_PATTERNS.put(Pattern.compile("(?i)(Failed to execute goal org\\.apache\\.maven\\.plugins:maven-enforcer-plugin)"),
+        FAILURE_PATTERNS.put(
+                Pattern.compile("(?i)(Failed to execute goal org\\.apache\\.maven\\.plugins:maven-enforcer-plugin)"),
                 ReproducibleBreakingUpdate.FailureCategory.MAVEN_ENFORCER_FAILURE);
-        FAILURE_PATTERNS.put(Pattern.compile("(?i)(Could not resolve dependencies | \\[ERROR] Some problems were encountered while processing the POMs | " +
+        FAILURE_PATTERNS.put(Pattern.compile(
+                "(?i)(Could not resolve dependencies|\\[ERROR] Some problems were encountered while processing the POMs|"
+                        +
                         "\\[ERROR] .*?The following artifacts could not be resolved)"),
                 ReproducibleBreakingUpdate.FailureCategory.DEPENDENCY_RESOLUTION_FAILURE);
-        FAILURE_PATTERNS.put(Pattern.compile("(?i)(Failed to execute goal se\\.vandmo:dependency-lock-maven-plugin:.*?:check)"),
+        FAILURE_PATTERNS.put(
+                Pattern.compile("(?i)(Failed to execute goal se\\.vandmo:dependency-lock-maven-plugin:.*?:check)"),
                 ReproducibleBreakingUpdate.FailureCategory.DEPENDENCY_LOCK_FAILURE);
     }
 
@@ -72,7 +82,8 @@ public class ReproducibilityChecker {
         MapType buJsonType = JsonUtils.getTypeFactory().constructMapType(Map.class, String.class, Object.class);
 
         // Read reproducibility results
-        MapType reproducibilityJsonType = JsonUtils.getTypeFactory().constructMapType(Map.class, String.class, Boolean.class);
+        MapType reproducibilityJsonType = JsonUtils.getTypeFactory().constructMapType(Map.class, String.class,
+                Boolean.class);
         Path reproducibilityResultsFilePath = Path.of("src/main/java/rqs/reproducibility-results" +
                 JsonUtils.JSON_FILE_ENDING);
         if (Files.notExists(reproducibilityResultsFilePath)) {
@@ -128,8 +139,8 @@ public class ReproducibilityChecker {
                 // Run reproduction.
                 if (!reproducibilityResults.containsKey((String) bu.get("breakingCommit"))) {
 
-                    ReproducibleBreakingUpdate.FailureCategory failureCategory =
-                            ReproducibleBreakingUpdate.FailureCategory.valueOf((String) bu.get("failureCategory"));
+                    ReproducibleBreakingUpdate.FailureCategory failureCategory = ReproducibleBreakingUpdate.FailureCategory
+                            .valueOf((String) bu.get("failureCategory"));
                     Boolean isReproducible = isReproducible(failureCategory, (String) bu.get("project"), projectPath,
                             prevImage, breakingImage, (String) bu.get("breakingCommit"));
                     reproducibilityResults.put((String) bu.get("breakingCommit"), isReproducible);
@@ -139,15 +150,22 @@ public class ReproducibilityChecker {
                     JsonUtils.writeToFile(reproducibilityResultsFilePath, reproducibilityResults);
                 }
 
-//                if (depCountResults.containsKey(bu.get("projectOrganisation") + "/" + bu.get("project")) &&
-//                        (depCountResults.get(bu.get("projectOrganisation") + "/" + bu.get("project"))).get("buCommit") == null) {
-//                    System.out.println("awa" + bu.get("projectOrganisation") + "/" + bu.get("project"));
-//                    depCount.put("directCount", depCountResults.get(bu.get("projectOrganisation") + "/" + bu.get("project")).get("directCount"));
-//                    depCount.put("transitiveCount", depCountResults.get(bu.get("projectOrganisation") + "/" + bu.get("project")).get("transitiveCount"));
-//                    depCount.put("buCommit", bu.get("breakingCommit"));
-//                    depCountResults.put(bu.get("projectOrganisation") + "/" + bu.get("project"), depCount);
-//                    JsonUtils.writeToFile(depCountResultsFilePath, depCountResults);
-//                }
+                // if (depCountResults.containsKey(bu.get("projectOrganisation") + "/" +
+                // bu.get("project")) &&
+                // (depCountResults.get(bu.get("projectOrganisation") + "/" +
+                // bu.get("project"))).get("buCommit") == null) {
+                // System.out.println("awa" + bu.get("projectOrganisation") + "/" +
+                // bu.get("project"));
+                // depCount.put("directCount", depCountResults.get(bu.get("projectOrganisation")
+                // + "/" + bu.get("project")).get("directCount"));
+                // depCount.put("transitiveCount",
+                // depCountResults.get(bu.get("projectOrganisation") + "/" +
+                // bu.get("project")).get("transitiveCount"));
+                // depCount.put("buCommit", bu.get("breakingCommit"));
+                // depCountResults.put(bu.get("projectOrganisation") + "/" + bu.get("project"),
+                // depCount);
+                // JsonUtils.writeToFile(depCountResultsFilePath, depCountResults);
+                // }
 
                 // Run dependency counter.
                 if (!depCountResults.containsKey(bu.get("projectOrganisation") + "/" + bu.get("project"))) {
@@ -168,13 +186,13 @@ public class ReproducibilityChecker {
     }
 
     private Boolean isReproducible(ReproducibleBreakingUpdate.FailureCategory failureCategory, String project,
-                                   Path copyDir, String prevImage, String breakingImage, String buCommit) {
+            Path copyDir, String prevImage, String breakingImage, String buCommit) {
         Map.Entry<String, Boolean> prevContainer = startContainer(prevImage, true, project);
         Map.Entry<String, Boolean> breakingContainer = startContainer(breakingImage, false, project);
         if (prevContainer == null || breakingContainer == null)
             return null;
         Path copiedProjectPath = copyProject(prevContainer.getKey(), project, copyDir);
-        Path logFolder = Path.of( "src//main//java//rqs//logs" + File.separator + buCommit);
+        Path logFolder = Path.of("src//main//java//rqs//logs" + File.separator + buCommit);
         if (Files.notExists(logFolder)) {
             try {
                 Files.createDirectory(logFolder);
@@ -192,8 +210,11 @@ public class ReproducibilityChecker {
         return null;
     }
 
-    /* Returns false as the value of the map if the build failed for the previous commit or build did not fail for the
-    breaking commit. The key of the map is the started containerID. */
+    /*
+     * Returns false as the value of the map if the build failed for the previous
+     * commit or build did not fail for the
+     * breaking commit. The key of the map is the started containerID.
+     */
     private Map.Entry<String, Boolean> startContainer(String image, boolean isPrevImage, String project) {
         try {
             dockerClient.inspectImageCmd(image).exec();
@@ -209,12 +230,14 @@ public class ReproducibilityChecker {
         }
         CreateContainerCmd containerCmd = dockerClient.createContainerCmd(image)
                 .withWorkingDir("/" + project)
-                .withCmd("sh", "-c", "--network none", "set -o pipefail && (mvn clean test -B 2>&1 | tee -ai output.log)");
+                .withCmd("sh", "-c", "--network none",
+                        "set -o pipefail && (mvn clean test -B 2>&1 | tee -ai output.log)");
         CreateContainerResponse container = containerCmd.exec();
         String containerId = container.getId();
         dockerClient.startContainerCmd(containerId).exec();
         log.info("Created container for " + image);
-        WaitContainerResultCallback result = dockerClient.waitContainerCmd(containerId).exec(new WaitContainerResultCallback());
+        WaitContainerResultCallback result = dockerClient.waitContainerCmd(containerId)
+                .exec(new WaitContainerResultCallback());
         if (result.awaitStatusCode().intValue() != EXIT_CODE_OK) {
             if (isPrevImage) {
                 log.error("Previous commit failed for {}", image);
@@ -246,8 +269,8 @@ public class ReproducibilityChecker {
         dockerClient.startContainerCmd(containerId).exec();
         containers.add(containerId);
 
-        try (InputStream dependencyStream = dockerClient.copyArchiveFromContainerCmd
-                (containerId, "/" + project).exec()) {
+        try (InputStream dependencyStream = dockerClient.copyArchiveFromContainerCmd(containerId, "/" + project)
+                .exec()) {
             try (TarArchiveInputStream tarStream = new TarArchiveInputStream(dependencyStream)) {
                 TarArchiveEntry entry;
                 while ((entry = tarStream.getNextTarEntry()) != null) {
@@ -278,8 +301,7 @@ public class ReproducibilityChecker {
 
         try {
             Process process = processBuilder.start();
-            BufferedReader reader =
-                    new BufferedReader(new InputStreamReader(process.getInputStream()));
+            BufferedReader reader = new BufferedReader(new InputStreamReader(process.getInputStream()));
             BufferedWriter writer = new BufferedWriter(new FileWriter(treeFile, false));
             String line;
             while ((line = reader.readLine()) != null) {
@@ -289,7 +311,8 @@ public class ReproducibilityChecker {
 
             int exitCode = process.waitFor();
             if (exitCode != EXIT_CODE_OK) {
-                log.error("Process for creating the dependency tree exited with error code {} for the tree in {}", exitCode,
+                log.error("Process for creating the dependency tree exited with error code {} for the tree in {}",
+                        exitCode,
                         treeFile.getName());
             }
             writer.flush();
@@ -379,4 +402,3 @@ public class ReproducibilityChecker {
         }
     }
 }
-

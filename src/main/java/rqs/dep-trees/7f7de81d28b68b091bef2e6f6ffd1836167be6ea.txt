@@ -1,0 +1,690 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] SNMPMan Parent                                                     [pom]
+[INFO] SNMPMan                                                            [jar]
+[INFO] SNMPMan Command Line                                               [jar]
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-javadoc-plugin/3.1.1/maven-javadoc-plugin-3.1.1.pom
+Progress (1): 1.4/18 kB
+Progress (1): 2.7/18 kB
+Progress (1): 4.1/18 kB
+Progress (1): 5.5/18 kB
+Progress (1): 6.9/18 kB
+Progress (1): 8.2/18 kB
+Progress (1): 9.6/18 kB
+Progress (1): 11/18 kB 
+Progress (1): 12/18 kB
+Progress (1): 14/18 kB
+Progress (1): 15/18 kB
+Progress (1): 16/18 kB
+Progress (1): 17/18 kB
+Progress (1): 18 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-javadoc-plugin/3.1.1/maven-javadoc-plugin-3.1.1.pom (18 kB at 62 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-javadoc-plugin/3.1.1/maven-javadoc-plugin-3.1.1.jar
+Progress (1): 16/481 kB
+Progress (1): 33/481 kB
+Progress (1): 49/481 kB
+Progress (1): 62/481 kB
+Progress (1): 78/481 kB
+Progress (1): 94/481 kB
+Progress (1): 111/481 kB
+Progress (1): 127/481 kB
+Progress (1): 144/481 kB
+Progress (1): 160/481 kB
+Progress (1): 176/481 kB
+Progress (1): 193/481 kB
+Progress (1): 209/481 kB
+Progress (1): 225/481 kB
+Progress (1): 242/481 kB
+Progress (1): 258/481 kB
+Progress (1): 275/481 kB
+Progress (1): 291/481 kB
+Progress (1): 307/481 kB
+Progress (1): 324/481 kB
+Progress (1): 340/481 kB
+Progress (1): 357/481 kB
+Progress (1): 373/481 kB
+Progress (1): 389/481 kB
+Progress (1): 406/481 kB
+Progress (1): 422/481 kB
+Progress (1): 438/481 kB
+Progress (1): 455/481 kB
+Progress (1): 471/481 kB
+Progress (1): 481 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-javadoc-plugin/3.1.1/maven-javadoc-plugin-3.1.1.jar (481 kB at 5.2 MB/s)
+[INFO] 
+[INFO] --------------------< com.oneandone:snmpman-parent >--------------------
+[INFO] Building SNMPMan Parent 2.1.7-SNAPSHOT                             [1/3]
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+Downloading from central: https://repo.maven.apache.org/maven2/org/testng/testng/7.7.1/testng-7.7.1.pom
+Progress (1): 2.9 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/testng/testng/7.7.1/testng-7.7.1.pom (2.9 kB at 153 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/mockito/mockito-core/5.4.0/mockito-core-5.4.0.pom
+Progress (1): 2.5 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/mockito/mockito-core/5.4.0/mockito-core-5.4.0.pom (2.5 kB at 312 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.14.5/byte-buddy-agent-1.14.5.pom
+Progress (1): 10 kB
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.14.5/byte-buddy-agent-1.14.5.pom (10 kB at 696 kB/s)
+[INFO] 
+[INFO] --- jacoco:0.8.10:prepare-agent (default-prepare-agent) @ snmpman-parent ---
+[INFO] argLine set to -javaagent:C:\\Users\\frank_bump\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.8.10\\org.jacoco.agent-0.8.10-runtime.jar=destfile=D:\\Bump\\breaking-updates\\tempProject\\7f7de81d28b68b091bef2e6f6ffd1836167be6ea\\snmpman\\target\\jacoco.exec
+[INFO] 
+[INFO] --- dependency:3.6.0:tree (default-cli) @ snmpman-parent ---
+[INFO] com.oneandone:snmpman-parent:pom:2.1.7-SNAPSHOT
+[INFO] +- org.testng:testng:jar:7.7.1:test
+[INFO] |  +- com.beust:jcommander:jar:1.82:test
+[INFO] |  \- org.webjars:jquery:jar:3.6.1:test
+[INFO] +- org.mockito:mockito-core:jar:5.4.0:test
+[INFO] |  +- net.bytebuddy:byte-buddy:jar:1.14.5:test
+[INFO] |  +- net.bytebuddy:byte-buddy-agent:jar:1.14.5:test
+[INFO] |  \- org.objenesis:objenesis:jar:3.3:test
+[INFO] +- org.projectlombok:lombok:jar:1.18.28:provided
+[INFO] +- org.slf4j:slf4j-api:jar:2.0.7:compile
+[INFO] \- com.google.guava:guava:jar:32.0.1-jre:compile
+[INFO]    +- com.google.guava:failureaccess:jar:1.0.1:compile
+[INFO]    +- com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:compile
+[INFO]    +- com.google.code.findbugs:jsr305:jar:3.0.2:compile
+[INFO]    +- org.checkerframework:checker-qual:jar:3.33.0:compile
+[INFO]    +- com.google.errorprone:error_prone_annotations:jar:2.18.0:compile
+[INFO]    \- com.google.j2objc:j2objc-annotations:jar:2.8:compile
+[INFO] 
+[INFO] -----------------------< com.oneandone:snmpman >------------------------
+[INFO] Building SNMPMan 2.1.7-SNAPSHOT                                    [2/3]
+[INFO]   from snmpman\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from central: https://repo.maven.apache.org/maven2/org/snmp4j/snmp4j/3.7.7/snmp4j-3.7.7.pom
+Progress (1): 11 kB
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/snmp4j/snmp4j/3.7.7/snmp4j-3.7.7.pom (11 kB at 682 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/snmp4j/snmp4j-agent/3.0.3/snmp4j-agent-3.0.3.pom
+Progress (1): 9.4 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/snmp4j/snmp4j-agent/3.0.3/snmp4j-agent-3.0.3.pom (9.4 kB at 95 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/snmp4j/snmp4j/3.0.1/snmp4j-3.0.1.pom
+Progress (1): 10 kB
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/snmp4j/snmp4j/3.0.1/snmp4j-3.0.1.pom (10 kB at 867 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jaxrs/jackson-jaxrs-json-provider/2.15.2/jackson-jaxrs-json-provider-2.15.2.pom
+Progress (1): 4.5 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jaxrs/jackson-jaxrs-json-provider/2.15.2/jackson-jaxrs-json-provider-2.15.2.pom (4.5 kB at 644 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jaxrs/jackson-jaxrs-providers/2.15.2/jackson-jaxrs-providers-2.15.2.pom
+Progress (1): 5.8 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jaxrs/jackson-jaxrs-providers/2.15.2/jackson-jaxrs-providers-2.15.2.pom (5.8 kB at 363 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jaxrs/jackson-jaxrs-base/2.15.2/jackson-jaxrs-base-2.15.2.pom
+Progress (1): 2.3 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jaxrs/jackson-jaxrs-base/2.15.2/jackson-jaxrs-base-2.15.2.pom (2.3 kB at 190 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.15.2/jackson-module-jaxb-annotations-2.15.2.pom
+Progress (1): 3.8 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.15.2/jackson-module-jaxb-annotations-2.15.2.pom (3.8 kB at 473 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-modules-base/2.15.2/jackson-modules-base-2.15.2.pom
+Progress (1): 3.8 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-modules-base/2.15.2/jackson-modules-base-2.15.2.pom (3.8 kB at 343 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.15.2/jackson-dataformat-yaml-2.15.2.pom
+Progress (1): 2.6 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.15.2/jackson-dataformat-yaml-2.15.2.pom (2.6 kB at 658 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformats-text/2.15.2/jackson-dataformats-text-2.15.2.pom
+Progress (1): 3.5 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformats-text/2.15.2/jackson-dataformats-text-2.15.2.pom (3.5 kB at 348 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-slf4j2-impl/2.20.0/log4j-slf4j2-impl-2.20.0.pom
+Progress (1): 5.6 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-slf4j2-impl/2.20.0/log4j-slf4j2-impl-2.20.0.pom (5.6 kB at 512 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j/2.20.0/log4j-2.20.0.pom
+Progress (1): 16/67 kB
+Progress (1): 33/67 kB
+Progress (1): 49/67 kB
+Progress (1): 66/67 kB
+Progress (1): 67 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j/2.20.0/log4j-2.20.0.pom (67 kB at 7.4 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/logging/logging-parent/7/logging-parent-7.pom
+Progress (1): 3.3 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/logging/logging-parent/7/logging-parent-7.pom (3.3 kB at 274 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-bom/2.20.0/log4j-bom-2.20.0.pom
+Progress (1): 9.0 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-bom/2.20.0/log4j-bom-2.20.0.pom (9.0 kB at 752 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/groovy/groovy-bom/3.0.14/groovy-bom-3.0.14.pom
+Progress (1): 16/26 kB
+Progress (1): 26 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/groovy/groovy-bom/3.0.14/groovy-bom-3.0.14.pom (26 kB at 4.4 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/jakarta/platform/jakarta.jakartaee-bom/9.0.0/jakarta.jakartaee-bom-9.0.0.pom
+Progress (1): 9.6 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/jakarta/platform/jakarta.jakartaee-bom/9.0.0/jakarta.jakartaee-bom-9.0.0.pom (9.6 kB at 2.4 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/jakarta/platform/jakartaee-api-parent/9.0.0/jakartaee-api-parent-9.0.0.pom
+Progress (1): 15 kB
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/jakarta/platform/jakartaee-api-parent/9.0.0/jakartaee-api-parent-9.0.0.pom (15 kB at 1.2 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-bom/9.4.50.v20221201/jetty-bom-9.4.50.v20221201.pom
+Progress (1): 16/18 kB
+Progress (1): 18 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-bom/9.4.50.v20221201/jetty-bom-9.4.50.v20221201.pom (18 kB at 2.0 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/fabric8/kubernetes-client-bom/5.12.2/kubernetes-client-bom-5.12.2.pom
+Progress (1): 16/26 kB
+Progress (1): 26 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/io/fabric8/kubernetes-client-bom/5.12.2/kubernetes-client-bom-5.12.2.pom (26 kB at 3.2 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-bom/4.1.86.Final/netty-bom-4.1.86.Final.pom
+Progress (1): 13 kB
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-bom/4.1.86.Final/netty-bom-4.1.86.Final.pom (13 kB at 2.2 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-framework-bom/5.3.24/spring-framework-bom-5.3.24.pom
+Progress (1): 5.7 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-framework-bom/5.3.24/spring-framework-bom-5.3.24.pom (5.7 kB at 404 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-api/2.20.0/log4j-api-2.20.0.pom
+Progress (1): 6.3 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-api/2.20.0/log4j-api-2.20.0.pom (6.3 kB at 698 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-core/2.20.0/log4j-core-2.20.0.pom
+Progress (1): 11 kB
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-core/2.20.0/log4j-core-2.20.0.pom (11 kB at 1.9 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/snmp4j/snmp4j/3.7.7/snmp4j-3.7.7.jar
+Progress (1): 16/646 kB
+Progress (1): 33/646 kB
+Progress (1): 49/646 kB
+Progress (1): 66/646 kB
+Progress (1): 82/646 kB
+Progress (1): 98/646 kB
+Progress (1): 115/646 kB
+Progress (1): 131/646 kB
+Progress (1): 147/646 kB
+Progress (1): 164/646 kB
+Progress (1): 180/646 kB
+Progress (1): 197/646 kB
+Progress (1): 213/646 kB
+Progress (1): 229/646 kB
+Progress (1): 246/646 kB
+Progress (1): 262/646 kB
+Progress (1): 279/646 kB
+Progress (1): 295/646 kB
+Progress (1): 311/646 kB
+Progress (1): 328/646 kB
+Progress (1): 344/646 kB
+Progress (1): 360/646 kB
+Progress (1): 377/646 kB
+Progress (1): 393/646 kB
+Progress (1): 410/646 kB
+Progress (1): 426/646 kB
+Progress (1): 442/646 kB
+Progress (1): 459/646 kB
+Progress (1): 475/646 kB
+Progress (1): 492/646 kB
+Progress (1): 508/646 kB
+Progress (1): 524/646 kB
+Progress (1): 541/646 kB
+Progress (1): 557/646 kB
+Progress (1): 573/646 kB
+Progress (1): 590/646 kB
+Progress (1): 606/646 kB
+Progress (1): 623/646 kB
+Progress (1): 639/646 kB
+Progress (1): 646 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/snmp4j/snmp4j/3.7.7/snmp4j-3.7.7.jar (646 kB at 13 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/snmp4j/snmp4j-agent/3.0.3/snmp4j-agent-3.0.3.jar
+Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jaxrs/jackson-jaxrs-base/2.15.2/jackson-jaxrs-base-2.15.2.jar
+Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jaxrs/jackson-jaxrs-json-provider/2.15.2/jackson-jaxrs-json-provider-2.15.2.jar
+Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.15.2/jackson-dataformat-yaml-2.15.2.jar
+Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.15.2/jackson-module-jaxb-annotations-2.15.2.jar
+Progress (1): 1.4/17 kB
+Progress (1): 2.7/17 kB
+Progress (2): 2.7/17 kB | 1.4/55 kB
+Progress (2): 4.1/17 kB | 1.4/55 kB
+Progress (2): 5.5/17 kB | 1.4/55 kB
+Progress (2): 6.9/17 kB | 1.4/55 kB
+Progress (2): 8.2/17 kB | 1.4/55 kB
+Progress (2): 9.6/17 kB | 1.4/55 kB
+Progress (2): 11/17 kB | 1.4/55 kB 
+Progress (2): 11/17 kB | 2.7/55 kB
+Progress (2): 12/17 kB | 2.7/55 kB
+Progress (2): 12/17 kB | 4.1/55 kB
+Progress (2): 14/17 kB | 4.1/55 kB
+Progress (2): 15/17 kB | 4.1/55 kB
+Progress (2): 15/17 kB | 5.5/55 kB
+Progress (2): 16/17 kB | 5.5/55 kB
+Progress (2): 17 kB | 5.5/55 kB   
+Progress (2): 17 kB | 6.9/55 kB
+Progress (2): 17 kB | 8.2/55 kB
+Progress (2): 17 kB | 9.6/55 kB
+Progress (2): 17 kB | 11/55 kB 
+Progress (2): 17 kB | 12/55 kB
+Progress (2): 17 kB | 14/55 kB
+Progress (2): 17 kB | 15/55 kB
+Progress (2): 17 kB | 16/55 kB
+Progress (2): 17 kB | 18/55 kB
+Progress (2): 17 kB | 19/55 kB
+Progress (2): 17 kB | 21/55 kB
+Progress (2): 17 kB | 22/55 kB
+                              
+Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jaxrs/jackson-jaxrs-json-provider/2.15.2/jackson-jaxrs-json-provider-2.15.2.jar (17 kB at 504 kB/s)
+Progress (1): 23/55 kB
+Progress (1): 25/55 kB
+Progress (1): 26/55 kB
+Progress (1): 27/55 kB
+Progress (1): 29/55 kB
+Progress (1): 30/55 kB
+Progress (1): 32/55 kB
+Progress (1): 33/55 kB
+Progress (1): 34/55 kB
+Progress (1): 36/55 kB
+Progress (1): 37/55 kB
+Progress (1): 38/55 kB
+Progress (1): 40/55 kB
+Progress (1): 41/55 kB
+Progress (1): 43/55 kB
+Progress (1): 44/55 kB
+Progress (1): 45/55 kB
+Progress (1): 47/55 kB
+Progress (1): 48/55 kB
+Progress (1): 49/55 kB
+Progress (1): 51/55 kB
+Progress (1): 52/55 kB
+Progress (1): 53/55 kB
+Progress (1): 55 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.15.2/jackson-dataformat-yaml-2.15.2.jar (55 kB at 1.3 MB/s)
+Progress (1): 1.4/32 kB
+Progress (1): 2.7/32 kB
+Progress (1): 4.1/32 kB
+Progress (1): 5.5/32 kB
+Progress (1): 6.9/32 kB
+Progress (1): 8.2/32 kB
+Progress (1): 9.6/32 kB
+Progress (1): 11/32 kB 
+Progress (1): 12/32 kB
+Progress (1): 14/32 kB
+Progress (1): 15/32 kB
+Progress (1): 16/32 kB
+Progress (1): 17/32 kB
+Progress (1): 19/32 kB
+Progress (1): 20/32 kB
+Progress (1): 21/32 kB
+Progress (1): 23/32 kB
+Progress (1): 24/32 kB
+Progress (1): 25/32 kB
+Progress (1): 27/32 kB
+Progress (1): 28/32 kB
+Progress (1): 30/32 kB
+Progress (1): 31/32 kB
+Progress (1): 32 kB   
+Progress (2): 32 kB | 1.4/37 kB
+Progress (2): 32 kB | 2.7/37 kB
+Progress (2): 32 kB | 4.1/37 kB
+Progress (2): 32 kB | 5.5/37 kB
+Progress (2): 32 kB | 6.9/37 kB
+Progress (2): 32 kB | 8.2/37 kB
+Progress (2): 32 kB | 9.6/37 kB
+Progress (2): 32 kB | 11/37 kB 
+Progress (2): 32 kB | 12/37 kB
+Progress (2): 32 kB | 14/37 kB
+Progress (2): 32 kB | 15/37 kB
+Progress (2): 32 kB | 16/37 kB
+                              
+Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jaxrs/jackson-jaxrs-base/2.15.2/jackson-jaxrs-base-2.15.2.jar (32 kB at 418 kB/s)
+Progress (1): 18/37 kB
+Progress (1): 19/37 kB
+Progress (1): 21/37 kB
+Progress (1): 22/37 kB
+Progress (1): 23/37 kB
+Progress (1): 25/37 kB
+Progress (1): 26/37 kB
+Progress (1): 27/37 kB
+Progress (1): 29/37 kB
+Progress (1): 30/37 kB
+Progress (1): 32/37 kB
+Progress (1): 33/37 kB
+Progress (1): 34/37 kB
+Progress (1): 36/37 kB
+Progress (1): 37 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.15.2/jackson-module-jaxb-annotations-2.15.2.jar (37 kB at 476 kB/s)
+Progress (1): 16/700 kB
+Progress (1): 33/700 kB
+Progress (1): 49/700 kB
+Progress (1): 66/700 kB
+Progress (1): 82/700 kB
+Progress (1): 98/700 kB
+Progress (1): 115/700 kB
+Progress (1): 131/700 kB
+Progress (1): 147/700 kB
+Progress (1): 164/700 kB
+Progress (1): 180/700 kB
+Progress (1): 197/700 kB
+Progress (1): 213/700 kB
+Progress (1): 229/700 kB
+Progress (1): 246/700 kB
+Progress (1): 262/700 kB
+Progress (1): 279/700 kB
+Progress (1): 295/700 kB
+Progress (1): 311/700 kB
+Progress (1): 328/700 kB
+Progress (1): 344/700 kB
+Progress (1): 360/700 kB
+Progress (1): 377/700 kB
+Progress (1): 393/700 kB
+Progress (1): 410/700 kB
+Progress (1): 426/700 kB
+Progress (1): 442/700 kB
+Progress (1): 459/700 kB
+Progress (1): 475/700 kB
+Progress (1): 492/700 kB
+Progress (1): 508/700 kB
+Progress (1): 524/700 kB
+Progress (1): 541/700 kB
+Progress (1): 557/700 kB
+Progress (1): 573/700 kB
+Progress (1): 590/700 kB
+Progress (1): 606/700 kB
+Progress (1): 623/700 kB
+Progress (1): 639/700 kB
+Progress (1): 655/700 kB
+Progress (1): 672/700 kB
+Progress (1): 688/700 kB
+Progress (1): 700 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/snmp4j/snmp4j-agent/3.0.3/snmp4j-agent-3.0.3.jar (700 kB at 5.3 MB/s)
+[INFO] 
+[INFO] --- jacoco:0.8.10:prepare-agent (default-prepare-agent) @ snmpman ---
+[INFO] argLine set to -javaagent:C:\\Users\\frank_bump\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.8.10\\org.jacoco.agent-0.8.10-runtime.jar=destfile=D:\\Bump\\breaking-updates\\tempProject\\7f7de81d28b68b091bef2e6f6ffd1836167be6ea\\snmpman\\snmpman\\target\\jacoco.exec
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ snmpman ---
+[INFO] skip non existing resourceDirectory D:\Bump\breaking-updates\tempProject\7f7de81d28b68b091bef2e6f6ffd1836167be6ea\snmpman\snmpman\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ snmpman ---
+[INFO] Changes detected - recompiling the module! :dependency
+[INFO] Compiling 25 source files with javac [debug target 9] to target\classes
+[WARNING] system modules path not set in conjunction with -source 9
+[INFO] /D:/Bump/breaking-updates/tempProject/7f7de81d28b68b091bef2e6f6ffd1836167be6ea/snmpman/snmpman/src/main/java/com/oneandone/snmpman/Snmpman.java: Some input files use or override a deprecated API.
+[INFO] /D:/Bump/breaking-updates/tempProject/7f7de81d28b68b091bef2e6f6ffd1836167be6ea/snmpman/snmpman/src/main/java/com/oneandone/snmpman/Snmpman.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- dependency:3.6.0:tree (default-cli) @ snmpman ---
+[INFO] com.oneandone:snmpman:jar:2.1.7-SNAPSHOT
+[INFO] +- org.snmp4j:snmp4j:jar:3.7.7:compile
+[INFO] +- org.snmp4j:snmp4j-agent:jar:3.0.3:compile
+[INFO] +- com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:jar:2.15.2:compile
+[INFO] |  +- com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:jar:2.15.2:compile
+[INFO] |  \- com.fasterxml.jackson.module:jackson-module-jaxb-annotations:jar:2.15.2:compile
+[INFO] |     +- com.fasterxml.jackson.core:jackson-annotations:jar:2.15.2:compile
+[INFO] |     +- jakarta.xml.bind:jakarta.xml.bind-api:jar:2.3.3:compile
+[INFO] |     \- jakarta.activation:jakarta.activation-api:jar:1.2.2:compile
+[INFO] +- com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.15.2:compile
+[INFO] |  +- com.fasterxml.jackson.core:jackson-databind:jar:2.15.2:compile
+[INFO] |  \- org.yaml:snakeyaml:jar:2.0:compile
+[INFO] +- com.fasterxml.jackson.core:jackson-core:jar:2.15.2:compile
+[INFO] +- org.apache.logging.log4j:log4j-slf4j2-impl:jar:2.20.0:test
+[INFO] |  +- org.apache.logging.log4j:log4j-api:jar:2.20.0:test
+[INFO] |  \- org.apache.logging.log4j:log4j-core:jar:2.20.0:test
+[INFO] +- org.testng:testng:jar:7.7.1:test
+[INFO] |  +- com.beust:jcommander:jar:1.82:test
+[INFO] |  \- org.webjars:jquery:jar:3.6.1:test
+[INFO] +- org.mockito:mockito-core:jar:5.4.0:test
+[INFO] |  +- net.bytebuddy:byte-buddy:jar:1.14.5:test
+[INFO] |  +- net.bytebuddy:byte-buddy-agent:jar:1.14.5:test
+[INFO] |  \- org.objenesis:objenesis:jar:3.3:test
+[INFO] +- org.projectlombok:lombok:jar:1.18.28:provided
+[INFO] +- org.slf4j:slf4j-api:jar:2.0.7:compile
+[INFO] \- com.google.guava:guava:jar:32.0.1-jre:compile
+[INFO]    +- com.google.guava:failureaccess:jar:1.0.1:compile
+[INFO]    +- com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:compile
+[INFO]    +- com.google.code.findbugs:jsr305:jar:3.0.2:compile
+[INFO]    +- org.checkerframework:checker-qual:jar:3.33.0:compile
+[INFO]    +- com.google.errorprone:error_prone_annotations:jar:2.18.0:compile
+[INFO]    \- com.google.j2objc:j2objc-annotations:jar:2.8:compile
+[INFO] 
+[INFO] ---------------------< com.oneandone:snmpman-cli >----------------------
+[INFO] Building SNMPMan Command Line 2.1.7-SNAPSHOT                       [3/3]
+[INFO]   from snmpman-cli\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Artifact args4j:args4j:pom:2.33 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact args4j:args4j:pom:2.33 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases)]
+Downloading from central: https://repo.maven.apache.org/maven2/args4j/args4j/2.33/args4j-2.33.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/args4j/args4j/2.33/args4j-2.33.pom (0 B at 0 B/s)
+[INFO] Artifact args4j:args4j-site:pom:2.33 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact args4j:args4j-site:pom:2.33 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases)]
+Downloading from central: https://repo.maven.apache.org/maven2/args4j/args4j-site/2.33/args4j-site-2.33.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/args4j/args4j-site/2.33/args4j-site-2.33.pom (0 B at 0 B/s)
+[INFO] Artifact org.kohsuke:pom:pom:14 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact org.kohsuke:pom:pom:14 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases)]
+Downloading from central: https://repo.maven.apache.org/maven2/org/kohsuke/pom/14/pom-14.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/kohsuke/pom/14/pom-14.pom (0 B at 0 B/s)
+[INFO] Artifact args4j:args4j:jar:2.33 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact args4j:args4j:jar:2.33 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases)]
+Downloading from central: https://repo.maven.apache.org/maven2/args4j/args4j/2.33/args4j-2.33.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/args4j/args4j/2.33/args4j-2.33.jar (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-slf4j2-impl/2.20.0/log4j-slf4j2-impl-2.20.0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-api/2.20.0/log4j-api-2.20.0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-core/2.20.0/log4j-core-2.20.0.jar
+Progress (1): 16/26 kB
+Progress (1): 26 kB   
+Progress (2): 26 kB | 16/313 kB
+                               
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-slf4j2-impl/2.20.0/log4j-slf4j2-impl-2.20.0.jar (26 kB at 2.4 MB/s)
+Progress (1): 33/313 kB
+Progress (2): 33/313 kB | 0/1.8 MB
+Progress (2): 33/313 kB | 0/1.8 MB
+Progress (2): 33/313 kB | 0/1.8 MB
+Progress (2): 33/313 kB | 0/1.8 MB
+Progress (2): 33/313 kB | 0/1.8 MB
+Progress (2): 33/313 kB | 0/1.8 MB
+Progress (2): 33/313 kB | 0/1.8 MB
+Progress (2): 33/313 kB | 0/1.8 MB
+Progress (2): 33/313 kB | 0/1.8 MB
+Progress (2): 33/313 kB | 0/1.8 MB
+Progress (2): 33/313 kB | 0/1.8 MB
+Progress (2): 33/313 kB | 0/1.8 MB
+Progress (2): 49/313 kB | 0/1.8 MB
+Progress (2): 49/313 kB | 0/1.8 MB
+Progress (2): 49/313 kB | 0/1.8 MB
+Progress (2): 66/313 kB | 0/1.8 MB
+Progress (2): 66/313 kB | 0.1/1.8 MB
+Progress (2): 66/313 kB | 0.1/1.8 MB
+Progress (2): 82/313 kB | 0.1/1.8 MB
+Progress (2): 98/313 kB | 0.1/1.8 MB
+Progress (2): 98/313 kB | 0.1/1.8 MB
+Progress (2): 115/313 kB | 0.1/1.8 MB
+Progress (2): 115/313 kB | 0.1/1.8 MB
+Progress (2): 115/313 kB | 0.1/1.8 MB
+Progress (2): 115/313 kB | 0.1/1.8 MB
+Progress (2): 131/313 kB | 0.1/1.8 MB
+Progress (2): 131/313 kB | 0.2/1.8 MB
+Progress (2): 131/313 kB | 0.2/1.8 MB
+Progress (2): 147/313 kB | 0.2/1.8 MB
+Progress (2): 147/313 kB | 0.2/1.8 MB
+Progress (2): 147/313 kB | 0.2/1.8 MB
+Progress (2): 164/313 kB | 0.2/1.8 MB
+Progress (2): 164/313 kB | 0.2/1.8 MB
+Progress (2): 180/313 kB | 0.2/1.8 MB
+Progress (2): 180/313 kB | 0.2/1.8 MB
+Progress (2): 180/313 kB | 0.3/1.8 MB
+Progress (2): 197/313 kB | 0.3/1.8 MB
+Progress (2): 197/313 kB | 0.3/1.8 MB
+Progress (2): 213/313 kB | 0.3/1.8 MB
+Progress (2): 213/313 kB | 0.3/1.8 MB
+Progress (2): 213/313 kB | 0.3/1.8 MB
+Progress (2): 229/313 kB | 0.3/1.8 MB
+Progress (2): 229/313 kB | 0.3/1.8 MB
+Progress (2): 229/313 kB | 0.3/1.8 MB
+Progress (2): 246/313 kB | 0.3/1.8 MB
+Progress (2): 256/313 kB | 0.3/1.8 MB
+Progress (2): 256/313 kB | 0.4/1.8 MB
+Progress (2): 272/313 kB | 0.4/1.8 MB
+Progress (2): 272/313 kB | 0.4/1.8 MB
+Progress (2): 289/313 kB | 0.4/1.8 MB
+Progress (2): 289/313 kB | 0.4/1.8 MB
+Progress (2): 289/313 kB | 0.4/1.8 MB
+Progress (2): 305/313 kB | 0.4/1.8 MB
+Progress (2): 313 kB | 0.4/1.8 MB    
+Progress (2): 313 kB | 0.4/1.8 MB
+Progress (2): 313 kB | 0.4/1.8 MB
+Progress (2): 313 kB | 0.5/1.8 MB
+Progress (2): 313 kB | 0.5/1.8 MB
+                                 
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-api/2.20.0/log4j-api-2.20.0.jar (313 kB at 7.0 MB/s)
+Progress (1): 0.5/1.8 MB
+Progress (1): 0.5/1.8 MB
+Progress (1): 0.5/1.8 MB
+Progress (1): 0.5/1.8 MB
+Progress (1): 0.5/1.8 MB
+Progress (1): 0.6/1.8 MB
+Progress (1): 0.6/1.8 MB
+Progress (1): 0.6/1.8 MB
+Progress (1): 0.6/1.8 MB
+Progress (1): 0.6/1.8 MB
+Progress (1): 0.6/1.8 MB
+Progress (1): 0.7/1.8 MB
+Progress (1): 0.7/1.8 MB
+Progress (1): 0.7/1.8 MB
+Progress (1): 0.7/1.8 MB
+Progress (1): 0.7/1.8 MB
+Progress (1): 0.7/1.8 MB
+Progress (1): 0.8/1.8 MB
+Progress (1): 0.8/1.8 MB
+Progress (1): 0.8/1.8 MB
+Progress (1): 0.8/1.8 MB
+Progress (1): 0.8/1.8 MB
+Progress (1): 0.8/1.8 MB
+Progress (1): 0.9/1.8 MB
+Progress (1): 0.9/1.8 MB
+Progress (1): 0.9/1.8 MB
+Progress (1): 0.9/1.8 MB
+Progress (1): 0.9/1.8 MB
+Progress (1): 0.9/1.8 MB
+Progress (1): 1.0/1.8 MB
+Progress (1): 1.0/1.8 MB
+Progress (1): 1.0/1.8 MB
+Progress (1): 1.0/1.8 MB
+Progress (1): 1.0/1.8 MB
+Progress (1): 1.0/1.8 MB
+Progress (1): 1.1/1.8 MB
+Progress (1): 1.1/1.8 MB
+Progress (1): 1.1/1.8 MB
+Progress (1): 1.1/1.8 MB
+Progress (1): 1.1/1.8 MB
+Progress (1): 1.1/1.8 MB
+Progress (1): 1.2/1.8 MB
+Progress (1): 1.2/1.8 MB
+Progress (1): 1.2/1.8 MB
+Progress (1): 1.2/1.8 MB
+Progress (1): 1.2/1.8 MB
+Progress (1): 1.2/1.8 MB
+Progress (1): 1.2/1.8 MB
+Progress (1): 1.3/1.8 MB
+Progress (1): 1.3/1.8 MB
+Progress (1): 1.3/1.8 MB
+Progress (1): 1.3/1.8 MB
+Progress (1): 1.3/1.8 MB
+Progress (1): 1.3/1.8 MB
+Progress (1): 1.3/1.8 MB
+Progress (1): 1.4/1.8 MB
+Progress (1): 1.4/1.8 MB
+Progress (1): 1.4/1.8 MB
+Progress (1): 1.4/1.8 MB
+Progress (1): 1.4/1.8 MB
+Progress (1): 1.4/1.8 MB
+Progress (1): 1.5/1.8 MB
+Progress (1): 1.5/1.8 MB
+Progress (1): 1.5/1.8 MB
+Progress (1): 1.5/1.8 MB
+Progress (1): 1.5/1.8 MB
+Progress (1): 1.5/1.8 MB
+Progress (1): 1.6/1.8 MB
+Progress (1): 1.6/1.8 MB
+Progress (1): 1.6/1.8 MB
+Progress (1): 1.6/1.8 MB
+Progress (1): 1.6/1.8 MB
+Progress (1): 1.6/1.8 MB
+Progress (1): 1.6/1.8 MB
+Progress (1): 1.7/1.8 MB
+Progress (1): 1.7/1.8 MB
+Progress (1): 1.7/1.8 MB
+Progress (1): 1.7/1.8 MB
+Progress (1): 1.7/1.8 MB
+Progress (1): 1.7/1.8 MB
+Progress (1): 1.8/1.8 MB
+Progress (1): 1.8/1.8 MB
+Progress (1): 1.8/1.8 MB
+Progress (1): 1.8/1.8 MB
+Progress (1): 1.8/1.8 MB
+Progress (1): 1.8/1.8 MB
+Progress (1): 1.8 MB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-core/2.20.0/log4j-core-2.20.0.jar (1.8 MB at 18 MB/s)
+[INFO] 
+[INFO] --- jacoco:0.8.10:prepare-agent (default-prepare-agent) @ snmpman-cli ---
+[INFO] argLine set to -javaagent:C:\\Users\\frank_bump\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.8.10\\org.jacoco.agent-0.8.10-runtime.jar=destfile=D:\\Bump\\breaking-updates\\tempProject\\7f7de81d28b68b091bef2e6f6ffd1836167be6ea\\snmpman\\snmpman-cli\\target\\jacoco.exec
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ snmpman-cli ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ snmpman-cli ---
+[INFO] Changes detected - recompiling the module! :dependency
+[INFO] Compiling 3 source files with javac [debug target 9] to target\classes
+[WARNING] system modules path not set in conjunction with -source 9
+[INFO] 
+[INFO] --- dependency:3.6.0:tree (default-cli) @ snmpman-cli ---
+[INFO] com.oneandone:snmpman-cli:jar:2.1.7-SNAPSHOT
+[INFO] +- com.oneandone:snmpman:jar:2.1.7-SNAPSHOT:compile
+[INFO] |  +- org.snmp4j:snmp4j:jar:3.7.7:compile
+[INFO] |  +- org.snmp4j:snmp4j-agent:jar:3.0.3:compile
+[INFO] |  +- com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:jar:2.15.2:compile
+[INFO] |  |  +- com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:jar:2.15.2:compile
+[INFO] |  |  \- com.fasterxml.jackson.module:jackson-module-jaxb-annotations:jar:2.15.2:compile
+[INFO] |  |     +- com.fasterxml.jackson.core:jackson-annotations:jar:2.15.2:compile
+[INFO] |  |     +- jakarta.xml.bind:jakarta.xml.bind-api:jar:2.3.3:compile
+[INFO] |  |     \- jakarta.activation:jakarta.activation-api:jar:1.2.2:compile
+[INFO] |  +- com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.15.2:compile
+[INFO] |  |  +- com.fasterxml.jackson.core:jackson-databind:jar:2.15.2:compile
+[INFO] |  |  \- org.yaml:snakeyaml:jar:2.0:compile
+[INFO] |  \- com.fasterxml.jackson.core:jackson-core:jar:2.15.2:compile
+[INFO] +- args4j:args4j:jar:2.33:compile
+[INFO] +- org.apache.logging.log4j:log4j-slf4j2-impl:jar:2.20.0:compile
+[INFO] |  +- org.apache.logging.log4j:log4j-api:jar:2.20.0:compile
+[INFO] |  \- org.apache.logging.log4j:log4j-core:jar:2.20.0:runtime
+[INFO] +- org.testng:testng:jar:7.7.1:test
+[INFO] |  +- com.beust:jcommander:jar:1.82:test
+[INFO] |  \- org.webjars:jquery:jar:3.6.1:test
+[INFO] +- org.mockito:mockito-core:jar:5.4.0:test
+[INFO] |  +- net.bytebuddy:byte-buddy:jar:1.14.5:test
+[INFO] |  +- net.bytebuddy:byte-buddy-agent:jar:1.14.5:test
+[INFO] |  \- org.objenesis:objenesis:jar:3.3:test
+[INFO] +- org.projectlombok:lombok:jar:1.18.28:provided
+[INFO] +- org.slf4j:slf4j-api:jar:2.0.7:compile
+[INFO] \- com.google.guava:guava:jar:32.0.1-jre:compile
+[INFO]    +- com.google.guava:failureaccess:jar:1.0.1:compile
+[INFO]    +- com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:compile
+[INFO]    +- com.google.code.findbugs:jsr305:jar:3.0.2:compile
+[INFO]    +- org.checkerframework:checker-qual:jar:3.33.0:compile
+[INFO]    +- com.google.errorprone:error_prone_annotations:jar:2.18.0:compile
+[INFO]    \- com.google.j2objc:j2objc-annotations:jar:2.8:compile
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for SNMPMan Parent 2.1.7-SNAPSHOT:
+[INFO] 
+[INFO] SNMPMan Parent ..................................... SUCCESS [  2.332 s]
+[INFO] SNMPMan ............................................ SUCCESS [  4.816 s]
+[INFO] SNMPMan Command Line ............................... SUCCESS [  1.414 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  10.091 s
+[INFO] Finished at: 2023-09-21T12:28:03Z
+[INFO] ------------------------------------------------------------------------
