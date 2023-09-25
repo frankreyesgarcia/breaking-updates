@@ -29,6 +29,13 @@ import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+class Test {
+    public static void main(String[] args) {
+        ReproducibilityChecker reproducibilityChecker = new ReproducibilityChecker();
+        reproducibilityChecker.runReproducibilityCheckerAndCounter(Path.of("/Users/frank/Documents/Work/PHD/chains-project/yoggya/breaking-updates-yoggya-fork/data/benchmark"));
+    }
+}
+
 public class ReproducibilityChecker {
 
     private static final String PRECEDING_COMMIT_CONTAINER_TAG = "-pre";
@@ -44,7 +51,7 @@ public class ReproducibilityChecker {
 
     static {
         FAILURE_PATTERNS.put(Pattern.compile(
-                "(?i)(COMPILATION ERROR|COMPILATION_ERROR|Failed to execute goal io\\.takari\\.maven\\.plugins:takari-lifecycle-plugin.*?:compile)"),
+                        "(?i)(COMPILATION ERROR|COMPILATION_ERROR|Failed to execute goal io\\.takari\\.maven\\.plugins:takari-lifecycle-plugin.*?:compile)"),
                 ReproducibleBreakingUpdate.FailureCategory.COMPILATION_FAILURE);
         FAILURE_PATTERNS.put(
                 Pattern.compile("(?i)(\\[ERROR] Tests run:|There are test failures|There were test failures|" +
@@ -60,24 +67,64 @@ public class ReproducibilityChecker {
                         "(?i)(Failed to execute goal org\\.apache\\.maven\\.plugins:maven-scm-plugin:.*?:checkout)"),
                 ReproducibleBreakingUpdate.FailureCategory.SCM_CHECKOUT_FAILURE);
         FAILURE_PATTERNS.put(Pattern.compile(
-                "(?i)(Failed to execute goal org\\.apache\\.maven\\.plugins:maven-checkstyle-plugin:.*?:check)"),
+                        "(?i)(Failed to execute goal org\\.apache\\.maven\\.plugins:maven-checkstyle-plugin:.*?:check)"),
                 ReproducibleBreakingUpdate.FailureCategory.CHECKSTYLE_FAILURE);
         FAILURE_PATTERNS.put(
                 Pattern.compile("(?i)(Failed to execute goal org\\.apache\\.maven\\.plugins:maven-enforcer-plugin)"),
                 ReproducibleBreakingUpdate.FailureCategory.MAVEN_ENFORCER_FAILURE);
         FAILURE_PATTERNS.put(Pattern.compile(
-                "(?i)(Could not resolve dependencies|\\[ERROR] Some problems were encountered while processing the POMs|"
-                        +
-                        "\\[ERROR] .*?The following artifacts could not be resolved)"),
+                        "(?i)(Could not resolve dependencies|\\[ERROR] Some problems were encountered while processing the POMs|"
+                                +
+                                "\\[ERROR] .*?The following artifacts could not be resolved)"),
                 ReproducibleBreakingUpdate.FailureCategory.DEPENDENCY_RESOLUTION_FAILURE);
         FAILURE_PATTERNS.put(
                 Pattern.compile("(?i)(Failed to execute goal se\\.vandmo:dependency-lock-maven-plugin:.*?:check)"),
                 ReproducibleBreakingUpdate.FailureCategory.DEPENDENCY_LOCK_FAILURE);
     }
 
+    public Map<String, Object> getLastPullrequest(Path listFilesPath) {
+
+        File[] breakingUpdates = listFilesPath.toFile().listFiles();
+        MapType buJsonType = JsonUtils.getTypeFactory().constructMapType(Map.class, String.class, Object.class);
+
+        Map<String, Object> uniqueCombinations = new HashMap<>();
+
+        assert breakingUpdates != null;
+        for (File file : breakingUpdates) {
+            if (file.isFile() && file.getName().endsWith(".json")) {
+                Map<String, Object> bu = JsonUtils.readFromFile(file.toPath(), buJsonType);
+
+
+                String project = bu.get("project").toString();
+                String projectOrg = bu.get("projectOrganisation").toString();
+
+                String combinationKey = project + "(*_*)" + projectOrg;
+
+                if (!uniqueCombinations.containsKey(combinationKey) ||
+                        getPullRequestNumber(bu.get("url").toString()) >
+                                getPullRequestNumber(((Map<?, ?>) uniqueCombinations.get(combinationKey)).get("url").toString())) {
+                    uniqueCombinations.put(combinationKey, bu);
+                }
+            }
+        }
+        Map<String, Object> bu = new HashMap<>();
+        uniqueCombinations.forEach((key, value) -> {
+            bu.put(((Map<?, ?>) value).get("breakingCommit").toString(), value);
+
+        });
+
+        return bu;
+
+    }
+
+    private static int getPullRequestNumber(String url) {
+        String[] parts = url.split("/");
+        return Integer.parseInt(parts[parts.length - 1]);
+    }
+
+
     public void runReproducibilityCheckerAndCounter(Path benchmarkDir) {
 
-        File[] breakingUpdates = benchmarkDir.toFile().listFiles();
         createDockerClient();
         MapType buJsonType = JsonUtils.getTypeFactory().constructMapType(Map.class, String.class, Object.class);
 
@@ -117,13 +164,19 @@ public class ReproducibilityChecker {
             depCountResults = new HashMap<>();
         }
 
+        Map<String, Object> breakingUpdates = getLastPullrequest(benchmarkDir);
+
+        // Read breaking updates
+
         if (breakingUpdates != null) {
-            for (File breakingUpdate : breakingUpdates) {
-                Map<String, Object> bu = JsonUtils.readFromFile(breakingUpdate.toPath(), buJsonType);
+            for (Map.Entry<String, Object> entry : breakingUpdates.entrySet()) {
+                String key = entry.getKey();
+                Object values = entry.getValue();
+                Map<String, Object> bu = (Map<String, Object>) values;
                 Map<String, Object> depCount = new HashMap<>();
 
                 String prevImage = REGISTRY + ":" + bu.get("breakingCommit") + PRECEDING_COMMIT_CONTAINER_TAG;
-                String breakingImage = REGISTRY + ":" + bu.get("breakingCommit") + BREAKING_UPDATE_CONTAINER_TAG;
+
 
                 // Create directories to copy the project.
                 Path projectPath;
@@ -135,62 +188,32 @@ public class ReproducibilityChecker {
                     throw new RuntimeException(e);
                 }
 
-                boolean projectCopied = false;
-                // Run reproduction.
-                if (!reproducibilityResults.containsKey((String) bu.get("breakingCommit"))) {
-
-                    ReproducibleBreakingUpdate.FailureCategory failureCategory = ReproducibleBreakingUpdate.FailureCategory
-                            .valueOf((String) bu.get("failureCategory"));
-                    Boolean isReproducible = isReproducible(failureCategory, (String) bu.get("project"), projectPath,
-                            prevImage, breakingImage, (String) bu.get("breakingCommit"));
-                    reproducibilityResults.put((String) bu.get("breakingCommit"), isReproducible);
-
-                    projectCopied = true;
-
-                    JsonUtils.writeToFile(reproducibilityResultsFilePath, reproducibilityResults);
-                }
-
-                // if (depCountResults.containsKey(bu.get("projectOrganisation") + "/" +
-                // bu.get("project")) &&
-                // (depCountResults.get(bu.get("projectOrganisation") + "/" +
-                // bu.get("project"))).get("buCommit") == null) {
-                // System.out.println("awa" + bu.get("projectOrganisation") + "/" +
-                // bu.get("project"));
-                // depCount.put("directCount", depCountResults.get(bu.get("projectOrganisation")
-                // + "/" + bu.get("project")).get("directCount"));
-                // depCount.put("transitiveCount",
-                // depCountResults.get(bu.get("projectOrganisation") + "/" +
-                // bu.get("project")).get("transitiveCount"));
-                // depCount.put("buCommit", bu.get("breakingCommit"));
-                // depCountResults.put(bu.get("projectOrganisation") + "/" + bu.get("project"),
-                // depCount);
-                // JsonUtils.writeToFile(depCountResultsFilePath, depCountResults);
-                // }
 
                 // Run dependency counter.
                 if (!depCountResults.containsKey(bu.get("projectOrganisation") + "/" + bu.get("project"))) {
+                    isReproducible(bu.get("project").toString(), projectPath, prevImage, bu.get("breakingCommit").toString());
                     File treeFile = new File("src/main/java/rqs/dep-trees/" + bu.get("breakingCommit") + ".txt");
                     downloadDepTree(projectPath + File.separator + bu.get("project"), treeFile);
                     DependencyCounts allDepCounts = countDependencies(treeFile);
                     depCount.put("directCount", allDepCounts.directCount);
                     depCount.put("transitiveCount", allDepCounts.transitiveCount);
-                    depCount.put("buCommit", (String) bu.get("breakingCommit"));
+                    depCount.put("buCommit", bu.get("breakingCommit"));
                     depCountResults.put(bu.get("projectOrganisation") + "/" + bu.get("project"), depCount);
 
                     JsonUtils.writeToFile(depCountResultsFilePath, depCountResults);
                 }
-                if (projectCopied)
-                    removeProject(prevImage, breakingImage, projectPath);
+
+                removeProject(prevImage, projectPath);
             }
         }
     }
 
-    private Boolean isReproducible(ReproducibleBreakingUpdate.FailureCategory failureCategory, String project,
-            Path copyDir, String prevImage, String breakingImage, String buCommit) {
+    private void isReproducible(String project,
+                                Path copyDir, String prevImage, String buCommit) {
         Map.Entry<String, Boolean> prevContainer = startContainer(prevImage, true, project);
-        Map.Entry<String, Boolean> breakingContainer = startContainer(breakingImage, false, project);
-        if (prevContainer == null || breakingContainer == null)
-            return null;
+
+        if (prevContainer == null)
+            return;
         Path copiedProjectPath = copyProject(prevContainer.getKey(), project, copyDir);
         Path logFolder = Path.of("src//main//java//rqs//logs" + File.separator + buCommit);
         if (Files.notExists(logFolder)) {
@@ -201,13 +224,7 @@ public class ReproducibilityChecker {
             }
         }
         storeLogFile(project, prevContainer.getKey(), logFolder, "prevCommitOutput.log");
-        Path logFilePath = storeLogFile(project, breakingContainer.getKey(), logFolder, "breakingCommitOutput.log");
-        if (!prevContainer.getValue() || !breakingContainer.getValue())
-            return false;
-        if (logFilePath != null) {
-            return getFailureCategory(logFilePath).equals(failureCategory);
-        }
-        return null;
+
     }
 
     /*
@@ -297,7 +314,7 @@ public class ReproducibilityChecker {
 
     private void downloadDepTree(String projectPath, File treeFile) {
         ProcessBuilder processBuilder = new ProcessBuilder();
-        processBuilder.command("cmd.exe", "/c", "mvn compile -f %s".formatted(projectPath), "dependency:tree");
+        processBuilder.command("sh", "-c", "mvn dependency:tree -f %s".formatted(projectPath));
 
         try {
             Process process = processBuilder.start();
@@ -369,10 +386,10 @@ public class ReproducibilityChecker {
         }
     }
 
-    private void removeProject(String prevImage, String breakingImage, Path projectPath) {
+    private void removeProject(String prevImage, Path projectPath) {
         try {
             dockerClient.removeImageCmd(prevImage).withForce(true).exec();
-            dockerClient.removeImageCmd(breakingImage).withForce(true).exec();
+
             FileUtils.forceDelete(new File(projectPath.toUri()));
         } catch (Exception e) {
             log.error("Project {} could not be deleted.", projectPath, e);
