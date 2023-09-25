@@ -32,7 +32,7 @@ public class Main {
 
         @Override
         public void run() {
-            DockerTimeExe dockerTimeExe = new DockerTimeExe();
+            Attempt dockerTimeExe = new Attempt();
             dockerTimeExe.dockerMetadata(benchmarkDir);
         }
     }
