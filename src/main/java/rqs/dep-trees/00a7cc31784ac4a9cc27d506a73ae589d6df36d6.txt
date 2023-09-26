@@ -24,29 +24,405 @@
 [INFO] QuickFIX/J Examples - Banzai                                    [bundle]
 [INFO] QuickFIX/J All runtime modules                                  [bundle]
 [INFO] QuickFIX/J Distribution                                            [pom]
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-pmd-plugin/3.10.0/maven-pmd-plugin-3.10.0.pom
+Progress (1): 2.7/12 kB
+Progress (1): 5.5/12 kB
+Progress (1): 8.2/12 kB
+Progress (1): 11/12 kB 
+Progress (1): 12 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-pmd-plugin/3.10.0/maven-pmd-plugin-3.10.0.pom (12 kB at 44 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-pmd-plugin/3.10.0/maven-pmd-plugin-3.10.0.jar
+Progress (1): 4.1/113 kB
+Progress (1): 8.2/113 kB
+Progress (1): 12/113 kB 
+Progress (1): 16/113 kB
+Progress (1): 20/113 kB
+Progress (1): 25/113 kB
+Progress (1): 29/113 kB
+Progress (1): 33/113 kB
+Progress (1): 37/113 kB
+Progress (1): 41/113 kB
+Progress (1): 45/113 kB
+Progress (1): 49/113 kB
+Progress (1): 53/113 kB
+Progress (1): 57/113 kB
+Progress (1): 61/113 kB
+Progress (1): 66/113 kB
+Progress (1): 70/113 kB
+Progress (1): 74/113 kB
+Progress (1): 78/113 kB
+Progress (1): 82/113 kB
+Progress (1): 86/113 kB
+Progress (1): 90/113 kB
+Progress (1): 94/113 kB
+Progress (1): 98/113 kB
+Progress (1): 102/113 kB
+Progress (1): 106/113 kB
+Progress (1): 111/113 kB
+Progress (1): 113 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-pmd-plugin/3.10.0/maven-pmd-plugin-3.10.0.jar (113 kB at 795 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-shade-plugin/3.1.1/maven-shade-plugin-3.1.1.pom
+Progress (1): 4.1/9.4 kB
+Progress (1): 8.2/9.4 kB
+Progress (1): 9.4 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-shade-plugin/3.1.1/maven-shade-plugin-3.1.1.pom (9.4 kB at 1.2 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-shade-plugin/3.1.1/maven-shade-plugin-3.1.1.jar
+Progress (1): 4.1/114 kB
+Progress (1): 8.2/114 kB
+Progress (1): 12/114 kB 
+Progress (1): 16/114 kB
+Progress (1): 20/114 kB
+Progress (1): 25/114 kB
+Progress (1): 29/114 kB
+Progress (1): 33/114 kB
+Progress (1): 37/114 kB
+Progress (1): 41/114 kB
+Progress (1): 45/114 kB
+Progress (1): 49/114 kB
+Progress (1): 53/114 kB
+Progress (1): 57/114 kB
+Progress (1): 61/114 kB
+Progress (1): 66/114 kB
+Progress (1): 70/114 kB
+Progress (1): 74/114 kB
+Progress (1): 78/114 kB
+Progress (1): 82/114 kB
+Progress (1): 86/114 kB
+Progress (1): 90/114 kB
+Progress (1): 94/114 kB
+Progress (1): 98/114 kB
+Progress (1): 102/114 kB
+Progress (1): 106/114 kB
+Progress (1): 111/114 kB
+Progress (1): 114 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-shade-plugin/3.1.1/maven-shade-plugin-3.1.1.jar (114 kB at 2.8 MB/s)
 [INFO] 
 [INFO] -------------------< org.quickfixj:quickfixj-parent >-------------------
 [INFO] Building QuickFIX/J Parent 3.0.0-SNAPSHOT                         [1/21]
-[INFO]   from pom.xml
 [INFO] --------------------------------[ pom ]---------------------------------
 [INFO] 
-[INFO] --- dependency:2.8:tree (default-cli) @ quickfixj-parent ---
+[INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ quickfixj-parent ---
 [INFO] org.quickfixj:quickfixj-parent:pom:3.0.0-SNAPSHOT
 [INFO] 
 [INFO] ---------------< org.quickfixj:quickfixj-codegenerator >----------------
 [INFO] Building QuickFIX/J Code Generator Maven Plugin 3.0.0-SNAPSHOT    [2/21]
-[INFO]   from quickfixj-codegenerator\pom.xml
 [INFO] ----------------------------[ maven-plugin ]----------------------------
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugin-plugin/3.6.1/maven-plugin-plugin-3.6.1.pom
+Progress (1): 4.1/13 kB
+Progress (1): 8.2/13 kB
+Progress (1): 12/13 kB 
+Progress (1): 13 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugin-plugin/3.6.1/maven-plugin-plugin-3.6.1.pom (13 kB at 1.3 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools/3.6.1/maven-plugin-tools-3.6.1.pom
+Progress (1): 4.1/15 kB
+Progress (1): 8.2/15 kB
+Progress (1): 12/15 kB 
+Progress (1): 15 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools/3.6.1/maven-plugin-tools-3.6.1.pom (15 kB at 1.5 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugin-plugin/3.6.1/maven-plugin-plugin-3.6.1.jar
+Progress (1): 4.1/52 kB
+Progress (1): 8.2/52 kB
+Progress (1): 12/52 kB 
+Progress (1): 16/52 kB
+Progress (1): 20/52 kB
+Progress (1): 24/52 kB
+Progress (1): 28/52 kB
+Progress (1): 32/52 kB
+Progress (1): 36/52 kB
+Progress (1): 40/52 kB
+Progress (1): 44/52 kB
+Progress (1): 49/52 kB
+Progress (1): 52 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugin-plugin/3.6.1/maven-plugin-plugin-3.6.1.jar (52 kB at 3.7 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/3.8.3/maven-plugin-api-3.8.3.pom
+Progress (1): 3.0 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/3.8.3/maven-plugin-api-3.8.3.pom (3.0 kB at 338 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/3.8.3/maven-artifact-3.8.3.pom
+Progress (1): 2.4 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/3.8.3/maven-artifact-3.8.3.pom (2.4 kB at 218 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/net/sf/saxon/Saxon-HE/9.9.1-8/Saxon-HE-9.9.1-8.pom
+Progress (1): 4.1 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/net/sf/saxon/Saxon-HE/9.9.1-8/Saxon-HE-9.9.1-8.pom (4.1 kB at 290 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/3.8.3/maven-plugin-api-3.8.3.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/3.8.3/maven-model-3.8.3.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/3.8.3/maven-artifact-3.8.3.jar
+Downloading from central: https://repo.maven.apache.org/maven2/net/sf/saxon/Saxon-HE/9.9.1-8/Saxon-HE-9.9.1-8.jar
+Progress (1): 4.1/47 kB
+Progress (1): 8.2/47 kB
+Progress (1): 12/47 kB 
+Progress (1): 16/47 kB
+Progress (1): 20/47 kB
+Progress (1): 24/47 kB
+Progress (1): 28/47 kB
+Progress (1): 32/47 kB
+Progress (1): 36/47 kB
+Progress (1): 40/47 kB
+Progress (1): 44/47 kB
+Progress (1): 47 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/3.8.3/maven-plugin-api-3.8.3.jar (47 kB at 1.2 MB/s)
+Progress (1): 2.7/58 kB
+Progress (1): 5.5/58 kB
+Progress (1): 8.2/58 kB
+Progress (1): 11/58 kB 
+Progress (1): 14/58 kB
+Progress (1): 16/58 kB
+Progress (1): 19/58 kB
+Progress (1): 22/58 kB
+Progress (1): 25/58 kB
+Progress (1): 27/58 kB
+Progress (1): 30/58 kB
+Progress (1): 33/58 kB
+Progress (1): 36/58 kB
+Progress (1): 38/58 kB
+Progress (1): 41/58 kB
+Progress (1): 44/58 kB
+Progress (1): 47/58 kB
+Progress (1): 49/58 kB
+Progress (1): 52/58 kB
+Progress (1): 55/58 kB
+Progress (1): 58/58 kB
+Progress (1): 58 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/3.8.3/maven-artifact-3.8.3.jar (58 kB at 1.0 MB/s)
+Progress (1): 4.1/215 kB
+Progress (1): 8.2/215 kB
+Progress (1): 12/215 kB 
+Progress (1): 16/215 kB
+Progress (1): 20/215 kB
+Progress (1): 25/215 kB
+Progress (1): 29/215 kB
+Progress (1): 33/215 kB
+Progress (1): 37/215 kB
+Progress (1): 41/215 kB
+Progress (1): 45/215 kB
+Progress (1): 49/215 kB
+Progress (1): 53/215 kB
+Progress (1): 57/215 kB
+Progress (1): 61/215 kB
+Progress (1): 66/215 kB
+Progress (1): 70/215 kB
+Progress (1): 74/215 kB
+Progress (1): 78/215 kB
+Progress (1): 82/215 kB
+Progress (1): 86/215 kB
+Progress (1): 90/215 kB
+Progress (1): 94/215 kB
+Progress (1): 98/215 kB
+Progress (1): 102/215 kB
+Progress (1): 106/215 kB
+Progress (1): 111/215 kB
+Progress (1): 115/215 kB
+Progress (1): 119/215 kB
+Progress (1): 123/215 kB
+Progress (1): 127/215 kB
+Progress (1): 131/215 kB
+Progress (1): 135/215 kB
+Progress (1): 139/215 kB
+Progress (1): 143/215 kB
+Progress (1): 147/215 kB
+Progress (1): 152/215 kB
+Progress (1): 156/215 kB
+Progress (1): 160/215 kB
+Progress (1): 164/215 kB
+Progress (2): 164/215 kB | 0/5.5 MB
+Progress (2): 168/215 kB | 0/5.5 MB
+Progress (2): 172/215 kB | 0/5.5 MB
+Progress (2): 176/215 kB | 0/5.5 MB
+Progress (2): 180/215 kB | 0/5.5 MB
+Progress (2): 184/215 kB | 0/5.5 MB
+Progress (2): 188/215 kB | 0/5.5 MB
+Progress (2): 193/215 kB | 0/5.5 MB
+Progress (2): 197/215 kB | 0/5.5 MB
+Progress (2): 197/215 kB | 0.1/5.5 MB
+Progress (2): 201/215 kB | 0.1/5.5 MB
+Progress (2): 205/215 kB | 0.1/5.5 MB
+Progress (2): 209/215 kB | 0.1/5.5 MB
+Progress (2): 213/215 kB | 0.1/5.5 MB
+Progress (2): 215 kB | 0.1/5.5 MB    
+Progress (2): 215 kB | 0.1/5.5 MB
+Progress (2): 215 kB | 0.1/5.5 MB
+                                 
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/3.8.3/maven-model-3.8.3.jar (215 kB at 2.5 MB/s)
+Progress (1): 0.2/5.5 MB
+Progress (1): 0.2/5.5 MB
+Progress (1): 0.2/5.5 MB
+Progress (1): 0.3/5.5 MB
+Progress (1): 0.3/5.5 MB
+Progress (1): 0.3/5.5 MB
+Progress (1): 0.4/5.5 MB
+Progress (1): 0.4/5.5 MB
+Progress (1): 0.4/5.5 MB
+Progress (1): 0.5/5.5 MB
+Progress (1): 0.5/5.5 MB
+Progress (1): 0.5/5.5 MB
+Progress (1): 0.6/5.5 MB
+Progress (1): 0.6/5.5 MB
+Progress (1): 0.6/5.5 MB
+Progress (1): 0.7/5.5 MB
+Progress (1): 0.7/5.5 MB
+Progress (1): 0.7/5.5 MB
+Progress (1): 0.8/5.5 MB
+Progress (1): 0.8/5.5 MB
+Progress (1): 0.8/5.5 MB
+Progress (1): 0.9/5.5 MB
+Progress (1): 0.9/5.5 MB
+Progress (1): 0.9/5.5 MB
+Progress (1): 0.9/5.5 MB
+Progress (1): 1.0/5.5 MB
+Progress (1): 1.0/5.5 MB
+Progress (1): 1.0/5.5 MB
+Progress (1): 1.1/5.5 MB
+Progress (1): 1.1/5.5 MB
+Progress (1): 1.1/5.5 MB
+Progress (1): 1.2/5.5 MB
+Progress (1): 1.2/5.5 MB
+Progress (1): 1.2/5.5 MB
+Progress (1): 1.3/5.5 MB
+Progress (1): 1.3/5.5 MB
+Progress (1): 1.3/5.5 MB
+Progress (1): 1.4/5.5 MB
+Progress (1): 1.4/5.5 MB
+Progress (1): 1.4/5.5 MB
+Progress (1): 1.5/5.5 MB
+Progress (1): 1.5/5.5 MB
+Progress (1): 1.5/5.5 MB
+Progress (1): 1.6/5.5 MB
+Progress (1): 1.6/5.5 MB
+Progress (1): 1.6/5.5 MB
+Progress (1): 1.7/5.5 MB
+Progress (1): 1.7/5.5 MB
+Progress (1): 1.7/5.5 MB
+Progress (1): 1.8/5.5 MB
+Progress (1): 1.8/5.5 MB
+Progress (1): 1.8/5.5 MB
+Progress (1): 1.9/5.5 MB
+Progress (1): 1.9/5.5 MB
+Progress (1): 1.9/5.5 MB
+Progress (1): 2.0/5.5 MB
+Progress (1): 2.0/5.5 MB
+Progress (1): 2.0/5.5 MB
+Progress (1): 2.1/5.5 MB
+Progress (1): 2.1/5.5 MB
+Progress (1): 2.1/5.5 MB
+Progress (1): 2.2/5.5 MB
+Progress (1): 2.2/5.5 MB
+Progress (1): 2.2/5.5 MB
+Progress (1): 2.3/5.5 MB
+Progress (1): 2.3/5.5 MB
+Progress (1): 2.3/5.5 MB
+Progress (1): 2.4/5.5 MB
+Progress (1): 2.4/5.5 MB
+Progress (1): 2.4/5.5 MB
+Progress (1): 2.5/5.5 MB
+Progress (1): 2.5/5.5 MB
+Progress (1): 2.5/5.5 MB
+Progress (1): 2.6/5.5 MB
+Progress (1): 2.6/5.5 MB
+Progress (1): 2.6/5.5 MB
+Progress (1): 2.7/5.5 MB
+Progress (1): 2.7/5.5 MB
+Progress (1): 2.7/5.5 MB
+Progress (1): 2.8/5.5 MB
+Progress (1): 2.8/5.5 MB
+Progress (1): 2.8/5.5 MB
+Progress (1): 2.9/5.5 MB
+Progress (1): 2.9/5.5 MB
+Progress (1): 2.9/5.5 MB
+Progress (1): 2.9/5.5 MB
+Progress (1): 3.0/5.5 MB
+Progress (1): 3.0/5.5 MB
+Progress (1): 3.0/5.5 MB
+Progress (1): 3.1/5.5 MB
+Progress (1): 3.1/5.5 MB
+Progress (1): 3.1/5.5 MB
+Progress (1): 3.2/5.5 MB
+Progress (1): 3.2/5.5 MB
+Progress (1): 3.2/5.5 MB
+Progress (1): 3.3/5.5 MB
+Progress (1): 3.3/5.5 MB
+Progress (1): 3.3/5.5 MB
+Progress (1): 3.4/5.5 MB
+Progress (1): 3.4/5.5 MB
+Progress (1): 3.4/5.5 MB
+Progress (1): 3.5/5.5 MB
+Progress (1): 3.5/5.5 MB
+Progress (1): 3.5/5.5 MB
+Progress (1): 3.6/5.5 MB
+Progress (1): 3.6/5.5 MB
+Progress (1): 3.6/5.5 MB
+Progress (1): 3.7/5.5 MB
+Progress (1): 3.7/5.5 MB
+Progress (1): 3.7/5.5 MB
+Progress (1): 3.8/5.5 MB
+Progress (1): 3.8/5.5 MB
+Progress (1): 3.8/5.5 MB
+Progress (1): 3.9/5.5 MB
+Progress (1): 3.9/5.5 MB
+Progress (1): 3.9/5.5 MB
+Progress (1): 4.0/5.5 MB
+Progress (1): 4.0/5.5 MB
+Progress (1): 4.0/5.5 MB
+Progress (1): 4.1/5.5 MB
+Progress (1): 4.1/5.5 MB
+Progress (1): 4.1/5.5 MB
+Progress (1): 4.2/5.5 MB
+Progress (1): 4.2/5.5 MB
+Progress (1): 4.2/5.5 MB
+Progress (1): 4.3/5.5 MB
+Progress (1): 4.3/5.5 MB
+Progress (1): 4.3/5.5 MB
+Progress (1): 4.4/5.5 MB
+Progress (1): 4.4/5.5 MB
+Progress (1): 4.4/5.5 MB
+Progress (1): 4.5/5.5 MB
+Progress (1): 4.5/5.5 MB
+Progress (1): 4.5/5.5 MB
+Progress (1): 4.6/5.5 MB
+Progress (1): 4.6/5.5 MB
+Progress (1): 4.6/5.5 MB
+Progress (1): 4.7/5.5 MB
+Progress (1): 4.7/5.5 MB
+Progress (1): 4.7/5.5 MB
+Progress (1): 4.8/5.5 MB
+Progress (1): 4.8/5.5 MB
+Progress (1): 4.8/5.5 MB
+Progress (1): 4.8/5.5 MB
+Progress (1): 4.9/5.5 MB
+Progress (1): 4.9/5.5 MB
+Progress (1): 4.9/5.5 MB
+Progress (1): 5.0/5.5 MB
+Progress (1): 5.0/5.5 MB
+Progress (1): 5.0/5.5 MB
+Progress (1): 5.1/5.5 MB
+Progress (1): 5.1/5.5 MB
+Progress (1): 5.1/5.5 MB
+Progress (1): 5.2/5.5 MB
+Progress (1): 5.2/5.5 MB
+Progress (1): 5.2/5.5 MB
+Progress (1): 5.3/5.5 MB
+Progress (1): 5.3/5.5 MB
+Progress (1): 5.3/5.5 MB
+Progress (1): 5.4/5.5 MB
+Progress (1): 5.4/5.5 MB
+Progress (1): 5.4/5.5 MB
+Progress (1): 5.5/5.5 MB
+Progress (1): 5.5/5.5 MB
+Progress (1): 5.5 MB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/net/sf/saxon/Saxon-HE/9.9.1-8/Saxon-HE-9.9.1-8.jar (5.5 MB at 23 MB/s)
 [INFO] 
-[INFO] --- resources:3.1.0:resources (default-resources) @ quickfixj-codegenerator ---
-[INFO] Using 'UTF-8' encoding to copy filtered resources.
-[INFO] Copying 7 resources
-[INFO] 
-[INFO] --- compiler:3.8.0:compile (default-compile) @ quickfixj-codegenerator ---
-[INFO] Changes detected - recompiling the module!
-[INFO] Compiling 4 source files to C:\Users\Yogya\Documents\KTH\BreakingUpdates\breaking-updates\tempProject\00a7cc31784ac4a9cc27d506a73ae589d6df36d6-breaking\quickfixj\quickfixj-codegenerator\target\classes
-[INFO] 
-[INFO] --- dependency:2.8:tree (default-cli) @ quickfixj-codegenerator ---
+[INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ quickfixj-codegenerator ---
 [INFO] org.quickfixj:quickfixj-codegenerator:maven-plugin:3.0.0-SNAPSHOT
 [INFO] +- org.apache.maven:maven-plugin-api:jar:3.8.3:compile
 [INFO] |  +- org.apache.maven:maven-model:jar:3.8.3:compile
@@ -74,260 +450,952 @@
 [INFO] 
 [INFO] ---------------< org.quickfixj:quickfixj-dictgenerator >----------------
 [INFO] Building QuickFIX/J Dictionary Generator 3.0.0-SNAPSHOT           [3/21]
-[INFO]   from quickfixj-dictgenerator\pom.xml
 [INFO] -------------------------------[ bundle ]-------------------------------
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-install-plugin/maven-metadata.xml
+Progress (1): 781 B
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-install-plugin/maven-metadata.xml (781 B at 98 kB/s)
 [INFO] 
-[INFO] --- resources:3.1.0:resources (default-resources) @ quickfixj-dictgenerator ---
-[INFO] Using 'UTF-8' encoding to copy filtered resources.
-[INFO] skip non existing resourceDirectory C:\Users\Yogya\Documents\KTH\BreakingUpdates\breaking-updates\tempProject\00a7cc31784ac4a9cc27d506a73ae589d6df36d6-breaking\quickfixj\quickfixj-dictgenerator\src\main\resources
-[INFO] 
-[INFO] --- compiler:3.8.0:compile (default-compile) @ quickfixj-dictgenerator ---
-[INFO] Changes detected - recompiling the module!
-[INFO] Compiling 11 source files to C:\Users\Yogya\Documents\KTH\BreakingUpdates\breaking-updates\tempProject\00a7cc31784ac4a9cc27d506a73ae589d6df36d6-breaking\quickfixj\quickfixj-dictgenerator\target\classes
-[INFO] 
-[INFO] --- dependency:2.8:tree (default-cli) @ quickfixj-dictgenerator ---
+[INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ quickfixj-dictgenerator ---
 [INFO] org.quickfixj:quickfixj-dictgenerator:bundle:3.0.0-SNAPSHOT
 [INFO] +- org.dom4j:dom4j:jar:2.1.3:compile
 [INFO] \- jaxen:jaxen:jar:1.2.0:runtime
 [INFO] 
 [INFO] --------------------< org.quickfixj:quickfixj-core >--------------------
 [INFO] Building QuickFIX/J Core engine 3.0.0-SNAPSHOT                    [4/21]
-[INFO]   from quickfixj-core\pom.xml
 [INFO] -------------------------------[ bundle ]-------------------------------
+[WARNING] Failed to retrieve plugin descriptor for org.quickfixj:quickfixj-codegenerator:3.0.0-SNAPSHOT: Plugin org.quickfixj:quickfixj-codegenerator:3.0.0-SNAPSHOT or one of its dependencies could not be resolved: Could not find artifact org.quickfixj:quickfixj-codegenerator:jar:3.0.0-SNAPSHOT
+Downloading from central: https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-all/1.1/hamcrest-all-1.1.pom
+Progress (1): 479 B
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-all/1.1/hamcrest-all-1.1.pom (479 B at 24 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/hsqldb/hsqldb/1.8.0.10/hsqldb-1.8.0.10.pom
+Progress (1): 600 B
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/hsqldb/hsqldb/1.8.0.10/hsqldb-1.8.0.10.pom (600 B at 75 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/tyrex/tyrex/1.0.1/tyrex-1.0.1.pom
+Progress (1): 144 B
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/tyrex/tyrex/1.0.1/tyrex-1.0.1.pom (144 B at 16 kB/s)
 Downloading from central: https://repo.maven.apache.org/maven2/org/apache/mina/mina-core/2.1.5/mina-core-2.1.5.pom
-Progress (1): 1.4/6.3 kB
-Progress (1): 2.7/6.3 kB
 Progress (1): 4.1/6.3 kB
-Progress (1): 5.5/6.3 kB
 Progress (1): 6.3 kB    
                     
-Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/mina/mina-core/2.1.5/mina-core-2.1.5.pom (6.3 kB at 9.3 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/mina/mina-core/2.1.5/mina-core-2.1.5.pom (6.3 kB at 576 kB/s)
 Downloading from central: https://repo.maven.apache.org/maven2/org/apache/mina/mina-parent/2.1.5/mina-parent-2.1.5.pom
-Progress (1): 1.4/31 kB
-Progress (1): 2.7/31 kB
 Progress (1): 4.1/31 kB
-Progress (1): 5.5/31 kB
-Progress (1): 6.9/31 kB
 Progress (1): 8.2/31 kB
-Progress (1): 9.6/31 kB
-Progress (1): 11/31 kB 
-Progress (1): 12/31 kB
-Progress (1): 14/31 kB
-Progress (1): 15/31 kB
+Progress (1): 12/31 kB 
 Progress (1): 16/31 kB
-Progress (1): 17/31 kB
-Progress (1): 19/31 kB
 Progress (1): 20/31 kB
-Progress (1): 21/31 kB
-Progress (1): 23/31 kB
-Progress (1): 24/31 kB
 Progress (1): 25/31 kB
-Progress (1): 27/31 kB
-Progress (1): 28/31 kB
-Progress (1): 30/31 kB
-Progress (1): 31/31 kB
+Progress (1): 29/31 kB
 Progress (1): 31 kB   
                    
-Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/mina/mina-parent/2.1.5/mina-parent-2.1.5.pom (31 kB at 532 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/mina/mina-core/2.1.5/mina-core-2.1.5.jar
-Progress (1): 16/669 kB
-Progress (1): 33/669 kB
-Progress (1): 49/669 kB
-Progress (1): 66/669 kB
-Progress (1): 82/669 kB
-Progress (1): 98/669 kB
-Progress (1): 115/669 kB
-Progress (1): 131/669 kB
-Progress (1): 147/669 kB
-Progress (1): 164/669 kB
-Progress (1): 180/669 kB
-Progress (1): 197/669 kB
-Progress (1): 213/669 kB
-Progress (1): 229/669 kB
-Progress (1): 246/669 kB
-Progress (1): 262/669 kB
-Progress (1): 279/669 kB
-Progress (1): 295/669 kB
-Progress (1): 311/669 kB
-Progress (1): 328/669 kB
-Progress (1): 344/669 kB
-Progress (1): 360/669 kB
-Progress (1): 377/669 kB
-Progress (1): 393/669 kB
-Progress (1): 410/669 kB
-Progress (1): 426/669 kB
-Progress (1): 442/669 kB
-Progress (1): 459/669 kB
-Progress (1): 475/669 kB
-Progress (1): 492/669 kB
-Progress (1): 508/669 kB
-Progress (1): 524/669 kB
-Progress (1): 541/669 kB
-Progress (1): 557/669 kB
-Progress (1): 573/669 kB
-Progress (1): 590/669 kB
-Progress (1): 606/669 kB
-Progress (1): 623/669 kB
-Progress (1): 639/669 kB
-Progress (1): 655/669 kB
-Progress (1): 669 kB    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/mina/mina-parent/2.1.5/mina-parent-2.1.5.pom (31 kB at 2.2 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/cloudhopper/proxool/proxool/0.9.1/proxool-0.9.1.pom
+Progress (1): 1.6 kB
                     
-Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/mina/mina-core/2.1.5/mina-core-2.1.5.jar (669 kB at 6.2 MB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/com/cloudhopper/proxool/proxool/0.9.1/proxool-0.9.1.pom (1.6 kB at 202 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/cloudhopper/proxool/proxool-cglib/0.9.1/proxool-cglib-0.9.1.pom
+Progress (1): 967 B
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/com/cloudhopper/proxool/proxool-cglib/0.9.1/proxool-cglib-0.9.1.pom (967 B at 40 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/sleepycat/je/18.3.12/je-18.3.12.pom
+Progress (1): 1.3 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/sleepycat/je/18.3.12/je-18.3.12.pom (1.3 kB at 129 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-all/1.1/hamcrest-all-1.1.jar
+Downloading from central: https://repo.maven.apache.org/maven2/hsqldb/hsqldb/1.8.0.10/hsqldb-1.8.0.10.jar
+Downloading from central: https://repo.maven.apache.org/maven2/tyrex/tyrex/1.0.1/tyrex-1.0.1.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/mina/mina-core/2.1.5/mina-core-2.1.5.jar
+Downloading from central: https://repo.maven.apache.org/maven2/com/cloudhopper/proxool/proxool/0.9.1/proxool-0.9.1.jar
+Progress (1): 4.1/669 kB
+Progress (1): 8.2/669 kB
+Progress (1): 12/669 kB 
+Progress (1): 16/669 kB
+Progress (1): 20/669 kB
+Progress (1): 25/669 kB
+Progress (1): 29/669 kB
+Progress (1): 33/669 kB
+Progress (1): 37/669 kB
+Progress (1): 41/669 kB
+Progress (1): 45/669 kB
+Progress (1): 49/669 kB
+Progress (1): 53/669 kB
+Progress (1): 57/669 kB
+Progress (1): 61/669 kB
+Progress (1): 66/669 kB
+Progress (2): 66/669 kB | 4.1/542 kB
+Progress (3): 66/669 kB | 4.1/542 kB | 4.1/201 kB
+Progress (3): 66/669 kB | 8.2/542 kB | 4.1/201 kB
+Progress (3): 70/669 kB | 8.2/542 kB | 4.1/201 kB
+Progress (3): 70/669 kB | 12/542 kB | 4.1/201 kB 
+Progress (3): 70/669 kB | 12/542 kB | 8.2/201 kB
+Progress (3): 70/669 kB | 16/542 kB | 8.2/201 kB
+Progress (3): 74/669 kB | 16/542 kB | 8.2/201 kB
+Progress (3): 74/669 kB | 16/542 kB | 12/201 kB 
+Progress (3): 78/669 kB | 16/542 kB | 12/201 kB
+Progress (3): 78/669 kB | 16/542 kB | 16/201 kB
+Progress (3): 82/669 kB | 16/542 kB | 16/201 kB
+Progress (3): 82/669 kB | 20/542 kB | 16/201 kB
+Progress (3): 82/669 kB | 25/542 kB | 16/201 kB
+Progress (3): 82/669 kB | 29/542 kB | 16/201 kB
+Progress (3): 82/669 kB | 33/542 kB | 16/201 kB
+Progress (3): 86/669 kB | 33/542 kB | 16/201 kB
+Progress (3): 86/669 kB | 33/542 kB | 20/201 kB
+Progress (3): 90/669 kB | 33/542 kB | 20/201 kB
+Progress (3): 90/669 kB | 33/542 kB | 24/201 kB
+Progress (3): 94/669 kB | 33/542 kB | 24/201 kB
+Progress (3): 94/669 kB | 33/542 kB | 28/201 kB
+Progress (3): 98/669 kB | 33/542 kB | 28/201 kB
+Progress (3): 98/669 kB | 37/542 kB | 28/201 kB
+Progress (3): 98/669 kB | 37/542 kB | 32/201 kB
+Progress (3): 98/669 kB | 41/542 kB | 32/201 kB
+Progress (3): 98/669 kB | 45/542 kB | 32/201 kB
+Progress (4): 98/669 kB | 45/542 kB | 32/201 kB | 4.1/201 kB
+Progress (4): 102/669 kB | 45/542 kB | 32/201 kB | 4.1/201 kB
+Progress (4): 102/669 kB | 49/542 kB | 32/201 kB | 4.1/201 kB
+Progress (4): 106/669 kB | 49/542 kB | 32/201 kB | 4.1/201 kB
+Progress (4): 106/669 kB | 49/542 kB | 36/201 kB | 4.1/201 kB
+Progress (4): 106/669 kB | 49/542 kB | 36/201 kB | 8.2/201 kB
+Progress (4): 106/669 kB | 49/542 kB | 40/201 kB | 8.2/201 kB
+Progress (4): 111/669 kB | 49/542 kB | 40/201 kB | 8.2/201 kB
+Progress (4): 111/669 kB | 49/542 kB | 44/201 kB | 8.2/201 kB
+Progress (4): 111/669 kB | 53/542 kB | 44/201 kB | 8.2/201 kB
+Progress (4): 111/669 kB | 53/542 kB | 44/201 kB | 12/201 kB 
+Progress (4): 111/669 kB | 57/542 kB | 44/201 kB | 12/201 kB
+Progress (4): 111/669 kB | 57/542 kB | 49/201 kB | 12/201 kB
+Progress (4): 115/669 kB | 57/542 kB | 49/201 kB | 12/201 kB
+Progress (5): 115/669 kB | 57/542 kB | 49/201 kB | 12/201 kB | 4.1/707 kB
+Progress (5): 115/669 kB | 61/542 kB | 49/201 kB | 12/201 kB | 4.1/707 kB
+Progress (5): 115/669 kB | 61/542 kB | 49/201 kB | 16/201 kB | 4.1/707 kB
+Progress (5): 115/669 kB | 61/542 kB | 53/201 kB | 16/201 kB | 4.1/707 kB
+Progress (5): 119/669 kB | 61/542 kB | 53/201 kB | 16/201 kB | 4.1/707 kB
+Progress (5): 119/669 kB | 66/542 kB | 53/201 kB | 16/201 kB | 4.1/707 kB
+Progress (5): 119/669 kB | 66/542 kB | 53/201 kB | 16/201 kB | 8.2/707 kB
+Progress (5): 119/669 kB | 66/542 kB | 53/201 kB | 20/201 kB | 8.2/707 kB
+Progress (5): 123/669 kB | 66/542 kB | 53/201 kB | 20/201 kB | 8.2/707 kB
+Progress (5): 123/669 kB | 66/542 kB | 57/201 kB | 20/201 kB | 8.2/707 kB
+Progress (5): 123/669 kB | 70/542 kB | 57/201 kB | 20/201 kB | 8.2/707 kB
+Progress (5): 127/669 kB | 70/542 kB | 57/201 kB | 20/201 kB | 8.2/707 kB
+Progress (5): 127/669 kB | 70/542 kB | 57/201 kB | 25/201 kB | 8.2/707 kB
+Progress (5): 127/669 kB | 70/542 kB | 57/201 kB | 25/201 kB | 12/707 kB 
+Progress (5): 127/669 kB | 70/542 kB | 57/201 kB | 29/201 kB | 12/707 kB
+Progress (5): 131/669 kB | 70/542 kB | 57/201 kB | 29/201 kB | 12/707 kB
+Progress (5): 131/669 kB | 74/542 kB | 57/201 kB | 29/201 kB | 12/707 kB
+Progress (5): 131/669 kB | 74/542 kB | 61/201 kB | 29/201 kB | 12/707 kB
+Progress (5): 131/669 kB | 78/542 kB | 61/201 kB | 29/201 kB | 12/707 kB
+Progress (5): 131/669 kB | 78/542 kB | 61/201 kB | 33/201 kB | 12/707 kB
+Progress (5): 131/669 kB | 78/542 kB | 61/201 kB | 33/201 kB | 16/707 kB
+Progress (5): 135/669 kB | 78/542 kB | 61/201 kB | 33/201 kB | 16/707 kB
+Progress (5): 135/669 kB | 82/542 kB | 61/201 kB | 33/201 kB | 16/707 kB
+Progress (5): 135/669 kB | 82/542 kB | 65/201 kB | 33/201 kB | 16/707 kB
+Progress (5): 135/669 kB | 82/542 kB | 65/201 kB | 37/201 kB | 16/707 kB
+Progress (5): 139/669 kB | 82/542 kB | 65/201 kB | 37/201 kB | 16/707 kB
+Progress (5): 139/669 kB | 82/542 kB | 65/201 kB | 41/201 kB | 16/707 kB
+Progress (5): 139/669 kB | 82/542 kB | 65/201 kB | 41/201 kB | 20/707 kB
+Progress (5): 139/669 kB | 82/542 kB | 69/201 kB | 41/201 kB | 20/707 kB
+Progress (5): 139/669 kB | 82/542 kB | 69/201 kB | 45/201 kB | 20/707 kB
+Progress (5): 139/669 kB | 86/542 kB | 69/201 kB | 45/201 kB | 20/707 kB
+Progress (5): 143/669 kB | 86/542 kB | 69/201 kB | 45/201 kB | 20/707 kB
+Progress (5): 143/669 kB | 90/542 kB | 69/201 kB | 45/201 kB | 20/707 kB
+Progress (5): 143/669 kB | 90/542 kB | 69/201 kB | 49/201 kB | 20/707 kB
+Progress (5): 143/669 kB | 90/542 kB | 73/201 kB | 49/201 kB | 20/707 kB
+Progress (5): 143/669 kB | 90/542 kB | 73/201 kB | 49/201 kB | 25/707 kB
+Progress (5): 143/669 kB | 90/542 kB | 77/201 kB | 49/201 kB | 25/707 kB
+Progress (5): 143/669 kB | 94/542 kB | 77/201 kB | 49/201 kB | 25/707 kB
+Progress (5): 147/669 kB | 94/542 kB | 77/201 kB | 49/201 kB | 25/707 kB
+Progress (5): 147/669 kB | 98/542 kB | 77/201 kB | 49/201 kB | 25/707 kB
+Progress (5): 147/669 kB | 98/542 kB | 81/201 kB | 49/201 kB | 25/707 kB
+Progress (5): 147/669 kB | 98/542 kB | 81/201 kB | 53/201 kB | 25/707 kB
+Progress (5): 147/669 kB | 98/542 kB | 81/201 kB | 53/201 kB | 29/707 kB
+Progress (5): 152/669 kB | 98/542 kB | 81/201 kB | 53/201 kB | 29/707 kB
+Progress (5): 152/669 kB | 98/542 kB | 81/201 kB | 57/201 kB | 29/707 kB
+Progress (5): 156/669 kB | 98/542 kB | 81/201 kB | 57/201 kB | 29/707 kB
+Progress (5): 156/669 kB | 98/542 kB | 85/201 kB | 57/201 kB | 29/707 kB
+Progress (5): 156/669 kB | 98/542 kB | 85/201 kB | 57/201 kB | 33/707 kB
+Progress (5): 156/669 kB | 102/542 kB | 85/201 kB | 57/201 kB | 33/707 kB
+Progress (5): 156/669 kB | 102/542 kB | 90/201 kB | 57/201 kB | 33/707 kB
+Progress (5): 160/669 kB | 102/542 kB | 90/201 kB | 57/201 kB | 33/707 kB
+Progress (5): 160/669 kB | 102/542 kB | 90/201 kB | 61/201 kB | 33/707 kB
+Progress (5): 160/669 kB | 102/542 kB | 90/201 kB | 61/201 kB | 37/707 kB
+Progress (5): 164/669 kB | 102/542 kB | 90/201 kB | 61/201 kB | 37/707 kB
+Progress (5): 164/669 kB | 102/542 kB | 94/201 kB | 61/201 kB | 37/707 kB
+Progress (5): 164/669 kB | 106/542 kB | 94/201 kB | 61/201 kB | 37/707 kB
+Progress (5): 164/669 kB | 106/542 kB | 98/201 kB | 61/201 kB | 37/707 kB
+Progress (5): 164/669 kB | 106/542 kB | 98/201 kB | 61/201 kB | 41/707 kB
+Progress (5): 164/669 kB | 106/542 kB | 98/201 kB | 66/201 kB | 41/707 kB
+Progress (5): 164/669 kB | 106/542 kB | 98/201 kB | 66/201 kB | 45/707 kB
+Progress (5): 168/669 kB | 106/542 kB | 98/201 kB | 66/201 kB | 45/707 kB
+Progress (5): 168/669 kB | 111/542 kB | 98/201 kB | 66/201 kB | 45/707 kB
+Progress (5): 172/669 kB | 111/542 kB | 98/201 kB | 66/201 kB | 45/707 kB
+Progress (5): 172/669 kB | 111/542 kB | 98/201 kB | 66/201 kB | 49/707 kB
+Progress (5): 172/669 kB | 111/542 kB | 102/201 kB | 66/201 kB | 49/707 kB
+Progress (5): 176/669 kB | 111/542 kB | 102/201 kB | 66/201 kB | 49/707 kB
+Progress (5): 176/669 kB | 115/542 kB | 102/201 kB | 66/201 kB | 49/707 kB
+Progress (5): 176/669 kB | 115/542 kB | 102/201 kB | 70/201 kB | 49/707 kB
+Progress (5): 176/669 kB | 115/542 kB | 102/201 kB | 70/201 kB | 53/707 kB
+Progress (5): 180/669 kB | 115/542 kB | 102/201 kB | 70/201 kB | 53/707 kB
+Progress (5): 180/669 kB | 115/542 kB | 106/201 kB | 70/201 kB | 53/707 kB
+Progress (5): 180/669 kB | 119/542 kB | 106/201 kB | 70/201 kB | 53/707 kB
+Progress (5): 180/669 kB | 119/542 kB | 106/201 kB | 70/201 kB | 57/707 kB
+Progress (5): 184/669 kB | 119/542 kB | 106/201 kB | 70/201 kB | 57/707 kB
+Progress (5): 184/669 kB | 119/542 kB | 106/201 kB | 74/201 kB | 57/707 kB
+Progress (5): 188/669 kB | 119/542 kB | 106/201 kB | 74/201 kB | 57/707 kB
+Progress (5): 188/669 kB | 119/542 kB | 106/201 kB | 74/201 kB | 61/707 kB
+Progress (5): 188/669 kB | 123/542 kB | 106/201 kB | 74/201 kB | 61/707 kB
+Progress (5): 188/669 kB | 123/542 kB | 110/201 kB | 74/201 kB | 61/707 kB
+Progress (5): 188/669 kB | 127/542 kB | 110/201 kB | 74/201 kB | 61/707 kB
+Progress (5): 188/669 kB | 127/542 kB | 110/201 kB | 74/201 kB | 66/707 kB
+Progress (5): 193/669 kB | 127/542 kB | 110/201 kB | 74/201 kB | 66/707 kB
+Progress (5): 193/669 kB | 127/542 kB | 110/201 kB | 78/201 kB | 66/707 kB
+Progress (5): 197/669 kB | 127/542 kB | 110/201 kB | 78/201 kB | 66/707 kB
+Progress (5): 197/669 kB | 131/542 kB | 110/201 kB | 78/201 kB | 66/707 kB
+Progress (5): 197/669 kB | 131/542 kB | 114/201 kB | 78/201 kB | 66/707 kB
+Progress (5): 197/669 kB | 131/542 kB | 114/201 kB | 78/201 kB | 70/707 kB
+Progress (5): 197/669 kB | 131/542 kB | 114/201 kB | 82/201 kB | 70/707 kB
+Progress (5): 197/669 kB | 131/542 kB | 114/201 kB | 82/201 kB | 74/707 kB
+Progress (5): 201/669 kB | 131/542 kB | 114/201 kB | 82/201 kB | 74/707 kB
+Progress (5): 201/669 kB | 131/542 kB | 118/201 kB | 82/201 kB | 74/707 kB
+Progress (5): 201/669 kB | 131/542 kB | 118/201 kB | 82/201 kB | 78/707 kB
+Progress (5): 201/669 kB | 135/542 kB | 118/201 kB | 82/201 kB | 78/707 kB
+Progress (5): 201/669 kB | 135/542 kB | 118/201 kB | 82/201 kB | 82/707 kB
+Progress (5): 201/669 kB | 135/542 kB | 118/201 kB | 86/201 kB | 82/707 kB
+Progress (5): 201/669 kB | 135/542 kB | 122/201 kB | 86/201 kB | 82/707 kB
+Progress (5): 205/669 kB | 135/542 kB | 122/201 kB | 86/201 kB | 82/707 kB
+Progress (5): 205/669 kB | 135/542 kB | 126/201 kB | 86/201 kB | 82/707 kB
+Progress (5): 205/669 kB | 135/542 kB | 126/201 kB | 90/201 kB | 82/707 kB
+Progress (5): 205/669 kB | 139/542 kB | 126/201 kB | 90/201 kB | 82/707 kB
+Progress (5): 205/669 kB | 139/542 kB | 126/201 kB | 94/201 kB | 82/707 kB
+Progress (5): 205/669 kB | 139/542 kB | 131/201 kB | 94/201 kB | 82/707 kB
+Progress (5): 209/669 kB | 139/542 kB | 131/201 kB | 94/201 kB | 82/707 kB
+Progress (5): 209/669 kB | 139/542 kB | 131/201 kB | 94/201 kB | 86/707 kB
+Progress (5): 213/669 kB | 139/542 kB | 131/201 kB | 94/201 kB | 86/707 kB
+Progress (5): 213/669 kB | 139/542 kB | 135/201 kB | 94/201 kB | 86/707 kB
+Progress (5): 213/669 kB | 139/542 kB | 135/201 kB | 98/201 kB | 86/707 kB
+Progress (5): 213/669 kB | 143/542 kB | 135/201 kB | 98/201 kB | 86/707 kB
+Progress (5): 217/669 kB | 143/542 kB | 135/201 kB | 98/201 kB | 86/707 kB
+Progress (5): 217/669 kB | 143/542 kB | 139/201 kB | 98/201 kB | 86/707 kB
+Progress (5): 217/669 kB | 143/542 kB | 139/201 kB | 102/201 kB | 86/707 kB
+Progress (5): 217/669 kB | 143/542 kB | 139/201 kB | 102/201 kB | 90/707 kB
+Progress (5): 217/669 kB | 143/542 kB | 139/201 kB | 106/201 kB | 90/707 kB
+Progress (5): 217/669 kB | 143/542 kB | 143/201 kB | 106/201 kB | 90/707 kB
+Progress (5): 221/669 kB | 143/542 kB | 143/201 kB | 106/201 kB | 90/707 kB
+Progress (5): 221/669 kB | 147/542 kB | 143/201 kB | 106/201 kB | 90/707 kB
+Progress (5): 225/669 kB | 147/542 kB | 143/201 kB | 106/201 kB | 90/707 kB
+Progress (5): 225/669 kB | 147/542 kB | 147/201 kB | 106/201 kB | 90/707 kB
+Progress (5): 225/669 kB | 147/542 kB | 147/201 kB | 111/201 kB | 90/707 kB
+Progress (5): 225/669 kB | 152/542 kB | 147/201 kB | 111/201 kB | 90/707 kB
+Progress (5): 225/669 kB | 152/542 kB | 147/201 kB | 111/201 kB | 94/707 kB
+Progress (5): 225/669 kB | 152/542 kB | 151/201 kB | 111/201 kB | 94/707 kB
+Progress (5): 225/669 kB | 152/542 kB | 151/201 kB | 111/201 kB | 98/707 kB
+Progress (5): 225/669 kB | 156/542 kB | 151/201 kB | 111/201 kB | 98/707 kB
+Progress (5): 225/669 kB | 156/542 kB | 151/201 kB | 115/201 kB | 98/707 kB
+Progress (5): 229/669 kB | 156/542 kB | 151/201 kB | 115/201 kB | 98/707 kB
+Progress (5): 229/669 kB | 160/542 kB | 151/201 kB | 115/201 kB | 98/707 kB
+Progress (5): 229/669 kB | 160/542 kB | 155/201 kB | 115/201 kB | 98/707 kB
+Progress (5): 229/669 kB | 164/542 kB | 155/201 kB | 115/201 kB | 98/707 kB
+Progress (5): 229/669 kB | 164/542 kB | 155/201 kB | 115/201 kB | 102/707 kB
+Progress (5): 233/669 kB | 164/542 kB | 155/201 kB | 115/201 kB | 102/707 kB
+Progress (5): 233/669 kB | 164/542 kB | 159/201 kB | 115/201 kB | 102/707 kB
+Progress (5): 233/669 kB | 164/542 kB | 159/201 kB | 119/201 kB | 102/707 kB
+Progress (5): 233/669 kB | 168/542 kB | 159/201 kB | 119/201 kB | 102/707 kB
+Progress (5): 233/669 kB | 168/542 kB | 163/201 kB | 119/201 kB | 102/707 kB
+Progress (5): 238/669 kB | 168/542 kB | 163/201 kB | 119/201 kB | 102/707 kB
+Progress (5): 238/669 kB | 168/542 kB | 163/201 kB | 119/201 kB | 106/707 kB
+Progress (5): 242/669 kB | 168/542 kB | 163/201 kB | 119/201 kB | 106/707 kB
+Progress (5): 242/669 kB | 172/542 kB | 163/201 kB | 119/201 kB | 106/707 kB
+Progress (5): 242/669 kB | 172/542 kB | 163/201 kB | 123/201 kB | 106/707 kB
+Progress (5): 242/669 kB | 176/542 kB | 163/201 kB | 123/201 kB | 106/707 kB
+Progress (5): 246/669 kB | 176/542 kB | 163/201 kB | 123/201 kB | 106/707 kB
+Progress (5): 246/669 kB | 176/542 kB | 167/201 kB | 123/201 kB | 106/707 kB
+Progress (5): 246/669 kB | 176/542 kB | 167/201 kB | 123/201 kB | 111/707 kB
+Progress (5): 246/669 kB | 176/542 kB | 171/201 kB | 123/201 kB | 111/707 kB
+Progress (5): 246/669 kB | 176/542 kB | 176/201 kB | 123/201 kB | 111/707 kB
+Progress (5): 246/669 kB | 180/542 kB | 176/201 kB | 123/201 kB | 111/707 kB
+Progress (5): 246/669 kB | 180/542 kB | 176/201 kB | 127/201 kB | 111/707 kB
+Progress (5): 246/669 kB | 180/542 kB | 180/201 kB | 127/201 kB | 111/707 kB
+Progress (5): 250/669 kB | 180/542 kB | 180/201 kB | 127/201 kB | 111/707 kB
+Progress (5): 250/669 kB | 180/542 kB | 180/201 kB | 127/201 kB | 115/707 kB
+Progress (5): 254/669 kB | 180/542 kB | 180/201 kB | 127/201 kB | 115/707 kB
+Progress (5): 254/669 kB | 184/542 kB | 180/201 kB | 127/201 kB | 115/707 kB
+Progress (5): 254/669 kB | 184/542 kB | 180/201 kB | 131/201 kB | 115/707 kB
+Progress (5): 254/669 kB | 188/542 kB | 180/201 kB | 131/201 kB | 115/707 kB
+Progress (5): 258/669 kB | 188/542 kB | 180/201 kB | 131/201 kB | 115/707 kB
+Progress (5): 258/669 kB | 188/542 kB | 184/201 kB | 131/201 kB | 115/707 kB
+Progress (5): 262/669 kB | 188/542 kB | 184/201 kB | 131/201 kB | 115/707 kB
+Progress (5): 262/669 kB | 193/542 kB | 184/201 kB | 131/201 kB | 115/707 kB
+Progress (5): 262/669 kB | 193/542 kB | 184/201 kB | 131/201 kB | 119/707 kB
+Progress (5): 262/669 kB | 197/542 kB | 184/201 kB | 131/201 kB | 119/707 kB
+Progress (5): 262/669 kB | 197/542 kB | 184/201 kB | 135/201 kB | 119/707 kB
+Progress (5): 262/669 kB | 197/542 kB | 188/201 kB | 135/201 kB | 119/707 kB
+Progress (5): 262/669 kB | 197/542 kB | 188/201 kB | 139/201 kB | 119/707 kB
+Progress (5): 266/669 kB | 197/542 kB | 188/201 kB | 139/201 kB | 119/707 kB
+Progress (5): 266/669 kB | 197/542 kB | 188/201 kB | 139/201 kB | 123/707 kB
+Progress (5): 270/669 kB | 197/542 kB | 188/201 kB | 139/201 kB | 123/707 kB
+Progress (5): 270/669 kB | 201/542 kB | 188/201 kB | 139/201 kB | 123/707 kB
+Progress (5): 270/669 kB | 201/542 kB | 188/201 kB | 143/201 kB | 123/707 kB
+Progress (5): 270/669 kB | 201/542 kB | 192/201 kB | 143/201 kB | 123/707 kB
+Progress (5): 270/669 kB | 201/542 kB | 192/201 kB | 147/201 kB | 123/707 kB
+Progress (5): 270/669 kB | 205/542 kB | 192/201 kB | 147/201 kB | 123/707 kB
+Progress (5): 274/669 kB | 205/542 kB | 192/201 kB | 147/201 kB | 123/707 kB
+Progress (5): 274/669 kB | 205/542 kB | 192/201 kB | 147/201 kB | 127/707 kB
+Progress (5): 274/669 kB | 205/542 kB | 192/201 kB | 152/201 kB | 127/707 kB
+Progress (5): 279/669 kB | 205/542 kB | 192/201 kB | 152/201 kB | 127/707 kB
+Progress (5): 279/669 kB | 209/542 kB | 192/201 kB | 152/201 kB | 127/707 kB
+Progress (5): 279/669 kB | 209/542 kB | 196/201 kB | 152/201 kB | 127/707 kB
+Progress (5): 279/669 kB | 213/542 kB | 196/201 kB | 152/201 kB | 127/707 kB
+Progress (5): 279/669 kB | 213/542 kB | 196/201 kB | 156/201 kB | 127/707 kB
+Progress (5): 279/669 kB | 213/542 kB | 196/201 kB | 156/201 kB | 131/707 kB
+Progress (5): 279/669 kB | 213/542 kB | 196/201 kB | 160/201 kB | 131/707 kB
+Progress (5): 279/669 kB | 213/542 kB | 200/201 kB | 160/201 kB | 131/707 kB
+Progress (5): 283/669 kB | 213/542 kB | 200/201 kB | 160/201 kB | 131/707 kB
+Progress (5): 283/669 kB | 213/542 kB | 201 kB | 160/201 kB | 131/707 kB    
+Progress (5): 283/669 kB | 213/542 kB | 201 kB | 164/201 kB | 131/707 kB
+Progress (5): 283/669 kB | 217/542 kB | 201 kB | 164/201 kB | 131/707 kB
+Progress (5): 283/669 kB | 217/542 kB | 201 kB | 164/201 kB | 135/707 kB
+Progress (5): 287/669 kB | 217/542 kB | 201 kB | 164/201 kB | 135/707 kB
+Progress (5): 287/669 kB | 217/542 kB | 201 kB | 164/201 kB | 139/707 kB
+Progress (5): 287/669 kB | 221/542 kB | 201 kB | 164/201 kB | 139/707 kB
+Progress (5): 287/669 kB | 221/542 kB | 201 kB | 164/201 kB | 143/707 kB
+Progress (5): 287/669 kB | 221/542 kB | 201 kB | 168/201 kB | 143/707 kB
+Progress (5): 291/669 kB | 221/542 kB | 201 kB | 168/201 kB | 143/707 kB
+Progress (5): 291/669 kB | 221/542 kB | 201 kB | 172/201 kB | 143/707 kB
+Progress (5): 291/669 kB | 221/542 kB | 201 kB | 172/201 kB | 147/707 kB
+Progress (5): 291/669 kB | 225/542 kB | 201 kB | 172/201 kB | 147/707 kB
+Progress (5): 291/669 kB | 225/542 kB | 201 kB | 176/201 kB | 147/707 kB
+Progress (5): 295/669 kB | 225/542 kB | 201 kB | 176/201 kB | 147/707 kB
+Progress (5): 295/669 kB | 225/542 kB | 201 kB | 180/201 kB | 147/707 kB
+Progress (5): 295/669 kB | 229/542 kB | 201 kB | 180/201 kB | 147/707 kB
+Progress (5): 295/669 kB | 229/542 kB | 201 kB | 180/201 kB | 152/707 kB
+Progress (5): 295/669 kB | 229/542 kB | 201 kB | 180/201 kB | 156/707 kB
+Progress (5): 299/669 kB | 229/542 kB | 201 kB | 180/201 kB | 156/707 kB
+Progress (5): 299/669 kB | 229/542 kB | 201 kB | 184/201 kB | 156/707 kB
+Progress (5): 299/669 kB | 229/542 kB | 201 kB | 184/201 kB | 160/707 kB
+Progress (5): 299/669 kB | 229/542 kB | 201 kB | 188/201 kB | 160/707 kB
+Progress (5): 299/669 kB | 233/542 kB | 201 kB | 188/201 kB | 160/707 kB
+Progress (5): 303/669 kB | 233/542 kB | 201 kB | 188/201 kB | 160/707 kB
+Progress (5): 303/669 kB | 238/542 kB | 201 kB | 188/201 kB | 160/707 kB
+Progress (5): 303/669 kB | 238/542 kB | 201 kB | 193/201 kB | 160/707 kB
+Progress (5): 303/669 kB | 238/542 kB | 201 kB | 193/201 kB | 164/707 kB
+Progress (5): 303/669 kB | 238/542 kB | 201 kB | 197/201 kB | 164/707 kB
+Progress (5): 303/669 kB | 242/542 kB | 201 kB | 197/201 kB | 164/707 kB
+Progress (5): 307/669 kB | 242/542 kB | 201 kB | 197/201 kB | 164/707 kB
+Progress (5): 307/669 kB | 246/542 kB | 201 kB | 197/201 kB | 164/707 kB
+Progress (5): 307/669 kB | 246/542 kB | 201 kB | 201/201 kB | 164/707 kB
+Progress (5): 311/669 kB | 246/542 kB | 201 kB | 201/201 kB | 164/707 kB
+Progress (5): 311/669 kB | 246/542 kB | 201 kB | 201/201 kB | 168/707 kB
+Progress (5): 311/669 kB | 246/542 kB | 201 kB | 201 kB | 168/707 kB    
+Progress (5): 311/669 kB | 250/542 kB | 201 kB | 201 kB | 168/707 kB
+Progress (5): 311/669 kB | 250/542 kB | 201 kB | 201 kB | 172/707 kB
+Progress (5): 315/669 kB | 250/542 kB | 201 kB | 201 kB | 172/707 kB
+Progress (5): 315/669 kB | 254/542 kB | 201 kB | 201 kB | 172/707 kB
+Progress (5): 319/669 kB | 254/542 kB | 201 kB | 201 kB | 172/707 kB
+Progress (5): 319/669 kB | 254/542 kB | 201 kB | 201 kB | 176/707 kB
+Progress (5): 324/669 kB | 254/542 kB | 201 kB | 201 kB | 176/707 kB
+Progress (5): 324/669 kB | 258/542 kB | 201 kB | 201 kB | 176/707 kB
+Progress (5): 328/669 kB | 258/542 kB | 201 kB | 201 kB | 176/707 kB
+Progress (5): 328/669 kB | 258/542 kB | 201 kB | 201 kB | 180/707 kB
+Progress (5): 328/669 kB | 262/542 kB | 201 kB | 201 kB | 180/707 kB
+Progress (5): 332/669 kB | 262/542 kB | 201 kB | 201 kB | 180/707 kB
+Progress (5): 336/669 kB | 262/542 kB | 201 kB | 201 kB | 180/707 kB
+Progress (5): 340/669 kB | 262/542 kB | 201 kB | 201 kB | 180/707 kB
+Progress (5): 344/669 kB | 262/542 kB | 201 kB | 201 kB | 180/707 kB
+Progress (5): 344/669 kB | 262/542 kB | 201 kB | 201 kB | 184/707 kB
+Progress (5): 348/669 kB | 262/542 kB | 201 kB | 201 kB | 184/707 kB
+Progress (5): 348/669 kB | 262/542 kB | 201 kB | 201 kB | 188/707 kB
+Progress (5): 348/669 kB | 266/542 kB | 201 kB | 201 kB | 188/707 kB
+Progress (5): 348/669 kB | 266/542 kB | 201 kB | 201 kB | 193/707 kB
+Progress (5): 352/669 kB | 266/542 kB | 201 kB | 201 kB | 193/707 kB
+Progress (5): 352/669 kB | 266/542 kB | 201 kB | 201 kB | 197/707 kB
+Progress (5): 352/669 kB | 270/542 kB | 201 kB | 201 kB | 197/707 kB
+Progress (5): 356/669 kB | 270/542 kB | 201 kB | 201 kB | 197/707 kB
+Progress (5): 356/669 kB | 274/542 kB | 201 kB | 201 kB | 197/707 kB
+Progress (5): 360/669 kB | 274/542 kB | 201 kB | 201 kB | 197/707 kB
+Progress (5): 360/669 kB | 279/542 kB | 201 kB | 201 kB | 197/707 kB
+Progress (5): 365/669 kB | 279/542 kB | 201 kB | 201 kB | 197/707 kB
+Progress (5): 365/669 kB | 279/542 kB | 201 kB | 201 kB | 201/707 kB
+Progress (5): 369/669 kB | 279/542 kB | 201 kB | 201 kB | 201/707 kB
+Progress (5): 369/669 kB | 279/542 kB | 201 kB | 201 kB | 205/707 kB
+Progress (5): 373/669 kB | 279/542 kB | 201 kB | 201 kB | 205/707 kB
+Progress (5): 373/669 kB | 279/542 kB | 201 kB | 201 kB | 209/707 kB
+Progress (5): 373/669 kB | 283/542 kB | 201 kB | 201 kB | 209/707 kB
+Progress (5): 377/669 kB | 283/542 kB | 201 kB | 201 kB | 209/707 kB
+Progress (5): 377/669 kB | 287/542 kB | 201 kB | 201 kB | 209/707 kB
+Progress (5): 377/669 kB | 287/542 kB | 201 kB | 201 kB | 213/707 kB
+Progress (5): 381/669 kB | 287/542 kB | 201 kB | 201 kB | 213/707 kB
+Progress (5): 381/669 kB | 291/542 kB | 201 kB | 201 kB | 213/707 kB
+Progress (5): 385/669 kB | 291/542 kB | 201 kB | 201 kB | 213/707 kB
+Progress (5): 385/669 kB | 295/542 kB | 201 kB | 201 kB | 213/707 kB
+Progress (5): 389/669 kB | 295/542 kB | 201 kB | 201 kB | 213/707 kB
+Progress (5): 393/669 kB | 295/542 kB | 201 kB | 201 kB | 213/707 kB
+Progress (5): 393/669 kB | 295/542 kB | 201 kB | 201 kB | 217/707 kB
+Progress (5): 397/669 kB | 295/542 kB | 201 kB | 201 kB | 217/707 kB
+Progress (5): 397/669 kB | 295/542 kB | 201 kB | 201 kB | 221/707 kB
+Progress (5): 401/669 kB | 295/542 kB | 201 kB | 201 kB | 221/707 kB
+Progress (5): 401/669 kB | 295/542 kB | 201 kB | 201 kB | 225/707 kB
+Progress (5): 406/669 kB | 295/542 kB | 201 kB | 201 kB | 225/707 kB
+Progress (5): 406/669 kB | 299/542 kB | 201 kB | 201 kB | 225/707 kB
+Progress (5): 410/669 kB | 299/542 kB | 201 kB | 201 kB | 225/707 kB
+Progress (5): 410/669 kB | 299/542 kB | 201 kB | 201 kB | 229/707 kB
+Progress (5): 410/669 kB | 303/542 kB | 201 kB | 201 kB | 229/707 kB
+Progress (5): 414/669 kB | 303/542 kB | 201 kB | 201 kB | 229/707 kB
+Progress (5): 414/669 kB | 307/542 kB | 201 kB | 201 kB | 229/707 kB
+Progress (5): 418/669 kB | 307/542 kB | 201 kB | 201 kB | 229/707 kB
+Progress (5): 418/669 kB | 311/542 kB | 201 kB | 201 kB | 229/707 kB
+                                                                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/cloudhopper/proxool/proxool/0.9.1/proxool-0.9.1.jar (201 kB at 2.1 MB/s)
+Progress (4): 422/669 kB | 311/542 kB | 201 kB | 229/707 kB
+                                                           
+Downloading from central: https://repo.maven.apache.org/maven2/com/cloudhopper/proxool/proxool-cglib/0.9.1/proxool-cglib-0.9.1.jar
+Progress (4): 422/669 kB | 315/542 kB | 201 kB | 229/707 kB
+Progress (4): 422/669 kB | 315/542 kB | 201 kB | 233/707 kB
+Progress (4): 422/669 kB | 319/542 kB | 201 kB | 233/707 kB
+Progress (4): 426/669 kB | 319/542 kB | 201 kB | 233/707 kB
+Progress (4): 426/669 kB | 324/542 kB | 201 kB | 233/707 kB
+Progress (4): 426/669 kB | 324/542 kB | 201 kB | 238/707 kB
+Progress (4): 430/669 kB | 324/542 kB | 201 kB | 238/707 kB
+Progress (4): 430/669 kB | 324/542 kB | 201 kB | 242/707 kB
+Progress (4): 430/669 kB | 328/542 kB | 201 kB | 242/707 kB
+Progress (4): 430/669 kB | 328/542 kB | 201 kB | 246/707 kB
+Progress (4): 434/669 kB | 328/542 kB | 201 kB | 246/707 kB
+Progress (4): 438/669 kB | 328/542 kB | 201 kB | 246/707 kB
+Progress (4): 442/669 kB | 328/542 kB | 201 kB | 246/707 kB
+Progress (4): 446/669 kB | 328/542 kB | 201 kB | 246/707 kB
+Progress (4): 446/669 kB | 328/542 kB | 201 kB | 250/707 kB
+Progress (4): 446/669 kB | 332/542 kB | 201 kB | 250/707 kB
+Progress (4): 451/669 kB | 332/542 kB | 201 kB | 250/707 kB
+Progress (4): 451/669 kB | 332/542 kB | 201 kB | 254/707 kB
+Progress (4): 455/669 kB | 332/542 kB | 201 kB | 254/707 kB
+Progress (4): 455/669 kB | 336/542 kB | 201 kB | 254/707 kB
+Progress (4): 459/669 kB | 336/542 kB | 201 kB | 254/707 kB
+Progress (4): 459/669 kB | 340/542 kB | 201 kB | 254/707 kB
+Progress (4): 459/669 kB | 344/542 kB | 201 kB | 254/707 kB
+Progress (4): 463/669 kB | 344/542 kB | 201 kB | 254/707 kB
+Progress (4): 467/669 kB | 344/542 kB | 201 kB | 254/707 kB
+Progress (4): 471/669 kB | 344/542 kB | 201 kB | 254/707 kB
+Progress (4): 475/669 kB | 344/542 kB | 201 kB | 254/707 kB
+Progress (4): 475/669 kB | 344/542 kB | 201 kB | 258/707 kB
+Progress (4): 475/669 kB | 344/542 kB | 201 kB | 262/707 kB
+Progress (4): 479/669 kB | 344/542 kB | 201 kB | 262/707 kB
+Progress (4): 479/669 kB | 344/542 kB | 201 kB | 266/707 kB
+Progress (4): 479/669 kB | 348/542 kB | 201 kB | 266/707 kB
+Progress (4): 483/669 kB | 348/542 kB | 201 kB | 266/707 kB
+Progress (4): 483/669 kB | 352/542 kB | 201 kB | 266/707 kB
+Progress (4): 483/669 kB | 352/542 kB | 201 kB | 270/707 kB
+Progress (4): 483/669 kB | 356/542 kB | 201 kB | 270/707 kB
+Progress (4): 487/669 kB | 356/542 kB | 201 kB | 270/707 kB
+Progress (4): 487/669 kB | 360/542 kB | 201 kB | 270/707 kB
+Progress (4): 492/669 kB | 360/542 kB | 201 kB | 270/707 kB
+Progress (4): 496/669 kB | 360/542 kB | 201 kB | 270/707 kB
+Progress (4): 500/669 kB | 360/542 kB | 201 kB | 270/707 kB
+Progress (4): 500/669 kB | 360/542 kB | 201 kB | 274/707 kB
+Progress (4): 504/669 kB | 360/542 kB | 201 kB | 274/707 kB
+Progress (4): 504/669 kB | 360/542 kB | 201 kB | 279/707 kB
+Progress (5): 504/669 kB | 360/542 kB | 201 kB | 279/707 kB | 4.1/334 kB
+Progress (5): 504/669 kB | 365/542 kB | 201 kB | 279/707 kB | 4.1/334 kB
+Progress (5): 508/669 kB | 365/542 kB | 201 kB | 279/707 kB | 4.1/334 kB
+Progress (5): 508/669 kB | 369/542 kB | 201 kB | 279/707 kB | 4.1/334 kB
+Progress (5): 508/669 kB | 369/542 kB | 201 kB | 279/707 kB | 8.2/334 kB
+Progress (5): 508/669 kB | 369/542 kB | 201 kB | 283/707 kB | 8.2/334 kB
+Progress (5): 508/669 kB | 369/542 kB | 201 kB | 283/707 kB | 12/334 kB 
+Progress (5): 512/669 kB | 369/542 kB | 201 kB | 283/707 kB | 12/334 kB
+Progress (5): 512/669 kB | 373/542 kB | 201 kB | 283/707 kB | 12/334 kB
+Progress (5): 516/669 kB | 373/542 kB | 201 kB | 283/707 kB | 12/334 kB
+Progress (5): 516/669 kB | 373/542 kB | 201 kB | 283/707 kB | 16/334 kB
+Progress (5): 516/669 kB | 373/542 kB | 201 kB | 287/707 kB | 16/334 kB
+Progress (5): 520/669 kB | 373/542 kB | 201 kB | 287/707 kB | 16/334 kB
+Progress (5): 520/669 kB | 377/542 kB | 201 kB | 287/707 kB | 16/334 kB
+Progress (5): 524/669 kB | 377/542 kB | 201 kB | 287/707 kB | 16/334 kB
+Progress (5): 524/669 kB | 377/542 kB | 201 kB | 287/707 kB | 20/334 kB
+Progress (5): 528/669 kB | 377/542 kB | 201 kB | 287/707 kB | 20/334 kB
+Progress (5): 528/669 kB | 377/542 kB | 201 kB | 287/707 kB | 25/334 kB
+Progress (5): 528/669 kB | 381/542 kB | 201 kB | 287/707 kB | 25/334 kB
+Progress (5): 528/669 kB | 381/542 kB | 201 kB | 291/707 kB | 25/334 kB
+Progress (5): 528/669 kB | 385/542 kB | 201 kB | 291/707 kB | 25/334 kB
+Progress (5): 528/669 kB | 385/542 kB | 201 kB | 291/707 kB | 29/334 kB
+Progress (5): 532/669 kB | 385/542 kB | 201 kB | 291/707 kB | 29/334 kB
+Progress (5): 532/669 kB | 385/542 kB | 201 kB | 291/707 kB | 33/334 kB
+Progress (5): 532/669 kB | 389/542 kB | 201 kB | 291/707 kB | 33/334 kB
+Progress (5): 532/669 kB | 389/542 kB | 201 kB | 295/707 kB | 33/334 kB
+Progress (5): 532/669 kB | 393/542 kB | 201 kB | 295/707 kB | 33/334 kB
+Progress (5): 537/669 kB | 393/542 kB | 201 kB | 295/707 kB | 33/334 kB
+Progress (5): 537/669 kB | 393/542 kB | 201 kB | 299/707 kB | 33/334 kB
+Progress (5): 541/669 kB | 393/542 kB | 201 kB | 299/707 kB | 33/334 kB
+Progress (5): 541/669 kB | 393/542 kB | 201 kB | 303/707 kB | 33/334 kB
+Progress (5): 541/669 kB | 393/542 kB | 201 kB | 303/707 kB | 37/334 kB
+Progress (5): 541/669 kB | 397/542 kB | 201 kB | 303/707 kB | 37/334 kB
+Progress (5): 541/669 kB | 397/542 kB | 201 kB | 303/707 kB | 41/334 kB
+Progress (5): 545/669 kB | 397/542 kB | 201 kB | 303/707 kB | 41/334 kB
+Progress (5): 545/669 kB | 397/542 kB | 201 kB | 303/707 kB | 45/334 kB
+Progress (5): 545/669 kB | 401/542 kB | 201 kB | 303/707 kB | 45/334 kB
+Progress (5): 545/669 kB | 401/542 kB | 201 kB | 303/707 kB | 49/334 kB
+Progress (5): 545/669 kB | 401/542 kB | 201 kB | 307/707 kB | 49/334 kB
+Progress (5): 549/669 kB | 401/542 kB | 201 kB | 307/707 kB | 49/334 kB
+Progress (5): 549/669 kB | 401/542 kB | 201 kB | 311/707 kB | 49/334 kB
+Progress (5): 549/669 kB | 406/542 kB | 201 kB | 311/707 kB | 49/334 kB
+Progress (5): 549/669 kB | 406/542 kB | 201 kB | 315/707 kB | 49/334 kB
+Progress (5): 553/669 kB | 406/542 kB | 201 kB | 315/707 kB | 49/334 kB
+Progress (5): 553/669 kB | 406/542 kB | 201 kB | 315/707 kB | 53/334 kB
+Progress (5): 553/669 kB | 406/542 kB | 201 kB | 319/707 kB | 53/334 kB
+Progress (5): 553/669 kB | 410/542 kB | 201 kB | 319/707 kB | 53/334 kB
+Progress (5): 553/669 kB | 410/542 kB | 201 kB | 319/707 kB | 57/334 kB
+Progress (5): 557/669 kB | 410/542 kB | 201 kB | 319/707 kB | 57/334 kB
+Progress (5): 557/669 kB | 410/542 kB | 201 kB | 319/707 kB | 61/334 kB
+Progress (5): 557/669 kB | 410/542 kB | 201 kB | 319/707 kB | 66/334 kB
+Progress (5): 557/669 kB | 414/542 kB | 201 kB | 319/707 kB | 66/334 kB
+Progress (5): 561/669 kB | 414/542 kB | 201 kB | 319/707 kB | 66/334 kB
+Progress (5): 561/669 kB | 418/542 kB | 201 kB | 319/707 kB | 66/334 kB
+Progress (5): 561/669 kB | 418/542 kB | 201 kB | 324/707 kB | 66/334 kB
+Progress (5): 561/669 kB | 422/542 kB | 201 kB | 324/707 kB | 66/334 kB
+Progress (5): 565/669 kB | 422/542 kB | 201 kB | 324/707 kB | 66/334 kB
+Progress (5): 565/669 kB | 426/542 kB | 201 kB | 324/707 kB | 66/334 kB
+Progress (5): 565/669 kB | 426/542 kB | 201 kB | 324/707 kB | 70/334 kB
+Progress (5): 565/669 kB | 426/542 kB | 201 kB | 328/707 kB | 70/334 kB
+Progress (5): 565/669 kB | 426/542 kB | 201 kB | 328/707 kB | 74/334 kB
+Progress (5): 569/669 kB | 426/542 kB | 201 kB | 328/707 kB | 74/334 kB
+Progress (5): 569/669 kB | 430/542 kB | 201 kB | 328/707 kB | 74/334 kB
+Progress (5): 569/669 kB | 430/542 kB | 201 kB | 328/707 kB | 78/334 kB
+Progress (5): 569/669 kB | 430/542 kB | 201 kB | 332/707 kB | 78/334 kB
+Progress (5): 569/669 kB | 430/542 kB | 201 kB | 332/707 kB | 82/334 kB
+Progress (5): 569/669 kB | 434/542 kB | 201 kB | 332/707 kB | 82/334 kB
+Progress (5): 573/669 kB | 434/542 kB | 201 kB | 332/707 kB | 82/334 kB
+Progress (5): 573/669 kB | 438/542 kB | 201 kB | 332/707 kB | 82/334 kB
+Progress (5): 573/669 kB | 442/542 kB | 201 kB | 332/707 kB | 82/334 kB
+Progress (5): 573/669 kB | 442/542 kB | 201 kB | 336/707 kB | 82/334 kB
+Progress (5): 573/669 kB | 442/542 kB | 201 kB | 336/707 kB | 86/334 kB
+Progress (5): 578/669 kB | 442/542 kB | 201 kB | 336/707 kB | 86/334 kB
+Progress (5): 578/669 kB | 442/542 kB | 201 kB | 336/707 kB | 90/334 kB
+Progress (5): 578/669 kB | 446/542 kB | 201 kB | 336/707 kB | 90/334 kB
+Progress (5): 582/669 kB | 446/542 kB | 201 kB | 336/707 kB | 90/334 kB
+Progress (5): 582/669 kB | 451/542 kB | 201 kB | 336/707 kB | 90/334 kB
+Progress (5): 582/669 kB | 451/542 kB | 201 kB | 336/707 kB | 94/334 kB
+Progress (5): 582/669 kB | 455/542 kB | 201 kB | 336/707 kB | 94/334 kB
+Progress (5): 582/669 kB | 455/542 kB | 201 kB | 340/707 kB | 94/334 kB
+Progress (5): 585/669 kB | 455/542 kB | 201 kB | 340/707 kB | 94/334 kB
+Progress (5): 585/669 kB | 455/542 kB | 201 kB | 344/707 kB | 94/334 kB
+Progress (5): 585/669 kB | 459/542 kB | 201 kB | 344/707 kB | 94/334 kB
+Progress (5): 585/669 kB | 459/542 kB | 201 kB | 344/707 kB | 98/334 kB
+Progress (5): 585/669 kB | 459/542 kB | 201 kB | 348/707 kB | 98/334 kB
+Progress (5): 585/669 kB | 459/542 kB | 201 kB | 352/707 kB | 98/334 kB
+Progress (5): 585/669 kB | 463/542 kB | 201 kB | 352/707 kB | 98/334 kB
+Progress (5): 589/669 kB | 463/542 kB | 201 kB | 352/707 kB | 98/334 kB
+Progress (5): 589/669 kB | 467/542 kB | 201 kB | 352/707 kB | 98/334 kB
+Progress (5): 589/669 kB | 467/542 kB | 201 kB | 352/707 kB | 102/334 kB
+Progress (5): 589/669 kB | 471/542 kB | 201 kB | 352/707 kB | 102/334 kB
+Progress (5): 593/669 kB | 471/542 kB | 201 kB | 352/707 kB | 102/334 kB
+Progress (5): 593/669 kB | 475/542 kB | 201 kB | 352/707 kB | 102/334 kB
+Progress (5): 593/669 kB | 475/542 kB | 201 kB | 352/707 kB | 106/334 kB
+Progress (5): 593/669 kB | 475/542 kB | 201 kB | 356/707 kB | 106/334 kB
+Progress (5): 593/669 kB | 475/542 kB | 201 kB | 356/707 kB | 111/334 kB
+Progress (5): 597/669 kB | 475/542 kB | 201 kB | 356/707 kB | 111/334 kB
+Progress (5): 597/669 kB | 479/542 kB | 201 kB | 356/707 kB | 111/334 kB
+Progress (5): 597/669 kB | 479/542 kB | 201 kB | 356/707 kB | 115/334 kB
+Progress (5): 597/669 kB | 479/542 kB | 201 kB | 360/707 kB | 115/334 kB
+Progress (5): 597/669 kB | 483/542 kB | 201 kB | 360/707 kB | 115/334 kB
+Progress (5): 601/669 kB | 483/542 kB | 201 kB | 360/707 kB | 115/334 kB
+Progress (5): 601/669 kB | 487/542 kB | 201 kB | 360/707 kB | 115/334 kB
+Progress (5): 601/669 kB | 487/542 kB | 201 kB | 365/707 kB | 115/334 kB
+Progress (5): 601/669 kB | 492/542 kB | 201 kB | 365/707 kB | 115/334 kB
+Progress (5): 601/669 kB | 492/542 kB | 201 kB | 365/707 kB | 119/334 kB
+Progress (5): 601/669 kB | 492/542 kB | 201 kB | 369/707 kB | 119/334 kB
+Progress (5): 605/669 kB | 492/542 kB | 201 kB | 369/707 kB | 119/334 kB
+Progress (5): 605/669 kB | 492/542 kB | 201 kB | 369/707 kB | 123/334 kB
+Progress (5): 605/669 kB | 496/542 kB | 201 kB | 369/707 kB | 123/334 kB
+Progress (5): 609/669 kB | 496/542 kB | 201 kB | 369/707 kB | 123/334 kB
+Progress (5): 609/669 kB | 500/542 kB | 201 kB | 369/707 kB | 123/334 kB
+Progress (5): 609/669 kB | 500/542 kB | 201 kB | 369/707 kB | 127/334 kB
+Progress (5): 609/669 kB | 504/542 kB | 201 kB | 369/707 kB | 127/334 kB
+Progress (5): 609/669 kB | 504/542 kB | 201 kB | 373/707 kB | 127/334 kB
+Progress (5): 613/669 kB | 504/542 kB | 201 kB | 373/707 kB | 127/334 kB
+Progress (5): 613/669 kB | 504/542 kB | 201 kB | 377/707 kB | 127/334 kB
+Progress (5): 613/669 kB | 508/542 kB | 201 kB | 377/707 kB | 127/334 kB
+Progress (5): 613/669 kB | 508/542 kB | 201 kB | 377/707 kB | 131/334 kB
+Progress (5): 613/669 kB | 508/542 kB | 201 kB | 381/707 kB | 131/334 kB
+Progress (5): 617/669 kB | 508/542 kB | 201 kB | 381/707 kB | 131/334 kB
+Progress (5): 617/669 kB | 508/542 kB | 201 kB | 385/707 kB | 131/334 kB
+Progress (5): 617/669 kB | 512/542 kB | 201 kB | 385/707 kB | 131/334 kB
+Progress (5): 617/669 kB | 516/542 kB | 201 kB | 385/707 kB | 131/334 kB
+Progress (5): 617/669 kB | 516/542 kB | 201 kB | 385/707 kB | 135/334 kB
+Progress (5): 617/669 kB | 520/542 kB | 201 kB | 385/707 kB | 135/334 kB
+Progress (5): 617/669 kB | 520/542 kB | 201 kB | 385/707 kB | 139/334 kB
+Progress (5): 617/669 kB | 524/542 kB | 201 kB | 385/707 kB | 139/334 kB
+Progress (5): 622/669 kB | 524/542 kB | 201 kB | 385/707 kB | 139/334 kB
+Progress (5): 622/669 kB | 524/542 kB | 201 kB | 385/707 kB | 143/334 kB
+Progress (5): 622/669 kB | 524/542 kB | 201 kB | 389/707 kB | 143/334 kB
+Progress (5): 622/669 kB | 524/542 kB | 201 kB | 389/707 kB | 147/334 kB
+Progress (5): 626/669 kB | 524/542 kB | 201 kB | 389/707 kB | 147/334 kB
+Progress (5): 626/669 kB | 524/542 kB | 201 kB | 393/707 kB | 147/334 kB
+Progress (5): 626/669 kB | 528/542 kB | 201 kB | 393/707 kB | 147/334 kB
+Progress (5): 626/669 kB | 528/542 kB | 201 kB | 397/707 kB | 147/334 kB
+Progress (5): 630/669 kB | 528/542 kB | 201 kB | 397/707 kB | 147/334 kB
+Progress (5): 630/669 kB | 528/542 kB | 201 kB | 397/707 kB | 152/334 kB
+Progress (5): 630/669 kB | 528/542 kB | 201 kB | 401/707 kB | 152/334 kB
+Progress (5): 630/669 kB | 532/542 kB | 201 kB | 401/707 kB | 152/334 kB
+Progress (5): 630/669 kB | 532/542 kB | 201 kB | 401/707 kB | 156/334 kB
+Progress (5): 634/669 kB | 532/542 kB | 201 kB | 401/707 kB | 156/334 kB
+Progress (5): 634/669 kB | 532/542 kB | 201 kB | 401/707 kB | 160/334 kB
+Progress (5): 634/669 kB | 537/542 kB | 201 kB | 401/707 kB | 160/334 kB
+Progress (5): 634/669 kB | 537/542 kB | 201 kB | 406/707 kB | 160/334 kB
+Progress (5): 634/669 kB | 537/542 kB | 201 kB | 406/707 kB | 164/334 kB
+Progress (5): 634/669 kB | 537/542 kB | 201 kB | 410/707 kB | 164/334 kB
+Progress (5): 634/669 kB | 541/542 kB | 201 kB | 410/707 kB | 164/334 kB
+Progress (5): 634/669 kB | 541/542 kB | 201 kB | 414/707 kB | 164/334 kB
+Progress (5): 638/669 kB | 541/542 kB | 201 kB | 414/707 kB | 164/334 kB
+Progress (5): 638/669 kB | 541/542 kB | 201 kB | 418/707 kB | 164/334 kB
+Progress (5): 638/669 kB | 542 kB | 201 kB | 418/707 kB | 164/334 kB    
+Progress (5): 638/669 kB | 542 kB | 201 kB | 418/707 kB | 168/334 kB
+Progress (5): 642/669 kB | 542 kB | 201 kB | 418/707 kB | 168/334 kB
+Progress (5): 642/669 kB | 542 kB | 201 kB | 418/707 kB | 172/334 kB
+Progress (5): 646/669 kB | 542 kB | 201 kB | 418/707 kB | 172/334 kB
+Progress (5): 646/669 kB | 542 kB | 201 kB | 422/707 kB | 172/334 kB
+Progress (5): 646/669 kB | 542 kB | 201 kB | 422/707 kB | 176/334 kB
+Progress (5): 646/669 kB | 542 kB | 201 kB | 426/707 kB | 176/334 kB
+Progress (5): 650/669 kB | 542 kB | 201 kB | 426/707 kB | 176/334 kB
+Progress (5): 650/669 kB | 542 kB | 201 kB | 430/707 kB | 176/334 kB
+Progress (5): 650/669 kB | 542 kB | 201 kB | 430/707 kB | 180/334 kB
+Progress (5): 650/669 kB | 542 kB | 201 kB | 434/707 kB | 180/334 kB
+Progress (5): 654/669 kB | 542 kB | 201 kB | 434/707 kB | 180/334 kB
+Progress (5): 658/669 kB | 542 kB | 201 kB | 434/707 kB | 180/334 kB
+Progress (5): 658/669 kB | 542 kB | 201 kB | 434/707 kB | 184/334 kB
+Progress (5): 658/669 kB | 542 kB | 201 kB | 438/707 kB | 184/334 kB
+Progress (5): 663/669 kB | 542 kB | 201 kB | 438/707 kB | 184/334 kB
+Progress (5): 663/669 kB | 542 kB | 201 kB | 442/707 kB | 184/334 kB
+Progress (5): 663/669 kB | 542 kB | 201 kB | 442/707 kB | 188/334 kB
+Progress (5): 663/669 kB | 542 kB | 201 kB | 446/707 kB | 188/334 kB
+Progress (5): 667/669 kB | 542 kB | 201 kB | 446/707 kB | 188/334 kB
+Progress (5): 667/669 kB | 542 kB | 201 kB | 451/707 kB | 188/334 kB
+Progress (5): 667/669 kB | 542 kB | 201 kB | 451/707 kB | 193/334 kB
+Progress (5): 669 kB | 542 kB | 201 kB | 451/707 kB | 193/334 kB    
+Progress (5): 669 kB | 542 kB | 201 kB | 451/707 kB | 197/334 kB
+                                                                
+Downloaded from central: https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-all/1.1/hamcrest-all-1.1.jar (542 kB at 4.0 MB/s)
+Progress (4): 669 kB | 201 kB | 455/707 kB | 197/334 kB
+                                                       
+Downloading from central: https://repo.maven.apache.org/maven2/com/sleepycat/je/18.3.12/je-18.3.12.jar
+Progress (4): 669 kB | 201 kB | 459/707 kB | 197/334 kB
+Progress (4): 669 kB | 201 kB | 459/707 kB | 201/334 kB
+Progress (4): 669 kB | 201 kB | 463/707 kB | 201/334 kB
+Progress (4): 669 kB | 201 kB | 463/707 kB | 205/334 kB
+Progress (4): 669 kB | 201 kB | 467/707 kB | 205/334 kB
+Progress (4): 669 kB | 201 kB | 467/707 kB | 209/334 kB
+Progress (4): 669 kB | 201 kB | 467/707 kB | 213/334 kB
+Progress (4): 669 kB | 201 kB | 471/707 kB | 213/334 kB
+Progress (4): 669 kB | 201 kB | 475/707 kB | 213/334 kB
+Progress (4): 669 kB | 201 kB | 475/707 kB | 217/334 kB
+Progress (4): 669 kB | 201 kB | 479/707 kB | 217/334 kB
+Progress (4): 669 kB | 201 kB | 479/707 kB | 221/334 kB
+Progress (4): 669 kB | 201 kB | 483/707 kB | 221/334 kB
+Progress (4): 669 kB | 201 kB | 483/707 kB | 225/334 kB
+Progress (4): 669 kB | 201 kB | 483/707 kB | 229/334 kB
+Progress (4): 669 kB | 201 kB | 487/707 kB | 229/334 kB
+Progress (4): 669 kB | 201 kB | 492/707 kB | 229/334 kB
+Progress (4): 669 kB | 201 kB | 492/707 kB | 233/334 kB
+Progress (4): 669 kB | 201 kB | 496/707 kB | 233/334 kB
+Progress (4): 669 kB | 201 kB | 496/707 kB | 238/334 kB
+                                                       
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/mina/mina-core/2.1.5/mina-core-2.1.5.jar (669 kB at 4.8 MB/s)
+Progress (3): 201 kB | 500/707 kB | 238/334 kB
+Progress (3): 201 kB | 500/707 kB | 242/334 kB
+Progress (3): 201 kB | 500/707 kB | 246/334 kB
+Progress (3): 201 kB | 504/707 kB | 246/334 kB
+Progress (3): 201 kB | 508/707 kB | 246/334 kB
+Progress (3): 201 kB | 508/707 kB | 250/334 kB
+Progress (3): 201 kB | 512/707 kB | 250/334 kB
+Progress (3): 201 kB | 512/707 kB | 254/334 kB
+Progress (3): 201 kB | 516/707 kB | 254/334 kB
+Progress (3): 201 kB | 516/707 kB | 258/334 kB
+Progress (3): 201 kB | 516/707 kB | 262/334 kB
+Progress (3): 201 kB | 520/707 kB | 262/334 kB
+Progress (3): 201 kB | 524/707 kB | 262/334 kB
+Progress (3): 201 kB | 524/707 kB | 266/334 kB
+Progress (3): 201 kB | 528/707 kB | 266/334 kB
+Progress (3): 201 kB | 528/707 kB | 270/334 kB
+Progress (3): 201 kB | 532/707 kB | 270/334 kB
+Progress (3): 201 kB | 532/707 kB | 274/334 kB
+Progress (3): 201 kB | 532/707 kB | 279/334 kB
+Progress (3): 201 kB | 537/707 kB | 279/334 kB
+Progress (3): 201 kB | 541/707 kB | 279/334 kB
+Progress (3): 201 kB | 541/707 kB | 283/334 kB
+Progress (3): 201 kB | 545/707 kB | 283/334 kB
+Progress (3): 201 kB | 545/707 kB | 287/334 kB
+Progress (3): 201 kB | 549/707 kB | 287/334 kB
+Progress (3): 201 kB | 549/707 kB | 291/334 kB
+Progress (3): 201 kB | 549/707 kB | 295/334 kB
+Progress (3): 201 kB | 553/707 kB | 295/334 kB
+Progress (3): 201 kB | 557/707 kB | 295/334 kB
+Progress (3): 201 kB | 557/707 kB | 299/334 kB
+Progress (3): 201 kB | 561/707 kB | 299/334 kB
+Progress (3): 201 kB | 561/707 kB | 303/334 kB
+Progress (3): 201 kB | 565/707 kB | 303/334 kB
+Progress (3): 201 kB | 565/707 kB | 307/334 kB
+Progress (3): 201 kB | 565/707 kB | 311/334 kB
+Progress (3): 201 kB | 569/707 kB | 311/334 kB
+Progress (3): 201 kB | 573/707 kB | 311/334 kB
+Progress (3): 201 kB | 578/707 kB | 311/334 kB
+Progress (3): 201 kB | 578/707 kB | 315/334 kB
+Progress (3): 201 kB | 582/707 kB | 315/334 kB
+Progress (3): 201 kB | 582/707 kB | 319/334 kB
+Progress (3): 201 kB | 582/707 kB | 324/334 kB
+Progress (3): 201 kB | 582/707 kB | 328/334 kB
+Progress (3): 201 kB | 586/707 kB | 328/334 kB
+Progress (4): 201 kB | 586/707 kB | 328/334 kB | 0/3.5 MB
+Progress (4): 201 kB | 586/707 kB | 332/334 kB | 0/3.5 MB
+Progress (4): 201 kB | 590/707 kB | 332/334 kB | 0/3.5 MB
+Progress (4): 201 kB | 590/707 kB | 334 kB | 0/3.5 MB    
+Progress (4): 201 kB | 594/707 kB | 334 kB | 0/3.5 MB
+Progress (4): 201 kB | 598/707 kB | 334 kB | 0/3.5 MB
+Progress (4): 201 kB | 598/707 kB | 334 kB | 0/3.5 MB
+Progress (4): 201 kB | 602/707 kB | 334 kB | 0/3.5 MB
+Progress (4): 201 kB | 606/707 kB | 334 kB | 0/3.5 MB
+Progress (4): 201 kB | 610/707 kB | 334 kB | 0/3.5 MB
+Progress (4): 201 kB | 614/707 kB | 334 kB | 0/3.5 MB
+Progress (4): 201 kB | 614/707 kB | 334 kB | 0/3.5 MB
+Progress (4): 201 kB | 618/707 kB | 334 kB | 0/3.5 MB
+Progress (4): 201 kB | 623/707 kB | 334 kB | 0/3.5 MB
+Progress (4): 201 kB | 627/707 kB | 334 kB | 0/3.5 MB
+Progress (4): 201 kB | 631/707 kB | 334 kB | 0/3.5 MB
+Progress (4): 201 kB | 631/707 kB | 334 kB | 0.1/3.5 MB
+Progress (4): 201 kB | 635/707 kB | 334 kB | 0.1/3.5 MB
+Progress (4): 201 kB | 639/707 kB | 334 kB | 0.1/3.5 MB
+Progress (4): 201 kB | 643/707 kB | 334 kB | 0.1/3.5 MB
+Progress (4): 201 kB | 647/707 kB | 334 kB | 0.1/3.5 MB
+Progress (4): 201 kB | 647/707 kB | 334 kB | 0.1/3.5 MB
+Progress (4): 201 kB | 651/707 kB | 334 kB | 0.1/3.5 MB
+Progress (4): 201 kB | 655/707 kB | 334 kB | 0.1/3.5 MB
+Progress (4): 201 kB | 659/707 kB | 334 kB | 0.1/3.5 MB
+Progress (4): 201 kB | 664/707 kB | 334 kB | 0.1/3.5 MB
+Progress (4): 201 kB | 664/707 kB | 334 kB | 0.1/3.5 MB
+Progress (4): 201 kB | 668/707 kB | 334 kB | 0.1/3.5 MB
+Progress (4): 201 kB | 672/707 kB | 334 kB | 0.1/3.5 MB
+Progress (4): 201 kB | 676/707 kB | 334 kB | 0.1/3.5 MB
+Progress (4): 201 kB | 680/707 kB | 334 kB | 0.1/3.5 MB
+Progress (4): 201 kB | 684/707 kB | 334 kB | 0.1/3.5 MB
+Progress (4): 201 kB | 688/707 kB | 334 kB | 0.1/3.5 MB
+Progress (4): 201 kB | 688/707 kB | 334 kB | 0.1/3.5 MB
+Progress (4): 201 kB | 692/707 kB | 334 kB | 0.1/3.5 MB
+Progress (4): 201 kB | 696/707 kB | 334 kB | 0.1/3.5 MB
+Progress (4): 201 kB | 700/707 kB | 334 kB | 0.1/3.5 MB
+Progress (4): 201 kB | 705/707 kB | 334 kB | 0.1/3.5 MB
+Progress (4): 201 kB | 707 kB | 334 kB | 0.1/3.5 MB    
+Progress (4): 201 kB | 707 kB | 334 kB | 0.1/3.5 MB
+Progress (4): 201 kB | 707 kB | 334 kB | 0.1/3.5 MB
+Progress (4): 201 kB | 707 kB | 334 kB | 0.2/3.5 MB
+Progress (4): 201 kB | 707 kB | 334 kB | 0.2/3.5 MB
+Progress (4): 201 kB | 707 kB | 334 kB | 0.2/3.5 MB
+                                                   
+Downloaded from central: https://repo.maven.apache.org/maven2/com/cloudhopper/proxool/proxool-cglib/0.9.1/proxool-cglib-0.9.1.jar (334 kB at 2.1 MB/s)
+Progress (3): 201 kB | 707 kB | 0.2/3.5 MB
+Progress (3): 201 kB | 707 kB | 0.2/3.5 MB
+Progress (3): 201 kB | 707 kB | 0.2/3.5 MB
+Progress (3): 201 kB | 707 kB | 0.3/3.5 MB
+Progress (3): 201 kB | 707 kB | 0.3/3.5 MB
+Progress (3): 201 kB | 707 kB | 0.3/3.5 MB
+Progress (3): 201 kB | 707 kB | 0.3/3.5 MB
+Progress (3): 201 kB | 707 kB | 0.3/3.5 MB
+Progress (3): 201 kB | 707 kB | 0.3/3.5 MB
+Progress (3): 201 kB | 707 kB | 0.4/3.5 MB
+Progress (3): 201 kB | 707 kB | 0.4/3.5 MB
+Progress (3): 201 kB | 707 kB | 0.4/3.5 MB
+Progress (3): 201 kB | 707 kB | 0.4/3.5 MB
+Progress (3): 201 kB | 707 kB | 0.4/3.5 MB
+Progress (3): 201 kB | 707 kB | 0.4/3.5 MB
+Progress (3): 201 kB | 707 kB | 0.5/3.5 MB
+Progress (3): 201 kB | 707 kB | 0.5/3.5 MB
+Progress (3): 201 kB | 707 kB | 0.5/3.5 MB
+Progress (3): 201 kB | 707 kB | 0.5/3.5 MB
+Progress (3): 201 kB | 707 kB | 0.5/3.5 MB
+Progress (3): 201 kB | 707 kB | 0.5/3.5 MB
+Progress (3): 201 kB | 707 kB | 0.6/3.5 MB
+Progress (3): 201 kB | 707 kB | 0.6/3.5 MB
+                                          
+Downloaded from central: https://repo.maven.apache.org/maven2/hsqldb/hsqldb/1.8.0.10/hsqldb-1.8.0.10.jar (707 kB at 4.1 MB/s)
+Progress (2): 201 kB | 0.6/3.5 MB
+Progress (2): 201 kB | 0.6/3.5 MB
+Progress (2): 201 kB | 0.6/3.5 MB
+Progress (2): 201 kB | 0.6/3.5 MB
+Progress (2): 201 kB | 0.7/3.5 MB
+Progress (2): 201 kB | 0.7/3.5 MB
+Progress (2): 201 kB | 0.7/3.5 MB
+Progress (2): 201 kB | 0.7/3.5 MB
+Progress (2): 201 kB | 0.7/3.5 MB
+Progress (2): 201 kB | 0.7/3.5 MB
+Progress (2): 201 kB | 0.8/3.5 MB
+Progress (2): 201 kB | 0.8/3.5 MB
+                                 
+Downloaded from central: https://repo.maven.apache.org/maven2/tyrex/tyrex/1.0.1/tyrex-1.0.1.jar (201 kB at 1.1 MB/s)
+Progress (1): 0.8/3.5 MB
+Progress (1): 0.8/3.5 MB
+Progress (1): 0.8/3.5 MB
+Progress (1): 0.8/3.5 MB
+Progress (1): 0.9/3.5 MB
+Progress (1): 0.9/3.5 MB
+Progress (1): 0.9/3.5 MB
+Progress (1): 0.9/3.5 MB
+Progress (1): 0.9/3.5 MB
+Progress (1): 0.9/3.5 MB
+Progress (1): 1.0/3.5 MB
+Progress (1): 1.0/3.5 MB
+Progress (1): 1.0/3.5 MB
+Progress (1): 1.0/3.5 MB
+Progress (1): 1.0/3.5 MB
+Progress (1): 1.0/3.5 MB
+Progress (1): 1.1/3.5 MB
+Progress (1): 1.1/3.5 MB
+Progress (1): 1.1/3.5 MB
+Progress (1): 1.1/3.5 MB
+Progress (1): 1.1/3.5 MB
+Progress (1): 1.1/3.5 MB
+Progress (1): 1.2/3.5 MB
+Progress (1): 1.2/3.5 MB
+Progress (1): 1.2/3.5 MB
+Progress (1): 1.2/3.5 MB
+Progress (1): 1.2/3.5 MB
+Progress (1): 1.2/3.5 MB
+Progress (1): 1.3/3.5 MB
+Progress (1): 1.3/3.5 MB
+Progress (1): 1.3/3.5 MB
+Progress (1): 1.3/3.5 MB
+Progress (1): 1.3/3.5 MB
+Progress (1): 1.3/3.5 MB
+Progress (1): 1.3/3.5 MB
+Progress (1): 1.4/3.5 MB
+Progress (1): 1.4/3.5 MB
+Progress (1): 1.4/3.5 MB
+Progress (1): 1.4/3.5 MB
+Progress (1): 1.4/3.5 MB
+Progress (1): 1.4/3.5 MB
+Progress (1): 1.5/3.5 MB
+Progress (1): 1.5/3.5 MB
+Progress (1): 1.5/3.5 MB
+Progress (1): 1.5/3.5 MB
+Progress (1): 1.5/3.5 MB
+Progress (1): 1.5/3.5 MB
+Progress (1): 1.6/3.5 MB
+Progress (1): 1.6/3.5 MB
+Progress (1): 1.6/3.5 MB
+Progress (1): 1.6/3.5 MB
+Progress (1): 1.6/3.5 MB
+Progress (1): 1.6/3.5 MB
+Progress (1): 1.7/3.5 MB
+Progress (1): 1.7/3.5 MB
+Progress (1): 1.7/3.5 MB
+Progress (1): 1.7/3.5 MB
+Progress (1): 1.7/3.5 MB
+Progress (1): 1.7/3.5 MB
+Progress (1): 1.8/3.5 MB
+Progress (1): 1.8/3.5 MB
+Progress (1): 1.8/3.5 MB
+Progress (1): 1.8/3.5 MB
+Progress (1): 1.8/3.5 MB
+Progress (1): 1.8/3.5 MB
+Progress (1): 1.9/3.5 MB
+Progress (1): 1.9/3.5 MB
+Progress (1): 1.9/3.5 MB
+Progress (1): 1.9/3.5 MB
+Progress (1): 1.9/3.5 MB
+Progress (1): 1.9/3.5 MB
+Progress (1): 2.0/3.5 MB
+Progress (1): 2.0/3.5 MB
+Progress (1): 2.0/3.5 MB
+Progress (1): 2.0/3.5 MB
+Progress (1): 2.0/3.5 MB
+Progress (1): 2.0/3.5 MB
+Progress (1): 2.1/3.5 MB
+Progress (1): 2.1/3.5 MB
+Progress (1): 2.1/3.5 MB
+Progress (1): 2.1/3.5 MB
+Progress (1): 2.1/3.5 MB
+Progress (1): 2.1/3.5 MB
+Progress (1): 2.2/3.5 MB
+Progress (1): 2.2/3.5 MB
+Progress (1): 2.2/3.5 MB
+Progress (1): 2.2/3.5 MB
+Progress (1): 2.2/3.5 MB
+Progress (1): 2.2/3.5 MB
+Progress (1): 2.3/3.5 MB
+Progress (1): 2.3/3.5 MB
+Progress (1): 2.3/3.5 MB
+Progress (1): 2.3/3.5 MB
+Progress (1): 2.3/3.5 MB
+Progress (1): 2.3/3.5 MB
+Progress (1): 2.4/3.5 MB
+Progress (1): 2.4/3.5 MB
+Progress (1): 2.4/3.5 MB
+Progress (1): 2.4/3.5 MB
+Progress (1): 2.4/3.5 MB
+Progress (1): 2.4/3.5 MB
+Progress (1): 2.5/3.5 MB
+Progress (1): 2.5/3.5 MB
+Progress (1): 2.5/3.5 MB
+Progress (1): 2.5/3.5 MB
+Progress (1): 2.5/3.5 MB
+Progress (1): 2.5/3.5 MB
+Progress (1): 2.5/3.5 MB
+Progress (1): 2.6/3.5 MB
+Progress (1): 2.6/3.5 MB
+Progress (1): 2.6/3.5 MB
+Progress (1): 2.6/3.5 MB
+Progress (1): 2.6/3.5 MB
+Progress (1): 2.6/3.5 MB
+Progress (1): 2.7/3.5 MB
+Progress (1): 2.7/3.5 MB
+Progress (1): 2.7/3.5 MB
+Progress (1): 2.7/3.5 MB
+Progress (1): 2.7/3.5 MB
+Progress (1): 2.7/3.5 MB
+Progress (1): 2.8/3.5 MB
+Progress (1): 2.8/3.5 MB
+Progress (1): 2.8/3.5 MB
+Progress (1): 2.8/3.5 MB
+Progress (1): 2.8/3.5 MB
+Progress (1): 2.8/3.5 MB
+Progress (1): 2.9/3.5 MB
+Progress (1): 2.9/3.5 MB
+Progress (1): 2.9/3.5 MB
+Progress (1): 2.9/3.5 MB
+Progress (1): 2.9/3.5 MB
+Progress (1): 2.9/3.5 MB
+Progress (1): 3.0/3.5 MB
+Progress (1): 3.0/3.5 MB
+Progress (1): 3.0/3.5 MB
+Progress (1): 3.0/3.5 MB
+Progress (1): 3.0/3.5 MB
+Progress (1): 3.0/3.5 MB
+Progress (1): 3.1/3.5 MB
+Progress (1): 3.1/3.5 MB
+Progress (1): 3.1/3.5 MB
+Progress (1): 3.1/3.5 MB
+Progress (1): 3.1/3.5 MB
+Progress (1): 3.1/3.5 MB
+Progress (1): 3.2/3.5 MB
+Progress (1): 3.2/3.5 MB
+Progress (1): 3.2/3.5 MB
+Progress (1): 3.2/3.5 MB
+Progress (1): 3.2/3.5 MB
+Progress (1): 3.2/3.5 MB
+Progress (1): 3.3/3.5 MB
+Progress (1): 3.3/3.5 MB
+Progress (1): 3.3/3.5 MB
+Progress (1): 3.3/3.5 MB
+Progress (1): 3.3/3.5 MB
+Progress (1): 3.3/3.5 MB
+Progress (1): 3.4/3.5 MB
+Progress (1): 3.4/3.5 MB
+Progress (1): 3.4/3.5 MB
+Progress (1): 3.4/3.5 MB
+Progress (1): 3.4/3.5 MB
+Progress (1): 3.4/3.5 MB
+Progress (1): 3.5/3.5 MB
+Progress (1): 3.5/3.5 MB
+Progress (1): 3.5/3.5 MB
+Progress (1): 3.5/3.5 MB
+Progress (1): 3.5 MB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/sleepycat/je/18.3.12/je-18.3.12.jar (3.5 MB at 14 MB/s)
 [INFO] 
-[INFO] --- quickfixj-codegenerator:3.0.0-SNAPSHOT:generate (fixt11) @ quickfixj-core ---
-[INFO] Successfully created an instance of the QuickFIX source generator
-[INFO] Initialising code generator task
-[INFO] Processing C:\Users\Yogya\Documents\KTH\BreakingUpdates\breaking-updates\tempProject\00a7cc31784ac4a9cc27d506a73ae589d6df36d6-breaking\quickfixj\quickfixj-messages\quickfixj-messages-fixt11\src\main\resources\FIXT11.xml
-[INFO] FIXT11.xml: generating field classes in C:\Users\Yogya\Documents\KTH\BreakingUpdates\breaking-updates\tempProject\00a7cc31784ac4a9cc27d506a73ae589d6df36d6-breaking\quickfixj\quickfixj-core\target\generated-sources/quickfix/field/
-[INFO] Loading predefined xslt file:Fields.xsl
-[INFO] FIXT11.xml: generating message base class
-[INFO] Loading predefined xslt file:Message.xsl
-[INFO] Loading predefined xslt file:MessageFactory.xsl
-[INFO] Loading predefined xslt file:MessageCracker.xsl
-[INFO] FIXT11.xml: generating component classes
-[INFO] Loading predefined xslt file:MessageSubclass.xsl
-[INFO] FIXT11.xml: generating message subclasses
-[INFO] Loading predefined xslt file:MessageSubclass.xsl
-[INFO] 
-[INFO] --- quickfixj-codegenerator:3.0.0-SNAPSHOT:generate (fix50sp2) @ quickfixj-core ---
-[INFO] Successfully created an instance of the QuickFIX source generator
-[INFO] Initialising code generator task
-[INFO] Processing C:\Users\Yogya\Documents\KTH\BreakingUpdates\breaking-updates\tempProject\00a7cc31784ac4a9cc27d506a73ae589d6df36d6-breaking\quickfixj\quickfixj-messages\quickfixj-messages-fix50sp2\src\main\resources\FIX50SP2.modified.xml
-[INFO] FIX50SP2.modified.xml: generating field classes in C:\Users\Yogya\Documents\KTH\BreakingUpdates\breaking-updates\tempProject\00a7cc31784ac4a9cc27d506a73ae589d6df36d6-breaking\quickfixj\quickfixj-core\target\generated-sources/quickfix/field/
-[INFO] Loading predefined xslt file:Fields.xsl
-[INFO] FIX50SP2.modified.xml: generating message base class
-[INFO] Loading predefined xslt file:Message.xsl
-[INFO] Loading predefined xslt file:MessageFactory.xsl
-[INFO] Loading predefined xslt file:MessageCracker.xsl
-[INFO] FIX50SP2.modified.xml: generating component classes
-[INFO] Loading predefined xslt file:MessageSubclass.xsl
-[INFO] FIX50SP2.modified.xml: generating message subclasses
-[INFO] Loading predefined xslt file:MessageSubclass.xsl
-[INFO] 
-[INFO] --- quickfixj-codegenerator:3.0.0-SNAPSHOT:generate (fix50sp1) @ quickfixj-core ---
-[INFO] Successfully created an instance of the QuickFIX source generator
-[INFO] Initialising code generator task
-[INFO] Processing C:\Users\Yogya\Documents\KTH\BreakingUpdates\breaking-updates\tempProject\00a7cc31784ac4a9cc27d506a73ae589d6df36d6-breaking\quickfixj\quickfixj-messages\quickfixj-messages-fix50sp1\src\main\resources\FIX50SP1.modified.xml
-[INFO] FIX50SP1.modified.xml: generating field classes in C:\Users\Yogya\Documents\KTH\BreakingUpdates\breaking-updates\tempProject\00a7cc31784ac4a9cc27d506a73ae589d6df36d6-breaking\quickfixj\quickfixj-core\target\generated-sources/quickfix/field/
-[INFO] Loading predefined xslt file:Fields.xsl
-[INFO] FIX50SP1.modified.xml: generating message base class
-[INFO] Loading predefined xslt file:Message.xsl
-[INFO] Loading predefined xslt file:MessageFactory.xsl
-[INFO] Loading predefined xslt file:MessageCracker.xsl
-[INFO] FIX50SP1.modified.xml: generating component classes
-[INFO] Loading predefined xslt file:MessageSubclass.xsl
-[INFO] FIX50SP1.modified.xml: generating message subclasses
-[INFO] Loading predefined xslt file:MessageSubclass.xsl
-[INFO] 
-[INFO] --- quickfixj-codegenerator:3.0.0-SNAPSHOT:generate (fix50) @ quickfixj-core ---
-[INFO] Successfully created an instance of the QuickFIX source generator
-[INFO] Initialising code generator task
-[INFO] Processing C:\Users\Yogya\Documents\KTH\BreakingUpdates\breaking-updates\tempProject\00a7cc31784ac4a9cc27d506a73ae589d6df36d6-breaking\quickfixj\quickfixj-messages\quickfixj-messages-fix50\src\main\resources\FIX50.xml
-[INFO] FIX50.xml: generating field classes in C:\Users\Yogya\Documents\KTH\BreakingUpdates\breaking-updates\tempProject\00a7cc31784ac4a9cc27d506a73ae589d6df36d6-breaking\quickfixj\quickfixj-core\target\generated-sources/quickfix/field/
-[INFO] Loading predefined xslt file:Fields.xsl
-[INFO] FIX50.xml: generating message base class
-[INFO] Loading predefined xslt file:Message.xsl
-[INFO] Loading predefined xslt file:MessageFactory.xsl
-[INFO] Loading predefined xslt file:MessageCracker.xsl
-[INFO] FIX50.xml: generating component classes
-[INFO] Loading predefined xslt file:MessageSubclass.xsl
-[INFO] FIX50.xml: generating message subclasses
-[INFO] Loading predefined xslt file:MessageSubclass.xsl
-[INFO] 
-[INFO] --- quickfixj-codegenerator:3.0.0-SNAPSHOT:generate (fix44) @ quickfixj-core ---
-[INFO] Successfully created an instance of the QuickFIX source generator
-[INFO] Initialising code generator task
-[INFO] Processing C:\Users\Yogya\Documents\KTH\BreakingUpdates\breaking-updates\tempProject\00a7cc31784ac4a9cc27d506a73ae589d6df36d6-breaking\quickfixj\quickfixj-messages\quickfixj-messages-fix44\src\main\resources\FIX44.modified.xml
-[INFO] FIX44.modified.xml: generating field classes in C:\Users\Yogya\Documents\KTH\BreakingUpdates\breaking-updates\tempProject\00a7cc31784ac4a9cc27d506a73ae589d6df36d6-breaking\quickfixj\quickfixj-core\target\generated-sources/quickfix/field/
-[INFO] Loading predefined xslt file:Fields.xsl
-[INFO] FIX44.modified.xml: generating message base class
-[INFO] Loading predefined xslt file:Message.xsl
-[INFO] Loading predefined xslt file:MessageFactory.xsl
-[INFO] Loading predefined xslt file:MessageCracker.xsl
-[INFO] FIX44.modified.xml: generating component classes
-[INFO] Loading predefined xslt file:MessageSubclass.xsl
-[INFO] FIX44.modified.xml: generating message subclasses
-[INFO] Loading predefined xslt file:MessageSubclass.xsl
-[INFO] 
-[INFO] --- quickfixj-codegenerator:3.0.0-SNAPSHOT:generate (fix43) @ quickfixj-core ---
-[INFO] Successfully created an instance of the QuickFIX source generator
-[INFO] Initialising code generator task
-[INFO] Processing C:\Users\Yogya\Documents\KTH\BreakingUpdates\breaking-updates\tempProject\00a7cc31784ac4a9cc27d506a73ae589d6df36d6-breaking\quickfixj\quickfixj-messages\quickfixj-messages-fix43\src\main\resources\FIX43.xml
-[INFO] FIX43.xml: generating field classes in C:\Users\Yogya\Documents\KTH\BreakingUpdates\breaking-updates\tempProject\00a7cc31784ac4a9cc27d506a73ae589d6df36d6-breaking\quickfixj\quickfixj-core\target\generated-sources/quickfix/field/
-[INFO] Loading predefined xslt file:Fields.xsl
-[INFO] FIX43.xml: generating message base class
-[INFO] Loading predefined xslt file:Message.xsl
-[INFO] Loading predefined xslt file:MessageFactory.xsl
-[INFO] Loading predefined xslt file:MessageCracker.xsl
-[INFO] FIX43.xml: generating component classes
-[INFO] Loading predefined xslt file:MessageSubclass.xsl
-[INFO] FIX43.xml: generating message subclasses
-[INFO] Loading predefined xslt file:MessageSubclass.xsl
-[INFO] 
-[INFO] --- quickfixj-codegenerator:3.0.0-SNAPSHOT:generate (fix42) @ quickfixj-core ---
-[INFO] Successfully created an instance of the QuickFIX source generator
-[INFO] Initialising code generator task
-[INFO] Processing C:\Users\Yogya\Documents\KTH\BreakingUpdates\breaking-updates\tempProject\00a7cc31784ac4a9cc27d506a73ae589d6df36d6-breaking\quickfixj\quickfixj-messages\quickfixj-messages-fix42\src\main\resources\FIX42.xml
-[INFO] FIX42.xml: generating field classes in C:\Users\Yogya\Documents\KTH\BreakingUpdates\breaking-updates\tempProject\00a7cc31784ac4a9cc27d506a73ae589d6df36d6-breaking\quickfixj\quickfixj-core\target\generated-sources/quickfix/field/
-[INFO] Loading predefined xslt file:Fields.xsl
-[INFO] FIX42.xml: generating message base class
-[INFO] Loading predefined xslt file:Message.xsl
-[INFO] Loading predefined xslt file:MessageFactory.xsl
-[INFO] Loading predefined xslt file:MessageCracker.xsl
-[INFO] FIX42.xml: generating component classes
-[INFO] Loading predefined xslt file:MessageSubclass.xsl
-[INFO] FIX42.xml: generating message subclasses
-[INFO] Loading predefined xslt file:MessageSubclass.xsl
-[INFO] 
-[INFO] --- quickfixj-codegenerator:3.0.0-SNAPSHOT:generate (fix41) @ quickfixj-core ---
-[INFO] Successfully created an instance of the QuickFIX source generator
-[INFO] Initialising code generator task
-[INFO] Processing C:\Users\Yogya\Documents\KTH\BreakingUpdates\breaking-updates\tempProject\00a7cc31784ac4a9cc27d506a73ae589d6df36d6-breaking\quickfixj\quickfixj-messages\quickfixj-messages-fix41\src\main\resources\FIX41.xml
-[INFO] FIX41.xml: generating field classes in C:\Users\Yogya\Documents\KTH\BreakingUpdates\breaking-updates\tempProject\00a7cc31784ac4a9cc27d506a73ae589d6df36d6-breaking\quickfixj\quickfixj-core\target\generated-sources/quickfix/field/
-[INFO] Loading predefined xslt file:Fields.xsl
-[INFO] FIX41.xml: generating message base class
-[INFO] Loading predefined xslt file:Message.xsl
-[INFO] Loading predefined xslt file:MessageFactory.xsl
-[INFO] Loading predefined xslt file:MessageCracker.xsl
-[INFO] FIX41.xml: generating component classes
-[INFO] Loading predefined xslt file:MessageSubclass.xsl
-[INFO] FIX41.xml: generating message subclasses
-[INFO] Loading predefined xslt file:MessageSubclass.xsl
-[INFO] 
-[INFO] --- quickfixj-codegenerator:3.0.0-SNAPSHOT:generate (fix40) @ quickfixj-core ---
-[INFO] Successfully created an instance of the QuickFIX source generator
-[INFO] Initialising code generator task
-[INFO] Processing C:\Users\Yogya\Documents\KTH\BreakingUpdates\breaking-updates\tempProject\00a7cc31784ac4a9cc27d506a73ae589d6df36d6-breaking\quickfixj\quickfixj-messages\quickfixj-messages-fix40\src\main\resources\FIX40.xml
-[INFO] FIX40.xml: generating field classes in C:\Users\Yogya\Documents\KTH\BreakingUpdates\breaking-updates\tempProject\00a7cc31784ac4a9cc27d506a73ae589d6df36d6-breaking\quickfixj\quickfixj-core\target\generated-sources/quickfix/field/
-[INFO] Loading predefined xslt file:Fields.xsl
-[INFO] FIX40.xml: generating message base class
-[INFO] Loading predefined xslt file:Message.xsl
-[INFO] Loading predefined xslt file:MessageFactory.xsl
-[INFO] Loading predefined xslt file:MessageCracker.xsl
-[INFO] FIX40.xml: generating component classes
-[INFO] Loading predefined xslt file:MessageSubclass.xsl
-[INFO] FIX40.xml: generating message subclasses
-[INFO] Loading predefined xslt file:MessageSubclass.xsl
-[INFO] 
-[INFO] --- resources:3.1.0:resources (default-resources) @ quickfixj-core ---
-[INFO] Using 'UTF-8' encoding to copy filtered resources.
-[INFO] Copying 1 resource
-[INFO] Copying 2 resources
-[INFO] Copying 2 resources
-[INFO] Copying 1 resource
-[INFO] Copying 2 resources
-[INFO] Copying 1 resource
-[INFO] Copying 1 resource
-[INFO] Copying 1 resource
-[INFO] Copying 1 resource
-[INFO] 
-[INFO] --- compiler:3.8.0:compile (default-compile) @ quickfixj-core ---
-[INFO] Changes detected - recompiling the module!
-[INFO] Compiling 2802 source files to C:\Users\Yogya\Documents\KTH\BreakingUpdates\breaking-updates\tempProject\00a7cc31784ac4a9cc27d506a73ae589d6df36d6-breaking\quickfixj\quickfixj-core\target\classes
-[INFO] /C:/Users/Yogya/Documents/KTH/BreakingUpdates/breaking-updates/tempProject/00a7cc31784ac4a9cc27d506a73ae589d6df36d6-breaking/quickfixj/quickfixj-core/src/main/java/quickfix/ApplicationFunctionalAdapter.java: Some input files use unchecked or unsafe operations.
-[INFO] /C:/Users/Yogya/Documents/KTH/BreakingUpdates/breaking-updates/tempProject/00a7cc31784ac4a9cc27d506a73ae589d6df36d6-breaking/quickfixj/quickfixj-core/src/main/java/quickfix/ApplicationFunctionalAdapter.java: Recompile with -Xlint:unchecked for details.
-[INFO] 
-[INFO] --- dependency:2.8:tree (default-cli) @ quickfixj-core ---
+[INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ quickfixj-core ---
 [INFO] org.quickfixj:quickfixj-core:bundle:3.0.0-SNAPSHOT
 [INFO] +- junit:junit:jar:4.13.1:test
 [INFO] |  \- org.hamcrest:hamcrest-core:jar:1.3:test
@@ -348,411 +1416,51 @@ Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/mina/mi
 [INFO] 
 [INFO] ------------------< org.quickfixj:quickfixj-messages >------------------
 [INFO] Building QuickFIX/J Message classes for various FIX specs 3.0.0-SNAPSHOT [5/21]
-[INFO]   from quickfixj-messages\pom.xml
 [INFO] --------------------------------[ pom ]---------------------------------
 [INFO] 
-[INFO] --- dependency:2.8:tree (default-cli) @ quickfixj-messages ---
+[INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ quickfixj-messages ---
 [INFO] org.quickfixj:quickfixj-messages:pom:3.0.0-SNAPSHOT
 [INFO] 
 [INFO] ---------------< org.quickfixj:quickfixj-messages-fix40 >---------------
 [INFO] Building QuickFIX/J Message classes for FIX 4.0 3.0.0-SNAPSHOT    [6/21]
-[INFO]   from quickfixj-messages\quickfixj-messages-fix40\pom.xml
 [INFO] --------------------------------[ jar ]---------------------------------
-[INFO] 
-[INFO] --- resources:3.1.0:resources (default-resources) @ quickfixj-messages-fix40 ---
-[INFO] Using 'UTF-8' encoding to copy filtered resources.
-[INFO] Copying 1 resource
-[INFO] 
-[INFO] --- compiler:3.8.0:compile (default-compile) @ quickfixj-messages-fix40 ---
-[INFO] No sources to compile
-[INFO] 
-[INFO] --- dependency:2.8:tree (default-cli) @ quickfixj-messages-fix40 ---
-[INFO] org.quickfixj:quickfixj-messages-fix40:jar:3.0.0-SNAPSHOT
-[INFO] \- org.quickfixj:quickfixj-core:jar:3.0.0-SNAPSHOT:compile
-[INFO]    +- org.apache.mina:mina-core:jar:2.1.5:compile
-[INFO]    \- org.slf4j:slf4j-api:jar:1.7.32:compile
-[INFO] 
-[INFO] ---------------< org.quickfixj:quickfixj-messages-fix41 >---------------
-[INFO] Building QuickFIX/J Message classes for FIX 4.1 3.0.0-SNAPSHOT    [7/21]
-[INFO]   from quickfixj-messages\quickfixj-messages-fix41\pom.xml
-[INFO] --------------------------------[ jar ]---------------------------------
-[INFO] 
-[INFO] --- resources:3.1.0:resources (default-resources) @ quickfixj-messages-fix41 ---
-[INFO] Using 'UTF-8' encoding to copy filtered resources.
-[INFO] Copying 1 resource
-[INFO] 
-[INFO] --- compiler:3.8.0:compile (default-compile) @ quickfixj-messages-fix41 ---
-[INFO] No sources to compile
-[INFO] 
-[INFO] --- dependency:2.8:tree (default-cli) @ quickfixj-messages-fix41 ---
-[INFO] org.quickfixj:quickfixj-messages-fix41:jar:3.0.0-SNAPSHOT
-[INFO] \- org.quickfixj:quickfixj-core:jar:3.0.0-SNAPSHOT:compile
-[INFO]    +- org.apache.mina:mina-core:jar:2.1.5:compile
-[INFO]    \- org.slf4j:slf4j-api:jar:1.7.32:compile
-[INFO] 
-[INFO] ---------------< org.quickfixj:quickfixj-messages-fix42 >---------------
-[INFO] Building QuickFIX/J Message classes for FIX 4.2 3.0.0-SNAPSHOT    [8/21]
-[INFO]   from quickfixj-messages\quickfixj-messages-fix42\pom.xml
-[INFO] --------------------------------[ jar ]---------------------------------
-[INFO] 
-[INFO] --- resources:3.1.0:resources (default-resources) @ quickfixj-messages-fix42 ---
-[INFO] Using 'UTF-8' encoding to copy filtered resources.
-[INFO] Copying 1 resource
-[INFO] 
-[INFO] --- compiler:3.8.0:compile (default-compile) @ quickfixj-messages-fix42 ---
-[INFO] No sources to compile
-[INFO] 
-[INFO] --- dependency:2.8:tree (default-cli) @ quickfixj-messages-fix42 ---
-[INFO] org.quickfixj:quickfixj-messages-fix42:jar:3.0.0-SNAPSHOT
-[INFO] \- org.quickfixj:quickfixj-core:jar:3.0.0-SNAPSHOT:compile
-[INFO]    +- org.apache.mina:mina-core:jar:2.1.5:compile
-[INFO]    \- org.slf4j:slf4j-api:jar:1.7.32:compile
-[INFO] 
-[INFO] ---------------< org.quickfixj:quickfixj-messages-fix43 >---------------
-[INFO] Building QuickFIX/J Message classes for FIX 4.3 3.0.0-SNAPSHOT    [9/21]
-[INFO]   from quickfixj-messages\quickfixj-messages-fix43\pom.xml
-[INFO] --------------------------------[ jar ]---------------------------------
-[INFO] 
-[INFO] --- resources:3.1.0:resources (default-resources) @ quickfixj-messages-fix43 ---
-[INFO] Using 'UTF-8' encoding to copy filtered resources.
-[INFO] Copying 1 resource
-[INFO] 
-[INFO] --- compiler:3.8.0:compile (default-compile) @ quickfixj-messages-fix43 ---
-[INFO] No sources to compile
-[INFO] 
-[INFO] --- dependency:2.8:tree (default-cli) @ quickfixj-messages-fix43 ---
-[INFO] org.quickfixj:quickfixj-messages-fix43:jar:3.0.0-SNAPSHOT
-[INFO] \- org.quickfixj:quickfixj-core:jar:3.0.0-SNAPSHOT:compile
-[INFO]    +- org.apache.mina:mina-core:jar:2.1.5:compile
-[INFO]    \- org.slf4j:slf4j-api:jar:1.7.32:compile
-[INFO] 
-[INFO] ---------------< org.quickfixj:quickfixj-messages-fix44 >---------------
-[INFO] Building QuickFIX/J Message classes for FIX 4.4 3.0.0-SNAPSHOT   [10/21]
-[INFO]   from quickfixj-messages\quickfixj-messages-fix44\pom.xml
-[INFO] --------------------------------[ jar ]---------------------------------
-[INFO] 
-[INFO] --- resources:3.1.0:resources (default-resources) @ quickfixj-messages-fix44 ---
-[INFO] Using 'UTF-8' encoding to copy filtered resources.
-[INFO] Copying 2 resources
-[INFO] 
-[INFO] --- compiler:3.8.0:compile (default-compile) @ quickfixj-messages-fix44 ---
-[INFO] No sources to compile
-[INFO] 
-[INFO] --- dependency:2.8:tree (default-cli) @ quickfixj-messages-fix44 ---
-[INFO] org.quickfixj:quickfixj-messages-fix44:jar:3.0.0-SNAPSHOT
-[INFO] \- org.quickfixj:quickfixj-core:jar:3.0.0-SNAPSHOT:compile
-[INFO]    +- org.apache.mina:mina-core:jar:2.1.5:compile
-[INFO]    \- org.slf4j:slf4j-api:jar:1.7.32:compile
-[INFO] 
-[INFO] ---------------< org.quickfixj:quickfixj-messages-fix50 >---------------
-[INFO] Building QuickFIX/J Message classes for FIX 5.0 3.0.0-SNAPSHOT   [11/21]
-[INFO]   from quickfixj-messages\quickfixj-messages-fix50\pom.xml
-[INFO] --------------------------------[ jar ]---------------------------------
-[INFO] 
-[INFO] --- resources:3.1.0:resources (default-resources) @ quickfixj-messages-fix50 ---
-[INFO] Using 'UTF-8' encoding to copy filtered resources.
-[INFO] Copying 1 resource
-[INFO] 
-[INFO] --- compiler:3.8.0:compile (default-compile) @ quickfixj-messages-fix50 ---
-[INFO] No sources to compile
-[INFO] 
-[INFO] --- dependency:2.8:tree (default-cli) @ quickfixj-messages-fix50 ---
-[INFO] org.quickfixj:quickfixj-messages-fix50:jar:3.0.0-SNAPSHOT
-[INFO] \- org.quickfixj:quickfixj-core:jar:3.0.0-SNAPSHOT:compile
-[INFO]    +- org.apache.mina:mina-core:jar:2.1.5:compile
-[INFO]    \- org.slf4j:slf4j-api:jar:1.7.32:compile
-[INFO] 
-[INFO] -------------< org.quickfixj:quickfixj-messages-fix50sp1 >--------------
-[INFO] Building QuickFIX/J Message classes for FIX 5.0 SP1 3.0.0-SNAPSHOT [12/21]
-[INFO]   from quickfixj-messages\quickfixj-messages-fix50sp1\pom.xml
-[INFO] --------------------------------[ jar ]---------------------------------
-[INFO] 
-[INFO] --- resources:3.1.0:resources (default-resources) @ quickfixj-messages-fix50sp1 ---
-[INFO] Using 'UTF-8' encoding to copy filtered resources.
-[INFO] Copying 2 resources
-[INFO] 
-[INFO] --- compiler:3.8.0:compile (default-compile) @ quickfixj-messages-fix50sp1 ---
-[INFO] No sources to compile
-[INFO] 
-[INFO] --- dependency:2.8:tree (default-cli) @ quickfixj-messages-fix50sp1 ---
-[INFO] org.quickfixj:quickfixj-messages-fix50sp1:jar:3.0.0-SNAPSHOT
-[INFO] \- org.quickfixj:quickfixj-core:jar:3.0.0-SNAPSHOT:compile
-[INFO]    +- org.apache.mina:mina-core:jar:2.1.5:compile
-[INFO]    \- org.slf4j:slf4j-api:jar:1.7.32:compile
-[INFO] 
-[INFO] -------------< org.quickfixj:quickfixj-messages-fix50sp2 >--------------
-[INFO] Building QuickFIX/J Message classes for FIX 5.0 SP2 3.0.0-SNAPSHOT [13/21]
-[INFO]   from quickfixj-messages\quickfixj-messages-fix50sp2\pom.xml
-[INFO] --------------------------------[ jar ]---------------------------------
-[INFO] 
-[INFO] --- resources:3.1.0:resources (default-resources) @ quickfixj-messages-fix50sp2 ---
-[INFO] Using 'UTF-8' encoding to copy filtered resources.
-[INFO] Copying 2 resources
-[INFO] 
-[INFO] --- compiler:3.8.0:compile (default-compile) @ quickfixj-messages-fix50sp2 ---
-[INFO] No sources to compile
-[INFO] 
-[INFO] --- dependency:2.8:tree (default-cli) @ quickfixj-messages-fix50sp2 ---
-[INFO] org.quickfixj:quickfixj-messages-fix50sp2:jar:3.0.0-SNAPSHOT
-[INFO] \- org.quickfixj:quickfixj-core:jar:3.0.0-SNAPSHOT:compile
-[INFO]    +- org.apache.mina:mina-core:jar:2.1.5:compile
-[INFO]    \- org.slf4j:slf4j-api:jar:1.7.32:compile
-[INFO] 
-[INFO] --------------< org.quickfixj:quickfixj-messages-fixt11 >---------------
-[INFO] Building QuickFIX/J Message classes for FIXT 1.1 3.0.0-SNAPSHOT  [14/21]
-[INFO]   from quickfixj-messages\quickfixj-messages-fixt11\pom.xml
-[INFO] --------------------------------[ jar ]---------------------------------
-[INFO] 
-[INFO] --- resources:3.1.0:resources (default-resources) @ quickfixj-messages-fixt11 ---
-[INFO] Using 'UTF-8' encoding to copy filtered resources.
-[INFO] Copying 1 resource
-[INFO] 
-[INFO] --- compiler:3.8.0:compile (default-compile) @ quickfixj-messages-fixt11 ---
-[INFO] No sources to compile
-[INFO] 
-[INFO] --- dependency:2.8:tree (default-cli) @ quickfixj-messages-fixt11 ---
-[INFO] org.quickfixj:quickfixj-messages-fixt11:jar:3.0.0-SNAPSHOT
-[INFO] \- org.quickfixj:quickfixj-core:jar:3.0.0-SNAPSHOT:compile
-[INFO]    +- org.apache.mina:mina-core:jar:2.1.5:compile
-[INFO]    \- org.slf4j:slf4j-api:jar:1.7.32:compile
-[INFO] 
-[INFO] ----------------< org.quickfixj:quickfixj-messages-all >----------------
-[INFO] Building QuickFIX/J Message classes for all FIX specs 3.0.0-SNAPSHOT [15/21]
-[INFO]   from quickfixj-messages\quickfixj-messages-all\pom.xml
-[INFO] --------------------------------[ jar ]---------------------------------
-[INFO] 
-[INFO] --- resources:3.1.0:resources (default-resources) @ quickfixj-messages-all ---
-[INFO] Using 'UTF-8' encoding to copy filtered resources.
-[INFO] Copying 1 resource
-[INFO] Copying 1 resource
-[INFO] Copying 2 resources
-[INFO] Copying 1 resource
-[INFO] Copying 1 resource
-[INFO] Copying 1 resource
-[INFO] Copying 1 resource
-[INFO] Copying 2 resources
-[INFO] Copying 2 resources
-[INFO] 
-[INFO] --- compiler:3.8.0:compile (default-compile) @ quickfixj-messages-all ---
-[INFO] No sources to compile
-[INFO] 
-[INFO] --- dependency:2.8:tree (default-cli) @ quickfixj-messages-all ---
-[INFO] org.quickfixj:quickfixj-messages-all:jar:3.0.0-SNAPSHOT
-[INFO] \- org.quickfixj:quickfixj-core:jar:3.0.0-SNAPSHOT:compile
-[INFO]    +- org.apache.mina:mina-core:jar:2.1.5:compile
-[INFO]    \- org.slf4j:slf4j-api:jar:1.7.32:compile
-[INFO] 
-[INFO] ------------------< org.quickfixj:quickfixj-examples >------------------
-[INFO] Building QuickFIX/J Examples 3.0.0-SNAPSHOT                      [16/21]
-[INFO]   from quickfixj-examples\pom.xml
-[INFO] --------------------------------[ pom ]---------------------------------
-[INFO] 
-[INFO] --- dependency:2.8:tree (default-cli) @ quickfixj-examples ---
-[INFO] org.quickfixj:quickfixj-examples:pom:3.0.0-SNAPSHOT
-[INFO] +- org.quickfixj:quickfixj-core:jar:3.0.0-SNAPSHOT:compile
-[INFO] |  \- org.apache.mina:mina-core:jar:2.1.5:compile
-[INFO] +- org.quickfixj:quickfixj-messages-all:jar:3.0.0-SNAPSHOT:compile
-[INFO] +- org.slf4j:slf4j-api:jar:1.7.32:compile
-[INFO] \- org.slf4j:slf4j-jdk14:jar:1.7.32:runtime
-[INFO] 
-[INFO] -------------< org.quickfixj:quickfixj-examples-executor >--------------
-[INFO] Building QuickFIX/J Examples - Executor 3.0.0-SNAPSHOT           [17/21]
-[INFO]   from quickfixj-examples\executor\pom.xml
-[INFO] -------------------------------[ bundle ]-------------------------------
-[INFO] 
-[INFO] --- resources:3.1.0:resources (default-resources) @ quickfixj-examples-executor ---
-[INFO] Using 'UTF-8' encoding to copy filtered resources.
-[INFO] Copying 3 resources
-[INFO] 
-[INFO] --- compiler:3.8.0:compile (default-compile) @ quickfixj-examples-executor ---
-[INFO] Changes detected - recompiling the module!
-[INFO] Compiling 3 source files to C:\Users\Yogya\Documents\KTH\BreakingUpdates\breaking-updates\tempProject\00a7cc31784ac4a9cc27d506a73ae589d6df36d6-breaking\quickfixj\quickfixj-examples\executor\target\classes
-[INFO] 
-[INFO] --- dependency:2.8:tree (default-cli) @ quickfixj-examples-executor ---
-[INFO] org.quickfixj:quickfixj-examples-executor:bundle:3.0.0-SNAPSHOT
-[INFO] +- org.quickfixj:quickfixj-core:jar:3.0.0-SNAPSHOT:compile
-[INFO] |  \- org.apache.mina:mina-core:jar:2.1.5:compile
-[INFO] +- org.quickfixj:quickfixj-messages-all:jar:3.0.0-SNAPSHOT:compile
-[INFO] +- org.slf4j:slf4j-api:jar:1.7.32:compile
-[INFO] \- org.slf4j:slf4j-jdk14:jar:1.7.32:runtime
-[INFO] 
-[INFO] ------------< org.quickfixj:quickfixj-examples-ordermatch >-------------
-[INFO] Building QuickFIX/J Examples - Order Match 3.0.0-SNAPSHOT        [18/21]
-[INFO]   from quickfixj-examples\ordermatch\pom.xml
-[INFO] -------------------------------[ bundle ]-------------------------------
-[INFO] 
-[INFO] --- resources:3.1.0:resources (default-resources) @ quickfixj-examples-ordermatch ---
-[INFO] Using 'UTF-8' encoding to copy filtered resources.
-[INFO] Copying 1 resource
-[INFO] 
-[INFO] --- compiler:3.8.0:compile (default-compile) @ quickfixj-examples-ordermatch ---
-[INFO] Changes detected - recompiling the module!
-[INFO] Compiling 6 source files to C:\Users\Yogya\Documents\KTH\BreakingUpdates\breaking-updates\tempProject\00a7cc31784ac4a9cc27d506a73ae589d6df36d6-breaking\quickfixj\quickfixj-examples\ordermatch\target\classes
-[INFO] 
-[INFO] --- dependency:2.8:tree (default-cli) @ quickfixj-examples-ordermatch ---
-[INFO] org.quickfixj:quickfixj-examples-ordermatch:bundle:3.0.0-SNAPSHOT
-[INFO] +- org.quickfixj:quickfixj-core:jar:3.0.0-SNAPSHOT:compile
-[INFO] |  \- org.apache.mina:mina-core:jar:2.1.5:compile
-[INFO] +- org.quickfixj:quickfixj-messages-all:jar:3.0.0-SNAPSHOT:compile
-[INFO] +- org.slf4j:slf4j-api:jar:1.7.32:compile
-[INFO] \- org.slf4j:slf4j-jdk14:jar:1.7.32:runtime
-[INFO] 
-[INFO] --------------< org.quickfixj:quickfixj-examples-banzai >---------------
-[INFO] Building QuickFIX/J Examples - Banzai 3.0.0-SNAPSHOT             [19/21]
-[INFO]   from quickfixj-examples\banzai\pom.xml
-[INFO] -------------------------------[ bundle ]-------------------------------
-[INFO] 
-[INFO] --- resources:3.1.0:resources (default-resources) @ quickfixj-examples-banzai ---
-[INFO] Using 'UTF-8' encoding to copy filtered resources.
-[INFO] Copying 3 resources
-[INFO] 
-[INFO] --- compiler:3.8.0:compile (default-compile) @ quickfixj-examples-banzai ---
-[INFO] Changes detected - recompiling the module!
-[INFO] Compiling 21 source files to C:\Users\Yogya\Documents\KTH\BreakingUpdates\breaking-updates\tempProject\00a7cc31784ac4a9cc27d506a73ae589d6df36d6-breaking\quickfixj\quickfixj-examples\banzai\target\classes
-[INFO] 
-[INFO] --- dependency:2.8:tree (default-cli) @ quickfixj-examples-banzai ---
-[INFO] org.quickfixj:quickfixj-examples-banzai:bundle:3.0.0-SNAPSHOT
-[INFO] +- org.quickfixj:quickfixj-core:jar:3.0.0-SNAPSHOT:compile
-[INFO] |  \- org.apache.mina:mina-core:jar:2.1.5:compile
-[INFO] +- org.quickfixj:quickfixj-messages-all:jar:3.0.0-SNAPSHOT:compile
-[INFO] +- org.slf4j:slf4j-api:jar:1.7.32:compile
-[INFO] \- org.slf4j:slf4j-jdk14:jar:1.7.32:runtime
-[INFO] 
-[INFO] --------------------< org.quickfixj:quickfixj-all >---------------------
-[INFO] Building QuickFIX/J All runtime modules 3.0.0-SNAPSHOT           [20/21]
-[INFO]   from quickfixj-all\pom.xml
-[INFO] -------------------------------[ bundle ]-------------------------------
-[INFO] 
-[INFO] --- resources:3.1.0:resources (default-resources) @ quickfixj-all ---
-[INFO] Using 'UTF-8' encoding to copy filtered resources.
-[INFO] skip non existing resourceDirectory C:\Users\Yogya\Documents\KTH\BreakingUpdates\breaking-updates\tempProject\00a7cc31784ac4a9cc27d506a73ae589d6df36d6-breaking\quickfixj\quickfixj-all\src\main\resources
-[INFO] 
-[INFO] --- compiler:3.8.0:compile (default-compile) @ quickfixj-all ---
-[INFO] No sources to compile
-[INFO] 
-[INFO] --- dependency:2.8:tree (default-cli) @ quickfixj-all ---
-[INFO] org.quickfixj:quickfixj-all:bundle:3.0.0-SNAPSHOT
-[INFO] +- org.quickfixj:quickfixj-core:jar:3.0.0-SNAPSHOT:compile
-[INFO] |  +- org.apache.mina:mina-core:jar:2.1.5:compile
-[INFO] |  \- org.slf4j:slf4j-api:jar:1.7.32:compile
-[INFO] +- org.quickfixj:quickfixj-messages-all:jar:3.0.0-SNAPSHOT:compile
-[INFO] +- org.quickfixj:quickfixj-codegenerator:jar:3.0.0-SNAPSHOT:compile
-[INFO] |  +- org.apache.maven:maven-plugin-api:jar:3.8.3:compile
-[INFO] |  |  +- org.apache.maven:maven-model:jar:3.8.3:compile
-[INFO] |  |  +- org.apache.maven:maven-artifact:jar:3.8.3:compile
-[INFO] |  |  |  \- org.apache.commons:commons-lang3:jar:3.8.1:compile
-[INFO] |  |  +- org.eclipse.sisu:org.eclipse.sisu.plexus:jar:0.3.5:compile
-[INFO] |  |  |  +- javax.annotation:javax.annotation-api:jar:1.2:compile
-[INFO] |  |  |  +- org.eclipse.sisu:org.eclipse.sisu.inject:jar:0.3.5:compile
-[INFO] |  |  |  \- org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:compile
-[INFO] |  |  +- org.codehaus.plexus:plexus-utils:jar:3.3.0:compile
-[INFO] |  |  \- org.codehaus.plexus:plexus-classworlds:jar:2.6.0:compile
-[INFO] |  +- org.apache.maven:maven-project:jar:2.2.1:compile
-[INFO] |  |  +- org.apache.maven:maven-settings:jar:2.2.1:compile
-[INFO] |  |  +- org.apache.maven:maven-profile:jar:2.2.1:compile
-[INFO] |  |  +- org.apache.maven:maven-artifact-manager:jar:2.2.1:compile
-[INFO] |  |  |  +- org.apache.maven:maven-repository-metadata:jar:2.2.1:compile
-[INFO] |  |  |  +- org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-6:compile
-[INFO] |  |  |  \- backport-util-concurrent:backport-util-concurrent:jar:3.1:compile
-[INFO] |  |  +- org.apache.maven:maven-plugin-registry:jar:2.2.1:compile
-[INFO] |  |  +- org.codehaus.plexus:plexus-interpolation:jar:1.11:compile
-[INFO] |  |  \- org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
-[INFO] |  |     +- junit:junit:jar:3.8.1:compile
-[INFO] |  |     \- classworlds:classworlds:jar:1.1-alpha-2:compile
-[INFO] |  \- net.sf.saxon:Saxon-HE:jar:9.9.1-8:compile
-[INFO] \- org.quickfixj:quickfixj-dictgenerator:jar:3.0.0-SNAPSHOT:compile
-[INFO]    \- jaxen:jaxen:jar:1.2.0:runtime
-[INFO] 
-[INFO] ----------------< org.quickfixj:quickfixj-distribution >----------------
-[INFO] Building QuickFIX/J Distribution 3.0.0-SNAPSHOT                  [21/21]
-[INFO]   from quickfixj-distribution\pom.xml
-[INFO] --------------------------------[ pom ]---------------------------------
-[INFO] 
-[INFO] --- dependency:2.8:tree (default-cli) @ quickfixj-distribution ---
-[INFO] org.quickfixj:quickfixj-distribution:pom:3.0.0-SNAPSHOT
-[INFO] +- org.quickfixj:quickfixj-codegenerator:jar:3.0.0-SNAPSHOT:compile
-[INFO] |  +- org.apache.maven:maven-plugin-api:jar:3.8.3:compile
-[INFO] |  |  +- org.apache.maven:maven-model:jar:3.8.3:compile
-[INFO] |  |  +- org.apache.maven:maven-artifact:jar:3.8.3:compile
-[INFO] |  |  |  \- org.apache.commons:commons-lang3:jar:3.8.1:compile
-[INFO] |  |  +- org.eclipse.sisu:org.eclipse.sisu.plexus:jar:0.3.5:compile
-[INFO] |  |  |  +- javax.annotation:javax.annotation-api:jar:1.2:compile
-[INFO] |  |  |  +- org.eclipse.sisu:org.eclipse.sisu.inject:jar:0.3.5:compile
-[INFO] |  |  |  \- org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:compile
-[INFO] |  |  +- org.codehaus.plexus:plexus-utils:jar:3.3.0:compile
-[INFO] |  |  \- org.codehaus.plexus:plexus-classworlds:jar:2.6.0:compile
-[INFO] |  +- org.apache.maven:maven-project:jar:2.2.1:compile
-[INFO] |  |  +- org.apache.maven:maven-settings:jar:2.2.1:compile
-[INFO] |  |  +- org.apache.maven:maven-profile:jar:2.2.1:compile
-[INFO] |  |  +- org.apache.maven:maven-artifact-manager:jar:2.2.1:compile
-[INFO] |  |  |  +- org.apache.maven:maven-repository-metadata:jar:2.2.1:compile
-[INFO] |  |  |  +- org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-6:compile
-[INFO] |  |  |  \- backport-util-concurrent:backport-util-concurrent:jar:3.1:compile
-[INFO] |  |  +- org.apache.maven:maven-plugin-registry:jar:2.2.1:compile
-[INFO] |  |  +- org.codehaus.plexus:plexus-interpolation:jar:1.11:compile
-[INFO] |  |  \- org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
-[INFO] |  |     +- junit:junit:jar:3.8.1:compile
-[INFO] |  |     \- classworlds:classworlds:jar:1.1-alpha-2:compile
-[INFO] |  \- net.sf.saxon:Saxon-HE:jar:9.9.1-8:compile
-[INFO] +- org.quickfixj:quickfixj-dictgenerator:jar:3.0.0-SNAPSHOT:compile
-[INFO] |  \- jaxen:jaxen:jar:1.2.0:runtime
-[INFO] +- org.quickfixj:quickfixj-core:jar:3.0.0-SNAPSHOT:compile
-[INFO] |  +- org.apache.mina:mina-core:jar:2.1.5:compile
-[INFO] |  \- org.slf4j:slf4j-api:jar:1.7.32:compile
-[INFO] +- org.quickfixj:quickfixj-all:jar:3.0.0-SNAPSHOT:compile
-[INFO] +- org.quickfixj:quickfixj-examples-banzai:jar:3.0.0-SNAPSHOT:compile
-[INFO] |  \- org.slf4j:slf4j-jdk14:jar:1.7.32:runtime
-[INFO] +- org.quickfixj:quickfixj-examples-executor:jar:3.0.0-SNAPSHOT:compile
-[INFO] +- org.quickfixj:quickfixj-examples-ordermatch:jar:3.0.0-SNAPSHOT:compile
-[INFO] +- org.quickfixj:quickfixj-messages-all:jar:3.0.0-SNAPSHOT:compile
-[INFO] +- org.quickfixj:quickfixj-messages-fix50sp2:jar:3.0.0-SNAPSHOT:compile
-[INFO] +- org.quickfixj:quickfixj-messages-fix50sp1:jar:3.0.0-SNAPSHOT:compile
-[INFO] +- org.quickfixj:quickfixj-messages-fixt11:jar:3.0.0-SNAPSHOT:compile
-[INFO] +- org.quickfixj:quickfixj-messages-fix50:jar:3.0.0-SNAPSHOT:compile
-[INFO] +- org.quickfixj:quickfixj-messages-fix44:jar:3.0.0-SNAPSHOT:compile
-[INFO] +- org.quickfixj:quickfixj-messages-fix43:jar:3.0.0-SNAPSHOT:compile
-[INFO] +- org.quickfixj:quickfixj-messages-fix42:jar:3.0.0-SNAPSHOT:compile
-[INFO] +- org.quickfixj:quickfixj-messages-fix41:jar:3.0.0-SNAPSHOT:compile
-[INFO] \- org.quickfixj:quickfixj-messages-fix40:jar:3.0.0-SNAPSHOT:compile
 [INFO] ------------------------------------------------------------------------
 [INFO] Reactor Summary for QuickFIX/J Parent 3.0.0-SNAPSHOT:
 [INFO] 
-[INFO] QuickFIX/J Parent .................................. SUCCESS [  1.142 s]
-[INFO] QuickFIX/J Code Generator Maven Plugin ............. SUCCESS [  2.743 s]
-[INFO] QuickFIX/J Dictionary Generator .................... SUCCESS [  0.748 s]
-[INFO] QuickFIX/J Core engine ............................. SUCCESS [14:54 min]
-[INFO] QuickFIX/J Message classes for various FIX specs ... SUCCESS [  0.041 s]
-[INFO] QuickFIX/J Message classes for FIX 4.0 ............. SUCCESS [  0.234 s]
-[INFO] QuickFIX/J Message classes for FIX 4.1 ............. SUCCESS [  0.036 s]
-[INFO] QuickFIX/J Message classes for FIX 4.2 ............. SUCCESS [  0.025 s]
-[INFO] QuickFIX/J Message classes for FIX 4.3 ............. SUCCESS [  0.018 s]
-[INFO] QuickFIX/J Message classes for FIX 4.4 ............. SUCCESS [  0.020 s]
-[INFO] QuickFIX/J Message classes for FIX 5.0 ............. SUCCESS [  0.035 s]
-[INFO] QuickFIX/J Message classes for FIX 5.0 SP1 ......... SUCCESS [  0.027 s]
-[INFO] QuickFIX/J Message classes for FIX 5.0 SP2 ......... SUCCESS [  0.027 s]
-[INFO] QuickFIX/J Message classes for FIXT 1.1 ............ SUCCESS [  0.031 s]
-[INFO] QuickFIX/J Message classes for all FIX specs ....... SUCCESS [  0.193 s]
-[INFO] QuickFIX/J Examples ................................ SUCCESS [  0.040 s]
-[INFO] QuickFIX/J Examples - Executor ..................... SUCCESS [  3.025 s]
-[INFO] QuickFIX/J Examples - Order Match .................. SUCCESS [  1.241 s]
-[INFO] QuickFIX/J Examples - Banzai ....................... SUCCESS [  1.848 s]
-[INFO] QuickFIX/J All runtime modules ..................... SUCCESS [  0.087 s]
-[INFO] QuickFIX/J Distribution ............................ SUCCESS [  0.070 s]
+[INFO] QuickFIX/J Parent .................................. SUCCESS [  0.275 s]
+[INFO] QuickFIX/J Code Generator Maven Plugin ............. SUCCESS [  0.361 s]
+[INFO] QuickFIX/J Dictionary Generator .................... SUCCESS [  0.033 s]
+[INFO] QuickFIX/J Core engine ............................. SUCCESS [  0.407 s]
+[INFO] QuickFIX/J Message classes for various FIX specs ... SUCCESS [  0.002 s]
+[INFO] QuickFIX/J Message classes for FIX 4.0 ............. FAILURE [  0.005 s]
+[INFO] QuickFIX/J Message classes for FIX 4.1 ............. SKIPPED
+[INFO] QuickFIX/J Message classes for FIX 4.2 ............. SKIPPED
+[INFO] QuickFIX/J Message classes for FIX 4.3 ............. SKIPPED
+[INFO] QuickFIX/J Message classes for FIX 4.4 ............. SKIPPED
+[INFO] QuickFIX/J Message classes for FIX 5.0 ............. SKIPPED
+[INFO] QuickFIX/J Message classes for FIX 5.0 SP1 ......... SKIPPED
+[INFO] QuickFIX/J Message classes for FIX 5.0 SP2 ......... SKIPPED
+[INFO] QuickFIX/J Message classes for FIXT 1.1 ............ SKIPPED
+[INFO] QuickFIX/J Message classes for all FIX specs ....... SKIPPED
+[INFO] QuickFIX/J Examples ................................ SKIPPED
+[INFO] QuickFIX/J Examples - Executor ..................... SKIPPED
+[INFO] QuickFIX/J Examples - Order Match .................. SKIPPED
+[INFO] QuickFIX/J Examples - Banzai ....................... SKIPPED
+[INFO] QuickFIX/J All runtime modules ..................... SKIPPED
+[INFO] QuickFIX/J Distribution ............................ SKIPPED
 [INFO] ------------------------------------------------------------------------
-[INFO] BUILD SUCCESS
+[INFO] BUILD FAILURE
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  15:09 min
-[INFO] Finished at: 2023-09-11T16:24:42+02:00
+[INFO] Total time:  2.340 s
+[INFO] Finished at: 2023-09-25T21:38:12Z
 [INFO] ------------------------------------------------------------------------
-[WARNING] 
-[WARNING] Plugin validation issues were detected in 6 plugin(s)
-[WARNING] 
-[WARNING]  * org.apache.maven.plugins:maven-compiler-plugin:3.8.0
-[WARNING]  * org.apache.maven.plugins:maven-resources-plugin:3.1.0
-[WARNING]  * org.apache.maven.plugins:maven-site-plugin:3.12.1
-[WARNING]  * org.apache.maven.plugins:maven-plugin-plugin:3.6.1
-[WARNING]  * org.quickfixj:quickfixj-codegenerator:3.0.0-SNAPSHOT
-[WARNING]  * org.apache.maven.plugins:maven-dependency-plugin:2.8
-[WARNING] 
-[WARNING] For more or less details, use 'maven.plugin.validation' property with one of the values (case insensitive): [BRIEF, DEFAULT, VERBOSE]
-[WARNING] 
+[ERROR] Failed to execute goal on project quickfixj-messages-fix40: Could not resolve dependencies for project org.quickfixj:quickfixj-messages-fix40:jar:3.0.0-SNAPSHOT: Could not find artifact org.quickfixj:quickfixj-core:jar:3.0.0-SNAPSHOT -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <args> -rf :quickfixj-messages-fix40

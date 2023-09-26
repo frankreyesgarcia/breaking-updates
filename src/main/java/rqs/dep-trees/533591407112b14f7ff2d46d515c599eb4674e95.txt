@@ -1,0 +1,303 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------------< de.retest:recheck.cli >------------------------
+[INFO] Building recheck.cli 1.14.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from central: https://repo.maven.apache.org/maven2/de/retest/recheck/1.13.0/recheck-1.13.0.pom
+Progress (1): 2.7/14 kB
+Progress (1): 5.5/14 kB
+Progress (1): 8.2/14 kB
+Progress (1): 11/14 kB 
+Progress (1): 14/14 kB
+Progress (1): 14 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/de/retest/recheck/1.13.0/recheck-1.13.0.pom (14 kB at 41 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/konghq/unirest-java/3.13.6/unirest-java-3.13.6.pom
+Progress (1): 2.7/3.7 kB
+Progress (1): 3.7 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/konghq/unirest-java/3.13.6/unirest-java-3.13.6.pom (3.7 kB at 163 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/konghq/unirest-java-parent/3.13.6/unirest-java-parent-3.13.6.pom
+Progress (1): 2.7/19 kB
+Progress (1): 5.5/19 kB
+Progress (1): 8.2/19 kB
+Progress (1): 11/19 kB 
+Progress (1): 14/19 kB
+Progress (1): 16/19 kB
+Progress (1): 19/19 kB
+Progress (1): 19 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/com/konghq/unirest-java-parent/3.13.6/unirest-java-parent-3.13.6.pom (19 kB at 1.1 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/auth0/jwks-rsa/0.20.2/jwks-rsa-0.20.2.pom
+Progress (1): 1.8 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/auth0/jwks-rsa/0.20.2/jwks-rsa-0.20.2.pom (1.8 kB at 18 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/auth0/java-jwt/3.18.3/java-jwt-3.18.3.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/com/auth0/java-jwt/3.18.3/java-jwt-3.18.3.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/de/retest/recheck/1.13.0/recheck-1.13.0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/com/konghq/unirest-java/3.13.6/unirest-java-3.13.6.jar
+Downloading from central: https://repo.maven.apache.org/maven2/com/auth0/jwks-rsa/0.20.2/jwks-rsa-0.20.2.jar
+Downloading from central: https://repo.maven.apache.org/maven2/com/auth0/java-jwt/3.18.3/java-jwt-3.18.3.jar
+Progress (1): 4.1/203 kB
+Progress (1): 8.2/203 kB
+Progress (1): 12/203 kB 
+Progress (1): 16/203 kB
+Progress (1): 20/203 kB
+                       
+Downloaded from central: https://repo.maven.apache.org/maven2/com/auth0/java-jwt/3.18.3/java-jwt-3.18.3.jar (0 B at 0 B/s)
+Progress (1): 25/203 kB
+Progress (1): 29/203 kB
+Progress (1): 33/203 kB
+Progress (1): 37/203 kB
+Progress (1): 41/203 kB
+Progress (1): 45/203 kB
+Progress (1): 49/203 kB
+Progress (1): 53/203 kB
+Progress (1): 57/203 kB
+Progress (1): 61/203 kB
+Progress (1): 66/203 kB
+Progress (1): 70/203 kB
+Progress (1): 74/203 kB
+Progress (1): 78/203 kB
+Progress (1): 82/203 kB
+Progress (1): 86/203 kB
+Progress (1): 90/203 kB
+Progress (1): 94/203 kB
+Progress (1): 98/203 kB
+Progress (1): 102/203 kB
+Progress (1): 106/203 kB
+Progress (1): 111/203 kB
+Progress (1): 115/203 kB
+Progress (1): 119/203 kB
+Progress (1): 123/203 kB
+Progress (1): 127/203 kB
+Progress (1): 131/203 kB
+Progress (1): 135/203 kB
+Progress (1): 139/203 kB
+Progress (1): 143/203 kB
+Progress (1): 147/203 kB
+Progress (1): 152/203 kB
+Progress (1): 156/203 kB
+Progress (1): 160/203 kB
+Progress (1): 164/203 kB
+Progress (1): 168/203 kB
+Progress (1): 172/203 kB
+Progress (1): 176/203 kB
+Progress (1): 180/203 kB
+Progress (1): 184/203 kB
+Progress (1): 188/203 kB
+Progress (1): 193/203 kB
+Progress (1): 197/203 kB
+Progress (1): 201/203 kB
+Progress (1): 203 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/konghq/unirest-java/3.13.6/unirest-java-3.13.6.jar (203 kB at 3.8 MB/s)
+Progress (1): 4.1/534 kB
+Progress (1): 8.2/534 kB
+Progress (1): 12/534 kB 
+Progress (1): 16/534 kB
+Progress (1): 20/534 kB
+Progress (1): 25/534 kB
+Progress (1): 29/534 kB
+Progress (1): 33/534 kB
+Progress (1): 37/534 kB
+Progress (1): 41/534 kB
+Progress (1): 45/534 kB
+Progress (1): 49/534 kB
+Progress (1): 53/534 kB
+Progress (1): 57/534 kB
+Progress (1): 61/534 kB
+Progress (1): 66/534 kB
+Progress (1): 70/534 kB
+Progress (1): 74/534 kB
+Progress (1): 78/534 kB
+Progress (1): 82/534 kB
+Progress (1): 86/534 kB
+Progress (1): 90/534 kB
+Progress (1): 94/534 kB
+Progress (1): 98/534 kB
+Progress (1): 102/534 kB
+Progress (1): 106/534 kB
+Progress (1): 111/534 kB
+Progress (1): 115/534 kB
+Progress (1): 119/534 kB
+Progress (1): 123/534 kB
+Progress (1): 127/534 kB
+Progress (1): 131/534 kB
+Progress (1): 135/534 kB
+Progress (1): 139/534 kB
+Progress (1): 143/534 kB
+Progress (1): 147/534 kB
+Progress (1): 152/534 kB
+Progress (1): 156/534 kB
+Progress (1): 160/534 kB
+Progress (1): 164/534 kB
+Progress (1): 168/534 kB
+Progress (1): 172/534 kB
+Progress (1): 176/534 kB
+Progress (1): 180/534 kB
+Progress (1): 184/534 kB
+Progress (1): 188/534 kB
+Progress (1): 193/534 kB
+Progress (1): 197/534 kB
+Progress (1): 201/534 kB
+Progress (1): 205/534 kB
+Progress (1): 209/534 kB
+Progress (1): 213/534 kB
+Progress (1): 217/534 kB
+Progress (1): 221/534 kB
+Progress (1): 225/534 kB
+Progress (1): 229/534 kB
+Progress (1): 233/534 kB
+Progress (1): 238/534 kB
+Progress (1): 242/534 kB
+Progress (1): 246/534 kB
+Progress (1): 250/534 kB
+Progress (1): 254/534 kB
+Progress (1): 258/534 kB
+Progress (1): 262/534 kB
+Progress (1): 266/534 kB
+Progress (1): 270/534 kB
+Progress (1): 274/534 kB
+Progress (1): 279/534 kB
+Progress (1): 283/534 kB
+Progress (1): 287/534 kB
+Progress (1): 291/534 kB
+Progress (1): 295/534 kB
+Progress (1): 299/534 kB
+Progress (1): 303/534 kB
+Progress (1): 307/534 kB
+Progress (1): 311/534 kB
+Progress (1): 315/534 kB
+Progress (1): 319/534 kB
+Progress (1): 324/534 kB
+Progress (1): 328/534 kB
+Progress (1): 332/534 kB
+Progress (1): 336/534 kB
+Progress (1): 340/534 kB
+Progress (1): 344/534 kB
+Progress (1): 348/534 kB
+Progress (1): 352/534 kB
+Progress (1): 356/534 kB
+Progress (1): 360/534 kB
+Progress (1): 365/534 kB
+Progress (1): 369/534 kB
+Progress (1): 373/534 kB
+Progress (1): 377/534 kB
+Progress (1): 381/534 kB
+Progress (1): 385/534 kB
+Progress (1): 389/534 kB
+Progress (1): 393/534 kB
+Progress (1): 397/534 kB
+Progress (1): 401/534 kB
+Progress (1): 406/534 kB
+Progress (1): 410/534 kB
+Progress (1): 414/534 kB
+Progress (1): 418/534 kB
+Progress (1): 422/534 kB
+Progress (1): 426/534 kB
+Progress (1): 430/534 kB
+Progress (1): 434/534 kB
+Progress (1): 438/534 kB
+Progress (1): 442/534 kB
+Progress (1): 446/534 kB
+Progress (1): 451/534 kB
+Progress (1): 455/534 kB
+Progress (1): 459/534 kB
+Progress (1): 463/534 kB
+Progress (1): 467/534 kB
+Progress (1): 471/534 kB
+Progress (1): 475/534 kB
+Progress (1): 479/534 kB
+Progress (1): 483/534 kB
+Progress (1): 487/534 kB
+Progress (1): 492/534 kB
+Progress (1): 496/534 kB
+Progress (1): 500/534 kB
+Progress (1): 504/534 kB
+Progress (1): 508/534 kB
+Progress (1): 512/534 kB
+Progress (1): 516/534 kB
+Progress (1): 520/534 kB
+Progress (1): 524/534 kB
+Progress (1): 528/534 kB
+Progress (1): 532/534 kB
+Progress (1): 534 kB    
+Progress (2): 534 kB | 2.7/18 kB
+Progress (2): 534 kB | 5.5/18 kB
+Progress (2): 534 kB | 8.2/18 kB
+Progress (2): 534 kB | 11/18 kB 
+Progress (2): 534 kB | 14/18 kB
+Progress (2): 534 kB | 16/18 kB
+Progress (2): 534 kB | 18 kB   
+                            
+Downloaded from central: https://repo.maven.apache.org/maven2/de/retest/recheck/1.13.0/recheck-1.13.0.jar (534 kB at 2.2 MB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/com/auth0/jwks-rsa/0.20.2/jwks-rsa-0.20.2.jar (18 kB at 52 kB/s)
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ recheck.cli ---
+[INFO] de.retest:recheck.cli:jar:1.14.0-SNAPSHOT
+[INFO] +- de.retest:recheck:jar:1.13.0:compile
+[INFO] |  +- org.slf4j:slf4j-api:jar:1.7.36:compile
+[INFO] |  +- org.apache.commons:commons-lang3:jar:3.12.0:compile
+[INFO] |  +- org.projectlombok:lombok:jar:1.18.22:compile
+[INFO] |  +- com.google.guava:guava:jar:31.1-jre:compile
+[INFO] |  |  +- com.google.guava:failureaccess:jar:1.0.1:compile
+[INFO] |  |  +- com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:compile
+[INFO] |  |  +- com.google.code.findbugs:jsr305:jar:3.0.2:compile
+[INFO] |  |  +- org.checkerframework:checker-qual:jar:3.12.0:compile
+[INFO] |  |  +- com.google.errorprone:error_prone_annotations:jar:2.11.0:compile
+[INFO] |  |  \- com.google.j2objc:j2objc-annotations:jar:1.3:compile
+[INFO] |  +- com.esotericsoftware.kryo:kryo5:jar:5.3.0:compile
+[INFO] |  +- org.lz4:lz4-java:jar:1.8.0:compile
+[INFO] |  +- commons-io:commons-io:jar:2.11.0:compile
+[INFO] |  +- javax.xml.bind:jaxb-api:jar:2.3.1:compile
+[INFO] |  |  \- javax.activation:javax.activation-api:jar:1.2.0:compile
+[INFO] |  +- com.konghq:unirest-java:jar:3.13.6:compile
+[INFO] |  |  +- org.apache.httpcomponents:httpclient:jar:4.5.13:compile
+[INFO] |  |  |  +- org.apache.httpcomponents:httpcore:jar:4.4.13:compile
+[INFO] |  |  |  +- commons-logging:commons-logging:jar:1.2:compile
+[INFO] |  |  |  \- commons-codec:commons-codec:jar:1.11:compile
+[INFO] |  |  +- org.apache.httpcomponents:httpmime:jar:4.5.13:compile
+[INFO] |  |  +- org.apache.httpcomponents:httpcore-nio:jar:4.4.13:compile
+[INFO] |  |  +- org.apache.httpcomponents:httpasyncclient:jar:4.1.5:compile
+[INFO] |  |  \- com.google.code.gson:gson:jar:2.8.8:compile
+[INFO] |  +- com.auth0:jwks-rsa:jar:0.20.2:compile
+[INFO] |  |  \- com.fasterxml.jackson.core:jackson-databind:jar:2.12.6:runtime
+[INFO] |  |     +- com.fasterxml.jackson.core:jackson-annotations:jar:2.12.6:runtime
+[INFO] |  |     \- com.fasterxml.jackson.core:jackson-core:jar:2.12.6:runtime
+[INFO] |  +- com.auth0:java-jwt:jar:3.18.3:compile
+[INFO] |  +- org.aeonbits.owner:owner-java8:jar:1.0.12:compile
+[INFO] |  |  \- org.aeonbits.owner:owner:jar:1.0.12:compile
+[INFO] |  +- org.eclipse.persistence:org.eclipse.persistence.moxy:jar:3.0.2:compile
+[INFO] |  |  +- jakarta.xml.bind:jakarta.xml.bind-api:jar:3.0.1:compile
+[INFO] |  |  +- org.eclipse.persistence:org.eclipse.persistence.asm:jar:9.1.0:compile
+[INFO] |  |  \- org.eclipse.persistence:org.eclipse.persistence.core:jar:3.0.2:compile
+[INFO] |  +- com.sun.activation:jakarta.activation:jar:2.0.1:compile
+[INFO] |  +- com.sun.mail:jakarta.mail:jar:2.0.1:compile
+[INFO] |  +- org.apache.commons:commons-text:jar:1.9:compile
+[INFO] |  +- org.mozilla:rhino:jar:1.7.14:compile
+[INFO] |  \- cat.inspiracio:rhino-js-engine:jar:1.7.10:compile
+[INFO] +- info.picocli:picocli:jar:4.6.3:compile
+[INFO] +- org.fusesource.jansi:jansi:jar:2.4.0:compile
+[INFO] +- ch.qos.logback:logback-classic:jar:1.2.11:compile
+[INFO] |  \- ch.qos.logback:logback-core:jar:1.2.11:compile
+[INFO] +- org.junit.jupiter:junit-jupiter:jar:5.8.2:test
+[INFO] |  +- org.junit.jupiter:junit-jupiter-api:jar:5.8.2:test
+[INFO] |  |  +- org.opentest4j:opentest4j:jar:1.2.0:test
+[INFO] |  |  \- org.junit.platform:junit-platform-commons:jar:1.8.2:test
+[INFO] |  +- org.junit.jupiter:junit-jupiter-params:jar:5.8.2:test
+[INFO] |  \- org.junit.jupiter:junit-jupiter-engine:jar:5.8.2:test
+[INFO] +- org.junit.vintage:junit-vintage-engine:jar:5.8.2:test
+[INFO] |  +- org.junit.platform:junit-platform-engine:jar:1.8.2:test
+[INFO] |  \- org.apiguardian:apiguardian-api:jar:1.1.2:test
+[INFO] +- junit:junit:jar:4.13.2:test
+[INFO] |  \- org.hamcrest:hamcrest-core:jar:1.3:test
+[INFO] +- org.assertj:assertj-core:jar:3.23.1:test
+[INFO] |  \- net.bytebuddy:byte-buddy:jar:1.12.10:test
+[INFO] \- com.github.stefanbirkner:system-rules:jar:1.19.0:test
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.720 s
+[INFO] Finished at: 2023-09-25T21:10:17Z
+[INFO] ------------------------------------------------------------------------

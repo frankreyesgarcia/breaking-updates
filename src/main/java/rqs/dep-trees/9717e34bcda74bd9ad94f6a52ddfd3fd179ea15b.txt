@@ -1,159 +1,253 @@
 [INFO] Scanning for projects...
-Downloading from oss.sonatype.org: https://oss.sonatype.org/content/groups/public/org/apache/felix/maven-bundle-plugin/5.1.1/maven-bundle-plugin-5.1.1.pom
-[WARNING] Failed to write tracking file 'C:\Users\frank_bump\.m2\repository\org\apache\felix\maven-bundle-plugin\5.1.1\maven-bundle-plugin-5.1.1.pom.lastUpdated'
-java.io.IOException: There is not enough space on the disk
-    at java.io.RandomAccessFile.writeBytes (Native Method)
-    at java.io.RandomAccessFile.write (RandomAccessFile.java:545)
-    at org.eclipse.aether.internal.impl.DefaultTrackingFileManager.update (DefaultTrackingFileManager.java:107)
-    at org.eclipse.aether.internal.impl.DefaultUpdateCheckManager.write (DefaultUpdateCheckManager.java:527)
-    at org.eclipse.aether.internal.impl.DefaultUpdateCheckManager.touchArtifact (DefaultUpdateCheckManager.java:474)
-    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.evaluateDownloads (DefaultArtifactResolver.java:635)
-    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads (DefaultArtifactResolver.java:544)
-    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve (DefaultArtifactResolver.java:448)
-    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts (DefaultArtifactResolver.java:260)
-    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact (DefaultArtifactResolver.java:242)
-    at org.apache.maven.repository.internal.DefaultArtifactDescriptorReader.loadPom (DefaultArtifactDescriptorReader.java:231)
-    at org.apache.maven.repository.internal.DefaultArtifactDescriptorReader.readArtifactDescriptor (DefaultArtifactDescriptorReader.java:172)
-    at org.eclipse.aether.internal.impl.collect.DependencyCollectorDelegate.collectDependencies (DependencyCollectorDelegate.java:179)
-    at org.eclipse.aether.internal.impl.collect.DefaultDependencyCollector.collectDependencies (DefaultDependencyCollector.java:87)
-    at org.eclipse.aether.internal.impl.DefaultRepositorySystem.collectDependencies (DefaultRepositorySystem.java:305)
-    at org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver.resolveInternal (DefaultPluginDependenciesResolver.java:212)
-    at org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver.resolve (DefaultPluginDependenciesResolver.java:165)
-    at org.apache.maven.plugin.internal.DefaultMavenPluginManager.resolveExtensionArtifacts (DefaultMavenPluginManager.java:829)
-    at org.apache.maven.plugin.internal.DefaultMavenPluginManager.setupExtensionsRealm (DefaultMavenPluginManager.java:775)
-    at org.apache.maven.project.DefaultProjectBuildingHelper.createProjectRealm (DefaultProjectBuildingHelper.java:177)
-    at org.apache.maven.project.DefaultModelBuildingListener.buildExtensionsAssembled (DefaultModelBuildingListener.java:92)
-    at org.apache.maven.model.building.ModelBuildingEventCatapult$1.fire (ModelBuildingEventCatapult.java:40)
-    at org.apache.maven.model.building.DefaultModelBuilder.fireEvent (DefaultModelBuilder.java:1269)
-    at org.apache.maven.model.building.DefaultModelBuilder.build (DefaultModelBuilder.java:474)
-    at org.apache.maven.model.building.DefaultModelBuilder.build (DefaultModelBuilder.java:455)
-    at org.apache.maven.project.DefaultProjectBuilder.build (DefaultProjectBuilder.java:612)
-    at org.apache.maven.project.DefaultProjectBuilder.build (DefaultProjectBuilder.java:375)
-    at org.apache.maven.graph.DefaultGraphBuilder.collectProjects (DefaultGraphBuilder.java:349)
-    at org.apache.maven.graph.DefaultGraphBuilder.getProjectsForMavenReactor (DefaultGraphBuilder.java:340)
-    at org.apache.maven.graph.DefaultGraphBuilder.build (DefaultGraphBuilder.java:76)
-    at org.apache.maven.DefaultMaven.buildGraph (DefaultMaven.java:448)
-    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:197)
-    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:173)
-    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:101)
-    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:906)
-    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:283)
-    at org.apache.maven.cli.MavenCli.main (MavenCli.java:206)
-    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
-    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:77)
-    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
-    at java.lang.reflect.Method.invoke (Method.java:568)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:283)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:226)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:407)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:348)
-[ERROR] Internal error: java.io.UncheckedIOException: java.io.IOException: There is not enough space on the disk -> [Help 1]
-org.apache.maven.InternalErrorException: Internal error: java.io.UncheckedIOException: java.io.IOException: There is not enough space on the disk
-    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:109)
-    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:906)
-    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:283)
-    at org.apache.maven.cli.MavenCli.main (MavenCli.java:206)
-    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
-    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:77)
-    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
-    at java.lang.reflect.Method.invoke (Method.java:568)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:283)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:226)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:407)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:348)
-Caused by: java.io.UncheckedIOException: java.io.IOException: There is not enough space on the disk
-    at org.eclipse.aether.internal.impl.DefaultTrackingFileManager.update (DefaultTrackingFileManager.java:111)
-    at org.eclipse.aether.internal.impl.DefaultUpdateCheckManager.write (DefaultUpdateCheckManager.java:527)
-    at org.eclipse.aether.internal.impl.DefaultUpdateCheckManager.touchArtifact (DefaultUpdateCheckManager.java:474)
-    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.evaluateDownloads (DefaultArtifactResolver.java:635)
-    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads (DefaultArtifactResolver.java:544)
-    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve (DefaultArtifactResolver.java:448)
-    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts (DefaultArtifactResolver.java:260)
-    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact (DefaultArtifactResolver.java:242)
-    at org.apache.maven.repository.internal.DefaultArtifactDescriptorReader.loadPom (DefaultArtifactDescriptorReader.java:231)
-    at org.apache.maven.repository.internal.DefaultArtifactDescriptorReader.readArtifactDescriptor (DefaultArtifactDescriptorReader.java:172)
-    at org.eclipse.aether.internal.impl.collect.DependencyCollectorDelegate.collectDependencies (DependencyCollectorDelegate.java:179)
-    at org.eclipse.aether.internal.impl.collect.DefaultDependencyCollector.collectDependencies (DefaultDependencyCollector.java:87)
-    at org.eclipse.aether.internal.impl.DefaultRepositorySystem.collectDependencies (DefaultRepositorySystem.java:305)
-    at org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver.resolveInternal (DefaultPluginDependenciesResolver.java:212)
-    at org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver.resolve (DefaultPluginDependenciesResolver.java:165)
-    at org.apache.maven.plugin.internal.DefaultMavenPluginManager.resolveExtensionArtifacts (DefaultMavenPluginManager.java:829)
-    at org.apache.maven.plugin.internal.DefaultMavenPluginManager.setupExtensionsRealm (DefaultMavenPluginManager.java:775)
-    at org.apache.maven.project.DefaultProjectBuildingHelper.createProjectRealm (DefaultProjectBuildingHelper.java:177)
-    at org.apache.maven.project.DefaultModelBuildingListener.buildExtensionsAssembled (DefaultModelBuildingListener.java:92)
-    at org.apache.maven.model.building.ModelBuildingEventCatapult$1.fire (ModelBuildingEventCatapult.java:40)
-    at org.apache.maven.model.building.DefaultModelBuilder.fireEvent (DefaultModelBuilder.java:1269)
-    at org.apache.maven.model.building.DefaultModelBuilder.build (DefaultModelBuilder.java:474)
-    at org.apache.maven.model.building.DefaultModelBuilder.build (DefaultModelBuilder.java:455)
-    at org.apache.maven.project.DefaultProjectBuilder.build (DefaultProjectBuilder.java:612)
-    at org.apache.maven.project.DefaultProjectBuilder.build (DefaultProjectBuilder.java:375)
-    at org.apache.maven.graph.DefaultGraphBuilder.collectProjects (DefaultGraphBuilder.java:349)
-    at org.apache.maven.graph.DefaultGraphBuilder.getProjectsForMavenReactor (DefaultGraphBuilder.java:340)
-    at org.apache.maven.graph.DefaultGraphBuilder.build (DefaultGraphBuilder.java:76)
-    at org.apache.maven.DefaultMaven.buildGraph (DefaultMaven.java:448)
-    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:197)
-    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:173)
-    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:101)
-    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:906)
-    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:283)
-    at org.apache.maven.cli.MavenCli.main (MavenCli.java:206)
-    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
-    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:77)
-    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
-    at java.lang.reflect.Method.invoke (Method.java:568)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:283)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:226)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:407)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:348)
-Caused by: java.io.IOException: There is not enough space on the disk
-    at java.io.RandomAccessFile.writeBytes (Native Method)
-    at java.io.RandomAccessFile.write (RandomAccessFile.java:545)
-    at org.eclipse.aether.internal.impl.DefaultTrackingFileManager.update (DefaultTrackingFileManager.java:107)
-    at org.eclipse.aether.internal.impl.DefaultUpdateCheckManager.write (DefaultUpdateCheckManager.java:527)
-    at org.eclipse.aether.internal.impl.DefaultUpdateCheckManager.touchArtifact (DefaultUpdateCheckManager.java:474)
-    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.evaluateDownloads (DefaultArtifactResolver.java:635)
-    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads (DefaultArtifactResolver.java:544)
-    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve (DefaultArtifactResolver.java:448)
-    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts (DefaultArtifactResolver.java:260)
-    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact (DefaultArtifactResolver.java:242)
-    at org.apache.maven.repository.internal.DefaultArtifactDescriptorReader.loadPom (DefaultArtifactDescriptorReader.java:231)
-    at org.apache.maven.repository.internal.DefaultArtifactDescriptorReader.readArtifactDescriptor (DefaultArtifactDescriptorReader.java:172)
-    at org.eclipse.aether.internal.impl.collect.DependencyCollectorDelegate.collectDependencies (DependencyCollectorDelegate.java:179)
-    at org.eclipse.aether.internal.impl.collect.DefaultDependencyCollector.collectDependencies (DefaultDependencyCollector.java:87)
-    at org.eclipse.aether.internal.impl.DefaultRepositorySystem.collectDependencies (DefaultRepositorySystem.java:305)
-    at org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver.resolveInternal (DefaultPluginDependenciesResolver.java:212)
-    at org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver.resolve (DefaultPluginDependenciesResolver.java:165)
-    at org.apache.maven.plugin.internal.DefaultMavenPluginManager.resolveExtensionArtifacts (DefaultMavenPluginManager.java:829)
-    at org.apache.maven.plugin.internal.DefaultMavenPluginManager.setupExtensionsRealm (DefaultMavenPluginManager.java:775)
-    at org.apache.maven.project.DefaultProjectBuildingHelper.createProjectRealm (DefaultProjectBuildingHelper.java:177)
-    at org.apache.maven.project.DefaultModelBuildingListener.buildExtensionsAssembled (DefaultModelBuildingListener.java:92)
-    at org.apache.maven.model.building.ModelBuildingEventCatapult$1.fire (ModelBuildingEventCatapult.java:40)
-    at org.apache.maven.model.building.DefaultModelBuilder.fireEvent (DefaultModelBuilder.java:1269)
-    at org.apache.maven.model.building.DefaultModelBuilder.build (DefaultModelBuilder.java:474)
-    at org.apache.maven.model.building.DefaultModelBuilder.build (DefaultModelBuilder.java:455)
-    at org.apache.maven.project.DefaultProjectBuilder.build (DefaultProjectBuilder.java:612)
-    at org.apache.maven.project.DefaultProjectBuilder.build (DefaultProjectBuilder.java:375)
-    at org.apache.maven.graph.DefaultGraphBuilder.collectProjects (DefaultGraphBuilder.java:349)
-    at org.apache.maven.graph.DefaultGraphBuilder.getProjectsForMavenReactor (DefaultGraphBuilder.java:340)
-    at org.apache.maven.graph.DefaultGraphBuilder.build (DefaultGraphBuilder.java:76)
-    at org.apache.maven.DefaultMaven.buildGraph (DefaultMaven.java:448)
-    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:197)
-    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:173)
-    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:101)
-    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:906)
-    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:283)
-    at org.apache.maven.cli.MavenCli.main (MavenCli.java:206)
-    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
-    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:77)
-    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
-    at java.lang.reflect.Method.invoke (Method.java:568)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:283)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:226)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:407)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:348)
-[ERROR] 
-[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
-[ERROR] Re-run Maven using the -X switch to enable full debug logging.
-[ERROR] 
-[ERROR] For more information about the errors and possible solutions, please read the following articles:
-[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/InternalErrorException
+Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-bom/2.15.1/jackson-bom-2.15.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-bom/2.15.1/jackson-bom-2.15.1.pom (0 B at 0 B/s)
+[INFO] 
+[INFO] -----------------------< com.jcabi:jcabi-github >-----------------------
+[INFO] Building jcabi-github 2.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from central: https://repo.maven.apache.org/maven2/com/jcabi/jcabi-log/0.21.0/jcabi-log-0.21.0.pom
+Progress (1): 2.7/5.0 kB
+Progress (1): 5.0 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/jcabi/jcabi-log/0.21.0/jcabi-log-0.21.0.pom (5.0 kB at 23 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/jcabi/jcabi-xml/0.27.2/jcabi-xml-0.27.2.pom
+Progress (1): 2.7/6.3 kB
+Progress (1): 5.5/6.3 kB
+Progress (1): 6.3 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/jcabi/jcabi-xml/0.27.2/jcabi-xml-0.27.2.pom (6.3 kB at 351 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/jcabi/jcabi-http/1.20.1/jcabi-http-1.20.1.pom
+Progress (1): 2.7/12 kB
+Progress (1): 5.5/12 kB
+Progress (1): 8.2/12 kB
+Progress (1): 11/12 kB 
+Progress (1): 12 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/com/jcabi/jcabi-http/1.20.1/jcabi-http-1.20.1.pom (12 kB at 59 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/testcontainers/testcontainers-bom/1.17.2/testcontainers-bom-1.17.2.pom
+Progress (1): 2.7/7.5 kB
+Progress (1): 5.5/7.5 kB
+Progress (1): 7.5 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/testcontainers/testcontainers-bom/1.17.2/testcontainers-bom-1.17.2.pom (7.5 kB at 471 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/jcabi/incubator/xembly/0.28.1/xembly-0.28.1.pom
+Progress (1): 2.7/10 kB
+Progress (1): 5.5/10 kB
+Progress (1): 8.2/10 kB
+Progress (1): 10 kB    
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/com/jcabi/incubator/xembly/0.28.1/xembly-0.28.1.pom (10 kB at 95 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/antlr/antlr4-runtime/4.10.1/antlr4-runtime-4.10.1.pom
+Progress (1): 2.7/3.5 kB
+Progress (1): 3.5 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/antlr/antlr4-runtime/4.10.1/antlr4-runtime-4.10.1.pom (3.5 kB at 267 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/antlr/antlr4-master/4.10.1/antlr4-master-4.10.1.pom
+Progress (1): 2.7/4.4 kB
+Progress (1): 4.4 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/antlr/antlr4-master/4.10.1/antlr4-master-4.10.1.pom (4.4 kB at 258 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/commons-collections/commons-collections/20040616/commons-collections-20040616.pom
+Progress (1): 175 B
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/commons-collections/commons-collections/20040616/commons-collections-20040616.pom (175 B at 13 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/reflections/reflections/0.9.10/reflections-0.9.10.pom
+Progress (1): 4.1/9.1 kB
+Progress (1): 8.2/9.1 kB
+Progress (1): 9.1 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/reflections/reflections/0.9.10/reflections-0.9.10.pom (9.1 kB at 652 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/javassist/javassist/3.19.0-GA/javassist-3.19.0-GA.pom
+Progress (1): 4.1/9.6 kB
+Progress (1): 8.2/9.6 kB
+Progress (1): 9.6 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/javassist/javassist/3.19.0-GA/javassist-3.19.0-GA.pom (9.6 kB at 1.2 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/code/findbugs/annotations/2.0.1/annotations-2.0.1.pom
+Progress (1): 764 B
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/code/findbugs/annotations/2.0.1/annotations-2.0.1.pom (764 B at 109 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-core/4.0.2/jaxb-core-4.0.2.pom
+Progress (1): 4.1/11 kB
+Progress (1): 8.2/11 kB
+Progress (1): 11 kB    
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-core/4.0.2/jaxb-core-4.0.2.pom (11 kB at 665 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/sun/xml/bind/mvn/jaxb-bundles/4.0.2/jaxb-bundles-4.0.2.pom
+Progress (1): 1.3 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/sun/xml/bind/mvn/jaxb-bundles/4.0.2/jaxb-bundles-4.0.2.pom (1.3 kB at 122 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-impl/4.0.2/jaxb-impl-4.0.2.pom
+Progress (1): 4.1/11 kB
+Progress (1): 8.2/11 kB
+Progress (1): 11 kB    
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-impl/4.0.2/jaxb-impl-4.0.2.pom (11 kB at 521 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/sun/jersey/jersey-client/1.12/jersey-client-1.12.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/com/sun/jersey/jersey-client/1.12/jersey-client-1.12.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/sun/jersey/jersey-project/1.12/jersey-project-1.12.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/com/sun/jersey/jersey-project/1.12/jersey-project-1.12.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/sun/jersey/jersey-core/1.12/jersey-core-1.12.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/com/sun/jersey/jersey-core/1.12/jersey-core-1.12.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/net/sf/saxon/Saxon-HE/12.2/Saxon-HE-12.2.pom
+Progress (1): 4.1/4.2 kB
+Progress (1): 4.2 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/net/sf/saxon/Saxon-HE/12.2/Saxon-HE-12.2.pom (4.2 kB at 421 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/xmlresolver/xmlresolver/5.1.2/xmlresolver-5.1.2.pom
+Progress (1): 2.6 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/xmlresolver/xmlresolver/5.1.2/xmlresolver-5.1.2.pom (2.6 kB at 234 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/grizzly/grizzly-http-servlet-server/4.0.0/grizzly-http-servlet-server-4.0.0.pom
+Progress (1): 4.1/6.8 kB
+Progress (1): 6.8 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/grizzly/grizzly-http-servlet-server/4.0.0/grizzly-http-servlet-server-4.0.0.pom (6.8 kB at 69 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/grizzly/grizzly-http-server-core/4.0.0/grizzly-http-server-core-4.0.0.pom
+Progress (1): 4.1/7.4 kB
+Progress (1): 7.4 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/grizzly/grizzly-http-server-core/4.0.0/grizzly-http-server-core-4.0.0.pom (7.4 kB at 71 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/grizzly/grizzly-core/4.0.0/grizzly-core-4.0.0.pom
+Progress (1): 4.1/6.4 kB
+Progress (1): 6.4 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/grizzly/grizzly-core/4.0.0/grizzly-core-4.0.0.pom (6.4 kB at 492 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/grizzly/grizzly-portunif/4.0.0/grizzly-portunif-4.0.0.pom
+Progress (1): 3.2 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/grizzly/grizzly-portunif/4.0.0/grizzly-portunif-4.0.0.pom (3.2 kB at 212 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/grizzly/grizzly-http-ajp/4.0.0/grizzly-http-ajp-4.0.0.pom
+Progress (1): 3.3 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/grizzly/grizzly-http-ajp/4.0.0/grizzly-http-ajp-4.0.0.pom (3.3 kB at 28 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/grizzly/grizzly-http2/4.0.0/grizzly-http2-4.0.0.pom
+Progress (1): 4.1/6.5 kB
+Progress (1): 6.5 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/grizzly/grizzly-http2/4.0.0/grizzly-http2-4.0.0.pom (6.5 kB at 63 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/grizzly/grizzly-npn-api/2.0.0/grizzly-npn-api-2.0.0.pom
+Progress (1): 2.3 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/grizzly/grizzly-npn-api/2.0.0/grizzly-npn-api-2.0.0.pom (2.3 kB at 156 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/grizzly/grizzly-npn/2.0.0/grizzly-npn-2.0.0.pom
+Progress (1): 4.1/6.3 kB
+Progress (1): 6.3 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/grizzly/grizzly-npn/2.0.0/grizzly-npn-2.0.0.pom (6.3 kB at 61 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/grizzly/grizzly-http-server-multipart/4.0.0/grizzly-http-server-multipart-4.0.0.pom
+Progress (1): 3.8 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/grizzly/grizzly-http-server-multipart/4.0.0/grizzly-http-server-multipart-4.0.0.pom (3.8 kB at 38 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/grizzly/grizzly-http-servlet/4.0.0/grizzly-http-servlet-4.0.0.pom
+Progress (1): 3.9 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/grizzly/grizzly-http-servlet/4.0.0/grizzly-http-servlet-4.0.0.pom (3.9 kB at 125 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/grizzly/grizzly-http-servlet-extras/4.0.0/grizzly-http-servlet-extras-4.0.0.pom
+Progress (1): 4.0 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/grizzly/grizzly-http-servlet-extras/4.0.0/grizzly-http-servlet-extras-4.0.0.pom (4.0 kB at 40 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/jakarta/servlet/jakarta.servlet-api/6.0.0/jakarta.servlet-api-6.0.0.pom
+Progress (1): 4.1/19 kB
+Progress (1): 8.2/19 kB
+Progress (1): 12/19 kB 
+Progress (1): 16/19 kB
+Progress (1): 19 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/jakarta/servlet/jakarta.servlet-api/6.0.0/jakarta.servlet-api-6.0.0.pom (19 kB at 1.5 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.15.1/jackson-databind-2.15.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.15.1/jackson-databind-2.15.1.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-base/2.15.1/jackson-base-2.15.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-base/2.15.1/jackson-base-2.15.1.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.15.1/jackson-annotations-2.15.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.15.1/jackson-annotations-2.15.1.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.15.1/jackson-core-2.15.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.15.1/jackson-core-2.15.1.pom (0 B at 0 B/s)
+[WARNING] The artifact xml-apis:xml-apis:jar:2.0.2 has been relocated to xml-apis:xml-apis:jar:1.0.b2
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.3.0:tree (default-cli) @ jcabi-github ---
+[INFO] com.jcabi:jcabi-github:jar:2.0-SNAPSHOT
+[INFO] +- org.projectlombok:lombok:jar:1.18.28:provided
+[INFO] +- com.jcabi:jcabi-aspects:jar:0.24.1:compile
+[INFO] +- com.jcabi:jcabi-immutable:jar:1.5:compile
+[INFO] +- com.jcabi:jcabi-xml:jar:0.27.2:compile
+[INFO] |  \- org.cactoos:cactoos:jar:0.55.0:compile
+[INFO] +- com.jcabi:jcabi-http:jar:1.20.1:compile
+[INFO] |  \- com.jcabi:jcabi-manifests:jar:1.2.1:compile
+[INFO] +- com.jcabi.incubator:xembly:jar:0.28.1:compile
+[INFO] |  \- org.antlr:antlr4-runtime:jar:4.10.1:compile
+[INFO] +- com.jcabi:jcabi-log:jar:0.23.0:compile
+[INFO] |  \- org.slf4j:slf4j-api:jar:2.0.7:compile
+[INFO] +- commons-io:commons-io:jar:2.12.0:compile
+[INFO] +- org.apache.commons:commons-lang3:jar:3.12.0:compile
+[INFO] +- org.hamcrest:hamcrest:jar:2.2:compile
+[INFO] +- com.google.guava:guava:jar:32.0.0-jre:compile
+[INFO] |  +- com.google.guava:failureaccess:jar:1.0.1:compile
+[INFO] |  +- com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:compile
+[INFO] |  +- com.google.code.findbugs:jsr305:jar:3.0.2:compile
+[INFO] |  +- org.checkerframework:checker-qual:jar:3.33.0:compile
+[INFO] |  +- com.google.errorprone:error_prone_annotations:jar:2.18.0:compile
+[INFO] |  \- com.google.j2objc:j2objc-annotations:jar:2.8:compile
+[INFO] +- commons-collections:commons-collections:jar:20040616:test
+[INFO] +- junit:junit:jar:4.13.2:test
+[INFO] |  \- org.hamcrest:hamcrest-core:jar:1.3:test
+[INFO] +- commons-codec:commons-codec:jar:1.15:test
+[INFO] +- org.reflections:reflections:jar:0.9.10:test
+[INFO] |  +- org.javassist:javassist:jar:3.19.0-GA:test
+[INFO] |  \- com.google.code.findbugs:annotations:jar:2.0.1:test
+[INFO] +- org.aspectj:aspectjrt:jar:1.9.19:runtime
+[INFO] +- javax.ws.rs:jsr311-api:jar:1.1.1:provided
+[INFO] +- javax.json:javax.json-api:jar:1.1.4:provided
+[INFO] +- org.glassfish:javax.json:jar:1.1.4:runtime
+[INFO] +- javax.xml.bind:jaxb-api:jar:2.4.0-b180830.0359:provided
+[INFO] |  \- javax.activation:javax.activation-api:jar:1.2.0:provided
+[INFO] +- com.sun.xml.bind:jaxb-core:jar:4.0.2:runtime
+[INFO] |  +- jakarta.xml.bind:jakarta.xml.bind-api:jar:4.0.0:runtime
+[INFO] |  |  \- jakarta.activation:jakarta.activation-api:jar:2.1.0:runtime
+[INFO] |  \- org.eclipse.angus:angus-activation:jar:2.0.0:runtime
+[INFO] +- com.sun.xml.bind:jaxb-impl:jar:4.0.2:runtime
+[INFO] +- com.sun.jersey:jersey-client:jar:1.12:runtime
+[INFO] |  \- com.sun.jersey:jersey-core:jar:1.12:runtime
+[INFO] +- org.apache.httpcomponents:httpcore:jar:4.4.16:runtime
+[INFO] +- org.apache.httpcomponents:httpclient:jar:4.5.14:runtime
+[INFO] |  \- commons-logging:commons-logging:jar:1.2:runtime
+[INFO] +- javax.validation:validation-api:jar:2.0.1.Final:test
+[INFO] +- net.sf.saxon:Saxon-HE:jar:12.2:test
+[INFO] |  +- org.xmlresolver:xmlresolver:jar:5.1.2:test
+[INFO] |  |  +- org.apache.httpcomponents.client5:httpclient5:jar:5.1.3:test
+[INFO] |  |  |  \- org.apache.httpcomponents.core5:httpcore5-h2:jar:5.1.3:test
+[INFO] |  |  \- org.apache.httpcomponents.core5:httpcore5:jar:5.1.3:test
+[INFO] |  \- org.xmlresolver:xmlresolver:jar:data:5.1.2:test
+[INFO] +- xml-apis:xml-apis:jar:1.0.b2:provided
+[INFO] +- org.glassfish.grizzly:grizzly-http-servlet-server:jar:4.0.0:test
+[INFO] |  +- org.glassfish.grizzly:grizzly-http-server-core:jar:4.0.0:test
+[INFO] |  |  +- org.glassfish.grizzly:grizzly-core:jar:4.0.0:test
+[INFO] |  |  |  +- org.glassfish.grizzly:grizzly-framework:jar:4.0.0:test
+[INFO] |  |  |  \- org.glassfish.grizzly:grizzly-portunif:jar:4.0.0:test
+[INFO] |  |  +- org.glassfish.grizzly:grizzly-http-server:jar:4.0.0:test
+[INFO] |  |  |  \- org.glassfish.grizzly:grizzly-http:jar:4.0.0:test
+[INFO] |  |  +- org.glassfish.grizzly:grizzly-http-ajp:jar:4.0.0:test
+[INFO] |  |  +- org.glassfish.grizzly:grizzly-http2:jar:4.0.0:test
+[INFO] |  |  +- org.glassfish.grizzly:grizzly-npn-api:jar:2.0.0:test
+[INFO] |  |  \- org.glassfish.grizzly:grizzly-http-server-multipart:jar:4.0.0:test
+[INFO] |  +- org.glassfish.grizzly:grizzly-http-servlet:jar:4.0.0:test
+[INFO] |  \- org.glassfish.grizzly:grizzly-http-servlet-extras:jar:4.0.0:test
+[INFO] |     \- jakarta.servlet:jakarta.servlet-api:jar:6.0.0:test
+[INFO] +- com.jcraft:jsch:jar:0.1.55:test
+[INFO] +- com.fasterxml.jackson.core:jackson-databind:jar:2.15.1:test
+[INFO] |  \- com.fasterxml.jackson.core:jackson-annotations:jar:2.15.1:test
+[INFO] +- com.fasterxml.jackson.core:jackson-core:jar:2.15.1:test
+[INFO] +- org.slf4j:slf4j-reload4j:jar:2.0.7:test
+[INFO] |  \- ch.qos.reload4j:reload4j:jar:1.2.22:test
+[INFO] +- log4j:log4j:jar:1.2.17:test
+[INFO] +- org.mockito:mockito-core:jar:4.6.1:test
+[INFO] |  +- net.bytebuddy:byte-buddy:jar:1.12.10:test
+[INFO] |  +- net.bytebuddy:byte-buddy-agent:jar:1.12.10:test
+[INFO] |  \- org.objenesis:objenesis:jar:3.2:test
+[INFO] \- org.slf4j:slf4j-log4j12:jar:2.0.0-alpha5:test
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.319 s
+[INFO] Finished at: 2023-09-25T20:53:16Z
+[INFO] ------------------------------------------------------------------------

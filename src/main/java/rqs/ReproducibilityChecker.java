@@ -322,6 +322,7 @@ public class ReproducibilityChecker {
             BufferedWriter writer = new BufferedWriter(new FileWriter(treeFile, false));
             String line;
             while ((line = reader.readLine()) != null) {
+                line = line.replaceAll("\u001B\\[[;\\d]*m", ""); 
                 writer.write(line);
                 writer.newLine();
             }

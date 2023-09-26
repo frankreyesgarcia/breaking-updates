@@ -1,0 +1,1533 @@
+[INFO] Scanning for projects...
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/jvnet/hudson/plugins/analysis-pom/5.26.0/analysis-pom-5.26.0.pom
+Progress (1): 3.3/25 kB
+Progress (1): 6.1/25 kB
+Progress (1): 8.9/25 kB
+Progress (1): 12/25 kB 
+Progress (1): 15/25 kB
+Progress (1): 17/25 kB
+Progress (1): 20/25 kB
+Progress (1): 23/25 kB
+Progress (1): 25 kB   
+                   
+Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/jvnet/hudson/plugins/analysis-pom/5.26.0/analysis-pom-5.26.0.pom (25 kB at 28 kB/s)
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/jenkins-ci/tools/maven-hpi-plugin/3.27/maven-hpi-plugin-3.27.pom
+Progress (1): 3.3/9.3 kB
+Progress (1): 6.1/9.3 kB
+Progress (1): 8.9/9.3 kB
+Progress (1): 9.3 kB    
+                    
+Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/jenkins-ci/tools/maven-hpi-plugin/3.27/maven-hpi-plugin-3.27.pom (9.3 kB at 36 kB/s)
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/eclipse/jetty/jetty-maven-plugin/9.4.45.v20220203/jetty-maven-plugin-9.4.45.v20220203.pom
+Progress (1): 3.3/13 kB
+Progress (1): 6.1/13 kB
+Progress (1): 8.9/13 kB
+Progress (1): 12/13 kB 
+Progress (1): 13 kB   
+                   
+Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/eclipse/jetty/jetty-maven-plugin/9.4.45.v20220203/jetty-maven-plugin-9.4.45.v20220203.pom (13 kB at 50 kB/s)
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/eclipse/jetty/jetty-webapp/9.4.45.v20220203/jetty-webapp-9.4.45.v20220203.pom
+Progress (1): 3.2 kB
+                    
+Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/eclipse/jetty/jetty-webapp/9.4.45.v20220203/jetty-webapp-9.4.45.v20220203.pom (3.2 kB at 12 kB/s)
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/eclipse/jetty/jetty-xml/9.4.45.v20220203/jetty-xml-9.4.45.v20220203.pom
+Progress (1): 1.7 kB
+                    
+Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/eclipse/jetty/jetty-xml/9.4.45.v20220203/jetty-xml-9.4.45.v20220203.pom (1.7 kB at 6.5 kB/s)
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/eclipse/jetty/jetty-quickstart/9.4.45.v20220203/jetty-quickstart-9.4.45.v20220203.pom
+Progress (1): 3.1 kB
+                    
+Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/eclipse/jetty/jetty-quickstart/9.4.45.v20220203/jetty-quickstart-9.4.45.v20220203.pom (3.1 kB at 12 kB/s)
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/eclipse/jetty/jetty-jmx/9.4.45.v20220203/jetty-jmx-9.4.45.v20220203.pom
+Progress (1): 1.2 kB
+                    
+Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/eclipse/jetty/jetty-jmx/9.4.45.v20220203/jetty-jmx-9.4.45.v20220203.pom (1.2 kB at 4.9 kB/s)
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/eclipse/jetty/jetty-plus/9.4.45.v20220203/jetty-plus-9.4.45.v20220203.pom
+Progress (1): 2.5 kB
+                    
+Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/eclipse/jetty/jetty-plus/9.4.45.v20220203/jetty-plus-9.4.45.v20220203.pom (2.5 kB at 9.8 kB/s)
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/eclipse/jetty/jetty-jndi/9.4.45.v20220203/jetty-jndi-9.4.45.v20220203.pom
+Progress (1): 2.6 kB
+                    
+Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/eclipse/jetty/jetty-jndi/9.4.45.v20220203/jetty-jndi-9.4.45.v20220203.pom (2.6 kB at 10 kB/s)
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/eclipse/jetty/jetty-annotations/9.4.45.v20220203/jetty-annotations-9.4.45.v20220203.pom
+Progress (1): 2.5 kB
+                    
+Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/eclipse/jetty/jetty-annotations/9.4.45.v20220203/jetty-annotations-9.4.45.v20220203.pom (2.5 kB at 9.8 kB/s)
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/eclipse/jetty/jetty-jaas/9.4.45.v20220203/jetty-jaas-9.4.45.v20220203.pom
+Progress (1): 3.3/3.8 kB
+Progress (1): 3.8 kB    
+                    
+Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/eclipse/jetty/jetty-jaas/9.4.45.v20220203/jetty-jaas-9.4.45.v20220203.pom (3.8 kB at 15 kB/s)
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/eclipse/jetty/jetty-client/9.4.45.v20220203/jetty-client-9.4.45.v20220203.pom
+Progress (1): 3.3/5.1 kB
+Progress (1): 5.1 kB    
+                    
+Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/eclipse/jetty/jetty-client/9.4.45.v20220203/jetty-client-9.4.45.v20220203.pom (5.1 kB at 20 kB/s)
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/eclipse/jetty/websocket/javax-websocket-server-impl/9.4.45.v20220203/javax-websocket-server-impl-9.4.45.v20220203.pom
+Progress (1): 3.2/3.5 kB
+Progress (1): 3.5 kB    
+                    
+Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/eclipse/jetty/websocket/javax-websocket-server-impl/9.4.45.v20220203/javax-websocket-server-impl-9.4.45.v20220203.pom (3.5 kB at 14 kB/s)
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/eclipse/jetty/websocket/websocket-parent/9.4.45.v20220203/websocket-parent-9.4.45.v20220203.pom
+Progress (1): 1.4 kB
+                    
+Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/eclipse/jetty/websocket/websocket-parent/9.4.45.v20220203/websocket-parent-9.4.45.v20220203.pom (1.4 kB at 5.6 kB/s)
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/eclipse/jetty/websocket/javax-websocket-client-impl/9.4.45.v20220203/javax-websocket-client-impl-9.4.45.v20220203.pom
+Progress (1): 3.2/3.8 kB
+Progress (1): 3.8 kB    
+                    
+Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/eclipse/jetty/websocket/javax-websocket-client-impl/9.4.45.v20220203/javax-websocket-client-impl-9.4.45.v20220203.pom (3.8 kB at 15 kB/s)
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/eclipse/jetty/websocket/websocket-client/9.4.45.v20220203/websocket-client-9.4.45.v20220203.pom
+Progress (1): 3.3/4.6 kB
+Progress (1): 4.6 kB    
+                    
+Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/eclipse/jetty/websocket/websocket-client/9.4.45.v20220203/websocket-client-9.4.45.v20220203.pom (4.6 kB at 18 kB/s)
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/eclipse/jetty/websocket/websocket-common/9.4.45.v20220203/websocket-common-9.4.45.v20220203.pom
+Progress (1): 3.3/3.6 kB
+Progress (1): 3.6 kB    
+                    
+Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/eclipse/jetty/websocket/websocket-common/9.4.45.v20220203/websocket-common-9.4.45.v20220203.pom (3.6 kB at 14 kB/s)
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/eclipse/jetty/websocket/websocket-api/9.4.45.v20220203/websocket-api-9.4.45.v20220203.pom
+Progress (1): 2.5 kB
+                    
+Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/eclipse/jetty/websocket/websocket-api/9.4.45.v20220203/websocket-api-9.4.45.v20220203.pom (2.5 kB at 9.9 kB/s)
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/eclipse/jetty/websocket/websocket-server/9.4.45.v20220203/websocket-server-9.4.45.v20220203.pom
+Progress (1): 3.3/4.1 kB
+Progress (1): 4.1 kB    
+                    
+Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/eclipse/jetty/websocket/websocket-server/9.4.45.v20220203/websocket-server-9.4.45.v20220203.pom (4.1 kB at 16 kB/s)
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/eclipse/jetty/websocket/websocket-servlet/9.4.45.v20220203/websocket-servlet-9.4.45.v20220203.pom
+Progress (1): 2.2 kB
+                    
+Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/eclipse/jetty/websocket/websocket-servlet/9.4.45.v20220203/websocket-servlet-9.4.45.v20220203.pom (2.2 kB at 8.4 kB/s)
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/eclipse/jetty/apache-jsp/9.4.45.v20220203/apache-jsp-9.4.45.v20220203.pom
+Progress (1): 3.3/4.3 kB
+Progress (1): 4.3 kB    
+                    
+Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/eclipse/jetty/apache-jsp/9.4.45.v20220203/apache-jsp-9.4.45.v20220203.pom (4.3 kB at 17 kB/s)
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/eclipse/jetty/apache-jstl/9.4.45.v20220203/apache-jstl-9.4.45.v20220203.pom
+Progress (1): 2.3 kB
+                    
+Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/eclipse/jetty/apache-jstl/9.4.45.v20220203/apache-jstl-9.4.45.v20220203.pom (2.3 kB at 8.9 kB/s)
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/jenkins-ci/tools/maven-hpi-plugin/3.27/maven-hpi-plugin-3.27.jar
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/eclipse/jetty/jetty-maven-plugin/9.4.45.v20220203/jetty-maven-plugin-9.4.45.v20220203.jar
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/eclipse/jetty/jetty-quickstart/9.4.45.v20220203/jetty-quickstart-9.4.45.v20220203.jar
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/eclipse/jetty/jetty-xml/9.4.45.v20220203/jetty-xml-9.4.45.v20220203.jar
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/eclipse/jetty/jetty-webapp/9.4.45.v20220203/jetty-webapp-9.4.45.v20220203.jar
+Progress (1): 3.3/140 kB
+Progress (1): 6.1/140 kB
+Progress (1): 8.9/140 kB
+Progress (1): 12/140 kB 
+Progress (1): 15/140 kB
+Progress (1): 17/140 kB
+Progress (1): 20/140 kB
+Progress (1): 23/140 kB
+Progress (1): 26/140 kB
+Progress (1): 29/140 kB
+Progress (1): 31/140 kB
+Progress (1): 34/140 kB
+Progress (1): 37/140 kB
+Progress (1): 40/140 kB
+Progress (1): 43/140 kB
+Progress (1): 45/140 kB
+Progress (1): 48/140 kB
+Progress (1): 51/140 kB
+Progress (1): 54/140 kB
+Progress (1): 56/140 kB
+Progress (1): 59/140 kB
+Progress (1): 62/140 kB
+Progress (1): 65/140 kB
+Progress (1): 68/140 kB
+Progress (1): 70/140 kB
+Progress (1): 73/140 kB
+Progress (1): 76/140 kB
+Progress (1): 79/140 kB
+Progress (1): 82/140 kB
+Progress (1): 84/140 kB
+Progress (1): 87/140 kB
+Progress (1): 90/140 kB
+Progress (1): 93/140 kB
+Progress (1): 96/140 kB
+Progress (1): 98/140 kB
+Progress (1): 101/140 kB
+Progress (1): 104/140 kB
+Progress (1): 107/140 kB
+Progress (1): 110/140 kB
+Progress (1): 112/140 kB
+Progress (1): 115/140 kB
+Progress (1): 118/140 kB
+Progress (1): 120/140 kB
+Progress (1): 123/140 kB
+Progress (1): 126/140 kB
+Progress (1): 129/140 kB
+Progress (1): 132/140 kB
+Progress (1): 134/140 kB
+Progress (1): 137/140 kB
+Progress (1): 140/140 kB
+Progress (1): 140 kB    
+Progress (2): 140 kB | 3.3/68 kB
+Progress (2): 140 kB | 6.1/68 kB
+Progress (2): 140 kB | 8.9/68 kB
+Progress (2): 140 kB | 12/68 kB 
+Progress (2): 140 kB | 14/68 kB
+Progress (2): 140 kB | 17/68 kB
+Progress (2): 140 kB | 20/68 kB
+Progress (2): 140 kB | 23/68 kB
+Progress (2): 140 kB | 26/68 kB
+Progress (2): 140 kB | 29/68 kB
+Progress (2): 140 kB | 31/68 kB
+                               
+Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/jenkins-ci/tools/maven-hpi-plugin/3.27/maven-hpi-plugin-3.27.jar (140 kB at 285 kB/s)
+Progress (1): 34/68 kB
+                      
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/eclipse/jetty/jetty-jaas/9.4.45.v20220203/jetty-jaas-9.4.45.v20220203.jar
+Progress (1): 37/68 kB
+Progress (1): 40/68 kB
+Progress (2): 40/68 kB | 3.3/46 kB
+Progress (2): 40/68 kB | 6.1/46 kB
+Progress (2): 40/68 kB | 8.9/46 kB
+Progress (3): 40/68 kB | 8.9/46 kB | 3.3/127 kB
+Progress (3): 40/68 kB | 12/46 kB | 3.3/127 kB 
+Progress (3): 40/68 kB | 12/46 kB | 6.1/127 kB
+Progress (3): 40/68 kB | 12/46 kB | 8.9/127 kB
+Progress (3): 40/68 kB | 12/46 kB | 12/127 kB 
+Progress (4): 40/68 kB | 12/46 kB | 12/127 kB | 3.3/140 kB
+Progress (4): 40/68 kB | 12/46 kB | 12/127 kB | 6.1/140 kB
+Progress (4): 40/68 kB | 12/46 kB | 12/127 kB | 8.9/140 kB
+Progress (4): 40/68 kB | 12/46 kB | 12/127 kB | 12/140 kB 
+Progress (4): 43/68 kB | 12/46 kB | 12/127 kB | 12/140 kB
+Progress (4): 45/68 kB | 12/46 kB | 12/127 kB | 12/140 kB
+Progress (4): 48/68 kB | 12/46 kB | 12/127 kB | 12/140 kB
+Progress (4): 51/68 kB | 12/46 kB | 12/127 kB | 12/140 kB
+Progress (4): 54/68 kB | 12/46 kB | 12/127 kB | 12/140 kB
+Progress (4): 56/68 kB | 12/46 kB | 12/127 kB | 12/140 kB
+Progress (4): 59/68 kB | 12/46 kB | 12/127 kB | 12/140 kB
+Progress (4): 59/68 kB | 14/46 kB | 12/127 kB | 12/140 kB
+Progress (4): 62/68 kB | 14/46 kB | 12/127 kB | 12/140 kB
+Progress (4): 62/68 kB | 17/46 kB | 12/127 kB | 12/140 kB
+Progress (4): 62/68 kB | 17/46 kB | 14/127 kB | 12/140 kB
+Progress (4): 65/68 kB | 17/46 kB | 14/127 kB | 12/140 kB
+Progress (4): 65/68 kB | 17/46 kB | 17/127 kB | 12/140 kB
+Progress (4): 65/68 kB | 20/46 kB | 17/127 kB | 12/140 kB
+Progress (4): 65/68 kB | 20/46 kB | 20/127 kB | 12/140 kB
+Progress (4): 68/68 kB | 20/46 kB | 20/127 kB | 12/140 kB
+Progress (4): 68/68 kB | 23/46 kB | 20/127 kB | 12/140 kB
+Progress (4): 68/68 kB | 23/46 kB | 23/127 kB | 12/140 kB
+Progress (4): 68 kB | 23/46 kB | 23/127 kB | 12/140 kB   
+Progress (4): 68 kB | 26/46 kB | 23/127 kB | 12/140 kB
+Progress (4): 68 kB | 26/46 kB | 26/127 kB | 12/140 kB
+Progress (4): 68 kB | 29/46 kB | 26/127 kB | 12/140 kB
+Progress (4): 68 kB | 29/46 kB | 28/127 kB | 12/140 kB
+Progress (4): 68 kB | 29/46 kB | 31/127 kB | 12/140 kB
+Progress (4): 68 kB | 31/46 kB | 31/127 kB | 12/140 kB
+Progress (4): 68 kB | 31/46 kB | 34/127 kB | 12/140 kB
+Progress (4): 68 kB | 31/46 kB | 37/127 kB | 12/140 kB
+Progress (4): 68 kB | 34/46 kB | 37/127 kB | 12/140 kB
+Progress (4): 68 kB | 34/46 kB | 40/127 kB | 12/140 kB
+Progress (4): 68 kB | 37/46 kB | 40/127 kB | 12/140 kB
+Progress (4): 68 kB | 40/46 kB | 40/127 kB | 12/140 kB
+Progress (5): 68 kB | 40/46 kB | 40/127 kB | 12/140 kB | 3.3/48 kB
+Progress (5): 68 kB | 40/46 kB | 40/127 kB | 12/140 kB | 6.1/48 kB
+Progress (5): 68 kB | 40/46 kB | 40/127 kB | 12/140 kB | 8.9/48 kB
+Progress (5): 68 kB | 40/46 kB | 40/127 kB | 12/140 kB | 12/48 kB 
+Progress (5): 68 kB | 40/46 kB | 40/127 kB | 12/140 kB | 14/48 kB
+Progress (5): 68 kB | 40/46 kB | 40/127 kB | 12/140 kB | 17/48 kB
+Progress (5): 68 kB | 40/46 kB | 40/127 kB | 12/140 kB | 20/48 kB
+Progress (5): 68 kB | 40/46 kB | 40/127 kB | 12/140 kB | 23/48 kB
+Progress (5): 68 kB | 40/46 kB | 40/127 kB | 12/140 kB | 26/48 kB
+Progress (5): 68 kB | 40/46 kB | 40/127 kB | 12/140 kB | 29/48 kB
+Progress (5): 68 kB | 40/46 kB | 40/127 kB | 12/140 kB | 31/48 kB
+Progress (5): 68 kB | 40/46 kB | 40/127 kB | 12/140 kB | 34/48 kB
+Progress (5): 68 kB | 40/46 kB | 40/127 kB | 12/140 kB | 37/48 kB
+Progress (5): 68 kB | 40/46 kB | 40/127 kB | 12/140 kB | 40/48 kB
+Progress (5): 68 kB | 40/46 kB | 40/127 kB | 12/140 kB | 43/48 kB
+Progress (5): 68 kB | 40/46 kB | 40/127 kB | 12/140 kB | 45/48 kB
+Progress (5): 68 kB | 40/46 kB | 40/127 kB | 12/140 kB | 48 kB   
+Progress (5): 68 kB | 40/46 kB | 40/127 kB | 14/140 kB | 48 kB
+Progress (5): 68 kB | 40/46 kB | 40/127 kB | 17/140 kB | 48 kB
+Progress (5): 68 kB | 40/46 kB | 40/127 kB | 20/140 kB | 48 kB
+Progress (5): 68 kB | 40/46 kB | 40/127 kB | 23/140 kB | 48 kB
+Progress (5): 68 kB | 40/46 kB | 40/127 kB | 26/140 kB | 48 kB
+Progress (5): 68 kB | 40/46 kB | 40/127 kB | 29/140 kB | 48 kB
+Progress (5): 68 kB | 40/46 kB | 40/127 kB | 31/140 kB | 48 kB
+Progress (5): 68 kB | 40/46 kB | 40/127 kB | 34/140 kB | 48 kB
+Progress (5): 68 kB | 40/46 kB | 40/127 kB | 37/140 kB | 48 kB
+Progress (5): 68 kB | 40/46 kB | 40/127 kB | 40/140 kB | 48 kB
+Progress (5): 68 kB | 43/46 kB | 40/127 kB | 40/140 kB | 48 kB
+Progress (5): 68 kB | 45/46 kB | 40/127 kB | 40/140 kB | 48 kB
+Progress (5): 68 kB | 46 kB | 40/127 kB | 40/140 kB | 48 kB   
+Progress (5): 68 kB | 46 kB | 42/127 kB | 40/140 kB | 48 kB
+Progress (5): 68 kB | 46 kB | 45/127 kB | 40/140 kB | 48 kB
+Progress (5): 68 kB | 46 kB | 48/127 kB | 40/140 kB | 48 kB
+Progress (5): 68 kB | 46 kB | 51/127 kB | 40/140 kB | 48 kB
+Progress (5): 68 kB | 46 kB | 54/127 kB | 40/140 kB | 48 kB
+Progress (5): 68 kB | 46 kB | 56/127 kB | 40/140 kB | 48 kB
+Progress (5): 68 kB | 46 kB | 59/127 kB | 40/140 kB | 48 kB
+Progress (5): 68 kB | 46 kB | 62/127 kB | 40/140 kB | 48 kB
+Progress (5): 68 kB | 46 kB | 65/127 kB | 40/140 kB | 48 kB
+Progress (5): 68 kB | 46 kB | 68/127 kB | 40/140 kB | 48 kB
+Progress (5): 68 kB | 46 kB | 70/127 kB | 40/140 kB | 48 kB
+Progress (5): 68 kB | 46 kB | 73/127 kB | 40/140 kB | 48 kB
+Progress (5): 68 kB | 46 kB | 76/127 kB | 40/140 kB | 48 kB
+Progress (5): 68 kB | 46 kB | 79/127 kB | 40/140 kB | 48 kB
+Progress (5): 68 kB | 46 kB | 82/127 kB | 40/140 kB | 48 kB
+Progress (5): 68 kB | 46 kB | 84/127 kB | 40/140 kB | 48 kB
+Progress (5): 68 kB | 46 kB | 87/127 kB | 40/140 kB | 48 kB
+Progress (5): 68 kB | 46 kB | 90/127 kB | 40/140 kB | 48 kB
+Progress (5): 68 kB | 46 kB | 93/127 kB | 40/140 kB | 48 kB
+Progress (5): 68 kB | 46 kB | 96/127 kB | 40/140 kB | 48 kB
+                                                           
+Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/eclipse/jetty/jetty-xml/9.4.45.v20220203/jetty-xml-9.4.45.v20220203.jar (68 kB at 93 kB/s)
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/eclipse/jetty/jetty-plus/9.4.45.v20220203/jetty-plus-9.4.45.v20220203.jar
+Progress (4): 46 kB | 96/127 kB | 43/140 kB | 48 kB
+Progress (4): 46 kB | 96/127 kB | 45/140 kB | 48 kB
+Progress (4): 46 kB | 96/127 kB | 48/140 kB | 48 kB
+Progress (4): 46 kB | 96/127 kB | 51/140 kB | 48 kB
+Progress (4): 46 kB | 96/127 kB | 54/140 kB | 48 kB
+Progress (4): 46 kB | 96/127 kB | 56/140 kB | 48 kB
+Progress (4): 46 kB | 96/127 kB | 59/140 kB | 48 kB
+Progress (4): 46 kB | 96/127 kB | 62/140 kB | 48 kB
+Progress (4): 46 kB | 96/127 kB | 65/140 kB | 48 kB
+Progress (4): 46 kB | 96/127 kB | 68/140 kB | 48 kB
+Progress (4): 46 kB | 96/127 kB | 70/140 kB | 48 kB
+Progress (4): 46 kB | 96/127 kB | 73/140 kB | 48 kB
+Progress (4): 46 kB | 96/127 kB | 76/140 kB | 48 kB
+Progress (4): 46 kB | 96/127 kB | 79/140 kB | 48 kB
+Progress (4): 46 kB | 96/127 kB | 82/140 kB | 48 kB
+Progress (4): 46 kB | 96/127 kB | 84/140 kB | 48 kB
+Progress (4): 46 kB | 96/127 kB | 87/140 kB | 48 kB
+Progress (4): 46 kB | 96/127 kB | 90/140 kB | 48 kB
+Progress (4): 46 kB | 96/127 kB | 93/140 kB | 48 kB
+Progress (4): 46 kB | 96/127 kB | 95/140 kB | 48 kB
+Progress (4): 46 kB | 96/127 kB | 98/140 kB | 48 kB
+                                                   
+Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/eclipse/jetty/jetty-jaas/9.4.45.v20220203/jetty-jaas-9.4.45.v20220203.jar (48 kB at 63 kB/s)
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/eclipse/jetty/jetty-jndi/9.4.45.v20220203/jetty-jndi-9.4.45.v20220203.jar
+Progress (3): 46 kB | 98/127 kB | 98/140 kB
+Progress (3): 46 kB | 101/127 kB | 98/140 kB
+Progress (3): 46 kB | 104/127 kB | 98/140 kB
+Progress (3): 46 kB | 107/127 kB | 98/140 kB
+Progress (3): 46 kB | 110/127 kB | 98/140 kB
+Progress (3): 46 kB | 112/127 kB | 98/140 kB
+Progress (3): 46 kB | 115/127 kB | 98/140 kB
+Progress (3): 46 kB | 118/127 kB | 98/140 kB
+Progress (3): 46 kB | 121/127 kB | 98/140 kB
+Progress (3): 46 kB | 124/127 kB | 98/140 kB
+Progress (3): 46 kB | 126/127 kB | 98/140 kB
+Progress (3): 46 kB | 127 kB | 98/140 kB    
+                                        
+Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/eclipse/jetty/jetty-quickstart/9.4.45.v20220203/jetty-quickstart-9.4.45.v20220203.jar (46 kB at 54 kB/s)
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/eclipse/jetty/jetty-client/9.4.45.v20220203/jetty-client-9.4.45.v20220203.jar
+Progress (2): 127 kB | 101/140 kB
+Progress (2): 127 kB | 104/140 kB
+Progress (2): 127 kB | 107/140 kB
+Progress (2): 127 kB | 109/140 kB
+Progress (2): 127 kB | 112/140 kB
+Progress (2): 127 kB | 115/140 kB
+Progress (2): 127 kB | 118/140 kB
+Progress (2): 127 kB | 121/140 kB
+Progress (2): 127 kB | 123/140 kB
+Progress (2): 127 kB | 126/140 kB
+Progress (2): 127 kB | 129/140 kB
+Progress (2): 127 kB | 132/140 kB
+Progress (2): 127 kB | 135/140 kB
+Progress (2): 127 kB | 137/140 kB
+Progress (2): 127 kB | 140/140 kB
+Progress (2): 127 kB | 140 kB    
+Progress (3): 127 kB | 140 kB | 3.3/66 kB
+Progress (3): 127 kB | 140 kB | 6.1/66 kB
+Progress (3): 127 kB | 140 kB | 8.9/66 kB
+Progress (3): 127 kB | 140 kB | 12/66 kB 
+Progress (3): 127 kB | 140 kB | 14/66 kB
+Progress (3): 127 kB | 140 kB | 17/66 kB
+Progress (3): 127 kB | 140 kB | 20/66 kB
+Progress (3): 127 kB | 140 kB | 23/66 kB
+Progress (3): 127 kB | 140 kB | 26/66 kB
+Progress (3): 127 kB | 140 kB | 28/66 kB
+Progress (3): 127 kB | 140 kB | 31/66 kB
+Progress (3): 127 kB | 140 kB | 34/66 kB
+Progress (3): 127 kB | 140 kB | 37/66 kB
+Progress (3): 127 kB | 140 kB | 40/66 kB
+Progress (3): 127 kB | 140 kB | 42/66 kB
+Progress (3): 127 kB | 140 kB | 45/66 kB
+Progress (3): 127 kB | 140 kB | 48/66 kB
+Progress (3): 127 kB | 140 kB | 51/66 kB
+Progress (3): 127 kB | 140 kB | 54/66 kB
+Progress (3): 127 kB | 140 kB | 56/66 kB
+Progress (3): 127 kB | 140 kB | 59/66 kB
+Progress (3): 127 kB | 140 kB | 62/66 kB
+Progress (4): 127 kB | 140 kB | 62/66 kB | 3.3/47 kB
+Progress (4): 127 kB | 140 kB | 62/66 kB | 6.1/47 kB
+Progress (4): 127 kB | 140 kB | 62/66 kB | 8.9/47 kB
+Progress (4): 127 kB | 140 kB | 62/66 kB | 12/47 kB 
+Progress (4): 127 kB | 140 kB | 62/66 kB | 14/47 kB
+Progress (4): 127 kB | 140 kB | 62/66 kB | 17/47 kB
+Progress (4): 127 kB | 140 kB | 62/66 kB | 20/47 kB
+Progress (4): 127 kB | 140 kB | 62/66 kB | 23/47 kB
+Progress (4): 127 kB | 140 kB | 62/66 kB | 26/47 kB
+Progress (4): 127 kB | 140 kB | 62/66 kB | 29/47 kB
+Progress (4): 127 kB | 140 kB | 62/66 kB | 31/47 kB
+Progress (4): 127 kB | 140 kB | 62/66 kB | 34/47 kB
+Progress (4): 127 kB | 140 kB | 62/66 kB | 37/47 kB
+Progress (4): 127 kB | 140 kB | 62/66 kB | 40/47 kB
+Progress (4): 127 kB | 140 kB | 62/66 kB | 43/47 kB
+Progress (4): 127 kB | 140 kB | 62/66 kB | 45/47 kB
+Progress (4): 127 kB | 140 kB | 62/66 kB | 47 kB   
+                                                
+Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/eclipse/jetty/jetty-maven-plugin/9.4.45.v20220203/jetty-maven-plugin-9.4.45.v20220203.jar (127 kB at 131 kB/s)
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/eclipse/jetty/jetty-jmx/9.4.45.v20220203/jetty-jmx-9.4.45.v20220203.jar
+Progress (3): 140 kB | 65/66 kB | 47 kB
+Progress (3): 140 kB | 66 kB | 47 kB   
+                                    
+Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/eclipse/jetty/jetty-webapp/9.4.45.v20220203/jetty-webapp-9.4.45.v20220203.jar (140 kB at 142 kB/s)
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/eclipse/jetty/jetty-annotations/9.4.45.v20220203/jetty-annotations-9.4.45.v20220203.jar
+Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/eclipse/jetty/jetty-jndi/9.4.45.v20220203/jetty-jndi-9.4.45.v20220203.jar (47 kB at 46 kB/s)
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/eclipse/jetty/websocket/javax-websocket-server-impl/9.4.45.v20220203/javax-websocket-server-impl-9.4.45.v20220203.jar
+Progress (2): 66 kB | 3.3/42 kB
+Progress (2): 66 kB | 6.1/42 kB
+Progress (2): 66 kB | 8.9/42 kB
+Progress (2): 66 kB | 12/42 kB 
+Progress (2): 66 kB | 14/42 kB
+Progress (2): 66 kB | 17/42 kB
+Progress (2): 66 kB | 20/42 kB
+Progress (2): 66 kB | 23/42 kB
+Progress (2): 66 kB | 26/42 kB
+Progress (2): 66 kB | 28/42 kB
+Progress (2): 66 kB | 31/42 kB
+                              
+Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/eclipse/jetty/jetty-plus/9.4.45.v20220203/jetty-plus-9.4.45.v20220203.jar (66 kB at 60 kB/s)
+Progress (1): 34/42 kB
+                      
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/eclipse/jetty/websocket/javax-websocket-client-impl/9.4.45.v20220203/javax-websocket-client-impl-9.4.45.v20220203.jar
+Progress (1): 37/42 kB
+Progress (1): 40/42 kB
+Progress (1): 42 kB   
+Progress (2): 42 kB | 3.3/87 kB
+Progress (2): 42 kB | 6.1/87 kB
+Progress (2): 42 kB | 8.9/87 kB
+Progress (2): 42 kB | 12/87 kB 
+Progress (2): 42 kB | 14/87 kB
+Progress (2): 42 kB | 17/87 kB
+Progress (2): 42 kB | 20/87 kB
+Progress (2): 42 kB | 23/87 kB
+Progress (2): 42 kB | 26/87 kB
+Progress (2): 42 kB | 28/87 kB
+Progress (2): 42 kB | 31/87 kB
+Progress (2): 42 kB | 34/87 kB
+Progress (2): 42 kB | 37/87 kB
+Progress (2): 42 kB | 40/87 kB
+Progress (2): 42 kB | 42/87 kB
+Progress (2): 42 kB | 45/87 kB
+Progress (2): 42 kB | 48/87 kB
+Progress (2): 42 kB | 51/87 kB
+Progress (2): 42 kB | 54/87 kB
+Progress (2): 42 kB | 56/87 kB
+Progress (2): 42 kB | 59/87 kB
+Progress (2): 42 kB | 62/87 kB
+Progress (2): 42 kB | 65/87 kB
+Progress (2): 42 kB | 68/87 kB
+Progress (2): 42 kB | 70/87 kB
+Progress (2): 42 kB | 73/87 kB
+Progress (2): 42 kB | 76/87 kB
+Progress (2): 42 kB | 79/87 kB
+Progress (2): 42 kB | 82/87 kB
+Progress (2): 42 kB | 84/87 kB
+Progress (2): 42 kB | 87 kB   
+Progress (3): 42 kB | 87 kB | 3.2/48 kB
+Progress (3): 42 kB | 87 kB | 6.0/48 kB
+Progress (3): 42 kB | 87 kB | 8.8/48 kB
+Progress (3): 42 kB | 87 kB | 12/48 kB 
+Progress (3): 42 kB | 87 kB | 14/48 kB
+Progress (3): 42 kB | 87 kB | 17/48 kB
+Progress (3): 42 kB | 87 kB | 20/48 kB
+Progress (3): 42 kB | 87 kB | 23/48 kB
+Progress (3): 42 kB | 87 kB | 26/48 kB
+Progress (3): 42 kB | 87 kB | 28/48 kB
+Progress (3): 42 kB | 87 kB | 31/48 kB
+Progress (3): 42 kB | 87 kB | 34/48 kB
+Progress (3): 42 kB | 87 kB | 37/48 kB
+Progress (3): 42 kB | 87 kB | 40/48 kB
+Progress (3): 42 kB | 87 kB | 42/48 kB
+Progress (3): 42 kB | 87 kB | 45/48 kB
+Progress (3): 42 kB | 87 kB | 48 kB   
+Progress (4): 42 kB | 87 kB | 48 kB | 3.2/168 kB
+Progress (4): 42 kB | 87 kB | 48 kB | 6.0/168 kB
+Progress (4): 42 kB | 87 kB | 48 kB | 8.8/168 kB
+Progress (4): 42 kB | 87 kB | 48 kB | 12/168 kB 
+Progress (4): 42 kB | 87 kB | 48 kB | 14/168 kB
+Progress (4): 42 kB | 87 kB | 48 kB | 17/168 kB
+Progress (4): 42 kB | 87 kB | 48 kB | 20/168 kB
+Progress (4): 42 kB | 87 kB | 48 kB | 23/168 kB
+Progress (4): 42 kB | 87 kB | 48 kB | 26/168 kB
+Progress (4): 42 kB | 87 kB | 48 kB | 28/168 kB
+Progress (4): 42 kB | 87 kB | 48 kB | 31/168 kB
+Progress (4): 42 kB | 87 kB | 48 kB | 34/168 kB
+Progress (4): 42 kB | 87 kB | 48 kB | 37/168 kB
+Progress (4): 42 kB | 87 kB | 48 kB | 40/168 kB
+Progress (4): 42 kB | 87 kB | 48 kB | 42/168 kB
+Progress (4): 42 kB | 87 kB | 48 kB | 45/168 kB
+Progress (4): 42 kB | 87 kB | 48 kB | 48/168 kB
+Progress (4): 42 kB | 87 kB | 48 kB | 51/168 kB
+Progress (4): 42 kB | 87 kB | 48 kB | 54/168 kB
+Progress (4): 42 kB | 87 kB | 48 kB | 56/168 kB
+Progress (4): 42 kB | 87 kB | 48 kB | 59/168 kB
+Progress (4): 42 kB | 87 kB | 48 kB | 62/168 kB
+Progress (4): 42 kB | 87 kB | 48 kB | 65/168 kB
+Progress (4): 42 kB | 87 kB | 48 kB | 67/168 kB
+Progress (4): 42 kB | 87 kB | 48 kB | 70/168 kB
+Progress (4): 42 kB | 87 kB | 48 kB | 73/168 kB
+Progress (4): 42 kB | 87 kB | 48 kB | 76/168 kB
+Progress (4): 42 kB | 87 kB | 48 kB | 79/168 kB
+Progress (4): 42 kB | 87 kB | 48 kB | 81/168 kB
+Progress (4): 42 kB | 87 kB | 48 kB | 84/168 kB
+Progress (4): 42 kB | 87 kB | 48 kB | 87/168 kB
+Progress (4): 42 kB | 87 kB | 48 kB | 90/168 kB
+Progress (4): 42 kB | 87 kB | 48 kB | 93/168 kB
+Progress (4): 42 kB | 87 kB | 48 kB | 95/168 kB
+Progress (4): 42 kB | 87 kB | 48 kB | 98/168 kB
+Progress (4): 42 kB | 87 kB | 48 kB | 101/168 kB
+                                                
+Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/eclipse/jetty/jetty-jmx/9.4.45.v20220203/jetty-jmx-9.4.45.v20220203.jar (42 kB at 34 kB/s)
+Progress (3): 87 kB | 48 kB | 104/168 kB
+                                        
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/eclipse/jetty/websocket/websocket-server/9.4.45.v20220203/websocket-server-9.4.45.v20220203.jar
+Progress (3): 87 kB | 48 kB | 107/168 kB
+Progress (3): 87 kB | 48 kB | 109/168 kB
+Progress (3): 87 kB | 48 kB | 112/168 kB
+Progress (3): 87 kB | 48 kB | 115/168 kB
+Progress (3): 87 kB | 48 kB | 118/168 kB
+Progress (3): 87 kB | 48 kB | 120/168 kB
+Progress (3): 87 kB | 48 kB | 123/168 kB
+Progress (3): 87 kB | 48 kB | 126/168 kB
+                                        
+Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/eclipse/jetty/jetty-annotations/9.4.45.v20220203/jetty-annotations-9.4.45.v20220203.jar (87 kB at 69 kB/s)
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/eclipse/jetty/websocket/websocket-common/9.4.45.v20220203/websocket-common-9.4.45.v20220203.jar
+Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/eclipse/jetty/websocket/javax-websocket-server-impl/9.4.45.v20220203/javax-websocket-server-impl-9.4.45.v20220203.jar (48 kB at 38 kB/s)
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/eclipse/jetty/websocket/websocket-api/9.4.45.v20220203/websocket-api-9.4.45.v20220203.jar
+Progress (1): 129/168 kB
+Progress (1): 132/168 kB
+Progress (1): 134/168 kB
+Progress (1): 137/168 kB
+Progress (1): 140/168 kB
+Progress (1): 143/168 kB
+Progress (1): 146/168 kB
+Progress (1): 148/168 kB
+Progress (1): 151/168 kB
+Progress (1): 154/168 kB
+Progress (1): 157/168 kB
+Progress (1): 160/168 kB
+Progress (1): 162/168 kB
+Progress (1): 165/168 kB
+Progress (1): 168/168 kB
+Progress (1): 168 kB    
+Progress (2): 168 kB | 3.3/45 kB
+Progress (2): 168 kB | 6.1/45 kB
+Progress (2): 168 kB | 8.9/45 kB
+Progress (2): 168 kB | 12/45 kB 
+Progress (2): 168 kB | 14/45 kB
+Progress (2): 168 kB | 17/45 kB
+Progress (2): 168 kB | 20/45 kB
+Progress (2): 168 kB | 23/45 kB
+Progress (2): 168 kB | 26/45 kB
+Progress (2): 168 kB | 28/45 kB
+Progress (2): 168 kB | 31/45 kB
+Progress (2): 168 kB | 34/45 kB
+Progress (2): 168 kB | 37/45 kB
+Progress (2): 168 kB | 40/45 kB
+Progress (2): 168 kB | 42/45 kB
+Progress (2): 168 kB | 45/45 kB
+Progress (2): 168 kB | 45 kB   
+Progress (3): 168 kB | 45 kB | 3.3/52 kB
+Progress (3): 168 kB | 45 kB | 6.1/52 kB
+Progress (3): 168 kB | 45 kB | 8.9/52 kB
+Progress (3): 168 kB | 45 kB | 12/52 kB 
+Progress (3): 168 kB | 45 kB | 14/52 kB
+Progress (3): 168 kB | 45 kB | 17/52 kB
+Progress (3): 168 kB | 45 kB | 20/52 kB
+Progress (3): 168 kB | 45 kB | 23/52 kB
+Progress (3): 168 kB | 45 kB | 26/52 kB
+Progress (3): 168 kB | 45 kB | 29/52 kB
+Progress (3): 168 kB | 45 kB | 31/52 kB
+Progress (3): 168 kB | 45 kB | 34/52 kB
+Progress (3): 168 kB | 45 kB | 37/52 kB
+Progress (3): 168 kB | 45 kB | 40/52 kB
+Progress (3): 168 kB | 45 kB | 43/52 kB
+Progress (3): 168 kB | 45 kB | 45/52 kB
+Progress (3): 168 kB | 45 kB | 48/52 kB
+Progress (3): 168 kB | 45 kB | 51/52 kB
+Progress (3): 168 kB | 45 kB | 52 kB   
+                                    
+Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/eclipse/jetty/websocket/javax-websocket-client-impl/9.4.45.v20220203/javax-websocket-client-impl-9.4.45.v20220203.jar (168 kB at 115 kB/s)
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/eclipse/jetty/websocket/websocket-client/9.4.45.v20220203/websocket-client-9.4.45.v20220203.jar
+Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/eclipse/jetty/websocket/websocket-server/9.4.45.v20220203/websocket-server-9.4.45.v20220203.jar (45 kB at 30 kB/s)
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/eclipse/jetty/websocket/websocket-servlet/9.4.45.v20220203/websocket-servlet-9.4.45.v20220203.jar
+Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/eclipse/jetty/websocket/websocket-api/9.4.45.v20220203/websocket-api-9.4.45.v20220203.jar (52 kB at 34 kB/s)
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/eclipse/jetty/apache-jsp/9.4.45.v20220203/apache-jsp-9.4.45.v20220203.jar
+Progress (1): 3.3/46 kB
+Progress (1): 6.1/46 kB
+Progress (1): 8.9/46 kB
+Progress (1): 12/46 kB 
+Progress (1): 14/46 kB
+Progress (1): 17/46 kB
+Progress (1): 20/46 kB
+Progress (1): 23/46 kB
+Progress (1): 26/46 kB
+Progress (1): 28/46 kB
+Progress (1): 31/46 kB
+Progress (1): 34/46 kB
+Progress (1): 37/46 kB
+Progress (1): 40/46 kB
+Progress (1): 42/46 kB
+Progress (1): 45/46 kB
+Progress (1): 46 kB   
+Progress (2): 46 kB | 3.3/30 kB
+Progress (2): 46 kB | 6.1/30 kB
+Progress (2): 46 kB | 8.9/30 kB
+Progress (2): 46 kB | 12/30 kB 
+Progress (2): 46 kB | 14/30 kB
+Progress (2): 46 kB | 17/30 kB
+Progress (2): 46 kB | 20/30 kB
+Progress (2): 46 kB | 23/30 kB
+Progress (2): 46 kB | 26/30 kB
+Progress (2): 46 kB | 28/30 kB
+Progress (2): 46 kB | 30 kB   
+Progress (3): 46 kB | 30 kB | 4.1/326 kB
+Progress (3): 46 kB | 30 kB | 7.5/326 kB
+Progress (4): 46 kB | 30 kB | 7.5/326 kB | 3.3/21 kB
+Progress (4): 46 kB | 30 kB | 7.5/326 kB | 6.1/21 kB
+Progress (4): 46 kB | 30 kB | 7.5/326 kB | 8.9/21 kB
+Progress (4): 46 kB | 30 kB | 7.5/326 kB | 12/21 kB 
+Progress (4): 46 kB | 30 kB | 7.5/326 kB | 14/21 kB
+Progress (4): 46 kB | 30 kB | 7.5/326 kB | 17/21 kB
+Progress (4): 46 kB | 30 kB | 7.5/326 kB | 20/21 kB
+Progress (4): 46 kB | 30 kB | 7.5/326 kB | 21 kB   
+                                                
+Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/eclipse/jetty/websocket/websocket-client/9.4.45.v20220203/websocket-client-9.4.45.v20220203.jar (46 kB at 27 kB/s)
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/eclipse/jetty/apache-jstl/9.4.45.v20220203/apache-jstl-9.4.45.v20220203.jar
+Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/eclipse/jetty/websocket/websocket-servlet/9.4.45.v20220203/websocket-servlet-9.4.45.v20220203.jar (30 kB at 17 kB/s)
+Progress (2): 12/326 kB | 21 kB
+Progress (2): 16/326 kB | 21 kB
+Progress (2): 20/326 kB | 21 kB
+Progress (2): 24/326 kB | 21 kB
+Progress (2): 28/326 kB | 21 kB
+Progress (2): 32/326 kB | 21 kB
+Progress (2): 36/326 kB | 21 kB
+Progress (2): 40/326 kB | 21 kB
+Progress (2): 42/326 kB | 21 kB
+Progress (2): 46/326 kB | 21 kB
+Progress (2): 50/326 kB | 21 kB
+Progress (2): 55/326 kB | 21 kB
+Progress (2): 59/326 kB | 21 kB
+                               
+Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/eclipse/jetty/apache-jsp/9.4.45.v20220203/apache-jsp-9.4.45.v20220203.jar (21 kB at 12 kB/s)
+Progress (2): 59/326 kB | 3.3/13 kB
+Progress (2): 59/326 kB | 6.1/13 kB
+Progress (2): 59/326 kB | 8.9/13 kB
+Progress (2): 59/326 kB | 12/13 kB 
+Progress (2): 59/326 kB | 13 kB   
+Progress (2): 63/326 kB | 13 kB
+Progress (2): 67/326 kB | 13 kB
+Progress (2): 71/326 kB | 13 kB
+Progress (2): 75/326 kB | 13 kB
+Progress (2): 79/326 kB | 13 kB
+Progress (2): 83/326 kB | 13 kB
+Progress (2): 87/326 kB | 13 kB
+Progress (2): 91/326 kB | 13 kB
+Progress (2): 96/326 kB | 13 kB
+Progress (2): 100/326 kB | 13 kB
+Progress (2): 104/326 kB | 13 kB
+Progress (2): 108/326 kB | 13 kB
+Progress (2): 112/326 kB | 13 kB
+Progress (2): 116/326 kB | 13 kB
+Progress (2): 120/326 kB | 13 kB
+Progress (2): 124/326 kB | 13 kB
+Progress (2): 128/326 kB | 13 kB
+Progress (2): 132/326 kB | 13 kB
+Progress (2): 136/326 kB | 13 kB
+Progress (2): 141/326 kB | 13 kB
+Progress (2): 143/326 kB | 13 kB
+                                
+Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/eclipse/jetty/apache-jstl/9.4.45.v20220203/apache-jstl-9.4.45.v20220203.jar (13 kB at 6.4 kB/s)
+Progress (2): 143/326 kB | 4.1/215 kB
+Progress (2): 143/326 kB | 8.2/215 kB
+Progress (2): 143/326 kB | 12/215 kB 
+Progress (2): 143/326 kB | 16/215 kB
+Progress (2): 147/326 kB | 16/215 kB
+Progress (2): 151/326 kB | 16/215 kB
+Progress (2): 155/326 kB | 16/215 kB
+Progress (2): 158/326 kB | 16/215 kB
+Progress (2): 162/326 kB | 16/215 kB
+Progress (2): 166/326 kB | 16/215 kB
+Progress (2): 170/326 kB | 16/215 kB
+Progress (2): 174/326 kB | 16/215 kB
+Progress (2): 179/326 kB | 16/215 kB
+Progress (2): 183/326 kB | 16/215 kB
+Progress (2): 187/326 kB | 16/215 kB
+Progress (2): 191/326 kB | 16/215 kB
+Progress (2): 195/326 kB | 16/215 kB
+Progress (2): 197/326 kB | 16/215 kB
+Progress (2): 201/326 kB | 16/215 kB
+Progress (2): 205/326 kB | 16/215 kB
+Progress (2): 210/326 kB | 16/215 kB
+Progress (2): 214/326 kB | 16/215 kB
+Progress (2): 218/326 kB | 16/215 kB
+Progress (2): 222/326 kB | 16/215 kB
+Progress (2): 226/326 kB | 16/215 kB
+Progress (2): 230/326 kB | 16/215 kB
+Progress (2): 234/326 kB | 16/215 kB
+Progress (2): 238/326 kB | 16/215 kB
+Progress (2): 242/326 kB | 16/215 kB
+Progress (2): 246/326 kB | 16/215 kB
+Progress (2): 251/326 kB | 16/215 kB
+Progress (2): 255/326 kB | 16/215 kB
+Progress (2): 259/326 kB | 16/215 kB
+Progress (2): 263/326 kB | 16/215 kB
+Progress (2): 267/326 kB | 16/215 kB
+Progress (2): 271/326 kB | 16/215 kB
+Progress (2): 275/326 kB | 16/215 kB
+Progress (2): 278/326 kB | 16/215 kB
+Progress (2): 282/326 kB | 16/215 kB
+Progress (2): 286/326 kB | 16/215 kB
+Progress (2): 290/326 kB | 16/215 kB
+Progress (2): 293/326 kB | 16/215 kB
+Progress (2): 297/326 kB | 16/215 kB
+Progress (2): 301/326 kB | 16/215 kB
+Progress (2): 305/326 kB | 16/215 kB
+Progress (2): 309/326 kB | 16/215 kB
+Progress (2): 314/326 kB | 16/215 kB
+Progress (2): 314/326 kB | 20/215 kB
+Progress (2): 314/326 kB | 25/215 kB
+Progress (2): 314/326 kB | 29/215 kB
+Progress (2): 314/326 kB | 33/215 kB
+Progress (2): 314/326 kB | 37/215 kB
+Progress (2): 314/326 kB | 41/215 kB
+Progress (2): 314/326 kB | 45/215 kB
+Progress (2): 314/326 kB | 49/215 kB
+Progress (2): 314/326 kB | 52/215 kB
+Progress (2): 318/326 kB | 52/215 kB
+Progress (2): 322/326 kB | 52/215 kB
+Progress (2): 326/326 kB | 52/215 kB
+Progress (2): 326 kB | 52/215 kB    
+Progress (2): 326 kB | 56/215 kB
+Progress (2): 326 kB | 60/215 kB
+Progress (2): 326 kB | 62/215 kB
+Progress (2): 326 kB | 66/215 kB
+Progress (2): 326 kB | 70/215 kB
+Progress (2): 326 kB | 75/215 kB
+Progress (2): 326 kB | 79/215 kB
+Progress (2): 326 kB | 83/215 kB
+Progress (2): 326 kB | 87/215 kB
+Progress (2): 326 kB | 89/215 kB
+Progress (2): 326 kB | 93/215 kB
+Progress (2): 326 kB | 97/215 kB
+Progress (2): 326 kB | 102/215 kB
+Progress (2): 326 kB | 106/215 kB
+Progress (2): 326 kB | 110/215 kB
+Progress (2): 326 kB | 114/215 kB
+Progress (2): 326 kB | 116/215 kB
+Progress (2): 326 kB | 120/215 kB
+Progress (2): 326 kB | 124/215 kB
+                                 
+Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/eclipse/jetty/jetty-client/9.4.45.v20220203/jetty-client-9.4.45.v20220203.jar (326 kB at 147 kB/s)
+Progress (1): 129/215 kB
+Progress (1): 133/215 kB
+Progress (1): 137/215 kB
+Progress (1): 141/215 kB
+Progress (1): 145/215 kB
+Progress (1): 149/215 kB
+Progress (1): 153/215 kB
+Progress (1): 157/215 kB
+Progress (1): 161/215 kB
+Progress (1): 165/215 kB
+Progress (1): 170/215 kB
+Progress (1): 174/215 kB
+Progress (1): 176/215 kB
+Progress (1): 181/215 kB
+Progress (1): 185/215 kB
+Progress (1): 188/215 kB
+Progress (1): 192/215 kB
+Progress (1): 196/215 kB
+Progress (1): 201/215 kB
+Progress (1): 205/215 kB
+Progress (1): 209/215 kB
+Progress (1): 213/215 kB
+Progress (1): 215 kB    
+                    
+Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/eclipse/jetty/websocket/websocket-common/9.4.45.v20220203/websocket-common-9.4.45.v20220203.jar (215 kB at 88 kB/s)
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/io/jenkins/tools/bom/bom-2.319.x/1370.vfa_e23fe119c3/bom-2.319.x-1370.vfa_e23fe119c3.pom
+Progress (1): 3.3/13 kB
+Progress (1): 6.1/13 kB
+Progress (1): 8.9/13 kB
+Progress (1): 12/13 kB 
+Progress (1): 13 kB   
+                   
+Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/io/jenkins/tools/bom/bom-2.319.x/1370.vfa_e23fe119c3/bom-2.319.x-1370.vfa_e23fe119c3.pom (13 kB at 51 kB/s)
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/io/jenkins/tools/bom/bom-2.332.x/1370.vfa_e23fe119c3/bom-2.332.x-1370.vfa_e23fe119c3.pom
+Progress (1): 3.3/9.9 kB
+Progress (1): 6.1/9.9 kB
+Progress (1): 8.9/9.9 kB
+Progress (1): 9.9 kB    
+                    
+Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/io/jenkins/tools/bom/bom-2.332.x/1370.vfa_e23fe119c3/bom-2.332.x-1370.vfa_e23fe119c3.pom (9.9 kB at 40 kB/s)
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/io/jenkins/tools/bom/bom-weekly/1370.vfa_e23fe119c3/bom-weekly-1370.vfa_e23fe119c3.pom
+Progress (1): 3.3/33 kB
+Progress (1): 6.1/33 kB
+Progress (1): 8.9/33 kB
+Progress (1): 12/33 kB 
+Progress (1): 14/33 kB
+Progress (1): 17/33 kB
+Progress (1): 20/33 kB
+Progress (1): 23/33 kB
+Progress (1): 26/33 kB
+Progress (1): 29/33 kB
+Progress (1): 31/33 kB
+Progress (1): 33 kB   
+                   
+Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/io/jenkins/tools/bom/bom-weekly/1370.vfa_e23fe119c3/bom-weekly-1370.vfa_e23fe119c3.pom (33 kB at 133 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jenkins-ci/tools/maven-hpi-plugin/3.27/maven-hpi-plugin-3.27.pom
+[WARNING] The POM for org.jenkins-ci.tools:maven-hpi-plugin:jar:3.27 is missing, no dependency information available
+Downloading from central: https://repo.maven.apache.org/maven2/org/jenkins-ci/tools/maven-hpi-plugin/3.27/maven-hpi-plugin-3.27.jar
+[WARNING] Failed to build parent project for org.jvnet.hudson.plugins:analysis-pom:pom:5.26.0
+[WARNING] Failed to build parent project for io.jenkins.plugins:pull-request-monitoring:hpi:1.7.9-SNAPSHOT
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/pitest/pitest-maven/1.7.6/pitest-maven-1.7.6.pom
+Progress (1): 3.3/6.3 kB
+Progress (1): 6.1/6.3 kB
+Progress (1): 6.3 kB    
+                    
+Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/pitest/pitest-maven/1.7.6/pitest-maven-1.7.6.pom (6.3 kB at 19 kB/s)
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/pitest/pitest-parent/1.7.6/pitest-parent-1.7.6.pom
+Progress (1): 3.3/14 kB
+Progress (1): 6.1/14 kB
+Progress (1): 8.9/14 kB
+Progress (1): 12/14 kB 
+Progress (1): 14 kB   
+                   
+Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/pitest/pitest-parent/1.7.6/pitest-parent-1.7.6.pom (14 kB at 19 kB/s)
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/pitest/pitest-maven/1.7.6/pitest-maven-1.7.6.jar
+Progress (1): 3.3/76 kB
+Progress (1): 6.1/76 kB
+Progress (1): 8.9/76 kB
+Progress (1): 12/76 kB 
+Progress (1): 15/76 kB
+Progress (1): 17/76 kB
+Progress (1): 20/76 kB
+Progress (1): 23/76 kB
+Progress (1): 26/76 kB
+Progress (1): 29/76 kB
+Progress (1): 31/76 kB
+Progress (1): 34/76 kB
+Progress (1): 37/76 kB
+Progress (1): 40/76 kB
+Progress (1): 43/76 kB
+Progress (1): 45/76 kB
+Progress (1): 48/76 kB
+Progress (1): 51/76 kB
+Progress (1): 54/76 kB
+Progress (1): 56/76 kB
+Progress (1): 59/76 kB
+Progress (1): 62/76 kB
+Progress (1): 65/76 kB
+Progress (1): 68/76 kB
+Progress (1): 70/76 kB
+Progress (1): 73/76 kB
+Progress (1): 76 kB   
+                   
+Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/pitest/pitest-maven/1.7.6/pitest-maven-1.7.6.jar (76 kB at 86 kB/s)
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/com/github/spotbugs/spotbugs-maven-plugin/4.6.0.0/spotbugs-maven-plugin-4.6.0.0.pom
+Progress (1): 3.3/32 kB
+Progress (1): 6.1/32 kB
+Progress (1): 8.9/32 kB
+Progress (1): 12/32 kB 
+Progress (1): 14/32 kB
+Progress (1): 17/32 kB
+Progress (1): 20/32 kB
+Progress (1): 23/32 kB
+Progress (1): 26/32 kB
+Progress (1): 28/32 kB
+Progress (1): 31/32 kB
+Progress (1): 32 kB   
+                   
+Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/com/github/spotbugs/spotbugs-maven-plugin/4.6.0.0/spotbugs-maven-plugin-4.6.0.0.pom (32 kB at 130 kB/s)
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/com/github/hazendaz/base-parent/31/base-parent-31.pom
+Progress (1): 3.3/90 kB
+Progress (1): 6.1/90 kB
+Progress (1): 8.9/90 kB
+Progress (1): 12/90 kB 
+Progress (1): 15/90 kB
+Progress (1): 17/90 kB
+Progress (1): 20/90 kB
+Progress (1): 23/90 kB
+Progress (1): 26/90 kB
+Progress (1): 29/90 kB
+Progress (1): 31/90 kB
+Progress (1): 34/90 kB
+Progress (1): 37/90 kB
+Progress (1): 40/90 kB
+Progress (1): 43/90 kB
+Progress (1): 45/90 kB
+Progress (1): 48/90 kB
+Progress (1): 51/90 kB
+Progress (1): 54/90 kB
+Progress (1): 56/90 kB
+Progress (1): 59/90 kB
+Progress (1): 62/90 kB
+Progress (1): 65/90 kB
+Progress (1): 68/90 kB
+Progress (1): 70/90 kB
+Progress (1): 73/90 kB
+Progress (1): 76/90 kB
+Progress (1): 79/90 kB
+Progress (1): 82/90 kB
+Progress (1): 84/90 kB
+Progress (1): 87/90 kB
+Progress (1): 90/90 kB
+Progress (1): 90 kB   
+                   
+Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/com/github/hazendaz/base-parent/31/base-parent-31.pom (90 kB at 257 kB/s)
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/com/github/spotbugs/spotbugs-maven-plugin/4.6.0.0/spotbugs-maven-plugin-4.6.0.0.jar
+Progress (1): 3.3/152 kB
+Progress (1): 6.1/152 kB
+Progress (1): 8.9/152 kB
+Progress (1): 12/152 kB 
+Progress (1): 14/152 kB
+Progress (1): 17/152 kB
+Progress (1): 20/152 kB
+Progress (1): 23/152 kB
+Progress (1): 26/152 kB
+Progress (1): 29/152 kB
+Progress (1): 31/152 kB
+Progress (1): 34/152 kB
+Progress (1): 37/152 kB
+Progress (1): 40/152 kB
+Progress (1): 42/152 kB
+Progress (1): 45/152 kB
+Progress (1): 48/152 kB
+Progress (1): 51/152 kB
+Progress (1): 54/152 kB
+Progress (1): 56/152 kB
+Progress (1): 59/152 kB
+Progress (1): 62/152 kB
+Progress (1): 65/152 kB
+Progress (1): 67/152 kB
+Progress (1): 70/152 kB
+Progress (1): 73/152 kB
+Progress (1): 76/152 kB
+Progress (1): 79/152 kB
+Progress (1): 81/152 kB
+Progress (1): 84/152 kB
+Progress (1): 87/152 kB
+Progress (1): 90/152 kB
+Progress (1): 93/152 kB
+Progress (1): 95/152 kB
+Progress (1): 98/152 kB
+Progress (1): 101/152 kB
+Progress (1): 104/152 kB
+Progress (1): 106/152 kB
+Progress (1): 109/152 kB
+Progress (1): 112/152 kB
+Progress (1): 115/152 kB
+Progress (1): 118/152 kB
+Progress (1): 120/152 kB
+Progress (1): 123/152 kB
+Progress (1): 126/152 kB
+Progress (1): 129/152 kB
+Progress (1): 132/152 kB
+Progress (1): 134/152 kB
+Progress (1): 137/152 kB
+Progress (1): 140/152 kB
+Progress (1): 143/152 kB
+Progress (1): 146/152 kB
+Progress (1): 148/152 kB
+Progress (1): 151/152 kB
+Progress (1): 152 kB    
+                    
+Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/com/github/spotbugs/spotbugs-maven-plugin/4.6.0.0/spotbugs-maven-plugin-4.6.0.0.jar (152 kB at 452 kB/s)
+[INFO] 
+[INFO] -------------< io.jenkins.plugins:pull-request-monitoring >-------------
+[INFO] Building Pull Request Monitoring 1.7.9-SNAPSHOT
+[INFO] --------------------------------[ hpi ]---------------------------------
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/io/jenkins/plugins/bootstrap5-api/5.1.3-7/bootstrap5-api-5.1.3-7.pom
+Progress (1): 3.3/3.7 kB
+Progress (1): 3.7 kB    
+                    
+Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/io/jenkins/plugins/bootstrap5-api/5.1.3-7/bootstrap5-api-5.1.3-7.pom (3.7 kB at 15 kB/s)
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/io/jenkins/plugins/font-awesome-api/6.1.1-1/font-awesome-api-6.1.1-1.pom
+Progress (1): 3.3/3.6 kB
+Progress (1): 3.6 kB    
+                    
+Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/io/jenkins/plugins/font-awesome-api/6.1.1-1/font-awesome-api-6.1.1-1.pom (3.6 kB at 14 kB/s)
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/io/jenkins/plugins/muuri-api/0.9.5-1/muuri-api-0.9.5-1.pom
+Progress (1): 3.3/4.6 kB
+Progress (1): 4.6 kB    
+                    
+Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/io/jenkins/plugins/muuri-api/0.9.5-1/muuri-api-0.9.5-1.pom (4.6 kB at 19 kB/s)
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/io/jenkins/tools/bom/bom-2.263.x/887.vae9c8ac09ff7/bom-2.263.x-887.vae9c8ac09ff7.pom
+Progress (1): 3.3/10 kB
+Progress (1): 6.1/10 kB
+Progress (1): 8.9/10 kB
+Progress (1): 10 kB    
+                   
+Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/io/jenkins/tools/bom/bom-2.263.x/887.vae9c8ac09ff7/bom-2.263.x-887.vae9c8ac09ff7.pom (10 kB at 43 kB/s)
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/io/jenkins/tools/bom/bom-2.277.x/887.vae9c8ac09ff7/bom-2.277.x-887.vae9c8ac09ff7.pom
+Progress (1): 3.3/9.8 kB
+Progress (1): 6.1/9.8 kB
+Progress (1): 8.9/9.8 kB
+Progress (1): 9.8 kB    
+                    
+Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/io/jenkins/tools/bom/bom-2.277.x/887.vae9c8ac09ff7/bom-2.277.x-887.vae9c8ac09ff7.pom (9.8 kB at 40 kB/s)
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/io/jenkins/tools/bom/bom-2.289.x/887.vae9c8ac09ff7/bom-2.289.x-887.vae9c8ac09ff7.pom
+Progress (1): 3.3/26 kB
+Progress (1): 6.1/26 kB
+Progress (1): 8.9/26 kB
+Progress (1): 12/26 kB 
+Progress (1): 14/26 kB
+Progress (1): 17/26 kB
+Progress (1): 20/26 kB
+Progress (1): 23/26 kB
+Progress (1): 26/26 kB
+Progress (1): 26 kB   
+                   
+Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/io/jenkins/tools/bom/bom-2.289.x/887.vae9c8ac09ff7/bom-2.289.x-887.vae9c8ac09ff7.pom (26 kB at 104 kB/s)
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/jenkins-ci/main/jenkins-bom/2.263.1/jenkins-bom-2.263.1.pom
+Progress (1): 3.3/26 kB
+Progress (1): 6.1/26 kB
+Progress (1): 8.9/26 kB
+Progress (1): 12/26 kB 
+Progress (1): 15/26 kB
+Progress (1): 17/26 kB
+Progress (1): 20/26 kB
+Progress (1): 23/26 kB
+Progress (1): 26/26 kB
+Progress (1): 26 kB   
+                   
+Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/jenkins-ci/main/jenkins-bom/2.263.1/jenkins-bom-2.263.1.pom (26 kB at 103 kB/s)
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/jenkins-ci/plugins/jackson2-api/2.13.2.20220328-273.v11d70a_b_a_1a_52/jackson2-api-2.13.2.20220328-273.v11d70a_b_a_1a_52.pom
+Progress (1): 3.2/7.1 kB
+Progress (1): 6.0/7.1 kB
+Progress (1): 7.1 kB    
+                    
+Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/jenkins-ci/plugins/jackson2-api/2.13.2.20220328-273.v11d70a_b_a_1a_52/jackson2-api-2.13.2.20220328-273.v11d70a_b_a_1a_52.pom (7.1 kB at 29 kB/s)
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.13.2/jackson-datatype-jdk8-2.13.2.pom
+Progress (1): 2.6 kB
+                    
+Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.13.2/jackson-datatype-jdk8-2.13.2.pom (2.6 kB at 10 kB/s)
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/com/fasterxml/jackson/datatype/jackson-datatype-json-org/2.13.2/jackson-datatype-json-org-2.13.2.pom
+Progress (1): 2.2 kB
+                    
+Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/com/fasterxml/jackson/datatype/jackson-datatype-json-org/2.13.2/jackson-datatype-json-org-2.13.2.pom (2.2 kB at 8.7 kB/s)
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/com/fasterxml/jackson/datatype/jackson-datatypes-misc-parent/2.13.2/jackson-datatypes-misc-parent-2.13.2.pom
+Progress (1): 2.9 kB
+                    
+Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/com/fasterxml/jackson/datatype/jackson-datatypes-misc-parent/2.13.2/jackson-datatypes-misc-parent-2.13.2.pom (2.9 kB at 11 kB/s)
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/com/fasterxml/jackson/module/jackson-module-parameter-names/2.13.2/jackson-module-parameter-names-2.13.2.pom
+Progress (1): 3.3/4.4 kB
+Progress (1): 4.4 kB    
+                    
+Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/com/fasterxml/jackson/module/jackson-module-parameter-names/2.13.2/jackson-module-parameter-names-2.13.2.pom (4.4 kB at 17 kB/s)
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/com/fasterxml/jackson/dataformat/jackson-dataformat-cbor/2.13.2/jackson-dataformat-cbor-2.13.2.pom
+Progress (1): 2.8 kB
+                    
+Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/com/fasterxml/jackson/dataformat/jackson-dataformat-cbor/2.13.2/jackson-dataformat-cbor-2.13.2.pom (2.8 kB at 11 kB/s)
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/com/fasterxml/jackson/dataformat/jackson-dataformats-binary/2.13.2/jackson-dataformats-binary-2.13.2.pom
+Progress (1): 3.2 kB
+                    
+Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/com/fasterxml/jackson/dataformat/jackson-dataformats-binary/2.13.2/jackson-dataformats-binary-2.13.2.pom (3.2 kB at 12 kB/s)
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/com/fasterxml/jackson/dataformat/jackson-dataformat-xml/2.13.2/jackson-dataformat-xml-2.13.2.pom
+Progress (1): 3.3/7.0 kB
+Progress (1): 6.1/7.0 kB
+Progress (1): 7.0 kB    
+                    
+Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/com/fasterxml/jackson/dataformat/jackson-dataformat-xml/2.13.2/jackson-dataformat-xml-2.13.2.pom (7.0 kB at 27 kB/s)
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/io/jenkins/plugins/forensics-api/1.15.1/forensics-api-1.15.1.pom
+Progress (1): 3.3/5.6 kB
+Progress (1): 5.6 kB    
+                    
+Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/io/jenkins/plugins/forensics-api/1.15.1/forensics-api-1.15.1.pom (5.6 kB at 23 kB/s)
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/io/jenkins/plugins/data-tables-api/1.11.4-4/data-tables-api-1.11.4-4.pom
+Progress (1): 3.3/4.3 kB
+Progress (1): 4.3 kB    
+                    
+Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/io/jenkins/plugins/data-tables-api/1.11.4-4/data-tables-api-1.11.4-4.pom (4.3 kB at 17 kB/s)
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/jenkins-ci/plugins/workflow/workflow-api/1144.v61c3180fa_03f/workflow-api-1144.v61c3180fa_03f.pom
+Progress (1): 3.3/4.8 kB
+Progress (1): 4.8 kB    
+                    
+Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/jenkins-ci/plugins/workflow/workflow-api/1144.v61c3180fa_03f/workflow-api-1144.v61c3180fa_03f.pom (4.8 kB at 19 kB/s)
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/jenkins-ci/plugins/workflow/workflow-multibranch/712.vc169a_1387405/workflow-multibranch-712.vc169a_1387405.pom
+Progress (1): 3.3/6.5 kB
+Progress (1): 6.1/6.5 kB
+Progress (1): 6.5 kB    
+                    
+Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/jenkins-ci/plugins/workflow/workflow-multibranch/712.vc169a_1387405/workflow-multibranch-712.vc169a_1387405.pom (6.5 kB at 26 kB/s)
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/jenkins-ci/plugins/workflow/workflow-job/1145.v7f2433caa07f/workflow-job-1145.v7f2433caa07f.pom
+Progress (1): 3.3/5.4 kB
+Progress (1): 5.4 kB    
+                    
+Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/jenkins-ci/plugins/workflow/workflow-job/1145.v7f2433caa07f/workflow-job-1145.v7f2433caa07f.pom (5.4 kB at 22 kB/s)
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/jenkins-ci/plugins/workflow/workflow-cps/2660.vb_c0412dc4e6d/workflow-cps-2660.vb_c0412dc4e6d.pom
+Progress (1): 3.3/7.4 kB
+Progress (1): 6.1/7.4 kB
+Progress (1): 7.4 kB    
+                    
+Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/jenkins-ci/plugins/workflow/workflow-cps/2660.vb_c0412dc4e6d/workflow-cps-2660.vb_c0412dc4e6d.pom (7.4 kB at 29 kB/s)
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/jenkins-ci/plugins/cloudbees-folder/6.714.v79e858ef76a_2/cloudbees-folder-6.714.v79e858ef76a_2.pom
+Progress (1): 3.3/3.6 kB
+Progress (1): 3.6 kB    
+                    
+Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/jenkins-ci/plugins/cloudbees-folder/6.714.v79e858ef76a_2/cloudbees-folder-6.714.v79e858ef76a_2.pom (3.6 kB at 15 kB/s)
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/everit/json/org.everit.json.schema/1.5.1/org.everit.json.schema-1.5.1.pom
+Progress (1): 3.3/6.9 kB
+Progress (1): 6.1/6.9 kB
+Progress (1): 6.9 kB    
+                    
+Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/everit/json/org.everit.json.schema/1.5.1/org.everit.json.schema-1.5.1.pom (6.9 kB at 27 kB/s)
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/commonmark/commonmark/0.19.0/commonmark-0.19.0.pom
+Progress (1): 2.7 kB
+                    
+Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/commonmark/commonmark/0.19.0/commonmark-0.19.0.pom (2.7 kB at 11 kB/s)
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/commonmark/commonmark-parent/0.19.0/commonmark-parent-0.19.0.pom
+Progress (1): 3.3/12 kB
+Progress (1): 6.1/12 kB
+Progress (1): 8.9/12 kB
+Progress (1): 12/12 kB 
+Progress (1): 12 kB   
+                   
+Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/commonmark/commonmark-parent/0.19.0/commonmark-parent-0.19.0.pom (12 kB at 41 kB/s)
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/jenkins-ci/plugins/workflow/workflow-basic-steps/2.24/workflow-basic-steps-2.24.pom
+Progress (1): 3.3/6.0 kB
+Progress (1): 6.0 kB    
+                    
+Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/jenkins-ci/plugins/workflow/workflow-basic-steps/2.24/workflow-basic-steps-2.24.pom (6.0 kB at 24 kB/s)
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/jenkins-ci/plugins/mailer/414.vcc4c33714601/mailer-414.vcc4c33714601.pom
+Progress (1): 3.3/3.8 kB
+Progress (1): 3.8 kB    
+                    
+Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/jenkins-ci/plugins/mailer/414.vcc4c33714601/mailer-414.vcc4c33714601.pom (3.8 kB at 15 kB/s)
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/io/jenkins/plugins/javax-mail-api/1.6.2-6/javax-mail-api-1.6.2-6.pom
+Progress (1): 3.3/3.9 kB
+Progress (1): 3.9 kB    
+                    
+Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/io/jenkins/plugins/javax-mail-api/1.6.2-6/javax-mail-api-1.6.2-6.pom (3.9 kB at 16 kB/s)
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/jenkins-ci/plugins/workflow/workflow-durable-task-step/1130.v8fd69d0b_8857/workflow-durable-task-step-1130.v8fd69d0b_8857.pom
+Progress (1): 3.2/6.0 kB
+Progress (1): 6.0 kB    
+                    
+Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/jenkins-ci/plugins/workflow/workflow-durable-task-step/1130.v8fd69d0b_8857/workflow-durable-task-step-1130.v8fd69d0b_8857.pom (6.0 kB at 24 kB/s)
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/jenkins-ci/plugins/durable-task/496.va67c6f9eefa7/durable-task-496.va67c6f9eefa7.pom
+Progress (1): 3.3/3.4 kB
+Progress (1): 3.4 kB    
+                    
+Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/jenkins-ci/plugins/durable-task/496.va67c6f9eefa7/durable-task-496.va67c6f9eefa7.pom (3.4 kB at 14 kB/s)
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/jenkins-ci/plugins/pipeline-stage-step/293.v200037eefcd5/pipeline-stage-step-293.v200037eefcd5.pom
+Progress (1): 3.3/3.7 kB
+Progress (1): 3.7 kB    
+                    
+Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/jenkins-ci/plugins/pipeline-stage-step/293.v200037eefcd5/pipeline-stage-step-293.v200037eefcd5.pom (3.7 kB at 15 kB/s)
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/nl/jqno/equalsverifier/equalsverifier/3.10/equalsverifier-3.10.pom
+Progress (1): 2.9 kB
+                    
+Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/nl/jqno/equalsverifier/equalsverifier/3.10/equalsverifier-3.10.pom (2.9 kB at 11 kB/s)
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/mockito/mockito-inline/4.5.1/mockito-inline-4.5.1.pom
+Progress (1): 2.2 kB
+                    
+Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/mockito/mockito-inline/4.5.1/mockito-inline-4.5.1.pom (2.2 kB at 8.7 kB/s)
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/com/tngtech/archunit/archunit-junit5/0.23.1/archunit-junit5-0.23.1.pom
+Progress (1): 2.1 kB
+                    
+Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/com/tngtech/archunit/archunit-junit5/0.23.1/archunit-junit5-0.23.1.pom (2.1 kB at 8.1 kB/s)
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/net/javacrumbs/json-unit/json-unit-assertj/2.35.0/json-unit-assertj-2.35.0.pom
+Progress (1): 3.3/5.8 kB
+Progress (1): 5.8 kB    
+                    
+Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/net/javacrumbs/json-unit/json-unit-assertj/2.35.0/json-unit-assertj-2.35.0.pom (5.8 kB at 16 kB/s)
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/net/javacrumbs/json-unit/json-unit-parent/2.35.0/json-unit-parent-2.35.0.pom
+Progress (1): 3.3/12 kB
+Progress (1): 6.1/12 kB
+Progress (1): 8.9/12 kB
+Progress (1): 12/12 kB 
+Progress (1): 12 kB   
+                   
+Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/net/javacrumbs/json-unit/json-unit-parent/2.35.0/json-unit-parent-2.35.0.pom (12 kB at 47 kB/s)
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/net/javacrumbs/json-unit/json-unit-core/2.35.0/json-unit-core-2.35.0.pom
+Progress (1): 3.3/5.0 kB
+Progress (1): 5.0 kB    
+                    
+Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/net/javacrumbs/json-unit/json-unit-core/2.35.0/json-unit-core-2.35.0.pom (5.0 kB at 19 kB/s)
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/net/javacrumbs/json-unit/json-unit-json-path/2.35.0/json-unit-json-path-2.35.0.pom
+Progress (1): 2.6 kB
+                    
+Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/net/javacrumbs/json-unit/json-unit-json-path/2.35.0/json-unit-json-path-2.35.0.pom (2.6 kB at 8.9 kB/s)
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/jenkins-ci/main/jenkins-core/2.319.3/jenkins-core-2.319.3.pom
+Progress (1): 3.3/22 kB
+Progress (1): 6.1/22 kB
+Progress (1): 8.9/22 kB
+Progress (1): 12/22 kB 
+Progress (1): 15/22 kB
+Progress (1): 17/22 kB
+Progress (1): 20/22 kB
+Progress (1): 22 kB   
+                   
+Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/jenkins-ci/main/jenkins-core/2.319.3/jenkins-core-2.319.3.pom (22 kB at 88 kB/s)
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/jenkins-ci/main/cli/2.319.3/cli-2.319.3.pom
+Progress (1): 3.3/6.2 kB
+Progress (1): 6.1/6.2 kB
+Progress (1): 6.2 kB    
+                    
+Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/jenkins-ci/main/cli/2.319.3/cli-2.319.3.pom (6.2 kB at 25 kB/s)
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/com/github/jnr/jnr-posix/3.1.10/jnr-posix-3.1.10.pom
+Progress (1): 3.3/7.8 kB
+Progress (1): 6.1/7.8 kB
+Progress (1): 7.8 kB    
+                    
+Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/com/github/jnr/jnr-posix/3.1.10/jnr-posix-3.1.10.pom (7.8 kB at 30 kB/s)
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/com/github/jnr/jnr-ffi/2.2.7/jnr-ffi-2.2.7.pom
+Progress (1): 3.3/10 kB
+Progress (1): 6.1/10 kB
+Progress (1): 8.9/10 kB
+Progress (1): 10 kB    
+                   
+Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/com/github/jnr/jnr-ffi/2.2.7/jnr-ffi-2.2.7.pom (10 kB at 41 kB/s)
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/com/github/jnr/jffi/1.3.5/jffi-1.3.5.pom
+Progress (1): 3.3/12 kB
+Progress (1): 6.1/12 kB
+Progress (1): 8.9/12 kB
+Progress (1): 12/12 kB 
+Progress (1): 12 kB   
+                   
+Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/com/github/jnr/jffi/1.3.5/jffi-1.3.5.pom (12 kB at 49 kB/s)
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/com/github/jnr/jnr-constants/0.10.2/jnr-constants-0.10.2.pom
+Progress (1): 3.3/4.4 kB
+Progress (1): 4.4 kB    
+                    
+Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/com/github/jnr/jnr-constants/0.10.2/jnr-constants-0.10.2.pom (4.4 kB at 18 kB/s)
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/com/infradna/tool/bridge-method-annotation/1.21/bridge-method-annotation-1.21.pom
+Progress (1): 742 B
+                   
+Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/com/infradna/tool/bridge-method-annotation/1.21/bridge-method-annotation-1.21.pom (742 B at 3.0 kB/s)
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/com/infradna/tool/bridge-method-injector-parent/1.21/bridge-method-injector-parent-1.21.pom
+Progress (1): 3.3/4.1 kB
+Progress (1): 4.1 kB    
+                    
+Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/com/infradna/tool/bridge-method-injector-parent/1.21/bridge-method-injector-parent-1.21.pom (4.1 kB at 16 kB/s)
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/springframework/security/spring-security-web/5.5.3/spring-security-web-5.5.3.pom
+Progress (1): 3.3/3.4 kB
+Progress (1): 3.4 kB    
+                    
+Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/springframework/security/spring-security-web/5.5.3/spring-security-web-5.5.3.pom (3.4 kB at 13 kB/s)
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/springframework/security/spring-security-core/5.5.3/spring-security-core-5.5.3.pom
+Progress (1): 3.0 kB
+                    
+Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/springframework/security/spring-security-core/5.5.3/spring-security-core-5.5.3.pom (3.0 kB at 12 kB/s)
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/springframework/security/spring-security-crypto/5.5.3/spring-security-crypto-5.5.3.pom
+Progress (1): 1.9 kB
+                    
+Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/springframework/security/spring-security-crypto/5.5.3/spring-security-crypto-5.5.3.pom (1.9 kB at 7.3 kB/s)
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/springframework/spring-aop/5.3.11/spring-aop-5.3.11.pom
+Progress (1): 2.2 kB
+                    
+Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/springframework/spring-aop/5.3.11/spring-aop-5.3.11.pom (2.2 kB at 8.5 kB/s)
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/springframework/spring-beans/5.3.11/spring-beans-5.3.11.pom
+Progress (1): 2.0 kB
+                    
+Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/springframework/spring-beans/5.3.11/spring-beans-5.3.11.pom (2.0 kB at 8.2 kB/s)
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/springframework/spring-core/5.3.11/spring-core-5.3.11.pom
+Progress (1): 2.0 kB
+                    
+Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/springframework/spring-core/5.3.11/spring-core-5.3.11.pom (2.0 kB at 8.3 kB/s)
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/springframework/spring-context/5.3.11/spring-context-5.3.11.pom
+Progress (1): 2.6 kB
+                    
+Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/springframework/spring-context/5.3.11/spring-context-5.3.11.pom (2.6 kB at 10 kB/s)
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/springframework/spring-expression/5.3.11/spring-expression-5.3.11.pom
+Progress (1): 2.1 kB
+                    
+Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/springframework/spring-expression/5.3.11/spring-expression-5.3.11.pom (2.1 kB at 8.2 kB/s)
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/springframework/spring-web/5.3.11/spring-web-5.3.11.pom
+Progress (1): 2.2 kB
+                    
+Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/springframework/spring-web/5.3.11/spring-web-5.3.11.pom (2.2 kB at 9.0 kB/s)
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/net/java/dev/jna/jna/5.9.0/jna-5.9.0.pom
+Progress (1): 2.0 kB
+                    
+Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/net/java/dev/jna/jna/5.9.0/jna-5.9.0.pom (2.0 kB at 8.2 kB/s)
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/jenkins-ci/main/jenkins-war/2.319.3/jenkins-war-2.319.3.pom
+Progress (1): 3.3/8.0 kB
+Progress (1): 6.1/8.0 kB
+Progress (1): 8.0 kB    
+                    
+Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/jenkins-ci/main/jenkins-war/2.319.3/jenkins-war-2.319.3.pom (8.0 kB at 32 kB/s)
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/jenkins-ci/main/jenkins-test-harness/1736.vc72c458c5103/jenkins-test-harness-1736.vc72c458c5103.pom
+Progress (1): 3.3/9.0 kB
+Progress (1): 6.1/9.0 kB
+Progress (1): 8.9/9.0 kB
+Progress (1): 9.0 kB    
+                    
+Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/jenkins-ci/main/jenkins-test-harness/1736.vc72c458c5103/jenkins-test-harness-1736.vc72c458c5103.pom (9.0 kB at 37 kB/s)
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/jenkins-ci/main/jenkins-test-harness-htmlunit/86.v3e0c60e7769e/jenkins-test-harness-htmlunit-86.v3e0c60e7769e.pom
+Progress (1): 3.2/5.0 kB
+Progress (1): 5.0 kB    
+                    
+Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/jenkins-ci/main/jenkins-test-harness-htmlunit/86.v3e0c60e7769e/jenkins-test-harness-htmlunit-86.v3e0c60e7769e.pom (5.0 kB at 21 kB/s)
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/netbeans/modules/org-netbeans-insane/RELEASE130/org-netbeans-insane-RELEASE130.pom
+Progress (1): 553 B
+                   
+Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/netbeans/modules/org-netbeans-insane/RELEASE130/org-netbeans-insane-RELEASE130.pom (553 B at 2.3 kB/s)
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.3.0:tree (default-cli) @ pull-request-monitoring ---
+[INFO] io.jenkins.plugins:pull-request-monitoring:hpi:1.7.9-SNAPSHOT
+[INFO] +- io.jenkins.plugins:plugin-util-api:jar:2.17.0:compile
+[INFO] +- io.jenkins.plugins:bootstrap5-api:jar:5.1.3-7:compile
+[INFO] |  \- io.jenkins.plugins:popper2-api:jar:2.11.5-1:compile
+[INFO] +- io.jenkins.plugins:font-awesome-api:jar:6.1.1-1:compile
+[INFO] +- io.jenkins.plugins:jquery3-api:jar:3.6.0-4:compile
+[INFO] +- io.jenkins.plugins:muuri-api:jar:0.9.5-1:compile
+[INFO] +- io.jenkins.plugins:echarts-api:jar:5.3.3-1:compile
+[INFO] |  +- org.eclipse.collections:eclipse-collections-api:jar:9.2.0:compile
+[INFO] |  \- org.eclipse.collections:eclipse-collections:jar:9.2.0:compile
+[INFO] +- org.jenkins-ci.plugins:jackson2-api:jar:2.13.3-285.vc03c0256d517:compile
+[INFO] |  +- com.fasterxml.jackson.core:jackson-databind:jar:2.13.3:compile
+[INFO] |  +- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.13.3:compile
+[INFO] |  +- com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.13.3:compile
+[INFO] |  +- com.fasterxml.jackson.datatype:jackson-datatype-json-org:jar:2.13.3:compile
+[INFO] |  |  \- org.json:json:jar:20190722:compile
+[INFO] |  +- com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.13.3:compile
+[INFO] |  +- com.fasterxml.jackson.core:jackson-core:jar:2.13.3:compile
+[INFO] |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.13.3:compile
+[INFO] |  +- com.fasterxml.jackson.module:jackson-module-jaxb-annotations:jar:2.13.3:compile
+[INFO] |  +- com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:jar:2.13.3:compile
+[INFO] |  +- com.fasterxml.jackson.dataformat:jackson-dataformat-xml:jar:2.13.3:compile
+[INFO] |  |  +- org.codehaus.woodstox:stax2-api:jar:4.2.1:compile
+[INFO] |  |  \- com.fasterxml.woodstox:woodstox-core:jar:6.2.7:compile
+[INFO] |  +- com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.13.3:compile
+[INFO] |  +- io.jenkins.plugins:javax-activation-api:jar:1.2.0-3:compile
+[INFO] |  |  \- com.sun.activation:javax.activation:jar:1.2.0:compile
+[INFO] |  +- io.jenkins.plugins:jaxb:jar:2.3.6-1:compile
+[INFO] |  |  +- com.sun.xml.bind:jaxb-impl:jar:2.3.6:compile
+[INFO] |  |  \- javax.xml.bind:jaxb-api:jar:2.3.1:compile
+[INFO] |  \- io.jenkins.plugins:snakeyaml-api:jar:1.30.1:compile
+[INFO] |     \- org.yaml:snakeyaml:jar:1.30:compile
+[INFO] +- io.jenkins.plugins:select2-api:jar:4.0.13-7:compile
+[INFO] +- io.jenkins.plugins:forensics-api:jar:1.15.1:compile
+[INFO] |  +- io.jenkins.plugins:data-tables-api:jar:1.11.4-4:compile
+[INFO] |  +- org.jenkins-ci.plugins.workflow:workflow-cps:jar:2660.vb_c0412dc4e6d:compile
+[INFO] |  |  +- com.cloudbees:groovy-cps:jar:1.32:compile
+[INFO] |  |  +- org.jenkins-ci.ui:ace-editor:jar:1.1:compile
+[INFO] |  |  \- com.cloudbees:diff4j:jar:1.3:compile
+[INFO] |  \- org.jenkins-ci.plugins:branch-api:jar:2.1046.v0ca_37783ecc5:compile
+[INFO] +- org.everit.json:org.everit.json.schema:jar:1.5.1:compile
+[INFO] |  +- com.google.guava:guava:jar:11.0.1:compile
+[INFO] |  |  \- com.google.code.findbugs:jsr305:jar:1.3.9:compile
+[INFO] |  \- commons-validator:commons-validator:jar:1.5.1:compile
+[INFO] |     \- commons-digester:commons-digester:jar:1.8.1:compile
+[INFO] +- org.jenkins-ci.plugins:scm-api:jar:608.vfa_f971c5a_a_e9:compile
+[INFO] |  \- org.jenkins-ci.plugins:structs:jar:318.va_f3ccb_729b_71:compile
+[INFO] +- org.commonmark:commonmark:jar:0.19.0:compile
+[INFO] +- org.jenkins-ci.plugins.workflow:workflow-multibranch:jar:716.vc692a_e52371b_:compile
+[INFO] |  +- org.jenkins-ci.plugins.workflow:workflow-step-api:jar:625.vd896b_f445a_f8:compile
+[INFO] |  +- org.jenkins-ci.plugins.workflow:workflow-support:jar:813.vb_d7c3d2984a_0:compile
+[INFO] |  |  \- org.jboss.marshalling:jboss-marshalling-river:jar:2.0.12.Final:compile
+[INFO] |  |     \- org.jboss.marshalling:jboss-marshalling:jar:2.0.12.Final:compile
+[INFO] |  +- org.jenkins-ci.plugins:cloudbees-folder:jar:6.714.v79e858ef76a_2:compile
+[INFO] |  +- org.jenkins-ci.plugins.workflow:workflow-scm-step:jar:400.v6b_89a_1317c9a_:compile
+[INFO] |  \- org.jenkins-ci.plugins:script-security:jar:1138.v8e727069a_025:compile
+[INFO] |     +- org.kohsuke:groovy-sandbox:jar:1.27:compile
+[INFO] |     \- io.jenkins.plugins:caffeine-api:jar:2.9.3-65.v6a_47d0f4d1fe:compile
+[INFO] |        \- com.github.ben-manes.caffeine:caffeine:jar:2.9.3:compile
+[INFO] +- org.jenkins-ci.plugins.workflow:workflow-api:jar:1153.vb_912c0e47fb_a_:compile
+[INFO] +- org.jenkins-ci.plugins.workflow:workflow-job:jar:1145.v7f2433caa07f:compile
+[INFO] +- org.jenkins-ci.plugins.workflow:workflow-basic-steps:jar:2.24:test
+[INFO] |  +- org.jenkins-ci.plugins:mailer:jar:414.vcc4c33714601:test
+[INFO] |  |  +- org.jenkins-ci.plugins:display-url-api:jar:2.3.5:test
+[INFO] |  |  \- io.jenkins.plugins:javax-mail-api:jar:1.6.2-6:test
+[INFO] |  |     \- com.sun.mail:javax.mail:jar:1.6.2:test
+[INFO] |  +- org.jenkins-ci.plugins:apache-httpcomponents-client-4-api:jar:4.5.13-1.0:test
+[INFO] |  |  +- org.apache.httpcomponents:httpcore:jar:4.4.14:test
+[INFO] |  |  +- org.apache.httpcomponents:httpcore-nio:jar:4.4.14:test
+[INFO] |  |  +- org.apache.httpcomponents:httpclient:jar:4.5.13:test
+[INFO] |  |  +- org.apache.httpcomponents:httpmime:jar:4.5.13:test
+[INFO] |  |  +- org.apache.httpcomponents:fluent-hc:jar:4.5.13:test
+[INFO] |  |  +- org.apache.httpcomponents:httpclient-cache:jar:4.5.13:test
+[INFO] |  |  +- org.apache.httpcomponents:httpasyncclient:jar:4.1.4:test
+[INFO] |  |  \- org.apache.httpcomponents:httpasyncclient-cache:jar:4.1.4:test
+[INFO] |  \- org.jenkins-ci.plugins.workflow:workflow-durable-task-step:jar:1130.v8fd69d0b_8857:test
+[INFO] |     \- org.jenkins-ci.plugins:durable-task:jar:496.va67c6f9eefa7:test
+[INFO] |        \- io.jenkins.plugins:lib-durable-task:jar:25.v6c906af81ee2:test
+[INFO] +- org.jenkins-ci.plugins:pipeline-stage-step:jar:293.v200037eefcd5:test
+[INFO] +- org.jenkins-ci.plugins:scm-api:jar:tests:608.vfa_f971c5a_a_e9:test
+[INFO] +- nl.jqno.equalsverifier:equalsverifier:jar:3.10:test
+[INFO] |  +- org.objenesis:objenesis:jar:3.2:test
+[INFO] |  \- net.bytebuddy:byte-buddy:jar:1.12.10:test
+[INFO] +- org.junit.jupiter:junit-jupiter-api:jar:5.8.2:test
+[INFO] |  +- org.opentest4j:opentest4j:jar:1.2.0:test
+[INFO] |  +- org.junit.platform:junit-platform-commons:jar:1.8.2:test
+[INFO] |  \- org.apiguardian:apiguardian-api:jar:1.1.2:test
+[INFO] +- org.junit.jupiter:junit-jupiter-engine:jar:5.8.2:test
+[INFO] |  \- org.junit.platform:junit-platform-engine:jar:1.8.2:test
+[INFO] +- org.junit.vintage:junit-vintage-engine:jar:5.8.2:test
+[INFO] +- org.junit.platform:junit-platform-launcher:jar:1.8.2:test
+[INFO] +- org.junit.jupiter:junit-jupiter-params:jar:5.8.2:test
+[INFO] +- junit:junit:jar:4.13.2:test
+[INFO] |  \- org.hamcrest:hamcrest-core:jar:2.2:test
+[INFO] +- org.mockito:mockito-core:jar:4.5.1:test
+[INFO] |  \- net.bytebuddy:byte-buddy-agent:jar:1.12.9:test
+[INFO] +- org.mockito:mockito-inline:jar:4.5.1:test
+[INFO] +- org.assertj:assertj-core:jar:3.22.0:test
+[INFO] +- com.tngtech.archunit:archunit-junit5:jar:0.23.1:test
+[INFO] |  +- com.tngtech.archunit:archunit-junit5-api:jar:0.23.1:test
+[INFO] |  |  \- com.tngtech.archunit:archunit:jar:0.23.1:test
+[INFO] |  \- com.tngtech.archunit:archunit-junit5-engine:jar:0.23.1:test
+[INFO] |     \- com.tngtech.archunit:archunit-junit5-engine-api:jar:0.23.1:test
+[INFO] +- net.javacrumbs.json-unit:json-unit-assertj:jar:2.35.0:test
+[INFO] |  +- net.javacrumbs.json-unit:json-unit-core:jar:2.35.0:test
+[INFO] |  \- net.javacrumbs.json-unit:json-unit-json-path:jar:2.35.0:test
+[INFO] |     \- com.jayway.jsonpath:json-path:jar:2.4.0:test
+[INFO] |        \- net.minidev:json-smart:jar:2.3:test
+[INFO] |           \- net.minidev:accessors-smart:jar:1.2:test
+[INFO] +- org.jenkins-ci.main:jenkins-core:jar:2.319.3:provided
+[INFO] |  +- org.jenkins-ci.main:remoting:jar:4.11.2:provided
+[INFO] |  +- org.jenkins-ci.main:cli:jar:2.319.3:provided
+[INFO] |  +- org.jenkins-ci:version-number:jar:1.7:provided
+[INFO] |  +- org.jenkins-ci:crypto-util:jar:1.5:provided
+[INFO] |  +- com.google.inject:guice:jar:4.0:provided
+[INFO] |  |  \- javax.inject:javax.inject:jar:1:provided
+[INFO] |  +- org.connectbot.jbcrypt:jbcrypt:jar:1.0.0:provided
+[INFO] |  +- com.github.jnr:jnr-posix:jar:3.1.10:provided
+[INFO] |  |  +- com.github.jnr:jnr-ffi:jar:2.2.7:provided
+[INFO] |  |  |  +- com.github.jnr:jffi:jar:1.3.5:provided
+[INFO] |  |  |  +- com.github.jnr:jffi:jar:native:1.3.5:provided
+[INFO] |  |  |  +- org.ow2.asm:asm-commons:jar:9.2:provided
+[INFO] |  |  |  +- org.ow2.asm:asm-analysis:jar:9.2:provided
+[INFO] |  |  |  +- org.ow2.asm:asm-tree:jar:9.2:provided
+[INFO] |  |  |  +- org.ow2.asm:asm-util:jar:9.2:provided
+[INFO] |  |  |  +- com.github.jnr:jnr-a64asm:jar:1.0.0:provided
+[INFO] |  |  |  \- com.github.jnr:jnr-x86asm:jar:1.0.2:provided
+[INFO] |  |  \- com.github.jnr:jnr-constants:jar:0.10.2:provided
+[INFO] |  +- org.kohsuke:asm5:jar:5.0.1:provided
+[INFO] |  +- org.kohsuke.stapler:stapler:jar:1593.v0e838714faae:provided
+[INFO] |  |  +- javax.annotation:javax.annotation-api:jar:1.3.2:provided
+[INFO] |  |  +- commons-discovery:commons-discovery:jar:0.5:provided
+[INFO] |  |  +- org.jvnet:tiger-types:jar:2.2:provided
+[INFO] |  |  +- org.ow2.asm:asm:jar:9.2:provided
+[INFO] |  |  \- com.github.spotbugs:spotbugs-annotations:jar:4.4.1:provided
+[INFO] |  +- org.kohsuke.stapler:stapler-groovy:jar:1593.v0e838714faae:provided
+[INFO] |  |  \- org.kohsuke.stapler:stapler-jelly:jar:1593.v0e838714faae:provided
+[INFO] |  |     +- org.jenkins-ci:commons-jelly:jar:1.1-jenkins-20120928:provided
+[INFO] |  |     \- org.dom4j:dom4j:jar:2.1.3:provided
+[INFO] |  +- org.kohsuke:windows-package-checker:jar:1.2:provided
+[INFO] |  +- org.kohsuke.stapler:stapler-adjunct-timeline:jar:1.5:provided
+[INFO] |  +- org.kohsuke.stapler:stapler-adjunct-codemirror:jar:1.3:provided
+[INFO] |  +- io.jenkins.stapler:jenkins-stapler-support:jar:1.1:provided
+[INFO] |  +- com.infradna.tool:bridge-method-annotation:jar:1.21:provided
+[INFO] |  +- org.kohsuke.stapler:json-lib:jar:2.4-jenkins-3:provided
+[INFO] |  |  \- net.sf.ezmorph:ezmorph:jar:1.0.6:provided
+[INFO] |  +- commons-httpclient:commons-httpclient:jar:3.1-jenkins-3:provided
+[INFO] |  +- args4j:args4j:jar:2.33:provided
+[INFO] |  +- org.jenkins-ci:annotation-indexer:jar:1.15:provided
+[INFO] |  +- org.jenkins-ci:task-reactor:jar:1.5:provided
+[INFO] |  +- org.jvnet.localizer:localizer:jar:1.31:provided
+[INFO] |  +- antlr:antlr:jar:2.7.7:provided
+[INFO] |  +- com.thoughtworks.xstream:xstream:jar:1.4.19:provided
+[INFO] |  |  \- io.github.x-stream:mxparser:jar:1.2.2:provided
+[INFO] |  +- xpp3:xpp3:jar:1.1.4c:provided
+[INFO] |  +- net.sf.kxml:kxml2:jar:2.3.0:provided
+[INFO] |  +- org.jfree:jfreechart:jar:1.0.19:provided
+[INFO] |  |  \- org.jfree:jcommon:jar:1.0.23:provided
+[INFO] |  +- org.apache.ant:ant:jar:1.10.12:provided
+[INFO] |  |  \- org.apache.ant:ant-launcher:jar:1.10.12:provided
+[INFO] |  +- commons-io:commons-io:jar:2.11.0:provided
+[INFO] |  +- commons-lang:commons-lang:jar:2.6:provided
+[INFO] |  +- commons-beanutils:commons-beanutils:jar:1.9.4:compile
+[INFO] |  +- org.apache.commons:commons-compress:jar:1.21:provided
+[INFO] |  +- com.sun.mail:jakarta.mail:jar:1.6.5:provided
+[INFO] |  |  \- com.sun.activation:jakarta.activation:jar:1.2.1:provided
+[INFO] |  +- jaxen:jaxen:jar:1.2.0:provided
+[INFO] |  +- commons-jelly:commons-jelly-tags-fmt:jar:1.0:provided
+[INFO] |  +- commons-jelly:commons-jelly-tags-xml:jar:1.1:provided
+[INFO] |  +- org.jvnet.hudson:commons-jelly-tags-define:jar:1.0.1-hudson-20071021:provided
+[INFO] |  +- org.jenkins-ci:commons-jexl:jar:1.1-jenkins-20111212:provided
+[INFO] |  +- org.springframework.security:spring-security-web:jar:5.5.3:provided
+[INFO] |  |  +- org.springframework.security:spring-security-core:jar:5.5.3:provided
+[INFO] |  |  |  \- org.springframework.security:spring-security-crypto:jar:5.5.3:provided
+[INFO] |  |  +- org.springframework:spring-core:jar:5.3.11:provided
+[INFO] |  |  +- org.springframework:spring-aop:jar:5.3.11:provided
+[INFO] |  |  +- org.springframework:spring-beans:jar:5.3.11:provided
+[INFO] |  |  +- org.springframework:spring-context:jar:5.3.11:provided
+[INFO] |  |  +- org.springframework:spring-expression:jar:5.3.11:provided
+[INFO] |  |  \- org.springframework:spring-web:jar:5.3.11:provided
+[INFO] |  +- org.codehaus.groovy:groovy-all:jar:2.4.12:provided
+[INFO] |  +- jline:jline:jar:2.14.6:provided
+[INFO] |  +- org.fusesource.jansi:jansi:jar:1.11:provided
+[INFO] |  +- jakarta.servlet.jsp.jstl:jakarta.servlet.jsp.jstl-api:jar:1.2.7:provided
+[INFO] |  +- org.slf4j:jcl-over-slf4j:jar:1.7.32:provided
+[INFO] |  |  \- org.slf4j:slf4j-api:jar:1.7.32:provided
+[INFO] |  +- org.slf4j:log4j-over-slf4j:jar:1.7.32:provided
+[INFO] |  +- com.sun.xml.txw2:txw2:jar:20110809:provided
+[INFO] |  |  \- relaxngDatatype:relaxngDatatype:jar:20020414:provided
+[INFO] |  +- commons-collections:commons-collections:jar:3.2.2:compile
+[INFO] |  +- org.jvnet.winp:winp:jar:1.28:provided
+[INFO] |  +- org.jenkins-ci:memory-monitor:jar:1.9:provided
+[INFO] |  +- net.java.dev.jna:jna:jar:5.9.0:provided
+[INFO] |  +- org.kohsuke:libpam4j:jar:1.11:provided
+[INFO] |  +- com.sun.solaris:embedded_su4j:jar:1.1:provided
+[INFO] |  +- net.java.sezpoz:sezpoz:jar:1.13:provided
+[INFO] |  +- org.kohsuke.jinterop:j-interop:jar:2.0.8-kohsuke-1:provided
+[INFO] |  |  \- org.kohsuke.jinterop:j-interopdeps:jar:2.0.8-kohsuke-1:provided
+[INFO] |  |     \- org.samba.jcifs:jcifs:jar:1.3.18-kohsuke-1:provided
+[INFO] |  +- org.jvnet.robust-http-client:robust-http-client:jar:1.2:provided
+[INFO] |  +- org.jenkins-ci:symbol-annotation:jar:1.1:provided
+[INFO] |  +- commons-codec:commons-codec:jar:1.15:provided
+[INFO] |  +- org.kohsuke:access-modifier-annotation:jar:1.25:provided
+[INFO] |  +- commons-fileupload:commons-fileupload:jar:1.4:provided
+[INFO] |  \- com.jcraft:jzlib:jar:1.1.3-kohsuke-1:provided
+[INFO] +- org.jenkins-ci.main:jenkins-war:executable-war:2.319.3:test
+[INFO] |  +- org.jenkins-ci.modules:instance-identity:jar:2.2:test
+[INFO] |  |  \- io.github.stephenc.crypto:self-signed-cert-generator:jar:1.0.0:test
+[INFO] |  +- org.jenkins-ci.modules:slave-installer:jar:1.7:test
+[INFO] |  +- org.jenkins-ci.modules:windows-slave-installer:jar:2.0:test
+[INFO] |  +- org.jenkins-ci.modules:launchd-slave-installer:jar:1.2:test
+[INFO] |  +- org.jenkins-ci.modules:upstart-slave-installer:jar:1.1:test
+[INFO] |  +- org.jenkins-ci.modules:systemd-slave-installer:jar:1.1:test
+[INFO] |  \- org.slf4j:slf4j-jdk14:jar:1.7.32:test
+[INFO] +- javax.servlet:javax.servlet-api:jar:3.1.0:provided
+[INFO] +- net.jcip:jcip-annotations:jar:1.0:provided
+[INFO] +- org.codehaus.mojo:animal-sniffer-annotations:jar:1.21:provided
+[INFO] +- commons-logging:commons-logging:jar:1.2:provided
+[INFO] +- org.jenkins-ci.main:jenkins-test-harness:jar:1736.vc72c458c5103:test
+[INFO] |  +- org.jenkins-ci.main:jenkins-test-harness-htmlunit:jar:86.v3e0c60e7769e:test
+[INFO] |  |  +- xalan:serializer:jar:2.7.2:test
+[INFO] |  |  +- xml-apis:xml-apis:jar:1.4.01:test
+[INFO] |  |  +- commons-net:commons-net:jar:3.8.0:test
+[INFO] |  |  +- org.brotli:dec:jar:0.1.2:test
+[INFO] |  |  \- com.shapesecurity:salvation2:jar:3.0.0:test
+[INFO] |  +- io.jenkins.lib:support-log-formatter:jar:1.1:test
+[INFO] |  +- org.eclipse.jetty:jetty-security:jar:9.4.46.v20220331:test
+[INFO] |  |  \- org.eclipse.jetty:jetty-server:jar:9.4.46.v20220331:test
+[INFO] |  |     \- org.eclipse.jetty:jetty-io:jar:9.4.46.v20220331:test
+[INFO] |  +- org.eclipse.jetty:jetty-webapp:jar:9.4.46.v20220331:test
+[INFO] |  |  +- org.eclipse.jetty:jetty-xml:jar:9.4.46.v20220331:test
+[INFO] |  |  |  \- org.eclipse.jetty:jetty-util:jar:9.4.46.v20220331:test
+[INFO] |  |  \- org.eclipse.jetty:jetty-servlet:jar:9.4.46.v20220331:test
+[INFO] |  |     \- org.eclipse.jetty:jetty-util-ajax:jar:9.4.46.v20220331:test
+[INFO] |  +- org.eclipse.jetty.websocket:websocket-api:jar:9.4.46.v20220331:test
+[INFO] |  +- org.eclipse.jetty.websocket:websocket-server:jar:9.4.46.v20220331:test
+[INFO] |  |  +- org.eclipse.jetty.websocket:websocket-common:jar:9.4.46.v20220331:test
+[INFO] |  |  +- org.eclipse.jetty.websocket:websocket-client:jar:9.4.46.v20220331:test
+[INFO] |  |  |  \- org.eclipse.jetty:jetty-client:jar:9.4.46.v20220331:test
+[INFO] |  |  +- org.eclipse.jetty.websocket:websocket-servlet:jar:9.4.46.v20220331:test
+[INFO] |  |  \- org.eclipse.jetty:jetty-http:jar:9.4.46.v20220331:test
+[INFO] |  +- org.hamcrest:hamcrest:jar:2.2:test
+[INFO] |  +- org.hamcrest:hamcrest-library:jar:2.2:test
+[INFO] |  +- org.jvnet.hudson:embedded-rhino-debugger:jar:1.2:test
+[INFO] |  +- org.netbeans.modules:org-netbeans-insane:jar:RELEASE130:test
+[INFO] |  +- org.openjdk.jmh:jmh-core:jar:1.35:test
+[INFO] |  |  +- net.sf.jopt-simple:jopt-simple:jar:5.0.4:test
+[INFO] |  |  \- org.apache.commons:commons-math3:jar:3.2:test
+[INFO] |  \- org.openjdk.jmh:jmh-generator-annprocess:jar:1.35:test
+[INFO] \- org.jenkins-ci:test-annotations:jar:1.4:test
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  30.018 s
+[INFO] Finished at: 2023-09-25T20:41:14Z
+[INFO] ------------------------------------------------------------------------

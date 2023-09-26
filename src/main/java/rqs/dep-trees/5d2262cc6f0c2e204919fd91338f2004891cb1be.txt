@@ -1,0 +1,507 @@
+[INFO] Scanning for projects...
+[INFO] Inspecting build with total of 1 modules...
+[INFO] Installing Nexus Staging features:
+[INFO]   ... total of 1 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+Downloading from central: https://repo.maven.apache.org/maven2/se/vandmo/dependency-lock-maven-plugin/0.23/dependency-lock-maven-plugin-0.23.pom
+Progress (1): 2.7/11 kB
+Progress (1): 5.5/11 kB
+Progress (1): 8.2/11 kB
+Progress (1): 11/11 kB 
+Progress (1): 11 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/se/vandmo/dependency-lock-maven-plugin/0.23/dependency-lock-maven-plugin-0.23.pom (11 kB at 31 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/se/vandmo/dependency-lock-maven-plugin/0.23/dependency-lock-maven-plugin-0.23.jar
+Progress (1): 2.7/44 kB
+Progress (1): 5.5/44 kB
+Progress (1): 8.2/44 kB
+Progress (1): 11/44 kB 
+Progress (1): 14/44 kB
+Progress (1): 16/44 kB
+Progress (1): 19/44 kB
+Progress (1): 21/44 kB
+Progress (1): 24/44 kB
+Progress (1): 27/44 kB
+Progress (1): 30/44 kB
+Progress (1): 32/44 kB
+Progress (1): 35/44 kB
+Progress (1): 38/44 kB
+Progress (1): 40/44 kB
+Progress (1): 43/44 kB
+Progress (1): 44 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/se/vandmo/dependency-lock-maven-plugin/0.23/dependency-lock-maven-plugin-0.23.jar (44 kB at 366 kB/s)
+[INFO] 
+[INFO] ---------------< se.vandmo:dependency-lock-maven-plugin >---------------
+[INFO] Building Dependency Lock Maven Plugin 0-SNAPSHOT
+[INFO] ----------------------------[ maven-plugin ]----------------------------
+Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/woodstox-core/6.4.0/woodstox-core-6.4.0.pom
+Progress (1): 4.1/9.0 kB
+Progress (1): 8.2/9.0 kB
+Progress (1): 9.0 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/woodstox-core/6.4.0/woodstox-core-6.4.0.pom (9.0 kB at 903 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/woodstox-core/6.4.0/woodstox-core-6.4.0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/freemarker/freemarker/2.3.31/freemarker-2.3.31.jar
+Progress (1): 0/1.6 MB
+Progress (1): 0/1.6 MB
+Progress (1): 0/1.6 MB
+Progress (1): 0/1.6 MB
+Progress (1): 0/1.6 MB
+Progress (1): 0/1.6 MB
+Progress (1): 0.1/1.6 MB
+Progress (1): 0.1/1.6 MB
+Progress (1): 0.1/1.6 MB
+Progress (1): 0.1/1.6 MB
+Progress (1): 0.1/1.6 MB
+Progress (1): 0.1/1.6 MB
+Progress (2): 0.1/1.6 MB | 0/1.7 MB
+Progress (2): 0.1/1.6 MB | 0/1.7 MB
+Progress (2): 0.1/1.6 MB | 0/1.7 MB
+Progress (2): 0.1/1.6 MB | 0/1.7 MB
+Progress (2): 0.1/1.6 MB | 0/1.7 MB
+Progress (2): 0.1/1.6 MB | 0/1.7 MB
+Progress (2): 0.1/1.6 MB | 0/1.7 MB
+Progress (2): 0.1/1.6 MB | 0/1.7 MB
+Progress (2): 0.1/1.6 MB | 0/1.7 MB
+Progress (2): 0.1/1.6 MB | 0/1.7 MB
+Progress (2): 0.1/1.6 MB | 0/1.7 MB
+Progress (2): 0.2/1.6 MB | 0/1.7 MB
+Progress (2): 0.2/1.6 MB | 0/1.7 MB
+Progress (2): 0.2/1.6 MB | 0.1/1.7 MB
+Progress (2): 0.2/1.6 MB | 0.1/1.7 MB
+Progress (2): 0.2/1.6 MB | 0.1/1.7 MB
+Progress (2): 0.2/1.6 MB | 0.1/1.7 MB
+Progress (2): 0.2/1.6 MB | 0.1/1.7 MB
+Progress (2): 0.2/1.6 MB | 0.1/1.7 MB
+Progress (2): 0.2/1.6 MB | 0.1/1.7 MB
+Progress (2): 0.2/1.6 MB | 0.1/1.7 MB
+Progress (2): 0.2/1.6 MB | 0.1/1.7 MB
+Progress (2): 0.2/1.6 MB | 0.1/1.7 MB
+Progress (2): 0.2/1.6 MB | 0.1/1.7 MB
+Progress (2): 0.2/1.6 MB | 0.1/1.7 MB
+Progress (2): 0.2/1.6 MB | 0.1/1.7 MB
+Progress (2): 0.2/1.6 MB | 0.1/1.7 MB
+Progress (2): 0.2/1.6 MB | 0.1/1.7 MB
+Progress (2): 0.2/1.6 MB | 0.1/1.7 MB
+Progress (2): 0.2/1.6 MB | 0.1/1.7 MB
+Progress (2): 0.2/1.6 MB | 0.1/1.7 MB
+Progress (2): 0.2/1.6 MB | 0.1/1.7 MB
+Progress (2): 0.2/1.6 MB | 0.1/1.7 MB
+Progress (2): 0.2/1.6 MB | 0.1/1.7 MB
+Progress (2): 0.3/1.6 MB | 0.1/1.7 MB
+Progress (2): 0.3/1.6 MB | 0.1/1.7 MB
+Progress (2): 0.3/1.6 MB | 0.1/1.7 MB
+Progress (2): 0.3/1.6 MB | 0.2/1.7 MB
+Progress (2): 0.3/1.6 MB | 0.2/1.7 MB
+Progress (2): 0.3/1.6 MB | 0.2/1.7 MB
+Progress (2): 0.3/1.6 MB | 0.2/1.7 MB
+Progress (2): 0.3/1.6 MB | 0.2/1.7 MB
+Progress (2): 0.3/1.6 MB | 0.2/1.7 MB
+Progress (2): 0.3/1.6 MB | 0.2/1.7 MB
+Progress (2): 0.3/1.6 MB | 0.2/1.7 MB
+Progress (2): 0.3/1.6 MB | 0.2/1.7 MB
+Progress (2): 0.3/1.6 MB | 0.2/1.7 MB
+Progress (2): 0.3/1.6 MB | 0.2/1.7 MB
+Progress (2): 0.3/1.6 MB | 0.2/1.7 MB
+Progress (2): 0.3/1.6 MB | 0.2/1.7 MB
+Progress (2): 0.3/1.6 MB | 0.2/1.7 MB
+Progress (2): 0.3/1.6 MB | 0.2/1.7 MB
+Progress (2): 0.3/1.6 MB | 0.2/1.7 MB
+Progress (2): 0.3/1.6 MB | 0.2/1.7 MB
+Progress (2): 0.3/1.6 MB | 0.2/1.7 MB
+Progress (2): 0.3/1.6 MB | 0.2/1.7 MB
+Progress (2): 0.3/1.6 MB | 0.2/1.7 MB
+Progress (2): 0.3/1.6 MB | 0.2/1.7 MB
+Progress (2): 0.3/1.6 MB | 0.2/1.7 MB
+Progress (2): 0.4/1.6 MB | 0.2/1.7 MB
+Progress (2): 0.4/1.6 MB | 0.2/1.7 MB
+Progress (2): 0.4/1.6 MB | 0.3/1.7 MB
+Progress (2): 0.4/1.6 MB | 0.3/1.7 MB
+Progress (2): 0.4/1.6 MB | 0.3/1.7 MB
+Progress (2): 0.4/1.6 MB | 0.3/1.7 MB
+Progress (2): 0.4/1.6 MB | 0.3/1.7 MB
+Progress (2): 0.4/1.6 MB | 0.3/1.7 MB
+Progress (2): 0.4/1.6 MB | 0.3/1.7 MB
+Progress (2): 0.4/1.6 MB | 0.3/1.7 MB
+Progress (2): 0.4/1.6 MB | 0.3/1.7 MB
+Progress (2): 0.4/1.6 MB | 0.3/1.7 MB
+Progress (2): 0.4/1.6 MB | 0.3/1.7 MB
+Progress (2): 0.4/1.6 MB | 0.3/1.7 MB
+Progress (2): 0.4/1.6 MB | 0.3/1.7 MB
+Progress (2): 0.4/1.6 MB | 0.3/1.7 MB
+Progress (2): 0.4/1.6 MB | 0.3/1.7 MB
+Progress (2): 0.4/1.6 MB | 0.3/1.7 MB
+Progress (2): 0.4/1.6 MB | 0.3/1.7 MB
+Progress (2): 0.4/1.6 MB | 0.3/1.7 MB
+Progress (2): 0.4/1.6 MB | 0.3/1.7 MB
+Progress (2): 0.4/1.6 MB | 0.3/1.7 MB
+Progress (2): 0.4/1.6 MB | 0.3/1.7 MB
+Progress (2): 0.5/1.6 MB | 0.3/1.7 MB
+Progress (2): 0.5/1.6 MB | 0.3/1.7 MB
+Progress (2): 0.5/1.6 MB | 0.3/1.7 MB
+Progress (2): 0.5/1.6 MB | 0.4/1.7 MB
+Progress (2): 0.5/1.6 MB | 0.4/1.7 MB
+Progress (2): 0.5/1.6 MB | 0.4/1.7 MB
+Progress (2): 0.5/1.6 MB | 0.4/1.7 MB
+Progress (2): 0.5/1.6 MB | 0.4/1.7 MB
+Progress (2): 0.5/1.6 MB | 0.4/1.7 MB
+Progress (2): 0.5/1.6 MB | 0.4/1.7 MB
+Progress (2): 0.5/1.6 MB | 0.4/1.7 MB
+Progress (2): 0.5/1.6 MB | 0.4/1.7 MB
+Progress (2): 0.5/1.6 MB | 0.4/1.7 MB
+Progress (2): 0.5/1.6 MB | 0.4/1.7 MB
+Progress (2): 0.5/1.6 MB | 0.4/1.7 MB
+Progress (2): 0.5/1.6 MB | 0.4/1.7 MB
+Progress (2): 0.5/1.6 MB | 0.4/1.7 MB
+Progress (2): 0.5/1.6 MB | 0.4/1.7 MB
+Progress (2): 0.5/1.6 MB | 0.4/1.7 MB
+Progress (2): 0.5/1.6 MB | 0.4/1.7 MB
+Progress (2): 0.5/1.6 MB | 0.4/1.7 MB
+Progress (2): 0.5/1.6 MB | 0.4/1.7 MB
+Progress (2): 0.5/1.6 MB | 0.4/1.7 MB
+Progress (2): 0.5/1.6 MB | 0.4/1.7 MB
+Progress (2): 0.5/1.6 MB | 0.4/1.7 MB
+Progress (2): 0.5/1.6 MB | 0.4/1.7 MB
+Progress (2): 0.5/1.6 MB | 0.5/1.7 MB
+Progress (2): 0.5/1.6 MB | 0.5/1.7 MB
+Progress (2): 0.6/1.6 MB | 0.5/1.7 MB
+Progress (2): 0.6/1.6 MB | 0.5/1.7 MB
+Progress (2): 0.6/1.6 MB | 0.5/1.7 MB
+Progress (2): 0.6/1.6 MB | 0.5/1.7 MB
+Progress (2): 0.6/1.6 MB | 0.5/1.7 MB
+Progress (2): 0.6/1.6 MB | 0.5/1.7 MB
+Progress (2): 0.6/1.6 MB | 0.5/1.7 MB
+Progress (2): 0.6/1.6 MB | 0.5/1.7 MB
+Progress (2): 0.6/1.6 MB | 0.5/1.7 MB
+Progress (2): 0.6/1.6 MB | 0.5/1.7 MB
+Progress (2): 0.6/1.6 MB | 0.5/1.7 MB
+Progress (2): 0.6/1.6 MB | 0.5/1.7 MB
+Progress (2): 0.6/1.6 MB | 0.5/1.7 MB
+Progress (2): 0.6/1.6 MB | 0.5/1.7 MB
+Progress (2): 0.6/1.6 MB | 0.5/1.7 MB
+Progress (2): 0.6/1.6 MB | 0.5/1.7 MB
+Progress (2): 0.6/1.6 MB | 0.5/1.7 MB
+Progress (2): 0.6/1.6 MB | 0.5/1.7 MB
+Progress (2): 0.6/1.6 MB | 0.5/1.7 MB
+Progress (2): 0.6/1.6 MB | 0.5/1.7 MB
+Progress (2): 0.6/1.6 MB | 0.5/1.7 MB
+Progress (2): 0.6/1.6 MB | 0.6/1.7 MB
+Progress (2): 0.6/1.6 MB | 0.6/1.7 MB
+Progress (2): 0.6/1.6 MB | 0.6/1.7 MB
+Progress (2): 0.6/1.6 MB | 0.6/1.7 MB
+Progress (2): 0.6/1.6 MB | 0.6/1.7 MB
+Progress (2): 0.7/1.6 MB | 0.6/1.7 MB
+Progress (2): 0.7/1.6 MB | 0.6/1.7 MB
+Progress (2): 0.7/1.6 MB | 0.6/1.7 MB
+Progress (2): 0.7/1.6 MB | 0.6/1.7 MB
+Progress (2): 0.7/1.6 MB | 0.6/1.7 MB
+Progress (2): 0.7/1.6 MB | 0.6/1.7 MB
+Progress (2): 0.7/1.6 MB | 0.6/1.7 MB
+Progress (2): 0.7/1.6 MB | 0.6/1.7 MB
+Progress (2): 0.7/1.6 MB | 0.6/1.7 MB
+Progress (2): 0.7/1.6 MB | 0.6/1.7 MB
+Progress (2): 0.7/1.6 MB | 0.6/1.7 MB
+Progress (2): 0.7/1.6 MB | 0.6/1.7 MB
+Progress (2): 0.7/1.6 MB | 0.6/1.7 MB
+Progress (2): 0.7/1.6 MB | 0.6/1.7 MB
+Progress (2): 0.7/1.6 MB | 0.6/1.7 MB
+Progress (2): 0.7/1.6 MB | 0.6/1.7 MB
+Progress (2): 0.7/1.6 MB | 0.6/1.7 MB
+Progress (2): 0.7/1.6 MB | 0.7/1.7 MB
+Progress (2): 0.7/1.6 MB | 0.7/1.7 MB
+Progress (2): 0.7/1.6 MB | 0.7/1.7 MB
+Progress (2): 0.7/1.6 MB | 0.7/1.7 MB
+Progress (2): 0.7/1.6 MB | 0.7/1.7 MB
+Progress (2): 0.7/1.6 MB | 0.7/1.7 MB
+Progress (2): 0.7/1.6 MB | 0.7/1.7 MB
+Progress (2): 0.7/1.6 MB | 0.7/1.7 MB
+Progress (2): 0.7/1.6 MB | 0.7/1.7 MB
+Progress (2): 0.8/1.6 MB | 0.7/1.7 MB
+Progress (2): 0.8/1.6 MB | 0.7/1.7 MB
+Progress (2): 0.8/1.6 MB | 0.7/1.7 MB
+Progress (2): 0.8/1.6 MB | 0.7/1.7 MB
+Progress (2): 0.8/1.6 MB | 0.7/1.7 MB
+Progress (2): 0.8/1.6 MB | 0.7/1.7 MB
+Progress (2): 0.8/1.6 MB | 0.7/1.7 MB
+Progress (2): 0.8/1.6 MB | 0.7/1.7 MB
+Progress (2): 0.8/1.6 MB | 0.7/1.7 MB
+Progress (2): 0.8/1.6 MB | 0.7/1.7 MB
+Progress (2): 0.8/1.6 MB | 0.7/1.7 MB
+Progress (2): 0.8/1.6 MB | 0.7/1.7 MB
+Progress (2): 0.8/1.6 MB | 0.8/1.7 MB
+Progress (2): 0.8/1.6 MB | 0.8/1.7 MB
+Progress (2): 0.8/1.6 MB | 0.8/1.7 MB
+Progress (2): 0.8/1.6 MB | 0.8/1.7 MB
+Progress (2): 0.8/1.6 MB | 0.8/1.7 MB
+Progress (2): 0.8/1.6 MB | 0.8/1.7 MB
+Progress (2): 0.8/1.6 MB | 0.8/1.7 MB
+Progress (2): 0.8/1.6 MB | 0.8/1.7 MB
+Progress (2): 0.8/1.6 MB | 0.8/1.7 MB
+Progress (2): 0.8/1.6 MB | 0.8/1.7 MB
+Progress (2): 0.8/1.6 MB | 0.8/1.7 MB
+Progress (2): 0.8/1.6 MB | 0.8/1.7 MB
+Progress (2): 0.8/1.6 MB | 0.8/1.7 MB
+Progress (2): 0.8/1.6 MB | 0.8/1.7 MB
+Progress (2): 0.8/1.6 MB | 0.8/1.7 MB
+Progress (2): 0.8/1.6 MB | 0.8/1.7 MB
+Progress (2): 0.8/1.6 MB | 0.8/1.7 MB
+Progress (2): 0.8/1.6 MB | 0.8/1.7 MB
+Progress (2): 0.9/1.6 MB | 0.8/1.7 MB
+Progress (2): 0.9/1.6 MB | 0.8/1.7 MB
+Progress (2): 0.9/1.6 MB | 0.9/1.7 MB
+Progress (2): 0.9/1.6 MB | 0.9/1.7 MB
+Progress (2): 0.9/1.6 MB | 0.9/1.7 MB
+Progress (2): 0.9/1.6 MB | 0.9/1.7 MB
+Progress (2): 0.9/1.6 MB | 0.9/1.7 MB
+Progress (2): 0.9/1.6 MB | 0.9/1.7 MB
+Progress (2): 0.9/1.6 MB | 0.9/1.7 MB
+Progress (2): 0.9/1.6 MB | 0.9/1.7 MB
+Progress (2): 0.9/1.6 MB | 0.9/1.7 MB
+Progress (2): 0.9/1.6 MB | 0.9/1.7 MB
+Progress (2): 0.9/1.6 MB | 0.9/1.7 MB
+Progress (2): 0.9/1.6 MB | 0.9/1.7 MB
+Progress (2): 0.9/1.6 MB | 0.9/1.7 MB
+Progress (2): 0.9/1.6 MB | 0.9/1.7 MB
+Progress (2): 0.9/1.6 MB | 0.9/1.7 MB
+Progress (2): 0.9/1.6 MB | 0.9/1.7 MB
+Progress (2): 0.9/1.6 MB | 0.9/1.7 MB
+Progress (2): 0.9/1.6 MB | 0.9/1.7 MB
+Progress (2): 0.9/1.6 MB | 0.9/1.7 MB
+Progress (2): 0.9/1.6 MB | 0.9/1.7 MB
+Progress (2): 0.9/1.6 MB | 1.0/1.7 MB
+Progress (2): 0.9/1.6 MB | 1.0/1.7 MB
+Progress (2): 0.9/1.6 MB | 1.0/1.7 MB
+Progress (2): 0.9/1.6 MB | 1.0/1.7 MB
+Progress (2): 0.9/1.6 MB | 1.0/1.7 MB
+Progress (2): 0.9/1.6 MB | 1.0/1.7 MB
+Progress (2): 0.9/1.6 MB | 1.0/1.7 MB
+Progress (2): 0.9/1.6 MB | 1.0/1.7 MB
+Progress (2): 0.9/1.6 MB | 1.0/1.7 MB
+Progress (2): 1.0/1.6 MB | 1.0/1.7 MB
+Progress (2): 1.0/1.6 MB | 1.0/1.7 MB
+Progress (2): 1.0/1.6 MB | 1.0/1.7 MB
+Progress (2): 1.0/1.6 MB | 1.0/1.7 MB
+Progress (2): 1.0/1.6 MB | 1.0/1.7 MB
+Progress (2): 1.0/1.6 MB | 1.0/1.7 MB
+Progress (2): 1.0/1.6 MB | 1.0/1.7 MB
+Progress (2): 1.0/1.6 MB | 1.0/1.7 MB
+Progress (2): 1.0/1.6 MB | 1.0/1.7 MB
+Progress (2): 1.0/1.6 MB | 1.0/1.7 MB
+Progress (2): 1.0/1.6 MB | 1.0/1.7 MB
+Progress (2): 1.0/1.6 MB | 1.1/1.7 MB
+Progress (2): 1.0/1.6 MB | 1.1/1.7 MB
+Progress (2): 1.0/1.6 MB | 1.1/1.7 MB
+Progress (2): 1.0/1.6 MB | 1.1/1.7 MB
+Progress (2): 1.0/1.6 MB | 1.1/1.7 MB
+Progress (2): 1.0/1.6 MB | 1.1/1.7 MB
+Progress (2): 1.0/1.6 MB | 1.1/1.7 MB
+Progress (2): 1.0/1.6 MB | 1.1/1.7 MB
+Progress (2): 1.0/1.6 MB | 1.1/1.7 MB
+Progress (2): 1.0/1.6 MB | 1.1/1.7 MB
+Progress (2): 1.0/1.6 MB | 1.1/1.7 MB
+Progress (2): 1.0/1.6 MB | 1.1/1.7 MB
+Progress (2): 1.0/1.6 MB | 1.1/1.7 MB
+Progress (2): 1.0/1.6 MB | 1.1/1.7 MB
+Progress (2): 1.0/1.6 MB | 1.1/1.7 MB
+Progress (2): 1.0/1.6 MB | 1.1/1.7 MB
+Progress (2): 1.0/1.6 MB | 1.1/1.7 MB
+Progress (2): 1.0/1.6 MB | 1.1/1.7 MB
+Progress (2): 1.0/1.6 MB | 1.1/1.7 MB
+Progress (2): 1.1/1.6 MB | 1.1/1.7 MB
+Progress (2): 1.1/1.6 MB | 1.2/1.7 MB
+Progress (2): 1.1/1.6 MB | 1.2/1.7 MB
+Progress (2): 1.1/1.6 MB | 1.2/1.7 MB
+Progress (2): 1.1/1.6 MB | 1.2/1.7 MB
+Progress (2): 1.1/1.6 MB | 1.2/1.7 MB
+Progress (2): 1.1/1.6 MB | 1.2/1.7 MB
+Progress (2): 1.1/1.6 MB | 1.2/1.7 MB
+Progress (2): 1.1/1.6 MB | 1.2/1.7 MB
+Progress (2): 1.1/1.6 MB | 1.2/1.7 MB
+Progress (2): 1.1/1.6 MB | 1.2/1.7 MB
+Progress (2): 1.1/1.6 MB | 1.2/1.7 MB
+Progress (2): 1.1/1.6 MB | 1.2/1.7 MB
+Progress (2): 1.1/1.6 MB | 1.2/1.7 MB
+Progress (2): 1.1/1.6 MB | 1.2/1.7 MB
+Progress (2): 1.1/1.6 MB | 1.2/1.7 MB
+Progress (2): 1.1/1.6 MB | 1.2/1.7 MB
+Progress (2): 1.1/1.6 MB | 1.2/1.7 MB
+Progress (2): 1.1/1.6 MB | 1.2/1.7 MB
+Progress (2): 1.1/1.6 MB | 1.2/1.7 MB
+Progress (2): 1.1/1.6 MB | 1.2/1.7 MB
+Progress (2): 1.1/1.6 MB | 1.2/1.7 MB
+Progress (2): 1.1/1.6 MB | 1.2/1.7 MB
+Progress (2): 1.1/1.6 MB | 1.3/1.7 MB
+Progress (2): 1.1/1.6 MB | 1.3/1.7 MB
+Progress (2): 1.1/1.6 MB | 1.3/1.7 MB
+Progress (2): 1.1/1.6 MB | 1.3/1.7 MB
+Progress (2): 1.1/1.6 MB | 1.3/1.7 MB
+Progress (2): 1.1/1.6 MB | 1.3/1.7 MB
+Progress (2): 1.2/1.6 MB | 1.3/1.7 MB
+Progress (2): 1.2/1.6 MB | 1.3/1.7 MB
+Progress (2): 1.2/1.6 MB | 1.3/1.7 MB
+Progress (2): 1.2/1.6 MB | 1.3/1.7 MB
+Progress (2): 1.2/1.6 MB | 1.3/1.7 MB
+Progress (2): 1.2/1.6 MB | 1.3/1.7 MB
+Progress (2): 1.2/1.6 MB | 1.3/1.7 MB
+Progress (2): 1.2/1.6 MB | 1.3/1.7 MB
+Progress (2): 1.2/1.6 MB | 1.3/1.7 MB
+Progress (2): 1.2/1.6 MB | 1.3/1.7 MB
+Progress (2): 1.2/1.6 MB | 1.3/1.7 MB
+Progress (2): 1.2/1.6 MB | 1.3/1.7 MB
+Progress (2): 1.2/1.6 MB | 1.3/1.7 MB
+Progress (2): 1.2/1.6 MB | 1.3/1.7 MB
+Progress (2): 1.2/1.6 MB | 1.4/1.7 MB
+Progress (2): 1.2/1.6 MB | 1.4/1.7 MB
+Progress (2): 1.2/1.6 MB | 1.4/1.7 MB
+Progress (2): 1.2/1.6 MB | 1.4/1.7 MB
+Progress (2): 1.2/1.6 MB | 1.4/1.7 MB
+Progress (2): 1.2/1.6 MB | 1.4/1.7 MB
+Progress (2): 1.2/1.6 MB | 1.4/1.7 MB
+Progress (2): 1.2/1.6 MB | 1.4/1.7 MB
+Progress (2): 1.2/1.6 MB | 1.4/1.7 MB
+Progress (2): 1.2/1.6 MB | 1.4/1.7 MB
+Progress (2): 1.2/1.6 MB | 1.4/1.7 MB
+Progress (2): 1.2/1.6 MB | 1.4/1.7 MB
+Progress (2): 1.2/1.6 MB | 1.4/1.7 MB
+Progress (2): 1.2/1.6 MB | 1.4/1.7 MB
+Progress (2): 1.2/1.6 MB | 1.4/1.7 MB
+Progress (2): 1.2/1.6 MB | 1.4/1.7 MB
+Progress (2): 1.3/1.6 MB | 1.4/1.7 MB
+Progress (2): 1.3/1.6 MB | 1.4/1.7 MB
+Progress (2): 1.3/1.6 MB | 1.4/1.7 MB
+Progress (2): 1.3/1.6 MB | 1.4/1.7 MB
+Progress (2): 1.3/1.6 MB | 1.4/1.7 MB
+Progress (2): 1.3/1.6 MB | 1.5/1.7 MB
+Progress (2): 1.3/1.6 MB | 1.5/1.7 MB
+Progress (2): 1.3/1.6 MB | 1.5/1.7 MB
+Progress (2): 1.3/1.6 MB | 1.5/1.7 MB
+Progress (2): 1.3/1.6 MB | 1.5/1.7 MB
+Progress (2): 1.3/1.6 MB | 1.5/1.7 MB
+Progress (2): 1.3/1.6 MB | 1.5/1.7 MB
+Progress (2): 1.3/1.6 MB | 1.5/1.7 MB
+Progress (2): 1.3/1.6 MB | 1.5/1.7 MB
+Progress (2): 1.3/1.6 MB | 1.5/1.7 MB
+Progress (2): 1.3/1.6 MB | 1.5/1.7 MB
+Progress (2): 1.3/1.6 MB | 1.5/1.7 MB
+Progress (2): 1.3/1.6 MB | 1.5/1.7 MB
+Progress (2): 1.3/1.6 MB | 1.5/1.7 MB
+Progress (2): 1.3/1.6 MB | 1.5/1.7 MB
+Progress (2): 1.3/1.6 MB | 1.5/1.7 MB
+Progress (2): 1.3/1.6 MB | 1.5/1.7 MB
+Progress (2): 1.3/1.6 MB | 1.5/1.7 MB
+Progress (2): 1.3/1.6 MB | 1.5/1.7 MB
+Progress (2): 1.3/1.6 MB | 1.5/1.7 MB
+Progress (2): 1.3/1.6 MB | 1.6/1.7 MB
+Progress (2): 1.3/1.6 MB | 1.6/1.7 MB
+Progress (2): 1.3/1.6 MB | 1.6/1.7 MB
+Progress (2): 1.4/1.6 MB | 1.6/1.7 MB
+Progress (2): 1.4/1.6 MB | 1.6/1.7 MB
+Progress (2): 1.4/1.6 MB | 1.6/1.7 MB
+Progress (2): 1.4/1.6 MB | 1.6/1.7 MB
+Progress (2): 1.4/1.6 MB | 1.6/1.7 MB
+Progress (2): 1.4/1.6 MB | 1.6/1.7 MB
+Progress (2): 1.4/1.6 MB | 1.6/1.7 MB
+Progress (2): 1.4/1.6 MB | 1.6/1.7 MB
+Progress (2): 1.4/1.6 MB | 1.6/1.7 MB
+Progress (2): 1.4/1.6 MB | 1.6/1.7 MB
+Progress (2): 1.4/1.6 MB | 1.6/1.7 MB
+Progress (2): 1.4/1.6 MB | 1.6/1.7 MB
+Progress (2): 1.4/1.6 MB | 1.6/1.7 MB
+Progress (2): 1.4/1.6 MB | 1.6/1.7 MB
+Progress (2): 1.4/1.6 MB | 1.6/1.7 MB
+Progress (2): 1.4/1.6 MB | 1.6/1.7 MB
+Progress (2): 1.4/1.6 MB | 1.6/1.7 MB
+Progress (2): 1.4/1.6 MB | 1.6/1.7 MB
+Progress (2): 1.4/1.6 MB | 1.6/1.7 MB
+Progress (2): 1.4/1.6 MB | 1.6/1.7 MB
+Progress (2): 1.4/1.6 MB | 1.6/1.7 MB
+Progress (2): 1.4/1.6 MB | 1.6/1.7 MB
+Progress (2): 1.5/1.6 MB | 1.6/1.7 MB
+Progress (2): 1.5/1.6 MB | 1.7/1.7 MB
+Progress (2): 1.5/1.6 MB | 1.7/1.7 MB
+Progress (2): 1.5/1.6 MB | 1.7/1.7 MB
+Progress (2): 1.5/1.6 MB | 1.7/1.7 MB
+Progress (2): 1.5/1.6 MB | 1.7/1.7 MB
+Progress (2): 1.5/1.6 MB | 1.7/1.7 MB
+Progress (2): 1.5/1.6 MB | 1.7/1.7 MB
+Progress (2): 1.5/1.6 MB | 1.7/1.7 MB
+Progress (2): 1.5/1.6 MB | 1.7/1.7 MB
+Progress (2): 1.5/1.6 MB | 1.7/1.7 MB
+Progress (2): 1.5/1.6 MB | 1.7/1.7 MB
+Progress (2): 1.5/1.6 MB | 1.7/1.7 MB
+Progress (2): 1.5/1.6 MB | 1.7/1.7 MB
+Progress (2): 1.5/1.6 MB | 1.7/1.7 MB
+Progress (2): 1.5/1.6 MB | 1.7 MB    
+Progress (2): 1.5/1.6 MB | 1.7 MB
+Progress (2): 1.5/1.6 MB | 1.7 MB
+Progress (2): 1.5/1.6 MB | 1.7 MB
+Progress (2): 1.5/1.6 MB | 1.7 MB
+Progress (2): 1.5/1.6 MB | 1.7 MB
+Progress (2): 1.5/1.6 MB | 1.7 MB
+Progress (2): 1.6/1.6 MB | 1.7 MB
+Progress (2): 1.6/1.6 MB | 1.7 MB
+                                 
+Downloaded from central: https://repo.maven.apache.org/maven2/org/freemarker/freemarker/2.3.31/freemarker-2.3.31.jar (1.7 MB at 13 MB/s)
+Progress (1): 1.6/1.6 MB
+Progress (1): 1.6/1.6 MB
+Progress (1): 1.6 MB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/woodstox-core/6.4.0/woodstox-core-6.4.0.jar (1.6 MB at 12 MB/s)
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ dependency-lock-maven-plugin ---
+[INFO] se.vandmo:dependency-lock-maven-plugin:maven-plugin:0-SNAPSHOT
+[INFO] +- org.apache.maven:maven-plugin-api:jar:3.8.5:provided
+[INFO] |  +- org.eclipse.sisu:org.eclipse.sisu.plexus:jar:0.3.5:compile
+[INFO] |  |  \- javax.annotation:javax.annotation-api:jar:1.2:compile
+[INFO] |  +- org.codehaus.plexus:plexus-utils:jar:3.4.2:compile
+[INFO] |  \- org.codehaus.plexus:plexus-classworlds:jar:2.6.0:compile
+[INFO] +- org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.6.4:compile
+[INFO] +- org.apache.maven:maven-artifact:jar:3.8.5:provided
+[INFO] +- org.apache.maven:maven-core:jar:3.8.5:provided
+[INFO] |  +- org.apache.maven:maven-settings:jar:3.8.5:provided
+[INFO] |  +- org.apache.maven:maven-settings-builder:jar:3.8.5:provided
+[INFO] |  |  \- org.codehaus.plexus:plexus-sec-dispatcher:jar:2.0:provided
+[INFO] |  |     \- org.codehaus.plexus:plexus-cipher:jar:2.0:provided
+[INFO] |  +- org.apache.maven:maven-builder-support:jar:3.8.5:provided
+[INFO] |  +- org.apache.maven:maven-repository-metadata:jar:3.8.5:provided
+[INFO] |  +- org.apache.maven:maven-model-builder:jar:3.8.5:provided
+[INFO] |  +- org.apache.maven:maven-resolver-provider:jar:3.8.5:provided
+[INFO] |  +- org.apache.maven.resolver:maven-resolver-impl:jar:1.6.3:provided
+[INFO] |  +- org.apache.maven.resolver:maven-resolver-api:jar:1.6.3:provided
+[INFO] |  +- org.apache.maven.resolver:maven-resolver-spi:jar:1.6.3:provided
+[INFO] |  +- org.apache.maven.resolver:maven-resolver-util:jar:1.6.3:provided
+[INFO] |  +- org.apache.maven.shared:maven-shared-utils:jar:3.3.4:compile
+[INFO] |  +- org.eclipse.sisu:org.eclipse.sisu.inject:jar:0.3.5:compile
+[INFO] |  +- com.google.inject:guice:jar:no_aop:4.2.2:provided
+[INFO] |  |  +- aopalliance:aopalliance:jar:1.0:provided
+[INFO] |  |  \- com.google.guava:guava:jar:31.1-jre:provided
+[INFO] |  |     +- com.google.guava:failureaccess:jar:1.0.1:provided
+[INFO] |  |     +- com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:provided
+[INFO] |  |     +- com.google.code.findbugs:jsr305:jar:3.0.2:provided
+[INFO] |  |     +- org.checkerframework:checker-qual:jar:3.12.0:provided
+[INFO] |  |     +- com.google.errorprone:error_prone_annotations:jar:2.11.0:provided
+[INFO] |  |     \- com.google.j2objc:j2objc-annotations:jar:1.3:provided
+[INFO] |  +- javax.inject:javax.inject:jar:1:provided
+[INFO] |  +- org.codehaus.plexus:plexus-interpolation:jar:1.26:provided
+[INFO] |  +- org.codehaus.plexus:plexus-component-annotations:jar:2.1.0:compile
+[INFO] |  \- org.slf4j:slf4j-api:jar:1.7.32:provided
+[INFO] +- com.fasterxml.jackson.core:jackson-core:jar:2.13.4:compile
+[INFO] +- com.fasterxml.jackson.core:jackson-databind:jar:2.13.4.2:compile
+[INFO] |  \- com.fasterxml.jackson.core:jackson-annotations:jar:2.13.4:compile
+[INFO] +- com.fasterxml.woodstox:woodstox-core:jar:6.4.0:compile
+[INFO] +- org.codehaus.woodstox:stax2-api:jar:4.2.1:compile
+[INFO] +- org.freemarker:freemarker:jar:2.3.31:compile
+[INFO] +- org.apache.commons:commons-lang3:jar:3.12.0:compile
+[INFO] +- org.apache.maven.shared:maven-common-artifact-filters:jar:3.2.0:compile
+[INFO] |  +- org.eclipse.aether:aether-api:jar:0.9.0.M2:compile
+[INFO] |  \- org.eclipse.aether:aether-util:jar:0.9.0.M2:compile
+[INFO] +- org.apache.maven:maven-model:jar:3.8.5:provided
+[INFO] +- commons-io:commons-io:jar:2.11.0:test
+[INFO] +- junit:junit:jar:4.13.2:test
+[INFO] \- org.hamcrest:hamcrest:jar:2.2:test
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.969 s
+[INFO] Finished at: 2023-09-25T21:56:48Z
+[INFO] ------------------------------------------------------------------------

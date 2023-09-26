@@ -1,0 +1,368 @@
+[INFO] Scanning for projects...
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/cloud/google-cloud-shared-config/1.5.5/google-cloud-shared-config-1.5.5.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/cloud/google-cloud-shared-config/1.5.5/google-cloud-shared-config-1.5.5.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-bom/1.51.1/grpc-bom-1.51.1.pom
+Progress (1): 2.7/5.1 kB
+Progress (1): 5.1 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-bom/1.51.1/grpc-bom-1.51.1.pom (5.1 kB at 120 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-bom/3.21.12/protobuf-bom-3.21.12.pom
+Progress (1): 2.7/3.5 kB
+Progress (1): 3.5 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-bom/3.21.12/protobuf-bom-3.21.12.pom (3.5 kB at 186 kB/s)
+[INFO] Inspecting build with total of 5 modules...
+[INFO] Installing Nexus Staging features:
+[INFO]   ... total of 5 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] GAX (Google Api eXtensions) for Java (Parent)                      [pom]
+[INFO] GAX (Google Api eXtensions) for Java (Core)                        [jar]
+[INFO] GAX (Google Api eXtensions) for Java (gRPC)                        [jar]
+[INFO] GAX (Google Api eXtensions) for Java (HTTP JSON)                   [jar]
+[INFO] GAX (Google Api eXtensions) for Java (BOM)                         [pom]
+Downloading from central: https://repo.maven.apache.org/maven2/com/coveo/fmt-maven-plugin/2.9/fmt-maven-plugin-2.9.pom
+Progress (1): 2.7/8.6 kB
+Progress (1): 5.5/8.6 kB
+Progress (1): 8.2/8.6 kB
+Progress (1): 8.6 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/coveo/fmt-maven-plugin/2.9/fmt-maven-plugin-2.9.pom (8.6 kB at 429 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/coveo/fmt-maven-plugin/2.9/fmt-maven-plugin-2.9.jar
+Progress (1): 2.7/20 kB
+Progress (1): 5.5/20 kB
+Progress (1): 8.2/20 kB
+Progress (1): 11/20 kB 
+Progress (1): 14/20 kB
+Progress (1): 16/20 kB
+Progress (1): 19/20 kB
+Progress (1): 20 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/com/coveo/fmt-maven-plugin/2.9/fmt-maven-plugin-2.9.jar (20 kB at 748 kB/s)
+[INFO] 
+[INFO] ---------------------< com.google.api:gax-parent >----------------------
+[INFO] Building GAX (Google Api eXtensions) for Java (Parent) 2.20.1      [1/5]
+[INFO] --------------------------------[ pom ]---------------------------------
+Downloading from central: https://repo.maven.apache.org/maven2/org/mockito/mockito-core/4.11.0/mockito-core-4.11.0.pom
+Progress (1): 2.5 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/mockito/mockito-core/4.11.0/mockito-core-4.11.0.pom (2.5 kB at 227 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/auto/value/auto-value-annotations/1.10.1/auto-value-annotations-1.10.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/auto/value/auto-value-annotations/1.10.1/auto-value-annotations-1.10.1.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/auto/value/auto-value-parent/1.10.1/auto-value-parent-1.10.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/auto/value/auto-value-parent/1.10.1/auto-value-parent-1.10.1.pom (0 B at 0 B/s)
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.3.0:tree (default-cli) @ gax-parent ---
+[INFO] com.google.api:gax-parent:pom:2.20.1
+[INFO] +- junit:junit:jar:4.13.2:test
+[INFO] |  \- org.hamcrest:hamcrest-core:jar:1.3:test
+[INFO] +- org.mockito:mockito-core:jar:4.11.0:test
+[INFO] |  +- net.bytebuddy:byte-buddy:jar:1.12.19:test
+[INFO] |  +- net.bytebuddy:byte-buddy-agent:jar:1.12.19:test
+[INFO] |  \- org.objenesis:objenesis:jar:3.3:test
+[INFO] \- com.google.truth:truth:jar:1.1.3:test
+[INFO]    +- com.google.guava:guava:jar:31.1-jre:test
+[INFO]    |  +- com.google.guava:failureaccess:jar:1.0.1:test
+[INFO]    |  +- com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:test
+[INFO]    |  +- com.google.code.findbugs:jsr305:jar:3.0.2:test
+[INFO]    |  \- com.google.j2objc:j2objc-annotations:jar:1.3:test
+[INFO]    +- com.google.auto.value:auto-value-annotations:jar:1.10.1:test
+[INFO]    \- org.ow2.asm:asm:jar:9.1:test
+[INFO] 
+[INFO] -------------------------< com.google.api:gax >-------------------------
+[INFO] Building GAX (Google Api eXtensions) for Java (Core) 2.20.1        [2/5]
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/api/api-common/2.3.1/api-common-2.3.1.pom
+Progress (1): 2.7/5.2 kB
+Progress (1): 5.2 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/api/api-common/2.3.1/api-common-2.3.1.pom (5.2 kB at 52 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/auto/value/auto-value/1.10.1/auto-value-1.10.1.pom
+Progress (1): 2.7/9.1 kB
+Progress (1): 5.5/9.1 kB
+Progress (1): 8.2/9.1 kB
+Progress (1): 9.1 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/auto/value/auto-value/1.10.1/auto-value-1.10.1.pom (9.1 kB at 533 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/auth/google-auth-library-credentials/1.14.0/google-auth-library-credentials-1.14.0.pom
+Progress (1): 2.0 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/auth/google-auth-library-credentials/1.14.0/google-auth-library-credentials-1.14.0.pom (2.0 kB at 164 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/auth/google-auth-library-parent/1.14.0/google-auth-library-parent-1.14.0.pom
+Progress (1): 4.1/18 kB
+Progress (1): 8.2/18 kB
+Progress (1): 12/18 kB 
+Progress (1): 16/18 kB
+Progress (1): 18 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/auth/google-auth-library-parent/1.14.0/google-auth-library-parent-1.14.0.pom (18 kB at 1.5 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/api/grpc/proto-google-common-protos/2.11.0/proto-google-common-protos-2.11.0.pom
+Progress (1): 2.2 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/api/grpc/proto-google-common-protos/2.11.0/proto-google-common-protos-2.11.0.pom (2.2 kB at 186 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-java/3.21.12/protobuf-java-3.21.12.pom
+Progress (1): 4.1/5.4 kB
+Progress (1): 5.4 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-java/3.21.12/protobuf-java-3.21.12.pom (5.4 kB at 97 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-parent/3.21.12/protobuf-parent-3.21.12.pom
+Progress (1): 4.1/9.0 kB
+Progress (1): 8.2/9.0 kB
+Progress (1): 9.0 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-parent/3.21.12/protobuf-parent-3.21.12.pom (9.0 kB at 563 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/threeten/threetenbp/1.6.5/threetenbp-1.6.5.pom
+Progress (1): 4.1/33 kB
+Progress (1): 8.2/33 kB
+Progress (1): 12/33 kB 
+Progress (1): 16/33 kB
+Progress (1): 20/33 kB
+Progress (1): 25/33 kB
+Progress (1): 29/33 kB
+Progress (1): 33 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/threeten/threetenbp/1.6.5/threetenbp-1.6.5.pom (33 kB at 1.7 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-context/1.51.1/grpc-context-1.51.1.pom
+Progress (1): 1.2 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-context/1.51.1/grpc-context-1.51.1.pom (1.2 kB at 93 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/auth/google-auth-library-oauth2-http/1.14.0/google-auth-library-oauth2-http-1.14.0.pom
+Progress (1): 4.1/5.3 kB
+Progress (1): 5.3 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/auth/google-auth-library-oauth2-http/1.14.0/google-auth-library-oauth2-http-1.14.0.pom (5.3 kB at 132 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/graalvm/sdk/graal-sdk/22.3.0/graal-sdk-22.3.0.pom
+Progress (1): 1.4 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/graalvm/sdk/graal-sdk/22.3.0/graal-sdk-22.3.0.pom (1.4 kB at 113 kB/s)
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.3.0:tree (default-cli) @ gax ---
+[INFO] com.google.api:gax:jar:2.20.1
+[INFO] +- com.google.api:api-common:jar:2.3.1:compile
+[INFO] |  +- com.google.auto.value:auto-value-annotations:jar:1.10.1:compile
+[INFO] |  +- com.google.auto.value:auto-value:jar:1.10.1:compile
+[INFO] |  +- javax.annotation:javax.annotation-api:jar:1.3.2:compile
+[INFO] |  \- com.google.errorprone:error_prone_annotations:jar:2.16:compile
+[INFO] +- com.google.auth:google-auth-library-credentials:jar:1.14.0:compile
+[INFO] +- com.google.api.grpc:proto-google-common-protos:jar:2.11.0:compile
+[INFO] +- com.google.protobuf:protobuf-java:jar:3.21.12:compile
+[INFO] +- org.threeten:threetenbp:jar:1.6.5:compile
+[INFO] +- io.opencensus:opencensus-api:jar:0.31.1:compile
+[INFO] |  \- io.grpc:grpc-context:jar:1.51.1:compile
+[INFO] +- com.google.guava:guava:jar:31.1-jre:compile
+[INFO] |  +- com.google.guava:failureaccess:jar:1.0.1:compile
+[INFO] |  +- com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:compile
+[INFO] |  +- org.checkerframework:checker-qual:jar:3.12.0:compile
+[INFO] |  \- com.google.j2objc:j2objc-annotations:jar:1.3:compile
+[INFO] +- com.google.auth:google-auth-library-oauth2-http:jar:1.14.0:compile
+[INFO] |  +- com.google.http-client:google-http-client:jar:1.42.3:compile
+[INFO] |  |  +- org.apache.httpcomponents:httpclient:jar:4.5.13:compile
+[INFO] |  |  |  +- commons-logging:commons-logging:jar:1.2:compile
+[INFO] |  |  |  \- commons-codec:commons-codec:jar:1.11:compile
+[INFO] |  |  +- org.apache.httpcomponents:httpcore:jar:4.4.15:compile
+[INFO] |  |  \- io.opencensus:opencensus-contrib-http-util:jar:0.31.1:compile
+[INFO] |  \- com.google.http-client:google-http-client-gson:jar:1.42.3:compile
+[INFO] |     \- com.google.code.gson:gson:jar:2.10:compile
+[INFO] +- com.google.code.findbugs:jsr305:jar:3.0.2:provided
+[INFO] +- org.graalvm.sdk:graal-sdk:jar:22.3.0:provided
+[INFO] +- junit:junit:jar:4.13.2:test
+[INFO] |  \- org.hamcrest:hamcrest-core:jar:1.3:test
+[INFO] +- org.mockito:mockito-core:jar:4.11.0:test
+[INFO] |  +- net.bytebuddy:byte-buddy:jar:1.12.19:test
+[INFO] |  +- net.bytebuddy:byte-buddy-agent:jar:1.12.19:test
+[INFO] |  \- org.objenesis:objenesis:jar:3.3:test
+[INFO] \- com.google.truth:truth:jar:1.1.3:test
+[INFO]    \- org.ow2.asm:asm:jar:9.1:test
+[INFO] 
+[INFO] ----------------------< com.google.api:gax-grpc >-----------------------
+[INFO] Building GAX (Google Api eXtensions) for Java (gRPC) 2.20.1        [3/5]
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-api/1.51.1/grpc-api-1.51.1.pom
+Progress (1): 2.0 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-api/1.51.1/grpc-api-1.51.1.pom (2.0 kB at 164 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-alts/1.51.1/grpc-alts-1.51.1.pom
+Progress (1): 2.9 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-alts/1.51.1/grpc-alts-1.51.1.pom (2.9 kB at 124 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-auth/1.51.1/grpc-auth-1.51.1.pom
+Progress (1): 1.8 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-auth/1.51.1/grpc-auth-1.51.1.pom (1.8 kB at 89 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-grpclb/1.51.1/grpc-grpclb-1.51.1.pom
+Progress (1): 2.5 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-grpclb/1.51.1/grpc-grpclb-1.51.1.pom (2.5 kB at 23 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-core/1.51.1/grpc-core-1.51.1.pom
+Progress (1): 2.5 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-core/1.51.1/grpc-core-1.51.1.pom (2.5 kB at 55 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/animal-sniffer-annotations/1.21/animal-sniffer-annotations-1.21.pom
+Progress (1): 2.6 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/animal-sniffer-annotations/1.21/animal-sniffer-annotations-1.21.pom (2.6 kB at 63 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-protobuf/1.51.1/grpc-protobuf-1.51.1.pom
+Progress (1): 2.7 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-protobuf/1.51.1/grpc-protobuf-1.51.1.pom (2.7 kB at 64 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-protobuf-lite/1.51.1/grpc-protobuf-lite-1.51.1.pom
+Progress (1): 2.0 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-protobuf-lite/1.51.1/grpc-protobuf-lite-1.51.1.pom (2.0 kB at 24 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-stub/1.51.1/grpc-stub-1.51.1.pom
+Progress (1): 1.8 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-stub/1.51.1/grpc-stub-1.51.1.pom (1.8 kB at 31 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-java-util/3.21.12/protobuf-java-util-3.21.12.pom
+Progress (1): 4.1/5.6 kB
+Progress (1): 5.6 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-java-util/3.21.12/protobuf-java-util-3.21.12.pom (5.6 kB at 97 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-netty-shaded/1.51.1/grpc-netty-shaded-1.51.1.pom
+Progress (1): 2.0 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-netty-shaded/1.51.1/grpc-netty-shaded-1.51.1.pom (2.0 kB at 166 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-googleapis/1.51.1/grpc-googleapis-1.51.1.pom
+Progress (1): 2.1 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-googleapis/1.51.1/grpc-googleapis-1.51.1.pom (2.1 kB at 212 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-xds/1.51.1/grpc-xds-1.51.1.pom
+Progress (1): 3.4 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-xds/1.51.1/grpc-xds-1.51.1.pom (3.4 kB at 33 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-services/1.51.1/grpc-services-1.51.1.pom
+Progress (1): 2.3 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-services/1.51.1/grpc-services-1.51.1.pom (2.3 kB at 179 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/api/grpc/grpc-google-common-protos/2.11.0/grpc-google-common-protos-2.11.0.pom
+Progress (1): 4.1/9.1 kB
+Progress (1): 8.2/9.1 kB
+Progress (1): 9.1 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/api/grpc/grpc-google-common-protos/2.11.0/grpc-google-common-protos-2.11.0.pom (9.1 kB at 66 kB/s)
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.3.0:tree (default-cli) @ gax-grpc ---
+[INFO] com.google.api:gax-grpc:jar:2.20.1
+[INFO] +- com.google.api:gax:jar:2.20.1:compile
+[INFO] |  +- com.google.protobuf:protobuf-java:jar:3.21.12:compile
+[INFO] |  \- io.opencensus:opencensus-api:jar:0.31.1:compile
+[INFO] +- com.google.api:api-common:jar:2.3.1:compile
+[INFO] |  +- com.google.auto.value:auto-value:jar:1.10.1:compile
+[INFO] |  +- javax.annotation:javax.annotation-api:jar:1.3.2:compile
+[INFO] |  \- com.google.errorprone:error_prone_annotations:jar:2.16:compile
+[INFO] +- com.google.api.grpc:proto-google-common-protos:jar:2.11.0:compile
+[INFO] +- com.google.auth:google-auth-library-credentials:jar:1.14.0:compile
+[INFO] +- com.google.guava:guava:jar:31.1-jre:compile
+[INFO] |  +- com.google.guava:failureaccess:jar:1.0.1:compile
+[INFO] |  +- com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:compile
+[INFO] |  +- org.checkerframework:checker-qual:jar:3.12.0:compile
+[INFO] |  \- com.google.j2objc:j2objc-annotations:jar:1.3:compile
+[INFO] +- io.grpc:grpc-api:jar:1.51.1:compile
+[INFO] |  \- io.grpc:grpc-context:jar:1.51.1:compile
+[INFO] +- org.threeten:threetenbp:jar:1.6.5:compile
+[INFO] +- com.google.auth:google-auth-library-oauth2-http:jar:1.14.0:compile
+[INFO] |  +- com.google.http-client:google-http-client:jar:1.42.3:compile
+[INFO] |  |  +- org.apache.httpcomponents:httpclient:jar:4.5.13:compile
+[INFO] |  |  |  +- commons-logging:commons-logging:jar:1.2:compile
+[INFO] |  |  |  \- commons-codec:commons-codec:jar:1.11:compile
+[INFO] |  |  +- org.apache.httpcomponents:httpcore:jar:4.4.15:compile
+[INFO] |  |  \- io.opencensus:opencensus-contrib-http-util:jar:0.31.1:compile
+[INFO] |  \- com.google.http-client:google-http-client-gson:jar:1.42.3:compile
+[INFO] |     \- com.google.code.gson:gson:jar:2.10:compile
+[INFO] +- io.grpc:grpc-alts:jar:1.51.1:compile
+[INFO] |  +- io.grpc:grpc-grpclb:jar:1.51.1:compile
+[INFO] |  |  \- com.google.protobuf:protobuf-java-util:jar:3.21.12:runtime
+[INFO] |  \- org.conscrypt:conscrypt-openjdk-uber:jar:2.5.2:compile
+[INFO] +- io.grpc:grpc-auth:jar:1.51.1:compile
+[INFO] +- io.grpc:grpc-protobuf:jar:1.51.1:compile
+[INFO] |  \- io.grpc:grpc-protobuf-lite:jar:1.51.1:compile
+[INFO] +- io.grpc:grpc-stub:jar:1.51.1:compile
+[INFO] +- io.grpc:grpc-netty-shaded:jar:1.51.1:runtime
+[INFO] |  +- io.perfmark:perfmark-api:jar:0.25.0:runtime
+[INFO] |  \- io.grpc:grpc-core:jar:1.51.1:runtime
+[INFO] |     +- com.google.android:annotations:jar:4.1.1.4:runtime
+[INFO] |     \- org.codehaus.mojo:animal-sniffer-annotations:jar:1.21:runtime
+[INFO] +- io.grpc:grpc-googleapis:jar:1.51.1:runtime
+[INFO] |  \- io.grpc:grpc-xds:jar:1.51.1:runtime
+[INFO] |     +- io.opencensus:opencensus-proto:jar:0.2.0:runtime
+[INFO] |     +- io.grpc:grpc-services:jar:1.51.1:runtime
+[INFO] |     \- com.google.re2j:re2j:jar:1.6:runtime
+[INFO] +- com.google.code.findbugs:jsr305:jar:3.0.2:provided
+[INFO] +- org.graalvm.sdk:graal-sdk:jar:22.3.0:provided
+[INFO] +- com.google.auto.value:auto-value-annotations:jar:1.10.1:provided
+[INFO] +- com.google.api.grpc:grpc-google-common-protos:jar:2.11.0:test
+[INFO] +- com.google.api:gax:test-jar:testlib:2.20.1:test
+[INFO] +- junit:junit:jar:4.13.2:test
+[INFO] |  \- org.hamcrest:hamcrest-core:jar:1.3:test
+[INFO] +- org.mockito:mockito-core:jar:4.11.0:test
+[INFO] |  +- net.bytebuddy:byte-buddy:jar:1.12.19:test
+[INFO] |  +- net.bytebuddy:byte-buddy-agent:jar:1.12.19:test
+[INFO] |  \- org.objenesis:objenesis:jar:3.3:test
+[INFO] \- com.google.truth:truth:jar:1.1.3:test
+[INFO]    \- org.ow2.asm:asm:jar:9.1:test
+[INFO] 
+[INFO] --------------------< com.google.api:gax-httpjson >---------------------
+[INFO] Building GAX (Google Api eXtensions) for Java (HTTP JSON) 0.105.1  [4/5]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.3.0:tree (default-cli) @ gax-httpjson ---
+[INFO] com.google.api:gax-httpjson:jar:0.105.1
+[INFO] +- com.google.api:gax:jar:2.20.1:compile
+[INFO] |  \- io.opencensus:opencensus-api:jar:0.31.1:compile
+[INFO] |     \- io.grpc:grpc-context:jar:1.51.1:compile
+[INFO] +- com.google.api:api-common:jar:2.3.1:compile
+[INFO] |  +- com.google.auto.value:auto-value:jar:1.10.1:compile
+[INFO] |  +- javax.annotation:javax.annotation-api:jar:1.3.2:compile
+[INFO] |  \- com.google.errorprone:error_prone_annotations:jar:2.16:compile
+[INFO] +- com.google.api.grpc:proto-google-common-protos:jar:2.11.0:compile
+[INFO] +- com.google.auth:google-auth-library-credentials:jar:1.14.0:compile
+[INFO] +- com.google.code.gson:gson:jar:2.10:compile
+[INFO] +- com.google.guava:guava:jar:31.1-jre:compile
+[INFO] |  +- com.google.guava:failureaccess:jar:1.0.1:compile
+[INFO] |  +- com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:compile
+[INFO] |  +- org.checkerframework:checker-qual:jar:3.12.0:compile
+[INFO] |  \- com.google.j2objc:j2objc-annotations:jar:1.3:compile
+[INFO] +- com.google.http-client:google-http-client:jar:1.42.3:compile
+[INFO] |  +- org.apache.httpcomponents:httpclient:jar:4.5.13:compile
+[INFO] |  |  +- commons-logging:commons-logging:jar:1.2:compile
+[INFO] |  |  \- commons-codec:commons-codec:jar:1.11:compile
+[INFO] |  +- org.apache.httpcomponents:httpcore:jar:4.4.15:compile
+[INFO] |  \- io.opencensus:opencensus-contrib-http-util:jar:0.31.1:compile
+[INFO] +- com.google.protobuf:protobuf-java:jar:3.21.12:compile
+[INFO] +- org.threeten:threetenbp:jar:1.6.5:compile
+[INFO] +- com.google.auth:google-auth-library-oauth2-http:jar:1.14.0:compile
+[INFO] +- com.google.http-client:google-http-client-gson:jar:1.42.3:compile
+[INFO] +- com.google.protobuf:protobuf-java-util:jar:3.21.12:compile
+[INFO] +- com.google.code.findbugs:jsr305:jar:3.0.2:provided
+[INFO] +- com.google.auto.value:auto-value-annotations:jar:1.10.1:provided
+[INFO] +- com.google.api:gax:test-jar:testlib:2.20.1:test
+[INFO] +- junit:junit:jar:4.13.2:test
+[INFO] |  \- org.hamcrest:hamcrest-core:jar:1.3:test
+[INFO] +- org.mockito:mockito-core:jar:4.11.0:test
+[INFO] |  +- net.bytebuddy:byte-buddy:jar:1.12.19:test
+[INFO] |  +- net.bytebuddy:byte-buddy-agent:jar:1.12.19:test
+[INFO] |  \- org.objenesis:objenesis:jar:3.3:test
+[INFO] \- com.google.truth:truth:jar:1.1.3:test
+[INFO]    \- org.ow2.asm:asm:jar:9.1:test
+[INFO] 
+[INFO] -----------------------< com.google.api:gax-bom >-----------------------
+[INFO] Building GAX (Google Api eXtensions) for Java (BOM) 2.20.1         [5/5]
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.3.0:tree (default-cli) @ gax-bom ---
+[INFO] com.google.api:gax-bom:pom:2.20.1
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] GAX (Google Api eXtensions) for Java (Parent) 2.20.1 SUCCESS [  0.497 s]
+[INFO] GAX (Google Api eXtensions) for Java (Core) 2.20.1 . SUCCESS [  0.381 s]
+[INFO] GAX (Google Api eXtensions) for Java (gRPC) 2.20.1 . SUCCESS [  0.830 s]
+[INFO] GAX (Google Api eXtensions) for Java (HTTP JSON) 0.105.1 SUCCESS [  0.012 s]
+[INFO] GAX (Google Api eXtensions) for Java (BOM) 2.20.1 .. SUCCESS [  0.003 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.857 s
+[INFO] Finished at: 2023-09-25T20:01:44Z
+[INFO] ------------------------------------------------------------------------

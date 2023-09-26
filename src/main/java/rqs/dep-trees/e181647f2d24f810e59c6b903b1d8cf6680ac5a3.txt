@@ -1,43 +1,84 @@
 [INFO] Scanning for projects...
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/cloud/google-cloud-shared-config/1.0.0/google-cloud-shared-config-1.0.0.pom
+Progress (1): 2.7/27 kB
+Progress (1): 5.5/27 kB
+Progress (1): 8.2/27 kB
+Progress (1): 11/27 kB 
+Progress (1): 14/27 kB
+Progress (1): 16/27 kB
+Progress (1): 19/27 kB
+Progress (1): 21/27 kB
+Progress (1): 24/27 kB
+Progress (1): 27/27 kB
+Progress (1): 27 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/cloud/google-cloud-shared-config/1.0.0/google-cloud-shared-config-1.0.0.pom (27 kB at 154 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/cloud/google-cloud-shared-dependencies/1.4.0/google-cloud-shared-dependencies-1.4.0.pom
+Progress (1): 2.7/11 kB
+Progress (1): 5.5/11 kB
+Progress (1): 8.2/11 kB
+Progress (1): 11/11 kB 
+Progress (1): 11 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/cloud/google-cloud-shared-dependencies/1.4.0/google-cloud-shared-dependencies-1.4.0.pom (11 kB at 440 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-bom/1.39.0/grpc-bom-1.39.0.pom
+Progress (1): 2.7/4.7 kB
+Progress (1): 4.7 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-bom/1.39.0/grpc-bom-1.39.0.pom (4.7 kB at 430 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/api/gax-bom/1.66.0/gax-bom-1.66.0.pom
+Progress (1): 2.7 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/api/gax-bom/1.66.0/gax-bom-1.66.0.pom (2.7 kB at 178 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/cloud/google-cloud-core-bom/1.95.4/google-cloud-core-bom-1.95.4.pom
+Progress (1): 2.7/3.0 kB
+Progress (1): 3.0 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/cloud/google-cloud-core-bom/1.95.4/google-cloud-core-bom-1.95.4.pom (3.0 kB at 198 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/auth/google-auth-library-bom/0.26.0/google-auth-library-bom-0.26.0.pom
+Progress (1): 2.7/4.8 kB
+Progress (1): 4.8 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/auth/google-auth-library-bom/0.26.0/google-auth-library-bom-0.26.0.pom (4.8 kB at 344 kB/s)
 [WARNING] 
 [WARNING] Some problems were encountered while building the effective model for com.google.api.grpc:proto-google-cloud-vision-v1p4beta1:jar:0.86.8-SNAPSHOT
-[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:animal-sniffer-maven-plugin is missing. @ com.google.cloud:google-cloud-shared-config:1.0.0, C:\Users\frank_bump\.m2\repository\com\google\cloud\google-cloud-shared-config\1.0.0\google-cloud-shared-config-1.0.0.pom, line 413, column 15
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:animal-sniffer-maven-plugin is missing. @ com.google.cloud:google-cloud-shared-config:1.0.0, /root/.m2/repository/com/google/cloud/google-cloud-shared-config/1.0.0/google-cloud-shared-config-1.0.0.pom, line 413, column 15
 [WARNING] 
 [WARNING] Some problems were encountered while building the effective model for com.google.api.grpc:proto-google-cloud-vision-v1:jar:1.103.8-SNAPSHOT
-[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:animal-sniffer-maven-plugin is missing. @ com.google.cloud:google-cloud-shared-config:1.0.0, C:\Users\frank_bump\.m2\repository\com\google\cloud\google-cloud-shared-config\1.0.0\google-cloud-shared-config-1.0.0.pom, line 413, column 15
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:animal-sniffer-maven-plugin is missing. @ com.google.cloud:google-cloud-shared-config:1.0.0, /root/.m2/repository/com/google/cloud/google-cloud-shared-config/1.0.0/google-cloud-shared-config-1.0.0.pom, line 413, column 15
 [WARNING] 
 [WARNING] Some problems were encountered while building the effective model for com.google.api.grpc:proto-google-cloud-vision-v1p1beta1:jar:0.86.8-SNAPSHOT
-[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:animal-sniffer-maven-plugin is missing. @ com.google.cloud:google-cloud-shared-config:1.0.0, C:\Users\frank_bump\.m2\repository\com\google\cloud\google-cloud-shared-config\1.0.0\google-cloud-shared-config-1.0.0.pom, line 413, column 15
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:animal-sniffer-maven-plugin is missing. @ com.google.cloud:google-cloud-shared-config:1.0.0, /root/.m2/repository/com/google/cloud/google-cloud-shared-config/1.0.0/google-cloud-shared-config-1.0.0.pom, line 413, column 15
 [WARNING] 
 [WARNING] Some problems were encountered while building the effective model for com.google.api.grpc:proto-google-cloud-vision-v1p3beta1:jar:0.86.8-SNAPSHOT
-[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:animal-sniffer-maven-plugin is missing. @ com.google.cloud:google-cloud-shared-config:1.0.0, C:\Users\frank_bump\.m2\repository\com\google\cloud\google-cloud-shared-config\1.0.0\google-cloud-shared-config-1.0.0.pom, line 413, column 15
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:animal-sniffer-maven-plugin is missing. @ com.google.cloud:google-cloud-shared-config:1.0.0, /root/.m2/repository/com/google/cloud/google-cloud-shared-config/1.0.0/google-cloud-shared-config-1.0.0.pom, line 413, column 15
 [WARNING] 
 [WARNING] Some problems were encountered while building the effective model for com.google.api.grpc:proto-google-cloud-vision-v1p2beta1:jar:1.103.8-SNAPSHOT
-[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:animal-sniffer-maven-plugin is missing. @ com.google.cloud:google-cloud-shared-config:1.0.0, C:\Users\frank_bump\.m2\repository\com\google\cloud\google-cloud-shared-config\1.0.0\google-cloud-shared-config-1.0.0.pom, line 413, column 15
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:animal-sniffer-maven-plugin is missing. @ com.google.cloud:google-cloud-shared-config:1.0.0, /root/.m2/repository/com/google/cloud/google-cloud-shared-config/1.0.0/google-cloud-shared-config-1.0.0.pom, line 413, column 15
 [WARNING] 
 [WARNING] Some problems were encountered while building the effective model for com.google.api.grpc:grpc-google-cloud-vision-v1p3beta1:jar:0.86.8-SNAPSHOT
-[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:animal-sniffer-maven-plugin is missing. @ com.google.cloud:google-cloud-shared-config:1.0.0, C:\Users\frank_bump\.m2\repository\com\google\cloud\google-cloud-shared-config\1.0.0\google-cloud-shared-config-1.0.0.pom, line 413, column 15
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:animal-sniffer-maven-plugin is missing. @ com.google.cloud:google-cloud-shared-config:1.0.0, /root/.m2/repository/com/google/cloud/google-cloud-shared-config/1.0.0/google-cloud-shared-config-1.0.0.pom, line 413, column 15
 [WARNING] 
 [WARNING] Some problems were encountered while building the effective model for com.google.api.grpc:grpc-google-cloud-vision-v1p1beta1:jar:0.86.8-SNAPSHOT
-[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:animal-sniffer-maven-plugin is missing. @ com.google.cloud:google-cloud-shared-config:1.0.0, C:\Users\frank_bump\.m2\repository\com\google\cloud\google-cloud-shared-config\1.0.0\google-cloud-shared-config-1.0.0.pom, line 413, column 15
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:animal-sniffer-maven-plugin is missing. @ com.google.cloud:google-cloud-shared-config:1.0.0, /root/.m2/repository/com/google/cloud/google-cloud-shared-config/1.0.0/google-cloud-shared-config-1.0.0.pom, line 413, column 15
 [WARNING] 
 [WARNING] Some problems were encountered while building the effective model for com.google.api.grpc:grpc-google-cloud-vision-v1p4beta1:jar:0.86.8-SNAPSHOT
-[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:animal-sniffer-maven-plugin is missing. @ com.google.cloud:google-cloud-shared-config:1.0.0, C:\Users\frank_bump\.m2\repository\com\google\cloud\google-cloud-shared-config\1.0.0\google-cloud-shared-config-1.0.0.pom, line 413, column 15
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:animal-sniffer-maven-plugin is missing. @ com.google.cloud:google-cloud-shared-config:1.0.0, /root/.m2/repository/com/google/cloud/google-cloud-shared-config/1.0.0/google-cloud-shared-config-1.0.0.pom, line 413, column 15
 [WARNING] 
 [WARNING] Some problems were encountered while building the effective model for com.google.api.grpc:grpc-google-cloud-vision-v1p2beta1:jar:1.103.8-SNAPSHOT
-[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:animal-sniffer-maven-plugin is missing. @ com.google.cloud:google-cloud-shared-config:1.0.0, C:\Users\frank_bump\.m2\repository\com\google\cloud\google-cloud-shared-config\1.0.0\google-cloud-shared-config-1.0.0.pom, line 413, column 15
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:animal-sniffer-maven-plugin is missing. @ com.google.cloud:google-cloud-shared-config:1.0.0, /root/.m2/repository/com/google/cloud/google-cloud-shared-config/1.0.0/google-cloud-shared-config-1.0.0.pom, line 413, column 15
 [WARNING] 
 [WARNING] Some problems were encountered while building the effective model for com.google.api.grpc:grpc-google-cloud-vision-v1:jar:1.103.8-SNAPSHOT
-[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:animal-sniffer-maven-plugin is missing. @ com.google.cloud:google-cloud-shared-config:1.0.0, C:\Users\frank_bump\.m2\repository\com\google\cloud\google-cloud-shared-config\1.0.0\google-cloud-shared-config-1.0.0.pom, line 413, column 15
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:animal-sniffer-maven-plugin is missing. @ com.google.cloud:google-cloud-shared-config:1.0.0, /root/.m2/repository/com/google/cloud/google-cloud-shared-config/1.0.0/google-cloud-shared-config-1.0.0.pom, line 413, column 15
 [WARNING] 
 [WARNING] Some problems were encountered while building the effective model for com.google.cloud:google-cloud-vision:jar:1.103.8-SNAPSHOT
-[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:animal-sniffer-maven-plugin is missing. @ com.google.cloud:google-cloud-shared-config:1.0.0, C:\Users\frank_bump\.m2\repository\com\google\cloud\google-cloud-shared-config\1.0.0\google-cloud-shared-config-1.0.0.pom, line 413, column 15
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:animal-sniffer-maven-plugin is missing. @ com.google.cloud:google-cloud-shared-config:1.0.0, /root/.m2/repository/com/google/cloud/google-cloud-shared-config/1.0.0/google-cloud-shared-config-1.0.0.pom, line 413, column 15
 [WARNING] 
 [WARNING] Some problems were encountered while building the effective model for com.google.cloud:google-cloud-vision-bom:pom:1.103.8-SNAPSHOT
-[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:animal-sniffer-maven-plugin is missing. @ com.google.cloud:google-cloud-shared-config:1.0.0, C:\Users\frank_bump\.m2\repository\com\google\cloud\google-cloud-shared-config\1.0.0\google-cloud-shared-config-1.0.0.pom, line 413, column 15
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:animal-sniffer-maven-plugin is missing. @ com.google.cloud:google-cloud-shared-config:1.0.0, /root/.m2/repository/com/google/cloud/google-cloud-shared-config/1.0.0/google-cloud-shared-config-1.0.0.pom, line 413, column 15
 [WARNING] 
 [WARNING] Some problems were encountered while building the effective model for com.google.cloud:google-cloud-vision-parent:pom:1.103.8-SNAPSHOT
-[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:animal-sniffer-maven-plugin is missing. @ com.google.cloud:google-cloud-shared-config:1.0.0, C:\Users\frank_bump\.m2\repository\com\google\cloud\google-cloud-shared-config\1.0.0\google-cloud-shared-config-1.0.0.pom, line 413, column 15
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:animal-sniffer-maven-plugin is missing. @ com.google.cloud:google-cloud-shared-config:1.0.0, /root/.m2/repository/com/google/cloud/google-cloud-shared-config/1.0.0/google-cloud-shared-config-1.0.0.pom, line 413, column 15
 [WARNING] 
 [WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
 [WARNING] 
@@ -62,61 +103,433 @@
 [INFO] grpc-google-cloud-vision-v1                                        [jar]
 [INFO] Google Cloud Vision                                                [jar]
 [INFO] Google Cloud Vision BOM                                            [pom]
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/animal-sniffer-maven-plugin/maven-metadata.xml
+Progress (1): 941 B
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/animal-sniffer-maven-plugin/maven-metadata.xml (941 B at 52 kB/s)
 [INFO] 
 [INFO] ------------< com.google.cloud:google-cloud-vision-parent >-------------
 [INFO] Building Google Cloud Vision Parent 1.103.8-SNAPSHOT              [1/13]
-[INFO]   from pom.xml
 [INFO] --------------------------------[ pom ]---------------------------------
 [INFO] 
-[INFO] --- enforcer:3.0.0-M3:enforce (enforce) @ google-cloud-vision-parent ---
-[INFO] Adding ignore: module-info
-[INFO] Adding ignore: META-INF/versions/*/module-info
-[INFO] 
-[INFO] --- checkstyle:3.1.2:check (checkstyle) @ google-cloud-vision-parent ---
-[INFO] Starting audit...
-Audit done.
-[INFO] You have 0 Checkstyle violations.
-[INFO] 
-[INFO] --- jacoco:0.8.7:prepare-agent (default) @ google-cloud-vision-parent ---
-[INFO] argLine set to -javaagent:C:\\Users\\frank_bump\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.8.7\\org.jacoco.agent-0.8.7-runtime.jar=destfile=D:\\Bump\\breaking-updates\\tempProject\\e181647f2d24f810e59c6b903b1d8cf6680ac5a3\\java-vision\\target\\jacoco.exec
-[INFO] 
-[INFO] --- build-helper:3.2.0:add-resource (add-main-proto-resources) @ google-cloud-vision-parent ---
-[INFO] 
-[INFO] --- dependency:3.1.2:tree (default-cli) @ google-cloud-vision-parent ---
+[INFO] --- maven-dependency-plugin:3.1.2:tree (default-cli) @ google-cloud-vision-parent ---
 [INFO] com.google.cloud:google-cloud-vision-parent:pom:1.103.8-SNAPSHOT
 [INFO] 
 [INFO] ------< com.google.api.grpc:proto-google-cloud-vision-v1p4beta1 >-------
 [INFO] Building proto-google-cloud-vision-v1p4beta1 0.86.8-SNAPSHOT      [2/13]
-[INFO]   from proto-google-cloud-vision-v1p4beta1\pom.xml
 [INFO] --------------------------------[ jar ]---------------------------------
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/api/grpc/proto-google-common-protos/2.3.2/proto-google-common-protos-2.3.2.pom
+Progress (1): 2.2 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/api/grpc/proto-google-common-protos/2.3.2/proto-google-common-protos-2.3.2.pom (2.2 kB at 220 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/api/api-common/1.10.4/api-common-1.10.4.pom
+Progress (1): 2.0 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/api/api-common/1.10.4/api-common-1.10.4.pom (2.0 kB at 105 kB/s)
 [INFO] 
-[INFO] --- enforcer:3.0.0-M3:enforce (enforce) @ proto-google-cloud-vision-v1p4beta1 ---
-[INFO] Adding ignore: module-info
-[INFO] Adding ignore: META-INF/versions/*/module-info
-[INFO] 
-[INFO] --- checkstyle:3.1.2:check (checkstyle) @ proto-google-cloud-vision-v1p4beta1 ---
-[INFO] Starting audit...
-Audit done.
-[INFO] You have 0 Checkstyle violations.
-[INFO] 
-[INFO] --- jacoco:0.8.7:prepare-agent (default) @ proto-google-cloud-vision-v1p4beta1 ---
-[INFO] argLine set to -javaagent:C:\\Users\\frank_bump\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.8.7\\org.jacoco.agent-0.8.7-runtime.jar=destfile=D:\\Bump\\breaking-updates\\tempProject\\e181647f2d24f810e59c6b903b1d8cf6680ac5a3\\java-vision\\proto-google-cloud-vision-v1p4beta1\\target\\jacoco.exec
-[INFO] 
-[INFO] --- build-helper:3.2.0:add-resource (add-main-proto-resources) @ proto-google-cloud-vision-v1p4beta1 ---
-[INFO] 
-[INFO] --- resources:3.3.1:resources (default-resources) @ proto-google-cloud-vision-v1p4beta1 ---
-[INFO] skip non existing resourceDirectory D:\Bump\breaking-updates\tempProject\e181647f2d24f810e59c6b903b1d8cf6680ac5a3\java-vision\proto-google-cloud-vision-v1p4beta1\src\main\resources
-[INFO] Copying 7 resources from src\main\proto to target\classes
-[INFO] 
-[INFO] --- flatten:1.2.7:flatten (flatten) @ proto-google-cloud-vision-v1p4beta1 ---
-[INFO] Generating flattened POM of project com.google.api.grpc:proto-google-cloud-vision-v1p4beta1:jar:0.86.8-SNAPSHOT...
-[INFO] 
-[INFO] --- compiler:3.8.1:compile (default-compile) @ proto-google-cloud-vision-v1p4beta1 ---
-[INFO] Changes detected - recompiling the module!
-[INFO] Compiling 184 source files to D:\Bump\breaking-updates\tempProject\e181647f2d24f810e59c6b903b1d8cf6680ac5a3\java-vision\proto-google-cloud-vision-v1p4beta1\target\classes
-[WARNING] bootstrap class path not set in conjunction with -source 8
-[INFO] 
-[INFO] --- dependency:3.1.2:tree (default-cli) @ proto-google-cloud-vision-v1p4beta1 ---
+[INFO] --- maven-dependency-plugin:3.1.2:tree (default-cli) @ proto-google-cloud-vision-v1p4beta1 ---
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/api/grpc/proto-google-common-protos/2.3.2/proto-google-common-protos-2.3.2.jar
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/30.1.1-android/guava-30.1.1-android.jar
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.7.1/error_prone_annotations-2.7.1.jar
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/api/api-common/1.10.4/api-common-1.10.4.jar
+Progress (1): 4.1/15 kB
+Progress (1): 8.2/15 kB
+Progress (1): 12/15 kB 
+Progress (1): 15 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.7.1/error_prone_annotations-2.7.1.jar (15 kB at 706 kB/s)
+Progress (1): 0/1.7 MB
+Progress (1): 0/1.7 MB
+Progress (1): 0/1.7 MB
+Progress (1): 0/1.7 MB
+Progress (2): 0/1.7 MB | 2.7/49 kB
+Progress (2): 0/1.7 MB | 5.5/49 kB
+Progress (2): 0/1.7 MB | 8.2/49 kB
+Progress (2): 0/1.7 MB | 11/49 kB 
+Progress (2): 0/1.7 MB | 14/49 kB
+Progress (2): 0/1.7 MB | 16/49 kB
+Progress (2): 0/1.7 MB | 19/49 kB
+Progress (2): 0/1.7 MB | 22/49 kB
+Progress (2): 0/1.7 MB | 25/49 kB
+Progress (2): 0/1.7 MB | 27/49 kB
+Progress (2): 0/1.7 MB | 30/49 kB
+Progress (2): 0/1.7 MB | 33/49 kB
+Progress (2): 0/1.7 MB | 33/49 kB
+Progress (2): 0/1.7 MB | 36/49 kB
+Progress (2): 0/1.7 MB | 36/49 kB
+Progress (2): 0/1.7 MB | 38/49 kB
+Progress (2): 0/1.7 MB | 41/49 kB
+Progress (2): 0/1.7 MB | 44/49 kB
+Progress (2): 0/1.7 MB | 47/49 kB
+Progress (2): 0/1.7 MB | 49 kB   
+Progress (2): 0.1/1.7 MB | 49 kB
+Progress (2): 0.1/1.7 MB | 49 kB
+                                
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/api/api-common/1.10.4/api-common-1.10.4.jar (49 kB at 542 kB/s)
+Progress (1): 0.1/1.7 MB
+Progress (1): 0.1/1.7 MB
+Progress (1): 0.1/1.7 MB
+Progress (1): 0.1/1.7 MB
+Progress (1): 0.1/1.7 MB
+Progress (1): 0.1/1.7 MB
+Progress (1): 0.1/1.7 MB
+Progress (1): 0.1/1.7 MB
+Progress (1): 0.1/1.7 MB
+Progress (1): 0.1/1.7 MB
+Progress (1): 0.2/1.7 MB
+Progress (2): 0.2/1.7 MB | 0/2.7 MB
+Progress (2): 0.2/1.7 MB | 0/2.7 MB
+Progress (2): 0.2/1.7 MB | 0/2.7 MB
+Progress (2): 0.2/1.7 MB | 0/2.7 MB
+Progress (2): 0.2/1.7 MB | 0/2.7 MB
+Progress (2): 0.2/1.7 MB | 0/2.7 MB
+Progress (2): 0.2/1.7 MB | 0/2.7 MB
+Progress (2): 0.2/1.7 MB | 0/2.7 MB
+Progress (2): 0.2/1.7 MB | 0/2.7 MB
+Progress (2): 0.2/1.7 MB | 0/2.7 MB
+Progress (2): 0.2/1.7 MB | 0/2.7 MB
+Progress (2): 0.2/1.7 MB | 0/2.7 MB
+Progress (2): 0.2/1.7 MB | 0/2.7 MB
+Progress (2): 0.3/1.7 MB | 0/2.7 MB
+Progress (2): 0.3/1.7 MB | 0/2.7 MB
+Progress (2): 0.3/1.7 MB | 0/2.7 MB
+Progress (2): 0.3/1.7 MB | 0/2.7 MB
+Progress (2): 0.3/1.7 MB | 0/2.7 MB
+Progress (2): 0.3/1.7 MB | 0/2.7 MB
+Progress (2): 0.3/1.7 MB | 0/2.7 MB
+Progress (2): 0.3/1.7 MB | 0/2.7 MB
+Progress (2): 0.3/1.7 MB | 0/2.7 MB
+Progress (2): 0.3/1.7 MB | 0/2.7 MB
+Progress (2): 0.3/1.7 MB | 0/2.7 MB
+Progress (2): 0.3/1.7 MB | 0/2.7 MB
+Progress (2): 0.4/1.7 MB | 0/2.7 MB
+Progress (2): 0.4/1.7 MB | 0/2.7 MB
+Progress (2): 0.4/1.7 MB | 0/2.7 MB
+Progress (2): 0.4/1.7 MB | 0/2.7 MB
+Progress (2): 0.4/1.7 MB | 0/2.7 MB
+Progress (2): 0.4/1.7 MB | 0/2.7 MB
+Progress (2): 0.4/1.7 MB | 0/2.7 MB
+Progress (2): 0.4/1.7 MB | 0/2.7 MB
+Progress (2): 0.4/1.7 MB | 0.1/2.7 MB
+Progress (2): 0.4/1.7 MB | 0.1/2.7 MB
+Progress (2): 0.4/1.7 MB | 0.1/2.7 MB
+Progress (2): 0.4/1.7 MB | 0.1/2.7 MB
+Progress (2): 0.4/1.7 MB | 0.1/2.7 MB
+Progress (2): 0.4/1.7 MB | 0.1/2.7 MB
+Progress (2): 0.4/1.7 MB | 0.1/2.7 MB
+Progress (2): 0.5/1.7 MB | 0.1/2.7 MB
+Progress (2): 0.5/1.7 MB | 0.1/2.7 MB
+Progress (2): 0.5/1.7 MB | 0.1/2.7 MB
+Progress (2): 0.5/1.7 MB | 0.1/2.7 MB
+Progress (2): 0.5/1.7 MB | 0.1/2.7 MB
+Progress (2): 0.5/1.7 MB | 0.1/2.7 MB
+Progress (2): 0.5/1.7 MB | 0.1/2.7 MB
+Progress (2): 0.5/1.7 MB | 0.1/2.7 MB
+Progress (2): 0.5/1.7 MB | 0.1/2.7 MB
+Progress (2): 0.5/1.7 MB | 0.1/2.7 MB
+Progress (2): 0.5/1.7 MB | 0.1/2.7 MB
+Progress (2): 0.5/1.7 MB | 0.1/2.7 MB
+Progress (2): 0.5/1.7 MB | 0.1/2.7 MB
+Progress (2): 0.5/1.7 MB | 0.1/2.7 MB
+Progress (2): 0.5/1.7 MB | 0.1/2.7 MB
+Progress (2): 0.6/1.7 MB | 0.1/2.7 MB
+Progress (2): 0.6/1.7 MB | 0.1/2.7 MB
+Progress (2): 0.6/1.7 MB | 0.1/2.7 MB
+Progress (2): 0.6/1.7 MB | 0.1/2.7 MB
+Progress (2): 0.6/1.7 MB | 0.1/2.7 MB
+Progress (2): 0.6/1.7 MB | 0.1/2.7 MB
+Progress (2): 0.6/1.7 MB | 0.2/2.7 MB
+Progress (2): 0.6/1.7 MB | 0.2/2.7 MB
+Progress (2): 0.6/1.7 MB | 0.2/2.7 MB
+Progress (2): 0.6/1.7 MB | 0.2/2.7 MB
+Progress (2): 0.6/1.7 MB | 0.2/2.7 MB
+Progress (2): 0.6/1.7 MB | 0.2/2.7 MB
+Progress (2): 0.6/1.7 MB | 0.2/2.7 MB
+Progress (2): 0.6/1.7 MB | 0.2/2.7 MB
+Progress (2): 0.6/1.7 MB | 0.2/2.7 MB
+Progress (2): 0.6/1.7 MB | 0.2/2.7 MB
+Progress (2): 0.6/1.7 MB | 0.2/2.7 MB
+Progress (2): 0.7/1.7 MB | 0.2/2.7 MB
+Progress (2): 0.7/1.7 MB | 0.2/2.7 MB
+Progress (2): 0.7/1.7 MB | 0.2/2.7 MB
+Progress (2): 0.7/1.7 MB | 0.2/2.7 MB
+Progress (2): 0.7/1.7 MB | 0.2/2.7 MB
+Progress (2): 0.7/1.7 MB | 0.2/2.7 MB
+Progress (2): 0.7/1.7 MB | 0.2/2.7 MB
+Progress (2): 0.7/1.7 MB | 0.2/2.7 MB
+Progress (2): 0.7/1.7 MB | 0.2/2.7 MB
+Progress (2): 0.7/1.7 MB | 0.2/2.7 MB
+Progress (2): 0.7/1.7 MB | 0.2/2.7 MB
+Progress (2): 0.7/1.7 MB | 0.2/2.7 MB
+Progress (2): 0.7/1.7 MB | 0.2/2.7 MB
+Progress (2): 0.7/1.7 MB | 0.2/2.7 MB
+Progress (2): 0.7/1.7 MB | 0.2/2.7 MB
+Progress (2): 0.8/1.7 MB | 0.2/2.7 MB
+Progress (2): 0.8/1.7 MB | 0.2/2.7 MB
+Progress (2): 0.8/1.7 MB | 0.2/2.7 MB
+Progress (2): 0.8/1.7 MB | 0.3/2.7 MB
+Progress (2): 0.8/1.7 MB | 0.3/2.7 MB
+Progress (2): 0.8/1.7 MB | 0.3/2.7 MB
+Progress (2): 0.8/1.7 MB | 0.3/2.7 MB
+Progress (2): 0.8/1.7 MB | 0.3/2.7 MB
+Progress (2): 0.8/1.7 MB | 0.3/2.7 MB
+Progress (2): 0.8/1.7 MB | 0.3/2.7 MB
+Progress (2): 0.8/1.7 MB | 0.3/2.7 MB
+Progress (2): 0.8/1.7 MB | 0.3/2.7 MB
+Progress (2): 0.8/1.7 MB | 0.3/2.7 MB
+Progress (2): 0.8/1.7 MB | 0.3/2.7 MB
+Progress (2): 0.8/1.7 MB | 0.3/2.7 MB
+Progress (2): 0.8/1.7 MB | 0.3/2.7 MB
+Progress (2): 0.8/1.7 MB | 0.4/2.7 MB
+Progress (2): 0.8/1.7 MB | 0.4/2.7 MB
+Progress (2): 0.8/1.7 MB | 0.4/2.7 MB
+Progress (2): 0.8/1.7 MB | 0.4/2.7 MB
+Progress (2): 0.9/1.7 MB | 0.4/2.7 MB
+Progress (2): 0.9/1.7 MB | 0.4/2.7 MB
+Progress (2): 0.9/1.7 MB | 0.4/2.7 MB
+Progress (2): 0.9/1.7 MB | 0.4/2.7 MB
+Progress (2): 0.9/1.7 MB | 0.4/2.7 MB
+Progress (2): 0.9/1.7 MB | 0.4/2.7 MB
+Progress (2): 0.9/1.7 MB | 0.4/2.7 MB
+Progress (2): 0.9/1.7 MB | 0.4/2.7 MB
+Progress (2): 0.9/1.7 MB | 0.4/2.7 MB
+Progress (2): 0.9/1.7 MB | 0.4/2.7 MB
+Progress (2): 0.9/1.7 MB | 0.4/2.7 MB
+Progress (2): 0.9/1.7 MB | 0.4/2.7 MB
+Progress (2): 0.9/1.7 MB | 0.4/2.7 MB
+Progress (2): 0.9/1.7 MB | 0.4/2.7 MB
+Progress (2): 0.9/1.7 MB | 0.5/2.7 MB
+Progress (2): 0.9/1.7 MB | 0.5/2.7 MB
+Progress (2): 0.9/1.7 MB | 0.5/2.7 MB
+Progress (2): 0.9/1.7 MB | 0.5/2.7 MB
+Progress (2): 0.9/1.7 MB | 0.5/2.7 MB
+Progress (2): 1.0/1.7 MB | 0.5/2.7 MB
+Progress (2): 1.0/1.7 MB | 0.5/2.7 MB
+Progress (2): 1.0/1.7 MB | 0.5/2.7 MB
+Progress (2): 1.0/1.7 MB | 0.5/2.7 MB
+Progress (2): 1.0/1.7 MB | 0.5/2.7 MB
+Progress (2): 1.0/1.7 MB | 0.5/2.7 MB
+Progress (2): 1.0/1.7 MB | 0.5/2.7 MB
+Progress (2): 1.0/1.7 MB | 0.5/2.7 MB
+Progress (2): 1.0/1.7 MB | 0.5/2.7 MB
+Progress (2): 1.0/1.7 MB | 0.5/2.7 MB
+Progress (2): 1.0/1.7 MB | 0.5/2.7 MB
+Progress (2): 1.0/1.7 MB | 0.6/2.7 MB
+Progress (2): 1.0/1.7 MB | 0.6/2.7 MB
+Progress (2): 1.0/1.7 MB | 0.6/2.7 MB
+Progress (2): 1.0/1.7 MB | 0.6/2.7 MB
+Progress (2): 1.0/1.7 MB | 0.6/2.7 MB
+Progress (2): 1.0/1.7 MB | 0.6/2.7 MB
+Progress (2): 1.0/1.7 MB | 0.6/2.7 MB
+Progress (2): 1.1/1.7 MB | 0.6/2.7 MB
+Progress (2): 1.1/1.7 MB | 0.6/2.7 MB
+Progress (2): 1.1/1.7 MB | 0.6/2.7 MB
+Progress (2): 1.1/1.7 MB | 0.6/2.7 MB
+Progress (2): 1.1/1.7 MB | 0.6/2.7 MB
+Progress (2): 1.1/1.7 MB | 0.6/2.7 MB
+Progress (2): 1.1/1.7 MB | 0.6/2.7 MB
+Progress (2): 1.1/1.7 MB | 0.6/2.7 MB
+Progress (2): 1.1/1.7 MB | 0.6/2.7 MB
+Progress (2): 1.1/1.7 MB | 0.6/2.7 MB
+Progress (2): 1.1/1.7 MB | 0.6/2.7 MB
+Progress (2): 1.1/1.7 MB | 0.7/2.7 MB
+Progress (2): 1.1/1.7 MB | 0.7/2.7 MB
+Progress (2): 1.1/1.7 MB | 0.7/2.7 MB
+Progress (2): 1.1/1.7 MB | 0.7/2.7 MB
+Progress (2): 1.1/1.7 MB | 0.7/2.7 MB
+Progress (2): 1.1/1.7 MB | 0.7/2.7 MB
+Progress (2): 1.1/1.7 MB | 0.7/2.7 MB
+Progress (2): 1.1/1.7 MB | 0.7/2.7 MB
+Progress (2): 1.2/1.7 MB | 0.7/2.7 MB
+Progress (2): 1.2/1.7 MB | 0.7/2.7 MB
+Progress (2): 1.2/1.7 MB | 0.7/2.7 MB
+Progress (2): 1.2/1.7 MB | 0.7/2.7 MB
+Progress (2): 1.2/1.7 MB | 0.7/2.7 MB
+Progress (2): 1.2/1.7 MB | 0.7/2.7 MB
+Progress (2): 1.2/1.7 MB | 0.7/2.7 MB
+Progress (2): 1.2/1.7 MB | 0.8/2.7 MB
+Progress (2): 1.2/1.7 MB | 0.8/2.7 MB
+Progress (2): 1.2/1.7 MB | 0.8/2.7 MB
+Progress (2): 1.2/1.7 MB | 0.8/2.7 MB
+Progress (2): 1.2/1.7 MB | 0.8/2.7 MB
+Progress (2): 1.2/1.7 MB | 0.8/2.7 MB
+Progress (2): 1.2/1.7 MB | 0.8/2.7 MB
+Progress (2): 1.2/1.7 MB | 0.8/2.7 MB
+Progress (2): 1.2/1.7 MB | 0.8/2.7 MB
+Progress (2): 1.2/1.7 MB | 0.8/2.7 MB
+Progress (2): 1.2/1.7 MB | 0.8/2.7 MB
+Progress (2): 1.2/1.7 MB | 0.8/2.7 MB
+Progress (2): 1.2/1.7 MB | 0.8/2.7 MB
+Progress (2): 1.3/1.7 MB | 0.8/2.7 MB
+Progress (2): 1.3/1.7 MB | 0.9/2.7 MB
+Progress (2): 1.3/1.7 MB | 0.9/2.7 MB
+Progress (2): 1.3/1.7 MB | 0.9/2.7 MB
+Progress (2): 1.3/1.7 MB | 0.9/2.7 MB
+Progress (2): 1.3/1.7 MB | 0.9/2.7 MB
+Progress (2): 1.3/1.7 MB | 0.9/2.7 MB
+Progress (2): 1.3/1.7 MB | 0.9/2.7 MB
+Progress (2): 1.3/1.7 MB | 0.9/2.7 MB
+Progress (2): 1.3/1.7 MB | 0.9/2.7 MB
+Progress (2): 1.3/1.7 MB | 0.9/2.7 MB
+Progress (2): 1.3/1.7 MB | 0.9/2.7 MB
+Progress (2): 1.3/1.7 MB | 0.9/2.7 MB
+Progress (2): 1.3/1.7 MB | 0.9/2.7 MB
+Progress (2): 1.3/1.7 MB | 0.9/2.7 MB
+Progress (2): 1.3/1.7 MB | 0.9/2.7 MB
+Progress (2): 1.3/1.7 MB | 0.9/2.7 MB
+Progress (2): 1.3/1.7 MB | 0.9/2.7 MB
+Progress (2): 1.3/1.7 MB | 1.0/2.7 MB
+Progress (2): 1.3/1.7 MB | 1.0/2.7 MB
+Progress (2): 1.3/1.7 MB | 1.0/2.7 MB
+Progress (2): 1.4/1.7 MB | 1.0/2.7 MB
+Progress (2): 1.4/1.7 MB | 1.0/2.7 MB
+Progress (2): 1.4/1.7 MB | 1.0/2.7 MB
+Progress (2): 1.4/1.7 MB | 1.0/2.7 MB
+Progress (2): 1.4/1.7 MB | 1.0/2.7 MB
+Progress (2): 1.4/1.7 MB | 1.0/2.7 MB
+Progress (2): 1.4/1.7 MB | 1.0/2.7 MB
+Progress (2): 1.4/1.7 MB | 1.0/2.7 MB
+Progress (2): 1.4/1.7 MB | 1.0/2.7 MB
+Progress (2): 1.4/1.7 MB | 1.0/2.7 MB
+Progress (2): 1.4/1.7 MB | 1.0/2.7 MB
+Progress (2): 1.4/1.7 MB | 1.0/2.7 MB
+Progress (2): 1.4/1.7 MB | 1.0/2.7 MB
+Progress (2): 1.4/1.7 MB | 1.0/2.7 MB
+Progress (2): 1.4/1.7 MB | 1.1/2.7 MB
+Progress (2): 1.4/1.7 MB | 1.1/2.7 MB
+Progress (2): 1.4/1.7 MB | 1.1/2.7 MB
+Progress (2): 1.4/1.7 MB | 1.1/2.7 MB
+Progress (2): 1.5/1.7 MB | 1.1/2.7 MB
+Progress (2): 1.5/1.7 MB | 1.1/2.7 MB
+Progress (2): 1.5/1.7 MB | 1.1/2.7 MB
+Progress (2): 1.5/1.7 MB | 1.1/2.7 MB
+Progress (2): 1.5/1.7 MB | 1.1/2.7 MB
+Progress (2): 1.5/1.7 MB | 1.1/2.7 MB
+Progress (2): 1.5/1.7 MB | 1.1/2.7 MB
+Progress (2): 1.5/1.7 MB | 1.1/2.7 MB
+Progress (2): 1.5/1.7 MB | 1.1/2.7 MB
+Progress (2): 1.5/1.7 MB | 1.1/2.7 MB
+Progress (2): 1.5/1.7 MB | 1.1/2.7 MB
+Progress (2): 1.5/1.7 MB | 1.1/2.7 MB
+Progress (2): 1.5/1.7 MB | 1.2/2.7 MB
+Progress (2): 1.5/1.7 MB | 1.2/2.7 MB
+Progress (2): 1.5/1.7 MB | 1.2/2.7 MB
+Progress (2): 1.5/1.7 MB | 1.2/2.7 MB
+Progress (2): 1.5/1.7 MB | 1.2/2.7 MB
+Progress (2): 1.5/1.7 MB | 1.2/2.7 MB
+Progress (2): 1.5/1.7 MB | 1.2/2.7 MB
+Progress (2): 1.6/1.7 MB | 1.2/2.7 MB
+Progress (2): 1.6/1.7 MB | 1.2/2.7 MB
+Progress (2): 1.6/1.7 MB | 1.2/2.7 MB
+Progress (2): 1.6/1.7 MB | 1.2/2.7 MB
+Progress (2): 1.6/1.7 MB | 1.2/2.7 MB
+Progress (2): 1.6/1.7 MB | 1.2/2.7 MB
+Progress (2): 1.6/1.7 MB | 1.2/2.7 MB
+Progress (2): 1.6/1.7 MB | 1.2/2.7 MB
+Progress (2): 1.6/1.7 MB | 1.2/2.7 MB
+Progress (2): 1.6/1.7 MB | 1.2/2.7 MB
+Progress (2): 1.6/1.7 MB | 1.2/2.7 MB
+Progress (2): 1.6/1.7 MB | 1.3/2.7 MB
+Progress (2): 1.6/1.7 MB | 1.3/2.7 MB
+Progress (2): 1.6/1.7 MB | 1.3/2.7 MB
+Progress (2): 1.6/1.7 MB | 1.3/2.7 MB
+Progress (2): 1.6/1.7 MB | 1.3/2.7 MB
+Progress (2): 1.6/1.7 MB | 1.3/2.7 MB
+Progress (2): 1.6/1.7 MB | 1.3/2.7 MB
+Progress (2): 1.7/1.7 MB | 1.3/2.7 MB
+Progress (2): 1.7 MB | 1.3/2.7 MB    
+Progress (2): 1.7 MB | 1.3/2.7 MB
+Progress (2): 1.7 MB | 1.3/2.7 MB
+Progress (2): 1.7 MB | 1.3/2.7 MB
+Progress (2): 1.7 MB | 1.4/2.7 MB
+Progress (2): 1.7 MB | 1.4/2.7 MB
+Progress (2): 1.7 MB | 1.4/2.7 MB
+Progress (2): 1.7 MB | 1.4/2.7 MB
+Progress (2): 1.7 MB | 1.4/2.7 MB
+Progress (2): 1.7 MB | 1.4/2.7 MB
+Progress (2): 1.7 MB | 1.5/2.7 MB
+Progress (2): 1.7 MB | 1.5/2.7 MB
+Progress (2): 1.7 MB | 1.5/2.7 MB
+Progress (2): 1.7 MB | 1.5/2.7 MB
+Progress (2): 1.7 MB | 1.5/2.7 MB
+Progress (2): 1.7 MB | 1.5/2.7 MB
+Progress (2): 1.7 MB | 1.5/2.7 MB
+Progress (2): 1.7 MB | 1.6/2.7 MB
+                                 
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/api/grpc/proto-google-common-protos/2.3.2/proto-google-common-protos-2.3.2.jar (1.7 MB at 6.7 MB/s)
+Progress (1): 1.6/2.7 MB
+Progress (1): 1.6/2.7 MB
+Progress (1): 1.6/2.7 MB
+Progress (1): 1.6/2.7 MB
+Progress (1): 1.6/2.7 MB
+Progress (1): 1.7/2.7 MB
+Progress (1): 1.7/2.7 MB
+Progress (1): 1.7/2.7 MB
+Progress (1): 1.7/2.7 MB
+Progress (1): 1.7/2.7 MB
+Progress (1): 1.7/2.7 MB
+Progress (1): 1.8/2.7 MB
+Progress (1): 1.8/2.7 MB
+Progress (1): 1.8/2.7 MB
+Progress (1): 1.8/2.7 MB
+Progress (1): 1.8/2.7 MB
+Progress (1): 1.8/2.7 MB
+Progress (1): 1.9/2.7 MB
+Progress (1): 1.9/2.7 MB
+Progress (1): 1.9/2.7 MB
+Progress (1): 1.9/2.7 MB
+Progress (1): 1.9/2.7 MB
+Progress (1): 1.9/2.7 MB
+Progress (1): 2.0/2.7 MB
+Progress (1): 2.0/2.7 MB
+Progress (1): 2.0/2.7 MB
+Progress (1): 2.0/2.7 MB
+Progress (1): 2.0/2.7 MB
+Progress (1): 2.0/2.7 MB
+Progress (1): 2.1/2.7 MB
+Progress (1): 2.1/2.7 MB
+Progress (1): 2.1/2.7 MB
+Progress (1): 2.1/2.7 MB
+Progress (1): 2.1/2.7 MB
+Progress (1): 2.1/2.7 MB
+Progress (1): 2.2/2.7 MB
+Progress (1): 2.2/2.7 MB
+Progress (1): 2.2/2.7 MB
+Progress (1): 2.2/2.7 MB
+Progress (1): 2.2/2.7 MB
+Progress (1): 2.2/2.7 MB
+Progress (1): 2.2/2.7 MB
+Progress (1): 2.3/2.7 MB
+Progress (1): 2.3/2.7 MB
+Progress (1): 2.3/2.7 MB
+Progress (1): 2.3/2.7 MB
+Progress (1): 2.3/2.7 MB
+Progress (1): 2.4/2.7 MB
+Progress (1): 2.4/2.7 MB
+Progress (1): 2.4/2.7 MB
+Progress (1): 2.4/2.7 MB
+Progress (1): 2.4/2.7 MB
+Progress (1): 2.4/2.7 MB
+Progress (1): 2.4/2.7 MB
+Progress (1): 2.5/2.7 MB
+Progress (1): 2.5/2.7 MB
+Progress (1): 2.5/2.7 MB
+Progress (1): 2.5/2.7 MB
+Progress (1): 2.5/2.7 MB
+Progress (1): 2.5/2.7 MB
+Progress (1): 2.6/2.7 MB
+Progress (1): 2.6/2.7 MB
+Progress (1): 2.6/2.7 MB
+Progress (1): 2.6/2.7 MB
+Progress (1): 2.6/2.7 MB
+Progress (1): 2.6/2.7 MB
+Progress (1): 2.7/2.7 MB
+Progress (1): 2.7/2.7 MB
+Progress (1): 2.7/2.7 MB
+Progress (1): 2.7/2.7 MB
+Progress (1): 2.7 MB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/30.1.1-android/guava-30.1.1-android.jar (2.7 MB at 9.0 MB/s)
 [INFO] com.google.api.grpc:proto-google-cloud-vision-v1p4beta1:jar:0.86.8-SNAPSHOT
 [INFO] +- com.google.protobuf:protobuf-java:jar:3.17.3:compile
 [INFO] +- com.google.api.grpc:proto-google-common-protos:jar:2.3.2:compile
@@ -133,36 +546,9 @@ Audit done.
 [INFO] 
 [INFO] ----------< com.google.api.grpc:proto-google-cloud-vision-v1 >----------
 [INFO] Building proto-google-cloud-vision-v1 1.103.8-SNAPSHOT            [3/13]
-[INFO]   from proto-google-cloud-vision-v1\pom.xml
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
-[INFO] --- enforcer:3.0.0-M3:enforce (enforce) @ proto-google-cloud-vision-v1 ---
-[INFO] Adding ignore: module-info
-[INFO] Adding ignore: META-INF/versions/*/module-info
-[INFO] 
-[INFO] --- checkstyle:3.1.2:check (checkstyle) @ proto-google-cloud-vision-v1 ---
-[INFO] Starting audit...
-Audit done.
-[INFO] You have 0 Checkstyle violations.
-[INFO] 
-[INFO] --- jacoco:0.8.7:prepare-agent (default) @ proto-google-cloud-vision-v1 ---
-[INFO] argLine set to -javaagent:C:\\Users\\frank_bump\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.8.7\\org.jacoco.agent-0.8.7-runtime.jar=destfile=D:\\Bump\\breaking-updates\\tempProject\\e181647f2d24f810e59c6b903b1d8cf6680ac5a3\\java-vision\\proto-google-cloud-vision-v1\\target\\jacoco.exec
-[INFO] 
-[INFO] --- build-helper:3.2.0:add-resource (add-main-proto-resources) @ proto-google-cloud-vision-v1 ---
-[INFO] 
-[INFO] --- resources:3.3.1:resources (default-resources) @ proto-google-cloud-vision-v1 ---
-[INFO] skip non existing resourceDirectory D:\Bump\breaking-updates\tempProject\e181647f2d24f810e59c6b903b1d8cf6680ac5a3\java-vision\proto-google-cloud-vision-v1\src\main\resources
-[INFO] Copying 6 resources from src\main\proto to target\classes
-[INFO] 
-[INFO] --- flatten:1.2.7:flatten (flatten) @ proto-google-cloud-vision-v1 ---
-[INFO] Generating flattened POM of project com.google.api.grpc:proto-google-cloud-vision-v1:jar:1.103.8-SNAPSHOT...
-[INFO] 
-[INFO] --- compiler:3.8.1:compile (default-compile) @ proto-google-cloud-vision-v1 ---
-[INFO] Changes detected - recompiling the module!
-[INFO] Compiling 178 source files to D:\Bump\breaking-updates\tempProject\e181647f2d24f810e59c6b903b1d8cf6680ac5a3\java-vision\proto-google-cloud-vision-v1\target\classes
-[WARNING] bootstrap class path not set in conjunction with -source 8
-[INFO] 
-[INFO] --- dependency:3.1.2:tree (default-cli) @ proto-google-cloud-vision-v1 ---
+[INFO] --- maven-dependency-plugin:3.1.2:tree (default-cli) @ proto-google-cloud-vision-v1 ---
 [INFO] com.google.api.grpc:proto-google-cloud-vision-v1:jar:1.103.8-SNAPSHOT
 [INFO] +- com.google.protobuf:protobuf-java:jar:3.17.3:compile
 [INFO] +- com.google.api.grpc:proto-google-common-protos:jar:2.3.2:compile
@@ -179,72 +565,18 @@ Audit done.
 [INFO] 
 [INFO] ------< com.google.api.grpc:proto-google-cloud-vision-v1p1beta1 >-------
 [INFO] Building proto-google-cloud-vision-v1p1beta1 0.86.8-SNAPSHOT      [4/13]
-[INFO]   from proto-google-cloud-vision-v1p1beta1\pom.xml
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
-[INFO] --- enforcer:3.0.0-M3:enforce (enforce) @ proto-google-cloud-vision-v1p1beta1 ---
-[INFO] Adding ignore: module-info
-[INFO] Adding ignore: META-INF/versions/*/module-info
-[INFO] 
-[INFO] --- checkstyle:3.1.2:check (checkstyle) @ proto-google-cloud-vision-v1p1beta1 ---
-[INFO] Starting audit...
-Audit done.
-[INFO] You have 0 Checkstyle violations.
-[INFO] 
-[INFO] --- jacoco:0.8.7:prepare-agent (default) @ proto-google-cloud-vision-v1p1beta1 ---
-[INFO] argLine set to -javaagent:C:\\Users\\frank_bump\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.8.7\\org.jacoco.agent-0.8.7-runtime.jar=destfile=D:\\Bump\\breaking-updates\\tempProject\\e181647f2d24f810e59c6b903b1d8cf6680ac5a3\\java-vision\\proto-google-cloud-vision-v1p1beta1\\target\\jacoco.exec
-[INFO] 
-[INFO] --- build-helper:3.2.0:add-resource (add-main-proto-resources) @ proto-google-cloud-vision-v1p1beta1 ---
-[INFO] 
-[INFO] --- resources:3.3.1:resources (default-resources) @ proto-google-cloud-vision-v1p1beta1 ---
-[INFO] skip non existing resourceDirectory D:\Bump\breaking-updates\tempProject\e181647f2d24f810e59c6b903b1d8cf6680ac5a3\java-vision\proto-google-cloud-vision-v1p1beta1\src\main\resources
-[INFO] Copying 4 resources from src\main\proto to target\classes
-[INFO] 
-[INFO] --- flatten:1.2.7:flatten (flatten) @ proto-google-cloud-vision-v1p1beta1 ---
-[INFO] Generating flattened POM of project com.google.api.grpc:proto-google-cloud-vision-v1p1beta1:jar:0.86.8-SNAPSHOT...
-[INFO] 
-[INFO] --- compiler:3.8.1:compile (default-compile) @ proto-google-cloud-vision-v1p1beta1 ---
-[INFO] Changes detected - recompiling the module!
-[INFO] Compiling 69 source files to D:\Bump\breaking-updates\tempProject\e181647f2d24f810e59c6b903b1d8cf6680ac5a3\java-vision\proto-google-cloud-vision-v1p1beta1\target\classes
-[WARNING] bootstrap class path not set in conjunction with -source 8
-[INFO] 
-[INFO] --- dependency:3.1.2:tree (default-cli) @ proto-google-cloud-vision-v1p1beta1 ---
+[INFO] --- maven-dependency-plugin:3.1.2:tree (default-cli) @ proto-google-cloud-vision-v1p1beta1 ---
 [INFO] com.google.api.grpc:proto-google-cloud-vision-v1p1beta1:jar:0.86.8-SNAPSHOT
 [INFO] +- com.google.protobuf:protobuf-java:jar:3.17.3:compile
 [INFO] \- com.google.api.grpc:proto-google-common-protos:jar:2.3.2:compile
 [INFO] 
 [INFO] ------< com.google.api.grpc:proto-google-cloud-vision-v1p3beta1 >-------
 [INFO] Building proto-google-cloud-vision-v1p3beta1 0.86.8-SNAPSHOT      [5/13]
-[INFO]   from proto-google-cloud-vision-v1p3beta1\pom.xml
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
-[INFO] --- enforcer:3.0.0-M3:enforce (enforce) @ proto-google-cloud-vision-v1p3beta1 ---
-[INFO] Adding ignore: module-info
-[INFO] Adding ignore: META-INF/versions/*/module-info
-[INFO] 
-[INFO] --- checkstyle:3.1.2:check (checkstyle) @ proto-google-cloud-vision-v1p3beta1 ---
-[INFO] Starting audit...
-Audit done.
-[INFO] You have 0 Checkstyle violations.
-[INFO] 
-[INFO] --- jacoco:0.8.7:prepare-agent (default) @ proto-google-cloud-vision-v1p3beta1 ---
-[INFO] argLine set to -javaagent:C:\\Users\\frank_bump\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.8.7\\org.jacoco.agent-0.8.7-runtime.jar=destfile=D:\\Bump\\breaking-updates\\tempProject\\e181647f2d24f810e59c6b903b1d8cf6680ac5a3\\java-vision\\proto-google-cloud-vision-v1p3beta1\\target\\jacoco.exec
-[INFO] 
-[INFO] --- build-helper:3.2.0:add-resource (add-main-proto-resources) @ proto-google-cloud-vision-v1p3beta1 ---
-[INFO] 
-[INFO] --- resources:3.3.1:resources (default-resources) @ proto-google-cloud-vision-v1p3beta1 ---
-[INFO] skip non existing resourceDirectory D:\Bump\breaking-updates\tempProject\e181647f2d24f810e59c6b903b1d8cf6680ac5a3\java-vision\proto-google-cloud-vision-v1p3beta1\src\main\resources
-[INFO] Copying 6 resources from src\main\proto to target\classes
-[INFO] 
-[INFO] --- flatten:1.2.7:flatten (flatten) @ proto-google-cloud-vision-v1p3beta1 ---
-[INFO] Generating flattened POM of project com.google.api.grpc:proto-google-cloud-vision-v1p3beta1:jar:0.86.8-SNAPSHOT...
-[INFO] 
-[INFO] --- compiler:3.8.1:compile (default-compile) @ proto-google-cloud-vision-v1p3beta1 ---
-[INFO] Changes detected - recompiling the module!
-[INFO] Compiling 167 source files to D:\Bump\breaking-updates\tempProject\e181647f2d24f810e59c6b903b1d8cf6680ac5a3\java-vision\proto-google-cloud-vision-v1p3beta1\target\classes
-[WARNING] bootstrap class path not set in conjunction with -source 8
-[INFO] 
-[INFO] --- dependency:3.1.2:tree (default-cli) @ proto-google-cloud-vision-v1p3beta1 ---
+[INFO] --- maven-dependency-plugin:3.1.2:tree (default-cli) @ proto-google-cloud-vision-v1p3beta1 ---
 [INFO] com.google.api.grpc:proto-google-cloud-vision-v1p3beta1:jar:0.86.8-SNAPSHOT
 [INFO] +- com.google.protobuf:protobuf-java:jar:3.17.3:compile
 [INFO] +- com.google.api.grpc:proto-google-common-protos:jar:2.3.2:compile
@@ -261,143 +593,145 @@ Audit done.
 [INFO] 
 [INFO] ------< com.google.api.grpc:proto-google-cloud-vision-v1p2beta1 >-------
 [INFO] Building proto-google-cloud-vision-v1p2beta1 1.103.8-SNAPSHOT     [6/13]
-[INFO]   from proto-google-cloud-vision-v1p2beta1\pom.xml
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
-[INFO] --- enforcer:3.0.0-M3:enforce (enforce) @ proto-google-cloud-vision-v1p2beta1 ---
-[INFO] Adding ignore: module-info
-[INFO] Adding ignore: META-INF/versions/*/module-info
-[INFO] 
-[INFO] --- checkstyle:3.1.2:check (checkstyle) @ proto-google-cloud-vision-v1p2beta1 ---
-[INFO] Starting audit...
-Audit done.
-[INFO] You have 0 Checkstyle violations.
-[INFO] 
-[INFO] --- jacoco:0.8.7:prepare-agent (default) @ proto-google-cloud-vision-v1p2beta1 ---
-[INFO] argLine set to -javaagent:C:\\Users\\frank_bump\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.8.7\\org.jacoco.agent-0.8.7-runtime.jar=destfile=D:\\Bump\\breaking-updates\\tempProject\\e181647f2d24f810e59c6b903b1d8cf6680ac5a3\\java-vision\\proto-google-cloud-vision-v1p2beta1\\target\\jacoco.exec
-[INFO] 
-[INFO] --- build-helper:3.2.0:add-resource (add-main-proto-resources) @ proto-google-cloud-vision-v1p2beta1 ---
-[INFO] 
-[INFO] --- resources:3.3.1:resources (default-resources) @ proto-google-cloud-vision-v1p2beta1 ---
-[INFO] skip non existing resourceDirectory D:\Bump\breaking-updates\tempProject\e181647f2d24f810e59c6b903b1d8cf6680ac5a3\java-vision\proto-google-cloud-vision-v1p2beta1\src\main\resources
-[INFO] Copying 4 resources from src\main\proto to target\classes
-[INFO] 
-[INFO] --- flatten:1.2.7:flatten (flatten) @ proto-google-cloud-vision-v1p2beta1 ---
-[INFO] Generating flattened POM of project com.google.api.grpc:proto-google-cloud-vision-v1p2beta1:jar:1.103.8-SNAPSHOT...
-[INFO] 
-[INFO] --- compiler:3.8.1:compile (default-compile) @ proto-google-cloud-vision-v1p2beta1 ---
-[INFO] Changes detected - recompiling the module!
-[INFO] Compiling 93 source files to D:\Bump\breaking-updates\tempProject\e181647f2d24f810e59c6b903b1d8cf6680ac5a3\java-vision\proto-google-cloud-vision-v1p2beta1\target\classes
-[WARNING] bootstrap class path not set in conjunction with -source 8
-[INFO] 
-[INFO] --- dependency:3.1.2:tree (default-cli) @ proto-google-cloud-vision-v1p2beta1 ---
+[INFO] --- maven-dependency-plugin:3.1.2:tree (default-cli) @ proto-google-cloud-vision-v1p2beta1 ---
 [INFO] com.google.api.grpc:proto-google-cloud-vision-v1p2beta1:jar:1.103.8-SNAPSHOT
 [INFO] +- com.google.protobuf:protobuf-java:jar:3.17.3:compile
 [INFO] \- com.google.api.grpc:proto-google-common-protos:jar:2.3.2:compile
 [INFO] 
 [INFO] -------< com.google.api.grpc:grpc-google-cloud-vision-v1p3beta1 >-------
 [INFO] Building grpc-google-cloud-vision-v1p3beta1 0.86.8-SNAPSHOT       [7/13]
-[INFO]   from grpc-google-cloud-vision-v1p3beta1\pom.xml
 [INFO] --------------------------------[ jar ]---------------------------------
+Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-api/1.39.0/grpc-api-1.39.0.pom
+Progress (1): 2.0 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-api/1.39.0/grpc-api-1.39.0.pom (2.0 kB at 281 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-context/1.39.0/grpc-context-1.39.0.pom
+Progress (1): 1.2 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-context/1.39.0/grpc-context-1.39.0.pom (1.2 kB at 172 kB/s)
 Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-stub/1.39.0/grpc-stub-1.39.0.pom
-Progress (1): 1.4/1.6 kB
-Progress (1): 1.6 kB    
+Progress (1): 1.6 kB
                     
-Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-stub/1.39.0/grpc-stub-1.39.0.pom (1.6 kB at 3.6 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-stub/1.39.0/grpc-stub-1.39.0.pom (1.6 kB at 198 kB/s)
 Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-protobuf/1.39.0/grpc-protobuf-1.39.0.pom
-Progress (1): 1.4/2.7 kB
-Progress (1): 2.7 kB    
+Progress (1): 2.7 kB
                     
-Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-protobuf/1.39.0/grpc-protobuf-1.39.0.pom (2.7 kB at 245 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-protobuf/1.39.0/grpc-protobuf-1.39.0.pom (2.7 kB at 159 kB/s)
 Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-protobuf-lite/1.39.0/grpc-protobuf-lite-1.39.0.pom
-Progress (1): 1.4/2.0 kB
-Progress (1): 2.0 kB    
+Progress (1): 2.0 kB
                     
-Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-protobuf-lite/1.39.0/grpc-protobuf-lite-1.39.0.pom (2.0 kB at 117 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-stub/1.39.0/grpc-stub-1.39.0.jar
-Progress (1): 1.4/50 kB
-Progress (1): 2.7/50 kB
-Progress (1): 4.1/50 kB
-Progress (1): 5.5/50 kB
-Progress (1): 6.9/50 kB
-Progress (1): 8.2/50 kB
-Progress (1): 9.6/50 kB
-Progress (1): 11/50 kB 
-Progress (1): 12/50 kB
-Progress (1): 14/50 kB
-Progress (1): 15/50 kB
-Progress (1): 16/50 kB
-Progress (1): 17/50 kB
-Progress (1): 19/50 kB
-Progress (1): 20/50 kB
-Progress (1): 21/50 kB
-Progress (1): 23/50 kB
-Progress (1): 24/50 kB
-Progress (1): 25/50 kB
-Progress (1): 27/50 kB
-Progress (1): 28/50 kB
-Progress (1): 30/50 kB
-Progress (1): 31/50 kB
-Progress (1): 32/50 kB
-Progress (1): 34/50 kB
-Progress (1): 35/50 kB
-Progress (1): 36/50 kB
-Progress (1): 38/50 kB
-Progress (1): 39/50 kB
-Progress (1): 40/50 kB
-Progress (1): 42/50 kB
-Progress (1): 43/50 kB
-Progress (1): 45/50 kB
-Progress (1): 46/50 kB
-Progress (1): 47/50 kB
-Progress (1): 49/50 kB
-Progress (1): 50 kB   
-                   
-Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-stub/1.39.0/grpc-stub-1.39.0.jar (50 kB at 992 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-protobuf-lite/1.39.0/grpc-protobuf-lite-1.39.0.pom (2.0 kB at 248 kB/s)
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.1.2:tree (default-cli) @ grpc-google-cloud-vision-v1p3beta1 ---
+Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-api/1.39.0/grpc-api-1.39.0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-context/1.39.0/grpc-context-1.39.0.jar
 Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-protobuf/1.39.0/grpc-protobuf-1.39.0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-stub/1.39.0/grpc-stub-1.39.0.jar
 Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-protobuf-lite/1.39.0/grpc-protobuf-lite-1.39.0.jar
-Progress (1): 1.4/5.2 kB
-Progress (1): 2.7/5.2 kB
-Progress (1): 4.1/5.2 kB
-Progress (1): 5.2 kB    
-                    
-Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-protobuf/1.39.0/grpc-protobuf-1.39.0.jar (5.2 kB at 398 kB/s)
-Progress (1): 1.4/7.6 kB
-Progress (1): 2.7/7.6 kB
 Progress (1): 4.1/7.6 kB
-Progress (1): 5.5/7.6 kB
-Progress (1): 6.9/7.6 kB
 Progress (1): 7.6 kB    
-                    
-Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-protobuf-lite/1.39.0/grpc-protobuf-lite-1.39.0.jar (7.6 kB at 263 kB/s)
-[INFO] 
-[INFO] --- enforcer:3.0.0-M3:enforce (enforce) @ grpc-google-cloud-vision-v1p3beta1 ---
-[INFO] Adding ignore: module-info
-[INFO] Adding ignore: META-INF/versions/*/module-info
-[INFO] 
-[INFO] --- checkstyle:3.1.2:check (checkstyle) @ grpc-google-cloud-vision-v1p3beta1 ---
-[INFO] Starting audit...
-Audit done.
-[INFO] You have 0 Checkstyle violations.
-[INFO] 
-[INFO] --- jacoco:0.8.7:prepare-agent (default) @ grpc-google-cloud-vision-v1p3beta1 ---
-[INFO] argLine set to -javaagent:C:\\Users\\frank_bump\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.8.7\\org.jacoco.agent-0.8.7-runtime.jar=destfile=D:\\Bump\\breaking-updates\\tempProject\\e181647f2d24f810e59c6b903b1d8cf6680ac5a3\\java-vision\\grpc-google-cloud-vision-v1p3beta1\\target\\jacoco.exec
-[INFO] 
-[INFO] --- build-helper:3.2.0:add-resource (add-main-proto-resources) @ grpc-google-cloud-vision-v1p3beta1 ---
-[INFO] 
-[INFO] --- resources:3.3.1:resources (default-resources) @ grpc-google-cloud-vision-v1p3beta1 ---
-[INFO] skip non existing resourceDirectory D:\Bump\breaking-updates\tempProject\e181647f2d24f810e59c6b903b1d8cf6680ac5a3\java-vision\grpc-google-cloud-vision-v1p3beta1\src\main\resources
-[INFO] skip non existing resourceDirectory D:\Bump\breaking-updates\tempProject\e181647f2d24f810e59c6b903b1d8cf6680ac5a3\java-vision\grpc-google-cloud-vision-v1p3beta1\src\main\proto
-[INFO] 
-[INFO] --- flatten:1.2.7:flatten (flatten) @ grpc-google-cloud-vision-v1p3beta1 ---
-[INFO] Generating flattened POM of project com.google.api.grpc:grpc-google-cloud-vision-v1p3beta1:jar:0.86.8-SNAPSHOT...
-[INFO] 
-[INFO] --- compiler:3.8.1:compile (default-compile) @ grpc-google-cloud-vision-v1p3beta1 ---
-[INFO] Changes detected - recompiling the module!
-[INFO] Compiling 2 source files to D:\Bump\breaking-updates\tempProject\e181647f2d24f810e59c6b903b1d8cf6680ac5a3\java-vision\grpc-google-cloud-vision-v1p3beta1\target\classes
-[WARNING] bootstrap class path not set in conjunction with -source 8
-[INFO] 
-[INFO] --- dependency:3.1.2:tree (default-cli) @ grpc-google-cloud-vision-v1p3beta1 ---
+Progress (2): 7.6 kB | 4.1/31 kB
+Progress (2): 7.6 kB | 8.2/31 kB
+Progress (2): 7.6 kB | 12/31 kB 
+Progress (2): 7.6 kB | 16/31 kB
+Progress (3): 7.6 kB | 16/31 kB | 2.7/5.2 kB
+Progress (3): 7.6 kB | 20/31 kB | 2.7/5.2 kB
+Progress (3): 7.6 kB | 25/31 kB | 2.7/5.2 kB
+Progress (3): 7.6 kB | 25/31 kB | 5.2 kB    
+Progress (3): 7.6 kB | 29/31 kB | 5.2 kB
+Progress (3): 7.6 kB | 31 kB | 5.2 kB   
+Progress (4): 7.6 kB | 31 kB | 5.2 kB | 4.1/255 kB
+Progress (4): 7.6 kB | 31 kB | 5.2 kB | 8.2/255 kB
+Progress (4): 7.6 kB | 31 kB | 5.2 kB | 12/255 kB 
+Progress (4): 7.6 kB | 31 kB | 5.2 kB | 16/255 kB
+                                                 
+Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-protobuf-lite/1.39.0/grpc-protobuf-lite-1.39.0.jar (7.6 kB at 954 kB/s)
+Progress (3): 31 kB | 5.2 kB | 20/255 kB
+Progress (3): 31 kB | 5.2 kB | 25/255 kB
+Progress (3): 31 kB | 5.2 kB | 29/255 kB
+Progress (3): 31 kB | 5.2 kB | 33/255 kB
+                                        
+Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-context/1.39.0/grpc-context-1.39.0.jar (31 kB at 3.1 MB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-protobuf/1.39.0/grpc-protobuf-1.39.0.jar (5.2 kB at 518 kB/s)
+Progress (1): 37/255 kB
+Progress (1): 41/255 kB
+Progress (1): 45/255 kB
+Progress (1): 49/255 kB
+Progress (1): 53/255 kB
+Progress (1): 57/255 kB
+Progress (1): 61/255 kB
+Progress (1): 66/255 kB
+Progress (1): 70/255 kB
+Progress (1): 74/255 kB
+Progress (1): 78/255 kB
+Progress (1): 82/255 kB
+Progress (1): 86/255 kB
+Progress (1): 90/255 kB
+Progress (1): 94/255 kB
+Progress (1): 98/255 kB
+Progress (1): 102/255 kB
+Progress (1): 106/255 kB
+Progress (1): 111/255 kB
+Progress (1): 115/255 kB
+Progress (1): 119/255 kB
+Progress (1): 123/255 kB
+Progress (1): 127/255 kB
+Progress (1): 131/255 kB
+Progress (1): 135/255 kB
+Progress (1): 139/255 kB
+Progress (1): 143/255 kB
+Progress (1): 147/255 kB
+Progress (2): 147/255 kB | 2.7/50 kB
+Progress (2): 152/255 kB | 2.7/50 kB
+Progress (2): 156/255 kB | 2.7/50 kB
+Progress (2): 160/255 kB | 2.7/50 kB
+Progress (2): 164/255 kB | 2.7/50 kB
+Progress (2): 164/255 kB | 5.5/50 kB
+Progress (2): 164/255 kB | 8.2/50 kB
+Progress (2): 164/255 kB | 11/50 kB 
+Progress (2): 168/255 kB | 11/50 kB
+Progress (2): 172/255 kB | 11/50 kB
+Progress (2): 172/255 kB | 14/50 kB
+Progress (2): 176/255 kB | 14/50 kB
+Progress (2): 180/255 kB | 14/50 kB
+Progress (2): 180/255 kB | 16/50 kB
+Progress (2): 180/255 kB | 19/50 kB
+Progress (2): 180/255 kB | 21/50 kB
+Progress (2): 184/255 kB | 21/50 kB
+Progress (2): 188/255 kB | 21/50 kB
+Progress (2): 188/255 kB | 24/50 kB
+Progress (2): 193/255 kB | 24/50 kB
+Progress (2): 193/255 kB | 27/50 kB
+Progress (2): 197/255 kB | 27/50 kB
+Progress (2): 197/255 kB | 30/50 kB
+Progress (2): 197/255 kB | 32/50 kB
+Progress (2): 197/255 kB | 35/50 kB
+Progress (2): 197/255 kB | 38/50 kB
+Progress (2): 201/255 kB | 38/50 kB
+Progress (2): 201/255 kB | 40/50 kB
+Progress (2): 205/255 kB | 40/50 kB
+Progress (2): 209/255 kB | 40/50 kB
+Progress (2): 209/255 kB | 43/50 kB
+Progress (2): 213/255 kB | 43/50 kB
+Progress (2): 213/255 kB | 46/50 kB
+Progress (2): 213/255 kB | 49/50 kB
+Progress (2): 217/255 kB | 49/50 kB
+Progress (2): 217/255 kB | 50 kB   
+Progress (2): 221/255 kB | 50 kB
+Progress (2): 225/255 kB | 50 kB
+Progress (2): 229/255 kB | 50 kB
+Progress (2): 233/255 kB | 50 kB
+Progress (2): 238/255 kB | 50 kB
+Progress (2): 242/255 kB | 50 kB
+Progress (2): 246/255 kB | 50 kB
+Progress (2): 250/255 kB | 50 kB
+Progress (2): 254/255 kB | 50 kB
+Progress (2): 255 kB | 50 kB    
+                            
+Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-stub/1.39.0/grpc-stub-1.39.0.jar (50 kB at 1.6 MB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-api/1.39.0/grpc-api-1.39.0.jar (255 kB at 7.3 MB/s)
 [INFO] com.google.api.grpc:grpc-google-cloud-vision-v1p3beta1:jar:0.86.8-SNAPSHOT
 [INFO] +- io.grpc:grpc-api:jar:1.39.0:compile
 [INFO] |  +- io.grpc:grpc-context:jar:1.39.0:compile
@@ -420,36 +754,9 @@ Audit done.
 [INFO] 
 [INFO] -------< com.google.api.grpc:grpc-google-cloud-vision-v1p1beta1 >-------
 [INFO] Building grpc-google-cloud-vision-v1p1beta1 0.86.8-SNAPSHOT       [8/13]
-[INFO]   from grpc-google-cloud-vision-v1p1beta1\pom.xml
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
-[INFO] --- enforcer:3.0.0-M3:enforce (enforce) @ grpc-google-cloud-vision-v1p1beta1 ---
-[INFO] Adding ignore: module-info
-[INFO] Adding ignore: META-INF/versions/*/module-info
-[INFO] 
-[INFO] --- checkstyle:3.1.2:check (checkstyle) @ grpc-google-cloud-vision-v1p1beta1 ---
-[INFO] Starting audit...
-Audit done.
-[INFO] You have 0 Checkstyle violations.
-[INFO] 
-[INFO] --- jacoco:0.8.7:prepare-agent (default) @ grpc-google-cloud-vision-v1p1beta1 ---
-[INFO] argLine set to -javaagent:C:\\Users\\frank_bump\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.8.7\\org.jacoco.agent-0.8.7-runtime.jar=destfile=D:\\Bump\\breaking-updates\\tempProject\\e181647f2d24f810e59c6b903b1d8cf6680ac5a3\\java-vision\\grpc-google-cloud-vision-v1p1beta1\\target\\jacoco.exec
-[INFO] 
-[INFO] --- build-helper:3.2.0:add-resource (add-main-proto-resources) @ grpc-google-cloud-vision-v1p1beta1 ---
-[INFO] 
-[INFO] --- resources:3.3.1:resources (default-resources) @ grpc-google-cloud-vision-v1p1beta1 ---
-[INFO] skip non existing resourceDirectory D:\Bump\breaking-updates\tempProject\e181647f2d24f810e59c6b903b1d8cf6680ac5a3\java-vision\grpc-google-cloud-vision-v1p1beta1\src\main\resources
-[INFO] skip non existing resourceDirectory D:\Bump\breaking-updates\tempProject\e181647f2d24f810e59c6b903b1d8cf6680ac5a3\java-vision\grpc-google-cloud-vision-v1p1beta1\src\main\proto
-[INFO] 
-[INFO] --- flatten:1.2.7:flatten (flatten) @ grpc-google-cloud-vision-v1p1beta1 ---
-[INFO] Generating flattened POM of project com.google.api.grpc:grpc-google-cloud-vision-v1p1beta1:jar:0.86.8-SNAPSHOT...
-[INFO] 
-[INFO] --- compiler:3.8.1:compile (default-compile) @ grpc-google-cloud-vision-v1p1beta1 ---
-[INFO] Changes detected - recompiling the module!
-[INFO] Compiling 1 source file to D:\Bump\breaking-updates\tempProject\e181647f2d24f810e59c6b903b1d8cf6680ac5a3\java-vision\grpc-google-cloud-vision-v1p1beta1\target\classes
-[WARNING] bootstrap class path not set in conjunction with -source 8
-[INFO] 
-[INFO] --- dependency:3.1.2:tree (default-cli) @ grpc-google-cloud-vision-v1p1beta1 ---
+[INFO] --- maven-dependency-plugin:3.1.2:tree (default-cli) @ grpc-google-cloud-vision-v1p1beta1 ---
 [INFO] com.google.api.grpc:grpc-google-cloud-vision-v1p1beta1:jar:0.86.8-SNAPSHOT
 [INFO] +- io.grpc:grpc-api:jar:1.39.0:compile
 [INFO] |  +- io.grpc:grpc-context:jar:1.39.0:compile
@@ -470,36 +777,9 @@ Audit done.
 [INFO] 
 [INFO] -------< com.google.api.grpc:grpc-google-cloud-vision-v1p4beta1 >-------
 [INFO] Building grpc-google-cloud-vision-v1p4beta1 0.86.8-SNAPSHOT       [9/13]
-[INFO]   from grpc-google-cloud-vision-v1p4beta1\pom.xml
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
-[INFO] --- enforcer:3.0.0-M3:enforce (enforce) @ grpc-google-cloud-vision-v1p4beta1 ---
-[INFO] Adding ignore: module-info
-[INFO] Adding ignore: META-INF/versions/*/module-info
-[INFO] 
-[INFO] --- checkstyle:3.1.2:check (checkstyle) @ grpc-google-cloud-vision-v1p4beta1 ---
-[INFO] Starting audit...
-Audit done.
-[INFO] You have 0 Checkstyle violations.
-[INFO] 
-[INFO] --- jacoco:0.8.7:prepare-agent (default) @ grpc-google-cloud-vision-v1p4beta1 ---
-[INFO] argLine set to -javaagent:C:\\Users\\frank_bump\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.8.7\\org.jacoco.agent-0.8.7-runtime.jar=destfile=D:\\Bump\\breaking-updates\\tempProject\\e181647f2d24f810e59c6b903b1d8cf6680ac5a3\\java-vision\\grpc-google-cloud-vision-v1p4beta1\\target\\jacoco.exec
-[INFO] 
-[INFO] --- build-helper:3.2.0:add-resource (add-main-proto-resources) @ grpc-google-cloud-vision-v1p4beta1 ---
-[INFO] 
-[INFO] --- resources:3.3.1:resources (default-resources) @ grpc-google-cloud-vision-v1p4beta1 ---
-[INFO] skip non existing resourceDirectory D:\Bump\breaking-updates\tempProject\e181647f2d24f810e59c6b903b1d8cf6680ac5a3\java-vision\grpc-google-cloud-vision-v1p4beta1\src\main\resources
-[INFO] skip non existing resourceDirectory D:\Bump\breaking-updates\tempProject\e181647f2d24f810e59c6b903b1d8cf6680ac5a3\java-vision\grpc-google-cloud-vision-v1p4beta1\src\main\proto
-[INFO] 
-[INFO] --- flatten:1.2.7:flatten (flatten) @ grpc-google-cloud-vision-v1p4beta1 ---
-[INFO] Generating flattened POM of project com.google.api.grpc:grpc-google-cloud-vision-v1p4beta1:jar:0.86.8-SNAPSHOT...
-[INFO] 
-[INFO] --- compiler:3.8.1:compile (default-compile) @ grpc-google-cloud-vision-v1p4beta1 ---
-[INFO] Changes detected - recompiling the module!
-[INFO] Compiling 2 source files to D:\Bump\breaking-updates\tempProject\e181647f2d24f810e59c6b903b1d8cf6680ac5a3\java-vision\grpc-google-cloud-vision-v1p4beta1\target\classes
-[WARNING] bootstrap class path not set in conjunction with -source 8
-[INFO] 
-[INFO] --- dependency:3.1.2:tree (default-cli) @ grpc-google-cloud-vision-v1p4beta1 ---
+[INFO] --- maven-dependency-plugin:3.1.2:tree (default-cli) @ grpc-google-cloud-vision-v1p4beta1 ---
 [INFO] com.google.api.grpc:grpc-google-cloud-vision-v1p4beta1:jar:0.86.8-SNAPSHOT
 [INFO] +- io.grpc:grpc-api:jar:1.39.0:compile
 [INFO] |  +- io.grpc:grpc-context:jar:1.39.0:compile
@@ -522,36 +802,9 @@ Audit done.
 [INFO] 
 [INFO] -------< com.google.api.grpc:grpc-google-cloud-vision-v1p2beta1 >-------
 [INFO] Building grpc-google-cloud-vision-v1p2beta1 1.103.8-SNAPSHOT     [10/13]
-[INFO]   from grpc-google-cloud-vision-v1p2beta1\pom.xml
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
-[INFO] --- enforcer:3.0.0-M3:enforce (enforce) @ grpc-google-cloud-vision-v1p2beta1 ---
-[INFO] Adding ignore: module-info
-[INFO] Adding ignore: META-INF/versions/*/module-info
-[INFO] 
-[INFO] --- checkstyle:3.1.2:check (checkstyle) @ grpc-google-cloud-vision-v1p2beta1 ---
-[INFO] Starting audit...
-Audit done.
-[INFO] You have 0 Checkstyle violations.
-[INFO] 
-[INFO] --- jacoco:0.8.7:prepare-agent (default) @ grpc-google-cloud-vision-v1p2beta1 ---
-[INFO] argLine set to -javaagent:C:\\Users\\frank_bump\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.8.7\\org.jacoco.agent-0.8.7-runtime.jar=destfile=D:\\Bump\\breaking-updates\\tempProject\\e181647f2d24f810e59c6b903b1d8cf6680ac5a3\\java-vision\\grpc-google-cloud-vision-v1p2beta1\\target\\jacoco.exec
-[INFO] 
-[INFO] --- build-helper:3.2.0:add-resource (add-main-proto-resources) @ grpc-google-cloud-vision-v1p2beta1 ---
-[INFO] 
-[INFO] --- resources:3.3.1:resources (default-resources) @ grpc-google-cloud-vision-v1p2beta1 ---
-[INFO] skip non existing resourceDirectory D:\Bump\breaking-updates\tempProject\e181647f2d24f810e59c6b903b1d8cf6680ac5a3\java-vision\grpc-google-cloud-vision-v1p2beta1\src\main\resources
-[INFO] skip non existing resourceDirectory D:\Bump\breaking-updates\tempProject\e181647f2d24f810e59c6b903b1d8cf6680ac5a3\java-vision\grpc-google-cloud-vision-v1p2beta1\src\main\proto
-[INFO] 
-[INFO] --- flatten:1.2.7:flatten (flatten) @ grpc-google-cloud-vision-v1p2beta1 ---
-[INFO] Generating flattened POM of project com.google.api.grpc:grpc-google-cloud-vision-v1p2beta1:jar:1.103.8-SNAPSHOT...
-[INFO] 
-[INFO] --- compiler:3.8.1:compile (default-compile) @ grpc-google-cloud-vision-v1p2beta1 ---
-[INFO] Changes detected - recompiling the module!
-[INFO] Compiling 1 source file to D:\Bump\breaking-updates\tempProject\e181647f2d24f810e59c6b903b1d8cf6680ac5a3\java-vision\grpc-google-cloud-vision-v1p2beta1\target\classes
-[WARNING] bootstrap class path not set in conjunction with -source 8
-[INFO] 
-[INFO] --- dependency:3.1.2:tree (default-cli) @ grpc-google-cloud-vision-v1p2beta1 ---
+[INFO] --- maven-dependency-plugin:3.1.2:tree (default-cli) @ grpc-google-cloud-vision-v1p2beta1 ---
 [INFO] com.google.api.grpc:grpc-google-cloud-vision-v1p2beta1:jar:1.103.8-SNAPSHOT
 [INFO] +- io.grpc:grpc-api:jar:1.39.0:compile
 [INFO] |  +- io.grpc:grpc-context:jar:1.39.0:compile
@@ -572,36 +825,9 @@ Audit done.
 [INFO] 
 [INFO] ----------< com.google.api.grpc:grpc-google-cloud-vision-v1 >-----------
 [INFO] Building grpc-google-cloud-vision-v1 1.103.8-SNAPSHOT            [11/13]
-[INFO]   from grpc-google-cloud-vision-v1\pom.xml
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
-[INFO] --- enforcer:3.0.0-M3:enforce (enforce) @ grpc-google-cloud-vision-v1 ---
-[INFO] Adding ignore: module-info
-[INFO] Adding ignore: META-INF/versions/*/module-info
-[INFO] 
-[INFO] --- checkstyle:3.1.2:check (checkstyle) @ grpc-google-cloud-vision-v1 ---
-[INFO] Starting audit...
-Audit done.
-[INFO] You have 0 Checkstyle violations.
-[INFO] 
-[INFO] --- jacoco:0.8.7:prepare-agent (default) @ grpc-google-cloud-vision-v1 ---
-[INFO] argLine set to -javaagent:C:\\Users\\frank_bump\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.8.7\\org.jacoco.agent-0.8.7-runtime.jar=destfile=D:\\Bump\\breaking-updates\\tempProject\\e181647f2d24f810e59c6b903b1d8cf6680ac5a3\\java-vision\\grpc-google-cloud-vision-v1\\target\\jacoco.exec
-[INFO] 
-[INFO] --- build-helper:3.2.0:add-resource (add-main-proto-resources) @ grpc-google-cloud-vision-v1 ---
-[INFO] 
-[INFO] --- resources:3.3.1:resources (default-resources) @ grpc-google-cloud-vision-v1 ---
-[INFO] skip non existing resourceDirectory D:\Bump\breaking-updates\tempProject\e181647f2d24f810e59c6b903b1d8cf6680ac5a3\java-vision\grpc-google-cloud-vision-v1\src\main\resources
-[INFO] skip non existing resourceDirectory D:\Bump\breaking-updates\tempProject\e181647f2d24f810e59c6b903b1d8cf6680ac5a3\java-vision\grpc-google-cloud-vision-v1\src\main\proto
-[INFO] 
-[INFO] --- flatten:1.2.7:flatten (flatten) @ grpc-google-cloud-vision-v1 ---
-[INFO] Generating flattened POM of project com.google.api.grpc:grpc-google-cloud-vision-v1:jar:1.103.8-SNAPSHOT...
-[INFO] 
-[INFO] --- compiler:3.8.1:compile (default-compile) @ grpc-google-cloud-vision-v1 ---
-[INFO] Changes detected - recompiling the module!
-[INFO] Compiling 2 source files to D:\Bump\breaking-updates\tempProject\e181647f2d24f810e59c6b903b1d8cf6680ac5a3\java-vision\grpc-google-cloud-vision-v1\target\classes
-[WARNING] bootstrap class path not set in conjunction with -source 8
-[INFO] 
-[INFO] --- dependency:3.1.2:tree (default-cli) @ grpc-google-cloud-vision-v1 ---
+[INFO] --- maven-dependency-plugin:3.1.2:tree (default-cli) @ grpc-google-cloud-vision-v1 ---
 [INFO] com.google.api.grpc:grpc-google-cloud-vision-v1:jar:1.103.8-SNAPSHOT
 [INFO] +- io.grpc:grpc-api:jar:1.39.0:compile
 [INFO] |  +- io.grpc:grpc-context:jar:1.39.0:compile
@@ -624,683 +850,1007 @@ Audit done.
 [INFO] 
 [INFO] ----------------< com.google.cloud:google-cloud-vision >----------------
 [INFO] Building Google Cloud Vision 1.103.8-SNAPSHOT                    [12/13]
-[INFO]   from google-cloud-vision\pom.xml
 [INFO] --------------------------------[ jar ]---------------------------------
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/api/gax/1.66.0/gax-1.66.0.pom
+Progress (1): 2.3 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/api/gax/1.66.0/gax-1.66.0.pom (2.3 kB at 259 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/auth/google-auth-library-oauth2-http/0.26.0/google-auth-library-oauth2-http-0.26.0.pom
+Progress (1): 2.7/5.1 kB
+Progress (1): 5.1 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/auth/google-auth-library-oauth2-http/0.26.0/google-auth-library-oauth2-http-0.26.0.pom (5.1 kB at 634 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/auth/google-auth-library-parent/0.26.0/google-auth-library-parent-0.26.0.pom
+Progress (1): 4.1/20 kB
+Progress (1): 8.2/20 kB
+Progress (1): 12/20 kB 
+Progress (1): 16/20 kB
+Progress (1): 20 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/auth/google-auth-library-parent/0.26.0/google-auth-library-parent-0.26.0.pom (20 kB at 2.2 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/auth/google-auth-library-credentials/0.26.0/google-auth-library-credentials-0.26.0.pom
+Progress (1): 2.0 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/auth/google-auth-library-credentials/0.26.0/google-auth-library-credentials-0.26.0.pom (2.0 kB at 131 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/http-client/google-http-client/1.39.2/google-http-client-1.39.2.pom
+Progress (1): 4.1/5.9 kB
+Progress (1): 5.9 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/http-client/google-http-client/1.39.2/google-http-client-1.39.2.pom (5.9 kB at 737 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/http-client/google-http-client-parent/1.39.2/google-http-client-parent-1.39.2.pom
+Progress (1): 4.1/25 kB
+Progress (1): 8.2/25 kB
+Progress (1): 12/25 kB 
+Progress (1): 16/25 kB
+Progress (1): 20/25 kB
+Progress (1): 25/25 kB
+Progress (1): 25 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/http-client/google-http-client-parent/1.39.2/google-http-client-parent-1.39.2.pom (25 kB at 2.3 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/http-client/google-http-client-gson/1.39.2/google-http-client-gson-1.39.2.pom
+Progress (1): 3.1 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/http-client/google-http-client-gson/1.39.2/google-http-client-gson-1.39.2.pom (3.1 kB at 386 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.8.7/gson-2.8.7.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.8.7/gson-2.8.7.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/code/gson/gson-parent/2.8.7/gson-parent-2.8.7.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/code/gson/gson-parent/2.8.7/gson-parent-2.8.7.pom (0 B at 0 B/s)
 Downloading from central: https://repo.maven.apache.org/maven2/com/google/api/gax-grpc/1.66.0/gax-grpc-1.66.0.pom
-Progress (1): 1.4/3.6 kB
-Progress (1): 2.7/3.6 kB
-Progress (1): 3.6 kB    
+Progress (1): 3.6 kB
                     
-Downloaded from central: https://repo.maven.apache.org/maven2/com/google/api/gax-grpc/1.66.0/gax-grpc-1.66.0.pom (3.6 kB at 299 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/api/gax-grpc/1.66.0/gax-grpc-1.66.0.pom (3.6 kB at 448 kB/s)
 Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-auth/1.39.0/grpc-auth-1.39.0.pom
-Progress (1): 1.4/1.8 kB
-Progress (1): 1.8 kB    
+Progress (1): 1.8 kB
                     
-Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-auth/1.39.0/grpc-auth-1.39.0.pom (1.8 kB at 255 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-auth/1.39.0/grpc-auth-1.39.0.pom (1.8 kB at 223 kB/s)
 Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-netty-shaded/1.39.0/grpc-netty-shaded-1.39.0.pom
-Progress (1): 1.4/2.0 kB
-Progress (1): 2.0 kB    
+Progress (1): 2.0 kB
                     
 Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-netty-shaded/1.39.0/grpc-netty-shaded-1.39.0.pom (2.0 kB at 220 kB/s)
 Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-core/1.39.0/grpc-core-1.39.0.pom
-Progress (1): 1.4/2.5 kB
-Progress (1): 2.5 kB    
+Progress (1): 2.5 kB
                     
-Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-core/1.39.0/grpc-core-1.39.0.pom (2.5 kB at 279 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-core/1.39.0/grpc-core-1.39.0.pom (2.5 kB at 314 kB/s)
 Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-alts/1.39.0/grpc-alts-1.39.0.pom
-Progress (1): 1.4/2.9 kB
-Progress (1): 2.7/2.9 kB
-Progress (1): 2.9 kB    
+Progress (1): 2.9 kB
                     
 Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-alts/1.39.0/grpc-alts-1.39.0.pom (2.9 kB at 317 kB/s)
 Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-grpclb/1.39.0/grpc-grpclb-1.39.0.pom
-Progress (1): 1.4/2.5 kB
-Progress (1): 2.5 kB    
+Progress (1): 2.5 kB
                     
-Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-grpclb/1.39.0/grpc-grpclb-1.39.0.pom (2.5 kB at 70 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/com/google/api/gax-grpc/1.66.0/gax-grpc-1.66.0.jar
-Progress (1): 16/124 kB
-Progress (1): 33/124 kB
-Progress (1): 49/124 kB
-Progress (1): 66/124 kB
-Progress (1): 82/124 kB
-Progress (1): 98/124 kB
-Progress (1): 115/124 kB
-Progress (1): 124 kB    
+Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-grpclb/1.39.0/grpc-grpclb-1.39.0.pom (2.5 kB at 281 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/cloud/google-cloud-core/1.95.4/google-cloud-core-1.95.4.pom
+Progress (1): 3.3 kB
                     
-Downloaded from central: https://repo.maven.apache.org/maven2/com/google/api/gax-grpc/1.66.0/gax-grpc-1.66.0.jar (124 kB at 6.5 MB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-auth/1.39.0/grpc-auth-1.39.0.jar
-Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-netty-shaded/1.39.0/grpc-netty-shaded-1.39.0.jar
-Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-alts/1.39.0/grpc-alts-1.39.0.jar
-Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-core/1.39.0/grpc-core-1.39.0.jar
-Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-grpclb/1.39.0/grpc-grpclb-1.39.0.jar
-Progress (1): 16/656 kB
-Progress (1): 32/656 kB
-Progress (1): 49/656 kB
-Progress (1): 65/656 kB
-Progress (1): 81/656 kB
-Progress (1): 98/656 kB
-Progress (2): 98/656 kB | 1.4/14 kB
-Progress (2): 98/656 kB | 2.7/14 kB
-Progress (2): 98/656 kB | 4.1/14 kB
-Progress (2): 98/656 kB | 5.5/14 kB
-Progress (2): 98/656 kB | 6.9/14 kB
-Progress (2): 114/656 kB | 6.9/14 kB
-Progress (3): 114/656 kB | 6.9/14 kB | 16/318 kB
-Progress (3): 114/656 kB | 8.2/14 kB | 16/318 kB
-Progress (3): 114/656 kB | 9.6/14 kB | 16/318 kB
-Progress (3): 130/656 kB | 9.6/14 kB | 16/318 kB
-Progress (3): 130/656 kB | 9.6/14 kB | 33/318 kB
-Progress (4): 130/656 kB | 9.6/14 kB | 33/318 kB | 1.4/178 kB
-Progress (4): 147/656 kB | 9.6/14 kB | 33/318 kB | 1.4/178 kB
-Progress (4): 147/656 kB | 11/14 kB | 33/318 kB | 1.4/178 kB 
-Progress (4): 147/656 kB | 11/14 kB | 49/318 kB | 1.4/178 kB
-Progress (4): 163/656 kB | 11/14 kB | 49/318 kB | 1.4/178 kB
-Progress (4): 163/656 kB | 11/14 kB | 66/318 kB | 1.4/178 kB
-Progress (4): 180/656 kB | 11/14 kB | 66/318 kB | 1.4/178 kB
-Progress (4): 180/656 kB | 11/14 kB | 66/318 kB | 2.7/178 kB
-Progress (4): 180/656 kB | 11/14 kB | 66/318 kB | 4.1/178 kB
-Progress (4): 180/656 kB | 12/14 kB | 66/318 kB | 4.1/178 kB
-Progress (4): 180/656 kB | 12/14 kB | 82/318 kB | 4.1/178 kB
-Progress (4): 180/656 kB | 12/14 kB | 82/318 kB | 5.5/178 kB
-Progress (4): 196/656 kB | 12/14 kB | 82/318 kB | 5.5/178 kB
-Progress (4): 196/656 kB | 12/14 kB | 98/318 kB | 5.5/178 kB
-Progress (4): 196/656 kB | 14/14 kB | 98/318 kB | 5.5/178 kB
-Progress (4): 196/656 kB | 14/14 kB | 115/318 kB | 5.5/178 kB
-Progress (4): 196/656 kB | 14/14 kB | 115/318 kB | 6.9/178 kB
-Progress (4): 212/656 kB | 14/14 kB | 115/318 kB | 6.9/178 kB
-Progress (4): 212/656 kB | 14/14 kB | 115/318 kB | 8.2/178 kB
-Progress (4): 212/656 kB | 14/14 kB | 131/318 kB | 8.2/178 kB
-Progress (4): 229/656 kB | 14/14 kB | 131/318 kB | 8.2/178 kB
-Progress (4): 229/656 kB | 14/14 kB | 131/318 kB | 9.6/178 kB
-Progress (4): 229/656 kB | 14 kB | 131/318 kB | 9.6/178 kB   
-Progress (4): 229/656 kB | 14 kB | 131/318 kB | 11/178 kB 
-Progress (4): 229/656 kB | 14 kB | 131/318 kB | 12/178 kB
-Progress (4): 229/656 kB | 14 kB | 147/318 kB | 12/178 kB
-Progress (4): 245/656 kB | 14 kB | 147/318 kB | 12/178 kB
-Progress (4): 245/656 kB | 14 kB | 147/318 kB | 14/178 kB
-Progress (4): 262/656 kB | 14 kB | 147/318 kB | 14/178 kB
-                                                         
-Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-auth/1.39.0/grpc-auth-1.39.0.jar (14 kB at 284 kB/s)
-Progress (3): 262/656 kB | 147/318 kB | 15/178 kB
-Progress (3): 262/656 kB | 164/318 kB | 15/178 kB
-Progress (3): 278/656 kB | 164/318 kB | 15/178 kB
-Progress (3): 278/656 kB | 164/318 kB | 16/178 kB
-Progress (3): 294/656 kB | 164/318 kB | 16/178 kB
-Progress (3): 311/656 kB | 164/318 kB | 16/178 kB
-Progress (3): 327/656 kB | 164/318 kB | 16/178 kB
-Progress (3): 343/656 kB | 164/318 kB | 16/178 kB
-Progress (3): 360/656 kB | 164/318 kB | 16/178 kB
-Progress (3): 360/656 kB | 164/318 kB | 32/178 kB
-Progress (3): 360/656 kB | 180/318 kB | 32/178 kB
-Progress (3): 376/656 kB | 180/318 kB | 32/178 kB
-Progress (3): 376/656 kB | 180/318 kB | 49/178 kB
-Progress (3): 393/656 kB | 180/318 kB | 49/178 kB
-Progress (3): 393/656 kB | 180/318 kB | 65/178 kB
-Progress (3): 402/656 kB | 180/318 kB | 65/178 kB
-Progress (3): 402/656 kB | 197/318 kB | 65/178 kB
-Progress (3): 418/656 kB | 197/318 kB | 65/178 kB
-Progress (3): 418/656 kB | 197/318 kB | 81/178 kB
-Progress (3): 418/656 kB | 213/318 kB | 81/178 kB
-Progress (3): 435/656 kB | 213/318 kB | 81/178 kB
-Progress (3): 435/656 kB | 213/318 kB | 98/178 kB
-Progress (3): 435/656 kB | 229/318 kB | 98/178 kB
-Progress (3): 451/656 kB | 229/318 kB | 98/178 kB
-Progress (3): 451/656 kB | 229/318 kB | 114/178 kB
-Progress (3): 451/656 kB | 246/318 kB | 114/178 kB
-Progress (3): 468/656 kB | 246/318 kB | 114/178 kB
-Progress (3): 468/656 kB | 246/318 kB | 130/178 kB
-Progress (3): 468/656 kB | 256/318 kB | 130/178 kB
-Progress (3): 484/656 kB | 256/318 kB | 130/178 kB
-Progress (3): 484/656 kB | 256/318 kB | 147/178 kB
-Progress (3): 484/656 kB | 272/318 kB | 147/178 kB
-Progress (3): 500/656 kB | 272/318 kB | 147/178 kB
-Progress (3): 500/656 kB | 272/318 kB | 163/178 kB
-Progress (3): 500/656 kB | 289/318 kB | 163/178 kB
-Progress (3): 517/656 kB | 289/318 kB | 163/178 kB
-Progress (3): 517/656 kB | 289/318 kB | 178 kB    
-Progress (3): 517/656 kB | 305/318 kB | 178 kB
-Progress (3): 533/656 kB | 305/318 kB | 178 kB
-Progress (3): 533/656 kB | 318 kB | 178 kB    
-Progress (3): 549/656 kB | 318 kB | 178 kB
-Progress (3): 566/656 kB | 318 kB | 178 kB
-                                          
-Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-grpclb/1.39.0/grpc-grpclb-1.39.0.jar (178 kB at 2.6 MB/s)
-Progress (2): 582/656 kB | 318 kB
-Progress (2): 599/656 kB | 318 kB
-Progress (2): 615/656 kB | 318 kB
-Progress (2): 631/656 kB | 318 kB
-Progress (2): 648/656 kB | 318 kB
-Progress (2): 656 kB | 318 kB    
-                             
-Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-core/1.39.0/grpc-core-1.39.0.jar (656 kB at 8.7 MB/s)
-Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-alts/1.39.0/grpc-alts-1.39.0.jar (318 kB at 4.2 MB/s)
-Progress (1): 0/8.0 MB
-Progress (1): 0/8.0 MB
-Progress (1): 0/8.0 MB
-Progress (1): 0.1/8.0 MB
-Progress (1): 0.1/8.0 MB
-Progress (1): 0.1/8.0 MB
-Progress (1): 0.1/8.0 MB
-Progress (1): 0.1/8.0 MB
-Progress (1): 0.1/8.0 MB
-Progress (1): 0.2/8.0 MB
-Progress (1): 0.2/8.0 MB
-Progress (1): 0.2/8.0 MB
-Progress (1): 0.2/8.0 MB
-Progress (1): 0.2/8.0 MB
-Progress (1): 0.2/8.0 MB
-Progress (1): 0.3/8.0 MB
-Progress (1): 0.3/8.0 MB
-Progress (1): 0.3/8.0 MB
-Progress (1): 0.3/8.0 MB
-Progress (1): 0.3/8.0 MB
-Progress (1): 0.3/8.0 MB
-Progress (1): 0.4/8.0 MB
-Progress (1): 0.4/8.0 MB
-Progress (1): 0.4/8.0 MB
-Progress (1): 0.4/8.0 MB
-Progress (1): 0.4/8.0 MB
-Progress (1): 0.4/8.0 MB
-Progress (1): 0.5/8.0 MB
-Progress (1): 0.5/8.0 MB
-Progress (1): 0.5/8.0 MB
-Progress (1): 0.5/8.0 MB
-Progress (1): 0.5/8.0 MB
-Progress (1): 0.5/8.0 MB
-Progress (1): 0.6/8.0 MB
-Progress (1): 0.6/8.0 MB
-Progress (1): 0.6/8.0 MB
-Progress (1): 0.6/8.0 MB
-Progress (1): 0.6/8.0 MB
-Progress (1): 0.6/8.0 MB
-Progress (1): 0.6/8.0 MB
-Progress (1): 0.7/8.0 MB
-Progress (1): 0.7/8.0 MB
-Progress (1): 0.7/8.0 MB
-Progress (1): 0.7/8.0 MB
-Progress (1): 0.7/8.0 MB
-Progress (1): 0.7/8.0 MB
-Progress (1): 0.8/8.0 MB
-Progress (1): 0.8/8.0 MB
-Progress (1): 0.8/8.0 MB
-Progress (1): 0.8/8.0 MB
-Progress (1): 0.8/8.0 MB
-Progress (1): 0.8/8.0 MB
-Progress (1): 0.9/8.0 MB
-Progress (1): 0.9/8.0 MB
-Progress (1): 0.9/8.0 MB
-Progress (1): 0.9/8.0 MB
-Progress (1): 0.9/8.0 MB
-Progress (1): 0.9/8.0 MB
-Progress (1): 1.0/8.0 MB
-Progress (1): 1.0/8.0 MB
-Progress (1): 1.0/8.0 MB
-Progress (1): 1.0/8.0 MB
-Progress (1): 1.0/8.0 MB
-Progress (1): 1.0/8.0 MB
-Progress (1): 1.1/8.0 MB
-Progress (1): 1.1/8.0 MB
-Progress (1): 1.1/8.0 MB
-Progress (1): 1.1/8.0 MB
-Progress (1): 1.1/8.0 MB
-Progress (1): 1.1/8.0 MB
-Progress (1): 1.1/8.0 MB
-Progress (1): 1.2/8.0 MB
-Progress (1): 1.2/8.0 MB
-Progress (1): 1.2/8.0 MB
-Progress (1): 1.2/8.0 MB
-Progress (1): 1.2/8.0 MB
-Progress (1): 1.2/8.0 MB
-Progress (1): 1.3/8.0 MB
-Progress (1): 1.3/8.0 MB
-Progress (1): 1.3/8.0 MB
-Progress (1): 1.3/8.0 MB
-Progress (1): 1.3/8.0 MB
-Progress (1): 1.3/8.0 MB
-Progress (1): 1.4/8.0 MB
-Progress (1): 1.4/8.0 MB
-Progress (1): 1.4/8.0 MB
-Progress (1): 1.4/8.0 MB
-Progress (1): 1.4/8.0 MB
-Progress (1): 1.4/8.0 MB
-Progress (1): 1.5/8.0 MB
-Progress (1): 1.5/8.0 MB
-Progress (1): 1.5/8.0 MB
-Progress (1): 1.5/8.0 MB
-Progress (1): 1.5/8.0 MB
-Progress (1): 1.5/8.0 MB
-Progress (1): 1.6/8.0 MB
-Progress (1): 1.6/8.0 MB
-Progress (1): 1.6/8.0 MB
-Progress (1): 1.6/8.0 MB
-Progress (1): 1.6/8.0 MB
-Progress (1): 1.6/8.0 MB
-Progress (1): 1.7/8.0 MB
-Progress (1): 1.7/8.0 MB
-Progress (1): 1.7/8.0 MB
-Progress (1): 1.7/8.0 MB
-Progress (1): 1.7/8.0 MB
-Progress (1): 1.7/8.0 MB
-Progress (1): 1.8/8.0 MB
-Progress (1): 1.8/8.0 MB
-Progress (1): 1.8/8.0 MB
-Progress (1): 1.8/8.0 MB
-Progress (1): 1.8/8.0 MB
-Progress (1): 1.8/8.0 MB
-Progress (1): 1.9/8.0 MB
-Progress (1): 1.9/8.0 MB
-Progress (1): 1.9/8.0 MB
-Progress (1): 1.9/8.0 MB
-Progress (1): 1.9/8.0 MB
-Progress (1): 1.9/8.0 MB
-Progress (1): 2.0/8.0 MB
-Progress (1): 2.0/8.0 MB
-Progress (1): 2.0/8.0 MB
-Progress (1): 2.0/8.0 MB
-Progress (1): 2.0/8.0 MB
-Progress (1): 2.0/8.0 MB
-Progress (1): 2.1/8.0 MB
-Progress (1): 2.1/8.0 MB
-Progress (1): 2.1/8.0 MB
-Progress (1): 2.1/8.0 MB
-Progress (1): 2.1/8.0 MB
-Progress (1): 2.1/8.0 MB
-Progress (1): 2.1/8.0 MB
-Progress (1): 2.2/8.0 MB
-Progress (1): 2.2/8.0 MB
-Progress (1): 2.2/8.0 MB
-Progress (1): 2.2/8.0 MB
-Progress (1): 2.2/8.0 MB
-Progress (1): 2.2/8.0 MB
-Progress (1): 2.3/8.0 MB
-Progress (1): 2.3/8.0 MB
-Progress (1): 2.3/8.0 MB
-Progress (1): 2.3/8.0 MB
-Progress (1): 2.3/8.0 MB
-Progress (1): 2.3/8.0 MB
-Progress (1): 2.4/8.0 MB
-Progress (1): 2.4/8.0 MB
-Progress (1): 2.4/8.0 MB
-Progress (1): 2.4/8.0 MB
-Progress (1): 2.4/8.0 MB
-Progress (1): 2.4/8.0 MB
-Progress (1): 2.5/8.0 MB
-Progress (1): 2.5/8.0 MB
-Progress (1): 2.5/8.0 MB
-Progress (1): 2.5/8.0 MB
-Progress (1): 2.5/8.0 MB
-Progress (1): 2.5/8.0 MB
-Progress (1): 2.6/8.0 MB
-Progress (1): 2.6/8.0 MB
-Progress (1): 2.6/8.0 MB
-Progress (1): 2.6/8.0 MB
-Progress (1): 2.6/8.0 MB
-Progress (1): 2.6/8.0 MB
-Progress (1): 2.7/8.0 MB
-Progress (1): 2.7/8.0 MB
-Progress (1): 2.7/8.0 MB
-Progress (1): 2.7/8.0 MB
-Progress (1): 2.7/8.0 MB
-Progress (1): 2.7/8.0 MB
-Progress (1): 2.8/8.0 MB
-Progress (1): 2.8/8.0 MB
-Progress (1): 2.8/8.0 MB
-Progress (1): 2.8/8.0 MB
-Progress (1): 2.8/8.0 MB
-Progress (1): 2.8/8.0 MB
-Progress (1): 2.9/8.0 MB
-Progress (1): 2.9/8.0 MB
-Progress (1): 2.9/8.0 MB
-Progress (1): 2.9/8.0 MB
-Progress (1): 2.9/8.0 MB
-Progress (1): 2.9/8.0 MB
-Progress (1): 3.0/8.0 MB
-Progress (1): 3.0/8.0 MB
-Progress (1): 3.0/8.0 MB
-Progress (1): 3.0/8.0 MB
-Progress (1): 3.0/8.0 MB
-Progress (1): 3.0/8.0 MB
-Progress (1): 3.1/8.0 MB
-Progress (1): 3.1/8.0 MB
-Progress (1): 3.1/8.0 MB
-Progress (1): 3.1/8.0 MB
-Progress (1): 3.1/8.0 MB
-Progress (1): 3.1/8.0 MB
-Progress (1): 3.1/8.0 MB
-Progress (1): 3.2/8.0 MB
-Progress (1): 3.2/8.0 MB
-Progress (1): 3.2/8.0 MB
-Progress (1): 3.2/8.0 MB
-Progress (1): 3.2/8.0 MB
-Progress (1): 3.2/8.0 MB
-Progress (1): 3.3/8.0 MB
-Progress (1): 3.3/8.0 MB
-Progress (1): 3.3/8.0 MB
-Progress (1): 3.3/8.0 MB
-Progress (1): 3.3/8.0 MB
-Progress (1): 3.3/8.0 MB
-Progress (1): 3.4/8.0 MB
-Progress (1): 3.4/8.0 MB
-Progress (1): 3.4/8.0 MB
-Progress (1): 3.4/8.0 MB
-Progress (1): 3.4/8.0 MB
-Progress (1): 3.4/8.0 MB
-Progress (1): 3.5/8.0 MB
-Progress (1): 3.5/8.0 MB
-Progress (1): 3.5/8.0 MB
-Progress (1): 3.5/8.0 MB
-Progress (1): 3.5/8.0 MB
-Progress (1): 3.5/8.0 MB
-Progress (1): 3.6/8.0 MB
-Progress (1): 3.6/8.0 MB
-Progress (1): 3.6/8.0 MB
-Progress (1): 3.6/8.0 MB
-Progress (1): 3.6/8.0 MB
-Progress (1): 3.6/8.0 MB
-Progress (1): 3.7/8.0 MB
-Progress (1): 3.7/8.0 MB
-Progress (1): 3.7/8.0 MB
-Progress (1): 3.7/8.0 MB
-Progress (1): 3.7/8.0 MB
-Progress (1): 3.7/8.0 MB
-Progress (1): 3.8/8.0 MB
-Progress (1): 3.8/8.0 MB
-Progress (1): 3.8/8.0 MB
-Progress (1): 3.8/8.0 MB
-Progress (1): 3.8/8.0 MB
-Progress (1): 3.8/8.0 MB
-Progress (1): 3.9/8.0 MB
-Progress (1): 3.9/8.0 MB
-Progress (1): 3.9/8.0 MB
-Progress (1): 3.9/8.0 MB
-Progress (1): 3.9/8.0 MB
-Progress (1): 3.9/8.0 MB
-Progress (1): 4.0/8.0 MB
-Progress (1): 4.0/8.0 MB
-Progress (1): 4.0/8.0 MB
-Progress (1): 4.0/8.0 MB
-Progress (1): 4.0/8.0 MB
-Progress (1): 4.0/8.0 MB
-Progress (1): 4.0/8.0 MB
-Progress (1): 4.1/8.0 MB
-Progress (1): 4.1/8.0 MB
-Progress (1): 4.1/8.0 MB
-Progress (1): 4.1/8.0 MB
-Progress (1): 4.1/8.0 MB
-Progress (1): 4.1/8.0 MB
-Progress (1): 4.2/8.0 MB
-Progress (1): 4.2/8.0 MB
-Progress (1): 4.2/8.0 MB
-Progress (1): 4.2/8.0 MB
-Progress (1): 4.2/8.0 MB
-Progress (1): 4.2/8.0 MB
-Progress (1): 4.3/8.0 MB
-Progress (1): 4.3/8.0 MB
-Progress (1): 4.3/8.0 MB
-Progress (1): 4.3/8.0 MB
-Progress (1): 4.3/8.0 MB
-Progress (1): 4.3/8.0 MB
-Progress (1): 4.4/8.0 MB
-Progress (1): 4.4/8.0 MB
-Progress (1): 4.4/8.0 MB
-Progress (1): 4.4/8.0 MB
-Progress (1): 4.4/8.0 MB
-Progress (1): 4.4/8.0 MB
-Progress (1): 4.5/8.0 MB
-Progress (1): 4.5/8.0 MB
-Progress (1): 4.5/8.0 MB
-Progress (1): 4.5/8.0 MB
-Progress (1): 4.5/8.0 MB
-Progress (1): 4.5/8.0 MB
-Progress (1): 4.6/8.0 MB
-Progress (1): 4.6/8.0 MB
-Progress (1): 4.6/8.0 MB
-Progress (1): 4.6/8.0 MB
-Progress (1): 4.6/8.0 MB
-Progress (1): 4.6/8.0 MB
-Progress (1): 4.7/8.0 MB
-Progress (1): 4.7/8.0 MB
-Progress (1): 4.7/8.0 MB
-Progress (1): 4.7/8.0 MB
-Progress (1): 4.7/8.0 MB
-Progress (1): 4.7/8.0 MB
-Progress (1): 4.8/8.0 MB
-Progress (1): 4.8/8.0 MB
-Progress (1): 4.8/8.0 MB
-Progress (1): 4.8/8.0 MB
-Progress (1): 4.8/8.0 MB
-Progress (1): 4.8/8.0 MB
-Progress (1): 4.9/8.0 MB
-Progress (1): 4.9/8.0 MB
-Progress (1): 4.9/8.0 MB
-Progress (1): 4.9/8.0 MB
-Progress (1): 4.9/8.0 MB
-Progress (1): 4.9/8.0 MB
-Progress (1): 5.0/8.0 MB
-Progress (1): 5.0/8.0 MB
-Progress (1): 5.0/8.0 MB
-Progress (1): 5.0/8.0 MB
-Progress (1): 5.0/8.0 MB
-Progress (1): 5.0/8.0 MB
-Progress (1): 5.0/8.0 MB
-Progress (1): 5.1/8.0 MB
-Progress (1): 5.1/8.0 MB
-Progress (1): 5.1/8.0 MB
-Progress (1): 5.1/8.0 MB
-Progress (1): 5.1/8.0 MB
-Progress (1): 5.1/8.0 MB
-Progress (1): 5.2/8.0 MB
-Progress (1): 5.2/8.0 MB
-Progress (1): 5.2/8.0 MB
-Progress (1): 5.2/8.0 MB
-Progress (1): 5.2/8.0 MB
-Progress (1): 5.2/8.0 MB
-Progress (1): 5.3/8.0 MB
-Progress (1): 5.3/8.0 MB
-Progress (1): 5.3/8.0 MB
-Progress (1): 5.3/8.0 MB
-Progress (1): 5.3/8.0 MB
-Progress (1): 5.3/8.0 MB
-Progress (1): 5.4/8.0 MB
-Progress (1): 5.4/8.0 MB
-Progress (1): 5.4/8.0 MB
-Progress (1): 5.4/8.0 MB
-Progress (1): 5.4/8.0 MB
-Progress (1): 5.4/8.0 MB
-Progress (1): 5.5/8.0 MB
-Progress (1): 5.5/8.0 MB
-Progress (1): 5.5/8.0 MB
-Progress (1): 5.5/8.0 MB
-Progress (1): 5.5/8.0 MB
-Progress (1): 5.5/8.0 MB
-Progress (1): 5.6/8.0 MB
-Progress (1): 5.6/8.0 MB
-Progress (1): 5.6/8.0 MB
-Progress (1): 5.6/8.0 MB
-Progress (1): 5.6/8.0 MB
-Progress (1): 5.6/8.0 MB
-Progress (1): 5.7/8.0 MB
-Progress (1): 5.7/8.0 MB
-Progress (1): 5.7/8.0 MB
-Progress (1): 5.7/8.0 MB
-Progress (1): 5.7/8.0 MB
-Progress (1): 5.7/8.0 MB
-Progress (1): 5.8/8.0 MB
-Progress (1): 5.8/8.0 MB
-Progress (1): 5.8/8.0 MB
-Progress (1): 5.8/8.0 MB
-Progress (1): 5.8/8.0 MB
-Progress (1): 5.8/8.0 MB
-Progress (1): 5.9/8.0 MB
-Progress (1): 5.9/8.0 MB
-Progress (1): 5.9/8.0 MB
-Progress (1): 5.9/8.0 MB
-Progress (1): 5.9/8.0 MB
-Progress (1): 5.9/8.0 MB
-Progress (1): 6.0/8.0 MB
-Progress (1): 6.0/8.0 MB
-Progress (1): 6.0/8.0 MB
-Progress (1): 6.0/8.0 MB
-Progress (1): 6.0/8.0 MB
-Progress (1): 6.0/8.0 MB
-Progress (1): 6.0/8.0 MB
-Progress (1): 6.1/8.0 MB
-Progress (1): 6.1/8.0 MB
-Progress (1): 6.1/8.0 MB
-Progress (1): 6.1/8.0 MB
-Progress (1): 6.1/8.0 MB
-Progress (1): 6.1/8.0 MB
-Progress (1): 6.2/8.0 MB
-Progress (1): 6.2/8.0 MB
-Progress (1): 6.2/8.0 MB
-Progress (1): 6.2/8.0 MB
-Progress (1): 6.2/8.0 MB
-Progress (1): 6.2/8.0 MB
-Progress (1): 6.3/8.0 MB
-Progress (1): 6.3/8.0 MB
-Progress (1): 6.3/8.0 MB
-Progress (1): 6.3/8.0 MB
-Progress (1): 6.3/8.0 MB
-Progress (1): 6.3/8.0 MB
-Progress (1): 6.4/8.0 MB
-Progress (1): 6.4/8.0 MB
-Progress (1): 6.4/8.0 MB
-Progress (1): 6.4/8.0 MB
-Progress (1): 6.4/8.0 MB
-Progress (1): 6.4/8.0 MB
-Progress (1): 6.5/8.0 MB
-Progress (1): 6.5/8.0 MB
-Progress (1): 6.5/8.0 MB
-Progress (1): 6.5/8.0 MB
-Progress (1): 6.5/8.0 MB
-Progress (1): 6.5/8.0 MB
-Progress (1): 6.6/8.0 MB
-Progress (1): 6.6/8.0 MB
-Progress (1): 6.6/8.0 MB
-Progress (1): 6.6/8.0 MB
-Progress (1): 6.6/8.0 MB
-Progress (1): 6.6/8.0 MB
-Progress (1): 6.7/8.0 MB
-Progress (1): 6.7/8.0 MB
-Progress (1): 6.7/8.0 MB
-Progress (1): 6.7/8.0 MB
-Progress (1): 6.7/8.0 MB
-Progress (1): 6.7/8.0 MB
-Progress (1): 6.8/8.0 MB
-Progress (1): 6.8/8.0 MB
-Progress (1): 6.8/8.0 MB
-Progress (1): 6.8/8.0 MB
-Progress (1): 6.8/8.0 MB
-Progress (1): 6.8/8.0 MB
-Progress (1): 6.9/8.0 MB
-Progress (1): 6.9/8.0 MB
-Progress (1): 6.9/8.0 MB
-Progress (1): 6.9/8.0 MB
-Progress (1): 6.9/8.0 MB
-Progress (1): 6.9/8.0 MB
-Progress (1): 6.9/8.0 MB
-Progress (1): 7.0/8.0 MB
-Progress (1): 7.0/8.0 MB
-Progress (1): 7.0/8.0 MB
-Progress (1): 7.0/8.0 MB
-Progress (1): 7.0/8.0 MB
-Progress (1): 7.0/8.0 MB
-Progress (1): 7.1/8.0 MB
-Progress (1): 7.1/8.0 MB
-Progress (1): 7.1/8.0 MB
-Progress (1): 7.1/8.0 MB
-Progress (1): 7.1/8.0 MB
-Progress (1): 7.1/8.0 MB
-Progress (1): 7.2/8.0 MB
-Progress (1): 7.2/8.0 MB
-Progress (1): 7.2/8.0 MB
-Progress (1): 7.2/8.0 MB
-Progress (1): 7.2/8.0 MB
-Progress (1): 7.2/8.0 MB
-Progress (1): 7.3/8.0 MB
-Progress (1): 7.3/8.0 MB
-Progress (1): 7.3/8.0 MB
-Progress (1): 7.3/8.0 MB
-Progress (1): 7.3/8.0 MB
-Progress (1): 7.3/8.0 MB
-Progress (1): 7.4/8.0 MB
-Progress (1): 7.4/8.0 MB
-Progress (1): 7.4/8.0 MB
-Progress (1): 7.4/8.0 MB
-Progress (1): 7.4/8.0 MB
-Progress (1): 7.4/8.0 MB
-Progress (1): 7.5/8.0 MB
-Progress (1): 7.5/8.0 MB
-Progress (1): 7.5/8.0 MB
-Progress (1): 7.5/8.0 MB
-Progress (1): 7.5/8.0 MB
-Progress (1): 7.5/8.0 MB
-Progress (1): 7.6/8.0 MB
-Progress (1): 7.6/8.0 MB
-Progress (1): 7.6/8.0 MB
-Progress (1): 7.6/8.0 MB
-Progress (1): 7.6/8.0 MB
-Progress (1): 7.6/8.0 MB
-Progress (1): 7.7/8.0 MB
-Progress (1): 7.7/8.0 MB
-Progress (1): 7.7/8.0 MB
-Progress (1): 7.7/8.0 MB
-Progress (1): 7.7/8.0 MB
-Progress (1): 7.7/8.0 MB
-Progress (1): 7.8/8.0 MB
-Progress (1): 7.8/8.0 MB
-Progress (1): 7.8/8.0 MB
-Progress (1): 7.8/8.0 MB
-Progress (1): 7.8/8.0 MB
-Progress (1): 7.8/8.0 MB
-Progress (1): 7.9/8.0 MB
-Progress (1): 7.9/8.0 MB
-Progress (1): 7.9/8.0 MB
-Progress (1): 7.9/8.0 MB
-Progress (1): 7.9/8.0 MB
-Progress (1): 7.9/8.0 MB
-Progress (1): 7.9/8.0 MB
-Progress (1): 8.0/8.0 MB
-Progress (1): 8.0/8.0 MB
-Progress (1): 8.0 MB    
-                    
-Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-netty-shaded/1.39.0/grpc-netty-shaded-1.39.0.jar (8.0 MB at 16 MB/s)
-[INFO] 
-[INFO] --- enforcer:3.0.0-M3:enforce (enforce) @ google-cloud-vision ---
-[INFO] Adding ignore: module-info
-[INFO] Adding ignore: META-INF/versions/*/module-info
-[INFO] 
-[INFO] --- checkstyle:3.1.2:check (checkstyle) @ google-cloud-vision ---
-[INFO] Starting audit...
-Audit done.
-[INFO] You have 0 Checkstyle violations.
-[INFO] 
-[INFO] --- jacoco:0.8.7:prepare-agent (default) @ google-cloud-vision ---
-[INFO] argLine set to -javaagent:C:\\Users\\frank_bump\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.8.7\\org.jacoco.agent-0.8.7-runtime.jar=destfile=D:\\Bump\\breaking-updates\\tempProject\\e181647f2d24f810e59c6b903b1d8cf6680ac5a3\\java-vision\\google-cloud-vision\\target\\jacoco.exec
-[INFO] 
-[INFO] --- build-helper:3.2.0:add-resource (add-main-proto-resources) @ google-cloud-vision ---
-[INFO] 
-[INFO] --- resources:3.3.1:resources (default-resources) @ google-cloud-vision ---
-[INFO] skip non existing resourceDirectory D:\Bump\breaking-updates\tempProject\e181647f2d24f810e59c6b903b1d8cf6680ac5a3\java-vision\google-cloud-vision\src\main\resources
-[INFO] skip non existing resourceDirectory D:\Bump\breaking-updates\tempProject\e181647f2d24f810e59c6b903b1d8cf6680ac5a3\java-vision\google-cloud-vision\src\main\proto
-[INFO] 
-[INFO] --- flatten:1.2.7:flatten (flatten) @ google-cloud-vision ---
-[INFO] Generating flattened POM of project com.google.cloud:google-cloud-vision:jar:1.103.8-SNAPSHOT...
-[INFO] 
-[INFO] --- compiler:3.8.1:compile (default-compile) @ google-cloud-vision ---
-[INFO] Changes detected - recompiling the module!
-[INFO] Compiling 53 source files to D:\Bump\breaking-updates\tempProject\e181647f2d24f810e59c6b903b1d8cf6680ac5a3\java-vision\google-cloud-vision\target\classes
-[WARNING] bootstrap class path not set in conjunction with -source 8
-[INFO] /D:/Bump/breaking-updates/tempProject/e181647f2d24f810e59c6b903b1d8cf6680ac5a3/java-vision/google-cloud-vision/src/main/java/com/google/cloud/vision/v1p4beta1/stub/ImageAnnotatorStubSettings.java: Some input files use unchecked or unsafe operations.
-[INFO] /D:/Bump/breaking-updates/tempProject/e181647f2d24f810e59c6b903b1d8cf6680ac5a3/java-vision/google-cloud-vision/src/main/java/com/google/cloud/vision/v1p4beta1/stub/ImageAnnotatorStubSettings.java: Recompile with -Xlint:unchecked for details.
-[INFO] 
-[INFO] --- dependency:3.1.2:tree (default-cli) @ google-cloud-vision ---
-Downloading from central: https://repo.maven.apache.org/maven2/com/google/api/gax-grpc/1.66.0/gax-grpc-1.66.0-testlib.jar
-Progress (1): 16/28 kB
-Progress (1): 28 kB   
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/cloud/google-cloud-core/1.95.4/google-cloud-core-1.95.4.pom (3.3 kB at 301 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/cloud/google-cloud-core-parent/1.95.4/google-cloud-core-parent-1.95.4.pom
+Progress (1): 4.1/13 kB
+Progress (1): 8.2/13 kB
+Progress (1): 12/13 kB 
+Progress (1): 13 kB   
                    
-Downloaded from central: https://repo.maven.apache.org/maven2/com/google/api/gax-grpc/1.66.0/gax-grpc-1.66.0-testlib.jar (28 kB at 287 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/cloud/google-cloud-core-parent/1.95.4/google-cloud-core-parent-1.95.4.pom (13 kB at 1.1 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/api/gax-bom/1.65.1/gax-bom-1.65.1.pom
+Progress (1): 2.7 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/api/gax-bom/1.65.1/gax-bom-1.65.1.pom (2.7 kB at 333 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-bom/1.38.1/grpc-bom-1.38.1.pom
+Progress (1): 4.1/4.7 kB
+Progress (1): 4.7 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-bom/1.38.1/grpc-bom-1.38.1.pom (4.7 kB at 592 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/api/grpc/proto-google-iam-v1/1.0.14/proto-google-iam-v1-1.0.14.pom
+Progress (1): 2.5 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/api/grpc/proto-google-iam-v1/1.0.14/proto-google-iam-v1-1.0.14.pom (2.5 kB at 316 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/checkerframework/checker-qual/3.13.0/checker-qual-3.13.0.pom
+Progress (1): 2.1 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/checkerframework/checker-qual/3.13.0/checker-qual-3.13.0.pom (2.1 kB at 190 kB/s)
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.1.2:tree (default-cli) @ google-cloud-vision ---
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/api/gax/1.66.0/gax-1.66.0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/api/gax-grpc/1.66.0/gax-grpc-1.66.0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/auth/google-auth-library-oauth2-http/0.26.0/google-auth-library-oauth2-http-0.26.0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/auth/google-auth-library-credentials/0.26.0/google-auth-library-credentials-0.26.0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-auth/1.39.0/grpc-auth-1.39.0.jar
+Progress (1): 4.1/5.7 kB
+Progress (1): 5.7 kB    
+Progress (2): 5.7 kB | 4.1/174 kB
+Progress (2): 5.7 kB | 8.2/174 kB
+Progress (2): 5.7 kB | 12/174 kB 
+Progress (2): 5.7 kB | 16/174 kB
+Progress (2): 5.7 kB | 20/174 kB
+Progress (2): 5.7 kB | 25/174 kB
+Progress (2): 5.7 kB | 29/174 kB
+Progress (2): 5.7 kB | 33/174 kB
+Progress (3): 5.7 kB | 33/174 kB | 4.1/124 kB
+Progress (4): 5.7 kB | 33/174 kB | 4.1/124 kB | 4.1/14 kB
+Progress (4): 5.7 kB | 37/174 kB | 4.1/124 kB | 4.1/14 kB
+Progress (4): 5.7 kB | 37/174 kB | 8.2/124 kB | 4.1/14 kB
+Progress (4): 5.7 kB | 37/174 kB | 8.2/124 kB | 8.2/14 kB
+Progress (4): 5.7 kB | 41/174 kB | 8.2/124 kB | 8.2/14 kB
+Progress (4): 5.7 kB | 41/174 kB | 8.2/124 kB | 12/14 kB 
+Progress (4): 5.7 kB | 41/174 kB | 12/124 kB | 12/14 kB 
+Progress (4): 5.7 kB | 41/174 kB | 12/124 kB | 14 kB   
+Progress (4): 5.7 kB | 45/174 kB | 12/124 kB | 14 kB
+Progress (4): 5.7 kB | 45/174 kB | 16/124 kB | 14 kB
+Progress (4): 5.7 kB | 49/174 kB | 16/124 kB | 14 kB
+Progress (4): 5.7 kB | 53/174 kB | 16/124 kB | 14 kB
+Progress (4): 5.7 kB | 57/174 kB | 16/124 kB | 14 kB
+Progress (4): 5.7 kB | 61/174 kB | 16/124 kB | 14 kB
+Progress (4): 5.7 kB | 66/174 kB | 16/124 kB | 14 kB
+Progress (4): 5.7 kB | 66/174 kB | 20/124 kB | 14 kB
+Progress (4): 5.7 kB | 66/174 kB | 25/124 kB | 14 kB
+Progress (4): 5.7 kB | 66/174 kB | 29/124 kB | 14 kB
+Progress (4): 5.7 kB | 70/174 kB | 29/124 kB | 14 kB
+Progress (4): 5.7 kB | 70/174 kB | 33/124 kB | 14 kB
+Progress (4): 5.7 kB | 74/174 kB | 33/124 kB | 14 kB
+Progress (4): 5.7 kB | 78/174 kB | 33/124 kB | 14 kB
+Progress (4): 5.7 kB | 82/174 kB | 33/124 kB | 14 kB
+                                                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/auth/google-auth-library-credentials/0.26.0/google-auth-library-credentials-0.26.0.jar (5.7 kB at 473 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-netty-shaded/1.39.0/grpc-netty-shaded-1.39.0.jar
+Progress (3): 86/174 kB | 33/124 kB | 14 kB
+Progress (3): 90/174 kB | 33/124 kB | 14 kB
+Progress (3): 90/174 kB | 37/124 kB | 14 kB
+Progress (3): 94/174 kB | 37/124 kB | 14 kB
+Progress (3): 94/174 kB | 41/124 kB | 14 kB
+Progress (3): 98/174 kB | 41/124 kB | 14 kB
+Progress (3): 98/174 kB | 45/124 kB | 14 kB
+Progress (3): 98/174 kB | 49/124 kB | 14 kB
+                                           
+Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-auth/1.39.0/grpc-auth-1.39.0.jar (14 kB at 1.0 MB/s)
+Progress (2): 102/174 kB | 49/124 kB
+                                    
+Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-core/1.39.0/grpc-core-1.39.0.jar
+Progress (2): 106/174 kB | 49/124 kB
+Progress (2): 111/174 kB | 49/124 kB
+Progress (2): 115/174 kB | 49/124 kB
+Progress (2): 115/174 kB | 53/124 kB
+Progress (3): 115/174 kB | 53/124 kB | 4.1/360 kB
+Progress (3): 115/174 kB | 57/124 kB | 4.1/360 kB
+Progress (3): 115/174 kB | 57/124 kB | 8.2/360 kB
+Progress (3): 115/174 kB | 61/124 kB | 8.2/360 kB
+Progress (3): 119/174 kB | 61/124 kB | 8.2/360 kB
+Progress (3): 119/174 kB | 66/124 kB | 8.2/360 kB
+Progress (3): 119/174 kB | 66/124 kB | 12/360 kB 
+Progress (3): 123/174 kB | 66/124 kB | 12/360 kB
+Progress (3): 123/174 kB | 66/124 kB | 16/360 kB
+Progress (3): 127/174 kB | 66/124 kB | 16/360 kB
+Progress (3): 131/174 kB | 66/124 kB | 16/360 kB
+Progress (3): 131/174 kB | 70/124 kB | 16/360 kB
+Progress (3): 131/174 kB | 74/124 kB | 16/360 kB
+Progress (3): 131/174 kB | 74/124 kB | 20/360 kB
+Progress (3): 131/174 kB | 78/124 kB | 20/360 kB
+Progress (3): 131/174 kB | 78/124 kB | 25/360 kB
+Progress (3): 131/174 kB | 82/124 kB | 25/360 kB
+Progress (3): 131/174 kB | 82/124 kB | 29/360 kB
+Progress (3): 135/174 kB | 82/124 kB | 29/360 kB
+Progress (3): 135/174 kB | 82/124 kB | 33/360 kB
+Progress (3): 139/174 kB | 82/124 kB | 33/360 kB
+Progress (3): 143/174 kB | 82/124 kB | 33/360 kB
+Progress (3): 147/174 kB | 82/124 kB | 33/360 kB
+Progress (3): 147/174 kB | 86/124 kB | 33/360 kB
+Progress (3): 147/174 kB | 90/124 kB | 33/360 kB
+Progress (3): 147/174 kB | 94/124 kB | 33/360 kB
+Progress (3): 152/174 kB | 94/124 kB | 33/360 kB
+Progress (3): 152/174 kB | 98/124 kB | 33/360 kB
+Progress (3): 156/174 kB | 98/124 kB | 33/360 kB
+Progress (3): 156/174 kB | 98/124 kB | 37/360 kB
+Progress (3): 160/174 kB | 98/124 kB | 37/360 kB
+Progress (4): 160/174 kB | 98/124 kB | 37/360 kB | 4.1/656 kB
+Progress (4): 164/174 kB | 98/124 kB | 37/360 kB | 4.1/656 kB
+Progress (4): 164/174 kB | 98/124 kB | 41/360 kB | 4.1/656 kB
+Progress (4): 164/174 kB | 98/124 kB | 41/360 kB | 8.2/656 kB
+Progress (4): 164/174 kB | 102/124 kB | 41/360 kB | 8.2/656 kB
+Progress (4): 168/174 kB | 102/124 kB | 41/360 kB | 8.2/656 kB
+Progress (4): 168/174 kB | 102/124 kB | 45/360 kB | 8.2/656 kB
+Progress (4): 172/174 kB | 102/124 kB | 45/360 kB | 8.2/656 kB
+Progress (4): 172/174 kB | 102/124 kB | 49/360 kB | 8.2/656 kB
+Progress (4): 172/174 kB | 106/124 kB | 49/360 kB | 8.2/656 kB
+Progress (4): 172/174 kB | 106/124 kB | 49/360 kB | 12/656 kB 
+Progress (4): 172/174 kB | 111/124 kB | 49/360 kB | 12/656 kB
+Progress (4): 174 kB | 111/124 kB | 49/360 kB | 12/656 kB    
+Progress (4): 174 kB | 115/124 kB | 49/360 kB | 12/656 kB
+Progress (4): 174 kB | 115/124 kB | 49/360 kB | 16/656 kB
+Progress (4): 174 kB | 115/124 kB | 53/360 kB | 16/656 kB
+Progress (4): 174 kB | 115/124 kB | 57/360 kB | 16/656 kB
+Progress (4): 174 kB | 119/124 kB | 57/360 kB | 16/656 kB
+Progress (4): 174 kB | 119/124 kB | 61/360 kB | 16/656 kB
+Progress (4): 174 kB | 123/124 kB | 61/360 kB | 16/656 kB
+Progress (4): 174 kB | 123/124 kB | 61/360 kB | 20/656 kB
+Progress (5): 174 kB | 123/124 kB | 61/360 kB | 20/656 kB | 0/8.0 MB
+Progress (5): 174 kB | 123/124 kB | 66/360 kB | 20/656 kB | 0/8.0 MB
+Progress (5): 174 kB | 123/124 kB | 66/360 kB | 25/656 kB | 0/8.0 MB
+Progress (5): 174 kB | 124 kB | 66/360 kB | 25/656 kB | 0/8.0 MB    
+Progress (5): 174 kB | 124 kB | 66/360 kB | 29/656 kB | 0/8.0 MB
+Progress (5): 174 kB | 124 kB | 66/360 kB | 33/656 kB | 0/8.0 MB
+Progress (5): 174 kB | 124 kB | 70/360 kB | 33/656 kB | 0/8.0 MB
+Progress (5): 174 kB | 124 kB | 74/360 kB | 33/656 kB | 0/8.0 MB
+Progress (5): 174 kB | 124 kB | 74/360 kB | 33/656 kB | 0.1/8.0 MB
+Progress (5): 174 kB | 124 kB | 78/360 kB | 33/656 kB | 0.1/8.0 MB
+Progress (5): 174 kB | 124 kB | 78/360 kB | 37/656 kB | 0.1/8.0 MB
+Progress (5): 174 kB | 124 kB | 82/360 kB | 37/656 kB | 0.1/8.0 MB
+Progress (5): 174 kB | 124 kB | 82/360 kB | 41/656 kB | 0.1/8.0 MB
+Progress (5): 174 kB | 124 kB | 82/360 kB | 45/656 kB | 0.1/8.0 MB
+Progress (5): 174 kB | 124 kB | 82/360 kB | 49/656 kB | 0.1/8.0 MB
+Progress (5): 174 kB | 124 kB | 86/360 kB | 49/656 kB | 0.1/8.0 MB
+Progress (5): 174 kB | 124 kB | 90/360 kB | 49/656 kB | 0.1/8.0 MB
+Progress (5): 174 kB | 124 kB | 90/360 kB | 53/656 kB | 0.1/8.0 MB
+Progress (5): 174 kB | 124 kB | 94/360 kB | 53/656 kB | 0.1/8.0 MB
+Progress (5): 174 kB | 124 kB | 94/360 kB | 57/656 kB | 0.1/8.0 MB
+Progress (5): 174 kB | 124 kB | 94/360 kB | 57/656 kB | 0.1/8.0 MB
+Progress (5): 174 kB | 124 kB | 94/360 kB | 61/656 kB | 0.1/8.0 MB
+Progress (5): 174 kB | 124 kB | 98/360 kB | 61/656 kB | 0.1/8.0 MB
+Progress (5): 174 kB | 124 kB | 98/360 kB | 66/656 kB | 0.1/8.0 MB
+Progress (5): 174 kB | 124 kB | 98/360 kB | 70/656 kB | 0.1/8.0 MB
+Progress (5): 174 kB | 124 kB | 102/360 kB | 70/656 kB | 0.1/8.0 MB
+Progress (5): 174 kB | 124 kB | 102/360 kB | 74/656 kB | 0.1/8.0 MB
+Progress (5): 174 kB | 124 kB | 106/360 kB | 74/656 kB | 0.1/8.0 MB
+                                                                   
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/api/gax-grpc/1.66.0/gax-grpc-1.66.0.jar (124 kB at 4.3 MB/s)
+Progress (4): 174 kB | 111/360 kB | 74/656 kB | 0.1/8.0 MB
+Progress (4): 174 kB | 111/360 kB | 74/656 kB | 0.2/8.0 MB
+Progress (4): 174 kB | 111/360 kB | 78/656 kB | 0.2/8.0 MB
+Progress (4): 174 kB | 115/360 kB | 78/656 kB | 0.2/8.0 MB
+                                                          
+Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-alts/1.39.0/grpc-alts-1.39.0.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/auth/google-auth-library-oauth2-http/0.26.0/google-auth-library-oauth2-http-0.26.0.jar (174 kB at 6.0 MB/s)
+Progress (3): 115/360 kB | 82/656 kB | 0.2/8.0 MB
+                                                 
+Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-grpclb/1.39.0/grpc-grpclb-1.39.0.jar
+Progress (3): 119/360 kB | 82/656 kB | 0.2/8.0 MB
+Progress (3): 123/360 kB | 82/656 kB | 0.2/8.0 MB
+Progress (3): 127/360 kB | 82/656 kB | 0.2/8.0 MB
+Progress (3): 127/360 kB | 86/656 kB | 0.2/8.0 MB
+Progress (3): 131/360 kB | 86/656 kB | 0.2/8.0 MB
+Progress (3): 131/360 kB | 90/656 kB | 0.2/8.0 MB
+Progress (3): 131/360 kB | 94/656 kB | 0.2/8.0 MB
+Progress (3): 131/360 kB | 98/656 kB | 0.2/8.0 MB
+Progress (3): 131/360 kB | 98/656 kB | 0.2/8.0 MB
+Progress (3): 135/360 kB | 98/656 kB | 0.2/8.0 MB
+Progress (3): 135/360 kB | 102/656 kB | 0.2/8.0 MB
+Progress (3): 139/360 kB | 102/656 kB | 0.2/8.0 MB
+Progress (3): 139/360 kB | 106/656 kB | 0.2/8.0 MB
+Progress (3): 143/360 kB | 106/656 kB | 0.2/8.0 MB
+Progress (3): 143/360 kB | 111/656 kB | 0.2/8.0 MB
+Progress (3): 147/360 kB | 111/656 kB | 0.2/8.0 MB
+Progress (3): 147/360 kB | 115/656 kB | 0.2/8.0 MB
+Progress (3): 147/360 kB | 115/656 kB | 0.2/8.0 MB
+Progress (3): 152/360 kB | 115/656 kB | 0.2/8.0 MB
+Progress (3): 156/360 kB | 115/656 kB | 0.2/8.0 MB
+Progress (3): 156/360 kB | 119/656 kB | 0.2/8.0 MB
+Progress (3): 160/360 kB | 119/656 kB | 0.2/8.0 MB
+Progress (3): 160/360 kB | 123/656 kB | 0.2/8.0 MB
+Progress (3): 164/360 kB | 123/656 kB | 0.2/8.0 MB
+Progress (3): 164/360 kB | 127/656 kB | 0.2/8.0 MB
+Progress (3): 164/360 kB | 131/656 kB | 0.2/8.0 MB
+Progress (3): 168/360 kB | 131/656 kB | 0.2/8.0 MB
+Progress (3): 168/360 kB | 135/656 kB | 0.2/8.0 MB
+Progress (3): 168/360 kB | 135/656 kB | 0.3/8.0 MB
+Progress (3): 172/360 kB | 135/656 kB | 0.3/8.0 MB
+Progress (3): 172/360 kB | 139/656 kB | 0.3/8.0 MB
+Progress (3): 176/360 kB | 139/656 kB | 0.3/8.0 MB
+Progress (3): 176/360 kB | 143/656 kB | 0.3/8.0 MB
+Progress (3): 180/360 kB | 143/656 kB | 0.3/8.0 MB
+Progress (3): 180/360 kB | 147/656 kB | 0.3/8.0 MB
+Progress (3): 184/360 kB | 147/656 kB | 0.3/8.0 MB
+Progress (3): 184/360 kB | 152/656 kB | 0.3/8.0 MB
+Progress (3): 188/360 kB | 152/656 kB | 0.3/8.0 MB
+Progress (3): 188/360 kB | 152/656 kB | 0.3/8.0 MB
+Progress (3): 188/360 kB | 156/656 kB | 0.3/8.0 MB
+Progress (3): 193/360 kB | 156/656 kB | 0.3/8.0 MB
+Progress (3): 193/360 kB | 160/656 kB | 0.3/8.0 MB
+Progress (3): 197/360 kB | 160/656 kB | 0.3/8.0 MB
+Progress (3): 197/360 kB | 164/656 kB | 0.3/8.0 MB
+Progress (4): 197/360 kB | 164/656 kB | 0.3/8.0 MB | 4.1/318 kB
+Progress (4): 201/360 kB | 164/656 kB | 0.3/8.0 MB | 4.1/318 kB
+Progress (4): 201/360 kB | 168/656 kB | 0.3/8.0 MB | 4.1/318 kB
+Progress (4): 205/360 kB | 168/656 kB | 0.3/8.0 MB | 4.1/318 kB
+Progress (4): 205/360 kB | 168/656 kB | 0.3/8.0 MB | 8.2/318 kB
+Progress (5): 205/360 kB | 168/656 kB | 0.3/8.0 MB | 8.2/318 kB | 4.1/178 kB
+Progress (5): 209/360 kB | 168/656 kB | 0.3/8.0 MB | 8.2/318 kB | 4.1/178 kB
+Progress (5): 209/360 kB | 172/656 kB | 0.3/8.0 MB | 8.2/318 kB | 4.1/178 kB
+Progress (5): 209/360 kB | 172/656 kB | 0.4/8.0 MB | 8.2/318 kB | 4.1/178 kB
+Progress (5): 213/360 kB | 172/656 kB | 0.4/8.0 MB | 8.2/318 kB | 4.1/178 kB
+Progress (5): 213/360 kB | 172/656 kB | 0.4/8.0 MB | 8.2/318 kB | 8.2/178 kB
+Progress (5): 213/360 kB | 172/656 kB | 0.4/8.0 MB | 12/318 kB | 8.2/178 kB 
+Progress (5): 213/360 kB | 172/656 kB | 0.4/8.0 MB | 12/318 kB | 12/178 kB 
+Progress (5): 213/360 kB | 176/656 kB | 0.4/8.0 MB | 12/318 kB | 12/178 kB
+Progress (5): 217/360 kB | 176/656 kB | 0.4/8.0 MB | 12/318 kB | 12/178 kB
+Progress (5): 217/360 kB | 176/656 kB | 0.4/8.0 MB | 12/318 kB | 16/178 kB
+Progress (5): 217/360 kB | 176/656 kB | 0.4/8.0 MB | 16/318 kB | 16/178 kB
+Progress (5): 221/360 kB | 176/656 kB | 0.4/8.0 MB | 16/318 kB | 16/178 kB
+Progress (5): 221/360 kB | 180/656 kB | 0.4/8.0 MB | 16/318 kB | 16/178 kB
+Progress (5): 225/360 kB | 180/656 kB | 0.4/8.0 MB | 16/318 kB | 16/178 kB
+Progress (5): 225/360 kB | 180/656 kB | 0.4/8.0 MB | 16/318 kB | 16/178 kB
+Progress (5): 225/360 kB | 180/656 kB | 0.4/8.0 MB | 16/318 kB | 20/178 kB
+Progress (5): 229/360 kB | 180/656 kB | 0.4/8.0 MB | 16/318 kB | 20/178 kB
+Progress (5): 229/360 kB | 180/656 kB | 0.4/8.0 MB | 20/318 kB | 20/178 kB
+Progress (5): 229/360 kB | 180/656 kB | 0.4/8.0 MB | 20/318 kB | 25/178 kB
+Progress (5): 229/360 kB | 180/656 kB | 0.4/8.0 MB | 25/318 kB | 25/178 kB
+Progress (5): 229/360 kB | 184/656 kB | 0.4/8.0 MB | 25/318 kB | 25/178 kB
+Progress (5): 233/360 kB | 184/656 kB | 0.4/8.0 MB | 25/318 kB | 25/178 kB
+Progress (5): 233/360 kB | 184/656 kB | 0.4/8.0 MB | 29/318 kB | 25/178 kB
+Progress (5): 233/360 kB | 184/656 kB | 0.4/8.0 MB | 29/318 kB | 29/178 kB
+Progress (5): 233/360 kB | 184/656 kB | 0.4/8.0 MB | 33/318 kB | 29/178 kB
+Progress (5): 238/360 kB | 184/656 kB | 0.4/8.0 MB | 33/318 kB | 29/178 kB
+Progress (5): 238/360 kB | 188/656 kB | 0.4/8.0 MB | 33/318 kB | 29/178 kB
+Progress (5): 242/360 kB | 188/656 kB | 0.4/8.0 MB | 33/318 kB | 29/178 kB
+Progress (5): 242/360 kB | 188/656 kB | 0.4/8.0 MB | 33/318 kB | 33/178 kB
+Progress (5): 242/360 kB | 188/656 kB | 0.4/8.0 MB | 37/318 kB | 33/178 kB
+Progress (5): 246/360 kB | 188/656 kB | 0.4/8.0 MB | 37/318 kB | 33/178 kB
+Progress (5): 246/360 kB | 193/656 kB | 0.4/8.0 MB | 37/318 kB | 33/178 kB
+Progress (5): 246/360 kB | 193/656 kB | 0.5/8.0 MB | 37/318 kB | 33/178 kB
+Progress (5): 246/360 kB | 193/656 kB | 0.5/8.0 MB | 41/318 kB | 33/178 kB
+Progress (5): 246/360 kB | 193/656 kB | 0.5/8.0 MB | 41/318 kB | 37/178 kB
+Progress (5): 246/360 kB | 197/656 kB | 0.5/8.0 MB | 41/318 kB | 37/178 kB
+Progress (5): 246/360 kB | 197/656 kB | 0.5/8.0 MB | 41/318 kB | 41/178 kB
+Progress (5): 246/360 kB | 197/656 kB | 0.5/8.0 MB | 45/318 kB | 41/178 kB
+Progress (5): 246/360 kB | 197/656 kB | 0.5/8.0 MB | 45/318 kB | 45/178 kB
+Progress (5): 246/360 kB | 197/656 kB | 0.5/8.0 MB | 49/318 kB | 45/178 kB
+Progress (5): 250/360 kB | 197/656 kB | 0.5/8.0 MB | 49/318 kB | 45/178 kB
+Progress (5): 250/360 kB | 197/656 kB | 0.5/8.0 MB | 49/318 kB | 49/178 kB
+Progress (5): 250/360 kB | 201/656 kB | 0.5/8.0 MB | 49/318 kB | 49/178 kB
+Progress (5): 254/360 kB | 201/656 kB | 0.5/8.0 MB | 49/318 kB | 49/178 kB
+Progress (5): 254/360 kB | 201/656 kB | 0.5/8.0 MB | 53/318 kB | 49/178 kB
+Progress (5): 254/360 kB | 205/656 kB | 0.5/8.0 MB | 53/318 kB | 49/178 kB
+Progress (5): 254/360 kB | 205/656 kB | 0.5/8.0 MB | 57/318 kB | 49/178 kB
+Progress (5): 258/360 kB | 205/656 kB | 0.5/8.0 MB | 57/318 kB | 49/178 kB
+Progress (5): 258/360 kB | 205/656 kB | 0.5/8.0 MB | 57/318 kB | 53/178 kB
+Progress (5): 258/360 kB | 205/656 kB | 0.5/8.0 MB | 61/318 kB | 53/178 kB
+Progress (5): 258/360 kB | 205/656 kB | 0.5/8.0 MB | 61/318 kB | 53/178 kB
+Progress (5): 258/360 kB | 209/656 kB | 0.5/8.0 MB | 61/318 kB | 53/178 kB
+Progress (5): 258/360 kB | 209/656 kB | 0.5/8.0 MB | 66/318 kB | 53/178 kB
+Progress (5): 258/360 kB | 209/656 kB | 0.5/8.0 MB | 66/318 kB | 57/178 kB
+Progress (5): 262/360 kB | 209/656 kB | 0.5/8.0 MB | 66/318 kB | 57/178 kB
+Progress (5): 262/360 kB | 209/656 kB | 0.5/8.0 MB | 66/318 kB | 61/178 kB
+Progress (5): 262/360 kB | 213/656 kB | 0.5/8.0 MB | 66/318 kB | 61/178 kB
+Progress (5): 262/360 kB | 213/656 kB | 0.5/8.0 MB | 70/318 kB | 61/178 kB
+Progress (5): 262/360 kB | 213/656 kB | 0.5/8.0 MB | 70/318 kB | 66/178 kB
+Progress (5): 266/360 kB | 213/656 kB | 0.5/8.0 MB | 70/318 kB | 66/178 kB
+Progress (5): 266/360 kB | 213/656 kB | 0.5/8.0 MB | 74/318 kB | 66/178 kB
+Progress (5): 270/360 kB | 213/656 kB | 0.5/8.0 MB | 74/318 kB | 66/178 kB
+Progress (5): 270/360 kB | 213/656 kB | 0.5/8.0 MB | 78/318 kB | 66/178 kB
+Progress (5): 274/360 kB | 213/656 kB | 0.5/8.0 MB | 78/318 kB | 66/178 kB
+Progress (5): 274/360 kB | 213/656 kB | 0.5/8.0 MB | 82/318 kB | 66/178 kB
+Progress (5): 274/360 kB | 217/656 kB | 0.5/8.0 MB | 82/318 kB | 66/178 kB
+Progress (5): 274/360 kB | 217/656 kB | 0.5/8.0 MB | 82/318 kB | 70/178 kB
+Progress (5): 279/360 kB | 217/656 kB | 0.5/8.0 MB | 82/318 kB | 70/178 kB
+Progress (5): 279/360 kB | 217/656 kB | 0.5/8.0 MB | 82/318 kB | 74/178 kB
+Progress (5): 279/360 kB | 221/656 kB | 0.5/8.0 MB | 82/318 kB | 74/178 kB
+Progress (5): 279/360 kB | 221/656 kB | 0.5/8.0 MB | 82/318 kB | 78/178 kB
+Progress (5): 279/360 kB | 221/656 kB | 0.5/8.0 MB | 86/318 kB | 78/178 kB
+Progress (5): 279/360 kB | 221/656 kB | 0.5/8.0 MB | 86/318 kB | 82/178 kB
+Progress (5): 283/360 kB | 221/656 kB | 0.5/8.0 MB | 86/318 kB | 82/178 kB
+Progress (5): 283/360 kB | 221/656 kB | 0.5/8.0 MB | 86/318 kB | 82/178 kB
+Progress (5): 283/360 kB | 225/656 kB | 0.5/8.0 MB | 86/318 kB | 82/178 kB
+Progress (5): 287/360 kB | 225/656 kB | 0.5/8.0 MB | 86/318 kB | 82/178 kB
+Progress (5): 287/360 kB | 225/656 kB | 0.5/8.0 MB | 90/318 kB | 82/178 kB
+Progress (5): 291/360 kB | 225/656 kB | 0.5/8.0 MB | 90/318 kB | 82/178 kB
+Progress (5): 291/360 kB | 229/656 kB | 0.5/8.0 MB | 90/318 kB | 82/178 kB
+Progress (5): 295/360 kB | 229/656 kB | 0.5/8.0 MB | 90/318 kB | 82/178 kB
+Progress (5): 295/360 kB | 229/656 kB | 0.5/8.0 MB | 94/318 kB | 82/178 kB
+Progress (5): 295/360 kB | 229/656 kB | 0.5/8.0 MB | 94/318 kB | 86/178 kB
+Progress (5): 295/360 kB | 229/656 kB | 0.5/8.0 MB | 98/318 kB | 86/178 kB
+Progress (5): 295/360 kB | 229/656 kB | 0.5/8.0 MB | 98/318 kB | 90/178 kB
+Progress (5): 299/360 kB | 229/656 kB | 0.5/8.0 MB | 98/318 kB | 90/178 kB
+Progress (5): 299/360 kB | 229/656 kB | 0.5/8.0 MB | 98/318 kB | 94/178 kB
+Progress (5): 299/360 kB | 233/656 kB | 0.5/8.0 MB | 98/318 kB | 94/178 kB
+Progress (5): 299/360 kB | 233/656 kB | 0.5/8.0 MB | 102/318 kB | 94/178 kB
+Progress (5): 299/360 kB | 233/656 kB | 0.5/8.0 MB | 102/318 kB | 98/178 kB
+Progress (5): 303/360 kB | 233/656 kB | 0.5/8.0 MB | 102/318 kB | 98/178 kB
+Progress (5): 303/360 kB | 233/656 kB | 0.6/8.0 MB | 102/318 kB | 98/178 kB
+Progress (5): 303/360 kB | 233/656 kB | 0.6/8.0 MB | 106/318 kB | 98/178 kB
+Progress (5): 303/360 kB | 238/656 kB | 0.6/8.0 MB | 106/318 kB | 98/178 kB
+Progress (5): 303/360 kB | 238/656 kB | 0.6/8.0 MB | 111/318 kB | 98/178 kB
+Progress (5): 307/360 kB | 238/656 kB | 0.6/8.0 MB | 111/318 kB | 98/178 kB
+Progress (5): 307/360 kB | 238/656 kB | 0.6/8.0 MB | 115/318 kB | 98/178 kB
+Progress (5): 307/360 kB | 238/656 kB | 0.6/8.0 MB | 115/318 kB | 102/178 kB
+Progress (5): 307/360 kB | 242/656 kB | 0.6/8.0 MB | 115/318 kB | 102/178 kB
+Progress (5): 307/360 kB | 242/656 kB | 0.6/8.0 MB | 115/318 kB | 106/178 kB
+Progress (5): 311/360 kB | 242/656 kB | 0.6/8.0 MB | 115/318 kB | 106/178 kB
+Progress (5): 311/360 kB | 242/656 kB | 0.6/8.0 MB | 115/318 kB | 111/178 kB
+Progress (5): 311/360 kB | 246/656 kB | 0.6/8.0 MB | 115/318 kB | 111/178 kB
+Progress (5): 311/360 kB | 246/656 kB | 0.6/8.0 MB | 115/318 kB | 115/178 kB
+Progress (5): 311/360 kB | 246/656 kB | 0.6/8.0 MB | 119/318 kB | 115/178 kB
+Progress (5): 315/360 kB | 246/656 kB | 0.6/8.0 MB | 119/318 kB | 115/178 kB
+Progress (5): 315/360 kB | 246/656 kB | 0.6/8.0 MB | 123/318 kB | 115/178 kB
+Progress (5): 315/360 kB | 250/656 kB | 0.6/8.0 MB | 123/318 kB | 115/178 kB
+Progress (5): 319/360 kB | 250/656 kB | 0.6/8.0 MB | 123/318 kB | 115/178 kB
+Progress (5): 319/360 kB | 254/656 kB | 0.6/8.0 MB | 123/318 kB | 115/178 kB
+Progress (5): 319/360 kB | 254/656 kB | 0.6/8.0 MB | 127/318 kB | 115/178 kB
+Progress (5): 319/360 kB | 254/656 kB | 0.6/8.0 MB | 127/318 kB | 115/178 kB
+Progress (5): 324/360 kB | 254/656 kB | 0.6/8.0 MB | 127/318 kB | 115/178 kB
+Progress (5): 324/360 kB | 254/656 kB | 0.6/8.0 MB | 127/318 kB | 119/178 kB
+Progress (5): 328/360 kB | 254/656 kB | 0.6/8.0 MB | 127/318 kB | 119/178 kB
+Progress (5): 328/360 kB | 254/656 kB | 0.6/8.0 MB | 131/318 kB | 119/178 kB
+Progress (5): 328/360 kB | 258/656 kB | 0.6/8.0 MB | 131/318 kB | 119/178 kB
+Progress (5): 328/360 kB | 258/656 kB | 0.6/8.0 MB | 131/318 kB | 123/178 kB
+Progress (5): 328/360 kB | 262/656 kB | 0.6/8.0 MB | 131/318 kB | 123/178 kB
+Progress (5): 328/360 kB | 262/656 kB | 0.6/8.0 MB | 131/318 kB | 127/178 kB
+Progress (5): 332/360 kB | 262/656 kB | 0.6/8.0 MB | 131/318 kB | 127/178 kB
+Progress (5): 332/360 kB | 262/656 kB | 0.6/8.0 MB | 131/318 kB | 131/178 kB
+Progress (5): 332/360 kB | 262/656 kB | 0.6/8.0 MB | 135/318 kB | 131/178 kB
+Progress (5): 332/360 kB | 266/656 kB | 0.6/8.0 MB | 135/318 kB | 131/178 kB
+Progress (5): 332/360 kB | 266/656 kB | 0.6/8.0 MB | 139/318 kB | 131/178 kB
+Progress (5): 336/360 kB | 266/656 kB | 0.6/8.0 MB | 139/318 kB | 131/178 kB
+Progress (5): 336/360 kB | 266/656 kB | 0.6/8.0 MB | 143/318 kB | 131/178 kB
+Progress (5): 336/360 kB | 266/656 kB | 0.7/8.0 MB | 143/318 kB | 131/178 kB
+Progress (5): 336/360 kB | 270/656 kB | 0.7/8.0 MB | 143/318 kB | 131/178 kB
+Progress (5): 336/360 kB | 270/656 kB | 0.7/8.0 MB | 147/318 kB | 131/178 kB
+Progress (5): 336/360 kB | 270/656 kB | 0.7/8.0 MB | 147/318 kB | 135/178 kB
+Progress (5): 340/360 kB | 270/656 kB | 0.7/8.0 MB | 147/318 kB | 135/178 kB
+Progress (5): 340/360 kB | 270/656 kB | 0.7/8.0 MB | 147/318 kB | 139/178 kB
+Progress (5): 344/360 kB | 270/656 kB | 0.7/8.0 MB | 147/318 kB | 139/178 kB
+Progress (5): 344/360 kB | 270/656 kB | 0.7/8.0 MB | 152/318 kB | 139/178 kB
+Progress (5): 344/360 kB | 274/656 kB | 0.7/8.0 MB | 152/318 kB | 139/178 kB
+Progress (5): 344/360 kB | 274/656 kB | 0.7/8.0 MB | 152/318 kB | 143/178 kB
+Progress (5): 348/360 kB | 274/656 kB | 0.7/8.0 MB | 152/318 kB | 143/178 kB
+Progress (5): 348/360 kB | 279/656 kB | 0.7/8.0 MB | 152/318 kB | 143/178 kB
+Progress (5): 348/360 kB | 279/656 kB | 0.7/8.0 MB | 156/318 kB | 143/178 kB
+Progress (5): 348/360 kB | 283/656 kB | 0.7/8.0 MB | 156/318 kB | 143/178 kB
+Progress (5): 352/360 kB | 283/656 kB | 0.7/8.0 MB | 156/318 kB | 143/178 kB
+Progress (5): 352/360 kB | 283/656 kB | 0.7/8.0 MB | 156/318 kB | 147/178 kB
+Progress (5): 356/360 kB | 283/656 kB | 0.7/8.0 MB | 156/318 kB | 147/178 kB
+Progress (5): 356/360 kB | 287/656 kB | 0.7/8.0 MB | 156/318 kB | 147/178 kB
+Progress (5): 356/360 kB | 287/656 kB | 0.7/8.0 MB | 160/318 kB | 147/178 kB
+Progress (5): 356/360 kB | 287/656 kB | 0.7/8.0 MB | 160/318 kB | 147/178 kB
+Progress (5): 360 kB | 287/656 kB | 0.7/8.0 MB | 160/318 kB | 147/178 kB    
+Progress (5): 360 kB | 287/656 kB | 0.7/8.0 MB | 160/318 kB | 152/178 kB
+Progress (5): 360 kB | 287/656 kB | 0.7/8.0 MB | 164/318 kB | 152/178 kB
+Progress (5): 360 kB | 291/656 kB | 0.7/8.0 MB | 164/318 kB | 152/178 kB
+Progress (5): 360 kB | 291/656 kB | 0.7/8.0 MB | 164/318 kB | 156/178 kB
+Progress (5): 360 kB | 295/656 kB | 0.7/8.0 MB | 164/318 kB | 156/178 kB
+Progress (5): 360 kB | 295/656 kB | 0.7/8.0 MB | 164/318 kB | 160/178 kB
+Progress (5): 360 kB | 299/656 kB | 0.7/8.0 MB | 164/318 kB | 160/178 kB
+Progress (5): 360 kB | 299/656 kB | 0.7/8.0 MB | 164/318 kB | 164/178 kB
+Progress (5): 360 kB | 299/656 kB | 0.7/8.0 MB | 168/318 kB | 164/178 kB
+Progress (5): 360 kB | 303/656 kB | 0.7/8.0 MB | 168/318 kB | 164/178 kB
+Progress (5): 360 kB | 303/656 kB | 0.7/8.0 MB | 172/318 kB | 164/178 kB
+Progress (5): 360 kB | 303/656 kB | 0.7/8.0 MB | 176/318 kB | 164/178 kB
+Progress (5): 360 kB | 303/656 kB | 0.7/8.0 MB | 180/318 kB | 164/178 kB
+Progress (5): 360 kB | 303/656 kB | 0.7/8.0 MB | 180/318 kB | 164/178 kB
+Progress (5): 360 kB | 303/656 kB | 0.7/8.0 MB | 180/318 kB | 168/178 kB
+Progress (5): 360 kB | 303/656 kB | 0.7/8.0 MB | 180/318 kB | 172/178 kB
+Progress (5): 360 kB | 307/656 kB | 0.7/8.0 MB | 180/318 kB | 172/178 kB
+Progress (5): 360 kB | 307/656 kB | 0.7/8.0 MB | 184/318 kB | 172/178 kB
+Progress (5): 360 kB | 307/656 kB | 0.7/8.0 MB | 184/318 kB | 176/178 kB
+Progress (5): 360 kB | 307/656 kB | 0.7/8.0 MB | 188/318 kB | 176/178 kB
+Progress (5): 360 kB | 311/656 kB | 0.7/8.0 MB | 188/318 kB | 176/178 kB
+Progress (5): 360 kB | 311/656 kB | 0.7/8.0 MB | 193/318 kB | 176/178 kB
+Progress (5): 360 kB | 311/656 kB | 0.7/8.0 MB | 193/318 kB | 178 kB    
+Progress (5): 360 kB | 311/656 kB | 0.7/8.0 MB | 197/318 kB | 178 kB
+Progress (5): 360 kB | 315/656 kB | 0.7/8.0 MB | 197/318 kB | 178 kB
+Progress (5): 360 kB | 319/656 kB | 0.7/8.0 MB | 197/318 kB | 178 kB
+Progress (5): 360 kB | 319/656 kB | 0.7/8.0 MB | 201/318 kB | 178 kB
+Progress (5): 360 kB | 319/656 kB | 0.7/8.0 MB | 205/318 kB | 178 kB
+Progress (5): 360 kB | 319/656 kB | 0.7/8.0 MB | 209/318 kB | 178 kB
+Progress (5): 360 kB | 319/656 kB | 0.7/8.0 MB | 213/318 kB | 178 kB
+Progress (5): 360 kB | 324/656 kB | 0.7/8.0 MB | 213/318 kB | 178 kB
+Progress (5): 360 kB | 328/656 kB | 0.7/8.0 MB | 213/318 kB | 178 kB
+Progress (5): 360 kB | 328/656 kB | 0.8/8.0 MB | 213/318 kB | 178 kB
+Progress (5): 360 kB | 328/656 kB | 0.8/8.0 MB | 217/318 kB | 178 kB
+Progress (5): 360 kB | 332/656 kB | 0.8/8.0 MB | 217/318 kB | 178 kB
+Progress (5): 360 kB | 332/656 kB | 0.8/8.0 MB | 221/318 kB | 178 kB
+                                                                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/api/gax/1.66.0/gax-1.66.0.jar (360 kB at 6.1 MB/s)
+Progress (4): 332/656 kB | 0.8/8.0 MB | 225/318 kB | 178 kB
+Progress (4): 336/656 kB | 0.8/8.0 MB | 225/318 kB | 178 kB
+Progress (4): 336/656 kB | 0.8/8.0 MB | 229/318 kB | 178 kB
+                                                           
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/cloud/google-cloud-core/1.95.4/google-cloud-core-1.95.4.jar
+Progress (4): 336/656 kB | 0.8/8.0 MB | 233/318 kB | 178 kB
+Progress (4): 340/656 kB | 0.8/8.0 MB | 233/318 kB | 178 kB
+Progress (4): 340/656 kB | 0.8/8.0 MB | 238/318 kB | 178 kB
+Progress (4): 344/656 kB | 0.8/8.0 MB | 238/318 kB | 178 kB
+Progress (4): 344/656 kB | 0.8/8.0 MB | 238/318 kB | 178 kB
+Progress (4): 348/656 kB | 0.8/8.0 MB | 238/318 kB | 178 kB
+Progress (4): 348/656 kB | 0.8/8.0 MB | 242/318 kB | 178 kB
+Progress (4): 352/656 kB | 0.8/8.0 MB | 242/318 kB | 178 kB
+Progress (4): 352/656 kB | 0.8/8.0 MB | 246/318 kB | 178 kB
+Progress (4): 352/656 kB | 0.8/8.0 MB | 250/318 kB | 178 kB
+Progress (4): 352/656 kB | 0.8/8.0 MB | 254/318 kB | 178 kB
+Progress (4): 356/656 kB | 0.8/8.0 MB | 254/318 kB | 178 kB
+Progress (4): 360/656 kB | 0.8/8.0 MB | 254/318 kB | 178 kB
+Progress (4): 365/656 kB | 0.8/8.0 MB | 254/318 kB | 178 kB
+Progress (4): 369/656 kB | 0.8/8.0 MB | 254/318 kB | 178 kB
+Progress (4): 369/656 kB | 0.8/8.0 MB | 258/318 kB | 178 kB
+Progress (4): 369/656 kB | 0.8/8.0 MB | 262/318 kB | 178 kB
+Progress (4): 369/656 kB | 0.8/8.0 MB | 266/318 kB | 178 kB
+Progress (4): 369/656 kB | 0.8/8.0 MB | 270/318 kB | 178 kB
+Progress (4): 373/656 kB | 0.8/8.0 MB | 270/318 kB | 178 kB
+Progress (4): 377/656 kB | 0.8/8.0 MB | 270/318 kB | 178 kB
+Progress (4): 377/656 kB | 0.9/8.0 MB | 270/318 kB | 178 kB
+Progress (4): 381/656 kB | 0.9/8.0 MB | 270/318 kB | 178 kB
+Progress (4): 381/656 kB | 0.9/8.0 MB | 274/318 kB | 178 kB
+Progress (4): 385/656 kB | 0.9/8.0 MB | 274/318 kB | 178 kB
+Progress (4): 385/656 kB | 0.9/8.0 MB | 279/318 kB | 178 kB
+Progress (4): 385/656 kB | 0.9/8.0 MB | 283/318 kB | 178 kB
+Progress (4): 385/656 kB | 0.9/8.0 MB | 287/318 kB | 178 kB
+Progress (4): 389/656 kB | 0.9/8.0 MB | 287/318 kB | 178 kB
+Progress (4): 393/656 kB | 0.9/8.0 MB | 287/318 kB | 178 kB
+Progress (4): 397/656 kB | 0.9/8.0 MB | 287/318 kB | 178 kB
+Progress (4): 401/656 kB | 0.9/8.0 MB | 287/318 kB | 178 kB
+Progress (4): 401/656 kB | 0.9/8.0 MB | 291/318 kB | 178 kB
+Progress (4): 401/656 kB | 0.9/8.0 MB | 295/318 kB | 178 kB
+                                                           
+Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-grpclb/1.39.0/grpc-grpclb-1.39.0.jar (178 kB at 2.7 MB/s)
+Progress (4): 401/656 kB | 0.9/8.0 MB | 295/318 kB | 4.1/131 kB
+Progress (4): 401/656 kB | 0.9/8.0 MB | 295/318 kB | 4.1/131 kB
+Progress (4): 406/656 kB | 0.9/8.0 MB | 295/318 kB | 4.1/131 kB
+Progress (4): 406/656 kB | 0.9/8.0 MB | 295/318 kB | 8.2/131 kB
+                                                               
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.8.7/gson-2.8.7.jar
+Progress (4): 406/656 kB | 0.9/8.0 MB | 299/318 kB | 8.2/131 kB
+Progress (4): 406/656 kB | 0.9/8.0 MB | 299/318 kB | 12/131 kB 
+Progress (4): 410/656 kB | 0.9/8.0 MB | 299/318 kB | 12/131 kB
+Progress (4): 410/656 kB | 0.9/8.0 MB | 299/318 kB | 16/131 kB
+Progress (4): 410/656 kB | 0.9/8.0 MB | 303/318 kB | 16/131 kB
+Progress (4): 414/656 kB | 0.9/8.0 MB | 303/318 kB | 16/131 kB
+Progress (4): 418/656 kB | 0.9/8.0 MB | 303/318 kB | 16/131 kB
+Progress (4): 418/656 kB | 0.9/8.0 MB | 307/318 kB | 16/131 kB
+Progress (4): 418/656 kB | 0.9/8.0 MB | 307/318 kB | 20/131 kB
+Progress (4): 418/656 kB | 0.9/8.0 MB | 311/318 kB | 20/131 kB
+Progress (4): 418/656 kB | 0.9/8.0 MB | 311/318 kB | 25/131 kB
+Progress (4): 418/656 kB | 0.9/8.0 MB | 315/318 kB | 25/131 kB
+Progress (4): 418/656 kB | 0.9/8.0 MB | 315/318 kB | 29/131 kB
+Progress (4): 418/656 kB | 0.9/8.0 MB | 318 kB | 29/131 kB    
+Progress (4): 418/656 kB | 0.9/8.0 MB | 318 kB | 29/131 kB
+Progress (4): 418/656 kB | 0.9/8.0 MB | 318 kB | 33/131 kB
+Progress (4): 422/656 kB | 0.9/8.0 MB | 318 kB | 33/131 kB
+Progress (4): 426/656 kB | 0.9/8.0 MB | 318 kB | 33/131 kB
+Progress (4): 430/656 kB | 0.9/8.0 MB | 318 kB | 33/131 kB
+Progress (4): 430/656 kB | 0.9/8.0 MB | 318 kB | 37/131 kB
+Progress (4): 434/656 kB | 0.9/8.0 MB | 318 kB | 37/131 kB
+Progress (4): 434/656 kB | 0.9/8.0 MB | 318 kB | 41/131 kB
+Progress (4): 434/656 kB | 1.0/8.0 MB | 318 kB | 41/131 kB
+Progress (4): 434/656 kB | 1.0/8.0 MB | 318 kB | 45/131 kB
+Progress (4): 434/656 kB | 1.0/8.0 MB | 318 kB | 49/131 kB
+Progress (4): 438/656 kB | 1.0/8.0 MB | 318 kB | 49/131 kB
+Progress (4): 442/656 kB | 1.0/8.0 MB | 318 kB | 49/131 kB
+Progress (4): 442/656 kB | 1.0/8.0 MB | 318 kB | 53/131 kB
+Progress (4): 446/656 kB | 1.0/8.0 MB | 318 kB | 53/131 kB
+Progress (4): 446/656 kB | 1.0/8.0 MB | 318 kB | 57/131 kB
+Progress (4): 451/656 kB | 1.0/8.0 MB | 318 kB | 57/131 kB
+Progress (4): 451/656 kB | 1.0/8.0 MB | 318 kB | 61/131 kB
+Progress (4): 451/656 kB | 1.0/8.0 MB | 318 kB | 61/131 kB
+Progress (4): 451/656 kB | 1.0/8.0 MB | 318 kB | 66/131 kB
+Progress (4): 455/656 kB | 1.0/8.0 MB | 318 kB | 66/131 kB
+Progress (4): 455/656 kB | 1.0/8.0 MB | 318 kB | 70/131 kB
+                                                          
+Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-alts/1.39.0/grpc-alts-1.39.0.jar (318 kB at 4.4 MB/s)
+Progress (3): 459/656 kB | 1.0/8.0 MB | 70/131 kB
+Progress (3): 459/656 kB | 1.1/8.0 MB | 70/131 kB
+                                                 
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/api/grpc/proto-google-iam-v1/1.0.14/proto-google-iam-v1-1.0.14.jar
+Progress (3): 459/656 kB | 1.1/8.0 MB | 74/131 kB
+Progress (3): 463/656 kB | 1.1/8.0 MB | 74/131 kB
+Progress (3): 463/656 kB | 1.1/8.0 MB | 78/131 kB
+Progress (3): 467/656 kB | 1.1/8.0 MB | 78/131 kB
+Progress (3): 467/656 kB | 1.1/8.0 MB | 82/131 kB
+Progress (3): 467/656 kB | 1.1/8.0 MB | 86/131 kB
+Progress (3): 467/656 kB | 1.1/8.0 MB | 90/131 kB
+Progress (3): 467/656 kB | 1.1/8.0 MB | 90/131 kB
+Progress (3): 467/656 kB | 1.1/8.0 MB | 94/131 kB
+Progress (3): 467/656 kB | 1.1/8.0 MB | 98/131 kB
+Progress (3): 471/656 kB | 1.1/8.0 MB | 98/131 kB
+Progress (3): 475/656 kB | 1.1/8.0 MB | 98/131 kB
+Progress (3): 475/656 kB | 1.1/8.0 MB | 102/131 kB
+Progress (3): 479/656 kB | 1.1/8.0 MB | 102/131 kB
+Progress (3): 479/656 kB | 1.1/8.0 MB | 106/131 kB
+Progress (3): 483/656 kB | 1.1/8.0 MB | 106/131 kB
+Progress (3): 483/656 kB | 1.1/8.0 MB | 106/131 kB
+Progress (3): 483/656 kB | 1.1/8.0 MB | 111/131 kB
+Progress (3): 483/656 kB | 1.1/8.0 MB | 115/131 kB
+Progress (4): 483/656 kB | 1.1/8.0 MB | 115/131 kB | 4.1/145 kB
+Progress (4): 483/656 kB | 1.1/8.0 MB | 115/131 kB | 8.2/145 kB
+Progress (4): 483/656 kB | 1.1/8.0 MB | 115/131 kB | 12/145 kB 
+Progress (4): 483/656 kB | 1.1/8.0 MB | 115/131 kB | 16/145 kB
+Progress (4): 483/656 kB | 1.1/8.0 MB | 119/131 kB | 16/145 kB
+Progress (4): 487/656 kB | 1.1/8.0 MB | 119/131 kB | 16/145 kB
+Progress (4): 487/656 kB | 1.1/8.0 MB | 123/131 kB | 16/145 kB
+Progress (4): 492/656 kB | 1.1/8.0 MB | 123/131 kB | 16/145 kB
+Progress (4): 492/656 kB | 1.2/8.0 MB | 123/131 kB | 16/145 kB
+Progress (4): 492/656 kB | 1.2/8.0 MB | 127/131 kB | 16/145 kB
+Progress (4): 496/656 kB | 1.2/8.0 MB | 127/131 kB | 16/145 kB
+Progress (4): 496/656 kB | 1.2/8.0 MB | 127/131 kB | 20/145 kB
+Progress (4): 500/656 kB | 1.2/8.0 MB | 127/131 kB | 20/145 kB
+Progress (4): 500/656 kB | 1.2/8.0 MB | 131 kB | 20/145 kB    
+Progress (4): 500/656 kB | 1.2/8.0 MB | 131 kB | 25/145 kB
+Progress (4): 500/656 kB | 1.2/8.0 MB | 131 kB | 29/145 kB
+Progress (4): 500/656 kB | 1.2/8.0 MB | 131 kB | 33/145 kB
+Progress (4): 504/656 kB | 1.2/8.0 MB | 131 kB | 33/145 kB
+Progress (4): 504/656 kB | 1.2/8.0 MB | 131 kB | 33/145 kB
+Progress (4): 508/656 kB | 1.2/8.0 MB | 131 kB | 33/145 kB
+Progress (4): 512/656 kB | 1.2/8.0 MB | 131 kB | 33/145 kB
+Progress (4): 512/656 kB | 1.2/8.0 MB | 131 kB | 37/145 kB
+Progress (4): 512/656 kB | 1.2/8.0 MB | 131 kB | 41/145 kB
+Progress (4): 512/656 kB | 1.2/8.0 MB | 131 kB | 45/145 kB
+Progress (4): 512/656 kB | 1.2/8.0 MB | 131 kB | 49/145 kB
+Progress (4): 516/656 kB | 1.2/8.0 MB | 131 kB | 49/145 kB
+Progress (4): 520/656 kB | 1.2/8.0 MB | 131 kB | 49/145 kB
+Progress (4): 520/656 kB | 1.2/8.0 MB | 131 kB | 53/145 kB
+Progress (4): 524/656 kB | 1.2/8.0 MB | 131 kB | 53/145 kB
+Progress (4): 524/656 kB | 1.3/8.0 MB | 131 kB | 53/145 kB
+Progress (4): 528/656 kB | 1.3/8.0 MB | 131 kB | 53/145 kB
+Progress (4): 528/656 kB | 1.3/8.0 MB | 131 kB | 57/145 kB
+Progress (4): 528/656 kB | 1.3/8.0 MB | 131 kB | 61/145 kB
+Progress (4): 528/656 kB | 1.3/8.0 MB | 131 kB | 65/145 kB
+                                                          
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/cloud/google-cloud-core/1.95.4/google-cloud-core-1.95.4.jar (131 kB at 1.6 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/http-client/google-http-client/1.39.2/google-http-client-1.39.2.jar
+Progress (3): 532/656 kB | 1.3/8.0 MB | 65/145 kB
+Progress (3): 532/656 kB | 1.3/8.0 MB | 69/145 kB
+Progress (3): 532/656 kB | 1.3/8.0 MB | 69/145 kB
+Progress (3): 532/656 kB | 1.3/8.0 MB | 73/145 kB
+Progress (3): 536/656 kB | 1.3/8.0 MB | 73/145 kB
+Progress (3): 536/656 kB | 1.3/8.0 MB | 77/145 kB
+Progress (3): 540/656 kB | 1.3/8.0 MB | 77/145 kB
+Progress (3): 540/656 kB | 1.3/8.0 MB | 81/145 kB
+Progress (3): 544/656 kB | 1.3/8.0 MB | 81/145 kB
+Progress (3): 544/656 kB | 1.3/8.0 MB | 85/145 kB
+Progress (3): 544/656 kB | 1.3/8.0 MB | 89/145 kB
+Progress (3): 544/656 kB | 1.3/8.0 MB | 93/145 kB
+Progress (3): 544/656 kB | 1.4/8.0 MB | 93/145 kB
+Progress (3): 544/656 kB | 1.4/8.0 MB | 97/145 kB
+Progress (3): 548/656 kB | 1.4/8.0 MB | 97/145 kB
+Progress (3): 553/656 kB | 1.4/8.0 MB | 97/145 kB
+Progress (3): 557/656 kB | 1.4/8.0 MB | 97/145 kB
+Progress (3): 561/656 kB | 1.4/8.0 MB | 97/145 kB
+Progress (3): 561/656 kB | 1.4/8.0 MB | 102/145 kB
+Progress (3): 561/656 kB | 1.4/8.0 MB | 106/145 kB
+Progress (3): 561/656 kB | 1.4/8.0 MB | 110/145 kB
+Progress (3): 561/656 kB | 1.4/8.0 MB | 110/145 kB
+Progress (3): 561/656 kB | 1.4/8.0 MB | 114/145 kB
+Progress (3): 565/656 kB | 1.4/8.0 MB | 114/145 kB
+Progress (3): 569/656 kB | 1.4/8.0 MB | 114/145 kB
+Progress (3): 569/656 kB | 1.4/8.0 MB | 118/145 kB
+Progress (3): 573/656 kB | 1.4/8.0 MB | 118/145 kB
+Progress (3): 573/656 kB | 1.4/8.0 MB | 122/145 kB
+Progress (3): 577/656 kB | 1.4/8.0 MB | 122/145 kB
+Progress (3): 577/656 kB | 1.4/8.0 MB | 126/145 kB
+Progress (3): 577/656 kB | 1.4/8.0 MB | 130/145 kB
+Progress (3): 577/656 kB | 1.4/8.0 MB | 130/145 kB
+Progress (3): 577/656 kB | 1.4/8.0 MB | 134/145 kB
+Progress (3): 581/656 kB | 1.4/8.0 MB | 134/145 kB
+Progress (3): 581/656 kB | 1.4/8.0 MB | 138/145 kB
+Progress (3): 585/656 kB | 1.4/8.0 MB | 138/145 kB
+Progress (3): 585/656 kB | 1.4/8.0 MB | 143/145 kB
+Progress (4): 585/656 kB | 1.4/8.0 MB | 143/145 kB | 4.1/289 kB
+Progress (4): 589/656 kB | 1.4/8.0 MB | 143/145 kB | 4.1/289 kB
+Progress (4): 589/656 kB | 1.4/8.0 MB | 145 kB | 4.1/289 kB    
+Progress (4): 594/656 kB | 1.4/8.0 MB | 145 kB | 4.1/289 kB
+Progress (4): 594/656 kB | 1.4/8.0 MB | 145 kB | 8.2/289 kB
+Progress (4): 594/656 kB | 1.4/8.0 MB | 145 kB | 12/289 kB 
+Progress (4): 594/656 kB | 1.4/8.0 MB | 145 kB | 16/289 kB
+Progress (4): 594/656 kB | 1.5/8.0 MB | 145 kB | 16/289 kB
+Progress (4): 598/656 kB | 1.5/8.0 MB | 145 kB | 16/289 kB
+Progress (4): 602/656 kB | 1.5/8.0 MB | 145 kB | 16/289 kB
+Progress (4): 606/656 kB | 1.5/8.0 MB | 145 kB | 16/289 kB
+Progress (4): 606/656 kB | 1.5/8.0 MB | 145 kB | 20/289 kB
+Progress (4): 610/656 kB | 1.5/8.0 MB | 145 kB | 20/289 kB
+Progress (4): 610/656 kB | 1.5/8.0 MB | 145 kB | 25/289 kB
+Progress (4): 610/656 kB | 1.5/8.0 MB | 145 kB | 29/289 kB
+Progress (4): 610/656 kB | 1.5/8.0 MB | 145 kB | 33/289 kB
+Progress (4): 614/656 kB | 1.5/8.0 MB | 145 kB | 33/289 kB
+Progress (4): 618/656 kB | 1.5/8.0 MB | 145 kB | 33/289 kB
+Progress (4): 618/656 kB | 1.5/8.0 MB | 145 kB | 33/289 kB
+Progress (4): 622/656 kB | 1.5/8.0 MB | 145 kB | 33/289 kB
+Progress (4): 622/656 kB | 1.5/8.0 MB | 145 kB | 37/289 kB
+Progress (4): 626/656 kB | 1.5/8.0 MB | 145 kB | 37/289 kB
+Progress (4): 626/656 kB | 1.5/8.0 MB | 145 kB | 41/289 kB
+Progress (4): 626/656 kB | 1.5/8.0 MB | 145 kB | 45/289 kB
+Progress (4): 626/656 kB | 1.5/8.0 MB | 145 kB | 49/289 kB
+Progress (4): 630/656 kB | 1.5/8.0 MB | 145 kB | 49/289 kB
+Progress (4): 634/656 kB | 1.5/8.0 MB | 145 kB | 49/289 kB
+Progress (4): 639/656 kB | 1.5/8.0 MB | 145 kB | 49/289 kB
+Progress (4): 639/656 kB | 1.6/8.0 MB | 145 kB | 49/289 kB
+Progress (4): 643/656 kB | 1.6/8.0 MB | 145 kB | 49/289 kB
+Progress (4): 643/656 kB | 1.6/8.0 MB | 145 kB | 53/289 kB
+                                                          
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/api/grpc/proto-google-iam-v1/1.0.14/proto-google-iam-v1-1.0.14.jar (145 kB at 1.5 MB/s)
+Progress (3): 643/656 kB | 1.6/8.0 MB | 57/289 kB
+                                                 
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/http-client/google-http-client-gson/1.39.2/google-http-client-gson-1.39.2.jar
+Progress (3): 643/656 kB | 1.6/8.0 MB | 61/289 kB
+Progress (3): 647/656 kB | 1.6/8.0 MB | 61/289 kB
+Progress (3): 647/656 kB | 1.6/8.0 MB | 66/289 kB
+Progress (3): 651/656 kB | 1.6/8.0 MB | 66/289 kB
+Progress (3): 655/656 kB | 1.6/8.0 MB | 66/289 kB
+Progress (3): 656 kB | 1.6/8.0 MB | 66/289 kB    
+Progress (3): 656 kB | 1.6/8.0 MB | 66/289 kB
+Progress (3): 656 kB | 1.6/8.0 MB | 70/289 kB
+Progress (3): 656 kB | 1.6/8.0 MB | 74/289 kB
+Progress (3): 656 kB | 1.6/8.0 MB | 78/289 kB
+Progress (3): 656 kB | 1.6/8.0 MB | 82/289 kB
+Progress (3): 656 kB | 1.6/8.0 MB | 86/289 kB
+Progress (3): 656 kB | 1.6/8.0 MB | 86/289 kB
+Progress (3): 656 kB | 1.6/8.0 MB | 90/289 kB
+Progress (3): 656 kB | 1.6/8.0 MB | 94/289 kB
+Progress (3): 656 kB | 1.6/8.0 MB | 98/289 kB
+Progress (3): 656 kB | 1.6/8.0 MB | 102/289 kB
+Progress (3): 656 kB | 1.6/8.0 MB | 106/289 kB
+Progress (3): 656 kB | 1.6/8.0 MB | 111/289 kB
+Progress (4): 656 kB | 1.6/8.0 MB | 111/289 kB | 4.1/10 kB
+Progress (4): 656 kB | 1.6/8.0 MB | 115/289 kB | 4.1/10 kB
+Progress (4): 656 kB | 1.6/8.0 MB | 115/289 kB | 8.2/10 kB
+Progress (4): 656 kB | 1.6/8.0 MB | 115/289 kB | 10 kB    
+Progress (4): 656 kB | 1.7/8.0 MB | 115/289 kB | 10 kB
+Progress (4): 656 kB | 1.7/8.0 MB | 119/289 kB | 10 kB
+Progress (4): 656 kB | 1.7/8.0 MB | 123/289 kB | 10 kB
+Progress (4): 656 kB | 1.7/8.0 MB | 127/289 kB | 10 kB
+Progress (4): 656 kB | 1.7/8.0 MB | 131/289 kB | 10 kB
+Progress (4): 656 kB | 1.7/8.0 MB | 135/289 kB | 10 kB
+Progress (4): 656 kB | 1.7/8.0 MB | 135/289 kB | 10 kB
+Progress (4): 656 kB | 1.7/8.0 MB | 139/289 kB | 10 kB
+Progress (4): 656 kB | 1.7/8.0 MB | 143/289 kB | 10 kB
+                                                      
+Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-core/1.39.0/grpc-core-1.39.0.jar (656 kB at 6.5 MB/s)
+Progress (3): 1.7/8.0 MB | 147/289 kB | 10 kB
+                                             
+Downloading from central: https://repo.maven.apache.org/maven2/org/checkerframework/checker-qual/3.13.0/checker-qual-3.13.0.jar
+Progress (3): 1.7/8.0 MB | 152/289 kB | 10 kB
+Progress (3): 1.7/8.0 MB | 156/289 kB | 10 kB
+Progress (3): 1.7/8.0 MB | 160/289 kB | 10 kB
+Progress (3): 1.7/8.0 MB | 164/289 kB | 10 kB
+                                             
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/http-client/google-http-client-gson/1.39.2/google-http-client-gson-1.39.2.jar (10 kB at 100 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/api/gax-grpc/1.66.0/gax-grpc-1.66.0-testlib.jar
+Progress (2): 1.8/8.0 MB | 164/289 kB
+Progress (2): 1.8/8.0 MB | 168/289 kB
+Progress (2): 1.8/8.0 MB | 172/289 kB
+Progress (2): 1.8/8.0 MB | 176/289 kB
+Progress (2): 1.8/8.0 MB | 180/289 kB
+Progress (2): 1.8/8.0 MB | 184/289 kB
+Progress (2): 1.8/8.0 MB | 184/289 kB
+Progress (2): 1.8/8.0 MB | 188/289 kB
+Progress (2): 1.8/8.0 MB | 193/289 kB
+Progress (2): 1.8/8.0 MB | 197/289 kB
+Progress (2): 1.8/8.0 MB | 201/289 kB
+Progress (2): 1.8/8.0 MB | 205/289 kB
+Progress (2): 1.8/8.0 MB | 209/289 kB
+Progress (2): 1.8/8.0 MB | 213/289 kB
+Progress (2): 1.8/8.0 MB | 213/289 kB
+Progress (2): 1.8/8.0 MB | 217/289 kB
+Progress (2): 1.8/8.0 MB | 221/289 kB
+Progress (2): 1.8/8.0 MB | 225/289 kB
+Progress (2): 1.8/8.0 MB | 229/289 kB
+Progress (2): 1.9/8.0 MB | 229/289 kB
+Progress (2): 1.9/8.0 MB | 233/289 kB
+Progress (3): 1.9/8.0 MB | 233/289 kB | 4.1/210 kB
+Progress (3): 1.9/8.0 MB | 238/289 kB | 4.1/210 kB
+Progress (3): 1.9/8.0 MB | 238/289 kB | 8.2/210 kB
+Progress (3): 1.9/8.0 MB | 242/289 kB | 8.2/210 kB
+Progress (3): 1.9/8.0 MB | 242/289 kB | 12/210 kB 
+Progress (3): 1.9/8.0 MB | 246/289 kB | 12/210 kB
+Progress (3): 1.9/8.0 MB | 246/289 kB | 16/210 kB
+Progress (3): 1.9/8.0 MB | 246/289 kB | 16/210 kB
+Progress (3): 1.9/8.0 MB | 250/289 kB | 16/210 kB
+Progress (3): 1.9/8.0 MB | 250/289 kB | 20/210 kB
+Progress (3): 1.9/8.0 MB | 254/289 kB | 20/210 kB
+Progress (3): 1.9/8.0 MB | 254/289 kB | 25/210 kB
+Progress (3): 1.9/8.0 MB | 258/289 kB | 25/210 kB
+Progress (3): 1.9/8.0 MB | 258/289 kB | 29/210 kB
+Progress (3): 1.9/8.0 MB | 262/289 kB | 29/210 kB
+Progress (3): 1.9/8.0 MB | 262/289 kB | 33/210 kB
+Progress (3): 2.0/8.0 MB | 262/289 kB | 33/210 kB
+                                                 
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.8.7/gson-2.8.7.jar (0 B at 0 B/s)
+Progress (3): 2.0/8.0 MB | 266/289 kB | 33/210 kB
+Progress (3): 2.0/8.0 MB | 270/289 kB | 33/210 kB
+Progress (3): 2.0/8.0 MB | 274/289 kB | 33/210 kB
+Progress (3): 2.0/8.0 MB | 279/289 kB | 33/210 kB
+Progress (3): 2.0/8.0 MB | 279/289 kB | 37/210 kB
+Progress (3): 2.0/8.0 MB | 283/289 kB | 37/210 kB
+Progress (3): 2.0/8.0 MB | 283/289 kB | 41/210 kB
+Progress (3): 2.0/8.0 MB | 287/289 kB | 41/210 kB
+Progress (3): 2.0/8.0 MB | 287/289 kB | 45/210 kB
+Progress (3): 2.0/8.0 MB | 289 kB | 45/210 kB    
+Progress (3): 2.0/8.0 MB | 289 kB | 49/210 kB
+Progress (3): 2.0/8.0 MB | 289 kB | 49/210 kB
+Progress (3): 2.0/8.0 MB | 289 kB | 53/210 kB
+Progress (3): 2.0/8.0 MB | 289 kB | 53/210 kB
+Progress (3): 2.0/8.0 MB | 289 kB | 57/210 kB
+Progress (3): 2.0/8.0 MB | 289 kB | 61/210 kB
+Progress (3): 2.0/8.0 MB | 289 kB | 66/210 kB
+Progress (3): 2.1/8.0 MB | 289 kB | 66/210 kB
+Progress (3): 2.1/8.0 MB | 289 kB | 70/210 kB
+Progress (3): 2.1/8.0 MB | 289 kB | 74/210 kB
+Progress (3): 2.1/8.0 MB | 289 kB | 78/210 kB
+                                             
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/http-client/google-http-client/1.39.2/google-http-client-1.39.2.jar (289 kB at 2.5 MB/s)
+Progress (2): 2.1/8.0 MB | 82/210 kB
+Progress (2): 2.1/8.0 MB | 82/210 kB
+Progress (2): 2.1/8.0 MB | 86/210 kB
+Progress (2): 2.1/8.0 MB | 90/210 kB
+Progress (2): 2.1/8.0 MB | 94/210 kB
+Progress (2): 2.1/8.0 MB | 98/210 kB
+Progress (2): 2.2/8.0 MB | 98/210 kB
+Progress (2): 2.2/8.0 MB | 102/210 kB
+Progress (2): 2.2/8.0 MB | 106/210 kB
+Progress (2): 2.2/8.0 MB | 111/210 kB
+Progress (2): 2.2/8.0 MB | 115/210 kB
+Progress (2): 2.2/8.0 MB | 115/210 kB
+Progress (2): 2.2/8.0 MB | 119/210 kB
+Progress (2): 2.2/8.0 MB | 123/210 kB
+Progress (2): 2.2/8.0 MB | 127/210 kB
+Progress (2): 2.2/8.0 MB | 131/210 kB
+Progress (2): 2.3/8.0 MB | 131/210 kB
+Progress (2): 2.3/8.0 MB | 135/210 kB
+Progress (2): 2.3/8.0 MB | 139/210 kB
+Progress (2): 2.3/8.0 MB | 143/210 kB
+Progress (2): 2.3/8.0 MB | 147/210 kB
+Progress (2): 2.3/8.0 MB | 147/210 kB
+Progress (2): 2.3/8.0 MB | 152/210 kB
+Progress (2): 2.3/8.0 MB | 156/210 kB
+Progress (2): 2.3/8.0 MB | 160/210 kB
+Progress (2): 2.3/8.0 MB | 164/210 kB
+Progress (2): 2.3/8.0 MB | 168/210 kB
+Progress (2): 2.3/8.0 MB | 172/210 kB
+Progress (2): 2.3/8.0 MB | 176/210 kB
+Progress (2): 2.3/8.0 MB | 180/210 kB
+Progress (2): 2.3/8.0 MB | 180/210 kB
+Progress (2): 2.3/8.0 MB | 184/210 kB
+Progress (2): 2.3/8.0 MB | 188/210 kB
+Progress (2): 2.3/8.0 MB | 193/210 kB
+Progress (2): 2.3/8.0 MB | 197/210 kB
+Progress (2): 2.4/8.0 MB | 197/210 kB
+Progress (2): 2.4/8.0 MB | 201/210 kB
+Progress (2): 2.4/8.0 MB | 205/210 kB
+Progress (2): 2.4/8.0 MB | 209/210 kB
+Progress (2): 2.4/8.0 MB | 210 kB    
+Progress (2): 2.4/8.0 MB | 210 kB
+Progress (2): 2.5/8.0 MB | 210 kB
+Progress (2): 2.5/8.0 MB | 210 kB
+                                 
+Downloaded from central: https://repo.maven.apache.org/maven2/org/checkerframework/checker-qual/3.13.0/checker-qual-3.13.0.jar (210 kB at 1.7 MB/s)
+Progress (1): 2.5/8.0 MB
+Progress (1): 2.6/8.0 MB
+Progress (1): 2.6/8.0 MB
+Progress (1): 2.7/8.0 MB
+Progress (1): 2.7/8.0 MB
+Progress (1): 2.7/8.0 MB
+Progress (1): 2.8/8.0 MB
+Progress (1): 2.8/8.0 MB
+Progress (1): 2.9/8.0 MB
+Progress (1): 2.9/8.0 MB
+Progress (1): 2.9/8.0 MB
+Progress (1): 3.0/8.0 MB
+Progress (1): 3.0/8.0 MB
+Progress (1): 3.1/8.0 MB
+Progress (1): 3.1/8.0 MB
+Progress (1): 3.2/8.0 MB
+Progress (1): 3.2/8.0 MB
+Progress (1): 3.2/8.0 MB
+Progress (1): 3.3/8.0 MB
+Progress (1): 3.3/8.0 MB
+Progress (1): 3.4/8.0 MB
+Progress (1): 3.4/8.0 MB
+Progress (1): 3.4/8.0 MB
+Progress (1): 3.5/8.0 MB
+Progress (1): 3.5/8.0 MB
+Progress (1): 3.6/8.0 MB
+Progress (1): 3.6/8.0 MB
+Progress (1): 3.6/8.0 MB
+Progress (1): 3.7/8.0 MB
+Progress (1): 3.7/8.0 MB
+Progress (1): 3.8/8.0 MB
+Progress (1): 3.8/8.0 MB
+Progress (1): 3.9/8.0 MB
+Progress (1): 3.9/8.0 MB
+Progress (1): 3.9/8.0 MB
+Progress (1): 4.0/8.0 MB
+Progress (1): 4.0/8.0 MB
+Progress (1): 4.1/8.0 MB
+Progress (1): 4.1/8.0 MB
+Progress (1): 4.1/8.0 MB
+Progress (1): 4.2/8.0 MB
+Progress (1): 4.2/8.0 MB
+Progress (1): 4.3/8.0 MB
+Progress (1): 4.3/8.0 MB
+Progress (1): 4.3/8.0 MB
+Progress (1): 4.4/8.0 MB
+Progress (1): 4.4/8.0 MB
+Progress (1): 4.5/8.0 MB
+Progress (1): 4.5/8.0 MB
+Progress (1): 4.5/8.0 MB
+Progress (1): 4.6/8.0 MB
+Progress (1): 4.6/8.0 MB
+Progress (1): 4.7/8.0 MB
+Progress (1): 4.7/8.0 MB
+Progress (1): 4.8/8.0 MB
+Progress (1): 4.8/8.0 MB
+Progress (1): 4.8/8.0 MB
+Progress (1): 4.9/8.0 MB
+Progress (1): 4.9/8.0 MB
+Progress (1): 5.0/8.0 MB
+Progress (1): 5.0/8.0 MB
+Progress (1): 5.0/8.0 MB
+Progress (1): 5.1/8.0 MB
+Progress (1): 5.1/8.0 MB
+Progress (1): 5.2/8.0 MB
+Progress (1): 5.2/8.0 MB
+Progress (1): 5.2/8.0 MB
+Progress (1): 5.3/8.0 MB
+Progress (1): 5.3/8.0 MB
+Progress (1): 5.4/8.0 MB
+Progress (2): 5.4/8.0 MB | 4.1/28 kB
+Progress (2): 5.4/8.0 MB | 8.2/28 kB
+Progress (2): 5.4/8.0 MB | 12/28 kB 
+Progress (2): 5.4/8.0 MB | 16/28 kB
+Progress (2): 5.4/8.0 MB | 20/28 kB
+Progress (2): 5.4/8.0 MB | 24/28 kB
+Progress (2): 5.4/8.0 MB | 28 kB   
+Progress (2): 5.4/8.0 MB | 28 kB
+Progress (2): 5.4/8.0 MB | 28 kB
+Progress (2): 5.5/8.0 MB | 28 kB
+Progress (2): 5.5/8.0 MB | 28 kB
+Progress (2): 5.6/8.0 MB | 28 kB
+Progress (2): 5.6/8.0 MB | 28 kB
+Progress (2): 5.7/8.0 MB | 28 kB
+Progress (2): 5.7/8.0 MB | 28 kB
+Progress (2): 5.7/8.0 MB | 28 kB
+Progress (2): 5.8/8.0 MB | 28 kB
+Progress (2): 5.8/8.0 MB | 28 kB
+Progress (2): 5.9/8.0 MB | 28 kB
+Progress (2): 5.9/8.0 MB | 28 kB
+Progress (2): 5.9/8.0 MB | 28 kB
+Progress (2): 6.0/8.0 MB | 28 kB
+Progress (2): 6.0/8.0 MB | 28 kB
+Progress (2): 6.1/8.0 MB | 28 kB
+Progress (2): 6.1/8.0 MB | 28 kB
+Progress (2): 6.1/8.0 MB | 28 kB
+Progress (2): 6.2/8.0 MB | 28 kB
+Progress (2): 6.2/8.0 MB | 28 kB
+Progress (2): 6.3/8.0 MB | 28 kB
+Progress (2): 6.3/8.0 MB | 28 kB
+Progress (2): 6.3/8.0 MB | 28 kB
+Progress (2): 6.4/8.0 MB | 28 kB
+Progress (2): 6.4/8.0 MB | 28 kB
+Progress (2): 6.5/8.0 MB | 28 kB
+Progress (2): 6.5/8.0 MB | 28 kB
+Progress (2): 6.6/8.0 MB | 28 kB
+Progress (2): 6.6/8.0 MB | 28 kB
+Progress (2): 6.6/8.0 MB | 28 kB
+Progress (2): 6.7/8.0 MB | 28 kB
+Progress (2): 6.7/8.0 MB | 28 kB
+Progress (2): 6.8/8.0 MB | 28 kB
+Progress (2): 6.8/8.0 MB | 28 kB
+Progress (2): 6.8/8.0 MB | 28 kB
+Progress (2): 6.9/8.0 MB | 28 kB
+Progress (2): 6.9/8.0 MB | 28 kB
+Progress (2): 7.0/8.0 MB | 28 kB
+Progress (2): 7.0/8.0 MB | 28 kB
+Progress (2): 7.0/8.0 MB | 28 kB
+Progress (2): 7.1/8.0 MB | 28 kB
+Progress (2): 7.1/8.0 MB | 28 kB
+Progress (2): 7.2/8.0 MB | 28 kB
+Progress (2): 7.2/8.0 MB | 28 kB
+Progress (2): 7.2/8.0 MB | 28 kB
+Progress (2): 7.3/8.0 MB | 28 kB
+Progress (2): 7.3/8.0 MB | 28 kB
+Progress (2): 7.4/8.0 MB | 28 kB
+Progress (2): 7.4/8.0 MB | 28 kB
+Progress (2): 7.5/8.0 MB | 28 kB
+Progress (2): 7.5/8.0 MB | 28 kB
+Progress (2): 7.5/8.0 MB | 28 kB
+Progress (2): 7.6/8.0 MB | 28 kB
+Progress (2): 7.6/8.0 MB | 28 kB
+Progress (2): 7.7/8.0 MB | 28 kB
+Progress (2): 7.7/8.0 MB | 28 kB
+Progress (2): 7.7/8.0 MB | 28 kB
+Progress (2): 7.8/8.0 MB | 28 kB
+Progress (2): 7.8/8.0 MB | 28 kB
+Progress (2): 7.9/8.0 MB | 28 kB
+Progress (2): 7.9/8.0 MB | 28 kB
+Progress (2): 7.9/8.0 MB | 28 kB
+Progress (2): 8.0/8.0 MB | 28 kB
+Progress (2): 8.0 MB | 28 kB    
+                            
+Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-netty-shaded/1.39.0/grpc-netty-shaded-1.39.0.jar (8.0 MB at 31 MB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/api/gax-grpc/1.66.0/gax-grpc-1.66.0-testlib.jar (28 kB at 73 kB/s)
 [INFO] com.google.cloud:google-cloud-vision:jar:1.103.8-SNAPSHOT
 [INFO] +- io.grpc:grpc-api:jar:1.39.0:compile
 [INFO] |  +- io.grpc:grpc-context:jar:1.39.0:compile
@@ -1364,41 +1914,29 @@ Downloaded from central: https://repo.maven.apache.org/maven2/com/google/api/gax
 [INFO] 
 [INFO] --------------< com.google.cloud:google-cloud-vision-bom >--------------
 [INFO] Building Google Cloud Vision BOM 1.103.8-SNAPSHOT                [13/13]
-[INFO]   from google-cloud-vision-bom\pom.xml
 [INFO] --------------------------------[ pom ]---------------------------------
 [INFO] 
-[INFO] --- enforcer:3.0.0-M3:enforce (enforce) @ google-cloud-vision-bom ---
-[INFO] Adding ignore: module-info
-[INFO] Adding ignore: META-INF/versions/*/module-info
-[INFO] 
-[INFO] --- checkstyle:3.1.2:check (checkstyle) @ google-cloud-vision-bom ---
-[INFO] 
-[INFO] --- jacoco:0.8.7:prepare-agent (default) @ google-cloud-vision-bom ---
-[INFO] argLine set to -javaagent:C:\\Users\\frank_bump\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.8.7\\org.jacoco.agent-0.8.7-runtime.jar=destfile=D:\\Bump\\breaking-updates\\tempProject\\e181647f2d24f810e59c6b903b1d8cf6680ac5a3\\java-vision\\google-cloud-vision-bom\\target\\jacoco.exec
-[INFO] 
-[INFO] --- build-helper:3.2.0:add-resource (add-main-proto-resources) @ google-cloud-vision-bom ---
-[INFO] 
-[INFO] --- dependency:3.1.2:tree (default-cli) @ google-cloud-vision-bom ---
+[INFO] --- maven-dependency-plugin:3.1.2:tree (default-cli) @ google-cloud-vision-bom ---
 [INFO] com.google.cloud:google-cloud-vision-bom:pom:1.103.8-SNAPSHOT
 [INFO] ------------------------------------------------------------------------
 [INFO] Reactor Summary:
 [INFO] 
-[INFO] Google Cloud Vision Parent 1.103.8-SNAPSHOT ........ SUCCESS [  4.041 s]
-[INFO] proto-google-cloud-vision-v1p4beta1 0.86.8-SNAPSHOT  SUCCESS [ 11.225 s]
-[INFO] proto-google-cloud-vision-v1 1.103.8-SNAPSHOT ...... SUCCESS [  5.346 s]
-[INFO] proto-google-cloud-vision-v1p1beta1 0.86.8-SNAPSHOT  SUCCESS [  2.224 s]
-[INFO] proto-google-cloud-vision-v1p3beta1 0.86.8-SNAPSHOT  SUCCESS [  3.450 s]
-[INFO] proto-google-cloud-vision-v1p2beta1 1.103.8-SNAPSHOT SUCCESS [  1.933 s]
-[INFO] grpc-google-cloud-vision-v1p3beta1 0.86.8-SNAPSHOT . SUCCESS [  1.756 s]
-[INFO] grpc-google-cloud-vision-v1p1beta1 0.86.8-SNAPSHOT . SUCCESS [  0.440 s]
-[INFO] grpc-google-cloud-vision-v1p4beta1 0.86.8-SNAPSHOT . SUCCESS [  0.583 s]
-[INFO] grpc-google-cloud-vision-v1p2beta1 1.103.8-SNAPSHOT  SUCCESS [  0.381 s]
-[INFO] grpc-google-cloud-vision-v1 1.103.8-SNAPSHOT ....... SUCCESS [  0.555 s]
-[INFO] Google Cloud Vision 1.103.8-SNAPSHOT ............... SUCCESS [  3.571 s]
+[INFO] Google Cloud Vision Parent 1.103.8-SNAPSHOT ........ SUCCESS [  0.471 s]
+[INFO] proto-google-cloud-vision-v1p4beta1 0.86.8-SNAPSHOT  SUCCESS [  0.370 s]
+[INFO] proto-google-cloud-vision-v1 1.103.8-SNAPSHOT ...... SUCCESS [  0.007 s]
+[INFO] proto-google-cloud-vision-v1p1beta1 0.86.8-SNAPSHOT  SUCCESS [  0.004 s]
+[INFO] proto-google-cloud-vision-v1p3beta1 0.86.8-SNAPSHOT  SUCCESS [  0.005 s]
+[INFO] proto-google-cloud-vision-v1p2beta1 1.103.8-SNAPSHOT SUCCESS [  0.003 s]
+[INFO] grpc-google-cloud-vision-v1p3beta1 0.86.8-SNAPSHOT . SUCCESS [  0.105 s]
+[INFO] grpc-google-cloud-vision-v1p1beta1 0.86.8-SNAPSHOT . SUCCESS [  0.009 s]
+[INFO] grpc-google-cloud-vision-v1p4beta1 0.86.8-SNAPSHOT . SUCCESS [  0.010 s]
+[INFO] grpc-google-cloud-vision-v1p2beta1 1.103.8-SNAPSHOT  SUCCESS [  0.007 s]
+[INFO] grpc-google-cloud-vision-v1 1.103.8-SNAPSHOT ....... SUCCESS [  0.008 s]
+[INFO] Google Cloud Vision 1.103.8-SNAPSHOT ............... SUCCESS [  0.675 s]
 [INFO] Google Cloud Vision BOM 1.103.8-SNAPSHOT ........... SUCCESS [  0.007 s]
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  37.878 s
-[INFO] Finished at: 2023-09-21T20:33:03Z
+[INFO] Total time:  2.850 s
+[INFO] Finished at: 2023-09-25T21:40:13Z
 [INFO] ------------------------------------------------------------------------

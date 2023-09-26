@@ -1,333 +1,354 @@
 [INFO] Scanning for projects...
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-checkstyle-plugin/3.0.0/maven-checkstyle-plugin-3.0.0.pom
-Progress (1): 1.4/15 kB
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/3.1.1/maven-jar-plugin-3.1.1.pom
+Progress (1): 2.7/6.7 kB
+Progress (1): 5.5/6.7 kB
+Progress (1): 6.7 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/3.1.1/maven-jar-plugin-3.1.1.pom (6.7 kB at 43 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/3.1.1/maven-jar-plugin-3.1.1.jar
+Progress (1): 2.7/27 kB
+Progress (1): 5.5/27 kB
+Progress (1): 8.2/27 kB
+Progress (1): 11/27 kB 
+Progress (1): 14/27 kB
+Progress (1): 16/27 kB
+Progress (1): 19/27 kB
+Progress (1): 21/27 kB
+Progress (1): 24/27 kB
+Progress (1): 27/27 kB
+Progress (1): 27 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/3.1.1/maven-jar-plugin-3.1.1.jar (27 kB at 1.0 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugin-plugin/3.6.0/maven-plugin-plugin-3.6.0.pom
+Progress (1): 2.7/13 kB
+Progress (1): 5.5/13 kB
+Progress (1): 8.2/13 kB
+Progress (1): 11/13 kB 
+Progress (1): 13 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugin-plugin/3.6.0/maven-plugin-plugin-3.6.0.pom (13 kB at 758 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools/3.6.0/maven-plugin-tools-3.6.0.pom
 Progress (1): 2.7/15 kB
-Progress (1): 4.1/15 kB
 Progress (1): 5.5/15 kB
-Progress (1): 6.9/15 kB
 Progress (1): 8.2/15 kB
-Progress (1): 9.6/15 kB
 Progress (1): 11/15 kB 
-Progress (1): 12/15 kB
 Progress (1): 14/15 kB
 Progress (1): 15 kB   
                    
-Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-checkstyle-plugin/3.0.0/maven-checkstyle-plugin-3.0.0.pom (15 kB at 39 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-checkstyle-plugin/3.0.0/maven-checkstyle-plugin-3.0.0.jar
-Progress (1): 16/108 kB
-Progress (1): 33/108 kB
-Progress (1): 49/108 kB
-Progress (1): 66/108 kB
-Progress (1): 82/108 kB
-Progress (1): 98/108 kB
-Progress (1): 108 kB   
-                    
-Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-checkstyle-plugin/3.0.0/maven-checkstyle-plugin-3.0.0.jar (108 kB at 1.6 MB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugin-plugin/3.6.0/maven-plugin-plugin-3.6.0.pom
-Progress (1): 13 kB
-                   
-Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugin-plugin/3.6.0/maven-plugin-plugin-3.6.0.pom (13 kB at 716 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools/3.6.0/maven-plugin-tools-3.6.0.pom
-Progress (1): 15 kB
-                   
-Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools/3.6.0/maven-plugin-tools-3.6.0.pom (15 kB at 742 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools/3.6.0/maven-plugin-tools-3.6.0.pom (15 kB at 706 kB/s)
 Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugin-plugin/3.6.0/maven-plugin-plugin-3.6.0.jar
+Progress (1): 4.1/53 kB
+Progress (1): 8.2/53 kB
+Progress (1): 12/53 kB 
 Progress (1): 16/53 kB
-Progress (1): 32/53 kB
+Progress (1): 20/53 kB
+Progress (1): 25/53 kB
+Progress (1): 29/53 kB
+Progress (1): 33/53 kB
+Progress (1): 37/53 kB
+Progress (1): 41/53 kB
+Progress (1): 45/53 kB
 Progress (1): 49/53 kB
 Progress (1): 53 kB   
                    
-Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugin-plugin/3.6.0/maven-plugin-plugin-3.6.0.jar (53 kB at 2.7 MB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugin-plugin/3.6.0/maven-plugin-plugin-3.6.0.jar (53 kB at 2.2 MB/s)
 [INFO] 
 [INFO] ----------------< org.scoverage:scoverage-maven-plugin >----------------
 [INFO] Building SCoverage Maven Plugin 1.4.12-SNAPSHOT
-[INFO]   from pom.xml
 [INFO] ----------------------------[ maven-plugin ]----------------------------
 Downloading from central: https://repo.maven.apache.org/maven2/org/scoverage/scalac-scoverage-reporter_2.13/2.0.7/scalac-scoverage-reporter_2.13-2.0.7.pom
 Progress (1): 3.0 kB
                     
-Downloaded from central: https://repo.maven.apache.org/maven2/org/scoverage/scalac-scoverage-reporter_2.13/2.0.7/scalac-scoverage-reporter_2.13-2.0.7.pom (3.0 kB at 65 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/scoverage/scalac-scoverage-reporter_2.13/2.0.7/scalac-scoverage-reporter_2.13-2.0.7.pom (3.0 kB at 28 kB/s)
 Downloading from central: https://repo.maven.apache.org/maven2/org/scala-lang/scala-library/2.13.10/scala-library-2.13.10.pom
 Progress (1): 1.6 kB
                     
-Downloaded from central: https://repo.maven.apache.org/maven2/org/scala-lang/scala-library/2.13.10/scala-library-2.13.10.pom (1.6 kB at 31 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/scala-lang/scala-library/2.13.10/scala-library-2.13.10.pom (1.6 kB at 145 kB/s)
 Downloading from central: https://repo.maven.apache.org/maven2/org/scoverage/scalac-scoverage-domain_2.13/2.0.7/scalac-scoverage-domain_2.13-2.0.7.pom
 Progress (1): 2.4 kB
                     
-Downloaded from central: https://repo.maven.apache.org/maven2/org/scoverage/scalac-scoverage-domain_2.13/2.0.7/scalac-scoverage-domain_2.13-2.0.7.pom (2.4 kB at 127 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/scoverage/scalac-scoverage-domain_2.13/2.0.7/scalac-scoverage-domain_2.13-2.0.7.pom (2.4 kB at 23 kB/s)
 Downloading from central: https://repo.maven.apache.org/maven2/org/scoverage/scalac-scoverage-serializer_2.13/2.0.7/scalac-scoverage-serializer_2.13-2.0.7.pom
 Progress (1): 2.6 kB
                     
-Downloaded from central: https://repo.maven.apache.org/maven2/org/scoverage/scalac-scoverage-serializer_2.13/2.0.7/scalac-scoverage-serializer_2.13-2.0.7.pom (2.6 kB at 109 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/scoverage/scalac-scoverage-serializer_2.13/2.0.7/scalac-scoverage-serializer_2.13-2.0.7.pom (2.6 kB at 23 kB/s)
 Downloading from central: https://repo.maven.apache.org/maven2/org/scala-lang/modules/scala-xml_2.13/2.1.0/scala-xml_2.13-2.1.0.pom
 Progress (1): 2.6 kB
                     
-Downloaded from central: https://repo.maven.apache.org/maven2/org/scala-lang/modules/scala-xml_2.13/2.1.0/scala-xml_2.13-2.1.0.pom (2.6 kB at 239 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/scala-lang/modules/scala-xml_2.13/2.1.0/scala-xml_2.13-2.1.0.pom (2.6 kB at 219 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8.pom
+Progress (1): 1.6 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8.pom (1.6 kB at 107 kB/s)
 Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-annotations/3.6.0/maven-plugin-annotations-3.6.0.pom
 Progress (1): 1.6 kB
                     
-Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-annotations/3.6.0/maven-plugin-annotations-3.6.0.pom (1.6 kB at 148 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-annotations/3.6.0/maven-plugin-annotations-3.6.0.pom (1.6 kB at 181 kB/s)
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.1.1:tree (default-cli) @ scoverage-maven-plugin ---
 Downloading from central: https://repo.maven.apache.org/maven2/org/scoverage/scalac-scoverage-reporter_2.13/2.0.7/scalac-scoverage-reporter_2.13-2.0.7.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/scoverage/scalac-scoverage-serializer_2.13/2.0.7/scalac-scoverage-serializer_2.13-2.0.7.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/scoverage/scalac-scoverage-domain_2.13/2.0.7/scalac-scoverage-domain_2.13-2.0.7.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/scala-lang/scala-library/2.13.10/scala-library-2.13.10.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/scala-lang/modules/scala-xml_2.13/2.1.0/scala-xml_2.13-2.1.0.jar
+Progress (1): 4.1/52 kB
+Progress (1): 8.2/52 kB
+Progress (1): 12/52 kB 
 Progress (1): 16/52 kB
+Progress (1): 20/52 kB
+Progress (1): 24/52 kB
+Progress (1): 28/52 kB
 Progress (1): 32/52 kB
+Progress (1): 36/52 kB
+Progress (1): 40/52 kB
+Progress (1): 44/52 kB
 Progress (1): 49/52 kB
 Progress (1): 52 kB   
-                   
-Downloaded from central: https://repo.maven.apache.org/maven2/org/scoverage/scalac-scoverage-reporter_2.13/2.0.7/scalac-scoverage-reporter_2.13-2.0.7.jar (52 kB at 4.7 MB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/scala-lang/scala-library/2.13.10/scala-library-2.13.10.jar
-Downloading from central: https://repo.maven.apache.org/maven2/org/scoverage/scalac-scoverage-domain_2.13/2.0.7/scalac-scoverage-domain_2.13-2.0.7.jar
-Downloading from central: https://repo.maven.apache.org/maven2/org/scoverage/scalac-scoverage-serializer_2.13/2.0.7/scalac-scoverage-serializer_2.13-2.0.7.jar
-Downloading from central: https://repo.maven.apache.org/maven2/org/scala-lang/modules/scala-xml_2.13/2.1.0/scala-xml_2.13-2.1.0.jar
+Progress (2): 52 kB | 4.1/86 kB
+Progress (2): 52 kB | 8.2/86 kB
+Progress (2): 52 kB | 12/86 kB 
+Progress (2): 52 kB | 16/86 kB
+Progress (2): 52 kB | 20/86 kB
+Progress (2): 52 kB | 25/86 kB
+Progress (2): 52 kB | 29/86 kB
+Progress (2): 52 kB | 33/86 kB
+Progress (2): 52 kB | 37/86 kB
+Progress (2): 52 kB | 41/86 kB
+Progress (2): 52 kB | 45/86 kB
+Progress (2): 52 kB | 49/86 kB
+Progress (2): 52 kB | 53/86 kB
+Progress (2): 52 kB | 57/86 kB
+Progress (2): 52 kB | 61/86 kB
+Progress (3): 52 kB | 61/86 kB | 0/5.9 MB
+Progress (3): 52 kB | 66/86 kB | 0/5.9 MB
+Progress (3): 52 kB | 70/86 kB | 0/5.9 MB
+Progress (3): 52 kB | 74/86 kB | 0/5.9 MB
+Progress (3): 52 kB | 78/86 kB | 0/5.9 MB
+Progress (3): 52 kB | 82/86 kB | 0/5.9 MB
+Progress (3): 52 kB | 86/86 kB | 0/5.9 MB
+Progress (4): 52 kB | 86/86 kB | 0/5.9 MB | 2.7/8.4 kB
+Progress (4): 52 kB | 86 kB | 0/5.9 MB | 2.7/8.4 kB   
+Progress (4): 52 kB | 86 kB | 0.1/5.9 MB | 2.7/8.4 kB
+Progress (4): 52 kB | 86 kB | 0.1/5.9 MB | 5.5/8.4 kB
+Progress (4): 52 kB | 86 kB | 0.1/5.9 MB | 8.2/8.4 kB
+Progress (4): 52 kB | 86 kB | 0.1/5.9 MB | 8.4 kB    
+Progress (4): 52 kB | 86 kB | 0.1/5.9 MB | 8.4 kB
+Progress (4): 52 kB | 86 kB | 0.1/5.9 MB | 8.4 kB
+Progress (4): 52 kB | 86 kB | 0.2/5.9 MB | 8.4 kB
+Progress (4): 52 kB | 86 kB | 0.2/5.9 MB | 8.4 kB
+Progress (4): 52 kB | 86 kB | 0.2/5.9 MB | 8.4 kB
+Progress (4): 52 kB | 86 kB | 0.3/5.9 MB | 8.4 kB
+Progress (4): 52 kB | 86 kB | 0.3/5.9 MB | 8.4 kB
+Progress (5): 52 kB | 86 kB | 0.3/5.9 MB | 8.4 kB | 4.1/483 kB
+Progress (5): 52 kB | 86 kB | 0.3/5.9 MB | 8.4 kB | 8.2/483 kB
+Progress (5): 52 kB | 86 kB | 0.3/5.9 MB | 8.4 kB | 12/483 kB 
+Progress (5): 52 kB | 86 kB | 0.3/5.9 MB | 8.4 kB | 16/483 kB
+Progress (5): 52 kB | 86 kB | 0.3/5.9 MB | 8.4 kB | 16/483 kB
+Progress (5): 52 kB | 86 kB | 0.3/5.9 MB | 8.4 kB | 20/483 kB
+Progress (5): 52 kB | 86 kB | 0.3/5.9 MB | 8.4 kB | 25/483 kB
+Progress (5): 52 kB | 86 kB | 0.3/5.9 MB | 8.4 kB | 29/483 kB
+Progress (5): 52 kB | 86 kB | 0.3/5.9 MB | 8.4 kB | 33/483 kB
+Progress (5): 52 kB | 86 kB | 0.4/5.9 MB | 8.4 kB | 33/483 kB
+Progress (5): 52 kB | 86 kB | 0.4/5.9 MB | 8.4 kB | 37/483 kB
+Progress (5): 52 kB | 86 kB | 0.4/5.9 MB | 8.4 kB | 41/483 kB
+Progress (5): 52 kB | 86 kB | 0.4/5.9 MB | 8.4 kB | 45/483 kB
+Progress (5): 52 kB | 86 kB | 0.4/5.9 MB | 8.4 kB | 49/483 kB
+Progress (5): 52 kB | 86 kB | 0.4/5.9 MB | 8.4 kB | 53/483 kB
+Progress (5): 52 kB | 86 kB | 0.4/5.9 MB | 8.4 kB | 53/483 kB
+Progress (5): 52 kB | 86 kB | 0.4/5.9 MB | 8.4 kB | 57/483 kB
+Progress (5): 52 kB | 86 kB | 0.4/5.9 MB | 8.4 kB | 61/483 kB
+Progress (5): 52 kB | 86 kB | 0.4/5.9 MB | 8.4 kB | 66/483 kB
+Progress (5): 52 kB | 86 kB | 0.4/5.9 MB | 8.4 kB | 70/483 kB
+Progress (5): 52 kB | 86 kB | 0.4/5.9 MB | 8.4 kB | 74/483 kB
+Progress (5): 52 kB | 86 kB | 0.4/5.9 MB | 8.4 kB | 74/483 kB
+Progress (5): 52 kB | 86 kB | 0.4/5.9 MB | 8.4 kB | 78/483 kB
+Progress (5): 52 kB | 86 kB | 0.4/5.9 MB | 8.4 kB | 82/483 kB
+Progress (5): 52 kB | 86 kB | 0.4/5.9 MB | 8.4 kB | 86/483 kB
+Progress (5): 52 kB | 86 kB | 0.4/5.9 MB | 8.4 kB | 90/483 kB
+Progress (5): 52 kB | 86 kB | 0.4/5.9 MB | 8.4 kB | 94/483 kB
+Progress (5): 52 kB | 86 kB | 0.4/5.9 MB | 8.4 kB | 98/483 kB
+Progress (5): 52 kB | 86 kB | 0.5/5.9 MB | 8.4 kB | 98/483 kB
+Progress (5): 52 kB | 86 kB | 0.5/5.9 MB | 8.4 kB | 102/483 kB
+Progress (5): 52 kB | 86 kB | 0.5/5.9 MB | 8.4 kB | 106/483 kB
+Progress (5): 52 kB | 86 kB | 0.5/5.9 MB | 8.4 kB | 111/483 kB
+Progress (5): 52 kB | 86 kB | 0.5/5.9 MB | 8.4 kB | 115/483 kB
+Progress (5): 52 kB | 86 kB | 0.5/5.9 MB | 8.4 kB | 119/483 kB
+Progress (5): 52 kB | 86 kB | 0.5/5.9 MB | 8.4 kB | 123/483 kB
+Progress (5): 52 kB | 86 kB | 0.5/5.9 MB | 8.4 kB | 123/483 kB
+Progress (5): 52 kB | 86 kB | 0.5/5.9 MB | 8.4 kB | 127/483 kB
+Progress (5): 52 kB | 86 kB | 0.5/5.9 MB | 8.4 kB | 131/483 kB
+Progress (5): 52 kB | 86 kB | 0.5/5.9 MB | 8.4 kB | 135/483 kB
+Progress (5): 52 kB | 86 kB | 0.5/5.9 MB | 8.4 kB | 139/483 kB
+Progress (5): 52 kB | 86 kB | 0.5/5.9 MB | 8.4 kB | 143/483 kB
+Progress (5): 52 kB | 86 kB | 0.5/5.9 MB | 8.4 kB | 143/483 kB
+Progress (5): 52 kB | 86 kB | 0.5/5.9 MB | 8.4 kB | 147/483 kB
+Progress (5): 52 kB | 86 kB | 0.5/5.9 MB | 8.4 kB | 152/483 kB
+Progress (5): 52 kB | 86 kB | 0.5/5.9 MB | 8.4 kB | 156/483 kB
+Progress (5): 52 kB | 86 kB | 0.5/5.9 MB | 8.4 kB | 160/483 kB
+Progress (5): 52 kB | 86 kB | 0.5/5.9 MB | 8.4 kB | 164/483 kB
+Progress (5): 52 kB | 86 kB | 0.6/5.9 MB | 8.4 kB | 164/483 kB
+Progress (5): 52 kB | 86 kB | 0.6/5.9 MB | 8.4 kB | 168/483 kB
+Progress (5): 52 kB | 86 kB | 0.6/5.9 MB | 8.4 kB | 172/483 kB
+Progress (5): 52 kB | 86 kB | 0.6/5.9 MB | 8.4 kB | 176/483 kB
+Progress (5): 52 kB | 86 kB | 0.6/5.9 MB | 8.4 kB | 180/483 kB
+Progress (5): 52 kB | 86 kB | 0.6/5.9 MB | 8.4 kB | 184/483 kB
+Progress (5): 52 kB | 86 kB | 0.6/5.9 MB | 8.4 kB | 188/483 kB
+Progress (5): 52 kB | 86 kB | 0.6/5.9 MB | 8.4 kB | 193/483 kB
+Progress (5): 52 kB | 86 kB | 0.6/5.9 MB | 8.4 kB | 197/483 kB
+Progress (5): 52 kB | 86 kB | 0.6/5.9 MB | 8.4 kB | 197/483 kB
+Progress (5): 52 kB | 86 kB | 0.6/5.9 MB | 8.4 kB | 201/483 kB
+Progress (5): 52 kB | 86 kB | 0.6/5.9 MB | 8.4 kB | 205/483 kB
+Progress (5): 52 kB | 86 kB | 0.6/5.9 MB | 8.4 kB | 209/483 kB
+Progress (5): 52 kB | 86 kB | 0.6/5.9 MB | 8.4 kB | 213/483 kB
+Progress (5): 52 kB | 86 kB | 0.6/5.9 MB | 8.4 kB | 217/483 kB
+Progress (5): 52 kB | 86 kB | 0.6/5.9 MB | 8.4 kB | 221/483 kB
+Progress (5): 52 kB | 86 kB | 0.6/5.9 MB | 8.4 kB | 225/483 kB
+Progress (5): 52 kB | 86 kB | 0.6/5.9 MB | 8.4 kB | 225/483 kB
+Progress (5): 52 kB | 86 kB | 0.6/5.9 MB | 8.4 kB | 229/483 kB
+Progress (5): 52 kB | 86 kB | 0.6/5.9 MB | 8.4 kB | 233/483 kB
+Progress (5): 52 kB | 86 kB | 0.6/5.9 MB | 8.4 kB | 238/483 kB
+Progress (5): 52 kB | 86 kB | 0.6/5.9 MB | 8.4 kB | 242/483 kB
+Progress (5): 52 kB | 86 kB | 0.6/5.9 MB | 8.4 kB | 246/483 kB
+Progress (5): 52 kB | 86 kB | 0.6/5.9 MB | 8.4 kB | 250/483 kB
+Progress (5): 52 kB | 86 kB | 0.7/5.9 MB | 8.4 kB | 250/483 kB
+Progress (5): 52 kB | 86 kB | 0.7/5.9 MB | 8.4 kB | 254/483 kB
+Progress (5): 52 kB | 86 kB | 0.7/5.9 MB | 8.4 kB | 258/483 kB
+Progress (5): 52 kB | 86 kB | 0.7/5.9 MB | 8.4 kB | 262/483 kB
+Progress (5): 52 kB | 86 kB | 0.7/5.9 MB | 8.4 kB | 266/483 kB
+Progress (5): 52 kB | 86 kB | 0.7/5.9 MB | 8.4 kB | 270/483 kB
+Progress (5): 52 kB | 86 kB | 0.7/5.9 MB | 8.4 kB | 274/483 kB
+Progress (5): 52 kB | 86 kB | 0.7/5.9 MB | 8.4 kB | 274/483 kB
+Progress (5): 52 kB | 86 kB | 0.7/5.9 MB | 8.4 kB | 279/483 kB
+Progress (5): 52 kB | 86 kB | 0.7/5.9 MB | 8.4 kB | 283/483 kB
+Progress (5): 52 kB | 86 kB | 0.7/5.9 MB | 8.4 kB | 287/483 kB
+Progress (5): 52 kB | 86 kB | 0.7/5.9 MB | 8.4 kB | 291/483 kB
+Progress (5): 52 kB | 86 kB | 0.7/5.9 MB | 8.4 kB | 295/483 kB
+Progress (5): 52 kB | 86 kB | 0.7/5.9 MB | 8.4 kB | 299/483 kB
+Progress (5): 52 kB | 86 kB | 0.7/5.9 MB | 8.4 kB | 303/483 kB
+Progress (5): 52 kB | 86 kB | 0.7/5.9 MB | 8.4 kB | 303/483 kB
+Progress (5): 52 kB | 86 kB | 0.7/5.9 MB | 8.4 kB | 307/483 kB
+Progress (5): 52 kB | 86 kB | 0.7/5.9 MB | 8.4 kB | 311/483 kB
+Progress (5): 52 kB | 86 kB | 0.7/5.9 MB | 8.4 kB | 315/483 kB
+Progress (5): 52 kB | 86 kB | 0.7/5.9 MB | 8.4 kB | 319/483 kB
+Progress (5): 52 kB | 86 kB | 0.7/5.9 MB | 8.4 kB | 324/483 kB
+Progress (5): 52 kB | 86 kB | 0.7/5.9 MB | 8.4 kB | 328/483 kB
+Progress (5): 52 kB | 86 kB | 0.7/5.9 MB | 8.4 kB | 332/483 kB
+Progress (5): 52 kB | 86 kB | 0.7/5.9 MB | 8.4 kB | 336/483 kB
+Progress (5): 52 kB | 86 kB | 0.8/5.9 MB | 8.4 kB | 336/483 kB
+Progress (5): 52 kB | 86 kB | 0.8/5.9 MB | 8.4 kB | 340/483 kB
+Progress (5): 52 kB | 86 kB | 0.8/5.9 MB | 8.4 kB | 344/483 kB
+Progress (5): 52 kB | 86 kB | 0.8/5.9 MB | 8.4 kB | 348/483 kB
+Progress (5): 52 kB | 86 kB | 0.8/5.9 MB | 8.4 kB | 352/483 kB
+Progress (5): 52 kB | 86 kB | 0.8/5.9 MB | 8.4 kB | 356/483 kB
+Progress (5): 52 kB | 86 kB | 0.8/5.9 MB | 8.4 kB | 360/483 kB
+Progress (5): 52 kB | 86 kB | 0.8/5.9 MB | 8.4 kB | 360/483 kB
+Progress (5): 52 kB | 86 kB | 0.8/5.9 MB | 8.4 kB | 365/483 kB
+Progress (5): 52 kB | 86 kB | 0.8/5.9 MB | 8.4 kB | 369/483 kB
+Progress (5): 52 kB | 86 kB | 0.8/5.9 MB | 8.4 kB | 373/483 kB
+Progress (5): 52 kB | 86 kB | 0.8/5.9 MB | 8.4 kB | 377/483 kB
+Progress (5): 52 kB | 86 kB | 0.8/5.9 MB | 8.4 kB | 381/483 kB
+Progress (5): 52 kB | 86 kB | 0.8/5.9 MB | 8.4 kB | 385/483 kB
+Progress (5): 52 kB | 86 kB | 0.8/5.9 MB | 8.4 kB | 385/483 kB
+Progress (5): 52 kB | 86 kB | 0.8/5.9 MB | 8.4 kB | 389/483 kB
+Progress (5): 52 kB | 86 kB | 0.8/5.9 MB | 8.4 kB | 393/483 kB
+Progress (5): 52 kB | 86 kB | 0.8/5.9 MB | 8.4 kB | 397/483 kB
+Progress (5): 52 kB | 86 kB | 0.8/5.9 MB | 8.4 kB | 401/483 kB
+Progress (5): 52 kB | 86 kB | 0.8/5.9 MB | 8.4 kB | 406/483 kB
+Progress (5): 52 kB | 86 kB | 0.8/5.9 MB | 8.4 kB | 410/483 kB
+Progress (5): 52 kB | 86 kB | 0.8/5.9 MB | 8.4 kB | 414/483 kB
+Progress (5): 52 kB | 86 kB | 0.8/5.9 MB | 8.4 kB | 418/483 kB
+Progress (5): 52 kB | 86 kB | 0.9/5.9 MB | 8.4 kB | 418/483 kB
+Progress (5): 52 kB | 86 kB | 0.9/5.9 MB | 8.4 kB | 422/483 kB
+Progress (5): 52 kB | 86 kB | 0.9/5.9 MB | 8.4 kB | 426/483 kB
+Progress (5): 52 kB | 86 kB | 0.9/5.9 MB | 8.4 kB | 430/483 kB
+Progress (5): 52 kB | 86 kB | 0.9/5.9 MB | 8.4 kB | 434/483 kB
+Progress (5): 52 kB | 86 kB | 0.9/5.9 MB | 8.4 kB | 438/483 kB
+Progress (5): 52 kB | 86 kB | 0.9/5.9 MB | 8.4 kB | 442/483 kB
+Progress (5): 52 kB | 86 kB | 0.9/5.9 MB | 8.4 kB | 446/483 kB
+Progress (5): 52 kB | 86 kB | 0.9/5.9 MB | 8.4 kB | 451/483 kB
+Progress (5): 52 kB | 86 kB | 0.9/5.9 MB | 8.4 kB | 451/483 kB
+Progress (5): 52 kB | 86 kB | 0.9/5.9 MB | 8.4 kB | 455/483 kB
+Progress (5): 52 kB | 86 kB | 0.9/5.9 MB | 8.4 kB | 459/483 kB
+Progress (5): 52 kB | 86 kB | 0.9/5.9 MB | 8.4 kB | 463/483 kB
+Progress (5): 52 kB | 86 kB | 0.9/5.9 MB | 8.4 kB | 467/483 kB
+Progress (5): 52 kB | 86 kB | 0.9/5.9 MB | 8.4 kB | 471/483 kB
+Progress (5): 52 kB | 86 kB | 0.9/5.9 MB | 8.4 kB | 475/483 kB
+Progress (5): 52 kB | 86 kB | 0.9/5.9 MB | 8.4 kB | 479/483 kB
+Progress (5): 52 kB | 86 kB | 0.9/5.9 MB | 8.4 kB | 483 kB    
+Progress (5): 52 kB | 86 kB | 0.9/5.9 MB | 8.4 kB | 483 kB
+Progress (5): 52 kB | 86 kB | 1.0/5.9 MB | 8.4 kB | 483 kB
+Progress (5): 52 kB | 86 kB | 1.0/5.9 MB | 8.4 kB | 483 kB
+                                                          
+Downloaded from central: https://repo.maven.apache.org/maven2/org/scala-lang/modules/scala-xml_2.13/2.1.0/scala-xml_2.13-2.1.0.jar (483 kB at 6.0 MB/s)
 Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-annotations/3.6.0/maven-plugin-annotations-3.6.0.jar
-Progress (1): 0/5.9 MB
-Progress (1): 0/5.9 MB
-Progress (1): 0/5.9 MB
-Progress (1): 0.1/5.9 MB
-Progress (1): 0.1/5.9 MB
-Progress (1): 0.1/5.9 MB
-Progress (1): 0.1/5.9 MB
-Progress (1): 0.1/5.9 MB
-Progress (1): 0.1/5.9 MB
-Progress (1): 0.2/5.9 MB
-Progress (1): 0.2/5.9 MB
-Progress (1): 0.2/5.9 MB
-Progress (1): 0.2/5.9 MB
-Progress (1): 0.2/5.9 MB
-Progress (1): 0.2/5.9 MB
-Progress (1): 0.3/5.9 MB
-Progress (1): 0.3/5.9 MB
-Progress (1): 0.3/5.9 MB
-Progress (1): 0.3/5.9 MB
-Progress (1): 0.3/5.9 MB
-Progress (1): 0.3/5.9 MB
-Progress (2): 0.3/5.9 MB | 1.4/8.4 kB
-Progress (3): 0.3/5.9 MB | 1.4/8.4 kB | 1.4/86 kB
-Progress (3): 0.3/5.9 MB | 1.4/8.4 kB | 2.7/86 kB
-Progress (3): 0.3/5.9 MB | 2.7/8.4 kB | 2.7/86 kB
-Progress (3): 0.3/5.9 MB | 2.7/8.4 kB | 4.1/86 kB
-Progress (3): 0.4/5.9 MB | 2.7/8.4 kB | 4.1/86 kB
-Progress (3): 0.4/5.9 MB | 2.7/8.4 kB | 5.5/86 kB
-Progress (3): 0.4/5.9 MB | 4.1/8.4 kB | 5.5/86 kB
-Progress (3): 0.4/5.9 MB | 4.1/8.4 kB | 5.5/86 kB
-Progress (3): 0.4/5.9 MB | 4.1/8.4 kB | 6.9/86 kB
-Progress (3): 0.4/5.9 MB | 5.5/8.4 kB | 6.9/86 kB
-Progress (3): 0.4/5.9 MB | 5.5/8.4 kB | 6.9/86 kB
-Progress (3): 0.4/5.9 MB | 6.9/8.4 kB | 6.9/86 kB
-Progress (3): 0.4/5.9 MB | 6.9/8.4 kB | 8.2/86 kB
-Progress (3): 0.4/5.9 MB | 8.2/8.4 kB | 8.2/86 kB
-Progress (3): 0.4/5.9 MB | 8.2/8.4 kB | 8.2/86 kB
-Progress (4): 0.4/5.9 MB | 8.2/8.4 kB | 8.2/86 kB | 1.4/14 kB
-Progress (4): 0.4/5.9 MB | 8.4 kB | 8.2/86 kB | 1.4/14 kB    
-Progress (4): 0.4/5.9 MB | 8.4 kB | 9.6/86 kB | 1.4/14 kB
+Progress (4): 52 kB | 86 kB | 1.0/5.9 MB | 8.4 kB
+Progress (4): 52 kB | 86 kB | 1.0/5.9 MB | 8.4 kB
+Progress (4): 52 kB | 86 kB | 1.1/5.9 MB | 8.4 kB
+Progress (5): 52 kB | 86 kB | 1.1/5.9 MB | 8.4 kB | 4.1/14 kB
+Progress (5): 52 kB | 86 kB | 1.1/5.9 MB | 8.4 kB | 8.2/14 kB
+Progress (5): 52 kB | 86 kB | 1.1/5.9 MB | 8.4 kB | 12/14 kB 
+Progress (5): 52 kB | 86 kB | 1.1/5.9 MB | 8.4 kB | 14 kB   
+Progress (5): 52 kB | 86 kB | 1.1/5.9 MB | 8.4 kB | 14 kB
+Progress (5): 52 kB | 86 kB | 1.1/5.9 MB | 8.4 kB | 14 kB
+Progress (5): 52 kB | 86 kB | 1.2/5.9 MB | 8.4 kB | 14 kB
                                                          
-Downloaded from central: https://repo.maven.apache.org/maven2/org/scoverage/scalac-scoverage-serializer_2.13/2.0.7/scalac-scoverage-serializer_2.13-2.0.7.jar (8.4 kB at 136 kB/s)
-Progress (3): 0.4/5.9 MB | 9.6/86 kB | 2.7/14 kB
-Progress (3): 0.4/5.9 MB | 9.6/86 kB | 2.7/14 kB
-Progress (3): 0.4/5.9 MB | 9.6/86 kB | 4.1/14 kB
-Progress (3): 0.4/5.9 MB | 11/86 kB | 4.1/14 kB 
-Progress (3): 0.4/5.9 MB | 12/86 kB | 4.1/14 kB
-Progress (3): 0.4/5.9 MB | 12/86 kB | 5.5/14 kB
-Progress (3): 0.4/5.9 MB | 14/86 kB | 5.5/14 kB
-Progress (3): 0.4/5.9 MB | 14/86 kB | 5.5/14 kB
-Progress (3): 0.4/5.9 MB | 15/86 kB | 5.5/14 kB
-Progress (3): 0.4/5.9 MB | 15/86 kB | 6.9/14 kB
-Progress (3): 0.5/5.9 MB | 15/86 kB | 6.9/14 kB
-Progress (3): 0.5/5.9 MB | 16/86 kB | 6.9/14 kB
-Progress (3): 0.5/5.9 MB | 16/86 kB | 8.2/14 kB
-Progress (3): 0.5/5.9 MB | 16/86 kB | 8.2/14 kB
-Progress (3): 0.5/5.9 MB | 16/86 kB | 9.6/14 kB
-Progress (3): 0.5/5.9 MB | 16/86 kB | 9.6/14 kB
-Progress (3): 0.5/5.9 MB | 32/86 kB | 9.6/14 kB
-Progress (3): 0.5/5.9 MB | 32/86 kB | 11/14 kB 
-Progress (3): 0.5/5.9 MB | 32/86 kB | 11/14 kB
-Progress (3): 0.5/5.9 MB | 49/86 kB | 11/14 kB
-Progress (3): 0.5/5.9 MB | 49/86 kB | 11/14 kB
-Progress (3): 0.5/5.9 MB | 49/86 kB | 12/14 kB
-Progress (3): 0.5/5.9 MB | 65/86 kB | 12/14 kB
-Progress (3): 0.5/5.9 MB | 65/86 kB | 12/14 kB
-Progress (3): 0.5/5.9 MB | 65/86 kB | 14/14 kB
-Progress (3): 0.5/5.9 MB | 81/86 kB | 14/14 kB
-Progress (3): 0.6/5.9 MB | 81/86 kB | 14/14 kB
-Progress (3): 0.6/5.9 MB | 81/86 kB | 14 kB   
-Progress (3): 0.6/5.9 MB | 86 kB | 14 kB   
-Progress (3): 0.6/5.9 MB | 86 kB | 14 kB
-Progress (3): 0.6/5.9 MB | 86 kB | 14 kB
-Progress (3): 0.6/5.9 MB | 86 kB | 14 kB
-                                        
-Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-annotations/3.6.0/maven-plugin-annotations-3.6.0.jar (14 kB at 183 kB/s)
-Progress (2): 0.6/5.9 MB | 86 kB
-Progress (2): 0.6/5.9 MB | 86 kB
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-annotations/3.6.0/maven-plugin-annotations-3.6.0.jar (14 kB at 157 kB/s)
+Progress (4): 52 kB | 86 kB | 1.2/5.9 MB | 8.4 kB
+Progress (4): 52 kB | 86 kB | 1.2/5.9 MB | 8.4 kB
+Progress (4): 52 kB | 86 kB | 1.3/5.9 MB | 8.4 kB
+Progress (4): 52 kB | 86 kB | 1.3/5.9 MB | 8.4 kB
+Progress (4): 52 kB | 86 kB | 1.3/5.9 MB | 8.4 kB
+Progress (4): 52 kB | 86 kB | 1.4/5.9 MB | 8.4 kB
+Progress (4): 52 kB | 86 kB | 1.4/5.9 MB | 8.4 kB
+Progress (4): 52 kB | 86 kB | 1.4/5.9 MB | 8.4 kB
+Progress (4): 52 kB | 86 kB | 1.5/5.9 MB | 8.4 kB
+Progress (4): 52 kB | 86 kB | 1.5/5.9 MB | 8.4 kB
+Progress (4): 52 kB | 86 kB | 1.5/5.9 MB | 8.4 kB
+Progress (4): 52 kB | 86 kB | 1.6/5.9 MB | 8.4 kB
+Progress (4): 52 kB | 86 kB | 1.6/5.9 MB | 8.4 kB
+Progress (4): 52 kB | 86 kB | 1.6/5.9 MB | 8.4 kB
+                                                 
+Downloaded from central: https://repo.maven.apache.org/maven2/org/scoverage/scalac-scoverage-reporter_2.13/2.0.7/scalac-scoverage-reporter_2.13-2.0.7.jar (52 kB at 455 kB/s)
+Progress (3): 86 kB | 1.7/5.9 MB | 8.4 kB
+Progress (3): 86 kB | 1.7/5.9 MB | 8.4 kB
+Progress (3): 86 kB | 1.7/5.9 MB | 8.4 kB
+Progress (3): 86 kB | 1.8/5.9 MB | 8.4 kB
+Progress (3): 86 kB | 1.8/5.9 MB | 8.4 kB
+Progress (3): 86 kB | 1.8/5.9 MB | 8.4 kB
+Progress (3): 86 kB | 1.9/5.9 MB | 8.4 kB
+Progress (3): 86 kB | 1.9/5.9 MB | 8.4 kB
+Progress (3): 86 kB | 1.9/5.9 MB | 8.4 kB
+Progress (3): 86 kB | 2.0/5.9 MB | 8.4 kB
+Progress (3): 86 kB | 2.0/5.9 MB | 8.4 kB
+                                         
+Downloaded from central: https://repo.maven.apache.org/maven2/org/scoverage/scalac-scoverage-serializer_2.13/2.0.7/scalac-scoverage-serializer_2.13-2.0.7.jar (8.4 kB at 67 kB/s)
+Progress (2): 86 kB | 2.0/5.9 MB
+Progress (2): 86 kB | 2.1/5.9 MB
                                 
-Downloaded from central: https://repo.maven.apache.org/maven2/org/scoverage/scalac-scoverage-domain_2.13/2.0.7/scalac-scoverage-domain_2.13-2.0.7.jar (86 kB at 1.1 MB/s)
-Progress (1): 0.7/5.9 MB
-Progress (1): 0.7/5.9 MB
-Progress (1): 0.7/5.9 MB
-Progress (1): 0.7/5.9 MB
-Progress (1): 0.7/5.9 MB
-Progress (1): 0.7/5.9 MB
-Progress (1): 0.8/5.9 MB
-Progress (1): 0.8/5.9 MB
-Progress (1): 0.8/5.9 MB
-Progress (1): 0.8/5.9 MB
-Progress (1): 0.8/5.9 MB
-Progress (1): 0.8/5.9 MB
-Progress (1): 0.9/5.9 MB
-Progress (1): 0.9/5.9 MB
-Progress (1): 0.9/5.9 MB
-Progress (1): 0.9/5.9 MB
-Progress (2): 0.9/5.9 MB | 16/483 kB
-Progress (2): 0.9/5.9 MB | 33/483 kB
-Progress (2): 0.9/5.9 MB | 33/483 kB
-Progress (2): 0.9/5.9 MB | 33/483 kB
-Progress (2): 1.0/5.9 MB | 33/483 kB
-Progress (2): 1.0/5.9 MB | 33/483 kB
-Progress (2): 1.0/5.9 MB | 49/483 kB
-Progress (2): 1.0/5.9 MB | 49/483 kB
-Progress (2): 1.0/5.9 MB | 49/483 kB
-Progress (2): 1.0/5.9 MB | 49/483 kB
-Progress (2): 1.0/5.9 MB | 49/483 kB
-Progress (2): 1.0/5.9 MB | 49/483 kB
-Progress (2): 1.0/5.9 MB | 66/483 kB
-Progress (2): 1.1/5.9 MB | 66/483 kB
-Progress (2): 1.1/5.9 MB | 66/483 kB
-Progress (2): 1.1/5.9 MB | 66/483 kB
-Progress (2): 1.1/5.9 MB | 82/483 kB
-Progress (2): 1.1/5.9 MB | 82/483 kB
-Progress (2): 1.1/5.9 MB | 82/483 kB
-Progress (2): 1.1/5.9 MB | 82/483 kB
-Progress (2): 1.2/5.9 MB | 82/483 kB
-Progress (2): 1.2/5.9 MB | 82/483 kB
-Progress (2): 1.2/5.9 MB | 82/483 kB
-Progress (2): 1.2/5.9 MB | 98/483 kB
-Progress (2): 1.2/5.9 MB | 98/483 kB
-Progress (2): 1.2/5.9 MB | 98/483 kB
-Progress (2): 1.2/5.9 MB | 115/483 kB
-Progress (2): 1.2/5.9 MB | 115/483 kB
-Progress (2): 1.2/5.9 MB | 131/483 kB
-Progress (2): 1.3/5.9 MB | 131/483 kB
-Progress (2): 1.3/5.9 MB | 131/483 kB
-Progress (2): 1.3/5.9 MB | 147/483 kB
-Progress (2): 1.3/5.9 MB | 147/483 kB
-Progress (2): 1.3/5.9 MB | 147/483 kB
-Progress (2): 1.3/5.9 MB | 147/483 kB
-Progress (2): 1.3/5.9 MB | 164/483 kB
-Progress (2): 1.3/5.9 MB | 164/483 kB
-Progress (2): 1.3/5.9 MB | 180/483 kB
-Progress (2): 1.4/5.9 MB | 180/483 kB
-Progress (2): 1.4/5.9 MB | 197/483 kB
-Progress (2): 1.4/5.9 MB | 197/483 kB
-Progress (2): 1.4/5.9 MB | 197/483 kB
-Progress (2): 1.4/5.9 MB | 213/483 kB
-Progress (2): 1.4/5.9 MB | 213/483 kB
-Progress (2): 1.4/5.9 MB | 213/483 kB
-Progress (2): 1.4/5.9 MB | 229/483 kB
-Progress (2): 1.4/5.9 MB | 229/483 kB
-Progress (2): 1.4/5.9 MB | 246/483 kB
-Progress (2): 1.5/5.9 MB | 246/483 kB
-Progress (2): 1.5/5.9 MB | 262/483 kB
-Progress (2): 1.5/5.9 MB | 262/483 kB
-Progress (2): 1.5/5.9 MB | 279/483 kB
-Progress (2): 1.5/5.9 MB | 279/483 kB
-Progress (2): 1.5/5.9 MB | 295/483 kB
-Progress (2): 1.5/5.9 MB | 295/483 kB
-Progress (2): 1.5/5.9 MB | 311/483 kB
-Progress (2): 1.5/5.9 MB | 311/483 kB
-Progress (2): 1.5/5.9 MB | 328/483 kB
-Progress (2): 1.5/5.9 MB | 328/483 kB
-Progress (2): 1.5/5.9 MB | 344/483 kB
-Progress (2): 1.6/5.9 MB | 344/483 kB
-Progress (2): 1.6/5.9 MB | 360/483 kB
-Progress (2): 1.6/5.9 MB | 377/483 kB
-Progress (2): 1.6/5.9 MB | 393/483 kB
-Progress (2): 1.6/5.9 MB | 410/483 kB
-Progress (2): 1.6/5.9 MB | 410/483 kB
-Progress (2): 1.6/5.9 MB | 426/483 kB
-Progress (2): 1.6/5.9 MB | 442/483 kB
-Progress (2): 1.6/5.9 MB | 442/483 kB
-Progress (2): 1.6/5.9 MB | 459/483 kB
-Progress (2): 1.6/5.9 MB | 459/483 kB
-Progress (2): 1.6/5.9 MB | 475/483 kB
-Progress (2): 1.6/5.9 MB | 483 kB    
-Progress (2): 1.6/5.9 MB | 483 kB
-Progress (2): 1.6/5.9 MB | 483 kB
-Progress (2): 1.7/5.9 MB | 483 kB
-Progress (2): 1.7/5.9 MB | 483 kB
-                                 
-Downloaded from central: https://repo.maven.apache.org/maven2/org/scala-lang/modules/scala-xml_2.13/2.1.0/scala-xml_2.13-2.1.0.jar (483 kB at 3.3 MB/s)
-Progress (1): 1.7/5.9 MB
-Progress (1): 1.7/5.9 MB
-Progress (1): 1.7/5.9 MB
-Progress (1): 1.7/5.9 MB
-Progress (1): 1.8/5.9 MB
-Progress (1): 1.8/5.9 MB
-Progress (1): 1.8/5.9 MB
-Progress (1): 1.8/5.9 MB
-Progress (1): 1.8/5.9 MB
-Progress (1): 1.8/5.9 MB
-Progress (1): 1.9/5.9 MB
-Progress (1): 1.9/5.9 MB
-Progress (1): 1.9/5.9 MB
-Progress (1): 1.9/5.9 MB
-Progress (1): 1.9/5.9 MB
-Progress (1): 1.9/5.9 MB
-Progress (1): 1.9/5.9 MB
-Progress (1): 2.0/5.9 MB
-Progress (1): 2.0/5.9 MB
-Progress (1): 2.0/5.9 MB
-Progress (1): 2.0/5.9 MB
-Progress (1): 2.0/5.9 MB
-Progress (1): 2.0/5.9 MB
+Downloaded from central: https://repo.maven.apache.org/maven2/org/scoverage/scalac-scoverage-domain_2.13/2.0.7/scalac-scoverage-domain_2.13-2.0.7.jar (86 kB at 685 kB/s)
 Progress (1): 2.1/5.9 MB
 Progress (1): 2.1/5.9 MB
-Progress (1): 2.1/5.9 MB
-Progress (1): 2.1/5.9 MB
-Progress (1): 2.1/5.9 MB
-Progress (1): 2.1/5.9 MB
-Progress (1): 2.2/5.9 MB
-Progress (1): 2.2/5.9 MB
-Progress (1): 2.2/5.9 MB
 Progress (1): 2.2/5.9 MB
 Progress (1): 2.2/5.9 MB
 Progress (1): 2.2/5.9 MB
 Progress (1): 2.3/5.9 MB
 Progress (1): 2.3/5.9 MB
 Progress (1): 2.3/5.9 MB
-Progress (1): 2.3/5.9 MB
-Progress (1): 2.3/5.9 MB
-Progress (1): 2.3/5.9 MB
-Progress (1): 2.4/5.9 MB
-Progress (1): 2.4/5.9 MB
-Progress (1): 2.4/5.9 MB
 Progress (1): 2.4/5.9 MB
 Progress (1): 2.4/5.9 MB
 Progress (1): 2.4/5.9 MB
 Progress (1): 2.5/5.9 MB
 Progress (1): 2.5/5.9 MB
 Progress (1): 2.5/5.9 MB
-Progress (1): 2.5/5.9 MB
-Progress (1): 2.5/5.9 MB
-Progress (1): 2.5/5.9 MB
-Progress (1): 2.6/5.9 MB
-Progress (1): 2.6/5.9 MB
-Progress (1): 2.6/5.9 MB
 Progress (1): 2.6/5.9 MB
 Progress (1): 2.6/5.9 MB
 Progress (1): 2.6/5.9 MB
 Progress (1): 2.7/5.9 MB
 Progress (1): 2.7/5.9 MB
 Progress (1): 2.7/5.9 MB
-Progress (1): 2.7/5.9 MB
-Progress (1): 2.7/5.9 MB
-Progress (1): 2.7/5.9 MB
 Progress (1): 2.8/5.9 MB
 Progress (1): 2.8/5.9 MB
 Progress (1): 2.8/5.9 MB
-Progress (1): 2.8/5.9 MB
-Progress (1): 2.8/5.9 MB
-Progress (1): 2.8/5.9 MB
-Progress (1): 2.9/5.9 MB
-Progress (1): 2.9/5.9 MB
-Progress (1): 2.9/5.9 MB
 Progress (1): 2.9/5.9 MB
 Progress (1): 2.9/5.9 MB
 Progress (1): 2.9/5.9 MB
@@ -335,115 +356,57 @@ Progress (1): 2.9/5.9 MB
 Progress (1): 3.0/5.9 MB
 Progress (1): 3.0/5.9 MB
 Progress (1): 3.0/5.9 MB
-Progress (1): 3.0/5.9 MB
-Progress (1): 3.0/5.9 MB
-Progress (1): 3.0/5.9 MB
-Progress (1): 3.1/5.9 MB
-Progress (1): 3.1/5.9 MB
-Progress (1): 3.1/5.9 MB
 Progress (1): 3.1/5.9 MB
 Progress (1): 3.1/5.9 MB
 Progress (1): 3.1/5.9 MB
 Progress (1): 3.2/5.9 MB
 Progress (1): 3.2/5.9 MB
 Progress (1): 3.2/5.9 MB
-Progress (1): 3.2/5.9 MB
-Progress (1): 3.2/5.9 MB
-Progress (1): 3.2/5.9 MB
-Progress (1): 3.3/5.9 MB
-Progress (1): 3.3/5.9 MB
-Progress (1): 3.3/5.9 MB
 Progress (1): 3.3/5.9 MB
 Progress (1): 3.3/5.9 MB
 Progress (1): 3.3/5.9 MB
 Progress (1): 3.4/5.9 MB
 Progress (1): 3.4/5.9 MB
 Progress (1): 3.4/5.9 MB
-Progress (1): 3.4/5.9 MB
-Progress (1): 3.4/5.9 MB
-Progress (1): 3.4/5.9 MB
-Progress (1): 3.5/5.9 MB
-Progress (1): 3.5/5.9 MB
-Progress (1): 3.5/5.9 MB
 Progress (1): 3.5/5.9 MB
 Progress (1): 3.5/5.9 MB
 Progress (1): 3.5/5.9 MB
 Progress (1): 3.6/5.9 MB
 Progress (1): 3.6/5.9 MB
 Progress (1): 3.6/5.9 MB
-Progress (1): 3.6/5.9 MB
-Progress (1): 3.6/5.9 MB
-Progress (1): 3.6/5.9 MB
-Progress (1): 3.7/5.9 MB
-Progress (1): 3.7/5.9 MB
-Progress (1): 3.7/5.9 MB
 Progress (1): 3.7/5.9 MB
 Progress (1): 3.7/5.9 MB
 Progress (1): 3.7/5.9 MB
 Progress (1): 3.8/5.9 MB
 Progress (1): 3.8/5.9 MB
 Progress (1): 3.8/5.9 MB
-Progress (1): 3.8/5.9 MB
-Progress (1): 3.8/5.9 MB
-Progress (1): 3.8/5.9 MB
-Progress (1): 3.9/5.9 MB
-Progress (1): 3.9/5.9 MB
-Progress (1): 3.9/5.9 MB
-Progress (1): 3.9/5.9 MB
 Progress (1): 3.9/5.9 MB
 Progress (1): 3.9/5.9 MB
 Progress (1): 3.9/5.9 MB
 Progress (1): 4.0/5.9 MB
 Progress (1): 4.0/5.9 MB
 Progress (1): 4.0/5.9 MB
-Progress (1): 4.0/5.9 MB
-Progress (1): 4.0/5.9 MB
-Progress (1): 4.0/5.9 MB
-Progress (1): 4.1/5.9 MB
-Progress (1): 4.1/5.9 MB
-Progress (1): 4.1/5.9 MB
 Progress (1): 4.1/5.9 MB
 Progress (1): 4.1/5.9 MB
 Progress (1): 4.1/5.9 MB
 Progress (1): 4.2/5.9 MB
 Progress (1): 4.2/5.9 MB
 Progress (1): 4.2/5.9 MB
-Progress (1): 4.2/5.9 MB
-Progress (1): 4.2/5.9 MB
-Progress (1): 4.2/5.9 MB
-Progress (1): 4.3/5.9 MB
-Progress (1): 4.3/5.9 MB
-Progress (1): 4.3/5.9 MB
 Progress (1): 4.3/5.9 MB
 Progress (1): 4.3/5.9 MB
 Progress (1): 4.3/5.9 MB
 Progress (1): 4.4/5.9 MB
 Progress (1): 4.4/5.9 MB
 Progress (1): 4.4/5.9 MB
-Progress (1): 4.4/5.9 MB
-Progress (1): 4.4/5.9 MB
-Progress (1): 4.4/5.9 MB
-Progress (1): 4.5/5.9 MB
-Progress (1): 4.5/5.9 MB
-Progress (1): 4.5/5.9 MB
 Progress (1): 4.5/5.9 MB
 Progress (1): 4.5/5.9 MB
 Progress (1): 4.5/5.9 MB
 Progress (1): 4.6/5.9 MB
 Progress (1): 4.6/5.9 MB
 Progress (1): 4.6/5.9 MB
-Progress (1): 4.6/5.9 MB
-Progress (1): 4.6/5.9 MB
-Progress (1): 4.6/5.9 MB
 Progress (1): 4.7/5.9 MB
 Progress (1): 4.7/5.9 MB
 Progress (1): 4.7/5.9 MB
-Progress (1): 4.7/5.9 MB
-Progress (1): 4.7/5.9 MB
-Progress (1): 4.7/5.9 MB
-Progress (1): 4.8/5.9 MB
-Progress (1): 4.8/5.9 MB
-Progress (1): 4.8/5.9 MB
 Progress (1): 4.8/5.9 MB
 Progress (1): 4.8/5.9 MB
 Progress (1): 4.8/5.9 MB
@@ -451,175 +414,39 @@ Progress (1): 4.8/5.9 MB
 Progress (1): 4.9/5.9 MB
 Progress (1): 4.9/5.9 MB
 Progress (1): 4.9/5.9 MB
-Progress (1): 4.9/5.9 MB
-Progress (1): 4.9/5.9 MB
-Progress (1): 4.9/5.9 MB
-Progress (1): 5.0/5.9 MB
-Progress (1): 5.0/5.9 MB
-Progress (1): 5.0/5.9 MB
 Progress (1): 5.0/5.9 MB
 Progress (1): 5.0/5.9 MB
 Progress (1): 5.0/5.9 MB
 Progress (1): 5.1/5.9 MB
 Progress (1): 5.1/5.9 MB
 Progress (1): 5.1/5.9 MB
-Progress (1): 5.1/5.9 MB
-Progress (1): 5.1/5.9 MB
-Progress (1): 5.1/5.9 MB
-Progress (1): 5.2/5.9 MB
-Progress (1): 5.2/5.9 MB
-Progress (1): 5.2/5.9 MB
 Progress (1): 5.2/5.9 MB
 Progress (1): 5.2/5.9 MB
 Progress (1): 5.2/5.9 MB
 Progress (1): 5.3/5.9 MB
 Progress (1): 5.3/5.9 MB
 Progress (1): 5.3/5.9 MB
-Progress (1): 5.3/5.9 MB
-Progress (1): 5.3/5.9 MB
-Progress (1): 5.3/5.9 MB
-Progress (1): 5.4/5.9 MB
-Progress (1): 5.4/5.9 MB
-Progress (1): 5.4/5.9 MB
 Progress (1): 5.4/5.9 MB
 Progress (1): 5.4/5.9 MB
 Progress (1): 5.4/5.9 MB
 Progress (1): 5.5/5.9 MB
 Progress (1): 5.5/5.9 MB
 Progress (1): 5.5/5.9 MB
-Progress (1): 5.5/5.9 MB
-Progress (1): 5.5/5.9 MB
-Progress (1): 5.5/5.9 MB
-Progress (1): 5.6/5.9 MB
-Progress (1): 5.6/5.9 MB
-Progress (1): 5.6/5.9 MB
 Progress (1): 5.6/5.9 MB
 Progress (1): 5.6/5.9 MB
 Progress (1): 5.6/5.9 MB
 Progress (1): 5.7/5.9 MB
 Progress (1): 5.7/5.9 MB
 Progress (1): 5.7/5.9 MB
-Progress (1): 5.7/5.9 MB
-Progress (1): 5.7/5.9 MB
-Progress (1): 5.7/5.9 MB
 Progress (1): 5.8/5.9 MB
 Progress (1): 5.8/5.9 MB
 Progress (1): 5.8/5.9 MB
-Progress (1): 5.8/5.9 MB
-Progress (1): 5.8/5.9 MB
-Progress (1): 5.8/5.9 MB
-Progress (1): 5.8/5.9 MB
-Progress (1): 5.9/5.9 MB
-Progress (1): 5.9/5.9 MB
-Progress (1): 5.9/5.9 MB
 Progress (1): 5.9/5.9 MB
 Progress (1): 5.9/5.9 MB
 Progress (1): 5.9/5.9 MB
 Progress (1): 5.9 MB    
                     
-Downloaded from central: https://repo.maven.apache.org/maven2/org/scala-lang/scala-library/2.13.10/scala-library-2.13.10.jar (5.9 MB at 18 MB/s)
-[INFO] 
-[INFO] --- enforcer:1.4.1:enforce (enforce-maven) @ scoverage-maven-plugin ---
-[INFO] 
-[INFO] --- enforcer:1.4.1:enforce (enforce-java) @ scoverage-maven-plugin ---
-[INFO] 
-[INFO] --- plugin:3.6.0:helpmojo (help-goal) @ scoverage-maven-plugin ---
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools-api/3.6.0/maven-plugin-tools-api-3.6.0.pom
-Progress (1): 2.8 kB
-                    
-Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools-api/3.6.0/maven-plugin-tools-api-3.6.0.pom (2.8 kB at 278 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools-generators/3.6.0/maven-plugin-tools-generators-3.6.0.pom
-Progress (1): 3.9 kB
-                    
-Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools-generators/3.6.0/maven-plugin-tools-generators-3.6.0.pom (3.9 kB at 656 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools-java/3.6.0/maven-plugin-tools-java-3.6.0.pom
-Progress (1): 2.9 kB
-                    
-Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools-java/3.6.0/maven-plugin-tools-java-3.6.0.pom (2.9 kB at 488 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/com/thoughtworks/qdox/qdox/2.0-M5/qdox-2.0-M5.pom
-Progress (1): 16 kB
-                   
-Downloaded from central: https://repo.maven.apache.org/maven2/com/thoughtworks/qdox/qdox/2.0-M5/qdox-2.0-M5.pom (16 kB at 1.7 MB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools-annotations/3.6.0/maven-plugin-tools-annotations-3.6.0.pom
-Progress (1): 4.0 kB
-                    
-Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools-annotations/3.6.0/maven-plugin-tools-annotations-3.6.0.pom (4.0 kB at 805 kB/s)
-[INFO] Artifact org.apache.commons:commons-lang3:jar:3.1 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases), apache.snapshots (https://repository.apache.org/snapshots, default, snapshots), maven-default-http-blocker (http://0.0.0.0/, default, snapshots, blocked)]
-[INFO] Artifact org.apache.commons:commons-lang3:jar:3.1 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases), apache.snapshots (https://repository.apache.org/snapshots, default, snapshots), maven-default-http-blocker (http://0.0.0.0/, default, snapshots, blocked)]
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools-api/3.6.0/maven-plugin-tools-api-3.6.0.jar
-Progress (1): 16/24 kB
-Progress (1): 24 kB   
-                   
-Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools-api/3.6.0/maven-plugin-tools-api-3.6.0.jar (24 kB at 1.5 MB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools-generators/3.6.0/maven-plugin-tools-generators-3.6.0.jar
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools-annotations/3.6.0/maven-plugin-tools-annotations-3.6.0.jar
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.1/commons-lang3-3.1.jar
-Downloading from central: https://repo.maven.apache.org/maven2/com/thoughtworks/qdox/qdox/2.0-M5/qdox-2.0-M5.jar
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools-java/3.6.0/maven-plugin-tools-java-3.6.0.jar
-Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.1/commons-lang3-3.1.jar (0 B at 0 B/s)
-Progress (1): 16/43 kB
-Progress (2): 16/43 kB | 16/49 kB
-Progress (2): 32/43 kB | 16/49 kB
-Progress (2): 32/43 kB | 33/49 kB
-Progress (2): 43 kB | 33/49 kB   
-Progress (2): 43 kB | 49/49 kB
-Progress (2): 43 kB | 49 kB   
-                           
-Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools-annotations/3.6.0/maven-plugin-tools-annotations-3.6.0.jar (43 kB at 2.9 MB/s)
-Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools-generators/3.6.0/maven-plugin-tools-generators-3.6.0.jar (49 kB at 3.1 MB/s)
-Progress (1): 16/313 kB
-Progress (1): 33/313 kB
-Progress (1): 49/313 kB
-Progress (2): 49/313 kB | 1.4/18 kB
-Progress (2): 49/313 kB | 2.7/18 kB
-Progress (2): 49/313 kB | 4.1/18 kB
-Progress (2): 49/313 kB | 5.5/18 kB
-Progress (2): 49/313 kB | 6.9/18 kB
-Progress (2): 49/313 kB | 8.2/18 kB
-Progress (2): 49/313 kB | 9.6/18 kB
-Progress (2): 49/313 kB | 11/18 kB 
-Progress (2): 49/313 kB | 12/18 kB
-Progress (2): 49/313 kB | 14/18 kB
-Progress (2): 49/313 kB | 15/18 kB
-Progress (2): 49/313 kB | 16/18 kB
-Progress (2): 49/313 kB | 17/18 kB
-Progress (2): 49/313 kB | 18 kB   
-Progress (2): 66/313 kB | 18 kB
-Progress (2): 82/313 kB | 18 kB
-Progress (2): 98/313 kB | 18 kB
-                               
-Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools-java/3.6.0/maven-plugin-tools-java-3.6.0.jar (18 kB at 673 kB/s)
-Progress (1): 115/313 kB
-Progress (1): 131/313 kB
-Progress (1): 147/313 kB
-Progress (1): 164/313 kB
-Progress (1): 180/313 kB
-Progress (1): 197/313 kB
-Progress (1): 213/313 kB
-Progress (1): 229/313 kB
-Progress (1): 246/313 kB
-Progress (1): 256/313 kB
-Progress (1): 272/313 kB
-Progress (1): 289/313 kB
-Progress (1): 305/313 kB
-Progress (1): 313 kB    
-                    
-Downloaded from central: https://repo.maven.apache.org/maven2/com/thoughtworks/qdox/qdox/2.0-M5/qdox-2.0-M5.jar (313 kB at 8.5 MB/s)
-[INFO] Using 'UTF-8' encoding to read mojo source files.
-[INFO] java-annotations mojo extractor found 12 mojo descriptors.
-[INFO] 
-[INFO] --- resources:3.1.0:resources (default-resources) @ scoverage-maven-plugin ---
-[INFO] Using 'UTF-8' encoding to copy filtered resources.
-[INFO] Copying 2 resources
-[INFO] 
-[INFO] --- compiler:3.11.0:compile (default-compile) @ scoverage-maven-plugin ---
-[INFO] Changes detected - recompiling the module! :dependency
-[INFO] Compiling 13 source files with javac [debug target 1.8] to target\classes
-[WARNING] bootstrap class path not set in conjunction with -source 8
-[INFO] /D:/Bump/breaking-updates/tempProject/c7c9590a206d4fb77dd05b9df391d888e6181667/scoverage-maven-plugin/src/main/java/org/scoverage/plugin/SCoveragePreCompileMojo.java: D:\Bump\breaking-updates\tempProject\c7c9590a206d4fb77dd05b9df391d888e6181667\scoverage-maven-plugin\src\main\java\org\scoverage\plugin\SCoveragePreCompileMojo.java uses unchecked or unsafe operations.
-[INFO] /D:/Bump/breaking-updates/tempProject/c7c9590a206d4fb77dd05b9df391d888e6181667/scoverage-maven-plugin/src/main/java/org/scoverage/plugin/SCoveragePreCompileMojo.java: Recompile with -Xlint:unchecked for details.
-[INFO] 
-[INFO] --- dependency:3.1.1:tree (default-cli) @ scoverage-maven-plugin ---
+Downloaded from central: https://repo.maven.apache.org/maven2/org/scala-lang/scala-library/2.13.10/scala-library-2.13.10.jar (5.9 MB at 26 MB/s)
 [INFO] org.scoverage:scoverage-maven-plugin:maven-plugin:1.4.12-SNAPSHOT
 [INFO] +- org.scoverage:scalac-scoverage-reporter_2.13:jar:2.0.7:compile
 [INFO] |  +- org.scala-lang:scala-library:jar:2.13.10:compile
@@ -662,6 +489,6 @@ Downloaded from central: https://repo.maven.apache.org/maven2/com/thoughtworks/q
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  8.735 s
-[INFO] Finished at: 2023-09-21T18:24:08Z
+[INFO] Total time:  1.757 s
+[INFO] Finished at: 2023-09-25T20:41:49Z
 [INFO] ------------------------------------------------------------------------

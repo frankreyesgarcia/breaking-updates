@@ -1,0 +1,188 @@
+[INFO] Scanning for projects...
+Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-bom/1.57.0/grpc-bom-1.57.0.pom
+Progress (1): 2.7/5.8 kB
+Progress (1): 5.5/5.8 kB
+Progress (1): 5.8 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-bom/1.57.0/grpc-bom-1.57.0.pom (5.8 kB at 20 kB/s)
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thoughtworks.gauge:gauge-java:jar:0.10.2
+[WARNING] 'version' contains an expression but should be a constant. @ com.thoughtworks.gauge:gauge-java:${projectVersion}, /mnt/ssd2/frank/fork/breaking-updates/tempProject/d8031ba94b60982bec9dc8bfedaeee700731be7a/gauge-java/pom.xml, line 7, column 14
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] Inspecting build with total of 1 modules...
+[INFO] Installing Nexus Staging features:
+[INFO]   ... total of 1 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[INFO] ------------------------------------------------------------------------
+[INFO] Detecting the operating system and CPU architecture
+[INFO] ------------------------------------------------------------------------
+[INFO] os.detected.name: linux
+[INFO] os.detected.arch: x86_64
+[INFO] os.detected.bitness: 64
+[INFO] os.detected.version: 5.15
+[INFO] os.detected.version.major: 5
+[INFO] os.detected.version.minor: 15
+[INFO] os.detected.release: ubuntu
+[INFO] os.detected.release.version: 22.04
+[INFO] os.detected.release.like.ubuntu: true
+[INFO] os.detected.release.like.debian: true
+[INFO] os.detected.classifier: linux-x86_64
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-gpg-plugin/3.1.0/maven-gpg-plugin-3.1.0.pom
+Progress (1): 2.7/13 kB
+Progress (1): 5.5/13 kB
+Progress (1): 8.2/13 kB
+Progress (1): 11/13 kB 
+Progress (1): 13 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-gpg-plugin/3.1.0/maven-gpg-plugin-3.1.0.pom (13 kB at 672 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-gpg-plugin/3.1.0/maven-gpg-plugin-3.1.0.jar
+Progress (1): 4.1/58 kB
+Progress (1): 8.2/58 kB
+Progress (1): 12/58 kB 
+Progress (1): 16/58 kB
+Progress (1): 20/58 kB
+Progress (1): 25/58 kB
+Progress (1): 29/58 kB
+Progress (1): 33/58 kB
+Progress (1): 37/58 kB
+Progress (1): 41/58 kB
+Progress (1): 45/58 kB
+Progress (1): 49/58 kB
+Progress (1): 53/58 kB
+Progress (1): 57/58 kB
+Progress (1): 58 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-gpg-plugin/3.1.0/maven-gpg-plugin-3.1.0.jar (58 kB at 2.8 MB/s)
+[INFO] 
+[INFO] -----------------< com.thoughtworks.gauge:gauge-java >------------------
+[INFO] Building gauge-java 0.10.2
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-java/3.23.4/protobuf-java-3.23.4.pom
+Progress (1): 1.6 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-java/3.23.4/protobuf-java-3.23.4.pom (1.6 kB at 120 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-parent/3.23.4/protobuf-parent-3.23.4.pom
+Progress (1): 4.1/9.0 kB
+Progress (1): 8.2/9.0 kB
+Progress (1): 9.0 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-parent/3.23.4/protobuf-parent-3.23.4.pom (9.0 kB at 694 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-bom/3.23.4/protobuf-bom-3.23.4.pom
+Progress (1): 3.5 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-bom/3.23.4/protobuf-bom-3.23.4.pom (3.5 kB at 154 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-api/1.57.0/grpc-api-1.57.0.pom
+Progress (1): 1.8 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-api/1.57.0/grpc-api-1.57.0.pom (1.8 kB at 18 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-netty-shaded/1.57.0/grpc-netty-shaded-1.57.0.pom
+Progress (1): 2.0 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-netty-shaded/1.57.0/grpc-netty-shaded-1.57.0.pom (2.0 kB at 124 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-core/1.57.0/grpc-core-1.57.0.pom
+Progress (1): 2.7 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-core/1.57.0/grpc-core-1.57.0.pom (2.7 kB at 207 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-context/1.57.0/grpc-context-1.57.0.pom
+Progress (1): 1.9 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-context/1.57.0/grpc-context-1.57.0.pom (1.9 kB at 187 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-protobuf/1.57.0/grpc-protobuf-1.57.0.pom
+Progress (1): 2.7 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-protobuf/1.57.0/grpc-protobuf-1.57.0.pom (2.7 kB at 96 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-java/3.22.3/protobuf-java-3.22.3.pom
+Progress (1): 1.6 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-java/3.22.3/protobuf-java-3.22.3.pom (1.6 kB at 60 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-parent/3.22.3/protobuf-parent-3.22.3.pom
+Progress (1): 4.1/9.0 kB
+Progress (1): 8.2/9.0 kB
+Progress (1): 9.0 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-parent/3.22.3/protobuf-parent-3.22.3.pom (9.0 kB at 531 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-bom/3.22.3/protobuf-bom-3.22.3.pom
+Progress (1): 3.5 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-bom/3.22.3/protobuf-bom-3.22.3.pom (3.5 kB at 111 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/api/grpc/proto-google-common-protos/2.17.0/proto-google-common-protos-2.17.0.pom
+Progress (1): 2.7 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/api/grpc/proto-google-common-protos/2.17.0/proto-google-common-protos-2.17.0.pom (2.7 kB at 122 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-protobuf-lite/1.57.0/grpc-protobuf-lite-1.57.0.pom
+Progress (1): 2.0 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-protobuf-lite/1.57.0/grpc-protobuf-lite-1.57.0.pom (2.0 kB at 74 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-stub/1.57.0/grpc-stub-1.57.0.pom
+Progress (1): 1.8 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-stub/1.57.0/grpc-stub-1.57.0.pom (1.8 kB at 119 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/uk/org/webcompere/system-stubs-jupiter/2.0.2/system-stubs-jupiter-2.0.2.pom
+Progress (1): 4.0 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/uk/org/webcompere/system-stubs-jupiter/2.0.2/system-stubs-jupiter-2.0.2.pom (4.0 kB at 443 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/uk/org/webcompere/system-stubs-parent/2.0.2/system-stubs-parent-2.0.2.pom
+Progress (1): 4.1/11 kB
+Progress (1): 8.2/11 kB
+Progress (1): 11 kB    
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/uk/org/webcompere/system-stubs-parent/2.0.2/system-stubs-parent-2.0.2.pom (11 kB at 900 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/uk/org/webcompere/system-stubs-core/2.0.2/system-stubs-core-2.0.2.pom
+Progress (1): 2.7 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/uk/org/webcompere/system-stubs-core/2.0.2/system-stubs-core-2.0.2.pom (2.7 kB at 275 kB/s)
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.6.0:tree (default-cli) @ gauge-java ---
+[INFO] com.thoughtworks.gauge:gauge-java:jar:0.10.2
+[INFO] +- org.assertj:assertj-core:jar:3.24.2:compile
+[INFO] |  \- net.bytebuddy:byte-buddy:jar:1.12.21:compile
+[INFO] +- org.reflections:reflections:jar:0.10.2:compile
+[INFO] |  +- org.javassist:javassist:jar:3.28.0-GA:compile
+[INFO] |  +- com.google.code.findbugs:jsr305:jar:3.0.2:compile
+[INFO] |  \- org.slf4j:slf4j-api:jar:1.7.32:compile
+[INFO] +- com.github.javaparser:javaparser-core:jar:3.25.4:compile
+[INFO] +- commons-io:commons-io:jar:2.13.0:compile
+[INFO] +- org.apache.commons:commons-lang3:jar:3.13.0:compile
+[INFO] +- org.json:json:jar:20230618:compile
+[INFO] +- com.google.protobuf:protobuf-java:jar:3.23.4:compile
+[INFO] +- com.google.guava:guava:jar:32.1.1-jre:compile
+[INFO] |  +- com.google.guava:failureaccess:jar:1.0.1:compile
+[INFO] |  +- com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:compile
+[INFO] |  +- org.checkerframework:checker-qual:jar:3.33.0:compile
+[INFO] |  +- com.google.errorprone:error_prone_annotations:jar:2.18.0:compile
+[INFO] |  \- com.google.j2objc:j2objc-annotations:jar:2.8:compile
+[INFO] +- io.grpc:grpc-api:jar:1.57.0:compile
+[INFO] +- io.grpc:grpc-netty-shaded:jar:1.57.0:compile
+[INFO] |  +- io.perfmark:perfmark-api:jar:0.26.0:runtime
+[INFO] |  \- io.grpc:grpc-core:jar:1.57.0:compile
+[INFO] |     +- com.google.code.gson:gson:jar:2.10.1:runtime
+[INFO] |     +- com.google.android:annotations:jar:4.1.1.4:runtime
+[INFO] |     +- org.codehaus.mojo:animal-sniffer-annotations:jar:1.23:runtime
+[INFO] |     \- io.grpc:grpc-context:jar:1.57.0:runtime
+[INFO] +- io.grpc:grpc-protobuf:jar:1.57.0:compile
+[INFO] |  +- com.google.api.grpc:proto-google-common-protos:jar:2.17.0:compile
+[INFO] |  \- io.grpc:grpc-protobuf-lite:jar:1.57.0:compile
+[INFO] +- io.grpc:grpc-stub:jar:1.57.0:compile
+[INFO] +- javax.annotation:javax.annotation-api:jar:1.3.2:compile
+[INFO] +- org.junit.jupiter:junit-jupiter-api:jar:5.10.0:test
+[INFO] |  +- org.opentest4j:opentest4j:jar:1.3.0:test
+[INFO] |  +- org.junit.platform:junit-platform-commons:jar:1.10.0:test
+[INFO] |  \- org.apiguardian:apiguardian-api:jar:1.1.2:test
+[INFO] +- junit:junit:jar:4.13.2:test
+[INFO] +- org.hamcrest:hamcrest-core:jar:2.2:test
+[INFO] |  \- org.hamcrest:hamcrest:jar:2.2:test
+[INFO] +- org.mockito:mockito-core:jar:5.4.0:test
+[INFO] |  +- net.bytebuddy:byte-buddy-agent:jar:1.14.5:test
+[INFO] |  \- org.objenesis:objenesis:jar:3.3:test
+[INFO] \- uk.org.webcompere:system-stubs-jupiter:jar:2.0.2:test
+[INFO]    +- uk.org.webcompere:system-stubs-core:jar:2.0.2:test
+[INFO]    \- org.mockito:mockito-inline:jar:3.12.4:test
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.110 s
+[INFO] Finished at: 2023-09-25T21:51:04Z
+[INFO] ------------------------------------------------------------------------

@@ -1,0 +1,2310 @@
+[INFO] Scanning for projects...
+[INFO] Inspecting build with total of 9 modules...
+[INFO] Installing Nexus Staging features:
+[INFO]   ... total of 9 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] scheduler                                                          [pom]
+[INFO] scheduler-api                                                      [jar]
+[INFO] scheduler-json                                                     [jar]
+[INFO] scheduler-choco                                                    [jar]
+[INFO] scheduler-examples                                                 [jar]
+[INFO] btrpsl                                                             [jar]
+[INFO] safeplace                                                          [jar]
+[INFO] bench                                                              [jar]
+[INFO] scheduler-split                                                    [jar]
+[INFO] 
+[INFO] -----------------------< org.btrplace:scheduler >-----------------------
+[INFO] Building scheduler 1.12.9-SNAPSHOT                                 [1/9]
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ scheduler ---
+[INFO] org.btrplace:scheduler:pom:1.12.9-SNAPSHOT
+[INFO] +- org.testng:testng:jar:7.5:test
+[INFO] |  +- com.google.code.findbugs:jsr305:jar:3.0.1:test
+[INFO] |  +- com.beust:jcommander:jar:1.78:test
+[INFO] |  \- org.webjars:jquery:jar:3.5.1:test
+[INFO] +- org.slf4j:slf4j-api:jar:2.0.6:compile
+[INFO] +- org.mockito:mockito-core:jar:4.9.0:test
+[INFO] |  +- net.bytebuddy:byte-buddy:jar:1.12.16:test
+[INFO] |  +- net.bytebuddy:byte-buddy-agent:jar:1.12.16:test
+[INFO] |  \- org.objenesis:objenesis:jar:3.3:test
+[INFO] +- org.openjdk.jmh:jmh-core:jar:1.36:test
+[INFO] |  +- net.sf.jopt-simple:jopt-simple:jar:5.0.4:test
+[INFO] |  \- org.apache.commons:commons-math3:jar:3.2:test
+[INFO] \- org.openjdk.jmh:jmh-generator-annprocess:jar:1.36:test
+[INFO] 
+[INFO] ---------------------< org.btrplace:scheduler-api >---------------------
+[INFO] Building scheduler-api 1.12.9-SNAPSHOT                             [2/9]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ scheduler-api ---
+[INFO] org.btrplace:scheduler-api:jar:1.12.9-SNAPSHOT
+[INFO] +- net.sf.trove4j:trove4j:jar:3.0.3:compile
+[INFO] +- org.testng:testng:jar:7.5:test
+[INFO] |  +- com.google.code.findbugs:jsr305:jar:3.0.1:test
+[INFO] |  +- com.beust:jcommander:jar:1.78:test
+[INFO] |  \- org.webjars:jquery:jar:3.5.1:test
+[INFO] +- org.slf4j:slf4j-api:jar:2.0.6:compile
+[INFO] +- org.mockito:mockito-core:jar:4.9.0:test
+[INFO] |  +- net.bytebuddy:byte-buddy:jar:1.12.16:test
+[INFO] |  +- net.bytebuddy:byte-buddy-agent:jar:1.12.16:test
+[INFO] |  \- org.objenesis:objenesis:jar:3.3:test
+[INFO] +- org.openjdk.jmh:jmh-core:jar:1.36:test
+[INFO] |  +- net.sf.jopt-simple:jopt-simple:jar:5.0.4:test
+[INFO] |  \- org.apache.commons:commons-math3:jar:3.2:test
+[INFO] \- org.openjdk.jmh:jmh-generator-annprocess:jar:1.36:test
+[INFO] 
+[INFO] --------------------< org.btrplace:scheduler-json >---------------------
+[INFO] Building scheduler-json 1.12.9-SNAPSHOT                            [3/9]
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/org/btrplace/scheduler-api/1.12.9-SNAPSHOT/maven-metadata.xml
+Downloading from sonatype: https://oss.sonatype.org/service/local/staging/deploy/maven2/org/btrplace/scheduler-api/1.12.9-SNAPSHOT/maven-metadata.xml
+Progress (1): 2.0 kB
+                    
+Downloaded from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/org/btrplace/scheduler-api/1.12.9-SNAPSHOT/maven-metadata.xml (2.0 kB at 2.3 kB/s)
+[WARNING] Could not transfer metadata org.btrplace:scheduler-api:1.12.9-SNAPSHOT/maven-metadata.xml from/to sonatype (https://oss.sonatype.org/service/local/staging/deploy/maven2): Authentication failed for https://oss.sonatype.org/service/local/staging/deploy/maven2/org/btrplace/scheduler-api/1.12.9-SNAPSHOT/maven-metadata.xml 401 Unauthorized
+[WARNING] Failure to transfer org.btrplace:scheduler-api:1.12.9-SNAPSHOT/maven-metadata.xml from https://oss.sonatype.org/service/local/staging/deploy/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of sonatype has elapsed or updates are forced. Original error: Could not transfer metadata org.btrplace:scheduler-api:1.12.9-SNAPSHOT/maven-metadata.xml from/to sonatype (https://oss.sonatype.org/service/local/staging/deploy/maven2): Authentication failed for https://oss.sonatype.org/service/local/staging/deploy/maven2/org/btrplace/scheduler-api/1.12.9-SNAPSHOT/maven-metadata.xml 401 Unauthorized
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/org/btrplace/scheduler-api/1.12.9-SNAPSHOT/scheduler-api-1.12.9-20230918.054149-192.jar
+Progress (1): 4.1/195 kB
+Progress (1): 7.8/195 kB
+Progress (1): 12/195 kB 
+Progress (1): 16/195 kB
+Progress (1): 20/195 kB
+Progress (1): 24/195 kB
+Progress (1): 28/195 kB
+Progress (1): 32/195 kB
+Progress (1): 37/195 kB
+Progress (1): 41/195 kB
+Progress (1): 45/195 kB
+Progress (1): 49/195 kB
+Progress (1): 53/195 kB
+Progress (1): 57/195 kB
+Progress (1): 61/195 kB
+Progress (1): 65/195 kB
+Progress (1): 69/195 kB
+Progress (1): 73/195 kB
+Progress (1): 77/195 kB
+Progress (1): 82/195 kB
+Progress (1): 86/195 kB
+Progress (1): 90/195 kB
+Progress (1): 94/195 kB
+Progress (1): 98/195 kB
+Progress (1): 102/195 kB
+Progress (1): 106/195 kB
+Progress (1): 110/195 kB
+Progress (1): 114/195 kB
+Progress (1): 118/195 kB
+Progress (1): 123/195 kB
+Progress (1): 127/195 kB
+Progress (1): 131/195 kB
+Progress (1): 135/195 kB
+Progress (1): 139/195 kB
+Progress (1): 143/195 kB
+Progress (1): 147/195 kB
+Progress (1): 151/195 kB
+Progress (1): 155/195 kB
+Progress (1): 159/195 kB
+Progress (1): 163/195 kB
+Progress (1): 168/195 kB
+Progress (1): 172/195 kB
+Progress (1): 176/195 kB
+Progress (1): 180/195 kB
+Progress (1): 184/195 kB
+Progress (1): 188/195 kB
+Progress (1): 192/195 kB
+Progress (1): 195 kB    
+                    
+Downloaded from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/org/btrplace/scheduler-api/1.12.9-SNAPSHOT/scheduler-api-1.12.9-20230918.054149-192.jar (195 kB at 253 kB/s)
+Downloading from sonatype: https://oss.sonatype.org/service/local/staging/deploy/maven2/net/minidev/json-smart/2.4.8/json-smart-2.4.8.jar
+Downloading from sonatype: https://oss.sonatype.org/service/local/staging/deploy/maven2/net/minidev/accessors-smart/2.4.8/accessors-smart-2.4.8.jar
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/net/minidev/json-smart/2.4.8/json-smart-2.4.8.jar
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/net/minidev/accessors-smart/2.4.8/accessors-smart-2.4.8.jar
+Downloading from central: https://repo.maven.apache.org/maven2/net/minidev/json-smart/2.4.8/json-smart-2.4.8.jar
+Downloading from central: https://repo.maven.apache.org/maven2/net/minidev/accessors-smart/2.4.8/accessors-smart-2.4.8.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/net/minidev/accessors-smart/2.4.8/accessors-smart-2.4.8.jar (0 B at 0 B/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/net/minidev/json-smart/2.4.8/json-smart-2.4.8.jar (0 B at 0 B/s)
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ scheduler-json ---
+[WARNING] Failure to transfer org.btrplace:scheduler-api:1.12.9-SNAPSHOT/maven-metadata.xml from https://oss.sonatype.org/service/local/staging/deploy/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of sonatype has elapsed or updates are forced. Original error: Could not transfer metadata org.btrplace:scheduler-api:1.12.9-SNAPSHOT/maven-metadata.xml from/to sonatype (https://oss.sonatype.org/service/local/staging/deploy/maven2): Authentication failed for https://oss.sonatype.org/service/local/staging/deploy/maven2/org/btrplace/scheduler-api/1.12.9-SNAPSHOT/maven-metadata.xml 401 Unauthorized
+[INFO] org.btrplace:scheduler-json:jar:1.12.9-SNAPSHOT
+[INFO] +- org.btrplace:scheduler-api:jar:1.12.9-SNAPSHOT:compile
+[INFO] |  \- net.sf.trove4j:trove4j:jar:3.0.3:compile
+[INFO] +- net.minidev:json-smart:jar:2.4.8:compile
+[INFO] |  \- net.minidev:accessors-smart:jar:2.4.8:compile
+[INFO] |     \- org.ow2.asm:asm:jar:9.1:compile
+[INFO] +- org.testng:testng:jar:7.5:test
+[INFO] |  +- com.google.code.findbugs:jsr305:jar:3.0.1:test
+[INFO] |  +- com.beust:jcommander:jar:1.78:test
+[INFO] |  \- org.webjars:jquery:jar:3.5.1:test
+[INFO] +- org.slf4j:slf4j-api:jar:2.0.6:compile
+[INFO] +- org.mockito:mockito-core:jar:4.9.0:test
+[INFO] |  +- net.bytebuddy:byte-buddy:jar:1.12.16:test
+[INFO] |  +- net.bytebuddy:byte-buddy-agent:jar:1.12.16:test
+[INFO] |  \- org.objenesis:objenesis:jar:3.3:test
+[INFO] +- org.openjdk.jmh:jmh-core:jar:1.36:test
+[INFO] |  +- net.sf.jopt-simple:jopt-simple:jar:5.0.4:test
+[INFO] |  \- org.apache.commons:commons-math3:jar:3.2:test
+[INFO] \- org.openjdk.jmh:jmh-generator-annprocess:jar:1.36:test
+[INFO] 
+[INFO] --------------------< org.btrplace:scheduler-choco >--------------------
+[INFO] Building scheduler-choco 1.12.9-SNAPSHOT                           [4/9]
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from sonatype: https://oss.sonatype.org/service/local/staging/deploy/maven2/org/choco-solver/choco-solver/4.10.8/choco-solver-4.10.8.pom
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/org/choco-solver/choco-solver/4.10.8/choco-solver-4.10.8.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/choco-solver/choco-solver/4.10.8/choco-solver-4.10.8.pom
+Progress (1): 2.7/3.2 kB
+Progress (1): 3.2 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/choco-solver/choco-solver/4.10.8/choco-solver-4.10.8.pom (3.2 kB at 15 kB/s)
+Downloading from sonatype: https://oss.sonatype.org/service/local/staging/deploy/maven2/org/choco-solver/choco/4.10.8/choco-4.10.8.pom
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/org/choco-solver/choco/4.10.8/choco-4.10.8.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/choco-solver/choco/4.10.8/choco-4.10.8.pom
+Progress (1): 2.7/26 kB
+Progress (1): 5.5/26 kB
+Progress (1): 8.2/26 kB
+Progress (1): 11/26 kB 
+Progress (1): 14/26 kB
+Progress (1): 16/26 kB
+Progress (1): 19/26 kB
+Progress (1): 22/26 kB
+Progress (1): 25/26 kB
+Progress (1): 26 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/choco-solver/choco/4.10.8/choco-4.10.8.pom (26 kB at 127 kB/s)
+Downloading from sonatype: https://oss.sonatype.org/service/local/staging/deploy/maven2/com/github/cp-profiler/cpprof-java/1.3.0/cpprof-java-1.3.0.pom
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/com/github/cp-profiler/cpprof-java/1.3.0/cpprof-java-1.3.0.pom
+Downloading from central: https://repo.maven.apache.org/maven2/com/github/cp-profiler/cpprof-java/1.3.0/cpprof-java-1.3.0.pom
+Progress (1): 2.7/5.5 kB
+Progress (1): 5.5/5.5 kB
+Progress (1): 5.5 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/github/cp-profiler/cpprof-java/1.3.0/cpprof-java-1.3.0.pom (5.5 kB at 323 kB/s)
+Downloading from sonatype: https://oss.sonatype.org/service/local/staging/deploy/maven2/com/google/protobuf/protobuf-java/2.6.1/protobuf-java-2.6.1.pom
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/com/google/protobuf/protobuf-java/2.6.1/protobuf-java-2.6.1.pom
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-java/2.6.1/protobuf-java-2.6.1.pom
+Progress (1): 2.7/9.3 kB
+Progress (1): 5.5/9.3 kB
+Progress (1): 8.2/9.3 kB
+Progress (1): 9.3 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-java/2.6.1/protobuf-java-2.6.1.pom (9.3 kB at 617 kB/s)
+Downloading from sonatype: https://oss.sonatype.org/service/local/staging/deploy/maven2/org/knowm/xchart/xchart/3.8.1/xchart-3.8.1.pom
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/org/knowm/xchart/xchart/3.8.1/xchart-3.8.1.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/knowm/xchart/xchart/3.8.1/xchart-3.8.1.pom
+Progress (1): 918 B
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/knowm/xchart/xchart/3.8.1/xchart-3.8.1.pom (918 B at 71 kB/s)
+Downloading from sonatype: https://oss.sonatype.org/service/local/staging/deploy/maven2/org/knowm/xchart/xchart-parent/3.8.1/xchart-parent-3.8.1.pom
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/org/knowm/xchart/xchart-parent/3.8.1/xchart-parent-3.8.1.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/knowm/xchart/xchart-parent/3.8.1/xchart-parent-3.8.1.pom
+Progress (1): 2.7/7.6 kB
+Progress (1): 5.5/7.6 kB
+Progress (1): 7.6 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/knowm/xchart/xchart-parent/3.8.1/xchart-parent-3.8.1.pom (7.6 kB at 636 kB/s)
+Downloading from sonatype: https://oss.sonatype.org/service/local/staging/deploy/maven2/de/erichseifert/vectorgraphics2d/VectorGraphics2D/0.13/VectorGraphics2D-0.13.pom
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/de/erichseifert/vectorgraphics2d/VectorGraphics2D/0.13/VectorGraphics2D-0.13.pom
+Downloading from central: https://repo.maven.apache.org/maven2/de/erichseifert/vectorgraphics2d/VectorGraphics2D/0.13/VectorGraphics2D-0.13.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/de/erichseifert/vectorgraphics2d/VectorGraphics2D/0.13/VectorGraphics2D-0.13.pom (0 B at 0 B/s)
+Downloading from sonatype: https://oss.sonatype.org/service/local/staging/deploy/maven2/com/madgag/animated-gif-lib/1.4/animated-gif-lib-1.4.pom
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/com/madgag/animated-gif-lib/1.4/animated-gif-lib-1.4.pom
+Downloading from central: https://repo.maven.apache.org/maven2/com/madgag/animated-gif-lib/1.4/animated-gif-lib-1.4.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/com/madgag/animated-gif-lib/1.4/animated-gif-lib-1.4.pom (0 B at 0 B/s)
+Downloading from sonatype: https://oss.sonatype.org/service/local/staging/deploy/maven2/org/btrplace/scheduler-json/1.12.9-SNAPSHOT/maven-metadata.xml
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/org/btrplace/scheduler-json/1.12.9-SNAPSHOT/maven-metadata.xml
+Progress (1): 2.0 kB
+                    
+Downloaded from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/org/btrplace/scheduler-json/1.12.9-SNAPSHOT/maven-metadata.xml (2.0 kB at 7.3 kB/s)
+[WARNING] Could not transfer metadata org.btrplace:scheduler-json:1.12.9-SNAPSHOT/maven-metadata.xml from/to sonatype (https://oss.sonatype.org/service/local/staging/deploy/maven2): Authentication failed for https://oss.sonatype.org/service/local/staging/deploy/maven2/org/btrplace/scheduler-json/1.12.9-SNAPSHOT/maven-metadata.xml 401 Unauthorized
+[WARNING] Failure to transfer org.btrplace:scheduler-api:1.12.9-SNAPSHOT/maven-metadata.xml from https://oss.sonatype.org/service/local/staging/deploy/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of sonatype has elapsed or updates are forced. Original error: Could not transfer metadata org.btrplace:scheduler-api:1.12.9-SNAPSHOT/maven-metadata.xml from/to sonatype (https://oss.sonatype.org/service/local/staging/deploy/maven2): Authentication failed for https://oss.sonatype.org/service/local/staging/deploy/maven2/org/btrplace/scheduler-api/1.12.9-SNAPSHOT/maven-metadata.xml 401 Unauthorized
+[WARNING] Failure to transfer org.btrplace:scheduler-json:1.12.9-SNAPSHOT/maven-metadata.xml from https://oss.sonatype.org/service/local/staging/deploy/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of sonatype has elapsed or updates are forced. Original error: Could not transfer metadata org.btrplace:scheduler-json:1.12.9-SNAPSHOT/maven-metadata.xml from/to sonatype (https://oss.sonatype.org/service/local/staging/deploy/maven2): Authentication failed for https://oss.sonatype.org/service/local/staging/deploy/maven2/org/btrplace/scheduler-json/1.12.9-SNAPSHOT/maven-metadata.xml 401 Unauthorized
+Downloading from sonatype: https://oss.sonatype.org/service/local/staging/deploy/maven2/org/choco-solver/choco-solver/4.10.8/choco-solver-4.10.8.jar
+Downloading from sonatype: https://oss.sonatype.org/service/local/staging/deploy/maven2/com/github/cp-profiler/cpprof-java/1.3.0/cpprof-java-1.3.0.jar
+Downloading from sonatype: https://oss.sonatype.org/service/local/staging/deploy/maven2/com/google/protobuf/protobuf-java/2.6.1/protobuf-java-2.6.1.jar
+Downloading from sonatype: https://oss.sonatype.org/service/local/staging/deploy/maven2/org/knowm/xchart/xchart/3.8.1/xchart-3.8.1.jar
+Downloading from sonatype: https://oss.sonatype.org/service/local/staging/deploy/maven2/de/erichseifert/vectorgraphics2d/VectorGraphics2D/0.13/VectorGraphics2D-0.13.jar
+Downloading from sonatype: https://oss.sonatype.org/service/local/staging/deploy/maven2/de/rototor/pdfbox/graphics2d/0.32/graphics2d-0.32.jar
+Downloading from sonatype: https://oss.sonatype.org/service/local/staging/deploy/maven2/org/apache/pdfbox/pdfbox/2.0.24/pdfbox-2.0.24.jar
+Downloading from sonatype: https://oss.sonatype.org/service/local/staging/deploy/maven2/org/apache/pdfbox/fontbox/2.0.24/fontbox-2.0.24.jar
+Downloading from sonatype: https://oss.sonatype.org/service/local/staging/deploy/maven2/com/madgag/animated-gif-lib/1.4/animated-gif-lib-1.4.jar
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/org/choco-solver/choco-solver/4.10.8/choco-solver-4.10.8.jar
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/com/github/cp-profiler/cpprof-java/1.3.0/cpprof-java-1.3.0.jar
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/com/google/protobuf/protobuf-java/2.6.1/protobuf-java-2.6.1.jar
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/org/knowm/xchart/xchart/3.8.1/xchart-3.8.1.jar
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/de/erichseifert/vectorgraphics2d/VectorGraphics2D/0.13/VectorGraphics2D-0.13.jar
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/de/rototor/pdfbox/graphics2d/0.32/graphics2d-0.32.jar
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/org/apache/pdfbox/pdfbox/2.0.24/pdfbox-2.0.24.jar
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/org/apache/pdfbox/fontbox/2.0.24/fontbox-2.0.24.jar
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/com/madgag/animated-gif-lib/1.4/animated-gif-lib-1.4.jar
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/org/btrplace/scheduler-json/1.12.9-SNAPSHOT/scheduler-json-1.12.9-20230918.054149-190.jar
+Progress (1): 4.1/95 kB
+Progress (1): 7.8/95 kB
+Progress (1): 12/95 kB 
+Progress (1): 16/95 kB
+Progress (1): 20/95 kB
+Progress (1): 24/95 kB
+Progress (1): 28/95 kB
+Progress (1): 32/95 kB
+Progress (1): 37/95 kB
+Progress (1): 41/95 kB
+Progress (1): 45/95 kB
+Progress (1): 49/95 kB
+Progress (1): 53/95 kB
+Progress (1): 57/95 kB
+Progress (1): 61/95 kB
+Progress (1): 65/95 kB
+Progress (1): 69/95 kB
+Progress (1): 73/95 kB
+Progress (1): 77/95 kB
+Progress (1): 82/95 kB
+Progress (1): 86/95 kB
+Progress (1): 90/95 kB
+Progress (1): 94/95 kB
+Progress (1): 95 kB   
+                   
+Downloaded from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/org/btrplace/scheduler-json/1.12.9-SNAPSHOT/scheduler-json-1.12.9-20230918.054149-190.jar (95 kB at 123 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/choco-solver/choco-solver/4.10.8/choco-solver-4.10.8.jar
+Downloading from central: https://repo.maven.apache.org/maven2/com/github/cp-profiler/cpprof-java/1.3.0/cpprof-java-1.3.0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-java/2.6.1/protobuf-java-2.6.1.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/knowm/xchart/xchart/3.8.1/xchart-3.8.1.jar
+Downloading from central: https://repo.maven.apache.org/maven2/de/erichseifert/vectorgraphics2d/VectorGraphics2D/0.13/VectorGraphics2D-0.13.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/de/erichseifert/vectorgraphics2d/VectorGraphics2D/0.13/VectorGraphics2D-0.13.jar (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/de/rototor/pdfbox/graphics2d/0.32/graphics2d-0.32.jar
+Progress (1): 4.1/597 kB
+Progress (1): 8.2/597 kB
+Progress (1): 12/597 kB 
+Progress (1): 16/597 kB
+Progress (1): 20/597 kB
+Progress (1): 25/597 kB
+Progress (1): 29/597 kB
+Progress (1): 33/597 kB
+Progress (2): 33/597 kB | 4.1/74 kB
+Progress (2): 33/597 kB | 8.2/74 kB
+Progress (2): 37/597 kB | 8.2/74 kB
+Progress (2): 37/597 kB | 12/74 kB 
+Progress (2): 41/597 kB | 12/74 kB
+Progress (2): 41/597 kB | 16/74 kB
+Progress (2): 45/597 kB | 16/74 kB
+Progress (2): 49/597 kB | 16/74 kB
+Progress (2): 53/597 kB | 16/74 kB
+Progress (2): 53/597 kB | 20/74 kB
+Progress (2): 57/597 kB | 20/74 kB
+Progress (2): 57/597 kB | 25/74 kB
+Progress (2): 61/597 kB | 25/74 kB
+Progress (2): 61/597 kB | 29/74 kB
+Progress (2): 66/597 kB | 29/74 kB
+Progress (2): 66/597 kB | 33/74 kB
+Progress (3): 66/597 kB | 33/74 kB | 4.1/365 kB
+Progress (3): 70/597 kB | 33/74 kB | 4.1/365 kB
+Progress (3): 70/597 kB | 33/74 kB | 8.2/365 kB
+Progress (3): 74/597 kB | 33/74 kB | 8.2/365 kB
+Progress (3): 74/597 kB | 33/74 kB | 12/365 kB 
+Progress (3): 74/597 kB | 37/74 kB | 12/365 kB
+Progress (3): 78/597 kB | 37/74 kB | 12/365 kB
+Progress (3): 78/597 kB | 37/74 kB | 16/365 kB
+Progress (3): 78/597 kB | 41/74 kB | 16/365 kB
+Progress (3): 82/597 kB | 41/74 kB | 16/365 kB
+Progress (3): 82/597 kB | 45/74 kB | 16/365 kB
+Progress (3): 82/597 kB | 45/74 kB | 20/365 kB
+Progress (3): 82/597 kB | 49/74 kB | 20/365 kB
+Progress (3): 86/597 kB | 49/74 kB | 20/365 kB
+Progress (3): 86/597 kB | 49/74 kB | 25/365 kB
+Progress (3): 90/597 kB | 49/74 kB | 25/365 kB
+Progress (3): 90/597 kB | 49/74 kB | 29/365 kB
+Progress (3): 94/597 kB | 49/74 kB | 29/365 kB
+Progress (3): 94/597 kB | 49/74 kB | 33/365 kB
+Progress (3): 94/597 kB | 53/74 kB | 33/365 kB
+Progress (3): 98/597 kB | 53/74 kB | 33/365 kB
+Progress (3): 98/597 kB | 57/74 kB | 33/365 kB
+Progress (3): 98/597 kB | 61/74 kB | 33/365 kB
+Progress (3): 102/597 kB | 61/74 kB | 33/365 kB
+Progress (3): 102/597 kB | 66/74 kB | 33/365 kB
+Progress (3): 102/597 kB | 66/74 kB | 37/365 kB
+Progress (3): 106/597 kB | 66/74 kB | 37/365 kB
+Progress (3): 106/597 kB | 66/74 kB | 41/365 kB
+Progress (3): 106/597 kB | 70/74 kB | 41/365 kB
+Progress (3): 106/597 kB | 70/74 kB | 45/365 kB
+Progress (3): 111/597 kB | 70/74 kB | 45/365 kB
+Progress (3): 111/597 kB | 70/74 kB | 49/365 kB
+Progress (3): 111/597 kB | 74/74 kB | 49/365 kB
+Progress (3): 115/597 kB | 74/74 kB | 49/365 kB
+Progress (3): 115/597 kB | 74 kB | 49/365 kB   
+Progress (3): 119/597 kB | 74 kB | 49/365 kB
+Progress (3): 123/597 kB | 74 kB | 49/365 kB
+Progress (3): 127/597 kB | 74 kB | 49/365 kB
+Progress (3): 127/597 kB | 74 kB | 53/365 kB
+Progress (3): 131/597 kB | 74 kB | 53/365 kB
+Progress (3): 131/597 kB | 74 kB | 57/365 kB
+Progress (3): 131/597 kB | 74 kB | 61/365 kB
+Progress (3): 135/597 kB | 74 kB | 61/365 kB
+Progress (3): 135/597 kB | 74 kB | 66/365 kB
+Progress (3): 139/597 kB | 74 kB | 66/365 kB
+Progress (3): 143/597 kB | 74 kB | 66/365 kB
+Progress (3): 147/597 kB | 74 kB | 66/365 kB
+Progress (3): 152/597 kB | 74 kB | 66/365 kB
+Progress (3): 156/597 kB | 74 kB | 66/365 kB
+Progress (3): 156/597 kB | 74 kB | 70/365 kB
+Progress (3): 160/597 kB | 74 kB | 70/365 kB
+Progress (3): 160/597 kB | 74 kB | 74/365 kB
+Progress (3): 164/597 kB | 74 kB | 74/365 kB
+Progress (3): 164/597 kB | 74 kB | 78/365 kB
+Progress (3): 164/597 kB | 74 kB | 82/365 kB
+Progress (3): 168/597 kB | 74 kB | 82/365 kB
+Progress (3): 172/597 kB | 74 kB | 82/365 kB
+Progress (3): 176/597 kB | 74 kB | 82/365 kB
+                                            
+Downloaded from central: https://repo.maven.apache.org/maven2/de/rototor/pdfbox/graphics2d/0.32/graphics2d-0.32.jar (74 kB at 1.5 MB/s)
+Progress (2): 180/597 kB | 82/365 kB
+Progress (2): 180/597 kB | 86/365 kB
+                                    
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/pdfbox/pdfbox/2.0.24/pdfbox-2.0.24.jar
+Progress (2): 180/597 kB | 90/365 kB
+Progress (2): 184/597 kB | 90/365 kB
+Progress (2): 184/597 kB | 94/365 kB
+Progress (2): 188/597 kB | 94/365 kB
+Progress (2): 188/597 kB | 98/365 kB
+Progress (2): 193/597 kB | 98/365 kB
+Progress (2): 197/597 kB | 98/365 kB
+Progress (2): 197/597 kB | 102/365 kB
+Progress (2): 201/597 kB | 102/365 kB
+Progress (2): 205/597 kB | 102/365 kB
+Progress (2): 205/597 kB | 106/365 kB
+Progress (2): 209/597 kB | 106/365 kB
+Progress (2): 209/597 kB | 111/365 kB
+Progress (2): 213/597 kB | 111/365 kB
+Progress (2): 213/597 kB | 115/365 kB
+Progress (2): 217/597 kB | 115/365 kB
+Progress (2): 221/597 kB | 115/365 kB
+Progress (2): 225/597 kB | 115/365 kB
+Progress (2): 229/597 kB | 115/365 kB
+Progress (2): 229/597 kB | 119/365 kB
+Progress (2): 229/597 kB | 123/365 kB
+Progress (2): 229/597 kB | 127/365 kB
+Progress (2): 233/597 kB | 127/365 kB
+Progress (2): 233/597 kB | 131/365 kB
+Progress (2): 238/597 kB | 131/365 kB
+Progress (2): 242/597 kB | 131/365 kB
+Progress (2): 246/597 kB | 131/365 kB
+Progress (2): 250/597 kB | 131/365 kB
+Progress (2): 254/597 kB | 131/365 kB
+Progress (2): 258/597 kB | 131/365 kB
+Progress (2): 258/597 kB | 135/365 kB
+Progress (2): 262/597 kB | 135/365 kB
+Progress (2): 262/597 kB | 139/365 kB
+Progress (2): 266/597 kB | 139/365 kB
+Progress (2): 266/597 kB | 143/365 kB
+Progress (2): 270/597 kB | 143/365 kB
+Progress (2): 270/597 kB | 147/365 kB
+Progress (2): 274/597 kB | 147/365 kB
+Progress (2): 279/597 kB | 147/365 kB
+Progress (2): 283/597 kB | 147/365 kB
+Progress (2): 287/597 kB | 147/365 kB
+Progress (2): 287/597 kB | 152/365 kB
+Progress (2): 291/597 kB | 152/365 kB
+Progress (2): 291/597 kB | 156/365 kB
+Progress (2): 295/597 kB | 156/365 kB
+Progress (2): 295/597 kB | 160/365 kB
+Progress (2): 299/597 kB | 160/365 kB
+Progress (2): 299/597 kB | 164/365 kB
+Progress (2): 303/597 kB | 164/365 kB
+Progress (2): 307/597 kB | 164/365 kB
+Progress (2): 311/597 kB | 164/365 kB
+Progress (2): 315/597 kB | 164/365 kB
+Progress (2): 319/597 kB | 164/365 kB
+Progress (2): 319/597 kB | 168/365 kB
+Progress (2): 319/597 kB | 172/365 kB
+Progress (2): 324/597 kB | 172/365 kB
+Progress (2): 324/597 kB | 176/365 kB
+Progress (2): 328/597 kB | 176/365 kB
+Progress (2): 328/597 kB | 180/365 kB
+Progress (2): 332/597 kB | 180/365 kB
+Progress (2): 336/597 kB | 180/365 kB
+Progress (2): 340/597 kB | 180/365 kB
+Progress (2): 340/597 kB | 184/365 kB
+Progress (2): 344/597 kB | 184/365 kB
+Progress (2): 344/597 kB | 188/365 kB
+Progress (2): 348/597 kB | 188/365 kB
+Progress (2): 348/597 kB | 193/365 kB
+Progress (2): 352/597 kB | 193/365 kB
+Progress (2): 352/597 kB | 197/365 kB
+                                     
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/pdfbox/pdfbox/2.0.24/pdfbox-2.0.24.jar (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/pdfbox/fontbox/2.0.24/fontbox-2.0.24.jar
+Progress (2): 356/597 kB | 197/365 kB
+Progress (2): 360/597 kB | 197/365 kB
+Progress (2): 365/597 kB | 197/365 kB
+Progress (2): 365/597 kB | 201/365 kB
+Progress (2): 369/597 kB | 201/365 kB
+Progress (2): 369/597 kB | 205/365 kB
+Progress (2): 369/597 kB | 209/365 kB
+Progress (2): 369/597 kB | 213/365 kB
+Progress (2): 373/597 kB | 213/365 kB
+Progress (2): 377/597 kB | 213/365 kB
+Progress (2): 381/597 kB | 213/365 kB
+Progress (2): 381/597 kB | 217/365 kB
+Progress (2): 385/597 kB | 217/365 kB
+Progress (2): 385/597 kB | 221/365 kB
+Progress (2): 385/597 kB | 225/365 kB
+Progress (2): 389/597 kB | 225/365 kB
+Progress (2): 389/597 kB | 229/365 kB
+Progress (2): 393/597 kB | 229/365 kB
+Progress (2): 397/597 kB | 229/365 kB
+Progress (2): 401/597 kB | 229/365 kB
+Progress (2): 401/597 kB | 233/365 kB
+Progress (2): 406/597 kB | 233/365 kB
+Progress (2): 406/597 kB | 238/365 kB
+Progress (2): 410/597 kB | 238/365 kB
+Progress (2): 410/597 kB | 242/365 kB
+Progress (2): 414/597 kB | 242/365 kB
+Progress (2): 414/597 kB | 246/365 kB
+Progress (2): 418/597 kB | 246/365 kB
+Progress (2): 422/597 kB | 246/365 kB
+Progress (2): 426/597 kB | 246/365 kB
+Progress (2): 426/597 kB | 250/365 kB
+Progress (2): 430/597 kB | 250/365 kB
+Progress (2): 430/597 kB | 254/365 kB
+Progress (2): 434/597 kB | 254/365 kB
+Progress (2): 434/597 kB | 258/365 kB
+Progress (2): 434/597 kB | 262/365 kB
+Progress (2): 438/597 kB | 262/365 kB
+Progress (2): 442/597 kB | 262/365 kB
+Progress (2): 446/597 kB | 262/365 kB
+Progress (2): 451/597 kB | 262/365 kB
+Progress (2): 451/597 kB | 266/365 kB
+Progress (2): 451/597 kB | 270/365 kB
+Progress (2): 455/597 kB | 270/365 kB
+Progress (2): 455/597 kB | 274/365 kB
+Progress (2): 459/597 kB | 274/365 kB
+Progress (2): 459/597 kB | 279/365 kB
+Progress (2): 463/597 kB | 279/365 kB
+Progress (2): 467/597 kB | 279/365 kB
+Progress (2): 471/597 kB | 279/365 kB
+Progress (2): 471/597 kB | 283/365 kB
+Progress (2): 475/597 kB | 283/365 kB
+Progress (2): 475/597 kB | 287/365 kB
+Progress (2): 479/597 kB | 287/365 kB
+Progress (2): 479/597 kB | 291/365 kB
+Progress (2): 483/597 kB | 291/365 kB
+Progress (2): 483/597 kB | 295/365 kB
+Progress (2): 487/597 kB | 295/365 kB
+Progress (2): 492/597 kB | 295/365 kB
+Progress (2): 496/597 kB | 295/365 kB
+Progress (2): 496/597 kB | 299/365 kB
+Progress (2): 500/597 kB | 299/365 kB
+Progress (2): 500/597 kB | 303/365 kB
+Progress (2): 500/597 kB | 307/365 kB
+Progress (2): 500/597 kB | 311/365 kB
+Progress (2): 504/597 kB | 311/365 kB
+Progress (2): 508/597 kB | 311/365 kB
+Progress (2): 512/597 kB | 311/365 kB
+Progress (2): 516/597 kB | 311/365 kB
+Progress (2): 520/597 kB | 311/365 kB
+Progress (2): 520/597 kB | 315/365 kB
+Progress (2): 524/597 kB | 315/365 kB
+Progress (2): 524/597 kB | 319/365 kB
+Progress (2): 528/597 kB | 319/365 kB
+Progress (2): 528/597 kB | 324/365 kB
+Progress (2): 532/597 kB | 324/365 kB
+Progress (2): 532/597 kB | 328/365 kB
+Progress (2): 537/597 kB | 328/365 kB
+Progress (2): 541/597 kB | 328/365 kB
+Progress (2): 545/597 kB | 328/365 kB
+Progress (2): 549/597 kB | 328/365 kB
+Progress (2): 549/597 kB | 332/365 kB
+Progress (2): 553/597 kB | 332/365 kB
+Progress (2): 553/597 kB | 336/365 kB
+Progress (2): 557/597 kB | 336/365 kB
+Progress (2): 557/597 kB | 340/365 kB
+Progress (2): 561/597 kB | 340/365 kB
+Progress (2): 561/597 kB | 344/365 kB
+Progress (2): 565/597 kB | 344/365 kB
+Progress (2): 569/597 kB | 344/365 kB
+Progress (2): 573/597 kB | 344/365 kB
+Progress (2): 578/597 kB | 344/365 kB
+Progress (2): 582/597 kB | 344/365 kB
+Progress (2): 582/597 kB | 348/365 kB
+Progress (2): 582/597 kB | 352/365 kB
+Progress (2): 586/597 kB | 352/365 kB
+Progress (2): 586/597 kB | 356/365 kB
+Progress (2): 590/597 kB | 356/365 kB
+Progress (2): 590/597 kB | 360/365 kB
+Progress (2): 594/597 kB | 360/365 kB
+Progress (2): 597 kB | 360/365 kB    
+Progress (2): 597 kB | 365/365 kB
+Progress (2): 597 kB | 365 kB    
+                             
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/pdfbox/fontbox/2.0.24/fontbox-2.0.24.jar (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/madgag/animated-gif-lib/1.4/animated-gif-lib-1.4.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-java/2.6.1/protobuf-java-2.6.1.jar (597 kB at 7.9 MB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/com/madgag/animated-gif-lib/1.4/animated-gif-lib-1.4.jar (0 B at 0 B/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/knowm/xchart/xchart/3.8.1/xchart-3.8.1.jar (365 kB at 3.8 MB/s)
+Progress (1): 2.7/30 kB
+Progress (1): 5.5/30 kB
+Progress (1): 8.2/30 kB
+Progress (1): 11/30 kB 
+Progress (1): 14/30 kB
+Progress (1): 16/30 kB
+Progress (1): 19/30 kB
+Progress (1): 22/30 kB
+Progress (1): 25/30 kB
+Progress (1): 27/30 kB
+Progress (1): 30/30 kB
+Progress (1): 30 kB   
+Progress (2): 30 kB | 0/2.0 MB
+Progress (2): 30 kB | 0/2.0 MB
+Progress (2): 30 kB | 0/2.0 MB
+Progress (2): 30 kB | 0/2.0 MB
+Progress (2): 30 kB | 0/2.0 MB
+Progress (2): 30 kB | 0/2.0 MB
+Progress (2): 30 kB | 0.1/2.0 MB
+Progress (2): 30 kB | 0.1/2.0 MB
+Progress (2): 30 kB | 0.1/2.0 MB
+Progress (2): 30 kB | 0.1/2.0 MB
+Progress (2): 30 kB | 0.1/2.0 MB
+Progress (2): 30 kB | 0.1/2.0 MB
+Progress (2): 30 kB | 0.1/2.0 MB
+Progress (2): 30 kB | 0.1/2.0 MB
+Progress (2): 30 kB | 0.1/2.0 MB
+Progress (2): 30 kB | 0.1/2.0 MB
+Progress (2): 30 kB | 0.1/2.0 MB
+Progress (2): 30 kB | 0.1/2.0 MB
+Progress (2): 30 kB | 0.2/2.0 MB
+Progress (2): 30 kB | 0.2/2.0 MB
+Progress (2): 30 kB | 0.2/2.0 MB
+Progress (2): 30 kB | 0.2/2.0 MB
+Progress (2): 30 kB | 0.2/2.0 MB
+Progress (2): 30 kB | 0.2/2.0 MB
+Progress (2): 30 kB | 0.2/2.0 MB
+Progress (2): 30 kB | 0.2/2.0 MB
+Progress (2): 30 kB | 0.2/2.0 MB
+Progress (2): 30 kB | 0.2/2.0 MB
+Progress (2): 30 kB | 0.2/2.0 MB
+Progress (2): 30 kB | 0.2/2.0 MB
+Progress (2): 30 kB | 0.3/2.0 MB
+Progress (2): 30 kB | 0.3/2.0 MB
+Progress (2): 30 kB | 0.3/2.0 MB
+Progress (2): 30 kB | 0.3/2.0 MB
+Progress (2): 30 kB | 0.3/2.0 MB
+Progress (2): 30 kB | 0.3/2.0 MB
+Progress (2): 30 kB | 0.3/2.0 MB
+Progress (2): 30 kB | 0.3/2.0 MB
+Progress (2): 30 kB | 0.3/2.0 MB
+Progress (2): 30 kB | 0.3/2.0 MB
+Progress (2): 30 kB | 0.3/2.0 MB
+Progress (2): 30 kB | 0.3/2.0 MB
+Progress (2): 30 kB | 0.4/2.0 MB
+Progress (2): 30 kB | 0.4/2.0 MB
+Progress (2): 30 kB | 0.4/2.0 MB
+Progress (2): 30 kB | 0.4/2.0 MB
+Progress (2): 30 kB | 0.4/2.0 MB
+Progress (2): 30 kB | 0.4/2.0 MB
+Progress (2): 30 kB | 0.4/2.0 MB
+Progress (2): 30 kB | 0.4/2.0 MB
+Progress (2): 30 kB | 0.4/2.0 MB
+Progress (2): 30 kB | 0.4/2.0 MB
+Progress (2): 30 kB | 0.4/2.0 MB
+Progress (2): 30 kB | 0.4/2.0 MB
+Progress (2): 30 kB | 0.5/2.0 MB
+Progress (2): 30 kB | 0.5/2.0 MB
+Progress (2): 30 kB | 0.5/2.0 MB
+Progress (2): 30 kB | 0.5/2.0 MB
+Progress (2): 30 kB | 0.5/2.0 MB
+Progress (2): 30 kB | 0.5/2.0 MB
+Progress (2): 30 kB | 0.5/2.0 MB
+Progress (2): 30 kB | 0.5/2.0 MB
+Progress (2): 30 kB | 0.5/2.0 MB
+Progress (2): 30 kB | 0.5/2.0 MB
+Progress (2): 30 kB | 0.5/2.0 MB
+Progress (2): 30 kB | 0.5/2.0 MB
+Progress (2): 30 kB | 0.5/2.0 MB
+Progress (2): 30 kB | 0.6/2.0 MB
+Progress (2): 30 kB | 0.6/2.0 MB
+Progress (2): 30 kB | 0.6/2.0 MB
+Progress (2): 30 kB | 0.6/2.0 MB
+Progress (2): 30 kB | 0.6/2.0 MB
+Progress (2): 30 kB | 0.6/2.0 MB
+Progress (2): 30 kB | 0.6/2.0 MB
+Progress (2): 30 kB | 0.6/2.0 MB
+Progress (2): 30 kB | 0.6/2.0 MB
+Progress (2): 30 kB | 0.6/2.0 MB
+Progress (2): 30 kB | 0.6/2.0 MB
+Progress (2): 30 kB | 0.6/2.0 MB
+Progress (2): 30 kB | 0.7/2.0 MB
+Progress (2): 30 kB | 0.7/2.0 MB
+Progress (2): 30 kB | 0.7/2.0 MB
+Progress (2): 30 kB | 0.7/2.0 MB
+Progress (2): 30 kB | 0.7/2.0 MB
+Progress (2): 30 kB | 0.7/2.0 MB
+Progress (2): 30 kB | 0.7/2.0 MB
+Progress (2): 30 kB | 0.7/2.0 MB
+Progress (2): 30 kB | 0.7/2.0 MB
+Progress (2): 30 kB | 0.7/2.0 MB
+Progress (2): 30 kB | 0.7/2.0 MB
+Progress (2): 30 kB | 0.7/2.0 MB
+Progress (2): 30 kB | 0.8/2.0 MB
+Progress (2): 30 kB | 0.8/2.0 MB
+Progress (2): 30 kB | 0.8/2.0 MB
+Progress (2): 30 kB | 0.8/2.0 MB
+Progress (2): 30 kB | 0.8/2.0 MB
+Progress (2): 30 kB | 0.8/2.0 MB
+Progress (2): 30 kB | 0.8/2.0 MB
+Progress (2): 30 kB | 0.8/2.0 MB
+Progress (2): 30 kB | 0.8/2.0 MB
+Progress (2): 30 kB | 0.8/2.0 MB
+Progress (2): 30 kB | 0.8/2.0 MB
+Progress (2): 30 kB | 0.8/2.0 MB
+Progress (2): 30 kB | 0.9/2.0 MB
+Progress (2): 30 kB | 0.9/2.0 MB
+Progress (2): 30 kB | 0.9/2.0 MB
+Progress (2): 30 kB | 0.9/2.0 MB
+Progress (2): 30 kB | 0.9/2.0 MB
+Progress (2): 30 kB | 0.9/2.0 MB
+Progress (2): 30 kB | 0.9/2.0 MB
+Progress (2): 30 kB | 0.9/2.0 MB
+Progress (2): 30 kB | 0.9/2.0 MB
+Progress (2): 30 kB | 0.9/2.0 MB
+Progress (2): 30 kB | 0.9/2.0 MB
+Progress (2): 30 kB | 0.9/2.0 MB
+Progress (2): 30 kB | 1.0/2.0 MB
+Progress (2): 30 kB | 1.0/2.0 MB
+Progress (2): 30 kB | 1.0/2.0 MB
+Progress (2): 30 kB | 1.0/2.0 MB
+Progress (2): 30 kB | 1.0/2.0 MB
+Progress (2): 30 kB | 1.0/2.0 MB
+Progress (2): 30 kB | 1.0/2.0 MB
+Progress (2): 30 kB | 1.0/2.0 MB
+Progress (2): 30 kB | 1.0/2.0 MB
+Progress (2): 30 kB | 1.0/2.0 MB
+Progress (2): 30 kB | 1.0/2.0 MB
+Progress (2): 30 kB | 1.0/2.0 MB
+Progress (2): 30 kB | 1.1/2.0 MB
+Progress (2): 30 kB | 1.1/2.0 MB
+Progress (2): 30 kB | 1.1/2.0 MB
+Progress (2): 30 kB | 1.1/2.0 MB
+Progress (2): 30 kB | 1.1/2.0 MB
+Progress (2): 30 kB | 1.1/2.0 MB
+Progress (2): 30 kB | 1.1/2.0 MB
+Progress (2): 30 kB | 1.1/2.0 MB
+Progress (2): 30 kB | 1.1/2.0 MB
+Progress (2): 30 kB | 1.1/2.0 MB
+Progress (2): 30 kB | 1.1/2.0 MB
+Progress (2): 30 kB | 1.1/2.0 MB
+Progress (2): 30 kB | 1.2/2.0 MB
+Progress (2): 30 kB | 1.2/2.0 MB
+Progress (2): 30 kB | 1.2/2.0 MB
+Progress (2): 30 kB | 1.2/2.0 MB
+Progress (2): 30 kB | 1.2/2.0 MB
+Progress (2): 30 kB | 1.2/2.0 MB
+Progress (2): 30 kB | 1.2/2.0 MB
+Progress (2): 30 kB | 1.2/2.0 MB
+Progress (2): 30 kB | 1.2/2.0 MB
+Progress (2): 30 kB | 1.2/2.0 MB
+Progress (2): 30 kB | 1.2/2.0 MB
+Progress (2): 30 kB | 1.2/2.0 MB
+Progress (2): 30 kB | 1.3/2.0 MB
+Progress (2): 30 kB | 1.3/2.0 MB
+Progress (2): 30 kB | 1.3/2.0 MB
+Progress (2): 30 kB | 1.3/2.0 MB
+Progress (2): 30 kB | 1.3/2.0 MB
+Progress (2): 30 kB | 1.3/2.0 MB
+Progress (2): 30 kB | 1.3/2.0 MB
+Progress (2): 30 kB | 1.3/2.0 MB
+Progress (2): 30 kB | 1.3/2.0 MB
+Progress (2): 30 kB | 1.3/2.0 MB
+Progress (2): 30 kB | 1.3/2.0 MB
+Progress (2): 30 kB | 1.3/2.0 MB
+Progress (2): 30 kB | 1.4/2.0 MB
+Progress (2): 30 kB | 1.4/2.0 MB
+Progress (2): 30 kB | 1.4/2.0 MB
+Progress (2): 30 kB | 1.4/2.0 MB
+Progress (2): 30 kB | 1.4/2.0 MB
+Progress (2): 30 kB | 1.4/2.0 MB
+Progress (2): 30 kB | 1.4/2.0 MB
+Progress (2): 30 kB | 1.4/2.0 MB
+Progress (2): 30 kB | 1.4/2.0 MB
+Progress (2): 30 kB | 1.4/2.0 MB
+Progress (2): 30 kB | 1.4/2.0 MB
+Progress (2): 30 kB | 1.4/2.0 MB
+Progress (2): 30 kB | 1.5/2.0 MB
+Progress (2): 30 kB | 1.5/2.0 MB
+Progress (2): 30 kB | 1.5/2.0 MB
+Progress (2): 30 kB | 1.5/2.0 MB
+Progress (2): 30 kB | 1.5/2.0 MB
+Progress (2): 30 kB | 1.5/2.0 MB
+Progress (2): 30 kB | 1.5/2.0 MB
+Progress (2): 30 kB | 1.5/2.0 MB
+Progress (2): 30 kB | 1.5/2.0 MB
+Progress (2): 30 kB | 1.5/2.0 MB
+Progress (2): 30 kB | 1.5/2.0 MB
+Progress (2): 30 kB | 1.5/2.0 MB
+Progress (2): 30 kB | 1.5/2.0 MB
+                                
+Downloaded from central: https://repo.maven.apache.org/maven2/com/github/cp-profiler/cpprof-java/1.3.0/cpprof-java-1.3.0.jar (30 kB at 157 kB/s)
+Progress (1): 1.6/2.0 MB
+Progress (1): 1.6/2.0 MB
+Progress (1): 1.6/2.0 MB
+Progress (1): 1.6/2.0 MB
+Progress (1): 1.6/2.0 MB
+Progress (1): 1.6/2.0 MB
+Progress (1): 1.6/2.0 MB
+Progress (1): 1.6/2.0 MB
+Progress (1): 1.6/2.0 MB
+Progress (1): 1.6/2.0 MB
+Progress (1): 1.6/2.0 MB
+Progress (1): 1.6/2.0 MB
+Progress (1): 1.7/2.0 MB
+Progress (1): 1.7/2.0 MB
+Progress (1): 1.7/2.0 MB
+Progress (1): 1.7/2.0 MB
+Progress (1): 1.7/2.0 MB
+Progress (1): 1.7/2.0 MB
+Progress (1): 1.7/2.0 MB
+Progress (1): 1.7/2.0 MB
+Progress (1): 1.7/2.0 MB
+Progress (1): 1.7/2.0 MB
+Progress (1): 1.7/2.0 MB
+Progress (1): 1.7/2.0 MB
+Progress (1): 1.8/2.0 MB
+Progress (1): 1.8/2.0 MB
+Progress (1): 1.8/2.0 MB
+Progress (1): 1.8/2.0 MB
+Progress (1): 1.8/2.0 MB
+Progress (1): 1.8/2.0 MB
+Progress (1): 1.8/2.0 MB
+Progress (1): 1.8/2.0 MB
+Progress (1): 1.8/2.0 MB
+Progress (1): 1.8/2.0 MB
+Progress (1): 1.8/2.0 MB
+Progress (1): 1.8/2.0 MB
+Progress (1): 1.9/2.0 MB
+Progress (1): 1.9/2.0 MB
+Progress (1): 1.9/2.0 MB
+Progress (1): 1.9/2.0 MB
+Progress (1): 1.9/2.0 MB
+Progress (1): 1.9/2.0 MB
+Progress (1): 1.9/2.0 MB
+Progress (1): 1.9/2.0 MB
+Progress (1): 1.9/2.0 MB
+Progress (1): 1.9/2.0 MB
+Progress (1): 1.9/2.0 MB
+Progress (1): 1.9/2.0 MB
+Progress (1): 2.0/2.0 MB
+Progress (1): 2.0 MB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/choco-solver/choco-solver/4.10.8/choco-solver-4.10.8.jar (2.0 MB at 6.3 MB/s)
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ scheduler-choco ---
+[WARNING] Failure to transfer org.btrplace:scheduler-api:1.12.9-SNAPSHOT/maven-metadata.xml from https://oss.sonatype.org/service/local/staging/deploy/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of sonatype has elapsed or updates are forced. Original error: Could not transfer metadata org.btrplace:scheduler-api:1.12.9-SNAPSHOT/maven-metadata.xml from/to sonatype (https://oss.sonatype.org/service/local/staging/deploy/maven2): Authentication failed for https://oss.sonatype.org/service/local/staging/deploy/maven2/org/btrplace/scheduler-api/1.12.9-SNAPSHOT/maven-metadata.xml 401 Unauthorized
+[WARNING] Failure to transfer org.btrplace:scheduler-json:1.12.9-SNAPSHOT/maven-metadata.xml from https://oss.sonatype.org/service/local/staging/deploy/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of sonatype has elapsed or updates are forced. Original error: Could not transfer metadata org.btrplace:scheduler-json:1.12.9-SNAPSHOT/maven-metadata.xml from/to sonatype (https://oss.sonatype.org/service/local/staging/deploy/maven2): Authentication failed for https://oss.sonatype.org/service/local/staging/deploy/maven2/org/btrplace/scheduler-json/1.12.9-SNAPSHOT/maven-metadata.xml 401 Unauthorized
+[INFO] org.btrplace:scheduler-choco:jar:1.12.9-SNAPSHOT
+[INFO] +- org.btrplace:scheduler-api:jar:1.12.9-SNAPSHOT:compile
+[INFO] +- net.sf.trove4j:trove4j:jar:3.0.3:compile
+[INFO] +- org.choco-solver:choco-solver:jar:4.10.8:compile
+[INFO] |  +- dk.brics.automaton:automaton:jar:1.11-8:compile
+[INFO] |  +- org.jgrapht:jgrapht-core:jar:1.4.0:compile
+[INFO] |  |  \- org.jheaps:jheaps:jar:0.11:compile
+[INFO] |  +- com.github.cp-profiler:cpprof-java:jar:1.3.0:compile
+[INFO] |  |  \- com.google.protobuf:protobuf-java:jar:2.6.1:compile
+[INFO] |  \- org.knowm.xchart:xchart:jar:3.8.1:compile
+[INFO] |     +- de.erichseifert.vectorgraphics2d:VectorGraphics2D:jar:0.13:compile
+[INFO] |     +- de.rototor.pdfbox:graphics2d:jar:0.32:compile
+[INFO] |     |  \- org.apache.pdfbox:pdfbox:jar:2.0.24:compile
+[INFO] |     |     +- org.apache.pdfbox:fontbox:jar:2.0.24:compile
+[INFO] |     |     \- commons-logging:commons-logging:jar:1.2:compile
+[INFO] |     \- com.madgag:animated-gif-lib:jar:1.4:compile
+[INFO] +- org.btrplace:scheduler-json:jar:1.12.9-SNAPSHOT:test
+[INFO] |  \- net.minidev:json-smart:jar:2.4.8:test
+[INFO] |     \- net.minidev:accessors-smart:jar:2.4.8:test
+[INFO] |        \- org.ow2.asm:asm:jar:9.1:test
+[INFO] +- org.testng:testng:jar:7.5:test
+[INFO] |  +- com.google.code.findbugs:jsr305:jar:3.0.1:test
+[INFO] |  +- com.beust:jcommander:jar:1.78:test
+[INFO] |  \- org.webjars:jquery:jar:3.5.1:test
+[INFO] +- org.slf4j:slf4j-api:jar:2.0.6:compile
+[INFO] +- org.mockito:mockito-core:jar:4.9.0:test
+[INFO] |  +- net.bytebuddy:byte-buddy:jar:1.12.16:test
+[INFO] |  +- net.bytebuddy:byte-buddy-agent:jar:1.12.16:test
+[INFO] |  \- org.objenesis:objenesis:jar:3.3:test
+[INFO] +- org.openjdk.jmh:jmh-core:jar:1.36:test
+[INFO] |  +- net.sf.jopt-simple:jopt-simple:jar:5.0.4:test
+[INFO] |  \- org.apache.commons:commons-math3:jar:3.2:test
+[INFO] \- org.openjdk.jmh:jmh-generator-annprocess:jar:1.36:test
+[INFO] 
+[INFO] ------------------< org.btrplace:scheduler-examples >-------------------
+[INFO] Building scheduler-examples 1.12.9-SNAPSHOT                        [5/9]
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from sonatype: https://oss.sonatype.org/service/local/staging/deploy/maven2/org/btrplace/scheduler-choco/1.12.9-SNAPSHOT/maven-metadata.xml
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/org/btrplace/scheduler-choco/1.12.9-SNAPSHOT/maven-metadata.xml
+Progress (1): 2.0 kB
+                    
+Downloaded from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/org/btrplace/scheduler-choco/1.12.9-SNAPSHOT/maven-metadata.xml (2.0 kB at 7.3 kB/s)
+[WARNING] Could not transfer metadata org.btrplace:scheduler-choco:1.12.9-SNAPSHOT/maven-metadata.xml from/to sonatype (https://oss.sonatype.org/service/local/staging/deploy/maven2): Authentication failed for https://oss.sonatype.org/service/local/staging/deploy/maven2/org/btrplace/scheduler-choco/1.12.9-SNAPSHOT/maven-metadata.xml 401 Unauthorized
+[WARNING] Failure to transfer org.btrplace:scheduler-api:1.12.9-SNAPSHOT/maven-metadata.xml from https://oss.sonatype.org/service/local/staging/deploy/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of sonatype has elapsed or updates are forced. Original error: Could not transfer metadata org.btrplace:scheduler-api:1.12.9-SNAPSHOT/maven-metadata.xml from/to sonatype (https://oss.sonatype.org/service/local/staging/deploy/maven2): Authentication failed for https://oss.sonatype.org/service/local/staging/deploy/maven2/org/btrplace/scheduler-api/1.12.9-SNAPSHOT/maven-metadata.xml 401 Unauthorized
+[WARNING] Failure to transfer org.btrplace:scheduler-choco:1.12.9-SNAPSHOT/maven-metadata.xml from https://oss.sonatype.org/service/local/staging/deploy/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of sonatype has elapsed or updates are forced. Original error: Could not transfer metadata org.btrplace:scheduler-choco:1.12.9-SNAPSHOT/maven-metadata.xml from/to sonatype (https://oss.sonatype.org/service/local/staging/deploy/maven2): Authentication failed for https://oss.sonatype.org/service/local/staging/deploy/maven2/org/btrplace/scheduler-choco/1.12.9-SNAPSHOT/maven-metadata.xml 401 Unauthorized
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/org/btrplace/scheduler-choco/1.12.9-SNAPSHOT/scheduler-choco-1.12.9-20230918.054149-186.jar
+Progress (1): 4.1/287 kB
+Progress (1): 7.8/287 kB
+Progress (1): 12/287 kB 
+Progress (1): 16/287 kB
+Progress (1): 20/287 kB
+Progress (1): 24/287 kB
+Progress (1): 28/287 kB
+Progress (1): 32/287 kB
+Progress (1): 37/287 kB
+Progress (1): 41/287 kB
+Progress (1): 45/287 kB
+Progress (1): 49/287 kB
+Progress (1): 53/287 kB
+Progress (1): 57/287 kB
+Progress (1): 61/287 kB
+Progress (1): 65/287 kB
+Progress (1): 69/287 kB
+Progress (1): 73/287 kB
+Progress (1): 77/287 kB
+Progress (1): 82/287 kB
+Progress (1): 86/287 kB
+Progress (1): 90/287 kB
+Progress (1): 94/287 kB
+Progress (1): 98/287 kB
+Progress (1): 102/287 kB
+Progress (1): 106/287 kB
+Progress (1): 110/287 kB
+Progress (1): 114/287 kB
+Progress (1): 118/287 kB
+Progress (1): 123/287 kB
+Progress (1): 127/287 kB
+Progress (1): 131/287 kB
+Progress (1): 135/287 kB
+Progress (1): 139/287 kB
+Progress (1): 143/287 kB
+Progress (1): 147/287 kB
+Progress (1): 151/287 kB
+Progress (1): 155/287 kB
+Progress (1): 159/287 kB
+Progress (1): 163/287 kB
+Progress (1): 168/287 kB
+Progress (1): 172/287 kB
+Progress (1): 176/287 kB
+Progress (1): 180/287 kB
+Progress (1): 184/287 kB
+Progress (1): 188/287 kB
+Progress (1): 192/287 kB
+Progress (1): 196/287 kB
+Progress (1): 200/287 kB
+Progress (1): 204/287 kB
+Progress (1): 209/287 kB
+Progress (1): 213/287 kB
+Progress (1): 217/287 kB
+Progress (1): 221/287 kB
+Progress (1): 225/287 kB
+Progress (1): 229/287 kB
+Progress (1): 233/287 kB
+Progress (1): 237/287 kB
+Progress (1): 241/287 kB
+Progress (1): 245/287 kB
+Progress (1): 249/287 kB
+Progress (1): 254/287 kB
+Progress (1): 258/287 kB
+Progress (1): 262/287 kB
+Progress (1): 266/287 kB
+Progress (1): 270/287 kB
+Progress (1): 274/287 kB
+Progress (1): 278/287 kB
+Progress (1): 282/287 kB
+Progress (1): 286/287 kB
+Progress (1): 287 kB    
+                    
+Downloaded from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/org/btrplace/scheduler-choco/1.12.9-SNAPSHOT/scheduler-choco-1.12.9-20230918.054149-186.jar (287 kB at 369 kB/s)
+Downloading from sonatype: https://oss.sonatype.org/service/local/staging/deploy/maven2/ch/qos/logback/logback-classic/1.4.5/logback-classic-1.4.5.jar
+Downloading from sonatype: https://oss.sonatype.org/service/local/staging/deploy/maven2/ch/qos/logback/logback-core/1.4.5/logback-core-1.4.5.jar
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/ch/qos/logback/logback-classic/1.4.5/logback-classic-1.4.5.jar
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/ch/qos/logback/logback-core/1.4.5/logback-core-1.4.5.jar
+Downloading from central: https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/1.4.5/logback-classic-1.4.5.jar
+Downloading from central: https://repo.maven.apache.org/maven2/ch/qos/logback/logback-core/1.4.5/logback-core-1.4.5.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/ch/qos/logback/logback-core/1.4.5/logback-core-1.4.5.jar (0 B at 0 B/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/1.4.5/logback-classic-1.4.5.jar (0 B at 0 B/s)
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ scheduler-examples ---
+[WARNING] Failure to transfer org.btrplace:scheduler-api:1.12.9-SNAPSHOT/maven-metadata.xml from https://oss.sonatype.org/service/local/staging/deploy/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of sonatype has elapsed or updates are forced. Original error: Could not transfer metadata org.btrplace:scheduler-api:1.12.9-SNAPSHOT/maven-metadata.xml from/to sonatype (https://oss.sonatype.org/service/local/staging/deploy/maven2): Authentication failed for https://oss.sonatype.org/service/local/staging/deploy/maven2/org/btrplace/scheduler-api/1.12.9-SNAPSHOT/maven-metadata.xml 401 Unauthorized
+[WARNING] Failure to transfer org.btrplace:scheduler-choco:1.12.9-SNAPSHOT/maven-metadata.xml from https://oss.sonatype.org/service/local/staging/deploy/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of sonatype has elapsed or updates are forced. Original error: Could not transfer metadata org.btrplace:scheduler-choco:1.12.9-SNAPSHOT/maven-metadata.xml from/to sonatype (https://oss.sonatype.org/service/local/staging/deploy/maven2): Authentication failed for https://oss.sonatype.org/service/local/staging/deploy/maven2/org/btrplace/scheduler-choco/1.12.9-SNAPSHOT/maven-metadata.xml 401 Unauthorized
+[INFO] org.btrplace:scheduler-examples:jar:1.12.9-SNAPSHOT
+[INFO] +- org.btrplace:scheduler-api:jar:1.12.9-SNAPSHOT:compile
+[INFO] |  \- net.sf.trove4j:trove4j:jar:3.0.3:compile
+[INFO] +- org.btrplace:scheduler-choco:jar:1.12.9-SNAPSHOT:compile
+[INFO] |  \- org.choco-solver:choco-solver:jar:4.10.8:compile
+[INFO] |     +- dk.brics.automaton:automaton:jar:1.11-8:compile
+[INFO] |     +- org.jgrapht:jgrapht-core:jar:1.4.0:compile
+[INFO] |     |  \- org.jheaps:jheaps:jar:0.11:compile
+[INFO] |     +- com.github.cp-profiler:cpprof-java:jar:1.3.0:compile
+[INFO] |     |  \- com.google.protobuf:protobuf-java:jar:2.6.1:compile
+[INFO] |     \- org.knowm.xchart:xchart:jar:3.8.1:compile
+[INFO] |        +- de.erichseifert.vectorgraphics2d:VectorGraphics2D:jar:0.13:compile
+[INFO] |        +- de.rototor.pdfbox:graphics2d:jar:0.32:compile
+[INFO] |        |  \- org.apache.pdfbox:pdfbox:jar:2.0.24:compile
+[INFO] |        |     +- org.apache.pdfbox:fontbox:jar:2.0.24:compile
+[INFO] |        |     \- commons-logging:commons-logging:jar:1.2:compile
+[INFO] |        \- com.madgag:animated-gif-lib:jar:1.4:compile
+[INFO] +- ch.qos.logback:logback-classic:jar:1.4.5:compile
+[INFO] |  \- ch.qos.logback:logback-core:jar:1.4.5:compile
+[INFO] +- org.testng:testng:jar:7.5:test
+[INFO] |  +- com.google.code.findbugs:jsr305:jar:3.0.1:test
+[INFO] |  +- com.beust:jcommander:jar:1.78:test
+[INFO] |  \- org.webjars:jquery:jar:3.5.1:test
+[INFO] +- org.slf4j:slf4j-api:jar:2.0.6:compile
+[INFO] +- org.mockito:mockito-core:jar:4.9.0:test
+[INFO] |  +- net.bytebuddy:byte-buddy:jar:1.12.16:test
+[INFO] |  +- net.bytebuddy:byte-buddy-agent:jar:1.12.16:test
+[INFO] |  \- org.objenesis:objenesis:jar:3.3:test
+[INFO] +- org.openjdk.jmh:jmh-core:jar:1.36:test
+[INFO] |  +- net.sf.jopt-simple:jopt-simple:jar:5.0.4:test
+[INFO] |  \- org.apache.commons:commons-math3:jar:3.2:test
+[INFO] \- org.openjdk.jmh:jmh-generator-annprocess:jar:1.36:test
+[INFO] 
+[INFO] ------------------------< org.btrplace:btrpsl >-------------------------
+[INFO] Building btrpsl 1.12.9-SNAPSHOT                                    [6/9]
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from central: https://repo.maven.apache.org/maven2/org/antlr/antlr3-maven-plugin/3.5.3/antlr3-maven-plugin-3.5.3.pom
+Progress (1): 4.1/10.0 kB
+Progress (1): 8.2/10.0 kB
+Progress (1): 10.0 kB    
+                     
+Downloaded from central: https://repo.maven.apache.org/maven2/org/antlr/antlr3-maven-plugin/3.5.3/antlr3-maven-plugin-3.5.3.pom (10.0 kB at 1.1 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/antlr/antlr3-maven-plugin/3.5.3/antlr3-maven-plugin-3.5.3.jar
+Progress (1): 4.1/16 kB
+Progress (1): 8.2/16 kB
+Progress (1): 12/16 kB 
+Progress (1): 16/16 kB
+Progress (1): 16 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/antlr/antlr3-maven-plugin/3.5.3/antlr3-maven-plugin-3.5.3.jar (16 kB at 1.3 MB/s)
+Downloading from sonatype: https://oss.sonatype.org/service/local/staging/deploy/maven2/org/antlr/antlr/3.5.3/antlr-3.5.3.pom
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/org/antlr/antlr/3.5.3/antlr-3.5.3.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/antlr/antlr/3.5.3/antlr-3.5.3.pom
+Progress (1): 2.5 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/antlr/antlr/3.5.3/antlr-3.5.3.pom (2.5 kB at 225 kB/s)
+Downloading from sonatype: https://oss.sonatype.org/service/local/staging/deploy/maven2/org/antlr/ST4/4.3.1/ST4-4.3.1.pom
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/org/antlr/ST4/4.3.1/ST4-4.3.1.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/antlr/ST4/4.3.1/ST4-4.3.1.pom
+Progress (1): 4.1/4.9 kB
+Progress (1): 4.9 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/antlr/ST4/4.3.1/ST4-4.3.1.pom (4.9 kB at 353 kB/s)
+[WARNING] Failure to transfer org.btrplace:scheduler-api:1.12.9-SNAPSHOT/maven-metadata.xml from https://oss.sonatype.org/service/local/staging/deploy/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of sonatype has elapsed or updates are forced. Original error: Could not transfer metadata org.btrplace:scheduler-api:1.12.9-SNAPSHOT/maven-metadata.xml from/to sonatype (https://oss.sonatype.org/service/local/staging/deploy/maven2): Authentication failed for https://oss.sonatype.org/service/local/staging/deploy/maven2/org/btrplace/scheduler-api/1.12.9-SNAPSHOT/maven-metadata.xml 401 Unauthorized
+[WARNING] Failure to transfer org.btrplace:scheduler-json:1.12.9-SNAPSHOT/maven-metadata.xml from https://oss.sonatype.org/service/local/staging/deploy/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of sonatype has elapsed or updates are forced. Original error: Could not transfer metadata org.btrplace:scheduler-json:1.12.9-SNAPSHOT/maven-metadata.xml from/to sonatype (https://oss.sonatype.org/service/local/staging/deploy/maven2): Authentication failed for https://oss.sonatype.org/service/local/staging/deploy/maven2/org/btrplace/scheduler-json/1.12.9-SNAPSHOT/maven-metadata.xml 401 Unauthorized
+[WARNING] Failure to transfer org.btrplace:scheduler-choco:1.12.9-SNAPSHOT/maven-metadata.xml from https://oss.sonatype.org/service/local/staging/deploy/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of sonatype has elapsed or updates are forced. Original error: Could not transfer metadata org.btrplace:scheduler-choco:1.12.9-SNAPSHOT/maven-metadata.xml from/to sonatype (https://oss.sonatype.org/service/local/staging/deploy/maven2): Authentication failed for https://oss.sonatype.org/service/local/staging/deploy/maven2/org/btrplace/scheduler-choco/1.12.9-SNAPSHOT/maven-metadata.xml 401 Unauthorized
+Downloading from sonatype: https://oss.sonatype.org/service/local/staging/deploy/maven2/org/antlr/antlr/3.5.3/antlr-3.5.3.jar
+Downloading from sonatype: https://oss.sonatype.org/service/local/staging/deploy/maven2/org/antlr/ST4/4.3.1/ST4-4.3.1.jar
+Downloading from sonatype: https://oss.sonatype.org/service/local/staging/deploy/maven2/org/reflections/reflections/0.10.2/reflections-0.10.2.jar
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/org/antlr/antlr/3.5.3/antlr-3.5.3.jar
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/org/antlr/ST4/4.3.1/ST4-4.3.1.jar
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/org/reflections/reflections/0.10.2/reflections-0.10.2.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/antlr/antlr/3.5.3/antlr-3.5.3.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/antlr/ST4/4.3.1/ST4-4.3.1.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/reflections/reflections/0.10.2/reflections-0.10.2.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/reflections/reflections/0.10.2/reflections-0.10.2.jar (0 B at 0 B/s)
+Progress (1): 4.1/251 kB
+Progress (1): 8.2/251 kB
+Progress (1): 12/251 kB 
+Progress (1): 16/251 kB
+Progress (1): 20/251 kB
+Progress (1): 25/251 kB
+Progress (1): 29/251 kB
+Progress (1): 33/251 kB
+Progress (1): 37/251 kB
+Progress (1): 41/251 kB
+Progress (1): 45/251 kB
+Progress (1): 49/251 kB
+Progress (1): 53/251 kB
+Progress (1): 57/251 kB
+Progress (1): 61/251 kB
+Progress (1): 66/251 kB
+Progress (1): 70/251 kB
+Progress (1): 74/251 kB
+Progress (1): 78/251 kB
+Progress (1): 82/251 kB
+Progress (1): 86/251 kB
+Progress (1): 90/251 kB
+Progress (1): 94/251 kB
+Progress (1): 98/251 kB
+Progress (1): 102/251 kB
+Progress (1): 106/251 kB
+Progress (1): 111/251 kB
+Progress (1): 115/251 kB
+Progress (1): 119/251 kB
+Progress (1): 123/251 kB
+Progress (1): 127/251 kB
+Progress (1): 131/251 kB
+Progress (1): 135/251 kB
+Progress (1): 139/251 kB
+Progress (1): 143/251 kB
+Progress (1): 147/251 kB
+Progress (1): 152/251 kB
+Progress (1): 156/251 kB
+Progress (1): 160/251 kB
+Progress (1): 164/251 kB
+Progress (1): 168/251 kB
+Progress (1): 172/251 kB
+Progress (1): 176/251 kB
+Progress (1): 180/251 kB
+Progress (1): 184/251 kB
+Progress (1): 188/251 kB
+Progress (1): 193/251 kB
+Progress (1): 197/251 kB
+Progress (1): 201/251 kB
+Progress (1): 205/251 kB
+Progress (1): 209/251 kB
+Progress (1): 213/251 kB
+Progress (1): 217/251 kB
+Progress (1): 221/251 kB
+Progress (1): 225/251 kB
+Progress (1): 229/251 kB
+Progress (1): 233/251 kB
+Progress (1): 238/251 kB
+Progress (1): 242/251 kB
+Progress (1): 246/251 kB
+Progress (1): 250/251 kB
+Progress (1): 251 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/antlr/ST4/4.3.1/ST4-4.3.1.jar (251 kB at 8.4 MB/s)
+Progress (1): 0/1.2 MB
+Progress (1): 0/1.2 MB
+Progress (1): 0/1.2 MB
+Progress (1): 0/1.2 MB
+Progress (1): 0/1.2 MB
+Progress (1): 0/1.2 MB
+Progress (1): 0.1/1.2 MB
+Progress (1): 0.1/1.2 MB
+Progress (1): 0.1/1.2 MB
+Progress (1): 0.1/1.2 MB
+Progress (1): 0.1/1.2 MB
+Progress (1): 0.1/1.2 MB
+Progress (1): 0.1/1.2 MB
+Progress (1): 0.1/1.2 MB
+Progress (1): 0.1/1.2 MB
+Progress (1): 0.1/1.2 MB
+Progress (1): 0.1/1.2 MB
+Progress (1): 0.1/1.2 MB
+Progress (1): 0.2/1.2 MB
+Progress (1): 0.2/1.2 MB
+Progress (1): 0.2/1.2 MB
+Progress (1): 0.2/1.2 MB
+Progress (1): 0.2/1.2 MB
+Progress (1): 0.2/1.2 MB
+Progress (1): 0.2/1.2 MB
+Progress (1): 0.2/1.2 MB
+Progress (1): 0.2/1.2 MB
+Progress (1): 0.2/1.2 MB
+Progress (1): 0.2/1.2 MB
+Progress (1): 0.2/1.2 MB
+Progress (1): 0.3/1.2 MB
+Progress (1): 0.3/1.2 MB
+Progress (1): 0.3/1.2 MB
+Progress (1): 0.3/1.2 MB
+Progress (1): 0.3/1.2 MB
+Progress (1): 0.3/1.2 MB
+Progress (1): 0.3/1.2 MB
+Progress (1): 0.3/1.2 MB
+Progress (1): 0.3/1.2 MB
+Progress (1): 0.3/1.2 MB
+Progress (1): 0.3/1.2 MB
+Progress (1): 0.3/1.2 MB
+Progress (1): 0.4/1.2 MB
+Progress (1): 0.4/1.2 MB
+Progress (1): 0.4/1.2 MB
+Progress (1): 0.4/1.2 MB
+Progress (1): 0.4/1.2 MB
+Progress (1): 0.4/1.2 MB
+Progress (1): 0.4/1.2 MB
+Progress (1): 0.4/1.2 MB
+Progress (1): 0.4/1.2 MB
+Progress (1): 0.4/1.2 MB
+Progress (1): 0.4/1.2 MB
+Progress (1): 0.4/1.2 MB
+Progress (1): 0.4/1.2 MB
+Progress (1): 0.5/1.2 MB
+Progress (1): 0.5/1.2 MB
+Progress (1): 0.5/1.2 MB
+Progress (1): 0.5/1.2 MB
+Progress (1): 0.5/1.2 MB
+Progress (1): 0.5/1.2 MB
+Progress (1): 0.5/1.2 MB
+Progress (1): 0.5/1.2 MB
+Progress (1): 0.5/1.2 MB
+Progress (1): 0.5/1.2 MB
+Progress (1): 0.5/1.2 MB
+Progress (1): 0.5/1.2 MB
+Progress (1): 0.6/1.2 MB
+Progress (1): 0.6/1.2 MB
+Progress (1): 0.6/1.2 MB
+Progress (1): 0.6/1.2 MB
+Progress (1): 0.6/1.2 MB
+Progress (1): 0.6/1.2 MB
+Progress (1): 0.6/1.2 MB
+Progress (1): 0.6/1.2 MB
+Progress (1): 0.6/1.2 MB
+Progress (1): 0.6/1.2 MB
+Progress (1): 0.6/1.2 MB
+Progress (1): 0.6/1.2 MB
+Progress (1): 0.7/1.2 MB
+Progress (1): 0.7/1.2 MB
+Progress (1): 0.7/1.2 MB
+Progress (1): 0.7/1.2 MB
+Progress (1): 0.7/1.2 MB
+Progress (1): 0.7/1.2 MB
+Progress (1): 0.7/1.2 MB
+Progress (1): 0.7/1.2 MB
+Progress (1): 0.7/1.2 MB
+Progress (1): 0.7/1.2 MB
+Progress (1): 0.7/1.2 MB
+Progress (1): 0.7/1.2 MB
+Progress (1): 0.8/1.2 MB
+Progress (1): 0.8/1.2 MB
+Progress (1): 0.8/1.2 MB
+Progress (1): 0.8/1.2 MB
+Progress (1): 0.8/1.2 MB
+Progress (1): 0.8/1.2 MB
+Progress (1): 0.8/1.2 MB
+Progress (1): 0.8/1.2 MB
+Progress (1): 0.8/1.2 MB
+Progress (1): 0.8/1.2 MB
+Progress (1): 0.8/1.2 MB
+Progress (1): 0.8/1.2 MB
+Progress (1): 0.9/1.2 MB
+Progress (1): 0.9/1.2 MB
+Progress (1): 0.9/1.2 MB
+Progress (1): 0.9/1.2 MB
+Progress (1): 0.9/1.2 MB
+Progress (1): 0.9/1.2 MB
+Progress (1): 0.9/1.2 MB
+Progress (1): 0.9/1.2 MB
+Progress (1): 0.9/1.2 MB
+Progress (1): 0.9/1.2 MB
+Progress (1): 0.9/1.2 MB
+Progress (1): 0.9/1.2 MB
+Progress (1): 0.9/1.2 MB
+Progress (1): 1.0/1.2 MB
+Progress (1): 1.0/1.2 MB
+Progress (1): 1.0/1.2 MB
+Progress (1): 1.0/1.2 MB
+Progress (1): 1.0/1.2 MB
+Progress (1): 1.0/1.2 MB
+Progress (1): 1.0/1.2 MB
+Progress (1): 1.0/1.2 MB
+Progress (1): 1.0/1.2 MB
+Progress (1): 1.0/1.2 MB
+Progress (1): 1.0/1.2 MB
+Progress (1): 1.0/1.2 MB
+Progress (1): 1.1/1.2 MB
+Progress (1): 1.1/1.2 MB
+Progress (1): 1.1/1.2 MB
+Progress (1): 1.1/1.2 MB
+Progress (1): 1.1/1.2 MB
+Progress (1): 1.1/1.2 MB
+Progress (1): 1.1/1.2 MB
+Progress (1): 1.1/1.2 MB
+Progress (1): 1.1/1.2 MB
+Progress (1): 1.1/1.2 MB
+Progress (1): 1.1/1.2 MB
+Progress (1): 1.1/1.2 MB
+Progress (1): 1.2/1.2 MB
+Progress (1): 1.2/1.2 MB
+Progress (1): 1.2/1.2 MB
+Progress (1): 1.2/1.2 MB
+Progress (1): 1.2/1.2 MB
+Progress (1): 1.2 MB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/antlr/antlr/3.5.3/antlr-3.5.3.jar (1.2 MB at 7.9 MB/s)
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ btrpsl ---
+[WARNING] Failure to transfer org.btrplace:scheduler-api:1.12.9-SNAPSHOT/maven-metadata.xml from https://oss.sonatype.org/service/local/staging/deploy/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of sonatype has elapsed or updates are forced. Original error: Could not transfer metadata org.btrplace:scheduler-api:1.12.9-SNAPSHOT/maven-metadata.xml from/to sonatype (https://oss.sonatype.org/service/local/staging/deploy/maven2): Authentication failed for https://oss.sonatype.org/service/local/staging/deploy/maven2/org/btrplace/scheduler-api/1.12.9-SNAPSHOT/maven-metadata.xml 401 Unauthorized
+[WARNING] Failure to transfer org.btrplace:scheduler-json:1.12.9-SNAPSHOT/maven-metadata.xml from https://oss.sonatype.org/service/local/staging/deploy/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of sonatype has elapsed or updates are forced. Original error: Could not transfer metadata org.btrplace:scheduler-json:1.12.9-SNAPSHOT/maven-metadata.xml from/to sonatype (https://oss.sonatype.org/service/local/staging/deploy/maven2): Authentication failed for https://oss.sonatype.org/service/local/staging/deploy/maven2/org/btrplace/scheduler-json/1.12.9-SNAPSHOT/maven-metadata.xml 401 Unauthorized
+[WARNING] Failure to transfer org.btrplace:scheduler-choco:1.12.9-SNAPSHOT/maven-metadata.xml from https://oss.sonatype.org/service/local/staging/deploy/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of sonatype has elapsed or updates are forced. Original error: Could not transfer metadata org.btrplace:scheduler-choco:1.12.9-SNAPSHOT/maven-metadata.xml from/to sonatype (https://oss.sonatype.org/service/local/staging/deploy/maven2): Authentication failed for https://oss.sonatype.org/service/local/staging/deploy/maven2/org/btrplace/scheduler-choco/1.12.9-SNAPSHOT/maven-metadata.xml 401 Unauthorized
+[INFO] org.btrplace:btrpsl:jar:1.12.9-SNAPSHOT
+[INFO] +- org.btrplace:scheduler-api:jar:1.12.9-SNAPSHOT:compile
+[INFO] |  \- net.sf.trove4j:trove4j:jar:3.0.3:compile
+[INFO] +- org.btrplace:scheduler-json:jar:1.12.9-SNAPSHOT:compile
+[INFO] |  \- net.minidev:json-smart:jar:2.4.8:compile
+[INFO] |     \- net.minidev:accessors-smart:jar:2.4.8:compile
+[INFO] |        \- org.ow2.asm:asm:jar:9.1:compile
+[INFO] +- org.antlr:antlr:jar:3.5.3:compile
+[INFO] |  +- org.antlr:antlr-runtime:jar:3.5.3:compile
+[INFO] |  \- org.antlr:ST4:jar:4.3.1:compile
+[INFO] +- org.reflections:reflections:jar:0.10.2:test
+[INFO] |  +- org.javassist:javassist:jar:3.28.0-GA:test
+[INFO] |  \- com.google.code.findbugs:jsr305:jar:3.0.2:test
+[INFO] +- org.btrplace:scheduler-choco:jar:1.12.9-SNAPSHOT:test
+[INFO] |  \- org.choco-solver:choco-solver:jar:4.10.8:test
+[INFO] |     +- dk.brics.automaton:automaton:jar:1.11-8:test
+[INFO] |     +- org.jgrapht:jgrapht-core:jar:1.4.0:test
+[INFO] |     |  \- org.jheaps:jheaps:jar:0.11:test
+[INFO] |     +- com.github.cp-profiler:cpprof-java:jar:1.3.0:test
+[INFO] |     |  \- com.google.protobuf:protobuf-java:jar:2.6.1:test
+[INFO] |     \- org.knowm.xchart:xchart:jar:3.8.1:test
+[INFO] |        +- de.erichseifert.vectorgraphics2d:VectorGraphics2D:jar:0.13:test
+[INFO] |        +- de.rototor.pdfbox:graphics2d:jar:0.32:test
+[INFO] |        |  \- org.apache.pdfbox:pdfbox:jar:2.0.24:test
+[INFO] |        |     +- org.apache.pdfbox:fontbox:jar:2.0.24:test
+[INFO] |        |     \- commons-logging:commons-logging:jar:1.2:test
+[INFO] |        \- com.madgag:animated-gif-lib:jar:1.4:test
+[INFO] +- org.testng:testng:jar:7.5:test
+[INFO] |  +- com.beust:jcommander:jar:1.78:test
+[INFO] |  \- org.webjars:jquery:jar:3.5.1:test
+[INFO] +- org.slf4j:slf4j-api:jar:2.0.6:compile
+[INFO] +- org.mockito:mockito-core:jar:4.9.0:test
+[INFO] |  +- net.bytebuddy:byte-buddy:jar:1.12.16:test
+[INFO] |  +- net.bytebuddy:byte-buddy-agent:jar:1.12.16:test
+[INFO] |  \- org.objenesis:objenesis:jar:3.3:test
+[INFO] +- org.openjdk.jmh:jmh-core:jar:1.36:test
+[INFO] |  +- net.sf.jopt-simple:jopt-simple:jar:5.0.4:test
+[INFO] |  \- org.apache.commons:commons-math3:jar:3.2:test
+[INFO] \- org.openjdk.jmh:jmh-generator-annprocess:jar:1.36:test
+[INFO] 
+[INFO] -----------------------< org.btrplace:safeplace >-----------------------
+[INFO] Building safeplace 1.12.9-SNAPSHOT                                 [7/9]
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from central: https://repo.maven.apache.org/maven2/org/antlr/antlr4-maven-plugin/4.9.3/antlr4-maven-plugin-4.9.3.pom
+Progress (1): 4.1/5.9 kB
+Progress (1): 5.9 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/antlr/antlr4-maven-plugin/4.9.3/antlr4-maven-plugin-4.9.3.pom (5.9 kB at 660 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/antlr/antlr4-master/4.9.3/antlr4-master-4.9.3.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/antlr/antlr4-master/4.9.3/antlr4-master-4.9.3.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/antlr/antlr4-maven-plugin/4.9.3/antlr4-maven-plugin-4.9.3.jar
+Progress (1): 4.1/30 kB
+Progress (1): 8.2/30 kB
+Progress (1): 12/30 kB 
+Progress (1): 16/30 kB
+Progress (1): 20/30 kB
+Progress (1): 25/30 kB
+Progress (1): 29/30 kB
+Progress (1): 30 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/antlr/antlr4-maven-plugin/4.9.3/antlr4-maven-plugin-4.9.3.jar (30 kB at 2.8 MB/s)
+Downloading from sonatype: https://oss.sonatype.org/service/local/staging/deploy/maven2/io/github/lukehutch/fast-classpath-scanner/2.9.3/fast-classpath-scanner-2.9.3.pom
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/io/github/lukehutch/fast-classpath-scanner/2.9.3/fast-classpath-scanner-2.9.3.pom
+Downloading from central: https://repo.maven.apache.org/maven2/io/github/lukehutch/fast-classpath-scanner/2.9.3/fast-classpath-scanner-2.9.3.pom
+Progress (1): 4.1/8.3 kB
+Progress (1): 8.2/8.3 kB
+Progress (1): 8.3 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/io/github/lukehutch/fast-classpath-scanner/2.9.3/fast-classpath-scanner-2.9.3.pom (8.3 kB at 82 kB/s)
+Downloading from sonatype: https://oss.sonatype.org/service/local/staging/deploy/maven2/org/antlr/antlr4/4.9.3/antlr4-4.9.3.pom
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/org/antlr/antlr4/4.9.3/antlr4-4.9.3.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/antlr/antlr4/4.9.3/antlr4-4.9.3.pom
+Progress (1): 4.1/6.2 kB
+Progress (1): 6.2 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/antlr/antlr4/4.9.3/antlr4-4.9.3.pom (6.2 kB at 326 kB/s)
+Downloading from sonatype: https://oss.sonatype.org/service/local/staging/deploy/maven2/org/antlr/antlr4-runtime/4.9.3/antlr4-runtime-4.9.3.pom
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/org/antlr/antlr4-runtime/4.9.3/antlr4-runtime-4.9.3.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/antlr/antlr4-runtime/4.9.3/antlr4-runtime-4.9.3.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/antlr/antlr4-runtime/4.9.3/antlr4-runtime-4.9.3.pom (0 B at 0 B/s)
+Downloading from sonatype: https://oss.sonatype.org/service/local/staging/deploy/maven2/com/ibm/icu/icu4j/69.1/icu4j-69.1.pom
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/com/ibm/icu/icu4j/69.1/icu4j-69.1.pom
+Downloading from central: https://repo.maven.apache.org/maven2/com/ibm/icu/icu4j/69.1/icu4j-69.1.pom
+Progress (1): 4.1/4.9 kB
+Progress (1): 4.9 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/ibm/icu/icu4j/69.1/icu4j-69.1.pom (4.9 kB at 616 kB/s)
+Downloading from sonatype: https://oss.sonatype.org/service/local/staging/deploy/maven2/com/github/javaparser/javaparser-core/3.24.4/javaparser-core-3.24.4.pom
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/com/github/javaparser/javaparser-core/3.24.4/javaparser-core-3.24.4.pom
+Downloading from central: https://repo.maven.apache.org/maven2/com/github/javaparser/javaparser-core/3.24.4/javaparser-core-3.24.4.pom
+Progress (1): 4.1/4.9 kB
+Progress (1): 4.9 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/github/javaparser/javaparser-core/3.24.4/javaparser-core-3.24.4.pom (4.9 kB at 542 kB/s)
+Downloading from sonatype: https://oss.sonatype.org/service/local/staging/deploy/maven2/com/github/javaparser/javaparser-parent/3.24.4/javaparser-parent-3.24.4.pom
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/com/github/javaparser/javaparser-parent/3.24.4/javaparser-parent-3.24.4.pom
+Downloading from central: https://repo.maven.apache.org/maven2/com/github/javaparser/javaparser-parent/3.24.4/javaparser-parent-3.24.4.pom
+Progress (1): 4.1/22 kB
+Progress (1): 8.2/22 kB
+Progress (1): 12/22 kB 
+Progress (1): 16/22 kB
+Progress (1): 20/22 kB
+Progress (1): 22 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/com/github/javaparser/javaparser-parent/3.24.4/javaparser-parent-3.24.4.pom (22 kB at 2.0 MB/s)
+[WARNING] Failure to transfer org.btrplace:scheduler-api:1.12.9-SNAPSHOT/maven-metadata.xml from https://oss.sonatype.org/service/local/staging/deploy/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of sonatype has elapsed or updates are forced. Original error: Could not transfer metadata org.btrplace:scheduler-api:1.12.9-SNAPSHOT/maven-metadata.xml from/to sonatype (https://oss.sonatype.org/service/local/staging/deploy/maven2): Authentication failed for https://oss.sonatype.org/service/local/staging/deploy/maven2/org/btrplace/scheduler-api/1.12.9-SNAPSHOT/maven-metadata.xml 401 Unauthorized
+[WARNING] Failure to transfer org.btrplace:scheduler-json:1.12.9-SNAPSHOT/maven-metadata.xml from https://oss.sonatype.org/service/local/staging/deploy/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of sonatype has elapsed or updates are forced. Original error: Could not transfer metadata org.btrplace:scheduler-json:1.12.9-SNAPSHOT/maven-metadata.xml from/to sonatype (https://oss.sonatype.org/service/local/staging/deploy/maven2): Authentication failed for https://oss.sonatype.org/service/local/staging/deploy/maven2/org/btrplace/scheduler-json/1.12.9-SNAPSHOT/maven-metadata.xml 401 Unauthorized
+[WARNING] Failure to transfer org.btrplace:scheduler-choco:1.12.9-SNAPSHOT/maven-metadata.xml from https://oss.sonatype.org/service/local/staging/deploy/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of sonatype has elapsed or updates are forced. Original error: Could not transfer metadata org.btrplace:scheduler-choco:1.12.9-SNAPSHOT/maven-metadata.xml from/to sonatype (https://oss.sonatype.org/service/local/staging/deploy/maven2): Authentication failed for https://oss.sonatype.org/service/local/staging/deploy/maven2/org/btrplace/scheduler-choco/1.12.9-SNAPSHOT/maven-metadata.xml 401 Unauthorized
+Downloading from sonatype: https://oss.sonatype.org/service/local/staging/deploy/maven2/io/github/lukehutch/fast-classpath-scanner/2.9.3/fast-classpath-scanner-2.9.3.jar
+Downloading from sonatype: https://oss.sonatype.org/service/local/staging/deploy/maven2/org/antlr/antlr4/4.9.3/antlr4-4.9.3.jar
+Downloading from sonatype: https://oss.sonatype.org/service/local/staging/deploy/maven2/org/abego/treelayout/org.abego.treelayout.core/1.0.3/org.abego.treelayout.core-1.0.3.jar
+Downloading from sonatype: https://oss.sonatype.org/service/local/staging/deploy/maven2/com/ibm/icu/icu4j/69.1/icu4j-69.1.jar
+Downloading from sonatype: https://oss.sonatype.org/service/local/staging/deploy/maven2/org/glassfish/javax.json/1.0.4/javax.json-1.0.4.jar
+Downloading from sonatype: https://oss.sonatype.org/service/local/staging/deploy/maven2/org/antlr/antlr4-runtime/4.9.3/antlr4-runtime-4.9.3.jar
+Downloading from sonatype: https://oss.sonatype.org/service/local/staging/deploy/maven2/com/github/javaparser/javaparser-core/3.24.4/javaparser-core-3.24.4.jar
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/io/github/lukehutch/fast-classpath-scanner/2.9.3/fast-classpath-scanner-2.9.3.jar
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/org/antlr/antlr4/4.9.3/antlr4-4.9.3.jar
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/org/abego/treelayout/org.abego.treelayout.core/1.0.3/org.abego.treelayout.core-1.0.3.jar
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/org/glassfish/javax.json/1.0.4/javax.json-1.0.4.jar
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/com/ibm/icu/icu4j/69.1/icu4j-69.1.jar
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/org/antlr/antlr4-runtime/4.9.3/antlr4-runtime-4.9.3.jar
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/com/github/javaparser/javaparser-core/3.24.4/javaparser-core-3.24.4.jar
+Downloading from central: https://repo.maven.apache.org/maven2/io/github/lukehutch/fast-classpath-scanner/2.9.3/fast-classpath-scanner-2.9.3.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/antlr/antlr4/4.9.3/antlr4-4.9.3.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/abego/treelayout/org.abego.treelayout.core/1.0.3/org.abego.treelayout.core-1.0.3.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/javax.json/1.0.4/javax.json-1.0.4.jar
+Downloading from central: https://repo.maven.apache.org/maven2/com/ibm/icu/icu4j/69.1/icu4j-69.1.jar
+Progress (1): 4.1/242 kB
+Progress (1): 8.2/242 kB
+Progress (1): 12/242 kB 
+Progress (1): 16/242 kB
+Progress (2): 16/242 kB | 2.7/27 kB
+Progress (2): 20/242 kB | 2.7/27 kB
+Progress (2): 25/242 kB | 2.7/27 kB
+Progress (2): 25/242 kB | 5.5/27 kB
+Progress (2): 29/242 kB | 5.5/27 kB
+Progress (2): 33/242 kB | 5.5/27 kB
+Progress (2): 33/242 kB | 8.2/27 kB
+Progress (3): 33/242 kB | 8.2/27 kB | 4.1/85 kB
+Progress (3): 33/242 kB | 11/27 kB | 4.1/85 kB 
+Progress (3): 33/242 kB | 11/27 kB | 8.2/85 kB
+Progress (3): 33/242 kB | 11/27 kB | 12/85 kB 
+Progress (3): 33/242 kB | 14/27 kB | 12/85 kB
+Progress (3): 33/242 kB | 14/27 kB | 16/85 kB
+Progress (3): 37/242 kB | 14/27 kB | 16/85 kB
+Progress (3): 41/242 kB | 14/27 kB | 16/85 kB
+Progress (3): 41/242 kB | 16/27 kB | 16/85 kB
+Progress (3): 45/242 kB | 16/27 kB | 16/85 kB
+Progress (3): 49/242 kB | 16/27 kB | 16/85 kB
+Progress (3): 49/242 kB | 19/27 kB | 16/85 kB
+Progress (3): 49/242 kB | 19/27 kB | 20/85 kB
+Progress (3): 49/242 kB | 19/27 kB | 25/85 kB
+Progress (3): 49/242 kB | 22/27 kB | 25/85 kB
+Progress (3): 49/242 kB | 22/27 kB | 29/85 kB
+Progress (3): 49/242 kB | 22/27 kB | 33/85 kB
+Progress (3): 53/242 kB | 22/27 kB | 33/85 kB
+Progress (3): 53/242 kB | 25/27 kB | 33/85 kB
+Progress (3): 57/242 kB | 25/27 kB | 33/85 kB
+Progress (3): 57/242 kB | 27 kB | 33/85 kB   
+Progress (3): 61/242 kB | 27 kB | 33/85 kB
+Progress (3): 66/242 kB | 27 kB | 33/85 kB
+Progress (3): 66/242 kB | 27 kB | 37/85 kB
+Progress (3): 66/242 kB | 27 kB | 41/85 kB
+Progress (3): 66/242 kB | 27 kB | 45/85 kB
+Progress (4): 66/242 kB | 27 kB | 45/85 kB | 0.1/13 MB
+Progress (4): 66/242 kB | 27 kB | 49/85 kB | 0.1/13 MB
+Progress (4): 70/242 kB | 27 kB | 49/85 kB | 0.1/13 MB
+Progress (4): 74/242 kB | 27 kB | 49/85 kB | 0.1/13 MB
+Progress (4): 78/242 kB | 27 kB | 49/85 kB | 0.1/13 MB
+Progress (4): 82/242 kB | 27 kB | 49/85 kB | 0.1/13 MB
+Progress (4): 82/242 kB | 27 kB | 53/85 kB | 0.1/13 MB
+Progress (4): 82/242 kB | 27 kB | 57/85 kB | 0.1/13 MB
+Progress (4): 82/242 kB | 27 kB | 61/85 kB | 0.1/13 MB
+Progress (4): 82/242 kB | 27 kB | 66/85 kB | 0.1/13 MB
+Progress (4): 86/242 kB | 27 kB | 66/85 kB | 0.1/13 MB
+Progress (4): 90/242 kB | 27 kB | 66/85 kB | 0.1/13 MB
+Progress (4): 94/242 kB | 27 kB | 66/85 kB | 0.1/13 MB
+Progress (4): 98/242 kB | 27 kB | 66/85 kB | 0.1/13 MB
+Progress (4): 98/242 kB | 27 kB | 70/85 kB | 0.1/13 MB
+                                                      
+Downloaded from central: https://repo.maven.apache.org/maven2/org/abego/treelayout/org.abego.treelayout.core/1.0.3/org.abego.treelayout.core-1.0.3.jar (27 kB at 1.6 MB/s)
+Progress (3): 98/242 kB | 74/85 kB | 0.1/13 MB
+                                              
+Downloading from central: https://repo.maven.apache.org/maven2/org/antlr/antlr4-runtime/4.9.3/antlr4-runtime-4.9.3.jar
+Progress (3): 102/242 kB | 74/85 kB | 0.1/13 MB
+Progress (3): 102/242 kB | 78/85 kB | 0.1/13 MB
+Progress (3): 106/242 kB | 78/85 kB | 0.1/13 MB
+Progress (3): 106/242 kB | 82/85 kB | 0.1/13 MB
+Progress (3): 111/242 kB | 82/85 kB | 0.1/13 MB
+Progress (3): 111/242 kB | 82/85 kB | 0.1/13 MB
+Progress (3): 111/242 kB | 85 kB | 0.1/13 MB   
+Progress (3): 115/242 kB | 85 kB | 0.1/13 MB
+Progress (3): 119/242 kB | 85 kB | 0.1/13 MB
+Progress (3): 123/242 kB | 85 kB | 0.1/13 MB
+Progress (3): 127/242 kB | 85 kB | 0.1/13 MB
+Progress (3): 131/242 kB | 85 kB | 0.1/13 MB
+Progress (3): 135/242 kB | 85 kB | 0.1/13 MB
+Progress (3): 139/242 kB | 85 kB | 0.1/13 MB
+Progress (3): 143/242 kB | 85 kB | 0.1/13 MB
+Progress (3): 147/242 kB | 85 kB | 0.1/13 MB
+Progress (3): 152/242 kB | 85 kB | 0.1/13 MB
+Progress (3): 156/242 kB | 85 kB | 0.1/13 MB
+Progress (3): 156/242 kB | 85 kB | 0.2/13 MB
+Progress (3): 160/242 kB | 85 kB | 0.2/13 MB
+Progress (3): 164/242 kB | 85 kB | 0.2/13 MB
+                                            
+Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/javax.json/1.0.4/javax.json-1.0.4.jar (85 kB at 3.7 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/github/javaparser/javaparser-core/3.24.4/javaparser-core-3.24.4.jar
+Progress (2): 168/242 kB | 0.2/13 MB
+Progress (2): 172/242 kB | 0.2/13 MB
+Progress (2): 176/242 kB | 0.2/13 MB
+Progress (2): 180/242 kB | 0.2/13 MB
+Progress (3): 180/242 kB | 0.2/13 MB | 4.1/337 kB
+Progress (3): 180/242 kB | 0.2/13 MB | 8.2/337 kB
+Progress (3): 180/242 kB | 0.2/13 MB | 12/337 kB 
+Progress (3): 184/242 kB | 0.2/13 MB | 12/337 kB
+Progress (3): 184/242 kB | 0.2/13 MB | 16/337 kB
+Progress (3): 188/242 kB | 0.2/13 MB | 16/337 kB
+Progress (3): 193/242 kB | 0.2/13 MB | 16/337 kB
+Progress (3): 197/242 kB | 0.2/13 MB | 16/337 kB
+Progress (3): 197/242 kB | 0.2/13 MB | 20/337 kB
+Progress (3): 197/242 kB | 0.3/13 MB | 20/337 kB
+Progress (3): 197/242 kB | 0.3/13 MB | 25/337 kB
+Progress (3): 201/242 kB | 0.3/13 MB | 25/337 kB
+Progress (3): 201/242 kB | 0.3/13 MB | 29/337 kB
+Progress (3): 205/242 kB | 0.3/13 MB | 29/337 kB
+Progress (3): 205/242 kB | 0.3/13 MB | 33/337 kB
+Progress (3): 209/242 kB | 0.3/13 MB | 33/337 kB
+Progress (3): 213/242 kB | 0.3/13 MB | 33/337 kB
+Progress (3): 213/242 kB | 0.3/13 MB | 37/337 kB
+Progress (3): 217/242 kB | 0.3/13 MB | 37/337 kB
+Progress (3): 221/242 kB | 0.3/13 MB | 37/337 kB
+Progress (3): 225/242 kB | 0.3/13 MB | 37/337 kB
+Progress (3): 225/242 kB | 0.3/13 MB | 41/337 kB
+Progress (3): 229/242 kB | 0.3/13 MB | 41/337 kB
+Progress (3): 229/242 kB | 0.3/13 MB | 45/337 kB
+Progress (3): 229/242 kB | 0.3/13 MB | 49/337 kB
+Progress (3): 229/242 kB | 0.3/13 MB | 53/337 kB
+Progress (3): 233/242 kB | 0.3/13 MB | 53/337 kB
+Progress (3): 238/242 kB | 0.3/13 MB | 53/337 kB
+Progress (3): 242/242 kB | 0.3/13 MB | 53/337 kB
+Progress (3): 242/242 kB | 0.3/13 MB | 53/337 kB
+Progress (3): 242 kB | 0.3/13 MB | 53/337 kB    
+Progress (3): 242 kB | 0.3/13 MB | 57/337 kB
+Progress (3): 242 kB | 0.3/13 MB | 61/337 kB
+Progress (3): 242 kB | 0.3/13 MB | 65/337 kB
+Progress (3): 242 kB | 0.3/13 MB | 69/337 kB
+Progress (3): 242 kB | 0.3/13 MB | 73/337 kB
+Progress (3): 242 kB | 0.3/13 MB | 78/337 kB
+Progress (3): 242 kB | 0.4/13 MB | 78/337 kB
+Progress (3): 242 kB | 0.4/13 MB | 82/337 kB
+Progress (3): 242 kB | 0.4/13 MB | 86/337 kB
+Progress (4): 242 kB | 0.4/13 MB | 86/337 kB | 0/1.3 MB
+Progress (4): 242 kB | 0.4/13 MB | 86/337 kB | 0/1.3 MB
+Progress (4): 242 kB | 0.4/13 MB | 90/337 kB | 0/1.3 MB
+Progress (4): 242 kB | 0.4/13 MB | 94/337 kB | 0/1.3 MB
+Progress (4): 242 kB | 0.4/13 MB | 98/337 kB | 0/1.3 MB
+Progress (4): 242 kB | 0.4/13 MB | 98/337 kB | 0/1.3 MB
+Progress (4): 242 kB | 0.4/13 MB | 102/337 kB | 0/1.3 MB
+Progress (4): 242 kB | 0.4/13 MB | 102/337 kB | 0/1.3 MB
+Progress (4): 242 kB | 0.5/13 MB | 102/337 kB | 0/1.3 MB
+Progress (4): 242 kB | 0.5/13 MB | 106/337 kB | 0/1.3 MB
+Progress (4): 242 kB | 0.5/13 MB | 110/337 kB | 0/1.3 MB
+Progress (4): 242 kB | 0.5/13 MB | 110/337 kB | 0/1.3 MB
+Progress (4): 242 kB | 0.5/13 MB | 114/337 kB | 0/1.3 MB
+Progress (4): 242 kB | 0.5/13 MB | 118/337 kB | 0/1.3 MB
+Progress (4): 242 kB | 0.5/13 MB | 118/337 kB | 0/1.3 MB
+Progress (4): 242 kB | 0.5/13 MB | 118/337 kB | 0/1.3 MB
+Progress (4): 242 kB | 0.5/13 MB | 123/337 kB | 0/1.3 MB
+Progress (4): 242 kB | 0.5/13 MB | 123/337 kB | 0.1/1.3 MB
+Progress (4): 242 kB | 0.5/13 MB | 127/337 kB | 0.1/1.3 MB
+Progress (4): 242 kB | 0.5/13 MB | 127/337 kB | 0.1/1.3 MB
+Progress (4): 242 kB | 0.5/13 MB | 131/337 kB | 0.1/1.3 MB
+Progress (4): 242 kB | 0.5/13 MB | 135/337 kB | 0.1/1.3 MB
+Progress (4): 242 kB | 0.5/13 MB | 135/337 kB | 0.1/1.3 MB
+Progress (4): 242 kB | 0.5/13 MB | 139/337 kB | 0.1/1.3 MB
+Progress (4): 242 kB | 0.6/13 MB | 139/337 kB | 0.1/1.3 MB
+Progress (4): 242 kB | 0.6/13 MB | 139/337 kB | 0.1/1.3 MB
+Progress (4): 242 kB | 0.6/13 MB | 143/337 kB | 0.1/1.3 MB
+Progress (4): 242 kB | 0.6/13 MB | 147/337 kB | 0.1/1.3 MB
+Progress (4): 242 kB | 0.6/13 MB | 151/337 kB | 0.1/1.3 MB
+Progress (4): 242 kB | 0.6/13 MB | 151/337 kB | 0.1/1.3 MB
+Progress (4): 242 kB | 0.6/13 MB | 155/337 kB | 0.1/1.3 MB
+Progress (4): 242 kB | 0.6/13 MB | 155/337 kB | 0.1/1.3 MB
+Progress (4): 242 kB | 0.6/13 MB | 159/337 kB | 0.1/1.3 MB
+Progress (4): 242 kB | 0.7/13 MB | 159/337 kB | 0.1/1.3 MB
+Progress (4): 242 kB | 0.7/13 MB | 164/337 kB | 0.1/1.3 MB
+Progress (4): 242 kB | 0.7/13 MB | 168/337 kB | 0.1/1.3 MB
+Progress (4): 242 kB | 0.7/13 MB | 168/337 kB | 0.1/1.3 MB
+Progress (4): 242 kB | 0.7/13 MB | 172/337 kB | 0.1/1.3 MB
+Progress (4): 242 kB | 0.7/13 MB | 172/337 kB | 0.1/1.3 MB
+Progress (4): 242 kB | 0.7/13 MB | 176/337 kB | 0.1/1.3 MB
+Progress (4): 242 kB | 0.7/13 MB | 180/337 kB | 0.1/1.3 MB
+Progress (4): 242 kB | 0.7/13 MB | 184/337 kB | 0.1/1.3 MB
+Progress (4): 242 kB | 0.7/13 MB | 184/337 kB | 0.1/1.3 MB
+Progress (4): 242 kB | 0.7/13 MB | 184/337 kB | 0.1/1.3 MB
+Progress (4): 242 kB | 0.7/13 MB | 188/337 kB | 0.1/1.3 MB
+Progress (4): 242 kB | 0.7/13 MB | 188/337 kB | 0.1/1.3 MB
+Progress (4): 242 kB | 0.7/13 MB | 192/337 kB | 0.1/1.3 MB
+Progress (4): 242 kB | 0.7/13 MB | 196/337 kB | 0.1/1.3 MB
+Progress (4): 242 kB | 0.7/13 MB | 200/337 kB | 0.1/1.3 MB
+Progress (4): 242 kB | 0.8/13 MB | 200/337 kB | 0.1/1.3 MB
+Progress (4): 242 kB | 0.8/13 MB | 200/337 kB | 0.1/1.3 MB
+Progress (4): 242 kB | 0.8/13 MB | 204/337 kB | 0.1/1.3 MB
+Progress (4): 242 kB | 0.8/13 MB | 204/337 kB | 0.1/1.3 MB
+Progress (4): 242 kB | 0.8/13 MB | 209/337 kB | 0.1/1.3 MB
+Progress (4): 242 kB | 0.8/13 MB | 213/337 kB | 0.1/1.3 MB
+Progress (4): 242 kB | 0.8/13 MB | 217/337 kB | 0.1/1.3 MB
+Progress (4): 242 kB | 0.8/13 MB | 217/337 kB | 0.2/1.3 MB
+Progress (4): 242 kB | 0.8/13 MB | 221/337 kB | 0.2/1.3 MB
+Progress (4): 242 kB | 0.9/13 MB | 221/337 kB | 0.2/1.3 MB
+Progress (4): 242 kB | 0.9/13 MB | 225/337 kB | 0.2/1.3 MB
+Progress (4): 242 kB | 0.9/13 MB | 225/337 kB | 0.2/1.3 MB
+Progress (4): 242 kB | 0.9/13 MB | 229/337 kB | 0.2/1.3 MB
+Progress (4): 242 kB | 0.9/13 MB | 233/337 kB | 0.2/1.3 MB
+Progress (4): 242 kB | 0.9/13 MB | 237/337 kB | 0.2/1.3 MB
+Progress (4): 242 kB | 0.9/13 MB | 237/337 kB | 0.2/1.3 MB
+Progress (4): 242 kB | 0.9/13 MB | 241/337 kB | 0.2/1.3 MB
+Progress (4): 242 kB | 0.9/13 MB | 241/337 kB | 0.2/1.3 MB
+Progress (4): 242 kB | 0.9/13 MB | 241/337 kB | 0.2/1.3 MB
+Progress (4): 242 kB | 0.9/13 MB | 245/337 kB | 0.2/1.3 MB
+Progress (4): 242 kB | 0.9/13 MB | 250/337 kB | 0.2/1.3 MB
+Progress (4): 242 kB | 0.9/13 MB | 254/337 kB | 0.2/1.3 MB
+Progress (4): 242 kB | 0.9/13 MB | 254/337 kB | 0.2/1.3 MB
+Progress (4): 242 kB | 0.9/13 MB | 258/337 kB | 0.2/1.3 MB
+Progress (4): 242 kB | 0.9/13 MB | 258/337 kB | 0.2/1.3 MB
+Progress (4): 242 kB | 0.9/13 MB | 262/337 kB | 0.2/1.3 MB
+Progress (4): 242 kB | 0.9/13 MB | 266/337 kB | 0.2/1.3 MB
+Progress (4): 242 kB | 1.0/13 MB | 266/337 kB | 0.2/1.3 MB
+Progress (4): 242 kB | 1.0/13 MB | 266/337 kB | 0.2/1.3 MB
+Progress (4): 242 kB | 1.0/13 MB | 270/337 kB | 0.2/1.3 MB
+Progress (4): 242 kB | 1.0/13 MB | 270/337 kB | 0.2/1.3 MB
+Progress (4): 242 kB | 1.0/13 MB | 274/337 kB | 0.2/1.3 MB
+Progress (4): 242 kB | 1.0/13 MB | 278/337 kB | 0.2/1.3 MB
+Progress (4): 242 kB | 1.0/13 MB | 282/337 kB | 0.2/1.3 MB
+Progress (4): 242 kB | 1.0/13 MB | 282/337 kB | 0.2/1.3 MB
+Progress (4): 242 kB | 1.0/13 MB | 286/337 kB | 0.2/1.3 MB
+Progress (4): 242 kB | 1.0/13 MB | 286/337 kB | 0.2/1.3 MB
+Progress (4): 242 kB | 1.0/13 MB | 290/337 kB | 0.2/1.3 MB
+Progress (4): 242 kB | 1.0/13 MB | 290/337 kB | 0.2/1.3 MB
+Progress (4): 242 kB | 1.0/13 MB | 295/337 kB | 0.2/1.3 MB
+Progress (4): 242 kB | 1.0/13 MB | 299/337 kB | 0.2/1.3 MB
+Progress (4): 242 kB | 1.0/13 MB | 299/337 kB | 0.2/1.3 MB
+Progress (4): 242 kB | 1.0/13 MB | 303/337 kB | 0.2/1.3 MB
+Progress (4): 242 kB | 1.0/13 MB | 303/337 kB | 0.2/1.3 MB
+Progress (4): 242 kB | 1.0/13 MB | 307/337 kB | 0.2/1.3 MB
+Progress (4): 242 kB | 1.0/13 MB | 311/337 kB | 0.2/1.3 MB
+Progress (4): 242 kB | 1.0/13 MB | 315/337 kB | 0.2/1.3 MB
+Progress (4): 242 kB | 1.1/13 MB | 315/337 kB | 0.2/1.3 MB
+Progress (4): 242 kB | 1.1/13 MB | 315/337 kB | 0.3/1.3 MB
+Progress (4): 242 kB | 1.1/13 MB | 319/337 kB | 0.3/1.3 MB
+Progress (4): 242 kB | 1.1/13 MB | 319/337 kB | 0.3/1.3 MB
+Progress (4): 242 kB | 1.1/13 MB | 323/337 kB | 0.3/1.3 MB
+Progress (4): 242 kB | 1.1/13 MB | 327/337 kB | 0.3/1.3 MB
+Progress (4): 242 kB | 1.1/13 MB | 331/337 kB | 0.3/1.3 MB
+Progress (4): 242 kB | 1.1/13 MB | 336/337 kB | 0.3/1.3 MB
+Progress (4): 242 kB | 1.1/13 MB | 336/337 kB | 0.3/1.3 MB
+Progress (4): 242 kB | 1.1/13 MB | 337 kB | 0.3/1.3 MB    
+Progress (4): 242 kB | 1.1/13 MB | 337 kB | 0.3/1.3 MB
+Progress (4): 242 kB | 1.2/13 MB | 337 kB | 0.3/1.3 MB
+Progress (4): 242 kB | 1.2/13 MB | 337 kB | 0.3/1.3 MB
+Progress (4): 242 kB | 1.2/13 MB | 337 kB | 0.3/1.3 MB
+Progress (4): 242 kB | 1.2/13 MB | 337 kB | 0.3/1.3 MB
+Progress (4): 242 kB | 1.2/13 MB | 337 kB | 0.3/1.3 MB
+Progress (4): 242 kB | 1.2/13 MB | 337 kB | 0.3/1.3 MB
+Progress (4): 242 kB | 1.2/13 MB | 337 kB | 0.3/1.3 MB
+Progress (4): 242 kB | 1.2/13 MB | 337 kB | 0.3/1.3 MB
+Progress (4): 242 kB | 1.2/13 MB | 337 kB | 0.3/1.3 MB
+Progress (4): 242 kB | 1.2/13 MB | 337 kB | 0.3/1.3 MB
+Progress (4): 242 kB | 1.3/13 MB | 337 kB | 0.3/1.3 MB
+                                                      
+Downloaded from central: https://repo.maven.apache.org/maven2/org/antlr/antlr4-runtime/4.9.3/antlr4-runtime-4.9.3.jar (337 kB at 5.7 MB/s)
+Progress (3): 242 kB | 1.3/13 MB | 0.4/1.3 MB
+Progress (3): 242 kB | 1.3/13 MB | 0.4/1.3 MB
+Progress (3): 242 kB | 1.3/13 MB | 0.4/1.3 MB
+Progress (3): 242 kB | 1.3/13 MB | 0.4/1.3 MB
+Progress (3): 242 kB | 1.4/13 MB | 0.4/1.3 MB
+Progress (3): 242 kB | 1.4/13 MB | 0.4/1.3 MB
+Progress (3): 242 kB | 1.4/13 MB | 0.4/1.3 MB
+Progress (3): 242 kB | 1.4/13 MB | 0.4/1.3 MB
+Progress (3): 242 kB | 1.4/13 MB | 0.4/1.3 MB
+Progress (3): 242 kB | 1.4/13 MB | 0.4/1.3 MB
+Progress (3): 242 kB | 1.4/13 MB | 0.4/1.3 MB
+Progress (3): 242 kB | 1.4/13 MB | 0.4/1.3 MB
+Progress (3): 242 kB | 1.4/13 MB | 0.4/1.3 MB
+Progress (3): 242 kB | 1.4/13 MB | 0.4/1.3 MB
+Progress (3): 242 kB | 1.4/13 MB | 0.4/1.3 MB
+Progress (3): 242 kB | 1.4/13 MB | 0.5/1.3 MB
+Progress (3): 242 kB | 1.4/13 MB | 0.5/1.3 MB
+Progress (3): 242 kB | 1.5/13 MB | 0.5/1.3 MB
+Progress (3): 242 kB | 1.5/13 MB | 0.5/1.3 MB
+Progress (3): 242 kB | 1.5/13 MB | 0.5/1.3 MB
+Progress (3): 242 kB | 1.5/13 MB | 0.5/1.3 MB
+Progress (3): 242 kB | 1.5/13 MB | 0.5/1.3 MB
+Progress (3): 242 kB | 1.5/13 MB | 0.5/1.3 MB
+Progress (3): 242 kB | 1.6/13 MB | 0.5/1.3 MB
+Progress (3): 242 kB | 1.6/13 MB | 0.5/1.3 MB
+Progress (3): 242 kB | 1.6/13 MB | 0.5/1.3 MB
+Progress (3): 242 kB | 1.6/13 MB | 0.5/1.3 MB
+Progress (3): 242 kB | 1.6/13 MB | 0.5/1.3 MB
+Progress (3): 242 kB | 1.6/13 MB | 0.5/1.3 MB
+Progress (3): 242 kB | 1.6/13 MB | 0.6/1.3 MB
+Progress (3): 242 kB | 1.6/13 MB | 0.6/1.3 MB
+Progress (3): 242 kB | 1.6/13 MB | 0.6/1.3 MB
+Progress (3): 242 kB | 1.6/13 MB | 0.6/1.3 MB
+Progress (3): 242 kB | 1.6/13 MB | 0.6/1.3 MB
+Progress (3): 242 kB | 1.6/13 MB | 0.6/1.3 MB
+Progress (3): 242 kB | 1.6/13 MB | 0.6/1.3 MB
+Progress (3): 242 kB | 1.6/13 MB | 0.6/1.3 MB
+Progress (3): 242 kB | 1.7/13 MB | 0.6/1.3 MB
+Progress (3): 242 kB | 1.7/13 MB | 0.6/1.3 MB
+Progress (3): 242 kB | 1.7/13 MB | 0.6/1.3 MB
+Progress (3): 242 kB | 1.7/13 MB | 0.6/1.3 MB
+Progress (3): 242 kB | 1.7/13 MB | 0.6/1.3 MB
+Progress (3): 242 kB | 1.7/13 MB | 0.6/1.3 MB
+Progress (3): 242 kB | 1.7/13 MB | 0.7/1.3 MB
+Progress (3): 242 kB | 1.7/13 MB | 0.7/1.3 MB
+Progress (3): 242 kB | 1.7/13 MB | 0.7/1.3 MB
+Progress (3): 242 kB | 1.8/13 MB | 0.7/1.3 MB
+Progress (3): 242 kB | 1.8/13 MB | 0.7/1.3 MB
+Progress (3): 242 kB | 1.8/13 MB | 0.7/1.3 MB
+Progress (3): 242 kB | 1.8/13 MB | 0.7/1.3 MB
+Progress (3): 242 kB | 1.8/13 MB | 0.7/1.3 MB
+Progress (3): 242 kB | 1.8/13 MB | 0.7/1.3 MB
+Progress (3): 242 kB | 1.8/13 MB | 0.7/1.3 MB
+Progress (3): 242 kB | 1.8/13 MB | 0.7/1.3 MB
+Progress (3): 242 kB | 1.8/13 MB | 0.7/1.3 MB
+Progress (3): 242 kB | 1.8/13 MB | 0.7/1.3 MB
+Progress (3): 242 kB | 1.8/13 MB | 0.7/1.3 MB
+Progress (3): 242 kB | 1.8/13 MB | 0.8/1.3 MB
+Progress (3): 242 kB | 1.8/13 MB | 0.8/1.3 MB
+Progress (3): 242 kB | 1.8/13 MB | 0.8/1.3 MB
+Progress (3): 242 kB | 1.8/13 MB | 0.8/1.3 MB
+Progress (3): 242 kB | 1.9/13 MB | 0.8/1.3 MB
+Progress (3): 242 kB | 1.9/13 MB | 0.8/1.3 MB
+Progress (3): 242 kB | 1.9/13 MB | 0.8/1.3 MB
+Progress (3): 242 kB | 1.9/13 MB | 0.8/1.3 MB
+Progress (3): 242 kB | 1.9/13 MB | 0.8/1.3 MB
+Progress (3): 242 kB | 1.9/13 MB | 0.8/1.3 MB
+Progress (3): 242 kB | 1.9/13 MB | 0.8/1.3 MB
+Progress (3): 242 kB | 1.9/13 MB | 0.8/1.3 MB
+Progress (3): 242 kB | 1.9/13 MB | 0.8/1.3 MB
+Progress (3): 242 kB | 2.0/13 MB | 0.8/1.3 MB
+Progress (3): 242 kB | 2.0/13 MB | 0.9/1.3 MB
+Progress (3): 242 kB | 2.0/13 MB | 0.9/1.3 MB
+Progress (3): 242 kB | 2.0/13 MB | 0.9/1.3 MB
+Progress (3): 242 kB | 2.0/13 MB | 0.9/1.3 MB
+Progress (3): 242 kB | 2.0/13 MB | 0.9/1.3 MB
+Progress (3): 242 kB | 2.0/13 MB | 0.9/1.3 MB
+Progress (3): 242 kB | 2.0/13 MB | 0.9/1.3 MB
+Progress (3): 242 kB | 2.0/13 MB | 0.9/1.3 MB
+Progress (3): 242 kB | 2.0/13 MB | 0.9/1.3 MB
+Progress (3): 242 kB | 2.0/13 MB | 0.9/1.3 MB
+Progress (3): 242 kB | 2.0/13 MB | 0.9/1.3 MB
+Progress (3): 242 kB | 2.0/13 MB | 0.9/1.3 MB
+Progress (3): 242 kB | 2.0/13 MB | 0.9/1.3 MB
+Progress (3): 242 kB | 2.1/13 MB | 0.9/1.3 MB
+Progress (3): 242 kB | 2.1/13 MB | 1.0/1.3 MB
+Progress (3): 242 kB | 2.1/13 MB | 1.0/1.3 MB
+Progress (3): 242 kB | 2.1/13 MB | 1.0/1.3 MB
+Progress (3): 242 kB | 2.1/13 MB | 1.0/1.3 MB
+Progress (3): 242 kB | 2.1/13 MB | 1.0/1.3 MB
+Progress (3): 242 kB | 2.1/13 MB | 1.0/1.3 MB
+Progress (3): 242 kB | 2.1/13 MB | 1.0/1.3 MB
+Progress (3): 242 kB | 2.2/13 MB | 1.0/1.3 MB
+Progress (3): 242 kB | 2.2/13 MB | 1.0/1.3 MB
+Progress (3): 242 kB | 2.2/13 MB | 1.0/1.3 MB
+Progress (3): 242 kB | 2.2/13 MB | 1.0/1.3 MB
+Progress (3): 242 kB | 2.2/13 MB | 1.0/1.3 MB
+Progress (3): 242 kB | 2.2/13 MB | 1.0/1.3 MB
+Progress (3): 242 kB | 2.2/13 MB | 1.1/1.3 MB
+Progress (3): 242 kB | 2.2/13 MB | 1.1/1.3 MB
+Progress (3): 242 kB | 2.2/13 MB | 1.1/1.3 MB
+Progress (3): 242 kB | 2.2/13 MB | 1.1/1.3 MB
+Progress (3): 242 kB | 2.2/13 MB | 1.1/1.3 MB
+Progress (3): 242 kB | 2.2/13 MB | 1.1/1.3 MB
+Progress (3): 242 kB | 2.2/13 MB | 1.1/1.3 MB
+Progress (3): 242 kB | 2.2/13 MB | 1.1/1.3 MB
+Progress (3): 242 kB | 2.2/13 MB | 1.1/1.3 MB
+Progress (3): 242 kB | 2.3/13 MB | 1.1/1.3 MB
+Progress (3): 242 kB | 2.3/13 MB | 1.1/1.3 MB
+Progress (3): 242 kB | 2.3/13 MB | 1.1/1.3 MB
+Progress (3): 242 kB | 2.3/13 MB | 1.1/1.3 MB
+Progress (3): 242 kB | 2.3/13 MB | 1.1/1.3 MB
+Progress (3): 242 kB | 2.3/13 MB | 1.1/1.3 MB
+Progress (3): 242 kB | 2.3/13 MB | 1.2/1.3 MB
+Progress (3): 242 kB | 2.3/13 MB | 1.2/1.3 MB
+Progress (3): 242 kB | 2.4/13 MB | 1.2/1.3 MB
+Progress (3): 242 kB | 2.4/13 MB | 1.2/1.3 MB
+Progress (3): 242 kB | 2.4/13 MB | 1.2/1.3 MB
+Progress (3): 242 kB | 2.4/13 MB | 1.2/1.3 MB
+Progress (3): 242 kB | 2.4/13 MB | 1.2/1.3 MB
+Progress (3): 242 kB | 2.4/13 MB | 1.2/1.3 MB
+Progress (3): 242 kB | 2.4/13 MB | 1.2/1.3 MB
+Progress (3): 242 kB | 2.4/13 MB | 1.2/1.3 MB
+Progress (3): 242 kB | 2.4/13 MB | 1.2/1.3 MB
+Progress (3): 242 kB | 2.4/13 MB | 1.2/1.3 MB
+Progress (3): 242 kB | 2.4/13 MB | 1.2/1.3 MB
+Progress (3): 242 kB | 2.4/13 MB | 1.2/1.3 MB
+Progress (3): 242 kB | 2.4/13 MB | 1.3/1.3 MB
+Progress (3): 242 kB | 2.4/13 MB | 1.3/1.3 MB
+Progress (3): 242 kB | 2.4/13 MB | 1.3/1.3 MB
+Progress (3): 242 kB | 2.5/13 MB | 1.3/1.3 MB
+Progress (3): 242 kB | 2.5/13 MB | 1.3/1.3 MB
+Progress (3): 242 kB | 2.5/13 MB | 1.3/1.3 MB
+Progress (3): 242 kB | 2.5/13 MB | 1.3/1.3 MB
+Progress (3): 242 kB | 2.5/13 MB | 1.3/1.3 MB
+Progress (3): 242 kB | 2.5/13 MB | 1.3/1.3 MB
+Progress (3): 242 kB | 2.5/13 MB | 1.3 MB    
+Progress (3): 242 kB | 2.6/13 MB | 1.3 MB
+Progress (3): 242 kB | 2.6/13 MB | 1.3 MB
+Progress (3): 242 kB | 2.7/13 MB | 1.3 MB
+Progress (3): 242 kB | 2.8/13 MB | 1.3 MB
+                                         
+Downloaded from central: https://repo.maven.apache.org/maven2/com/github/javaparser/javaparser-core/3.24.4/javaparser-core-3.24.4.jar (1.3 MB at 13 MB/s)
+Progress (2): 242 kB | 2.8/13 MB
+Progress (2): 242 kB | 2.9/13 MB
+Progress (2): 242 kB | 2.9/13 MB
+Progress (2): 242 kB | 3.0/13 MB
+Progress (2): 242 kB | 3.1/13 MB
+Progress (2): 242 kB | 3.1/13 MB
+Progress (2): 242 kB | 3.2/13 MB
+Progress (2): 242 kB | 3.3/13 MB
+Progress (2): 242 kB | 3.3/13 MB
+Progress (2): 242 kB | 3.4/13 MB
+Progress (3): 242 kB | 3.4/13 MB | 0/2.6 MB
+Progress (3): 242 kB | 3.5/13 MB | 0/2.6 MB
+Progress (3): 242 kB | 3.5/13 MB | 0/2.6 MB
+Progress (3): 242 kB | 3.5/13 MB | 0/2.6 MB
+Progress (3): 242 kB | 3.5/13 MB | 0/2.6 MB
+Progress (3): 242 kB | 3.5/13 MB | 0.1/2.6 MB
+Progress (3): 242 kB | 3.6/13 MB | 0.1/2.6 MB
+Progress (3): 242 kB | 3.6/13 MB | 0.1/2.6 MB
+Progress (3): 242 kB | 3.7/13 MB | 0.1/2.6 MB
+Progress (3): 242 kB | 3.7/13 MB | 0.1/2.6 MB
+                                             
+Downloaded from central: https://repo.maven.apache.org/maven2/io/github/lukehutch/fast-classpath-scanner/2.9.3/fast-classpath-scanner-2.9.3.jar (242 kB at 2.0 MB/s)
+Progress (2): 3.7/13 MB | 0.1/2.6 MB
+Progress (2): 3.7/13 MB | 0.1/2.6 MB
+Progress (2): 3.7/13 MB | 0.1/2.6 MB
+Progress (2): 3.8/13 MB | 0.1/2.6 MB
+Progress (2): 3.8/13 MB | 0.1/2.6 MB
+Progress (2): 3.9/13 MB | 0.1/2.6 MB
+Progress (2): 3.9/13 MB | 0.2/2.6 MB
+Progress (2): 3.9/13 MB | 0.2/2.6 MB
+Progress (2): 3.9/13 MB | 0.2/2.6 MB
+Progress (2): 3.9/13 MB | 0.2/2.6 MB
+Progress (2): 4.0/13 MB | 0.2/2.6 MB
+Progress (2): 4.0/13 MB | 0.2/2.6 MB
+Progress (2): 4.1/13 MB | 0.2/2.6 MB
+Progress (2): 4.1/13 MB | 0.2/2.6 MB
+Progress (2): 4.1/13 MB | 0.2/2.6 MB
+Progress (2): 4.1/13 MB | 0.2/2.6 MB
+Progress (2): 4.1/13 MB | 0.3/2.6 MB
+Progress (2): 4.1/13 MB | 0.3/2.6 MB
+Progress (2): 4.2/13 MB | 0.3/2.6 MB
+Progress (2): 4.2/13 MB | 0.3/2.6 MB
+Progress (2): 4.2/13 MB | 0.3/2.6 MB
+Progress (2): 4.3/13 MB | 0.3/2.6 MB
+Progress (2): 4.3/13 MB | 0.3/2.6 MB
+Progress (2): 4.3/13 MB | 0.3/2.6 MB
+Progress (2): 4.3/13 MB | 0.3/2.6 MB
+Progress (2): 4.3/13 MB | 0.4/2.6 MB
+Progress (2): 4.3/13 MB | 0.4/2.6 MB
+Progress (2): 4.4/13 MB | 0.4/2.6 MB
+Progress (2): 4.4/13 MB | 0.4/2.6 MB
+Progress (2): 4.4/13 MB | 0.4/2.6 MB
+Progress (2): 4.5/13 MB | 0.4/2.6 MB
+Progress (2): 4.5/13 MB | 0.4/2.6 MB
+Progress (2): 4.5/13 MB | 0.4/2.6 MB
+Progress (2): 4.5/13 MB | 0.5/2.6 MB
+Progress (2): 4.5/13 MB | 0.5/2.6 MB
+Progress (2): 4.5/13 MB | 0.5/2.6 MB
+Progress (2): 4.5/13 MB | 0.5/2.6 MB
+Progress (2): 4.5/13 MB | 0.5/2.6 MB
+Progress (2): 4.5/13 MB | 0.5/2.6 MB
+Progress (2): 4.6/13 MB | 0.5/2.6 MB
+Progress (2): 4.6/13 MB | 0.5/2.6 MB
+Progress (2): 4.6/13 MB | 0.6/2.6 MB
+Progress (2): 4.6/13 MB | 0.6/2.6 MB
+Progress (2): 4.7/13 MB | 0.6/2.6 MB
+Progress (2): 4.7/13 MB | 0.6/2.6 MB
+Progress (2): 4.7/13 MB | 0.6/2.6 MB
+Progress (2): 4.7/13 MB | 0.6/2.6 MB
+Progress (2): 4.7/13 MB | 0.6/2.6 MB
+Progress (2): 4.7/13 MB | 0.6/2.6 MB
+Progress (2): 4.7/13 MB | 0.7/2.6 MB
+Progress (2): 4.7/13 MB | 0.7/2.6 MB
+Progress (2): 4.8/13 MB | 0.7/2.6 MB
+Progress (2): 4.8/13 MB | 0.7/2.6 MB
+Progress (2): 4.8/13 MB | 0.7/2.6 MB
+Progress (2): 4.8/13 MB | 0.7/2.6 MB
+Progress (2): 4.9/13 MB | 0.7/2.6 MB
+Progress (2): 4.9/13 MB | 0.7/2.6 MB
+Progress (2): 4.9/13 MB | 0.8/2.6 MB
+Progress (2): 4.9/13 MB | 0.8/2.6 MB
+Progress (2): 4.9/13 MB | 0.8/2.6 MB
+Progress (2): 4.9/13 MB | 0.8/2.6 MB
+Progress (2): 4.9/13 MB | 0.8/2.6 MB
+Progress (2): 5.0/13 MB | 0.8/2.6 MB
+Progress (2): 5.0/13 MB | 0.8/2.6 MB
+Progress (2): 5.0/13 MB | 0.8/2.6 MB
+Progress (2): 5.0/13 MB | 0.9/2.6 MB
+Progress (2): 5.1/13 MB | 0.9/2.6 MB
+Progress (2): 5.1/13 MB | 0.9/2.6 MB
+Progress (2): 5.1/13 MB | 0.9/2.6 MB
+Progress (2): 5.1/13 MB | 0.9/2.6 MB
+Progress (2): 5.1/13 MB | 0.9/2.6 MB
+Progress (2): 5.1/13 MB | 0.9/2.6 MB
+Progress (2): 5.1/13 MB | 0.9/2.6 MB
+Progress (2): 5.1/13 MB | 1.0/2.6 MB
+Progress (2): 5.2/13 MB | 1.0/2.6 MB
+Progress (2): 5.2/13 MB | 1.0/2.6 MB
+Progress (2): 5.2/13 MB | 1.0/2.6 MB
+Progress (2): 5.2/13 MB | 1.0/2.6 MB
+Progress (2): 5.2/13 MB | 1.0/2.6 MB
+Progress (2): 5.2/13 MB | 1.0/2.6 MB
+Progress (2): 5.2/13 MB | 1.0/2.6 MB
+Progress (2): 5.2/13 MB | 1.1/2.6 MB
+Progress (2): 5.2/13 MB | 1.1/2.6 MB
+Progress (2): 5.3/13 MB | 1.1/2.6 MB
+Progress (2): 5.3/13 MB | 1.1/2.6 MB
+Progress (2): 5.3/13 MB | 1.1/2.6 MB
+Progress (2): 5.3/13 MB | 1.1/2.6 MB
+Progress (2): 5.3/13 MB | 1.1/2.6 MB
+Progress (2): 5.4/13 MB | 1.1/2.6 MB
+Progress (2): 5.4/13 MB | 1.2/2.6 MB
+Progress (2): 5.4/13 MB | 1.2/2.6 MB
+Progress (2): 5.4/13 MB | 1.2/2.6 MB
+Progress (2): 5.4/13 MB | 1.2/2.6 MB
+Progress (2): 5.4/13 MB | 1.2/2.6 MB
+Progress (2): 5.4/13 MB | 1.2/2.6 MB
+Progress (2): 5.4/13 MB | 1.2/2.6 MB
+Progress (2): 5.4/13 MB | 1.3/2.6 MB
+Progress (2): 5.4/13 MB | 1.3/2.6 MB
+Progress (2): 5.4/13 MB | 1.3/2.6 MB
+Progress (2): 5.5/13 MB | 1.3/2.6 MB
+Progress (2): 5.5/13 MB | 1.3/2.6 MB
+Progress (2): 5.5/13 MB | 1.3/2.6 MB
+Progress (2): 5.5/13 MB | 1.3/2.6 MB
+Progress (2): 5.6/13 MB | 1.3/2.6 MB
+Progress (2): 5.6/13 MB | 1.4/2.6 MB
+Progress (2): 5.6/13 MB | 1.4/2.6 MB
+Progress (2): 5.6/13 MB | 1.4/2.6 MB
+Progress (2): 5.6/13 MB | 1.4/2.6 MB
+Progress (2): 5.6/13 MB | 1.4/2.6 MB
+Progress (2): 5.6/13 MB | 1.4/2.6 MB
+Progress (2): 5.6/13 MB | 1.4/2.6 MB
+Progress (2): 5.6/13 MB | 1.5/2.6 MB
+Progress (2): 5.7/13 MB | 1.5/2.6 MB
+Progress (2): 5.7/13 MB | 1.5/2.6 MB
+Progress (2): 5.7/13 MB | 1.5/2.6 MB
+Progress (2): 5.8/13 MB | 1.5/2.6 MB
+Progress (2): 5.8/13 MB | 1.5/2.6 MB
+Progress (2): 5.8/13 MB | 1.5/2.6 MB
+Progress (2): 5.8/13 MB | 1.5/2.6 MB
+Progress (2): 5.8/13 MB | 1.5/2.6 MB
+Progress (2): 5.8/13 MB | 1.5/2.6 MB
+Progress (2): 5.8/13 MB | 1.6/2.6 MB
+Progress (2): 5.8/13 MB | 1.6/2.6 MB
+Progress (2): 5.8/13 MB | 1.6/2.6 MB
+Progress (2): 5.9/13 MB | 1.6/2.6 MB
+Progress (2): 5.9/13 MB | 1.6/2.6 MB
+Progress (2): 5.9/13 MB | 1.6/2.6 MB
+Progress (2): 5.9/13 MB | 1.6/2.6 MB
+Progress (2): 5.9/13 MB | 1.7/2.6 MB
+Progress (2): 6.0/13 MB | 1.7/2.6 MB
+Progress (2): 6.0/13 MB | 1.7/2.6 MB
+Progress (2): 6.0/13 MB | 1.7/2.6 MB
+Progress (2): 6.0/13 MB | 1.7/2.6 MB
+Progress (2): 6.0/13 MB | 1.7/2.6 MB
+Progress (2): 6.0/13 MB | 1.7/2.6 MB
+Progress (2): 6.0/13 MB | 1.7/2.6 MB
+Progress (2): 6.0/13 MB | 1.8/2.6 MB
+Progress (2): 6.1/13 MB | 1.8/2.6 MB
+Progress (2): 6.1/13 MB | 1.8/2.6 MB
+Progress (2): 6.1/13 MB | 1.8/2.6 MB
+Progress (2): 6.1/13 MB | 1.8/2.6 MB
+Progress (2): 6.2/13 MB | 1.8/2.6 MB
+Progress (2): 6.2/13 MB | 1.8/2.6 MB
+Progress (2): 6.2/13 MB | 1.8/2.6 MB
+Progress (2): 6.2/13 MB | 1.9/2.6 MB
+Progress (2): 6.2/13 MB | 1.9/2.6 MB
+Progress (2): 6.2/13 MB | 1.9/2.6 MB
+Progress (2): 6.2/13 MB | 1.9/2.6 MB
+Progress (2): 6.2/13 MB | 1.9/2.6 MB
+Progress (2): 6.3/13 MB | 1.9/2.6 MB
+Progress (2): 6.3/13 MB | 1.9/2.6 MB
+Progress (2): 6.3/13 MB | 1.9/2.6 MB
+Progress (2): 6.3/13 MB | 2.0/2.6 MB
+Progress (2): 6.3/13 MB | 2.0/2.6 MB
+Progress (2): 6.4/13 MB | 2.0/2.6 MB
+Progress (2): 6.4/13 MB | 2.0/2.6 MB
+Progress (2): 6.4/13 MB | 2.0/2.6 MB
+Progress (2): 6.4/13 MB | 2.0/2.6 MB
+Progress (2): 6.4/13 MB | 2.0/2.6 MB
+Progress (2): 6.4/13 MB | 2.0/2.6 MB
+Progress (2): 6.4/13 MB | 2.1/2.6 MB
+Progress (2): 6.4/13 MB | 2.1/2.6 MB
+Progress (2): 6.4/13 MB | 2.1/2.6 MB
+Progress (2): 6.5/13 MB | 2.1/2.6 MB
+Progress (2): 6.5/13 MB | 2.1/2.6 MB
+Progress (2): 6.5/13 MB | 2.1/2.6 MB
+Progress (2): 6.5/13 MB | 2.1/2.6 MB
+Progress (2): 6.6/13 MB | 2.1/2.6 MB
+Progress (2): 6.6/13 MB | 2.2/2.6 MB
+Progress (2): 6.6/13 MB | 2.2/2.6 MB
+Progress (2): 6.6/13 MB | 2.2/2.6 MB
+Progress (2): 6.6/13 MB | 2.2/2.6 MB
+Progress (2): 6.6/13 MB | 2.2/2.6 MB
+Progress (2): 6.6/13 MB | 2.2/2.6 MB
+Progress (2): 6.6/13 MB | 2.2/2.6 MB
+Progress (2): 6.6/13 MB | 2.3/2.6 MB
+Progress (2): 6.7/13 MB | 2.3/2.6 MB
+Progress (2): 6.7/13 MB | 2.3/2.6 MB
+Progress (2): 6.7/13 MB | 2.3/2.6 MB
+Progress (2): 6.7/13 MB | 2.3/2.6 MB
+Progress (2): 6.7/13 MB | 2.3/2.6 MB
+Progress (2): 6.8/13 MB | 2.3/2.6 MB
+Progress (2): 6.8/13 MB | 2.3/2.6 MB
+Progress (2): 6.8/13 MB | 2.4/2.6 MB
+Progress (2): 6.8/13 MB | 2.4/2.6 MB
+Progress (2): 6.8/13 MB | 2.4/2.6 MB
+Progress (2): 6.8/13 MB | 2.4/2.6 MB
+Progress (2): 6.8/13 MB | 2.4/2.6 MB
+Progress (2): 6.8/13 MB | 2.4/2.6 MB
+Progress (2): 6.8/13 MB | 2.4/2.6 MB
+Progress (2): 6.9/13 MB | 2.4/2.6 MB
+Progress (2): 6.9/13 MB | 2.5/2.6 MB
+Progress (2): 6.9/13 MB | 2.5/2.6 MB
+Progress (2): 6.9/13 MB | 2.5/2.6 MB
+Progress (2): 7.0/13 MB | 2.5/2.6 MB
+Progress (2): 7.0/13 MB | 2.5/2.6 MB
+Progress (2): 7.0/13 MB | 2.5/2.6 MB
+Progress (2): 7.0/13 MB | 2.5/2.6 MB
+Progress (2): 7.0/13 MB | 2.6/2.6 MB
+Progress (2): 7.0/13 MB | 2.6/2.6 MB
+Progress (2): 7.0/13 MB | 2.6/2.6 MB
+Progress (2): 7.0/13 MB | 2.6/2.6 MB
+Progress (2): 7.0/13 MB | 2.6/2.6 MB
+Progress (2): 7.0/13 MB | 2.6/2.6 MB
+Progress (2): 7.0/13 MB | 2.6/2.6 MB
+Progress (2): 7.0/13 MB | 2.6 MB    
+Progress (2): 7.1/13 MB | 2.6 MB
+Progress (2): 7.1/13 MB | 2.6 MB
+Progress (2): 7.2/13 MB | 2.6 MB
+Progress (2): 7.3/13 MB | 2.6 MB
+Progress (2): 7.3/13 MB | 2.6 MB
+Progress (2): 7.4/13 MB | 2.6 MB
+Progress (2): 7.5/13 MB | 2.6 MB
+                                
+Downloaded from central: https://repo.maven.apache.org/maven2/org/antlr/antlr4/4.9.3/antlr4-4.9.3.jar (2.6 MB at 14 MB/s)
+Progress (1): 7.5/13 MB
+Progress (1): 7.6/13 MB
+Progress (1): 7.7/13 MB
+Progress (1): 7.7/13 MB
+Progress (1): 7.8/13 MB
+Progress (1): 7.9/13 MB
+Progress (1): 7.9/13 MB
+Progress (1): 8.0/13 MB
+Progress (1): 8.1/13 MB
+Progress (1): 8.1/13 MB
+Progress (1): 8.2/13 MB
+Progress (1): 8.3/13 MB
+Progress (1): 8.3/13 MB
+Progress (1): 8.4/13 MB
+Progress (1): 8.5/13 MB
+Progress (1): 8.5/13 MB
+Progress (1): 8.6/13 MB
+Progress (1): 8.7/13 MB
+Progress (1): 8.7/13 MB
+Progress (1): 8.8/13 MB
+Progress (1): 8.9/13 MB
+Progress (1): 8.9/13 MB
+Progress (1): 9.0/13 MB
+Progress (1): 9.0/13 MB
+Progress (1): 9.1/13 MB
+Progress (1): 9.2/13 MB
+Progress (1): 9.2/13 MB
+Progress (1): 9.3/13 MB
+Progress (1): 9.4/13 MB
+Progress (1): 9.4/13 MB
+Progress (1): 9.5/13 MB
+Progress (1): 9.6/13 MB
+Progress (1): 9.6/13 MB
+Progress (1): 9.7/13 MB
+Progress (1): 9.8/13 MB
+Progress (1): 9.8/13 MB
+Progress (1): 9.9/13 MB
+Progress (1): 10.0/13 MB
+Progress (1): 10/13 MB  
+Progress (1): 10/13 MB
+Progress (1): 10/13 MB
+Progress (1): 10/13 MB
+Progress (1): 10/13 MB
+Progress (1): 10/13 MB
+Progress (1): 10/13 MB
+Progress (1): 10/13 MB
+Progress (1): 11/13 MB
+Progress (1): 11/13 MB
+Progress (1): 11/13 MB
+Progress (1): 11/13 MB
+Progress (1): 11/13 MB
+Progress (1): 11/13 MB
+Progress (1): 11/13 MB
+Progress (1): 11/13 MB
+Progress (1): 11/13 MB
+Progress (1): 11/13 MB
+Progress (1): 11/13 MB
+Progress (1): 11/13 MB
+Progress (1): 11/13 MB
+Progress (1): 11/13 MB
+Progress (1): 11/13 MB
+Progress (1): 12/13 MB
+Progress (1): 12/13 MB
+Progress (1): 12/13 MB
+Progress (1): 12/13 MB
+Progress (1): 12/13 MB
+Progress (1): 12/13 MB
+Progress (1): 12/13 MB
+Progress (1): 12/13 MB
+Progress (1): 12/13 MB
+Progress (1): 12/13 MB
+Progress (1): 12/13 MB
+Progress (1): 12/13 MB
+Progress (1): 12/13 MB
+Progress (1): 12/13 MB
+Progress (1): 12/13 MB
+Progress (1): 13/13 MB
+Progress (1): 13/13 MB
+Progress (1): 13/13 MB
+Progress (1): 13/13 MB
+Progress (1): 13/13 MB
+Progress (1): 13/13 MB
+Progress (1): 13/13 MB
+Progress (1): 13/13 MB
+Progress (1): 13/13 MB
+Progress (1): 13/13 MB
+Progress (1): 13/13 MB
+Progress (1): 13/13 MB
+Progress (1): 13/13 MB
+Progress (1): 13 MB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/com/ibm/icu/icu4j/69.1/icu4j-69.1.jar (13 MB at 49 MB/s)
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ safeplace ---
+[WARNING] Failure to transfer org.btrplace:scheduler-api:1.12.9-SNAPSHOT/maven-metadata.xml from https://oss.sonatype.org/service/local/staging/deploy/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of sonatype has elapsed or updates are forced. Original error: Could not transfer metadata org.btrplace:scheduler-api:1.12.9-SNAPSHOT/maven-metadata.xml from/to sonatype (https://oss.sonatype.org/service/local/staging/deploy/maven2): Authentication failed for https://oss.sonatype.org/service/local/staging/deploy/maven2/org/btrplace/scheduler-api/1.12.9-SNAPSHOT/maven-metadata.xml 401 Unauthorized
+[WARNING] Failure to transfer org.btrplace:scheduler-json:1.12.9-SNAPSHOT/maven-metadata.xml from https://oss.sonatype.org/service/local/staging/deploy/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of sonatype has elapsed or updates are forced. Original error: Could not transfer metadata org.btrplace:scheduler-json:1.12.9-SNAPSHOT/maven-metadata.xml from/to sonatype (https://oss.sonatype.org/service/local/staging/deploy/maven2): Authentication failed for https://oss.sonatype.org/service/local/staging/deploy/maven2/org/btrplace/scheduler-json/1.12.9-SNAPSHOT/maven-metadata.xml 401 Unauthorized
+[WARNING] Failure to transfer org.btrplace:scheduler-choco:1.12.9-SNAPSHOT/maven-metadata.xml from https://oss.sonatype.org/service/local/staging/deploy/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of sonatype has elapsed or updates are forced. Original error: Could not transfer metadata org.btrplace:scheduler-choco:1.12.9-SNAPSHOT/maven-metadata.xml from/to sonatype (https://oss.sonatype.org/service/local/staging/deploy/maven2): Authentication failed for https://oss.sonatype.org/service/local/staging/deploy/maven2/org/btrplace/scheduler-choco/1.12.9-SNAPSHOT/maven-metadata.xml 401 Unauthorized
+[INFO] org.btrplace:safeplace:jar:1.12.9-SNAPSHOT
+[INFO] +- io.github.lukehutch:fast-classpath-scanner:jar:2.9.3:compile
+[INFO] +- org.antlr:antlr4-maven-plugin:jar:4.9.3:compile
+[INFO] |  +- org.apache.maven:maven-plugin-api:jar:3.0.5:compile
+[INFO] |  |  +- org.apache.maven:maven-model:jar:3.0.5:compile
+[INFO] |  |  +- org.apache.maven:maven-artifact:jar:3.0.5:compile
+[INFO] |  |  \- org.sonatype.sisu:sisu-inject-plexus:jar:2.3.0:compile
+[INFO] |  |     +- org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:compile
+[INFO] |  |     +- org.codehaus.plexus:plexus-classworlds:jar:2.4:compile
+[INFO] |  |     \- org.sonatype.sisu:sisu-inject-bean:jar:2.3.0:compile
+[INFO] |  |        \- org.sonatype.sisu:sisu-guice:jar:no_aop:3.1.0:compile
+[INFO] |  |           \- org.sonatype.sisu:sisu-guava:jar:0.9.9:compile
+[INFO] |  +- org.codehaus.plexus:plexus-compiler-api:jar:2.2:compile
+[INFO] |  |  \- org.codehaus.plexus:plexus-utils:jar:3.0.8:compile
+[INFO] |  +- org.sonatype.plexus:plexus-build-api:jar:0.0.7:compile
+[INFO] |  +- org.antlr:antlr4:jar:4.9.3:compile
+[INFO] |  |  +- org.antlr:antlr-runtime:jar:3.5.2:compile
+[INFO] |  |  +- org.antlr:ST4:jar:4.3.1:compile
+[INFO] |  |  +- org.abego.treelayout:org.abego.treelayout.core:jar:1.0.3:compile
+[INFO] |  |  +- org.glassfish:javax.json:jar:1.0.4:compile
+[INFO] |  |  \- com.ibm.icu:icu4j:jar:69.1:compile
+[INFO] |  \- org.apache.maven:maven-project:jar:2.2.1:compile
+[INFO] |     +- org.apache.maven:maven-settings:jar:2.2.1:compile
+[INFO] |     +- org.apache.maven:maven-profile:jar:2.2.1:compile
+[INFO] |     +- org.apache.maven:maven-artifact-manager:jar:2.2.1:compile
+[INFO] |     |  +- org.apache.maven:maven-repository-metadata:jar:2.2.1:compile
+[INFO] |     |  +- org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-6:compile
+[INFO] |     |  \- backport-util-concurrent:backport-util-concurrent:jar:3.1:compile
+[INFO] |     +- org.apache.maven:maven-plugin-registry:jar:2.2.1:compile
+[INFO] |     +- org.codehaus.plexus:plexus-interpolation:jar:1.11:compile
+[INFO] |     \- org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[INFO] |        +- junit:junit:jar:3.8.1:compile
+[INFO] |        \- classworlds:classworlds:jar:1.1-alpha-2:compile
+[INFO] +- org.antlr:antlr4-runtime:jar:4.9.3:compile
+[INFO] +- org.btrplace:scheduler-api:jar:1.12.9-SNAPSHOT:compile
+[INFO] |  \- net.sf.trove4j:trove4j:jar:3.0.3:compile
+[INFO] +- org.btrplace:scheduler-json:jar:1.12.9-SNAPSHOT:compile
+[INFO] |  \- net.minidev:json-smart:jar:2.4.8:compile
+[INFO] |     \- net.minidev:accessors-smart:jar:2.4.8:compile
+[INFO] |        \- org.ow2.asm:asm:jar:9.1:compile
+[INFO] +- org.btrplace:scheduler-choco:jar:1.12.9-SNAPSHOT:compile
+[INFO] |  \- org.choco-solver:choco-solver:jar:4.10.8:compile
+[INFO] |     +- dk.brics.automaton:automaton:jar:1.11-8:compile
+[INFO] |     +- org.jgrapht:jgrapht-core:jar:1.4.0:compile
+[INFO] |     |  \- org.jheaps:jheaps:jar:0.11:compile
+[INFO] |     +- com.github.cp-profiler:cpprof-java:jar:1.3.0:compile
+[INFO] |     |  \- com.google.protobuf:protobuf-java:jar:2.6.1:compile
+[INFO] |     \- org.knowm.xchart:xchart:jar:3.8.1:compile
+[INFO] |        +- de.erichseifert.vectorgraphics2d:VectorGraphics2D:jar:0.13:compile
+[INFO] |        +- de.rototor.pdfbox:graphics2d:jar:0.32:compile
+[INFO] |        |  \- org.apache.pdfbox:pdfbox:jar:2.0.24:compile
+[INFO] |        |     +- org.apache.pdfbox:fontbox:jar:2.0.24:compile
+[INFO] |        |     \- commons-logging:commons-logging:jar:1.2:compile
+[INFO] |        \- com.madgag:animated-gif-lib:jar:1.4:compile
+[INFO] +- org.testng:testng:jar:7.5:compile
+[INFO] |  +- com.google.code.findbugs:jsr305:jar:3.0.1:compile
+[INFO] |  +- com.beust:jcommander:jar:1.78:compile
+[INFO] |  \- org.webjars:jquery:jar:3.5.1:runtime
+[INFO] +- com.github.javaparser:javaparser-core:jar:3.24.4:compile
+[INFO] +- org.slf4j:slf4j-api:jar:2.0.6:compile
+[INFO] +- org.mockito:mockito-core:jar:4.9.0:test
+[INFO] |  +- net.bytebuddy:byte-buddy:jar:1.12.16:test
+[INFO] |  +- net.bytebuddy:byte-buddy-agent:jar:1.12.16:test
+[INFO] |  \- org.objenesis:objenesis:jar:3.3:test
+[INFO] +- org.openjdk.jmh:jmh-core:jar:1.36:test
+[INFO] |  +- net.sf.jopt-simple:jopt-simple:jar:5.0.4:test
+[INFO] |  \- org.apache.commons:commons-math3:jar:3.2:test
+[INFO] \- org.openjdk.jmh:jmh-generator-annprocess:jar:1.36:test
+[INFO] 
+[INFO] -------------------------< org.btrplace:bench >-------------------------
+[INFO] Building bench 1.12.9-SNAPSHOT                                     [8/9]
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from sonatype: https://oss.sonatype.org/service/local/staging/deploy/maven2/org/btrplace/btrpsl/1.12.9-SNAPSHOT/maven-metadata.xml
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/org/btrplace/btrpsl/1.12.9-SNAPSHOT/maven-metadata.xml
+Progress (1): 2.0 kB
+                    
+Downloaded from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/org/btrplace/btrpsl/1.12.9-SNAPSHOT/maven-metadata.xml (2.0 kB at 7.4 kB/s)
+[WARNING] Could not transfer metadata org.btrplace:btrpsl:1.12.9-SNAPSHOT/maven-metadata.xml from/to sonatype (https://oss.sonatype.org/service/local/staging/deploy/maven2): Authentication failed for https://oss.sonatype.org/service/local/staging/deploy/maven2/org/btrplace/btrpsl/1.12.9-SNAPSHOT/maven-metadata.xml 401 Unauthorized
+[WARNING] Failure to transfer org.btrplace:scheduler-api:1.12.9-SNAPSHOT/maven-metadata.xml from https://oss.sonatype.org/service/local/staging/deploy/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of sonatype has elapsed or updates are forced. Original error: Could not transfer metadata org.btrplace:scheduler-api:1.12.9-SNAPSHOT/maven-metadata.xml from/to sonatype (https://oss.sonatype.org/service/local/staging/deploy/maven2): Authentication failed for https://oss.sonatype.org/service/local/staging/deploy/maven2/org/btrplace/scheduler-api/1.12.9-SNAPSHOT/maven-metadata.xml 401 Unauthorized
+[WARNING] Failure to transfer org.btrplace:scheduler-json:1.12.9-SNAPSHOT/maven-metadata.xml from https://oss.sonatype.org/service/local/staging/deploy/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of sonatype has elapsed or updates are forced. Original error: Could not transfer metadata org.btrplace:scheduler-json:1.12.9-SNAPSHOT/maven-metadata.xml from/to sonatype (https://oss.sonatype.org/service/local/staging/deploy/maven2): Authentication failed for https://oss.sonatype.org/service/local/staging/deploy/maven2/org/btrplace/scheduler-json/1.12.9-SNAPSHOT/maven-metadata.xml 401 Unauthorized
+[WARNING] Failure to transfer org.btrplace:scheduler-choco:1.12.9-SNAPSHOT/maven-metadata.xml from https://oss.sonatype.org/service/local/staging/deploy/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of sonatype has elapsed or updates are forced. Original error: Could not transfer metadata org.btrplace:scheduler-choco:1.12.9-SNAPSHOT/maven-metadata.xml from/to sonatype (https://oss.sonatype.org/service/local/staging/deploy/maven2): Authentication failed for https://oss.sonatype.org/service/local/staging/deploy/maven2/org/btrplace/scheduler-choco/1.12.9-SNAPSHOT/maven-metadata.xml 401 Unauthorized
+[WARNING] Failure to transfer org.btrplace:btrpsl:1.12.9-SNAPSHOT/maven-metadata.xml from https://oss.sonatype.org/service/local/staging/deploy/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of sonatype has elapsed or updates are forced. Original error: Could not transfer metadata org.btrplace:btrpsl:1.12.9-SNAPSHOT/maven-metadata.xml from/to sonatype (https://oss.sonatype.org/service/local/staging/deploy/maven2): Authentication failed for https://oss.sonatype.org/service/local/staging/deploy/maven2/org/btrplace/btrpsl/1.12.9-SNAPSHOT/maven-metadata.xml 401 Unauthorized
+Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/org/btrplace/btrpsl/1.12.9-SNAPSHOT/btrpsl-1.12.9-20230918.054149-187.jar
+Progress (1): 4.1/193 kB
+Progress (1): 7.8/193 kB
+Progress (1): 12/193 kB 
+Progress (1): 16/193 kB
+Progress (1): 20/193 kB
+Progress (1): 24/193 kB
+Progress (1): 28/193 kB
+Progress (1): 32/193 kB
+Progress (1): 37/193 kB
+Progress (1): 41/193 kB
+Progress (1): 45/193 kB
+Progress (1): 49/193 kB
+Progress (1): 53/193 kB
+Progress (1): 57/193 kB
+Progress (1): 61/193 kB
+Progress (1): 65/193 kB
+Progress (1): 69/193 kB
+Progress (1): 73/193 kB
+Progress (1): 77/193 kB
+Progress (1): 82/193 kB
+Progress (1): 86/193 kB
+Progress (1): 88/193 kB
+Progress (1): 92/193 kB
+Progress (1): 96/193 kB
+Progress (1): 100/193 kB
+Progress (1): 104/193 kB
+Progress (1): 108/193 kB
+Progress (1): 113/193 kB
+Progress (1): 117/193 kB
+Progress (1): 121/193 kB
+Progress (1): 125/193 kB
+Progress (1): 129/193 kB
+Progress (1): 133/193 kB
+Progress (1): 137/193 kB
+Progress (1): 141/193 kB
+Progress (1): 145/193 kB
+Progress (1): 149/193 kB
+Progress (1): 154/193 kB
+Progress (1): 158/193 kB
+Progress (1): 162/193 kB
+Progress (1): 166/193 kB
+Progress (1): 170/193 kB
+Progress (1): 174/193 kB
+Progress (1): 178/193 kB
+Progress (1): 182/193 kB
+Progress (1): 186/193 kB
+Progress (1): 190/193 kB
+Progress (1): 193 kB    
+                    
+Downloaded from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/org/btrplace/btrpsl/1.12.9-SNAPSHOT/btrpsl-1.12.9-20230918.054149-187.jar (193 kB at 490 kB/s)
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ bench ---
+[WARNING] Failure to transfer org.btrplace:scheduler-api:1.12.9-SNAPSHOT/maven-metadata.xml from https://oss.sonatype.org/service/local/staging/deploy/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of sonatype has elapsed or updates are forced. Original error: Could not transfer metadata org.btrplace:scheduler-api:1.12.9-SNAPSHOT/maven-metadata.xml from/to sonatype (https://oss.sonatype.org/service/local/staging/deploy/maven2): Authentication failed for https://oss.sonatype.org/service/local/staging/deploy/maven2/org/btrplace/scheduler-api/1.12.9-SNAPSHOT/maven-metadata.xml 401 Unauthorized
+[WARNING] Failure to transfer org.btrplace:scheduler-json:1.12.9-SNAPSHOT/maven-metadata.xml from https://oss.sonatype.org/service/local/staging/deploy/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of sonatype has elapsed or updates are forced. Original error: Could not transfer metadata org.btrplace:scheduler-json:1.12.9-SNAPSHOT/maven-metadata.xml from/to sonatype (https://oss.sonatype.org/service/local/staging/deploy/maven2): Authentication failed for https://oss.sonatype.org/service/local/staging/deploy/maven2/org/btrplace/scheduler-json/1.12.9-SNAPSHOT/maven-metadata.xml 401 Unauthorized
+[WARNING] Failure to transfer org.btrplace:scheduler-choco:1.12.9-SNAPSHOT/maven-metadata.xml from https://oss.sonatype.org/service/local/staging/deploy/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of sonatype has elapsed or updates are forced. Original error: Could not transfer metadata org.btrplace:scheduler-choco:1.12.9-SNAPSHOT/maven-metadata.xml from/to sonatype (https://oss.sonatype.org/service/local/staging/deploy/maven2): Authentication failed for https://oss.sonatype.org/service/local/staging/deploy/maven2/org/btrplace/scheduler-choco/1.12.9-SNAPSHOT/maven-metadata.xml 401 Unauthorized
+[WARNING] Failure to transfer org.btrplace:btrpsl:1.12.9-SNAPSHOT/maven-metadata.xml from https://oss.sonatype.org/service/local/staging/deploy/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of sonatype has elapsed or updates are forced. Original error: Could not transfer metadata org.btrplace:btrpsl:1.12.9-SNAPSHOT/maven-metadata.xml from/to sonatype (https://oss.sonatype.org/service/local/staging/deploy/maven2): Authentication failed for https://oss.sonatype.org/service/local/staging/deploy/maven2/org/btrplace/btrpsl/1.12.9-SNAPSHOT/maven-metadata.xml 401 Unauthorized
+[INFO] org.btrplace:bench:jar:1.12.9-SNAPSHOT
+[INFO] +- org.btrplace:scheduler-api:jar:1.12.9-SNAPSHOT:compile
+[INFO] |  \- net.sf.trove4j:trove4j:jar:3.0.3:compile
+[INFO] +- org.btrplace:scheduler-json:jar:1.12.9-SNAPSHOT:compile
+[INFO] |  \- net.minidev:json-smart:jar:2.4.8:compile
+[INFO] |     \- net.minidev:accessors-smart:jar:2.4.8:compile
+[INFO] |        \- org.ow2.asm:asm:jar:9.1:compile
+[INFO] +- org.btrplace:scheduler-choco:jar:1.12.9-SNAPSHOT:compile
+[INFO] |  \- org.choco-solver:choco-solver:jar:4.10.8:compile
+[INFO] |     +- dk.brics.automaton:automaton:jar:1.11-8:compile
+[INFO] |     +- org.jgrapht:jgrapht-core:jar:1.4.0:compile
+[INFO] |     |  \- org.jheaps:jheaps:jar:0.11:compile
+[INFO] |     +- com.github.cp-profiler:cpprof-java:jar:1.3.0:compile
+[INFO] |     |  \- com.google.protobuf:protobuf-java:jar:2.6.1:compile
+[INFO] |     \- org.knowm.xchart:xchart:jar:3.8.1:compile
+[INFO] |        +- de.erichseifert.vectorgraphics2d:VectorGraphics2D:jar:0.13:compile
+[INFO] |        +- de.rototor.pdfbox:graphics2d:jar:0.32:compile
+[INFO] |        |  \- org.apache.pdfbox:pdfbox:jar:2.0.24:compile
+[INFO] |        |     +- org.apache.pdfbox:fontbox:jar:2.0.24:compile
+[INFO] |        |     \- commons-logging:commons-logging:jar:1.2:compile
+[INFO] |        \- com.madgag:animated-gif-lib:jar:1.4:compile
+[INFO] +- org.btrplace:btrpsl:jar:1.12.9-SNAPSHOT:compile
+[INFO] |  \- org.antlr:antlr:jar:3.5.3:compile
+[INFO] |     +- org.antlr:antlr-runtime:jar:3.5.3:compile
+[INFO] |     \- org.antlr:ST4:jar:4.3.1:compile
+[INFO] +- commons-io:commons-io:jar:2.11.0:compile
+[INFO] +- args4j:args4j:jar:2.33:compile
+[INFO] +- org.testng:testng:jar:7.5:test
+[INFO] |  +- com.google.code.findbugs:jsr305:jar:3.0.1:test
+[INFO] |  +- com.beust:jcommander:jar:1.78:test
+[INFO] |  \- org.webjars:jquery:jar:3.5.1:test
+[INFO] +- org.slf4j:slf4j-api:jar:2.0.6:compile
+[INFO] +- org.mockito:mockito-core:jar:4.9.0:test
+[INFO] |  +- net.bytebuddy:byte-buddy:jar:1.12.16:test
+[INFO] |  +- net.bytebuddy:byte-buddy-agent:jar:1.12.16:test
+[INFO] |  \- org.objenesis:objenesis:jar:3.3:test
+[INFO] +- org.openjdk.jmh:jmh-core:jar:1.36:test
+[INFO] |  +- net.sf.jopt-simple:jopt-simple:jar:5.0.4:test
+[INFO] |  \- org.apache.commons:commons-math3:jar:3.2:test
+[INFO] \- org.openjdk.jmh:jmh-generator-annprocess:jar:1.36:test
+[INFO] 
+[INFO] -------------------------< org.btrplace:split >-------------------------
+[INFO] Building scheduler-split 1.12.9-SNAPSHOT                           [9/9]
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] Failure to transfer org.btrplace:scheduler-api:1.12.9-SNAPSHOT/maven-metadata.xml from https://oss.sonatype.org/service/local/staging/deploy/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of sonatype has elapsed or updates are forced. Original error: Could not transfer metadata org.btrplace:scheduler-api:1.12.9-SNAPSHOT/maven-metadata.xml from/to sonatype (https://oss.sonatype.org/service/local/staging/deploy/maven2): Authentication failed for https://oss.sonatype.org/service/local/staging/deploy/maven2/org/btrplace/scheduler-api/1.12.9-SNAPSHOT/maven-metadata.xml 401 Unauthorized
+[WARNING] Failure to transfer org.btrplace:scheduler-choco:1.12.9-SNAPSHOT/maven-metadata.xml from https://oss.sonatype.org/service/local/staging/deploy/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of sonatype has elapsed or updates are forced. Original error: Could not transfer metadata org.btrplace:scheduler-choco:1.12.9-SNAPSHOT/maven-metadata.xml from/to sonatype (https://oss.sonatype.org/service/local/staging/deploy/maven2): Authentication failed for https://oss.sonatype.org/service/local/staging/deploy/maven2/org/btrplace/scheduler-choco/1.12.9-SNAPSHOT/maven-metadata.xml 401 Unauthorized
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ split ---
+[WARNING] Failure to transfer org.btrplace:scheduler-api:1.12.9-SNAPSHOT/maven-metadata.xml from https://oss.sonatype.org/service/local/staging/deploy/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of sonatype has elapsed or updates are forced. Original error: Could not transfer metadata org.btrplace:scheduler-api:1.12.9-SNAPSHOT/maven-metadata.xml from/to sonatype (https://oss.sonatype.org/service/local/staging/deploy/maven2): Authentication failed for https://oss.sonatype.org/service/local/staging/deploy/maven2/org/btrplace/scheduler-api/1.12.9-SNAPSHOT/maven-metadata.xml 401 Unauthorized
+[WARNING] Failure to transfer org.btrplace:scheduler-choco:1.12.9-SNAPSHOT/maven-metadata.xml from https://oss.sonatype.org/service/local/staging/deploy/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of sonatype has elapsed or updates are forced. Original error: Could not transfer metadata org.btrplace:scheduler-choco:1.12.9-SNAPSHOT/maven-metadata.xml from/to sonatype (https://oss.sonatype.org/service/local/staging/deploy/maven2): Authentication failed for https://oss.sonatype.org/service/local/staging/deploy/maven2/org/btrplace/scheduler-choco/1.12.9-SNAPSHOT/maven-metadata.xml 401 Unauthorized
+[INFO] org.btrplace:split:jar:1.12.9-SNAPSHOT
+[INFO] +- org.btrplace:scheduler-api:jar:1.12.9-SNAPSHOT:compile
+[INFO] +- org.btrplace:scheduler-choco:jar:1.12.9-SNAPSHOT:compile
+[INFO] |  \- org.choco-solver:choco-solver:jar:4.10.8:compile
+[INFO] |     +- dk.brics.automaton:automaton:jar:1.11-8:compile
+[INFO] |     +- org.jgrapht:jgrapht-core:jar:1.4.0:compile
+[INFO] |     |  \- org.jheaps:jheaps:jar:0.11:compile
+[INFO] |     +- com.github.cp-profiler:cpprof-java:jar:1.3.0:compile
+[INFO] |     |  \- com.google.protobuf:protobuf-java:jar:2.6.1:compile
+[INFO] |     \- org.knowm.xchart:xchart:jar:3.8.1:compile
+[INFO] |        +- de.erichseifert.vectorgraphics2d:VectorGraphics2D:jar:0.13:compile
+[INFO] |        +- de.rototor.pdfbox:graphics2d:jar:0.32:compile
+[INFO] |        |  \- org.apache.pdfbox:pdfbox:jar:2.0.24:compile
+[INFO] |        |     +- org.apache.pdfbox:fontbox:jar:2.0.24:compile
+[INFO] |        |     \- commons-logging:commons-logging:jar:1.2:compile
+[INFO] |        \- com.madgag:animated-gif-lib:jar:1.4:compile
+[INFO] +- net.sf.trove4j:trove4j:jar:3.0.3:compile
+[INFO] +- org.testng:testng:jar:7.5:test
+[INFO] |  +- com.google.code.findbugs:jsr305:jar:3.0.1:test
+[INFO] |  +- com.beust:jcommander:jar:1.78:test
+[INFO] |  \- org.webjars:jquery:jar:3.5.1:test
+[INFO] +- org.slf4j:slf4j-api:jar:2.0.6:compile
+[INFO] +- org.mockito:mockito-core:jar:4.9.0:test
+[INFO] |  +- net.bytebuddy:byte-buddy:jar:1.12.16:test
+[INFO] |  +- net.bytebuddy:byte-buddy-agent:jar:1.12.16:test
+[INFO] |  \- org.objenesis:objenesis:jar:3.3:test
+[INFO] +- org.openjdk.jmh:jmh-core:jar:1.36:test
+[INFO] |  +- net.sf.jopt-simple:jopt-simple:jar:5.0.4:test
+[INFO] |  \- org.apache.commons:commons-math3:jar:3.2:test
+[INFO] \- org.openjdk.jmh:jmh-generator-annprocess:jar:1.36:test
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for scheduler 1.12.9-SNAPSHOT:
+[INFO] 
+[INFO] scheduler .......................................... SUCCESS [  0.335 s]
+[INFO] scheduler-api ...................................... SUCCESS [  0.011 s]
+[INFO] scheduler-json ..................................... SUCCESS [  2.144 s]
+[INFO] scheduler-choco .................................... SUCCESS [  4.443 s]
+[INFO] scheduler-examples ................................. SUCCESS [  1.365 s]
+[INFO] btrpsl ............................................. SUCCESS [  1.033 s]
+[INFO] safeplace .......................................... SUCCESS [  2.632 s]
+[INFO] bench .............................................. SUCCESS [  0.709 s]
+[INFO] scheduler-split .................................... SUCCESS [  0.012 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  13.397 s
+[INFO] Finished at: 2023-09-25T21:08:18Z
+[INFO] ------------------------------------------------------------------------

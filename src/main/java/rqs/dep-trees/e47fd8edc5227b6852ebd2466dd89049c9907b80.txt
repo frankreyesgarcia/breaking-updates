@@ -1,0 +1,777 @@
+[INFO] Scanning for projects...
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-parent/2.7.10/spring-boot-starter-parent-2.7.10.pom
+Progress (1): 2.7/9.2 kB
+Progress (1): 5.5/9.2 kB
+Progress (1): 8.2/9.2 kB
+Progress (1): 9.2 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-parent/2.7.10/spring-boot-starter-parent-2.7.10.pom (9.2 kB at 59 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-dependencies/2.7.10/spring-boot-dependencies-2.7.10.pom
+Progress (1): 2.7/110 kB
+Progress (1): 5.5/110 kB
+Progress (1): 8.2/110 kB
+Progress (1): 11/110 kB 
+Progress (1): 14/110 kB
+Progress (1): 16/110 kB
+Progress (1): 20/110 kB
+Progress (1): 24/110 kB
+Progress (1): 28/110 kB
+Progress (1): 32/110 kB
+Progress (1): 36/110 kB
+Progress (1): 40/110 kB
+Progress (1): 44/110 kB
+Progress (1): 49/110 kB
+Progress (1): 53/110 kB
+Progress (1): 57/110 kB
+Progress (1): 61/110 kB
+Progress (1): 65/110 kB
+Progress (1): 69/110 kB
+Progress (1): 73/110 kB
+Progress (1): 77/110 kB
+Progress (1): 81/110 kB
+Progress (1): 85/110 kB
+Progress (1): 90/110 kB
+Progress (1): 94/110 kB
+Progress (1): 98/110 kB
+Progress (1): 102/110 kB
+Progress (1): 106/110 kB
+Progress (1): 110/110 kB
+Progress (1): 110 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-dependencies/2.7.10/spring-boot-dependencies-2.7.10.pom (110 kB at 2.4 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/dropwizard/metrics/metrics-bom/4.2.18/metrics-bom-4.2.18.pom
+Progress (1): 4.1/7.5 kB
+Progress (1): 7.5 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/io/dropwizard/metrics/metrics-bom/4.2.18/metrics-bom-4.2.18.pom (7.5 kB at 503 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/dropwizard/metrics/metrics-parent/4.2.18/metrics-parent-4.2.18.pom
+Progress (1): 4.1/20 kB
+Progress (1): 8.2/20 kB
+Progress (1): 12/20 kB 
+Progress (1): 16/20 kB
+Progress (1): 20 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/io/dropwizard/metrics/metrics-parent/4.2.18/metrics-parent-4.2.18.pom (20 kB at 568 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/groovy/groovy-bom/3.0.16/groovy-bom-3.0.16.pom
+Progress (1): 4.1/26 kB
+Progress (1): 8.2/26 kB
+Progress (1): 12/26 kB 
+Progress (1): 16/26 kB
+Progress (1): 20/26 kB
+Progress (1): 25/26 kB
+Progress (1): 26 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/groovy/groovy-bom/3.0.16/groovy-bom-3.0.16.pom (26 kB at 1.8 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/infinispan/infinispan-bom/13.0.15.Final/infinispan-bom-13.0.15.Final.pom
+Progress (1): 4.1/18 kB
+Progress (1): 8.2/18 kB
+Progress (1): 12/18 kB 
+Progress (1): 16/18 kB
+Progress (1): 18 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/infinispan/infinispan-bom/13.0.15.Final/infinispan-bom-13.0.15.Final.pom (18 kB at 1.1 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/infinispan/infinispan-build-configuration-parent/13.0.15.Final/infinispan-build-configuration-parent-13.0.15.Final.pom
+Progress (1): 4.1/16 kB
+Progress (1): 8.2/16 kB
+Progress (1): 12/16 kB 
+Progress (1): 16 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/infinispan/infinispan-build-configuration-parent/13.0.15.Final/infinispan-build-configuration-parent-13.0.15.Final.pom (16 kB at 1.1 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/micrometer/micrometer-bom/1.9.9/micrometer-bom-1.9.9.pom
+Progress (1): 4.1/7.1 kB
+Progress (1): 7.1 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/io/micrometer/micrometer-bom/1.9.9/micrometer-bom-1.9.9.pom (7.1 kB at 416 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-bom/4.1.90.Final/netty-bom-4.1.90.Final.pom
+Progress (1): 4.1/13 kB
+Progress (1): 8.2/13 kB
+Progress (1): 12/13 kB 
+Progress (1): 13 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-bom/4.1.90.Final/netty-bom-4.1.90.Final.pom (13 kB at 1.5 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/projectreactor/reactor-bom/2020.0.30/reactor-bom-2020.0.30.pom
+Progress (1): 4.1/4.6 kB
+Progress (1): 4.6 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/io/projectreactor/reactor-bom/2020.0.30/reactor-bom-2020.0.30.pom (4.6 kB at 460 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-bom/2021.2.10/spring-data-bom-2021.2.10.pom
+Progress (1): 4.1/5.7 kB
+Progress (1): 5.7 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-bom/2021.2.10/spring-data-bom-2021.2.10.pom (5.7 kB at 570 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-framework-bom/5.3.26/spring-framework-bom-5.3.26.pom
+Progress (1): 4.1/5.7 kB
+Progress (1): 5.7 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-framework-bom/5.3.26/spring-framework-bom-5.3.26.pom (5.7 kB at 257 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/integration/spring-integration-bom/5.5.17/spring-integration-bom-5.5.17.pom
+Progress (1): 4.1/9.2 kB
+Progress (1): 8.2/9.2 kB
+Progress (1): 9.2 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/integration/spring-integration-bom/5.5.17/spring-integration-bom-5.5.17.pom (9.2 kB at 367 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-bom/5.7.7/spring-security-bom-5.7.7.pom
+Progress (1): 4.1/5.7 kB
+Progress (1): 5.7 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-bom/5.7.7/spring-security-bom-5.7.7.pom (5.7 kB at 259 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/session/spring-session-bom/2021.2.1/spring-session-bom-2021.2.1.pom
+Progress (1): 3.1 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/session/spring-session-bom/2021.2.1/spring-session-bom-2021.2.1.pom (3.1 kB at 43 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-maven-plugin/2.7.9/spring-boot-maven-plugin-2.7.9.pom
+Progress (1): 3.0 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-maven-plugin/2.7.9/spring-boot-maven-plugin-2.7.9.pom (3.0 kB at 275 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-maven-plugin/2.7.9/spring-boot-maven-plugin-2.7.9.jar
+Progress (1): 4.1/107 kB
+Progress (1): 8.2/107 kB
+Progress (1): 12/107 kB 
+Progress (1): 16/107 kB
+Progress (1): 20/107 kB
+Progress (1): 25/107 kB
+Progress (1): 29/107 kB
+Progress (1): 33/107 kB
+Progress (1): 37/107 kB
+Progress (1): 41/107 kB
+Progress (1): 45/107 kB
+Progress (1): 49/107 kB
+Progress (1): 53/107 kB
+Progress (1): 57/107 kB
+Progress (1): 61/107 kB
+Progress (1): 66/107 kB
+Progress (1): 70/107 kB
+Progress (1): 74/107 kB
+Progress (1): 78/107 kB
+Progress (1): 82/107 kB
+Progress (1): 86/107 kB
+Progress (1): 90/107 kB
+Progress (1): 94/107 kB
+Progress (1): 98/107 kB
+Progress (1): 102/107 kB
+Progress (1): 106/107 kB
+Progress (1): 107 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-maven-plugin/2.7.9/spring-boot-maven-plugin-2.7.9.jar (107 kB at 4.0 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/github/spotbugs/spotbugs-maven-plugin/4.7.3.2/spotbugs-maven-plugin-4.7.3.2.pom
+Progress (1): 4.1/34 kB
+Progress (1): 8.2/34 kB
+Progress (1): 12/34 kB 
+Progress (1): 16/34 kB
+Progress (1): 20/34 kB
+Progress (1): 24/34 kB
+Progress (1): 28/34 kB
+Progress (1): 32/34 kB
+Progress (1): 34 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/com/github/spotbugs/spotbugs-maven-plugin/4.7.3.2/spotbugs-maven-plugin-4.7.3.2.pom (34 kB at 3.4 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/github/hazendaz/base-parent/38/base-parent-38.pom
+Progress (1): 4.1/89 kB
+Progress (1): 8.2/89 kB
+Progress (1): 12/89 kB 
+Progress (1): 16/89 kB
+Progress (1): 20/89 kB
+Progress (1): 25/89 kB
+Progress (1): 29/89 kB
+Progress (1): 33/89 kB
+Progress (1): 37/89 kB
+Progress (1): 41/89 kB
+Progress (1): 45/89 kB
+Progress (1): 49/89 kB
+Progress (1): 53/89 kB
+Progress (1): 57/89 kB
+Progress (1): 61/89 kB
+Progress (1): 66/89 kB
+Progress (1): 70/89 kB
+Progress (1): 74/89 kB
+Progress (1): 78/89 kB
+Progress (1): 82/89 kB
+Progress (1): 86/89 kB
+Progress (1): 89 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/com/github/hazendaz/base-parent/38/base-parent-38.pom (89 kB at 4.1 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-bom/9.4/asm-bom-9.4.pom
+Progress (1): 3.2 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-bom/9.4/asm-bom-9.4.pom (3.2 kB at 358 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/groovy/groovy-bom/4.0.7/groovy-bom-4.0.7.pom
+Progress (1): 4.1/27 kB
+Progress (1): 8.2/27 kB
+Progress (1): 12/27 kB 
+Progress (1): 16/27 kB
+Progress (1): 20/27 kB
+Progress (1): 25/27 kB
+Progress (1): 27 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/groovy/groovy-bom/4.0.7/groovy-bom-4.0.7.pom (27 kB at 2.1 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/github/spotbugs/spotbugs-maven-plugin/4.7.3.2/spotbugs-maven-plugin-4.7.3.2.jar
+Progress (1): 4.1/161 kB
+Progress (1): 8.2/161 kB
+Progress (1): 12/161 kB 
+Progress (1): 16/161 kB
+Progress (1): 20/161 kB
+Progress (1): 24/161 kB
+Progress (1): 28/161 kB
+Progress (1): 32/161 kB
+Progress (1): 36/161 kB
+Progress (1): 40/161 kB
+Progress (1): 44/161 kB
+Progress (1): 49/161 kB
+Progress (1): 53/161 kB
+Progress (1): 57/161 kB
+Progress (1): 61/161 kB
+Progress (1): 65/161 kB
+Progress (1): 69/161 kB
+Progress (1): 73/161 kB
+Progress (1): 77/161 kB
+Progress (1): 81/161 kB
+Progress (1): 85/161 kB
+Progress (1): 90/161 kB
+Progress (1): 94/161 kB
+Progress (1): 98/161 kB
+Progress (1): 102/161 kB
+Progress (1): 106/161 kB
+Progress (1): 110/161 kB
+Progress (1): 114/161 kB
+Progress (1): 118/161 kB
+Progress (1): 122/161 kB
+Progress (1): 126/161 kB
+Progress (1): 131/161 kB
+Progress (1): 135/161 kB
+Progress (1): 139/161 kB
+Progress (1): 143/161 kB
+Progress (1): 147/161 kB
+Progress (1): 151/161 kB
+Progress (1): 155/161 kB
+Progress (1): 159/161 kB
+Progress (1): 161 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/github/spotbugs/spotbugs-maven-plugin/4.7.3.2/spotbugs-maven-plugin-4.7.3.2.jar (161 kB at 6.5 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/flywaydb/flyway-maven-plugin/8.5.13/flyway-maven-plugin-8.5.13.pom
+Progress (1): 4.1/4.7 kB
+Progress (1): 4.7 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/flywaydb/flyway-maven-plugin/8.5.13/flyway-maven-plugin-8.5.13.pom (4.7 kB at 582 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/flywaydb/flyway-parent/8.5.13/flyway-parent-8.5.13.pom
+Progress (1): 4.1/31 kB
+Progress (1): 8.2/31 kB
+Progress (1): 12/31 kB 
+Progress (1): 16/31 kB
+Progress (1): 20/31 kB
+Progress (1): 25/31 kB
+Progress (1): 29/31 kB
+Progress (1): 31 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/flywaydb/flyway-parent/8.5.13/flyway-parent-8.5.13.pom (31 kB at 1.9 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/flywaydb/flyway-maven-plugin/8.5.13/flyway-maven-plugin-8.5.13.jar
+Progress (1): 4.1/130 kB
+Progress (1): 8.2/130 kB
+Progress (1): 12/130 kB 
+Progress (1): 16/130 kB
+Progress (1): 20/130 kB
+Progress (1): 25/130 kB
+Progress (1): 29/130 kB
+Progress (1): 33/130 kB
+Progress (1): 37/130 kB
+Progress (1): 41/130 kB
+Progress (1): 45/130 kB
+Progress (1): 49/130 kB
+Progress (1): 53/130 kB
+Progress (1): 57/130 kB
+Progress (1): 61/130 kB
+Progress (1): 65/130 kB
+Progress (1): 69/130 kB
+Progress (1): 73/130 kB
+Progress (1): 77/130 kB
+Progress (1): 81/130 kB
+Progress (1): 85/130 kB
+Progress (1): 89/130 kB
+Progress (1): 93/130 kB
+Progress (1): 97/130 kB
+Progress (1): 101/130 kB
+Progress (1): 105/130 kB
+Progress (1): 110/130 kB
+Progress (1): 114/130 kB
+Progress (1): 118/130 kB
+Progress (1): 122/130 kB
+Progress (1): 126/130 kB
+Progress (1): 130 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/flywaydb/flyway-maven-plugin/8.5.13/flyway-maven-plugin-8.5.13.jar (130 kB at 7.2 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/johnzon/johnzon-maven-plugin/1.2.19/johnzon-maven-plugin-1.2.19.pom
+Progress (1): 4.0 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/johnzon/johnzon-maven-plugin/1.2.19/johnzon-maven-plugin-1.2.19.pom (4.0 kB at 500 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/johnzon/johnzon/1.2.19/johnzon-1.2.19.pom
+Progress (1): 4.1/29 kB
+Progress (1): 8.2/29 kB
+Progress (1): 12/29 kB 
+Progress (1): 16/29 kB
+Progress (1): 20/29 kB
+Progress (1): 25/29 kB
+Progress (1): 29/29 kB
+Progress (1): 29 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/johnzon/johnzon/1.2.19/johnzon-1.2.19.pom (29 kB at 613 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/johnzon/johnzon-maven-plugin/1.2.19/johnzon-maven-plugin-1.2.19.jar
+Progress (1): 4.1/36 kB
+Progress (1): 8.2/36 kB
+Progress (1): 12/36 kB 
+Progress (1): 16/36 kB
+Progress (1): 20/36 kB
+Progress (1): 25/36 kB
+Progress (1): 29/36 kB
+Progress (1): 33/36 kB
+Progress (1): 36 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/johnzon/johnzon-maven-plugin/1.2.19/johnzon-maven-plugin-1.2.19.jar (36 kB at 2.4 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jooq/jooq-codegen-maven/3.14.16/jooq-codegen-maven-3.14.16.pom
+Progress (1): 4.1/4.1 kB
+Progress (1): 4.1 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jooq/jooq-codegen-maven/3.14.16/jooq-codegen-maven-3.14.16.pom (4.1 kB at 216 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jooq/jooq-parent/3.14.16/jooq-parent-3.14.16.pom
+Progress (1): 4.1/28 kB
+Progress (1): 8.2/28 kB
+Progress (1): 12/28 kB 
+Progress (1): 16/28 kB
+Progress (1): 20/28 kB
+Progress (1): 25/28 kB
+Progress (1): 28 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jooq/jooq-parent/3.14.16/jooq-parent-3.14.16.pom (28 kB at 2.0 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jooq/jooq-codegen-maven/3.14.16/jooq-codegen-maven-3.14.16.jar
+Progress (1): 4.1/17 kB
+Progress (1): 8.2/17 kB
+Progress (1): 12/17 kB 
+Progress (1): 16/17 kB
+Progress (1): 17 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jooq/jooq-codegen-maven/3.14.16/jooq-codegen-maven-3.14.16.jar (17 kB at 1.9 MB/s)
+[INFO] 
+[INFO] ---------------------------< com.lpvs:lpvs >----------------------------
+[INFO] Building lpvs 1.1.0
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-web/2.7.10/spring-boot-starter-web-2.7.10.pom
+Progress (1): 2.9 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-web/2.7.10/spring-boot-starter-web-2.7.10.pom (2.9 kB at 267 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter/2.7.10/spring-boot-starter-2.7.10.pom
+Progress (1): 3.0 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter/2.7.10/spring-boot-starter-2.7.10.pom (3.0 kB at 63 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot/2.7.10/spring-boot-2.7.10.pom
+Progress (1): 2.2 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot/2.7.10/spring-boot-2.7.10.pom (2.2 kB at 183 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-core/5.3.26/spring-core-5.3.26.pom
+Progress (1): 2.0 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-core/5.3.26/spring-core-5.3.26.pom (2.0 kB at 18 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-jcl/5.3.26/spring-jcl-5.3.26.pom
+Progress (1): 1.8 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-jcl/5.3.26/spring-jcl-5.3.26.pom (1.8 kB at 122 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-context/5.3.26/spring-context-5.3.26.pom
+Progress (1): 2.6 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-context/5.3.26/spring-context-5.3.26.pom (2.6 kB at 81 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-aop/5.3.26/spring-aop-5.3.26.pom
+Progress (1): 2.2 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-aop/5.3.26/spring-aop-5.3.26.pom (2.2 kB at 200 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-beans/5.3.26/spring-beans-5.3.26.pom
+Progress (1): 2.0 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-beans/5.3.26/spring-beans-5.3.26.pom (2.0 kB at 184 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-expression/5.3.26/spring-expression-5.3.26.pom
+Progress (1): 2.1 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-expression/5.3.26/spring-expression-5.3.26.pom (2.1 kB at 115 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-autoconfigure/2.7.10/spring-boot-autoconfigure-2.7.10.pom
+Progress (1): 2.1 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-autoconfigure/2.7.10/spring-boot-autoconfigure-2.7.10.pom (2.1 kB at 187 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-logging/2.7.10/spring-boot-starter-logging-2.7.10.pom
+Progress (1): 2.5 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-logging/2.7.10/spring-boot-starter-logging-2.7.10.pom (2.5 kB at 123 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-json/2.7.10/spring-boot-starter-json-2.7.10.pom
+Progress (1): 3.1 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-json/2.7.10/spring-boot-starter-json-2.7.10.pom (3.1 kB at 342 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-web/5.3.26/spring-web-5.3.26.pom
+Progress (1): 2.2 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-web/5.3.26/spring-web-5.3.26.pom (2.2 kB at 244 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-tomcat/2.7.10/spring-boot-starter-tomcat-2.7.10.pom
+Progress (1): 3.1 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-tomcat/2.7.10/spring-boot-starter-tomcat-2.7.10.pom (3.1 kB at 347 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-core/9.0.73/tomcat-embed-core-9.0.73.pom
+Progress (1): 1.7 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-core/9.0.73/tomcat-embed-core-9.0.73.pom (1.7 kB at 29 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-el/9.0.73/tomcat-embed-el-9.0.73.pom
+Progress (1): 1.5 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-el/9.0.73/tomcat-embed-el-9.0.73.pom (1.5 kB at 84 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-websocket/9.0.73/tomcat-embed-websocket-9.0.73.pom
+Progress (1): 1.7 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-websocket/9.0.73/tomcat-embed-websocket-9.0.73.pom (1.7 kB at 20 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/5.3.26/spring-webmvc-5.3.26.pom
+Progress (1): 3.0 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/5.3.26/spring-webmvc-5.3.26.pom (3.0 kB at 211 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-data-jpa/2.7.10/spring-boot-starter-data-jpa-2.7.10.pom
+Progress (1): 3.9 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-data-jpa/2.7.10/spring-boot-starter-data-jpa-2.7.10.pom (3.9 kB at 353 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-aop/2.7.10/spring-boot-starter-aop-2.7.10.pom
+Progress (1): 2.5 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-aop/2.7.10/spring-boot-starter-aop-2.7.10.pom (2.5 kB at 247 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-jdbc/2.7.10/spring-boot-starter-jdbc-2.7.10.pom
+Progress (1): 2.5 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-jdbc/2.7.10/spring-boot-starter-jdbc-2.7.10.pom (2.5 kB at 14 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-jdbc/5.3.26/spring-jdbc-5.3.26.pom
+Progress (1): 2.4 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-jdbc/5.3.26/spring-jdbc-5.3.26.pom (2.4 kB at 149 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-tx/5.3.26/spring-tx-5.3.26.pom
+Progress (1): 2.2 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-tx/5.3.26/spring-tx-5.3.26.pom (2.2 kB at 201 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/hibernate/hibernate-core/5.6.15.Final/hibernate-core-5.6.15.Final.pom
+Progress (1): 4.1/5.5 kB
+Progress (1): 5.5 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/hibernate/hibernate-core/5.6.15.Final/hibernate-core-5.6.15.Final.pom (5.5 kB at 686 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.12.23/byte-buddy-1.12.23.pom
+Progress (1): 4.1/16 kB
+Progress (1): 8.2/16 kB
+Progress (1): 12/16 kB 
+Progress (1): 16 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.12.23/byte-buddy-1.12.23.pom (16 kB at 2.3 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-parent/1.12.23/byte-buddy-parent-1.12.23.pom
+Progress (1): 4.1/59 kB
+Progress (1): 8.2/59 kB
+Progress (1): 12/59 kB 
+Progress (1): 16/59 kB
+Progress (1): 20/59 kB
+Progress (1): 24/59 kB
+Progress (1): 28/59 kB
+Progress (1): 32/59 kB
+Progress (1): 36/59 kB
+Progress (1): 40/59 kB
+Progress (1): 45/59 kB
+Progress (1): 49/59 kB
+Progress (1): 53/59 kB
+Progress (1): 57/59 kB
+Progress (1): 59 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-parent/1.12.23/byte-buddy-parent-1.12.23.pom (59 kB at 744 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/jaxb/jaxb-runtime/2.3.8/jaxb-runtime-2.3.8.pom
+Progress (1): 4.1/7.5 kB
+Progress (1): 7.5 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/jaxb/jaxb-runtime/2.3.8/jaxb-runtime-2.3.8.pom (7.5 kB at 1.1 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/sun/xml/bind/mvn/jaxb-runtime-parent/2.3.8/jaxb-runtime-parent-2.3.8.pom
+Progress (1): 1.2 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/sun/xml/bind/mvn/jaxb-runtime-parent/2.3.8/jaxb-runtime-parent-2.3.8.pom (1.2 kB at 148 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/sun/xml/bind/mvn/jaxb-parent/2.3.8/jaxb-parent-2.3.8.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/com/sun/xml/bind/mvn/jaxb-parent/2.3.8/jaxb-parent-2.3.8.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-bom-ext/2.3.8/jaxb-bom-ext-2.3.8.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-bom-ext/2.3.8/jaxb-bom-ext-2.3.8.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/jaxb/jaxb-bom/2.3.8/jaxb-bom-2.3.8.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/jaxb/jaxb-bom/2.3.8/jaxb-bom-2.3.8.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/jaxb/txw2/2.3.8/txw2-2.3.8.pom
+Progress (1): 1.8 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/jaxb/txw2/2.3.8/txw2-2.3.8.pom (1.8 kB at 67 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/sun/xml/bind/mvn/jaxb-txw-parent/2.3.8/jaxb-txw-parent-2.3.8.pom
+Progress (1): 1.7 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/sun/xml/bind/mvn/jaxb-txw-parent/2.3.8/jaxb-txw-parent-2.3.8.pom (1.7 kB at 146 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-jpa/2.7.10/spring-data-jpa-2.7.10.pom
+Progress (1): 4.1/16 kB
+Progress (1): 8.2/16 kB
+Progress (1): 12/16 kB 
+Progress (1): 16 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-jpa/2.7.10/spring-data-jpa-2.7.10.pom (16 kB at 315 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/data/build/spring-data-parent/2.7.10/spring-data-parent-2.7.10.pom
+Progress (1): 4.1/39 kB
+Progress (1): 8.2/39 kB
+Progress (1): 12/39 kB 
+Progress (1): 16/39 kB
+Progress (1): 20/39 kB
+Progress (1): 25/39 kB
+Progress (1): 29/39 kB
+Progress (1): 33/39 kB
+Progress (1): 37/39 kB
+Progress (1): 39 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/data/build/spring-data-parent/2.7.10/spring-data-parent-2.7.10.pom (39 kB at 2.2 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/data/build/spring-data-build/2.7.10/spring-data-build-2.7.10.pom
+Progress (1): 4.1/7.5 kB
+Progress (1): 7.5 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/data/build/spring-data-build/2.7.10/spring-data-build-2.7.10.pom (7.5 kB at 683 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-commons/2.7.10/spring-data-commons-2.7.10.pom
+Progress (1): 4.1/10 kB
+Progress (1): 8.2/10 kB
+Progress (1): 10 kB    
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-commons/2.7.10/spring-data-commons-2.7.10.pom (10 kB at 577 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-orm/5.3.26/spring-orm-5.3.26.pom
+Progress (1): 2.6 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-orm/5.3.26/spring-orm-5.3.26.pom (2.6 kB at 290 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-aspects/5.3.26/spring-aspects-5.3.26.pom
+Progress (1): 2.0 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-aspects/5.3.26/spring-aspects-5.3.26.pom (2.0 kB at 252 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/code/gson/gson/maven-metadata.xml
+Progress (1): 1.4 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/code/gson/gson/maven-metadata.xml (1.4 kB at 177 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.9.1/gson-2.9.1.pom
+Progress (1): 4.1/8.2 kB
+Progress (1): 8.2/8.2 kB
+Progress (1): 8.2 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.9.1/gson-2.9.1.pom (8.2 kB at 1.4 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/code/gson/gson-parent/2.9.1/gson-parent-2.9.1.pom
+Progress (1): 4.1/4.5 kB
+Progress (1): 4.5 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/code/gson/gson-parent/2.9.1/gson-parent-2.9.1.pom (4.5 kB at 449 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/kohsuke/github-api/1.314/github-api-1.314.pom
+Progress (1): 4.1/34 kB
+Progress (1): 8.2/34 kB
+Progress (1): 12/34 kB 
+Progress (1): 16/34 kB
+Progress (1): 20/34 kB
+Progress (1): 25/34 kB
+Progress (1): 29/34 kB
+Progress (1): 33/34 kB
+Progress (1): 34 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/kohsuke/github-api/1.314/github-api-1.314.pom (34 kB at 271 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit-pioneer/junit-pioneer/2.0.0/junit-pioneer-2.0.0.pom
+Progress (1): 3.2 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/junit-pioneer/junit-pioneer/2.0.0/junit-pioneer-2.0.0.pom (3.2 kB at 316 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/mockito/mockito-inline/5.2.0/mockito-inline-5.2.0.pom
+Progress (1): 2.2 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/mockito/mockito-inline/5.2.0/mockito-inline-5.2.0.pom (2.2 kB at 275 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.12.23/byte-buddy-agent-1.12.23.pom
+Progress (1): 4.1/10 kB
+Progress (1): 8.2/10 kB
+Progress (1): 10 kB    
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.12.23/byte-buddy-agent-1.12.23.pom (10 kB at 1.3 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/code/findbugs/annotations/3.0.1u2/annotations-3.0.1u2.pom
+Progress (1): 4.1/7.0 kB
+Progress (1): 7.0 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/code/findbugs/annotations/3.0.1u2/annotations-3.0.1u2.pom (7.0 kB at 699 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/infradna/tool/bridge-method-injector/1.24/bridge-method-injector-1.24.pom
+Progress (1): 4.1/7.4 kB
+Progress (1): 7.4 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/infradna/tool/bridge-method-injector/1.24/bridge-method-injector-1.24.pom (7.4 kB at 36 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/infradna/tool/bridge-method-injector-parent/1.24/bridge-method-injector-parent-1.24.pom
+Progress (1): 4.1 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/infradna/tool/bridge-method-injector-parent/1.24/bridge-method-injector-parent-1.24.pom (4.1 kB at 21 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/infradna/tool/bridge-method-annotation/1.24/bridge-method-annotation-1.24.pom
+Progress (1): 907 B
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/com/infradna/tool/bridge-method-annotation/1.24/bridge-method-annotation-1.24.pom (907 B at 9.2 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jenkins-ci/annotation-indexer/1.15/annotation-indexer-1.15.pom
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/jenkins-ci/annotation-indexer/1.15/annotation-indexer-1.15.pom
+Progress (1): 1.7 kB
+                    
+Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/jenkins-ci/annotation-indexer/1.15/annotation-indexer-1.15.pom (1.7 kB at 2.8 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jenkins-ci/jenkins/1.46/jenkins-1.46.pom
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/jenkins-ci/jenkins/1.46/jenkins-1.46.pom
+Progress (1): 3.3/39 kB
+Progress (1): 6.1/39 kB
+Progress (1): 8.9/39 kB
+Progress (1): 12/39 kB 
+Progress (1): 15/39 kB
+Progress (1): 17/39 kB
+Progress (1): 20/39 kB
+Progress (1): 23/39 kB
+Progress (1): 26/39 kB
+Progress (1): 29/39 kB
+Progress (1): 31/39 kB
+Progress (1): 34/39 kB
+Progress (1): 37/39 kB
+Progress (1): 39 kB   
+                   
+Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/jenkins-ci/jenkins/1.46/jenkins-1.46.pom (39 kB at 107 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-test/2.7.10/spring-boot-starter-test-2.7.10.pom
+Progress (1): 2.7/4.7 kB
+Progress (1): 4.7 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-test/2.7.10/spring-boot-starter-test-2.7.10.pom (4.7 kB at 181 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-test/2.7.10/spring-boot-test-2.7.10.pom
+Progress (1): 2.0 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-test/2.7.10/spring-boot-test-2.7.10.pom (2.0 kB at 203 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-test-autoconfigure/2.7.10/spring-boot-test-autoconfigure-2.7.10.pom
+Progress (1): 2.5 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-test-autoconfigure/2.7.10/spring-boot-test-autoconfigure-2.7.10.pom (2.5 kB at 247 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/net/minidev/json-smart/2.4.10/json-smart-2.4.10.pom
+Progress (1): 2.7/9.2 kB
+Progress (1): 5.5/9.2 kB
+Progress (1): 8.2/9.2 kB
+Progress (1): 9.2 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/net/minidev/json-smart/2.4.10/json-smart-2.4.10.pom (9.2 kB at 918 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-test/5.3.26/spring-test-5.3.26.pom
+Progress (1): 2.1 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-test/5.3.26/spring-test-5.3.26.pom (2.1 kB at 228 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/xmlunit/xmlunit-core/2.9.1/xmlunit-core-2.9.1.pom
+Progress (1): 2.4 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/xmlunit/xmlunit-core/2.9.1/xmlunit-core-2.9.1.pom (2.4 kB at 203 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/xmlunit/xmlunit-parent/2.9.1/xmlunit-parent-2.9.1.pom
+Progress (1): 2.7/21 kB
+Progress (1): 5.5/21 kB
+Progress (1): 8.2/21 kB
+Progress (1): 11/21 kB 
+Progress (1): 14/21 kB
+Progress (1): 16/21 kB
+Progress (1): 19/21 kB
+Progress (1): 21 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/xmlunit/xmlunit-parent/2.9.1/xmlunit-parent-2.9.1.pom (21 kB at 1.9 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/mysql/mysql-connector-j/8.0.32/mysql-connector-j-8.0.32.pom
+Progress (1): 2.7/3.2 kB
+Progress (1): 3.2 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/mysql/mysql-connector-j/8.0.32/mysql-connector-j-8.0.32.pom (3.2 kB at 353 kB/s)
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.3.0:tree (default-cli) @ lpvs ---
+[INFO] com.lpvs:lpvs:jar:1.1.0
+[INFO] +- org.springframework.boot:spring-boot-starter-web:jar:2.7.10:compile
+[INFO] |  +- org.springframework.boot:spring-boot-starter:jar:2.7.10:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot:jar:2.7.10:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot-autoconfigure:jar:2.7.10:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot-starter-logging:jar:2.7.10:compile
+[INFO] |  |  |  +- ch.qos.logback:logback-classic:jar:1.2.11:compile
+[INFO] |  |  |  |  \- ch.qos.logback:logback-core:jar:1.2.11:compile
+[INFO] |  |  |  +- org.apache.logging.log4j:log4j-to-slf4j:jar:2.17.2:compile
+[INFO] |  |  |  |  \- org.apache.logging.log4j:log4j-api:jar:2.17.2:compile
+[INFO] |  |  |  \- org.slf4j:jul-to-slf4j:jar:1.7.36:compile
+[INFO] |  |  +- jakarta.annotation:jakarta.annotation-api:jar:1.3.5:compile
+[INFO] |  |  \- org.yaml:snakeyaml:jar:1.30:compile
+[INFO] |  +- org.springframework.boot:spring-boot-starter-json:jar:2.7.10:compile
+[INFO] |  |  +- com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.13.5:compile
+[INFO] |  |  +- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.13.5:compile
+[INFO] |  |  \- com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.13.5:compile
+[INFO] |  +- org.springframework.boot:spring-boot-starter-tomcat:jar:2.7.10:compile
+[INFO] |  |  +- org.apache.tomcat.embed:tomcat-embed-core:jar:9.0.73:compile
+[INFO] |  |  +- org.apache.tomcat.embed:tomcat-embed-el:jar:9.0.73:compile
+[INFO] |  |  \- org.apache.tomcat.embed:tomcat-embed-websocket:jar:9.0.73:compile
+[INFO] |  +- org.springframework:spring-web:jar:5.3.26:compile
+[INFO] |  |  \- org.springframework:spring-beans:jar:5.3.26:compile
+[INFO] |  \- org.springframework:spring-webmvc:jar:5.3.26:compile
+[INFO] |     +- org.springframework:spring-aop:jar:5.3.26:compile
+[INFO] |     +- org.springframework:spring-context:jar:5.3.26:compile
+[INFO] |     \- org.springframework:spring-expression:jar:5.3.26:compile
+[INFO] +- org.springframework.boot:spring-boot-starter-data-jpa:jar:2.7.10:compile
+[INFO] |  +- org.springframework.boot:spring-boot-starter-aop:jar:2.7.10:compile
+[INFO] |  |  \- org.aspectj:aspectjweaver:jar:1.9.7:compile
+[INFO] |  +- org.springframework.boot:spring-boot-starter-jdbc:jar:2.7.10:compile
+[INFO] |  |  +- com.zaxxer:HikariCP:jar:4.0.3:compile
+[INFO] |  |  \- org.springframework:spring-jdbc:jar:5.3.26:compile
+[INFO] |  +- jakarta.transaction:jakarta.transaction-api:jar:1.3.3:compile
+[INFO] |  +- jakarta.persistence:jakarta.persistence-api:jar:2.2.3:compile
+[INFO] |  +- org.hibernate:hibernate-core:jar:5.6.15.Final:compile
+[INFO] |  |  +- org.jboss.logging:jboss-logging:jar:3.4.3.Final:compile
+[INFO] |  |  +- net.bytebuddy:byte-buddy:jar:1.12.23:compile
+[INFO] |  |  +- antlr:antlr:jar:2.7.7:compile
+[INFO] |  |  +- org.jboss:jandex:jar:2.4.2.Final:compile
+[INFO] |  |  +- com.fasterxml:classmate:jar:1.5.1:compile
+[INFO] |  |  +- org.hibernate.common:hibernate-commons-annotations:jar:5.1.2.Final:compile
+[INFO] |  |  \- org.glassfish.jaxb:jaxb-runtime:jar:2.3.8:compile
+[INFO] |  |     +- org.glassfish.jaxb:txw2:jar:2.3.8:compile
+[INFO] |  |     +- com.sun.istack:istack-commons-runtime:jar:3.0.12:compile
+[INFO] |  |     \- com.sun.activation:jakarta.activation:jar:1.2.2:runtime
+[INFO] |  +- org.springframework.data:spring-data-jpa:jar:2.7.10:compile
+[INFO] |  |  +- org.springframework.data:spring-data-commons:jar:2.7.10:compile
+[INFO] |  |  +- org.springframework:spring-orm:jar:5.3.26:compile
+[INFO] |  |  +- org.springframework:spring-tx:jar:5.3.26:compile
+[INFO] |  |  \- org.slf4j:slf4j-api:jar:1.7.36:compile
+[INFO] |  \- org.springframework:spring-aspects:jar:5.3.26:compile
+[INFO] +- org.springframework:spring-core:jar:5.3.27:compile
+[INFO] |  \- org.springframework:spring-jcl:jar:5.3.26:compile
+[INFO] +- com.google.code.gson:gson:jar:2.10.1:compile
+[INFO] +- org.kohsuke:github-api:jar:1.314:compile
+[INFO] |  +- org.apache.commons:commons-lang3:jar:3.12.0:compile
+[INFO] |  +- com.fasterxml.jackson.core:jackson-databind:jar:2.13.5:compile
+[INFO] |  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.13.5:compile
+[INFO] |  |  \- com.fasterxml.jackson.core:jackson-core:jar:2.13.5:compile
+[INFO] |  \- commons-io:commons-io:jar:2.8.0:compile
+[INFO] +- org.junit.jupiter:junit-jupiter:jar:5.9.1:test
+[INFO] |  +- org.junit.jupiter:junit-jupiter-api:jar:5.8.2:test
+[INFO] |  |  +- org.opentest4j:opentest4j:jar:1.2.0:test
+[INFO] |  |  +- org.junit.platform:junit-platform-commons:jar:1.8.2:test
+[INFO] |  |  \- org.apiguardian:apiguardian-api:jar:1.1.2:test
+[INFO] |  +- org.junit.jupiter:junit-jupiter-params:jar:5.8.2:test
+[INFO] |  \- org.junit.jupiter:junit-jupiter-engine:jar:5.8.2:test
+[INFO] |     \- org.junit.platform:junit-platform-engine:jar:1.8.2:test
+[INFO] +- org.junit-pioneer:junit-pioneer:jar:2.0.0:test
+[INFO] |  \- org.junit.platform:junit-platform-launcher:jar:1.8.2:test
+[INFO] +- commons-codec:commons-codec:jar:1.15:compile
+[INFO] +- org.mockito:mockito-inline:jar:5.2.0:test
+[INFO] |  \- org.mockito:mockito-core:jar:4.5.1:test
+[INFO] |     +- net.bytebuddy:byte-buddy-agent:jar:1.12.23:test
+[INFO] |     \- org.objenesis:objenesis:jar:3.2:test
+[INFO] +- com.google.code.findbugs:annotations:jar:3.0.1u2:compile
+[INFO] |  +- net.jcip:jcip-annotations:jar:1.0:compile
+[INFO] |  \- com.google.code.findbugs:jsr305:jar:3.0.1:compile
+[INFO] +- com.infradna.tool:bridge-method-injector:jar:1.24:compile
+[INFO] |  +- com.infradna.tool:bridge-method-annotation:jar:1.24:compile
+[INFO] |  |  \- org.jenkins-ci:annotation-indexer:jar:1.15:compile
+[INFO] |  +- org.ow2.asm:asm:jar:9.4:compile
+[INFO] |  +- org.ow2.asm:asm-commons:jar:9.4:compile
+[INFO] |  |  \- org.ow2.asm:asm-tree:jar:9.4:compile
+[INFO] |  \- org.apache.maven:maven-plugin-api:jar:2.0.1:compile
+[INFO] +- org.springframework.boot:spring-boot-starter-test:jar:2.7.10:test
+[INFO] |  +- org.springframework.boot:spring-boot-test:jar:2.7.10:test
+[INFO] |  +- org.springframework.boot:spring-boot-test-autoconfigure:jar:2.7.10:test
+[INFO] |  +- com.jayway.jsonpath:json-path:jar:2.7.0:test
+[INFO] |  |  \- net.minidev:json-smart:jar:2.4.10:test
+[INFO] |  |     \- net.minidev:accessors-smart:jar:2.4.9:test
+[INFO] |  +- jakarta.xml.bind:jakarta.xml.bind-api:jar:2.3.3:compile
+[INFO] |  |  \- jakarta.activation:jakarta.activation-api:jar:1.2.2:compile
+[INFO] |  +- org.assertj:assertj-core:jar:3.22.0:test
+[INFO] |  +- org.hamcrest:hamcrest:jar:2.2:test
+[INFO] |  +- org.mockito:mockito-junit-jupiter:jar:4.5.1:test
+[INFO] |  +- org.skyscreamer:jsonassert:jar:1.5.1:test
+[INFO] |  |  \- com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1:test
+[INFO] |  +- org.springframework:spring-test:jar:5.3.26:test
+[INFO] |  \- org.xmlunit:xmlunit-core:jar:2.9.1:test
+[INFO] +- com.mysql:mysql-connector-j:jar:8.0.32:runtime
+[INFO] \- org.projectlombok:lombok:jar:1.18.20:provided
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  5.296 s
+[INFO] Finished at: 2023-09-25T19:22:51Z
+[INFO] ------------------------------------------------------------------------

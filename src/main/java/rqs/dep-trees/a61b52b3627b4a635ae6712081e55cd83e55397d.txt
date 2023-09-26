@@ -13,221 +13,1072 @@
 [INFO] Apache WSS4J WS-Security Integration                               [jar]
 [INFO] Apache WSS4J Streaming WS-SecurityPolicy                           [jar]
 Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-remote-resources-plugin/3.1.0/maven-remote-resources-plugin-3.1.0.pom
-[WARNING] Failed to write tracking file 'C:\Users\frank_bump\.m2\repository\org\apache\maven\plugins\maven-remote-resources-plugin\3.1.0\maven-remote-resources-plugin-3.1.0.pom.lastUpdated'
-java.io.IOException: There is not enough space on the disk
-    at java.io.RandomAccessFile.writeBytes (Native Method)
-    at java.io.RandomAccessFile.write (RandomAccessFile.java:545)
-    at org.eclipse.aether.internal.impl.DefaultTrackingFileManager.update (DefaultTrackingFileManager.java:107)
-    at org.eclipse.aether.internal.impl.DefaultUpdateCheckManager.write (DefaultUpdateCheckManager.java:527)
-    at org.eclipse.aether.internal.impl.DefaultUpdateCheckManager.touchArtifact (DefaultUpdateCheckManager.java:474)
-    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.evaluateDownloads (DefaultArtifactResolver.java:635)
-    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads (DefaultArtifactResolver.java:544)
-    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve (DefaultArtifactResolver.java:448)
-    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts (DefaultArtifactResolver.java:260)
-    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact (DefaultArtifactResolver.java:242)
-    at org.apache.maven.repository.internal.DefaultArtifactDescriptorReader.loadPom (DefaultArtifactDescriptorReader.java:231)
-    at org.apache.maven.repository.internal.DefaultArtifactDescriptorReader.readArtifactDescriptor (DefaultArtifactDescriptorReader.java:172)
-    at org.eclipse.aether.internal.impl.DefaultRepositorySystem.readArtifactDescriptor (DefaultRepositorySystem.java:268)
-    at org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver.resolve (DefaultPluginDependenciesResolver.java:107)
-    at org.apache.maven.plugin.internal.DefaultMavenPluginManager.lambda$getPluginDescriptor$0 (DefaultMavenPluginManager.java:183)
-    at org.apache.maven.plugin.DefaultPluginDescriptorCache.lambda$get$0 (DefaultPluginDescriptorCache.java:72)
-    at java.util.concurrent.ConcurrentHashMap.computeIfAbsent (ConcurrentHashMap.java:1708)
-    at org.apache.maven.plugin.DefaultPluginDescriptorCache.get (DefaultPluginDescriptorCache.java:70)
-    at org.apache.maven.plugin.internal.DefaultMavenPluginManager.getPluginDescriptor (DefaultMavenPluginManager.java:181)
-    at org.apache.maven.plugin.DefaultBuildPluginManager.loadPlugin (DefaultBuildPluginManager.java:81)
-    at org.apache.maven.plugin.prefix.internal.DefaultPluginPrefixResolver.resolveFromProject (DefaultPluginPrefixResolver.java:126)
-    at org.apache.maven.plugin.prefix.internal.DefaultPluginPrefixResolver.resolveFromProject (DefaultPluginPrefixResolver.java:112)
-    at org.apache.maven.plugin.prefix.internal.DefaultPluginPrefixResolver.resolve (DefaultPluginPrefixResolver.java:80)
-    at org.apache.maven.lifecycle.internal.MojoDescriptorCreator.findPluginForPrefix (MojoDescriptorCreator.java:247)
-    at org.apache.maven.lifecycle.internal.MojoDescriptorCreator.getMojoDescriptor (MojoDescriptorCreator.java:209)
-    at org.apache.maven.lifecycle.internal.DefaultLifecycleTaskSegmentCalculator.calculateTaskSegments (DefaultLifecycleTaskSegmentCalculator.java:94)
-    at org.apache.maven.lifecycle.internal.DefaultLifecycleTaskSegmentCalculator.calculateTaskSegments (DefaultLifecycleTaskSegmentCalculator.java:76)
-    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:84)
-    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:261)
-    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:173)
-    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:101)
-    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:906)
-    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:283)
-    at org.apache.maven.cli.MavenCli.main (MavenCli.java:206)
-    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
-    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:77)
-    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
-    at java.lang.reflect.Method.invoke (Method.java:568)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:283)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:226)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:407)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:348)
-[WARNING] Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-remote-resources-plugin:3.1.0: java.io.IOException: There is not enough space on the disk
+Progress (1): 2.7/15 kB
+Progress (1): 5.5/15 kB
+Progress (1): 8.2/15 kB
+Progress (1): 11/15 kB 
+Progress (1): 14/15 kB
+Progress (1): 15 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-remote-resources-plugin/3.1.0/maven-remote-resources-plugin-3.1.0.pom (15 kB at 85 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-remote-resources-plugin/3.1.0/maven-remote-resources-plugin-3.1.0.jar
+Progress (1): 4.1/82 kB
+Progress (1): 8.2/82 kB
+Progress (1): 12/82 kB 
+Progress (1): 16/82 kB
+Progress (1): 20/82 kB
+Progress (1): 25/82 kB
+Progress (1): 29/82 kB
+Progress (1): 33/82 kB
+Progress (1): 37/82 kB
+Progress (1): 41/82 kB
+Progress (1): 45/82 kB
+Progress (1): 49/82 kB
+Progress (1): 53/82 kB
+Progress (1): 57/82 kB
+Progress (1): 61/82 kB
+Progress (1): 66/82 kB
+Progress (1): 70/82 kB
+Progress (1): 74/82 kB
+Progress (1): 78/82 kB
+Progress (1): 82 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-remote-resources-plugin/3.1.0/maven-remote-resources-plugin-3.1.0.jar (82 kB at 2.0 MB/s)
 Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-pmd-plugin/3.19.0/maven-pmd-plugin-3.19.0.pom
-[WARNING] Failed to create tracking file parent 'C:\Users\frank_bump\.m2\repository\org\apache\maven\plugins\maven-pmd-plugin\3.19.0\maven-pmd-plugin-3.19.0.pom.lastUpdated'
-java.nio.file.FileSystemException: C:\Users\frank_bump\.m2\repository\org\apache\maven\plugins\maven-pmd-plugin\3.19.0: There is not enough space on the disk
-    at sun.nio.fs.WindowsException.translateToIOException (WindowsException.java:92)
-    at sun.nio.fs.WindowsException.rethrowAsIOException (WindowsException.java:103)
-    at sun.nio.fs.WindowsException.rethrowAsIOException (WindowsException.java:108)
-    at sun.nio.fs.WindowsFileSystemProvider.createDirectory (WindowsFileSystemProvider.java:521)
-    at java.nio.file.Files.createDirectory (Files.java:700)
-    at java.nio.file.Files.createAndCheckIsDirectory (Files.java:807)
-    at java.nio.file.Files.createDirectories (Files.java:793)
-    at org.eclipse.aether.internal.impl.DefaultTrackingFileManager.update (DefaultTrackingFileManager.java:77)
-    at org.eclipse.aether.internal.impl.DefaultUpdateCheckManager.write (DefaultUpdateCheckManager.java:527)
-    at org.eclipse.aether.internal.impl.DefaultUpdateCheckManager.touchArtifact (DefaultUpdateCheckManager.java:474)
-    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.evaluateDownloads (DefaultArtifactResolver.java:635)
-    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads (DefaultArtifactResolver.java:544)
-    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve (DefaultArtifactResolver.java:448)
-    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts (DefaultArtifactResolver.java:260)
-    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact (DefaultArtifactResolver.java:242)
-    at org.apache.maven.repository.internal.DefaultArtifactDescriptorReader.loadPom (DefaultArtifactDescriptorReader.java:231)
-    at org.apache.maven.repository.internal.DefaultArtifactDescriptorReader.readArtifactDescriptor (DefaultArtifactDescriptorReader.java:172)
-    at org.eclipse.aether.internal.impl.DefaultRepositorySystem.readArtifactDescriptor (DefaultRepositorySystem.java:268)
-    at org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver.resolve (DefaultPluginDependenciesResolver.java:107)
-    at org.apache.maven.plugin.internal.DefaultMavenPluginManager.lambda$getPluginDescriptor$0 (DefaultMavenPluginManager.java:183)
-    at org.apache.maven.plugin.DefaultPluginDescriptorCache.lambda$get$0 (DefaultPluginDescriptorCache.java:72)
-    at java.util.concurrent.ConcurrentHashMap.computeIfAbsent (ConcurrentHashMap.java:1708)
-    at org.apache.maven.plugin.DefaultPluginDescriptorCache.get (DefaultPluginDescriptorCache.java:70)
-    at org.apache.maven.plugin.internal.DefaultMavenPluginManager.getPluginDescriptor (DefaultMavenPluginManager.java:181)
-    at org.apache.maven.plugin.DefaultBuildPluginManager.loadPlugin (DefaultBuildPluginManager.java:81)
-    at org.apache.maven.plugin.prefix.internal.DefaultPluginPrefixResolver.resolveFromProject (DefaultPluginPrefixResolver.java:126)
-    at org.apache.maven.plugin.prefix.internal.DefaultPluginPrefixResolver.resolveFromProject (DefaultPluginPrefixResolver.java:112)
-    at org.apache.maven.plugin.prefix.internal.DefaultPluginPrefixResolver.resolve (DefaultPluginPrefixResolver.java:80)
-    at org.apache.maven.lifecycle.internal.MojoDescriptorCreator.findPluginForPrefix (MojoDescriptorCreator.java:247)
-    at org.apache.maven.lifecycle.internal.MojoDescriptorCreator.getMojoDescriptor (MojoDescriptorCreator.java:209)
-    at org.apache.maven.lifecycle.internal.DefaultLifecycleTaskSegmentCalculator.calculateTaskSegments (DefaultLifecycleTaskSegmentCalculator.java:94)
-    at org.apache.maven.lifecycle.internal.DefaultLifecycleTaskSegmentCalculator.calculateTaskSegments (DefaultLifecycleTaskSegmentCalculator.java:76)
-    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:84)
-    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:261)
-    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:173)
-    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:101)
-    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:906)
-    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:283)
-    at org.apache.maven.cli.MavenCli.main (MavenCli.java:206)
-    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
-    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:77)
-    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
-    at java.lang.reflect.Method.invoke (Method.java:568)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:283)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:226)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:407)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:348)
-[WARNING] Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-pmd-plugin:3.19.0: java.nio.file.FileSystemException: C:\Users\frank_bump\.m2\repository\org\apache\maven\plugins\maven-pmd-plugin\3.19.0: There is not enough space on the disk
+Progress (1): 4.1/14 kB
+Progress (1): 8.2/14 kB
+Progress (1): 12/14 kB 
+Progress (1): 14 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-pmd-plugin/3.19.0/maven-pmd-plugin-3.19.0.pom (14 kB at 1.4 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-pmd-plugin/3.19.0/maven-pmd-plugin-3.19.0.jar
+Progress (1): 4.1/153 kB
+Progress (1): 8.2/153 kB
+Progress (1): 12/153 kB 
+Progress (1): 16/153 kB
+Progress (1): 20/153 kB
+Progress (1): 25/153 kB
+Progress (1): 29/153 kB
+Progress (1): 33/153 kB
+Progress (1): 37/153 kB
+Progress (1): 41/153 kB
+Progress (1): 45/153 kB
+Progress (1): 49/153 kB
+Progress (1): 53/153 kB
+Progress (1): 57/153 kB
+Progress (1): 61/153 kB
+Progress (1): 66/153 kB
+Progress (1): 70/153 kB
+Progress (1): 74/153 kB
+Progress (1): 78/153 kB
+Progress (1): 82/153 kB
+Progress (1): 86/153 kB
+Progress (1): 90/153 kB
+Progress (1): 94/153 kB
+Progress (1): 98/153 kB
+Progress (1): 102/153 kB
+Progress (1): 106/153 kB
+Progress (1): 111/153 kB
+Progress (1): 115/153 kB
+Progress (1): 119/153 kB
+Progress (1): 123/153 kB
+Progress (1): 127/153 kB
+Progress (1): 131/153 kB
+Progress (1): 135/153 kB
+Progress (1): 139/153 kB
+Progress (1): 143/153 kB
+Progress (1): 147/153 kB
+Progress (1): 152/153 kB
+Progress (1): 153 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-pmd-plugin/3.19.0/maven-pmd-plugin-3.19.0.jar (153 kB at 6.4 MB/s)
 Downloading from central: https://repo.maven.apache.org/maven2/org/apache/felix/maven-bundle-plugin/5.1.9/maven-bundle-plugin-5.1.9.pom
-[WARNING] Failed to write tracking file 'C:\Users\frank_bump\.m2\repository\org\apache\felix\maven-bundle-plugin\5.1.9\maven-bundle-plugin-5.1.9.pom.lastUpdated'
-java.io.IOException: There is not enough space on the disk
-    at java.io.RandomAccessFile.writeBytes (Native Method)
-    at java.io.RandomAccessFile.write (RandomAccessFile.java:545)
-    at org.eclipse.aether.internal.impl.DefaultTrackingFileManager.update (DefaultTrackingFileManager.java:107)
-    at org.eclipse.aether.internal.impl.DefaultUpdateCheckManager.write (DefaultUpdateCheckManager.java:527)
-    at org.eclipse.aether.internal.impl.DefaultUpdateCheckManager.touchArtifact (DefaultUpdateCheckManager.java:474)
-    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.evaluateDownloads (DefaultArtifactResolver.java:635)
-    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads (DefaultArtifactResolver.java:544)
-    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve (DefaultArtifactResolver.java:448)
-    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts (DefaultArtifactResolver.java:260)
-    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact (DefaultArtifactResolver.java:242)
-    at org.apache.maven.repository.internal.DefaultArtifactDescriptorReader.loadPom (DefaultArtifactDescriptorReader.java:231)
-    at org.apache.maven.repository.internal.DefaultArtifactDescriptorReader.readArtifactDescriptor (DefaultArtifactDescriptorReader.java:172)
-    at org.eclipse.aether.internal.impl.DefaultRepositorySystem.readArtifactDescriptor (DefaultRepositorySystem.java:268)
-    at org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver.resolve (DefaultPluginDependenciesResolver.java:107)
-    at org.apache.maven.plugin.internal.DefaultMavenPluginManager.lambda$getPluginDescriptor$0 (DefaultMavenPluginManager.java:183)
-    at org.apache.maven.plugin.DefaultPluginDescriptorCache.lambda$get$0 (DefaultPluginDescriptorCache.java:72)
-    at java.util.concurrent.ConcurrentHashMap.computeIfAbsent (ConcurrentHashMap.java:1708)
-    at org.apache.maven.plugin.DefaultPluginDescriptorCache.get (DefaultPluginDescriptorCache.java:70)
-    at org.apache.maven.plugin.internal.DefaultMavenPluginManager.getPluginDescriptor (DefaultMavenPluginManager.java:181)
-    at org.apache.maven.plugin.DefaultBuildPluginManager.loadPlugin (DefaultBuildPluginManager.java:81)
-    at org.apache.maven.plugin.prefix.internal.DefaultPluginPrefixResolver.resolveFromProject (DefaultPluginPrefixResolver.java:126)
-    at org.apache.maven.plugin.prefix.internal.DefaultPluginPrefixResolver.resolveFromProject (DefaultPluginPrefixResolver.java:115)
-    at org.apache.maven.plugin.prefix.internal.DefaultPluginPrefixResolver.resolve (DefaultPluginPrefixResolver.java:80)
-    at org.apache.maven.lifecycle.internal.MojoDescriptorCreator.findPluginForPrefix (MojoDescriptorCreator.java:247)
-    at org.apache.maven.lifecycle.internal.MojoDescriptorCreator.getMojoDescriptor (MojoDescriptorCreator.java:209)
-    at org.apache.maven.lifecycle.internal.DefaultLifecycleTaskSegmentCalculator.calculateTaskSegments (DefaultLifecycleTaskSegmentCalculator.java:94)
-    at org.apache.maven.lifecycle.internal.DefaultLifecycleTaskSegmentCalculator.calculateTaskSegments (DefaultLifecycleTaskSegmentCalculator.java:76)
-    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:84)
-    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:261)
-    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:173)
-    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:101)
-    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:906)
-    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:283)
-    at org.apache.maven.cli.MavenCli.main (MavenCli.java:206)
-    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
-    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:77)
-    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
-    at java.lang.reflect.Method.invoke (Method.java:568)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:283)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:226)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:407)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:348)
-[WARNING] Failed to retrieve plugin descriptor for org.apache.felix:maven-bundle-plugin:5.1.9: java.io.IOException: There is not enough space on the disk
+Progress (1): 4.1/11 kB
+Progress (1): 8.2/11 kB
+Progress (1): 11 kB    
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/felix/maven-bundle-plugin/5.1.9/maven-bundle-plugin-5.1.9.pom (11 kB at 1.2 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/felix/felix-parent/7/felix-parent-7.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/felix/felix-parent/7/felix-parent-7.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/felix/maven-bundle-plugin/5.1.9/maven-bundle-plugin-5.1.9.jar
+Progress (1): 4.1/211 kB
+Progress (1): 8.2/211 kB
+Progress (1): 12/211 kB 
+Progress (1): 16/211 kB
+Progress (1): 20/211 kB
+Progress (1): 25/211 kB
+Progress (1): 29/211 kB
+Progress (1): 33/211 kB
+Progress (1): 37/211 kB
+Progress (1): 41/211 kB
+Progress (1): 45/211 kB
+Progress (1): 49/211 kB
+Progress (1): 53/211 kB
+Progress (1): 57/211 kB
+Progress (1): 61/211 kB
+Progress (1): 66/211 kB
+Progress (1): 70/211 kB
+Progress (1): 74/211 kB
+Progress (1): 78/211 kB
+Progress (1): 82/211 kB
+Progress (1): 86/211 kB
+Progress (1): 90/211 kB
+Progress (1): 94/211 kB
+Progress (1): 98/211 kB
+Progress (1): 102/211 kB
+Progress (1): 106/211 kB
+Progress (1): 111/211 kB
+Progress (1): 115/211 kB
+Progress (1): 119/211 kB
+Progress (1): 123/211 kB
+Progress (1): 127/211 kB
+Progress (1): 131/211 kB
+Progress (1): 135/211 kB
+Progress (1): 139/211 kB
+Progress (1): 143/211 kB
+Progress (1): 147/211 kB
+Progress (1): 152/211 kB
+Progress (1): 156/211 kB
+Progress (1): 160/211 kB
+Progress (1): 164/211 kB
+Progress (1): 168/211 kB
+Progress (1): 172/211 kB
+Progress (1): 176/211 kB
+Progress (1): 180/211 kB
+Progress (1): 184/211 kB
+Progress (1): 188/211 kB
+Progress (1): 193/211 kB
+Progress (1): 197/211 kB
+Progress (1): 201/211 kB
+Progress (1): 205/211 kB
+Progress (1): 209/211 kB
+Progress (1): 211 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/felix/maven-bundle-plugin/5.1.9/maven-bundle-plugin-5.1.9.jar (211 kB at 4.1 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-dependency-plugin/3.6.0/maven-dependency-plugin-3.6.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-dependency-plugin/3.6.0/maven-dependency-plugin-3.6.0.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-dependency-plugin/3.6.0/maven-dependency-plugin-3.6.0.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-dependency-plugin/3.6.0/maven-dependency-plugin-3.6.0.jar (0 B at 0 B/s)
 [INFO] 
 [INFO] -----------------------< org.apache.wss4j:wss4j >-----------------------
 [INFO] Building Apache WSS4J 3.0.2-SNAPSHOT                              [1/10]
-[INFO]   from pom.xml
 [INFO] --------------------------------[ pom ]---------------------------------
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-remote-resources-plugin/3.1.0/maven-remote-resources-plugin-3.1.0.pom
-[WARNING] Failed to write tracking file 'C:\Users\frank_bump\.m2\repository\org\apache\maven\plugins\maven-remote-resources-plugin\3.1.0\maven-remote-resources-plugin-3.1.0.pom.lastUpdated'
-java.io.IOException: There is not enough space on the disk
-    at java.io.RandomAccessFile.writeBytes (Native Method)
-    at java.io.RandomAccessFile.write (RandomAccessFile.java:545)
-    at org.eclipse.aether.internal.impl.DefaultTrackingFileManager.update (DefaultTrackingFileManager.java:107)
-    at org.eclipse.aether.internal.impl.DefaultUpdateCheckManager.write (DefaultUpdateCheckManager.java:527)
-    at org.eclipse.aether.internal.impl.DefaultUpdateCheckManager.touchArtifact (DefaultUpdateCheckManager.java:474)
-    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.evaluateDownloads (DefaultArtifactResolver.java:635)
-    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads (DefaultArtifactResolver.java:544)
-    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve (DefaultArtifactResolver.java:448)
-    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts (DefaultArtifactResolver.java:260)
-    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact (DefaultArtifactResolver.java:242)
-    at org.apache.maven.repository.internal.DefaultArtifactDescriptorReader.loadPom (DefaultArtifactDescriptorReader.java:231)
-    at org.apache.maven.repository.internal.DefaultArtifactDescriptorReader.readArtifactDescriptor (DefaultArtifactDescriptorReader.java:172)
-    at org.eclipse.aether.internal.impl.DefaultRepositorySystem.readArtifactDescriptor (DefaultRepositorySystem.java:268)
-    at org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver.resolve (DefaultPluginDependenciesResolver.java:107)
-    at org.apache.maven.plugin.internal.DefaultMavenPluginManager.lambda$getPluginDescriptor$0 (DefaultMavenPluginManager.java:183)
-    at org.apache.maven.plugin.DefaultPluginDescriptorCache.lambda$get$0 (DefaultPluginDescriptorCache.java:72)
-    at java.util.concurrent.ConcurrentHashMap.computeIfAbsent (ConcurrentHashMap.java:1708)
-    at org.apache.maven.plugin.DefaultPluginDescriptorCache.get (DefaultPluginDescriptorCache.java:70)
-    at org.apache.maven.plugin.internal.DefaultMavenPluginManager.getPluginDescriptor (DefaultMavenPluginManager.java:181)
-    at org.apache.maven.plugin.internal.DefaultMavenPluginManager.getMojoDescriptor (DefaultMavenPluginManager.java:271)
-    at org.apache.maven.plugin.DefaultBuildPluginManager.getMojoDescriptor (DefaultBuildPluginManager.java:214)
-    at org.apache.maven.lifecycle.internal.DefaultLifecycleMappingDelegate.calculateLifecycleMappings (DefaultLifecycleMappingDelegate.java:101)
-    at org.apache.maven.lifecycle.internal.DefaultLifecycleExecutionPlanCalculator.calculateLifecycleMappings (DefaultLifecycleExecutionPlanCalculator.java:239)
-    at org.apache.maven.lifecycle.internal.DefaultLifecycleExecutionPlanCalculator.calculateMojoExecutions (DefaultLifecycleExecutionPlanCalculator.java:197)
-    at org.apache.maven.lifecycle.internal.DefaultLifecycleExecutionPlanCalculator.calculateExecutionPlan (DefaultLifecycleExecutionPlanCalculator.java:119)
-    at org.apache.maven.lifecycle.internal.DefaultLifecycleExecutionPlanCalculator.calculateExecutionPlan (DefaultLifecycleExecutionPlanCalculator.java:135)
-    at org.apache.maven.lifecycle.internal.builder.BuilderCommon.resolveBuildPlan (BuilderCommon.java:93)
-    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:100)
-    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:73)
-    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:53)
-    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:118)
-    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:261)
-    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:173)
-    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:101)
-    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:906)
-    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:283)
-    at org.apache.maven.cli.MavenCli.main (MavenCli.java:206)
-    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
-    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:77)
-    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
-    at java.lang.reflect.Method.invoke (Method.java:568)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:283)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:226)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:407)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:348)
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.6.0:tree (default-cli) @ wss4j ---
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-analyzer/1.13.2/maven-dependency-analyzer-1.13.2.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-analyzer/1.13.2/maven-dependency-analyzer-1.13.2.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-analyzer/1.13.2/maven-dependency-analyzer-1.13.2.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/3.2.5/maven-model-3.2.5.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-analyzer/1.13.2/maven-dependency-analyzer-1.13.2.jar (0 B at 0 B/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/3.2.5/maven-model-3.2.5.jar (0 B at 0 B/s)
+[INFO] org.apache.wss4j:wss4j:pom:3.0.2-SNAPSHOT
+[INFO] 
+[INFO] -------------------< org.apache.wss4j:wss4j-parent >--------------------
+[INFO] Building Apache WSS4J parent 3.0.2-SNAPSHOT                       [2/10]
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.6.0:tree (default-cli) @ wss4j-parent ---
+[INFO] org.apache.wss4j:wss4j-parent:pom:3.0.2-SNAPSHOT
+[INFO] 
+[INFO] ------------------< org.apache.wss4j:wss4j-bindings >-------------------
+[INFO] Building Apache WSS4J WS-Security Bindings 3.0.2-SNAPSHOT         [3/10]
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from A_maven.central: https://repo1.maven.org/maven2/org/apache/santuario/xmlsec/3.0.2/xmlsec-3.0.2.pom
+Progress (1): 2.7/30 kB
+Progress (1): 5.5/30 kB
+Progress (1): 8.2/30 kB
+Progress (1): 11/30 kB 
+Progress (1): 14/30 kB
+Progress (1): 16/30 kB
+Progress (1): 19/30 kB
+Progress (1): 22/30 kB
+Progress (1): 25/30 kB
+Progress (1): 27/30 kB
+Progress (1): 30 kB   
+                   
+Downloaded from A_maven.central: https://repo1.maven.org/maven2/org/apache/santuario/xmlsec/3.0.2/xmlsec-3.0.2.pom (30 kB at 958 kB/s)
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.6.0:tree (default-cli) @ wss4j-bindings ---
+[INFO] org.apache.wss4j:wss4j-bindings:jar:3.0.2-SNAPSHOT
+[INFO] \- org.apache.santuario:xmlsec:jar:3.0.2:compile
+[INFO]    +- org.slf4j:slf4j-api:jar:2.0.7:compile
+[INFO]    +- jakarta.xml.bind:jakarta.xml.bind-api:jar:3.0.1:compile
+[INFO]    +- commons-codec:commons-codec:jar:1.15:compile
+[INFO]    \- com.fasterxml.woodstox:woodstox-core:jar:6.5.0:runtime
+[INFO]       \- org.codehaus.woodstox:stax2-api:jar:4.2.1:runtime
+[INFO] 
+[INFO] -------------------< org.apache.wss4j:wss4j-policy >--------------------
+[INFO] Building Apache WSS4J WS-SecurityPolicy model 3.0.2-SNAPSHOT      [4/10]
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from A_maven.central: https://repo1.maven.org/maven2/org/apache/neethi/neethi/3.2.0/neethi-3.2.0.pom
+Progress (1): 2.7/14 kB
+Progress (1): 5.5/14 kB
+Progress (1): 8.2/14 kB
+Progress (1): 11/14 kB 
+Progress (1): 14/14 kB
+Progress (1): 14 kB   
+                   
+Downloaded from A_maven.central: https://repo1.maven.org/maven2/org/apache/neethi/neethi/3.2.0/neethi-3.2.0.pom (14 kB at 1.2 MB/s)
+Downloading from A_maven.central: https://repo1.maven.org/maven2/org/xmlunit/xmlunit-matchers/2.9.1/xmlunit-matchers-2.9.1.pom
+Progress (1): 2.2 kB
+                    
+Downloaded from A_maven.central: https://repo1.maven.org/maven2/org/xmlunit/xmlunit-matchers/2.9.1/xmlunit-matchers-2.9.1.pom (2.2 kB at 138 kB/s)
+Downloading from A_maven.central: https://repo1.maven.org/maven2/com/fasterxml/woodstox/woodstox-core/6.5.1/woodstox-core-6.5.1.pom
+Downloaded from A_maven.central: https://repo1.maven.org/maven2/com/fasterxml/woodstox/woodstox-core/6.5.1/woodstox-core-6.5.1.pom (0 B at 0 B/s)
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.6.0:tree (default-cli) @ wss4j-policy ---
+[INFO] org.apache.wss4j:wss4j-policy:jar:3.0.2-SNAPSHOT
+[INFO] +- org.apache.neethi:neethi:jar:3.2.0:compile
+[INFO] +- org.junit.jupiter:junit-jupiter-engine:jar:5.9.3:test
+[INFO] |  +- org.junit.platform:junit-platform-engine:jar:1.9.3:test
+[INFO] |  |  +- org.opentest4j:opentest4j:jar:1.2.0:test
+[INFO] |  |  \- org.junit.platform:junit-platform-commons:jar:1.9.3:test
+[INFO] |  +- org.junit.jupiter:junit-jupiter-api:jar:5.9.3:test
+[INFO] |  \- org.apiguardian:apiguardian-api:jar:1.1.2:test
+[INFO] +- org.xmlunit:xmlunit-core:jar:2.9.1:test
+[INFO] |  \- jakarta.xml.bind:jakarta.xml.bind-api:jar:2.3.3:test
+[INFO] +- org.xmlunit:xmlunit-matchers:jar:2.9.1:test
+[INFO] |  \- org.hamcrest:hamcrest-core:jar:1.3:test
+[INFO] \- com.fasterxml.woodstox:woodstox-core:jar:6.5.1:test
+[INFO]    \- org.codehaus.woodstox:stax2-api:jar:4.2.1:test
+[INFO] 
+[INFO] -------------< org.apache.wss4j:wss4j-ws-security-common >--------------
+[INFO] Building Apache WSS4J WS-Security Common 3.0.2-SNAPSHOT           [5/10]
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from A_maven.central: https://repo1.maven.org/maven2/jakarta/mail/jakarta.mail-api/2.1.2/jakarta.mail-api-2.1.2.pom
+Progress (1): 4.1/22 kB
+Progress (1): 8.2/22 kB
+Progress (1): 12/22 kB 
+Progress (1): 16/22 kB
+Progress (1): 20/22 kB
+Progress (1): 22 kB   
+                   
+Downloaded from A_maven.central: https://repo1.maven.org/maven2/jakarta/mail/jakarta.mail-api/2.1.2/jakarta.mail-api-2.1.2.pom (22 kB at 1.2 MB/s)
+Downloading from A_maven.central: https://repo1.maven.org/maven2/jakarta/activation/jakarta.activation-api/2.1.2/jakarta.activation-api-2.1.2.pom
+Progress (1): 4.1/18 kB
+Progress (1): 8.2/18 kB
+Progress (1): 12/18 kB 
+Progress (1): 16/18 kB
+Progress (1): 18 kB   
+                   
+Downloaded from A_maven.central: https://repo1.maven.org/maven2/jakarta/activation/jakarta.activation-api/2.1.2/jakarta.activation-api-2.1.2.pom (18 kB at 1.8 MB/s)
+Downloading from A_maven.central: https://repo1.maven.org/maven2/org/opensaml/opensaml-saml-impl/4.3.0/opensaml-saml-impl-4.3.0.pom
+Downloading from B_shibboleth: https://build.shibboleth.net/nexus/content/groups/public/org/opensaml/opensaml-saml-impl/4.3.0/opensaml-saml-impl-4.3.0.pom
+Progress (1): 4.1/8.5 kB
+Progress (1): 7.9/8.5 kB
+Progress (1): 8.5 kB    
+                    
+Downloaded from B_shibboleth: https://build.shibboleth.net/nexus/content/groups/public/org/opensaml/opensaml-saml-impl/4.3.0/opensaml-saml-impl-4.3.0.pom (8.5 kB at 10 kB/s)
+Downloading from A_maven.central: https://repo1.maven.org/maven2/org/opensaml/opensaml-parent/4.3.0/opensaml-parent-4.3.0.pom
+Downloading from B_shibboleth: https://build.shibboleth.net/nexus/content/groups/public/org/opensaml/opensaml-parent/4.3.0/opensaml-parent-4.3.0.pom
+Progress (1): 4.1/6.9 kB
+Progress (1): 6.9 kB    
+                    
+Downloaded from B_shibboleth: https://build.shibboleth.net/nexus/content/groups/public/org/opensaml/opensaml-parent/4.3.0/opensaml-parent-4.3.0.pom (6.9 kB at 13 kB/s)
+Downloading from A_maven.central: https://repo1.maven.org/maven2/net/shibboleth/parent/11.3.5/parent-11.3.5.pom
+Downloading from B_shibboleth: https://build.shibboleth.net/nexus/content/groups/public/net/shibboleth/parent/11.3.5/parent-11.3.5.pom
+Progress (1): 4.1/58 kB
+Progress (1): 7.9/58 kB
+Progress (1): 12/58 kB 
+Progress (1): 16/58 kB
+Progress (1): 20/58 kB
+Progress (1): 24/58 kB
+Progress (1): 28/58 kB
+Progress (1): 32/58 kB
+Progress (1): 36/58 kB
+Progress (1): 40/58 kB
+Progress (1): 44/58 kB
+Progress (1): 48/58 kB
+Progress (1): 52/58 kB
+Progress (1): 56/58 kB
+Progress (1): 58 kB   
+                   
+Downloaded from B_shibboleth: https://build.shibboleth.net/nexus/content/groups/public/net/shibboleth/parent/11.3.5/parent-11.3.5.pom (58 kB at 91 kB/s)
+Downloading from A_maven.central: https://repo1.maven.org/maven2/io/dropwizard/metrics/metrics-bom/4.2.15/metrics-bom-4.2.15.pom
+Progress (1): 2.7/6.9 kB
+Progress (1): 5.5/6.9 kB
+Progress (1): 6.9 kB    
+                    
+Downloaded from A_maven.central: https://repo1.maven.org/maven2/io/dropwizard/metrics/metrics-bom/4.2.15/metrics-bom-4.2.15.pom (6.9 kB at 491 kB/s)
+Downloading from A_maven.central: https://repo1.maven.org/maven2/io/dropwizard/metrics/metrics-parent/4.2.15/metrics-parent-4.2.15.pom
+Progress (1): 2.7/20 kB
+Progress (1): 5.5/20 kB
+Progress (1): 8.2/20 kB
+Progress (1): 11/20 kB 
+Progress (1): 14/20 kB
+Progress (1): 16/20 kB
+Progress (1): 19/20 kB
+Progress (1): 20 kB   
+                   
+Downloaded from A_maven.central: https://repo1.maven.org/maven2/io/dropwizard/metrics/metrics-parent/4.2.15/metrics-parent-4.2.15.pom (20 kB at 1.4 MB/s)
+Downloading from A_maven.central: https://repo1.maven.org/maven2/org/springframework/spring-framework-bom/5.3.25/spring-framework-bom-5.3.25.pom
+Progress (1): 2.7/5.7 kB
+Progress (1): 5.5/5.7 kB
+Progress (1): 5.7 kB    
+                    
+Downloaded from A_maven.central: https://repo1.maven.org/maven2/org/springframework/spring-framework-bom/5.3.25/spring-framework-bom-5.3.25.pom (5.7 kB at 354 kB/s)
+Downloading from A_maven.central: https://repo1.maven.org/maven2/org/opensaml/opensaml-core/4.3.0/opensaml-core-4.3.0.pom
+Downloading from B_shibboleth: https://build.shibboleth.net/nexus/content/groups/public/org/opensaml/opensaml-core/4.3.0/opensaml-core-4.3.0.pom
+Progress (1): 3.1 kB
+                    
+Downloaded from B_shibboleth: https://build.shibboleth.net/nexus/content/groups/public/org/opensaml/opensaml-core/4.3.0/opensaml-core-4.3.0.pom (3.1 kB at 6.0 kB/s)
+Downloading from A_maven.central: https://repo1.maven.org/maven2/io/dropwizard/metrics/metrics-core/4.2.15/metrics-core-4.2.15.pom
+Progress (1): 2.2 kB
+                    
+Downloaded from A_maven.central: https://repo1.maven.org/maven2/io/dropwizard/metrics/metrics-core/4.2.15/metrics-core-4.2.15.pom (2.2 kB at 118 kB/s)
+Downloading from A_maven.central: https://repo1.maven.org/maven2/net/shibboleth/utilities/java-support/8.4.0/java-support-8.4.0.pom
+Downloading from B_shibboleth: https://build.shibboleth.net/nexus/content/groups/public/net/shibboleth/utilities/java-support/8.4.0/java-support-8.4.0.pom
+Progress (1): 4.1/6.8 kB
+Progress (1): 6.8 kB    
+                    
+Downloaded from B_shibboleth: https://build.shibboleth.net/nexus/content/groups/public/net/shibboleth/utilities/java-support/8.4.0/java-support-8.4.0.pom (6.8 kB at 13 kB/s)
+Downloading from A_maven.central: https://repo1.maven.org/maven2/org/opensaml/opensaml-profile-api/4.3.0/opensaml-profile-api-4.3.0.pom
+Downloading from B_shibboleth: https://build.shibboleth.net/nexus/content/groups/public/org/opensaml/opensaml-profile-api/4.3.0/opensaml-profile-api-4.3.0.pom
+Progress (1): 3.1 kB
+                    
+Downloaded from B_shibboleth: https://build.shibboleth.net/nexus/content/groups/public/org/opensaml/opensaml-profile-api/4.3.0/opensaml-profile-api-4.3.0.pom (3.1 kB at 6.1 kB/s)
+Downloading from A_maven.central: https://repo1.maven.org/maven2/org/opensaml/opensaml-saml-api/4.3.0/opensaml-saml-api-4.3.0.pom
+Downloading from B_shibboleth: https://build.shibboleth.net/nexus/content/groups/public/org/opensaml/opensaml-saml-api/4.3.0/opensaml-saml-api-4.3.0.pom
+Progress (1): 3.6 kB
+                    
+Downloaded from B_shibboleth: https://build.shibboleth.net/nexus/content/groups/public/org/opensaml/opensaml-saml-api/4.3.0/opensaml-saml-api-4.3.0.pom (3.6 kB at 6.9 kB/s)
+Downloading from A_maven.central: https://repo1.maven.org/maven2/org/opensaml/opensaml-security-api/4.3.0/opensaml-security-api-4.3.0.pom
+Downloading from B_shibboleth: https://build.shibboleth.net/nexus/content/groups/public/org/opensaml/opensaml-security-api/4.3.0/opensaml-security-api-4.3.0.pom
+Progress (1): 4.1/4.2 kB
+Progress (1): 4.2 kB    
+                    
+Downloaded from B_shibboleth: https://build.shibboleth.net/nexus/content/groups/public/org/opensaml/opensaml-security-api/4.3.0/opensaml-security-api-4.3.0.pom (4.2 kB at 8.1 kB/s)
+Downloading from A_maven.central: https://repo1.maven.org/maven2/org/opensaml/opensaml-soap-api/4.3.0/opensaml-soap-api-4.3.0.pom
+Downloading from B_shibboleth: https://build.shibboleth.net/nexus/content/groups/public/org/opensaml/opensaml-soap-api/4.3.0/opensaml-soap-api-4.3.0.pom
+Progress (1): 2.8 kB
+                    
+Downloaded from B_shibboleth: https://build.shibboleth.net/nexus/content/groups/public/org/opensaml/opensaml-soap-api/4.3.0/opensaml-soap-api-4.3.0.pom (2.8 kB at 5.4 kB/s)
+Downloading from A_maven.central: https://repo1.maven.org/maven2/org/opensaml/opensaml-xmlsec-api/4.3.0/opensaml-xmlsec-api-4.3.0.pom
+Downloading from B_shibboleth: https://build.shibboleth.net/nexus/content/groups/public/org/opensaml/opensaml-xmlsec-api/4.3.0/opensaml-xmlsec-api-4.3.0.pom
+Progress (1): 3.0 kB
+                    
+Downloaded from B_shibboleth: https://build.shibboleth.net/nexus/content/groups/public/org/opensaml/opensaml-xmlsec-api/4.3.0/opensaml-xmlsec-api-4.3.0.pom (3.0 kB at 5.7 kB/s)
+Downloading from A_maven.central: https://repo1.maven.org/maven2/org/opensaml/opensaml-security-impl/4.3.0/opensaml-security-impl-4.3.0.pom
+Downloading from B_shibboleth: https://build.shibboleth.net/nexus/content/groups/public/org/opensaml/opensaml-security-impl/4.3.0/opensaml-security-impl-4.3.0.pom
+Progress (1): 4.1/4.2 kB
+Progress (1): 4.2 kB    
+                    
+Downloaded from B_shibboleth: https://build.shibboleth.net/nexus/content/groups/public/org/opensaml/opensaml-security-impl/4.3.0/opensaml-security-impl-4.3.0.pom (4.2 kB at 8.1 kB/s)
+Downloading from A_maven.central: https://repo1.maven.org/maven2/org/opensaml/opensaml-xmlsec-impl/4.3.0/opensaml-xmlsec-impl-4.3.0.pom
+Downloading from B_shibboleth: https://build.shibboleth.net/nexus/content/groups/public/org/opensaml/opensaml-xmlsec-impl/4.3.0/opensaml-xmlsec-impl-4.3.0.pom
+Progress (1): 4.1/4.1 kB
+Progress (1): 4.1 kB    
+                    
+Downloaded from B_shibboleth: https://build.shibboleth.net/nexus/content/groups/public/org/opensaml/opensaml-xmlsec-impl/4.3.0/opensaml-xmlsec-impl-4.3.0.pom (4.1 kB at 8.0 kB/s)
+Downloading from A_maven.central: https://repo1.maven.org/maven2/org/cryptacular/cryptacular/1.2.5/cryptacular-1.2.5.pom
+Progress (1): 2.7/13 kB
+Progress (1): 5.5/13 kB
+Progress (1): 8.2/13 kB
+Progress (1): 11/13 kB 
+Progress (1): 13 kB   
+                   
+Downloaded from A_maven.central: https://repo1.maven.org/maven2/org/cryptacular/cryptacular/1.2.5/cryptacular-1.2.5.pom (13 kB at 509 kB/s)
+Downloading from A_maven.central: https://repo1.maven.org/maven2/org/opensaml/opensaml-xacml-impl/4.3.0/opensaml-xacml-impl-4.3.0.pom
+Downloading from B_shibboleth: https://build.shibboleth.net/nexus/content/groups/public/org/opensaml/opensaml-xacml-impl/4.3.0/opensaml-xacml-impl-4.3.0.pom
+Progress (1): 2.8 kB
+                    
+Downloaded from B_shibboleth: https://build.shibboleth.net/nexus/content/groups/public/org/opensaml/opensaml-xacml-impl/4.3.0/opensaml-xacml-impl-4.3.0.pom (2.8 kB at 5.4 kB/s)
+Downloading from A_maven.central: https://repo1.maven.org/maven2/org/opensaml/opensaml-xacml-api/4.3.0/opensaml-xacml-api-4.3.0.pom
+Downloading from B_shibboleth: https://build.shibboleth.net/nexus/content/groups/public/org/opensaml/opensaml-xacml-api/4.3.0/opensaml-xacml-api-4.3.0.pom
+Progress (1): 1.6 kB
+                    
+Downloaded from B_shibboleth: https://build.shibboleth.net/nexus/content/groups/public/org/opensaml/opensaml-xacml-api/4.3.0/opensaml-xacml-api-4.3.0.pom (1.6 kB at 3.2 kB/s)
+Downloading from A_maven.central: https://repo1.maven.org/maven2/org/opensaml/opensaml-xacml-saml-impl/4.3.0/opensaml-xacml-saml-impl-4.3.0.pom
+Downloading from B_shibboleth: https://build.shibboleth.net/nexus/content/groups/public/org/opensaml/opensaml-xacml-saml-impl/4.3.0/opensaml-xacml-saml-impl-4.3.0.pom
+Progress (1): 2.9 kB
+                    
+Downloaded from B_shibboleth: https://build.shibboleth.net/nexus/content/groups/public/org/opensaml/opensaml-xacml-saml-impl/4.3.0/opensaml-xacml-saml-impl-4.3.0.pom (2.9 kB at 5.6 kB/s)
+Downloading from A_maven.central: https://repo1.maven.org/maven2/org/opensaml/opensaml-messaging-api/4.3.0/opensaml-messaging-api-4.3.0.pom
+Downloading from B_shibboleth: https://build.shibboleth.net/nexus/content/groups/public/org/opensaml/opensaml-messaging-api/4.3.0/opensaml-messaging-api-4.3.0.pom
+Progress (1): 2.3 kB
+                    
+Downloaded from B_shibboleth: https://build.shibboleth.net/nexus/content/groups/public/org/opensaml/opensaml-messaging-api/4.3.0/opensaml-messaging-api-4.3.0.pom (2.3 kB at 4.5 kB/s)
+Downloading from A_maven.central: https://repo1.maven.org/maven2/org/opensaml/opensaml-soap-impl/4.3.0/opensaml-soap-impl-4.3.0.pom
+Downloading from B_shibboleth: https://build.shibboleth.net/nexus/content/groups/public/org/opensaml/opensaml-soap-impl/4.3.0/opensaml-soap-impl-4.3.0.pom
+Progress (1): 4.1/4.2 kB
+Progress (1): 4.2 kB    
+                    
+Downloaded from B_shibboleth: https://build.shibboleth.net/nexus/content/groups/public/org/opensaml/opensaml-soap-impl/4.3.0/opensaml-soap-impl-4.3.0.pom (4.2 kB at 8.3 kB/s)
+Downloading from A_maven.central: https://repo1.maven.org/maven2/org/opensaml/opensaml-storage-api/4.3.0/opensaml-storage-api-4.3.0.pom
+Downloading from B_shibboleth: https://build.shibboleth.net/nexus/content/groups/public/org/opensaml/opensaml-storage-api/4.3.0/opensaml-storage-api-4.3.0.pom
+Progress (1): 1.7 kB
+                    
+Downloaded from B_shibboleth: https://build.shibboleth.net/nexus/content/groups/public/org/opensaml/opensaml-storage-api/4.3.0/opensaml-storage-api-4.3.0.pom (1.7 kB at 3.4 kB/s)
+Downloading from A_maven.central: https://repo1.maven.org/maven2/org/opensaml/opensaml-xacml-saml-api/4.3.0/opensaml-xacml-saml-api-4.3.0.pom
+Downloading from B_shibboleth: https://build.shibboleth.net/nexus/content/groups/public/org/opensaml/opensaml-xacml-saml-api/4.3.0/opensaml-xacml-saml-api-4.3.0.pom
+Progress (1): 2.0 kB
+                    
+Downloaded from B_shibboleth: https://build.shibboleth.net/nexus/content/groups/public/org/opensaml/opensaml-xacml-saml-api/4.3.0/opensaml-xacml-saml-api-4.3.0.pom (2.0 kB at 4.0 kB/s)
+Downloading from A_maven.central: https://repo1.maven.org/maven2/org/ehcache/ehcache/3.10.8/ehcache-3.10.8.pom
+Progress (1): 2.5 kB
+                    
+Downloaded from A_maven.central: https://repo1.maven.org/maven2/org/ehcache/ehcache/3.10.8/ehcache-3.10.8.pom (2.5 kB at 95 kB/s)
+Downloading from A_maven.central: https://repo1.maven.org/maven2/javax/cache/cache-api/1.1.0/cache-api-1.1.0.pom
+Progress (1): 2.7/12 kB
+Progress (1): 5.5/12 kB
+Progress (1): 8.2/12 kB
+Progress (1): 11/12 kB 
+Progress (1): 12 kB   
+                   
+Downloaded from A_maven.central: https://repo1.maven.org/maven2/javax/cache/cache-api/1.1.0/cache-api-1.1.0.pom (12 kB at 1.2 MB/s)
+Downloading from A_maven.central: https://repo1.maven.org/maven2/org/jasypt/jasypt/1.9.3/jasypt-1.9.3.pom
+Downloaded from A_maven.central: https://repo1.maven.org/maven2/org/jasypt/jasypt/1.9.3/jasypt-1.9.3.pom (0 B at 0 B/s)
+Downloading from A_maven.central: https://repo1.maven.org/maven2/com/sun/xml/messaging/saaj/saaj-impl/2.0.1/saaj-impl-2.0.1.pom
+Progress (1): 2.7/13 kB
+Progress (1): 5.5/13 kB
+Progress (1): 8.2/13 kB
+Progress (1): 11/13 kB 
+Progress (1): 13 kB   
+                   
+Downloaded from A_maven.central: https://repo1.maven.org/maven2/com/sun/xml/messaging/saaj/saaj-impl/2.0.1/saaj-impl-2.0.1.pom (13 kB at 1.3 MB/s)
+Downloading from A_maven.central: https://repo1.maven.org/maven2/com/sun/xml/messaging/saaj/metro-saaj/2.0.1/metro-saaj-2.0.1.pom
+Progress (1): 2.7/13 kB
+Progress (1): 5.5/13 kB
+Progress (1): 8.2/13 kB
+Progress (1): 11/13 kB 
+Progress (1): 13 kB   
+                   
+Downloaded from A_maven.central: https://repo1.maven.org/maven2/com/sun/xml/messaging/saaj/metro-saaj/2.0.1/metro-saaj-2.0.1.pom (13 kB at 1.3 MB/s)
+Downloading from A_maven.central: https://repo1.maven.org/maven2/jakarta/xml/soap/jakarta.xml.soap-api/2.0.1/jakarta.xml.soap-api-2.0.1.pom
+Progress (1): 2.7/19 kB
+Progress (1): 5.5/19 kB
+Progress (1): 8.2/19 kB
+Progress (1): 11/19 kB 
+Progress (1): 14/19 kB
+Progress (1): 16/19 kB
+Progress (1): 19/19 kB
+Progress (1): 19 kB   
+                   
+Downloaded from A_maven.central: https://repo1.maven.org/maven2/jakarta/xml/soap/jakarta.xml.soap-api/2.0.1/jakarta.xml.soap-api-2.0.1.pom (19 kB at 2.1 MB/s)
+Downloading from A_maven.central: https://repo1.maven.org/maven2/org/jvnet/staxex/stax-ex/2.0.1/stax-ex-2.0.1.pom
+Progress (1): 4.1/16 kB
+Progress (1): 8.2/16 kB
+Progress (1): 12/16 kB 
+Progress (1): 16/16 kB
+Progress (1): 16 kB   
+                   
+Downloaded from A_maven.central: https://repo1.maven.org/maven2/org/jvnet/staxex/stax-ex/2.0.1/stax-ex-2.0.1.pom (16 kB at 2.0 MB/s)
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.6.0:tree (default-cli) @ wss4j-ws-security-common ---
+[INFO] org.apache.wss4j:wss4j-ws-security-common:jar:3.0.2-SNAPSHOT
+[INFO] +- jakarta.mail:jakarta.mail-api:jar:2.1.2:compile
+[INFO] |  \- jakarta.activation:jakarta.activation-api:jar:2.1.2:compile
+[INFO] +- org.slf4j:slf4j-api:jar:2.0.7:compile
+[INFO] +- org.apache.santuario:xmlsec:jar:3.0.2:compile
+[INFO] |  +- jakarta.xml.bind:jakarta.xml.bind-api:jar:3.0.1:compile
+[INFO] |  +- commons-codec:commons-codec:jar:1.15:compile
+[INFO] |  \- com.fasterxml.woodstox:woodstox-core:jar:6.5.0:runtime
+[INFO] |     \- org.codehaus.woodstox:stax2-api:jar:4.2.1:runtime
+[INFO] +- org.opensaml:opensaml-saml-impl:jar:4.3.0:compile
+[INFO] |  +- org.opensaml:opensaml-core:jar:4.3.0:compile
+[INFO] |  +- org.opensaml:opensaml-profile-api:jar:4.3.0:compile
+[INFO] |  +- org.opensaml:opensaml-saml-api:jar:4.3.0:compile
+[INFO] |  +- org.opensaml:opensaml-security-api:jar:4.3.0:compile
+[INFO] |  +- org.opensaml:opensaml-security-impl:jar:4.3.0:compile
+[INFO] |  +- org.opensaml:opensaml-soap-api:jar:4.3.0:compile
+[INFO] |  +- org.opensaml:opensaml-xmlsec-api:jar:4.3.0:compile
+[INFO] |  +- org.opensaml:opensaml-xmlsec-impl:jar:4.3.0:compile
+[INFO] |  +- io.dropwizard.metrics:metrics-core:jar:4.2.15:compile
+[INFO] |  \- net.shibboleth.utilities:java-support:jar:8.4.0:compile
+[INFO] +- org.cryptacular:cryptacular:jar:1.2.5:compile
+[INFO] +- com.google.guava:guava:jar:32.1.1-jre:compile
+[INFO] |  \- com.google.guava:failureaccess:jar:1.0.1:compile
+[INFO] +- org.opensaml:opensaml-xacml-impl:jar:4.3.0:compile
+[INFO] |  \- org.opensaml:opensaml-xacml-api:jar:4.3.0:compile
+[INFO] +- org.opensaml:opensaml-xacml-saml-impl:jar:4.3.0:compile
+[INFO] |  \- org.opensaml:opensaml-xacml-saml-api:jar:4.3.0:compile
+[INFO] +- org.ehcache:ehcache:jar:jakarta:3.10.8:compile
+[INFO] |  \- javax.cache:cache-api:jar:1.1.0:compile
+[INFO] +- org.bouncycastle:bcprov-jdk18on:jar:1.75:compile
+[INFO] +- org.bouncycastle:bcpkix-jdk18on:jar:1.75:compile
+[INFO] |  \- org.bouncycastle:bcutil-jdk18on:jar:1.75:compile
+[INFO] +- org.jasypt:jasypt:jar:1.9.3:compile
+[INFO] +- org.junit.jupiter:junit-jupiter-engine:jar:5.9.3:test
+[INFO] |  +- org.junit.platform:junit-platform-engine:jar:1.9.3:test
+[INFO] |  |  +- org.opentest4j:opentest4j:jar:1.2.0:test
+[INFO] |  |  \- org.junit.platform:junit-platform-commons:jar:1.9.3:test
+[INFO] |  +- org.junit.jupiter:junit-jupiter-api:jar:5.9.3:test
+[INFO] |  \- org.apiguardian:apiguardian-api:jar:1.1.2:test
+[INFO] +- org.slf4j:slf4j-reload4j:jar:2.0.7:test
+[INFO] |  \- ch.qos.reload4j:reload4j:jar:1.2.22:test
+[INFO] +- org.hamcrest:hamcrest-library:jar:2.2:test
+[INFO] |  \- org.hamcrest:hamcrest-core:jar:2.2:test
+[INFO] |     \- org.hamcrest:hamcrest:jar:2.2:test
+[INFO] \- com.sun.xml.messaging.saaj:saaj-impl:jar:2.0.1:test
+[INFO]    +- jakarta.xml.soap:jakarta.xml.soap-api:jar:2.0.1:test
+[INFO]    \- org.jvnet.staxex:stax-ex:jar:2.0.1:test
+[INFO] 
+[INFO] ---------------< org.apache.wss4j:wss4j-ws-security-dom >---------------
+[INFO] Building Apache WSS4J DOM WS-Security 3.0.2-SNAPSHOT              [6/10]
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from apache.snapshots: https://repository.apache.org/snapshots/org/apache/wss4j/wss4j-ws-security-common/3.0.2-SNAPSHOT/maven-metadata.xml
+Downloading from A_maven.central: https://repo1.maven.org/maven2/org/apache/wss4j/wss4j-ws-security-common/3.0.2-SNAPSHOT/maven-metadata.xml
+Downloading from B_shibboleth: https://build.shibboleth.net/nexus/content/groups/public/org/apache/wss4j/wss4j-ws-security-common/3.0.2-SNAPSHOT/maven-metadata.xml
+Progress (1): 1.4 kB
+                    
+Downloaded from apache.snapshots: https://repository.apache.org/snapshots/org/apache/wss4j/wss4j-ws-security-common/3.0.2-SNAPSHOT/maven-metadata.xml (1.4 kB at 11 kB/s)
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.6.0:tree (default-cli) @ wss4j-ws-security-dom ---
+[INFO] org.apache.wss4j:wss4j-ws-security-dom:jar:3.0.2-SNAPSHOT
+[INFO] +- org.apache.wss4j:wss4j-ws-security-common:jar:3.0.2-SNAPSHOT:compile
+[INFO] |  +- jakarta.mail:jakarta.mail-api:jar:2.1.2:compile
+[INFO] |  |  \- jakarta.activation:jakarta.activation-api:jar:2.1.2:compile
+[INFO] |  +- org.slf4j:slf4j-api:jar:2.0.7:compile
+[INFO] |  +- org.apache.santuario:xmlsec:jar:3.0.2:compile
+[INFO] |  |  +- jakarta.xml.bind:jakarta.xml.bind-api:jar:3.0.1:compile
+[INFO] |  |  +- commons-codec:commons-codec:jar:1.15:compile
+[INFO] |  |  \- com.fasterxml.woodstox:woodstox-core:jar:6.5.0:runtime
+[INFO] |  |     \- org.codehaus.woodstox:stax2-api:jar:4.2.1:runtime
+[INFO] |  +- org.opensaml:opensaml-saml-impl:jar:4.3.0:compile
+[INFO] |  |  +- org.opensaml:opensaml-core:jar:4.3.0:compile
+[INFO] |  |  +- org.opensaml:opensaml-profile-api:jar:4.3.0:compile
+[INFO] |  |  +- org.opensaml:opensaml-saml-api:jar:4.3.0:compile
+[INFO] |  |  +- org.opensaml:opensaml-security-api:jar:4.3.0:compile
+[INFO] |  |  +- org.opensaml:opensaml-security-impl:jar:4.3.0:compile
+[INFO] |  |  +- org.opensaml:opensaml-soap-api:jar:4.3.0:compile
+[INFO] |  |  +- org.opensaml:opensaml-xmlsec-api:jar:4.3.0:compile
+[INFO] |  |  +- org.opensaml:opensaml-xmlsec-impl:jar:4.3.0:compile
+[INFO] |  |  +- io.dropwizard.metrics:metrics-core:jar:4.2.15:compile
+[INFO] |  |  \- net.shibboleth.utilities:java-support:jar:8.4.0:compile
+[INFO] |  +- org.cryptacular:cryptacular:jar:1.2.5:compile
+[INFO] |  +- com.google.guava:guava:jar:32.1.1-jre:compile
+[INFO] |  |  \- com.google.guava:failureaccess:jar:1.0.1:compile
+[INFO] |  +- org.opensaml:opensaml-xacml-impl:jar:4.3.0:compile
+[INFO] |  |  \- org.opensaml:opensaml-xacml-api:jar:4.3.0:compile
+[INFO] |  +- org.opensaml:opensaml-xacml-saml-impl:jar:4.3.0:compile
+[INFO] |  |  \- org.opensaml:opensaml-xacml-saml-api:jar:4.3.0:compile
+[INFO] |  \- org.jasypt:jasypt:jar:1.9.3:compile
+[INFO] +- org.ehcache:ehcache:jar:jakarta:3.10.8:runtime
+[INFO] |  \- javax.cache:cache-api:jar:1.1.0:runtime
+[INFO] +- org.apache.wss4j:wss4j-ws-security-common:jar:tests:3.0.2-SNAPSHOT:test
+[INFO] +- org.junit.jupiter:junit-jupiter-engine:jar:5.9.3:test
+[INFO] |  +- org.junit.platform:junit-platform-engine:jar:1.9.3:test
+[INFO] |  |  +- org.opentest4j:opentest4j:jar:1.2.0:test
+[INFO] |  |  \- org.junit.platform:junit-platform-commons:jar:1.9.3:test
+[INFO] |  +- org.junit.jupiter:junit-jupiter-api:jar:5.9.3:test
+[INFO] |  \- org.apiguardian:apiguardian-api:jar:1.1.2:test
+[INFO] +- org.slf4j:slf4j-reload4j:jar:2.0.7:test
+[INFO] |  \- ch.qos.reload4j:reload4j:jar:1.2.22:test
+[INFO] +- org.bouncycastle:bcprov-jdk18on:jar:1.75:test
+[INFO] +- org.bouncycastle:bcpkix-jdk18on:jar:1.75:test
+[INFO] |  \- org.bouncycastle:bcutil-jdk18on:jar:1.75:test
+[INFO] \- com.sun.xml.messaging.saaj:saaj-impl:jar:2.0.1:test
+[INFO]    +- jakarta.xml.soap:jakarta.xml.soap-api:jar:2.0.1:test
+[INFO]    \- org.jvnet.staxex:stax-ex:jar:2.0.1:test
+[INFO] 
+[INFO] --------------< org.apache.wss4j:wss4j-ws-security-stax >---------------
+[INFO] Building Apache WSS4J Streaming WS-Security 3.0.2-SNAPSHOT        [7/10]
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from A_maven.central: https://repo1.maven.org/maven2/org/apache/wss4j/wss4j-bindings/3.0.2-SNAPSHOT/maven-metadata.xml
+Downloading from apache.snapshots: https://repository.apache.org/snapshots/org/apache/wss4j/wss4j-bindings/3.0.2-SNAPSHOT/maven-metadata.xml
+Downloading from B_shibboleth: https://build.shibboleth.net/nexus/content/groups/public/org/apache/wss4j/wss4j-bindings/3.0.2-SNAPSHOT/maven-metadata.xml
+Progress (1): 1.2 kB
+                    
+Downloaded from apache.snapshots: https://repository.apache.org/snapshots/org/apache/wss4j/wss4j-bindings/3.0.2-SNAPSHOT/maven-metadata.xml (1.2 kB at 6.2 kB/s)
+Downloading from A_maven.central: https://repo1.maven.org/maven2/org/apache/wss4j/wss4j-ws-security-dom/3.0.2-SNAPSHOT/maven-metadata.xml
+Downloading from B_shibboleth: https://build.shibboleth.net/nexus/content/groups/public/org/apache/wss4j/wss4j-ws-security-dom/3.0.2-SNAPSHOT/maven-metadata.xml
+Downloading from apache.snapshots: https://repository.apache.org/snapshots/org/apache/wss4j/wss4j-ws-security-dom/3.0.2-SNAPSHOT/maven-metadata.xml
+Progress (1): 1.4 kB
+                    
+Downloaded from apache.snapshots: https://repository.apache.org/snapshots/org/apache/wss4j/wss4j-ws-security-dom/3.0.2-SNAPSHOT/maven-metadata.xml (1.4 kB at 23 kB/s)
+Downloading from A_maven.central: https://repo1.maven.org/maven2/org/glassfish/jaxb/jaxb-runtime/3.0.2/jaxb-runtime-3.0.2.pom
+Progress (1): 2.7/6.7 kB
+Progress (1): 5.5/6.7 kB
+Progress (1): 6.7 kB    
+                    
+Downloaded from A_maven.central: https://repo1.maven.org/maven2/org/glassfish/jaxb/jaxb-runtime/3.0.2/jaxb-runtime-3.0.2.pom (6.7 kB at 352 kB/s)
+Downloading from A_maven.central: https://repo1.maven.org/maven2/com/sun/xml/bind/mvn/jaxb-runtime-parent/3.0.2/jaxb-runtime-parent-3.0.2.pom
+Progress (1): 1.2 kB
+                    
+Downloaded from A_maven.central: https://repo1.maven.org/maven2/com/sun/xml/bind/mvn/jaxb-runtime-parent/3.0.2/jaxb-runtime-parent-3.0.2.pom (1.2 kB at 91 kB/s)
+Downloading from A_maven.central: https://repo1.maven.org/maven2/com/sun/xml/bind/mvn/jaxb-parent/3.0.2/jaxb-parent-3.0.2.pom
+Progress (1): 2.7/29 kB
+Progress (1): 5.5/29 kB
+Progress (1): 8.2/29 kB
+Progress (1): 11/29 kB 
+Progress (1): 14/29 kB
+Progress (1): 16/29 kB
+Progress (1): 19/29 kB
+Progress (1): 22/29 kB
+Progress (1): 25/29 kB
+Progress (1): 27/29 kB
+Progress (1): 29 kB   
+                   
+Downloaded from A_maven.central: https://repo1.maven.org/maven2/com/sun/xml/bind/mvn/jaxb-parent/3.0.2/jaxb-parent-3.0.2.pom (29 kB at 2.9 MB/s)
+Downloading from A_maven.central: https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-bom-ext/3.0.2/jaxb-bom-ext-3.0.2.pom
+Progress (1): 2.7/3.5 kB
+Progress (1): 3.5 kB    
+                    
+Downloaded from A_maven.central: https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-bom-ext/3.0.2/jaxb-bom-ext-3.0.2.pom (3.5 kB at 434 kB/s)
+Downloading from A_maven.central: https://repo1.maven.org/maven2/org/glassfish/jaxb/jaxb-bom/3.0.2/jaxb-bom-3.0.2.pom
+Progress (1): 2.7/10 kB
+Progress (1): 5.5/10 kB
+Progress (1): 8.2/10 kB
+Progress (1): 10 kB    
+                   
+Downloaded from A_maven.central: https://repo1.maven.org/maven2/org/glassfish/jaxb/jaxb-bom/3.0.2/jaxb-bom-3.0.2.pom (10 kB at 1.0 MB/s)
+Downloading from A_maven.central: https://repo1.maven.org/maven2/org/glassfish/jaxb/jaxb-core/3.0.2/jaxb-core-3.0.2.pom
+Progress (1): 2.7/5.8 kB
+Progress (1): 5.5/5.8 kB
+Progress (1): 5.8 kB    
+                    
+Downloaded from A_maven.central: https://repo1.maven.org/maven2/org/glassfish/jaxb/jaxb-core/3.0.2/jaxb-core-3.0.2.pom (5.8 kB at 648 kB/s)
+Downloading from A_maven.central: https://repo1.maven.org/maven2/org/glassfish/jaxb/txw2/3.0.2/txw2-3.0.2.pom
+Progress (1): 1.8 kB
+                    
+Downloaded from A_maven.central: https://repo1.maven.org/maven2/org/glassfish/jaxb/txw2/3.0.2/txw2-3.0.2.pom (1.8 kB at 146 kB/s)
+Downloading from A_maven.central: https://repo1.maven.org/maven2/com/sun/xml/bind/mvn/jaxb-txw-parent/3.0.2/jaxb-txw-parent-3.0.2.pom
+Progress (1): 1.2 kB
+                    
+Downloaded from A_maven.central: https://repo1.maven.org/maven2/com/sun/xml/bind/mvn/jaxb-txw-parent/3.0.2/jaxb-txw-parent-3.0.2.pom (1.2 kB at 109 kB/s)
+Downloading from A_maven.central: https://repo1.maven.org/maven2/com/sun/istack/istack-commons-runtime/4.0.1/istack-commons-runtime-4.0.1.pom
+Progress (1): 4.1/4.8 kB
+Progress (1): 4.8 kB    
+                    
+Downloaded from A_maven.central: https://repo1.maven.org/maven2/com/sun/istack/istack-commons-runtime/4.0.1/istack-commons-runtime-4.0.1.pom (4.8 kB at 435 kB/s)
+Downloading from A_maven.central: https://repo1.maven.org/maven2/com/sun/istack/istack-commons/4.0.1/istack-commons-4.0.1.pom
+Progress (1): 4.1/24 kB
+Progress (1): 8.2/24 kB
+Progress (1): 12/24 kB 
+Progress (1): 16/24 kB
+Progress (1): 20/24 kB
+Progress (1): 24 kB   
+                   
+Downloaded from A_maven.central: https://repo1.maven.org/maven2/com/sun/istack/istack-commons/4.0.1/istack-commons-4.0.1.pom (24 kB at 2.4 MB/s)
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.6.0:tree (default-cli) @ wss4j-ws-security-stax ---
+[INFO] org.apache.wss4j:wss4j-ws-security-stax:jar:3.0.2-SNAPSHOT
+[INFO] +- org.apache.wss4j:wss4j-bindings:jar:3.0.2-SNAPSHOT:compile
+[INFO] |  \- org.apache.santuario:xmlsec:jar:3.0.2:compile
+[INFO] |     +- jakarta.xml.bind:jakarta.xml.bind-api:jar:3.0.1:compile
+[INFO] |     +- commons-codec:commons-codec:jar:1.15:compile
+[INFO] |     \- com.fasterxml.woodstox:woodstox-core:jar:6.5.0:runtime
+[INFO] |        \- org.codehaus.woodstox:stax2-api:jar:4.2.1:runtime
+[INFO] +- org.apache.wss4j:wss4j-ws-security-common:jar:3.0.2-SNAPSHOT:compile
+[INFO] |  +- jakarta.mail:jakarta.mail-api:jar:2.1.2:compile
+[INFO] |  |  \- jakarta.activation:jakarta.activation-api:jar:2.1.2:compile
+[INFO] |  +- org.slf4j:slf4j-api:jar:2.0.7:compile
+[INFO] |  +- org.opensaml:opensaml-saml-impl:jar:4.3.0:compile
+[INFO] |  |  +- org.opensaml:opensaml-core:jar:4.3.0:compile
+[INFO] |  |  +- org.opensaml:opensaml-profile-api:jar:4.3.0:compile
+[INFO] |  |  +- org.opensaml:opensaml-saml-api:jar:4.3.0:compile
+[INFO] |  |  +- org.opensaml:opensaml-security-api:jar:4.3.0:compile
+[INFO] |  |  |  \- org.bouncycastle:bcpkix-jdk18on:jar:1.75:compile
+[INFO] |  |  |     \- org.bouncycastle:bcutil-jdk18on:jar:1.75:compile
+[INFO] |  |  +- org.opensaml:opensaml-security-impl:jar:4.3.0:compile
+[INFO] |  |  +- org.opensaml:opensaml-soap-api:jar:4.3.0:compile
+[INFO] |  |  +- org.opensaml:opensaml-xmlsec-api:jar:4.3.0:compile
+[INFO] |  |  +- org.opensaml:opensaml-xmlsec-impl:jar:4.3.0:compile
+[INFO] |  |  +- io.dropwizard.metrics:metrics-core:jar:4.2.15:compile
+[INFO] |  |  \- net.shibboleth.utilities:java-support:jar:8.4.0:compile
+[INFO] |  +- org.cryptacular:cryptacular:jar:1.2.5:compile
+[INFO] |  +- com.google.guava:guava:jar:32.1.1-jre:compile
+[INFO] |  |  \- com.google.guava:failureaccess:jar:1.0.1:compile
+[INFO] |  +- org.opensaml:opensaml-xacml-impl:jar:4.3.0:compile
+[INFO] |  |  \- org.opensaml:opensaml-xacml-api:jar:4.3.0:compile
+[INFO] |  +- org.opensaml:opensaml-xacml-saml-impl:jar:4.3.0:compile
+[INFO] |  |  \- org.opensaml:opensaml-xacml-saml-api:jar:4.3.0:compile
+[INFO] |  \- org.jasypt:jasypt:jar:1.9.3:compile
+[INFO] +- org.ehcache:ehcache:jar:jakarta:3.10.8:runtime
+[INFO] |  \- javax.cache:cache-api:jar:1.1.0:runtime
+[INFO] +- org.apache.wss4j:wss4j-ws-security-dom:jar:3.0.2-SNAPSHOT:test
+[INFO] +- org.apache.wss4j:wss4j-ws-security-common:jar:tests:3.0.2-SNAPSHOT:test
+[INFO] +- org.apache.wss4j:wss4j-ws-security-dom:jar:tests:3.0.2-SNAPSHOT:test
+[INFO] +- org.apache.commons:commons-compress:jar:1.23.0:test
+[INFO] +- org.tukaani:xz:jar:1.9:test
+[INFO] +- org.slf4j:slf4j-reload4j:jar:2.0.7:test
+[INFO] |  \- ch.qos.reload4j:reload4j:jar:1.2.22:test
+[INFO] +- org.junit.jupiter:junit-jupiter-engine:jar:5.9.3:test
+[INFO] |  +- org.junit.platform:junit-platform-engine:jar:1.9.3:test
+[INFO] |  |  +- org.opentest4j:opentest4j:jar:1.2.0:test
+[INFO] |  |  \- org.junit.platform:junit-platform-commons:jar:1.9.3:test
+[INFO] |  +- org.junit.jupiter:junit-jupiter-api:jar:5.9.3:test
+[INFO] |  \- org.apiguardian:apiguardian-api:jar:1.1.2:test
+[INFO] +- org.junit.jupiter:junit-jupiter-params:jar:5.9.3:test
+[INFO] +- org.bouncycastle:bcprov-jdk18on:jar:1.75:test
+[INFO] +- org.glassfish.jaxb:jaxb-runtime:jar:3.0.2:runtime
+[INFO] |  \- org.glassfish.jaxb:jaxb-core:jar:3.0.2:runtime
+[INFO] |     +- org.glassfish.jaxb:txw2:jar:3.0.2:runtime
+[INFO] |     \- com.sun.istack:istack-commons-runtime:jar:4.0.1:runtime
+[INFO] \- com.sun.xml.messaging.saaj:saaj-impl:jar:2.0.1:test
+[INFO]    +- jakarta.xml.soap:jakarta.xml.soap-api:jar:2.0.1:test
+[INFO]    \- org.jvnet.staxex:stax-ex:jar:2.0.1:test
+[INFO] 
+[INFO] ---------------< org.apache.wss4j:wss4j-ws-security-web >---------------
+[INFO] Building Apache WSS4J Web WS-Security 3.0.2-SNAPSHOT              [8/10]
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from A_maven.central: https://repo1.maven.org/maven2/jakarta/servlet/jakarta.servlet-api/5.0.0/jakarta.servlet-api-5.0.0.pom
+Progress (1): 4.1/18 kB
+Progress (1): 8.2/18 kB
+Progress (1): 12/18 kB 
+Progress (1): 16/18 kB
+Progress (1): 18 kB   
+                   
+Downloaded from A_maven.central: https://repo1.maven.org/maven2/jakarta/servlet/jakarta.servlet-api/5.0.0/jakarta.servlet-api-5.0.0.pom (18 kB at 2.3 MB/s)
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.6.0:tree (default-cli) @ wss4j-ws-security-web ---
+[INFO] org.apache.wss4j:wss4j-ws-security-web:jar:3.0.2-SNAPSHOT
+[INFO] +- org.apache.wss4j:wss4j-ws-security-dom:jar:3.0.2-SNAPSHOT:compile
+[INFO] |  +- org.apache.wss4j:wss4j-ws-security-common:jar:3.0.2-SNAPSHOT:compile
+[INFO] |  |  +- jakarta.mail:jakarta.mail-api:jar:2.1.2:compile
+[INFO] |  |  |  \- jakarta.activation:jakarta.activation-api:jar:2.1.2:compile
+[INFO] |  |  +- org.slf4j:slf4j-api:jar:2.0.7:compile
+[INFO] |  |  +- org.apache.santuario:xmlsec:jar:3.0.2:compile
+[INFO] |  |  |  +- jakarta.xml.bind:jakarta.xml.bind-api:jar:3.0.1:compile
+[INFO] |  |  |  +- commons-codec:commons-codec:jar:1.15:compile
+[INFO] |  |  |  \- com.fasterxml.woodstox:woodstox-core:jar:6.5.0:runtime
+[INFO] |  |  |     \- org.codehaus.woodstox:stax2-api:jar:4.2.1:runtime
+[INFO] |  |  +- org.opensaml:opensaml-saml-impl:jar:4.3.0:compile
+[INFO] |  |  |  +- org.opensaml:opensaml-core:jar:4.3.0:compile
+[INFO] |  |  |  +- org.opensaml:opensaml-profile-api:jar:4.3.0:compile
+[INFO] |  |  |  +- org.opensaml:opensaml-saml-api:jar:4.3.0:compile
+[INFO] |  |  |  +- org.opensaml:opensaml-security-api:jar:4.3.0:compile
+[INFO] |  |  |  |  \- org.bouncycastle:bcpkix-jdk18on:jar:1.75:compile
+[INFO] |  |  |  |     \- org.bouncycastle:bcutil-jdk18on:jar:1.75:compile
+[INFO] |  |  |  +- org.opensaml:opensaml-security-impl:jar:4.3.0:compile
+[INFO] |  |  |  +- org.opensaml:opensaml-soap-api:jar:4.3.0:compile
+[INFO] |  |  |  +- org.opensaml:opensaml-xmlsec-api:jar:4.3.0:compile
+[INFO] |  |  |  +- org.opensaml:opensaml-xmlsec-impl:jar:4.3.0:compile
+[INFO] |  |  |  +- io.dropwizard.metrics:metrics-core:jar:4.2.15:compile
+[INFO] |  |  |  \- net.shibboleth.utilities:java-support:jar:8.4.0:compile
+[INFO] |  |  +- org.cryptacular:cryptacular:jar:1.2.5:compile
+[INFO] |  |  |  \- org.bouncycastle:bcprov-jdk18on:jar:1.75:compile
+[INFO] |  |  +- com.google.guava:guava:jar:32.1.1-jre:compile
+[INFO] |  |  |  \- com.google.guava:failureaccess:jar:1.0.1:compile
+[INFO] |  |  +- org.opensaml:opensaml-xacml-impl:jar:4.3.0:compile
+[INFO] |  |  |  \- org.opensaml:opensaml-xacml-api:jar:4.3.0:compile
+[INFO] |  |  +- org.opensaml:opensaml-xacml-saml-impl:jar:4.3.0:compile
+[INFO] |  |  |  \- org.opensaml:opensaml-xacml-saml-api:jar:4.3.0:compile
+[INFO] |  |  \- org.jasypt:jasypt:jar:1.9.3:compile
+[INFO] |  \- org.ehcache:ehcache:jar:jakarta:3.10.8:runtime
+[INFO] |     \- javax.cache:cache-api:jar:1.1.0:runtime
+[INFO] \- jakarta.servlet:jakarta.servlet-api:jar:5.0.0:provided
+[INFO] 
+[INFO] -----------------< org.apache.wss4j:wss4j-integration >-----------------
+[INFO] Building Apache WSS4J WS-Security Integration 3.0.2-SNAPSHOT      [9/10]
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from A_maven.central: https://repo1.maven.org/maven2/org/apache/wss4j/wss4j-ws-security-stax/3.0.2-SNAPSHOT/maven-metadata.xml
+Downloading from B_shibboleth: https://build.shibboleth.net/nexus/content/groups/public/org/apache/wss4j/wss4j-ws-security-stax/3.0.2-SNAPSHOT/maven-metadata.xml
+Downloading from apache.snapshots: https://repository.apache.org/snapshots/org/apache/wss4j/wss4j-ws-security-stax/3.0.2-SNAPSHOT/maven-metadata.xml
+Progress (1): 1.4 kB
+                    
+Downloaded from apache.snapshots: https://repository.apache.org/snapshots/org/apache/wss4j/wss4j-ws-security-stax/3.0.2-SNAPSHOT/maven-metadata.xml (1.4 kB at 11 kB/s)
+Downloading from A_maven.central: https://repo1.maven.org/maven2/org/apache/kerby/kerb-simplekdc/2.0.3/kerb-simplekdc-2.0.3.pom
+Progress (1): 1.6 kB
+                    
+Downloaded from A_maven.central: https://repo1.maven.org/maven2/org/apache/kerby/kerb-simplekdc/2.0.3/kerb-simplekdc-2.0.3.pom (1.6 kB at 88 kB/s)
+Downloading from A_maven.central: https://repo1.maven.org/maven2/org/apache/kerby/kerby-kerb/2.0.3/kerby-kerb-2.0.3.pom
+Progress (1): 1.7 kB
+                    
+Downloaded from A_maven.central: https://repo1.maven.org/maven2/org/apache/kerby/kerby-kerb/2.0.3/kerby-kerb-2.0.3.pom (1.7 kB at 74 kB/s)
+Downloading from A_maven.central: https://repo1.maven.org/maven2/org/apache/kerby/kerby-all/2.0.3/kerby-all-2.0.3.pom
+Progress (1): 2.7/19 kB
+Progress (1): 5.5/19 kB
+Progress (1): 8.2/19 kB
+Progress (1): 11/19 kB 
+Progress (1): 14/19 kB
+Progress (1): 16/19 kB
+Progress (1): 19/19 kB
+Progress (1): 19 kB   
+                   
+Downloaded from A_maven.central: https://repo1.maven.org/maven2/org/apache/kerby/kerby-all/2.0.3/kerby-all-2.0.3.pom (19 kB at 1.5 MB/s)
+Downloading from A_maven.central: https://repo1.maven.org/maven2/org/apache/kerby/kerb-client/2.0.3/kerb-client-2.0.3.pom
+Progress (1): 2.4 kB
+                    
+Downloaded from A_maven.central: https://repo1.maven.org/maven2/org/apache/kerby/kerb-client/2.0.3/kerb-client-2.0.3.pom (2.4 kB at 125 kB/s)
+Downloading from A_maven.central: https://repo1.maven.org/maven2/org/apache/kerby/kerby-config/2.0.3/kerby-config-2.0.3.pom
+Progress (1): 1.7 kB
+                    
+Downloaded from A_maven.central: https://repo1.maven.org/maven2/org/apache/kerby/kerby-config/2.0.3/kerby-config-2.0.3.pom (1.7 kB at 156 kB/s)
+Downloading from A_maven.central: https://repo1.maven.org/maven2/org/apache/kerby/kerby-common/2.0.3/kerby-common-2.0.3.pom
+Progress (1): 1.3 kB
+                    
+Downloaded from A_maven.central: https://repo1.maven.org/maven2/org/apache/kerby/kerby-common/2.0.3/kerby-common-2.0.3.pom (1.3 kB at 115 kB/s)
+Downloading from A_maven.central: https://repo1.maven.org/maven2/org/apache/kerby/kerb-core/2.0.3/kerb-core-2.0.3.pom
+Progress (1): 1.5 kB
+                    
+Downloaded from A_maven.central: https://repo1.maven.org/maven2/org/apache/kerby/kerb-core/2.0.3/kerb-core-2.0.3.pom (1.5 kB at 74 kB/s)
+Downloading from A_maven.central: https://repo1.maven.org/maven2/org/apache/kerby/kerby-pkix/2.0.3/kerby-pkix-2.0.3.pom
+Progress (1): 2.2 kB
+                    
+Downloaded from A_maven.central: https://repo1.maven.org/maven2/org/apache/kerby/kerby-pkix/2.0.3/kerby-pkix-2.0.3.pom (2.2 kB at 279 kB/s)
+Downloading from A_maven.central: https://repo1.maven.org/maven2/org/apache/kerby/kerby-asn1/2.0.3/kerby-asn1-2.0.3.pom
+Progress (1): 1.4 kB
+                    
+Downloaded from A_maven.central: https://repo1.maven.org/maven2/org/apache/kerby/kerby-asn1/2.0.3/kerby-asn1-2.0.3.pom (1.4 kB at 154 kB/s)
+Downloading from A_maven.central: https://repo1.maven.org/maven2/org/apache/kerby/kerby-util/2.0.3/kerby-util-2.0.3.pom
+Progress (1): 1.4 kB
+                    
+Downloaded from A_maven.central: https://repo1.maven.org/maven2/org/apache/kerby/kerby-util/2.0.3/kerby-util-2.0.3.pom (1.4 kB at 176 kB/s)
+Downloading from A_maven.central: https://repo1.maven.org/maven2/org/apache/kerby/kerb-common/2.0.3/kerb-common-2.0.3.pom
+Progress (1): 1.9 kB
+                    
+Downloaded from A_maven.central: https://repo1.maven.org/maven2/org/apache/kerby/kerb-common/2.0.3/kerb-common-2.0.3.pom (1.9 kB at 193 kB/s)
+Downloading from A_maven.central: https://repo1.maven.org/maven2/org/apache/kerby/kerb-crypto/2.0.3/kerb-crypto-2.0.3.pom
+Progress (1): 1.7 kB
+                    
+Downloaded from A_maven.central: https://repo1.maven.org/maven2/org/apache/kerby/kerb-crypto/2.0.3/kerb-crypto-2.0.3.pom (1.7 kB at 35 kB/s)
+Downloading from A_maven.central: https://repo1.maven.org/maven2/org/apache/kerby/kerb-util/2.0.3/kerb-util-2.0.3.pom
+Progress (1): 2.1 kB
+                    
+Downloaded from A_maven.central: https://repo1.maven.org/maven2/org/apache/kerby/kerb-util/2.0.3/kerb-util-2.0.3.pom (2.1 kB at 137 kB/s)
+Downloading from A_maven.central: https://repo1.maven.org/maven2/org/apache/kerby/token-provider/2.0.3/token-provider-2.0.3.pom
+Progress (1): 1.7 kB
+                    
+Downloaded from A_maven.central: https://repo1.maven.org/maven2/org/apache/kerby/token-provider/2.0.3/token-provider-2.0.3.pom (1.7 kB at 172 kB/s)
+Downloading from A_maven.central: https://repo1.maven.org/maven2/org/apache/kerby/kerby-provider/2.0.3/kerby-provider-2.0.3.pom
+Progress (1): 1.2 kB
+                    
+Downloaded from A_maven.central: https://repo1.maven.org/maven2/org/apache/kerby/kerby-provider/2.0.3/kerby-provider-2.0.3.pom (1.2 kB at 130 kB/s)
+Downloading from A_maven.central: https://repo1.maven.org/maven2/com/nimbusds/nimbus-jose-jwt/9.30.1/nimbus-jose-jwt-9.30.1.pom
+Progress (1): 4.1/13 kB
+Progress (1): 8.2/13 kB
+Progress (1): 12/13 kB 
+Progress (1): 13 kB   
+                   
+Downloaded from A_maven.central: https://repo1.maven.org/maven2/com/nimbusds/nimbus-jose-jwt/9.30.1/nimbus-jose-jwt-9.30.1.pom (13 kB at 1.4 MB/s)
+Downloading from A_maven.central: https://repo1.maven.org/maven2/org/apache/kerby/kerb-admin/2.0.3/kerb-admin-2.0.3.pom
+Progress (1): 2.1 kB
+                    
+Downloaded from A_maven.central: https://repo1.maven.org/maven2/org/apache/kerby/kerb-admin/2.0.3/kerb-admin-2.0.3.pom (2.1 kB at 235 kB/s)
+Downloading from A_maven.central: https://repo1.maven.org/maven2/org/apache/kerby/kerb-server/2.0.3/kerb-server-2.0.3.pom
+Progress (1): 1.9 kB
+                    
+Downloaded from A_maven.central: https://repo1.maven.org/maven2/org/apache/kerby/kerb-server/2.0.3/kerb-server-2.0.3.pom (1.9 kB at 189 kB/s)
+Downloading from A_maven.central: https://repo1.maven.org/maven2/org/apache/kerby/kerb-identity/2.0.3/kerb-identity-2.0.3.pom
+Progress (1): 1.7 kB
+                    
+Downloaded from A_maven.central: https://repo1.maven.org/maven2/org/apache/kerby/kerb-identity/2.0.3/kerb-identity-2.0.3.pom (1.7 kB at 184 kB/s)
+Downloading from A_maven.central: https://repo1.maven.org/maven2/org/apache/kerby/kerby-xdr/2.0.3/kerby-xdr-2.0.3.pom
+Progress (1): 1.4 kB
+                    
+Downloaded from A_maven.central: https://repo1.maven.org/maven2/org/apache/kerby/kerby-xdr/2.0.3/kerby-xdr-2.0.3.pom (1.4 kB at 173 kB/s)
+Downloading from A_maven.central: https://repo1.maven.org/maven2/org/jline/jline/3.22.0/jline-3.22.0.pom
+Progress (1): 4.1/18 kB
+Progress (1): 8.2/18 kB
+Progress (1): 12/18 kB 
+Progress (1): 16/18 kB
+Progress (1): 18 kB   
+                   
+Downloaded from A_maven.central: https://repo1.maven.org/maven2/org/jline/jline/3.22.0/jline-3.22.0.pom (18 kB at 1.5 MB/s)
+Downloading from A_maven.central: https://repo1.maven.org/maven2/org/jline/jline-parent/3.22.0/jline-parent-3.22.0.pom
+Progress (1): 4.1/28 kB
+Progress (1): 8.2/28 kB
+Progress (1): 12/28 kB 
+Progress (1): 16/28 kB
+Progress (1): 20/28 kB
+Progress (1): 25/28 kB
+Progress (1): 28 kB   
+                   
+Downloaded from A_maven.central: https://repo1.maven.org/maven2/org/jline/jline-parent/3.22.0/jline-parent-3.22.0.pom (28 kB at 2.0 MB/s)
+Downloading from A_maven.central: https://repo1.maven.org/maven2/org/jboss/xnio/xnio-api/3.8.8.Final/xnio-api-3.8.8.Final.pom
+Progress (1): 4.1/8.8 kB
+Progress (1): 8.2/8.8 kB
+Progress (1): 8.8 kB    
+                    
+Downloaded from A_maven.central: https://repo1.maven.org/maven2/org/jboss/xnio/xnio-api/3.8.8.Final/xnio-api-3.8.8.Final.pom (8.8 kB at 337 kB/s)
+Downloading from A_maven.central: https://repo1.maven.org/maven2/org/jboss/xnio/xnio-all/3.8.8.Final/xnio-all-3.8.8.Final.pom
+Progress (1): 4.1/7.1 kB
+Progress (1): 7.1 kB    
+                    
+Downloaded from A_maven.central: https://repo1.maven.org/maven2/org/jboss/xnio/xnio-all/3.8.8.Final/xnio-all-3.8.8.Final.pom (7.1 kB at 647 kB/s)
+Downloading from A_maven.central: https://repo1.maven.org/maven2/org/wildfly/common/wildfly-common/1.5.4.Final/wildfly-common-1.5.4.Final.pom
+Downloaded from A_maven.central: https://repo1.maven.org/maven2/org/wildfly/common/wildfly-common/1.5.4.Final/wildfly-common-1.5.4.Final.pom (0 B at 0 B/s)
+Downloading from A_maven.central: https://repo1.maven.org/maven2/org/wildfly/client/wildfly-client-config/1.0.1.Final/wildfly-client-config-1.0.1.Final.pom
+Downloaded from A_maven.central: https://repo1.maven.org/maven2/org/wildfly/client/wildfly-client-config/1.0.1.Final/wildfly-client-config-1.0.1.Final.pom (0 B at 0 B/s)
+Downloading from A_maven.central: https://repo1.maven.org/maven2/org/jboss/jboss-parent/23/jboss-parent-23.pom
+Downloaded from A_maven.central: https://repo1.maven.org/maven2/org/jboss/jboss-parent/23/jboss-parent-23.pom (0 B at 0 B/s)
+Downloading from A_maven.central: https://repo1.maven.org/maven2/org/jboss/logging/jboss-logging/3.3.1.Final/jboss-logging-3.3.1.Final.pom
+Downloaded from A_maven.central: https://repo1.maven.org/maven2/org/jboss/logging/jboss-logging/3.3.1.Final/jboss-logging-3.3.1.Final.pom (0 B at 0 B/s)
+Downloading from A_maven.central: https://repo1.maven.org/maven2/org/jboss/threads/jboss-threads/2.3.6.Final/jboss-threads-2.3.6.Final.pom
+Progress (1): 4.1/4.6 kB
+Progress (1): 4.6 kB    
+                    
+Downloaded from A_maven.central: https://repo1.maven.org/maven2/org/jboss/threads/jboss-threads/2.3.6.Final/jboss-threads-2.3.6.Final.pom (4.6 kB at 462 kB/s)
+Downloading from A_maven.central: https://repo1.maven.org/maven2/org/jboss/jboss-parent/20/jboss-parent-20.pom
+Downloaded from A_maven.central: https://repo1.maven.org/maven2/org/jboss/jboss-parent/20/jboss-parent-20.pom (0 B at 0 B/s)
+Downloading from A_maven.central: https://repo1.maven.org/maven2/org/wildfly/common/wildfly-common/1.3.0.Final/wildfly-common-1.3.0.Final.pom
+Progress (1): 4.1/7.4 kB
+Progress (1): 7.4 kB    
+                    
+Downloaded from A_maven.central: https://repo1.maven.org/maven2/org/wildfly/common/wildfly-common/1.3.0.Final/wildfly-common-1.3.0.Final.pom (7.4 kB at 742 kB/s)
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.6.0:tree (default-cli) @ wss4j-integration ---
+[INFO] org.apache.wss4j:wss4j-integration:jar:3.0.2-SNAPSHOT
+[INFO] +- org.apache.wss4j:wss4j-ws-security-common:jar:tests:3.0.2-SNAPSHOT:test
+[INFO] |  +- jakarta.mail:jakarta.mail-api:jar:2.1.2:test
+[INFO] |  |  \- jakarta.activation:jakarta.activation-api:jar:2.1.2:test
+[INFO] |  +- org.slf4j:slf4j-api:jar:2.0.7:test
+[INFO] |  +- org.apache.santuario:xmlsec:jar:3.0.2:test
+[INFO] |  |  +- jakarta.xml.bind:jakarta.xml.bind-api:jar:3.0.1:test
+[INFO] |  |  +- commons-codec:commons-codec:jar:1.15:test
+[INFO] |  |  \- com.fasterxml.woodstox:woodstox-core:jar:6.5.0:test
+[INFO] |  |     \- org.codehaus.woodstox:stax2-api:jar:4.2.1:test
+[INFO] |  +- org.opensaml:opensaml-saml-impl:jar:4.3.0:test
+[INFO] |  |  +- org.opensaml:opensaml-core:jar:4.3.0:test
+[INFO] |  |  +- org.opensaml:opensaml-profile-api:jar:4.3.0:test
+[INFO] |  |  +- org.opensaml:opensaml-saml-api:jar:4.3.0:test
+[INFO] |  |  +- org.opensaml:opensaml-security-api:jar:4.3.0:test
+[INFO] |  |  |  \- org.bouncycastle:bcpkix-jdk18on:jar:1.75:test
+[INFO] |  |  |     \- org.bouncycastle:bcutil-jdk18on:jar:1.75:test
+[INFO] |  |  +- org.opensaml:opensaml-security-impl:jar:4.3.0:test
+[INFO] |  |  +- org.opensaml:opensaml-soap-api:jar:4.3.0:test
+[INFO] |  |  +- org.opensaml:opensaml-xmlsec-api:jar:4.3.0:test
+[INFO] |  |  +- org.opensaml:opensaml-xmlsec-impl:jar:4.3.0:test
+[INFO] |  |  +- io.dropwizard.metrics:metrics-core:jar:4.2.15:test
+[INFO] |  |  \- net.shibboleth.utilities:java-support:jar:8.4.0:test
+[INFO] |  +- org.cryptacular:cryptacular:jar:1.2.5:test
+[INFO] |  +- com.google.guava:guava:jar:32.1.1-jre:test
+[INFO] |  |  \- com.google.guava:failureaccess:jar:1.0.1:test
+[INFO] |  +- org.opensaml:opensaml-xacml-impl:jar:4.3.0:test
+[INFO] |  |  \- org.opensaml:opensaml-xacml-api:jar:4.3.0:test
+[INFO] |  +- org.opensaml:opensaml-xacml-saml-impl:jar:4.3.0:test
+[INFO] |  |  \- org.opensaml:opensaml-xacml-saml-api:jar:4.3.0:test
+[INFO] |  \- org.jasypt:jasypt:jar:1.9.3:test
+[INFO] +- org.apache.wss4j:wss4j-ws-security-dom:jar:3.0.2-SNAPSHOT:test
+[INFO] |  +- org.apache.wss4j:wss4j-ws-security-common:jar:3.0.2-SNAPSHOT:test
+[INFO] |  \- org.ehcache:ehcache:jar:jakarta:3.10.8:test
+[INFO] |     \- javax.cache:cache-api:jar:1.1.0:test
+[INFO] +- org.apache.wss4j:wss4j-ws-security-dom:jar:tests:3.0.2-SNAPSHOT:test
+[INFO] +- org.apache.wss4j:wss4j-ws-security-stax:jar:3.0.2-SNAPSHOT:test
+[INFO] |  +- org.apache.wss4j:wss4j-bindings:jar:3.0.2-SNAPSHOT:test
+[INFO] |  \- org.glassfish.jaxb:jaxb-runtime:jar:3.0.2:test
+[INFO] |     \- org.glassfish.jaxb:jaxb-core:jar:3.0.2:test
+[INFO] |        +- org.glassfish.jaxb:txw2:jar:3.0.2:test
+[INFO] |        \- com.sun.istack:istack-commons-runtime:jar:4.0.1:test
+[INFO] +- org.apache.wss4j:wss4j-ws-security-stax:jar:tests:3.0.2-SNAPSHOT:test
+[INFO] +- org.apache.kerby:kerb-simplekdc:jar:2.0.3:test
+[INFO] |  +- org.apache.kerby:kerb-client:jar:2.0.3:test
+[INFO] |  |  +- org.apache.kerby:kerby-config:jar:2.0.3:test
+[INFO] |  |  +- org.apache.kerby:kerb-core:jar:2.0.3:test
+[INFO] |  |  |  \- org.apache.kerby:kerby-pkix:jar:2.0.3:test
+[INFO] |  |  |     +- org.apache.kerby:kerby-asn1:jar:2.0.3:test
+[INFO] |  |  |     \- org.apache.kerby:kerby-util:jar:2.0.3:test
+[INFO] |  |  +- org.apache.kerby:kerb-common:jar:2.0.3:test
+[INFO] |  |  |  +- org.apache.kerby:kerb-crypto:jar:2.0.3:test
+[INFO] |  |  |  \- commons-io:commons-io:jar:2.11.0:test
+[INFO] |  |  +- org.apache.kerby:kerb-util:jar:2.0.3:test
+[INFO] |  |  \- org.apache.kerby:token-provider:jar:2.0.3:test
+[INFO] |  |     \- com.nimbusds:nimbus-jose-jwt:jar:9.30.1:test
+[INFO] |  |        \- com.github.stephenc.jcip:jcip-annotations:jar:1.0-1:test
+[INFO] |  \- org.apache.kerby:kerb-admin:jar:2.0.3:test
+[INFO] |     +- org.apache.kerby:kerb-server:jar:2.0.3:test
+[INFO] |     |  \- org.apache.kerby:kerb-identity:jar:2.0.3:test
+[INFO] |     +- org.apache.kerby:kerby-xdr:jar:2.0.3:test
+[INFO] |     +- org.jline:jline:jar:3.22.0:test
+[INFO] |     +- com.jcraft:jsch:jar:0.1.55:test
+[INFO] |     \- org.jboss.xnio:xnio-api:jar:3.8.8.Final:test
+[INFO] |        +- org.wildfly.common:wildfly-common:jar:1.5.4.Final:test
+[INFO] |        +- org.wildfly.client:wildfly-client-config:jar:1.0.1.Final:test
+[INFO] |        |  \- org.jboss.logging:jboss-logging:jar:3.3.1.Final:test
+[INFO] |        \- org.jboss.threads:jboss-threads:jar:2.3.6.Final:test
+[INFO] +- org.junit.jupiter:junit-jupiter-engine:jar:5.9.3:test
+[INFO] |  +- org.junit.platform:junit-platform-engine:jar:1.9.3:test
+[INFO] |  |  +- org.opentest4j:opentest4j:jar:1.2.0:test
+[INFO] |  |  \- org.junit.platform:junit-platform-commons:jar:1.9.3:test
+[INFO] |  +- org.junit.jupiter:junit-jupiter-api:jar:5.9.3:test
+[INFO] |  \- org.apiguardian:apiguardian-api:jar:1.1.2:test
+[INFO] +- org.slf4j:slf4j-reload4j:jar:2.0.7:test
+[INFO] |  \- ch.qos.reload4j:reload4j:jar:1.2.22:test
+[INFO] +- org.bouncycastle:bcprov-jdk18on:jar:1.75:test
+[INFO] \- com.sun.xml.messaging.saaj:saaj-impl:jar:2.0.1:test
+[INFO]    +- jakarta.xml.soap:jakarta.xml.soap-api:jar:2.0.1:test
+[INFO]    \- org.jvnet.staxex:stax-ex:jar:2.0.1:test
+[INFO] 
+[INFO] -----------< org.apache.wss4j:wss4j-ws-security-policy-stax >-----------
+[INFO] Building Apache WSS4J Streaming WS-SecurityPolicy 3.0.2-SNAPSHOT [10/10]
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from B_shibboleth: https://build.shibboleth.net/nexus/content/groups/public/org/apache/wss4j/wss4j-policy/3.0.2-SNAPSHOT/maven-metadata.xml
+Downloading from A_maven.central: https://repo1.maven.org/maven2/org/apache/wss4j/wss4j-policy/3.0.2-SNAPSHOT/maven-metadata.xml
+Downloading from apache.snapshots: https://repository.apache.org/snapshots/org/apache/wss4j/wss4j-policy/3.0.2-SNAPSHOT/maven-metadata.xml
+Progress (1): 1.2 kB
+                    
+Downloaded from apache.snapshots: https://repository.apache.org/snapshots/org/apache/wss4j/wss4j-policy/3.0.2-SNAPSHOT/maven-metadata.xml (1.2 kB at 3.5 kB/s)
+Downloading from A_maven.central: https://repo1.maven.org/maven2/wsdl4j/wsdl4j/1.6.3/wsdl4j-1.6.3.pom
+Progress (1): 1.1 kB
+                    
+Downloaded from A_maven.central: https://repo1.maven.org/maven2/wsdl4j/wsdl4j/1.6.3/wsdl4j-1.6.3.pom (1.1 kB at 67 kB/s)
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.6.0:tree (default-cli) @ wss4j-ws-security-policy-stax ---
+[INFO] org.apache.wss4j:wss4j-ws-security-policy-stax:jar:3.0.2-SNAPSHOT
+[INFO] +- org.apache.wss4j:wss4j-ws-security-stax:jar:3.0.2-SNAPSHOT:compile
+[INFO] |  +- org.apache.wss4j:wss4j-bindings:jar:3.0.2-SNAPSHOT:compile
+[INFO] |  +- org.apache.wss4j:wss4j-ws-security-common:jar:3.0.2-SNAPSHOT:compile
+[INFO] |  +- org.ehcache:ehcache:jar:jakarta:3.10.8:runtime
+[INFO] |  |  \- javax.cache:cache-api:jar:1.1.0:runtime
+[INFO] |  \- org.glassfish.jaxb:jaxb-runtime:jar:3.0.2:runtime
+[INFO] |     \- org.glassfish.jaxb:jaxb-core:jar:3.0.2:runtime
+[INFO] |        +- org.glassfish.jaxb:txw2:jar:3.0.2:runtime
+[INFO] |        \- com.sun.istack:istack-commons-runtime:jar:4.0.1:runtime
+[INFO] +- org.apache.wss4j:wss4j-policy:jar:3.0.2-SNAPSHOT:compile
+[INFO] |  \- org.apache.neethi:neethi:jar:3.2.0:compile
+[INFO] +- wsdl4j:wsdl4j:jar:1.6.3:compile
+[INFO] +- org.apache.wss4j:wss4j-ws-security-common:jar:tests:3.0.2-SNAPSHOT:test
+[INFO] |  +- jakarta.mail:jakarta.mail-api:jar:2.1.2:compile
+[INFO] |  |  \- jakarta.activation:jakarta.activation-api:jar:2.1.2:compile
+[INFO] |  +- org.slf4j:slf4j-api:jar:2.0.7:compile
+[INFO] |  +- org.apache.santuario:xmlsec:jar:3.0.2:compile
+[INFO] |  |  +- jakarta.xml.bind:jakarta.xml.bind-api:jar:3.0.1:compile
+[INFO] |  |  +- commons-codec:commons-codec:jar:1.15:compile
+[INFO] |  |  \- com.fasterxml.woodstox:woodstox-core:jar:6.5.0:runtime
+[INFO] |  |     \- org.codehaus.woodstox:stax2-api:jar:4.2.1:runtime
+[INFO] |  +- org.opensaml:opensaml-saml-impl:jar:4.3.0:compile
+[INFO] |  |  +- org.opensaml:opensaml-core:jar:4.3.0:compile
+[INFO] |  |  +- org.opensaml:opensaml-profile-api:jar:4.3.0:compile
+[INFO] |  |  +- org.opensaml:opensaml-saml-api:jar:4.3.0:compile
+[INFO] |  |  +- org.opensaml:opensaml-security-api:jar:4.3.0:compile
+[INFO] |  |  |  \- org.bouncycastle:bcpkix-jdk18on:jar:1.75:compile
+[INFO] |  |  |     \- org.bouncycastle:bcutil-jdk18on:jar:1.75:compile
+[INFO] |  |  +- org.opensaml:opensaml-security-impl:jar:4.3.0:compile
+[INFO] |  |  +- org.opensaml:opensaml-soap-api:jar:4.3.0:compile
+[INFO] |  |  +- org.opensaml:opensaml-xmlsec-api:jar:4.3.0:compile
+[INFO] |  |  +- org.opensaml:opensaml-xmlsec-impl:jar:4.3.0:compile
+[INFO] |  |  +- io.dropwizard.metrics:metrics-core:jar:4.2.15:compile
+[INFO] |  |  \- net.shibboleth.utilities:java-support:jar:8.4.0:compile
+[INFO] |  +- org.cryptacular:cryptacular:jar:1.2.5:compile
+[INFO] |  |  \- org.bouncycastle:bcprov-jdk18on:jar:1.75:compile
+[INFO] |  +- com.google.guava:guava:jar:32.1.1-jre:compile
+[INFO] |  |  \- com.google.guava:failureaccess:jar:1.0.1:compile
+[INFO] |  +- org.opensaml:opensaml-xacml-impl:jar:4.3.0:compile
+[INFO] |  |  \- org.opensaml:opensaml-xacml-api:jar:4.3.0:compile
+[INFO] |  +- org.opensaml:opensaml-xacml-saml-impl:jar:4.3.0:compile
+[INFO] |  |  \- org.opensaml:opensaml-xacml-saml-api:jar:4.3.0:compile
+[INFO] |  \- org.jasypt:jasypt:jar:1.9.3:compile
+[INFO] +- org.apache.wss4j:wss4j-ws-security-stax:jar:tests:3.0.2-SNAPSHOT:test
+[INFO] +- org.apache.wss4j:wss4j-ws-security-dom:jar:3.0.2-SNAPSHOT:test
+[INFO] +- org.apache.wss4j:wss4j-ws-security-dom:jar:tests:3.0.2-SNAPSHOT:test
+[INFO] +- org.junit.jupiter:junit-jupiter-engine:jar:5.9.3:test
+[INFO] |  +- org.junit.platform:junit-platform-engine:jar:1.9.3:test
+[INFO] |  |  +- org.opentest4j:opentest4j:jar:1.2.0:test
+[INFO] |  |  \- org.junit.platform:junit-platform-commons:jar:1.9.3:test
+[INFO] |  +- org.junit.jupiter:junit-jupiter-api:jar:5.9.3:test
+[INFO] |  \- org.apiguardian:apiguardian-api:jar:1.1.2:test
+[INFO] +- org.slf4j:slf4j-reload4j:jar:2.0.7:test
+[INFO] |  \- ch.qos.reload4j:reload4j:jar:1.2.22:test
+[INFO] \- com.sun.xml.messaging.saaj:saaj-impl:jar:2.0.1:test
+[INFO]    +- jakarta.xml.soap:jakarta.xml.soap-api:jar:2.0.1:test
+[INFO]    \- org.jvnet.staxex:stax-ex:jar:2.0.1:test
 [INFO] ------------------------------------------------------------------------
 [INFO] Reactor Summary for Apache WSS4J 3.0.2-SNAPSHOT:
 [INFO] 
-[INFO] Apache WSS4J ....................................... FAILURE [  0.035 s]
-[INFO] Apache WSS4J parent ................................ SKIPPED
-[INFO] Apache WSS4J WS-Security Bindings .................. SKIPPED
-[INFO] Apache WSS4J WS-SecurityPolicy model ............... SKIPPED
-[INFO] Apache WSS4J WS-Security Common .................... SKIPPED
-[INFO] Apache WSS4J DOM WS-Security ....................... SKIPPED
-[INFO] Apache WSS4J Streaming WS-Security ................. SKIPPED
-[INFO] Apache WSS4J Web WS-Security ....................... SKIPPED
-[INFO] Apache WSS4J WS-Security Integration ............... SKIPPED
-[INFO] Apache WSS4J Streaming WS-SecurityPolicy ........... SKIPPED
+[INFO] Apache WSS4J ....................................... SUCCESS [  0.582 s]
+[INFO] Apache WSS4J parent ................................ SUCCESS [  0.003 s]
+[INFO] Apache WSS4J WS-Security Bindings .................. SUCCESS [  0.061 s]
+[INFO] Apache WSS4J WS-SecurityPolicy model ............... SUCCESS [  0.061 s]
+[INFO] Apache WSS4J WS-Security Common .................... SUCCESS [ 12.766 s]
+[INFO] Apache WSS4J DOM WS-Security ....................... SUCCESS [  0.289 s]
+[INFO] Apache WSS4J Streaming WS-Security ................. SUCCESS [  1.211 s]
+[INFO] Apache WSS4J Web WS-Security ....................... SUCCESS [  0.020 s]
+[INFO] Apache WSS4J WS-Security Integration ............... SUCCESS [  1.061 s]
+[INFO] Apache WSS4J Streaming WS-SecurityPolicy ........... SUCCESS [  0.550 s]
 [INFO] ------------------------------------------------------------------------
-[INFO] BUILD FAILURE
+[INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  1.673 s
-[INFO] Finished at: 2023-09-21T15:07:16Z
+[INFO] Total time:  17.350 s
+[INFO] Finished at: 2023-09-25T20:59:11Z
 [INFO] ------------------------------------------------------------------------
-[ERROR] java.io.IOException: There is not enough space on the disk
-[ERROR] 
-[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
-[ERROR] Re-run Maven using the -X switch to enable full debug logging.

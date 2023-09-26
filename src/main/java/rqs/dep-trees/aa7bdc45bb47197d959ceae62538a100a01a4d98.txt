@@ -1,360 +1,2159 @@
 [INFO] Scanning for projects...
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.19.1/maven-surefire-plugin-2.19.1.pom
-[WARNING] Failed to write tracking file 'C:\Users\frank_bump\.m2\repository\org\apache\maven\plugins\maven-surefire-plugin\2.19.1\maven-surefire-plugin-2.19.1.pom.lastUpdated'
-java.io.IOException: There is not enough space on the disk
-    at java.io.RandomAccessFile.writeBytes (Native Method)
-    at java.io.RandomAccessFile.write (RandomAccessFile.java:545)
-    at org.eclipse.aether.internal.impl.DefaultTrackingFileManager.update (DefaultTrackingFileManager.java:107)
-    at org.eclipse.aether.internal.impl.DefaultUpdateCheckManager.write (DefaultUpdateCheckManager.java:527)
-    at org.eclipse.aether.internal.impl.DefaultUpdateCheckManager.touchArtifact (DefaultUpdateCheckManager.java:474)
-    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.evaluateDownloads (DefaultArtifactResolver.java:635)
-    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads (DefaultArtifactResolver.java:544)
-    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve (DefaultArtifactResolver.java:448)
-    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts (DefaultArtifactResolver.java:260)
-    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact (DefaultArtifactResolver.java:242)
-    at org.apache.maven.repository.internal.DefaultArtifactDescriptorReader.loadPom (DefaultArtifactDescriptorReader.java:231)
-    at org.apache.maven.repository.internal.DefaultArtifactDescriptorReader.readArtifactDescriptor (DefaultArtifactDescriptorReader.java:172)
-    at org.eclipse.aether.internal.impl.DefaultRepositorySystem.readArtifactDescriptor (DefaultRepositorySystem.java:268)
-    at org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver.resolve (DefaultPluginDependenciesResolver.java:107)
-    at org.apache.maven.plugin.internal.DefaultMavenPluginManager.lambda$getPluginDescriptor$0 (DefaultMavenPluginManager.java:183)
-    at org.apache.maven.plugin.DefaultPluginDescriptorCache.lambda$get$0 (DefaultPluginDescriptorCache.java:72)
-    at java.util.concurrent.ConcurrentHashMap.computeIfAbsent (ConcurrentHashMap.java:1708)
-    at org.apache.maven.plugin.DefaultPluginDescriptorCache.get (DefaultPluginDescriptorCache.java:70)
-    at org.apache.maven.plugin.internal.DefaultMavenPluginManager.getPluginDescriptor (DefaultMavenPluginManager.java:181)
-    at org.apache.maven.plugin.DefaultBuildPluginManager.loadPlugin (DefaultBuildPluginManager.java:81)
-    at org.apache.maven.plugin.prefix.internal.DefaultPluginPrefixResolver.resolveFromProject (DefaultPluginPrefixResolver.java:126)
-    at org.apache.maven.plugin.prefix.internal.DefaultPluginPrefixResolver.resolveFromProject (DefaultPluginPrefixResolver.java:112)
-    at org.apache.maven.plugin.prefix.internal.DefaultPluginPrefixResolver.resolve (DefaultPluginPrefixResolver.java:80)
-    at org.apache.maven.lifecycle.internal.MojoDescriptorCreator.findPluginForPrefix (MojoDescriptorCreator.java:247)
-    at org.apache.maven.lifecycle.internal.MojoDescriptorCreator.getMojoDescriptor (MojoDescriptorCreator.java:209)
-    at org.apache.maven.lifecycle.internal.DefaultLifecycleTaskSegmentCalculator.calculateTaskSegments (DefaultLifecycleTaskSegmentCalculator.java:94)
-    at org.apache.maven.lifecycle.internal.DefaultLifecycleTaskSegmentCalculator.calculateTaskSegments (DefaultLifecycleTaskSegmentCalculator.java:76)
-    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:84)
-    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:261)
-    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:173)
-    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:101)
-    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:906)
-    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:283)
-    at org.apache.maven.cli.MavenCli.main (MavenCli.java:206)
-    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
-    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:77)
-    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
-    at java.lang.reflect.Method.invoke (Method.java:568)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:283)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:226)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:407)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:348)
-[WARNING] Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-surefire-plugin:2.19.1: java.io.IOException: There is not enough space on the disk
 Downloading from central: https://repo.maven.apache.org/maven2/com/github/spotbugs/spotbugs-maven-plugin/4.0.0/spotbugs-maven-plugin-4.0.0.pom
-[WARNING] Failed to write tracking file 'C:\Users\frank_bump\.m2\repository\com\github\spotbugs\spotbugs-maven-plugin\4.0.0\spotbugs-maven-plugin-4.0.0.pom.lastUpdated'
-java.io.IOException: There is not enough space on the disk
-    at java.io.RandomAccessFile.writeBytes (Native Method)
-    at java.io.RandomAccessFile.write (RandomAccessFile.java:545)
-    at org.eclipse.aether.internal.impl.DefaultTrackingFileManager.update (DefaultTrackingFileManager.java:107)
-    at org.eclipse.aether.internal.impl.DefaultUpdateCheckManager.write (DefaultUpdateCheckManager.java:527)
-    at org.eclipse.aether.internal.impl.DefaultUpdateCheckManager.touchArtifact (DefaultUpdateCheckManager.java:474)
-    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.evaluateDownloads (DefaultArtifactResolver.java:635)
-    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads (DefaultArtifactResolver.java:544)
-    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve (DefaultArtifactResolver.java:448)
-    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts (DefaultArtifactResolver.java:260)
-    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact (DefaultArtifactResolver.java:242)
-    at org.apache.maven.repository.internal.DefaultArtifactDescriptorReader.loadPom (DefaultArtifactDescriptorReader.java:231)
-    at org.apache.maven.repository.internal.DefaultArtifactDescriptorReader.readArtifactDescriptor (DefaultArtifactDescriptorReader.java:172)
-    at org.eclipse.aether.internal.impl.DefaultRepositorySystem.readArtifactDescriptor (DefaultRepositorySystem.java:268)
-    at org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver.resolve (DefaultPluginDependenciesResolver.java:107)
-    at org.apache.maven.plugin.internal.DefaultMavenPluginManager.lambda$getPluginDescriptor$0 (DefaultMavenPluginManager.java:183)
-    at org.apache.maven.plugin.DefaultPluginDescriptorCache.lambda$get$0 (DefaultPluginDescriptorCache.java:72)
-    at java.util.concurrent.ConcurrentHashMap.computeIfAbsent (ConcurrentHashMap.java:1708)
-    at org.apache.maven.plugin.DefaultPluginDescriptorCache.get (DefaultPluginDescriptorCache.java:70)
-    at org.apache.maven.plugin.internal.DefaultMavenPluginManager.getPluginDescriptor (DefaultMavenPluginManager.java:181)
-    at org.apache.maven.plugin.DefaultBuildPluginManager.loadPlugin (DefaultBuildPluginManager.java:81)
-    at org.apache.maven.plugin.prefix.internal.DefaultPluginPrefixResolver.resolveFromProject (DefaultPluginPrefixResolver.java:126)
-    at org.apache.maven.plugin.prefix.internal.DefaultPluginPrefixResolver.resolveFromProject (DefaultPluginPrefixResolver.java:112)
-    at org.apache.maven.plugin.prefix.internal.DefaultPluginPrefixResolver.resolve (DefaultPluginPrefixResolver.java:80)
-    at org.apache.maven.lifecycle.internal.MojoDescriptorCreator.findPluginForPrefix (MojoDescriptorCreator.java:247)
-    at org.apache.maven.lifecycle.internal.MojoDescriptorCreator.getMojoDescriptor (MojoDescriptorCreator.java:209)
-    at org.apache.maven.lifecycle.internal.DefaultLifecycleTaskSegmentCalculator.calculateTaskSegments (DefaultLifecycleTaskSegmentCalculator.java:94)
-    at org.apache.maven.lifecycle.internal.DefaultLifecycleTaskSegmentCalculator.calculateTaskSegments (DefaultLifecycleTaskSegmentCalculator.java:76)
-    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:84)
-    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:261)
-    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:173)
-    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:101)
-    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:906)
-    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:283)
-    at org.apache.maven.cli.MavenCli.main (MavenCli.java:206)
-    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
-    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:77)
-    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
-    at java.lang.reflect.Method.invoke (Method.java:568)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:283)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:226)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:407)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:348)
-[WARNING] Failed to retrieve plugin descriptor for com.github.spotbugs:spotbugs-maven-plugin:4.0.0: java.io.IOException: There is not enough space on the disk
+Progress (1): 2.7/29 kB
+Progress (1): 5.5/29 kB
+Progress (1): 8.2/29 kB
+Progress (1): 11/29 kB 
+Progress (1): 14/29 kB
+Progress (1): 16/29 kB
+Progress (1): 19/29 kB
+Progress (1): 22/29 kB
+Progress (1): 25/29 kB
+Progress (1): 27/29 kB
+Progress (1): 29 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/com/github/spotbugs/spotbugs-maven-plugin/4.0.0/spotbugs-maven-plugin-4.0.0.pom (29 kB at 153 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/github/hazendaz/base-parent/24/base-parent-24.pom
+Progress (1): 2.7/84 kB
+Progress (1): 5.5/84 kB
+Progress (1): 8.2/84 kB
+Progress (1): 11/84 kB 
+Progress (1): 14/84 kB
+Progress (1): 16/84 kB
+Progress (1): 20/84 kB
+Progress (1): 24/84 kB
+Progress (1): 28/84 kB
+Progress (1): 32/84 kB
+Progress (1): 36/84 kB
+Progress (1): 40/84 kB
+Progress (1): 45/84 kB
+Progress (1): 49/84 kB
+Progress (1): 53/84 kB
+Progress (1): 57/84 kB
+Progress (1): 61/84 kB
+Progress (1): 65/84 kB
+Progress (1): 69/84 kB
+Progress (1): 73/84 kB
+Progress (1): 77/84 kB
+Progress (1): 81/84 kB
+Progress (1): 84 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/com/github/hazendaz/base-parent/24/base-parent-24.pom (84 kB at 3.7 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/github/spotbugs/spotbugs-maven-plugin/4.0.0/spotbugs-maven-plugin-4.0.0.jar
+Progress (1): 4.1/168 kB
+Progress (1): 8.2/168 kB
+Progress (1): 12/168 kB 
+Progress (1): 16/168 kB
+Progress (1): 20/168 kB
+Progress (1): 25/168 kB
+Progress (1): 29/168 kB
+Progress (1): 33/168 kB
+Progress (1): 37/168 kB
+Progress (1): 41/168 kB
+Progress (1): 45/168 kB
+Progress (1): 49/168 kB
+Progress (1): 53/168 kB
+Progress (1): 57/168 kB
+Progress (1): 61/168 kB
+Progress (1): 66/168 kB
+Progress (1): 70/168 kB
+Progress (1): 74/168 kB
+Progress (1): 78/168 kB
+Progress (1): 82/168 kB
+Progress (1): 86/168 kB
+Progress (1): 90/168 kB
+Progress (1): 94/168 kB
+Progress (1): 98/168 kB
+Progress (1): 102/168 kB
+Progress (1): 106/168 kB
+Progress (1): 111/168 kB
+Progress (1): 115/168 kB
+Progress (1): 119/168 kB
+Progress (1): 123/168 kB
+Progress (1): 127/168 kB
+Progress (1): 131/168 kB
+Progress (1): 135/168 kB
+Progress (1): 139/168 kB
+Progress (1): 143/168 kB
+Progress (1): 147/168 kB
+Progress (1): 152/168 kB
+Progress (1): 156/168 kB
+Progress (1): 160/168 kB
+Progress (1): 164/168 kB
+Progress (1): 168/168 kB
+Progress (1): 168 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/github/spotbugs/spotbugs-maven-plugin/4.0.0/spotbugs-maven-plugin-4.0.0.jar (168 kB at 7.3 MB/s)
 Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-shade-plugin/3.2.3/maven-shade-plugin-3.2.3.pom
-[WARNING] Failed to write tracking file 'C:\Users\frank_bump\.m2\repository\org\apache\maven\plugins\maven-shade-plugin\3.2.3\maven-shade-plugin-3.2.3.pom.lastUpdated'
-java.io.IOException: There is not enough space on the disk
-    at java.io.RandomAccessFile.writeBytes (Native Method)
-    at java.io.RandomAccessFile.write (RandomAccessFile.java:545)
-    at org.eclipse.aether.internal.impl.DefaultTrackingFileManager.update (DefaultTrackingFileManager.java:107)
-    at org.eclipse.aether.internal.impl.DefaultUpdateCheckManager.write (DefaultUpdateCheckManager.java:527)
-    at org.eclipse.aether.internal.impl.DefaultUpdateCheckManager.touchArtifact (DefaultUpdateCheckManager.java:474)
-    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.evaluateDownloads (DefaultArtifactResolver.java:635)
-    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads (DefaultArtifactResolver.java:544)
-    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve (DefaultArtifactResolver.java:448)
-    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts (DefaultArtifactResolver.java:260)
-    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact (DefaultArtifactResolver.java:242)
-    at org.apache.maven.repository.internal.DefaultArtifactDescriptorReader.loadPom (DefaultArtifactDescriptorReader.java:231)
-    at org.apache.maven.repository.internal.DefaultArtifactDescriptorReader.readArtifactDescriptor (DefaultArtifactDescriptorReader.java:172)
-    at org.eclipse.aether.internal.impl.DefaultRepositorySystem.readArtifactDescriptor (DefaultRepositorySystem.java:268)
-    at org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver.resolve (DefaultPluginDependenciesResolver.java:107)
-    at org.apache.maven.plugin.internal.DefaultMavenPluginManager.lambda$getPluginDescriptor$0 (DefaultMavenPluginManager.java:183)
-    at org.apache.maven.plugin.DefaultPluginDescriptorCache.lambda$get$0 (DefaultPluginDescriptorCache.java:72)
-    at java.util.concurrent.ConcurrentHashMap.computeIfAbsent (ConcurrentHashMap.java:1708)
-    at org.apache.maven.plugin.DefaultPluginDescriptorCache.get (DefaultPluginDescriptorCache.java:70)
-    at org.apache.maven.plugin.internal.DefaultMavenPluginManager.getPluginDescriptor (DefaultMavenPluginManager.java:181)
-    at org.apache.maven.plugin.DefaultBuildPluginManager.loadPlugin (DefaultBuildPluginManager.java:81)
-    at org.apache.maven.plugin.prefix.internal.DefaultPluginPrefixResolver.resolveFromProject (DefaultPluginPrefixResolver.java:126)
-    at org.apache.maven.plugin.prefix.internal.DefaultPluginPrefixResolver.resolveFromProject (DefaultPluginPrefixResolver.java:112)
-    at org.apache.maven.plugin.prefix.internal.DefaultPluginPrefixResolver.resolve (DefaultPluginPrefixResolver.java:80)
-    at org.apache.maven.lifecycle.internal.MojoDescriptorCreator.findPluginForPrefix (MojoDescriptorCreator.java:247)
-    at org.apache.maven.lifecycle.internal.MojoDescriptorCreator.getMojoDescriptor (MojoDescriptorCreator.java:209)
-    at org.apache.maven.lifecycle.internal.DefaultLifecycleTaskSegmentCalculator.calculateTaskSegments (DefaultLifecycleTaskSegmentCalculator.java:94)
-    at org.apache.maven.lifecycle.internal.DefaultLifecycleTaskSegmentCalculator.calculateTaskSegments (DefaultLifecycleTaskSegmentCalculator.java:76)
-    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:84)
-    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:261)
-    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:173)
-    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:101)
-    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:906)
-    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:283)
-    at org.apache.maven.cli.MavenCli.main (MavenCli.java:206)
-    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
-    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:77)
-    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
-    at java.lang.reflect.Method.invoke (Method.java:568)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:283)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:226)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:407)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:348)
-[WARNING] Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-shade-plugin:3.2.3: java.io.IOException: There is not enough space on the disk
+Progress (1): 4.1/10 kB
+Progress (1): 8.2/10 kB
+Progress (1): 10 kB    
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-shade-plugin/3.2.3/maven-shade-plugin-3.2.3.pom (10 kB at 1.0 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-shade-plugin/3.2.3/maven-shade-plugin-3.2.3.jar
+Progress (1): 4.1/132 kB
+Progress (1): 8.2/132 kB
+Progress (1): 12/132 kB 
+Progress (1): 16/132 kB
+Progress (1): 20/132 kB
+Progress (1): 25/132 kB
+Progress (1): 29/132 kB
+Progress (1): 33/132 kB
+Progress (1): 37/132 kB
+Progress (1): 41/132 kB
+Progress (1): 45/132 kB
+Progress (1): 49/132 kB
+Progress (1): 53/132 kB
+Progress (1): 57/132 kB
+Progress (1): 61/132 kB
+Progress (1): 66/132 kB
+Progress (1): 70/132 kB
+Progress (1): 74/132 kB
+Progress (1): 78/132 kB
+Progress (1): 82/132 kB
+Progress (1): 86/132 kB
+Progress (1): 90/132 kB
+Progress (1): 94/132 kB
+Progress (1): 98/132 kB
+Progress (1): 102/132 kB
+Progress (1): 106/132 kB
+Progress (1): 111/132 kB
+Progress (1): 115/132 kB
+Progress (1): 119/132 kB
+Progress (1): 123/132 kB
+Progress (1): 127/132 kB
+Progress (1): 131/132 kB
+Progress (1): 132 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-shade-plugin/3.2.3/maven-shade-plugin-3.2.3.jar (132 kB at 6.6 MB/s)
 [INFO] 
 [INFO] ---------------------< com.spotify:github-client >----------------------
 [INFO] Building github-client 0.1.26-SNAPSHOT
-[INFO]   from pom.xml
 [INFO] --------------------------------[ jar ]---------------------------------
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.19.1/maven-surefire-plugin-2.19.1.pom
-[WARNING] Failed to write tracking file 'C:\Users\frank_bump\.m2\repository\org\apache\maven\plugins\maven-surefire-plugin\2.19.1\maven-surefire-plugin-2.19.1.pom.lastUpdated'
-java.io.IOException: There is not enough space on the disk
-    at java.io.RandomAccessFile.writeBytes (Native Method)
-    at java.io.RandomAccessFile.write (RandomAccessFile.java:545)
-    at org.eclipse.aether.internal.impl.DefaultTrackingFileManager.update (DefaultTrackingFileManager.java:107)
-    at org.eclipse.aether.internal.impl.DefaultUpdateCheckManager.write (DefaultUpdateCheckManager.java:527)
-    at org.eclipse.aether.internal.impl.DefaultUpdateCheckManager.touchArtifact (DefaultUpdateCheckManager.java:474)
-    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.evaluateDownloads (DefaultArtifactResolver.java:635)
-    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads (DefaultArtifactResolver.java:544)
-    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve (DefaultArtifactResolver.java:448)
-    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts (DefaultArtifactResolver.java:260)
-    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact (DefaultArtifactResolver.java:242)
-    at org.apache.maven.repository.internal.DefaultArtifactDescriptorReader.loadPom (DefaultArtifactDescriptorReader.java:231)
-    at org.apache.maven.repository.internal.DefaultArtifactDescriptorReader.readArtifactDescriptor (DefaultArtifactDescriptorReader.java:172)
-    at org.eclipse.aether.internal.impl.DefaultRepositorySystem.readArtifactDescriptor (DefaultRepositorySystem.java:268)
-    at org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver.resolve (DefaultPluginDependenciesResolver.java:107)
-    at org.apache.maven.plugin.internal.DefaultMavenPluginManager.lambda$getPluginDescriptor$0 (DefaultMavenPluginManager.java:183)
-    at org.apache.maven.plugin.DefaultPluginDescriptorCache.lambda$get$0 (DefaultPluginDescriptorCache.java:72)
-    at java.util.concurrent.ConcurrentHashMap.computeIfAbsent (ConcurrentHashMap.java:1708)
-    at org.apache.maven.plugin.DefaultPluginDescriptorCache.get (DefaultPluginDescriptorCache.java:70)
-    at org.apache.maven.plugin.internal.DefaultMavenPluginManager.getPluginDescriptor (DefaultMavenPluginManager.java:181)
-    at org.apache.maven.plugin.DefaultBuildPluginManager.loadPlugin (DefaultBuildPluginManager.java:81)
-    at org.apache.maven.plugin.prefix.internal.DefaultPluginPrefixResolver.resolveFromProject (DefaultPluginPrefixResolver.java:126)
-    at org.apache.maven.plugin.prefix.internal.DefaultPluginPrefixResolver.resolveFromProject (DefaultPluginPrefixResolver.java:112)
-    at org.apache.maven.plugin.prefix.internal.DefaultPluginPrefixResolver.resolve (DefaultPluginPrefixResolver.java:80)
-    at org.apache.maven.lifecycle.internal.MojoDescriptorCreator.findPluginForPrefix (MojoDescriptorCreator.java:247)
-    at org.apache.maven.lifecycle.internal.MojoDescriptorCreator.getMojoDescriptor (MojoDescriptorCreator.java:209)
-    at org.apache.maven.lifecycle.internal.DefaultLifecycleExecutionPlanCalculator.calculateMojoExecutions (DefaultLifecycleExecutionPlanCalculator.java:188)
-    at org.apache.maven.lifecycle.internal.DefaultLifecycleExecutionPlanCalculator.calculateExecutionPlan (DefaultLifecycleExecutionPlanCalculator.java:119)
-    at org.apache.maven.lifecycle.internal.DefaultLifecycleExecutionPlanCalculator.calculateExecutionPlan (DefaultLifecycleExecutionPlanCalculator.java:135)
-    at org.apache.maven.lifecycle.internal.builder.BuilderCommon.resolveBuildPlan (BuilderCommon.java:93)
-    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:100)
-    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:73)
-    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:53)
-    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:118)
-    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:261)
-    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:173)
-    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:101)
-    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:906)
-    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:283)
-    at org.apache.maven.cli.MavenCli.main (MavenCli.java:206)
-    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
-    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:77)
-    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
-    at java.lang.reflect.Method.invoke (Method.java:568)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:283)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:226)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:407)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:348)
-[WARNING] Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-surefire-plugin:2.19.1: java.io.IOException: There is not enough space on the disk
-Downloading from central: https://repo.maven.apache.org/maven2/com/github/spotbugs/spotbugs-maven-plugin/4.0.0/spotbugs-maven-plugin-4.0.0.pom
-[WARNING] Failed to write tracking file 'C:\Users\frank_bump\.m2\repository\com\github\spotbugs\spotbugs-maven-plugin\4.0.0\spotbugs-maven-plugin-4.0.0.pom.lastUpdated'
-java.io.IOException: There is not enough space on the disk
-    at java.io.RandomAccessFile.writeBytes (Native Method)
-    at java.io.RandomAccessFile.write (RandomAccessFile.java:545)
-    at org.eclipse.aether.internal.impl.DefaultTrackingFileManager.update (DefaultTrackingFileManager.java:107)
-    at org.eclipse.aether.internal.impl.DefaultUpdateCheckManager.write (DefaultUpdateCheckManager.java:527)
-    at org.eclipse.aether.internal.impl.DefaultUpdateCheckManager.touchArtifact (DefaultUpdateCheckManager.java:474)
-    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.evaluateDownloads (DefaultArtifactResolver.java:635)
-    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads (DefaultArtifactResolver.java:544)
-    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve (DefaultArtifactResolver.java:448)
-    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts (DefaultArtifactResolver.java:260)
-    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact (DefaultArtifactResolver.java:242)
-    at org.apache.maven.repository.internal.DefaultArtifactDescriptorReader.loadPom (DefaultArtifactDescriptorReader.java:231)
-    at org.apache.maven.repository.internal.DefaultArtifactDescriptorReader.readArtifactDescriptor (DefaultArtifactDescriptorReader.java:172)
-    at org.eclipse.aether.internal.impl.DefaultRepositorySystem.readArtifactDescriptor (DefaultRepositorySystem.java:268)
-    at org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver.resolve (DefaultPluginDependenciesResolver.java:107)
-    at org.apache.maven.plugin.internal.DefaultMavenPluginManager.lambda$getPluginDescriptor$0 (DefaultMavenPluginManager.java:183)
-    at org.apache.maven.plugin.DefaultPluginDescriptorCache.lambda$get$0 (DefaultPluginDescriptorCache.java:72)
-    at java.util.concurrent.ConcurrentHashMap.computeIfAbsent (ConcurrentHashMap.java:1708)
-    at org.apache.maven.plugin.DefaultPluginDescriptorCache.get (DefaultPluginDescriptorCache.java:70)
-    at org.apache.maven.plugin.internal.DefaultMavenPluginManager.getPluginDescriptor (DefaultMavenPluginManager.java:181)
-    at org.apache.maven.plugin.DefaultBuildPluginManager.loadPlugin (DefaultBuildPluginManager.java:81)
-    at org.apache.maven.plugin.prefix.internal.DefaultPluginPrefixResolver.resolveFromProject (DefaultPluginPrefixResolver.java:126)
-    at org.apache.maven.plugin.prefix.internal.DefaultPluginPrefixResolver.resolveFromProject (DefaultPluginPrefixResolver.java:112)
-    at org.apache.maven.plugin.prefix.internal.DefaultPluginPrefixResolver.resolve (DefaultPluginPrefixResolver.java:80)
-    at org.apache.maven.lifecycle.internal.MojoDescriptorCreator.findPluginForPrefix (MojoDescriptorCreator.java:247)
-    at org.apache.maven.lifecycle.internal.MojoDescriptorCreator.getMojoDescriptor (MojoDescriptorCreator.java:209)
-    at org.apache.maven.lifecycle.internal.DefaultLifecycleExecutionPlanCalculator.calculateMojoExecutions (DefaultLifecycleExecutionPlanCalculator.java:188)
-    at org.apache.maven.lifecycle.internal.DefaultLifecycleExecutionPlanCalculator.calculateExecutionPlan (DefaultLifecycleExecutionPlanCalculator.java:119)
-    at org.apache.maven.lifecycle.internal.DefaultLifecycleExecutionPlanCalculator.calculateExecutionPlan (DefaultLifecycleExecutionPlanCalculator.java:135)
-    at org.apache.maven.lifecycle.internal.builder.BuilderCommon.resolveBuildPlan (BuilderCommon.java:93)
-    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:100)
-    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:73)
-    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:53)
-    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:118)
-    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:261)
-    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:173)
-    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:101)
-    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:906)
-    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:283)
-    at org.apache.maven.cli.MavenCli.main (MavenCli.java:206)
-    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
-    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:77)
-    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
-    at java.lang.reflect.Method.invoke (Method.java:568)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:283)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:226)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:407)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:348)
-[WARNING] Failed to retrieve plugin descriptor for com.github.spotbugs:spotbugs-maven-plugin:4.0.0: java.io.IOException: There is not enough space on the disk
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-shade-plugin/3.2.3/maven-shade-plugin-3.2.3.pom
-[WARNING] Failed to write tracking file 'C:\Users\frank_bump\.m2\repository\org\apache\maven\plugins\maven-shade-plugin\3.2.3\maven-shade-plugin-3.2.3.pom.lastUpdated'
-java.io.IOException: There is not enough space on the disk
-    at java.io.RandomAccessFile.writeBytes (Native Method)
-    at java.io.RandomAccessFile.write (RandomAccessFile.java:545)
-    at org.eclipse.aether.internal.impl.DefaultTrackingFileManager.update (DefaultTrackingFileManager.java:107)
-    at org.eclipse.aether.internal.impl.DefaultUpdateCheckManager.write (DefaultUpdateCheckManager.java:527)
-    at org.eclipse.aether.internal.impl.DefaultUpdateCheckManager.touchArtifact (DefaultUpdateCheckManager.java:474)
-    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.evaluateDownloads (DefaultArtifactResolver.java:635)
-    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads (DefaultArtifactResolver.java:544)
-    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve (DefaultArtifactResolver.java:448)
-    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts (DefaultArtifactResolver.java:260)
-    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact (DefaultArtifactResolver.java:242)
-    at org.apache.maven.repository.internal.DefaultArtifactDescriptorReader.loadPom (DefaultArtifactDescriptorReader.java:231)
-    at org.apache.maven.repository.internal.DefaultArtifactDescriptorReader.readArtifactDescriptor (DefaultArtifactDescriptorReader.java:172)
-    at org.eclipse.aether.internal.impl.DefaultRepositorySystem.readArtifactDescriptor (DefaultRepositorySystem.java:268)
-    at org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver.resolve (DefaultPluginDependenciesResolver.java:107)
-    at org.apache.maven.plugin.internal.DefaultMavenPluginManager.lambda$getPluginDescriptor$0 (DefaultMavenPluginManager.java:183)
-    at org.apache.maven.plugin.DefaultPluginDescriptorCache.lambda$get$0 (DefaultPluginDescriptorCache.java:72)
-    at java.util.concurrent.ConcurrentHashMap.computeIfAbsent (ConcurrentHashMap.java:1708)
-    at org.apache.maven.plugin.DefaultPluginDescriptorCache.get (DefaultPluginDescriptorCache.java:70)
-    at org.apache.maven.plugin.internal.DefaultMavenPluginManager.getPluginDescriptor (DefaultMavenPluginManager.java:181)
-    at org.apache.maven.plugin.DefaultBuildPluginManager.loadPlugin (DefaultBuildPluginManager.java:81)
-    at org.apache.maven.plugin.prefix.internal.DefaultPluginPrefixResolver.resolveFromProject (DefaultPluginPrefixResolver.java:126)
-    at org.apache.maven.plugin.prefix.internal.DefaultPluginPrefixResolver.resolveFromProject (DefaultPluginPrefixResolver.java:112)
-    at org.apache.maven.plugin.prefix.internal.DefaultPluginPrefixResolver.resolve (DefaultPluginPrefixResolver.java:80)
-    at org.apache.maven.lifecycle.internal.MojoDescriptorCreator.findPluginForPrefix (MojoDescriptorCreator.java:247)
-    at org.apache.maven.lifecycle.internal.MojoDescriptorCreator.getMojoDescriptor (MojoDescriptorCreator.java:209)
-    at org.apache.maven.lifecycle.internal.DefaultLifecycleExecutionPlanCalculator.calculateMojoExecutions (DefaultLifecycleExecutionPlanCalculator.java:188)
-    at org.apache.maven.lifecycle.internal.DefaultLifecycleExecutionPlanCalculator.calculateExecutionPlan (DefaultLifecycleExecutionPlanCalculator.java:119)
-    at org.apache.maven.lifecycle.internal.DefaultLifecycleExecutionPlanCalculator.calculateExecutionPlan (DefaultLifecycleExecutionPlanCalculator.java:135)
-    at org.apache.maven.lifecycle.internal.builder.BuilderCommon.resolveBuildPlan (BuilderCommon.java:93)
-    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:100)
-    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:73)
-    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:53)
-    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:118)
-    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:261)
-    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:173)
-    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:101)
-    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:906)
-    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:283)
-    at org.apache.maven.cli.MavenCli.main (MavenCli.java:206)
-    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
-    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:77)
-    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
-    at java.lang.reflect.Method.invoke (Method.java:568)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:283)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:226)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:407)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:348)
-[WARNING] Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-shade-plugin:3.2.3: java.io.IOException: There is not enough space on the disk
+Downloading from ossrh: https://oss.sonatype.org/content/repositories/releases/com/google/guava/guava/29.0-jre/guava-29.0-jre.pom
+Progress (1): 2.7/11 kB
+Progress (1): 5.5/11 kB
+Progress (1): 8.2/11 kB
+Progress (1): 11 kB    
+                   
+Downloaded from ossrh: https://oss.sonatype.org/content/repositories/releases/com/google/guava/guava/29.0-jre/guava-29.0-jre.pom (11 kB at 16 kB/s)
+Downloading from ossrh: https://oss.sonatype.org/content/repositories/releases/com/google/guava/guava-parent/29.0-jre/guava-parent-29.0-jre.pom
+Progress (1): 2.7/13 kB
+Progress (1): 5.5/13 kB
+Progress (1): 8.2/13 kB
+Progress (1): 11/13 kB 
+Progress (1): 13 kB   
+                   
+Downloaded from ossrh: https://oss.sonatype.org/content/repositories/releases/com/google/guava/guava-parent/29.0-jre/guava-parent-29.0-jre.pom (13 kB at 38 kB/s)
+Downloading from ossrh: https://oss.sonatype.org/content/repositories/releases/org/checkerframework/checker-qual/2.11.1/checker-qual-2.11.1.pom
+Progress (1): 2.4 kB
+                    
+Downloaded from ossrh: https://oss.sonatype.org/content/repositories/releases/org/checkerframework/checker-qual/2.11.1/checker-qual-2.11.1.pom (2.4 kB at 9.1 kB/s)
 Downloading from ossrh: https://oss.sonatype.org/content/repositories/releases/com/squareup/okhttp3/okhttp/3.14.7/okhttp-3.14.7.pom
-[WARNING] Failed to write tracking file 'C:\Users\frank_bump\.m2\repository\com\squareup\okhttp3\okhttp\3.14.7\okhttp-3.14.7.pom.lastUpdated'
-java.io.IOException: There is not enough space on the disk
-    at java.io.RandomAccessFile.writeBytes (Native Method)
-    at java.io.RandomAccessFile.write (RandomAccessFile.java:545)
-    at org.eclipse.aether.internal.impl.DefaultTrackingFileManager.update (DefaultTrackingFileManager.java:107)
-    at org.eclipse.aether.internal.impl.DefaultUpdateCheckManager.write (DefaultUpdateCheckManager.java:527)
-    at org.eclipse.aether.internal.impl.DefaultUpdateCheckManager.touchArtifact (DefaultUpdateCheckManager.java:474)
-    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.evaluateDownloads (DefaultArtifactResolver.java:635)
-    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads (DefaultArtifactResolver.java:544)
-    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve (DefaultArtifactResolver.java:448)
-    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts (DefaultArtifactResolver.java:260)
-    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact (DefaultArtifactResolver.java:242)
-    at org.apache.maven.repository.internal.DefaultArtifactDescriptorReader.loadPom (DefaultArtifactDescriptorReader.java:231)
-    at org.apache.maven.repository.internal.DefaultArtifactDescriptorReader.readArtifactDescriptor (DefaultArtifactDescriptorReader.java:172)
-    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.resolveCachedArtifactDescriptor (DfDependencyCollector.java:382)
-    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.getArtifactDescriptorResult (DfDependencyCollector.java:368)
-    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.processDependency (DfDependencyCollector.java:218)
-    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.processDependency (DfDependencyCollector.java:156)
-    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.process (DfDependencyCollector.java:138)
-    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.doCollectDependencies (DfDependencyCollector.java:108)
-    at org.eclipse.aether.internal.impl.collect.DependencyCollectorDelegate.collectDependencies (DependencyCollectorDelegate.java:222)
-    at org.eclipse.aether.internal.impl.collect.DefaultDependencyCollector.collectDependencies (DefaultDependencyCollector.java:87)
-    at org.eclipse.aether.internal.impl.DefaultRepositorySystem.collectDependencies (DefaultRepositorySystem.java:305)
-    at org.apache.maven.project.DefaultProjectDependenciesResolver.resolve (DefaultProjectDependenciesResolver.java:151)
-    at org.apache.maven.lifecycle.internal.LifecycleDependencyResolver.getDependencies (LifecycleDependencyResolver.java:224)
-    at org.apache.maven.lifecycle.internal.LifecycleDependencyResolver.resolveProjectDependencies (LifecycleDependencyResolver.java:136)
-    at org.apache.maven.lifecycle.internal.MojoExecutor.ensureDependenciesAreResolved (MojoExecutor.java:355)
-    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute (MojoExecutor.java:313)
-    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:212)
-    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:174)
-    at org.apache.maven.lifecycle.internal.MojoExecutor.access$000 (MojoExecutor.java:75)
-    at org.apache.maven.lifecycle.internal.MojoExecutor$1.run (MojoExecutor.java:162)
-    at org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute (DefaultMojosExecutionStrategy.java:39)
-    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:159)
-    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:105)
-    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:73)
-    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:53)
-    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:118)
-    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:261)
-    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:173)
-    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:101)
-    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:906)
-    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:283)
-    at org.apache.maven.cli.MavenCli.main (MavenCli.java:206)
-    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
-    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:77)
-    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
-    at java.lang.reflect.Method.invoke (Method.java:568)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:283)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:226)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:407)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:348)
+Progress (1): 2.5 kB
+                    
+Downloaded from ossrh: https://oss.sonatype.org/content/repositories/releases/com/squareup/okhttp3/okhttp/3.14.7/okhttp-3.14.7.pom (2.5 kB at 5.7 kB/s)
+Downloading from ossrh: https://oss.sonatype.org/content/repositories/releases/com/squareup/okhttp3/parent/3.14.7/parent-3.14.7.pom
+Progress (1): 2.7/21 kB
+Progress (1): 5.5/21 kB
+Progress (1): 8.2/21 kB
+Progress (1): 11/21 kB 
+Progress (1): 14/21 kB
+Progress (1): 16/21 kB
+Progress (1): 19/21 kB
+Progress (1): 21 kB   
+                   
+Downloaded from ossrh: https://oss.sonatype.org/content/repositories/releases/com/squareup/okhttp3/parent/3.14.7/parent-3.14.7.pom (21 kB at 49 kB/s)
+Downloading from ossrh: https://oss.sonatype.org/content/repositories/releases/com/fasterxml/jackson/module/jackson-module-parameter-names/2.8.9/jackson-module-parameter-names-2.8.9.pom
+Progress (1): 2.7/4.1 kB
+Progress (1): 4.1 kB    
+                    
+Downloaded from ossrh: https://oss.sonatype.org/content/repositories/releases/com/fasterxml/jackson/module/jackson-module-parameter-names/2.8.9/jackson-module-parameter-names-2.8.9.pom (4.1 kB at 7.4 kB/s)
+Downloading from ossrh: https://oss.sonatype.org/content/repositories/releases/com/fasterxml/jackson/module/jackson-modules-java8/2.8.9/jackson-modules-java8-2.8.9.pom
+Progress (1): 2.5 kB
+                    
+Downloaded from ossrh: https://oss.sonatype.org/content/repositories/releases/com/fasterxml/jackson/module/jackson-modules-java8/2.8.9/jackson-modules-java8-2.8.9.pom (2.5 kB at 7.1 kB/s)
+Downloading from ossrh: https://oss.sonatype.org/content/repositories/releases/com/fasterxml/jackson/jackson-bom/2.8.9/jackson-bom-2.8.9.pom
+Progress (1): 4.1/10 kB
+Progress (1): 8.2/10 kB
+Progress (1): 10 kB    
+                   
+Downloaded from ossrh: https://oss.sonatype.org/content/repositories/releases/com/fasterxml/jackson/jackson-bom/2.8.9/jackson-bom-2.8.9.pom (10 kB at 24 kB/s)
+Downloading from ossrh: https://oss.sonatype.org/content/repositories/releases/com/fasterxml/jackson/core/jackson-core/2.8.9/jackson-core-2.8.9.pom
+Progress (1): 4.1/5.4 kB
+Progress (1): 5.4 kB    
+                    
+Downloaded from ossrh: https://oss.sonatype.org/content/repositories/releases/com/fasterxml/jackson/core/jackson-core/2.8.9/jackson-core-2.8.9.pom (5.4 kB at 21 kB/s)
+Downloading from ossrh: https://oss.sonatype.org/content/repositories/releases/com/fasterxml/jackson/core/jackson-databind/2.8.9/jackson-databind-2.8.9.pom
+Progress (1): 4.1/5.4 kB
+Progress (1): 5.4 kB    
+                    
+Downloaded from ossrh: https://oss.sonatype.org/content/repositories/releases/com/fasterxml/jackson/core/jackson-databind/2.8.9/jackson-databind-2.8.9.pom (5.4 kB at 12 kB/s)
+Downloading from ossrh: https://oss.sonatype.org/content/repositories/releases/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.8.9/jackson-datatype-jdk8-2.8.9.pom
+Progress (1): 2.3 kB
+                    
+Downloaded from ossrh: https://oss.sonatype.org/content/repositories/releases/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.8.9/jackson-datatype-jdk8-2.8.9.pom (2.3 kB at 8.8 kB/s)
+Downloading from ossrh: https://oss.sonatype.org/content/repositories/releases/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.8.9/jackson-datatype-jsr310-2.8.9.pom
+Progress (1): 4.1/4.5 kB
+Progress (1): 4.5 kB    
+                    
+Downloaded from ossrh: https://oss.sonatype.org/content/repositories/releases/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.8.9/jackson-datatype-jsr310-2.8.9.pom (4.5 kB at 18 kB/s)
+Downloading from ossrh: https://oss.sonatype.org/content/repositories/releases/io/jsonwebtoken/jjwt-api/0.10.5/jjwt-api-0.10.5.pom
+Progress (1): 1.3 kB
+                    
+Downloaded from ossrh: https://oss.sonatype.org/content/repositories/releases/io/jsonwebtoken/jjwt-api/0.10.5/jjwt-api-0.10.5.pom (1.3 kB at 2.8 kB/s)
+Downloading from ossrh: https://oss.sonatype.org/content/repositories/releases/io/jsonwebtoken/jjwt-root/0.10.5/jjwt-root-0.10.5.pom
+Progress (1): 4.1/22 kB
+Progress (1): 8.2/22 kB
+Progress (1): 12/22 kB 
+Progress (1): 16/22 kB
+Progress (1): 20/22 kB
+Progress (1): 22 kB   
+                   
+Downloaded from ossrh: https://oss.sonatype.org/content/repositories/releases/io/jsonwebtoken/jjwt-root/0.10.5/jjwt-root-0.10.5.pom (22 kB at 50 kB/s)
+Downloading from ossrh: https://oss.sonatype.org/content/repositories/releases/io/opencensus/opencensus-api/0.26.0/opencensus-api-0.26.0.pom
+Progress (1): 2.2 kB
+                    
+Downloaded from ossrh: https://oss.sonatype.org/content/repositories/releases/io/opencensus/opencensus-api/0.26.0/opencensus-api-0.26.0.pom (2.2 kB at 5.0 kB/s)
+Downloading from ossrh: https://oss.sonatype.org/content/repositories/releases/io/grpc/grpc-context/1.27.2/grpc-context-1.27.2.pom
+Progress (1): 1.2 kB
+                    
+Downloaded from ossrh: https://oss.sonatype.org/content/repositories/releases/io/grpc/grpc-context/1.27.2/grpc-context-1.27.2.pom (1.2 kB at 3.5 kB/s)
+Downloading from ossrh: https://oss.sonatype.org/content/repositories/releases/io/jsonwebtoken/jjwt-impl/0.10.5/jjwt-impl-0.10.5.pom
+Progress (1): 2.0 kB
+                    
+Downloaded from ossrh: https://oss.sonatype.org/content/repositories/releases/io/jsonwebtoken/jjwt-impl/0.10.5/jjwt-impl-0.10.5.pom (2.0 kB at 4.6 kB/s)
+Downloading from ossrh: https://oss.sonatype.org/content/repositories/releases/io/jsonwebtoken/jjwt-jackson/0.10.5/jjwt-jackson-0.10.5.pom
+Progress (1): 1.6 kB
+                    
+Downloaded from ossrh: https://oss.sonatype.org/content/repositories/releases/io/jsonwebtoken/jjwt-jackson/0.10.5/jjwt-jackson-0.10.5.pom (1.6 kB at 3.6 kB/s)
+Downloading from ossrh: https://oss.sonatype.org/content/repositories/releases/com/fasterxml/jackson/core/jackson-databind/2.9.6/jackson-databind-2.9.6.pom
+Downloaded from ossrh: https://oss.sonatype.org/content/repositories/releases/com/fasterxml/jackson/core/jackson-databind/2.9.6/jackson-databind-2.9.6.pom (0 B at 0 B/s)
+Downloading from ossrh: https://oss.sonatype.org/content/repositories/releases/com/fasterxml/jackson/jackson-base/2.9.6/jackson-base-2.9.6.pom
+Downloaded from ossrh: https://oss.sonatype.org/content/repositories/releases/com/fasterxml/jackson/jackson-base/2.9.6/jackson-base-2.9.6.pom (0 B at 0 B/s)
+Downloading from ossrh: https://oss.sonatype.org/content/repositories/releases/com/fasterxml/jackson/jackson-bom/2.9.6/jackson-bom-2.9.6.pom
+Downloaded from ossrh: https://oss.sonatype.org/content/repositories/releases/com/fasterxml/jackson/jackson-bom/2.9.6/jackson-bom-2.9.6.pom (0 B at 0 B/s)
+Downloading from ossrh: https://oss.sonatype.org/content/repositories/releases/com/fasterxml/jackson/jackson-parent/2.9.1.1/jackson-parent-2.9.1.1.pom
+Downloaded from ossrh: https://oss.sonatype.org/content/repositories/releases/com/fasterxml/jackson/jackson-parent/2.9.1.1/jackson-parent-2.9.1.1.pom (0 B at 0 B/s)
+Downloading from ossrh: https://oss.sonatype.org/content/repositories/releases/com/fasterxml/jackson/core/jackson-core/2.9.6/jackson-core-2.9.6.pom
+Downloaded from ossrh: https://oss.sonatype.org/content/repositories/releases/com/fasterxml/jackson/core/jackson-core/2.9.6/jackson-core-2.9.6.pom (0 B at 0 B/s)
+Downloading from ossrh: https://oss.sonatype.org/content/repositories/releases/org/immutables/value/2.8.3/value-2.8.3.pom
+Progress (1): 4.1/5.4 kB
+Progress (1): 5.4 kB    
+                    
+Downloaded from ossrh: https://oss.sonatype.org/content/repositories/releases/org/immutables/value/2.8.3/value-2.8.3.pom (5.4 kB at 10 kB/s)
+Downloading from ossrh: https://oss.sonatype.org/content/repositories/releases/org/immutables/immutables/2.8.3/immutables-2.8.3.pom
+Progress (1): 4.1/13 kB
+Progress (1): 8.2/13 kB
+Progress (1): 12/13 kB 
+Progress (1): 13 kB   
+                   
+Downloaded from ossrh: https://oss.sonatype.org/content/repositories/releases/org/immutables/immutables/2.8.3/immutables-2.8.3.pom (13 kB at 24 kB/s)
+Downloading from ossrh: https://oss.sonatype.org/content/repositories/releases/org/skyscreamer/jsonassert/1.1.1/jsonassert-1.1.1.pom
+Progress (1): 4.1/5.3 kB
+Progress (1): 5.3 kB    
+                    
+Downloaded from ossrh: https://oss.sonatype.org/content/repositories/releases/org/skyscreamer/jsonassert/1.1.1/jsonassert-1.1.1.pom (5.3 kB at 12 kB/s)
+Downloading from ossrh: https://oss.sonatype.org/content/repositories/releases/commons-collections/commons-collections/3.0/commons-collections-3.0.pom
+Progress (1): 4.1/6.1 kB
+Progress (1): 6.1 kB    
+                    
+Downloaded from ossrh: https://oss.sonatype.org/content/repositories/releases/commons-collections/commons-collections/3.0/commons-collections-3.0.pom (6.1 kB at 14 kB/s)
+Downloading from ossrh: https://oss.sonatype.org/content/repositories/releases/org/junit/jupiter/junit-jupiter-engine/5.5.0/junit-jupiter-engine-5.5.0.pom
+Progress (1): 2.4 kB
+                    
+Downloaded from ossrh: https://oss.sonatype.org/content/repositories/releases/org/junit/jupiter/junit-jupiter-engine/5.5.0/junit-jupiter-engine-5.5.0.pom (2.4 kB at 5.6 kB/s)
+Downloading from ossrh: https://oss.sonatype.org/content/repositories/releases/org/junit/platform/junit-platform-engine/1.5.0/junit-platform-engine-1.5.0.pom
+Progress (1): 2.4 kB
+                    
+Downloaded from ossrh: https://oss.sonatype.org/content/repositories/releases/org/junit/platform/junit-platform-engine/1.5.0/junit-platform-engine-1.5.0.pom (2.4 kB at 5.3 kB/s)
+Downloading from ossrh: https://oss.sonatype.org/content/repositories/releases/org/junit/platform/junit-platform-commons/1.5.0/junit-platform-commons-1.5.0.pom
+Progress (1): 2.0 kB
+                    
+Downloaded from ossrh: https://oss.sonatype.org/content/repositories/releases/org/junit/platform/junit-platform-commons/1.5.0/junit-platform-commons-1.5.0.pom (2.0 kB at 4.5 kB/s)
+Downloading from ossrh: https://oss.sonatype.org/content/repositories/releases/org/junit/jupiter/junit-jupiter-api/5.5.0/junit-jupiter-api-5.5.0.pom
+Progress (1): 2.4 kB
+                    
+Downloaded from ossrh: https://oss.sonatype.org/content/repositories/releases/org/junit/jupiter/junit-jupiter-api/5.5.0/junit-jupiter-api-5.5.0.pom (2.4 kB at 7.0 kB/s)
+Downloading from ossrh: https://oss.sonatype.org/content/repositories/releases/org/mockito/mockito-core/3.2.4/mockito-core-3.2.4.pom
+Progress (1): 4.1/22 kB
+Progress (1): 8.2/22 kB
+Progress (1): 12/22 kB 
+Progress (1): 16/22 kB
+Progress (1): 20/22 kB
+Progress (1): 22 kB   
+                   
+Downloaded from ossrh: https://oss.sonatype.org/content/repositories/releases/org/mockito/mockito-core/3.2.4/mockito-core-3.2.4.pom (22 kB at 51 kB/s)
+Downloading from ossrh: https://oss.sonatype.org/content/repositories/releases/net/bytebuddy/byte-buddy/1.10.5/byte-buddy-1.10.5.pom
+Downloaded from ossrh: https://oss.sonatype.org/content/repositories/releases/net/bytebuddy/byte-buddy/1.10.5/byte-buddy-1.10.5.pom (0 B at 0 B/s)
+Downloading from ossrh: https://oss.sonatype.org/content/repositories/releases/net/bytebuddy/byte-buddy-parent/1.10.5/byte-buddy-parent-1.10.5.pom
+Downloaded from ossrh: https://oss.sonatype.org/content/repositories/releases/net/bytebuddy/byte-buddy-parent/1.10.5/byte-buddy-parent-1.10.5.pom (0 B at 0 B/s)
+Downloading from ossrh: https://oss.sonatype.org/content/repositories/releases/net/bytebuddy/byte-buddy-agent/1.10.5/byte-buddy-agent-1.10.5.pom
+Progress (1): 4.1/9.6 kB
+Progress (1): 8.2/9.6 kB
+Progress (1): 9.6 kB    
+                    
+Downloaded from ossrh: https://oss.sonatype.org/content/repositories/releases/net/bytebuddy/byte-buddy-agent/1.10.5/byte-buddy-agent-1.10.5.pom (9.6 kB at 38 kB/s)
+Downloading from ossrh: https://oss.sonatype.org/content/repositories/releases/io/opencensus/opencensus-testing/0.26.0/opencensus-testing-0.26.0.pom
+Progress (1): 2.4 kB
+                    
+Downloaded from ossrh: https://oss.sonatype.org/content/repositories/releases/io/opencensus/opencensus-testing/0.26.0/opencensus-testing-0.26.0.pom (2.4 kB at 3.9 kB/s)
+Downloading from ossrh: https://oss.sonatype.org/content/repositories/releases/io/opencensus/opencensus-impl/0.26.0/opencensus-impl-0.26.0.pom
+Progress (1): 2.6 kB
+                    
+Downloaded from ossrh: https://oss.sonatype.org/content/repositories/releases/io/opencensus/opencensus-impl/0.26.0/opencensus-impl-0.26.0.pom (2.6 kB at 4.2 kB/s)
+Downloading from ossrh: https://oss.sonatype.org/content/repositories/releases/io/opencensus/opencensus-impl-core/0.26.0/opencensus-impl-core-0.26.0.pom
+Progress (1): 2.6 kB
+                    
+Downloaded from ossrh: https://oss.sonatype.org/content/repositories/releases/io/opencensus/opencensus-impl-core/0.26.0/opencensus-impl-core-0.26.0.pom (2.6 kB at 4.9 kB/s)
+Downloading from ossrh: https://oss.sonatype.org/content/repositories/releases/com/squareup/okhttp3/mockwebserver/3.14.7/mockwebserver-3.14.7.pom
+Progress (1): 2.7 kB
+                    
+Downloaded from ossrh: https://oss.sonatype.org/content/repositories/releases/com/squareup/okhttp3/mockwebserver/3.14.7/mockwebserver-3.14.7.pom (2.7 kB at 6.2 kB/s)
+Downloading from ossrh: https://oss.sonatype.org/content/repositories/releases/org/powermock/powermock-module-junit4/2.0.2/powermock-module-junit4-2.0.2.pom
+Progress (1): 4.1/7.3 kB
+Progress (1): 7.3 kB    
+                    
+Downloaded from ossrh: https://oss.sonatype.org/content/repositories/releases/org/powermock/powermock-module-junit4/2.0.2/powermock-module-junit4-2.0.2.pom (7.3 kB at 28 kB/s)
+Downloading from ossrh: https://oss.sonatype.org/content/repositories/releases/org/powermock/powermock-module-junit4-common/2.0.2/powermock-module-junit4-common-2.0.2.pom
+Progress (1): 4.1/7.5 kB
+Progress (1): 7.5 kB    
+                    
+Downloaded from ossrh: https://oss.sonatype.org/content/repositories/releases/org/powermock/powermock-module-junit4-common/2.0.2/powermock-module-junit4-common-2.0.2.pom (7.5 kB at 22 kB/s)
+Downloading from ossrh: https://oss.sonatype.org/content/repositories/releases/org/powermock/powermock-reflect/2.0.2/powermock-reflect-2.0.2.pom
+Progress (1): 4.1/7.2 kB
+Progress (1): 7.2 kB    
+                    
+Downloaded from ossrh: https://oss.sonatype.org/content/repositories/releases/org/powermock/powermock-reflect/2.0.2/powermock-reflect-2.0.2.pom (7.2 kB at 16 kB/s)
+Downloading from ossrh: https://oss.sonatype.org/content/repositories/releases/net/bytebuddy/byte-buddy/1.9.3/byte-buddy-1.9.3.pom
+Progress (1): 4.1/10 kB
+Progress (1): 8.2/10 kB
+Progress (1): 10 kB    
+                   
+Downloaded from ossrh: https://oss.sonatype.org/content/repositories/releases/net/bytebuddy/byte-buddy/1.9.3/byte-buddy-1.9.3.pom (10 kB at 39 kB/s)
+Downloading from ossrh: https://oss.sonatype.org/content/repositories/releases/net/bytebuddy/byte-buddy-parent/1.9.3/byte-buddy-parent-1.9.3.pom
+Progress (1): 4.1/34 kB
+Progress (1): 8.2/34 kB
+Progress (1): 12/34 kB 
+Progress (1): 16/34 kB
+Progress (1): 20/34 kB
+Progress (1): 24/34 kB
+Progress (1): 28/34 kB
+Progress (1): 32/34 kB
+Progress (1): 34 kB   
+                   
+Downloaded from ossrh: https://oss.sonatype.org/content/repositories/releases/net/bytebuddy/byte-buddy-parent/1.9.3/byte-buddy-parent-1.9.3.pom (34 kB at 135 kB/s)
+Downloading from ossrh: https://oss.sonatype.org/content/repositories/releases/net/bytebuddy/byte-buddy-agent/1.9.3/byte-buddy-agent-1.9.3.pom
+Progress (1): 4.1/6.0 kB
+Progress (1): 6.0 kB    
+                    
+Downloaded from ossrh: https://oss.sonatype.org/content/repositories/releases/net/bytebuddy/byte-buddy-agent/1.9.3/byte-buddy-agent-1.9.3.pom (6.0 kB at 16 kB/s)
+Downloading from ossrh: https://oss.sonatype.org/content/repositories/releases/org/powermock/powermock-core/2.0.2/powermock-core-2.0.2.pom
+Progress (1): 4.1/7.4 kB
+Progress (1): 7.4 kB    
+                    
+Downloaded from ossrh: https://oss.sonatype.org/content/repositories/releases/org/powermock/powermock-core/2.0.2/powermock-core-2.0.2.pom (7.4 kB at 17 kB/s)
+Downloading from ossrh: https://oss.sonatype.org/content/repositories/releases/org/powermock/powermock-api-mockito2/2.0.2/powermock-api-mockito2-2.0.2.pom
+Progress (1): 4.1/7.3 kB
+Progress (1): 7.3 kB    
+                    
+Downloaded from ossrh: https://oss.sonatype.org/content/repositories/releases/org/powermock/powermock-api-mockito2/2.0.2/powermock-api-mockito2-2.0.2.pom (7.3 kB at 17 kB/s)
+Downloading from ossrh: https://oss.sonatype.org/content/repositories/releases/org/powermock/powermock-api-support/2.0.2/powermock-api-support-2.0.2.pom
+Progress (1): 4.1/7.0 kB
+Progress (1): 7.0 kB    
+                    
+Downloaded from ossrh: https://oss.sonatype.org/content/repositories/releases/org/powermock/powermock-api-support/2.0.2/powermock-api-support-2.0.2.pom (7.0 kB at 15 kB/s)
+Downloading from ossrh: https://oss.sonatype.org/content/repositories/releases/com/google/guava/guava/29.0-jre/guava-29.0-jre.jar
+Downloading from ossrh: https://oss.sonatype.org/content/repositories/releases/org/checkerframework/checker-qual/2.11.1/checker-qual-2.11.1.jar
+Downloading from ossrh: https://oss.sonatype.org/content/repositories/releases/com/squareup/okhttp3/okhttp/3.14.7/okhttp-3.14.7.jar
+Downloading from ossrh: https://oss.sonatype.org/content/repositories/releases/com/fasterxml/jackson/core/jackson-annotations/2.11.0/jackson-annotations-2.11.0.jar
+Downloading from ossrh: https://oss.sonatype.org/content/repositories/releases/com/fasterxml/jackson/core/jackson-databind/2.11.0/jackson-databind-2.11.0.jar
+Progress (1): 0/2.8 MB
+Progress (1): 0/2.8 MB
+Progress (1): 0/2.8 MB
+Progress (1): 0.1/2.8 MB
+Progress (1): 0.1/2.8 MB
+Progress (1): 0.1/2.8 MB
+Progress (1): 0.1/2.8 MB
+Progress (1): 0.1/2.8 MB
+Progress (1): 0.1/2.8 MB
+Progress (1): 0.2/2.8 MB
+Progress (1): 0.2/2.8 MB
+Progress (1): 0.2/2.8 MB
+Progress (1): 0.2/2.8 MB
+Progress (1): 0.2/2.8 MB
+Progress (1): 0.2/2.8 MB
+Progress (1): 0.3/2.8 MB
+Progress (1): 0.3/2.8 MB
+Progress (1): 0.3/2.8 MB
+Progress (1): 0.3/2.8 MB
+Progress (1): 0.3/2.8 MB
+Progress (1): 0.3/2.8 MB
+Progress (1): 0.4/2.8 MB
+Progress (1): 0.4/2.8 MB
+Progress (1): 0.4/2.8 MB
+Progress (1): 0.4/2.8 MB
+Progress (1): 0.4/2.8 MB
+Progress (1): 0.4/2.8 MB
+Progress (1): 0.5/2.8 MB
+Progress (1): 0.5/2.8 MB
+Progress (1): 0.5/2.8 MB
+Progress (1): 0.5/2.8 MB
+Progress (1): 0.5/2.8 MB
+Progress (1): 0.5/2.8 MB
+Progress (1): 0.6/2.8 MB
+Progress (1): 0.6/2.8 MB
+Progress (1): 0.6/2.8 MB
+Progress (1): 0.6/2.8 MB
+Progress (1): 0.6/2.8 MB
+Progress (1): 0.6/2.8 MB
+Progress (1): 0.7/2.8 MB
+Progress (1): 0.7/2.8 MB
+Progress (1): 0.7/2.8 MB
+Progress (1): 0.7/2.8 MB
+Progress (1): 0.7/2.8 MB
+Progress (1): 0.7/2.8 MB
+Progress (1): 0.8/2.8 MB
+Progress (1): 0.8/2.8 MB
+Progress (1): 0.8/2.8 MB
+Progress (1): 0.8/2.8 MB
+Progress (1): 0.8/2.8 MB
+Progress (1): 0.8/2.8 MB
+Progress (1): 0.9/2.8 MB
+Progress (1): 0.9/2.8 MB
+Progress (1): 0.9/2.8 MB
+Progress (1): 0.9/2.8 MB
+Progress (1): 0.9/2.8 MB
+Progress (1): 0.9/2.8 MB
+Progress (1): 1.0/2.8 MB
+Progress (1): 1.0/2.8 MB
+Progress (1): 1.0/2.8 MB
+Progress (1): 1.0/2.8 MB
+Progress (1): 1.0/2.8 MB
+Progress (1): 1.0/2.8 MB
+Progress (1): 1.1/2.8 MB
+Progress (1): 1.1/2.8 MB
+Progress (1): 1.1/2.8 MB
+Progress (1): 1.1/2.8 MB
+Progress (1): 1.1/2.8 MB
+Progress (1): 1.1/2.8 MB
+Progress (1): 1.2/2.8 MB
+Progress (1): 1.2/2.8 MB
+Progress (1): 1.2/2.8 MB
+Progress (1): 1.2/2.8 MB
+Progress (1): 1.2/2.8 MB
+Progress (1): 1.2/2.8 MB
+Progress (1): 1.3/2.8 MB
+Progress (1): 1.3/2.8 MB
+Progress (1): 1.3/2.8 MB
+Progress (1): 1.3/2.8 MB
+Progress (1): 1.3/2.8 MB
+Progress (1): 1.3/2.8 MB
+Progress (1): 1.4/2.8 MB
+Progress (1): 1.4/2.8 MB
+Progress (1): 1.4/2.8 MB
+Progress (1): 1.4/2.8 MB
+Progress (1): 1.4/2.8 MB
+Progress (1): 1.4/2.8 MB
+Progress (1): 1.5/2.8 MB
+Progress (1): 1.5/2.8 MB
+Progress (1): 1.5/2.8 MB
+Progress (1): 1.5/2.8 MB
+Progress (1): 1.5/2.8 MB
+Progress (1): 1.5/2.8 MB
+Progress (1): 1.6/2.8 MB
+Progress (1): 1.6/2.8 MB
+Progress (1): 1.6/2.8 MB
+Progress (1): 1.6/2.8 MB
+Progress (1): 1.6/2.8 MB
+Progress (1): 1.6/2.8 MB
+Progress (1): 1.7/2.8 MB
+Progress (1): 1.7/2.8 MB
+Progress (1): 1.7/2.8 MB
+Progress (1): 1.7/2.8 MB
+Progress (1): 1.7/2.8 MB
+Progress (1): 1.7/2.8 MB
+Progress (1): 1.8/2.8 MB
+Progress (1): 1.8/2.8 MB
+Progress (1): 1.8/2.8 MB
+Progress (1): 1.8/2.8 MB
+Progress (1): 1.8/2.8 MB
+Progress (1): 1.8/2.8 MB
+Progress (1): 1.8/2.8 MB
+Progress (1): 1.9/2.8 MB
+Progress (1): 1.9/2.8 MB
+Progress (1): 1.9/2.8 MB
+Progress (1): 1.9/2.8 MB
+Progress (1): 1.9/2.8 MB
+Progress (1): 1.9/2.8 MB
+Progress (1): 2.0/2.8 MB
+Progress (1): 2.0/2.8 MB
+Progress (1): 2.0/2.8 MB
+Progress (1): 2.0/2.8 MB
+Progress (1): 2.0/2.8 MB
+Progress (1): 2.0/2.8 MB
+Progress (1): 2.1/2.8 MB
+Progress (1): 2.1/2.8 MB
+Progress (1): 2.1/2.8 MB
+Progress (1): 2.1/2.8 MB
+Progress (1): 2.1/2.8 MB
+Progress (1): 2.1/2.8 MB
+Progress (1): 2.2/2.8 MB
+Progress (1): 2.2/2.8 MB
+Progress (1): 2.2/2.8 MB
+Progress (1): 2.2/2.8 MB
+Progress (1): 2.2/2.8 MB
+Progress (1): 2.2/2.8 MB
+Progress (1): 2.3/2.8 MB
+Progress (1): 2.3/2.8 MB
+Progress (1): 2.3/2.8 MB
+Progress (1): 2.3/2.8 MB
+Progress (1): 2.3/2.8 MB
+Progress (1): 2.3/2.8 MB
+Progress (1): 2.4/2.8 MB
+Progress (1): 2.4/2.8 MB
+Progress (1): 2.4/2.8 MB
+Progress (1): 2.4/2.8 MB
+Progress (1): 2.4/2.8 MB
+Progress (1): 2.4/2.8 MB
+Progress (1): 2.5/2.8 MB
+Progress (1): 2.5/2.8 MB
+Progress (1): 2.5/2.8 MB
+Progress (1): 2.5/2.8 MB
+Progress (1): 2.5/2.8 MB
+Progress (1): 2.5/2.8 MB
+Progress (1): 2.6/2.8 MB
+Progress (1): 2.6/2.8 MB
+Progress (1): 2.6/2.8 MB
+Progress (1): 2.6/2.8 MB
+Progress (1): 2.6/2.8 MB
+Progress (1): 2.6/2.8 MB
+Progress (1): 2.7/2.8 MB
+Progress (1): 2.7/2.8 MB
+Progress (1): 2.7/2.8 MB
+Progress (1): 2.7/2.8 MB
+Progress (1): 2.7/2.8 MB
+Progress (1): 2.7/2.8 MB
+Progress (1): 2.8/2.8 MB
+Progress (1): 2.8/2.8 MB
+Progress (1): 2.8/2.8 MB
+Progress (1): 2.8 MB    
+Progress (2): 2.8 MB | 2.7/201 kB
+Progress (2): 2.8 MB | 5.5/201 kB
+Progress (2): 2.8 MB | 8.2/201 kB
+Progress (2): 2.8 MB | 11/201 kB 
+Progress (2): 2.8 MB | 14/201 kB
+Progress (2): 2.8 MB | 16/201 kB
+Progress (3): 2.8 MB | 16/201 kB | 2.7/68 kB
+Progress (3): 2.8 MB | 16/201 kB | 5.5/68 kB
+Progress (3): 2.8 MB | 20/201 kB | 5.5/68 kB
+Progress (3): 2.8 MB | 20/201 kB | 8.2/68 kB
+Progress (3): 2.8 MB | 24/201 kB | 8.2/68 kB
+Progress (3): 2.8 MB | 24/201 kB | 11/68 kB 
+Progress (4): 2.8 MB | 24/201 kB | 11/68 kB | 0/1.4 MB
+Progress (4): 2.8 MB | 28/201 kB | 11/68 kB | 0/1.4 MB
+Progress (4): 2.8 MB | 28/201 kB | 11/68 kB | 0/1.4 MB
+Progress (4): 2.8 MB | 28/201 kB | 14/68 kB | 0/1.4 MB
+Progress (4): 2.8 MB | 32/201 kB | 14/68 kB | 0/1.4 MB
+Progress (4): 2.8 MB | 32/201 kB | 16/68 kB | 0/1.4 MB
+Progress (4): 2.8 MB | 32/201 kB | 16/68 kB | 0/1.4 MB
+Progress (4): 2.8 MB | 32/201 kB | 16/68 kB | 0/1.4 MB
+Progress (4): 2.8 MB | 36/201 kB | 16/68 kB | 0/1.4 MB
+Progress (4): 2.8 MB | 36/201 kB | 20/68 kB | 0/1.4 MB
+Progress (4): 2.8 MB | 40/201 kB | 20/68 kB | 0/1.4 MB
+Progress (4): 2.8 MB | 40/201 kB | 24/68 kB | 0/1.4 MB
+Progress (4): 2.8 MB | 40/201 kB | 24/68 kB | 0/1.4 MB
+Progress (4): 2.8 MB | 44/201 kB | 24/68 kB | 0/1.4 MB
+Progress (4): 2.8 MB | 44/201 kB | 24/68 kB | 0/1.4 MB
+Progress (4): 2.8 MB | 44/201 kB | 28/68 kB | 0/1.4 MB
+Progress (4): 2.8 MB | 49/201 kB | 28/68 kB | 0/1.4 MB
+Progress (4): 2.8 MB | 49/201 kB | 32/68 kB | 0/1.4 MB
+Progress (4): 2.8 MB | 49/201 kB | 32/68 kB | 0.1/1.4 MB
+Progress (4): 2.8 MB | 49/201 kB | 32/68 kB | 0.1/1.4 MB
+Progress (4): 2.8 MB | 53/201 kB | 32/68 kB | 0.1/1.4 MB
+Progress (4): 2.8 MB | 53/201 kB | 36/68 kB | 0.1/1.4 MB
+Progress (4): 2.8 MB | 57/201 kB | 36/68 kB | 0.1/1.4 MB
+Progress (4): 2.8 MB | 57/201 kB | 40/68 kB | 0.1/1.4 MB
+Progress (4): 2.8 MB | 61/201 kB | 40/68 kB | 0.1/1.4 MB
+Progress (4): 2.8 MB | 61/201 kB | 44/68 kB | 0.1/1.4 MB
+Progress (4): 2.8 MB | 61/201 kB | 44/68 kB | 0.1/1.4 MB
+Progress (4): 2.8 MB | 61/201 kB | 49/68 kB | 0.1/1.4 MB
+Progress (4): 2.8 MB | 65/201 kB | 49/68 kB | 0.1/1.4 MB
+Progress (4): 2.8 MB | 65/201 kB | 49/68 kB | 0.1/1.4 MB
+Progress (4): 2.8 MB | 65/201 kB | 53/68 kB | 0.1/1.4 MB
+Progress (4): 2.8 MB | 69/201 kB | 53/68 kB | 0.1/1.4 MB
+Progress (4): 2.8 MB | 69/201 kB | 57/68 kB | 0.1/1.4 MB
+Progress (4): 2.8 MB | 73/201 kB | 57/68 kB | 0.1/1.4 MB
+Progress (4): 2.8 MB | 73/201 kB | 61/68 kB | 0.1/1.4 MB
+Progress (4): 2.8 MB | 73/201 kB | 61/68 kB | 0.1/1.4 MB
+Progress (4): 2.8 MB | 73/201 kB | 65/68 kB | 0.1/1.4 MB
+Progress (4): 2.8 MB | 77/201 kB | 65/68 kB | 0.1/1.4 MB
+Progress (4): 2.8 MB | 77/201 kB | 68 kB | 0.1/1.4 MB   
+Progress (4): 2.8 MB | 77/201 kB | 68 kB | 0.1/1.4 MB
+Progress (4): 2.8 MB | 81/201 kB | 68 kB | 0.1/1.4 MB
+Progress (4): 2.8 MB | 81/201 kB | 68 kB | 0.1/1.4 MB
+Progress (4): 2.8 MB | 85/201 kB | 68 kB | 0.1/1.4 MB
+Progress (4): 2.8 MB | 85/201 kB | 68 kB | 0.1/1.4 MB
+Progress (4): 2.8 MB | 90/201 kB | 68 kB | 0.1/1.4 MB
+Progress (4): 2.8 MB | 94/201 kB | 68 kB | 0.1/1.4 MB
+Progress (4): 2.8 MB | 98/201 kB | 68 kB | 0.1/1.4 MB
+Progress (4): 2.8 MB | 98/201 kB | 68 kB | 0.1/1.4 MB
+Progress (4): 2.8 MB | 102/201 kB | 68 kB | 0.1/1.4 MB
+Progress (4): 2.8 MB | 102/201 kB | 68 kB | 0.1/1.4 MB
+Progress (4): 2.8 MB | 106/201 kB | 68 kB | 0.1/1.4 MB
+Progress (4): 2.8 MB | 110/201 kB | 68 kB | 0.1/1.4 MB
+Progress (4): 2.8 MB | 114/201 kB | 68 kB | 0.1/1.4 MB
+Progress (4): 2.8 MB | 118/201 kB | 68 kB | 0.1/1.4 MB
+Progress (4): 2.8 MB | 118/201 kB | 68 kB | 0.1/1.4 MB
+Progress (4): 2.8 MB | 122/201 kB | 68 kB | 0.1/1.4 MB
+Progress (4): 2.8 MB | 122/201 kB | 68 kB | 0.1/1.4 MB
+Progress (4): 2.8 MB | 126/201 kB | 68 kB | 0.1/1.4 MB
+Progress (4): 2.8 MB | 131/201 kB | 68 kB | 0.1/1.4 MB
+Progress (4): 2.8 MB | 131/201 kB | 68 kB | 0.2/1.4 MB
+Progress (4): 2.8 MB | 135/201 kB | 68 kB | 0.2/1.4 MB
+Progress (4): 2.8 MB | 135/201 kB | 68 kB | 0.2/1.4 MB
+Progress (4): 2.8 MB | 139/201 kB | 68 kB | 0.2/1.4 MB
+Progress (4): 2.8 MB | 143/201 kB | 68 kB | 0.2/1.4 MB
+Progress (4): 2.8 MB | 147/201 kB | 68 kB | 0.2/1.4 MB
+Progress (4): 2.8 MB | 147/201 kB | 68 kB | 0.2/1.4 MB
+Progress (4): 2.8 MB | 151/201 kB | 68 kB | 0.2/1.4 MB
+Progress (4): 2.8 MB | 151/201 kB | 68 kB | 0.2/1.4 MB
+Progress (4): 2.8 MB | 155/201 kB | 68 kB | 0.2/1.4 MB
+Progress (4): 2.8 MB | 159/201 kB | 68 kB | 0.2/1.4 MB
+Progress (4): 2.8 MB | 163/201 kB | 68 kB | 0.2/1.4 MB
+Progress (4): 2.8 MB | 163/201 kB | 68 kB | 0.2/1.4 MB
+Progress (4): 2.8 MB | 167/201 kB | 68 kB | 0.2/1.4 MB
+Progress (4): 2.8 MB | 167/201 kB | 68 kB | 0.2/1.4 MB
+Progress (4): 2.8 MB | 171/201 kB | 68 kB | 0.2/1.4 MB
+Progress (4): 2.8 MB | 176/201 kB | 68 kB | 0.2/1.4 MB
+Progress (4): 2.8 MB | 180/201 kB | 68 kB | 0.2/1.4 MB
+Progress (4): 2.8 MB | 180/201 kB | 68 kB | 0.2/1.4 MB
+Progress (4): 2.8 MB | 184/201 kB | 68 kB | 0.2/1.4 MB
+Progress (4): 2.8 MB | 184/201 kB | 68 kB | 0.2/1.4 MB
+Progress (4): 2.8 MB | 188/201 kB | 68 kB | 0.2/1.4 MB
+Progress (4): 2.8 MB | 192/201 kB | 68 kB | 0.2/1.4 MB
+Progress (4): 2.8 MB | 196/201 kB | 68 kB | 0.2/1.4 MB
+Progress (4): 2.8 MB | 200/201 kB | 68 kB | 0.2/1.4 MB
+Progress (4): 2.8 MB | 200/201 kB | 68 kB | 0.2/1.4 MB
+Progress (4): 2.8 MB | 201 kB | 68 kB | 0.2/1.4 MB    
+Progress (4): 2.8 MB | 201 kB | 68 kB | 0.2/1.4 MB
+Progress (4): 2.8 MB | 201 kB | 68 kB | 0.2/1.4 MB
+Progress (4): 2.8 MB | 201 kB | 68 kB | 0.2/1.4 MB
+Progress (4): 2.8 MB | 201 kB | 68 kB | 0.3/1.4 MB
+Progress (4): 2.8 MB | 201 kB | 68 kB | 0.3/1.4 MB
+Progress (4): 2.8 MB | 201 kB | 68 kB | 0.3/1.4 MB
+Progress (4): 2.8 MB | 201 kB | 68 kB | 0.3/1.4 MB
+Progress (4): 2.8 MB | 201 kB | 68 kB | 0.3/1.4 MB
+Progress (4): 2.8 MB | 201 kB | 68 kB | 0.3/1.4 MB
+Progress (4): 2.8 MB | 201 kB | 68 kB | 0.3/1.4 MB
+Progress (4): 2.8 MB | 201 kB | 68 kB | 0.3/1.4 MB
+Progress (4): 2.8 MB | 201 kB | 68 kB | 0.3/1.4 MB
+Progress (4): 2.8 MB | 201 kB | 68 kB | 0.3/1.4 MB
+Progress (4): 2.8 MB | 201 kB | 68 kB | 0.3/1.4 MB
+Progress (4): 2.8 MB | 201 kB | 68 kB | 0.3/1.4 MB
+Progress (4): 2.8 MB | 201 kB | 68 kB | 0.4/1.4 MB
+Progress (4): 2.8 MB | 201 kB | 68 kB | 0.4/1.4 MB
+Progress (4): 2.8 MB | 201 kB | 68 kB | 0.4/1.4 MB
+Progress (4): 2.8 MB | 201 kB | 68 kB | 0.4/1.4 MB
+Progress (4): 2.8 MB | 201 kB | 68 kB | 0.4/1.4 MB
+Progress (4): 2.8 MB | 201 kB | 68 kB | 0.4/1.4 MB
+Progress (4): 2.8 MB | 201 kB | 68 kB | 0.4/1.4 MB
+Progress (4): 2.8 MB | 201 kB | 68 kB | 0.4/1.4 MB
+Progress (4): 2.8 MB | 201 kB | 68 kB | 0.4/1.4 MB
+Progress (4): 2.8 MB | 201 kB | 68 kB | 0.4/1.4 MB
+Progress (4): 2.8 MB | 201 kB | 68 kB | 0.4/1.4 MB
+Progress (4): 2.8 MB | 201 kB | 68 kB | 0.4/1.4 MB
+Progress (4): 2.8 MB | 201 kB | 68 kB | 0.5/1.4 MB
+Progress (4): 2.8 MB | 201 kB | 68 kB | 0.5/1.4 MB
+Progress (4): 2.8 MB | 201 kB | 68 kB | 0.5/1.4 MB
+Progress (4): 2.8 MB | 201 kB | 68 kB | 0.5/1.4 MB
+Progress (4): 2.8 MB | 201 kB | 68 kB | 0.5/1.4 MB
+Progress (4): 2.8 MB | 201 kB | 68 kB | 0.5/1.4 MB
+Progress (4): 2.8 MB | 201 kB | 68 kB | 0.5/1.4 MB
+Progress (4): 2.8 MB | 201 kB | 68 kB | 0.5/1.4 MB
+Progress (4): 2.8 MB | 201 kB | 68 kB | 0.5/1.4 MB
+Progress (4): 2.8 MB | 201 kB | 68 kB | 0.5/1.4 MB
+Progress (4): 2.8 MB | 201 kB | 68 kB | 0.5/1.4 MB
+Progress (4): 2.8 MB | 201 kB | 68 kB | 0.5/1.4 MB
+Progress (4): 2.8 MB | 201 kB | 68 kB | 0.5/1.4 MB
+Progress (4): 2.8 MB | 201 kB | 68 kB | 0.6/1.4 MB
+Progress (4): 2.8 MB | 201 kB | 68 kB | 0.6/1.4 MB
+Progress (4): 2.8 MB | 201 kB | 68 kB | 0.6/1.4 MB
+                                                  
+Downloaded from ossrh: https://oss.sonatype.org/content/repositories/releases/com/google/guava/guava/29.0-jre/guava-29.0-jre.jar (2.8 MB at 6.2 MB/s)
+Progress (3): 201 kB | 68 kB | 0.6/1.4 MB
+                                         
+Downloading from ossrh: https://oss.sonatype.org/content/repositories/releases/com/fasterxml/jackson/core/jackson-core/2.11.0/jackson-core-2.11.0.jar
+Progress (3): 201 kB | 68 kB | 0.6/1.4 MB
+Progress (3): 201 kB | 68 kB | 0.6/1.4 MB
+Progress (3): 201 kB | 68 kB | 0.6/1.4 MB
+Progress (3): 201 kB | 68 kB | 0.6/1.4 MB
+Progress (3): 201 kB | 68 kB | 0.6/1.4 MB
+Progress (3): 201 kB | 68 kB | 0.6/1.4 MB
+Progress (3): 201 kB | 68 kB | 0.6/1.4 MB
+Progress (3): 201 kB | 68 kB | 0.6/1.4 MB
+Progress (3): 201 kB | 68 kB | 0.7/1.4 MB
+Progress (3): 201 kB | 68 kB | 0.7/1.4 MB
+Progress (3): 201 kB | 68 kB | 0.7/1.4 MB
+Progress (3): 201 kB | 68 kB | 0.7/1.4 MB
+Progress (3): 201 kB | 68 kB | 0.7/1.4 MB
+Progress (3): 201 kB | 68 kB | 0.7/1.4 MB
+Progress (3): 201 kB | 68 kB | 0.7/1.4 MB
+Progress (3): 201 kB | 68 kB | 0.7/1.4 MB
+Progress (3): 201 kB | 68 kB | 0.7/1.4 MB
+Progress (3): 201 kB | 68 kB | 0.7/1.4 MB
+Progress (3): 201 kB | 68 kB | 0.7/1.4 MB
+Progress (3): 201 kB | 68 kB | 0.7/1.4 MB
+Progress (3): 201 kB | 68 kB | 0.8/1.4 MB
+Progress (3): 201 kB | 68 kB | 0.8/1.4 MB
+Progress (3): 201 kB | 68 kB | 0.8/1.4 MB
+Progress (3): 201 kB | 68 kB | 0.8/1.4 MB
+Progress (3): 201 kB | 68 kB | 0.8/1.4 MB
+Progress (3): 201 kB | 68 kB | 0.8/1.4 MB
+Progress (3): 201 kB | 68 kB | 0.8/1.4 MB
+Progress (3): 201 kB | 68 kB | 0.8/1.4 MB
+Progress (3): 201 kB | 68 kB | 0.8/1.4 MB
+Progress (3): 201 kB | 68 kB | 0.8/1.4 MB
+Progress (3): 201 kB | 68 kB | 0.8/1.4 MB
+Progress (3): 201 kB | 68 kB | 0.8/1.4 MB
+Progress (3): 201 kB | 68 kB | 0.9/1.4 MB
+Progress (3): 201 kB | 68 kB | 0.9/1.4 MB
+Progress (3): 201 kB | 68 kB | 0.9/1.4 MB
+Progress (3): 201 kB | 68 kB | 0.9/1.4 MB
+Progress (3): 201 kB | 68 kB | 0.9/1.4 MB
+Progress (3): 201 kB | 68 kB | 0.9/1.4 MB
+Progress (3): 201 kB | 68 kB | 0.9/1.4 MB
+Progress (3): 201 kB | 68 kB | 0.9/1.4 MB
+Progress (3): 201 kB | 68 kB | 0.9/1.4 MB
+Progress (3): 201 kB | 68 kB | 0.9/1.4 MB
+Progress (3): 201 kB | 68 kB | 0.9/1.4 MB
+Progress (3): 201 kB | 68 kB | 0.9/1.4 MB
+Progress (3): 201 kB | 68 kB | 1.0/1.4 MB
+Progress (3): 201 kB | 68 kB | 1.0/1.4 MB
+Progress (3): 201 kB | 68 kB | 1.0/1.4 MB
+Progress (3): 201 kB | 68 kB | 1.0/1.4 MB
+Progress (3): 201 kB | 68 kB | 1.0/1.4 MB
+Progress (3): 201 kB | 68 kB | 1.0/1.4 MB
+Progress (3): 201 kB | 68 kB | 1.0/1.4 MB
+Progress (3): 201 kB | 68 kB | 1.0/1.4 MB
+Progress (3): 201 kB | 68 kB | 1.0/1.4 MB
+Progress (3): 201 kB | 68 kB | 1.0/1.4 MB
+Progress (3): 201 kB | 68 kB | 1.0/1.4 MB
+Progress (3): 201 kB | 68 kB | 1.0/1.4 MB
+Progress (3): 201 kB | 68 kB | 1.1/1.4 MB
+Progress (3): 201 kB | 68 kB | 1.1/1.4 MB
+Progress (3): 201 kB | 68 kB | 1.1/1.4 MB
+Progress (3): 201 kB | 68 kB | 1.1/1.4 MB
+Progress (3): 201 kB | 68 kB | 1.1/1.4 MB
+Progress (3): 201 kB | 68 kB | 1.1/1.4 MB
+Progress (3): 201 kB | 68 kB | 1.1/1.4 MB
+Progress (3): 201 kB | 68 kB | 1.1/1.4 MB
+Progress (3): 201 kB | 68 kB | 1.1/1.4 MB
+Progress (3): 201 kB | 68 kB | 1.1/1.4 MB
+Progress (3): 201 kB | 68 kB | 1.1/1.4 MB
+Progress (3): 201 kB | 68 kB | 1.1/1.4 MB
+Progress (3): 201 kB | 68 kB | 1.2/1.4 MB
+Progress (3): 201 kB | 68 kB | 1.2/1.4 MB
+Progress (3): 201 kB | 68 kB | 1.2/1.4 MB
+Progress (3): 201 kB | 68 kB | 1.2/1.4 MB
+Progress (3): 201 kB | 68 kB | 1.2/1.4 MB
+Progress (3): 201 kB | 68 kB | 1.2/1.4 MB
+Progress (3): 201 kB | 68 kB | 1.2/1.4 MB
+Progress (3): 201 kB | 68 kB | 1.2/1.4 MB
+Progress (3): 201 kB | 68 kB | 1.2/1.4 MB
+Progress (3): 201 kB | 68 kB | 1.2/1.4 MB
+Progress (3): 201 kB | 68 kB | 1.2/1.4 MB
+Progress (3): 201 kB | 68 kB | 1.2/1.4 MB
+Progress (3): 201 kB | 68 kB | 1.2/1.4 MB
+Progress (3): 201 kB | 68 kB | 1.3/1.4 MB
+Progress (3): 201 kB | 68 kB | 1.3/1.4 MB
+Progress (3): 201 kB | 68 kB | 1.3/1.4 MB
+Progress (3): 201 kB | 68 kB | 1.3/1.4 MB
+Progress (3): 201 kB | 68 kB | 1.3/1.4 MB
+Progress (3): 201 kB | 68 kB | 1.3/1.4 MB
+Progress (3): 201 kB | 68 kB | 1.3/1.4 MB
+Progress (3): 201 kB | 68 kB | 1.3/1.4 MB
+Progress (3): 201 kB | 68 kB | 1.3/1.4 MB
+Progress (3): 201 kB | 68 kB | 1.3/1.4 MB
+Progress (3): 201 kB | 68 kB | 1.3/1.4 MB
+Progress (3): 201 kB | 68 kB | 1.3/1.4 MB
+Progress (3): 201 kB | 68 kB | 1.4/1.4 MB
+Progress (3): 201 kB | 68 kB | 1.4/1.4 MB
+Progress (3): 201 kB | 68 kB | 1.4/1.4 MB
+Progress (3): 201 kB | 68 kB | 1.4/1.4 MB
+Progress (3): 201 kB | 68 kB | 1.4/1.4 MB
+Progress (3): 201 kB | 68 kB | 1.4/1.4 MB
+Progress (3): 201 kB | 68 kB | 1.4/1.4 MB
+Progress (3): 201 kB | 68 kB | 1.4/1.4 MB
+Progress (3): 201 kB | 68 kB | 1.4 MB    
+Progress (4): 201 kB | 68 kB | 1.4 MB | 4.1/430 kB
+Progress (4): 201 kB | 68 kB | 1.4 MB | 8.2/430 kB
+Progress (4): 201 kB | 68 kB | 1.4 MB | 12/430 kB 
+Progress (4): 201 kB | 68 kB | 1.4 MB | 16/430 kB
+Progress (4): 201 kB | 68 kB | 1.4 MB | 20/430 kB
+Progress (4): 201 kB | 68 kB | 1.4 MB | 25/430 kB
+Progress (4): 201 kB | 68 kB | 1.4 MB | 29/430 kB
+Progress (4): 201 kB | 68 kB | 1.4 MB | 33/430 kB
+Progress (4): 201 kB | 68 kB | 1.4 MB | 37/430 kB
+Progress (4): 201 kB | 68 kB | 1.4 MB | 41/430 kB
+Progress (4): 201 kB | 68 kB | 1.4 MB | 45/430 kB
+Progress (4): 201 kB | 68 kB | 1.4 MB | 49/430 kB
+Progress (4): 201 kB | 68 kB | 1.4 MB | 53/430 kB
+Progress (4): 201 kB | 68 kB | 1.4 MB | 57/430 kB
+Progress (4): 201 kB | 68 kB | 1.4 MB | 61/430 kB
+Progress (4): 201 kB | 68 kB | 1.4 MB | 66/430 kB
+Progress (4): 201 kB | 68 kB | 1.4 MB | 70/430 kB
+Progress (4): 201 kB | 68 kB | 1.4 MB | 74/430 kB
+Progress (4): 201 kB | 68 kB | 1.4 MB | 78/430 kB
+Progress (4): 201 kB | 68 kB | 1.4 MB | 82/430 kB
+Progress (4): 201 kB | 68 kB | 1.4 MB | 86/430 kB
+Progress (4): 201 kB | 68 kB | 1.4 MB | 90/430 kB
+Progress (4): 201 kB | 68 kB | 1.4 MB | 94/430 kB
+Progress (4): 201 kB | 68 kB | 1.4 MB | 98/430 kB
+Progress (4): 201 kB | 68 kB | 1.4 MB | 102/430 kB
+Progress (4): 201 kB | 68 kB | 1.4 MB | 106/430 kB
+Progress (4): 201 kB | 68 kB | 1.4 MB | 111/430 kB
+Progress (4): 201 kB | 68 kB | 1.4 MB | 115/430 kB
+Progress (4): 201 kB | 68 kB | 1.4 MB | 119/430 kB
+Progress (4): 201 kB | 68 kB | 1.4 MB | 123/430 kB
+Progress (4): 201 kB | 68 kB | 1.4 MB | 127/430 kB
+Progress (4): 201 kB | 68 kB | 1.4 MB | 131/430 kB
+Progress (4): 201 kB | 68 kB | 1.4 MB | 135/430 kB
+Progress (4): 201 kB | 68 kB | 1.4 MB | 139/430 kB
+Progress (4): 201 kB | 68 kB | 1.4 MB | 143/430 kB
+Progress (4): 201 kB | 68 kB | 1.4 MB | 147/430 kB
+Progress (4): 201 kB | 68 kB | 1.4 MB | 152/430 kB
+Progress (4): 201 kB | 68 kB | 1.4 MB | 156/430 kB
+Progress (4): 201 kB | 68 kB | 1.4 MB | 160/430 kB
+Progress (4): 201 kB | 68 kB | 1.4 MB | 164/430 kB
+Progress (4): 201 kB | 68 kB | 1.4 MB | 168/430 kB
+Progress (4): 201 kB | 68 kB | 1.4 MB | 172/430 kB
+Progress (4): 201 kB | 68 kB | 1.4 MB | 176/430 kB
+Progress (4): 201 kB | 68 kB | 1.4 MB | 180/430 kB
+Progress (4): 201 kB | 68 kB | 1.4 MB | 184/430 kB
+Progress (4): 201 kB | 68 kB | 1.4 MB | 188/430 kB
+Progress (4): 201 kB | 68 kB | 1.4 MB | 193/430 kB
+Progress (4): 201 kB | 68 kB | 1.4 MB | 197/430 kB
+Progress (4): 201 kB | 68 kB | 1.4 MB | 201/430 kB
+Progress (4): 201 kB | 68 kB | 1.4 MB | 205/430 kB
+Progress (4): 201 kB | 68 kB | 1.4 MB | 209/430 kB
+Progress (4): 201 kB | 68 kB | 1.4 MB | 213/430 kB
+Progress (4): 201 kB | 68 kB | 1.4 MB | 217/430 kB
+Progress (4): 201 kB | 68 kB | 1.4 MB | 221/430 kB
+Progress (4): 201 kB | 68 kB | 1.4 MB | 225/430 kB
+Progress (4): 201 kB | 68 kB | 1.4 MB | 229/430 kB
+Progress (4): 201 kB | 68 kB | 1.4 MB | 233/430 kB
+Progress (4): 201 kB | 68 kB | 1.4 MB | 238/430 kB
+Progress (4): 201 kB | 68 kB | 1.4 MB | 242/430 kB
+Progress (4): 201 kB | 68 kB | 1.4 MB | 246/430 kB
+Progress (4): 201 kB | 68 kB | 1.4 MB | 250/430 kB
+Progress (4): 201 kB | 68 kB | 1.4 MB | 254/430 kB
+Progress (4): 201 kB | 68 kB | 1.4 MB | 258/430 kB
+Progress (4): 201 kB | 68 kB | 1.4 MB | 262/430 kB
+Progress (4): 201 kB | 68 kB | 1.4 MB | 266/430 kB
+Progress (4): 201 kB | 68 kB | 1.4 MB | 270/430 kB
+Progress (4): 201 kB | 68 kB | 1.4 MB | 274/430 kB
+Progress (4): 201 kB | 68 kB | 1.4 MB | 279/430 kB
+Progress (4): 201 kB | 68 kB | 1.4 MB | 283/430 kB
+Progress (4): 201 kB | 68 kB | 1.4 MB | 287/430 kB
+Progress (4): 201 kB | 68 kB | 1.4 MB | 291/430 kB
+Progress (4): 201 kB | 68 kB | 1.4 MB | 295/430 kB
+Progress (4): 201 kB | 68 kB | 1.4 MB | 299/430 kB
+Progress (4): 201 kB | 68 kB | 1.4 MB | 303/430 kB
+Progress (4): 201 kB | 68 kB | 1.4 MB | 307/430 kB
+Progress (4): 201 kB | 68 kB | 1.4 MB | 311/430 kB
+Progress (4): 201 kB | 68 kB | 1.4 MB | 315/430 kB
+Progress (4): 201 kB | 68 kB | 1.4 MB | 319/430 kB
+Progress (4): 201 kB | 68 kB | 1.4 MB | 324/430 kB
+Progress (4): 201 kB | 68 kB | 1.4 MB | 328/430 kB
+Progress (4): 201 kB | 68 kB | 1.4 MB | 332/430 kB
+Progress (4): 201 kB | 68 kB | 1.4 MB | 336/430 kB
+Progress (4): 201 kB | 68 kB | 1.4 MB | 340/430 kB
+Progress (4): 201 kB | 68 kB | 1.4 MB | 344/430 kB
+Progress (4): 201 kB | 68 kB | 1.4 MB | 348/430 kB
+Progress (4): 201 kB | 68 kB | 1.4 MB | 352/430 kB
+Progress (4): 201 kB | 68 kB | 1.4 MB | 356/430 kB
+Progress (4): 201 kB | 68 kB | 1.4 MB | 360/430 kB
+Progress (4): 201 kB | 68 kB | 1.4 MB | 365/430 kB
+Progress (4): 201 kB | 68 kB | 1.4 MB | 369/430 kB
+Progress (4): 201 kB | 68 kB | 1.4 MB | 373/430 kB
+Progress (4): 201 kB | 68 kB | 1.4 MB | 377/430 kB
+Progress (4): 201 kB | 68 kB | 1.4 MB | 381/430 kB
+Progress (4): 201 kB | 68 kB | 1.4 MB | 385/430 kB
+Progress (4): 201 kB | 68 kB | 1.4 MB | 389/430 kB
+Progress (4): 201 kB | 68 kB | 1.4 MB | 393/430 kB
+Progress (4): 201 kB | 68 kB | 1.4 MB | 397/430 kB
+Progress (4): 201 kB | 68 kB | 1.4 MB | 401/430 kB
+Progress (4): 201 kB | 68 kB | 1.4 MB | 406/430 kB
+Progress (4): 201 kB | 68 kB | 1.4 MB | 410/430 kB
+Progress (4): 201 kB | 68 kB | 1.4 MB | 414/430 kB
+Progress (4): 201 kB | 68 kB | 1.4 MB | 418/430 kB
+Progress (4): 201 kB | 68 kB | 1.4 MB | 422/430 kB
+Progress (4): 201 kB | 68 kB | 1.4 MB | 426/430 kB
+Progress (4): 201 kB | 68 kB | 1.4 MB | 430 kB    
+Progress (5): 201 kB | 68 kB | 1.4 MB | 430 kB | 4.1/352 kB
+Progress (5): 201 kB | 68 kB | 1.4 MB | 430 kB | 8.2/352 kB
+Progress (5): 201 kB | 68 kB | 1.4 MB | 430 kB | 12/352 kB 
+Progress (5): 201 kB | 68 kB | 1.4 MB | 430 kB | 16/352 kB
+Progress (5): 201 kB | 68 kB | 1.4 MB | 430 kB | 20/352 kB
+Progress (5): 201 kB | 68 kB | 1.4 MB | 430 kB | 24/352 kB
+Progress (5): 201 kB | 68 kB | 1.4 MB | 430 kB | 28/352 kB
+Progress (5): 201 kB | 68 kB | 1.4 MB | 430 kB | 32/352 kB
+Progress (5): 201 kB | 68 kB | 1.4 MB | 430 kB | 36/352 kB
+Progress (5): 201 kB | 68 kB | 1.4 MB | 430 kB | 40/352 kB
+Progress (5): 201 kB | 68 kB | 1.4 MB | 430 kB | 44/352 kB
+Progress (5): 201 kB | 68 kB | 1.4 MB | 430 kB | 49/352 kB
+Progress (5): 201 kB | 68 kB | 1.4 MB | 430 kB | 53/352 kB
+Progress (5): 201 kB | 68 kB | 1.4 MB | 430 kB | 57/352 kB
+Progress (5): 201 kB | 68 kB | 1.4 MB | 430 kB | 61/352 kB
+Progress (5): 201 kB | 68 kB | 1.4 MB | 430 kB | 65/352 kB
+Progress (5): 201 kB | 68 kB | 1.4 MB | 430 kB | 69/352 kB
+Progress (5): 201 kB | 68 kB | 1.4 MB | 430 kB | 73/352 kB
+Progress (5): 201 kB | 68 kB | 1.4 MB | 430 kB | 77/352 kB
+Progress (5): 201 kB | 68 kB | 1.4 MB | 430 kB | 81/352 kB
+Progress (5): 201 kB | 68 kB | 1.4 MB | 430 kB | 85/352 kB
+Progress (5): 201 kB | 68 kB | 1.4 MB | 430 kB | 90/352 kB
+Progress (5): 201 kB | 68 kB | 1.4 MB | 430 kB | 94/352 kB
+Progress (5): 201 kB | 68 kB | 1.4 MB | 430 kB | 98/352 kB
+Progress (5): 201 kB | 68 kB | 1.4 MB | 430 kB | 102/352 kB
+Progress (5): 201 kB | 68 kB | 1.4 MB | 430 kB | 106/352 kB
+Progress (5): 201 kB | 68 kB | 1.4 MB | 430 kB | 110/352 kB
+Progress (5): 201 kB | 68 kB | 1.4 MB | 430 kB | 114/352 kB
+Progress (5): 201 kB | 68 kB | 1.4 MB | 430 kB | 118/352 kB
+Progress (5): 201 kB | 68 kB | 1.4 MB | 430 kB | 122/352 kB
+Progress (5): 201 kB | 68 kB | 1.4 MB | 430 kB | 126/352 kB
+Progress (5): 201 kB | 68 kB | 1.4 MB | 430 kB | 131/352 kB
+Progress (5): 201 kB | 68 kB | 1.4 MB | 430 kB | 135/352 kB
+Progress (5): 201 kB | 68 kB | 1.4 MB | 430 kB | 139/352 kB
+Progress (5): 201 kB | 68 kB | 1.4 MB | 430 kB | 143/352 kB
+Progress (5): 201 kB | 68 kB | 1.4 MB | 430 kB | 147/352 kB
+Progress (5): 201 kB | 68 kB | 1.4 MB | 430 kB | 151/352 kB
+Progress (5): 201 kB | 68 kB | 1.4 MB | 430 kB | 155/352 kB
+Progress (5): 201 kB | 68 kB | 1.4 MB | 430 kB | 159/352 kB
+Progress (5): 201 kB | 68 kB | 1.4 MB | 430 kB | 163/352 kB
+Progress (5): 201 kB | 68 kB | 1.4 MB | 430 kB | 167/352 kB
+Progress (5): 201 kB | 68 kB | 1.4 MB | 430 kB | 171/352 kB
+Progress (5): 201 kB | 68 kB | 1.4 MB | 430 kB | 176/352 kB
+Progress (5): 201 kB | 68 kB | 1.4 MB | 430 kB | 180/352 kB
+Progress (5): 201 kB | 68 kB | 1.4 MB | 430 kB | 184/352 kB
+Progress (5): 201 kB | 68 kB | 1.4 MB | 430 kB | 188/352 kB
+Progress (5): 201 kB | 68 kB | 1.4 MB | 430 kB | 192/352 kB
+Progress (5): 201 kB | 68 kB | 1.4 MB | 430 kB | 196/352 kB
+Progress (5): 201 kB | 68 kB | 1.4 MB | 430 kB | 200/352 kB
+Progress (5): 201 kB | 68 kB | 1.4 MB | 430 kB | 204/352 kB
+Progress (5): 201 kB | 68 kB | 1.4 MB | 430 kB | 208/352 kB
+Progress (5): 201 kB | 68 kB | 1.4 MB | 430 kB | 212/352 kB
+Progress (5): 201 kB | 68 kB | 1.4 MB | 430 kB | 217/352 kB
+Progress (5): 201 kB | 68 kB | 1.4 MB | 430 kB | 221/352 kB
+Progress (5): 201 kB | 68 kB | 1.4 MB | 430 kB | 225/352 kB
+Progress (5): 201 kB | 68 kB | 1.4 MB | 430 kB | 229/352 kB
+Progress (5): 201 kB | 68 kB | 1.4 MB | 430 kB | 233/352 kB
+Progress (5): 201 kB | 68 kB | 1.4 MB | 430 kB | 237/352 kB
+Progress (5): 201 kB | 68 kB | 1.4 MB | 430 kB | 241/352 kB
+Progress (5): 201 kB | 68 kB | 1.4 MB | 430 kB | 245/352 kB
+Progress (5): 201 kB | 68 kB | 1.4 MB | 430 kB | 249/352 kB
+Progress (5): 201 kB | 68 kB | 1.4 MB | 430 kB | 253/352 kB
+Progress (5): 201 kB | 68 kB | 1.4 MB | 430 kB | 257/352 kB
+Progress (5): 201 kB | 68 kB | 1.4 MB | 430 kB | 262/352 kB
+Progress (5): 201 kB | 68 kB | 1.4 MB | 430 kB | 266/352 kB
+Progress (5): 201 kB | 68 kB | 1.4 MB | 430 kB | 270/352 kB
+Progress (5): 201 kB | 68 kB | 1.4 MB | 430 kB | 274/352 kB
+Progress (5): 201 kB | 68 kB | 1.4 MB | 430 kB | 278/352 kB
+Progress (5): 201 kB | 68 kB | 1.4 MB | 430 kB | 282/352 kB
+Progress (5): 201 kB | 68 kB | 1.4 MB | 430 kB | 286/352 kB
+Progress (5): 201 kB | 68 kB | 1.4 MB | 430 kB | 290/352 kB
+Progress (5): 201 kB | 68 kB | 1.4 MB | 430 kB | 294/352 kB
+Progress (5): 201 kB | 68 kB | 1.4 MB | 430 kB | 298/352 kB
+Progress (5): 201 kB | 68 kB | 1.4 MB | 430 kB | 303/352 kB
+Progress (5): 201 kB | 68 kB | 1.4 MB | 430 kB | 307/352 kB
+Progress (5): 201 kB | 68 kB | 1.4 MB | 430 kB | 311/352 kB
+Progress (5): 201 kB | 68 kB | 1.4 MB | 430 kB | 315/352 kB
+Progress (5): 201 kB | 68 kB | 1.4 MB | 430 kB | 319/352 kB
+Progress (5): 201 kB | 68 kB | 1.4 MB | 430 kB | 323/352 kB
+Progress (5): 201 kB | 68 kB | 1.4 MB | 430 kB | 327/352 kB
+Progress (5): 201 kB | 68 kB | 1.4 MB | 430 kB | 331/352 kB
+Progress (5): 201 kB | 68 kB | 1.4 MB | 430 kB | 335/352 kB
+Progress (5): 201 kB | 68 kB | 1.4 MB | 430 kB | 339/352 kB
+Progress (5): 201 kB | 68 kB | 1.4 MB | 430 kB | 343/352 kB
+Progress (5): 201 kB | 68 kB | 1.4 MB | 430 kB | 348/352 kB
+Progress (5): 201 kB | 68 kB | 1.4 MB | 430 kB | 352 kB    
+                                                       
+Downloaded from ossrh: https://oss.sonatype.org/content/repositories/releases/com/fasterxml/jackson/core/jackson-annotations/2.11.0/jackson-annotations-2.11.0.jar (68 kB at 108 kB/s)
+Downloading from ossrh: https://oss.sonatype.org/content/repositories/releases/com/fasterxml/jackson/module/jackson-module-parameter-names/2.8.9/jackson-module-parameter-names-2.8.9.jar
+Downloaded from ossrh: https://oss.sonatype.org/content/repositories/releases/org/checkerframework/checker-qual/2.11.1/checker-qual-2.11.1.jar (201 kB at 314 kB/s)
+Downloading from ossrh: https://oss.sonatype.org/content/repositories/releases/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.8.9/jackson-datatype-jdk8-2.8.9.jar
+Downloaded from ossrh: https://oss.sonatype.org/content/repositories/releases/com/squareup/okhttp3/okhttp/3.14.7/okhttp-3.14.7.jar (430 kB at 667 kB/s)
+Downloading from ossrh: https://oss.sonatype.org/content/repositories/releases/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.8.9/jackson-datatype-jsr310-2.8.9.jar
+Downloaded from ossrh: https://oss.sonatype.org/content/repositories/releases/com/fasterxml/jackson/core/jackson-databind/2.11.0/jackson-databind-2.11.0.jar (1.4 MB at 2.1 MB/s)
+Downloading from ossrh: https://oss.sonatype.org/content/repositories/releases/io/jsonwebtoken/jjwt-api/0.10.5/jjwt-api-0.10.5.jar
+Downloaded from ossrh: https://oss.sonatype.org/content/repositories/releases/com/fasterxml/jackson/core/jackson-core/2.11.0/jackson-core-2.11.0.jar (352 kB at 484 kB/s)
+Downloading from ossrh: https://oss.sonatype.org/content/repositories/releases/io/opencensus/opencensus-api/0.26.0/opencensus-api-0.26.0.jar
+Progress (1): 4.1/34 kB
+Progress (1): 8.2/34 kB
+Progress (1): 12/34 kB 
+Progress (1): 16/34 kB
+Progress (1): 20/34 kB
+Progress (1): 24/34 kB
+Progress (1): 28/34 kB
+Progress (1): 32/34 kB
+Progress (1): 34 kB   
+Progress (2): 34 kB | 4.1/90 kB
+Progress (2): 34 kB | 8.2/90 kB
+Progress (2): 34 kB | 12/90 kB 
+Progress (2): 34 kB | 16/90 kB
+Progress (2): 34 kB | 20/90 kB
+Progress (2): 34 kB | 25/90 kB
+Progress (2): 34 kB | 29/90 kB
+Progress (2): 34 kB | 33/90 kB
+Progress (2): 34 kB | 37/90 kB
+Progress (2): 34 kB | 41/90 kB
+Progress (2): 34 kB | 45/90 kB
+Progress (2): 34 kB | 49/90 kB
+Progress (2): 34 kB | 53/90 kB
+Progress (2): 34 kB | 57/90 kB
+Progress (2): 34 kB | 61/90 kB
+Progress (2): 34 kB | 66/90 kB
+Progress (2): 34 kB | 70/90 kB
+Progress (2): 34 kB | 74/90 kB
+Progress (2): 34 kB | 78/90 kB
+Progress (2): 34 kB | 82/90 kB
+Progress (2): 34 kB | 86/90 kB
+Progress (2): 34 kB | 90 kB   
+Progress (3): 34 kB | 90 kB | 4.1/75 kB
+Progress (3): 34 kB | 90 kB | 8.2/75 kB
+Progress (3): 34 kB | 90 kB | 12/75 kB 
+Progress (3): 34 kB | 90 kB | 16/75 kB
+                                      
+Downloaded from ossrh: https://oss.sonatype.org/content/repositories/releases/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.8.9/jackson-datatype-jsr310-2.8.9.jar (90 kB at 100 kB/s)
+Downloading from ossrh: https://oss.sonatype.org/content/repositories/releases/io/grpc/grpc-context/1.27.2/grpc-context-1.27.2.jar
+Progress (2): 34 kB | 20/75 kB
+Progress (2): 34 kB | 25/75 kB
+Progress (2): 34 kB | 29/75 kB
+Progress (2): 34 kB | 33/75 kB
+Progress (2): 34 kB | 37/75 kB
+Progress (2): 34 kB | 41/75 kB
+Progress (2): 34 kB | 45/75 kB
+Progress (2): 34 kB | 49/75 kB
+Progress (2): 34 kB | 53/75 kB
+Progress (2): 34 kB | 57/75 kB
+Progress (2): 34 kB | 61/75 kB
+Progress (2): 34 kB | 66/75 kB
+Progress (2): 34 kB | 70/75 kB
+Progress (2): 34 kB | 74/75 kB
+Progress (2): 34 kB | 75 kB   
+Progress (3): 34 kB | 75 kB | 4.1/8.2 kB
+Progress (3): 34 kB | 75 kB | 8.2/8.2 kB
+Progress (3): 34 kB | 75 kB | 8.2 kB    
+                                    
+Downloaded from ossrh: https://oss.sonatype.org/content/repositories/releases/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.8.9/jackson-datatype-jdk8-2.8.9.jar (34 kB at 35 kB/s)
+Downloading from ossrh: https://oss.sonatype.org/content/repositories/releases/io/jsonwebtoken/jjwt-impl/0.10.5/jjwt-impl-0.10.5.jar
+Progress (3): 75 kB | 8.2 kB | 4.1/352 kB
+Progress (3): 75 kB | 8.2 kB | 8.2/352 kB
+Progress (3): 75 kB | 8.2 kB | 12/352 kB 
+Progress (3): 75 kB | 8.2 kB | 16/352 kB
+Progress (3): 75 kB | 8.2 kB | 20/352 kB
+Progress (3): 75 kB | 8.2 kB | 25/352 kB
+Progress (3): 75 kB | 8.2 kB | 29/352 kB
+Progress (3): 75 kB | 8.2 kB | 33/352 kB
+Progress (3): 75 kB | 8.2 kB | 37/352 kB
+Progress (3): 75 kB | 8.2 kB | 41/352 kB
+Progress (3): 75 kB | 8.2 kB | 45/352 kB
+Progress (3): 75 kB | 8.2 kB | 49/352 kB
+Progress (3): 75 kB | 8.2 kB | 53/352 kB
+Progress (3): 75 kB | 8.2 kB | 57/352 kB
+Progress (3): 75 kB | 8.2 kB | 61/352 kB
+Progress (3): 75 kB | 8.2 kB | 66/352 kB
+Progress (3): 75 kB | 8.2 kB | 70/352 kB
+Progress (3): 75 kB | 8.2 kB | 74/352 kB
+Progress (3): 75 kB | 8.2 kB | 78/352 kB
+Progress (3): 75 kB | 8.2 kB | 82/352 kB
+Progress (3): 75 kB | 8.2 kB | 86/352 kB
+Progress (3): 75 kB | 8.2 kB | 90/352 kB
+Progress (3): 75 kB | 8.2 kB | 94/352 kB
+Progress (3): 75 kB | 8.2 kB | 98/352 kB
+Progress (3): 75 kB | 8.2 kB | 102/352 kB
+Progress (3): 75 kB | 8.2 kB | 106/352 kB
+Progress (3): 75 kB | 8.2 kB | 111/352 kB
+Progress (3): 75 kB | 8.2 kB | 115/352 kB
+Progress (3): 75 kB | 8.2 kB | 119/352 kB
+Progress (3): 75 kB | 8.2 kB | 123/352 kB
+Progress (3): 75 kB | 8.2 kB | 127/352 kB
+Progress (3): 75 kB | 8.2 kB | 131/352 kB
+Progress (3): 75 kB | 8.2 kB | 135/352 kB
+Progress (3): 75 kB | 8.2 kB | 139/352 kB
+Progress (3): 75 kB | 8.2 kB | 143/352 kB
+Progress (3): 75 kB | 8.2 kB | 147/352 kB
+Progress (3): 75 kB | 8.2 kB | 152/352 kB
+Progress (3): 75 kB | 8.2 kB | 156/352 kB
+Progress (3): 75 kB | 8.2 kB | 160/352 kB
+Progress (3): 75 kB | 8.2 kB | 164/352 kB
+Progress (3): 75 kB | 8.2 kB | 168/352 kB
+Progress (3): 75 kB | 8.2 kB | 172/352 kB
+Progress (3): 75 kB | 8.2 kB | 176/352 kB
+Progress (3): 75 kB | 8.2 kB | 180/352 kB
+Progress (3): 75 kB | 8.2 kB | 184/352 kB
+Progress (3): 75 kB | 8.2 kB | 188/352 kB
+Progress (3): 75 kB | 8.2 kB | 193/352 kB
+Progress (3): 75 kB | 8.2 kB | 197/352 kB
+Progress (3): 75 kB | 8.2 kB | 201/352 kB
+Progress (3): 75 kB | 8.2 kB | 205/352 kB
+Progress (3): 75 kB | 8.2 kB | 209/352 kB
+Progress (3): 75 kB | 8.2 kB | 213/352 kB
+Progress (3): 75 kB | 8.2 kB | 217/352 kB
+Progress (3): 75 kB | 8.2 kB | 221/352 kB
+Progress (3): 75 kB | 8.2 kB | 225/352 kB
+Progress (3): 75 kB | 8.2 kB | 229/352 kB
+Progress (3): 75 kB | 8.2 kB | 233/352 kB
+Progress (3): 75 kB | 8.2 kB | 238/352 kB
+Progress (3): 75 kB | 8.2 kB | 242/352 kB
+Progress (3): 75 kB | 8.2 kB | 246/352 kB
+Progress (3): 75 kB | 8.2 kB | 250/352 kB
+Progress (3): 75 kB | 8.2 kB | 254/352 kB
+Progress (3): 75 kB | 8.2 kB | 258/352 kB
+Progress (3): 75 kB | 8.2 kB | 262/352 kB
+Progress (3): 75 kB | 8.2 kB | 266/352 kB
+Progress (3): 75 kB | 8.2 kB | 270/352 kB
+Progress (3): 75 kB | 8.2 kB | 274/352 kB
+Progress (3): 75 kB | 8.2 kB | 279/352 kB
+Progress (3): 75 kB | 8.2 kB | 283/352 kB
+Progress (3): 75 kB | 8.2 kB | 287/352 kB
+Progress (3): 75 kB | 8.2 kB | 291/352 kB
+Progress (3): 75 kB | 8.2 kB | 295/352 kB
+Progress (3): 75 kB | 8.2 kB | 299/352 kB
+Progress (3): 75 kB | 8.2 kB | 303/352 kB
+Progress (3): 75 kB | 8.2 kB | 307/352 kB
+Progress (3): 75 kB | 8.2 kB | 311/352 kB
+Progress (3): 75 kB | 8.2 kB | 315/352 kB
+Progress (3): 75 kB | 8.2 kB | 319/352 kB
+Progress (3): 75 kB | 8.2 kB | 324/352 kB
+Progress (3): 75 kB | 8.2 kB | 328/352 kB
+Progress (3): 75 kB | 8.2 kB | 332/352 kB
+Progress (3): 75 kB | 8.2 kB | 336/352 kB
+Progress (3): 75 kB | 8.2 kB | 340/352 kB
+Progress (3): 75 kB | 8.2 kB | 344/352 kB
+Progress (3): 75 kB | 8.2 kB | 348/352 kB
+Progress (3): 75 kB | 8.2 kB | 352 kB    
+Progress (4): 75 kB | 8.2 kB | 352 kB | 4.1/30 kB
+Progress (4): 75 kB | 8.2 kB | 352 kB | 8.2/30 kB
+Progress (4): 75 kB | 8.2 kB | 352 kB | 12/30 kB 
+Progress (4): 75 kB | 8.2 kB | 352 kB | 16/30 kB
+Progress (4): 75 kB | 8.2 kB | 352 kB | 20/30 kB
+Progress (4): 75 kB | 8.2 kB | 352 kB | 24/30 kB
+Progress (4): 75 kB | 8.2 kB | 352 kB | 28/30 kB
+Progress (4): 75 kB | 8.2 kB | 352 kB | 30 kB   
+                                             
+Downloaded from ossrh: https://oss.sonatype.org/content/repositories/releases/io/jsonwebtoken/jjwt-api/0.10.5/jjwt-api-0.10.5.jar (75 kB at 66 kB/s)
+Downloading from ossrh: https://oss.sonatype.org/content/repositories/releases/io/jsonwebtoken/jjwt-jackson/0.10.5/jjwt-jackson-0.10.5.jar
+Downloaded from ossrh: https://oss.sonatype.org/content/repositories/releases/io/grpc/grpc-context/1.27.2/grpc-context-1.27.2.jar (30 kB at 26 kB/s)
+Downloading from ossrh: https://oss.sonatype.org/content/repositories/releases/org/immutables/value/2.8.3/value-2.8.3.jar
+Progress (3): 8.2 kB | 352 kB | 4.1/68 kB
+Progress (3): 8.2 kB | 352 kB | 8.2/68 kB
+Progress (3): 8.2 kB | 352 kB | 12/68 kB 
+Progress (3): 8.2 kB | 352 kB | 16/68 kB
+Progress (3): 8.2 kB | 352 kB | 20/68 kB
+Progress (3): 8.2 kB | 352 kB | 24/68 kB
+Progress (3): 8.2 kB | 352 kB | 28/68 kB
+Progress (3): 8.2 kB | 352 kB | 32/68 kB
+Progress (3): 8.2 kB | 352 kB | 36/68 kB
+Progress (3): 8.2 kB | 352 kB | 40/68 kB
+Progress (3): 8.2 kB | 352 kB | 44/68 kB
+Progress (3): 8.2 kB | 352 kB | 49/68 kB
+Progress (3): 8.2 kB | 352 kB | 53/68 kB
+Progress (3): 8.2 kB | 352 kB | 57/68 kB
+Progress (3): 8.2 kB | 352 kB | 61/68 kB
+Progress (3): 8.2 kB | 352 kB | 65/68 kB
+Progress (3): 8.2 kB | 352 kB | 68 kB   
+                                     
+Downloaded from ossrh: https://oss.sonatype.org/content/repositories/releases/com/fasterxml/jackson/module/jackson-module-parameter-names/2.8.9/jackson-module-parameter-names-2.8.9.jar (8.2 kB at 6.5 kB/s)
+Downloading from ossrh: https://oss.sonatype.org/content/repositories/releases/uk/co/datumedge/hamcrest-json/0.2/hamcrest-json-0.2.jar
+Downloaded from ossrh: https://oss.sonatype.org/content/repositories/releases/io/opencensus/opencensus-api/0.26.0/opencensus-api-0.26.0.jar (352 kB at 269 kB/s)
+Downloading from ossrh: https://oss.sonatype.org/content/repositories/releases/org/skyscreamer/jsonassert/1.1.1/jsonassert-1.1.1.jar
+Progress (2): 68 kB | 4.1/4.7 kB
+Progress (2): 68 kB | 4.7 kB    
+                            
+Downloaded from ossrh: https://oss.sonatype.org/content/repositories/releases/io/jsonwebtoken/jjwt-impl/0.10.5/jjwt-impl-0.10.5.jar (68 kB at 48 kB/s)
+Downloading from ossrh: https://oss.sonatype.org/content/repositories/releases/commons-collections/commons-collections/3.0/commons-collections-3.0.jar
+Progress (2): 4.7 kB | 4.1/15 kB
+Progress (2): 4.7 kB | 8.2/15 kB
+Progress (2): 4.7 kB | 12/15 kB 
+Progress (2): 4.7 kB | 15 kB   
+Progress (3): 4.7 kB | 15 kB | 4.1/13 kB
+Progress (3): 4.7 kB | 15 kB | 8.2/13 kB
+Progress (3): 4.7 kB | 15 kB | 12/13 kB 
+Progress (3): 4.7 kB | 15 kB | 13 kB   
+Progress (4): 4.7 kB | 15 kB | 13 kB | 4.1/519 kB
+Progress (4): 4.7 kB | 15 kB | 13 kB | 8.2/519 kB
+Progress (4): 4.7 kB | 15 kB | 13 kB | 12/519 kB 
+Progress (4): 4.7 kB | 15 kB | 13 kB | 16/519 kB
+Progress (4): 4.7 kB | 15 kB | 13 kB | 20/519 kB
+Progress (4): 4.7 kB | 15 kB | 13 kB | 25/519 kB
+Progress (4): 4.7 kB | 15 kB | 13 kB | 29/519 kB
+Progress (4): 4.7 kB | 15 kB | 13 kB | 33/519 kB
+Progress (4): 4.7 kB | 15 kB | 13 kB | 37/519 kB
+Progress (4): 4.7 kB | 15 kB | 13 kB | 41/519 kB
+Progress (4): 4.7 kB | 15 kB | 13 kB | 45/519 kB
+Progress (4): 4.7 kB | 15 kB | 13 kB | 49/519 kB
+Progress (4): 4.7 kB | 15 kB | 13 kB | 53/519 kB
+Progress (4): 4.7 kB | 15 kB | 13 kB | 57/519 kB
+Progress (4): 4.7 kB | 15 kB | 13 kB | 61/519 kB
+Progress (4): 4.7 kB | 15 kB | 13 kB | 66/519 kB
+Progress (4): 4.7 kB | 15 kB | 13 kB | 70/519 kB
+Progress (4): 4.7 kB | 15 kB | 13 kB | 74/519 kB
+Progress (4): 4.7 kB | 15 kB | 13 kB | 78/519 kB
+Progress (4): 4.7 kB | 15 kB | 13 kB | 82/519 kB
+Progress (4): 4.7 kB | 15 kB | 13 kB | 86/519 kB
+Progress (4): 4.7 kB | 15 kB | 13 kB | 90/519 kB
+Progress (4): 4.7 kB | 15 kB | 13 kB | 94/519 kB
+Progress (4): 4.7 kB | 15 kB | 13 kB | 98/519 kB
+Progress (4): 4.7 kB | 15 kB | 13 kB | 102/519 kB
+Progress (4): 4.7 kB | 15 kB | 13 kB | 106/519 kB
+Progress (4): 4.7 kB | 15 kB | 13 kB | 111/519 kB
+Progress (4): 4.7 kB | 15 kB | 13 kB | 115/519 kB
+Progress (4): 4.7 kB | 15 kB | 13 kB | 119/519 kB
+Progress (4): 4.7 kB | 15 kB | 13 kB | 123/519 kB
+Progress (4): 4.7 kB | 15 kB | 13 kB | 127/519 kB
+Progress (4): 4.7 kB | 15 kB | 13 kB | 131/519 kB
+Progress (4): 4.7 kB | 15 kB | 13 kB | 135/519 kB
+Progress (4): 4.7 kB | 15 kB | 13 kB | 139/519 kB
+Progress (4): 4.7 kB | 15 kB | 13 kB | 143/519 kB
+Progress (4): 4.7 kB | 15 kB | 13 kB | 147/519 kB
+Progress (4): 4.7 kB | 15 kB | 13 kB | 152/519 kB
+Progress (4): 4.7 kB | 15 kB | 13 kB | 156/519 kB
+Progress (4): 4.7 kB | 15 kB | 13 kB | 160/519 kB
+Progress (4): 4.7 kB | 15 kB | 13 kB | 164/519 kB
+Progress (4): 4.7 kB | 15 kB | 13 kB | 168/519 kB
+Progress (4): 4.7 kB | 15 kB | 13 kB | 172/519 kB
+Progress (4): 4.7 kB | 15 kB | 13 kB | 176/519 kB
+Progress (4): 4.7 kB | 15 kB | 13 kB | 180/519 kB
+Progress (4): 4.7 kB | 15 kB | 13 kB | 184/519 kB
+Progress (4): 4.7 kB | 15 kB | 13 kB | 188/519 kB
+Progress (4): 4.7 kB | 15 kB | 13 kB | 193/519 kB
+Progress (4): 4.7 kB | 15 kB | 13 kB | 197/519 kB
+Progress (4): 4.7 kB | 15 kB | 13 kB | 201/519 kB
+Progress (4): 4.7 kB | 15 kB | 13 kB | 205/519 kB
+Progress (4): 4.7 kB | 15 kB | 13 kB | 209/519 kB
+Progress (4): 4.7 kB | 15 kB | 13 kB | 213/519 kB
+Progress (4): 4.7 kB | 15 kB | 13 kB | 217/519 kB
+Progress (4): 4.7 kB | 15 kB | 13 kB | 221/519 kB
+Progress (4): 4.7 kB | 15 kB | 13 kB | 225/519 kB
+Progress (4): 4.7 kB | 15 kB | 13 kB | 229/519 kB
+Progress (4): 4.7 kB | 15 kB | 13 kB | 233/519 kB
+Progress (4): 4.7 kB | 15 kB | 13 kB | 238/519 kB
+Progress (4): 4.7 kB | 15 kB | 13 kB | 242/519 kB
+Progress (4): 4.7 kB | 15 kB | 13 kB | 246/519 kB
+Progress (4): 4.7 kB | 15 kB | 13 kB | 250/519 kB
+Progress (4): 4.7 kB | 15 kB | 13 kB | 254/519 kB
+Progress (4): 4.7 kB | 15 kB | 13 kB | 258/519 kB
+Progress (4): 4.7 kB | 15 kB | 13 kB | 262/519 kB
+Progress (4): 4.7 kB | 15 kB | 13 kB | 266/519 kB
+Progress (4): 4.7 kB | 15 kB | 13 kB | 270/519 kB
+Progress (4): 4.7 kB | 15 kB | 13 kB | 274/519 kB
+Progress (4): 4.7 kB | 15 kB | 13 kB | 279/519 kB
+Progress (4): 4.7 kB | 15 kB | 13 kB | 283/519 kB
+Progress (4): 4.7 kB | 15 kB | 13 kB | 287/519 kB
+Progress (4): 4.7 kB | 15 kB | 13 kB | 291/519 kB
+Progress (4): 4.7 kB | 15 kB | 13 kB | 295/519 kB
+Progress (4): 4.7 kB | 15 kB | 13 kB | 299/519 kB
+Progress (4): 4.7 kB | 15 kB | 13 kB | 303/519 kB
+Progress (4): 4.7 kB | 15 kB | 13 kB | 307/519 kB
+Progress (4): 4.7 kB | 15 kB | 13 kB | 311/519 kB
+Progress (4): 4.7 kB | 15 kB | 13 kB | 315/519 kB
+Progress (4): 4.7 kB | 15 kB | 13 kB | 319/519 kB
+Progress (4): 4.7 kB | 15 kB | 13 kB | 324/519 kB
+Progress (4): 4.7 kB | 15 kB | 13 kB | 328/519 kB
+Progress (4): 4.7 kB | 15 kB | 13 kB | 332/519 kB
+Progress (4): 4.7 kB | 15 kB | 13 kB | 336/519 kB
+Progress (4): 4.7 kB | 15 kB | 13 kB | 340/519 kB
+                                                 
+Downloaded from ossrh: https://oss.sonatype.org/content/repositories/releases/io/jsonwebtoken/jjwt-jackson/0.10.5/jjwt-jackson-0.10.5.jar (4.7 kB at 3.0 kB/s)
+Progress (3): 15 kB | 13 kB | 344/519 kB
+                                        
+Downloading from ossrh: https://oss.sonatype.org/content/repositories/releases/org/junit/jupiter/junit-jupiter-engine/5.5.0/junit-jupiter-engine-5.5.0.jar
+Progress (3): 15 kB | 13 kB | 348/519 kB
+Progress (3): 15 kB | 13 kB | 352/519 kB
+Progress (3): 15 kB | 13 kB | 356/519 kB
+Progress (3): 15 kB | 13 kB | 360/519 kB
+Progress (3): 15 kB | 13 kB | 365/519 kB
+Progress (3): 15 kB | 13 kB | 369/519 kB
+Progress (3): 15 kB | 13 kB | 373/519 kB
+Progress (3): 15 kB | 13 kB | 377/519 kB
+Progress (3): 15 kB | 13 kB | 381/519 kB
+Progress (3): 15 kB | 13 kB | 385/519 kB
+Progress (3): 15 kB | 13 kB | 389/519 kB
+Progress (3): 15 kB | 13 kB | 393/519 kB
+Progress (3): 15 kB | 13 kB | 397/519 kB
+Progress (3): 15 kB | 13 kB | 401/519 kB
+Progress (3): 15 kB | 13 kB | 406/519 kB
+Progress (3): 15 kB | 13 kB | 410/519 kB
+Progress (3): 15 kB | 13 kB | 414/519 kB
+Progress (3): 15 kB | 13 kB | 418/519 kB
+Progress (3): 15 kB | 13 kB | 422/519 kB
+Progress (3): 15 kB | 13 kB | 426/519 kB
+Progress (3): 15 kB | 13 kB | 430/519 kB
+Progress (3): 15 kB | 13 kB | 434/519 kB
+Progress (3): 15 kB | 13 kB | 438/519 kB
+Progress (3): 15 kB | 13 kB | 442/519 kB
+Progress (3): 15 kB | 13 kB | 446/519 kB
+Progress (4): 15 kB | 13 kB | 446/519 kB | 0/3.0 MB
+Progress (4): 15 kB | 13 kB | 451/519 kB | 0/3.0 MB
+Progress (4): 15 kB | 13 kB | 455/519 kB | 0/3.0 MB
+Progress (4): 15 kB | 13 kB | 459/519 kB | 0/3.0 MB
+Progress (4): 15 kB | 13 kB | 463/519 kB | 0/3.0 MB
+Progress (4): 15 kB | 13 kB | 463/519 kB | 0/3.0 MB
+Progress (4): 15 kB | 13 kB | 467/519 kB | 0/3.0 MB
+Progress (4): 15 kB | 13 kB | 471/519 kB | 0/3.0 MB
+Progress (4): 15 kB | 13 kB | 475/519 kB | 0/3.0 MB
+Progress (4): 15 kB | 13 kB | 475/519 kB | 0/3.0 MB
+Progress (4): 15 kB | 13 kB | 479/519 kB | 0/3.0 MB
+Progress (4): 15 kB | 13 kB | 483/519 kB | 0/3.0 MB
+Progress (4): 15 kB | 13 kB | 487/519 kB | 0/3.0 MB
+Progress (4): 15 kB | 13 kB | 492/519 kB | 0/3.0 MB
+Progress (4): 15 kB | 13 kB | 492/519 kB | 0.1/3.0 MB
+Progress (4): 15 kB | 13 kB | 496/519 kB | 0.1/3.0 MB
+Progress (4): 15 kB | 13 kB | 500/519 kB | 0.1/3.0 MB
+Progress (4): 15 kB | 13 kB | 504/519 kB | 0.1/3.0 MB
+Progress (4): 15 kB | 13 kB | 508/519 kB | 0.1/3.0 MB
+Progress (4): 15 kB | 13 kB | 508/519 kB | 0.1/3.0 MB
+Progress (4): 15 kB | 13 kB | 512/519 kB | 0.1/3.0 MB
+Progress (4): 15 kB | 13 kB | 516/519 kB | 0.1/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 0.1/3.0 MB    
+Progress (4): 15 kB | 13 kB | 519 kB | 0.1/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 0.1/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 0.1/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 0.1/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 0.2/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 0.2/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 0.2/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 0.2/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 0.2/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 0.2/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 0.3/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 0.3/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 0.3/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 0.3/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 0.3/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 0.3/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 0.4/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 0.4/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 0.4/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 0.4/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 0.4/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 0.4/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 0.5/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 0.5/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 0.5/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 0.5/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 0.5/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 0.5/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 0.6/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 0.6/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 0.6/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 0.6/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 0.6/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 0.6/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 0.7/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 0.7/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 0.7/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 0.7/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 0.7/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 0.7/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 0.8/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 0.8/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 0.8/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 0.8/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 0.8/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 0.8/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 0.9/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 0.9/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 0.9/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 0.9/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 0.9/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 0.9/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 1.0/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 1.0/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 1.0/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 1.0/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 1.0/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 1.0/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 1.1/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 1.1/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 1.1/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 1.1/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 1.1/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 1.1/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 1.2/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 1.2/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 1.2/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 1.2/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 1.2/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 1.2/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 1.3/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 1.3/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 1.3/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 1.3/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 1.3/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 1.3/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 1.4/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 1.4/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 1.4/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 1.4/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 1.4/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 1.4/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 1.4/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 1.5/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 1.5/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 1.5/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 1.5/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 1.5/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 1.5/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 1.6/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 1.6/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 1.6/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 1.6/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 1.6/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 1.7/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 1.7/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 1.7/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 1.7/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 1.7/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 1.7/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 1.8/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 1.8/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 1.8/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 1.8/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 1.8/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 1.8/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 1.9/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 1.9/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 1.9/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 1.9/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 1.9/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 1.9/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 2.0/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 2.0/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 2.0/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 2.0/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 2.0/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 2.0/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 2.0/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 2.1/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 2.1/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 2.1/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 2.1/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 2.1/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 2.1/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 2.2/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 2.2/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 2.2/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 2.2/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 2.2/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 2.2/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 2.3/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 2.3/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 2.3/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 2.3/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 2.3/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 2.3/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 2.4/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 2.4/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 2.4/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 2.4/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 2.4/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 2.4/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 2.5/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 2.5/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 2.5/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 2.5/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 2.5/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 2.5/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 2.6/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 2.6/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 2.6/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 2.6/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 2.6/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 2.6/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 2.7/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 2.7/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 2.7/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 2.7/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 2.7/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 2.7/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 2.8/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 2.8/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 2.8/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 2.8/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 2.8/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 2.8/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 2.9/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 2.9/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 2.9/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 2.9/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 2.9/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 2.9/3.0 MB
+Progress (4): 15 kB | 13 kB | 519 kB | 3.0 MB    
+                                             
+Downloaded from ossrh: https://oss.sonatype.org/content/repositories/releases/uk/co/datumedge/hamcrest-json/0.2/hamcrest-json-0.2.jar (15 kB at 8.8 kB/s)
+Downloading from ossrh: https://oss.sonatype.org/content/repositories/releases/org/junit/platform/junit-platform-engine/1.5.0/junit-platform-engine-1.5.0.jar
+Downloaded from ossrh: https://oss.sonatype.org/content/repositories/releases/org/skyscreamer/jsonassert/1.1.1/jsonassert-1.1.1.jar (13 kB at 7.5 kB/s)
+Downloading from ossrh: https://oss.sonatype.org/content/repositories/releases/org/junit/platform/junit-platform-commons/1.5.0/junit-platform-commons-1.5.0.jar
+Progress (3): 519 kB | 3.0 MB | 4.1/215 kB
+Progress (3): 519 kB | 3.0 MB | 8.2/215 kB
+Progress (3): 519 kB | 3.0 MB | 12/215 kB 
+Progress (3): 519 kB | 3.0 MB | 16/215 kB
+Progress (3): 519 kB | 3.0 MB | 20/215 kB
+Progress (3): 519 kB | 3.0 MB | 24/215 kB
+Progress (3): 519 kB | 3.0 MB | 28/215 kB
+Progress (3): 519 kB | 3.0 MB | 32/215 kB
+Progress (3): 519 kB | 3.0 MB | 36/215 kB
+Progress (3): 519 kB | 3.0 MB | 40/215 kB
+Progress (3): 519 kB | 3.0 MB | 44/215 kB
+Progress (3): 519 kB | 3.0 MB | 49/215 kB
+Progress (3): 519 kB | 3.0 MB | 53/215 kB
+Progress (3): 519 kB | 3.0 MB | 57/215 kB
+Progress (3): 519 kB | 3.0 MB | 61/215 kB
+Progress (3): 519 kB | 3.0 MB | 65/215 kB
+Progress (3): 519 kB | 3.0 MB | 69/215 kB
+Progress (3): 519 kB | 3.0 MB | 73/215 kB
+Progress (3): 519 kB | 3.0 MB | 77/215 kB
+Progress (3): 519 kB | 3.0 MB | 81/215 kB
+Progress (3): 519 kB | 3.0 MB | 85/215 kB
+Progress (3): 519 kB | 3.0 MB | 90/215 kB
+Progress (3): 519 kB | 3.0 MB | 94/215 kB
+Progress (3): 519 kB | 3.0 MB | 98/215 kB
+Progress (3): 519 kB | 3.0 MB | 102/215 kB
+Progress (3): 519 kB | 3.0 MB | 106/215 kB
+                                          
+Downloaded from ossrh: https://oss.sonatype.org/content/repositories/releases/commons-collections/commons-collections/3.0/commons-collections-3.0.jar (519 kB at 288 kB/s)
+Progress (2): 3.0 MB | 110/215 kB
+                                 
+Downloading from ossrh: https://oss.sonatype.org/content/repositories/releases/org/junit/jupiter/junit-jupiter-api/5.5.0/junit-jupiter-api-5.5.0.jar
+Progress (2): 3.0 MB | 114/215 kB
+Progress (2): 3.0 MB | 118/215 kB
+Progress (2): 3.0 MB | 122/215 kB
+Progress (2): 3.0 MB | 126/215 kB
+Progress (2): 3.0 MB | 131/215 kB
+Progress (2): 3.0 MB | 135/215 kB
+Progress (2): 3.0 MB | 139/215 kB
+Progress (2): 3.0 MB | 143/215 kB
+Progress (2): 3.0 MB | 147/215 kB
+Progress (2): 3.0 MB | 151/215 kB
+Progress (2): 3.0 MB | 155/215 kB
+Progress (2): 3.0 MB | 159/215 kB
+Progress (2): 3.0 MB | 163/215 kB
+Progress (2): 3.0 MB | 167/215 kB
+Progress (2): 3.0 MB | 171/215 kB
+Progress (2): 3.0 MB | 176/215 kB
+Progress (2): 3.0 MB | 180/215 kB
+Progress (2): 3.0 MB | 184/215 kB
+Progress (2): 3.0 MB | 188/215 kB
+Progress (2): 3.0 MB | 192/215 kB
+Progress (2): 3.0 MB | 196/215 kB
+Progress (2): 3.0 MB | 200/215 kB
+Progress (2): 3.0 MB | 204/215 kB
+Progress (2): 3.0 MB | 208/215 kB
+Progress (2): 3.0 MB | 212/215 kB
+Progress (2): 3.0 MB | 215 kB    
+Progress (3): 3.0 MB | 215 kB | 4.1/92 kB
+Progress (3): 3.0 MB | 215 kB | 8.2/92 kB
+Progress (3): 3.0 MB | 215 kB | 12/92 kB 
+Progress (3): 3.0 MB | 215 kB | 16/92 kB
+Progress (3): 3.0 MB | 215 kB | 20/92 kB
+Progress (3): 3.0 MB | 215 kB | 25/92 kB
+Progress (3): 3.0 MB | 215 kB | 29/92 kB
+Progress (3): 3.0 MB | 215 kB | 33/92 kB
+Progress (3): 3.0 MB | 215 kB | 37/92 kB
+Progress (3): 3.0 MB | 215 kB | 41/92 kB
+Progress (3): 3.0 MB | 215 kB | 45/92 kB
+Progress (3): 3.0 MB | 215 kB | 49/92 kB
+Progress (3): 3.0 MB | 215 kB | 53/92 kB
+Progress (3): 3.0 MB | 215 kB | 57/92 kB
+Progress (3): 3.0 MB | 215 kB | 61/92 kB
+Progress (3): 3.0 MB | 215 kB | 66/92 kB
+Progress (3): 3.0 MB | 215 kB | 70/92 kB
+Progress (3): 3.0 MB | 215 kB | 74/92 kB
+Progress (3): 3.0 MB | 215 kB | 78/92 kB
+Progress (3): 3.0 MB | 215 kB | 82/92 kB
+Progress (3): 3.0 MB | 215 kB | 86/92 kB
+Progress (3): 3.0 MB | 215 kB | 90/92 kB
+Progress (3): 3.0 MB | 215 kB | 92 kB   
+Progress (4): 3.0 MB | 215 kB | 92 kB | 4.1/164 kB
+Progress (4): 3.0 MB | 215 kB | 92 kB | 8.2/164 kB
+Progress (4): 3.0 MB | 215 kB | 92 kB | 12/164 kB 
+Progress (4): 3.0 MB | 215 kB | 92 kB | 16/164 kB
+Progress (4): 3.0 MB | 215 kB | 92 kB | 20/164 kB
+Progress (4): 3.0 MB | 215 kB | 92 kB | 25/164 kB
+Progress (4): 3.0 MB | 215 kB | 92 kB | 29/164 kB
+Progress (4): 3.0 MB | 215 kB | 92 kB | 33/164 kB
+Progress (4): 3.0 MB | 215 kB | 92 kB | 37/164 kB
+Progress (4): 3.0 MB | 215 kB | 92 kB | 41/164 kB
+Progress (4): 3.0 MB | 215 kB | 92 kB | 45/164 kB
+Progress (4): 3.0 MB | 215 kB | 92 kB | 49/164 kB
+Progress (4): 3.0 MB | 215 kB | 92 kB | 53/164 kB
+Progress (4): 3.0 MB | 215 kB | 92 kB | 57/164 kB
+Progress (4): 3.0 MB | 215 kB | 92 kB | 61/164 kB
+Progress (4): 3.0 MB | 215 kB | 92 kB | 66/164 kB
+                                                 
+Downloaded from ossrh: https://oss.sonatype.org/content/repositories/releases/org/immutables/value/2.8.3/value-2.8.3.jar (3.0 MB at 1.5 MB/s)
+Progress (3): 215 kB | 92 kB | 70/164 kB
+                                        
+Downloading from ossrh: https://oss.sonatype.org/content/repositories/releases/org/mockito/mockito-core/3.2.4/mockito-core-3.2.4.jar
+Progress (3): 215 kB | 92 kB | 74/164 kB
+Progress (3): 215 kB | 92 kB | 78/164 kB
+Progress (3): 215 kB | 92 kB | 82/164 kB
+Progress (3): 215 kB | 92 kB | 86/164 kB
+Progress (3): 215 kB | 92 kB | 90/164 kB
+Progress (3): 215 kB | 92 kB | 94/164 kB
+Progress (3): 215 kB | 92 kB | 98/164 kB
+Progress (3): 215 kB | 92 kB | 102/164 kB
+Progress (3): 215 kB | 92 kB | 106/164 kB
+Progress (3): 215 kB | 92 kB | 111/164 kB
+Progress (3): 215 kB | 92 kB | 115/164 kB
+Progress (3): 215 kB | 92 kB | 119/164 kB
+Progress (3): 215 kB | 92 kB | 123/164 kB
+Progress (3): 215 kB | 92 kB | 127/164 kB
+Progress (3): 215 kB | 92 kB | 131/164 kB
+Progress (3): 215 kB | 92 kB | 135/164 kB
+Progress (3): 215 kB | 92 kB | 139/164 kB
+Progress (3): 215 kB | 92 kB | 143/164 kB
+Progress (3): 215 kB | 92 kB | 147/164 kB
+Progress (3): 215 kB | 92 kB | 152/164 kB
+Progress (3): 215 kB | 92 kB | 156/164 kB
+Progress (3): 215 kB | 92 kB | 160/164 kB
+Progress (3): 215 kB | 92 kB | 164/164 kB
+Progress (3): 215 kB | 92 kB | 164 kB    
+                                     
+Downloaded from ossrh: https://oss.sonatype.org/content/repositories/releases/org/junit/jupiter/junit-jupiter-engine/5.5.0/junit-jupiter-engine-5.5.0.jar (215 kB at 107 kB/s)
+Downloading from ossrh: https://oss.sonatype.org/content/repositories/releases/net/bytebuddy/byte-buddy/1.10.5/byte-buddy-1.10.5.jar
+Progress (3): 92 kB | 164 kB | 4.1/142 kB
+Progress (3): 92 kB | 164 kB | 8.2/142 kB
+Progress (3): 92 kB | 164 kB | 12/142 kB 
+Progress (3): 92 kB | 164 kB | 16/142 kB
+Progress (3): 92 kB | 164 kB | 20/142 kB
+Progress (3): 92 kB | 164 kB | 24/142 kB
+Progress (3): 92 kB | 164 kB | 28/142 kB
+Progress (3): 92 kB | 164 kB | 32/142 kB
+Progress (3): 92 kB | 164 kB | 36/142 kB
+Progress (3): 92 kB | 164 kB | 40/142 kB
+Progress (3): 92 kB | 164 kB | 44/142 kB
+Progress (3): 92 kB | 164 kB | 49/142 kB
+Progress (3): 92 kB | 164 kB | 53/142 kB
+Progress (3): 92 kB | 164 kB | 57/142 kB
+Progress (3): 92 kB | 164 kB | 61/142 kB
+Progress (3): 92 kB | 164 kB | 65/142 kB
+Progress (3): 92 kB | 164 kB | 69/142 kB
+Progress (3): 92 kB | 164 kB | 73/142 kB
+Progress (3): 92 kB | 164 kB | 77/142 kB
+Progress (3): 92 kB | 164 kB | 81/142 kB
+Progress (3): 92 kB | 164 kB | 85/142 kB
+Progress (3): 92 kB | 164 kB | 90/142 kB
+Progress (3): 92 kB | 164 kB | 94/142 kB
+Progress (3): 92 kB | 164 kB | 98/142 kB
+Progress (3): 92 kB | 164 kB | 102/142 kB
+Progress (3): 92 kB | 164 kB | 106/142 kB
+Progress (3): 92 kB | 164 kB | 110/142 kB
+Progress (3): 92 kB | 164 kB | 114/142 kB
+Progress (3): 92 kB | 164 kB | 118/142 kB
+Progress (3): 92 kB | 164 kB | 122/142 kB
+Progress (3): 92 kB | 164 kB | 126/142 kB
+Progress (3): 92 kB | 164 kB | 131/142 kB
+Progress (3): 92 kB | 164 kB | 135/142 kB
+Progress (3): 92 kB | 164 kB | 139/142 kB
+Progress (3): 92 kB | 164 kB | 142 kB    
+                                     
+Downloaded from ossrh: https://oss.sonatype.org/content/repositories/releases/org/junit/platform/junit-platform-commons/1.5.0/junit-platform-commons-1.5.0.jar (92 kB at 44 kB/s)
+Downloading from ossrh: https://oss.sonatype.org/content/repositories/releases/net/bytebuddy/byte-buddy-agent/1.10.5/byte-buddy-agent-1.10.5.jar
+Downloaded from ossrh: https://oss.sonatype.org/content/repositories/releases/net/bytebuddy/byte-buddy/1.10.5/byte-buddy-1.10.5.jar (0 B at 0 B/s)
+Downloading from ossrh: https://oss.sonatype.org/content/repositories/releases/org/objenesis/objenesis/3.0.1/objenesis-3.0.1.jar
+Downloaded from ossrh: https://oss.sonatype.org/content/repositories/releases/org/junit/platform/junit-platform-engine/1.5.0/junit-platform-engine-1.5.0.jar (164 kB at 76 kB/s)
+Downloading from ossrh: https://oss.sonatype.org/content/repositories/releases/io/opencensus/opencensus-testing/0.26.0/opencensus-testing-0.26.0.jar
+Progress (2): 142 kB | 4.1/590 kB
+Progress (2): 142 kB | 8.2/590 kB
+Progress (2): 142 kB | 12/590 kB 
+Progress (2): 142 kB | 16/590 kB
+Progress (2): 142 kB | 20/590 kB
+Progress (2): 142 kB | 24/590 kB
+Progress (2): 142 kB | 28/590 kB
+Progress (2): 142 kB | 32/590 kB
+Progress (2): 142 kB | 36/590 kB
+Progress (2): 142 kB | 40/590 kB
+Progress (2): 142 kB | 44/590 kB
+Progress (2): 142 kB | 49/590 kB
+Progress (2): 142 kB | 53/590 kB
+Progress (2): 142 kB | 57/590 kB
+Progress (2): 142 kB | 61/590 kB
+Progress (2): 142 kB | 65/590 kB
+Progress (2): 142 kB | 69/590 kB
+Progress (2): 142 kB | 73/590 kB
+Progress (2): 142 kB | 77/590 kB
+Progress (2): 142 kB | 81/590 kB
+Progress (2): 142 kB | 85/590 kB
+Progress (2): 142 kB | 90/590 kB
+Progress (2): 142 kB | 94/590 kB
+Progress (2): 142 kB | 98/590 kB
+Progress (2): 142 kB | 102/590 kB
+Progress (2): 142 kB | 106/590 kB
+Progress (2): 142 kB | 110/590 kB
+Progress (2): 142 kB | 114/590 kB
+Progress (2): 142 kB | 118/590 kB
+Progress (2): 142 kB | 122/590 kB
+Progress (2): 142 kB | 126/590 kB
+Progress (2): 142 kB | 131/590 kB
+Progress (2): 142 kB | 135/590 kB
+Progress (2): 142 kB | 139/590 kB
+Progress (2): 142 kB | 143/590 kB
+Progress (2): 142 kB | 147/590 kB
+Progress (2): 142 kB | 151/590 kB
+Progress (2): 142 kB | 155/590 kB
+Progress (2): 142 kB | 159/590 kB
+Progress (2): 142 kB | 163/590 kB
+Progress (2): 142 kB | 167/590 kB
+Progress (2): 142 kB | 171/590 kB
+Progress (2): 142 kB | 176/590 kB
+Progress (2): 142 kB | 180/590 kB
+Progress (2): 142 kB | 184/590 kB
+Progress (2): 142 kB | 188/590 kB
+Progress (2): 142 kB | 192/590 kB
+Progress (2): 142 kB | 196/590 kB
+Progress (2): 142 kB | 200/590 kB
+Progress (2): 142 kB | 204/590 kB
+Progress (2): 142 kB | 208/590 kB
+Progress (2): 142 kB | 212/590 kB
+Progress (2): 142 kB | 217/590 kB
+Progress (2): 142 kB | 221/590 kB
+Progress (2): 142 kB | 225/590 kB
+Progress (2): 142 kB | 229/590 kB
+Progress (2): 142 kB | 233/590 kB
+Progress (2): 142 kB | 237/590 kB
+Progress (2): 142 kB | 241/590 kB
+Progress (2): 142 kB | 245/590 kB
+Progress (2): 142 kB | 249/590 kB
+Progress (2): 142 kB | 253/590 kB
+Progress (2): 142 kB | 257/590 kB
+Progress (2): 142 kB | 262/590 kB
+Progress (2): 142 kB | 266/590 kB
+Progress (2): 142 kB | 270/590 kB
+Progress (2): 142 kB | 274/590 kB
+Progress (2): 142 kB | 278/590 kB
+Progress (2): 142 kB | 282/590 kB
+Progress (2): 142 kB | 286/590 kB
+Progress (2): 142 kB | 290/590 kB
+Progress (2): 142 kB | 294/590 kB
+Progress (2): 142 kB | 298/590 kB
+Progress (2): 142 kB | 303/590 kB
+Progress (2): 142 kB | 307/590 kB
+Progress (2): 142 kB | 311/590 kB
+Progress (2): 142 kB | 315/590 kB
+Progress (2): 142 kB | 319/590 kB
+Progress (2): 142 kB | 323/590 kB
+Progress (2): 142 kB | 327/590 kB
+Progress (2): 142 kB | 331/590 kB
+Progress (2): 142 kB | 335/590 kB
+Progress (2): 142 kB | 339/590 kB
+Progress (2): 142 kB | 343/590 kB
+Progress (2): 142 kB | 348/590 kB
+Progress (2): 142 kB | 352/590 kB
+Progress (2): 142 kB | 356/590 kB
+Progress (2): 142 kB | 360/590 kB
+Progress (2): 142 kB | 364/590 kB
+Progress (2): 142 kB | 368/590 kB
+Progress (2): 142 kB | 372/590 kB
+Progress (2): 142 kB | 376/590 kB
+Progress (2): 142 kB | 380/590 kB
+Progress (2): 142 kB | 384/590 kB
+Progress (2): 142 kB | 389/590 kB
+Progress (2): 142 kB | 393/590 kB
+Progress (2): 142 kB | 397/590 kB
+Progress (2): 142 kB | 401/590 kB
+Progress (2): 142 kB | 405/590 kB
+Progress (2): 142 kB | 409/590 kB
+Progress (2): 142 kB | 413/590 kB
+Progress (2): 142 kB | 417/590 kB
+Progress (2): 142 kB | 421/590 kB
+Progress (2): 142 kB | 425/590 kB
+Progress (2): 142 kB | 430/590 kB
+Progress (2): 142 kB | 434/590 kB
+Progress (2): 142 kB | 438/590 kB
+Progress (2): 142 kB | 442/590 kB
+Progress (2): 142 kB | 446/590 kB
+Progress (2): 142 kB | 450/590 kB
+Progress (2): 142 kB | 454/590 kB
+Progress (2): 142 kB | 458/590 kB
+Progress (2): 142 kB | 462/590 kB
+Progress (2): 142 kB | 466/590 kB
+Progress (2): 142 kB | 470/590 kB
+Progress (2): 142 kB | 475/590 kB
+Progress (2): 142 kB | 479/590 kB
+Progress (2): 142 kB | 483/590 kB
+Progress (2): 142 kB | 487/590 kB
+Progress (2): 142 kB | 491/590 kB
+Progress (2): 142 kB | 495/590 kB
+Progress (2): 142 kB | 499/590 kB
+Progress (2): 142 kB | 503/590 kB
+Progress (2): 142 kB | 507/590 kB
+Progress (2): 142 kB | 511/590 kB
+Progress (2): 142 kB | 516/590 kB
+Progress (2): 142 kB | 520/590 kB
+Progress (2): 142 kB | 524/590 kB
+Progress (2): 142 kB | 528/590 kB
+Progress (2): 142 kB | 532/590 kB
+Progress (2): 142 kB | 536/590 kB
+Progress (2): 142 kB | 540/590 kB
+Progress (2): 142 kB | 544/590 kB
+Progress (2): 142 kB | 548/590 kB
+Progress (2): 142 kB | 552/590 kB
+Progress (2): 142 kB | 556/590 kB
+Progress (2): 142 kB | 561/590 kB
+Progress (2): 142 kB | 565/590 kB
+Progress (2): 142 kB | 569/590 kB
+Progress (2): 142 kB | 573/590 kB
+Progress (2): 142 kB | 577/590 kB
+Progress (2): 142 kB | 581/590 kB
+Progress (2): 142 kB | 585/590 kB
+Progress (2): 142 kB | 589/590 kB
+Progress (2): 142 kB | 590 kB    
+                             
+Downloaded from ossrh: https://oss.sonatype.org/content/repositories/releases/org/junit/jupiter/junit-jupiter-api/5.5.0/junit-jupiter-api-5.5.0.jar (142 kB at 63 kB/s)
+Downloading from ossrh: https://oss.sonatype.org/content/repositories/releases/io/opencensus/opencensus-impl/0.26.0/opencensus-impl-0.26.0.jar
+Progress (2): 590 kB | 4.1/61 kB
+Progress (2): 590 kB | 8.2/61 kB
+Progress (2): 590 kB | 12/61 kB 
+Progress (2): 590 kB | 16/61 kB
+Progress (2): 590 kB | 20/61 kB
+Progress (2): 590 kB | 25/61 kB
+Progress (2): 590 kB | 29/61 kB
+Progress (2): 590 kB | 33/61 kB
+Progress (2): 590 kB | 37/61 kB
+Progress (2): 590 kB | 41/61 kB
+Progress (2): 590 kB | 45/61 kB
+Progress (2): 590 kB | 49/61 kB
+Progress (2): 590 kB | 53/61 kB
+Progress (2): 590 kB | 57/61 kB
+Progress (2): 590 kB | 61 kB   
+Progress (3): 590 kB | 61 kB | 4.1/258 kB
+Progress (3): 590 kB | 61 kB | 8.2/258 kB
+Progress (3): 590 kB | 61 kB | 12/258 kB 
+Progress (3): 590 kB | 61 kB | 16/258 kB
+Progress (3): 590 kB | 61 kB | 20/258 kB
+Progress (3): 590 kB | 61 kB | 25/258 kB
+Progress (3): 590 kB | 61 kB | 29/258 kB
+Progress (3): 590 kB | 61 kB | 33/258 kB
+Progress (3): 590 kB | 61 kB | 37/258 kB
+Progress (3): 590 kB | 61 kB | 41/258 kB
+Progress (3): 590 kB | 61 kB | 45/258 kB
+Progress (3): 590 kB | 61 kB | 49/258 kB
+Progress (3): 590 kB | 61 kB | 53/258 kB
+Progress (3): 590 kB | 61 kB | 57/258 kB
+Progress (3): 590 kB | 61 kB | 61/258 kB
+Progress (3): 590 kB | 61 kB | 66/258 kB
+Progress (3): 590 kB | 61 kB | 70/258 kB
+Progress (3): 590 kB | 61 kB | 74/258 kB
+Progress (3): 590 kB | 61 kB | 78/258 kB
+Progress (3): 590 kB | 61 kB | 82/258 kB
+Progress (3): 590 kB | 61 kB | 86/258 kB
+Progress (3): 590 kB | 61 kB | 90/258 kB
+Progress (3): 590 kB | 61 kB | 94/258 kB
+Progress (3): 590 kB | 61 kB | 98/258 kB
+Progress (3): 590 kB | 61 kB | 102/258 kB
+Progress (3): 590 kB | 61 kB | 106/258 kB
+Progress (3): 590 kB | 61 kB | 111/258 kB
+Progress (3): 590 kB | 61 kB | 115/258 kB
+Progress (3): 590 kB | 61 kB | 119/258 kB
+Progress (3): 590 kB | 61 kB | 123/258 kB
+Progress (3): 590 kB | 61 kB | 127/258 kB
+Progress (3): 590 kB | 61 kB | 131/258 kB
+Progress (3): 590 kB | 61 kB | 135/258 kB
+Progress (3): 590 kB | 61 kB | 139/258 kB
+Progress (3): 590 kB | 61 kB | 143/258 kB
+Progress (3): 590 kB | 61 kB | 147/258 kB
+Progress (3): 590 kB | 61 kB | 152/258 kB
+Progress (3): 590 kB | 61 kB | 156/258 kB
+Progress (3): 590 kB | 61 kB | 160/258 kB
+Progress (3): 590 kB | 61 kB | 164/258 kB
+Progress (3): 590 kB | 61 kB | 168/258 kB
+Progress (3): 590 kB | 61 kB | 172/258 kB
+Progress (3): 590 kB | 61 kB | 176/258 kB
+Progress (3): 590 kB | 61 kB | 180/258 kB
+Progress (3): 590 kB | 61 kB | 184/258 kB
+Progress (3): 590 kB | 61 kB | 188/258 kB
+Progress (3): 590 kB | 61 kB | 193/258 kB
+Progress (3): 590 kB | 61 kB | 197/258 kB
+Progress (3): 590 kB | 61 kB | 201/258 kB
+Progress (3): 590 kB | 61 kB | 205/258 kB
+Progress (3): 590 kB | 61 kB | 209/258 kB
+Progress (3): 590 kB | 61 kB | 213/258 kB
+Progress (3): 590 kB | 61 kB | 217/258 kB
+Progress (3): 590 kB | 61 kB | 221/258 kB
+Progress (3): 590 kB | 61 kB | 225/258 kB
+Progress (3): 590 kB | 61 kB | 229/258 kB
+Progress (3): 590 kB | 61 kB | 233/258 kB
+Progress (3): 590 kB | 61 kB | 238/258 kB
+Progress (3): 590 kB | 61 kB | 242/258 kB
+Progress (3): 590 kB | 61 kB | 246/258 kB
+Progress (3): 590 kB | 61 kB | 250/258 kB
+Progress (3): 590 kB | 61 kB | 254/258 kB
+Progress (3): 590 kB | 61 kB | 258/258 kB
+Progress (3): 590 kB | 61 kB | 258 kB    
+                                     
+Downloaded from ossrh: https://oss.sonatype.org/content/repositories/releases/org/objenesis/objenesis/3.0.1/objenesis-3.0.1.jar (61 kB at 25 kB/s)
+Downloading from ossrh: https://oss.sonatype.org/content/repositories/releases/io/opencensus/opencensus-impl-core/0.26.0/opencensus-impl-core-0.26.0.jar
+Downloaded from ossrh: https://oss.sonatype.org/content/repositories/releases/org/mockito/mockito-core/3.2.4/mockito-core-3.2.4.jar (590 kB at 244 kB/s)
+Downloading from ossrh: https://oss.sonatype.org/content/repositories/releases/com/squareup/okhttp3/mockwebserver/3.14.7/mockwebserver-3.14.7.jar
+Downloaded from ossrh: https://oss.sonatype.org/content/repositories/releases/net/bytebuddy/byte-buddy-agent/1.10.5/byte-buddy-agent-1.10.5.jar (258 kB at 106 kB/s)
+Downloading from ossrh: https://oss.sonatype.org/content/repositories/releases/org/powermock/powermock-module-junit4/2.0.2/powermock-module-junit4-2.0.2.jar
+Progress (1): 3.3 kB
+Progress (2): 3.3 kB | 4.1/12 kB
+Progress (2): 3.3 kB | 8.2/12 kB
+Progress (2): 3.3 kB | 12 kB    
+                            
+Downloaded from ossrh: https://oss.sonatype.org/content/repositories/releases/io/opencensus/opencensus-testing/0.26.0/opencensus-testing-0.26.0.jar (3.3 kB at 1.3 kB/s)
+Downloading from ossrh: https://oss.sonatype.org/content/repositories/releases/org/powermock/powermock-module-junit4-common/2.0.2/powermock-module-junit4-common-2.0.2.jar
+Progress (2): 12 kB | 4.1/43 kB
+Progress (2): 12 kB | 8.2/43 kB
+Progress (2): 12 kB | 12/43 kB 
+Progress (2): 12 kB | 16/43 kB
+Progress (2): 12 kB | 20/43 kB
+Progress (2): 12 kB | 25/43 kB
+Progress (2): 12 kB | 29/43 kB
+Progress (2): 12 kB | 33/43 kB
+Progress (2): 12 kB | 37/43 kB
+Progress (2): 12 kB | 41/43 kB
+Progress (2): 12 kB | 43 kB   
+Progress (3): 12 kB | 43 kB | 4.1/193 kB
+Progress (3): 12 kB | 43 kB | 8.2/193 kB
+Progress (3): 12 kB | 43 kB | 12/193 kB 
+Progress (3): 12 kB | 43 kB | 16/193 kB
+Progress (3): 12 kB | 43 kB | 20/193 kB
+Progress (3): 12 kB | 43 kB | 24/193 kB
+Progress (3): 12 kB | 43 kB | 28/193 kB
+Progress (3): 12 kB | 43 kB | 32/193 kB
+Progress (3): 12 kB | 43 kB | 36/193 kB
+Progress (3): 12 kB | 43 kB | 40/193 kB
+Progress (3): 12 kB | 43 kB | 44/193 kB
+Progress (3): 12 kB | 43 kB | 49/193 kB
+Progress (3): 12 kB | 43 kB | 53/193 kB
+Progress (3): 12 kB | 43 kB | 57/193 kB
+Progress (3): 12 kB | 43 kB | 61/193 kB
+Progress (3): 12 kB | 43 kB | 65/193 kB
+Progress (3): 12 kB | 43 kB | 69/193 kB
+Progress (3): 12 kB | 43 kB | 73/193 kB
+Progress (3): 12 kB | 43 kB | 77/193 kB
+Progress (3): 12 kB | 43 kB | 81/193 kB
+Progress (3): 12 kB | 43 kB | 85/193 kB
+Progress (3): 12 kB | 43 kB | 90/193 kB
+Progress (3): 12 kB | 43 kB | 94/193 kB
+Progress (3): 12 kB | 43 kB | 98/193 kB
+Progress (3): 12 kB | 43 kB | 102/193 kB
+Progress (3): 12 kB | 43 kB | 106/193 kB
+Progress (3): 12 kB | 43 kB | 110/193 kB
+Progress (3): 12 kB | 43 kB | 114/193 kB
+Progress (3): 12 kB | 43 kB | 118/193 kB
+Progress (3): 12 kB | 43 kB | 122/193 kB
+Progress (3): 12 kB | 43 kB | 126/193 kB
+Progress (3): 12 kB | 43 kB | 131/193 kB
+Progress (3): 12 kB | 43 kB | 135/193 kB
+Progress (3): 12 kB | 43 kB | 139/193 kB
+Progress (3): 12 kB | 43 kB | 143/193 kB
+Progress (3): 12 kB | 43 kB | 147/193 kB
+Progress (3): 12 kB | 43 kB | 151/193 kB
+Progress (3): 12 kB | 43 kB | 155/193 kB
+Progress (3): 12 kB | 43 kB | 159/193 kB
+Progress (3): 12 kB | 43 kB | 163/193 kB
+Progress (3): 12 kB | 43 kB | 167/193 kB
+Progress (3): 12 kB | 43 kB | 171/193 kB
+Progress (3): 12 kB | 43 kB | 176/193 kB
+Progress (3): 12 kB | 43 kB | 180/193 kB
+Progress (3): 12 kB | 43 kB | 184/193 kB
+Progress (3): 12 kB | 43 kB | 188/193 kB
+Progress (3): 12 kB | 43 kB | 192/193 kB
+Progress (3): 12 kB | 43 kB | 193 kB    
+Progress (4): 12 kB | 43 kB | 193 kB | 4.1/48 kB
+Progress (4): 12 kB | 43 kB | 193 kB | 8.2/48 kB
+Progress (4): 12 kB | 43 kB | 193 kB | 12/48 kB 
+Progress (4): 12 kB | 43 kB | 193 kB | 16/48 kB
+Progress (4): 12 kB | 43 kB | 193 kB | 20/48 kB
+Progress (4): 12 kB | 43 kB | 193 kB | 25/48 kB
+Progress (4): 12 kB | 43 kB | 193 kB | 29/48 kB
+Progress (4): 12 kB | 43 kB | 193 kB | 33/48 kB
+Progress (4): 12 kB | 43 kB | 193 kB | 37/48 kB
+Progress (4): 12 kB | 43 kB | 193 kB | 41/48 kB
+Progress (4): 12 kB | 43 kB | 193 kB | 45/48 kB
+Progress (4): 12 kB | 43 kB | 193 kB | 48 kB   
+                                            
+Downloaded from ossrh: https://oss.sonatype.org/content/repositories/releases/io/opencensus/opencensus-impl/0.26.0/opencensus-impl-0.26.0.jar (12 kB at 4.3 kB/s)
+Downloading from ossrh: https://oss.sonatype.org/content/repositories/releases/org/powermock/powermock-reflect/2.0.2/powermock-reflect-2.0.2.jar
+Downloaded from ossrh: https://oss.sonatype.org/content/repositories/releases/com/squareup/okhttp3/mockwebserver/3.14.7/mockwebserver-3.14.7.jar (43 kB at 15 kB/s)
+Downloading from ossrh: https://oss.sonatype.org/content/repositories/releases/org/powermock/powermock-core/2.0.2/powermock-core-2.0.2.jar
+Progress (3): 193 kB | 48 kB | 4.1/18 kB
+Progress (3): 193 kB | 48 kB | 8.2/18 kB
+Progress (3): 193 kB | 48 kB | 12/18 kB 
+Progress (3): 193 kB | 48 kB | 16/18 kB
+Progress (3): 193 kB | 48 kB | 18 kB   
+                                    
+Downloaded from ossrh: https://oss.sonatype.org/content/repositories/releases/org/powermock/powermock-module-junit4/2.0.2/powermock-module-junit4-2.0.2.jar (48 kB at 17 kB/s)
+Downloading from ossrh: https://oss.sonatype.org/content/repositories/releases/org/powermock/powermock-api-mockito2/2.0.2/powermock-api-mockito2-2.0.2.jar
+Downloaded from ossrh: https://oss.sonatype.org/content/repositories/releases/io/opencensus/opencensus-impl-core/0.26.0/opencensus-impl-core-0.26.0.jar (193 kB at 65 kB/s)
+Downloading from ossrh: https://oss.sonatype.org/content/repositories/releases/org/powermock/powermock-api-support/2.0.2/powermock-api-support-2.0.2.jar
+Progress (2): 18 kB | 4.1/88 kB
+Progress (2): 18 kB | 8.2/88 kB
+Progress (2): 18 kB | 12/88 kB 
+Progress (2): 18 kB | 16/88 kB
+Progress (2): 18 kB | 20/88 kB
+Progress (2): 18 kB | 25/88 kB
+Progress (2): 18 kB | 29/88 kB
+Progress (2): 18 kB | 33/88 kB
+Progress (2): 18 kB | 37/88 kB
+Progress (2): 18 kB | 41/88 kB
+Progress (2): 18 kB | 45/88 kB
+Progress (2): 18 kB | 49/88 kB
+Progress (2): 18 kB | 53/88 kB
+Progress (2): 18 kB | 57/88 kB
+Progress (2): 18 kB | 61/88 kB
+Progress (2): 18 kB | 66/88 kB
+Progress (2): 18 kB | 70/88 kB
+Progress (2): 18 kB | 74/88 kB
+Progress (2): 18 kB | 78/88 kB
+Progress (2): 18 kB | 82/88 kB
+Progress (2): 18 kB | 86/88 kB
+Progress (2): 18 kB | 88 kB   
+Progress (3): 18 kB | 88 kB | 4.1/66 kB
+Progress (3): 18 kB | 88 kB | 8.2/66 kB
+Progress (3): 18 kB | 88 kB | 12/66 kB 
+Progress (3): 18 kB | 88 kB | 16/66 kB
+Progress (3): 18 kB | 88 kB | 20/66 kB
+Progress (3): 18 kB | 88 kB | 24/66 kB
+Progress (3): 18 kB | 88 kB | 28/66 kB
+Progress (3): 18 kB | 88 kB | 32/66 kB
+Progress (3): 18 kB | 88 kB | 36/66 kB
+Progress (3): 18 kB | 88 kB | 40/66 kB
+Progress (3): 18 kB | 88 kB | 44/66 kB
+Progress (3): 18 kB | 88 kB | 49/66 kB
+Progress (3): 18 kB | 88 kB | 53/66 kB
+Progress (3): 18 kB | 88 kB | 57/66 kB
+Progress (3): 18 kB | 88 kB | 61/66 kB
+Progress (3): 18 kB | 88 kB | 65/66 kB
+Progress (3): 18 kB | 88 kB | 66 kB   
+Progress (4): 18 kB | 88 kB | 66 kB | 4.1/201 kB
+Progress (4): 18 kB | 88 kB | 66 kB | 8.2/201 kB
+Progress (4): 18 kB | 88 kB | 66 kB | 12/201 kB 
+Progress (4): 18 kB | 88 kB | 66 kB | 16/201 kB
+Progress (4): 18 kB | 88 kB | 66 kB | 20/201 kB
+Progress (4): 18 kB | 88 kB | 66 kB | 24/201 kB
+Progress (4): 18 kB | 88 kB | 66 kB | 28/201 kB
+Progress (4): 18 kB | 88 kB | 66 kB | 32/201 kB
+Progress (4): 18 kB | 88 kB | 66 kB | 36/201 kB
+Progress (4): 18 kB | 88 kB | 66 kB | 40/201 kB
+Progress (4): 18 kB | 88 kB | 66 kB | 44/201 kB
+Progress (4): 18 kB | 88 kB | 66 kB | 49/201 kB
+Progress (4): 18 kB | 88 kB | 66 kB | 53/201 kB
+Progress (4): 18 kB | 88 kB | 66 kB | 57/201 kB
+Progress (4): 18 kB | 88 kB | 66 kB | 61/201 kB
+Progress (4): 18 kB | 88 kB | 66 kB | 65/201 kB
+Progress (4): 18 kB | 88 kB | 66 kB | 69/201 kB
+Progress (4): 18 kB | 88 kB | 66 kB | 73/201 kB
+Progress (4): 18 kB | 88 kB | 66 kB | 77/201 kB
+Progress (4): 18 kB | 88 kB | 66 kB | 81/201 kB
+Progress (4): 18 kB | 88 kB | 66 kB | 85/201 kB
+Progress (4): 18 kB | 88 kB | 66 kB | 90/201 kB
+Progress (4): 18 kB | 88 kB | 66 kB | 94/201 kB
+Progress (4): 18 kB | 88 kB | 66 kB | 98/201 kB
+Progress (4): 18 kB | 88 kB | 66 kB | 102/201 kB
+Progress (4): 18 kB | 88 kB | 66 kB | 106/201 kB
+Progress (4): 18 kB | 88 kB | 66 kB | 110/201 kB
+Progress (4): 18 kB | 88 kB | 66 kB | 114/201 kB
+Progress (4): 18 kB | 88 kB | 66 kB | 118/201 kB
+Progress (4): 18 kB | 88 kB | 66 kB | 122/201 kB
+Progress (4): 18 kB | 88 kB | 66 kB | 126/201 kB
+Progress (4): 18 kB | 88 kB | 66 kB | 131/201 kB
+Progress (4): 18 kB | 88 kB | 66 kB | 135/201 kB
+Progress (4): 18 kB | 88 kB | 66 kB | 139/201 kB
+Progress (4): 18 kB | 88 kB | 66 kB | 143/201 kB
+Progress (4): 18 kB | 88 kB | 66 kB | 147/201 kB
+Progress (4): 18 kB | 88 kB | 66 kB | 151/201 kB
+Progress (4): 18 kB | 88 kB | 66 kB | 155/201 kB
+Progress (4): 18 kB | 88 kB | 66 kB | 159/201 kB
+Progress (4): 18 kB | 88 kB | 66 kB | 163/201 kB
+Progress (4): 18 kB | 88 kB | 66 kB | 167/201 kB
+Progress (4): 18 kB | 88 kB | 66 kB | 171/201 kB
+Progress (4): 18 kB | 88 kB | 66 kB | 176/201 kB
+Progress (4): 18 kB | 88 kB | 66 kB | 180/201 kB
+Progress (4): 18 kB | 88 kB | 66 kB | 184/201 kB
+Progress (4): 18 kB | 88 kB | 66 kB | 188/201 kB
+Progress (4): 18 kB | 88 kB | 66 kB | 192/201 kB
+Progress (4): 18 kB | 88 kB | 66 kB | 196/201 kB
+Progress (4): 18 kB | 88 kB | 66 kB | 200/201 kB
+Progress (4): 18 kB | 88 kB | 66 kB | 201 kB    
+                                            
+Downloaded from ossrh: https://oss.sonatype.org/content/repositories/releases/org/powermock/powermock-module-junit4-common/2.0.2/powermock-module-junit4-common-2.0.2.jar (18 kB at 5.7 kB/s)
+Progress (4): 88 kB | 66 kB | 201 kB | 4.1/22 kB
+Progress (4): 88 kB | 66 kB | 201 kB | 8.2/22 kB
+Progress (4): 88 kB | 66 kB | 201 kB | 12/22 kB 
+Progress (4): 88 kB | 66 kB | 201 kB | 16/22 kB
+Progress (4): 88 kB | 66 kB | 201 kB | 20/22 kB
+Progress (4): 88 kB | 66 kB | 201 kB | 22 kB   
+                                            
+Downloaded from ossrh: https://oss.sonatype.org/content/repositories/releases/org/powermock/powermock-api-mockito2/2.0.2/powermock-api-mockito2-2.0.2.jar (88 kB at 27 kB/s)
+Downloaded from ossrh: https://oss.sonatype.org/content/repositories/releases/org/powermock/powermock-reflect/2.0.2/powermock-reflect-2.0.2.jar (66 kB at 20 kB/s)
+Downloaded from ossrh: https://oss.sonatype.org/content/repositories/releases/org/powermock/powermock-core/2.0.2/powermock-core-2.0.2.jar (201 kB at 61 kB/s)
+Downloaded from ossrh: https://oss.sonatype.org/content/repositories/releases/org/powermock/powermock-api-support/2.0.2/powermock-api-support-2.0.2.jar (22 kB at 6.3 kB/s)
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ github-client ---
+[INFO] com.spotify:github-client:jar:0.1.26-SNAPSHOT
+[INFO] +- com.google.guava:guava:jar:29.0-jre:compile
+[INFO] |  +- com.google.guava:failureaccess:jar:1.0.1:compile
+[INFO] |  +- com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:compile
+[INFO] |  +- org.checkerframework:checker-qual:jar:2.11.1:compile
+[INFO] |  +- com.google.errorprone:error_prone_annotations:jar:2.3.4:compile
+[INFO] |  \- com.google.j2objc:j2objc-annotations:jar:1.3:compile
+[INFO] +- com.google.code.findbugs:jsr305:jar:3.0.2:compile
+[INFO] +- com.squareup.okhttp3:okhttp:jar:3.14.7:compile
+[INFO] |  \- com.squareup.okio:okio:jar:1.17.2:compile
+[INFO] +- org.slf4j:slf4j-api:jar:1.7.12:compile
+[INFO] +- javax.ws.rs:jsr311-api:jar:1.1.1:compile
+[INFO] +- com.fasterxml.jackson.core:jackson-annotations:jar:2.11.0:compile
+[INFO] +- com.fasterxml.jackson.core:jackson-databind:jar:2.11.0:compile
+[INFO] |  \- com.fasterxml.jackson.core:jackson-core:jar:2.11.0:compile
+[INFO] +- com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.8.9:compile
+[INFO] +- com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.8.9:compile
+[INFO] +- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.8.9:compile
+[INFO] +- io.jsonwebtoken:jjwt-api:jar:0.10.5:compile
+[INFO] +- io.opencensus:opencensus-api:jar:0.26.0:compile
+[INFO] |  \- io.grpc:grpc-context:jar:1.27.2:compile
+[INFO] +- io.jsonwebtoken:jjwt-impl:jar:0.10.5:runtime
+[INFO] +- io.jsonwebtoken:jjwt-jackson:jar:0.10.5:runtime
+[INFO] +- org.immutables:value:jar:2.8.3:provided
+[INFO] +- uk.co.datumedge:hamcrest-json:jar:0.2:test
+[INFO] |  \- org.skyscreamer:jsonassert:jar:1.1.1:test
+[INFO] |     +- org.json:json:jar:20090211:test
+[INFO] |     \- commons-collections:commons-collections:jar:3.0:test
+[INFO] +- org.hamcrest:hamcrest-core:jar:2.2:test
+[INFO] |  \- org.hamcrest:hamcrest:jar:2.2:test
+[INFO] +- junit:junit:jar:4.13.1:test
+[INFO] +- org.junit.jupiter:junit-jupiter-engine:jar:5.5.0:test
+[INFO] |  +- org.apiguardian:apiguardian-api:jar:1.1.0:test
+[INFO] |  +- org.junit.platform:junit-platform-engine:jar:1.5.0:test
+[INFO] |  |  +- org.opentest4j:opentest4j:jar:1.2.0:test
+[INFO] |  |  \- org.junit.platform:junit-platform-commons:jar:1.5.0:test
+[INFO] |  \- org.junit.jupiter:junit-jupiter-api:jar:5.5.0:test
+[INFO] +- org.mockito:mockito-core:jar:3.2.4:test
+[INFO] |  +- net.bytebuddy:byte-buddy:jar:1.10.5:test
+[INFO] |  +- net.bytebuddy:byte-buddy-agent:jar:1.10.5:test
+[INFO] |  \- org.objenesis:objenesis:jar:3.0.1:test
+[INFO] +- io.opencensus:opencensus-testing:jar:0.26.0:test
+[INFO] +- io.opencensus:opencensus-impl:jar:0.26.0:test
+[INFO] |  +- io.opencensus:opencensus-impl-core:jar:0.26.0:test
+[INFO] |  \- com.lmax:disruptor:jar:3.4.2:test
+[INFO] +- com.squareup.okhttp3:mockwebserver:jar:3.14.7:test
+[INFO] +- org.powermock:powermock-module-junit4:jar:2.0.2:test
+[INFO] |  \- org.powermock:powermock-module-junit4-common:jar:2.0.2:test
+[INFO] |     +- org.powermock:powermock-reflect:jar:2.0.2:test
+[INFO] |     \- org.powermock:powermock-core:jar:2.0.2:test
+[INFO] |        \- org.javassist:javassist:jar:3.24.0-GA:test
+[INFO] +- org.powermock:powermock-api-mockito2:jar:2.0.2:test
+[INFO] |  \- org.powermock:powermock-api-support:jar:2.0.2:test
+[INFO] \- commons-io:commons-io:jar:2.7:compile
 [INFO] ------------------------------------------------------------------------
-[INFO] BUILD FAILURE
+[INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  2.208 s
-[INFO] Finished at: 2023-09-21T15:28:10Z
+[INFO] Total time:  23.159 s
+[INFO] Finished at: 2023-09-25T20:27:40Z
 [INFO] ------------------------------------------------------------------------
-[ERROR] java.io.IOException: There is not enough space on the disk
-[ERROR] 
-[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
-[ERROR] Re-run Maven using the -X switch to enable full debug logging.

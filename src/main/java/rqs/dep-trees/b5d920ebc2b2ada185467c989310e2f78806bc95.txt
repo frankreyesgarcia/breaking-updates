@@ -1,143 +1,167 @@
 [INFO] Scanning for projects...
-[INFO] Artifact com.google.cloud:google-cloud-shared-config:pom:1.5.5 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases)]
-[INFO] Artifact com.google.cloud:google-cloud-shared-config:pom:1.5.5 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases)]
-Downloading from central: https://repo.maven.apache.org/maven2/com/google/cloud/google-cloud-shared-config/1.5.5/google-cloud-shared-config-1.5.5.pom
-Downloaded from central: https://repo.maven.apache.org/maven2/com/google/cloud/google-cloud-shared-config/1.5.5/google-cloud-shared-config-1.5.5.pom (0 B at 0 B/s)
 Downloading from central: https://repo.maven.apache.org/maven2/com/google/cloud/google-cloud-spanner-bom/6.38.2/google-cloud-spanner-bom-6.38.2.pom
-[WARNING] Failed to create tracking file parent 'C:\Users\frank_bump\.m2\repository\com\google\cloud\google-cloud-spanner-bom\6.38.2\google-cloud-spanner-bom-6.38.2.pom.lastUpdated'
-java.nio.file.FileSystemException: C:\Users\frank_bump\.m2\repository\com\google\cloud\google-cloud-spanner-bom\6.38.2: There is not enough space on the disk
-    at sun.nio.fs.WindowsException.translateToIOException (WindowsException.java:92)
-    at sun.nio.fs.WindowsException.rethrowAsIOException (WindowsException.java:103)
-    at sun.nio.fs.WindowsException.rethrowAsIOException (WindowsException.java:108)
-    at sun.nio.fs.WindowsFileSystemProvider.createDirectory (WindowsFileSystemProvider.java:521)
-    at java.nio.file.Files.createDirectory (Files.java:700)
-    at java.nio.file.Files.createAndCheckIsDirectory (Files.java:807)
-    at java.nio.file.Files.createDirectories (Files.java:793)
-    at org.eclipse.aether.internal.impl.DefaultTrackingFileManager.update (DefaultTrackingFileManager.java:77)
-    at org.eclipse.aether.internal.impl.DefaultUpdateCheckManager.write (DefaultUpdateCheckManager.java:527)
-    at org.eclipse.aether.internal.impl.DefaultUpdateCheckManager.touchArtifact (DefaultUpdateCheckManager.java:474)
-    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.evaluateDownloads (DefaultArtifactResolver.java:635)
-    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads (DefaultArtifactResolver.java:544)
-    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve (DefaultArtifactResolver.java:448)
-    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts (DefaultArtifactResolver.java:260)
-    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact (DefaultArtifactResolver.java:242)
-    at org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveArtifact (DefaultRepositorySystem.java:277)
-    at org.apache.maven.project.ProjectModelResolver.resolveModel (ProjectModelResolver.java:172)
-    at org.apache.maven.model.building.DefaultModelBuilder.importDependencyManagement (DefaultModelBuilder.java:1178)
-    at org.apache.maven.model.building.DefaultModelBuilder.build (DefaultModelBuilder.java:486)
-    at org.apache.maven.model.building.DefaultModelBuilder.build (DefaultModelBuilder.java:455)
-    at org.apache.maven.project.DefaultProjectBuilder.build (DefaultProjectBuilder.java:612)
-    at org.apache.maven.project.DefaultProjectBuilder.build (DefaultProjectBuilder.java:375)
-    at org.apache.maven.graph.DefaultGraphBuilder.collectProjects (DefaultGraphBuilder.java:349)
-    at org.apache.maven.graph.DefaultGraphBuilder.getProjectsForMavenReactor (DefaultGraphBuilder.java:340)
-    at org.apache.maven.graph.DefaultGraphBuilder.build (DefaultGraphBuilder.java:76)
-    at org.apache.maven.DefaultMaven.buildGraph (DefaultMaven.java:448)
-    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:197)
-    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:173)
-    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:101)
-    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:906)
-    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:283)
-    at org.apache.maven.cli.MavenCli.main (MavenCli.java:206)
-    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
-    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:77)
-    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
-    at java.lang.reflect.Method.invoke (Method.java:568)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:283)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:226)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:407)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:348)
-[ERROR] Internal error: java.io.UncheckedIOException: java.nio.file.FileSystemException: C:\Users\frank_bump\.m2\repository\com\google\cloud\google-cloud-spanner-bom\6.38.2: There is not enough space on the disk -> [Help 1]
-org.apache.maven.InternalErrorException: Internal error: java.io.UncheckedIOException: java.nio.file.FileSystemException: C:\Users\frank_bump\.m2\repository\com\google\cloud\google-cloud-spanner-bom\6.38.2: There is not enough space on the disk
-    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:109)
-    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:906)
-    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:283)
-    at org.apache.maven.cli.MavenCli.main (MavenCli.java:206)
-    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
-    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:77)
-    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
-    at java.lang.reflect.Method.invoke (Method.java:568)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:283)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:226)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:407)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:348)
-Caused by: java.io.UncheckedIOException: java.nio.file.FileSystemException: C:\Users\frank_bump\.m2\repository\com\google\cloud\google-cloud-spanner-bom\6.38.2: There is not enough space on the disk
-    at org.eclipse.aether.internal.impl.DefaultTrackingFileManager.update (DefaultTrackingFileManager.java:80)
-    at org.eclipse.aether.internal.impl.DefaultUpdateCheckManager.write (DefaultUpdateCheckManager.java:527)
-    at org.eclipse.aether.internal.impl.DefaultUpdateCheckManager.touchArtifact (DefaultUpdateCheckManager.java:474)
-    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.evaluateDownloads (DefaultArtifactResolver.java:635)
-    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads (DefaultArtifactResolver.java:544)
-    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve (DefaultArtifactResolver.java:448)
-    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts (DefaultArtifactResolver.java:260)
-    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact (DefaultArtifactResolver.java:242)
-    at org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveArtifact (DefaultRepositorySystem.java:277)
-    at org.apache.maven.project.ProjectModelResolver.resolveModel (ProjectModelResolver.java:172)
-    at org.apache.maven.model.building.DefaultModelBuilder.importDependencyManagement (DefaultModelBuilder.java:1178)
-    at org.apache.maven.model.building.DefaultModelBuilder.build (DefaultModelBuilder.java:486)
-    at org.apache.maven.model.building.DefaultModelBuilder.build (DefaultModelBuilder.java:455)
-    at org.apache.maven.project.DefaultProjectBuilder.build (DefaultProjectBuilder.java:612)
-    at org.apache.maven.project.DefaultProjectBuilder.build (DefaultProjectBuilder.java:375)
-    at org.apache.maven.graph.DefaultGraphBuilder.collectProjects (DefaultGraphBuilder.java:349)
-    at org.apache.maven.graph.DefaultGraphBuilder.getProjectsForMavenReactor (DefaultGraphBuilder.java:340)
-    at org.apache.maven.graph.DefaultGraphBuilder.build (DefaultGraphBuilder.java:76)
-    at org.apache.maven.DefaultMaven.buildGraph (DefaultMaven.java:448)
-    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:197)
-    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:173)
-    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:101)
-    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:906)
-    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:283)
-    at org.apache.maven.cli.MavenCli.main (MavenCli.java:206)
-    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
-    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:77)
-    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
-    at java.lang.reflect.Method.invoke (Method.java:568)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:283)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:226)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:407)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:348)
-Caused by: java.nio.file.FileSystemException: C:\Users\frank_bump\.m2\repository\com\google\cloud\google-cloud-spanner-bom\6.38.2: There is not enough space on the disk
-    at sun.nio.fs.WindowsException.translateToIOException (WindowsException.java:92)
-    at sun.nio.fs.WindowsException.rethrowAsIOException (WindowsException.java:103)
-    at sun.nio.fs.WindowsException.rethrowAsIOException (WindowsException.java:108)
-    at sun.nio.fs.WindowsFileSystemProvider.createDirectory (WindowsFileSystemProvider.java:521)
-    at java.nio.file.Files.createDirectory (Files.java:700)
-    at java.nio.file.Files.createAndCheckIsDirectory (Files.java:807)
-    at java.nio.file.Files.createDirectories (Files.java:793)
-    at org.eclipse.aether.internal.impl.DefaultTrackingFileManager.update (DefaultTrackingFileManager.java:77)
-    at org.eclipse.aether.internal.impl.DefaultUpdateCheckManager.write (DefaultUpdateCheckManager.java:527)
-    at org.eclipse.aether.internal.impl.DefaultUpdateCheckManager.touchArtifact (DefaultUpdateCheckManager.java:474)
-    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.evaluateDownloads (DefaultArtifactResolver.java:635)
-    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads (DefaultArtifactResolver.java:544)
-    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve (DefaultArtifactResolver.java:448)
-    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts (DefaultArtifactResolver.java:260)
-    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact (DefaultArtifactResolver.java:242)
-    at org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveArtifact (DefaultRepositorySystem.java:277)
-    at org.apache.maven.project.ProjectModelResolver.resolveModel (ProjectModelResolver.java:172)
-    at org.apache.maven.model.building.DefaultModelBuilder.importDependencyManagement (DefaultModelBuilder.java:1178)
-    at org.apache.maven.model.building.DefaultModelBuilder.build (DefaultModelBuilder.java:486)
-    at org.apache.maven.model.building.DefaultModelBuilder.build (DefaultModelBuilder.java:455)
-    at org.apache.maven.project.DefaultProjectBuilder.build (DefaultProjectBuilder.java:612)
-    at org.apache.maven.project.DefaultProjectBuilder.build (DefaultProjectBuilder.java:375)
-    at org.apache.maven.graph.DefaultGraphBuilder.collectProjects (DefaultGraphBuilder.java:349)
-    at org.apache.maven.graph.DefaultGraphBuilder.getProjectsForMavenReactor (DefaultGraphBuilder.java:340)
-    at org.apache.maven.graph.DefaultGraphBuilder.build (DefaultGraphBuilder.java:76)
-    at org.apache.maven.DefaultMaven.buildGraph (DefaultMaven.java:448)
-    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:197)
-    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:173)
-    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:101)
-    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:906)
-    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:283)
-    at org.apache.maven.cli.MavenCli.main (MavenCli.java:206)
-    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
-    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:77)
-    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
-    at java.lang.reflect.Method.invoke (Method.java:568)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:283)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:226)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:407)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:348)
-[ERROR] 
-[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
-[ERROR] Re-run Maven using the -X switch to enable full debug logging.
-[ERROR] 
-[ERROR] For more information about the errors and possible solutions, please read the following articles:
-[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/InternalErrorException
+Progress (1): 2.7/4.9 kB
+Progress (1): 4.9 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/cloud/google-cloud-spanner-bom/6.38.2/google-cloud-spanner-bom-6.38.2.pom (4.9 kB at 23 kB/s)
+[INFO] Inspecting build with total of 1 modules...
+[INFO] Installing Nexus Staging features:
+[INFO]   ... total of 1 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[INFO] 
+[INFO] -------------< com.google.cloud:google-cloud-spanner-jdbc >-------------
+[INFO] Building Google Cloud Spanner JDBC 2.9.12-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/cloud/google-cloud-spanner/6.38.2/google-cloud-spanner-6.38.2.pom
+Progress (1): 2.7/52 kB
+Progress (1): 5.5/52 kB
+Progress (1): 8.2/52 kB
+Progress (1): 11/52 kB 
+Progress (1): 14/52 kB
+Progress (1): 16/52 kB
+Progress (1): 19/52 kB
+Progress (1): 22/52 kB
+Progress (1): 25/52 kB
+Progress (1): 27/52 kB
+Progress (1): 30/52 kB
+Progress (1): 33/52 kB
+Progress (1): 36/52 kB
+Progress (1): 38/52 kB
+Progress (1): 41/52 kB
+Progress (1): 44/52 kB
+Progress (1): 47/52 kB
+Progress (1): 49/52 kB
+Progress (1): 52/52 kB
+Progress (1): 52 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/cloud/google-cloud-spanner/6.38.2/google-cloud-spanner-6.38.2.pom (52 kB at 238 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/cloud/grpc-gcp/1.4.1/grpc-gcp-1.4.1.pom
+Progress (1): 2.5 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/cloud/grpc-gcp/1.4.1/grpc-gcp-1.4.1.pom (2.5 kB at 230 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/api/grpc/grpc-google-common-protos/2.15.0/grpc-google-common-protos-2.15.0.pom
+Progress (1): 4.1/9.8 kB
+Progress (1): 8.2/9.8 kB
+Progress (1): 9.8 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/api/grpc/grpc-google-common-protos/2.15.0/grpc-google-common-protos-2.15.0.pom (9.8 kB at 46 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/api/grpc/proto-google-cloud-spanner-admin-instance-v1/6.38.2/proto-google-cloud-spanner-admin-instance-v1-6.38.2.pom
+Progress (1): 4.1/7.6 kB
+Progress (1): 7.6 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/api/grpc/proto-google-cloud-spanner-admin-instance-v1/6.38.2/proto-google-cloud-spanner-admin-instance-v1-6.38.2.pom (7.6 kB at 39 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/api/grpc/proto-google-cloud-spanner-v1/6.38.2/proto-google-cloud-spanner-v1-6.38.2.pom
+Progress (1): 4.1/7.0 kB
+Progress (1): 7.0 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/api/grpc/proto-google-cloud-spanner-v1/6.38.2/proto-google-cloud-spanner-v1-6.38.2.pom (7.0 kB at 36 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/api/grpc/proto-google-cloud-spanner-admin-database-v1/6.38.2/proto-google-cloud-spanner-admin-database-v1-6.38.2.pom
+Progress (1): 4.1/7.6 kB
+Progress (1): 7.6 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/api/grpc/proto-google-cloud-spanner-admin-database-v1/6.38.2/proto-google-cloud-spanner-admin-database-v1-6.38.2.pom (7.6 kB at 39 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/api/grpc/grpc-google-cloud-spanner-admin-instance-v1/6.38.2/grpc-google-cloud-spanner-admin-instance-v1-6.38.2.pom
+Progress (1): 4.1/13 kB
+Progress (1): 8.2/13 kB
+Progress (1): 12/13 kB 
+Progress (1): 13 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/api/grpc/grpc-google-cloud-spanner-admin-instance-v1/6.38.2/grpc-google-cloud-spanner-admin-instance-v1-6.38.2.pom (13 kB at 63 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/api/grpc/grpc-google-cloud-spanner-v1/6.38.2/grpc-google-cloud-spanner-v1-6.38.2.pom
+Progress (1): 4.1/12 kB
+Progress (1): 8.2/12 kB
+Progress (1): 12 kB    
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/api/grpc/grpc-google-cloud-spanner-v1/6.38.2/grpc-google-cloud-spanner-v1-6.38.2.pom (12 kB at 58 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/api/grpc/grpc-google-cloud-spanner-admin-database-v1/6.38.2/grpc-google-cloud-spanner-admin-database-v1-6.38.2.pom
+Progress (1): 4.1/13 kB
+Progress (1): 8.2/13 kB
+Progress (1): 12/13 kB 
+Progress (1): 13 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/api/grpc/grpc-google-cloud-spanner-admin-database-v1/6.38.2/grpc-google-cloud-spanner-admin-database-v1-6.38.2.pom (13 kB at 64 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-rls/1.54.0/grpc-rls-1.54.0.pom
+Progress (1): 2.2 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-rls/1.54.0/grpc-rls-1.54.0.pom (2.2 kB at 154 kB/s)
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.3.0:tree (default-cli) @ google-cloud-spanner-jdbc ---
+[INFO] com.google.cloud:google-cloud-spanner-jdbc:jar:2.9.12-SNAPSHOT
+[INFO] +- com.google.http-client:google-http-client:jar:1.43.1:compile
+[INFO] |  +- org.apache.httpcomponents:httpclient:jar:4.5.14:compile
+[INFO] |  +- org.apache.httpcomponents:httpcore:jar:4.4.16:compile
+[INFO] |  +- com.google.errorprone:error_prone_annotations:jar:2.18.0:compile
+[INFO] |  +- com.google.j2objc:j2objc-annotations:jar:1.3:compile
+[INFO] |  +- io.opencensus:opencensus-api:jar:0.31.1:compile
+[INFO] |  \- io.opencensus:opencensus-contrib-http-util:jar:0.31.1:compile
+[INFO] +- io.grpc:grpc-api:jar:1.54.0:compile
+[INFO] |  \- io.grpc:grpc-context:jar:1.54.0:compile
+[INFO] +- com.google.cloud:google-cloud-core-grpc:jar:2.14.0:compile
+[INFO] |  \- com.google.api:gax-grpc:jar:2.24.0:compile
+[INFO] +- com.google.api.grpc:proto-google-common-protos:jar:2.15.0:compile
+[INFO] +- com.google.api:gax:jar:2.24.0:runtime
+[INFO] |  \- org.threeten:threetenbp:jar:1.6.7:compile
+[INFO] +- com.google.cloud:google-cloud-spanner:jar:6.38.2:compile
+[INFO] |  +- com.google.cloud:grpc-gcp:jar:1.4.1:compile
+[INFO] |  +- io.grpc:grpc-auth:jar:1.54.0:compile
+[INFO] |  +- io.grpc:grpc-core:jar:1.54.0:compile
+[INFO] |  +- com.google.android:annotations:jar:4.1.1.4:runtime
+[INFO] |  +- org.codehaus.mojo:animal-sniffer-annotations:jar:1.23:runtime
+[INFO] |  +- io.perfmark:perfmark-api:jar:0.26.0:runtime
+[INFO] |  +- io.grpc:grpc-protobuf:jar:1.54.0:compile
+[INFO] |  +- io.grpc:grpc-protobuf-lite:jar:1.54.0:compile
+[INFO] |  +- io.grpc:grpc-stub:jar:1.54.0:compile
+[INFO] |  +- com.google.auto.value:auto-value-annotations:jar:1.10.1:compile
+[INFO] |  +- com.google.auto.value:auto-value:jar:1.10.1:compile
+[INFO] |  +- com.google.protobuf:protobuf-java-util:jar:3.21.12:compile
+[INFO] |  +- com.google.api.grpc:grpc-google-common-protos:jar:2.15.0:compile
+[INFO] |  +- com.google.guava:failureaccess:jar:1.0.1:compile
+[INFO] |  +- com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:compile
+[INFO] |  +- org.checkerframework:checker-qual:jar:3.32.0:compile
+[INFO] |  +- com.google.api.grpc:proto-google-iam-v1:jar:1.10.0:compile
+[INFO] |  +- com.google.http-client:google-http-client-gson:jar:1.43.1:compile
+[INFO] |  +- io.opencensus:opencensus-contrib-grpc-util:jar:0.31.1:compile
+[INFO] |  +- commons-logging:commons-logging:jar:1.2:compile
+[INFO] |  +- commons-codec:commons-codec:jar:1.15:compile
+[INFO] |  +- com.google.api.grpc:proto-google-cloud-spanner-admin-instance-v1:jar:6.38.2:compile
+[INFO] |  +- com.google.api.grpc:proto-google-cloud-spanner-admin-database-v1:jar:6.38.2:compile
+[INFO] |  +- com.google.api.grpc:grpc-google-cloud-spanner-admin-instance-v1:jar:6.38.2:compile
+[INFO] |  +- com.google.api.grpc:grpc-google-cloud-spanner-v1:jar:6.38.2:compile
+[INFO] |  +- com.google.api.grpc:grpc-google-cloud-spanner-admin-database-v1:jar:6.38.2:compile
+[INFO] |  +- com.google.api:gax-httpjson:jar:0.109.0:compile
+[INFO] |  +- com.google.code.gson:gson:jar:2.10.1:compile
+[INFO] |  +- org.conscrypt:conscrypt-openjdk-uber:jar:2.5.2:compile
+[INFO] |  +- io.grpc:grpc-grpclb:jar:1.54.0:compile
+[INFO] |  +- io.grpc:grpc-googleapis:jar:1.54.0:runtime
+[INFO] |  +- io.grpc:grpc-xds:jar:1.54.0:runtime
+[INFO] |  +- io.opencensus:opencensus-proto:jar:0.2.0:runtime
+[INFO] |  +- io.grpc:grpc-services:jar:1.54.0:runtime
+[INFO] |  +- com.google.re2j:re2j:jar:1.6:runtime
+[INFO] |  +- io.grpc:grpc-rls:jar:1.54.0:runtime
+[INFO] |  \- javax.annotation:javax.annotation-api:jar:1.3.2:compile
+[INFO] +- io.grpc:grpc-alts:jar:1.54.0:compile
+[INFO] +- com.google.protobuf:protobuf-java:jar:3.21.12:compile
+[INFO] +- com.google.guava:guava:jar:31.1-jre:compile
+[INFO] +- io.grpc:grpc-netty-shaded:jar:1.54.0:compile
+[INFO] +- com.google.api:api-common:jar:2.7.0:compile
+[INFO] +- com.google.code.findbugs:jsr305:jar:3.0.2:compile
+[INFO] +- com.google.auth:google-auth-library-oauth2-http:jar:1.16.0:compile
+[INFO] +- com.google.auth:google-auth-library-credentials:jar:1.16.0:compile
+[INFO] +- com.google.cloud:google-cloud-core:jar:2.14.0:compile
+[INFO] +- com.google.api.grpc:proto-google-cloud-spanner-v1:jar:6.38.2:compile
+[INFO] +- com.google.cloud:google-cloud-spanner:test-jar:tests:6.38.2:test
+[INFO] +- com.google.truth:truth:jar:1.1.3:test
+[INFO] |  \- org.ow2.asm:asm:jar:9.1:test
+[INFO] +- org.hamcrest:hamcrest:jar:2.2:test
+[INFO] +- org.mockito:mockito-core:jar:4.11.0:test
+[INFO] |  +- net.bytebuddy:byte-buddy:jar:1.12.19:test
+[INFO] |  +- net.bytebuddy:byte-buddy-agent:jar:1.12.19:test
+[INFO] |  \- org.objenesis:objenesis:jar:3.3:test
+[INFO] +- junit:junit:jar:4.13.2:test
+[INFO] |  \- org.hamcrest:hamcrest-core:jar:1.3:test
+[INFO] \- com.google.api:gax-grpc:jar:testlib:2.24.0:test
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.270 s
+[INFO] Finished at: 2023-09-25T22:06:56Z
+[INFO] ------------------------------------------------------------------------

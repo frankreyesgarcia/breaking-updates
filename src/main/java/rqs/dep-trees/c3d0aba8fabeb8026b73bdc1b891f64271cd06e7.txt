@@ -1,0 +1,112 @@
+[INFO] Scanning for projects...
+[INFO] Inspecting build with total of 1 modules...
+[INFO] Installing Nexus Staging features:
+[INFO]   ... total of 1 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[INFO] 
+[INFO] --------------< org.simplify4u.plugins:sign-maven-plugin >--------------
+[INFO] Building Sign Maven Plugin 1.0.2-SNAPSHOT
+[INFO] ----------------------------[ maven-plugin ]----------------------------
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-annotations/3.7.0/maven-plugin-annotations-3.7.0.pom
+Progress (1): 1.4 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-annotations/3.7.0/maven-plugin-annotations-3.7.0.pom (1.4 kB at 7.0 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-core/3.6.0/maven-core-3.6.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-core/3.6.0/maven-core-3.6.0.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/3.6.0/maven-settings-3.6.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/3.6.0/maven-settings-3.6.0.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings-builder/3.6.0/maven-settings-builder-3.6.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings-builder/3.6.0/maven-settings-builder-3.6.0.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-builder-support/3.6.0/maven-builder-support-3.6.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-builder-support/3.6.0/maven-builder-support-3.6.0.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/3.6.0/maven-repository-metadata-3.6.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/3.6.0/maven-repository-metadata-3.6.0.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/3.6.0/maven-artifact-3.6.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/3.6.0/maven-artifact-3.6.0.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/3.6.0/maven-plugin-api-3.6.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/3.6.0/maven-plugin-api-3.6.0.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model-builder/3.6.0/maven-model-builder-3.6.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model-builder/3.6.0/maven-model-builder-3.6.0.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-resolver-provider/3.6.0/maven-resolver-provider-3.6.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-resolver-provider/3.6.0/maven-resolver-provider-3.6.0.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-api/1.3.1/maven-resolver-api-1.3.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-api/1.3.1/maven-resolver-api-1.3.1.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver/1.3.1/maven-resolver-1.3.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver/1.3.1/maven-resolver-1.3.1.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-spi/1.3.1/maven-resolver-spi-1.3.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-spi/1.3.1/maven-resolver-spi-1.3.1.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-util/1.3.1/maven-resolver-util-1.3.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-util/1.3.1/maven-resolver-util-1.3.1.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-impl/1.3.1/maven-resolver-impl-1.3.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-impl/1.3.1/maven-resolver-impl-1.3.1.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/bouncycastle/bcpg-jdk15on/1.70/bcpg-jdk15on-1.70.pom
+Progress (1): 1.6 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/bouncycastle/bcpg-jdk15on/1.70/bcpg-jdk15on-1.70.pom (1.6 kB at 158 kB/s)
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.4.0:tree (default-cli) @ sign-maven-plugin ---
+[INFO] org.simplify4u.plugins:sign-maven-plugin:maven-plugin:1.0.2-SNAPSHOT
+[INFO] +- org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.7.0:provided
+[INFO] +- org.apache.maven:maven-core:jar:3.6.0:provided
+[INFO] |  +- org.apache.maven:maven-model:jar:3.6.0:provided
+[INFO] |  +- org.apache.maven:maven-settings:jar:3.6.0:provided
+[INFO] |  +- org.apache.maven:maven-settings-builder:jar:3.6.0:provided
+[INFO] |  |  \- org.codehaus.plexus:plexus-interpolation:jar:1.25:provided
+[INFO] |  +- org.apache.maven:maven-builder-support:jar:3.6.0:provided
+[INFO] |  +- org.apache.maven:maven-repository-metadata:jar:3.6.0:provided
+[INFO] |  +- org.apache.maven:maven-artifact:jar:3.6.0:provided
+[INFO] |  +- org.apache.maven:maven-model-builder:jar:3.6.0:provided
+[INFO] |  +- org.apache.maven:maven-resolver-provider:jar:3.6.0:provided
+[INFO] |  +- org.apache.maven.resolver:maven-resolver-impl:jar:1.3.1:provided
+[INFO] |  +- org.apache.maven.resolver:maven-resolver-api:jar:1.3.1:provided
+[INFO] |  +- org.apache.maven.resolver:maven-resolver-spi:jar:1.3.1:provided
+[INFO] |  +- org.apache.maven.resolver:maven-resolver-util:jar:1.3.1:provided
+[INFO] |  +- org.apache.maven.shared:maven-shared-utils:jar:3.2.1:provided
+[INFO] |  |  \- commons-io:commons-io:jar:2.5:provided
+[INFO] |  +- org.eclipse.sisu:org.eclipse.sisu.plexus:jar:0.3.3:provided
+[INFO] |  |  \- javax.enterprise:cdi-api:jar:1.0:provided
+[INFO] |  |     \- javax.annotation:jsr250-api:jar:1.0:provided
+[INFO] |  +- org.eclipse.sisu:org.eclipse.sisu.inject:jar:0.3.5:provided
+[INFO] |  +- com.google.inject:guice:jar:no_aop:4.2.1:provided
+[INFO] |  |  +- aopalliance:aopalliance:jar:1.0:provided
+[INFO] |  |  \- com.google.guava:guava:jar:25.1-android:provided
+[INFO] |  |     +- com.google.code.findbugs:jsr305:jar:3.0.2:provided
+[INFO] |  |     +- org.checkerframework:checker-compat-qual:jar:2.0.0:provided
+[INFO] |  |     +- com.google.errorprone:error_prone_annotations:jar:2.1.3:provided
+[INFO] |  |     +- com.google.j2objc:j2objc-annotations:jar:1.1:provided
+[INFO] |  |     \- org.codehaus.mojo:animal-sniffer-annotations:jar:1.14:provided
+[INFO] |  +- org.codehaus.plexus:plexus-utils:jar:3.5.0:compile
+[INFO] |  +- org.codehaus.plexus:plexus-classworlds:jar:2.5.2:provided
+[INFO] |  +- org.codehaus.plexus:plexus-component-annotations:jar:2.1.1:provided
+[INFO] |  \- org.apache.commons:commons-lang3:jar:3.8.1:provided
+[INFO] +- org.apache.maven:maven-plugin-api:jar:3.6.0:provided
+[INFO] +- org.codehaus.plexus:plexus-sec-dispatcher:jar:2.0:compile
+[INFO] |  \- org.codehaus.plexus:plexus-cipher:jar:2.0:compile
+[INFO] +- javax.inject:javax.inject:jar:1:provided
+[INFO] +- org.bouncycastle:bcpg-jdk15on:jar:1.70:compile
+[INFO] |  \- org.bouncycastle:bcprov-jdk15on:jar:1.70:compile
+[INFO] +- org.projectlombok:lombok:jar:1.18.26:provided
+[INFO] +- io.vavr:vavr:jar:0.10.4:compile
+[INFO] |  \- io.vavr:vavr-match:jar:0.10.4:compile
+[INFO] +- org.slf4j:slf4j-api:jar:1.7.36:compile
+[INFO] +- org.assertj:assertj-core:jar:3.24.2:test
+[INFO] |  \- net.bytebuddy:byte-buddy:jar:1.12.21:test
+[INFO] +- org.junit.jupiter:junit-jupiter:jar:5.9.2:test
+[INFO] |  +- org.junit.jupiter:junit-jupiter-api:jar:5.9.2:test
+[INFO] |  |  +- org.opentest4j:opentest4j:jar:1.2.0:test
+[INFO] |  |  +- org.junit.platform:junit-platform-commons:jar:1.9.2:test
+[INFO] |  |  \- org.apiguardian:apiguardian-api:jar:1.1.2:test
+[INFO] |  +- org.junit.jupiter:junit-jupiter-params:jar:5.9.2:test
+[INFO] |  \- org.junit.jupiter:junit-jupiter-engine:jar:5.9.2:test
+[INFO] |     \- org.junit.platform:junit-platform-engine:jar:1.9.2:test
+[INFO] +- org.mockito:mockito-junit-jupiter:jar:4.11.0:test
+[INFO] |  \- org.mockito:mockito-core:jar:4.11.0:test
+[INFO] |     +- net.bytebuddy:byte-buddy-agent:jar:1.12.19:test
+[INFO] |     \- org.objenesis:objenesis:jar:3.3:test
+[INFO] \- org.simplify4u:slf4j-mock:jar:2.3.0:test
+[INFO]    \- org.simplify4u:slf4j-mock-common:jar:2.3.0:test
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.650 s
+[INFO] Finished at: 2023-09-25T22:10:45Z
+[INFO] ------------------------------------------------------------------------

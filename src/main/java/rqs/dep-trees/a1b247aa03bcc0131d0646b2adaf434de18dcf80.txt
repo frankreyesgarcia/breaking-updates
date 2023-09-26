@@ -1,267 +1,215 @@
 [INFO] Scanning for projects...
-[INFO] Artifact org.apache.maven.plugins:maven-compiler-plugin:pom:3.10.0 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases)]
-[INFO] Artifact org.apache.maven.plugins:maven-compiler-plugin:pom:3.10.0 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases)]
 Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.10.0/maven-compiler-plugin-3.10.0.pom
-Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.10.0/maven-compiler-plugin-3.10.0.pom (0 B at 0 B/s)
-[INFO] Artifact org.apache.maven.plugins:maven-compiler-plugin:jar:3.10.0 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases)]
-[INFO] Artifact org.apache.maven.plugins:maven-compiler-plugin:jar:3.10.0 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases)]
+Progress (1): 2.7/13 kB
+Progress (1): 5.5/13 kB
+Progress (1): 8.2/13 kB
+Progress (1): 11/13 kB 
+Progress (1): 13 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.10.0/maven-compiler-plugin-3.10.0.pom (13 kB at 76 kB/s)
 Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.10.0/maven-compiler-plugin-3.10.0.jar
-Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.10.0/maven-compiler-plugin-3.10.0.jar (0 B at 0 B/s)
-[WARNING] Failed to write tracking file 'C:\Users\frank_bump\.m2\repository\org\apache\maven\plugins\maven-compiler-plugin\3.10.0\_remote.repositories'
-java.io.IOException: There is not enough space on the disk
-    at java.io.RandomAccessFile.writeBytes (Native Method)
-    at java.io.RandomAccessFile.write (RandomAccessFile.java:545)
-    at org.eclipse.aether.internal.impl.DefaultTrackingFileManager.update (DefaultTrackingFileManager.java:107)
-    at org.eclipse.aether.internal.impl.EnhancedLocalRepositoryManager.addRepo (EnhancedLocalRepositoryManager.java:233)
-    at org.eclipse.aether.internal.impl.EnhancedLocalRepositoryManager.addArtifact (EnhancedLocalRepositoryManager.java:214)
-    at org.eclipse.aether.internal.impl.EnhancedLocalRepositoryManager.add (EnhancedLocalRepositoryManager.java:190)
-    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.evaluateDownloads (DefaultArtifactResolver.java:618)
-    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads (DefaultArtifactResolver.java:544)
-    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve (DefaultArtifactResolver.java:448)
-    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts (DefaultArtifactResolver.java:260)
-    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact (DefaultArtifactResolver.java:242)
-    at org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveArtifact (DefaultRepositorySystem.java:277)
-    at org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver.resolve (DefaultPluginDependenciesResolver.java:138)
-    at org.apache.maven.plugin.internal.DefaultMavenPluginManager.lambda$getPluginDescriptor$0 (DefaultMavenPluginManager.java:183)
-    at org.apache.maven.plugin.DefaultPluginDescriptorCache.lambda$get$0 (DefaultPluginDescriptorCache.java:72)
-    at java.util.concurrent.ConcurrentHashMap.computeIfAbsent (ConcurrentHashMap.java:1708)
-    at org.apache.maven.plugin.DefaultPluginDescriptorCache.get (DefaultPluginDescriptorCache.java:70)
-    at org.apache.maven.plugin.internal.DefaultMavenPluginManager.getPluginDescriptor (DefaultMavenPluginManager.java:181)
-    at org.apache.maven.plugin.DefaultBuildPluginManager.loadPlugin (DefaultBuildPluginManager.java:81)
-    at org.apache.maven.plugin.prefix.internal.DefaultPluginPrefixResolver.resolveFromProject (DefaultPluginPrefixResolver.java:126)
-    at org.apache.maven.plugin.prefix.internal.DefaultPluginPrefixResolver.resolveFromProject (DefaultPluginPrefixResolver.java:112)
-    at org.apache.maven.plugin.prefix.internal.DefaultPluginPrefixResolver.resolve (DefaultPluginPrefixResolver.java:80)
-    at org.apache.maven.lifecycle.internal.MojoDescriptorCreator.findPluginForPrefix (MojoDescriptorCreator.java:247)
-    at org.apache.maven.lifecycle.internal.MojoDescriptorCreator.getMojoDescriptor (MojoDescriptorCreator.java:209)
-    at org.apache.maven.lifecycle.internal.DefaultLifecycleTaskSegmentCalculator.calculateTaskSegments (DefaultLifecycleTaskSegmentCalculator.java:94)
-    at org.apache.maven.lifecycle.internal.DefaultLifecycleTaskSegmentCalculator.calculateTaskSegments (DefaultLifecycleTaskSegmentCalculator.java:76)
-    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:84)
-    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:261)
-    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:173)
-    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:101)
-    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:906)
-    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:283)
-    at org.apache.maven.cli.MavenCli.main (MavenCli.java:206)
-    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
-    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:77)
-    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
-    at java.lang.reflect.Method.invoke (Method.java:568)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:283)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:226)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:407)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:348)
-[WARNING] Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-compiler-plugin:3.10.0: java.io.IOException: There is not enough space on the disk
+Progress (1): 4.1/62 kB
+Progress (1): 8.2/62 kB
+Progress (1): 12/62 kB 
+Progress (1): 16/62 kB
+Progress (1): 20/62 kB
+Progress (1): 25/62 kB
+Progress (1): 29/62 kB
+Progress (1): 33/62 kB
+Progress (1): 37/62 kB
+Progress (1): 41/62 kB
+Progress (1): 45/62 kB
+Progress (1): 49/62 kB
+Progress (1): 53/62 kB
+Progress (1): 57/62 kB
+Progress (1): 61/62 kB
+Progress (1): 62 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.10.0/maven-compiler-plugin-3.10.0.jar (62 kB at 1.3 MB/s)
 Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-help-plugin/3.3.0/maven-help-plugin-3.3.0.pom
-[WARNING] Failed to write tracking file 'C:\Users\frank_bump\.m2\repository\org\apache\maven\plugins\maven-help-plugin\3.3.0\maven-help-plugin-3.3.0.pom.lastUpdated'
-java.io.IOException: There is not enough space on the disk
-    at java.io.RandomAccessFile.writeBytes (Native Method)
-    at java.io.RandomAccessFile.write (RandomAccessFile.java:545)
-    at org.eclipse.aether.internal.impl.DefaultTrackingFileManager.update (DefaultTrackingFileManager.java:107)
-    at org.eclipse.aether.internal.impl.DefaultUpdateCheckManager.write (DefaultUpdateCheckManager.java:527)
-    at org.eclipse.aether.internal.impl.DefaultUpdateCheckManager.touchArtifact (DefaultUpdateCheckManager.java:474)
-    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.evaluateDownloads (DefaultArtifactResolver.java:635)
-    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads (DefaultArtifactResolver.java:544)
-    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve (DefaultArtifactResolver.java:448)
-    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts (DefaultArtifactResolver.java:260)
-    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact (DefaultArtifactResolver.java:242)
-    at org.apache.maven.repository.internal.DefaultArtifactDescriptorReader.loadPom (DefaultArtifactDescriptorReader.java:231)
-    at org.apache.maven.repository.internal.DefaultArtifactDescriptorReader.readArtifactDescriptor (DefaultArtifactDescriptorReader.java:172)
-    at org.eclipse.aether.internal.impl.DefaultRepositorySystem.readArtifactDescriptor (DefaultRepositorySystem.java:268)
-    at org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver.resolve (DefaultPluginDependenciesResolver.java:107)
-    at org.apache.maven.plugin.internal.DefaultMavenPluginManager.lambda$getPluginDescriptor$0 (DefaultMavenPluginManager.java:183)
-    at org.apache.maven.plugin.DefaultPluginDescriptorCache.lambda$get$0 (DefaultPluginDescriptorCache.java:72)
-    at java.util.concurrent.ConcurrentHashMap.computeIfAbsent (ConcurrentHashMap.java:1708)
-    at org.apache.maven.plugin.DefaultPluginDescriptorCache.get (DefaultPluginDescriptorCache.java:70)
-    at org.apache.maven.plugin.internal.DefaultMavenPluginManager.getPluginDescriptor (DefaultMavenPluginManager.java:181)
-    at org.apache.maven.plugin.DefaultBuildPluginManager.loadPlugin (DefaultBuildPluginManager.java:81)
-    at org.apache.maven.plugin.prefix.internal.DefaultPluginPrefixResolver.resolveFromProject (DefaultPluginPrefixResolver.java:126)
-    at org.apache.maven.plugin.prefix.internal.DefaultPluginPrefixResolver.resolveFromProject (DefaultPluginPrefixResolver.java:112)
-    at org.apache.maven.plugin.prefix.internal.DefaultPluginPrefixResolver.resolve (DefaultPluginPrefixResolver.java:80)
-    at org.apache.maven.lifecycle.internal.MojoDescriptorCreator.findPluginForPrefix (MojoDescriptorCreator.java:247)
-    at org.apache.maven.lifecycle.internal.MojoDescriptorCreator.getMojoDescriptor (MojoDescriptorCreator.java:209)
-    at org.apache.maven.lifecycle.internal.DefaultLifecycleTaskSegmentCalculator.calculateTaskSegments (DefaultLifecycleTaskSegmentCalculator.java:94)
-    at org.apache.maven.lifecycle.internal.DefaultLifecycleTaskSegmentCalculator.calculateTaskSegments (DefaultLifecycleTaskSegmentCalculator.java:76)
-    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:84)
-    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:261)
-    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:173)
-    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:101)
-    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:906)
-    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:283)
-    at org.apache.maven.cli.MavenCli.main (MavenCli.java:206)
-    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
-    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:77)
-    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
-    at java.lang.reflect.Method.invoke (Method.java:568)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:283)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:226)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:407)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:348)
-[WARNING] Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-help-plugin:3.3.0: java.io.IOException: There is not enough space on the disk
+Progress (1): 4.1/11 kB
+Progress (1): 8.2/11 kB
+Progress (1): 11 kB    
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-help-plugin/3.3.0/maven-help-plugin-3.3.0.pom (11 kB at 748 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-help-plugin/3.3.0/maven-help-plugin-3.3.0.jar
+Progress (1): 4.1/84 kB
+Progress (1): 8.2/84 kB
+Progress (1): 12/84 kB 
+Progress (1): 16/84 kB
+Progress (1): 20/84 kB
+Progress (1): 25/84 kB
+Progress (1): 29/84 kB
+Progress (1): 33/84 kB
+Progress (1): 37/84 kB
+Progress (1): 41/84 kB
+Progress (1): 45/84 kB
+Progress (1): 49/84 kB
+Progress (1): 53/84 kB
+Progress (1): 57/84 kB
+Progress (1): 61/84 kB
+Progress (1): 66/84 kB
+Progress (1): 70/84 kB
+Progress (1): 74/84 kB
+Progress (1): 78/84 kB
+Progress (1): 82/84 kB
+Progress (1): 84 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-help-plugin/3.3.0/maven-help-plugin-3.3.0.jar (84 kB at 3.1 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/templating-maven-plugin/1.0.0/templating-maven-plugin-1.0.0.pom
+Progress (1): 4.1/7.7 kB
+Progress (1): 7.7 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/templating-maven-plugin/1.0.0/templating-maven-plugin-1.0.0.pom (7.7 kB at 348 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/templating-maven-plugin/1.0.0/templating-maven-plugin-1.0.0.jar
+Progress (1): 4.1/22 kB
+Progress (1): 8.2/22 kB
+Progress (1): 12/22 kB 
+Progress (1): 16/22 kB
+Progress (1): 20/22 kB
+Progress (1): 22 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/templating-maven-plugin/1.0.0/templating-maven-plugin-1.0.0.jar (22 kB at 1.5 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-assembly-plugin/3.4.2/maven-assembly-plugin-3.4.2.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-assembly-plugin/3.4.2/maven-assembly-plugin-3.4.2.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-assembly-plugin/3.4.2/maven-assembly-plugin-3.4.2.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-assembly-plugin/3.4.2/maven-assembly-plugin-3.4.2.jar (0 B at 0 B/s)
 [INFO] 
 [INFO] ---------------< edu.jiangxin.apktoolbox:ApkToolBoxGUI >----------------
 [INFO] Building ApkToolBoxGUI 1.0.1
-[INFO]   from pom.xml
 [INFO] --------------------------------[ jar ]---------------------------------
-[INFO] Artifact org.apache.maven.plugins:maven-compiler-plugin:jar:3.10.0 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases)]
-[INFO] Artifact org.apache.maven.plugins:maven-compiler-plugin:jar:3.10.0 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases)]
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.10.0/maven-compiler-plugin-3.10.0.jar
-Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.10.0/maven-compiler-plugin-3.10.0.jar (0 B at 0 B/s)
-[WARNING] Failed to write tracking file 'C:\Users\frank_bump\.m2\repository\org\apache\maven\plugins\maven-compiler-plugin\3.10.0\_remote.repositories'
-java.io.IOException: There is not enough space on the disk
-    at java.io.RandomAccessFile.writeBytes (Native Method)
-    at java.io.RandomAccessFile.write (RandomAccessFile.java:545)
-    at org.eclipse.aether.internal.impl.DefaultTrackingFileManager.update (DefaultTrackingFileManager.java:107)
-    at org.eclipse.aether.internal.impl.EnhancedLocalRepositoryManager.addRepo (EnhancedLocalRepositoryManager.java:233)
-    at org.eclipse.aether.internal.impl.EnhancedLocalRepositoryManager.addArtifact (EnhancedLocalRepositoryManager.java:214)
-    at org.eclipse.aether.internal.impl.EnhancedLocalRepositoryManager.add (EnhancedLocalRepositoryManager.java:190)
-    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.evaluateDownloads (DefaultArtifactResolver.java:618)
-    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads (DefaultArtifactResolver.java:544)
-    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve (DefaultArtifactResolver.java:448)
-    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts (DefaultArtifactResolver.java:260)
-    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact (DefaultArtifactResolver.java:242)
-    at org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveArtifact (DefaultRepositorySystem.java:277)
-    at org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver.resolve (DefaultPluginDependenciesResolver.java:138)
-    at org.apache.maven.plugin.internal.DefaultMavenPluginManager.lambda$getPluginDescriptor$0 (DefaultMavenPluginManager.java:183)
-    at org.apache.maven.plugin.DefaultPluginDescriptorCache.lambda$get$0 (DefaultPluginDescriptorCache.java:72)
-    at java.util.concurrent.ConcurrentHashMap.computeIfAbsent (ConcurrentHashMap.java:1708)
-    at org.apache.maven.plugin.DefaultPluginDescriptorCache.get (DefaultPluginDescriptorCache.java:70)
-    at org.apache.maven.plugin.internal.DefaultMavenPluginManager.getPluginDescriptor (DefaultMavenPluginManager.java:181)
-    at org.apache.maven.plugin.DefaultBuildPluginManager.loadPlugin (DefaultBuildPluginManager.java:81)
-    at org.apache.maven.plugin.prefix.internal.DefaultPluginPrefixResolver.resolveFromProject (DefaultPluginPrefixResolver.java:126)
-    at org.apache.maven.plugin.prefix.internal.DefaultPluginPrefixResolver.resolveFromProject (DefaultPluginPrefixResolver.java:112)
-    at org.apache.maven.plugin.prefix.internal.DefaultPluginPrefixResolver.resolve (DefaultPluginPrefixResolver.java:80)
-    at org.apache.maven.lifecycle.internal.MojoDescriptorCreator.findPluginForPrefix (MojoDescriptorCreator.java:247)
-    at org.apache.maven.lifecycle.internal.MojoDescriptorCreator.getMojoDescriptor (MojoDescriptorCreator.java:209)
-    at org.apache.maven.lifecycle.internal.DefaultLifecycleExecutionPlanCalculator.calculateMojoExecutions (DefaultLifecycleExecutionPlanCalculator.java:188)
-    at org.apache.maven.lifecycle.internal.DefaultLifecycleExecutionPlanCalculator.calculateExecutionPlan (DefaultLifecycleExecutionPlanCalculator.java:119)
-    at org.apache.maven.lifecycle.internal.DefaultLifecycleExecutionPlanCalculator.calculateExecutionPlan (DefaultLifecycleExecutionPlanCalculator.java:135)
-    at org.apache.maven.lifecycle.internal.builder.BuilderCommon.resolveBuildPlan (BuilderCommon.java:93)
-    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:100)
-    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:73)
-    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:53)
-    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:118)
-    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:261)
-    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:173)
-    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:101)
-    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:906)
-    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:283)
-    at org.apache.maven.cli.MavenCli.main (MavenCli.java:206)
-    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
-    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:77)
-    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
-    at java.lang.reflect.Method.invoke (Method.java:568)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:283)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:226)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:407)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:348)
-[WARNING] Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-compiler-plugin:3.10.0: java.io.IOException: There is not enough space on the disk
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-help-plugin/3.3.0/maven-help-plugin-3.3.0.pom
-[WARNING] Failed to write tracking file 'C:\Users\frank_bump\.m2\repository\org\apache\maven\plugins\maven-help-plugin\3.3.0\maven-help-plugin-3.3.0.pom.lastUpdated'
-java.io.IOException: There is not enough space on the disk
-    at java.io.RandomAccessFile.writeBytes (Native Method)
-    at java.io.RandomAccessFile.write (RandomAccessFile.java:545)
-    at org.eclipse.aether.internal.impl.DefaultTrackingFileManager.update (DefaultTrackingFileManager.java:107)
-    at org.eclipse.aether.internal.impl.DefaultUpdateCheckManager.write (DefaultUpdateCheckManager.java:527)
-    at org.eclipse.aether.internal.impl.DefaultUpdateCheckManager.touchArtifact (DefaultUpdateCheckManager.java:474)
-    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.evaluateDownloads (DefaultArtifactResolver.java:635)
-    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads (DefaultArtifactResolver.java:544)
-    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve (DefaultArtifactResolver.java:448)
-    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts (DefaultArtifactResolver.java:260)
-    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact (DefaultArtifactResolver.java:242)
-    at org.apache.maven.repository.internal.DefaultArtifactDescriptorReader.loadPom (DefaultArtifactDescriptorReader.java:231)
-    at org.apache.maven.repository.internal.DefaultArtifactDescriptorReader.readArtifactDescriptor (DefaultArtifactDescriptorReader.java:172)
-    at org.eclipse.aether.internal.impl.DefaultRepositorySystem.readArtifactDescriptor (DefaultRepositorySystem.java:268)
-    at org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver.resolve (DefaultPluginDependenciesResolver.java:107)
-    at org.apache.maven.plugin.internal.DefaultMavenPluginManager.lambda$getPluginDescriptor$0 (DefaultMavenPluginManager.java:183)
-    at org.apache.maven.plugin.DefaultPluginDescriptorCache.lambda$get$0 (DefaultPluginDescriptorCache.java:72)
-    at java.util.concurrent.ConcurrentHashMap.computeIfAbsent (ConcurrentHashMap.java:1708)
-    at org.apache.maven.plugin.DefaultPluginDescriptorCache.get (DefaultPluginDescriptorCache.java:70)
-    at org.apache.maven.plugin.internal.DefaultMavenPluginManager.getPluginDescriptor (DefaultMavenPluginManager.java:181)
-    at org.apache.maven.plugin.DefaultBuildPluginManager.loadPlugin (DefaultBuildPluginManager.java:81)
-    at org.apache.maven.plugin.prefix.internal.DefaultPluginPrefixResolver.resolveFromProject (DefaultPluginPrefixResolver.java:126)
-    at org.apache.maven.plugin.prefix.internal.DefaultPluginPrefixResolver.resolveFromProject (DefaultPluginPrefixResolver.java:112)
-    at org.apache.maven.plugin.prefix.internal.DefaultPluginPrefixResolver.resolve (DefaultPluginPrefixResolver.java:80)
-    at org.apache.maven.lifecycle.internal.MojoDescriptorCreator.findPluginForPrefix (MojoDescriptorCreator.java:247)
-    at org.apache.maven.lifecycle.internal.MojoDescriptorCreator.getMojoDescriptor (MojoDescriptorCreator.java:209)
-    at org.apache.maven.lifecycle.internal.DefaultLifecycleExecutionPlanCalculator.calculateMojoExecutions (DefaultLifecycleExecutionPlanCalculator.java:188)
-    at org.apache.maven.lifecycle.internal.DefaultLifecycleExecutionPlanCalculator.calculateExecutionPlan (DefaultLifecycleExecutionPlanCalculator.java:119)
-    at org.apache.maven.lifecycle.internal.DefaultLifecycleExecutionPlanCalculator.calculateExecutionPlan (DefaultLifecycleExecutionPlanCalculator.java:135)
-    at org.apache.maven.lifecycle.internal.builder.BuilderCommon.resolveBuildPlan (BuilderCommon.java:93)
-    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:100)
-    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:73)
-    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:53)
-    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:118)
-    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:261)
-    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:173)
-    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:101)
-    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:906)
-    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:283)
-    at org.apache.maven.cli.MavenCli.main (MavenCli.java:206)
-    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
-    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:77)
-    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
-    at java.lang.reflect.Method.invoke (Method.java:568)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:283)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:226)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:407)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:348)
-[WARNING] Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-help-plugin:3.3.0: java.io.IOException: There is not enough space on the disk
-[INFO] Artifact org.apache.maven.plugins:maven-compiler-plugin:jar:3.10.0 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases)]
-[INFO] Artifact org.apache.maven.plugins:maven-compiler-plugin:jar:3.10.0 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases)]
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.10.0/maven-compiler-plugin-3.10.0.jar
-Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.10.0/maven-compiler-plugin-3.10.0.jar (0 B at 0 B/s)
-[WARNING] Failed to write tracking file 'C:\Users\frank_bump\.m2\repository\org\apache\maven\plugins\maven-compiler-plugin\3.10.0\_remote.repositories'
-java.io.IOException: There is not enough space on the disk
-    at java.io.RandomAccessFile.writeBytes (Native Method)
-    at java.io.RandomAccessFile.write (RandomAccessFile.java:545)
-    at org.eclipse.aether.internal.impl.DefaultTrackingFileManager.update (DefaultTrackingFileManager.java:107)
-    at org.eclipse.aether.internal.impl.EnhancedLocalRepositoryManager.addRepo (EnhancedLocalRepositoryManager.java:233)
-    at org.eclipse.aether.internal.impl.EnhancedLocalRepositoryManager.addArtifact (EnhancedLocalRepositoryManager.java:214)
-    at org.eclipse.aether.internal.impl.EnhancedLocalRepositoryManager.add (EnhancedLocalRepositoryManager.java:190)
-    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.evaluateDownloads (DefaultArtifactResolver.java:618)
-    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads (DefaultArtifactResolver.java:544)
-    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve (DefaultArtifactResolver.java:448)
-    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts (DefaultArtifactResolver.java:260)
-    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact (DefaultArtifactResolver.java:242)
-    at org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveArtifact (DefaultRepositorySystem.java:277)
-    at org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver.resolve (DefaultPluginDependenciesResolver.java:138)
-    at org.apache.maven.plugin.internal.DefaultMavenPluginManager.lambda$getPluginDescriptor$0 (DefaultMavenPluginManager.java:183)
-    at org.apache.maven.plugin.DefaultPluginDescriptorCache.lambda$get$0 (DefaultPluginDescriptorCache.java:72)
-    at java.util.concurrent.ConcurrentHashMap.computeIfAbsent (ConcurrentHashMap.java:1708)
-    at org.apache.maven.plugin.DefaultPluginDescriptorCache.get (DefaultPluginDescriptorCache.java:70)
-    at org.apache.maven.plugin.internal.DefaultMavenPluginManager.getPluginDescriptor (DefaultMavenPluginManager.java:181)
-    at org.apache.maven.plugin.internal.DefaultMavenPluginManager.getMojoDescriptor (DefaultMavenPluginManager.java:271)
-    at org.apache.maven.plugin.DefaultBuildPluginManager.getMojoDescriptor (DefaultBuildPluginManager.java:214)
-    at org.apache.maven.lifecycle.internal.DefaultLifecycleExecutionPlanCalculator.setupMojoExecution (DefaultLifecycleExecutionPlanCalculator.java:155)
-    at org.apache.maven.lifecycle.internal.DefaultLifecycleExecutionPlanCalculator.setupMojoExecutions (DefaultLifecycleExecutionPlanCalculator.java:143)
-    at org.apache.maven.lifecycle.internal.DefaultLifecycleExecutionPlanCalculator.calculateExecutionPlan (DefaultLifecycleExecutionPlanCalculator.java:122)
-    at org.apache.maven.lifecycle.internal.DefaultLifecycleExecutionPlanCalculator.calculateExecutionPlan (DefaultLifecycleExecutionPlanCalculator.java:135)
-    at org.apache.maven.lifecycle.internal.builder.BuilderCommon.resolveBuildPlan (BuilderCommon.java:93)
-    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:100)
-    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:73)
-    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:53)
-    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:118)
-    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:261)
-    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:173)
-    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:101)
-    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:906)
-    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:283)
-    at org.apache.maven.cli.MavenCli.main (MavenCli.java:206)
-    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
-    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:77)
-    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
-    at java.lang.reflect.Method.invoke (Method.java:568)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:283)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:226)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:407)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:348)
+Downloading from central: https://repo.maven.apache.org/maven2/net/lingala/zip4j/zip4j/2.11.2/zip4j-2.11.2.pom
+Progress (1): 4.1/8.2 kB
+Progress (1): 8.2/8.2 kB
+Progress (1): 8.2 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/net/lingala/zip4j/zip4j/2.11.2/zip4j-2.11.2.pom (8.2 kB at 748 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/pdfbox/pdfbox/2.0.27/pdfbox-2.0.27.pom
+Progress (1): 4.1/43 kB
+Progress (1): 8.2/43 kB
+Progress (1): 12/43 kB 
+Progress (1): 16/43 kB
+Progress (1): 20/43 kB
+Progress (1): 24/43 kB
+Progress (1): 28/43 kB
+Progress (1): 32/43 kB
+Progress (1): 36/43 kB
+Progress (1): 40/43 kB
+Progress (1): 43 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/pdfbox/pdfbox/2.0.27/pdfbox-2.0.27.pom (43 kB at 2.9 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/pdfbox/pdfbox-parent/2.0.27/pdfbox-parent-2.0.27.pom
+Progress (1): 4.1/20 kB
+Progress (1): 8.2/20 kB
+Progress (1): 12/20 kB 
+Progress (1): 16/20 kB
+Progress (1): 20 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/pdfbox/pdfbox-parent/2.0.27/pdfbox-parent-2.0.27.pom (20 kB at 1.7 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/pdfbox/fontbox/2.0.27/fontbox-2.0.27.pom
+Progress (1): 4.1/6.6 kB
+Progress (1): 6.6 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/pdfbox/fontbox/2.0.27/fontbox-2.0.27.pom (6.6 kB at 505 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/poi/poi-ooxml/5.2.3/poi-ooxml-5.2.3.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/poi/poi-ooxml/5.2.3/poi-ooxml-5.2.3.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/poi/poi/5.2.3/poi-5.2.3.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/poi/poi/5.2.3/poi-5.2.3.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/poi/poi-ooxml-lite/5.2.3/poi-ooxml-lite-5.2.3.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/poi/poi-ooxml-lite/5.2.3/poi-ooxml-lite-5.2.3.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/xmlbeans/xmlbeans/5.1.1/xmlbeans-5.1.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/xmlbeans/xmlbeans/5.1.1/xmlbeans-5.1.1.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/poi/poi-scratchpad/5.2.2/poi-scratchpad-5.2.2.pom
+Progress (1): 3.2 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/poi/poi-scratchpad/5.2.2/poi-scratchpad-5.2.2.pom (3.2 kB at 287 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/github/junrar/junrar/7.5.3/junrar-7.5.3.pom
+Progress (1): 1.4 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/github/junrar/junrar/7.5.3/junrar-7.5.3.pom (1.4 kB at 62 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/github/jiangxincode/cpdetector/1.0.10/cpdetector-1.0.10.pom
+Progress (1): 1.4 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/github/jiangxincode/cpdetector/1.0.10/cpdetector-1.0.10.pom (1.4 kB at 6.1 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/googlecode/juniversalchardet/juniversalchardet/1.0.3/juniversalchardet-1.0.3.pom
+Progress (1): 1.5 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/googlecode/juniversalchardet/juniversalchardet/1.0.3/juniversalchardet-1.0.3.pom (1.5 kB at 183 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/github/houbb/opencc4j/1.7.2/opencc4j-1.7.2.pom
+Progress (1): 4.1/11 kB
+Progress (1): 8.2/11 kB
+Progress (1): 11 kB    
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/com/github/houbb/opencc4j/1.7.2/opencc4j-1.7.2.pom (11 kB at 57 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/github/houbb/heaven/0.1.154/heaven-0.1.154.pom
+Progress (1): 4.1/10 kB
+Progress (1): 8.2/10 kB
+Progress (1): 10 kB    
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/com/github/houbb/heaven/0.1.154/heaven-0.1.154.pom (10 kB at 50 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/github/houbb/nlp-common/0.0.4/nlp-common-0.0.4.pom
+Progress (1): 4.1/9.2 kB
+Progress (1): 8.2/9.2 kB
+Progress (1): 9.2 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/github/houbb/nlp-common/0.0.4/nlp-common-0.0.4.pom (9.2 kB at 45 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/github/houbb/heaven/0.1.129/heaven-0.1.129.pom
+Progress (1): 4.1/9.8 kB
+Progress (1): 8.2/9.8 kB
+Progress (1): 9.8 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/github/houbb/heaven/0.1.129/heaven-0.1.129.pom (9.8 kB at 50 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/formdev/flatlaf/2.6/flatlaf-2.6.pom
+Progress (1): 1.5 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/formdev/flatlaf/2.6/flatlaf-2.6.pom (1.5 kB at 141 kB/s)
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.3.0:tree (default-cli) @ ApkToolBoxGUI ---
+[INFO] edu.jiangxin.apktoolbox:ApkToolBoxGUI:jar:1.0.1
+[INFO] +- commons-io:commons-io:jar:2.11.0:compile
+[INFO] +- org.apache.commons:commons-collections4:jar:4.4:compile
+[INFO] +- org.apache.commons:commons-lang3:jar:3.12.0:compile
+[INFO] +- org.apache.commons:commons-exec:jar:1.3:compile
+[INFO] +- org.apache.commons:commons-compress:jar:1.22:compile
+[INFO] +- org.tukaani:xz:jar:1.9:compile
+[INFO] +- net.lingala.zip4j:zip4j:jar:2.11.2:compile
+[INFO] +- org.apache.pdfbox:pdfbox:jar:2.0.27:compile
+[INFO] |  +- org.apache.pdfbox:fontbox:jar:2.0.27:compile
+[INFO] |  \- commons-logging:commons-logging:jar:1.2:compile
+[INFO] +- org.apache.poi:poi:jar:5.2.2:compile
+[INFO] |  +- commons-codec:commons-codec:jar:1.15:compile
+[INFO] |  +- org.apache.commons:commons-math3:jar:3.6.1:compile
+[INFO] |  \- com.zaxxer:SparseBitSet:jar:1.2:compile
+[INFO] +- org.apache.poi:poi-ooxml:jar:5.2.3:compile
+[INFO] |  +- org.apache.poi:poi-ooxml-lite:jar:5.2.3:compile
+[INFO] |  +- org.apache.xmlbeans:xmlbeans:jar:5.1.1:compile
+[INFO] |  \- com.github.virtuald:curvesapi:jar:1.07:compile
+[INFO] +- org.apache.poi:poi-scratchpad:jar:5.2.2:compile
+[INFO] +- org.bouncycastle:bcprov-jdk15on:jar:1.70:compile
+[INFO] +- com.github.junrar:junrar:jar:7.5.3:compile
+[INFO] |  \- org.slf4j:slf4j-api:jar:1.7.36:runtime
+[INFO] +- org.jdom:jdom2:jar:2.0.6.1:compile
+[INFO] +- org.apache.logging.log4j:log4j-api:jar:2.17.2:compile
+[INFO] +- org.apache.logging.log4j:log4j-core:jar:2.17.2:compile
+[INFO] +- org.apache.commons:commons-configuration2:jar:2.8.0:compile
+[INFO] |  \- org.apache.commons:commons-text:jar:1.9:compile
+[INFO] +- commons-beanutils:commons-beanutils:jar:1.9.4:compile
+[INFO] |  \- commons-collections:commons-collections:jar:3.2.2:compile
+[INFO] +- com.github.jiangxincode:cpdetector:jar:1.0.10:compile
+[INFO] +- com.googlecode.juniversalchardet:juniversalchardet:jar:1.0.3:compile
+[INFO] +- com.github.houbb:opencc4j:jar:1.7.2:compile
+[INFO] |  +- com.github.houbb:heaven:jar:0.1.154:compile
+[INFO] |  |  \- org.apiguardian:apiguardian-api:jar:1.0.0:compile
+[INFO] |  \- com.github.houbb:nlp-common:jar:0.0.4:compile
+[INFO] +- org.apache.httpcomponents:httpclient:jar:4.5.13:compile
+[INFO] |  \- org.apache.httpcomponents:httpcore:jar:4.4.13:compile
+[INFO] +- org.json:json:jar:20220924:compile
+[INFO] +- com.formdev:flatlaf:jar:2.6:compile
+[INFO] \- junit:junit:jar:4.13.2:compile
+[INFO]    \- org.hamcrest:hamcrest-core:jar:1.3:compile
 [INFO] ------------------------------------------------------------------------
-[INFO] BUILD FAILURE
+[INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  1.379 s
-[INFO] Finished at: 2023-09-21T14:43:58Z
+[INFO] Total time:  2.572 s
+[INFO] Finished at: 2023-09-25T20:39:02Z
 [INFO] ------------------------------------------------------------------------
-[ERROR] java.io.IOException: There is not enough space on the disk
-[ERROR] 
-[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
-[ERROR] Re-run Maven using the -X switch to enable full debug logging.

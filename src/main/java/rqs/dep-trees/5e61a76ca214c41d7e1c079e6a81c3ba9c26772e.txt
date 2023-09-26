@@ -1,0 +1,210 @@
+[INFO] Scanning for projects...
+[INFO] Inspecting build with total of 7 modules...
+[INFO] Installing Nexus Staging features:
+[INFO]   ... total of 7 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Google Cloud Translate Parent                                      [pom]
+[INFO] proto-google-cloud-translate-v3beta1                               [jar]
+[INFO] proto-google-cloud-translate-v3                                    [jar]
+[INFO] grpc-google-cloud-translate-v3beta1                                [jar]
+[INFO] grpc-google-cloud-translate-v3                                     [jar]
+[INFO] Google Cloud Translate                                             [jar]
+[INFO] Google Cloud Translate BOM                                         [pom]
+[INFO] 
+[INFO] -----------< com.google.cloud:google-cloud-translate-parent >-----------
+[INFO] Building Google Cloud Translate Parent 2.3.3-SNAPSHOT              [1/7]
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.3.0:tree (default-cli) @ google-cloud-translate-parent ---
+[INFO] com.google.cloud:google-cloud-translate-parent:pom:2.3.3-SNAPSHOT
+[INFO] 
+[INFO] ------< com.google.api.grpc:proto-google-cloud-translate-v3beta1 >------
+[INFO] Building proto-google-cloud-translate-v3beta1 0.85.3-SNAPSHOT      [2/7]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.3.0:tree (default-cli) @ proto-google-cloud-translate-v3beta1 ---
+[INFO] com.google.api.grpc:proto-google-cloud-translate-v3beta1:jar:0.85.3-SNAPSHOT
+[INFO] +- com.google.protobuf:protobuf-java:jar:3.21.1:compile
+[INFO] +- com.google.api.grpc:proto-google-common-protos:jar:2.9.0:compile
+[INFO] +- com.google.api:api-common:jar:2.2.1:compile
+[INFO] |  +- com.google.code.findbugs:jsr305:jar:3.0.2:compile
+[INFO] |  +- javax.annotation:javax.annotation-api:jar:1.3.2:compile
+[INFO] |  \- com.google.auto.value:auto-value-annotations:jar:1.9:runtime
+[INFO] \- com.google.guava:guava:jar:31.1-jre:compile
+[INFO]    +- com.google.guava:failureaccess:jar:1.0.1:compile
+[INFO]    +- com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:compile
+[INFO]    +- org.checkerframework:checker-qual:jar:3.22.2:compile
+[INFO]    +- com.google.errorprone:error_prone_annotations:jar:2.14.0:compile
+[INFO]    \- com.google.j2objc:j2objc-annotations:jar:1.3:compile
+[INFO] 
+[INFO] --------< com.google.api.grpc:proto-google-cloud-translate-v3 >---------
+[INFO] Building proto-google-cloud-translate-v3 2.3.3-SNAPSHOT            [3/7]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.3.0:tree (default-cli) @ proto-google-cloud-translate-v3 ---
+[INFO] com.google.api.grpc:proto-google-cloud-translate-v3:jar:2.3.3-SNAPSHOT
+[INFO] +- com.google.protobuf:protobuf-java:jar:3.21.1:compile
+[INFO] +- com.google.api.grpc:proto-google-common-protos:jar:2.9.0:compile
+[INFO] +- com.google.api:api-common:jar:2.2.1:compile
+[INFO] |  +- com.google.code.findbugs:jsr305:jar:3.0.2:compile
+[INFO] |  +- javax.annotation:javax.annotation-api:jar:1.3.2:compile
+[INFO] |  \- com.google.auto.value:auto-value-annotations:jar:1.9:runtime
+[INFO] \- com.google.guava:guava:jar:31.1-jre:compile
+[INFO]    +- com.google.guava:failureaccess:jar:1.0.1:compile
+[INFO]    +- com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:compile
+[INFO]    +- org.checkerframework:checker-qual:jar:3.22.2:compile
+[INFO]    +- com.google.errorprone:error_prone_annotations:jar:2.14.0:compile
+[INFO]    \- com.google.j2objc:j2objc-annotations:jar:1.3:compile
+[INFO] 
+[INFO] ------< com.google.api.grpc:grpc-google-cloud-translate-v3beta1 >-------
+[INFO] Building grpc-google-cloud-translate-v3beta1 0.85.3-SNAPSHOT       [4/7]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.3.0:tree (default-cli) @ grpc-google-cloud-translate-v3beta1 ---
+[INFO] com.google.api.grpc:grpc-google-cloud-translate-v3beta1:jar:0.85.3-SNAPSHOT
+[INFO] +- io.grpc:grpc-api:jar:1.47.0:compile
+[INFO] |  +- io.grpc:grpc-context:jar:1.47.0:compile
+[INFO] |  +- com.google.code.findbugs:jsr305:jar:3.0.2:compile
+[INFO] |  \- com.google.errorprone:error_prone_annotations:jar:2.14.0:compile
+[INFO] +- io.grpc:grpc-stub:jar:1.47.0:compile
+[INFO] +- io.grpc:grpc-protobuf:jar:1.47.0:compile
+[INFO] |  \- io.grpc:grpc-protobuf-lite:jar:1.47.0:compile
+[INFO] +- com.google.protobuf:protobuf-java:jar:3.21.1:compile
+[INFO] +- com.google.api.grpc:proto-google-cloud-translate-v3beta1:jar:0.85.3-SNAPSHOT:compile
+[INFO] |  \- com.google.api:api-common:jar:2.2.1:compile
+[INFO] |     \- com.google.auto.value:auto-value-annotations:jar:1.9:runtime
+[INFO] +- com.google.api.grpc:proto-google-common-protos:jar:2.9.0:compile
+[INFO] +- com.google.guava:guava:jar:31.1-jre:compile
+[INFO] |  +- com.google.guava:failureaccess:jar:1.0.1:compile
+[INFO] |  +- com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:compile
+[INFO] |  +- org.checkerframework:checker-qual:jar:3.22.2:compile
+[INFO] |  \- com.google.j2objc:j2objc-annotations:jar:1.3:compile
+[INFO] \- javax.annotation:javax.annotation-api:jar:1.3.2:compile
+[INFO] 
+[INFO] ---------< com.google.api.grpc:grpc-google-cloud-translate-v3 >---------
+[INFO] Building grpc-google-cloud-translate-v3 2.3.3-SNAPSHOT             [5/7]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.3.0:tree (default-cli) @ grpc-google-cloud-translate-v3 ---
+[INFO] com.google.api.grpc:grpc-google-cloud-translate-v3:jar:2.3.3-SNAPSHOT
+[INFO] +- io.grpc:grpc-api:jar:1.47.0:compile
+[INFO] |  +- io.grpc:grpc-context:jar:1.47.0:compile
+[INFO] |  +- com.google.code.findbugs:jsr305:jar:3.0.2:compile
+[INFO] |  \- com.google.errorprone:error_prone_annotations:jar:2.14.0:compile
+[INFO] +- io.grpc:grpc-stub:jar:1.47.0:compile
+[INFO] +- io.grpc:grpc-protobuf:jar:1.47.0:compile
+[INFO] |  \- io.grpc:grpc-protobuf-lite:jar:1.47.0:compile
+[INFO] +- com.google.protobuf:protobuf-java:jar:3.21.1:compile
+[INFO] +- com.google.api.grpc:proto-google-cloud-translate-v3:jar:2.3.3-SNAPSHOT:compile
+[INFO] |  \- com.google.api:api-common:jar:2.2.1:compile
+[INFO] |     \- com.google.auto.value:auto-value-annotations:jar:1.9:runtime
+[INFO] +- com.google.api.grpc:proto-google-common-protos:jar:2.9.0:compile
+[INFO] +- com.google.guava:guava:jar:31.1-jre:compile
+[INFO] |  +- com.google.guava:failureaccess:jar:1.0.1:compile
+[INFO] |  +- com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:compile
+[INFO] |  +- org.checkerframework:checker-qual:jar:3.22.2:compile
+[INFO] |  \- com.google.j2objc:j2objc-annotations:jar:1.3:compile
+[INFO] \- javax.annotation:javax.annotation-api:jar:1.3.2:compile
+[INFO] 
+[INFO] --------------< com.google.cloud:google-cloud-translate >---------------
+[INFO] Building Google Cloud Translate 2.3.3-SNAPSHOT                     [6/7]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.3.0:tree (default-cli) @ google-cloud-translate ---
+[INFO] com.google.cloud:google-cloud-translate:jar:2.3.3-SNAPSHOT
+[INFO] +- io.grpc:grpc-api:jar:1.47.0:compile
+[INFO] |  +- io.grpc:grpc-context:jar:1.47.0:compile
+[INFO] |  +- com.google.code.findbugs:jsr305:jar:3.0.2:compile
+[INFO] |  \- com.google.errorprone:error_prone_annotations:jar:2.14.0:compile
+[INFO] +- io.grpc:grpc-stub:jar:1.47.0:compile
+[INFO] +- io.grpc:grpc-protobuf:jar:1.47.0:compile
+[INFO] |  \- io.grpc:grpc-protobuf-lite:jar:1.47.0:compile
+[INFO] +- com.google.api:api-common:jar:2.2.1:compile
+[INFO] |  \- com.google.auto.value:auto-value-annotations:jar:1.9:compile
+[INFO] +- com.google.protobuf:protobuf-java:jar:3.21.1:compile
+[INFO] +- com.google.api.grpc:proto-google-common-protos:jar:2.9.0:compile
+[INFO] +- com.google.api.grpc:proto-google-cloud-translate-v3beta1:jar:0.85.3-SNAPSHOT:compile
+[INFO] +- com.google.api.grpc:proto-google-cloud-translate-v3:jar:2.3.3-SNAPSHOT:compile
+[INFO] +- com.google.guava:guava:jar:31.1-jre:compile
+[INFO] |  +- com.google.guava:failureaccess:jar:1.0.1:compile
+[INFO] |  +- com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:compile
+[INFO] |  +- org.checkerframework:checker-qual:jar:3.22.2:compile
+[INFO] |  \- com.google.j2objc:j2objc-annotations:jar:1.3:compile
+[INFO] +- com.google.api:gax:jar:2.18.2:compile
+[INFO] |  \- io.opencensus:opencensus-api:jar:0.31.1:compile
+[INFO] +- com.google.api:gax-grpc:jar:2.18.2:compile
+[INFO] |  +- io.grpc:grpc-alts:jar:1.47.0:runtime
+[INFO] |  |  +- io.grpc:grpc-grpclb:jar:1.47.0:runtime
+[INFO] |  |  \- org.conscrypt:conscrypt-openjdk-uber:jar:2.5.1:runtime
+[INFO] |  +- io.grpc:grpc-auth:jar:1.47.0:runtime
+[INFO] |  +- io.grpc:grpc-netty-shaded:jar:1.47.0:runtime
+[INFO] |  |  +- io.perfmark:perfmark-api:jar:0.25.0:runtime
+[INFO] |  |  \- io.grpc:grpc-core:jar:1.47.0:runtime
+[INFO] |  |     +- com.google.android:annotations:jar:4.1.1.4:runtime
+[INFO] |  |     \- org.codehaus.mojo:animal-sniffer-annotations:jar:1.21:runtime
+[INFO] |  \- io.grpc:grpc-googleapis:jar:1.47.0:runtime
+[INFO] |     \- io.grpc:grpc-xds:jar:1.47.0:runtime
+[INFO] |        +- io.grpc:grpc-services:jar:1.47.0:runtime
+[INFO] |        +- com.google.re2j:re2j:jar:1.5:runtime
+[INFO] |        +- org.bouncycastle:bcpkix-jdk15on:jar:1.67:runtime
+[INFO] |        |  \- org.bouncycastle:bcprov-jdk15on:jar:1.67:runtime
+[INFO] |        \- io.opencensus:opencensus-proto:jar:0.2.0:runtime
+[INFO] +- com.google.api:gax-httpjson:jar:0.103.2:compile
+[INFO] |  +- com.google.code.gson:gson:jar:2.9.0:compile
+[INFO] |  +- com.google.http-client:google-http-client-gson:jar:1.42.0:compile
+[INFO] |  \- com.google.protobuf:protobuf-java-util:jar:3.21.1:compile
+[INFO] +- org.threeten:threetenbp:jar:1.6.0:compile
+[INFO] +- com.google.cloud:google-cloud-core:jar:2.8.0:compile
+[INFO] |  \- com.google.api.grpc:proto-google-iam-v1:jar:1.4.1:compile
+[INFO] +- com.google.cloud:google-cloud-core-http:jar:2.8.0:compile
+[INFO] |  +- com.google.api-client:google-api-client:jar:1.35.1:compile
+[INFO] |  |  +- com.google.oauth-client:google-oauth-client:jar:1.34.1:compile
+[INFO] |  |  \- com.google.http-client:google-http-client-apache-v2:jar:1.42.0:compile
+[INFO] |  +- com.google.http-client:google-http-client-appengine:jar:1.42.0:compile
+[INFO] |  \- io.opencensus:opencensus-contrib-http-util:jar:0.31.1:compile
+[INFO] +- com.google.apis:google-api-services-translate:jar:v2-rev20170525-1.32.1:compile
+[INFO] +- com.google.auth:google-auth-library-credentials:jar:1.7.0:compile
+[INFO] +- com.google.auth:google-auth-library-oauth2-http:jar:1.7.0:compile
+[INFO] +- com.google.http-client:google-http-client:jar:1.42.0:compile
+[INFO] |  +- org.apache.httpcomponents:httpclient:jar:4.5.13:compile
+[INFO] |  |  +- commons-logging:commons-logging:jar:1.2:compile
+[INFO] |  |  \- commons-codec:commons-codec:jar:1.15:compile
+[INFO] |  \- org.apache.httpcomponents:httpcore:jar:4.4.15:compile
+[INFO] +- com.google.http-client:google-http-client-jackson2:jar:1.42.0:compile
+[INFO] |  \- com.fasterxml.jackson.core:jackson-core:jar:2.13.3:compile
+[INFO] +- junit:junit:jar:4.13.2:test
+[INFO] |  \- org.hamcrest:hamcrest-core:jar:1.3:test
+[INFO] +- org.easymock:easymock:jar:4.3:test
+[INFO] |  \- org.objenesis:objenesis:jar:3.2:test
+[INFO] +- com.google.api.grpc:grpc-google-cloud-translate-v3beta1:jar:0.85.3-SNAPSHOT:test
+[INFO] +- com.google.api.grpc:grpc-google-cloud-translate-v3:jar:2.3.3-SNAPSHOT:test
+[INFO] +- com.google.cloud:google-cloud-core:test-jar:tests:2.8.0:test
+[INFO] +- com.google.api:gax:jar:testlib:2.18.2:test
+[INFO] +- com.google.api:gax-grpc:jar:testlib:2.18.2:test
+[INFO] +- com.google.api:gax-httpjson:jar:testlib:0.103.2:test
+[INFO] \- javax.annotation:javax.annotation-api:jar:1.3.2:compile
+[INFO] 
+[INFO] ------------< com.google.cloud:google-cloud-translate-bom >-------------
+[INFO] Building Google Cloud Translate BOM 2.3.3-SNAPSHOT                 [7/7]
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.3.0:tree (default-cli) @ google-cloud-translate-bom ---
+[INFO] com.google.cloud:google-cloud-translate-bom:pom:2.3.3-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Google Cloud Translate Parent 2.3.3-SNAPSHOT ....... SUCCESS [  0.386 s]
+[INFO] proto-google-cloud-translate-v3beta1 0.85.3-SNAPSHOT SUCCESS [  0.022 s]
+[INFO] proto-google-cloud-translate-v3 2.3.3-SNAPSHOT ..... SUCCESS [  0.006 s]
+[INFO] grpc-google-cloud-translate-v3beta1 0.85.3-SNAPSHOT  SUCCESS [  0.014 s]
+[INFO] grpc-google-cloud-translate-v3 2.3.3-SNAPSHOT ...... SUCCESS [  0.007 s]
+[INFO] Google Cloud Translate 2.3.3-SNAPSHOT .............. SUCCESS [  0.059 s]
+[INFO] Google Cloud Translate BOM 2.3.3-SNAPSHOT .......... SUCCESS [  0.004 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.261 s
+[INFO] Finished at: 2023-09-25T22:01:09Z
+[INFO] ------------------------------------------------------------------------

@@ -1,0 +1,611 @@
+[INFO] Scanning for projects...
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/cloud/libraries-bom/20.9.0/libraries-bom-20.9.0.pom
+Progress (1): 2.7/9.8 kB
+Progress (1): 5.5/9.8 kB
+Progress (1): 8.2/9.8 kB
+Progress (1): 9.8 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/cloud/libraries-bom/20.9.0/libraries-bom-20.9.0.pom (9.8 kB at 48 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/api-client/google-api-client-bom/1.34.1/google-api-client-bom-1.34.1.pom
+Progress (1): 2.7/7.0 kB
+Progress (1): 5.5/7.0 kB
+Progress (1): 7.0 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/api-client/google-api-client-bom/1.34.1/google-api-client-bom-1.34.1.pom (7.0 kB at 305 kB/s)
+[INFO] Inspecting build with total of 1 modules...
+[INFO] Installing Nexus Staging features:
+[INFO]   ... total of 1 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-checkstyle-plugin/2.17/maven-checkstyle-plugin-2.17.pom
+Progress (1): 2.7/13 kB
+Progress (1): 5.5/13 kB
+Progress (1): 8.2/13 kB
+Progress (1): 11/13 kB 
+Progress (1): 13 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-checkstyle-plugin/2.17/maven-checkstyle-plugin-2.17.pom (13 kB at 1.1 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-checkstyle-plugin/2.17/maven-checkstyle-plugin-2.17.jar
+Progress (1): 2.7/109 kB
+Progress (1): 5.5/109 kB
+Progress (1): 8.2/109 kB
+Progress (1): 11/109 kB 
+Progress (1): 14/109 kB
+Progress (1): 16/109 kB
+Progress (1): 20/109 kB
+Progress (1): 24/109 kB
+Progress (1): 28/109 kB
+Progress (1): 32/109 kB
+Progress (1): 36/109 kB
+Progress (1): 40/109 kB
+Progress (1): 44/109 kB
+Progress (1): 49/109 kB
+Progress (1): 53/109 kB
+Progress (1): 57/109 kB
+Progress (1): 61/109 kB
+Progress (1): 65/109 kB
+Progress (1): 69/109 kB
+Progress (1): 73/109 kB
+Progress (1): 77/109 kB
+Progress (1): 81/109 kB
+Progress (1): 85/109 kB
+Progress (1): 90/109 kB
+Progress (1): 94/109 kB
+Progress (1): 98/109 kB
+Progress (1): 102/109 kB
+Progress (1): 106/109 kB
+Progress (1): 109 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-checkstyle-plugin/2.17/maven-checkstyle-plugin-2.17.jar (109 kB at 4.5 MB/s)
+[INFO] 
+[INFO] -----------------< com.google.firebase:firebase-admin >-----------------
+[INFO] Building firebase-admin 8.2.0
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/api-client/google-api-client/1.34.1/google-api-client-1.34.1.pom
+Progress (1): 4.1/5.8 kB
+Progress (1): 5.8 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/api-client/google-api-client/1.34.1/google-api-client-1.34.1.pom (5.8 kB at 449 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/api-client/google-api-client-parent/1.34.1/google-api-client-parent-1.34.1.pom
+Progress (1): 4.1/23 kB
+Progress (1): 8.2/23 kB
+Progress (1): 12/23 kB 
+Progress (1): 16/23 kB
+Progress (1): 20/23 kB
+Progress (1): 23 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/api-client/google-api-client-parent/1.34.1/google-api-client-parent-1.34.1.pom (23 kB at 1.3 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/oauth-client/google-oauth-client/1.33.2/google-oauth-client-1.33.2.pom
+Progress (1): 3.5 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/oauth-client/google-oauth-client/1.33.2/google-oauth-client-1.33.2.pom (3.5 kB at 383 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/oauth-client/google-oauth-client-parent/1.33.2/google-oauth-client-parent-1.33.2.pom
+Progress (1): 4.1/21 kB
+Progress (1): 8.2/21 kB
+Progress (1): 12/21 kB 
+Progress (1): 16/21 kB
+Progress (1): 20/21 kB
+Progress (1): 21 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/oauth-client/google-oauth-client-parent/1.33.2/google-oauth-client-parent-1.33.2.pom (21 kB at 1.9 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/http-client/google-http-client-bom/1.41.6/google-http-client-bom-1.41.6.pom
+Progress (1): 4.1/6.8 kB
+Progress (1): 6.8 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/http-client/google-http-client-bom/1.41.6/google-http-client-bom-1.41.6.pom (6.8 kB at 621 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/http-client/google-http-client-apache-v2/1.39.2/google-http-client-apache-v2-1.39.2.pom
+Progress (1): 3.6 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/http-client/google-http-client-apache-v2/1.39.2/google-http-client-apache-v2-1.39.2.pom (3.6 kB at 402 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/api-client/google-api-client-gson/1.34.1/google-api-client-gson-1.34.1.pom
+Progress (1): 3.3 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/api-client/google-api-client-gson/1.34.1/google-api-client-gson-1.34.1.pom (3.3 kB at 300 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/auto/value/auto-value-annotations/1.8.1/auto-value-annotations-1.8.1.pom
+Progress (1): 2.8 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/auto/value/auto-value-annotations/1.8.1/auto-value-annotations-1.8.1.pom (2.8 kB at 232 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/auto/value/auto-value-parent/1.8.1/auto-value-parent-1.8.1.pom
+Progress (1): 4.1/6.1 kB
+Progress (1): 6.1 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/auto/value/auto-value-parent/1.8.1/auto-value-parent-1.8.1.pom (6.1 kB at 611 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/cloud/google-cloud-storage/1.118.0/google-cloud-storage-1.118.0.pom
+Progress (1): 4.1/24 kB
+Progress (1): 8.2/24 kB
+Progress (1): 12/24 kB 
+Progress (1): 16/24 kB
+Progress (1): 20/24 kB
+Progress (1): 24 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/cloud/google-cloud-storage/1.118.0/google-cloud-storage-1.118.0.pom (24 kB at 2.7 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/http-client/google-http-client-jackson2/1.39.2/google-http-client-jackson2-1.39.2.pom
+Progress (1): 3.0 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/http-client/google-http-client-jackson2/1.39.2/google-http-client-jackson2-1.39.2.pom (3.0 kB at 159 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/oauth-client/google-oauth-client/1.31.5/google-oauth-client-1.31.5.pom
+Progress (1): 3.5 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/oauth-client/google-oauth-client/1.31.5/google-oauth-client-1.31.5.pom (3.5 kB at 246 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/oauth-client/google-oauth-client-parent/1.31.5/google-oauth-client-parent-1.31.5.pom
+Progress (1): 4.1/18 kB
+Progress (1): 8.2/18 kB
+Progress (1): 12/18 kB 
+Progress (1): 16/18 kB
+Progress (1): 18 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/oauth-client/google-oauth-client-parent/1.31.5/google-oauth-client-parent-1.31.5.pom (18 kB at 1.3 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/apis/google-api-services-storage/v1-rev20210127-1.32.1/google-api-services-storage-v1-rev20210127-1.32.1.pom
+Progress (1): 4.1/5.3 kB
+Progress (1): 5.3 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/apis/google-api-services-storage/v1-rev20210127-1.32.1/google-api-services-storage-v1-rev20210127-1.32.1.pom (5.3 kB at 444 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/cloud/google-cloud-core-http/1.95.4/google-cloud-core-http-1.95.4.pom
+Progress (1): 3.1 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/cloud/google-cloud-core-http/1.95.4/google-cloud-core-http-1.95.4.pom (3.1 kB at 439 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/http-client/google-http-client-appengine/1.39.2/google-http-client-appengine-1.39.2.pom
+Progress (1): 3.7 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/http-client/google-http-client-appengine/1.39.2/google-http-client-appengine-1.39.2.pom (3.7 kB at 410 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/api/gax-httpjson/0.83.0/gax-httpjson-0.83.0.pom
+Progress (1): 3.5 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/api/gax-httpjson/0.83.0/gax-httpjson-0.83.0.pom (3.5 kB at 386 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/cloud/google-cloud-core-grpc/1.95.4/google-cloud-core-grpc-1.95.4.pom
+Progress (1): 2.3 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/cloud/google-cloud-core-grpc/1.95.4/google-cloud-core-grpc-1.95.4.pom (2.3 kB at 258 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/net/java/quickcheck/quickcheck/0.6/quickcheck-0.6.pom
+Progress (1): 3.1 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/net/java/quickcheck/quickcheck/0.6/quickcheck-0.6.pom (3.1 kB at 445 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/net/java/quickcheck/quickcheck-all/0.6/quickcheck-all-0.6.pom
+Progress (1): 4.1/4.6 kB
+Progress (1): 4.6 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/net/java/quickcheck/quickcheck-all/0.6/quickcheck-all-0.6.pom (4.6 kB at 576 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/net/java/quickcheck/quickcheck-src-generator/0.6/quickcheck-src-generator-0.6.pom
+Progress (1): 1.4 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/net/java/quickcheck/quickcheck-src-generator/0.6/quickcheck-src-generator-0.6.pom (1.4 kB at 89 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/api-client/google-api-client/1.34.1/google-api-client-1.34.1.jar
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/http-client/google-http-client-apache-v2/1.39.2/google-http-client-apache-v2-1.39.2.jar
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/oauth-client/google-oauth-client/1.33.2/google-oauth-client-1.33.2.jar
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/auto/value/auto-value-annotations/1.8.1/auto-value-annotations-1.8.1.jar
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/api-client/google-api-client-gson/1.34.1/google-api-client-gson-1.34.1.jar
+Progress (1): 4.1/299 kB
+Progress (1): 8.2/299 kB
+Progress (1): 12/299 kB 
+Progress (1): 16/299 kB
+Progress (1): 20/299 kB
+Progress (1): 24/299 kB
+Progress (2): 24/299 kB | 2.7/7.5 kB
+Progress (2): 28/299 kB | 2.7/7.5 kB
+Progress (2): 28/299 kB | 5.5/7.5 kB
+Progress (2): 32/299 kB | 5.5/7.5 kB
+Progress (2): 32/299 kB | 7.5 kB    
+Progress (2): 36/299 kB | 7.5 kB
+Progress (2): 40/299 kB | 7.5 kB
+Progress (2): 44/299 kB | 7.5 kB
+                                
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/auto/value/auto-value-annotations/1.8.1/auto-value-annotations-1.8.1.jar (7.5 kB at 395 kB/s)
+Progress (1): 49/299 kB
+                       
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/cloud/google-cloud-storage/1.118.0/google-cloud-storage-1.118.0.jar
+Progress (1): 53/299 kB
+Progress (1): 57/299 kB
+Progress (1): 61/299 kB
+Progress (1): 65/299 kB
+Progress (2): 65/299 kB | 2.7/4.9 kB
+Progress (2): 69/299 kB | 2.7/4.9 kB
+Progress (3): 69/299 kB | 2.7/4.9 kB | 4.1/71 kB
+Progress (3): 69/299 kB | 4.9 kB | 4.1/71 kB    
+Progress (3): 73/299 kB | 4.9 kB | 4.1/71 kB
+Progress (3): 73/299 kB | 4.9 kB | 8.2/71 kB
+Progress (4): 73/299 kB | 4.9 kB | 8.2/71 kB | 2.7/10 kB
+Progress (4): 73/299 kB | 4.9 kB | 12/71 kB | 2.7/10 kB 
+Progress (4): 77/299 kB | 4.9 kB | 12/71 kB | 2.7/10 kB
+Progress (4): 77/299 kB | 4.9 kB | 12/71 kB | 5.5/10 kB
+Progress (4): 77/299 kB | 4.9 kB | 16/71 kB | 5.5/10 kB
+Progress (5): 77/299 kB | 4.9 kB | 16/71 kB | 5.5/10 kB | 2.7/351 kB
+Progress (5): 77/299 kB | 4.9 kB | 16/71 kB | 8.2/10 kB | 2.7/351 kB
+Progress (5): 81/299 kB | 4.9 kB | 16/71 kB | 8.2/10 kB | 2.7/351 kB
+Progress (5): 81/299 kB | 4.9 kB | 16/71 kB | 10 kB | 2.7/351 kB    
+Progress (5): 81/299 kB | 4.9 kB | 16/71 kB | 10 kB | 5.5/351 kB
+Progress (5): 81/299 kB | 4.9 kB | 20/71 kB | 10 kB | 5.5/351 kB
+Progress (5): 85/299 kB | 4.9 kB | 20/71 kB | 10 kB | 5.5/351 kB
+                                                                
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/api-client/google-api-client-gson/1.34.1/google-api-client-gson-1.34.1.jar (4.9 kB at 167 kB/s)
+Progress (4): 90/299 kB | 20/71 kB | 10 kB | 5.5/351 kB
+Progress (4): 90/299 kB | 25/71 kB | 10 kB | 5.5/351 kB
+Progress (4): 90/299 kB | 25/71 kB | 10 kB | 8.2/351 kB
+Progress (4): 90/299 kB | 29/71 kB | 10 kB | 8.2/351 kB
+Progress (4): 94/299 kB | 29/71 kB | 10 kB | 8.2/351 kB
+                                                       
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/http-client/google-http-client-jackson2/1.39.2/google-http-client-jackson2-1.39.2.jar
+Progress (4): 94/299 kB | 29/71 kB | 10 kB | 11/351 kB
+Progress (4): 98/299 kB | 29/71 kB | 10 kB | 11/351 kB
+Progress (4): 98/299 kB | 33/71 kB | 10 kB | 11/351 kB
+                                                      
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/http-client/google-http-client-apache-v2/1.39.2/google-http-client-apache-v2-1.39.2.jar (10 kB at 325 kB/s)
+Progress (3): 98/299 kB | 33/71 kB | 14/351 kB
+                                              
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/apis/google-api-services-storage/v1-rev20210127-1.32.1/google-api-services-storage-v1-rev20210127-1.32.1.jar
+Progress (3): 102/299 kB | 33/71 kB | 14/351 kB
+Progress (3): 102/299 kB | 37/71 kB | 14/351 kB
+Progress (3): 106/299 kB | 37/71 kB | 14/351 kB
+Progress (3): 106/299 kB | 37/71 kB | 16/351 kB
+Progress (3): 110/299 kB | 37/71 kB | 16/351 kB
+Progress (3): 110/299 kB | 41/71 kB | 16/351 kB
+Progress (3): 114/299 kB | 41/71 kB | 16/351 kB
+Progress (3): 114/299 kB | 45/71 kB | 16/351 kB
+Progress (3): 114/299 kB | 45/71 kB | 20/351 kB
+Progress (3): 114/299 kB | 49/71 kB | 20/351 kB
+Progress (3): 118/299 kB | 49/71 kB | 20/351 kB
+Progress (3): 118/299 kB | 49/71 kB | 24/351 kB
+Progress (4): 118/299 kB | 49/71 kB | 24/351 kB | 2.7/8.4 kB
+Progress (4): 122/299 kB | 49/71 kB | 24/351 kB | 2.7/8.4 kB
+Progress (4): 122/299 kB | 53/71 kB | 24/351 kB | 2.7/8.4 kB
+Progress (4): 122/299 kB | 53/71 kB | 28/351 kB | 2.7/8.4 kB
+Progress (4): 122/299 kB | 57/71 kB | 28/351 kB | 2.7/8.4 kB
+Progress (4): 126/299 kB | 57/71 kB | 28/351 kB | 2.7/8.4 kB
+Progress (4): 126/299 kB | 57/71 kB | 28/351 kB | 5.5/8.4 kB
+Progress (4): 131/299 kB | 57/71 kB | 28/351 kB | 5.5/8.4 kB
+Progress (4): 131/299 kB | 61/71 kB | 28/351 kB | 5.5/8.4 kB
+Progress (4): 131/299 kB | 61/71 kB | 32/351 kB | 5.5/8.4 kB
+Progress (4): 131/299 kB | 66/71 kB | 32/351 kB | 5.5/8.4 kB
+Progress (4): 131/299 kB | 66/71 kB | 32/351 kB | 8.2/8.4 kB
+Progress (5): 131/299 kB | 66/71 kB | 32/351 kB | 8.2/8.4 kB | 4.1/187 kB
+Progress (5): 131/299 kB | 70/71 kB | 32/351 kB | 8.2/8.4 kB | 4.1/187 kB
+Progress (5): 131/299 kB | 70/71 kB | 36/351 kB | 8.2/8.4 kB | 4.1/187 kB
+Progress (5): 131/299 kB | 70/71 kB | 36/351 kB | 8.2/8.4 kB | 8.2/187 kB
+Progress (5): 131/299 kB | 70/71 kB | 36/351 kB | 8.4 kB | 8.2/187 kB    
+Progress (5): 135/299 kB | 70/71 kB | 36/351 kB | 8.4 kB | 8.2/187 kB
+Progress (5): 135/299 kB | 70/71 kB | 36/351 kB | 8.4 kB | 12/187 kB 
+Progress (5): 135/299 kB | 70/71 kB | 40/351 kB | 8.4 kB | 12/187 kB
+Progress (5): 135/299 kB | 71 kB | 40/351 kB | 8.4 kB | 12/187 kB   
+Progress (5): 135/299 kB | 71 kB | 44/351 kB | 8.4 kB | 12/187 kB
+Progress (5): 135/299 kB | 71 kB | 44/351 kB | 8.4 kB | 16/187 kB
+Progress (5): 139/299 kB | 71 kB | 44/351 kB | 8.4 kB | 16/187 kB
+Progress (5): 139/299 kB | 71 kB | 49/351 kB | 8.4 kB | 16/187 kB
+Progress (5): 143/299 kB | 71 kB | 49/351 kB | 8.4 kB | 16/187 kB
+Progress (5): 143/299 kB | 71 kB | 49/351 kB | 8.4 kB | 20/187 kB
+Progress (5): 147/299 kB | 71 kB | 49/351 kB | 8.4 kB | 20/187 kB
+Progress (5): 147/299 kB | 71 kB | 49/351 kB | 8.4 kB | 25/187 kB
+Progress (5): 147/299 kB | 71 kB | 49/351 kB | 8.4 kB | 29/187 kB
+Progress (5): 147/299 kB | 71 kB | 53/351 kB | 8.4 kB | 29/187 kB
+Progress (5): 147/299 kB | 71 kB | 53/351 kB | 8.4 kB | 33/187 kB
+Progress (5): 151/299 kB | 71 kB | 53/351 kB | 8.4 kB | 33/187 kB
+Progress (5): 151/299 kB | 71 kB | 57/351 kB | 8.4 kB | 33/187 kB
+Progress (5): 155/299 kB | 71 kB | 57/351 kB | 8.4 kB | 33/187 kB
+Progress (5): 155/299 kB | 71 kB | 61/351 kB | 8.4 kB | 33/187 kB
+Progress (5): 155/299 kB | 71 kB | 61/351 kB | 8.4 kB | 37/187 kB
+Progress (5): 155/299 kB | 71 kB | 65/351 kB | 8.4 kB | 37/187 kB
+Progress (5): 159/299 kB | 71 kB | 65/351 kB | 8.4 kB | 37/187 kB
+Progress (5): 159/299 kB | 71 kB | 65/351 kB | 8.4 kB | 41/187 kB
+Progress (5): 163/299 kB | 71 kB | 65/351 kB | 8.4 kB | 41/187 kB
+Progress (5): 163/299 kB | 71 kB | 65/351 kB | 8.4 kB | 45/187 kB
+Progress (5): 163/299 kB | 71 kB | 65/351 kB | 8.4 kB | 49/187 kB
+Progress (5): 163/299 kB | 71 kB | 69/351 kB | 8.4 kB | 49/187 kB
+Progress (5): 163/299 kB | 71 kB | 73/351 kB | 8.4 kB | 49/187 kB
+                                                                 
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/http-client/google-http-client-jackson2/1.39.2/google-http-client-jackson2-1.39.2.jar (8.4 kB at 200 kB/s)
+Progress (4): 163/299 kB | 71 kB | 73/351 kB | 53/187 kB
+                                                        
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/oauth-client/google-oauth-client/1.33.2/google-oauth-client-1.33.2.jar (71 kB at 1.7 MB/s)
+Progress (3): 167/299 kB | 73/351 kB | 53/187 kB
+                                                
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/http-client/google-http-client-appengine/1.39.2/google-http-client-appengine-1.39.2.jar
+Progress (3): 167/299 kB | 73/351 kB | 57/187 kB
+                                                
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/cloud/google-cloud-core-http/1.95.4/google-cloud-core-http-1.95.4.jar
+Progress (3): 167/299 kB | 77/351 kB | 57/187 kB
+Progress (3): 167/299 kB | 77/351 kB | 61/187 kB
+Progress (3): 171/299 kB | 77/351 kB | 61/187 kB
+Progress (3): 171/299 kB | 77/351 kB | 66/187 kB
+Progress (3): 171/299 kB | 81/351 kB | 66/187 kB
+Progress (3): 176/299 kB | 81/351 kB | 66/187 kB
+Progress (3): 180/299 kB | 81/351 kB | 66/187 kB
+Progress (3): 180/299 kB | 81/351 kB | 70/187 kB
+Progress (3): 180/299 kB | 81/351 kB | 74/187 kB
+Progress (3): 180/299 kB | 81/351 kB | 78/187 kB
+Progress (3): 180/299 kB | 81/351 kB | 82/187 kB
+Progress (3): 180/299 kB | 85/351 kB | 82/187 kB
+Progress (3): 184/299 kB | 85/351 kB | 82/187 kB
+Progress (3): 184/299 kB | 90/351 kB | 82/187 kB
+Progress (3): 184/299 kB | 90/351 kB | 86/187 kB
+Progress (3): 188/299 kB | 90/351 kB | 86/187 kB
+Progress (3): 188/299 kB | 90/351 kB | 90/187 kB
+Progress (3): 188/299 kB | 94/351 kB | 90/187 kB
+Progress (3): 188/299 kB | 94/351 kB | 94/187 kB
+Progress (3): 192/299 kB | 94/351 kB | 94/187 kB
+Progress (3): 192/299 kB | 94/351 kB | 98/187 kB
+Progress (3): 192/299 kB | 98/351 kB | 98/187 kB
+Progress (3): 196/299 kB | 98/351 kB | 98/187 kB
+Progress (3): 196/299 kB | 98/351 kB | 102/187 kB
+Progress (3): 196/299 kB | 98/351 kB | 106/187 kB
+Progress (3): 196/299 kB | 98/351 kB | 111/187 kB
+Progress (3): 196/299 kB | 98/351 kB | 115/187 kB
+Progress (3): 200/299 kB | 98/351 kB | 115/187 kB
+Progress (3): 200/299 kB | 102/351 kB | 115/187 kB
+Progress (3): 204/299 kB | 102/351 kB | 115/187 kB
+Progress (3): 204/299 kB | 106/351 kB | 115/187 kB
+Progress (3): 208/299 kB | 106/351 kB | 115/187 kB
+Progress (3): 208/299 kB | 106/351 kB | 119/187 kB
+Progress (3): 212/299 kB | 106/351 kB | 119/187 kB
+Progress (3): 212/299 kB | 110/351 kB | 119/187 kB
+Progress (3): 212/299 kB | 110/351 kB | 123/187 kB
+Progress (3): 212/299 kB | 114/351 kB | 123/187 kB
+Progress (4): 212/299 kB | 114/351 kB | 123/187 kB | 2.7/18 kB
+Progress (4): 212/299 kB | 114/351 kB | 127/187 kB | 2.7/18 kB
+Progress (4): 217/299 kB | 114/351 kB | 127/187 kB | 2.7/18 kB
+Progress (5): 217/299 kB | 114/351 kB | 127/187 kB | 2.7/18 kB | 4.1/15 kB
+Progress (5): 217/299 kB | 114/351 kB | 127/187 kB | 5.5/18 kB | 4.1/15 kB
+Progress (5): 221/299 kB | 114/351 kB | 127/187 kB | 5.5/18 kB | 4.1/15 kB
+Progress (5): 221/299 kB | 114/351 kB | 131/187 kB | 5.5/18 kB | 4.1/15 kB
+Progress (5): 221/299 kB | 114/351 kB | 131/187 kB | 8.2/18 kB | 4.1/15 kB
+Progress (5): 225/299 kB | 114/351 kB | 131/187 kB | 8.2/18 kB | 4.1/15 kB
+Progress (5): 225/299 kB | 118/351 kB | 131/187 kB | 8.2/18 kB | 4.1/15 kB
+Progress (5): 225/299 kB | 118/351 kB | 131/187 kB | 8.2/18 kB | 8.2/15 kB
+Progress (5): 225/299 kB | 118/351 kB | 131/187 kB | 11/18 kB | 8.2/15 kB 
+Progress (5): 225/299 kB | 118/351 kB | 135/187 kB | 11/18 kB | 8.2/15 kB
+Progress (5): 229/299 kB | 118/351 kB | 135/187 kB | 11/18 kB | 8.2/15 kB
+Progress (5): 229/299 kB | 118/351 kB | 135/187 kB | 14/18 kB | 8.2/15 kB
+Progress (5): 229/299 kB | 118/351 kB | 139/187 kB | 14/18 kB | 8.2/15 kB
+Progress (5): 229/299 kB | 118/351 kB | 139/187 kB | 14/18 kB | 12/15 kB 
+Progress (5): 229/299 kB | 122/351 kB | 139/187 kB | 14/18 kB | 12/15 kB
+Progress (5): 229/299 kB | 122/351 kB | 139/187 kB | 14/18 kB | 15 kB   
+Progress (5): 233/299 kB | 122/351 kB | 139/187 kB | 14/18 kB | 15 kB
+Progress (5): 233/299 kB | 122/351 kB | 139/187 kB | 16/18 kB | 15 kB
+Progress (5): 233/299 kB | 122/351 kB | 143/187 kB | 16/18 kB | 15 kB
+Progress (5): 237/299 kB | 122/351 kB | 143/187 kB | 16/18 kB | 15 kB
+Progress (5): 237/299 kB | 126/351 kB | 143/187 kB | 16/18 kB | 15 kB
+Progress (5): 241/299 kB | 126/351 kB | 143/187 kB | 16/18 kB | 15 kB
+Progress (5): 241/299 kB | 126/351 kB | 143/187 kB | 18 kB | 15 kB   
+Progress (5): 241/299 kB | 126/351 kB | 147/187 kB | 18 kB | 15 kB
+Progress (5): 245/299 kB | 126/351 kB | 147/187 kB | 18 kB | 15 kB
+Progress (5): 245/299 kB | 131/351 kB | 147/187 kB | 18 kB | 15 kB
+Progress (5): 245/299 kB | 131/351 kB | 152/187 kB | 18 kB | 15 kB
+Progress (5): 245/299 kB | 131/351 kB | 156/187 kB | 18 kB | 15 kB
+Progress (5): 249/299 kB | 131/351 kB | 156/187 kB | 18 kB | 15 kB
+Progress (5): 249/299 kB | 131/351 kB | 160/187 kB | 18 kB | 15 kB
+Progress (5): 253/299 kB | 131/351 kB | 160/187 kB | 18 kB | 15 kB
+Progress (5): 253/299 kB | 131/351 kB | 164/187 kB | 18 kB | 15 kB
+Progress (5): 257/299 kB | 131/351 kB | 164/187 kB | 18 kB | 15 kB
+Progress (5): 257/299 kB | 135/351 kB | 164/187 kB | 18 kB | 15 kB
+Progress (5): 262/299 kB | 135/351 kB | 164/187 kB | 18 kB | 15 kB
+Progress (5): 262/299 kB | 139/351 kB | 164/187 kB | 18 kB | 15 kB
+Progress (5): 262/299 kB | 139/351 kB | 168/187 kB | 18 kB | 15 kB
+Progress (5): 262/299 kB | 143/351 kB | 168/187 kB | 18 kB | 15 kB
+Progress (5): 266/299 kB | 143/351 kB | 168/187 kB | 18 kB | 15 kB
+Progress (5): 266/299 kB | 143/351 kB | 172/187 kB | 18 kB | 15 kB
+Progress (5): 270/299 kB | 143/351 kB | 172/187 kB | 18 kB | 15 kB
+Progress (5): 270/299 kB | 147/351 kB | 172/187 kB | 18 kB | 15 kB
+Progress (5): 274/299 kB | 147/351 kB | 172/187 kB | 18 kB | 15 kB
+                                                                  
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/cloud/google-cloud-core-http/1.95.4/google-cloud-core-http-1.95.4.jar (15 kB at 265 kB/s)
+Progress (4): 274/299 kB | 147/351 kB | 176/187 kB | 18 kB
+                                                          
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/api/gax-httpjson/0.83.0/gax-httpjson-0.83.0.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/http-client/google-http-client-appengine/1.39.2/google-http-client-appengine-1.39.2.jar (18 kB at 316 kB/s)
+Progress (3): 278/299 kB | 147/351 kB | 176/187 kB
+                                                  
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/cloud/google-cloud-core-grpc/1.95.4/google-cloud-core-grpc-1.95.4.jar
+Progress (3): 278/299 kB | 151/351 kB | 176/187 kB
+Progress (3): 278/299 kB | 151/351 kB | 180/187 kB
+Progress (3): 278/299 kB | 155/351 kB | 180/187 kB
+Progress (3): 282/299 kB | 155/351 kB | 180/187 kB
+Progress (3): 282/299 kB | 159/351 kB | 180/187 kB
+Progress (3): 282/299 kB | 159/351 kB | 184/187 kB
+Progress (3): 282/299 kB | 163/351 kB | 184/187 kB
+Progress (3): 286/299 kB | 163/351 kB | 184/187 kB
+Progress (3): 286/299 kB | 163/351 kB | 187 kB    
+Progress (3): 290/299 kB | 163/351 kB | 187 kB
+Progress (3): 294/299 kB | 163/351 kB | 187 kB
+Progress (3): 298/299 kB | 163/351 kB | 187 kB
+Progress (3): 298/299 kB | 167/351 kB | 187 kB
+Progress (3): 299 kB | 167/351 kB | 187 kB    
+Progress (3): 299 kB | 171/351 kB | 187 kB
+Progress (3): 299 kB | 176/351 kB | 187 kB
+Progress (3): 299 kB | 180/351 kB | 187 kB
+Progress (3): 299 kB | 184/351 kB | 187 kB
+Progress (3): 299 kB | 188/351 kB | 187 kB
+Progress (3): 299 kB | 192/351 kB | 187 kB
+Progress (3): 299 kB | 196/351 kB | 187 kB
+                                          
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/apis/google-api-services-storage/v1-rev20210127-1.32.1/google-api-services-storage-v1-rev20210127-1.32.1.jar (187 kB at 3.0 MB/s)
+Progress (3): 299 kB | 196/351 kB | 4.1/81 kB
+                                             
+Downloading from central: https://repo.maven.apache.org/maven2/net/java/quickcheck/quickcheck/0.6/quickcheck-0.6.jar
+Progress (3): 299 kB | 196/351 kB | 8.2/81 kB
+Progress (3): 299 kB | 200/351 kB | 8.2/81 kB
+Progress (3): 299 kB | 200/351 kB | 12/81 kB 
+Progress (4): 299 kB | 200/351 kB | 12/81 kB | 4.1/10 kB
+Progress (4): 299 kB | 204/351 kB | 12/81 kB | 4.1/10 kB
+Progress (4): 299 kB | 204/351 kB | 12/81 kB | 8.2/10 kB
+                                                        
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/api-client/google-api-client/1.34.1/google-api-client-1.34.1.jar (299 kB at 4.6 MB/s)
+Progress (3): 204/351 kB | 16/81 kB | 8.2/10 kB
+                                               
+Downloading from central: https://repo.maven.apache.org/maven2/net/java/quickcheck/quickcheck-src-generator/0.6/quickcheck-src-generator-0.6.jar
+Progress (3): 204/351 kB | 16/81 kB | 10 kB
+Progress (3): 208/351 kB | 16/81 kB | 10 kB
+Progress (3): 212/351 kB | 16/81 kB | 10 kB
+Progress (3): 212/351 kB | 20/81 kB | 10 kB
+Progress (3): 212/351 kB | 25/81 kB | 10 kB
+Progress (3): 212/351 kB | 29/81 kB | 10 kB
+Progress (3): 212/351 kB | 33/81 kB | 10 kB
+Progress (3): 217/351 kB | 33/81 kB | 10 kB
+Progress (3): 221/351 kB | 33/81 kB | 10 kB
+Progress (3): 225/351 kB | 33/81 kB | 10 kB
+Progress (3): 229/351 kB | 33/81 kB | 10 kB
+Progress (4): 229/351 kB | 33/81 kB | 10 kB | 4.1/106 kB
+Progress (4): 229/351 kB | 37/81 kB | 10 kB | 4.1/106 kB
+Progress (4): 229/351 kB | 37/81 kB | 10 kB | 8.2/106 kB
+Progress (4): 229/351 kB | 41/81 kB | 10 kB | 8.2/106 kB
+Progress (4): 229/351 kB | 41/81 kB | 10 kB | 12/106 kB 
+Progress (4): 229/351 kB | 45/81 kB | 10 kB | 12/106 kB
+Progress (4): 229/351 kB | 45/81 kB | 10 kB | 16/106 kB
+Progress (4): 233/351 kB | 45/81 kB | 10 kB | 16/106 kB
+Progress (5): 233/351 kB | 45/81 kB | 10 kB | 16/106 kB | 4.1/29 kB
+Progress (5): 233/351 kB | 49/81 kB | 10 kB | 16/106 kB | 4.1/29 kB
+Progress (5): 233/351 kB | 49/81 kB | 10 kB | 20/106 kB | 4.1/29 kB
+                                                                   
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/cloud/google-cloud-core-grpc/1.95.4/google-cloud-core-grpc-1.95.4.jar (10 kB at 145 kB/s)
+Progress (4): 233/351 kB | 49/81 kB | 20/106 kB | 8.2/29 kB
+Progress (4): 237/351 kB | 49/81 kB | 20/106 kB | 8.2/29 kB
+Progress (4): 237/351 kB | 49/81 kB | 20/106 kB | 12/29 kB 
+Progress (4): 237/351 kB | 53/81 kB | 20/106 kB | 12/29 kB
+Progress (4): 237/351 kB | 53/81 kB | 25/106 kB | 12/29 kB
+Progress (4): 237/351 kB | 57/81 kB | 25/106 kB | 12/29 kB
+Progress (4): 237/351 kB | 57/81 kB | 25/106 kB | 16/29 kB
+Progress (4): 241/351 kB | 57/81 kB | 25/106 kB | 16/29 kB
+Progress (4): 241/351 kB | 61/81 kB | 25/106 kB | 16/29 kB
+Progress (4): 241/351 kB | 61/81 kB | 29/106 kB | 16/29 kB
+Progress (4): 241/351 kB | 66/81 kB | 29/106 kB | 16/29 kB
+Progress (4): 245/351 kB | 66/81 kB | 29/106 kB | 16/29 kB
+Progress (4): 245/351 kB | 66/81 kB | 29/106 kB | 20/29 kB
+Progress (4): 245/351 kB | 66/81 kB | 33/106 kB | 20/29 kB
+Progress (4): 245/351 kB | 66/81 kB | 33/106 kB | 25/29 kB
+Progress (4): 245/351 kB | 66/81 kB | 33/106 kB | 29/29 kB
+Progress (4): 249/351 kB | 66/81 kB | 33/106 kB | 29/29 kB
+Progress (4): 249/351 kB | 66/81 kB | 33/106 kB | 29 kB   
+Progress (4): 249/351 kB | 70/81 kB | 33/106 kB | 29 kB
+Progress (4): 249/351 kB | 70/81 kB | 37/106 kB | 29 kB
+Progress (4): 253/351 kB | 70/81 kB | 37/106 kB | 29 kB
+Progress (4): 253/351 kB | 70/81 kB | 41/106 kB | 29 kB
+Progress (4): 253/351 kB | 74/81 kB | 41/106 kB | 29 kB
+Progress (4): 253/351 kB | 74/81 kB | 45/106 kB | 29 kB
+Progress (4): 257/351 kB | 74/81 kB | 45/106 kB | 29 kB
+Progress (4): 257/351 kB | 74/81 kB | 49/106 kB | 29 kB
+Progress (4): 257/351 kB | 78/81 kB | 49/106 kB | 29 kB
+Progress (4): 262/351 kB | 78/81 kB | 49/106 kB | 29 kB
+Progress (4): 262/351 kB | 81 kB | 49/106 kB | 29 kB   
+Progress (4): 262/351 kB | 81 kB | 53/106 kB | 29 kB
+Progress (4): 262/351 kB | 81 kB | 57/106 kB | 29 kB
+Progress (4): 266/351 kB | 81 kB | 57/106 kB | 29 kB
+Progress (4): 266/351 kB | 81 kB | 61/106 kB | 29 kB
+Progress (4): 270/351 kB | 81 kB | 61/106 kB | 29 kB
+                                                    
+Downloaded from central: https://repo.maven.apache.org/maven2/net/java/quickcheck/quickcheck-src-generator/0.6/quickcheck-src-generator-0.6.jar (29 kB at 373 kB/s)
+Progress (3): 270/351 kB | 81 kB | 66/106 kB
+Progress (3): 274/351 kB | 81 kB | 66/106 kB
+Progress (3): 278/351 kB | 81 kB | 66/106 kB
+Progress (3): 278/351 kB | 81 kB | 70/106 kB
+Progress (3): 278/351 kB | 81 kB | 74/106 kB
+Progress (3): 278/351 kB | 81 kB | 78/106 kB
+Progress (3): 278/351 kB | 81 kB | 82/106 kB
+Progress (3): 282/351 kB | 81 kB | 82/106 kB
+Progress (3): 286/351 kB | 81 kB | 82/106 kB
+Progress (3): 290/351 kB | 81 kB | 82/106 kB
+Progress (3): 294/351 kB | 81 kB | 82/106 kB
+Progress (3): 294/351 kB | 81 kB | 86/106 kB
+Progress (3): 294/351 kB | 81 kB | 90/106 kB
+Progress (3): 294/351 kB | 81 kB | 94/106 kB
+Progress (3): 294/351 kB | 81 kB | 98/106 kB
+                                            
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/api/gax-httpjson/0.83.0/gax-httpjson-0.83.0.jar (81 kB at 973 kB/s)
+Progress (2): 294/351 kB | 102/106 kB
+Progress (2): 298/351 kB | 102/106 kB
+Progress (2): 298/351 kB | 106 kB    
+Progress (2): 303/351 kB | 106 kB
+Progress (2): 307/351 kB | 106 kB
+Progress (2): 311/351 kB | 106 kB
+Progress (2): 315/351 kB | 106 kB
+Progress (2): 319/351 kB | 106 kB
+Progress (2): 323/351 kB | 106 kB
+Progress (2): 327/351 kB | 106 kB
+                                 
+Downloaded from central: https://repo.maven.apache.org/maven2/net/java/quickcheck/quickcheck/0.6/quickcheck-0.6.jar (106 kB at 1.2 MB/s)
+Progress (1): 331/351 kB
+Progress (1): 335/351 kB
+Progress (1): 339/351 kB
+Progress (1): 343/351 kB
+Progress (1): 348/351 kB
+Progress (1): 351 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/cloud/google-cloud-storage/1.118.0/google-cloud-storage-1.118.0.jar (351 kB at 3.7 MB/s)
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ firebase-admin ---
+[INFO] com.google.firebase:firebase-admin:jar:8.2.0
+[INFO] +- com.google.api-client:google-api-client:jar:1.34.1:compile
+[INFO] |  +- com.google.oauth-client:google-oauth-client:jar:1.33.2:compile
+[INFO] |  +- com.google.http-client:google-http-client-gson:jar:1.39.2:compile
+[INFO] |  +- com.google.http-client:google-http-client-apache-v2:jar:1.39.2:compile
+[INFO] |  +- org.apache.httpcomponents:httpcore:jar:4.4.15:compile
+[INFO] |  \- org.apache.httpcomponents:httpclient:jar:4.5.13:compile
+[INFO] +- com.google.api-client:google-api-client-gson:jar:1.34.1:compile
+[INFO] +- com.google.http-client:google-http-client:jar:1.39.2:compile
+[INFO] |  +- com.google.code.findbugs:jsr305:jar:3.0.2:compile
+[INFO] |  +- com.google.j2objc:j2objc-annotations:jar:1.3:compile
+[INFO] |  +- io.opencensus:opencensus-api:jar:0.28.0:compile
+[INFO] |  \- io.opencensus:opencensus-contrib-http-util:jar:0.28.0:compile
+[INFO] +- com.google.api:api-common:jar:1.10.4:compile
+[INFO] |  +- javax.annotation:javax.annotation-api:jar:1.3.2:compile
+[INFO] |  \- com.google.auto.value:auto-value-annotations:jar:1.8.1:compile
+[INFO] +- com.google.auth:google-auth-library-oauth2-http:jar:0.26.0:compile
+[INFO] |  \- com.google.auth:google-auth-library-credentials:jar:0.26.0:compile
+[INFO] +- com.google.cloud:google-cloud-storage:jar:1.118.0:compile
+[INFO] |  +- com.google.guava:failureaccess:jar:1.0.1:compile
+[INFO] |  +- com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:compile
+[INFO] |  +- org.checkerframework:checker-compat-qual:jar:2.5.5:compile
+[INFO] |  +- com.google.errorprone:error_prone_annotations:jar:2.7.1:compile
+[INFO] |  +- com.google.http-client:google-http-client-jackson2:jar:1.39.2:compile
+[INFO] |  +- com.fasterxml.jackson.core:jackson-core:jar:2.12.3:compile
+[INFO] |  +- com.google.apis:google-api-services-storage:jar:v1-rev20210127-1.32.1:compile
+[INFO] |  +- com.google.code.gson:gson:jar:2.8.7:compile
+[INFO] |  +- com.google.cloud:google-cloud-core:jar:1.95.4:compile
+[INFO] |  +- com.google.api.grpc:proto-google-common-protos:jar:2.3.2:compile
+[INFO] |  +- com.google.cloud:google-cloud-core-http:jar:1.95.4:compile
+[INFO] |  +- com.google.http-client:google-http-client-appengine:jar:1.39.2:compile
+[INFO] |  +- com.google.api:gax-httpjson:jar:0.83.0:compile
+[INFO] |  +- com.google.api:gax:jar:1.66.0:compile
+[INFO] |  +- io.grpc:grpc-context:jar:1.39.0:compile
+[INFO] |  +- com.google.api.grpc:proto-google-iam-v1:jar:1.0.14:compile
+[INFO] |  +- com.google.protobuf:protobuf-java:jar:3.17.3:compile
+[INFO] |  +- com.google.protobuf:protobuf-java-util:jar:3.17.3:compile
+[INFO] |  \- org.threeten:threetenbp:jar:1.5.1:compile
+[INFO] +- com.google.cloud:google-cloud-firestore:jar:2.6.1:compile
+[INFO] |  +- com.google.cloud:google-cloud-core-grpc:jar:1.95.4:compile
+[INFO] |  +- io.grpc:grpc-core:jar:1.39.0:compile
+[INFO] |  +- com.google.android:annotations:jar:4.1.1.4:runtime
+[INFO] |  +- org.codehaus.mojo:animal-sniffer-annotations:jar:1.20:runtime
+[INFO] |  +- io.perfmark:perfmark-api:jar:0.23.0:runtime
+[INFO] |  +- commons-logging:commons-logging:jar:1.2:compile
+[INFO] |  +- commons-codec:commons-codec:jar:1.15:compile
+[INFO] |  +- com.google.api.grpc:proto-google-cloud-firestore-v1:jar:2.6.1:compile
+[INFO] |  +- com.google.cloud:proto-google-cloud-firestore-bundle-v1:jar:2.6.1:compile
+[INFO] |  +- io.opencensus:opencensus-contrib-grpc-util:jar:0.28.0:compile
+[INFO] |  +- io.grpc:grpc-protobuf:jar:1.39.0:compile
+[INFO] |  +- io.grpc:grpc-protobuf-lite:jar:1.39.0:compile
+[INFO] |  +- io.grpc:grpc-api:jar:1.39.0:compile
+[INFO] |  +- com.google.api:gax-grpc:jar:1.66.0:compile
+[INFO] |  +- io.grpc:grpc-auth:jar:1.39.0:compile
+[INFO] |  +- io.grpc:grpc-netty-shaded:jar:1.39.0:compile
+[INFO] |  +- io.grpc:grpc-alts:jar:1.39.0:compile
+[INFO] |  +- io.grpc:grpc-grpclb:jar:1.39.0:compile
+[INFO] |  +- org.conscrypt:conscrypt-openjdk-uber:jar:2.5.1:compile
+[INFO] |  \- io.grpc:grpc-stub:jar:1.39.0:compile
+[INFO] +- com.google.guava:guava:jar:30.1.1-android:compile
+[INFO] +- org.slf4j:slf4j-api:jar:1.7.36:compile
+[INFO] +- io.netty:netty-codec-http:jar:4.1.77.Final:compile
+[INFO] |  +- io.netty:netty-common:jar:4.1.77.Final:compile
+[INFO] |  +- io.netty:netty-buffer:jar:4.1.77.Final:compile
+[INFO] |  \- io.netty:netty-codec:jar:4.1.77.Final:compile
+[INFO] +- io.netty:netty-handler:jar:4.1.77.Final:compile
+[INFO] |  \- io.netty:netty-resolver:jar:4.1.77.Final:compile
+[INFO] +- io.netty:netty-transport:jar:4.1.77.Final:compile
+[INFO] +- org.mockito:mockito-core:jar:2.28.2:test
+[INFO] |  +- net.bytebuddy:byte-buddy:jar:1.9.10:test
+[INFO] |  +- net.bytebuddy:byte-buddy-agent:jar:1.9.10:test
+[INFO] |  \- org.objenesis:objenesis:jar:2.6:test
+[INFO] +- net.java.quickcheck:quickcheck:jar:0.6:test
+[INFO] |  \- net.java.quickcheck:quickcheck-src-generator:jar:0.6:test
+[INFO] +- junit:junit:jar:4.13.2:test
+[INFO] |  \- org.hamcrest:hamcrest-core:jar:1.3:test
+[INFO] \- javax.ws.rs:javax.ws.rs-api:jar:2.1.1:test
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.934 s
+[INFO] Finished at: 2023-09-25T21:41:33Z
+[INFO] ------------------------------------------------------------------------

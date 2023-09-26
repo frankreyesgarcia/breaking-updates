@@ -1,187 +1,68 @@
 [INFO] Scanning for projects...
 Downloading from central: https://repo.maven.apache.org/maven2/com/jcabi/jcabi/1.35.0/jcabi-1.35.0.pom
-Progress (1): 1.4/5.8 kB
 Progress (1): 2.7/5.8 kB
-Progress (1): 4.1/5.8 kB
 Progress (1): 5.5/5.8 kB
 Progress (1): 5.8 kB    
                     
-Downloaded from central: https://repo.maven.apache.org/maven2/com/jcabi/jcabi/1.35.0/jcabi-1.35.0.pom (5.8 kB at 14 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/com/jcabi/jcabi/1.35.0/jcabi-1.35.0.pom (5.8 kB at 18 kB/s)
 Downloading from central: https://repo.maven.apache.org/maven2/com/jcabi/parent/0.62.0/parent-0.62.0.pom
+Progress (1): 4.1/63 kB
+Progress (1): 8.2/63 kB
+Progress (1): 12/63 kB 
 Progress (1): 16/63 kB
+Progress (1): 20/63 kB
+Progress (1): 25/63 kB
+Progress (1): 29/63 kB
 Progress (1): 33/63 kB
+Progress (1): 37/63 kB
+Progress (1): 41/63 kB
+Progress (1): 45/63 kB
 Progress (1): 49/63 kB
+Progress (1): 53/63 kB
+Progress (1): 57/63 kB
+Progress (1): 61/63 kB
 Progress (1): 63 kB   
                    
-Downloaded from central: https://repo.maven.apache.org/maven2/com/jcabi/parent/0.62.0/parent-0.62.0.pom (63 kB at 947 kB/s)
-Downloading from oss.sonatype.org: https://oss.sonatype.org/content/groups/public/com/jcabi/jcabi-maven-plugin/0.16.0/jcabi-maven-plugin-0.16.0.pom
-Progress (1): 1.4/10 kB
-Progress (1): 2.7/10 kB
-Progress (1): 4.1/10 kB
-Progress (1): 5.5/10 kB
-Progress (1): 6.9/10 kB
-Progress (1): 8.2/10 kB
-Progress (1): 9.6/10 kB
-Progress (1): 10 kB    
-                   
-Downloaded from oss.sonatype.org: https://oss.sonatype.org/content/groups/public/com/jcabi/jcabi-maven-plugin/0.16.0/jcabi-maven-plugin-0.16.0.pom (10 kB at 22 kB/s)
-Downloading from oss.sonatype.org: https://oss.sonatype.org/content/groups/public/com/jcabi/jcabi/1.31.0/jcabi-1.31.0.pom
-Progress (1): 1.4/5.8 kB
-Progress (1): 2.7/5.8 kB
-Progress (1): 4.1/5.8 kB
-Progress (1): 5.5/5.8 kB
-Progress (1): 5.8 kB    
-                    
-Downloaded from oss.sonatype.org: https://oss.sonatype.org/content/groups/public/com/jcabi/jcabi/1.31.0/jcabi-1.31.0.pom (5.8 kB at 30 kB/s)
-Downloading from oss.sonatype.org: https://oss.sonatype.org/content/groups/public/com/jcabi/parent/0.57.0/parent-0.57.0.pom
-Progress (1): 16/63 kB
-Progress (1): 33/63 kB
-Progress (1): 49/63 kB
-Progress (1): 63 kB   
-                   
-Downloaded from oss.sonatype.org: https://oss.sonatype.org/content/groups/public/com/jcabi/parent/0.57.0/parent-0.57.0.pom (63 kB at 335 kB/s)
-Downloading from oss.sonatype.org: https://oss.sonatype.org/content/groups/public/com/jcabi/jcabi-maven-plugin/0.16.0/jcabi-maven-plugin-0.16.0.jar
-Progress (1): 16/22 kB
-Progress (1): 22 kB   
-                   
-Downloaded from oss.sonatype.org: https://oss.sonatype.org/content/groups/public/com/jcabi/jcabi-maven-plugin/0.16.0/jcabi-maven-plugin-0.16.0.jar (22 kB at 121 kB/s)
-Downloading from oss.sonatype.org: https://oss.sonatype.org/content/groups/public/com/jcabi/jcabi-ssl-maven-plugin/0.13.0/jcabi-ssl-maven-plugin-0.13.0.pom
-Progress (1): 9.0 kB
-                    
-Downloaded from oss.sonatype.org: https://oss.sonatype.org/content/groups/public/com/jcabi/jcabi-ssl-maven-plugin/0.13.0/jcabi-ssl-maven-plugin-0.13.0.pom (9.0 kB at 46 kB/s)
-Downloading from oss.sonatype.org: https://oss.sonatype.org/content/groups/public/com/jcabi/jcabi-ssl-maven-plugin/0.13.0/jcabi-ssl-maven-plugin-0.13.0.jar
-Progress (1): 16/31 kB
-Progress (1): 31 kB   
-                   
-Downloaded from oss.sonatype.org: https://oss.sonatype.org/content/groups/public/com/jcabi/jcabi-ssl-maven-plugin/0.13.0/jcabi-ssl-maven-plugin-0.13.0.jar (31 kB at 112 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/com/jcabi/parent/0.62.0/parent-0.62.0.pom (63 kB at 481 kB/s)
 [INFO] 
 [INFO] ------------------------< com.jcabi:jcabi-ssh >-------------------------
 [INFO] Building jcabi-ssh 2.0-SNAPSHOT
-[INFO]   from pom.xml
 [INFO] --------------------------------[ jar ]---------------------------------
-Downloading from central: https://repo.maven.apache.org/maven2/org/mockito/mockito-core/4.7.0/mockito-core-4.7.0.pom
-Progress (1): 2.5 kB
-                    
-Downloaded from central: https://repo.maven.apache.org/maven2/org/mockito/mockito-core/4.7.0/mockito-core-4.7.0.pom (2.5 kB at 227 kB/s)
 Downloading from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.12.13/byte-buddy-1.12.13.pom
-Progress (1): 16 kB
+Progress (1): 4.1/16 kB
+Progress (1): 8.2/16 kB
+Progress (1): 12/16 kB 
+Progress (1): 16 kB   
                    
-Downloaded from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.12.13/byte-buddy-1.12.13.pom (16 kB at 1.3 MB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-parent/1.12.13/byte-buddy-parent-1.12.13.pom
-Progress (1): 16/52 kB
-Progress (1): 33/52 kB
-Progress (1): 49/52 kB
-Progress (1): 52 kB   
-                   
-Downloaded from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-parent/1.12.13/byte-buddy-parent-1.12.13.pom (52 kB at 2.9 MB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.12.13/byte-buddy-agent-1.12.13.pom
-Progress (1): 11 kB
-                   
-Downloaded from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.12.13/byte-buddy-agent-1.12.13.pom (11 kB at 945 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.12.13/byte-buddy-1.12.13.pom (16 kB at 1.1 MB/s)
 Downloading from central: https://repo.maven.apache.org/maven2/com/github/mwiede/jsch/0.2.9/jsch-0.2.9.pom
 Progress (1): 2.1 kB
                     
-Downloaded from central: https://repo.maven.apache.org/maven2/com/github/mwiede/jsch/0.2.9/jsch-0.2.9.pom (2.1 kB at 205 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/com/github/mwiede/jsch/0.2.9/jsch-0.2.9.pom (2.1 kB at 228 kB/s)
 Downloading from central: https://repo.maven.apache.org/maven2/org/testcontainers/testcontainers/1.18.1/testcontainers-1.18.1.pom
-Progress (1): 2.6 kB
-                    
-Downloaded from central: https://repo.maven.apache.org/maven2/org/testcontainers/testcontainers/1.18.1/testcontainers-1.18.1.pom (2.6 kB at 326 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/com/github/docker-java/docker-java-api/3.3.0/docker-java-api-3.3.0.pom
-Progress (1): 2.3 kB
-                    
-Downloaded from central: https://repo.maven.apache.org/maven2/com/github/docker-java/docker-java-api/3.3.0/docker-java-api-3.3.0.pom (2.3 kB at 285 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/com/github/docker-java/docker-java-parent/3.3.0/docker-java-parent-3.3.0.pom
-Progress (1): 12 kB
-                   
-Downloaded from central: https://repo.maven.apache.org/maven2/com/github/docker-java/docker-java-parent/3.3.0/docker-java-parent-3.3.0.pom (12 kB at 2.0 MB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/com/github/docker-java/docker-java-transport-zerodep/3.3.0/docker-java-transport-zerodep-3.3.0.pom
-Progress (1): 4.1 kB
-                    
-Downloaded from central: https://repo.maven.apache.org/maven2/com/github/docker-java/docker-java-transport-zerodep/3.3.0/docker-java-transport-zerodep-3.3.0.pom (4.1 kB at 681 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/com/github/docker-java/docker-java-transport/3.3.0/docker-java-transport-3.3.0.pom
-Progress (1): 1.6 kB
-                    
-Downloaded from central: https://repo.maven.apache.org/maven2/com/github/docker-java/docker-java-transport/3.3.0/docker-java-transport-3.3.0.pom (1.6 kB at 205 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/testcontainers/testcontainers/1.18.1/testcontainers-1.18.1.pom (0 B at 0 B/s)
 Downloading from central: https://repo.maven.apache.org/maven2/org/testcontainers/junit-jupiter/1.18.1/junit-jupiter-1.18.1.pom
 Progress (1): 1.5 kB
                     
-Downloaded from central: https://repo.maven.apache.org/maven2/org/testcontainers/junit-jupiter/1.18.1/junit-jupiter-1.18.1.pom (1.5 kB at 170 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/testcontainers/junit-jupiter/1.18.1/junit-jupiter-1.18.1.pom (1.5 kB at 219 kB/s)
 Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-reload4j/2.0.0/slf4j-reload4j-2.0.0.pom
 Progress (1): 1.9 kB
                     
-Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-reload4j/2.0.0/slf4j-reload4j-2.0.0.pom (1.9 kB at 91 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-reload4j/2.0.0/slf4j-reload4j-2.0.0.pom (1.9 kB at 113 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/2.0.0/slf4j-parent-2.0.0.pom
+Progress (1): 4.1/16 kB
+Progress (1): 8.2/16 kB
+Progress (1): 12/16 kB 
+Progress (1): 16 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/2.0.0/slf4j-parent-2.0.0.pom (16 kB at 1.3 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/2.0.0/slf4j-api-2.0.0.pom
+Progress (1): 1.6 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/2.0.0/slf4j-api-2.0.0.pom (1.6 kB at 107 kB/s)
 [WARNING] The artifact org.slf4j:slf4j-log4j12:jar:2.0.7 has been relocated to org.slf4j:slf4j-reload4j:jar:2.0.7
-Downloading from central: https://repo.maven.apache.org/maven2/org/aspectj/aspectjrt/1.9.9.1/aspectjrt-1.9.9.1.jar
-Progress (1): 16/125 kB
-Progress (1): 33/125 kB
-Progress (1): 49/125 kB
-Progress (1): 66/125 kB
-Progress (1): 82/125 kB
-Progress (1): 98/125 kB
-Progress (1): 115/125 kB
-Progress (1): 125 kB    
-                    
-Downloaded from central: https://repo.maven.apache.org/maven2/org/aspectj/aspectjrt/1.9.9.1/aspectjrt-1.9.9.1.jar (125 kB at 6.6 MB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/com/github/mwiede/jsch/0.2.9/jsch-0.2.9.jar
-Progress (1): 16/526 kB
-Progress (1): 33/526 kB
-Progress (1): 49/526 kB
-Progress (1): 66/526 kB
-Progress (1): 82/526 kB
-Progress (1): 98/526 kB
-Progress (1): 115/526 kB
-Progress (1): 131/526 kB
-Progress (1): 147/526 kB
-Progress (1): 164/526 kB
-Progress (1): 180/526 kB
-Progress (1): 197/526 kB
-Progress (1): 213/526 kB
-Progress (1): 229/526 kB
-Progress (1): 246/526 kB
-Progress (1): 256/526 kB
-Progress (1): 272/526 kB
-Progress (1): 289/526 kB
-Progress (1): 305/526 kB
-Progress (1): 321/526 kB
-Progress (1): 338/526 kB
-Progress (1): 354/526 kB
-Progress (1): 370/526 kB
-Progress (1): 387/526 kB
-Progress (1): 403/526 kB
-Progress (1): 420/526 kB
-Progress (1): 436/526 kB
-Progress (1): 452/526 kB
-Progress (1): 469/526 kB
-Progress (1): 485/526 kB
-Progress (1): 502/526 kB
-Progress (1): 512/526 kB
-Progress (1): 526 kB    
-                    
-Downloaded from central: https://repo.maven.apache.org/maven2/com/github/mwiede/jsch/0.2.9/jsch-0.2.9.jar (526 kB at 9.7 MB/s)
 [INFO] 
-[INFO] --- enforcer:3.1.0:enforce (enforce-maven) @ jcabi-ssh ---
-[INFO] 
-[INFO] --- buildnumber:3.0.0:create (jcabi-build-number) @ jcabi-ssh ---
-[INFO] ShortRevision tag detected. The value is '7'.
-[INFO] Executing: cmd.exe /X /C "git rev-parse --verify --short=7 HEAD"
-[INFO] Working directory: D:\Bump\breaking-updates\tempProject\54abbbde6a1233e1523a9b5f811ea100efb5dead\jcabi-ssh
-[INFO] Storing buildNumber: c750f43 at timestamp: 2023-09-21T09:23:16
-[INFO] Storing buildScmBranch: rq5-test
-[INFO] 
-[INFO] --- buildnumber:3.0.0:create-timestamp (jcabi-build-number) @ jcabi-ssh ---
-[INFO] Skipping because we are not in root module.
-[INFO] 
-[INFO] --- resources:3.2.0:resources (default-resources) @ jcabi-ssh ---
-[INFO] Using 'UTF-8' encoding to copy filtered resources.
-[INFO] Using 'UTF-8' encoding to copy filtered properties files.
-[INFO] skip non existing resourceDirectory D:\Bump\breaking-updates\tempProject\54abbbde6a1233e1523a9b5f811ea100efb5dead\jcabi-ssh\src\main\resources
-[INFO] 
-[INFO] --- compiler:3.10.1:compile (default-compile) @ jcabi-ssh ---
-[WARNING]  Parameter 'optimize' (user property 'maven.compiler.optimize') is deprecated: This property is a no-op in {@code javac}.
-[INFO] Changes detected - recompiling the module!
-[INFO] Compiling 8 source files to D:\Bump\breaking-updates\tempProject\54abbbde6a1233e1523a9b5f811ea100efb5dead\jcabi-ssh\target\classes
-[INFO] 
-[INFO] --- dependency:3.3.0:tree (default-cli) @ jcabi-ssh ---
+[INFO] --- maven-dependency-plugin:3.3.0:tree (default-cli) @ jcabi-ssh ---
 [WARNING] The artifact org.slf4j:slf4j-log4j12:jar:2.0.7 has been relocated to org.slf4j:slf4j-reload4j:jar:2.0.7
 [INFO] com.jcabi:jcabi-ssh:jar:2.0-SNAPSHOT
 [INFO] +- org.projectlombok:lombok:jar:1.18.28:provided
@@ -232,6 +113,6 @@ Downloaded from central: https://repo.maven.apache.org/maven2/com/github/mwiede/
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  12.632 s
-[INFO] Finished at: 2023-09-21T09:23:19Z
+[INFO] Total time:  2.122 s
+[INFO] Finished at: 2023-09-25T20:59:46Z
 [INFO] ------------------------------------------------------------------------

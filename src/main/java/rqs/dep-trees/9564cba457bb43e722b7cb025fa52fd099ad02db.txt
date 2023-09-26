@@ -1,0 +1,375 @@
+[INFO] Scanning for projects...
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/cloud/google-cloud-shared-config/1.5.6/google-cloud-shared-config-1.5.6.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/cloud/google-cloud-shared-config/1.5.6/google-cloud-shared-config-1.5.6.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/cloud/google-cloud-shared-dependencies/3.12.0/google-cloud-shared-dependencies-3.12.0.pom
+Progress (1): 1.9 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/cloud/google-cloud-shared-dependencies/3.12.0/google-cloud-shared-dependencies-3.12.0.pom (1.9 kB at 14 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/api/gapic-generator-java-pom-parent/2.22.0/gapic-generator-java-pom-parent-2.22.0.pom
+Progress (1): 2.7/7.0 kB
+Progress (1): 5.5/7.0 kB
+Progress (1): 7.0 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/api/gapic-generator-java-pom-parent/2.22.0/gapic-generator-java-pom-parent-2.22.0.pom (7.0 kB at 303 kB/s)
+Downloading from google-maven-central-copy: https://maven-central.storage-download.googleapis.com/maven2/com/google/cloud/first-party-dependencies/3.12.0/first-party-dependencies-3.12.0.pom
+Progress (1): 3.1/3.8 kB
+Progress (1): 3.8 kB    
+                    
+Downloaded from google-maven-central-copy: https://maven-central.storage-download.googleapis.com/maven2/com/google/cloud/first-party-dependencies/3.12.0/first-party-dependencies-3.12.0.pom (3.8 kB at 7.9 kB/s)
+Downloading from google-maven-central-copy: https://maven-central.storage-download.googleapis.com/maven2/com/google/api/gapic-generator-java-bom/2.22.0/gapic-generator-java-bom-2.22.0.pom
+Progress (1): 3.1/4.9 kB
+Progress (1): 4.9 kB    
+                    
+Downloaded from google-maven-central-copy: https://maven-central.storage-download.googleapis.com/maven2/com/google/api/gapic-generator-java-bom/2.22.0/gapic-generator-java-bom-2.22.0.pom (4.9 kB at 14 kB/s)
+Downloading from google-maven-central-copy: https://maven-central.storage-download.googleapis.com/maven2/com/google/auth/google-auth-library-bom/1.18.0/google-auth-library-bom-1.18.0.pom
+Progress (1): 3.1/4.5 kB
+Progress (1): 4.5 kB    
+                    
+Downloaded from google-maven-central-copy: https://maven-central.storage-download.googleapis.com/maven2/com/google/auth/google-auth-library-bom/1.18.0/google-auth-library-bom-1.18.0.pom (4.5 kB at 15 kB/s)
+Downloading from google-maven-central-copy: https://maven-central.storage-download.googleapis.com/maven2/com/google/guava/guava-bom/32.0.1-jre/guava-bom-32.0.1-jre.pom
+Progress (1): 1.7 kB
+                    
+Downloaded from google-maven-central-copy: https://maven-central.storage-download.googleapis.com/maven2/com/google/guava/guava-bom/32.0.1-jre/guava-bom-32.0.1-jre.pom (1.7 kB at 5.0 kB/s)
+Downloading from google-maven-central-copy: https://maven-central.storage-download.googleapis.com/maven2/com/google/api/gax-bom/2.30.0/gax-bom-2.30.0.pom
+Progress (1): 3.1/4.3 kB
+Progress (1): 4.3 kB    
+                    
+Downloaded from google-maven-central-copy: https://maven-central.storage-download.googleapis.com/maven2/com/google/api/gax-bom/2.30.0/gax-bom-2.30.0.pom (4.3 kB at 14 kB/s)
+Downloading from google-maven-central-copy: https://maven-central.storage-download.googleapis.com/maven2/com/google/cloud/google-cloud-core-bom/2.20.0/google-cloud-core-bom-2.20.0.pom
+Progress (1): 1.6 kB
+                    
+Downloaded from google-maven-central-copy: https://maven-central.storage-download.googleapis.com/maven2/com/google/cloud/google-cloud-core-bom/2.20.0/google-cloud-core-bom-2.20.0.pom (1.6 kB at 5.1 kB/s)
+Downloading from google-maven-central-copy: https://maven-central.storage-download.googleapis.com/maven2/com/google/http-client/google-http-client-bom/1.43.3/google-http-client-bom-1.43.3.pom
+Progress (1): 3.1/6.8 kB
+Progress (1): 5.8/6.8 kB
+Progress (1): 6.8 kB    
+                    
+Downloaded from google-maven-central-copy: https://maven-central.storage-download.googleapis.com/maven2/com/google/http-client/google-http-client-bom/1.43.3/google-http-client-bom-1.43.3.pom (6.8 kB at 22 kB/s)
+Downloading from google-maven-central-copy: https://maven-central.storage-download.googleapis.com/maven2/com/google/cloud/third-party-dependencies/3.12.0/third-party-dependencies-3.12.0.pom
+Progress (1): 3.1/5.6 kB
+Progress (1): 5.6 kB    
+                    
+Downloaded from google-maven-central-copy: https://maven-central.storage-download.googleapis.com/maven2/com/google/cloud/third-party-dependencies/3.12.0/third-party-dependencies-3.12.0.pom (5.6 kB at 18 kB/s)
+[INFO] Inspecting build with total of 4 modules...
+[INFO] Installing Nexus Staging features:
+[INFO]   ... total of 4 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Storage Parent                                                     [pom]
+[INFO] Google Cloud NIO                                                   [jar]
+[INFO] Google Cloud NIO Retrofit Example                                  [jar]
+[INFO] Google Cloud NIO Examples                                          [jar]
+[INFO] 
+[INFO] --------------< com.google.cloud:google-cloud-nio-parent >--------------
+[INFO] Building Storage Parent 0.126.18-SNAPSHOT                          [1/4]
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.5.0:tree (default-cli) @ google-cloud-nio-parent ---
+[INFO] com.google.cloud:google-cloud-nio-parent:pom:0.126.18-SNAPSHOT
+[INFO] 
+[INFO] -----------------< com.google.cloud:google-cloud-nio >------------------
+[INFO] Building Google Cloud NIO 0.126.18-SNAPSHOT                        [2/4]
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/cloud/google-cloud-storage/2.22.5/google-cloud-storage-2.22.5.pom
+Progress (1): 2.7/49 kB
+Progress (1): 5.5/49 kB
+Progress (1): 8.2/49 kB
+Progress (1): 11/49 kB 
+Progress (1): 14/49 kB
+Progress (1): 16/49 kB
+Progress (1): 19/49 kB
+Progress (1): 22/49 kB
+Progress (1): 25/49 kB
+Progress (1): 27/49 kB
+Progress (1): 30/49 kB
+Progress (1): 33/49 kB
+Progress (1): 36/49 kB
+Progress (1): 38/49 kB
+Progress (1): 41/49 kB
+Progress (1): 44/49 kB
+Progress (1): 47/49 kB
+Progress (1): 49 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/cloud/google-cloud-storage/2.22.5/google-cloud-storage-2.22.5.pom (49 kB at 388 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/http-client/google-http-client/1.43.3/google-http-client-1.43.3.pom
+Progress (1): 4.1/6.1 kB
+Progress (1): 6.1 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/http-client/google-http-client/1.43.3/google-http-client-1.43.3.pom (6.1 kB at 289 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/http-client/google-http-client-parent/1.43.3/google-http-client-parent-1.43.3.pom
+Progress (1): 4.1/27 kB
+Progress (1): 8.2/27 kB
+Progress (1): 12/27 kB 
+Progress (1): 16/27 kB
+Progress (1): 20/27 kB
+Progress (1): 24/27 kB
+Progress (1): 27 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/http-client/google-http-client-parent/1.43.3/google-http-client-parent-1.43.3.pom (27 kB at 1.3 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/http-client/google-http-client-jackson2/1.43.3/google-http-client-jackson2-1.43.3.pom
+Progress (1): 2.9 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/http-client/google-http-client-jackson2/1.43.3/google-http-client-jackson2-1.43.3.pom (2.9 kB at 320 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/http-client/google-http-client-gson/1.43.3/google-http-client-gson-1.43.3.pom
+Progress (1): 2.9 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/http-client/google-http-client-gson/1.43.3/google-http-client-gson-1.43.3.pom (2.9 kB at 295 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/http-client/google-http-client-apache-v2/1.43.3/google-http-client-apache-v2-1.43.3.pom
+Progress (1): 3.5 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/http-client/google-http-client-apache-v2/1.43.3/google-http-client-apache-v2-1.43.3.pom (3.5 kB at 387 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/apis/google-api-services-storage/v1-rev20230617-2.0.0/google-api-services-storage-v1-rev20230617-2.0.0.pom
+Progress (1): 4.1/5.3 kB
+Progress (1): 5.3 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/apis/google-api-services-storage/v1-rev20230617-2.0.0/google-api-services-storage-v1-rev20230617-2.0.0.pom (5.3 kB at 148 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/cloud/google-cloud-core/2.20.0/google-cloud-core-2.20.0.pom
+Progress (1): 3.4 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/cloud/google-cloud-core/2.20.0/google-cloud-core-2.20.0.pom (3.4 kB at 286 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/cloud/google-cloud-core-parent/2.20.0/google-cloud-core-parent-2.20.0.pom
+Progress (1): 3.0 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/cloud/google-cloud-core-parent/2.20.0/google-cloud-core-parent-2.20.0.pom (3.0 kB at 338 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/cloud/google-cloud-core-http/2.20.0/google-cloud-core-http-2.20.0.pom
+Progress (1): 3.0 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/cloud/google-cloud-core-http/2.20.0/google-cloud-core-http-2.20.0.pom (3.0 kB at 274 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/http-client/google-http-client-appengine/1.43.3/google-http-client-appengine-1.43.3.pom
+Progress (1): 3.7 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/http-client/google-http-client-appengine/1.43.3/google-http-client-appengine-1.43.3.pom (3.7 kB at 462 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/api/gax-httpjson/2.30.0/gax-httpjson-2.30.0.pom
+Progress (1): 3.8 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/api/gax-httpjson/2.30.0/gax-httpjson-2.30.0.pom (3.8 kB at 475 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/api/gax-parent/2.30.0/gax-parent-2.30.0.pom
+Progress (1): 4.1/8.8 kB
+Progress (1): 8.2/8.8 kB
+Progress (1): 8.8 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/api/gax-parent/2.30.0/gax-parent-2.30.0.pom (8.8 kB at 327 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/cloud/google-cloud-core-grpc/2.20.0/google-cloud-core-grpc-2.20.0.pom
+Progress (1): 2.2 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/cloud/google-cloud-core-grpc/2.20.0/google-cloud-core-grpc-2.20.0.pom (2.2 kB at 103 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/api/gax/2.30.0/gax-2.30.0.pom
+Progress (1): 3.1 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/api/gax/2.30.0/gax-2.30.0.pom (3.1 kB at 137 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/api/gax-grpc/2.30.0/gax-grpc-2.30.0.pom
+Progress (1): 3.9 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/api/gax-grpc/2.30.0/gax-grpc-2.30.0.pom (3.9 kB at 39 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-alts/1.55.1/grpc-alts-1.55.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-alts/1.55.1/grpc-alts-1.55.1.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-grpclb/1.55.1/grpc-grpclb-1.55.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-grpclb/1.55.1/grpc-grpclb-1.55.1.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-auth/1.55.1/grpc-auth-1.55.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-auth/1.55.1/grpc-auth-1.55.1.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-protobuf/1.55.1/grpc-protobuf-1.55.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-protobuf/1.55.1/grpc-protobuf-1.55.1.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-protobuf-lite/1.55.1/grpc-protobuf-lite-1.55.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-protobuf-lite/1.55.1/grpc-protobuf-lite-1.55.1.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/auth/google-auth-library-credentials/1.18.0/google-auth-library-credentials-1.18.0.pom
+Progress (1): 2.0 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/auth/google-auth-library-credentials/1.18.0/google-auth-library-credentials-1.18.0.pom (2.0 kB at 178 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/auth/google-auth-library-parent/1.18.0/google-auth-library-parent-1.18.0.pom
+Progress (1): 4.1/18 kB
+Progress (1): 8.2/18 kB
+Progress (1): 12/18 kB 
+Progress (1): 16/18 kB
+Progress (1): 18 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/auth/google-auth-library-parent/1.18.0/google-auth-library-parent-1.18.0.pom (18 kB at 1.5 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/auth/google-auth-library-oauth2-http/1.18.0/google-auth-library-oauth2-http-1.18.0.pom
+Progress (1): 4.1/7.4 kB
+Progress (1): 7.4 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/auth/google-auth-library-oauth2-http/1.18.0/google-auth-library-oauth2-http-1.18.0.pom (7.4 kB at 672 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/api/api-common/2.13.0/api-common-2.13.0.pom
+Progress (1): 4.1/4.9 kB
+Progress (1): 4.9 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/api/api-common/2.13.0/api-common-2.13.0.pom (4.9 kB at 406 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-context/1.55.1/grpc-context-1.55.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-context/1.55.1/grpc-context-1.55.1.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/api/grpc/proto-google-iam-v1/1.16.0/proto-google-iam-v1-1.16.0.pom
+Progress (1): 3.0 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/api/grpc/proto-google-iam-v1/1.16.0/proto-google-iam-v1-1.16.0.pom (3.0 kB at 31 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-java/3.23.2/protobuf-java-3.23.2.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-java/3.23.2/protobuf-java-3.23.2.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-parent/3.23.2/protobuf-parent-3.23.2.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-parent/3.23.2/protobuf-parent-3.23.2.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-java-util/3.23.2/protobuf-java-util-3.23.2.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-java-util/3.23.2/protobuf-java-util-3.23.2.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/api/grpc/proto-google-common-protos/2.21.0/proto-google-common-protos-2.21.0.pom
+Progress (1): 2.7 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/api/grpc/proto-google-common-protos/2.21.0/proto-google-common-protos-2.21.0.pom (2.7 kB at 295 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/threeten/threetenbp/1.6.8/threetenbp-1.6.8.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/threeten/threetenbp/1.6.8/threetenbp-1.6.8.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/api/grpc/proto-google-cloud-storage-v2/2.22.5-alpha/proto-google-cloud-storage-v2-2.22.5-alpha.pom
+Progress (1): 1.4 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/api/grpc/proto-google-cloud-storage-v2/2.22.5-alpha/proto-google-cloud-storage-v2-2.22.5-alpha.pom (1.4 kB at 14 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/cloud/google-cloud-storage-parent/2.22.5/google-cloud-storage-parent-2.22.5.pom
+Progress (1): 4.1/6.9 kB
+Progress (1): 6.9 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/cloud/google-cloud-storage-parent/2.22.5/google-cloud-storage-parent-2.22.5.pom (6.9 kB at 766 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/api/grpc/grpc-google-cloud-storage-v2/2.22.5-alpha/grpc-google-cloud-storage-v2-2.22.5-alpha.pom
+Progress (1): 2.0 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/api/grpc/grpc-google-cloud-storage-v2/2.22.5-alpha/grpc-google-cloud-storage-v2-2.22.5-alpha.pom (2.0 kB at 248 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/api/grpc/gapic-google-cloud-storage-v2/2.22.5-alpha/gapic-google-cloud-storage-v2-2.22.5-alpha.pom
+Progress (1): 3.0 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/api/grpc/gapic-google-cloud-storage-v2/2.22.5-alpha/gapic-google-cloud-storage-v2-2.22.5-alpha.pom (3.0 kB at 376 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-api/1.55.1/grpc-api-1.55.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-api/1.55.1/grpc-api-1.55.1.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-netty-shaded/1.55.1/grpc-netty-shaded-1.55.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-netty-shaded/1.55.1/grpc-netty-shaded-1.55.1.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-core/1.55.1/grpc-core-1.55.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-core/1.55.1/grpc-core-1.55.1.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-stub/1.55.1/grpc-stub-1.55.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-stub/1.55.1/grpc-stub-1.55.1.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-googleapis/1.55.1/grpc-googleapis-1.55.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-googleapis/1.55.1/grpc-googleapis-1.55.1.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-xds/1.55.1/grpc-xds-1.55.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-xds/1.55.1/grpc-xds-1.55.1.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-services/1.55.1/grpc-services-1.55.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-services/1.55.1/grpc-services-1.55.1.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-rls/1.55.1/grpc-rls-1.55.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-rls/1.55.1/grpc-rls-1.55.1.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-testlib/32.0.1-jre/guava-testlib-32.0.1-jre.pom
+Progress (1): 2.8 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-testlib/32.0.1-jre/guava-testlib-32.0.1-jre.pom (2.8 kB at 354 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/truth/truth/1.1.5/truth-1.1.5.pom
+Progress (1): 4.1/8.9 kB
+Progress (1): 8.2/8.9 kB
+Progress (1): 8.9 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/truth/truth/1.1.5/truth-1.1.5.pom (8.9 kB at 497 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/truth/truth-parent/1.1.5/truth-parent-1.1.5.pom
+Progress (1): 4.1/14 kB
+Progress (1): 8.2/14 kB
+Progress (1): 12/14 kB 
+Progress (1): 14 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/truth/truth-parent/1.1.5/truth-parent-1.1.5.pom (14 kB at 1.3 MB/s)
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.5.0:tree (default-cli) @ google-cloud-nio ---
+[INFO] com.google.cloud:google-cloud-nio:jar:0.126.18-SNAPSHOT
+[INFO] +- com.google.cloud:google-cloud-storage:jar:2.22.5:compile
+[INFO] |  +- com.google.guava:failureaccess:jar:1.0.1:compile
+[INFO] |  +- com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:compile
+[INFO] |  +- com.google.errorprone:error_prone_annotations:jar:2.18.0:compile
+[INFO] |  +- com.google.j2objc:j2objc-annotations:jar:2.8:compile
+[INFO] |  +- io.opencensus:opencensus-contrib-http-util:jar:0.31.1:compile
+[INFO] |  +- com.google.http-client:google-http-client-jackson2:jar:1.43.3:compile
+[INFO] |  +- com.google.api-client:google-api-client:jar:2.2.0:compile
+[INFO] |  +- commons-codec:commons-codec:jar:1.15:compile
+[INFO] |  +- com.google.oauth-client:google-oauth-client:jar:1.34.1:compile
+[INFO] |  +- com.google.http-client:google-http-client-apache-v2:jar:1.43.3:compile
+[INFO] |  +- com.google.code.gson:gson:jar:2.10.1:compile
+[INFO] |  +- com.google.cloud:google-cloud-core-http:jar:2.20.0:compile
+[INFO] |  +- com.google.http-client:google-http-client-appengine:jar:1.43.3:compile
+[INFO] |  +- com.google.api:gax-httpjson:jar:2.30.0:compile
+[INFO] |  +- com.google.cloud:google-cloud-core-grpc:jar:2.20.0:compile
+[INFO] |  +- com.google.api:gax-grpc:jar:2.30.0:compile
+[INFO] |  +- io.grpc:grpc-alts:jar:1.55.1:compile
+[INFO] |  +- io.grpc:grpc-grpclb:jar:1.55.1:compile
+[INFO] |  +- org.conscrypt:conscrypt-openjdk-uber:jar:2.5.2:compile
+[INFO] |  +- io.grpc:grpc-auth:jar:1.55.1:compile
+[INFO] |  +- io.grpc:grpc-protobuf:jar:1.55.1:compile
+[INFO] |  +- io.grpc:grpc-protobuf-lite:jar:1.55.1:compile
+[INFO] |  +- com.google.auth:google-auth-library-oauth2-http:jar:1.18.0:compile
+[INFO] |  +- com.google.api:api-common:jar:2.13.0:compile
+[INFO] |  +- javax.annotation:javax.annotation-api:jar:1.3.2:compile
+[INFO] |  +- io.opencensus:opencensus-api:jar:0.31.1:compile
+[INFO] |  +- io.grpc:grpc-context:jar:1.55.1:compile
+[INFO] |  +- com.google.api.grpc:proto-google-iam-v1:jar:1.16.0:compile
+[INFO] |  +- com.google.protobuf:protobuf-java:jar:3.23.2:compile
+[INFO] |  +- com.google.protobuf:protobuf-java-util:jar:3.23.2:compile
+[INFO] |  +- com.google.api.grpc:proto-google-common-protos:jar:2.21.0:compile
+[INFO] |  +- org.threeten:threetenbp:jar:1.6.8:compile
+[INFO] |  +- com.google.api.grpc:proto-google-cloud-storage-v2:jar:2.22.5-alpha:compile
+[INFO] |  +- com.google.api.grpc:grpc-google-cloud-storage-v2:jar:2.22.5-alpha:compile
+[INFO] |  +- com.google.api.grpc:gapic-google-cloud-storage-v2:jar:2.22.5-alpha:compile
+[INFO] |  +- com.fasterxml.jackson.core:jackson-core:jar:2.14.2:compile
+[INFO] |  +- io.grpc:grpc-api:jar:1.55.1:compile
+[INFO] |  +- io.grpc:grpc-netty-shaded:jar:1.55.1:runtime
+[INFO] |  +- io.perfmark:perfmark-api:jar:0.26.0:runtime
+[INFO] |  +- io.grpc:grpc-core:jar:1.55.1:runtime
+[INFO] |  +- com.google.android:annotations:jar:4.1.1.4:runtime
+[INFO] |  +- org.codehaus.mojo:animal-sniffer-annotations:jar:1.23:runtime
+[INFO] |  +- io.grpc:grpc-stub:jar:1.55.1:compile
+[INFO] |  +- io.grpc:grpc-googleapis:jar:1.55.1:runtime
+[INFO] |  +- org.checkerframework:checker-qual:jar:3.33.0:compile
+[INFO] |  +- io.grpc:grpc-xds:jar:1.55.1:runtime
+[INFO] |  +- io.opencensus:opencensus-proto:jar:0.2.0:runtime
+[INFO] |  +- io.grpc:grpc-services:jar:1.55.1:runtime
+[INFO] |  +- com.google.re2j:re2j:jar:1.6:runtime
+[INFO] |  \- io.grpc:grpc-rls:jar:1.55.1:runtime
+[INFO] +- com.google.apis:google-api-services-storage:jar:v1-rev20230617-2.0.0:compile
+[INFO] +- com.google.guava:guava:jar:32.0.1-jre:compile
+[INFO] +- com.google.api:gax:jar:2.30.0:compile
+[INFO] +- com.google.cloud:google-cloud-core:jar:2.20.0:compile
+[INFO] +- com.google.http-client:google-http-client:jar:1.43.3:compile
+[INFO] |  +- org.apache.httpcomponents:httpclient:jar:4.5.14:compile
+[INFO] |  |  \- commons-logging:commons-logging:jar:1.2:compile
+[INFO] |  \- org.apache.httpcomponents:httpcore:jar:4.4.16:compile
+[INFO] +- com.google.http-client:google-http-client-gson:jar:1.43.3:compile
+[INFO] +- com.google.auto.value:auto-value-annotations:jar:1.10.1:provided
+[INFO] +- javax.inject:javax.inject:jar:1:compile
+[INFO] +- com.google.code.findbugs:jsr305:jar:3.0.2:compile
+[INFO] +- junit:junit:jar:4.13.2:test
+[INFO] |  \- org.hamcrest:hamcrest-core:jar:1.3:test
+[INFO] +- com.google.guava:guava-testlib:jar:32.0.1-jre:test
+[INFO] +- com.google.truth:truth:jar:1.1.5:test
+[INFO] |  \- org.ow2.asm:asm:jar:9.5:test
+[INFO] +- com.google.auth:google-auth-library-credentials:jar:1.18.0:test
+[INFO] +- org.mockito:mockito-core:jar:4.11.0:test
+[INFO] |  +- net.bytebuddy:byte-buddy:jar:1.12.19:test
+[INFO] |  +- net.bytebuddy:byte-buddy-agent:jar:1.12.19:test
+[INFO] |  \- org.objenesis:objenesis:jar:3.3:test
+[INFO] \- com.google.cloud:google-cloud-core:jar:tests:2.20.0:test
+[INFO] 
+[INFO] -------------< com.google.cloud:google-cloud-nio-retrofit >-------------
+[INFO] Building Google Cloud NIO Retrofit Example 0.126.18-SNAPSHOT       [3/4]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.5.0:tree (default-cli) @ google-cloud-nio-retrofit ---
+[INFO] com.google.cloud:google-cloud-nio-retrofit:jar:0.126.18-SNAPSHOT
+[INFO] 
+[INFO] -------------< com.google.cloud:google-cloud-nio-examples >-------------
+[INFO] Building Google Cloud NIO Examples 0.126.18-SNAPSHOT               [4/4]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.5.0:tree (default-cli) @ google-cloud-nio-examples ---
+[INFO] com.google.cloud:google-cloud-nio-examples:jar:0.126.18-SNAPSHOT
+[INFO] \- com.google.guava:guava:jar:31.1-android:compile
+[INFO]    +- com.google.guava:failureaccess:jar:1.0.1:compile
+[INFO]    +- com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:compile
+[INFO]    +- com.google.code.findbugs:jsr305:jar:3.0.2:compile
+[INFO]    +- org.checkerframework:checker-qual:jar:3.33.0:compile
+[INFO]    +- com.google.errorprone:error_prone_annotations:jar:2.18.0:compile
+[INFO]    \- com.google.j2objc:j2objc-annotations:jar:1.3:compile
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for Storage Parent 0.126.18-SNAPSHOT:
+[INFO] 
+[INFO] Storage Parent ..................................... SUCCESS [  0.528 s]
+[INFO] Google Cloud NIO ................................... SUCCESS [  1.072 s]
+[INFO] Google Cloud NIO Retrofit Example .................. SUCCESS [  0.010 s]
+[INFO] Google Cloud NIO Examples .......................... SUCCESS [  0.009 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  5.573 s
+[INFO] Finished at: 2023-09-25T21:59:52Z
+[INFO] ------------------------------------------------------------------------

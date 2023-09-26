@@ -1,15 +1,11 @@
 [INFO] Scanning for projects...
 Downloading from central: https://repo.maven.apache.org/maven2/com/spotify/foss-root/15/foss-root-15.pom
-Progress (1): 1.4/10 kB
 Progress (1): 2.7/10 kB
-Progress (1): 4.1/10 kB
 Progress (1): 5.5/10 kB
-Progress (1): 6.9/10 kB
 Progress (1): 8.2/10 kB
-Progress (1): 9.6/10 kB
 Progress (1): 10 kB    
                    
-Downloaded from central: https://repo.maven.apache.org/maven2/com/spotify/foss-root/15/foss-root-15.pom (10 kB at 27 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/com/spotify/foss-root/15/foss-root-15.pom (10 kB at 55 kB/s)
 [INFO] ------------------------------------------------------------------------
 [INFO] Reactor Build Order:
 [INFO] 
@@ -18,184 +14,238 @@ Downloaded from central: https://repo.maven.apache.org/maven2/com/spotify/foss-r
 [INFO] missinglink-benchmarks                                             [jar]
 [INFO] missinglink-maven-plugin                                  [maven-plugin]
 Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/license-maven-plugin/1.20/license-maven-plugin-1.20.pom
-Progress (1): 1.4/24 kB
-Progress (1): 2.7/24 kB
-Progress (1): 4.1/24 kB
-Progress (1): 5.5/24 kB
-Progress (1): 6.9/24 kB
-Progress (1): 8.2/24 kB
-Progress (1): 9.6/24 kB
+Progress (1): 3.2/24 kB
+Progress (1): 6.0/24 kB
+Progress (1): 8.7/24 kB
 Progress (1): 11/24 kB 
-Progress (1): 12/24 kB
 Progress (1): 14/24 kB
-Progress (1): 15/24 kB
-Progress (1): 16/24 kB
 Progress (1): 17/24 kB
-Progress (1): 19/24 kB
 Progress (1): 20/24 kB
-Progress (1): 21/24 kB
-Progress (1): 23/24 kB
+Progress (1): 22/24 kB
 Progress (1): 24 kB   
                    
-Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/license-maven-plugin/1.20/license-maven-plugin-1.20.pom (24 kB at 786 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/license-maven-plugin/1.20/license-maven-plugin-1.20.pom (24 kB at 1.1 MB/s)
 Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/license-maven-plugin/1.20/license-maven-plugin-1.20.jar
+Progress (1): 4.1/517 kB
+Progress (1): 8.2/517 kB
+Progress (1): 12/517 kB 
 Progress (1): 16/517 kB
+Progress (1): 20/517 kB
+Progress (1): 25/517 kB
+Progress (1): 29/517 kB
 Progress (1): 33/517 kB
+Progress (1): 37/517 kB
+Progress (1): 41/517 kB
+Progress (1): 45/517 kB
 Progress (1): 49/517 kB
+Progress (1): 53/517 kB
+Progress (1): 57/517 kB
+Progress (1): 61/517 kB
 Progress (1): 66/517 kB
+Progress (1): 70/517 kB
+Progress (1): 74/517 kB
+Progress (1): 78/517 kB
 Progress (1): 82/517 kB
+Progress (1): 86/517 kB
+Progress (1): 90/517 kB
+Progress (1): 94/517 kB
 Progress (1): 98/517 kB
+Progress (1): 102/517 kB
+Progress (1): 106/517 kB
+Progress (1): 111/517 kB
 Progress (1): 115/517 kB
+Progress (1): 119/517 kB
+Progress (1): 123/517 kB
+Progress (1): 127/517 kB
 Progress (1): 131/517 kB
+Progress (1): 135/517 kB
+Progress (1): 139/517 kB
+Progress (1): 143/517 kB
 Progress (1): 147/517 kB
+Progress (1): 152/517 kB
+Progress (1): 156/517 kB
+Progress (1): 160/517 kB
 Progress (1): 164/517 kB
+Progress (1): 168/517 kB
+Progress (1): 172/517 kB
+Progress (1): 176/517 kB
 Progress (1): 180/517 kB
+Progress (1): 184/517 kB
+Progress (1): 188/517 kB
+Progress (1): 193/517 kB
 Progress (1): 197/517 kB
+Progress (1): 201/517 kB
+Progress (1): 205/517 kB
+Progress (1): 209/517 kB
 Progress (1): 213/517 kB
+Progress (1): 217/517 kB
+Progress (1): 221/517 kB
+Progress (1): 225/517 kB
 Progress (1): 229/517 kB
+Progress (1): 233/517 kB
+Progress (1): 238/517 kB
+Progress (1): 242/517 kB
 Progress (1): 246/517 kB
+Progress (1): 250/517 kB
+Progress (1): 254/517 kB
+Progress (1): 258/517 kB
 Progress (1): 262/517 kB
+Progress (1): 266/517 kB
+Progress (1): 270/517 kB
+Progress (1): 274/517 kB
 Progress (1): 279/517 kB
+Progress (1): 283/517 kB
+Progress (1): 287/517 kB
+Progress (1): 291/517 kB
 Progress (1): 295/517 kB
+Progress (1): 299/517 kB
+Progress (1): 303/517 kB
+Progress (1): 307/517 kB
 Progress (1): 311/517 kB
+Progress (1): 315/517 kB
+Progress (1): 319/517 kB
+Progress (1): 324/517 kB
 Progress (1): 328/517 kB
+Progress (1): 332/517 kB
+Progress (1): 336/517 kB
+Progress (1): 340/517 kB
 Progress (1): 344/517 kB
+Progress (1): 348/517 kB
+Progress (1): 352/517 kB
+Progress (1): 356/517 kB
 Progress (1): 360/517 kB
+Progress (1): 365/517 kB
+Progress (1): 369/517 kB
+Progress (1): 373/517 kB
 Progress (1): 377/517 kB
+Progress (1): 381/517 kB
+Progress (1): 385/517 kB
+Progress (1): 389/517 kB
 Progress (1): 393/517 kB
+Progress (1): 397/517 kB
+Progress (1): 401/517 kB
+Progress (1): 406/517 kB
 Progress (1): 410/517 kB
+Progress (1): 414/517 kB
+Progress (1): 418/517 kB
+Progress (1): 422/517 kB
 Progress (1): 426/517 kB
+Progress (1): 430/517 kB
+Progress (1): 434/517 kB
+Progress (1): 438/517 kB
 Progress (1): 442/517 kB
+Progress (1): 446/517 kB
+Progress (1): 451/517 kB
+Progress (1): 455/517 kB
 Progress (1): 459/517 kB
+Progress (1): 463/517 kB
+Progress (1): 467/517 kB
+Progress (1): 471/517 kB
 Progress (1): 475/517 kB
+Progress (1): 479/517 kB
+Progress (1): 483/517 kB
+Progress (1): 487/517 kB
 Progress (1): 492/517 kB
+Progress (1): 496/517 kB
+Progress (1): 500/517 kB
+Progress (1): 504/517 kB
 Progress (1): 508/517 kB
+Progress (1): 512/517 kB
+Progress (1): 516/517 kB
 Progress (1): 517 kB    
                     
-Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/license-maven-plugin/1.20/license-maven-plugin-1.20.jar (517 kB at 5.7 MB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/license-maven-plugin/1.20/license-maven-plugin-1.20.jar (517 kB at 8.9 MB/s)
 Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/findbugs-maven-plugin/3.0.5/findbugs-maven-plugin-3.0.5.pom
+Progress (1): 4.1/23 kB
+Progress (1): 8.2/23 kB
+Progress (1): 12/23 kB 
 Progress (1): 16/23 kB
+Progress (1): 20/23 kB
 Progress (1): 23 kB   
                    
-Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/findbugs-maven-plugin/3.0.5/findbugs-maven-plugin-3.0.5.pom (23 kB at 2.6 MB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/findbugs-maven-plugin/3.0.5/findbugs-maven-plugin-3.0.5.pom (23 kB at 804 kB/s)
 Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/findbugs-maven-plugin/3.0.5/findbugs-maven-plugin-3.0.5.jar
+Progress (1): 4.1/145 kB
+Progress (1): 8.2/145 kB
+Progress (1): 12/145 kB 
 Progress (1): 16/145 kB
+Progress (1): 20/145 kB
+Progress (1): 25/145 kB
+Progress (1): 29/145 kB
 Progress (1): 33/145 kB
+Progress (1): 37/145 kB
+Progress (1): 41/145 kB
+Progress (1): 45/145 kB
 Progress (1): 49/145 kB
+Progress (1): 53/145 kB
+Progress (1): 57/145 kB
+Progress (1): 61/145 kB
 Progress (1): 66/145 kB
+Progress (1): 70/145 kB
+Progress (1): 74/145 kB
+Progress (1): 78/145 kB
 Progress (1): 82/145 kB
+Progress (1): 86/145 kB
+Progress (1): 90/145 kB
+Progress (1): 94/145 kB
 Progress (1): 98/145 kB
+Progress (1): 102/145 kB
+Progress (1): 106/145 kB
+Progress (1): 111/145 kB
 Progress (1): 115/145 kB
+Progress (1): 119/145 kB
+Progress (1): 123/145 kB
+Progress (1): 127/145 kB
 Progress (1): 131/145 kB
+Progress (1): 135/145 kB
+Progress (1): 139/145 kB
+Progress (1): 143/145 kB
 Progress (1): 145 kB    
                     
-Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/findbugs-maven-plugin/3.0.5/findbugs-maven-plugin-3.0.5.jar (145 kB at 9.1 MB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/findbugs-maven-plugin/3.0.5/findbugs-maven-plugin-3.0.5.jar (145 kB at 5.4 MB/s)
 Downloading from central: https://repo.maven.apache.org/maven2/com/coveo/fmt-maven-plugin/2.9.1/fmt-maven-plugin-2.9.1.pom
-Progress (1): 8.6 kB
+Progress (1): 4.1/8.6 kB
+Progress (1): 8.2/8.6 kB
+Progress (1): 8.6 kB    
                     
-Downloaded from central: https://repo.maven.apache.org/maven2/com/coveo/fmt-maven-plugin/2.9.1/fmt-maven-plugin-2.9.1.pom (8.6 kB at 862 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/com/coveo/fmt-maven-plugin/2.9.1/fmt-maven-plugin-2.9.1.pom (8.6 kB at 79 kB/s)
 Downloading from central: https://repo.maven.apache.org/maven2/com/coveo/fmt-maven-plugin/2.9.1/fmt-maven-plugin-2.9.1.jar
+Progress (1): 4.1/20 kB
+Progress (1): 8.2/20 kB
+Progress (1): 12/20 kB 
 Progress (1): 16/20 kB
+Progress (1): 20/20 kB
 Progress (1): 20 kB   
                    
-Downloaded from central: https://repo.maven.apache.org/maven2/com/coveo/fmt-maven-plugin/2.9.1/fmt-maven-plugin-2.9.1.jar (20 kB at 2.0 MB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/com/coveo/fmt-maven-plugin/2.9.1/fmt-maven-plugin-2.9.1.jar (20 kB at 175 kB/s)
 [INFO] 
 [INFO] -------------------< com.spotify:missinglink-parent >-------------------
 [INFO] Building missinglink 0.2.10-SNAPSHOT                               [1/4]
-[INFO]   from pom.xml
 [INFO] --------------------------------[ pom ]---------------------------------
 [INFO] 
-[INFO] --- enforcer:3.3.0:enforce (enforce) @ missinglink-parent ---
-[INFO] Rule 0: org.apache.maven.enforcer.rules.version.RequireMavenVersion passed
-[INFO] Rule 1: org.apache.maven.enforcer.rules.dependency.RequireUpperBoundDeps passed
-[INFO] 
-[INFO] --- enforcer:3.3.0:enforce (enforce-maven) @ missinglink-parent ---
-[INFO] Rule 0: org.apache.maven.enforcer.rules.version.RequireMavenVersion passed
-[INFO] 
-[INFO] --- jacoco:0.8.10:prepare-agent (default) @ missinglink-parent ---
-[INFO] argLine set to -javaagent:C:\\Users\\frank_bump\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.8.10\\org.jacoco.agent-0.8.10-runtime.jar=destfile=D:\\Bump\\breaking-updates\\tempProject\\78445745997d3ebe5d1e35d9762d95af875c85ec\\missinglink\\target\\jacoco.exec
-[INFO] 
-[INFO] --- license:1.20:check-file-header (check-file-header) @ missinglink-parent ---
-[INFO] Artifact log4j:log4j:jar:1.2.17 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases), maven-default-http-blocker (http://0.0.0.0/, default, snapshots, blocked)]
-[INFO] Artifact log4j:log4j:jar:1.2.17 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases), maven-default-http-blocker (http://0.0.0.0/, default, snapshots, blocked)]
-Downloading from central: https://repo.maven.apache.org/maven2/log4j/log4j/1.2.17/log4j-1.2.17.jar
-Downloaded from central: https://repo.maven.apache.org/maven2/log4j/log4j/1.2.17/log4j-1.2.17.jar (0 B at 0 B/s)
-[WARNING] No file to scan.
-[INFO] 
-[INFO] 
-[INFO] --- fmt:2.9.1:format (default) @ missinglink-parent ---
-[INFO] Skipping format check: project uses 'pom' packaging
-[INFO] 
-[INFO] --- dependency:3.6.0:tree (default-cli) @ missinglink-parent ---
+[INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ missinglink-parent ---
 [INFO] com.spotify:missinglink-parent:pom:0.2.10-SNAPSHOT
 [INFO] 
 [INFO] --------------------< com.spotify:missinglink-core >--------------------
 [INFO] Building missinglink-core 0.2.10-SNAPSHOT                          [2/4]
-[INFO]   from core\pom.xml
 [INFO] --------------------------------[ jar ]---------------------------------
 Downloading from central: https://repo.maven.apache.org/maven2/io/norberg/auto-matter-annotation/0.26.2/auto-matter-annotation-0.26.2.pom
 Progress (1): 845 B
                    
-Downloaded from central: https://repo.maven.apache.org/maven2/io/norberg/auto-matter-annotation/0.26.2/auto-matter-annotation-0.26.2.pom (845 B at 70 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/io/norberg/auto-matter-annotation/0.26.2/auto-matter-annotation-0.26.2.pom (845 B at 38 kB/s)
 Downloading from central: https://repo.maven.apache.org/maven2/io/norberg/auto-matter-parent/0.26.2/auto-matter-parent-0.26.2.pom
-Progress (1): 10 kB
+Progress (1): 4.1/10 kB
+Progress (1): 8.2/10 kB
+Progress (1): 10 kB    
                    
-Downloaded from central: https://repo.maven.apache.org/maven2/io/norberg/auto-matter-parent/0.26.2/auto-matter-parent-0.26.2.pom (10 kB at 927 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/io/norberg/auto-matter-parent/0.26.2/auto-matter-parent-0.26.2.pom (10 kB at 463 kB/s)
 Downloading from central: https://repo.maven.apache.org/maven2/io/norberg/auto-matter-annotation/0.26.2/auto-matter-annotation-0.26.2.jar
-Progress (1): 5.0 kB
+Progress (1): 4.1/5.0 kB
+Progress (1): 5.0 kB    
                     
-Downloaded from central: https://repo.maven.apache.org/maven2/io/norberg/auto-matter-annotation/0.26.2/auto-matter-annotation-0.26.2.jar (5.0 kB at 56 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/io/norberg/auto-matter-annotation/0.26.2/auto-matter-annotation-0.26.2.jar (5.0 kB at 557 kB/s)
 [INFO] 
-[INFO] --- enforcer:3.3.0:enforce (enforce) @ missinglink-core ---
-[INFO] Rule 1: org.apache.maven.enforcer.rules.dependency.RequireUpperBoundDeps passed
-[INFO] 
-[INFO] --- enforcer:3.3.0:enforce (enforce-maven) @ missinglink-core ---
-[INFO] 
-[INFO] --- jacoco:0.8.10:prepare-agent (default) @ missinglink-core ---
-[INFO] argLine set to -javaagent:C:\\Users\\frank_bump\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.8.10\\org.jacoco.agent-0.8.10-runtime.jar=destfile=D:\\Bump\\breaking-updates\\tempProject\\78445745997d3ebe5d1e35d9762d95af875c85ec\\missinglink\\core\\target\\jacoco.exec
-[INFO] 
-[INFO] --- license:1.20:check-file-header (check-file-header) @ missinglink-core ---
-[INFO] Will search files to update from root D:\Bump\breaking-updates\tempProject\78445745997d3ebe5d1e35d9762d95af875c85ec\missinglink\core\src\main\java
-[INFO] Will search files to update from root D:\Bump\breaking-updates\tempProject\78445745997d3ebe5d1e35d9762d95af875c85ec\missinglink\core\src\test\java
-[INFO] Scan 38 files header done in 155.635ms.
-[INFO] All files are up-to-date.
-[INFO] 
-[INFO] --- fmt:2.9.1:format (default) @ missinglink-core ---
-[INFO] File 'D:\Bump\breaking-updates\tempProject\78445745997d3ebe5d1e35d9762d95af875c85ec\missinglink\core\src\main\java\com\spotify\missinglink\datamodel' is a directory. Skipping.
-[INFO] File 'D:\Bump\breaking-updates\tempProject\78445745997d3ebe5d1e35d9762d95af875c85ec\missinglink\core\src\main\java\com' is a directory. Skipping.
-[INFO] File 'D:\Bump\breaking-updates\tempProject\78445745997d3ebe5d1e35d9762d95af875c85ec\missinglink\core\src\main\java\com\spotify' is a directory. Skipping.
-[INFO] File 'D:\Bump\breaking-updates\tempProject\78445745997d3ebe5d1e35d9762d95af875c85ec\missinglink\core\src\main\java' is a directory. Skipping.
-[INFO] File 'D:\Bump\breaking-updates\tempProject\78445745997d3ebe5d1e35d9762d95af875c85ec\missinglink\core\src\main\java\com\spotify\missinglink' is a directory. Skipping.
-[INFO] File 'D:\Bump\breaking-updates\tempProject\78445745997d3ebe5d1e35d9762d95af875c85ec\missinglink\core\src\test\java\com\spotify\missinglink\nested' is a directory. Skipping.
-[INFO] File 'D:\Bump\breaking-updates\tempProject\78445745997d3ebe5d1e35d9762d95af875c85ec\missinglink\core\src\test\java\com\spotify' is a directory. Skipping.
-[INFO] File 'D:\Bump\breaking-updates\tempProject\78445745997d3ebe5d1e35d9762d95af875c85ec\missinglink\core\src\test\java\com' is a directory. Skipping.
-[INFO] File 'D:\Bump\breaking-updates\tempProject\78445745997d3ebe5d1e35d9762d95af875c85ec\missinglink\core\src\test\java\com\spotify\missinglink' is a directory. Skipping.
-[INFO] File 'D:\Bump\breaking-updates\tempProject\78445745997d3ebe5d1e35d9762d95af875c85ec\missinglink\core\src\test\java' is a directory. Skipping.
-[INFO] File 'D:\Bump\breaking-updates\tempProject\78445745997d3ebe5d1e35d9762d95af875c85ec\missinglink\core\src\test\java\com\spotify\missinglink\datamodel' is a directory. Skipping.
-[INFO] Processed 38 files (0 reformatted).
-[INFO] 
-[INFO] --- resources:3.3.1:resources (default-resources) @ missinglink-core ---
-[INFO] skip non existing resourceDirectory D:\Bump\breaking-updates\tempProject\78445745997d3ebe5d1e35d9762d95af875c85ec\missinglink\core\src\main\resources
-[INFO] 
-[INFO] --- compiler:3.11.0:compile (default-compile) @ missinglink-core ---
-Downloading from central: https://repo.maven.apache.org/maven2/io/norberg/auto-matter/0.26.2/auto-matter-0.26.2.pom
-Progress (1): 3.3 kB
-                    
-Downloaded from central: https://repo.maven.apache.org/maven2/io/norberg/auto-matter/0.26.2/auto-matter-0.26.2.pom (3.3 kB at 174 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/io/norberg/auto-matter-dependencies/0.26.2/auto-matter-dependencies-0.26.2.pom
-Progress (1): 3.6 kB
-                    
-Downloaded from central: https://repo.maven.apache.org/maven2/io/norberg/auto-matter-dependencies/0.26.2/auto-matter-dependencies-0.26.2.pom (3.6 kB at 355 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/io/norberg/auto-matter/0.26.2/auto-matter-0.26.2.jar
-Progress (1): 16/45 kB
-Progress (1): 33/45 kB
-Progress (1): 45 kB   
-                   
-Downloaded from central: https://repo.maven.apache.org/maven2/io/norberg/auto-matter/0.26.2/auto-matter-0.26.2.jar (45 kB at 394 kB/s)
-[INFO] Compiling 11 source files with javac [debug release 8] to target\classes
-[WARNING] No processor claimed any of these annotations: javax.annotation.Generated,io.norberg.automatter.AutoMatter.Generated,io.norberg.automatter.AutoMatter.Field
-[INFO] 
-[INFO] --- dependency:3.6.0:tree (default-cli) @ missinglink-core ---
+[INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ missinglink-core ---
 [INFO] com.spotify:missinglink-core:jar:0.2.10-SNAPSHOT
 [INFO] +- javax.annotation:javax.annotation-api:jar:1.3.2:compile
 [INFO] +- org.ow2.asm:asm-tree:jar:9.5:compile
@@ -208,464 +258,224 @@ Downloaded from central: https://repo.maven.apache.org/maven2/io/norberg/auto-ma
 [INFO] 
 [INFO] -----------------< com.spotify:missinglink-benchmarks >-----------------
 [INFO] Building missinglink-benchmarks 0.2.10-SNAPSHOT                    [3/4]
-[INFO]   from benchmarks\pom.xml
 [INFO] --------------------------------[ jar ]---------------------------------
 Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-shade-plugin/3.4.1/maven-shade-plugin-3.4.1.pom
-Progress (1): 13 kB
+Progress (1): 4.1/13 kB
+Progress (1): 8.2/13 kB
+Progress (1): 12/13 kB 
+Progress (1): 13 kB   
                    
-Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-shade-plugin/3.4.1/maven-shade-plugin-3.4.1.pom (13 kB at 1.3 MB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-shade-plugin/3.4.1/maven-shade-plugin-3.4.1.pom (13 kB at 1.1 MB/s)
 Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-shade-plugin/3.4.1/maven-shade-plugin-3.4.1.jar
+Progress (1): 4.1/143 kB
+Progress (1): 8.2/143 kB
+Progress (1): 12/143 kB 
 Progress (1): 16/143 kB
+Progress (1): 20/143 kB
+Progress (1): 25/143 kB
+Progress (1): 29/143 kB
 Progress (1): 33/143 kB
+Progress (1): 37/143 kB
+Progress (1): 41/143 kB
+Progress (1): 45/143 kB
 Progress (1): 49/143 kB
+Progress (1): 53/143 kB
+Progress (1): 57/143 kB
+Progress (1): 61/143 kB
 Progress (1): 66/143 kB
+Progress (1): 70/143 kB
+Progress (1): 74/143 kB
+Progress (1): 78/143 kB
 Progress (1): 82/143 kB
+Progress (1): 86/143 kB
+Progress (1): 90/143 kB
+Progress (1): 94/143 kB
 Progress (1): 98/143 kB
+Progress (1): 102/143 kB
+Progress (1): 106/143 kB
+Progress (1): 111/143 kB
 Progress (1): 115/143 kB
+Progress (1): 119/143 kB
+Progress (1): 123/143 kB
+Progress (1): 127/143 kB
 Progress (1): 131/143 kB
+Progress (1): 135/143 kB
+Progress (1): 139/143 kB
 Progress (1): 143 kB    
                     
-Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-shade-plugin/3.4.1/maven-shade-plugin-3.4.1.jar (143 kB at 8.9 MB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-shade-plugin/3.4.1/maven-shade-plugin-3.4.1.jar (143 kB at 3.4 MB/s)
 Downloading from central: https://repo.maven.apache.org/maven2/org/openjdk/jmh/jmh-core/1.36/jmh-core-1.36.pom
-Progress (1): 9.3 kB
-                    
-Downloaded from central: https://repo.maven.apache.org/maven2/org/openjdk/jmh/jmh-core/1.36/jmh-core-1.36.pom (9.3 kB at 845 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/openjdk/jmh/jmh-core/1.36/jmh-core-1.36.pom (0 B at 0 B/s)
 Downloading from central: https://repo.maven.apache.org/maven2/org/openjdk/jmh/jmh-parent/1.36/jmh-parent-1.36.pom
-Progress (1): 12 kB
-                   
-Downloaded from central: https://repo.maven.apache.org/maven2/org/openjdk/jmh/jmh-parent/1.36/jmh-parent-1.36.pom (12 kB at 1.2 MB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/openjdk/jmh/jmh-parent/1.36/jmh-parent-1.36.pom (0 B at 0 B/s)
 Downloading from central: https://repo.maven.apache.org/maven2/org/openjdk/jmh/jmh-generator-annprocess/1.36/jmh-generator-annprocess-1.36.pom
-Progress (1): 3.7 kB
-                    
-Downloaded from central: https://repo.maven.apache.org/maven2/org/openjdk/jmh/jmh-generator-annprocess/1.36/jmh-generator-annprocess-1.36.pom (3.7 kB at 370 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/openjdk/jmh/jmh-generator-annprocess/1.36/jmh-generator-annprocess-1.36.pom (0 B at 0 B/s)
 Downloading from central: https://repo.maven.apache.org/maven2/org/openjdk/jmh/jmh-core/1.36/jmh-core-1.36.jar
-Progress (1): 16/537 kB
-Progress (1): 32/537 kB
-Progress (1): 49/537 kB
-Progress (1): 65/537 kB
-Progress (1): 81/537 kB
-Progress (1): 98/537 kB
-Progress (1): 114/537 kB
-Progress (1): 131/537 kB
-Progress (1): 147/537 kB
-Progress (1): 163/537 kB
-Progress (1): 180/537 kB
-Progress (1): 196/537 kB
-Progress (1): 212/537 kB
-Progress (1): 229/537 kB
-Progress (1): 245/537 kB
-Progress (1): 262/537 kB
-Progress (1): 278/537 kB
-Progress (1): 294/537 kB
-Progress (1): 311/537 kB
-Progress (1): 327/537 kB
-Progress (1): 343/537 kB
-Progress (1): 360/537 kB
-Progress (1): 376/537 kB
-Progress (1): 393/537 kB
-Progress (1): 409/537 kB
-Progress (1): 425/537 kB
-Progress (1): 442/537 kB
-Progress (1): 458/537 kB
-Progress (1): 475/537 kB
-Progress (1): 491/537 kB
-Progress (1): 507/537 kB
-Progress (1): 524/537 kB
-Progress (1): 537 kB    
-                    
-Downloaded from central: https://repo.maven.apache.org/maven2/org/openjdk/jmh/jmh-core/1.36/jmh-core-1.36.jar (537 kB at 12 MB/s)
 Downloading from central: https://repo.maven.apache.org/maven2/org/openjdk/jmh/jmh-generator-annprocess/1.36/jmh-generator-annprocess-1.36.jar
+Progress (1): 4.1/31 kB
+Progress (1): 8.2/31 kB
+Progress (1): 12/31 kB 
 Progress (1): 16/31 kB
+Progress (1): 20/31 kB
+Progress (1): 25/31 kB
+Progress (1): 29/31 kB
 Progress (1): 31 kB   
                    
-Downloaded from central: https://repo.maven.apache.org/maven2/org/openjdk/jmh/jmh-generator-annprocess/1.36/jmh-generator-annprocess-1.36.jar (31 kB at 2.4 MB/s)
-[INFO] 
-[INFO] --- enforcer:3.3.0:enforce (enforce) @ missinglink-benchmarks ---
-[INFO] Rule 1: org.apache.maven.enforcer.rules.dependency.RequireUpperBoundDeps passed
-[INFO] 
-[INFO] --- enforcer:3.3.0:enforce (enforce-maven) @ missinglink-benchmarks ---
-[INFO] 
-[INFO] --- jacoco:0.8.10:prepare-agent (default) @ missinglink-benchmarks ---
-[INFO] argLine set to -javaagent:C:\\Users\\frank_bump\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.8.10\\org.jacoco.agent-0.8.10-runtime.jar=destfile=D:\\Bump\\breaking-updates\\tempProject\\78445745997d3ebe5d1e35d9762d95af875c85ec\\missinglink\\benchmarks\\target\\jacoco.exec
-[INFO] 
-[INFO] --- license:1.20:check-file-header (check-file-header) @ missinglink-benchmarks ---
-[INFO] Will search files to update from root D:\Bump\breaking-updates\tempProject\78445745997d3ebe5d1e35d9762d95af875c85ec\missinglink\benchmarks\src\main\java
-[INFO] Scan 1 file header done in 3.835ms.
-[INFO] All files are up-to-date.
-[INFO] 
-[INFO] --- fmt:2.9.1:format (default) @ missinglink-benchmarks ---
-[WARNING] Test source directory 'D:\Bump\breaking-updates\tempProject\78445745997d3ebe5d1e35d9762d95af875c85ec\missinglink\benchmarks\src\test\java' does not exist, ignoring.
-[INFO] File 'D:\Bump\breaking-updates\tempProject\78445745997d3ebe5d1e35d9762d95af875c85ec\missinglink\benchmarks\src\main\java\com\spotify\missinglink' is a directory. Skipping.
-[INFO] File 'D:\Bump\breaking-updates\tempProject\78445745997d3ebe5d1e35d9762d95af875c85ec\missinglink\benchmarks\src\main\java\com' is a directory. Skipping.
-[INFO] File 'D:\Bump\breaking-updates\tempProject\78445745997d3ebe5d1e35d9762d95af875c85ec\missinglink\benchmarks\src\main\java' is a directory. Skipping.
-[INFO] File 'D:\Bump\breaking-updates\tempProject\78445745997d3ebe5d1e35d9762d95af875c85ec\missinglink\benchmarks\src\main\java\com\spotify\missinglink\benchmarks' is a directory. Skipping.
-[INFO] File 'D:\Bump\breaking-updates\tempProject\78445745997d3ebe5d1e35d9762d95af875c85ec\missinglink\benchmarks\src\main\java\com\spotify' is a directory. Skipping.
-[INFO] Processed 1 files (0 reformatted).
-[INFO] 
-[INFO] --- resources:3.3.1:resources (default-resources) @ missinglink-benchmarks ---
-[INFO] skip non existing resourceDirectory D:\Bump\breaking-updates\tempProject\78445745997d3ebe5d1e35d9762d95af875c85ec\missinglink\benchmarks\src\main\resources
-[INFO] 
-[INFO] --- compiler:3.11.0:compile (default-compile) @ missinglink-benchmarks ---
-[INFO] Compiling 11 source files with javac [debug release 8] to target\classes
-[INFO] 
-[INFO] --- dependency:3.6.0:tree (default-cli) @ missinglink-benchmarks ---
-[INFO] com.spotify:missinglink-benchmarks:jar:0.2.10-SNAPSHOT
-[INFO] +- com.spotify:missinglink-core:jar:0.2.10-SNAPSHOT:compile
-[INFO] |  +- javax.annotation:javax.annotation-api:jar:1.3.2:compile
-[INFO] |  +- org.ow2.asm:asm-tree:jar:9.5:compile
-[INFO] |  |  \- org.ow2.asm:asm:jar:9.5:compile
-[INFO] |  \- io.norberg:auto-matter-annotation:jar:0.26.2:compile
-[INFO] +- org.openjdk.jmh:jmh-core:jar:1.36:compile
-[INFO] |  +- net.sf.jopt-simple:jopt-simple:jar:5.0.4:compile
-[INFO] |  \- org.apache.commons:commons-math3:jar:3.2:compile
-[INFO] \- org.openjdk.jmh:jmh-generator-annprocess:jar:1.36:provided
-[INFO] 
-[INFO] ----------------< com.spotify:missinglink-maven-plugin >----------------
-[INFO] Building missinglink-maven-plugin 0.2.10-SNAPSHOT                  [4/4]
-[INFO]   from maven-plugin\pom.xml
-[INFO] ----------------------------[ maven-plugin ]----------------------------
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-invoker-plugin/3.5.0/maven-invoker-plugin-3.5.0.pom
-Progress (1): 16 kB
-                   
-Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-invoker-plugin/3.5.0/maven-invoker-plugin-3.5.0.pom (16 kB at 1.8 MB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/groovy/groovy-bom/4.0.9/groovy-bom-4.0.9.pom
-Progress (1): 16/27 kB
-Progress (1): 27 kB   
-                   
-Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/groovy/groovy-bom/4.0.9/groovy-bom-4.0.9.pom (27 kB at 3.0 MB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-invoker-plugin/3.5.0/maven-invoker-plugin-3.5.0.jar
-Progress (1): 16/133 kB
-Progress (1): 33/133 kB
-Progress (1): 49/133 kB
-Progress (1): 66/133 kB
-Progress (1): 82/133 kB
-Progress (1): 98/133 kB
-Progress (1): 115/133 kB
-Progress (1): 131/133 kB
-Progress (1): 133 kB    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/openjdk/jmh/jmh-generator-annprocess/1.36/jmh-generator-annprocess-1.36.jar (31 kB at 1.5 MB/s)
+Progress (1): 4.1/537 kB
+Progress (1): 8.2/537 kB
+Progress (1): 12/537 kB 
+Progress (1): 16/537 kB
+Progress (1): 20/537 kB
+Progress (1): 25/537 kB
+Progress (1): 29/537 kB
+Progress (1): 33/537 kB
+Progress (1): 37/537 kB
+Progress (1): 41/537 kB
+Progress (1): 45/537 kB
+Progress (1): 49/537 kB
+Progress (1): 53/537 kB
+Progress (1): 57/537 kB
+Progress (1): 61/537 kB
+Progress (1): 66/537 kB
+Progress (1): 70/537 kB
+Progress (1): 74/537 kB
+Progress (1): 78/537 kB
+Progress (1): 82/537 kB
+Progress (1): 86/537 kB
+Progress (1): 90/537 kB
+Progress (1): 94/537 kB
+Progress (1): 98/537 kB
+Progress (1): 102/537 kB
+Progress (1): 106/537 kB
+Progress (1): 111/537 kB
+Progress (1): 115/537 kB
+Progress (1): 119/537 kB
+Progress (1): 123/537 kB
+Progress (1): 127/537 kB
+Progress (1): 131/537 kB
+Progress (1): 135/537 kB
+Progress (1): 139/537 kB
+Progress (1): 143/537 kB
+Progress (1): 147/537 kB
+Progress (1): 152/537 kB
+Progress (1): 156/537 kB
+Progress (1): 160/537 kB
+Progress (1): 164/537 kB
+Progress (1): 168/537 kB
+Progress (1): 172/537 kB
+Progress (1): 176/537 kB
+Progress (1): 180/537 kB
+Progress (1): 184/537 kB
+Progress (1): 188/537 kB
+Progress (1): 193/537 kB
+Progress (1): 197/537 kB
+Progress (1): 201/537 kB
+Progress (1): 205/537 kB
+Progress (1): 209/537 kB
+Progress (1): 213/537 kB
+Progress (1): 217/537 kB
+Progress (1): 221/537 kB
+Progress (1): 225/537 kB
+Progress (1): 229/537 kB
+Progress (1): 233/537 kB
+Progress (1): 238/537 kB
+Progress (1): 242/537 kB
+Progress (1): 246/537 kB
+Progress (1): 250/537 kB
+Progress (1): 254/537 kB
+Progress (1): 258/537 kB
+Progress (1): 262/537 kB
+Progress (1): 266/537 kB
+Progress (1): 270/537 kB
+Progress (1): 274/537 kB
+Progress (1): 279/537 kB
+Progress (1): 283/537 kB
+Progress (1): 287/537 kB
+Progress (1): 291/537 kB
+Progress (1): 295/537 kB
+Progress (1): 299/537 kB
+Progress (1): 303/537 kB
+Progress (1): 307/537 kB
+Progress (1): 311/537 kB
+Progress (1): 315/537 kB
+Progress (1): 319/537 kB
+Progress (1): 324/537 kB
+Progress (1): 328/537 kB
+Progress (1): 332/537 kB
+Progress (1): 336/537 kB
+Progress (1): 340/537 kB
+Progress (1): 344/537 kB
+Progress (1): 348/537 kB
+Progress (1): 352/537 kB
+Progress (1): 356/537 kB
+Progress (1): 360/537 kB
+Progress (1): 365/537 kB
+Progress (1): 369/537 kB
+Progress (1): 373/537 kB
+Progress (1): 377/537 kB
+Progress (1): 381/537 kB
+Progress (1): 385/537 kB
+Progress (1): 389/537 kB
+Progress (1): 393/537 kB
+Progress (1): 397/537 kB
+Progress (1): 401/537 kB
+Progress (1): 406/537 kB
+Progress (1): 410/537 kB
+Progress (1): 414/537 kB
+Progress (1): 418/537 kB
+Progress (1): 422/537 kB
+Progress (1): 426/537 kB
+Progress (1): 430/537 kB
+Progress (1): 434/537 kB
+Progress (1): 438/537 kB
+Progress (1): 442/537 kB
+Progress (1): 446/537 kB
+Progress (1): 451/537 kB
+Progress (1): 455/537 kB
+Progress (1): 459/537 kB
+Progress (1): 463/537 kB
+Progress (1): 467/537 kB
+Progress (1): 471/537 kB
+Progress (1): 475/537 kB
+Progress (1): 479/537 kB
+Progress (1): 483/537 kB
+Progress (1): 487/537 kB
+Progress (1): 492/537 kB
+Progress (1): 496/537 kB
+Progress (1): 500/537 kB
+Progress (1): 504/537 kB
+Progress (1): 508/537 kB
+Progress (1): 512/537 kB
+Progress (1): 516/537 kB
+Progress (1): 520/537 kB
+Progress (1): 524/537 kB
+Progress (1): 528/537 kB
+Progress (1): 532/537 kB
+Progress (1): 537/537 kB
+Progress (1): 537 kB    
                     
-Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-invoker-plugin/3.5.0/maven-invoker-plugin-3.5.0.jar (133 kB at 8.9 MB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/32.1.1-jre/guava-32.1.1-jre.pom
-Progress (1): 13 kB
-                   
-Downloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/32.1.1-jre/guava-32.1.1-jre.pom (13 kB at 1.3 MB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/32.1.1-jre/guava-parent-32.1.1-jre.pom
-Progress (1): 16/22 kB
-Progress (1): 22 kB   
-                   
-Downloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/32.1.1-jre/guava-parent-32.1.1-jre.pom (22 kB at 2.2 MB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-annotations/3.8.1/maven-plugin-annotations-3.8.1.pom
-Progress (1): 1.4 kB
-                    
-Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-annotations/3.8.1/maven-plugin-annotations-3.8.1.pom (1.4 kB at 111 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools/3.8.1/maven-plugin-tools-3.8.1.pom
-Progress (1): 16/18 kB
-Progress (1): 18 kB   
-                   
-Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools/3.8.1/maven-plugin-tools-3.8.1.pom (18 kB at 1.8 MB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/32.1.1-jre/guava-32.1.1-jre.jar
-Progress (1): 0/3.0 MB
-Progress (1): 0/3.0 MB
-Progress (1): 0/3.0 MB
-Progress (1): 0.1/3.0 MB
-Progress (1): 0.1/3.0 MB
-Progress (1): 0.1/3.0 MB
-Progress (1): 0.1/3.0 MB
-Progress (1): 0.1/3.0 MB
-Progress (1): 0.1/3.0 MB
-Progress (1): 0.2/3.0 MB
-Progress (1): 0.2/3.0 MB
-Progress (1): 0.2/3.0 MB
-Progress (1): 0.2/3.0 MB
-Progress (1): 0.2/3.0 MB
-Progress (1): 0.2/3.0 MB
-Progress (1): 0.3/3.0 MB
-Progress (1): 0.3/3.0 MB
-Progress (1): 0.3/3.0 MB
-Progress (1): 0.3/3.0 MB
-Progress (1): 0.3/3.0 MB
-Progress (1): 0.3/3.0 MB
-Progress (1): 0.4/3.0 MB
-Progress (1): 0.4/3.0 MB
-Progress (1): 0.4/3.0 MB
-Progress (1): 0.4/3.0 MB
-Progress (1): 0.4/3.0 MB
-Progress (1): 0.4/3.0 MB
-Progress (1): 0.5/3.0 MB
-Progress (1): 0.5/3.0 MB
-Progress (1): 0.5/3.0 MB
-Progress (1): 0.5/3.0 MB
-Progress (1): 0.5/3.0 MB
-Progress (1): 0.5/3.0 MB
-Progress (1): 0.5/3.0 MB
-Progress (1): 0.6/3.0 MB
-Progress (1): 0.6/3.0 MB
-Progress (1): 0.6/3.0 MB
-Progress (1): 0.6/3.0 MB
-Progress (1): 0.6/3.0 MB
-Progress (1): 0.6/3.0 MB
-Progress (1): 0.7/3.0 MB
-Progress (1): 0.7/3.0 MB
-Progress (1): 0.7/3.0 MB
-Progress (1): 0.7/3.0 MB
-Progress (1): 0.7/3.0 MB
-Progress (1): 0.7/3.0 MB
-Progress (1): 0.8/3.0 MB
-Progress (1): 0.8/3.0 MB
-Progress (1): 0.8/3.0 MB
-Progress (1): 0.8/3.0 MB
-Progress (1): 0.8/3.0 MB
-Progress (1): 0.8/3.0 MB
-Progress (1): 0.9/3.0 MB
-Progress (1): 0.9/3.0 MB
-Progress (1): 0.9/3.0 MB
-Progress (1): 0.9/3.0 MB
-Progress (1): 0.9/3.0 MB
-Progress (1): 0.9/3.0 MB
-Progress (1): 0.9/3.0 MB
-Progress (1): 1.0/3.0 MB
-Progress (1): 1.0/3.0 MB
-Progress (1): 1.0/3.0 MB
-Progress (1): 1.0/3.0 MB
-Progress (1): 1.0/3.0 MB
-Progress (1): 1.0/3.0 MB
-Progress (1): 1.1/3.0 MB
-Progress (1): 1.1/3.0 MB
-Progress (1): 1.1/3.0 MB
-Progress (1): 1.1/3.0 MB
-Progress (1): 1.1/3.0 MB
-Progress (1): 1.1/3.0 MB
-Progress (1): 1.2/3.0 MB
-Progress (1): 1.2/3.0 MB
-Progress (1): 1.2/3.0 MB
-Progress (1): 1.2/3.0 MB
-Progress (1): 1.2/3.0 MB
-Progress (1): 1.2/3.0 MB
-Progress (1): 1.3/3.0 MB
-Progress (1): 1.3/3.0 MB
-Progress (1): 1.3/3.0 MB
-Progress (1): 1.3/3.0 MB
-Progress (1): 1.3/3.0 MB
-Progress (1): 1.3/3.0 MB
-Progress (1): 1.4/3.0 MB
-Progress (1): 1.4/3.0 MB
-Progress (1): 1.4/3.0 MB
-Progress (1): 1.4/3.0 MB
-Progress (1): 1.4/3.0 MB
-Progress (1): 1.4/3.0 MB
-Progress (1): 1.4/3.0 MB
-Progress (1): 1.5/3.0 MB
-Progress (1): 1.5/3.0 MB
-Progress (1): 1.5/3.0 MB
-Progress (1): 1.5/3.0 MB
-Progress (1): 1.5/3.0 MB
-Progress (1): 1.5/3.0 MB
-Progress (1): 1.6/3.0 MB
-Progress (1): 1.6/3.0 MB
-Progress (1): 1.6/3.0 MB
-Progress (1): 1.6/3.0 MB
-Progress (1): 1.6/3.0 MB
-Progress (1): 1.6/3.0 MB
-Progress (1): 1.7/3.0 MB
-Progress (1): 1.7/3.0 MB
-Progress (1): 1.7/3.0 MB
-Progress (1): 1.7/3.0 MB
-Progress (1): 1.7/3.0 MB
-Progress (1): 1.7/3.0 MB
-Progress (1): 1.7/3.0 MB
-Progress (1): 1.8/3.0 MB
-Progress (1): 1.8/3.0 MB
-Progress (1): 1.8/3.0 MB
-Progress (1): 1.8/3.0 MB
-Progress (1): 1.8/3.0 MB
-Progress (1): 1.8/3.0 MB
-Progress (1): 1.9/3.0 MB
-Progress (1): 1.9/3.0 MB
-Progress (1): 1.9/3.0 MB
-Progress (1): 1.9/3.0 MB
-Progress (1): 1.9/3.0 MB
-Progress (1): 1.9/3.0 MB
-Progress (1): 2.0/3.0 MB
-Progress (1): 2.0/3.0 MB
-Progress (1): 2.0/3.0 MB
-Progress (1): 2.0/3.0 MB
-Progress (1): 2.0/3.0 MB
-Progress (1): 2.0/3.0 MB
-Progress (1): 2.1/3.0 MB
-Progress (1): 2.1/3.0 MB
-Progress (1): 2.1/3.0 MB
-Progress (1): 2.1/3.0 MB
-Progress (1): 2.1/3.0 MB
-Progress (1): 2.1/3.0 MB
-Progress (1): 2.1/3.0 MB
-Progress (1): 2.2/3.0 MB
-Progress (1): 2.2/3.0 MB
-Progress (1): 2.2/3.0 MB
-Progress (1): 2.2/3.0 MB
-Progress (1): 2.2/3.0 MB
-Progress (1): 2.2/3.0 MB
-Progress (1): 2.3/3.0 MB
-Progress (1): 2.3/3.0 MB
-Progress (1): 2.3/3.0 MB
-Progress (1): 2.3/3.0 MB
-Progress (1): 2.3/3.0 MB
-Progress (1): 2.3/3.0 MB
-Progress (1): 2.4/3.0 MB
-Progress (1): 2.4/3.0 MB
-Progress (1): 2.4/3.0 MB
-Progress (1): 2.4/3.0 MB
-Progress (1): 2.4/3.0 MB
-Progress (1): 2.4/3.0 MB
-Progress (1): 2.5/3.0 MB
-Progress (1): 2.5/3.0 MB
-Progress (1): 2.5/3.0 MB
-Progress (1): 2.5/3.0 MB
-Progress (1): 2.5/3.0 MB
-Progress (1): 2.5/3.0 MB
-Progress (1): 2.6/3.0 MB
-Progress (1): 2.6/3.0 MB
-Progress (1): 2.6/3.0 MB
-Progress (1): 2.6/3.0 MB
-Progress (1): 2.6/3.0 MB
-Progress (1): 2.6/3.0 MB
-Progress (1): 2.7/3.0 MB
-Progress (1): 2.7/3.0 MB
-Progress (1): 2.7/3.0 MB
-Progress (1): 2.7/3.0 MB
-Progress (1): 2.7/3.0 MB
-Progress (1): 2.7/3.0 MB
-Progress (1): 2.7/3.0 MB
-Progress (1): 2.8/3.0 MB
-Progress (1): 2.8/3.0 MB
-Progress (1): 2.8/3.0 MB
-Progress (1): 2.8/3.0 MB
-Progress (1): 2.8/3.0 MB
-Progress (1): 2.8/3.0 MB
-Progress (1): 2.9/3.0 MB
-Progress (1): 2.9/3.0 MB
-Progress (1): 2.9/3.0 MB
-Progress (1): 2.9/3.0 MB
-Progress (1): 2.9/3.0 MB
-Progress (1): 2.9/3.0 MB
-Progress (1): 3.0/3.0 MB
-Progress (1): 3.0/3.0 MB
-Progress (1): 3.0/3.0 MB
-Progress (1): 3.0/3.0 MB
-Progress (1): 3.0/3.0 MB
-Progress (1): 3.0/3.0 MB
-Progress (1): 3.0 MB    
-                    
-Downloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/32.1.1-jre/guava-32.1.1-jre.jar (3.0 MB at 18 MB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-annotations/3.8.1/maven-plugin-annotations-3.8.1.jar
-Progress (1): 14 kB
-                   
-Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-annotations/3.8.1/maven-plugin-annotations-3.8.1.jar (14 kB at 1.4 MB/s)
-[INFO] 
-[INFO] --- enforcer:3.3.0:enforce (enforce) @ missinglink-maven-plugin ---
-[INFO] Rule 1: org.apache.maven.enforcer.rules.dependency.RequireUpperBoundDeps passed
-[INFO] 
-[INFO] --- enforcer:3.3.0:enforce (enforce-maven) @ missinglink-maven-plugin ---
-[INFO] 
-[INFO] --- jacoco:0.8.10:prepare-agent (default) @ missinglink-maven-plugin ---
-[INFO] argLine set to -javaagent:C:\\Users\\frank_bump\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.8.10\\org.jacoco.agent-0.8.10-runtime.jar=destfile=D:\\Bump\\breaking-updates\\tempProject\\78445745997d3ebe5d1e35d9762d95af875c85ec\\missinglink\\maven-plugin\\target\\jacoco.exec
-[INFO] 
-[INFO] --- license:1.20:check-file-header (check-file-header) @ missinglink-maven-plugin ---
-[INFO] Will search files to update from root D:\Bump\breaking-updates\tempProject\78445745997d3ebe5d1e35d9762d95af875c85ec\missinglink\maven-plugin\src\main\java
-[INFO] Will search files to update from root D:\Bump\breaking-updates\tempProject\78445745997d3ebe5d1e35d9762d95af875c85ec\missinglink\maven-plugin\src\test\java
-[INFO] Scan 6 files header done in 34.69ms.
-[INFO] All files are up-to-date.
-[INFO] 
-[INFO] --- fmt:2.9.1:format (default) @ missinglink-maven-plugin ---
-[INFO] File 'D:\Bump\breaking-updates\tempProject\78445745997d3ebe5d1e35d9762d95af875c85ec\missinglink\maven-plugin\src\main\java\com\spotify' is a directory. Skipping.
-[INFO] File 'D:\Bump\breaking-updates\tempProject\78445745997d3ebe5d1e35d9762d95af875c85ec\missinglink\maven-plugin\src\main\java\com\spotify\missinglink' is a directory. Skipping.
-[INFO] File 'D:\Bump\breaking-updates\tempProject\78445745997d3ebe5d1e35d9762d95af875c85ec\missinglink\maven-plugin\src\main\java\com\spotify\missinglink\maven' is a directory. Skipping.
-[INFO] File 'D:\Bump\breaking-updates\tempProject\78445745997d3ebe5d1e35d9762d95af875c85ec\missinglink\maven-plugin\src\main\java\com' is a directory. Skipping.
-[INFO] File 'D:\Bump\breaking-updates\tempProject\78445745997d3ebe5d1e35d9762d95af875c85ec\missinglink\maven-plugin\src\main\java' is a directory. Skipping.
-[INFO] File 'D:\Bump\breaking-updates\tempProject\78445745997d3ebe5d1e35d9762d95af875c85ec\missinglink\maven-plugin\src\test\java\com\spotify\missinglink\maven' is a directory. Skipping.
-[INFO] File 'D:\Bump\breaking-updates\tempProject\78445745997d3ebe5d1e35d9762d95af875c85ec\missinglink\maven-plugin\src\test\java\com' is a directory. Skipping.
-[INFO] File 'D:\Bump\breaking-updates\tempProject\78445745997d3ebe5d1e35d9762d95af875c85ec\missinglink\maven-plugin\src\test\java' is a directory. Skipping.
-[INFO] File 'D:\Bump\breaking-updates\tempProject\78445745997d3ebe5d1e35d9762d95af875c85ec\missinglink\maven-plugin\src\test\java\com\spotify\missinglink' is a directory. Skipping.
-[INFO] File 'D:\Bump\breaking-updates\tempProject\78445745997d3ebe5d1e35d9762d95af875c85ec\missinglink\maven-plugin\src\test\java\com\spotify' is a directory. Skipping.
-[INFO] Processed 6 files (0 reformatted).
-[INFO] 
-[INFO] --- resources:3.3.1:resources (default-resources) @ missinglink-maven-plugin ---
-[INFO] skip non existing resourceDirectory D:\Bump\breaking-updates\tempProject\78445745997d3ebe5d1e35d9762d95af875c85ec\missinglink\maven-plugin\src\main\resources
-[INFO] 
-[INFO] --- compiler:3.11.0:compile (default-compile) @ missinglink-maven-plugin ---
-[INFO] Nothing to compile - all classes are up to date
-[INFO] 
-[INFO] --- dependency:3.6.0:tree (default-cli) @ missinglink-maven-plugin ---
-[INFO] com.spotify:missinglink-maven-plugin:maven-plugin:0.2.10-SNAPSHOT
-[INFO] +- com.spotify:missinglink-core:jar:0.2.10-SNAPSHOT:compile
-[INFO] |  +- javax.annotation:javax.annotation-api:jar:1.3.2:compile
-[INFO] |  +- org.ow2.asm:asm-tree:jar:9.5:compile
-[INFO] |  |  \- org.ow2.asm:asm:jar:9.5:compile
-[INFO] |  \- io.norberg:auto-matter-annotation:jar:0.26.2:compile
-[INFO] +- com.google.guava:guava:jar:32.1.1-jre:compile
-[INFO] |  +- com.google.guava:failureaccess:jar:1.0.1:compile
-[INFO] |  +- com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:compile
-[INFO] |  +- com.google.code.findbugs:jsr305:jar:3.0.2:compile
-[INFO] |  +- org.checkerframework:checker-qual:jar:3.33.0:compile
-[INFO] |  +- com.google.errorprone:error_prone_annotations:jar:2.18.0:compile
-[INFO] |  \- com.google.j2objc:j2objc-annotations:jar:2.8:compile
-[INFO] +- org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.8.1:provided
-[INFO] +- org.apache.maven:maven-plugin-api:jar:3.9.0:compile
-[INFO] |  +- org.apache.maven:maven-model:jar:3.9.0:compile
-[INFO] |  +- org.eclipse.sisu:org.eclipse.sisu.plexus:jar:0.3.5:compile
-[INFO] |  +- org.codehaus.plexus:plexus-utils:jar:3.5.0:compile
-[INFO] |  \- org.codehaus.plexus:plexus-classworlds:jar:2.6.0:compile
-[INFO] +- org.apache.maven:maven-core:jar:3.9.0:compile
-[INFO] |  +- org.apache.maven:maven-settings:jar:3.9.0:compile
-[INFO] |  +- org.apache.maven:maven-settings-builder:jar:3.9.0:compile
-[INFO] |  |  \- org.codehaus.plexus:plexus-sec-dispatcher:jar:2.0:compile
-[INFO] |  |     \- org.codehaus.plexus:plexus-cipher:jar:2.0:compile
-[INFO] |  +- org.apache.maven:maven-builder-support:jar:3.9.0:compile
-[INFO] |  +- org.apache.maven:maven-repository-metadata:jar:3.9.0:compile
-[INFO] |  +- org.apache.maven:maven-model-builder:jar:3.9.0:compile
-[INFO] |  +- org.apache.maven:maven-resolver-provider:jar:3.9.0:compile
-[INFO] |  +- org.apache.maven.resolver:maven-resolver-impl:jar:1.9.4:compile
-[INFO] |  |  \- org.apache.maven.resolver:maven-resolver-named-locks:jar:1.9.4:compile
-[INFO] |  +- org.apache.maven.resolver:maven-resolver-api:jar:1.9.4:compile
-[INFO] |  +- org.apache.maven.resolver:maven-resolver-spi:jar:1.9.4:compile
-[INFO] |  +- org.apache.maven.resolver:maven-resolver-util:jar:1.9.4:compile
-[INFO] |  +- org.apache.maven.shared:maven-shared-utils:jar:3.3.4:compile
-[INFO] |  +- org.eclipse.sisu:org.eclipse.sisu.inject:jar:0.3.5:compile
-[INFO] |  +- com.google.inject:guice:jar:5.1.0:compile
-[INFO] |  |  \- aopalliance:aopalliance:jar:1.0:compile
-[INFO] |  +- javax.inject:javax.inject:jar:1:compile
-[INFO] |  +- org.codehaus.plexus:plexus-interpolation:jar:1.26:compile
-[INFO] |  +- org.codehaus.plexus:plexus-component-annotations:jar:2.1.1:compile
-[INFO] |  +- org.apache.commons:commons-lang3:jar:3.12.0:compile
-[INFO] |  \- org.slf4j:slf4j-api:jar:1.7.36:compile
-[INFO] +- org.apache.maven:maven-artifact:jar:3.9.0:compile
-[INFO] +- org.apache.maven.shared:maven-dependency-tree:jar:3.2.1:compile
-[INFO] |  \- org.eclipse.aether:aether-util:jar:1.0.0.v20140518:compile
-[INFO] |     \- org.eclipse.aether:aether-api:jar:1.0.0.v20140518:compile
-[INFO] +- org.apache.maven.plugin-testing:maven-plugin-testing-harness:jar:3.3.0:test
-[INFO] |  +- commons-io:commons-io:jar:2.2:test
-[INFO] |  \- org.codehaus.plexus:plexus-archiver:jar:2.2:test
-[INFO] |     +- org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:test
-[INFO] |     |  \- classworlds:classworlds:jar:1.1-alpha-2:test
-[INFO] |     \- org.codehaus.plexus:plexus-io:jar:2.0.4:test
-[INFO] +- org.apache.maven:maven-compat:jar:3.9.0:test
-[INFO] |  \- org.apache.maven.wagon:wagon-provider-api:jar:3.5.3:test
-[INFO] +- junit:junit:jar:4.13.2:test
-[INFO] |  \- org.hamcrest:hamcrest-core:jar:1.3:test
-[INFO] +- org.mockito:mockito-core:jar:4.9.0:test
-[INFO] |  +- net.bytebuddy:byte-buddy:jar:1.12.16:test
-[INFO] |  +- net.bytebuddy:byte-buddy-agent:jar:1.12.16:test
-[INFO] |  \- org.objenesis:objenesis:jar:3.3:test
-[INFO] \- org.assertj:assertj-core:jar:3.24.2:test
+Downloaded from central: https://repo.maven.apache.org/maven2/org/openjdk/jmh/jmh-core/1.36/jmh-core-1.36.jar (537 kB at 8.4 MB/s)
 [INFO] ------------------------------------------------------------------------
 [INFO] Reactor Summary for missinglink 0.2.10-SNAPSHOT:
 [INFO] 
-[INFO] missinglink ........................................ SUCCESS [  4.144 s]
-[INFO] missinglink-core ................................... SUCCESS [  4.526 s]
-[INFO] missinglink-benchmarks ............................. SUCCESS [  0.872 s]
-[INFO] missinglink-maven-plugin ........................... SUCCESS [  0.919 s]
+[INFO] missinglink ........................................ SUCCESS [  0.495 s]
+[INFO] missinglink-core ................................... SUCCESS [  0.129 s]
+[INFO] missinglink-benchmarks ............................. FAILURE [  0.163 s]
+[INFO] missinglink-maven-plugin ........................... SKIPPED
 [INFO] ------------------------------------------------------------------------
-[INFO] BUILD SUCCESS
+[INFO] BUILD FAILURE
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  12.094 s
-[INFO] Finished at: 2023-09-21T11:33:46Z
+[INFO] Total time:  1.801 s
+[INFO] Finished at: 2023-09-25T19:59:43Z
 [INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal on project missinglink-benchmarks: Could not resolve dependencies for project com.spotify:missinglink-benchmarks:jar:0.2.10-SNAPSHOT: Could not find artifact com.spotify:missinglink-core:jar:0.2.10-SNAPSHOT -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <args> -rf :missinglink-benchmarks
