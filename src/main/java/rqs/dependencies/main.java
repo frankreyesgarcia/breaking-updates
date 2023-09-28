@@ -12,7 +12,11 @@ public class main {
 
     public static void main(String[] args) {
         main m = new main();
-        m.getLastPullrequest(Path.of("C:\\Users\\moham\\Desktop\\rqs\\rqs\\src\\main\\java\\rqs\\dependencies\\breakingUpdates"));
+        final var lastPullrequest = m.getLastPullrequest(Path.of("/Users/frank/Documents/Work/PHD/chains-project/fork/breaking-updates-fork/data/benchmark"));
+
+        System.out.println(lastPullrequest.size());
+        System.out.println(lastPullrequest);
+
     }
 
     public Map<String, Object> getLastPullrequest(Path listFilesPath) {

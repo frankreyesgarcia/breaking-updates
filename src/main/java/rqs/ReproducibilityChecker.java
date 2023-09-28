@@ -32,7 +32,7 @@ import java.util.regex.Pattern;
 class Test {
     public static void main(String[] args) {
         ReproducibilityChecker reproducibilityChecker = new ReproducibilityChecker();
-        reproducibilityChecker.runReproducibilityCheckerAndCounter(Path.of("/Users/frank/Documents/Work/PHD/chains-project/yoggya/breaking-updates-yoggya-fork/data/benchmark"));
+        reproducibilityChecker.runReproducibilityCheckerAndCounter(Path.of("/Users/frank/Documents/Work/PHD/chains-project/fork/breaking-updates-fork/data/benchmark"));
     }
 }
 
@@ -201,9 +201,11 @@ public class ReproducibilityChecker {
                     depCountResults.put(bu.get("projectOrganisation") + "/" + bu.get("project"), depCount);
 
                     JsonUtils.writeToFile(depCountResultsFilePath, depCountResults);
+
+                    removeProject(prevImage, projectPath);
                 }
 
-                removeProject(prevImage, projectPath);
+
             }
         }
     }
