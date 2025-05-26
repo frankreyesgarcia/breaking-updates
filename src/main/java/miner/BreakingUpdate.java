@@ -8,6 +8,7 @@ import org.codehaus.plexus.util.xml.pull.XmlPullParserException;
 import org.kohsuke.github.GHPullRequest;
 import org.kohsuke.github.GHRepository;
 import org.kohsuke.github.GHUser;
+import org.kohsuke.github.GHLicense;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -59,7 +60,8 @@ public class BreakingUpdate {
         projectOrganisation = url.split("/")[3];
         breakingCommit = pr.getHead().getSha();
         try {
-            licenseInfo = pr.getRepository().getLicense().getName();
+            GHLicense license = pr.getRepository().getLicense();
+            licenseInfo = (license != null) ? license.getName() : "unknown";
         } catch (IOException e) {
             licenseInfo = "unknown";
         }
