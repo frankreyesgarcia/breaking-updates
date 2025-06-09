@@ -1,0 +1,21 @@
+{
+  "url" : "https://github.com/assertj/assertj-db/pull/198",
+  "project" : "assertj-db",
+  "projectOrganisation" : "assertj",
+  "breakingCommit" : "2685d49751f1aabf855ec4ab6f9ab9c0d2aad1ff",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "net.bytebuddy",
+    "dependencyArtifactID" : "byte-buddy",
+    "previousVersion" : "1.10.21",
+    "newVersion" : "1.12.2",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "licenseInfo" : "No license found",
+    "githubRepoSlug" : "Repository not found"
+  },
+  "javaVersionUsedForReproduction" : "11",
+  "licenseInfo" : "Apache-2.0"
+}

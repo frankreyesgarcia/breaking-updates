@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/camunda/camunda/pull/25397",
+  "project" : "camunda",
+  "projectOrganisation" : "camunda",
+  "breakingCommit" : "73a6cfe1171947080ba4b1e4e3996613816ffb9a",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "commons-collections",
+    "dependencyArtifactID" : "commons-collections",
+    "previousVersion" : "3.2.2",
+    "newVersion" : "20040616",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "unknown"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/avaje/avaje-jsonb/pull/284",
+  "project" : "avaje-jsonb",
+  "projectOrganisation" : "avaje",
+  "breakingCommit" : "9ea0cc4f677c27ee0eab96c2c6550b170a44d353",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "io.helidon.webserver",
+    "dependencyArtifactID" : "helidon-webserver",
+    "previousVersion" : "4.0.11",
+    "newVersion" : "4.1.0",
+    "dependencyScope" : "provided",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

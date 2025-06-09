@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/netty/netty/pull/14351",
+  "project" : "netty",
+  "projectOrganisation" : "netty",
+  "breakingCommit" : "666f1eda542ddff9b9d5ab884dfd22615edcd538",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.google.protobuf",
+    "dependencyArtifactID" : "protobuf-java",
+    "previousVersion" : "2.6.1",
+    "newVersion" : "3.25.5",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

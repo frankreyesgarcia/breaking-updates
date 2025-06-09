@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/quickfix-j/quickfixj/pull/962",
+  "project" : "quickfixj",
+  "projectOrganisation" : "quickfix-j",
+  "breakingCommit" : "30aef12eacc861e49e8024ac81d065293f0fcb0a",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "net.sf.saxon",
+    "dependencyArtifactID" : "Saxon-HE",
+    "previousVersion" : "12.5",
+    "newVersion" : "12.6",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Other"
+}

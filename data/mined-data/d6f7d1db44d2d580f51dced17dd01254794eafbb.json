@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/camunda/camunda/pull/23502",
+  "project" : "camunda",
+  "projectOrganisation" : "camunda",
+  "breakingCommit" : "d6f7d1db44d2d580f51dced17dd01254794eafbb",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "io.micrometer",
+    "dependencyArtifactID" : "micrometer-core",
+    "previousVersion" : "1.13.4",
+    "newVersion" : "1.13.5",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "unknown"
+}

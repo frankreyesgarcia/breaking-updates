@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/comixed/comixed/pull/2169",
+  "project" : "comixed",
+  "projectOrganisation" : "comixed",
+  "breakingCommit" : "9f13531507d19eb010ca6d123e7646fd3d581d1c",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "commons-io",
+    "dependencyArtifactID" : "commons-io",
+    "previousVersion" : "2.7",
+    "newVersion" : "2.14.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "GNU General Public License v3.0"
+}

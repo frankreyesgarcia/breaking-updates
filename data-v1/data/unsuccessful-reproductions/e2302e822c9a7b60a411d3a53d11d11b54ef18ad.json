@@ -1,0 +1,21 @@
+{
+  "url" : "https://github.com/UT-SE-Research/iDFlakies/pull/52",
+  "project" : "iDFlakies",
+  "projectOrganisation" : "UT-SE-Research",
+  "breakingCommit" : "e2302e822c9a7b60a411d3a53d11d11b54ef18ad",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.xerial",
+    "dependencyArtifactID" : "sqlite-jdbc",
+    "previousVersion" : "3.25.2",
+    "newVersion" : "3.41.2.2",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "licenseInfo" : "No license found",
+    "githubRepoSlug" : "Repository not found"
+  },
+  "javaVersionUsedForReproduction" : "11",
+  "licenseInfo" : "No license found"
+}

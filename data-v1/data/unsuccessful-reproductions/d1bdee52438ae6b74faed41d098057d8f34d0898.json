@@ -1,0 +1,21 @@
+{
+  "url" : "https://github.com/informatici/openhospital-core/pull/417",
+  "project" : "openhospital-core",
+  "projectOrganisation" : "informatici",
+  "breakingCommit" : "d1bdee52438ae6b74faed41d098057d8f34d0898",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.hibernate",
+    "dependencyArtifactID" : "hibernate-entitymanager",
+    "previousVersion" : "4.2.5.Final",
+    "newVersion" : "5.5.3.Final",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "licenseInfo" : "No license found",
+    "githubRepoSlug" : "hibernate/hibernate-orm"
+  },
+  "javaVersionUsedForReproduction" : "11",
+  "licenseInfo" : "GPL-3.0"
+}

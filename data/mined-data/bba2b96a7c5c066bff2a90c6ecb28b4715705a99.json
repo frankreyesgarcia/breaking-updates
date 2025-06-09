@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/NemProject/nem/pull/630",
+  "project" : "nem",
+  "projectOrganisation" : "NemProject",
+  "breakingCommit" : "bba2b96a7c5c066bff2a90c6ecb28b4715705a99",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.flywaydb",
+    "dependencyArtifactID" : "flyway-core",
+    "previousVersion" : "3.2.1",
+    "newVersion" : "11.3.2",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "MIT License"
+}

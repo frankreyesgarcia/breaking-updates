@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/mojohaus/webstart/pull/153",
+  "project" : "webstart",
+  "projectOrganisation" : "mojohaus",
+  "breakingCommit" : "ee94d78a6a76ed0d9e1e754bd144a70eb7a684d4",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.codehaus.plexus",
+    "dependencyArtifactID" : "plexus-utils",
+    "previousVersion" : "3.5.1",
+    "newVersion" : "4.0.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "MIT License"
+}

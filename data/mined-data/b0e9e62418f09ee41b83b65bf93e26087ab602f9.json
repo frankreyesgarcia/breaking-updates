@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/reactiverse/vertx-maven-plugin/pull/583",
+  "project" : "vertx-maven-plugin",
+  "projectOrganisation" : "reactiverse",
+  "breakingCommit" : "b0e9e62418f09ee41b83b65bf93e26087ab602f9",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.maven.shared",
+    "dependencyArtifactID" : "maven-common-artifact-filters",
+    "previousVersion" : "3.2.0",
+    "newVersion" : "3.4.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

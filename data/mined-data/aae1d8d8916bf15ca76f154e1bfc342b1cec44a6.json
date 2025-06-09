@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/dropwizard/metrics/pull/4571",
+  "project" : "metrics",
+  "projectOrganisation" : "dropwizard",
+  "breakingCommit" : "aae1d8d8916bf15ca76f154e1bfc342b1cec44a6",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.github.ben-manes.caffeine",
+    "dependencyArtifactID" : "caffeine",
+    "previousVersion" : "2.9.3",
+    "newVersion" : "3.1.8",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

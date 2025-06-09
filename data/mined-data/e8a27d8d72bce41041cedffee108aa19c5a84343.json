@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/centic9/jgit-cookbook/pull/96",
+  "project" : "jgit-cookbook",
+  "projectOrganisation" : "centic9",
+  "breakingCommit" : "e8a27d8d72bce41041cedffee108aa19c5a84343",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.eclipse.jgit",
+    "dependencyArtifactID" : "org.eclipse.jgit",
+    "previousVersion" : "7.0.0.202409031743-r",
+    "newVersion" : "7.2.1.202505142326-r",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

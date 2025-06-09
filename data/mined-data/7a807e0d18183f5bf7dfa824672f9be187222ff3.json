@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/sshtools/maverick-synergy/pull/90",
+  "project" : "maverick-synergy",
+  "projectOrganisation" : "sshtools",
+  "breakingCommit" : "7a807e0d18183f5bf7dfa824672f9be187222ff3",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.bouncycastle",
+    "dependencyArtifactID" : "bc-fips",
+    "previousVersion" : "1.0.2.4",
+    "newVersion" : "1.0.2.5",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "unknown"
+  },
+  "licenseInfo" : "GNU Lesser General Public License v3.0"
+}

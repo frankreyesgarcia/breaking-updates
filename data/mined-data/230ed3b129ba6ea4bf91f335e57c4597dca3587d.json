@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/jenkinsci/build-user-vars-plugin/pull/172",
+  "project" : "build-user-vars-plugin",
+  "projectOrganisation" : "jenkinsci",
+  "breakingCommit" : "230ed3b129ba6ea4bf91f335e57c4597dca3587d",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "io.jenkins.tools.bom",
+    "dependencyArtifactID" : "bom-${jenkins.baseline}.x",
+    "previousVersion" : "4228.v0a_71308d905b_",
+    "newVersion" : "4862.vc32a_71c3e731",
+    "dependencyScope" : "import",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "unknown"
+}

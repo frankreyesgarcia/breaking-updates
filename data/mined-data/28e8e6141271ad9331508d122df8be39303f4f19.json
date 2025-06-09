@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/objectionary/eo-files/pull/99",
+  "project" : "eo-files",
+  "projectOrganisation" : "objectionary",
+  "breakingCommit" : "28e8e6141271ad9331508d122df8be39303f4f19",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.eolang",
+    "dependencyArtifactID" : "eo-runtime",
+    "previousVersion" : "0.32.0",
+    "newVersion" : "0.39.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "MIT License"
+}

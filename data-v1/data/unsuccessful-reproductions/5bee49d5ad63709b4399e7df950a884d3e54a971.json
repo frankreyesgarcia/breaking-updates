@@ -1,0 +1,21 @@
+{
+  "url" : "https://github.com/PerimeterX/perimeterx-java-sdk/pull/266",
+  "project" : "perimeterx-java-sdk",
+  "projectOrganisation" : "PerimeterX",
+  "breakingCommit" : "5bee49d5ad63709b4399e7df950a884d3e54a971",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.fasterxml.jackson.core",
+    "dependencyArtifactID" : "jackson-databind",
+    "previousVersion" : "2.11.4",
+    "newVersion" : "2.12.7.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "licenseInfo" : "No license found",
+    "githubRepoSlug" : "Repository not found"
+  },
+  "javaVersionUsedForReproduction" : "11",
+  "licenseInfo" : "MIT"
+}

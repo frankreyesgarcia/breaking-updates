@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/jcabi/jcabi-ssh/pull/246",
+  "project" : "jcabi-ssh",
+  "projectOrganisation" : "jcabi",
+  "breakingCommit" : "6e050bb182b05c24ba09bbb76841bbfa20fcbc7d",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.github.mwiede",
+    "dependencyArtifactID" : "jsch",
+    "previousVersion" : "0.2.26",
+    "newVersion" : "2.27.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "unknown"
+  },
+  "licenseInfo" : "Other"
+}

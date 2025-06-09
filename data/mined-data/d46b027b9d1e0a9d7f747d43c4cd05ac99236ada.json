@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/quickfix-j/quickfixj/pull/908",
+  "project" : "quickfixj",
+  "projectOrganisation" : "quickfix-j",
+  "breakingCommit" : "d46b027b9d1e0a9d7f747d43c4cd05ac99236ada",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.zaxxer",
+    "dependencyArtifactID" : "HikariCP",
+    "previousVersion" : "4.0.3",
+    "newVersion" : "6.2.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Other"
+}

@@ -1,0 +1,21 @@
+{
+  "url" : "https://github.com/kokorin/Jaffree/pull/304",
+  "project" : "Jaffree",
+  "projectOrganisation" : "kokorin",
+  "breakingCommit" : "e005b0ecb0801d7adab81e2c720efd9b6f1752ae",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.puppycrawl.tools",
+    "dependencyArtifactID" : "checkstyle",
+    "previousVersion" : "9.2.1",
+    "newVersion" : "10.3",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "licenseInfo" : "LGPL-2.1",
+    "githubRepoSlug" : "checkstyle/checkstyle"
+  },
+  "javaVersionUsedForReproduction" : "11",
+  "licenseInfo" : "Apache-2.0"
+}

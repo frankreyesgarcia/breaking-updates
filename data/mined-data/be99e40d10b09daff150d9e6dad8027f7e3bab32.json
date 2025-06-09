@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/spotify/missinglink/pull/390",
+  "project" : "missinglink",
+  "projectOrganisation" : "spotify",
+  "breakingCommit" : "be99e40d10b09daff150d9e6dad8027f7e3bab32",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "unknown",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.google.guava",
+    "dependencyArtifactID" : "guava",
+    "previousVersion" : "33.3.1-jre",
+    "newVersion" : "33.4.0-jre",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

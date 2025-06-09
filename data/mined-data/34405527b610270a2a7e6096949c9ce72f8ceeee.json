@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/liefke/org.fastnate/pull/77",
+  "project" : "org.fastnate",
+  "projectOrganisation" : "liefke",
+  "breakingCommit" : "34405527b610270a2a7e6096949c9ce72f8ceeee",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "commons-io",
+    "dependencyArtifactID" : "commons-io",
+    "previousVersion" : "2.11.0",
+    "newVersion" : "2.14.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

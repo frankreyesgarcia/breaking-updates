@@ -1,0 +1,21 @@
+{
+  "url" : "https://github.com/matteobaccan/html2pop3/pull/406",
+  "project" : "html2pop3",
+  "projectOrganisation" : "matteobaccan",
+  "breakingCommit" : "fe1d9e25d3e7f562498bf340239769cf1f1ab80b",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "ch.qos.logback",
+    "dependencyArtifactID" : "logback-core",
+    "previousVersion" : "1.4.7",
+    "newVersion" : "1.4.8",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "licenseInfo" : "NOASSERTION",
+    "githubRepoSlug" : "qos-ch/logback"
+  },
+  "javaVersionUsedForReproduction" : "11",
+  "licenseInfo" : "GPL-3.0"
+}

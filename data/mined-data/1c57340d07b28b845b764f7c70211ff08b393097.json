@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/drasyl/drasyl/pull/664",
+  "project" : "drasyl",
+  "projectOrganisation" : "drasyl",
+  "breakingCommit" : "1c57340d07b28b845b764f7c70211ff08b393097",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "human",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.graalvm.sdk",
+    "dependencyArtifactID" : "graal-sdk",
+    "previousVersion" : "24.0.0",
+    "newVersion" : "24.0.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "MIT License"
+}

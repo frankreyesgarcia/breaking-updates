@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/factcast/factcast/pull/3592",
+  "project" : "factcast",
+  "projectOrganisation" : "factcast",
+  "breakingCommit" : "dff1148f3d666091c659554b4b2fea8f7b03d4f7",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.fury",
+    "dependencyArtifactID" : "fury-core",
+    "previousVersion" : "0.9.0",
+    "newVersion" : "0.10.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/camunda/camunda/pull/25858",
+  "project" : "camunda",
+  "projectOrganisation" : "camunda",
+  "breakingCommit" : "1c374f8ed628cc164d7c66c73ffe5a7565c59f15",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "io.camunda",
+    "dependencyArtifactID" : "identity-sdk",
+    "previousVersion" : "8.5.9",
+    "newVersion" : "8.5.10",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "unknown"
+  },
+  "licenseInfo" : "unknown"
+}

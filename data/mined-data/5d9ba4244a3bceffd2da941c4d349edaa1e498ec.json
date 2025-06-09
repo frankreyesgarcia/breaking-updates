@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/cloudbees-oss/zendesk-java-client/pull/711",
+  "project" : "zendesk-java-client",
+  "projectOrganisation" : "cloudbees-oss",
+  "breakingCommit" : "5d9ba4244a3bceffd2da941c4d349edaa1e498ec",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.asynchttpclient",
+    "dependencyArtifactID" : "async-http-client",
+    "previousVersion" : "2.12.3",
+    "newVersion" : "3.0.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

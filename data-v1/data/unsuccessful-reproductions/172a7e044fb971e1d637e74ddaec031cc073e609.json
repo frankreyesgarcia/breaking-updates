@@ -1,0 +1,21 @@
+{
+  "url" : "https://github.com/liquibase/liquibase-bigquery/pull/55",
+  "project" : "liquibase-bigquery",
+  "projectOrganisation" : "liquibase",
+  "breakingCommit" : "172a7e044fb971e1d637e74ddaec031cc073e609",
+  "prAuthor" : "human",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "human",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.google.cloud",
+    "dependencyArtifactID" : "google-cloud-bigquerystorage",
+    "previousVersion" : "2.23.1",
+    "newVersion" : "2.26.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "licenseInfo" : "No license found",
+    "githubRepoSlug" : "Repository not found"
+  },
+  "javaVersionUsedForReproduction" : "11",
+  "licenseInfo" : "Apache-2.0"
+}

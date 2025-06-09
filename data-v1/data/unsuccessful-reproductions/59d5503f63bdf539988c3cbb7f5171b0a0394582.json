@@ -1,0 +1,21 @@
+{
+  "url" : "https://github.com/mirkosertic/GameComposer/pull/392",
+  "project" : "GameComposer",
+  "projectOrganisation" : "mirkosertic",
+  "breakingCommit" : "59d5503f63bdf539988c3cbb7f5171b0a0394582",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.glassfish.jaxb",
+    "dependencyArtifactID" : "jaxb-runtime",
+    "previousVersion" : "4.0.0",
+    "newVersion" : "4.0.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "licenseInfo" : "No license found",
+    "githubRepoSlug" : "Repository not found"
+  },
+  "javaVersionUsedForReproduction" : "11",
+  "licenseInfo" : "No license found"
+}

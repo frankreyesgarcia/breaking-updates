@@ -1,0 +1,21 @@
+{
+  "url" : "https://github.com/cmu-db/benchbase/pull/288",
+  "project" : "benchbase",
+  "projectOrganisation" : "cmu-db",
+  "breakingCommit" : "8d66e708392e0a4e0970b732552c902d0e253690",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.slf4j",
+    "dependencyArtifactID" : "slf4j-api",
+    "previousVersion" : "1.7.36",
+    "newVersion" : "2.0.7",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "licenseInfo" : "MIT",
+    "githubRepoSlug" : "qos-ch/slf4j"
+  },
+  "javaVersionUsedForReproduction" : "11",
+  "licenseInfo" : "NOASSERTION"
+}

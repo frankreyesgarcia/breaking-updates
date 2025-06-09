@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/mybatis/velocity-scripting/pull/232",
+  "project" : "velocity-scripting",
+  "projectOrganisation" : "mybatis",
+  "breakingCommit" : "f782114e1f8545178b3ff9708e66e43d8beef9f1",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.velocity",
+    "dependencyArtifactID" : "velocity-engine-core",
+    "previousVersion" : "2.3",
+    "newVersion" : "2.4",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

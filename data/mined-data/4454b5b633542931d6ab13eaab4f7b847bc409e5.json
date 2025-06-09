@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/camunda/camunda/pull/30124",
+  "project" : "camunda",
+  "projectOrganisation" : "camunda",
+  "breakingCommit" : "4454b5b633542931d6ab13eaab4f7b847bc409e5",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.google.guava",
+    "dependencyArtifactID" : "failureaccess",
+    "previousVersion" : "1.0.2",
+    "newVersion" : "1.0.3",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "unknown"
+  },
+  "licenseInfo" : "unknown"
+}

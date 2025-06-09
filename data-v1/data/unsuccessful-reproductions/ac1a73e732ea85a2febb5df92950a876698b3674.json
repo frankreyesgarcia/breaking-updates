@@ -1,0 +1,21 @@
+{
+  "url" : "https://github.com/ThalesGroup/chaos-engine/pull/25",
+  "project" : "chaos-engine",
+  "projectOrganisation" : "ThalesGroup",
+  "breakingCommit" : "ac1a73e732ea85a2febb5df92950a876698b3674",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "commons-net",
+    "dependencyArtifactID" : "commons-net",
+    "previousVersion" : "3.6",
+    "newVersion" : "3.9.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "licenseInfo" : "No license found",
+    "githubRepoSlug" : "Repository not found"
+  },
+  "javaVersionUsedForReproduction" : "11",
+  "licenseInfo" : "Apache-2.0"
+}

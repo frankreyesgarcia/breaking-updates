@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/winery/winery/pull/762",
+  "project" : "winery",
+  "projectOrganisation" : "winery",
+  "breakingCommit" : "f8ef920044d3097f10d7eb7984f18a7e84727a2e",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.eclipse.jetty",
+    "dependencyArtifactID" : "jetty-servlets",
+    "previousVersion" : "9.4.2.v20170220",
+    "newVersion" : "9.4.54.v20240208",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

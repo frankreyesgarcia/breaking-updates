@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/wala/ML/pull/236",
+  "project" : "ML",
+  "projectOrganisation" : "wala",
+  "breakingCommit" : "019c8ca4c3040d451dcbf6d6e7839b2ca432eec9",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.eclipse.lsp4j",
+    "dependencyArtifactID" : "org.eclipse.lsp4j",
+    "previousVersion" : "0.8.1",
+    "newVersion" : "0.24.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "Eclipse Public License 2.0"
+}

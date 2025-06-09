@@ -1,0 +1,21 @@
+{
+  "url" : "https://github.com/lukas-krecan/ShedLock/pull/1229",
+  "project" : "ShedLock",
+  "projectOrganisation" : "lukas-krecan",
+  "breakingCommit" : "8379664abb11c82d8040290e0cee122191420ba3",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.hsqldb",
+    "dependencyArtifactID" : "hsqldb",
+    "previousVersion" : "2.5.1",
+    "newVersion" : "2.7.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "licenseInfo" : "No license found",
+    "githubRepoSlug" : "Repository not found"
+  },
+  "javaVersionUsedForReproduction" : "11",
+  "licenseInfo" : "Apache-2.0"
+}

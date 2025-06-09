@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/opencast/opencast/pull/6344",
+  "project" : "opencast",
+  "projectOrganisation" : "opencast",
+  "breakingCommit" : "458df104482f555fb2205109481b9038a3418a94",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "unknown",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.mchange",
+    "dependencyArtifactID" : "c3p0",
+    "previousVersion" : "0.9.5.5",
+    "newVersion" : "0.10.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "Educational Community License v2.0"
+}

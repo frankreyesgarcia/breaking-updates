@@ -1,0 +1,21 @@
+{
+  "url" : "https://github.com/apache/hudi/pull/5921",
+  "project" : "hudi",
+  "projectOrganisation" : "apache",
+  "breakingCommit" : "02988d11ede4d1565199bb5d89cbf8df0b80b35b",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.h2database",
+    "dependencyArtifactID" : "h2",
+    "previousVersion" : "1.4.200",
+    "newVersion" : "2.1.210",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "licenseInfo" : "NOASSERTION",
+    "githubRepoSlug" : "h2database/h2database"
+  },
+  "javaVersionUsedForReproduction" : "11",
+  "licenseInfo" : "Apache-2.0"
+}

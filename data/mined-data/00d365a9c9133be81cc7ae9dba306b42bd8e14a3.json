@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/jcabi/jcabi-xml/pull/296",
+  "project" : "jcabi-xml",
+  "projectOrganisation" : "jcabi",
+  "breakingCommit" : "00d365a9c9133be81cc7ae9dba306b42bd8e14a3",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.cactoos",
+    "dependencyArtifactID" : "cactoos",
+    "previousVersion" : "0.56.1",
+    "newVersion" : "0.57.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "unknown"
+  },
+  "licenseInfo" : "Other"
+}

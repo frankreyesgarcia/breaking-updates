@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/luisgoncalves/xades4j/pull/320",
+  "project" : "xades4j",
+  "projectOrganisation" : "luisgoncalves",
+  "breakingCommit" : "76fbb0ad6c537ab44dadf89fa9f4a52b7f1da603",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.google.guava",
+    "dependencyArtifactID" : "guava",
+    "previousVersion" : "33.3.1-jre",
+    "newVersion" : "33.4.0-jre",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "unknown"
+  },
+  "licenseInfo" : "GNU Lesser General Public License v3.0"
+}

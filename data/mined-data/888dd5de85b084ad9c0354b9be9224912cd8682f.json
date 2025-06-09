@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/eclipse-platform/eclipse.platform.swt/pull/1975",
+  "project" : "eclipse.platform.swt",
+  "projectOrganisation" : "eclipse-platform",
+  "breakingCommit" : "888dd5de85b084ad9c0354b9be9224912cd8682f",
+  "prAuthor" : "human",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "human",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.maven.surefire",
+    "dependencyArtifactID" : "surefire-junit-platform",
+    "previousVersion" : "3.2.5",
+    "newVersion" : "${surefire.version}",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "buildPlugins"
+  },
+  "licenseInfo" : "Eclipse Public License 2.0"
+}

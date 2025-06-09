@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/anotheria/moskito/pull/289",
+  "project" : "moskito",
+  "projectOrganisation" : "anotheria",
+  "breakingCommit" : "8868f70876c136121dba53f0dd708aed718a6247",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.springframework",
+    "dependencyArtifactID" : "spring-web",
+    "previousVersion" : "6.0.0",
+    "newVersion" : "6.0.19",
+    "dependencyScope" : "provided",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "MIT License"
+}

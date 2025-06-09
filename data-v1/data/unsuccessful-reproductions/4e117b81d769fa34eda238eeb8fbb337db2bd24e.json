@@ -1,0 +1,21 @@
+{
+  "url" : "https://github.com/quarkusio/quarkus-platform/pull/878",
+  "project" : "quarkus-platform",
+  "projectOrganisation" : "quarkusio",
+  "breakingCommit" : "4e117b81d769fa34eda238eeb8fbb337db2bd24e",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.keycloak",
+    "dependencyArtifactID" : "keycloak-core",
+    "previousVersion" : "21.0.2",
+    "newVersion" : "21.1.2",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "licenseInfo" : "No license found",
+    "githubRepoSlug" : "Repository not found"
+  },
+  "javaVersionUsedForReproduction" : "11",
+  "licenseInfo" : "Apache-2.0"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/luisgoncalves/xades4j/pull/321",
+  "project" : "xades4j",
+  "projectOrganisation" : "luisgoncalves",
+  "breakingCommit" : "b9dd20d29433524ab0c5fb3b70495f449955a20f",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.junit",
+    "dependencyArtifactID" : "junit-bom",
+    "previousVersion" : "5.11.3",
+    "newVersion" : "5.11.4",
+    "dependencyScope" : "import",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "unknown"
+  },
+  "licenseInfo" : "GNU Lesser General Public License v3.0"
+}

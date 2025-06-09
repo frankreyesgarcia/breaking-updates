@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/drasyl/drasyl/pull/677",
+  "project" : "drasyl",
+  "projectOrganisation" : "drasyl",
+  "breakingCommit" : "c6a6d87d2c239f12811262995e86bb100ce34c5f",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "human",
+  "updatedDependency" : {
+    "dependencyGroupID" : "io.github.classgraph",
+    "dependencyArtifactID" : "classgraph",
+    "previousVersion" : "4.8.170",
+    "newVersion" : "4.8.172",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "MIT License"
+}

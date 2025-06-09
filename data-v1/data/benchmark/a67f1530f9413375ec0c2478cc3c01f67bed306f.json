@@ -1,0 +1,29 @@
+{
+  "url" : "https://github.com/quick-perf/quickperf/pull/202",
+  "project" : "quickperf",
+  "projectOrganisation" : "quick-perf",
+  "breakingCommit" : "a67f1530f9413375ec0c2478cc3c01f67bed306f",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.testng",
+    "dependencyArtifactID" : "testng",
+    "previousVersion" : "7.0.0",
+    "newVersion" : "7.7.0",
+    "dependencyScope" : "provided",
+    "versionUpdateType" : "minor",
+    "githubCompareLink" : "https://github.com/testng-team/testng/compare/7.0.0...7.7.0",
+    "mavenSourceLinkPre" : "https://repo1.maven.org/maven2/org/testng/testng/7.0.0/testng-7.0.0-sources.jar",
+    "mavenSourceLinkBreaking" : "https://repo1.maven.org/maven2/org/testng/testng/7.7.0/testng-7.7.0-sources.jar",
+    "updatedFileType" : "JAR",
+    "dependencySection" : "dependencies",
+    "licenseInfo" : "Apache-2.0",
+    "githubRepoSlug" : "testng-team/testng"
+  },
+  "preCommitReproductionCommand" : "docker run ghcr.io/chains-project/breaking-updates:a67f1530f9413375ec0c2478cc3c01f67bed306f-pre",
+  "breakingUpdateReproductionCommand" : "docker run ghcr.io/chains-project/breaking-updates:a67f1530f9413375ec0c2478cc3c01f67bed306f-breaking",
+  "javaVersionUsedForReproduction" : "11",
+  "failureCategory" : "ENFORCER_FAILURE",
+  "licenseInfo" : "Apache-2.0"
+}

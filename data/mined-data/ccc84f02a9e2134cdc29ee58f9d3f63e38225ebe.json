@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/UniversalMediaServer/UniversalMediaServer/pull/5036",
+  "project" : "UniversalMediaServer",
+  "projectOrganisation" : "UniversalMediaServer",
+  "breakingCommit" : "ccc84f02a9e2134cdc29ee58f9d3f63e38225ebe",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.twelvemonkeys.imageio",
+    "dependencyArtifactID" : "imageio-batik",
+    "previousVersion" : "3.11.0",
+    "newVersion" : "3.12.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "GNU General Public License v2.0"
+}

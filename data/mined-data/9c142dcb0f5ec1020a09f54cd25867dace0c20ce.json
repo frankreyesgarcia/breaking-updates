@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/maxmind/minfraud-api-java/pull/447",
+  "project" : "minfraud-api-java",
+  "projectOrganisation" : "maxmind",
+  "breakingCommit" : "9c142dcb0f5ec1020a09f54cd25867dace0c20ce",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.puppycrawl.tools",
+    "dependencyArtifactID" : "checkstyle",
+    "previousVersion" : "10.21.1",
+    "newVersion" : "10.21.2",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "buildPlugins"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

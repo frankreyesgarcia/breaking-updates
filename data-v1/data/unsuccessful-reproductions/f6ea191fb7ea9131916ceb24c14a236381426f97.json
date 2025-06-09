@@ -1,0 +1,21 @@
+{
+  "url" : "https://github.com/genexuslabs/JavaClasses/pull/639",
+  "project" : "JavaClasses",
+  "projectOrganisation" : "genexuslabs",
+  "breakingCommit" : "f6ea191fb7ea9131916ceb24c14a236381426f97",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "commons-net",
+    "dependencyArtifactID" : "commons-net",
+    "previousVersion" : "3.3",
+    "newVersion" : "3.9.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "licenseInfo" : "No license found",
+    "githubRepoSlug" : "Repository not found"
+  },
+  "javaVersionUsedForReproduction" : "11",
+  "licenseInfo" : "Apache-2.0"
+}

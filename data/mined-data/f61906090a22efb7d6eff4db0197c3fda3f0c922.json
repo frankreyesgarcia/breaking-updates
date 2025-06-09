@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/SPARQL-Anything/sparql.anything/pull/534",
+  "project" : "sparql.anything",
+  "projectOrganisation" : "SPARQL-Anything",
+  "breakingCommit" : "f61906090a22efb7d6eff4db0197c3fda3f0c922",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.poi",
+    "dependencyArtifactID" : "poi-ooxml",
+    "previousVersion" : "5.0.0",
+    "newVersion" : "5.4.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

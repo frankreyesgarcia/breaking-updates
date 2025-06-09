@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/feedzai/pdb/pull/469",
+  "project" : "pdb",
+  "projectOrganisation" : "feedzai",
+  "breakingCommit" : "871dd4b09e827544faf132f753d182a0dccbe44a",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.google.guava",
+    "dependencyArtifactID" : "guava",
+    "previousVersion" : "25.1-jre",
+    "newVersion" : "33.2.0-jre",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/miso-lims/miso-lims/pull/3047",
+  "project" : "miso-lims",
+  "projectOrganisation" : "miso-lims",
+  "breakingCommit" : "7cd3c75d20efaad208f5ad1e2c2a28f15c0c8201",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "io.github.bonigarcia",
+    "dependencyArtifactID" : "webdrivermanager",
+    "previousVersion" : "5.7.0",
+    "newVersion" : "6.1.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "GNU General Public License v3.0"
+}

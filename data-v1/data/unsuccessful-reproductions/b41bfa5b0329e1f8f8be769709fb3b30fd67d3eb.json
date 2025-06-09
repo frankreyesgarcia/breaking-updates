@@ -1,0 +1,21 @@
+{
+  "url" : "https://github.com/mirkosertic/GameComposer/pull/421",
+  "project" : "GameComposer",
+  "projectOrganisation" : "mirkosertic",
+  "breakingCommit" : "b41bfa5b0329e1f8f8be769709fb3b30fd67d3eb",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.springframework.boot",
+    "dependencyArtifactID" : "spring-boot-starter-web",
+    "previousVersion" : "2.7.5",
+    "newVersion" : "3.0.6",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "licenseInfo" : "Apache-2.0",
+    "githubRepoSlug" : "spring-projects/spring-boot"
+  },
+  "javaVersionUsedForReproduction" : "11",
+  "licenseInfo" : "No license found"
+}

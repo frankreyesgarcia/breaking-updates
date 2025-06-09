@@ -1,0 +1,21 @@
+{
+  "url" : "https://github.com/matteobaccan/html2pop3/pull/307",
+  "project" : "html2pop3",
+  "projectOrganisation" : "matteobaccan",
+  "breakingCommit" : "c644ae0b693c274ef71851c0822cf0aebd9593bf",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.json",
+    "dependencyArtifactID" : "json",
+    "previousVersion" : "20220320",
+    "newVersion" : "20220924",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "licenseInfo" : "NOASSERTION",
+    "githubRepoSlug" : "stleary/JSON-java"
+  },
+  "javaVersionUsedForReproduction" : "11",
+  "licenseInfo" : "GPL-3.0"
+}

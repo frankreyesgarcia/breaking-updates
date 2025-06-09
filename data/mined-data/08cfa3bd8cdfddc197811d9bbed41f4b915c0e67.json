@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/jcabi/jcabi-mysql-maven-plugin/pull/237",
+  "project" : "jcabi-mysql-maven-plugin",
+  "projectOrganisation" : "jcabi",
+  "breakingCommit" : "08cfa3bd8cdfddc197811d9bbed41f4b915c0e67",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.maven",
+    "dependencyArtifactID" : "maven-plugin-api",
+    "previousVersion" : "3.9.7",
+    "newVersion" : "3.9.10",
+    "dependencyScope" : "provided",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Other"
+}

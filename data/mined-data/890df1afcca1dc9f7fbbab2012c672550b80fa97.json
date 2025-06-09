@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/mthmulders/mcs/pull/534",
+  "project" : "mcs",
+  "projectOrganisation" : "mthmulders",
+  "breakingCommit" : "890df1afcca1dc9f7fbbab2012c672550b80fa97",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "it.mulders.stryker",
+    "dependencyArtifactID" : "pit-dashboard-reporter",
+    "previousVersion" : "0.3.3",
+    "newVersion" : "0.3.4",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "buildPluginManagement"
+  },
+  "licenseInfo" : "MIT License"
+}

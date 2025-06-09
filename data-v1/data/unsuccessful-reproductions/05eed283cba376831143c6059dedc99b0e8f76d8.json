@@ -1,0 +1,21 @@
+{
+  "url" : "https://github.com/cBioPortal/cbioportal/pull/9488",
+  "project" : "cbioportal",
+  "projectOrganisation" : "cBioPortal",
+  "breakingCommit" : "05eed283cba376831143c6059dedc99b0e8f76d8",
+  "prAuthor" : "human",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "human",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.springframework.security.oauth",
+    "dependencyArtifactID" : "spring-security-oauth2",
+    "previousVersion" : "2.2.5.RELEASE",
+    "newVersion" : "2.5.2.RELEASE",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "licenseInfo" : "No license found",
+    "githubRepoSlug" : "Repository not found"
+  },
+  "javaVersionUsedForReproduction" : "11",
+  "licenseInfo" : "AGPL-3.0"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/matsim-org/pt2matsim/pull/225",
+  "project" : "pt2matsim",
+  "projectOrganisation" : "matsim-org",
+  "breakingCommit" : "fd5566b3c197e665746e845034b269241c55d905",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.matsim",
+    "dependencyArtifactID" : "matsim",
+    "previousVersion" : "2024.0",
+    "newVersion" : "2025.0-2024w22",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "GNU General Public License v2.0"
+}

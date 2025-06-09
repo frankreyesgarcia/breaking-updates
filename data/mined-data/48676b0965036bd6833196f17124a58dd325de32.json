@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/liimaorg/liima/pull/753",
+  "project" : "liima",
+  "projectOrganisation" : "liimaorg",
+  "breakingCommit" : "48676b0965036bd6833196f17124a58dd325de32",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.hibernate",
+    "dependencyArtifactID" : "hibernate-core",
+    "previousVersion" : "5.1.17.Final",
+    "newVersion" : "5.3.20.Final",
+    "dependencyScope" : "provided",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "GNU Affero General Public License v3.0"
+}

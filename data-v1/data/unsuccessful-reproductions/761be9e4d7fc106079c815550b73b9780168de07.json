@@ -1,0 +1,21 @@
+{
+  "url" : "https://github.com/gazbert/bxbot/pull/155",
+  "project" : "bxbot",
+  "projectOrganisation" : "gazbert",
+  "breakingCommit" : "761be9e4d7fc106079c815550b73b9780168de07",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.yaml",
+    "dependencyArtifactID" : "snakeyaml",
+    "previousVersion" : "1.30",
+    "newVersion" : "1.32",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "licenseInfo" : "Apache-2.0",
+    "githubRepoSlug" : "snakeyaml/snakeyaml"
+  },
+  "javaVersionUsedForReproduction" : "11",
+  "licenseInfo" : "MIT"
+}

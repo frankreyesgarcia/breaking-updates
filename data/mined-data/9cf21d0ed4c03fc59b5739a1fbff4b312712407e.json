@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/btrplace/scheduler/pull/498",
+  "project" : "scheduler",
+  "projectOrganisation" : "btrplace",
+  "breakingCommit" : "9cf21d0ed4c03fc59b5739a1fbff4b312712407e",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "args4j",
+    "dependencyArtifactID" : "args4j",
+    "previousVersion" : "2.33",
+    "newVersion" : "2.37",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "unknown"
+  },
+  "licenseInfo" : "GNU Lesser General Public License v3.0"
+}

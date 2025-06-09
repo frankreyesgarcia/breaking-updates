@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/cdi-unit/cdi-unit/pull/258",
+  "project" : "cdi-unit",
+  "projectOrganisation" : "cdi-unit",
+  "breakingCommit" : "042966ade6e6b7b9436d31ad3c465153f857827e",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.maven.surefire",
+    "dependencyArtifactID" : "surefire-testng",
+    "previousVersion" : "3.3.0",
+    "newVersion" : "3.3.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "buildPlugins"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

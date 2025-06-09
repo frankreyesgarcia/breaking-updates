@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/camunda/camunda/pull/23524",
+  "project" : "camunda",
+  "projectOrganisation" : "camunda",
+  "breakingCommit" : "10185f6e053f7727b59bd752d11616b754bb8c40",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "io.projectreactor",
+    "dependencyArtifactID" : "reactor-core",
+    "previousVersion" : "3.6.10",
+    "newVersion" : "3.6.11",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "unknown"
+}

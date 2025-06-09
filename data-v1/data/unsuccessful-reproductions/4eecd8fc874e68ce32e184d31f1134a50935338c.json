@@ -1,0 +1,21 @@
+{
+  "url" : "https://github.com/gchq/Gaffer/pull/2599",
+  "project" : "Gaffer",
+  "projectOrganisation" : "gchq",
+  "breakingCommit" : "4eecd8fc874e68ce32e184d31f1134a50935338c",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.hazelcast",
+    "dependencyArtifactID" : "hazelcast",
+    "previousVersion" : "3.8",
+    "newVersion" : "5.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "licenseInfo" : "No license found",
+    "githubRepoSlug" : "Repository not found"
+  },
+  "javaVersionUsedForReproduction" : "11",
+  "licenseInfo" : "Apache-2.0"
+}

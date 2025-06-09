@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/mybatis/freemarker-scripting/pull/197",
+  "project" : "freemarker-scripting",
+  "projectOrganisation" : "mybatis",
+  "breakingCommit" : "83e48c3d64cbe70a22aa8d49896db537eac938cc",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.freemarker",
+    "dependencyArtifactID" : "freemarker",
+    "previousVersion" : "2.3.32",
+    "newVersion" : "2.3.33",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

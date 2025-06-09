@@ -1,0 +1,21 @@
+{
+  "url" : "https://github.com/FrankChen021/bithon/pull/530",
+  "project" : "bithon",
+  "projectOrganisation" : "FrankChen021",
+  "breakingCommit" : "982fdcffd2d0d53bdcd303c1296dbb631840d77e",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.eclipse.jetty",
+    "dependencyArtifactID" : "jetty-server",
+    "previousVersion" : "9.4.6.v20170531",
+    "newVersion" : "9.4.41.v20210516",
+    "dependencyScope" : "provided",
+    "versionUpdateType" : "other",
+    "licenseInfo" : "NOASSERTION",
+    "githubRepoSlug" : "jetty/jetty.project"
+  },
+  "javaVersionUsedForReproduction" : "11",
+  "licenseInfo" : "Apache-2.0"
+}

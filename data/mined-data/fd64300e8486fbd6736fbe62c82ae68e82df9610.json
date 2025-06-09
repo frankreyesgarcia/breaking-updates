@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/eclipse-basyx/basyx-java-server-sdk/pull/564",
+  "project" : "basyx-java-server-sdk",
+  "projectOrganisation" : "eclipse-basyx",
+  "breakingCommit" : "fd64300e8486fbd6736fbe62c82ae68e82df9610",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.springdoc",
+    "dependencyArtifactID" : "springdoc-openapi-starter-webmvc-ui",
+    "previousVersion" : "2.6.0",
+    "newVersion" : "2.7.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "unknown"
+  },
+  "licenseInfo" : "MIT License"
+}

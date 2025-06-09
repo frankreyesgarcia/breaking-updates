@@ -1,0 +1,21 @@
+{
+  "url" : "https://github.com/locationtech/geowave/pull/1862",
+  "project" : "geowave",
+  "projectOrganisation" : "locationtech",
+  "breakingCommit" : "25eadbafb578b1bbec5f83cee06ec78af04abe0e",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "xerces",
+    "dependencyArtifactID" : "xercesImpl",
+    "previousVersion" : "2.12.1",
+    "newVersion" : "2.12.2",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "licenseInfo" : "No license found",
+    "githubRepoSlug" : "Repository not found"
+  },
+  "javaVersionUsedForReproduction" : "11",
+  "licenseInfo" : "Apache-2.0"
+}

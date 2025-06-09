@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/WinterChenS/my-site/pull/86",
+  "project" : "my-site",
+  "projectOrganisation" : "WinterChenS",
+  "breakingCommit" : "5b808196641a4f764d12e3b81a81e6f4e59e4b57",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "io.springfox",
+    "dependencyArtifactID" : "springfox-swagger-ui",
+    "previousVersion" : "2.2.2",
+    "newVersion" : "2.10.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

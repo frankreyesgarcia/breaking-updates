@@ -1,0 +1,21 @@
+{
+  "url" : "https://github.com/primefaces/primefaces/pull/9927",
+  "project" : "primefaces",
+  "projectOrganisation" : "primefaces",
+  "breakingCommit" : "e55d306bd6b880ed379fbe266626725536f483df",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "human",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.glassfish",
+    "dependencyArtifactID" : "jakarta.faces",
+    "previousVersion" : "4.0.1",
+    "newVersion" : "4.0.2",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "licenseInfo" : "No license found",
+    "githubRepoSlug" : "Repository not found"
+  },
+  "javaVersionUsedForReproduction" : "11",
+  "licenseInfo" : "MIT"
+}

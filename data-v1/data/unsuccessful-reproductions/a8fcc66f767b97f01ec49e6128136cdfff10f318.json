@@ -1,0 +1,21 @@
+{
+  "url" : "https://github.com/liquibase/liquibase-bigquery/pull/151",
+  "project" : "liquibase-bigquery",
+  "projectOrganisation" : "liquibase",
+  "breakingCommit" : "a8fcc66f767b97f01ec49e6128136cdfff10f318",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.google.cloud",
+    "dependencyArtifactID" : "libraries-bom",
+    "previousVersion" : "26.14.0",
+    "newVersion" : "26.16.0",
+    "dependencyScope" : "import",
+    "versionUpdateType" : "minor",
+    "licenseInfo" : "No license found",
+    "githubRepoSlug" : "Repository not found"
+  },
+  "javaVersionUsedForReproduction" : "11",
+  "licenseInfo" : "Apache-2.0"
+}

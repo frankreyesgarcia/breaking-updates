@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/mybatis/memcached-cache/pull/154",
+  "project" : "memcached-cache",
+  "projectOrganisation" : "mybatis",
+  "breakingCommit" : "15b6f969699218a03d31e49b29968bf9d475df32",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.mybatis",
+    "dependencyArtifactID" : "mybatis",
+    "previousVersion" : "3.5.17",
+    "newVersion" : "3.5.18",
+    "dependencyScope" : "provided",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

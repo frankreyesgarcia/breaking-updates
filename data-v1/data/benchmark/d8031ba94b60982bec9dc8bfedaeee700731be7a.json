@@ -1,0 +1,29 @@
+{
+  "url" : "https://github.com/getgauge/gauge-java/pull/711",
+  "project" : "gauge-java",
+  "projectOrganisation" : "getgauge",
+  "breakingCommit" : "d8031ba94b60982bec9dc8bfedaeee700731be7a",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.puppycrawl.tools",
+    "dependencyArtifactID" : "checkstyle",
+    "previousVersion" : "10.12.1",
+    "newVersion" : "10.12.2",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "githubCompareLink" : "https://github.com/checkstyle/checkstyle/compare/checkstyle-10.12.1...checkstyle-10.12.2",
+    "mavenSourceLinkPre" : "https://repo1.maven.org/maven2/com/puppycrawl/tools/checkstyle/10.12.1/checkstyle-10.12.1-sources.jar",
+    "mavenSourceLinkBreaking" : "https://repo1.maven.org/maven2/com/puppycrawl/tools/checkstyle/10.12.2/checkstyle-10.12.2-sources.jar",
+    "updatedFileType" : "JAR",
+    "dependencySection" : "buildPlugins",
+    "licenseInfo" : "LGPL-2.1",
+    "githubRepoSlug" : "checkstyle/checkstyle"
+  },
+  "preCommitReproductionCommand" : "docker run ghcr.io/chains-project/breaking-updates:d8031ba94b60982bec9dc8bfedaeee700731be7a-pre",
+  "breakingUpdateReproductionCommand" : "docker run ghcr.io/chains-project/breaking-updates:d8031ba94b60982bec9dc8bfedaeee700731be7a-breaking",
+  "javaVersionUsedForReproduction" : "11",
+  "failureCategory" : "ENFORCER_FAILURE",
+  "licenseInfo" : "Apache-2.0"
+}

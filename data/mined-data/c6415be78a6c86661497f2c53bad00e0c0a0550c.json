@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/adorsys/keycloak-config-cli/pull/1258",
+  "project" : "keycloak-config-cli",
+  "projectOrganisation" : "adorsys",
+  "breakingCommit" : "c6415be78a6c86661497f2c53bad00e0c0a0550c",
+  "prAuthor" : "human",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "human",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.keycloak",
+    "dependencyArtifactID" : "keycloak-core",
+    "previousVersion" : "26.0.6",
+    "newVersion" : "26.0.8",
+    "dependencyScope" : "provided",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

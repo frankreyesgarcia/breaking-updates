@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/jcabi/jcabi-http/pull/523",
+  "project" : "jcabi-http",
+  "projectOrganisation" : "jcabi",
+  "breakingCommit" : "9dbe29f77e53d1b7ec0432f0eabf6b370b3cfdfd",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "ch.qos.logback",
+    "dependencyArtifactID" : "logback-core",
+    "previousVersion" : "1.5.10",
+    "newVersion" : "1.5.12",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Other"
+}

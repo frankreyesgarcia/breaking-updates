@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/Adyen/adyen-java-api-library/pull/1345",
+  "project" : "adyen-java-api-library",
+  "projectOrganisation" : "Adyen",
+  "breakingCommit" : "ff8ccf189c3247a25868475ada3e1833a499ee55",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.fasterxml.jackson.core",
+    "dependencyArtifactID" : "jackson-databind",
+    "previousVersion" : "2.12.7.2",
+    "newVersion" : "2.19.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "MIT License"
+}

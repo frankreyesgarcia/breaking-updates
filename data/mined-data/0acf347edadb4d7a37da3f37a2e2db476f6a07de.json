@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/apache/commons-validator/pull/304",
+  "project" : "commons-validator",
+  "projectOrganisation" : "apache",
+  "breakingCommit" : "0acf347edadb4d7a37da3f37a2e2db476f6a07de",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.junit-pioneer",
+    "dependencyArtifactID" : "junit-pioneer",
+    "previousVersion" : "1.9.1",
+    "newVersion" : "2.3.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

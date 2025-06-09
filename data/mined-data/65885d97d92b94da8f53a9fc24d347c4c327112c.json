@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/airlift/aircompressor/pull/198",
+  "project" : "aircompressor",
+  "projectOrganisation" : "airlift",
+  "breakingCommit" : "65885d97d92b94da8f53a9fc24d347c4c327112c",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "io.trino.hadoop",
+    "dependencyArtifactID" : "hadoop-apache",
+    "previousVersion" : "3.3.5-1",
+    "newVersion" : "3.3.5-3",
+    "dependencyScope" : "provided",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

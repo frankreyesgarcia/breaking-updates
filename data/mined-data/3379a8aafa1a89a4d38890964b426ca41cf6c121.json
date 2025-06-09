@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/objectionary/eo-strings/pull/175",
+  "project" : "eo-strings",
+  "projectOrganisation" : "objectionary",
+  "breakingCommit" : "3379a8aafa1a89a4d38890964b426ca41cf6c121",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.eolang",
+    "dependencyArtifactID" : "eo-runtime",
+    "previousVersion" : "0.32.0",
+    "newVersion" : "0.38.4",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "MIT License"
+}

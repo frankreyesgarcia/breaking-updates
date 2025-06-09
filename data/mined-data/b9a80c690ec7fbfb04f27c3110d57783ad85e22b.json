@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/dominicfeliton/WorldwideChat/pull/374",
+  "project" : "WorldwideChat",
+  "projectOrganisation" : "dominicfeliton",
+  "breakingCommit" : "b9a80c690ec7fbfb04f27c3110d57783ad85e22b",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.ibm.cloud",
+    "dependencyArtifactID" : "sdk-core",
+    "previousVersion" : "9.20.1",
+    "newVersion" : "9.21.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "unknown"
+}

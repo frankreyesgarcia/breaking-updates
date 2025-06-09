@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/r2dbc/r2dbc-spi/pull/289",
+  "project" : "r2dbc-spi",
+  "projectOrganisation" : "r2dbc",
+  "breakingCommit" : "4713976a578d536352906e2427aa420a29fae9c2",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.springframework",
+    "dependencyArtifactID" : "spring-jdbc",
+    "previousVersion" : "5.3.19",
+    "newVersion" : "6.1.14",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

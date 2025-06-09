@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/camunda-community-hub/zeebe-hazelcast-exporter/pull/396",
+  "project" : "zeebe-hazelcast-exporter",
+  "projectOrganisation" : "camunda-community-hub",
+  "breakingCommit" : "097f816d67162254d4daebd8880d0aa4a1311c15",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.awaitility",
+    "dependencyArtifactID" : "awaitility",
+    "previousVersion" : "4.2.1",
+    "newVersion" : "4.2.2",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

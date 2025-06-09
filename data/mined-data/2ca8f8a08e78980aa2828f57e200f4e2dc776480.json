@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/elimu-ai/webapp/pull/1811",
+  "project" : "webapp",
+  "projectOrganisation" : "elimu-ai",
+  "breakingCommit" : "2ca8f8a08e78980aa2828f57e200f4e2dc776480",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "human",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.logging.log4j",
+    "dependencyArtifactID" : "log4j-core",
+    "previousVersion" : "2.16.0",
+    "newVersion" : "2.23.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "MIT License"
+}

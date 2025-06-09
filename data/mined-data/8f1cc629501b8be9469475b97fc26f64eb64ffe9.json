@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/factcast/factcast/pull/3508",
+  "project" : "factcast",
+  "projectOrganisation" : "factcast",
+  "breakingCommit" : "8f1cc629501b8be9469475b97fc26f64eb64ffe9",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.testcontainers",
+    "dependencyArtifactID" : "localstack",
+    "previousVersion" : "1.20.4",
+    "newVersion" : "1.20.6",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

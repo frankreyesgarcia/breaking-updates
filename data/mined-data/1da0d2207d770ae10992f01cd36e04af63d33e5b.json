@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/jenkinsci/acceptance-test-harness/pull/2009",
+  "project" : "acceptance-test-harness",
+  "projectOrganisation" : "jenkinsci",
+  "breakingCommit" : "1da0d2207d770ae10992f01cd36e04af63d33e5b",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.json",
+    "dependencyArtifactID" : "json",
+    "previousVersion" : "20250107",
+    "newVersion" : "20250517",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "unknown"
+}

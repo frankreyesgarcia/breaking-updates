@@ -1,0 +1,21 @@
+{
+  "url" : "https://github.com/instancio/instancio/pull/229",
+  "project" : "instancio",
+  "projectOrganisation" : "instancio",
+  "breakingCommit" : "18bea0937fc8e39b20e172942acbb277268a49fb",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.puppycrawl.tools",
+    "dependencyArtifactID" : "checkstyle",
+    "previousVersion" : "10.4",
+    "newVersion" : "10.5.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "licenseInfo" : "LGPL-2.1",
+    "githubRepoSlug" : "checkstyle/checkstyle"
+  },
+  "javaVersionUsedForReproduction" : "11",
+  "licenseInfo" : "Apache-2.0"
+}

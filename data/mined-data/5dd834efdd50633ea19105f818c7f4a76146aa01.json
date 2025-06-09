@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/Songoda-Plugins/SongodaCore/pull/96",
+  "project" : "SongodaCore",
+  "projectOrganisation" : "Songoda-Plugins",
+  "breakingCommit" : "5dd834efdd50633ea19105f818c7f4a76146aa01",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.jooq",
+    "dependencyArtifactID" : "jooq",
+    "previousVersion" : "3.14.16",
+    "newVersion" : "3.19.7",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "unknown"
+  },
+  "licenseInfo" : "Other"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/elimu-ai/webapp/pull/1975",
+  "project" : "webapp",
+  "projectOrganisation" : "elimu-ai",
+  "breakingCommit" : "353fbcd9cea6ca3e9cee90cff8d2247cef045df8",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.mysql",
+    "dependencyArtifactID" : "mysql-connector-j",
+    "previousVersion" : "8.0.33",
+    "newVersion" : "9.2.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "MIT License"
+}

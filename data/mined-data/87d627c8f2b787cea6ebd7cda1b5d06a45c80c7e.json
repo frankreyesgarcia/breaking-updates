@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/mybatis/redis-cache/pull/291",
+  "project" : "redis-cache",
+  "projectOrganisation" : "mybatis",
+  "breakingCommit" : "87d627c8f2b787cea6ebd7cda1b5d06a45c80c7e",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.mybatis",
+    "dependencyArtifactID" : "mybatis",
+    "previousVersion" : "3.5.17",
+    "newVersion" : "3.5.18",
+    "dependencyScope" : "provided",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

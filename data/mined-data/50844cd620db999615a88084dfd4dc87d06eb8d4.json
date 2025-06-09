@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/jcabi/jcabi-maven-plugin/pull/191",
+  "project" : "jcabi-maven-plugin",
+  "projectOrganisation" : "jcabi",
+  "breakingCommit" : "50844cd620db999615a88084dfd4dc87d06eb8d4",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "commons-io",
+    "dependencyArtifactID" : "commons-io",
+    "previousVersion" : "2.11.0",
+    "newVersion" : "2.14.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Other"
+}

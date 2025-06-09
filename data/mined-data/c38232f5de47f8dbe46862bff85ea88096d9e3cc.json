@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/alphagov/pay-connector/pull/5246",
+  "project" : "pay-connector",
+  "projectOrganisation" : "alphagov",
+  "breakingCommit" : "c38232f5de47f8dbe46862bff85ea88096d9e3cc",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.eclipse.jetty",
+    "dependencyArtifactID" : "jetty-io",
+    "previousVersion" : "9.4.43.v20210629",
+    "newVersion" : "10.0.21",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "MIT License"
+}

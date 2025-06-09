@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/jcabi/jcabi-dynamo/pull/416",
+  "project" : "jcabi-dynamo",
+  "projectOrganisation" : "jcabi",
+  "breakingCommit" : "9d416fe6de98fa6d40f54627a0bd18f86b073b33",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.projectlombok",
+    "dependencyArtifactID" : "lombok",
+    "previousVersion" : "1.18.36",
+    "newVersion" : "1.18.38",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Other"
+}

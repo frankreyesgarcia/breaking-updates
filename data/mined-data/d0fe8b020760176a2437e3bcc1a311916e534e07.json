@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/cdi-unit/cdi-unit/pull/578",
+  "project" : "cdi-unit",
+  "projectOrganisation" : "cdi-unit",
+  "breakingCommit" : "d0fe8b020760176a2437e3bcc1a311916e534e07",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.openrewrite.recipe",
+    "dependencyArtifactID" : "rewrite-third-party",
+    "previousVersion" : "0.19.1",
+    "newVersion" : "0.20.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

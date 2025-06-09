@@ -1,0 +1,21 @@
+{
+  "url" : "https://github.com/jenkinsci/tekton-client-plugin/pull/206",
+  "project" : "tekton-client-plugin",
+  "projectOrganisation" : "jenkinsci",
+  "breakingCommit" : "cb9e9ad1a1dd23db156f12ba1f27d37bdf8616bd",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.fasterxml.jackson.module",
+    "dependencyArtifactID" : "jackson-module-jaxb-annotations",
+    "previousVersion" : "2.12.1",
+    "newVersion" : "2.12.4",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "licenseInfo" : "No license found",
+    "githubRepoSlug" : "Repository not found"
+  },
+  "javaVersionUsedForReproduction" : "11",
+  "licenseInfo" : "Apache-2.0"
+}

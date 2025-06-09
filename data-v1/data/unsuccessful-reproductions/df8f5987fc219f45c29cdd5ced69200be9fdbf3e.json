@@ -1,0 +1,21 @@
+{
+  "url" : "https://github.com/jnidzwetzki/bboxdb/pull/419",
+  "project" : "bboxdb",
+  "projectOrganisation" : "jnidzwetzki",
+  "breakingCommit" : "df8f5987fc219f45c29cdd5ced69200be9fdbf3e",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.yaml",
+    "dependencyArtifactID" : "snakeyaml",
+    "previousVersion" : "1.30",
+    "newVersion" : "1.31",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "licenseInfo" : "Apache-2.0",
+    "githubRepoSlug" : "snakeyaml/snakeyaml"
+  },
+  "javaVersionUsedForReproduction" : "11",
+  "licenseInfo" : "Apache-2.0"
+}

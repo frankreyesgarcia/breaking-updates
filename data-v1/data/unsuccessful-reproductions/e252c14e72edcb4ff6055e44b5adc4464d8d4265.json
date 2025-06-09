@@ -1,0 +1,21 @@
+{
+  "url" : "https://github.com/btrplace/scheduler/pull/340",
+  "project" : "scheduler",
+  "projectOrganisation" : "btrplace",
+  "breakingCommit" : "e252c14e72edcb4ff6055e44b5adc4464d8d4265",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "ch.qos.logback",
+    "dependencyArtifactID" : "logback-classic",
+    "previousVersion" : "1.2.7",
+    "newVersion" : "1.2.8",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "licenseInfo" : "NOASSERTION",
+    "githubRepoSlug" : "qos-ch/logback"
+  },
+  "javaVersionUsedForReproduction" : "11",
+  "licenseInfo" : "LGPL-3.0"
+}

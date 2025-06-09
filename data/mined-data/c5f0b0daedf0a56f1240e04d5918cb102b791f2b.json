@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/jcabi/jcabi-maven-slf4j/pull/54",
+  "project" : "jcabi-maven-slf4j",
+  "projectOrganisation" : "jcabi",
+  "breakingCommit" : "c5f0b0daedf0a56f1240e04d5918cb102b791f2b",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.projectlombok",
+    "dependencyArtifactID" : "lombok",
+    "previousVersion" : "1.18.30",
+    "newVersion" : "1.18.38",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Other"
+}

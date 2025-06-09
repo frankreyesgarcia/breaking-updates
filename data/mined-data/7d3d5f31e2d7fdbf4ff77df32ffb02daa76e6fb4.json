@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/liquibase/liquibase-postgresql/pull/157",
+  "project" : "liquibase-postgresql",
+  "projectOrganisation" : "liquibase",
+  "breakingCommit" : "7d3d5f31e2d7fdbf4ff77df32ffb02daa76e6fb4",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.maven.surefire",
+    "dependencyArtifactID" : "surefire-junit4",
+    "previousVersion" : "3.5.0",
+    "newVersion" : "3.5.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "buildPlugins"
+  },
+  "licenseInfo" : "unknown"
+}

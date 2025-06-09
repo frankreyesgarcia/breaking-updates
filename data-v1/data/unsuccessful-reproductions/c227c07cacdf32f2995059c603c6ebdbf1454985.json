@@ -1,0 +1,21 @@
+{
+  "url" : "https://github.com/cometd/cometd/pull/1257",
+  "project" : "cometd",
+  "projectOrganisation" : "cometd",
+  "breakingCommit" : "c227c07cacdf32f2995059c603c6ebdbf1454985",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "jakarta.annotation",
+    "dependencyArtifactID" : "jakarta.annotation-api",
+    "previousVersion" : "1.3.4",
+    "newVersion" : "2.1.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "licenseInfo" : "No license found",
+    "githubRepoSlug" : "Repository not found"
+  },
+  "javaVersionUsedForReproduction" : "11",
+  "licenseInfo" : "Apache-2.0"
+}

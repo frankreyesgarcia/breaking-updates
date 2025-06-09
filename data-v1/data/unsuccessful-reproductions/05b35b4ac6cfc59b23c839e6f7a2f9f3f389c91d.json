@@ -1,0 +1,21 @@
+{
+  "url" : "https://github.com/googleapis/java-spanner-jdbc/pull/893",
+  "project" : "java-spanner-jdbc",
+  "projectOrganisation" : "googleapis",
+  "breakingCommit" : "05b35b4ac6cfc59b23c839e6f7a2f9f3f389c91d",
+  "prAuthor" : "human",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "human",
+  "updatedDependency" : {
+    "dependencyGroupID" : "io.perfmark",
+    "dependencyArtifactID" : "perfmark-api",
+    "previousVersion" : "0.25.0",
+    "newVersion" : "0.23.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "licenseInfo" : "No license found",
+    "githubRepoSlug" : "Repository not found"
+  },
+  "javaVersionUsedForReproduction" : "11",
+  "licenseInfo" : "Apache-2.0"
+}

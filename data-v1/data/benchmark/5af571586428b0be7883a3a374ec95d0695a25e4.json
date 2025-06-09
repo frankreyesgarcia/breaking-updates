@@ -1,0 +1,29 @@
+{
+  "url" : "https://github.com/introproventures/graphql-jpa-query/pull/325",
+  "project" : "graphql-jpa-query",
+  "projectOrganisation" : "introproventures",
+  "breakingCommit" : "5af571586428b0be7883a3a374ec95d0695a25e4",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.springframework.boot",
+    "dependencyArtifactID" : "spring-boot-dependencies",
+    "previousVersion" : "2.7.6",
+    "newVersion" : "3.0.0",
+    "dependencyScope" : "import",
+    "versionUpdateType" : "major",
+    "githubCompareLink" : "https://github.com/spring-projects/spring-boot/compare/v2.7.6...v3.0.0",
+    "mavenSourceLinkPre" : null,
+    "mavenSourceLinkBreaking" : null,
+    "updatedFileType" : "POM",
+    "dependencySection" : "dependencyManagement",
+    "licenseInfo" : "Apache-2.0",
+    "githubRepoSlug" : "spring-projects/spring-boot"
+  },
+  "preCommitReproductionCommand" : "docker run ghcr.io/chains-project/breaking-updates:5af571586428b0be7883a3a374ec95d0695a25e4-pre",
+  "breakingUpdateReproductionCommand" : "docker run ghcr.io/chains-project/breaking-updates:5af571586428b0be7883a3a374ec95d0695a25e4-breaking",
+  "javaVersionUsedForReproduction" : "11",
+  "failureCategory" : "DEPENDENCY_RESOLUTION_FAILURE",
+  "licenseInfo" : "Apache-2.0"
+}

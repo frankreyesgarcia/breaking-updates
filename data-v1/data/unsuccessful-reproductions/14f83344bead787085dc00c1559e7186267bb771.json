@@ -1,0 +1,21 @@
+{
+  "url" : "https://github.com/apache/unomi/pull/628",
+  "project" : "unomi",
+  "projectOrganisation" : "apache",
+  "breakingCommit" : "14f83344bead787085dc00c1559e7186267bb771",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "unknown",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.glassfish",
+    "dependencyArtifactID" : "javax.json",
+    "previousVersion" : "1.0.4",
+    "newVersion" : "1.1.4",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "licenseInfo" : "No license found",
+    "githubRepoSlug" : "Repository not found"
+  },
+  "javaVersionUsedForReproduction" : "11",
+  "licenseInfo" : "Apache-2.0"
+}

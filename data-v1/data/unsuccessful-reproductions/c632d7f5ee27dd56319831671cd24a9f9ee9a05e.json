@@ -1,0 +1,21 @@
+{
+  "url" : "https://github.com/DependencyTrack/hyades/pull/335",
+  "project" : "hyades",
+  "projectOrganisation" : "DependencyTrack",
+  "breakingCommit" : "c632d7f5ee27dd56319831671cd24a9f9ee9a05e",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "io.github.jeremylong",
+    "dependencyArtifactID" : "nvd-lib",
+    "previousVersion" : "1.0.1",
+    "newVersion" : "2.0.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "licenseInfo" : "No license found",
+    "githubRepoSlug" : "Repository not found"
+  },
+  "javaVersionUsedForReproduction" : "11",
+  "licenseInfo" : "Apache-2.0"
+}

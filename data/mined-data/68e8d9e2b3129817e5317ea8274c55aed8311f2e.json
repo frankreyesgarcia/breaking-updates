@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/camunda/camunda/pull/32794",
+  "project" : "camunda",
+  "projectOrganisation" : "camunda",
+  "breakingCommit" : "68e8d9e2b3129817e5317ea8274c55aed8311f2e",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.github.wnameless.json",
+    "dependencyArtifactID" : "json-flattener",
+    "previousVersion" : "0.17.2",
+    "newVersion" : "0.17.3",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "unknown"
+  },
+  "licenseInfo" : "unknown"
+}

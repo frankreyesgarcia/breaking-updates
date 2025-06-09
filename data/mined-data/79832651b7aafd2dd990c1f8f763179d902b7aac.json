@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/kubernetes-client/java/pull/3750",
+  "project" : "java",
+  "projectOrganisation" : "kubernetes-client",
+  "breakingCommit" : "79832651b7aafd2dd990c1f8f763179d902b7aac",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.amazonaws",
+    "dependencyArtifactID" : "aws-java-sdk-sts",
+    "previousVersion" : "1.12.775",
+    "newVersion" : "1.12.776",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

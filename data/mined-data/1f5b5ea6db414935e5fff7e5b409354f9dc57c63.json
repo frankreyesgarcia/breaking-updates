@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/camunda/camunda/pull/20975",
+  "project" : "camunda",
+  "projectOrganisation" : "camunda",
+  "breakingCommit" : "1f5b5ea6db414935e5fff7e5b409354f9dc57c63",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "io.micrometer",
+    "dependencyArtifactID" : "micrometer-registry-prometheus",
+    "previousVersion" : "1.13.0",
+    "newVersion" : "1.13.2",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "unknown"
+}

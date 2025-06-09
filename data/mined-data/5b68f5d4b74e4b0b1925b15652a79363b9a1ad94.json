@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/nicho92/MtgDesktopCompanion/pull/307",
+  "project" : "MtgDesktopCompanion",
+  "projectOrganisation" : "nicho92",
+  "breakingCommit" : "5b68f5d4b74e4b0b1925b15652a79363b9a1ad94",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "commons-beanutils",
+    "dependencyArtifactID" : "commons-beanutils",
+    "previousVersion" : "1.10.1",
+    "newVersion" : "1.11.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

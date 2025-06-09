@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/objectionary/eo/pull/3695",
+  "project" : "eo",
+  "projectOrganisation" : "objectionary",
+  "breakingCommit" : "9f88fdd5684f3ce6c5ff010cd766ab662f09b1c9",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.glassfish",
+    "dependencyArtifactID" : "jakarta.json",
+    "previousVersion" : "1.1.6",
+    "newVersion" : "2.0.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "MIT License"
+}

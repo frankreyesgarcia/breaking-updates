@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/jcabi/jcabi-s3/pull/427",
+  "project" : "jcabi-s3",
+  "projectOrganisation" : "jcabi",
+  "breakingCommit" : "ef1077a1f7c555ef82d8b311e8a7110fb3c7da02",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.google.guava",
+    "dependencyArtifactID" : "guava",
+    "previousVersion" : "33.3.1-jre",
+    "newVersion" : "33.4.8-jre",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Other"
+}

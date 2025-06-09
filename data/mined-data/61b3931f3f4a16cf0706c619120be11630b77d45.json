@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/bsommerfeld/pathetic/pull/76",
+  "project" : "pathetic",
+  "projectOrganisation" : "bsommerfeld",
+  "breakingCommit" : "61b3931f3f4a16cf0706c619120be11630b77d45",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.slf4j",
+    "dependencyArtifactID" : "slf4j-api",
+    "previousVersion" : "2.0.9",
+    "newVersion" : "2.0.13",
+    "dependencyScope" : "provided",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "unknown"
+  },
+  "licenseInfo" : "MIT License"
+}

@@ -1,0 +1,21 @@
+{
+  "url" : "https://github.com/rulojuka/sbking/pull/173",
+  "project" : "sbking",
+  "projectOrganisation" : "rulojuka",
+  "breakingCommit" : "0d95e79bf4b61fb391f3fbab100b39d2be52d2fd",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.logging.log4j",
+    "dependencyArtifactID" : "log4j-core",
+    "previousVersion" : "2.14.0",
+    "newVersion" : "2.17.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "licenseInfo" : "Apache-2.0",
+    "githubRepoSlug" : "apache/logging-log4j1"
+  },
+  "javaVersionUsedForReproduction" : "11",
+  "licenseInfo" : "GPL-3.0"
+}

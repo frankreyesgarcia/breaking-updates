@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/mojohaus/aspectj-maven-plugin/pull/216",
+  "project" : "aspectj-maven-plugin",
+  "projectOrganisation" : "mojohaus",
+  "breakingCommit" : "69e52461606ae284f6187ab150c93efea277f20f",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.maven.reporting",
+    "dependencyArtifactID" : "maven-reporting-impl",
+    "previousVersion" : "3.0.0",
+    "newVersion" : "4.0.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "MIT License"
+}

@@ -1,0 +1,21 @@
+{
+  "url" : "https://github.com/oracle/weblogic-monitoring-exporter/pull/193",
+  "project" : "weblogic-monitoring-exporter",
+  "projectOrganisation" : "oracle",
+  "breakingCommit" : "b167ff1f79377fd18cb44da1756d76acf4b7a355",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.yaml",
+    "dependencyArtifactID" : "snakeyaml",
+    "previousVersion" : "1.30",
+    "newVersion" : "1.31",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "licenseInfo" : "Apache-2.0",
+    "githubRepoSlug" : "snakeyaml/snakeyaml"
+  },
+  "javaVersionUsedForReproduction" : "11",
+  "licenseInfo" : "UPL-1.0"
+}

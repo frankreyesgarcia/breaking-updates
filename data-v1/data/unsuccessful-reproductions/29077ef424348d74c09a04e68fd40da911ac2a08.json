@@ -1,0 +1,21 @@
+{
+  "url" : "https://github.com/square/javapoet/pull/949",
+  "project" : "javapoet",
+  "projectOrganisation" : "square",
+  "breakingCommit" : "29077ef424348d74c09a04e68fd40da911ac2a08",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.google.errorprone",
+    "dependencyArtifactID" : "error_prone_core",
+    "previousVersion" : "2.3.1",
+    "newVersion" : "2.21.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "licenseInfo" : "No license found",
+    "githubRepoSlug" : "Repository not found"
+  },
+  "javaVersionUsedForReproduction" : "11",
+  "licenseInfo" : "Apache-2.0"
+}

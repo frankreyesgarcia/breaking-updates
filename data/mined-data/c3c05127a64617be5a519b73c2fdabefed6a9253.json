@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/diennea/herddb/pull/832",
+  "project" : "herddb",
+  "projectOrganisation" : "diennea",
+  "breakingCommit" : "c3c05127a64617be5a519b73c2fdabefed6a9253",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "commons-io",
+    "dependencyArtifactID" : "commons-io",
+    "previousVersion" : "2.11.0",
+    "newVersion" : "2.14.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

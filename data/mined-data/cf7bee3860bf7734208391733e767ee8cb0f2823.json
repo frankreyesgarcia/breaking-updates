@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/mybatis/ehcache-cache/pull/218",
+  "project" : "ehcache-cache",
+  "projectOrganisation" : "mybatis",
+  "breakingCommit" : "cf7bee3860bf7734208391733e767ee8cb0f2823",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.mybatis",
+    "dependencyArtifactID" : "mybatis",
+    "previousVersion" : "3.5.17",
+    "newVersion" : "3.5.18",
+    "dependencyScope" : "provided",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

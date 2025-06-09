@@ -1,0 +1,21 @@
+{
+  "url" : "https://github.com/iris-connect/iris-client/pull/881",
+  "project" : "iris-client",
+  "projectOrganisation" : "iris-connect",
+  "breakingCommit" : "90b4213c46899d693f96f08bbcd7e784dae30f18",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.googlecode.libphonenumber",
+    "dependencyArtifactID" : "libphonenumber",
+    "previousVersion" : "8.12.51",
+    "newVersion" : "8.12.52",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "licenseInfo" : "No license found",
+    "githubRepoSlug" : "Repository not found"
+  },
+  "javaVersionUsedForReproduction" : "11",
+  "licenseInfo" : "AGPL-3.0"
+}

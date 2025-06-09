@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/aerospike/aerospike-client-java/pull/330",
+  "project" : "aerospike-client-java",
+  "projectOrganisation" : "aerospike",
+  "breakingCommit" : "431864bc3c50404be8c2d8f4c8188963bedb95d3",
+  "prAuthor" : "human",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "human",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.fasterxml.jackson.core",
+    "dependencyArtifactID" : "jackson-databind",
+    "previousVersion" : "2.14.1",
+    "newVersion" : "2.15.0-rc1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Other"
+}

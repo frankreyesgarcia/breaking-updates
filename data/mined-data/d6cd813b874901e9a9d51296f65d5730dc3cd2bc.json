@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/camunda-community-hub/spring-zeebe/pull/1037",
+  "project" : "spring-zeebe",
+  "projectOrganisation" : "camunda-community-hub",
+  "breakingCommit" : "d6cd813b874901e9a9d51296f65d5730dc3cd2bc",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.google.protobuf",
+    "dependencyArtifactID" : "protobuf-bom",
+    "previousVersion" : "3.25.5",
+    "newVersion" : "3.25.7",
+    "dependencyScope" : "import",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

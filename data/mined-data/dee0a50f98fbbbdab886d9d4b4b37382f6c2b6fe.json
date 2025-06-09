@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/saucelabs-training/demo-java/pull/301",
+  "project" : "demo-java",
+  "projectOrganisation" : "saucelabs-training",
+  "breakingCommit" : "dee0a50f98fbbbdab886d9d4b4b37382f6c2b6fe",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.seleniumhq.selenium",
+    "dependencyArtifactID" : "selenium-java",
+    "previousVersion" : "4.32.0",
+    "newVersion" : "4.33.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "MIT License"
+}

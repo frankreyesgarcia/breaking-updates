@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/eclipse-sw360/sw360/pull/2495",
+  "project" : "sw360",
+  "projectOrganisation" : "eclipse-sw360",
+  "breakingCommit" : "6eb04c01311d02d822c07c1a3a74660f75d91a56",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.cyclonedx",
+    "dependencyArtifactID" : "cyclonedx-core-java",
+    "previousVersion" : "7.3.2",
+    "newVersion" : "9.0.4",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "Eclipse Public License 2.0"
+}

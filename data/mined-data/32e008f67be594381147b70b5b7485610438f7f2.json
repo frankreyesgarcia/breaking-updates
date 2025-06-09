@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/camunda/camunda/pull/25258",
+  "project" : "camunda",
+  "projectOrganisation" : "camunda",
+  "breakingCommit" : "32e008f67be594381147b70b5b7485610438f7f2",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.httpcomponents.core5",
+    "dependencyArtifactID" : "httpcore5",
+    "previousVersion" : "5.2.5",
+    "newVersion" : "5.3.1",
+    "dependencyScope" : "runtime",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "unknown"
+}

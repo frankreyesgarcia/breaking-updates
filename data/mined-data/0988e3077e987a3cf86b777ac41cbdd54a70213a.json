@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/davidmoten/rxjava-extras/pull/105",
+  "project" : "rxjava-extras",
+  "projectOrganisation" : "davidmoten",
+  "breakingCommit" : "0988e3077e987a3cf86b777ac41cbdd54a70213a",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.esotericsoftware",
+    "dependencyArtifactID" : "kryo",
+    "previousVersion" : "3.0.3",
+    "newVersion" : "5.0.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

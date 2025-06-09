@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/jdi-testing/jdi-light/pull/5540",
+  "project" : "jdi-light",
+  "projectOrganisation" : "jdi-testing",
+  "breakingCommit" : "74cd6fc36dc8da6c223ab83ad375ab4d437928b6",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "io.github.bonigarcia",
+    "dependencyArtifactID" : "webdrivermanager",
+    "previousVersion" : "5.3.0",
+    "newVersion" : "6.1.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "MIT License"
+}

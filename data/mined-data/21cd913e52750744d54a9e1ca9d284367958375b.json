@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/eiffel-community/eiffel-intelligence/pull/574",
+  "project" : "eiffel-intelligence",
+  "projectOrganisation" : "eiffel-community",
+  "breakingCommit" : "21cd913e52750744d54a9e1ca9d284367958375b",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "commons-io",
+    "dependencyArtifactID" : "commons-io",
+    "previousVersion" : "2.7",
+    "newVersion" : "2.14.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

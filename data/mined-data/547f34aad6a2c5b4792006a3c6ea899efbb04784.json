@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/dapr/java-sdk/pull/1372",
+  "project" : "java-sdk",
+  "projectOrganisation" : "dapr",
+  "breakingCommit" : "547f34aad6a2c5b4792006a3c6ea899efbb04784",
+  "prAuthor" : "human",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "human",
+  "updatedDependency" : {
+    "dependencyGroupID" : "io.dapr",
+    "dependencyArtifactID" : "durabletask-client",
+    "previousVersion" : "1.5.2",
+    "newVersion" : "1.5.3",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/jcabi/jcabi-http/pull/553",
+  "project" : "jcabi-http",
+  "projectOrganisation" : "jcabi",
+  "breakingCommit" : "a3a85f6cccf5b21d99030758bca730a5f33c87bc",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "ch.qos.logback",
+    "dependencyArtifactID" : "logback-classic",
+    "previousVersion" : "1.5.12",
+    "newVersion" : "1.5.18",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Other"
+}

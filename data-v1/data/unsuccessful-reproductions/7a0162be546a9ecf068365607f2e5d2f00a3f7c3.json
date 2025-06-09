@@ -1,0 +1,21 @@
+{
+  "url" : "https://github.com/apache/camel-kafka-connector/pull/1455",
+  "project" : "camel-kafka-connector",
+  "projectOrganisation" : "apache",
+  "breakingCommit" : "7a0162be546a9ecf068365607f2e5d2f00a3f7c3",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.fasterxml.jackson.core",
+    "dependencyArtifactID" : "jackson-databind",
+    "previousVersion" : "2.11.3",
+    "newVersion" : "2.13.4.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "licenseInfo" : "No license found",
+    "githubRepoSlug" : "Repository not found"
+  },
+  "javaVersionUsedForReproduction" : "11",
+  "licenseInfo" : "Apache-2.0"
+}

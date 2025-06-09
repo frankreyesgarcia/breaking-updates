@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/dadoonet/fscrawler/pull/2066",
+  "project" : "fscrawler",
+  "projectOrganisation" : "dadoonet",
+  "breakingCommit" : "4caf3054d0687f369496c9478eb8c454859a0173",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "commons-io",
+    "dependencyArtifactID" : "commons-io",
+    "previousVersion" : "2.18.0",
+    "newVersion" : "2.19.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

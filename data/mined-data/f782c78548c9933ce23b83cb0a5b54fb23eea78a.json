@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/jcabi/jcabi-simpledb/pull/305",
+  "project" : "jcabi-simpledb",
+  "projectOrganisation" : "jcabi",
+  "breakingCommit" : "f782c78548c9933ce23b83cb0a5b54fb23eea78a",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.commons",
+    "dependencyArtifactID" : "commons-lang3",
+    "previousVersion" : "3.16.0",
+    "newVersion" : "3.17.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "unknown"
+  },
+  "licenseInfo" : "Other"
+}

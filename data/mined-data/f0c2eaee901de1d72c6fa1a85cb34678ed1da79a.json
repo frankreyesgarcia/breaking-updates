@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/gaul/s3proxy/pull/809",
+  "project" : "s3proxy",
+  "projectOrganisation" : "gaul",
+  "breakingCommit" : "f0c2eaee901de1d72c6fa1a85cb34678ed1da79a",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.junit.jupiter",
+    "dependencyArtifactID" : "junit-jupiter",
+    "previousVersion" : "5.11.4",
+    "newVersion" : "5.12.2",
+    "dependencyScope" : "provided",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "unknown"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

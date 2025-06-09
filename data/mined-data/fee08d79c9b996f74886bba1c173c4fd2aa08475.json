@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/andreschaffer/media-streaming-examples/pull/345",
+  "project" : "media-streaming-examples",
+  "projectOrganisation" : "andreschaffer",
+  "breakingCommit" : "fee08d79c9b996f74886bba1c173c4fd2aa08475",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.google.guava",
+    "dependencyArtifactID" : "guava",
+    "previousVersion" : "33.3.1-jre",
+    "newVersion" : "33.4.5-jre",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "MIT License"
+}

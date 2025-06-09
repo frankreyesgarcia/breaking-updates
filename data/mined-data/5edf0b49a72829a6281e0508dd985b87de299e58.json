@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/slackhq/astra/pull/1247",
+  "project" : "astra",
+  "projectOrganisation" : "slackhq",
+  "breakingCommit" : "5edf0b49a72829a6281e0508dd985b87de299e58",
+  "prAuthor" : "human",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "human",
+  "updatedDependency" : {
+    "dependencyGroupID" : "io.netty",
+    "dependencyArtifactID" : "netty-codec-http",
+    "previousVersion" : "4.1.118.Final",
+    "newVersion" : "4.1.117.Final",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "unknown"
+  },
+  "licenseInfo" : "MIT License"
+}

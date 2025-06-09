@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/spotbugs/sonar-findbugs/pull/1088",
+  "project" : "sonar-findbugs",
+  "projectOrganisation" : "spotbugs",
+  "breakingCommit" : "36559899d00d4f47ac95561296bd9b0f11f04375",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.sonarsource.api.plugin",
+    "dependencyArtifactID" : "sonar-plugin-api",
+    "previousVersion" : "9.17.0.587",
+    "newVersion" : "10.14.0.2599",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "unknown"
+}

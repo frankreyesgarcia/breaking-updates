@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/nielsbasjes/dsmr-tools/pull/475",
+  "project" : "dsmr-tools",
+  "projectOrganisation" : "nielsbasjes",
+  "breakingCommit" : "fd70cffbef25fa7b3dd2a3614a096c52c94b61f6",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.graphql-java",
+    "dependencyArtifactID" : "graphql-java",
+    "previousVersion" : "23.1",
+    "newVersion" : "24.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

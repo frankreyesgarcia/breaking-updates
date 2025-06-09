@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/mybatis/migrations-maven-plugin/pull/354",
+  "project" : "migrations-maven-plugin",
+  "projectOrganisation" : "mybatis",
+  "breakingCommit" : "c1e665d007fe032e0e23a284cf653c64009034f7",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.mybatis",
+    "dependencyArtifactID" : "mybatis-migrations",
+    "previousVersion" : "3.3.11",
+    "newVersion" : "3.4.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

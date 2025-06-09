@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/openforis/collect/pull/173",
+  "project" : "collect",
+  "projectOrganisation" : "openforis",
+  "breakingCommit" : "94decad14992aeab6974e8dca7518fd1c02002af",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.commons",
+    "dependencyArtifactID" : "commons-compress",
+    "previousVersion" : "1.22",
+    "newVersion" : "1.26.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "MIT License"
+}

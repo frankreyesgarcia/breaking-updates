@@ -1,0 +1,21 @@
+{
+  "url" : "https://github.com/apache/iotdb/pull/6111",
+  "project" : "iotdb",
+  "projectOrganisation" : "apache",
+  "breakingCommit" : "7dae35f5034cbf5e8e4a976f9a5a59509068f92c",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.hive",
+    "dependencyArtifactID" : "hive-storage-api",
+    "previousVersion" : "2.6.0",
+    "newVersion" : "2.6.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "licenseInfo" : "No license found",
+    "githubRepoSlug" : "Repository not found"
+  },
+  "javaVersionUsedForReproduction" : "11",
+  "licenseInfo" : "Apache-2.0"
+}

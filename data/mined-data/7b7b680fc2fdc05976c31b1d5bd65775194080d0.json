@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/cdapio/hydrator-plugins/pull/1969",
+  "project" : "hydrator-plugins",
+  "projectOrganisation" : "cdapio",
+  "breakingCommit" : "7b7b680fc2fdc05976c31b1d5bd65775194080d0",
+  "prAuthor" : "human",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "human",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.parquet",
+    "dependencyArtifactID" : "parquet-avro",
+    "previousVersion" : "1.12.0",
+    "newVersion" : "1.15.2",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Other"
+}

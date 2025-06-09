@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/jenkinsci/configurationslicing-plugin/pull/298",
+  "project" : "configurationslicing-plugin",
+  "projectOrganisation" : "jenkinsci",
+  "breakingCommit" : "21725ef470266e73c316566f1f9065daf7310352",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.jsoup",
+    "dependencyArtifactID" : "jsoup",
+    "previousVersion" : "1.18.1",
+    "newVersion" : "1.18.3",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "unknown"
+}

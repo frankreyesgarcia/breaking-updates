@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/camunda/camunda/pull/25395",
+  "project" : "camunda",
+  "projectOrganisation" : "camunda",
+  "breakingCommit" : "930f183813c703618855be2918fcee19632c85bc",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.nimbusds",
+    "dependencyArtifactID" : "oauth2-oidc-sdk",
+    "previousVersion" : "9.43.4",
+    "newVersion" : "11.20.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "unknown"
+}

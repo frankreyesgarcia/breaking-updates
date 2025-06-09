@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/mybatis/guice/pull/689",
+  "project" : "guice",
+  "projectOrganisation" : "mybatis",
+  "breakingCommit" : "1065301e5be8ce6f67b6ed6c24c8ebbbe4ca4cc2",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.mchange",
+    "dependencyArtifactID" : "c3p0",
+    "previousVersion" : "0.10.0-pre3",
+    "newVersion" : "0.10.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

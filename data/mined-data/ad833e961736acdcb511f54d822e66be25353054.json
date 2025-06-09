@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/algorand/java-algorand-sdk/pull/772",
+  "project" : "java-algorand-sdk",
+  "projectOrganisation" : "algorand",
+  "breakingCommit" : "ad833e961736acdcb511f54d822e66be25353054",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.bouncycastle",
+    "dependencyArtifactID" : "bcprov-jdk15to18",
+    "previousVersion" : "1.66",
+    "newVersion" : "1.78",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "MIT License"
+}

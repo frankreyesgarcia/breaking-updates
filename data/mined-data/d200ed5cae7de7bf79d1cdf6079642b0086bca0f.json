@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/reactiverse/vertx-maven-plugin/pull/567",
+  "project" : "vertx-maven-plugin",
+  "projectOrganisation" : "reactiverse",
+  "breakingCommit" : "d200ed5cae7de7bf79d1cdf6079642b0086bca0f",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.bouncycastle",
+    "dependencyArtifactID" : "bcprov-jdk18on",
+    "previousVersion" : "1.74",
+    "newVersion" : "1.78",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

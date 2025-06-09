@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/objectionary/eo/pull/3437",
+  "project" : "eo",
+  "projectOrganisation" : "objectionary",
+  "breakingCommit" : "36db26f2c9bcb850ff9fc5719b6a8caeb25d5504",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.cactoos",
+    "dependencyArtifactID" : "cactoos",
+    "previousVersion" : "0.56.0",
+    "newVersion" : "0.56.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "MIT License"
+}

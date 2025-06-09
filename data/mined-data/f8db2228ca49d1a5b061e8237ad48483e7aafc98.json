@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/charite/jannovar/pull/671",
+  "project" : "jannovar",
+  "projectOrganisation" : "charite",
+  "breakingCommit" : "f8db2228ca49d1a5b061e8237ad48483e7aafc98",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.commons",
+    "dependencyArtifactID" : "commons-csv",
+    "previousVersion" : "1.11.0",
+    "newVersion" : "1.12.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Other"
+}

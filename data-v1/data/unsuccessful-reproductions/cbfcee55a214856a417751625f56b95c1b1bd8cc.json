@@ -1,0 +1,21 @@
+{
+  "url" : "https://github.com/quarkusio/quarkus-platform/pull/464",
+  "project" : "quarkus-platform",
+  "projectOrganisation" : "quarkusio",
+  "breakingCommit" : "cbfcee55a214856a417751625f56b95c1b1bd8cc",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.thoughtworks.xstream",
+    "dependencyArtifactID" : "xstream",
+    "previousVersion" : "1.4.18",
+    "newVersion" : "1.4.19",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "licenseInfo" : "No license found",
+    "githubRepoSlug" : "Repository not found"
+  },
+  "javaVersionUsedForReproduction" : "11",
+  "licenseInfo" : "Apache-2.0"
+}

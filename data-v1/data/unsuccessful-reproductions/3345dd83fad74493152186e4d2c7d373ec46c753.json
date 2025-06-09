@@ -1,0 +1,21 @@
+{
+  "url" : "https://github.com/SpineEventEngine/base/pull/742",
+  "project" : "base",
+  "projectOrganisation" : "SpineEventEngine",
+  "breakingCommit" : "3345dd83fad74493152186e4d2c7d373ec46c753",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.google.protobuf",
+    "dependencyArtifactID" : "protobuf-java",
+    "previousVersion" : "3.21.6",
+    "newVersion" : "3.21.7",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "licenseInfo" : "No license found",
+    "githubRepoSlug" : "Repository not found"
+  },
+  "javaVersionUsedForReproduction" : "11",
+  "licenseInfo" : "Apache-2.0"
+}

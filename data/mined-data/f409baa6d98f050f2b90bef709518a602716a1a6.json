@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/camunda/camunda/pull/17956",
+  "project" : "camunda",
+  "projectOrganisation" : "camunda",
+  "breakingCommit" : "f409baa6d98f050f2b90bef709518a602716a1a6",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.nimbusds",
+    "dependencyArtifactID" : "nimbus-jose-jwt",
+    "previousVersion" : "9.37.2",
+    "newVersion" : "9.37.3",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "unknown"
+}

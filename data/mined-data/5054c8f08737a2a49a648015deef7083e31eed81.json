@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/damianszczepanik/cucumber-reporting/pull/1182",
+  "project" : "cucumber-reporting",
+  "projectOrganisation" : "damianszczepanik",
+  "breakingCommit" : "5054c8f08737a2a49a648015deef7083e31eed81",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.googlecode.owasp-java-html-sanitizer",
+    "dependencyArtifactID" : "owasp-java-html-sanitizer",
+    "previousVersion" : "20220608.1",
+    "newVersion" : "20240325.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "GNU Lesser General Public License v2.1"
+}

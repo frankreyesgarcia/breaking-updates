@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/diennea/herddb/pull/834",
+  "project" : "herddb",
+  "projectOrganisation" : "diennea",
+  "breakingCommit" : "75e88779230fd2bbc38b7d3c31431c11a3b6dda4",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.codehaus.groovy",
+    "dependencyArtifactID" : "groovy-all",
+    "previousVersion" : "2.4.6",
+    "newVersion" : "2.4.21",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

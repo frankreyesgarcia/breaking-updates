@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/eclipse-lemminx/lemminx/pull/1707",
+  "project" : "lemminx",
+  "projectOrganisation" : "eclipse-lemminx",
+  "breakingCommit" : "cca9d85b45891ef7db7742cf8d8fece21e95467f",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "xml-apis",
+    "dependencyArtifactID" : "xml-apis",
+    "previousVersion" : "1.4.01",
+    "newVersion" : "2.0.2",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Eclipse Public License 2.0"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/ingef/conquery/pull/3608",
+  "project" : "conquery",
+  "projectOrganisation" : "ingef",
+  "breakingCommit" : "5c40ec2a45ca68bb0f81eef64fcd5ef4021094cb",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.jooq",
+    "dependencyArtifactID" : "jooq",
+    "previousVersion" : "3.18.3",
+    "newVersion" : "3.19.14",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "MIT License"
+}

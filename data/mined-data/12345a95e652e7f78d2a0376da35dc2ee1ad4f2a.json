@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/onthegomap/planetiler/pull/1227",
+  "project" : "planetiler",
+  "projectOrganisation" : "onthegomap",
+  "breakingCommit" : "12345a95e652e7f78d2a0376da35dc2ee1ad4f2a",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.google.guava",
+    "dependencyArtifactID" : "guava",
+    "previousVersion" : "33.4.0-jre",
+    "newVersion" : "33.4.5-jre",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

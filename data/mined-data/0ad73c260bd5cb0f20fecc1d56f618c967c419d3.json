@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/alibaba/druid/pull/6027",
+  "project" : "druid",
+  "projectOrganisation" : "alibaba",
+  "breakingCommit" : "0ad73c260bd5cb0f20fecc1d56f618c967c419d3",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.h2database",
+    "dependencyArtifactID" : "h2",
+    "previousVersion" : "1.4.199",
+    "newVersion" : "2.2.220",
+    "dependencyScope" : "provided",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

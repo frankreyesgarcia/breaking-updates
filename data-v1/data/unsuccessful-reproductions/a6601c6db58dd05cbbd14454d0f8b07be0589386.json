@@ -1,0 +1,21 @@
+{
+  "url" : "https://github.com/simplelocalize/simplelocalize-cli/pull/57",
+  "project" : "simplelocalize-cli",
+  "projectOrganisation" : "simplelocalize",
+  "breakingCommit" : "a6601c6db58dd05cbbd14454d0f8b07be0589386",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.yaml",
+    "dependencyArtifactID" : "snakeyaml",
+    "previousVersion" : "1.24",
+    "newVersion" : "1.31",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "licenseInfo" : "Apache-2.0",
+    "githubRepoSlug" : "snakeyaml/snakeyaml"
+  },
+  "javaVersionUsedForReproduction" : "11",
+  "licenseInfo" : "MIT"
+}

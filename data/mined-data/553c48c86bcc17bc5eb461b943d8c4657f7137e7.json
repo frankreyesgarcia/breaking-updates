@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/eclipse-transformer/transformer/pull/656",
+  "project" : "transformer",
+  "projectOrganisation" : "eclipse-transformer",
+  "breakingCommit" : "553c48c86bcc17bc5eb461b943d8c4657f7137e7",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.slf4j",
+    "dependencyArtifactID" : "slf4j-api",
+    "previousVersion" : "1.7.36",
+    "newVersion" : "2.0.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "Other"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/comixed/comixed/pull/2384",
+  "project" : "comixed",
+  "projectOrganisation" : "comixed",
+  "breakingCommit" : "697c56618ba6ef5f0345417d996a6ab6e0cebaf6",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.httpcomponents.client5",
+    "dependencyArtifactID" : "httpclient5",
+    "previousVersion" : "5.4.1",
+    "newVersion" : "5.4.3",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "GNU General Public License v3.0"
+}

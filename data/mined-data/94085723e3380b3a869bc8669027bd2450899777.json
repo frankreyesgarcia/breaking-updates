@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/eiffel-community/eiffel-intelligence/pull/573",
+  "project" : "eiffel-intelligence",
+  "projectOrganisation" : "eiffel-community",
+  "breakingCommit" : "94085723e3380b3a869bc8669027bd2450899777",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "io.springfox",
+    "dependencyArtifactID" : "springfox-swagger-ui",
+    "previousVersion" : "2.6.1",
+    "newVersion" : "2.10.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

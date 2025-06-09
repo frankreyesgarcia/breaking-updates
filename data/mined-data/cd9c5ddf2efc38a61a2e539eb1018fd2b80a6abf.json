@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/fhoeben/hsac-fitnesse-fixtures/pull/701",
+  "project" : "hsac-fitnesse-fixtures",
+  "projectOrganisation" : "fhoeben",
+  "breakingCommit" : "cd9c5ddf2efc38a61a2e539eb1018fd2b80a6abf",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.freemarker",
+    "dependencyArtifactID" : "freemarker",
+    "previousVersion" : "2.3.33",
+    "newVersion" : "2.3.34",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/checkstyle/checkstyle/pull/15582",
+  "project" : "checkstyle",
+  "projectOrganisation" : "checkstyle",
+  "breakingCommit" : "dd189c88ebcd6d4fa89e50109d46e7ee40589805",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "unknown",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.ant",
+    "dependencyArtifactID" : "ant",
+    "previousVersion" : "1.10.14",
+    "newVersion" : "1.10.15",
+    "dependencyScope" : "provided",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "GNU Lesser General Public License v2.1"
+}

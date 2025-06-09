@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/classgraph/classgraph/pull/859",
+  "project" : "classgraph",
+  "projectOrganisation" : "classgraph",
+  "breakingCommit" : "68475b2852d8ebc05e5f993d488d539677c767a3",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "io.github.toolfactory",
+    "dependencyArtifactID" : "jvm-driver",
+    "previousVersion" : "9.6.0",
+    "newVersion" : "9.7.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "MIT License"
+}

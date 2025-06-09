@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/apache/creadur-rat/pull/351",
+  "project" : "creadur-rat",
+  "projectOrganisation" : "apache",
+  "breakingCommit" : "e5088cf981e2120b0e5bd821d2f27c56ece605eb",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.tika",
+    "dependencyArtifactID" : "tika-core",
+    "previousVersion" : "2.9.2",
+    "newVersion" : "3.0.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

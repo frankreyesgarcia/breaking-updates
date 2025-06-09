@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/objectionary/eo/pull/4053",
+  "project" : "eo",
+  "projectOrganisation" : "objectionary",
+  "breakingCommit" : "297d77687e5112ea34647e17cacb2b62c77f40af",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.eolang",
+    "dependencyArtifactID" : "lints",
+    "previousVersion" : "0.0.44",
+    "newVersion" : "0.0.47",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "MIT License"
+}

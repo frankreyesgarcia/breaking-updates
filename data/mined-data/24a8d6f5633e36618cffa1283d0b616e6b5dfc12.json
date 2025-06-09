@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/jcabi/jcabi-dynamodb-maven-plugin/pull/270",
+  "project" : "jcabi-dynamodb-maven-plugin",
+  "projectOrganisation" : "jcabi",
+  "breakingCommit" : "24a8d6f5633e36618cffa1283d0b616e6b5dfc12",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.maven",
+    "dependencyArtifactID" : "maven-artifact",
+    "previousVersion" : "3.9.7",
+    "newVersion" : "3.9.10",
+    "dependencyScope" : "provided",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Other"
+}

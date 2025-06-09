@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/mojohaus/maven-native/pull/111",
+  "project" : "maven-native",
+  "projectOrganisation" : "mojohaus",
+  "breakingCommit" : "af15a7aef1456ad7d5f89b5cf02448ed1d2031bf",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.bcel",
+    "dependencyArtifactID" : "bcel",
+    "previousVersion" : "6.8.2",
+    "newVersion" : "6.9.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "MIT License"
+}

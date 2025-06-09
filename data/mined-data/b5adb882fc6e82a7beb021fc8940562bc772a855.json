@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/apache/helix/pull/2996",
+  "project" : "helix",
+  "projectOrganisation" : "apache",
+  "breakingCommit" : "b5adb882fc6e82a7beb021fc8940562bc772a855",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.thoughtworks.xstream",
+    "dependencyArtifactID" : "xstream",
+    "previousVersion" : "1.4.19",
+    "newVersion" : "1.4.21",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

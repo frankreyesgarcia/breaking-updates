@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/vert-x3/vertx-starter/pull/608",
+  "project" : "vertx-starter",
+  "projectOrganisation" : "vert-x3",
+  "breakingCommit" : "1e56e9eb7f960a539eb416784b9358844ada39a2",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.fasterxml.jackson.core",
+    "dependencyArtifactID" : "jackson-databind",
+    "previousVersion" : "2.17.2",
+    "newVersion" : "2.18.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

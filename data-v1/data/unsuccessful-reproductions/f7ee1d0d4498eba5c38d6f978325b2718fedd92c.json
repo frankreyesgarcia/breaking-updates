@@ -1,0 +1,21 @@
+{
+  "url" : "https://github.com/steve-community/steve/pull/902",
+  "project" : "steve",
+  "projectOrganisation" : "steve-community",
+  "breakingCommit" : "f7ee1d0d4498eba5c38d6f978325b2718fedd92c",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.hibernate.validator",
+    "dependencyArtifactID" : "hibernate-validator",
+    "previousVersion" : "6.1.7.Final",
+    "newVersion" : "8.0.0.Final",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "licenseInfo" : "No license found",
+    "githubRepoSlug" : "Repository not found"
+  },
+  "javaVersionUsedForReproduction" : "11",
+  "licenseInfo" : "GPL-3.0"
+}

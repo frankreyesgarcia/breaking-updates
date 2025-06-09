@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/algorand/java-algorand-sdk/pull/655",
+  "project" : "java-algorand-sdk",
+  "projectOrganisation" : "algorand",
+  "breakingCommit" : "4af9db8f6e30c273ab08bf49e256d949c5a56390",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "human",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.squareup.okio",
+    "dependencyArtifactID" : "okio",
+    "previousVersion" : "1.6.0",
+    "newVersion" : "1.17.6",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "MIT License"
+}

@@ -1,0 +1,21 @@
+{
+  "url" : "https://github.com/apache/nifi/pull/7413",
+  "project" : "nifi",
+  "projectOrganisation" : "apache",
+  "breakingCommit" : "48208bb71d563273b864cd1bfbe276f8394bca56",
+  "prAuthor" : "human",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "human",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.networknt",
+    "dependencyArtifactID" : "json-schema-validator",
+    "previousVersion" : "1.0.82",
+    "newVersion" : "1.0.84",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "licenseInfo" : "No license found",
+    "githubRepoSlug" : "Repository not found"
+  },
+  "javaVersionUsedForReproduction" : "11",
+  "licenseInfo" : "Apache-2.0"
+}

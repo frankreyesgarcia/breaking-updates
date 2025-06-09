@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/smooks/smooks/pull/764",
+  "project" : "smooks",
+  "projectOrganisation" : "smooks",
+  "breakingCommit" : "92ea2b3dd2f3aae1f5bd9e22b355c929565aab40",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "jakarta.annotation",
+    "dependencyArtifactID" : "jakarta.annotation-api",
+    "previousVersion" : "2.1.1",
+    "newVersion" : "3.0.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Other"
+}

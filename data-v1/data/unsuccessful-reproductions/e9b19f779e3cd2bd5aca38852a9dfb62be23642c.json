@@ -1,0 +1,21 @@
+{
+  "url" : "https://github.com/Pante/chimera/pull/421",
+  "project" : "chimera",
+  "projectOrganisation" : "Pante",
+  "breakingCommit" : "e9b19f779e3cd2bd5aca38852a9dfb62be23642c",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.puppycrawl.tools",
+    "dependencyArtifactID" : "checkstyle",
+    "previousVersion" : "10.3.4",
+    "newVersion" : "10.4",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "licenseInfo" : "LGPL-2.1",
+    "githubRepoSlug" : "checkstyle/checkstyle"
+  },
+  "javaVersionUsedForReproduction" : "11",
+  "licenseInfo" : "MIT"
+}

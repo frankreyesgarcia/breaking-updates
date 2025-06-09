@@ -1,0 +1,21 @@
+{
+  "url" : "https://github.com/sniffy/sniffy/pull/562",
+  "project" : "sniffy",
+  "projectOrganisation" : "sniffy",
+  "breakingCommit" : "d8f66d6caf63e92d42ca6506877503dfef9947a2",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.testng",
+    "dependencyArtifactID" : "testng",
+    "previousVersion" : "6.8.21",
+    "newVersion" : "7.7.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "licenseInfo" : "Apache-2.0",
+    "githubRepoSlug" : "testng-team/testng"
+  },
+  "javaVersionUsedForReproduction" : "11",
+  "licenseInfo" : "MIT"
+}

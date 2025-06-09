@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/cnescatlab/sonar-cnes-report/pull/439",
+  "project" : "sonar-cnes-report",
+  "projectOrganisation" : "cnescatlab",
+  "breakingCommit" : "76a097907346e73ae0c11c739ec464e1e53e000e",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.poi",
+    "dependencyArtifactID" : "poi-ooxml",
+    "previousVersion" : "4.1.2",
+    "newVersion" : "5.4.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "GNU General Public License v3.0"
+}

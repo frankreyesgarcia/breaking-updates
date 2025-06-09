@@ -1,0 +1,21 @@
+{
+  "url" : "https://github.com/oracle/weblogic-monitoring-exporter/pull/248",
+  "project" : "weblogic-monitoring-exporter",
+  "projectOrganisation" : "oracle",
+  "breakingCommit" : "bfc5ef2ce53a1b4ee3f255ea454afa224e9a94d2",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.maven.plugin-tools",
+    "dependencyArtifactID" : "maven-plugin-annotations",
+    "previousVersion" : "3.7.0",
+    "newVersion" : "3.7.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "licenseInfo" : "Apache-2.0",
+    "githubRepoSlug" : "apache/maven-plugin-tools"
+  },
+  "javaVersionUsedForReproduction" : "11",
+  "licenseInfo" : "UPL-1.0"
+}

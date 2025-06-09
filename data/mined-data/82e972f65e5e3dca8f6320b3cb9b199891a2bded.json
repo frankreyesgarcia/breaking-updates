@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/dotwebstack/dotwebstack-framework/pull/1031",
+  "project" : "dotwebstack-framework",
+  "projectOrganisation" : "dotwebstack",
+  "breakingCommit" : "82e972f65e5e3dca8f6320b3cb9b199891a2bded",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "io.netty",
+    "dependencyArtifactID" : "netty-bom",
+    "previousVersion" : "4.1.112.Final",
+    "newVersion" : "4.1.115.Final",
+    "dependencyScope" : "import",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "MIT License"
+}

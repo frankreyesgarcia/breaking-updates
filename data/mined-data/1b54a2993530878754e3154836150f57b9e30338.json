@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/camunda/zeebe-process-test/pull/1570",
+  "project" : "zeebe-process-test",
+  "projectOrganisation" : "camunda",
+  "breakingCommit" : "1b54a2993530878754e3154836150f57b9e30338",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "io.camunda",
+    "dependencyArtifactID" : "zeebe-process-test-assertions",
+    "previousVersion" : "8.6.10",
+    "newVersion" : "8.6.12",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "unknown"
+}

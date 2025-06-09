@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/apache/commons-jcs/pull/265",
+  "project" : "commons-jcs",
+  "projectOrganisation" : "apache",
+  "breakingCommit" : "ab873b2a06b6020edb28ede3e877f73726215cc9",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.commons",
+    "dependencyArtifactID" : "commons-lang3",
+    "previousVersion" : "3.14.0",
+    "newVersion" : "3.15.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

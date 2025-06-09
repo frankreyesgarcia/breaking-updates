@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/jcabi/jcabi-simpledb/pull/311",
+  "project" : "jcabi-simpledb",
+  "projectOrganisation" : "jcabi",
+  "breakingCommit" : "b29676100c0a822af8f51f1d380ef64e8d568488",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.projectlombok",
+    "dependencyArtifactID" : "lombok",
+    "previousVersion" : "1.18.36",
+    "newVersion" : "1.18.38",
+    "dependencyScope" : "provided",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Other"
+}

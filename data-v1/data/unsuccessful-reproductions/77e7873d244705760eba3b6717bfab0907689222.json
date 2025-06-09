@@ -1,0 +1,21 @@
+{
+  "url" : "https://github.com/redhat-developer/rsp-server/pull/675",
+  "project" : "rsp-server",
+  "projectOrganisation" : "redhat-developer",
+  "breakingCommit" : "77e7873d244705760eba3b6717bfab0907689222",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "net.lingala.zip4j",
+    "dependencyArtifactID" : "zip4j",
+    "previousVersion" : "1.3.2",
+    "newVersion" : "2.10.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "licenseInfo" : "Apache-2.0",
+    "githubRepoSlug" : "srikanth-lingala/zip4j"
+  },
+  "javaVersionUsedForReproduction" : "11",
+  "licenseInfo" : "No license found"
+}

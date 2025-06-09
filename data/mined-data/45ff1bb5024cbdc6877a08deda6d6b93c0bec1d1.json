@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/thulab/iot-benchmark/pull/450",
+  "project" : "iot-benchmark",
+  "projectOrganisation" : "thulab",
+  "breakingCommit" : "45ff1bb5024cbdc6877a08deda6d6b93c0bec1d1",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.postgresql",
+    "dependencyArtifactID" : "postgresql",
+    "previousVersion" : "42.3.3",
+    "newVersion" : "42.3.9",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

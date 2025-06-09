@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/factcast/factcast/pull/3011",
+  "project" : "factcast",
+  "projectOrganisation" : "factcast",
+  "breakingCommit" : "a948f9919da88c35ee70259d47199d250a8d37de",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.vaadin.crudui",
+    "dependencyArtifactID" : "crudui",
+    "previousVersion" : "7.1.0",
+    "newVersion" : "7.1.2",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

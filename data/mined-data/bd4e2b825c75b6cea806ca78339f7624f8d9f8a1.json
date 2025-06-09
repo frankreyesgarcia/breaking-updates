@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/nla/outbackcdx/pull/125",
+  "project" : "outbackcdx",
+  "projectOrganisation" : "nla",
+  "breakingCommit" : "bd4e2b825c75b6cea806ca78339f7624f8d9f8a1",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "io.undertow",
+    "dependencyArtifactID" : "undertow-core",
+    "previousVersion" : "2.2.25.Final",
+    "newVersion" : "2.3.14.Final",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

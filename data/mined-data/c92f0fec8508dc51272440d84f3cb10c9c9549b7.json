@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/liquibase/liquibase-cassandra/pull/294",
+  "project" : "liquibase-cassandra",
+  "projectOrganisation" : "liquibase",
+  "breakingCommit" : "c92f0fec8508dc51272440d84f3cb10c9c9549b7",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.ing.data",
+    "dependencyArtifactID" : "cassandra-jdbc-wrapper",
+    "previousVersion" : "4.11.1",
+    "newVersion" : "4.12.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "unknown"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

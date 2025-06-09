@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/slackhq/astra/pull/1107",
+  "project" : "astra",
+  "projectOrganisation" : "slackhq",
+  "breakingCommit" : "ed026ba5d2c0cc3501a29d739010ea78d1cc7245",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "io.zipkin.brave",
+    "dependencyArtifactID" : "brave-instrumentation-grpc",
+    "previousVersion" : "5.18.1",
+    "newVersion" : "6.0.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "unknown"
+  },
+  "licenseInfo" : "MIT License"
+}

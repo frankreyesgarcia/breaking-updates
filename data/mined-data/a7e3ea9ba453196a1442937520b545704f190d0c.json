@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/pkiraly/qa-catalogue/pull/464",
+  "project" : "qa-catalogue",
+  "projectOrganisation" : "pkiraly",
+  "breakingCommit" : "a7e3ea9ba453196a1442937520b545704f190d0c",
+  "prAuthor" : "human",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "human",
+  "updatedDependency" : {
+    "dependencyGroupID" : "de.gwdg.metadataqa",
+    "dependencyArtifactID" : "metadata-qa-api",
+    "previousVersion" : "0.9.3",
+    "newVersion" : "0.9.4",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "unknown"
+  },
+  "licenseInfo" : "GNU General Public License v3.0"
+}

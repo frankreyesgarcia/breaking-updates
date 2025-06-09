@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/jboss/jboss-threads/pull/179",
+  "project" : "jboss-threads",
+  "projectOrganisation" : "jboss",
+  "breakingCommit" : "cc8b3870e5467a52c4125dc64f343e0c7ea92eb4",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.jboss.logging",
+    "dependencyArtifactID" : "jboss-logging-processor",
+    "previousVersion" : "2.2.1.Final",
+    "newVersion" : "3.0.0.Final",
+    "dependencyScope" : "provided",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/davidmoten/flatbuffers/pull/81",
+  "project" : "flatbuffers",
+  "projectOrganisation" : "davidmoten",
+  "breakingCommit" : "87a03ab65a5cb36370cae284f58f563a68c39dae",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.google.flatbuffers",
+    "dependencyArtifactID" : "flatbuffers-java",
+    "previousVersion" : "2.0.8",
+    "newVersion" : "25.2.10",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

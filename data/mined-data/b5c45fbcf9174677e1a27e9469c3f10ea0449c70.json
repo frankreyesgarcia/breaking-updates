@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/openforis/collect/pull/172",
+  "project" : "collect",
+  "projectOrganisation" : "openforis",
+  "breakingCommit" : "b5c45fbcf9174677e1a27e9469c3f10ea0449c70",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.h2database",
+    "dependencyArtifactID" : "h2",
+    "previousVersion" : "2.1.214",
+    "newVersion" : "2.2.220",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "MIT License"
+}

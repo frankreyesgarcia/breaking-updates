@@ -1,0 +1,21 @@
+{
+  "url" : "https://github.com/wgzhao/Addax/pull/830",
+  "project" : "Addax",
+  "projectOrganisation" : "wgzhao",
+  "breakingCommit" : "c035f3afbcadf96216e1214734c42000adba6730",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.google.errorprone",
+    "dependencyArtifactID" : "error_prone_core",
+    "previousVersion" : "2.18.0",
+    "newVersion" : "2.19.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "licenseInfo" : "No license found",
+    "githubRepoSlug" : "Repository not found"
+  },
+  "javaVersionUsedForReproduction" : "11",
+  "licenseInfo" : "Apache-2.0"
+}

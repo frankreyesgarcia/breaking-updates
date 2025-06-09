@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/jcabi/jcabi-http/pull/541",
+  "project" : "jcabi-http",
+  "projectOrganisation" : "jcabi",
+  "breakingCommit" : "641a292b33a16359dbfb1113fb2bb215e860be5d",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "commons-io",
+    "dependencyArtifactID" : "commons-io",
+    "previousVersion" : "2.17.0",
+    "newVersion" : "2.19.0",
+    "dependencyScope" : "provided",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Other"
+}
