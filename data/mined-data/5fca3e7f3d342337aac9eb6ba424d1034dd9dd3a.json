@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/apache/commons-vfs/pull/529",
+  "project" : "commons-vfs",
+  "projectOrganisation" : "apache",
+  "breakingCommit" : "5fca3e7f3d342337aac9eb6ba424d1034dd9dd3a",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.mockito",
+    "dependencyArtifactID" : "mockito-core",
+    "previousVersion" : "4.11.0",
+    "newVersion" : "5.12.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

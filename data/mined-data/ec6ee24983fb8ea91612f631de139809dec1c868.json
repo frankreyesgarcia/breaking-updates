@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/camunda/camunda/pull/28687",
+  "project" : "camunda",
+  "projectOrganisation" : "camunda",
+  "breakingCommit" : "ec6ee24983fb8ea91612f631de139809dec1c868",
+  "prAuthor" : "human",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "human",
+  "updatedDependency" : {
+    "dependencyGroupID" : "net.minidev",
+    "dependencyArtifactID" : "json-smart",
+    "previousVersion" : "2.4.11",
+    "newVersion" : "2.5.2",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "unknown"
+  },
+  "licenseInfo" : "unknown"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/apache/commons-vfs/pull/458",
+  "project" : "commons-vfs",
+  "projectOrganisation" : "apache",
+  "breakingCommit" : "5c2680af4b7ab0c869f8191220cd798c6c2e39cc",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.mina",
+    "dependencyArtifactID" : "mina-core",
+    "previousVersion" : "2.1.8",
+    "newVersion" : "2.2.3",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

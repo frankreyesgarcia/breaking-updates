@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/eclipse-tycho/tycho/pull/4523",
+  "project" : "tycho",
+  "projectOrganisation" : "eclipse-tycho",
+  "breakingCommit" : "a023a0da1680f4a27e5151d87a5e0fe3980d9e59",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.cyclonedx",
+    "dependencyArtifactID" : "cyclonedx-core-java",
+    "previousVersion" : "9.1.0",
+    "newVersion" : "10.0.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "unknown"
+  },
+  "licenseInfo" : "Eclipse Public License 2.0"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/schemacrawler/SchemaCrawler/pull/1847",
+  "project" : "SchemaCrawler",
+  "projectOrganisation" : "schemacrawler",
+  "breakingCommit" : "911119eca8b082d8b4a50ca0e3a8d5c6c74dd045",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "io.trino",
+    "dependencyArtifactID" : "trino-jdbc",
+    "previousVersion" : "469",
+    "newVersion" : "470",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Other"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/aklivity/zilla/pull/836",
+  "project" : "zilla",
+  "projectOrganisation" : "aklivity",
+  "breakingCommit" : "230c06714c7fc6257ad309681866d300d86b8c58",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.glassfish.jaxb",
+    "dependencyArtifactID" : "jaxb-runtime",
+    "previousVersion" : "2.3.3",
+    "newVersion" : "4.0.5",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "buildPluginManagement"
+  },
+  "licenseInfo" : "Other"
+}

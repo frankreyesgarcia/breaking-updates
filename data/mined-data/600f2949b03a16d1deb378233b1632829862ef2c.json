@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/splitio/java-client/pull/550",
+  "project" : "java-client",
+  "projectOrganisation" : "splitio",
+  "breakingCommit" : "600f2949b03a16d1deb378233b1632829862ef2c",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.httpcomponents.client5",
+    "dependencyArtifactID" : "httpclient5",
+    "previousVersion" : "5.4.1",
+    "newVersion" : "5.4.3",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "unknown"
+  },
+  "licenseInfo" : "Other"
+}

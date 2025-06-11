@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/navikt/token-support/pull/982",
+  "project" : "token-support",
+  "projectOrganisation" : "navikt",
+  "breakingCommit" : "67ed06c2b1eb4c8f83c6c9db84907f0a39e4f64b",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.jetbrains.kotlinx",
+    "dependencyArtifactID" : "kotlinx-coroutines-core-jvm",
+    "previousVersion" : "1.9.0",
+    "newVersion" : "1.10.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "MIT License"
+}

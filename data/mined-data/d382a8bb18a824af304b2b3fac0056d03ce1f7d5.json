@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/stefvanschie/IF/pull/1686",
+  "project" : "IF",
+  "projectOrganisation" : "stefvanschie",
+  "breakingCommit" : "d382a8bb18a824af304b2b3fac0056d03ce1f7d5",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.jetbrains",
+    "dependencyArtifactID" : "annotations",
+    "previousVersion" : "24.1.0",
+    "newVersion" : "26.0.0",
+    "dependencyScope" : "provided",
+    "versionUpdateType" : "major",
+    "dependencySection" : "unknown"
+  },
+  "licenseInfo" : "The Unlicense"
+}

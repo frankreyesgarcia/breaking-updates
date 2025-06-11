@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/smooks/smooks-edi-cartridge/pull/355",
+  "project" : "smooks-edi-cartridge",
+  "projectOrganisation" : "smooks",
+  "breakingCommit" : "e286042df01248d56a5f910d62c72aae52ebbe13",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.fasterxml.jackson.core",
+    "dependencyArtifactID" : "jackson-databind",
+    "previousVersion" : "2.16.1",
+    "newVersion" : "2.18.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Other"
+}

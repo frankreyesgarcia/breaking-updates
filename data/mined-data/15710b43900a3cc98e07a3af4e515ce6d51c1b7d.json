@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/jenkinsci/config-file-provider-plugin/pull/360",
+  "project" : "config-file-provider-plugin",
+  "projectOrganisation" : "jenkinsci",
+  "breakingCommit" : "15710b43900a3cc98e07a3af4e515ce6d51c1b7d",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "io.jenkins.tools.bom",
+    "dependencyArtifactID" : "bom-${jenkins.baseline}.x",
+    "previousVersion" : "4023.va_eeb_b_4e45f07",
+    "newVersion" : "4570.v1b_c718dd3b_1e",
+    "dependencyScope" : "import",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "unknown"
+}

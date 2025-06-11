@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/mathieucarbou/license-maven-plugin/pull/792",
+  "project" : "license-maven-plugin",
+  "projectOrganisation" : "mathieucarbou",
+  "breakingCommit" : "a787eee0c45d822c80eab85588ae90a39a191e58",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.maven.plugin-testing",
+    "dependencyArtifactID" : "maven-plugin-testing-harness",
+    "previousVersion" : "4.0.0-alpha-2",
+    "newVersion" : "4.0.0-beta-1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

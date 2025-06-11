@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/redis/jedis/pull/4171",
+  "project" : "jedis",
+  "projectOrganisation" : "redis",
+  "breakingCommit" : "57f26dabeac696f997daa0fd259bc8a960bbe851",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.json",
+    "dependencyArtifactID" : "json",
+    "previousVersion" : "20250107",
+    "newVersion" : "20250517",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "MIT License"
+}

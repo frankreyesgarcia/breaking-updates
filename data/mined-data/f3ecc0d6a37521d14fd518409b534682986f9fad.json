@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/spotify/missinglink/pull/381",
+  "project" : "missinglink",
+  "projectOrganisation" : "spotify",
+  "breakingCommit" : "f3ecc0d6a37521d14fd518409b534682986f9fad",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "unknown",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.ow2.asm",
+    "dependencyArtifactID" : "asm-tree",
+    "previousVersion" : "9.7",
+    "newVersion" : "9.7.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

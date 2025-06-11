@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/cdi-unit/cdi-unit/pull/257",
+  "project" : "cdi-unit",
+  "projectOrganisation" : "cdi-unit",
+  "breakingCommit" : "52ed267e9ff60787a88609077a36c0b24770a6ba",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.maven.surefire",
+    "dependencyArtifactID" : "surefire-api",
+    "previousVersion" : "3.3.0",
+    "newVersion" : "3.3.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "buildPlugins"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/chutney-testing/chutney/pull/97",
+  "project" : "chutney",
+  "projectOrganisation" : "chutney-testing",
+  "breakingCommit" : "04448136603c3d0245b889d995e5d9f59ffbc0d2",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.santuario",
+    "dependencyArtifactID" : "xmlsec",
+    "previousVersion" : "1.5.8",
+    "newVersion" : "4.0.2",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "unknown"
+}

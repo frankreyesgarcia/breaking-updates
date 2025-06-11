@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/smooks/smooks-edi-cartridge/pull/397",
+  "project" : "smooks-edi-cartridge",
+  "projectOrganisation" : "smooks",
+  "breakingCommit" : "5e5713f96f621dc0d12d15f3865e3340d4b32211",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.simplify4u",
+    "dependencyArtifactID" : "pgp-keys-map",
+    "previousVersion" : "2024.11.03",
+    "newVersion" : "2025.03.15",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "buildPlugins"
+  },
+  "licenseInfo" : "Other"
+}

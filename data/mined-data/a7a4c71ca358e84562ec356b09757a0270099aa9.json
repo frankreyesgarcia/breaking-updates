@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/UniversalMediaServer/UniversalMediaServer/pull/5170",
+  "project" : "UniversalMediaServer",
+  "projectOrganisation" : "UniversalMediaServer",
+  "breakingCommit" : "a7a4c71ca358e84562ec356b09757a0270099aa9",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "ch.qos.logback",
+    "dependencyArtifactID" : "logback-core",
+    "previousVersion" : "1.5.12",
+    "newVersion" : "1.5.13",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "GNU General Public License v2.0"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/sshtools/maverick-synergy/pull/91",
+  "project" : "maverick-synergy",
+  "projectOrganisation" : "sshtools",
+  "breakingCommit" : "04854f05dbaeab2b9c0b635231dab020bfd5f46a",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.bouncycastle",
+    "dependencyArtifactID" : "bcpkix-jdk18on",
+    "previousVersion" : "1.76",
+    "newVersion" : "1.78",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "unknown"
+  },
+  "licenseInfo" : "GNU Lesser General Public License v3.0"
+}

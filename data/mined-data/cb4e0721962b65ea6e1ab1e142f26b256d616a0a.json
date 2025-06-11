@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/s4u/sign-maven-plugin/pull/210",
+  "project" : "sign-maven-plugin",
+  "projectOrganisation" : "s4u",
+  "breakingCommit" : "cb4e0721962b65ea6e1ab1e142f26b256d616a0a",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.codehaus.plexus",
+    "dependencyArtifactID" : "plexus-sec-dispatcher",
+    "previousVersion" : "2.0",
+    "newVersion" : "4.0.2",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

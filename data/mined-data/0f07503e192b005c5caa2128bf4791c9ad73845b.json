@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/camunda/camunda/pull/26365",
+  "project" : "camunda",
+  "projectOrganisation" : "camunda",
+  "breakingCommit" : "0f07503e192b005c5caa2128bf4791c9ad73845b",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "human",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.freemarker",
+    "dependencyArtifactID" : "freemarker",
+    "previousVersion" : "2.3.33",
+    "newVersion" : "2.3.34",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "unknown"
+  },
+  "licenseInfo" : "unknown"
+}

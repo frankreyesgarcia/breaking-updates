@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/apache/commons-jcs/pull/262",
+  "project" : "commons-jcs",
+  "projectOrganisation" : "apache",
+  "breakingCommit" : "45aa6087cac479935d18fd700eb39563f314e262",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "commons-logging",
+    "dependencyArtifactID" : "commons-logging",
+    "previousVersion" : "1.3.2",
+    "newVersion" : "1.3.3",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

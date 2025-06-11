@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/schemacrawler/SchemaCrawler/pull/1874",
+  "project" : "SchemaCrawler",
+  "projectOrganisation" : "schemacrawler",
+  "breakingCommit" : "2a6d7ae38fdfc1c23397043030e12eff0a498f81",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.duckdb",
+    "dependencyArtifactID" : "duckdb_jdbc",
+    "previousVersion" : "1.2.0",
+    "newVersion" : "1.2.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Other"
+}

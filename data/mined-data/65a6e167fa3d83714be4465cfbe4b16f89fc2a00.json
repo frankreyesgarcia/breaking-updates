@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/jcabi/jcabi-maven-plugin/pull/189",
+  "project" : "jcabi-maven-plugin",
+  "projectOrganisation" : "jcabi",
+  "breakingCommit" : "65a6e167fa3d83714be4465cfbe4b16f89fc2a00",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.aspectj",
+    "dependencyArtifactID" : "aspectjtools",
+    "previousVersion" : "1.9.20.1",
+    "newVersion" : "1.9.24",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Other"
+}

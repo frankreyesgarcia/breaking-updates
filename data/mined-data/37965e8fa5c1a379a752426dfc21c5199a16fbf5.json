@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/alphagov/pay-connector/pull/5129",
+  "project" : "pay-connector",
+  "projectOrganisation" : "alphagov",
+  "breakingCommit" : "37965e8fa5c1a379a752426dfc21c5199a16fbf5",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "ch.qos.logback",
+    "dependencyArtifactID" : "logback-classic",
+    "previousVersion" : "1.2.11",
+    "newVersion" : "1.5.5",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "MIT License"
+}

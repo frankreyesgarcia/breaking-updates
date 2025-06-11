@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/camunda/zeebe-process-test/pull/1546",
+  "project" : "zeebe-process-test",
+  "projectOrganisation" : "camunda",
+  "breakingCommit" : "3f18158dbc791aaa4ff59f85da069cf8e05fe17f",
+  "prAuthor" : "human",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "human",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.httpcomponents.core5",
+    "dependencyArtifactID" : "httpcore5",
+    "previousVersion" : "5.2.5",
+    "newVersion" : "5.3.3",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "unknown"
+}

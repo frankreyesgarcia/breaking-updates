@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/drftpd-ng/drftpd/pull/387",
+  "project" : "drftpd",
+  "projectOrganisation" : "drftpd-ng",
+  "breakingCommit" : "8fbe35369c3cc4c952d8ad4ddf5bc2d4a570d16f",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.cedarsoftware",
+    "dependencyArtifactID" : "json-io",
+    "previousVersion" : "4.14.2",
+    "newVersion" : "4.26.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "GNU General Public License v2.0"
+}

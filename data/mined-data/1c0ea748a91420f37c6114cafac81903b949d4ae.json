@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/camunda-community-hub/zeebe-test-container/pull/792",
+  "project" : "zeebe-test-container",
+  "projectOrganisation" : "camunda-community-hub",
+  "breakingCommit" : "1c0ea748a91420f37c6114cafac81903b949d4ae",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "net.bytebuddy",
+    "dependencyArtifactID" : "byte-buddy",
+    "previousVersion" : "1.15.3",
+    "newVersion" : "1.15.11",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

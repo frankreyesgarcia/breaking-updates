@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/microprofile/microprofile-config/pull/805",
+  "project" : "microprofile-config",
+  "projectOrganisation" : "microprofile",
+  "breakingCommit" : "eec939be771be00631b718ade0fd78478fb27d0a",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "biz.aQute.bnd",
+    "dependencyArtifactID" : "biz.aQute.bnd.annotation",
+    "previousVersion" : "6.4.1",
+    "newVersion" : "7.1.0",
+    "dependencyScope" : "provided",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

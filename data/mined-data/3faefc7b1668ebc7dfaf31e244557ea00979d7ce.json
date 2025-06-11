@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/cloudsimplus/cloudsimplus/pull/516",
+  "project" : "cloudsimplus",
+  "projectOrganisation" : "cloudsimplus",
+  "breakingCommit" : "3faefc7b1668ebc7dfaf31e244557ea00979d7ce",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "human",
+  "updatedDependency" : {
+    "dependencyGroupID" : "ch.qos.logback",
+    "dependencyArtifactID" : "logback-core",
+    "previousVersion" : "1.4.12",
+    "newVersion" : "1.5.13",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "GNU General Public License v3.0"
+}

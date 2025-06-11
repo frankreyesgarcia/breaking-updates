@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/apache/commons-jxpath/pull/87",
+  "project" : "commons-jxpath",
+  "projectOrganisation" : "apache",
+  "breakingCommit" : "56558d37a000080594f1b03543a22b3b44f22d29",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.jdom",
+    "dependencyArtifactID" : "jdom",
+    "previousVersion" : "1.1.3",
+    "newVersion" : "2.0.2",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

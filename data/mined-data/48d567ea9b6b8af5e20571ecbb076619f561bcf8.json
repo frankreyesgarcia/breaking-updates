@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/jcabi/jcabi-dynamo/pull/412",
+  "project" : "jcabi-dynamo",
+  "projectOrganisation" : "jcabi",
+  "breakingCommit" : "48d567ea9b6b8af5e20571ecbb076619f561bcf8",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.google.guava",
+    "dependencyArtifactID" : "guava",
+    "previousVersion" : "33.3.1-jre",
+    "newVersion" : "33.4.8-jre",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Other"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/eclipse-tm4e/tm4e/pull/899",
+  "project" : "tm4e",
+  "projectOrganisation" : "eclipse-tm4e",
+  "breakingCommit" : "221bfcc3ba8988cd6647b81dc88380c8efc5c399",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.vegardit.no-npe",
+    "dependencyArtifactID" : "no-npe-eea-all",
+    "previousVersion" : "1.3.5",
+    "newVersion" : "1.3.6",
+    "dependencyScope" : "provided",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Eclipse Public License 2.0"
+}

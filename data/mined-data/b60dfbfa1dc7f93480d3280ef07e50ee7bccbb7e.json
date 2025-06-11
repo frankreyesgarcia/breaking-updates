@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/lukas-krecan/ShedLock/pull/1976",
+  "project" : "ShedLock",
+  "projectOrganisation" : "lukas-krecan",
+  "breakingCommit" : "b60dfbfa1dc7f93480d3280ef07e50ee7bccbb7e",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.jooq",
+    "dependencyArtifactID" : "jooq",
+    "previousVersion" : "3.19.8",
+    "newVersion" : "3.19.10",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/sendgrid/sendgrid-java/pull/746",
+  "project" : "sendgrid-java",
+  "projectOrganisation" : "sendgrid",
+  "breakingCommit" : "ecae29fe07f59581bfed5f27804782dd60b7a24f",
+  "prAuthor" : "human",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "human",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.bouncycastle",
+    "dependencyArtifactID" : "bcprov-jdk18on",
+    "previousVersion" : "1.76",
+    "newVersion" : "1.78",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "MIT License"
+}

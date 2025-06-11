@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/chocoteam/choco-solver/pull/1145",
+  "project" : "choco-solver",
+  "projectOrganisation" : "chocoteam",
+  "breakingCommit" : "147d7d270df3828765ecedce664a065b3dab2456",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.puppycrawl.tools",
+    "dependencyArtifactID" : "checkstyle",
+    "previousVersion" : "10.6.0",
+    "newVersion" : "10.21.3",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "buildPluginManagement"
+  },
+  "licenseInfo" : "BSD 4-Clause \"Original\" or \"Old\" License"
+}

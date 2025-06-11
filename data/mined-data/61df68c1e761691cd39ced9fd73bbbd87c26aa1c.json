@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/eclipse-tm4e/tm4e/pull/769",
+  "project" : "tm4e",
+  "projectOrganisation" : "eclipse-tm4e",
+  "breakingCommit" : "61df68c1e761691cd39ced9fd73bbbd87c26aa1c",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.vegardit.no-npe",
+    "dependencyArtifactID" : "no-npe-eea-all",
+    "previousVersion" : "1.0.0",
+    "newVersion" : "1.0.2",
+    "dependencyScope" : "provided",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Eclipse Public License 2.0"
+}

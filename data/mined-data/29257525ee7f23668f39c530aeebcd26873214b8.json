@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/aidanwhiteley/books/pull/590",
+  "project" : "books",
+  "projectOrganisation" : "aidanwhiteley",
+  "breakingCommit" : "29257525ee7f23668f39c530aeebcd26873214b8",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "unknown",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.springdoc",
+    "dependencyArtifactID" : "springdoc-openapi-starter-webmvc-ui",
+    "previousVersion" : "2.6.0",
+    "newVersion" : "2.7.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Other"
+}

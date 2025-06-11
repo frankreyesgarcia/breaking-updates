@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/redisson/redisson/pull/5994",
+  "project" : "redisson",
+  "projectOrganisation" : "redisson",
+  "breakingCommit" : "0d1be8fe19f4b7d54868ec7bba6813432719a375",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.hibernate",
+    "dependencyArtifactID" : "hibernate-core",
+    "previousVersion" : "4.3.11.Final",
+    "newVersion" : "5.3.20.Final",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

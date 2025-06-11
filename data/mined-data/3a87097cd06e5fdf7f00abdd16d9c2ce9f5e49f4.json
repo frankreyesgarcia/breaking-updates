@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/anotheria/moskito/pull/287",
+  "project" : "moskito",
+  "projectOrganisation" : "anotheria",
+  "breakingCommit" : "3a87097cd06e5fdf7f00abdd16d9c2ce9f5e49f4",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "ch.qos.logback",
+    "dependencyArtifactID" : "logback-classic",
+    "previousVersion" : "1.4.11",
+    "newVersion" : "1.4.12",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "MIT License"
+}

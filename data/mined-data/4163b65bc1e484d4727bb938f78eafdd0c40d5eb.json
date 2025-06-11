@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/camunda/camunda/pull/25169",
+  "project" : "camunda",
+  "projectOrganisation" : "camunda",
+  "breakingCommit" : "4163b65bc1e484d4727bb938f78eafdd0c40d5eb",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "commons-codec",
+    "dependencyArtifactID" : "commons-codec",
+    "previousVersion" : "1.16.1",
+    "newVersion" : "1.17.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "unknown"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/ere-health/ere-ps-app/pull/149",
+  "project" : "ere-ps-app",
+  "projectOrganisation" : "ere-health",
+  "breakingCommit" : "cf9299797962afe310ab9031c56b833acecffd04",
+  "prAuthor" : "human",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "human",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.yaml",
+    "dependencyArtifactID" : "snakeyaml",
+    "previousVersion" : "2.2",
+    "newVersion" : "2.3",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "GNU General Public License v3.0"
+}

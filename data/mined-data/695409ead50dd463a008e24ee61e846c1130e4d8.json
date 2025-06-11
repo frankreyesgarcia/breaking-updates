@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/chutney-testing/chutney/pull/100",
+  "project" : "chutney",
+  "projectOrganisation" : "chutney-testing",
+  "breakingCommit" : "695409ead50dd463a008e24ee61e846c1130e4d8",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "io.opentelemetry",
+    "dependencyArtifactID" : "opentelemetry-sdk-logs",
+    "previousVersion" : "1.31.0",
+    "newVersion" : "1.38.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "unknown"
+}

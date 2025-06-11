@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/quarkusio/quarkus-platform/pull/1240",
+  "project" : "quarkus-platform",
+  "projectOrganisation" : "quarkusio",
+  "breakingCommit" : "b1240ef22681190f83c657e4d70389912f545d3f",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "unknown",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.cxf",
+    "dependencyArtifactID" : "cxf-rt-transports-http",
+    "previousVersion" : "4.0.4",
+    "newVersion" : "4.0.5",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

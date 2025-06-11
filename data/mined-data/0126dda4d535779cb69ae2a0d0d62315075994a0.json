@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/cmu-db/benchbase/pull/620",
+  "project" : "benchbase",
+  "projectOrganisation" : "cmu-db",
+  "breakingCommit" : "0126dda4d535779cb69ae2a0d0d62315075994a0",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.google.cloud",
+    "dependencyArtifactID" : "google-cloud-spanner-jdbc",
+    "previousVersion" : "2.24.1",
+    "newVersion" : "2.30.1",
+    "dependencyScope" : "runtime",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "profileDependencies"
+  },
+  "licenseInfo" : "Other"
+}

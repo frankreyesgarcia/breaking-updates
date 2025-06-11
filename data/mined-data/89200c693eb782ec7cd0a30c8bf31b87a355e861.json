@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/cmu-db/benchbase/pull/557",
+  "project" : "benchbase",
+  "projectOrganisation" : "cmu-db",
+  "breakingCommit" : "89200c693eb782ec7cd0a30c8bf31b87a355e861",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "human",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.commons",
+    "dependencyArtifactID" : "commons-lang3",
+    "previousVersion" : "3.14.0",
+    "newVersion" : "3.17.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Other"
+}

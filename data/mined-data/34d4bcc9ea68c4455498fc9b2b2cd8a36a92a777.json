@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/Alfresco/alfresco-community-repo/pull/3118",
+  "project" : "alfresco-community-repo",
+  "projectOrganisation" : "Alfresco",
+  "breakingCommit" : "34d4bcc9ea68c4455498fc9b2b2cd8a36a92a777",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.mozilla",
+    "dependencyArtifactID" : "rhino",
+    "previousVersion" : "1.7.14",
+    "newVersion" : "1.8.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "GNU Lesser General Public License v3.0"
+}

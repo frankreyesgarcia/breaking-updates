@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/eclipse-lemminx/lemminx/pull/1713",
+  "project" : "lemminx",
+  "projectOrganisation" : "eclipse-lemminx",
+  "breakingCommit" : "668797b1330829e52108709ef86f1f4b12092b8b",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.jsoup",
+    "dependencyArtifactID" : "jsoup",
+    "previousVersion" : "1.14.2",
+    "newVersion" : "1.18.3",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Eclipse Public License 2.0"
+}

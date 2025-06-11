@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/quarkusio/quarkus-platform/pull/1199",
+  "project" : "quarkus-platform",
+  "projectOrganisation" : "quarkusio",
+  "breakingCommit" : "f918a92ad505818f46a27d1ebc5db7ac34af15b5",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.bouncycastle",
+    "dependencyArtifactID" : "bctls-fips",
+    "previousVersion" : "1.0.18",
+    "newVersion" : "1.0.19",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

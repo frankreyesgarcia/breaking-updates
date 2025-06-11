@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/schemacrawler/SchemaCrawler/pull/1694",
+  "project" : "SchemaCrawler",
+  "projectOrganisation" : "schemacrawler",
+  "breakingCommit" : "ef551a864462bdb004d9c9fe63507a4ecbac4dbf",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.fasterxml.jackson",
+    "dependencyArtifactID" : "jackson-bom",
+    "previousVersion" : "2.17.2",
+    "newVersion" : "2.18.0",
+    "dependencyScope" : "import",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "Other"
+}

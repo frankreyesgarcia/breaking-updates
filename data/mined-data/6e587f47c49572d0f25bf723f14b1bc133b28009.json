@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/Songoda-Plugins/SongodaCore/pull/111",
+  "project" : "SongodaCore",
+  "projectOrganisation" : "Songoda-Plugins",
+  "breakingCommit" : "6e587f47c49572d0f25bf723f14b1bc133b28009",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.h2database",
+    "dependencyArtifactID" : "h2",
+    "previousVersion" : "1.4.200",
+    "newVersion" : "2.3.230",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Other"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/jenkinsci/dependency-track-plugin/pull/266",
+  "project" : "dependency-track-plugin",
+  "projectOrganisation" : "jenkinsci",
+  "breakingCommit" : "282cec7f51508e30110301fee60e875a9287cd3f",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "io.jenkins.plugins",
+    "dependencyArtifactID" : "okhttp-api",
+    "previousVersion" : "4.11.0-172.vda_da_1feeb_c6e",
+    "newVersion" : "4.11.0-179.vdc1e64343d52",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "unknown"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

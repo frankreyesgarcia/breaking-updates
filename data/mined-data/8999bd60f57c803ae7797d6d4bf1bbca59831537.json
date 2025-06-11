@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/revelc/formatter-maven-plugin/pull/947",
+  "project" : "formatter-maven-plugin",
+  "projectOrganisation" : "revelc",
+  "breakingCommit" : "8999bd60f57c803ae7797d6d4bf1bbca59831537",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.eclipse.jdt",
+    "dependencyArtifactID" : "org.eclipse.jdt.core",
+    "previousVersion" : "3.38.0",
+    "newVersion" : "3.40.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

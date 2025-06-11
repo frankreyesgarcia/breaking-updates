@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/questdb/questdb/pull/5540",
+  "project" : "questdb",
+  "projectOrganisation" : "questdb",
+  "breakingCommit" : "7cc9b93b104400e4b7326c84a89eb78e54f73e5a",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.parquet",
+    "dependencyArtifactID" : "parquet-avro",
+    "previousVersion" : "1.15.0",
+    "newVersion" : "1.15.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/maxmind/MaxMind-DB-Reader-java/pull/225",
+  "project" : "MaxMind-DB-Reader-java",
+  "projectOrganisation" : "maxmind",
+  "breakingCommit" : "6a28ca6124898a6ac4835f082c9fe58975b1f515",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.puppycrawl.tools",
+    "dependencyArtifactID" : "checkstyle",
+    "previousVersion" : "10.21.1",
+    "newVersion" : "10.21.2",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "buildPlugins"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

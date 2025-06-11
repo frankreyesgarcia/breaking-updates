@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/smallrye/smallrye-stork/pull/982",
+  "project" : "smallrye-stork",
+  "projectOrganisation" : "smallrye",
+  "breakingCommit" : "6b07da36cbc228f1c69337138e76e65fd0641124",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.jboss.weld",
+    "dependencyArtifactID" : "weld-spi",
+    "previousVersion" : "5.0.SP3",
+    "newVersion" : "6.0.Final",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

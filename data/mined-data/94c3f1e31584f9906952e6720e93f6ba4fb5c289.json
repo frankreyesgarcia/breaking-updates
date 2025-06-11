@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/spotify/dbeam/pull/808",
+  "project" : "dbeam",
+  "projectOrganisation" : "spotify",
+  "breakingCommit" : "94c3f1e31584f9906952e6720e93f6ba4fb5c289",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.google.apis",
+    "dependencyArtifactID" : "google-api-services-cloudkms",
+    "previousVersion" : "v1-rev20240219-2.0.0",
+    "newVersion" : "v1-rev20240425-2.0.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

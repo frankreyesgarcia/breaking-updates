@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/querydsl/querydsl/pull/3821",
+  "project" : "querydsl",
+  "projectOrganisation" : "querydsl",
+  "breakingCommit" : "e1e8935482a1d6d8a7e224fe7b3fa27a6d5eebe1",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.squareup",
+    "dependencyArtifactID" : "kotlinpoet",
+    "previousVersion" : "1.12.0",
+    "newVersion" : "2.1.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "unknown"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

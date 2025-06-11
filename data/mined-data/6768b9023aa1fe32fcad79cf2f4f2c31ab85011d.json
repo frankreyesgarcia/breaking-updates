@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/objectionary/eo/pull/3254",
+  "project" : "eo",
+  "projectOrganisation" : "objectionary",
+  "breakingCommit" : "6768b9023aa1fe32fcad79cf2f4f2c31ab85011d",
+  "prAuthor" : "human",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "human",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.maven",
+    "dependencyArtifactID" : "maven-plugin-api",
+    "previousVersion" : "3.9.7",
+    "newVersion" : "3.9.8",
+    "dependencyScope" : "provided",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "MIT License"
+}

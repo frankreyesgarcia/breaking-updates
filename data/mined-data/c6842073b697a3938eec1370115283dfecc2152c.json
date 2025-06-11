@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/apache/directory-scimple/pull/713",
+  "project" : "directory-scimple",
+  "projectOrganisation" : "apache",
+  "breakingCommit" : "c6842073b697a3938eec1370115283dfecc2152c",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.jboss.weld.se",
+    "dependencyArtifactID" : "weld-se-core",
+    "previousVersion" : "5.1.3.Final",
+    "newVersion" : "6.0.0.Final",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

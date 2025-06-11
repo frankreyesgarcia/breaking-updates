@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/52North/sensorweb-server-helgoland/pull/735",
+  "project" : "sensorweb-server-helgoland",
+  "projectOrganisation" : "52North",
+  "breakingCommit" : "99eca8ff396216025edcf9570664c8a42bb34a15",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "xml-apis",
+    "dependencyArtifactID" : "xml-apis",
+    "previousVersion" : "1.4.01",
+    "newVersion" : "2.0.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "GNU General Public License v2.0"
+}

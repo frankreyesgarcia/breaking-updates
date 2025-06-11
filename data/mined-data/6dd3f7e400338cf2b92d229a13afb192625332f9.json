@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/slackhq/astra/pull/1016",
+  "project" : "astra",
+  "projectOrganisation" : "slackhq",
+  "breakingCommit" : "6dd3f7e400338cf2b92d229a13afb192625332f9",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.google.googlejavaformat",
+    "dependencyArtifactID" : "google-java-format",
+    "previousVersion" : "1.22.0",
+    "newVersion" : "1.23.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "unknown"
+  },
+  "licenseInfo" : "MIT License"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/microsoftgraph/msgraph-sdk-java/pull/2015",
+  "project" : "msgraph-sdk-java",
+  "projectOrganisation" : "microsoftgraph",
+  "breakingCommit" : "789b0f617af8fb90a74f426513eb0b1ca1fee3fd",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.microsoft.graph",
+    "dependencyArtifactID" : "microsoft-graph-core",
+    "previousVersion" : "3.1.10",
+    "newVersion" : "3.1.12",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "MIT License"
+}

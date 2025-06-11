@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/spotify/dbeam/pull/903",
+  "project" : "dbeam",
+  "projectOrganisation" : "spotify",
+  "breakingCommit" : "1189fe0a72c0224b37792a2d1ba639e4360c0493",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "net.bytebuddy",
+    "dependencyArtifactID" : "byte-buddy",
+    "previousVersion" : "1.15.1",
+    "newVersion" : "1.15.3",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

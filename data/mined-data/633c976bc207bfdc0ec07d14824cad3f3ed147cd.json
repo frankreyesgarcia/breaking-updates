@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/liquibase/liquibase/pull/6184",
+  "project" : "liquibase",
+  "projectOrganisation" : "liquibase",
+  "breakingCommit" : "633c976bc207bfdc0ec07d14824cad3f3ed147cd",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.slf4j",
+    "dependencyArtifactID" : "slf4j-jdk14",
+    "previousVersion" : "2.0.13",
+    "newVersion" : "2.0.15",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

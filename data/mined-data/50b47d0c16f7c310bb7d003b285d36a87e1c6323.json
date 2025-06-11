@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/finnyb/javampd/pull/231",
+  "project" : "javampd",
+  "projectOrganisation" : "finnyb",
+  "breakingCommit" : "50b47d0c16f7c310bb7d003b285d36a87e1c6323",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.slf4j",
+    "dependencyArtifactID" : "slf4j-api",
+    "previousVersion" : "2.0.13",
+    "newVersion" : "2.0.16",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "GNU General Public License v2.0"
+}

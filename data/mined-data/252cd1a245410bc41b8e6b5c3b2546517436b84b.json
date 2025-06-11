@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/cloudspannerecosystem/liquibase-spanner/pull/351",
+  "project" : "liquibase-spanner",
+  "projectOrganisation" : "cloudspannerecosystem",
+  "breakingCommit" : "252cd1a245410bc41b8e6b5c3b2546517436b84b",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.google.cloud",
+    "dependencyArtifactID" : "libraries-bom",
+    "previousVersion" : "26.45.0",
+    "newVersion" : "26.49.0",
+    "dependencyScope" : "import",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

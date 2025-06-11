@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/mathieucarbou/license-maven-plugin/pull/941",
+  "project" : "license-maven-plugin",
+  "projectOrganisation" : "mathieucarbou",
+  "breakingCommit" : "920fd8641588cabdd3a61c9dba3882ff85e97745",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.eclipse.jgit",
+    "dependencyArtifactID" : "org.eclipse.jgit",
+    "previousVersion" : "6.10.0.202406032230-r",
+    "newVersion" : "7.2.1.202505142326-r",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/liquibase/liquibase-redshift/pull/246",
+  "project" : "liquibase-redshift",
+  "projectOrganisation" : "liquibase",
+  "breakingCommit" : "6a1e60095e44840f9006e02ec788d192ba7a4559",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "unknown",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.maven.surefire",
+    "dependencyArtifactID" : "surefire-junit4",
+    "previousVersion" : "3.2.5",
+    "newVersion" : "3.3.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "unknown"
+  },
+  "licenseInfo" : "unknown"
+}

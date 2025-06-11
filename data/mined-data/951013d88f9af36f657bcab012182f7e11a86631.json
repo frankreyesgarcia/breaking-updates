@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/s4u/pgpverify-maven-plugin/pull/630",
+  "project" : "pgpverify-maven-plugin",
+  "projectOrganisation" : "s4u",
+  "breakingCommit" : "951013d88f9af36f657bcab012182f7e11a86631",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.google.guava",
+    "dependencyArtifactID" : "guava",
+    "previousVersion" : "33.4.0-jre",
+    "newVersion" : "33.4.8-jre",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

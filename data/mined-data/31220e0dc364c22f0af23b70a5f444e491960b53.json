@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/liquibase/liquibase/pull/6336",
+  "project" : "liquibase",
+  "projectOrganisation" : "liquibase",
+  "breakingCommit" : "31220e0dc364c22f0af23b70a5f444e491960b53",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "javax.enterprise",
+    "dependencyArtifactID" : "cdi-api",
+    "previousVersion" : "2.0",
+    "newVersion" : "2.0-PFD2",
+    "dependencyScope" : "provided",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

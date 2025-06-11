@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/dogtagpki/jss/pull/1034",
+  "project" : "jss",
+  "projectOrganisation" : "dogtagpki",
+  "breakingCommit" : "e86d46d513fc7019ace98eecb6db7df1e6f28971",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.tomcat",
+    "dependencyArtifactID" : "tomcat-catalina",
+    "previousVersion" : "9.0.83",
+    "newVersion" : "9.0.98",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "unknown"
+}

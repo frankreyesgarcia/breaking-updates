@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/finnyb/javampd/pull/249",
+  "project" : "javampd",
+  "projectOrganisation" : "finnyb",
+  "breakingCommit" : "6abd7477ce0201c72cecca8fd0c040b425713a68",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.projectlombok",
+    "dependencyArtifactID" : "lombok",
+    "previousVersion" : "1.18.34",
+    "newVersion" : "1.18.38",
+    "dependencyScope" : "provided",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "GNU General Public License v2.0"
+}

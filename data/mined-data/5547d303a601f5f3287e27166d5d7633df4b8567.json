@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/mybatis/cdi/pull/458",
+  "project" : "cdi",
+  "projectOrganisation" : "mybatis",
+  "breakingCommit" : "5547d303a601f5f3287e27166d5d7633df4b8567",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "jakarta.enterprise",
+    "dependencyArtifactID" : "jakarta.enterprise.cdi-api",
+    "previousVersion" : "4.0.1",
+    "newVersion" : "4.1.0",
+    "dependencyScope" : "provided",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

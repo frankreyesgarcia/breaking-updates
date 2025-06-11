@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/miso-lims/miso-lims/pull/2969",
+  "project" : "miso-lims",
+  "projectOrganisation" : "miso-lims",
+  "breakingCommit" : "9474975e1bee640d48eda9c7d3dc5630948821a8",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.mysql",
+    "dependencyArtifactID" : "mysql-connector-j",
+    "previousVersion" : "8.0.33",
+    "newVersion" : "8.2.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "GNU General Public License v3.0"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/Sefiraat/Networks/pull/209",
+  "project" : "Networks",
+  "projectOrganisation" : "Sefiraat",
+  "breakingCommit" : "d37e9a006aeff84ccd5f2fa66ad62f820d9715b4",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.bstats",
+    "dependencyArtifactID" : "bstats-bukkit",
+    "previousVersion" : "3.0.2",
+    "newVersion" : "3.1.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "GNU General Public License v3.0"
+}

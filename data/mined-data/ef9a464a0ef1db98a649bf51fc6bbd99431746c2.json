@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/querydsl/querydsl/pull/3808",
+  "project" : "querydsl",
+  "projectOrganisation" : "querydsl",
+  "breakingCommit" : "ef9a464a0ef1db98a649bf51fc6bbd99431746c2",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.hibernate.common",
+    "dependencyArtifactID" : "hibernate-commons-annotations",
+    "previousVersion" : "5.1.2.Final",
+    "newVersion" : "7.0.3.Final",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "unknown"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

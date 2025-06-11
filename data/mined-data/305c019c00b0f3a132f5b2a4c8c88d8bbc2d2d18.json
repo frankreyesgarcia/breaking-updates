@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/smooks/smooks-edi-cartridge/pull/343",
+  "project" : "smooks-edi-cartridge",
+  "projectOrganisation" : "smooks",
+  "breakingCommit" : "305c019c00b0f3a132f5b2a4c8c88d8bbc2d2d18",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.eclipse.emf",
+    "dependencyArtifactID" : "org.eclipse.emf.common",
+    "previousVersion" : "2.23.0",
+    "newVersion" : "2.31.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Other"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/okta/okta-cli/pull/595",
+  "project" : "okta-cli",
+  "projectOrganisation" : "okta",
+  "breakingCommit" : "5eec1ed84400857fa1c416c33e7d1f8908581487",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.graalvm.sdk",
+    "dependencyArtifactID" : "graal-sdk",
+    "previousVersion" : "22.3.5",
+    "newVersion" : "24.2.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

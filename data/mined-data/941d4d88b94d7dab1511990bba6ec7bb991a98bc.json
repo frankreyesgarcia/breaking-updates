@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/apache/camel-kafka-connector/pull/1680",
+  "project" : "camel-kafka-connector",
+  "projectOrganisation" : "apache",
+  "breakingCommit" : "941d4d88b94d7dab1511990bba6ec7bb991a98bc",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.avro",
+    "dependencyArtifactID" : "avro",
+    "previousVersion" : "1.11.3",
+    "newVersion" : "1.11.4",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

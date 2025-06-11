@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/querydsl/querydsl/pull/3784",
+  "project" : "querydsl",
+  "projectOrganisation" : "querydsl",
+  "breakingCommit" : "00f5da03fc533b758db881e572dc37274a54b903",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.projectlombok",
+    "dependencyArtifactID" : "lombok",
+    "previousVersion" : "1.18.30",
+    "newVersion" : "1.18.36",
+    "dependencyScope" : "provided",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "unknown"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

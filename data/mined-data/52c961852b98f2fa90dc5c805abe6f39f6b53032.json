@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/sfuhrm/sudoku/pull/14",
+  "project" : "sudoku",
+  "projectOrganisation" : "sfuhrm",
+  "breakingCommit" : "52c961852b98f2fa90dc5c805abe6f39f6b53032",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "args4j",
+    "dependencyArtifactID" : "args4j",
+    "previousVersion" : "2.33",
+    "newVersion" : "2.37",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "GNU Lesser General Public License v3.0"
+}

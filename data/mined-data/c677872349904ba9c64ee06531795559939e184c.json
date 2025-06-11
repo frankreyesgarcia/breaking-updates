@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/sqlancer/sqlancer/pull/1060",
+  "project" : "sqlancer",
+  "projectOrganisation" : "sqlancer",
+  "breakingCommit" : "c677872349904ba9c64ee06531795559939e184c",
+  "prAuthor" : "human",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "human",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.h2database",
+    "dependencyArtifactID" : "h2",
+    "previousVersion" : "2.1.214",
+    "newVersion" : "2.3.232",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "MIT License"
+}

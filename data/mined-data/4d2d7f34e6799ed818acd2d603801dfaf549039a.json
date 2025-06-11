@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/TheAlgorithms/Java/pull/6252",
+  "project" : "Java",
+  "projectOrganisation" : "TheAlgorithms",
+  "breakingCommit" : "4d2d7f34e6799ed818acd2d603801dfaf549039a",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.junit",
+    "dependencyArtifactID" : "junit-bom",
+    "previousVersion" : "5.12.2",
+    "newVersion" : "5.13.0",
+    "dependencyScope" : "import",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "MIT License"
+}

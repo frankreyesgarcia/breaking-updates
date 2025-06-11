@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/camunda/camunda/pull/20971",
+  "project" : "camunda",
+  "projectOrganisation" : "camunda",
+  "breakingCommit" : "297178644d4854743038016fc65ce3cfee780a10",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.amazonaws",
+    "dependencyArtifactID" : "aws-java-sdk-core",
+    "previousVersion" : "1.12.715",
+    "newVersion" : "1.12.767",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "unknown"
+}

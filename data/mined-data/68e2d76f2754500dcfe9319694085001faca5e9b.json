@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/52North/sensorweb-server-helgoland/pull/732",
+  "project" : "sensorweb-server-helgoland",
+  "projectOrganisation" : "52North",
+  "breakingCommit" : "68e2d76f2754500dcfe9319694085001faca5e9b",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.locationtech.jts",
+    "dependencyArtifactID" : "jts-core",
+    "previousVersion" : "1.19.0",
+    "newVersion" : "1.20.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "GNU General Public License v2.0"
+}

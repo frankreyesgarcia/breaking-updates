@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/querydsl/querydsl/pull/3817",
+  "project" : "querydsl",
+  "projectOrganisation" : "querydsl",
+  "breakingCommit" : "d7053ff2e6883cda16ed9b66adc49380995f53db",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.springframework.boot",
+    "dependencyArtifactID" : "spring-boot-starter-parent",
+    "previousVersion" : "2.6.7",
+    "newVersion" : "3.4.3",
+    "dependencyScope" : "import",
+    "versionUpdateType" : "major",
+    "dependencySection" : "unknown"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

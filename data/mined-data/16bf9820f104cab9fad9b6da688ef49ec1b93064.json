@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/apache/commons-vfs/pull/670",
+  "project" : "commons-vfs",
+  "projectOrganisation" : "apache",
+  "breakingCommit" : "16bf9820f104cab9fad9b6da688ef49ec1b93064",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.sshd",
+    "dependencyArtifactID" : "sshd-core",
+    "previousVersion" : "0.8.0",
+    "newVersion" : "2.15.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

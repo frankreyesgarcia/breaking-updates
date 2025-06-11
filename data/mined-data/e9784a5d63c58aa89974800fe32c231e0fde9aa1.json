@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/mybatis/jpetstore-6/pull/835",
+  "project" : "jpetstore-6",
+  "projectOrganisation" : "mybatis",
+  "breakingCommit" : "e9784a5d63c58aa89974800fe32c231e0fde9aa1",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "jakarta.servlet.jsp",
+    "dependencyArtifactID" : "jakarta.servlet.jsp-api",
+    "previousVersion" : "2.3.6",
+    "newVersion" : "4.0.0",
+    "dependencyScope" : "provided",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

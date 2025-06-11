@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/mybatis/mybatis-3/pull/3214",
+  "project" : "mybatis-3",
+  "projectOrganisation" : "mybatis",
+  "breakingCommit" : "11c5577c2bbc8e129926e77c4c76bcbb2a175c57",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.slf4j",
+    "dependencyArtifactID" : "slf4j-api",
+    "previousVersion" : "2.0.14",
+    "newVersion" : "2.0.15",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

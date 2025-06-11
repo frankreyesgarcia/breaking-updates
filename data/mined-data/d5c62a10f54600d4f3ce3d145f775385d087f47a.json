@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/s4u/pgpverify-maven-plugin/pull/582",
+  "project" : "pgpverify-maven-plugin",
+  "projectOrganisation" : "s4u",
+  "breakingCommit" : "d5c62a10f54600d4f3ce3d145f775385d087f47a",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "io.vavr",
+    "dependencyArtifactID" : "vavr",
+    "previousVersion" : "0.10.4",
+    "newVersion" : "0.10.5",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

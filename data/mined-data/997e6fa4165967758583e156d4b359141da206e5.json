@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/liquibase/liquibase/pull/6691",
+  "project" : "liquibase",
+  "projectOrganisation" : "liquibase",
+  "breakingCommit" : "997e6fa4165967758583e156d4b359141da206e5",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.firebirdsql",
+    "dependencyArtifactID" : "firebird-testcontainers-java",
+    "previousVersion" : "1.4.0",
+    "newVersion" : "1.5.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

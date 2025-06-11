@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/cassandre-tech/cassandre-trading-bot/pull/1290",
+  "project" : "cassandre-trading-bot",
+  "projectOrganisation" : "cassandre-tech",
+  "breakingCommit" : "03e2f1e456c4dda5019f2a5892b5dfe6d584d37e",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.netflix.graphql.dgs.codegen",
+    "dependencyArtifactID" : "graphql-dgs-codegen-core",
+    "previousVersion" : "6.1.2",
+    "newVersion" : "6.3.0",
+    "dependencyScope" : "provided",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "GNU General Public License v3.0"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/davidmoten/rtree/pull/259",
+  "project" : "rtree",
+  "projectOrganisation" : "davidmoten",
+  "breakingCommit" : "7d832b086a800bbd42be97bf65e044d738ffc597",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.google.flatbuffers",
+    "dependencyArtifactID" : "flatbuffers-java",
+    "previousVersion" : "2.0.8",
+    "newVersion" : "25.2.10",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

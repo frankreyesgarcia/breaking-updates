@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/ASSERT-KTH/depclean/pull/436",
+  "project" : "depclean",
+  "projectOrganisation" : "ASSERT-KTH",
+  "breakingCommit" : "cf12e62163cbfbbdb463cd711f124cef991cce51",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.codehaus.plexus",
+    "dependencyArtifactID" : "plexus-utils",
+    "previousVersion" : "3.6.0",
+    "newVersion" : "4.0.2",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "unknown"
+  },
+  "licenseInfo" : "MIT License"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/lukas-krecan/ShedLock/pull/2039",
+  "project" : "ShedLock",
+  "projectOrganisation" : "lukas-krecan",
+  "breakingCommit" : "6e700e1aaa53f29bc89af848d89c1e6b1b7fe3d8",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.mariadb.jdbc",
+    "dependencyArtifactID" : "mariadb-java-client",
+    "previousVersion" : "3.4.0",
+    "newVersion" : "3.4.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

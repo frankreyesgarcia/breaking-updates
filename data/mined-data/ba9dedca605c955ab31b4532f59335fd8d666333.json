@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/eqasim-org/eqasim-java/pull/351",
+  "project" : "eqasim-java",
+  "projectOrganisation" : "eqasim-org",
+  "breakingCommit" : "ba9dedca605c955ab31b4532f59335fd8d666333",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "io.javalin",
+    "dependencyArtifactID" : "javalin",
+    "previousVersion" : "5.6.1",
+    "newVersion" : "6.6.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "GNU General Public License v2.0"
+}

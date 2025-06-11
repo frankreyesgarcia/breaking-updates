@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/eclipse-ee4j/openmq/pull/1987",
+  "project" : "openmq",
+  "projectOrganisation" : "eclipse-ee4j",
+  "breakingCommit" : "d6eccbf1ea516f30b7f061a5f35451fd1b61d959",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.openrewrite.recipe",
+    "dependencyArtifactID" : "rewrite-migrate-java",
+    "previousVersion" : "2.18.1",
+    "newVersion" : "2.19.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "buildPlugins"
+  },
+  "licenseInfo" : "Other"
+}

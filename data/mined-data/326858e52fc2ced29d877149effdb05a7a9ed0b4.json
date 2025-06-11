@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/slackhq/astra/pull/1106",
+  "project" : "astra",
+  "projectOrganisation" : "slackhq",
+  "breakingCommit" : "326858e52fc2ced29d877149effdb05a7a9ed0b4",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "io.zipkin.reporter2",
+    "dependencyArtifactID" : "zipkin-sender-urlconnection",
+    "previousVersion" : "2.17.2",
+    "newVersion" : "3.0.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "unknown"
+  },
+  "licenseInfo" : "MIT License"
+}

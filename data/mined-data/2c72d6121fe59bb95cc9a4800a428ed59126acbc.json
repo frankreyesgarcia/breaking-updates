@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/liquibase/liquibase-mssql/pull/130",
+  "project" : "liquibase-mssql",
+  "projectOrganisation" : "liquibase",
+  "breakingCommit" : "2c72d6121fe59bb95cc9a4800a428ed59126acbc",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.maven.surefire",
+    "dependencyArtifactID" : "surefire-junit4",
+    "previousVersion" : "3.3.0",
+    "newVersion" : "3.3.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "buildPlugins"
+  },
+  "licenseInfo" : "unknown"
+}

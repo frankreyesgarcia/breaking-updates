@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/cmu-db/benchbase/pull/559",
+  "project" : "benchbase",
+  "projectOrganisation" : "cmu-db",
+  "breakingCommit" : "bda85d47c92e212d240f0e11ebf88ecb90ee49e0",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.xerial",
+    "dependencyArtifactID" : "sqlite-jdbc",
+    "previousVersion" : "3.46.0.0",
+    "newVersion" : "3.46.1.2",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "profileDependencies"
+  },
+  "licenseInfo" : "Other"
+}

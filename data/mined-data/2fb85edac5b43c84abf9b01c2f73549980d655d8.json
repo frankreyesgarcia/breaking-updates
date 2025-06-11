@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/Alfresco/alfresco-community-repo/pull/1595",
+  "project" : "alfresco-community-repo",
+  "projectOrganisation" : "Alfresco",
+  "breakingCommit" : "2fb85edac5b43c84abf9b01c2f73549980d655d8",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "jaxen",
+    "dependencyArtifactID" : "jaxen",
+    "previousVersion" : "1.2.0",
+    "newVersion" : "2.0.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "GNU Lesser General Public License v3.0"
+}

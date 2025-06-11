@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/apache/commons-vfs/pull/659",
+  "project" : "commons-vfs",
+  "projectOrganisation" : "apache",
+  "breakingCommit" : "68f503f189c8390e5a2a78b82986b14c1b90e736",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.ftpserver",
+    "dependencyArtifactID" : "ftpserver-core",
+    "previousVersion" : "1.2.0",
+    "newVersion" : "1.2.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/camunda/camunda/pull/25411",
+  "project" : "camunda",
+  "projectOrganisation" : "camunda",
+  "breakingCommit" : "07250bf9953e233cac33d3cab6e17226add3ce8a",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.fasterxml.jackson.datatype",
+    "dependencyArtifactID" : "jackson-datatype-jsr310",
+    "previousVersion" : "2.18.1",
+    "newVersion" : "2.18.2",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "unknown"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/camunda-community-hub/zeebe-test-container/pull/681",
+  "project" : "zeebe-test-container",
+  "projectOrganisation" : "camunda-community-hub",
+  "breakingCommit" : "4e8763a4c77e174fe77e22df0437e725b3341840",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "io.netty",
+    "dependencyArtifactID" : "netty-transport-native-unix-common",
+    "previousVersion" : "4.1.108.Final",
+    "newVersion" : "4.1.109.Final",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

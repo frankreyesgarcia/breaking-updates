@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/mork-optimization/mork/pull/280",
+  "project" : "mork",
+  "projectOrganisation" : "mork-optimization",
+  "breakingCommit" : "5b0fee65bb2ef41c6346a39cb51950de1a2b01f2",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.commons",
+    "dependencyArtifactID" : "commons-lang3",
+    "previousVersion" : "3.16.0",
+    "newVersion" : "3.17.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "MIT License"
+}

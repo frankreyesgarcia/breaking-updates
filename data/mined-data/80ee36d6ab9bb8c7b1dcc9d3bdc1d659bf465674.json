@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/sqlancer/sqlancer/pull/1066",
+  "project" : "sqlancer",
+  "projectOrganisation" : "sqlancer",
+  "breakingCommit" : "80ee36d6ab9bb8c7b1dcc9d3bdc1d659bf465674",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.postgresql",
+    "dependencyArtifactID" : "postgresql",
+    "previousVersion" : "42.5.1",
+    "newVersion" : "42.7.5",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "MIT License"
+}

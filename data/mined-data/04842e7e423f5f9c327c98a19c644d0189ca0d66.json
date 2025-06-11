@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/Activiti/activiti-cloud/pull/1736",
+  "project" : "activiti-cloud",
+  "projectOrganisation" : "Activiti",
+  "breakingCommit" : "04842e7e423f5f9c327c98a19c644d0189ca0d66",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.yaml",
+    "dependencyArtifactID" : "snakeyaml",
+    "previousVersion" : "2.2",
+    "newVersion" : "2.4",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

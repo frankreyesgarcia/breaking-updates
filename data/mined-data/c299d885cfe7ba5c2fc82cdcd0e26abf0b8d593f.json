@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/aklivity/zilla/pull/1050",
+  "project" : "zilla",
+  "projectOrganisation" : "aklivity",
+  "breakingCommit" : "c299d885cfe7ba5c2fc82cdcd0e26abf0b8d593f",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.google.protobuf",
+    "dependencyArtifactID" : "protobuf-java-util",
+    "previousVersion" : "3.24.4",
+    "newVersion" : "4.27.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Other"
+}

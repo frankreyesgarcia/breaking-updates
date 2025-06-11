@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/librespot-org/librespot-java/pull/938",
+  "project" : "librespot-java",
+  "projectOrganisation" : "librespot-org",
+  "breakingCommit" : "6e64a74a7008e02cc4bb3ec1da95c0ae8e091ad5",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "io.undertow",
+    "dependencyArtifactID" : "undertow-core",
+    "previousVersion" : "2.2.16.Final",
+    "newVersion" : "2.3.17.Final",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

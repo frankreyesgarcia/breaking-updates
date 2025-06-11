@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/52North/sensorweb-server-helgoland/pull/734",
+  "project" : "sensorweb-server-helgoland",
+  "projectOrganisation" : "52North",
+  "breakingCommit" : "21f6c70c90726e9a8ae90be0b398005208cc96be",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "commons-codec",
+    "dependencyArtifactID" : "commons-codec",
+    "previousVersion" : "1.15",
+    "newVersion" : "1.18.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "GNU General Public License v2.0"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/charite/jannovar/pull/634",
+  "project" : "jannovar",
+  "projectOrganisation" : "charite",
+  "breakingCommit" : "453499e6772d489bad2bec234068f7387258db34",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.google.code.gson",
+    "dependencyArtifactID" : "gson",
+    "previousVersion" : "2.10.1",
+    "newVersion" : "2.11.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Other"
+}

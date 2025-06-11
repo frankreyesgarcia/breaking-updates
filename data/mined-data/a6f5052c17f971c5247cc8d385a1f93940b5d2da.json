@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/charite/jannovar/pull/633",
+  "project" : "jannovar",
+  "projectOrganisation" : "charite",
+  "breakingCommit" : "a6f5052c17f971c5247cc8d385a1f93940b5d2da",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.commons",
+    "dependencyArtifactID" : "commons-csv",
+    "previousVersion" : "1.10.0",
+    "newVersion" : "1.11.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Other"
+}

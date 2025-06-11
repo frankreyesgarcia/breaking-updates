@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/sqlancer/sqlancer/pull/1005",
+  "project" : "sqlancer",
+  "projectOrganisation" : "sqlancer",
+  "breakingCommit" : "0b0e0afc7f41d3e735b4222afc3e9471dbee4b5d",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.duckdb",
+    "dependencyArtifactID" : "duckdb_jdbc",
+    "previousVersion" : "1.1.0",
+    "newVersion" : "1.1.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "unknown"
+  },
+  "licenseInfo" : "MIT License"
+}

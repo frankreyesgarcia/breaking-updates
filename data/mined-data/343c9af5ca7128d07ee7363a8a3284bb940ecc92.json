@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/SonicCloudOrg/sonic-server/pull/506",
+  "project" : "sonic-server",
+  "projectOrganisation" : "SonicCloudOrg",
+  "breakingCommit" : "343c9af5ca7128d07ee7363a8a3284bb940ecc92",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.baomidou",
+    "dependencyArtifactID" : "mybatis-plus-boot-starter",
+    "previousVersion" : "3.5.5",
+    "newVersion" : "3.5.11",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "GNU Affero General Public License v3.0"
+}

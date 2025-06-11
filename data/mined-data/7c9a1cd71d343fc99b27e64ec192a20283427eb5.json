@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/micycle1/PGS/pull/119",
+  "project" : "PGS",
+  "projectOrganisation" : "micycle1",
+  "breakingCommit" : "7c9a1cd71d343fc99b27e64ec192a20283427eb5",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "it.unimi.dsi",
+    "dependencyArtifactID" : "fastutil",
+    "previousVersion" : "8.5.12",
+    "newVersion" : "8.5.14",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "unknown"
+}

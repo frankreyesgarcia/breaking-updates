@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/SpineEventEngine/base/pull/872",
+  "project" : "base",
+  "projectOrganisation" : "SpineEventEngine",
+  "breakingCommit" : "5eefaf458ebd2e3e01db6397fadc2a92fba7324d",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.fasterxml.jackson.core",
+    "dependencyArtifactID" : "jackson-databind",
+    "previousVersion" : "null",
+    "newVersion" : "2.12.7.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "unknown"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/snowflakedb/snowflake-kafka-connector/pull/861",
+  "project" : "snowflake-kafka-connector",
+  "projectOrganisation" : "snowflakedb",
+  "breakingCommit" : "6f73ae5131492559da18c3e8e3ee02ebbd0c839b",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "io.dropwizard.metrics",
+    "dependencyArtifactID" : "metrics-core",
+    "previousVersion" : "4.2.3",
+    "newVersion" : "4.2.25",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

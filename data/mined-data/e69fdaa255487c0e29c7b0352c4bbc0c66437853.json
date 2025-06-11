@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/smooks/smooks/pull/934",
+  "project" : "smooks",
+  "projectOrganisation" : "smooks",
+  "breakingCommit" : "e69fdaa255487c0e29c7b0352c4bbc0c66437853",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.simplify4u",
+    "dependencyArtifactID" : "pgp-keys-map",
+    "previousVersion" : "2024.11.03",
+    "newVersion" : "2025.03.15",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "buildPlugins"
+  },
+  "licenseInfo" : "Other"
+}

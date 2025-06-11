@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/ASSERT-KTH/depclean/pull/424",
+  "project" : "depclean",
+  "projectOrganisation" : "ASSERT-KTH",
+  "breakingCommit" : "b86a5f84b44a9b50aee69745886c47123f721de3",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.google.guava",
+    "dependencyArtifactID" : "guava",
+    "previousVersion" : "31.1-jre",
+    "newVersion" : "32.0.0-android",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "unknown"
+  },
+  "licenseInfo" : "MIT License"
+}

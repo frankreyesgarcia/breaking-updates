@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/jenkinsci/ec2-plugin/pull/1051",
+  "project" : "ec2-plugin",
+  "projectOrganisation" : "jenkinsci",
+  "breakingCommit" : "5f39ac14c52ba0f8852e5710a4728e4feed69cb9",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "io.jenkins.tools.bom",
+    "dependencyArtifactID" : "bom-${jenkins.baseline}.x",
+    "previousVersion" : "4051.v78dce3ce8b_d6",
+    "newVersion" : "4228.v0a_71308d905b_",
+    "dependencyScope" : "import",
+    "versionUpdateType" : "other",
+    "dependencySection" : "unknown"
+  },
+  "licenseInfo" : "MIT License"
+}

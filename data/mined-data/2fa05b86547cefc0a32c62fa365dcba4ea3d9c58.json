@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/saucelabs/saucerest-java/pull/557",
+  "project" : "saucerest-java",
+  "projectOrganisation" : "saucelabs",
+  "breakingCommit" : "2fa05b86547cefc0a32c62fa365dcba4ea3d9c58",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "human",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.junit",
+    "dependencyArtifactID" : "junit-bom",
+    "previousVersion" : "5.10.3",
+    "newVersion" : "5.11.0",
+    "dependencyScope" : "import",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "MIT License"
+}

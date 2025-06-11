@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/sqlancer/sqlancer/pull/1006",
+  "project" : "sqlancer",
+  "projectOrganisation" : "sqlancer",
+  "breakingCommit" : "0806217114d10f6712b8d06b70487429b82b06df",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.mariadb.jdbc",
+    "dependencyArtifactID" : "mariadb-java-client",
+    "previousVersion" : "3.1.0",
+    "newVersion" : "3.4.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "unknown"
+  },
+  "licenseInfo" : "MIT License"
+}

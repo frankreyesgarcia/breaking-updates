@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/snowflakedb/snowflake-ingest-java/pull/964",
+  "project" : "snowflake-ingest-java",
+  "projectOrganisation" : "snowflakedb",
+  "breakingCommit" : "1ba974c677ae04e72ec81e1a87836a19be144a9a",
+  "prAuthor" : "human",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "human",
+  "updatedDependency" : {
+    "dependencyGroupID" : "net.snowflake",
+    "dependencyArtifactID" : "snowflake-ingest-sdk",
+    "previousVersion" : "3.1.2",
+    "newVersion" : "3.1.2-beta.unshaded",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

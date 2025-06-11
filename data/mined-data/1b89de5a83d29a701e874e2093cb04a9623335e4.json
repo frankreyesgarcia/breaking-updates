@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/spotify/missinglink/pull/386",
+  "project" : "missinglink",
+  "projectOrganisation" : "spotify",
+  "breakingCommit" : "1b89de5a83d29a701e874e2093cb04a9623335e4",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "unknown",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.maven.plugin-tools",
+    "dependencyArtifactID" : "maven-plugin-annotations",
+    "previousVersion" : "3.15.0",
+    "newVersion" : "3.15.1",
+    "dependencyScope" : "provided",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

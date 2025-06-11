@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/snowflakedb/snowflake-kafka-connector/pull/1083",
+  "project" : "snowflake-kafka-connector",
+  "projectOrganisation" : "snowflakedb",
+  "breakingCommit" : "9b412b811f92557aac1b702294fed01f77c5d7e5",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.junit",
+    "dependencyArtifactID" : "junit-bom",
+    "previousVersion" : "5.11.2",
+    "newVersion" : "5.12.2",
+    "dependencyScope" : "import",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

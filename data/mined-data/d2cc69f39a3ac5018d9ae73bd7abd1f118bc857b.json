@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/Slimefun/Slimefun4/pull/4294",
+  "project" : "Slimefun4",
+  "projectOrganisation" : "Slimefun",
+  "breakingCommit" : "d2cc69f39a3ac5018d9ae73bd7abd1f118bc857b",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.junit",
+    "dependencyArtifactID" : "junit-bom",
+    "previousVersion" : "5.11.4",
+    "newVersion" : "5.12.2",
+    "dependencyScope" : "import",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "GNU General Public License v3.0"
+}

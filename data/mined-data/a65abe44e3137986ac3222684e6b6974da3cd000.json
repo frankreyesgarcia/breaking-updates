@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/jenkinsci/declarative-pipeline-migration-assistant-plugin/pull/280",
+  "project" : "declarative-pipeline-migration-assistant-plugin",
+  "projectOrganisation" : "jenkinsci",
+  "breakingCommit" : "a65abe44e3137986ac3222684e6b6974da3cd000",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.jenkins-ci.plugins",
+    "dependencyArtifactID" : "subversion",
+    "previousVersion" : "1256.vee91953217b_6",
+    "newVersion" : "1281.vc8837f91a_07a_",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "unknown"
+  },
+  "licenseInfo" : "MIT License"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/apache/commons-scxml/pull/295",
+  "project" : "commons-scxml",
+  "projectOrganisation" : "apache",
+  "breakingCommit" : "8b3b47f7ca3da7b0ddf536fd9c9ba67e11c7e8ab",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.openjdk.nashorn",
+    "dependencyArtifactID" : "nashorn-core",
+    "previousVersion" : "15.4",
+    "newVersion" : "15.5",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "profileDependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

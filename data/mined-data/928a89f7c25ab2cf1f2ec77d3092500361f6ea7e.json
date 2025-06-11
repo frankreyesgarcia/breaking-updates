@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/finos/legend-engine/pull/3555",
+  "project" : "legend-engine",
+  "projectOrganisation" : "finos",
+  "breakingCommit" : "928a89f7c25ab2cf1f2ec77d3092500361f6ea7e",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.poi",
+    "dependencyArtifactID" : "poi-ooxml",
+    "previousVersion" : "4.1.1",
+    "newVersion" : "5.4.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

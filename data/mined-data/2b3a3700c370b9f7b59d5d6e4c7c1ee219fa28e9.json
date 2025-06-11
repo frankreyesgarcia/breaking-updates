@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/smallrye/smallrye-graphql/pull/2105",
+  "project" : "smallrye-graphql",
+  "projectOrganisation" : "smallrye",
+  "breakingCommit" : "2b3a3700c370b9f7b59d5d6e4c7c1ee219fa28e9",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.maven.plugin-tools",
+    "dependencyArtifactID" : "maven-plugin-annotations",
+    "previousVersion" : "3.6.4",
+    "newVersion" : "3.13.0",
+    "dependencyScope" : "provided",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "unknown"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

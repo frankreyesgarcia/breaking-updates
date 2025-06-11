@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/camunda-community-hub/zeebe-test-container/pull/783",
+  "project" : "zeebe-test-container",
+  "projectOrganisation" : "camunda-community-hub",
+  "breakingCommit" : "39b2c28c1cf5e93673affd2c7922ca88d9ba1b79",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.jetbrains",
+    "dependencyArtifactID" : "annotations",
+    "previousVersion" : "24.1.0",
+    "newVersion" : "26.0.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

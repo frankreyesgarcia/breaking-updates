@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/dropwizard/dropwizard/pull/8780",
+  "project" : "dropwizard",
+  "projectOrganisation" : "dropwizard",
+  "breakingCommit" : "c3494c3ba090c53cdba6b0aa3abba0ec5764fbad",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.testcontainers",
+    "dependencyArtifactID" : "testcontainers-bom",
+    "previousVersion" : "1.19.7",
+    "newVersion" : "1.19.8",
+    "dependencyScope" : "import",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

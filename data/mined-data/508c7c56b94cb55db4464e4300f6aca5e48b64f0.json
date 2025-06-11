@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/objectionary/eo/pull/3894",
+  "project" : "eo",
+  "projectOrganisation" : "objectionary",
+  "breakingCommit" : "508c7c56b94cb55db4464e4300f6aca5e48b64f0",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.github.volodya-lombrozo",
+    "dependencyArtifactID" : "xnav",
+    "previousVersion" : "0.1.8",
+    "newVersion" : "0.1.10",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "MIT License"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/eclipse-tm4e/tm4e/pull/764",
+  "project" : "tm4e",
+  "projectOrganisation" : "eclipse-tm4e",
+  "breakingCommit" : "401dda043f6f8556737fe49eace4b8058dfd8b80",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.maven.surefire",
+    "dependencyArtifactID" : "surefire-junit-platform",
+    "previousVersion" : "3.2.5",
+    "newVersion" : "3.3.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "buildPlugins"
+  },
+  "licenseInfo" : "Eclipse Public License 2.0"
+}

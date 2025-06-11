@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/thulab/iot-benchmark/pull/452",
+  "project" : "iot-benchmark",
+  "projectOrganisation" : "thulab",
+  "breakingCommit" : "ab52a69bb88fededa23ddc9c96a5a8de1e14eb9f",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "ch.qos.logback",
+    "dependencyArtifactID" : "logback-classic",
+    "previousVersion" : "1.2.11",
+    "newVersion" : "1.2.13",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

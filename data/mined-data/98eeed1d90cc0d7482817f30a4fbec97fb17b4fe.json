@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/SpineEventEngine/base/pull/827",
+  "project" : "base",
+  "projectOrganisation" : "SpineEventEngine",
+  "breakingCommit" : "98eeed1d90cc0d7482817f30a4fbec97fb17b4fe",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.google.protobuf",
+    "dependencyArtifactID" : "protobuf-kotlin",
+    "previousVersion" : "3.25.1",
+    "newVersion" : "3.25.5",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "unknown"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

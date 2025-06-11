@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/jenkinsci/declarative-pipeline-migration-assistant-plugin/pull/299",
+  "project" : "declarative-pipeline-migration-assistant-plugin",
+  "projectOrganisation" : "jenkinsci",
+  "breakingCommit" : "1aecb69c924dff954e1aa454a1fbbbb359a5e132",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "io.jenkins.tools.bom",
+    "dependencyArtifactID" : "bom-${jenkins.baseline}.x",
+    "previousVersion" : "3944.v1a_e4f8b_452db_",
+    "newVersion" : "4607.v67a_4791074d7",
+    "dependencyScope" : "import",
+    "versionUpdateType" : "other",
+    "dependencySection" : "unknown"
+  },
+  "licenseInfo" : "MIT License"
+}

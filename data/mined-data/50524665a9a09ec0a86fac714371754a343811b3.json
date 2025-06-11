@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/sqlancer/sqlancer/pull/1004",
+  "project" : "sqlancer",
+  "projectOrganisation" : "sqlancer",
+  "breakingCommit" : "50524665a9a09ec0a86fac714371754a343811b3",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.puppycrawl.tools",
+    "dependencyArtifactID" : "checkstyle",
+    "previousVersion" : "10.5.0",
+    "newVersion" : "10.18.2",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "unknown"
+  },
+  "licenseInfo" : "MIT License"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/ShaftHQ/SHAFT_ENGINE/pull/1607",
+  "project" : "SHAFT_ENGINE",
+  "projectOrganisation" : "ShaftHQ",
+  "breakingCommit" : "1433e48e90adf7ec5dfbced5a34bb62ec10de583",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.google.guava",
+    "dependencyArtifactID" : "guava",
+    "previousVersion" : "33.1.0-jre",
+    "newVersion" : "33.2.0-jre",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "MIT License"
+}

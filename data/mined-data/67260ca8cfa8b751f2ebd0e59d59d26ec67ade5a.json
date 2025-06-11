@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/jcabi/jcabi-s3/pull/409",
+  "project" : "jcabi-s3",
+  "projectOrganisation" : "jcabi",
+  "breakingCommit" : "67260ca8cfa8b751f2ebd0e59d59d26ec67ade5a",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "commons-io",
+    "dependencyArtifactID" : "commons-io",
+    "previousVersion" : "2.15.1",
+    "newVersion" : "2.19.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Other"
+}

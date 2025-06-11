@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/easymock/objenesis/pull/343",
+  "project" : "objenesis",
+  "projectOrganisation" : "easymock",
+  "breakingCommit" : "5ab022fe26f18862bab9c5411d72ff48fa74fc99",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "net.bytebuddy",
+    "dependencyArtifactID" : "byte-buddy",
+    "previousVersion" : "1.14.19",
+    "newVersion" : "1.15.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

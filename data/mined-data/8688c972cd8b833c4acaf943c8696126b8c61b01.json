@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/netease-im/camellia/pull/377",
+  "project" : "camellia",
+  "projectOrganisation" : "netease-im",
+  "breakingCommit" : "8688c972cd8b833c4acaf943c8696126b8c61b01",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "net.minidev",
+    "dependencyArtifactID" : "json-smart",
+    "previousVersion" : "2.3",
+    "newVersion" : "2.5.2",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "MIT License"
+}

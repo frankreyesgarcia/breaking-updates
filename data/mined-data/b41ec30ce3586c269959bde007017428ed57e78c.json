@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/SoftInstigate/restheart/pull/505",
+  "project" : "restheart",
+  "projectOrganisation" : "SoftInstigate",
+  "breakingCommit" : "b41ec30ce3586c269959bde007017428ed57e78c",
+  "prAuthor" : "human",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "human",
+  "updatedDependency" : {
+    "dependencyGroupID" : "io.undertow",
+    "dependencyArtifactID" : "undertow-core",
+    "previousVersion" : "2.3.12.Final",
+    "newVersion" : "2.3.13.Final",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "GNU Affero General Public License v3.0"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/objectionary/eo/pull/3796",
+  "project" : "eo",
+  "projectOrganisation" : "objectionary",
+  "breakingCommit" : "0f4f577f659f7d45ad6080b280b819def03894d0",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.twdata.maven",
+    "dependencyArtifactID" : "mojo-executor",
+    "previousVersion" : "2.4.0",
+    "newVersion" : "2.4.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "MIT License"
+}

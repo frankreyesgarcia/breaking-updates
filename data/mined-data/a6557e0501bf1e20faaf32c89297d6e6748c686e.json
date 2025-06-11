@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/ShaftHQ/SHAFT_ENGINE/pull/1629",
+  "project" : "SHAFT_ENGINE",
+  "projectOrganisation" : "ShaftHQ",
+  "breakingCommit" : "a6557e0501bf1e20faaf32c89297d6e6748c686e",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "me.tongfei",
+    "dependencyArtifactID" : "progressbar",
+    "previousVersion" : "0.10.0",
+    "newVersion" : "0.10.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "MIT License"
+}

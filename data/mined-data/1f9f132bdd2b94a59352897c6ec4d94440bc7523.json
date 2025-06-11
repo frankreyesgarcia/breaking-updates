@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/davidmoten/xuml-tools/pull/206",
+  "project" : "xuml-tools",
+  "projectOrganisation" : "davidmoten",
+  "breakingCommit" : "1f9f132bdd2b94a59352897c6ec4d94440bc7523",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.maven.plugins",
+    "dependencyArtifactID" : "maven-dependency-plugin",
+    "previousVersion" : "3.7.0",
+    "newVersion" : "3.7.1",
+    "dependencyScope" : "provided",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "unknown"
+}

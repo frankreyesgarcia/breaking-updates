@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/mojohaus/buildplan-maven-plugin/pull/225",
+  "project" : "buildplan-maven-plugin",
+  "projectOrganisation" : "mojohaus",
+  "breakingCommit" : "41f322974d4bdd83bc382bb5fda01df6529a5133",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.junit",
+    "dependencyArtifactID" : "junit-bom",
+    "previousVersion" : "5.11.0",
+    "newVersion" : "5.11.1",
+    "dependencyScope" : "import",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

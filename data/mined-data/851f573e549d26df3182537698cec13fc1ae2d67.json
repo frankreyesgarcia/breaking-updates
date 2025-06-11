@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/dlsc-software-consulting-gmbh/GemsFX/pull/192",
+  "project" : "GemsFX",
+  "projectOrganisation" : "dlsc-software-consulting-gmbh",
+  "breakingCommit" : "851f573e549d26df3182537698cec13fc1ae2d67",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.fasterxml.jackson.core",
+    "dependencyArtifactID" : "jackson-databind",
+    "previousVersion" : "2.12.1",
+    "newVersion" : "2.12.7.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

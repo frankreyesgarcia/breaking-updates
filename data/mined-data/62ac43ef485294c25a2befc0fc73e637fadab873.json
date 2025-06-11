@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/52North/sensorweb-server-helgoland/pull/745",
+  "project" : "sensorweb-server-helgoland",
+  "projectOrganisation" : "52North",
+  "breakingCommit" : "62ac43ef485294c25a2befc0fc73e637fadab873",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.github.spotbugs",
+    "dependencyArtifactID" : "spotbugs-annotations",
+    "previousVersion" : "4.7.2",
+    "newVersion" : "4.9.3",
+    "dependencyScope" : "provided",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "GNU General Public License v2.0"
+}

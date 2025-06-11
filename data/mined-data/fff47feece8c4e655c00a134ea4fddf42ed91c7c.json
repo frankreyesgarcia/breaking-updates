@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/dogtagpki/pki/pull/4913",
+  "project" : "pki",
+  "projectOrganisation" : "dogtagpki",
+  "breakingCommit" : "fff47feece8c4e655c00a134ea4fddf42ed91c7c",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.tomcat",
+    "dependencyArtifactID" : "tomcat-catalina",
+    "previousVersion" : "9.0.62",
+    "newVersion" : "9.0.98",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "GNU General Public License v2.0"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/liquibase/liquibase-db2i/pull/124",
+  "project" : "liquibase-db2i",
+  "projectOrganisation" : "liquibase",
+  "breakingCommit" : "34469a98ef6379a655102ffae2e948a25a13d7b8",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.maven.surefire",
+    "dependencyArtifactID" : "surefire-junit4",
+    "previousVersion" : "3.3.0",
+    "newVersion" : "3.3.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "buildPlugins"
+  },
+  "licenseInfo" : "unknown"
+}

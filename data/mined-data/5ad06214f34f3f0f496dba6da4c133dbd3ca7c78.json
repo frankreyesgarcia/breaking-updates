@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/apache/commons-release-plugin/pull/349",
+  "project" : "commons-release-plugin",
+  "projectOrganisation" : "apache",
+  "breakingCommit" : "5ad06214f34f3f0f496dba6da4c133dbd3ca7c78",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.commons",
+    "dependencyArtifactID" : "commons-collections4",
+    "previousVersion" : "4.5.0-M2",
+    "newVersion" : "4.5.0-M3",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

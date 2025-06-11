@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/quickfix-j/quickfixj/pull/956",
+  "project" : "quickfixj",
+  "projectOrganisation" : "quickfix-j",
+  "breakingCommit" : "2ec439b146adfbe0e3b879b769153da2aa2121ed",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.codehaus.plexus",
+    "dependencyArtifactID" : "plexus-xml",
+    "previousVersion" : "4.0.4",
+    "newVersion" : "4.1.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "Other"
+}

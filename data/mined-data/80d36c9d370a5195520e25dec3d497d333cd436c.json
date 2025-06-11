@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/apache/directory-scimple/pull/799",
+  "project" : "directory-scimple",
+  "projectOrganisation" : "apache",
+  "breakingCommit" : "80d36c9d370a5195520e25dec3d497d333cd436c",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "jakarta.platform",
+    "dependencyArtifactID" : "jakarta.jakartaee-bom",
+    "previousVersion" : "10.0.0",
+    "newVersion" : "11.0.0",
+    "dependencyScope" : "import",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

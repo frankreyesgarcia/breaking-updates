@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/elimu-ai/webapp/pull/1660",
+  "project" : "webapp",
+  "projectOrganisation" : "elimu-ai",
+  "breakingCommit" : "88466ce1b29f5566a5261326f205e6c670754be4",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.json",
+    "dependencyArtifactID" : "json",
+    "previousVersion" : "20231013",
+    "newVersion" : "20240303",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "MIT License"
+}

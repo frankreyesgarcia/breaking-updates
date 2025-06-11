@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/ere-health/ere-ps-app/pull/159",
+  "project" : "ere-ps-app",
+  "projectOrganisation" : "ere-health",
+  "breakingCommit" : "dc5202f08d75602d64e36ee711685de4613d693d",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "ca.uhn.hapi.fhir",
+    "dependencyArtifactID" : "org.hl7.fhir.r5",
+    "previousVersion" : "6.3.25",
+    "newVersion" : "6.4.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "GNU General Public License v3.0"
+}

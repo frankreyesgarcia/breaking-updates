@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/eclipse-basyx/basyx-java-server-sdk/pull/363",
+  "project" : "basyx-java-server-sdk",
+  "projectOrganisation" : "eclipse-basyx",
+  "breakingCommit" : "a9f93b4762f57ecdda1ca5b10170b445546d221b",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.poi",
+    "dependencyArtifactID" : "poi-ooxml",
+    "previousVersion" : "4.1.2",
+    "newVersion" : "5.3.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "unknown"
+  },
+  "licenseInfo" : "MIT License"
+}

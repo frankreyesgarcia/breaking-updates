@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/ASSERT-KTH/sorald/pull/1170",
+  "project" : "sorald",
+  "projectOrganisation" : "ASSERT-KTH",
+  "breakingCommit" : "f0b5f05149b8150c9efb8bc980b040e343872a12",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.eclipse.jgit",
+    "dependencyArtifactID" : "org.eclipse.jgit",
+    "previousVersion" : "6.10.0.202406032230-r",
+    "newVersion" : "6.10.1.202505221210-r",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "MIT License"
+}

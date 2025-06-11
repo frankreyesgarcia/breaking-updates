@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/cdi-unit/cdi-unit/pull/577",
+  "project" : "cdi-unit",
+  "projectOrganisation" : "cdi-unit",
+  "breakingCommit" : "1f7700f604fd52ccae4fe256ada622577de2ce2e",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.openrewrite.recipe",
+    "dependencyArtifactID" : "rewrite-testing-frameworks",
+    "previousVersion" : "3.6.1",
+    "newVersion" : "3.7.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

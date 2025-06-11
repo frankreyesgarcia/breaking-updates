@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/amsa-code/risky/pull/230",
+  "project" : "risky",
+  "projectOrganisation" : "amsa-code",
+  "breakingCommit" : "710310ad9b5774f1ebbbc641982c7857bf3aa979",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.fasterxml.jackson",
+    "dependencyArtifactID" : "jackson-bom",
+    "previousVersion" : "2.15.3",
+    "newVersion" : "2.17.1",
+    "dependencyScope" : "import",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

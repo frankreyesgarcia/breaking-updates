@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/elimu-ai/webapp/pull/1784",
+  "project" : "webapp",
+  "projectOrganisation" : "elimu-ai",
+  "breakingCommit" : "aaaf2a98167229bfdcd3e38950f9e7e061b906c1",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "human",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.owasp.antisamy",
+    "dependencyArtifactID" : "antisamy",
+    "previousVersion" : "1.6.5",
+    "newVersion" : "1.7.6",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "MIT License"
+}

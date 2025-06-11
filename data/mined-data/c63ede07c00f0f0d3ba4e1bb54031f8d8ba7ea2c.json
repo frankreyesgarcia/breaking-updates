@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/resteasy/resteasy/pull/4135",
+  "project" : "resteasy",
+  "projectOrganisation" : "resteasy",
+  "breakingCommit" : "c63ede07c00f0f0d3ba4e1bb54031f8d8ba7ea2c",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.wildfly.plugins",
+    "dependencyArtifactID" : "wildfly-plugin-tools",
+    "previousVersion" : "1.0.0.Beta3",
+    "newVersion" : "1.0.0.Final",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

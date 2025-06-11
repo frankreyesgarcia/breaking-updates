@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/drasyl/drasyl/pull/676",
+  "project" : "drasyl",
+  "projectOrganisation" : "drasyl",
+  "breakingCommit" : "9dea210c29fda56edf7cbdf545c02d4ade50209e",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "human",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.puppycrawl.tools",
+    "dependencyArtifactID" : "checkstyle",
+    "previousVersion" : "10.15.0",
+    "newVersion" : "10.16.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "buildPlugins"
+  },
+  "licenseInfo" : "MIT License"
+}

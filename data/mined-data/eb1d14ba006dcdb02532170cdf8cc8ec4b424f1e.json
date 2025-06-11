@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/mybatis/velocity-scripting/pull/244",
+  "project" : "velocity-scripting",
+  "projectOrganisation" : "mybatis",
+  "breakingCommit" : "eb1d14ba006dcdb02532170cdf8cc8ec4b424f1e",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.mybatis",
+    "dependencyArtifactID" : "mybatis",
+    "previousVersion" : "3.5.17",
+    "newVersion" : "3.5.19",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

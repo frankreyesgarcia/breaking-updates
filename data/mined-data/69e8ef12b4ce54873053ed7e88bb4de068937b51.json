@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/jenkinsci/bitbucket-branch-source-plugin/pull/884",
+  "project" : "bitbucket-branch-source-plugin",
+  "projectOrganisation" : "jenkinsci",
+  "breakingCommit" : "69e8ef12b4ce54873053ed7e88bb4de068937b51",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "io.jenkins.tools.bom",
+    "dependencyArtifactID" : "bom-2.440.x",
+    "previousVersion" : "3221.ve8f7b_fdd149d",
+    "newVersion" : "3387.v0f2773fa_3200",
+    "dependencyScope" : "import",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "MIT License"
+}

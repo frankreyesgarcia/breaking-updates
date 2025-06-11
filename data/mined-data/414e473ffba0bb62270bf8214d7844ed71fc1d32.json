@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/wenqiglantz/theater-service-dapr/pull/316",
+  "project" : "theater-service-dapr",
+  "projectOrganisation" : "wenqiglantz",
+  "breakingCommit" : "414e473ffba0bb62270bf8214d7844ed71fc1d32",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.springframework.boot",
+    "dependencyArtifactID" : "spring-boot-starter-validation",
+    "previousVersion" : "3.4.4",
+    "newVersion" : "3.4.5",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

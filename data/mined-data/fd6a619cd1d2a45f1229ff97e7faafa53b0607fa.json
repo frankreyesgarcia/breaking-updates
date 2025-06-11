@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/mybatis/mybatis-3/pull/3160",
+  "project" : "mybatis-3",
+  "projectOrganisation" : "mybatis",
+  "breakingCommit" : "fd6a619cd1d2a45f1229ff97e7faafa53b0607fa",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "commons-logging",
+    "dependencyArtifactID" : "commons-logging",
+    "previousVersion" : "1.3.1",
+    "newVersion" : "1.3.2",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

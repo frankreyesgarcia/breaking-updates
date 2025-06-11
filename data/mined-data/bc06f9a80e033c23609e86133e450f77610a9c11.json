@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/mediathekview/MLib/pull/165",
+  "project" : "MLib",
+  "projectOrganisation" : "mediathekview",
+  "breakingCommit" : "bc06f9a80e033c23609e86133e450f77610a9c11",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.commons",
+    "dependencyArtifactID" : "commons-compress",
+    "previousVersion" : "1.24.0",
+    "newVersion" : "1.26.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "GNU General Public License v3.0"
+}

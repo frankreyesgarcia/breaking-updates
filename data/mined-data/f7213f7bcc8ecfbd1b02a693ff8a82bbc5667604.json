@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/Alfresco/alfresco-community-repo/pull/3060",
+  "project" : "alfresco-community-repo",
+  "projectOrganisation" : "Alfresco",
+  "breakingCommit" : "f7213f7bcc8ecfbd1b02a693ff8a82bbc5667604",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.jsoup",
+    "dependencyArtifactID" : "jsoup",
+    "previousVersion" : "1.18.1",
+    "newVersion" : "1.18.2",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "GNU Lesser General Public License v3.0"
+}

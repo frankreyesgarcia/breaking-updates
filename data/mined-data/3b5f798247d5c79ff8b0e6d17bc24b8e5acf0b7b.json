@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/mybatis/spring/pull/943",
+  "project" : "spring",
+  "projectOrganisation" : "mybatis",
+  "breakingCommit" : "3b5f798247d5c79ff8b0e6d17bc24b8e5acf0b7b",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.aspectj",
+    "dependencyArtifactID" : "aspectjweaver",
+    "previousVersion" : "1.9.19",
+    "newVersion" : "1.9.22",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

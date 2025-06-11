@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/camunda/camunda/pull/25235",
+  "project" : "camunda",
+  "projectOrganisation" : "camunda",
+  "breakingCommit" : "8fa3a872aa230b32f288dc88455f7f8e7ea9e3d6",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "jakarta.validation",
+    "dependencyArtifactID" : "jakarta.validation-api",
+    "previousVersion" : "3.0.2",
+    "newVersion" : "3.1.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "unknown"
+}

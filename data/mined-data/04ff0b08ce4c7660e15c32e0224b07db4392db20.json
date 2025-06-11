@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/release-engineering/pom-manipulation-ext/pull/1029",
+  "project" : "pom-manipulation-ext",
+  "projectOrganisation" : "release-engineering",
+  "breakingCommit" : "04ff0b08ce4c7660e15c32e0224b07db4392db20",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.eclipse.jetty",
+    "dependencyArtifactID" : "jetty-server",
+    "previousVersion" : "9.4.12.v20180830-redhat-1",
+    "newVersion" : "9.4.56.v20240826",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/ShaftHQ/SHAFT_ENGINE/pull/1608",
+  "project" : "SHAFT_ENGINE",
+  "projectOrganisation" : "ShaftHQ",
+  "breakingCommit" : "f11ead936deaa4c47bebf582ff79e06bb717138f",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.fasterxml.jackson.datatype",
+    "dependencyArtifactID" : "jackson-datatype-jdk8",
+    "previousVersion" : "2.17.0",
+    "newVersion" : "2.17.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "MIT License"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/mybatis/ignite-cache/pull/182",
+  "project" : "ignite-cache",
+  "projectOrganisation" : "mybatis",
+  "breakingCommit" : "be6a8510c80449c772694d0c81e4f899b3cd915c",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.mybatis",
+    "dependencyArtifactID" : "mybatis",
+    "previousVersion" : "3.5.17",
+    "newVersion" : "3.5.18",
+    "dependencyScope" : "provided",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

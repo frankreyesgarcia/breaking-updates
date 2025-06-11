@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/camunda-community-hub/camunda-7-to-8-migration/pull/1181",
+  "project" : "camunda-7-to-8-migration",
+  "projectOrganisation" : "camunda-community-hub",
+  "breakingCommit" : "1c4247cbf6ae3e12ddfa14c29baeff740598a9c4",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.camunda.bpm",
+    "dependencyArtifactID" : "camunda-engine-spring",
+    "previousVersion" : "7.22.0",
+    "newVersion" : "7.23.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

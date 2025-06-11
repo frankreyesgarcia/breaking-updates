@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/matsim-org/pt2matsim/pull/295",
+  "project" : "pt2matsim",
+  "projectOrganisation" : "matsim-org",
+  "breakingCommit" : "aa99f8d4e51300f315a50eba612e7bdcfe9f6409",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.opencsv",
+    "dependencyArtifactID" : "opencsv",
+    "previousVersion" : "5.11",
+    "newVersion" : "5.11.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "GNU General Public License v2.0"
+}

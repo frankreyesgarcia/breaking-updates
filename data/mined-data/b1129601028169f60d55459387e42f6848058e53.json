@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/apache/cloudstack/pull/8945",
+  "project" : "cloudstack",
+  "projectOrganisation" : "apache",
+  "breakingCommit" : "b1129601028169f60d55459387e42f6848058e53",
+  "prAuthor" : "human",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "human",
+  "updatedDependency" : {
+    "dependencyGroupID" : "io.netty",
+    "dependencyArtifactID" : "netty-all",
+    "previousVersion" : "4.1.42.Final",
+    "newVersion" : "4.1.100.Final",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

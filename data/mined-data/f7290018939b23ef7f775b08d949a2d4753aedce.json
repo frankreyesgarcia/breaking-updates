@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/ere-health/ere-ps-app/pull/146",
+  "project" : "ere-ps-app",
+  "projectOrganisation" : "ere-health",
+  "breakingCommit" : "f7290018939b23ef7f775b08d949a2d4753aedce",
+  "prAuthor" : "human",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "human",
+  "updatedDependency" : {
+    "dependencyGroupID" : "me.tongfei",
+    "dependencyArtifactID" : "progressbar",
+    "previousVersion" : "0.10.0",
+    "newVersion" : "0.10.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "GNU General Public License v3.0"
+}

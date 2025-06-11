@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/mybatis/guice/pull/787",
+  "project" : "guice",
+  "projectOrganisation" : "mybatis",
+  "breakingCommit" : "241fb2330f17d6180433518fcae7558bdf375637",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.mybatis",
+    "dependencyArtifactID" : "mybatis",
+    "previousVersion" : "3.5.17",
+    "newVersion" : "3.5.18",
+    "dependencyScope" : "provided",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

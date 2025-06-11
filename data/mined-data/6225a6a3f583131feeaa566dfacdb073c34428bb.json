@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/SonarOpenCommunity/sonar-cxx/pull/2885",
+  "project" : "sonar-cxx",
+  "projectOrganisation" : "SonarOpenCommunity",
+  "breakingCommit" : "6225a6a3f583131feeaa566dfacdb073c34428bb",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.slf4j",
+    "dependencyArtifactID" : "slf4j-api",
+    "previousVersion" : "1.7.30",
+    "newVersion" : "2.0.17",
+    "dependencyScope" : "provided",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "GNU Lesser General Public License v3.0"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/s4u/sign-maven-plugin/pull/219",
+  "project" : "sign-maven-plugin",
+  "projectOrganisation" : "s4u",
+  "breakingCommit" : "277802ed3a478cdfba148515dc58bdbd6c0ec0fe",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.bouncycastle",
+    "dependencyArtifactID" : "bcpg-jdk18on",
+    "previousVersion" : "1.79",
+    "newVersion" : "1.80",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/factcast/factcast/pull/3265",
+  "project" : "factcast",
+  "projectOrganisation" : "factcast",
+  "breakingCommit" : "af5b906510475bd1cf833fb2c6e7e42664377f65",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.vaadin.componentfactory",
+    "dependencyArtifactID" : "popup",
+    "previousVersion" : "24.0.5",
+    "newVersion" : "24.1.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

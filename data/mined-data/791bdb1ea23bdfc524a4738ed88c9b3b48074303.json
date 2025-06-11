@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/aidanwhiteley/books/pull/568",
+  "project" : "books",
+  "projectOrganisation" : "aidanwhiteley",
+  "breakingCommit" : "791bdb1ea23bdfc524a4738ed88c9b3b48074303",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "unknown",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.openrewrite.recipe",
+    "dependencyArtifactID" : "rewrite-spring",
+    "previousVersion" : "5.15.1",
+    "newVersion" : "5.20.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "buildPlugins"
+  },
+  "licenseInfo" : "Other"
+}

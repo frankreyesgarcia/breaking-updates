@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/chocoteam/choco-solver/pull/1158",
+  "project" : "choco-solver",
+  "projectOrganisation" : "chocoteam",
+  "breakingCommit" : "48e38f4654c1afafc8a6eb8876b254b7a7e136e6",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.codehaus.mojo",
+    "dependencyArtifactID" : "extra-enforcer-rules",
+    "previousVersion" : "1.6.1",
+    "newVersion" : "1.10.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "buildPluginManagement"
+  },
+  "licenseInfo" : "BSD 4-Clause \"Original\" or \"Old\" License"
+}

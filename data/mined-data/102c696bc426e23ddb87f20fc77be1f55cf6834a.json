@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/jcabi/jcabi-ssh/pull/233",
+  "project" : "jcabi-ssh",
+  "projectOrganisation" : "jcabi",
+  "breakingCommit" : "102c696bc426e23ddb87f20fc77be1f55cf6834a",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.sshd",
+    "dependencyArtifactID" : "sshd-common",
+    "previousVersion" : "2.14.0",
+    "newVersion" : "2.15.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "unknown"
+  },
+  "licenseInfo" : "Other"
+}

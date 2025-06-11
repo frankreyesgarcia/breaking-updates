@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/apache/directory-scimple/pull/560",
+  "project" : "directory-scimple",
+  "projectOrganisation" : "apache",
+  "breakingCommit" : "c0fa61857da91b4b34f4adea22fa7be2be333791",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "ch.qos.logback",
+    "dependencyArtifactID" : "logback-classic",
+    "previousVersion" : "1.4.8",
+    "newVersion" : "1.5.5",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

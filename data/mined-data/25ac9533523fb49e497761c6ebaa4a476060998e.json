@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/snyk/snyk-eclipse-plugin/pull/172",
+  "project" : "snyk-eclipse-plugin",
+  "projectOrganisation" : "snyk",
+  "breakingCommit" : "25ac9533523fb49e497761c6ebaa4a476060998e",
+  "prAuthor" : "human",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "human",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.fasterxml.jackson.core",
+    "dependencyArtifactID" : "jackson-core",
+    "previousVersion" : "2.16.1",
+    "newVersion" : "2.16.2",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Other"
+}

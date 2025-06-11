@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/dropwizard/dropwizard-protobuf/pull/614",
+  "project" : "dropwizard-protobuf",
+  "projectOrganisation" : "dropwizard",
+  "breakingCommit" : "d64d72719eefe889d83bb841cad0f9a749bfbcd5",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.google.googlejavaformat",
+    "dependencyArtifactID" : "google-java-format",
+    "previousVersion" : "1.24.0",
+    "newVersion" : "1.25.2",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "buildPlugins"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

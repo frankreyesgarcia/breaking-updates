@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/saucelabs-training/demo-java/pull/280",
+  "project" : "demo-java",
+  "projectOrganisation" : "saucelabs-training",
+  "breakingCommit" : "2221fae062f3c3a9e12e64e4b634c18463e9fc65",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.projectlombok",
+    "dependencyArtifactID" : "lombok",
+    "previousVersion" : "1.18.34",
+    "newVersion" : "1.18.38",
+    "dependencyScope" : "provided",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "MIT License"
+}

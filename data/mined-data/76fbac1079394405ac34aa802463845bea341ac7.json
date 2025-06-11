@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/lukas-krecan/ShedLock/pull/2259",
+  "project" : "ShedLock",
+  "projectOrganisation" : "lukas-krecan",
+  "breakingCommit" : "76fbac1079394405ac34aa802463845bea341ac7",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.arangodb",
+    "dependencyArtifactID" : "arangodb-java-driver",
+    "previousVersion" : "7.12.0",
+    "newVersion" : "7.13.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

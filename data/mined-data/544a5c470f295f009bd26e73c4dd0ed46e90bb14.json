@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/eclipse-ee4j/openmq/pull/2211",
+  "project" : "openmq",
+  "projectOrganisation" : "eclipse-ee4j",
+  "breakingCommit" : "544a5c470f295f009bd26e73c4dd0ed46e90bb14",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.openrewrite.recipe",
+    "dependencyArtifactID" : "rewrite-static-analysis",
+    "previousVersion" : "1.20.0",
+    "newVersion" : "1.21.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "buildPlugins"
+  },
+  "licenseInfo" : "Other"
+}

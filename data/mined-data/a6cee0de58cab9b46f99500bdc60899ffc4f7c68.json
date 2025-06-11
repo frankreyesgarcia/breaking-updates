@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/camunda-community-hub/camunda-7-to-8-migration/pull/1177",
+  "project" : "camunda-7-to-8-migration",
+  "projectOrganisation" : "camunda-community-hub",
+  "breakingCommit" : "a6cee0de58cab9b46f99500bdc60899ffc4f7c68",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.checkerframework",
+    "dependencyArtifactID" : "checker-qual",
+    "previousVersion" : "3.49.1",
+    "newVersion" : "3.49.3",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

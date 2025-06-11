@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/jenkinsci/config-file-provider-plugin/pull/359",
+  "project" : "config-file-provider-plugin",
+  "projectOrganisation" : "jenkinsci",
+  "breakingCommit" : "e02bc103daafa91aa9521a31b35aee87d79d47d1",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "io.jenkins.tools.bom",
+    "dependencyArtifactID" : "bom-${jenkins.baseline}.x",
+    "previousVersion" : "4023.va_eeb_b_4e45f07",
+    "newVersion" : "4545.v56392b_7ca_7b_a_",
+    "dependencyScope" : "import",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "unknown"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/Sefiraat/Networks/pull/222",
+  "project" : "Networks",
+  "projectOrganisation" : "Sefiraat",
+  "breakingCommit" : "8eee4461dd273e0ad1fdce08fabaac11389e1d51",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.projectlombok",
+    "dependencyArtifactID" : "lombok",
+    "previousVersion" : "1.18.34",
+    "newVersion" : "1.18.38",
+    "dependencyScope" : "provided",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "GNU General Public License v3.0"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/objectionary/eo/pull/3338",
+  "project" : "eo",
+  "projectOrganisation" : "objectionary",
+  "breakingCommit" : "82abbf990b0f9d956895b28dcbbff53369d0afe2",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.maven",
+    "dependencyArtifactID" : "maven-core",
+    "previousVersion" : "3.9.8",
+    "newVersion" : "4.0.0-beta-3",
+    "dependencyScope" : "provided",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "MIT License"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/checkstyle/checkstyle/pull/16044",
+  "project" : "checkstyle",
+  "projectOrganisation" : "checkstyle",
+  "breakingCommit" : "2b706416ed7191475267c1889519c530c3812986",
+  "prAuthor" : "human",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "human",
+  "updatedDependency" : {
+    "dependencyGroupID" : "commons-beanutils",
+    "dependencyArtifactID" : "commons-beanutils",
+    "previousVersion" : "1.9.4",
+    "newVersion" : "2.0.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "GNU Lesser General Public License v2.1"
+}

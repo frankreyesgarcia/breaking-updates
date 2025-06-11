@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/dogtagpki/pki/pull/4871",
+  "project" : "pki",
+  "projectOrganisation" : "dogtagpki",
+  "breakingCommit" : "d909d7027e576028e87071edac715da3cb4a9dac",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "commons-io",
+    "dependencyArtifactID" : "commons-io",
+    "previousVersion" : "2.11.0",
+    "newVersion" : "2.14.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "GNU General Public License v2.0"
+}

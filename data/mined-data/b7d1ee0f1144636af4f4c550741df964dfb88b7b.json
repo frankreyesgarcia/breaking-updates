@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/camunda/camunda/pull/25234",
+  "project" : "camunda",
+  "projectOrganisation" : "camunda",
+  "breakingCommit" : "b7d1ee0f1144636af4f4c550741df964dfb88b7b",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "jakarta.servlet",
+    "dependencyArtifactID" : "jakarta.servlet-api",
+    "previousVersion" : "6.0.0",
+    "newVersion" : "6.1.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "unknown"
+}

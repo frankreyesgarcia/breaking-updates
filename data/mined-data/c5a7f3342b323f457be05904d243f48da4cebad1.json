@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/liquibase/liquibase-oracle/pull/217",
+  "project" : "liquibase-oracle",
+  "projectOrganisation" : "liquibase",
+  "breakingCommit" : "c5a7f3342b323f457be05904d243f48da4cebad1",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.maven.surefire",
+    "dependencyArtifactID" : "surefire-junit4",
+    "previousVersion" : "3.5.1",
+    "newVersion" : "3.5.2",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "buildPlugins"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

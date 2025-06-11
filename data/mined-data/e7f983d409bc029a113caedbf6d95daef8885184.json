@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/jenkinsci/blueocean-plugin/pull/2493",
+  "project" : "blueocean-plugin",
+  "projectOrganisation" : "jenkinsci",
+  "breakingCommit" : "e7f983d409bc029a113caedbf6d95daef8885184",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.cdancy",
+    "dependencyArtifactID" : "bitbucket-rest",
+    "previousVersion" : "2.3.0",
+    "newVersion" : "2.7.2",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "MIT License"
+}

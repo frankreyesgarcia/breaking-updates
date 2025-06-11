@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/micycle1/PGS/pull/125",
+  "project" : "PGS",
+  "projectOrganisation" : "micycle1",
+  "breakingCommit" : "546a0fea568b1a40a85db506adf64ee9e74091b4",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.locationtech.jts",
+    "dependencyArtifactID" : "jts-core",
+    "previousVersion" : "1.20.0-SNAPSHOT",
+    "newVersion" : "1.20.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "unknown"
+}

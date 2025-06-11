@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/dropwizard/metrics/pull/4598",
+  "project" : "metrics",
+  "projectOrganisation" : "dropwizard",
+  "breakingCommit" : "0573f15c68485791a28438a986b32f1e2c7065f6",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "jakarta.annotation",
+    "dependencyArtifactID" : "jakarta.annotation-api",
+    "previousVersion" : "1.3.5",
+    "newVersion" : "2.1.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

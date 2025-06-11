@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/andreschaffer/event-sourcing-cqrs-examples/pull/428",
+  "project" : "event-sourcing-cqrs-examples",
+  "projectOrganisation" : "andreschaffer",
+  "breakingCommit" : "f408b6cb33de59667d59673292933924580d7188",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.google.guava",
+    "dependencyArtifactID" : "guava",
+    "previousVersion" : "33.3.1-jre",
+    "newVersion" : "33.4.7-jre",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "MIT License"
+}

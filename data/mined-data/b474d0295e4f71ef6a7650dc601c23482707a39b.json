@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/liquibase/liquibase-redshift/pull/299",
+  "project" : "liquibase-redshift",
+  "projectOrganisation" : "liquibase",
+  "breakingCommit" : "b474d0295e4f71ef6a7650dc601c23482707a39b",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.amazonaws",
+    "dependencyArtifactID" : "aws-java-sdk-bundle",
+    "previousVersion" : "1.12.656",
+    "newVersion" : "1.12.783",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "unknown"
+  },
+  "licenseInfo" : "unknown"
+}

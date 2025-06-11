@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/apache/camel/pull/15372",
+  "project" : "camel",
+  "projectOrganisation" : "apache",
+  "breakingCommit" : "28ac854b708d465787a3b86e294ec671a8196e0e",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.ant",
+    "dependencyArtifactID" : "ant",
+    "previousVersion" : "1.10.14",
+    "newVersion" : "1.10.15",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "profileBuildPlugins"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

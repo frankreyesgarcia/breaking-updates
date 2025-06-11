@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/opencast/opencast/pull/5988",
+  "project" : "opencast",
+  "projectOrganisation" : "opencast",
+  "breakingCommit" : "78eea97a00d50c9f7d0206bbf901e1237d239c38",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.mnode.ical4j",
+    "dependencyArtifactID" : "ical4j",
+    "previousVersion" : "3.0.6-patched",
+    "newVersion" : "4.0.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "Educational Community License v2.0"
+}

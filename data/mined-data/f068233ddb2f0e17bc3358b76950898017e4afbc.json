@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/mybatis/mybatis-3/pull/3443",
+  "project" : "mybatis-3",
+  "projectOrganisation" : "mybatis",
+  "breakingCommit" : "f068233ddb2f0e17bc3358b76950898017e4afbc",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "ognl",
+    "dependencyArtifactID" : "ognl",
+    "previousVersion" : "3.4.6",
+    "newVersion" : "3.4.7",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

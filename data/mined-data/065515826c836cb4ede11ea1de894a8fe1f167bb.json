@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/jcabi/jcabi-dynamodb-maven-plugin/pull/229",
+  "project" : "jcabi-dynamodb-maven-plugin",
+  "projectOrganisation" : "jcabi",
+  "breakingCommit" : "065515826c836cb4ede11ea1de894a8fe1f167bb",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.aspectj",
+    "dependencyArtifactID" : "aspectjrt",
+    "previousVersion" : "1.9.20.1",
+    "newVersion" : "1.9.24",
+    "dependencyScope" : "runtime",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Other"
+}

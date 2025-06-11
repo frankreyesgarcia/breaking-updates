@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/SonicCloudOrg/sonic-server/pull/461",
+  "project" : "sonic-server",
+  "projectOrganisation" : "SonicCloudOrg",
+  "breakingCommit" : "cb3dbbc511da771cef7f3aac343c0f239a69dc0b",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.projectlombok",
+    "dependencyArtifactID" : "lombok",
+    "previousVersion" : "1.18.32",
+    "newVersion" : "1.18.34",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "GNU Affero General Public License v3.0"
+}

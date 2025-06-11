@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/camunda/camunda/pull/26693",
+  "project" : "camunda",
+  "projectOrganisation" : "camunda",
+  "breakingCommit" : "a6027accfc1ebb7db55babdbc80dbb9eddd7830d",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.glassfish.jersey.core",
+    "dependencyArtifactID" : "jersey-client",
+    "previousVersion" : "3.1.9",
+    "newVersion" : "3.1.10",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "unknown"
+  },
+  "licenseInfo" : "unknown"
+}

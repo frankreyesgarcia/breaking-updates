@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/s4u/slf4j-mock/pull/234",
+  "project" : "slf4j-mock",
+  "projectOrganisation" : "s4u",
+  "breakingCommit" : "d7719163b8af4d54da107b83042f7b7e3475ec6e",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.simplify4u",
+    "dependencyArtifactID" : "pgp-keys-map",
+    "previousVersion" : "2024.11.03",
+    "newVersion" : "2025.03.15",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "buildPlugins"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

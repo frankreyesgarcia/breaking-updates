@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/maxmind/GeoIP2-java/pull/520",
+  "project" : "GeoIP2-java",
+  "projectOrganisation" : "maxmind",
+  "breakingCommit" : "02b1b871c3e742f54ffadacebe5255b229b10147",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.puppycrawl.tools",
+    "dependencyArtifactID" : "checkstyle",
+    "previousVersion" : "10.21.1",
+    "newVersion" : "10.21.2",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "buildPlugins"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/camunda-community-hub/spring-zeebe/pull/1016",
+  "project" : "spring-zeebe",
+  "projectOrganisation" : "camunda-community-hub",
+  "breakingCommit" : "978ddba075989b3e6860ed35fdb0acf863a5d079",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.agrona",
+    "dependencyArtifactID" : "agrona",
+    "previousVersion" : "1.23.1",
+    "newVersion" : "2.1.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

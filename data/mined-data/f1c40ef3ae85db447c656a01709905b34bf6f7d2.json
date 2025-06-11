@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/charite/jannovar/pull/700",
+  "project" : "jannovar",
+  "projectOrganisation" : "charite",
+  "breakingCommit" : "f1c40ef3ae85db447c656a01709905b34bf6f7d2",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.google.code.gson",
+    "dependencyArtifactID" : "gson",
+    "previousVersion" : "2.12.1",
+    "newVersion" : "2.13.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Other"
+}

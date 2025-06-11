@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/apache/creadur-rat/pull/341",
+  "project" : "creadur-rat",
+  "projectOrganisation" : "apache",
+  "breakingCommit" : "e78add41e5cfd0177ac714f7bdc744ab7fceef44",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.maven.reporting",
+    "dependencyArtifactID" : "maven-reporting-api",
+    "previousVersion" : "3.1.1",
+    "newVersion" : "4.0.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

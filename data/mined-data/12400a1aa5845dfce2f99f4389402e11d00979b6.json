@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/sitture/env-config/pull/264",
+  "project" : "env-config",
+  "projectOrganisation" : "sitture",
+  "breakingCommit" : "12400a1aa5845dfce2f99f4389402e11d00979b6",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.puppycrawl.tools",
+    "dependencyArtifactID" : "checkstyle",
+    "previousVersion" : "10.21.1",
+    "newVersion" : "10.21.2",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "buildPlugins"
+  },
+  "licenseInfo" : "MIT License"
+}

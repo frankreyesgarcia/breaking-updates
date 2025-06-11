@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/camunda/camunda/pull/17997",
+  "project" : "camunda",
+  "projectOrganisation" : "camunda",
+  "breakingCommit" : "cafc4c9644d549ba46ac314c25db11c7a5295703",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "commons-io",
+    "dependencyArtifactID" : "commons-io",
+    "previousVersion" : "2.16.0",
+    "newVersion" : "2.16.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "unknown"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/davidmoten/rtree-multi/pull/121",
+  "project" : "rtree-multi",
+  "projectOrganisation" : "davidmoten",
+  "breakingCommit" : "fc8cf69e0f60839ed86a9206d45a1853fed87e81",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.esotericsoftware",
+    "dependencyArtifactID" : "kryo",
+    "previousVersion" : "5.6.0",
+    "newVersion" : "5.6.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/slackhq/astra/pull/1337",
+  "project" : "astra",
+  "projectOrganisation" : "slackhq",
+  "breakingCommit" : "30c80d5fdb15a36b7ea206c11814bbd3372371c3",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "io.zipkin.brave",
+    "dependencyArtifactID" : "brave-context-log4j2",
+    "previousVersion" : "6.2.0",
+    "newVersion" : "6.3.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "MIT License"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/saucelabs-training/demo-java/pull/175",
+  "project" : "demo-java",
+  "projectOrganisation" : "saucelabs-training",
+  "breakingCommit" : "04f058cbd2d7cfef1126d34fdb741a8915153c73",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.github.blibli-badak",
+    "dependencyArtifactID" : "selenium-har-util",
+    "previousVersion" : "1.0.9",
+    "newVersion" : "1.3.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "MIT License"
+}

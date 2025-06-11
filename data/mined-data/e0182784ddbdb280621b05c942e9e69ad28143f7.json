@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/jcabi/jcabi-dynamodb-maven-plugin/pull/287",
+  "project" : "jcabi-dynamodb-maven-plugin",
+  "projectOrganisation" : "jcabi",
+  "breakingCommit" : "e0182784ddbdb280621b05c942e9e69ad28143f7",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.projectlombok",
+    "dependencyArtifactID" : "lombok",
+    "previousVersion" : "1.18.36",
+    "newVersion" : "1.18.38",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Other"
+}

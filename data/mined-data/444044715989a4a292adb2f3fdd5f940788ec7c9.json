@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/apache/axis-axis2-java-core/pull/784",
+  "project" : "axis-axis2-java-core",
+  "projectOrganisation" : "apache",
+  "breakingCommit" : "444044715989a4a292adb2f3fdd5f940788ec7c9",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.google.googlejavaformat",
+    "dependencyArtifactID" : "google-java-format",
+    "previousVersion" : "1.7",
+    "newVersion" : "1.24.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

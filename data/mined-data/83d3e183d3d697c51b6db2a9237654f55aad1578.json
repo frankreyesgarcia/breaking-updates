@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/apache/creadur-rat/pull/334",
+  "project" : "creadur-rat",
+  "projectOrganisation" : "apache",
+  "breakingCommit" : "83d3e183d3d697c51b6db2a9237654f55aad1578",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "commons-cli",
+    "dependencyArtifactID" : "commons-cli",
+    "previousVersion" : "1.8.0",
+    "newVersion" : "1.9.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

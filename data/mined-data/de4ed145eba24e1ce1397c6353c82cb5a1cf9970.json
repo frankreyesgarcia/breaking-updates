@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/mybatis/jpetstore-6/pull/852",
+  "project" : "jpetstore-6",
+  "projectOrganisation" : "mybatis",
+  "breakingCommit" : "de4ed145eba24e1ce1397c6353c82cb5a1cf9970",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.mybatis",
+    "dependencyArtifactID" : "mybatis-spring",
+    "previousVersion" : "2.1.2",
+    "newVersion" : "3.0.3",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

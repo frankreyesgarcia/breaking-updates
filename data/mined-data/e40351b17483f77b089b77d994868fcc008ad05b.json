@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/jenkinsci/ec2-plugin/pull/1060",
+  "project" : "ec2-plugin",
+  "projectOrganisation" : "jenkinsci",
+  "breakingCommit" : "e40351b17483f77b089b77d994868fcc008ad05b",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.jenkins-ci.plugins.aws-java-sdk",
+    "dependencyArtifactID" : "aws-java-sdk-minimal",
+    "previousVersion" : "1.12.772-477.v650d756dcf6d",
+    "newVersion" : "1.12.780-480.v4a_0819121a_9e",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "unknown"
+  },
+  "licenseInfo" : "MIT License"
+}

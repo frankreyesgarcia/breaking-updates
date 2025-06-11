@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/liquibase/liquigraph/pull/513",
+  "project" : "liquigraph",
+  "projectOrganisation" : "liquibase",
+  "breakingCommit" : "7b4608c608866f066cb1452221e6818b2210cc33",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.maven.plugin-tools",
+    "dependencyArtifactID" : "maven-plugin-annotations",
+    "previousVersion" : "3.6.4",
+    "newVersion" : "3.15.1",
+    "dependencyScope" : "provided",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "unknown"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

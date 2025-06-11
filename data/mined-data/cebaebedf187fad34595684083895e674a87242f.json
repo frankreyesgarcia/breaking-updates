@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/camunda/camunda/pull/20996",
+  "project" : "camunda",
+  "projectOrganisation" : "camunda",
+  "breakingCommit" : "cebaebedf187fad34595684083895e674a87242f",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.slf4j",
+    "dependencyArtifactID" : "slf4j-api",
+    "previousVersion" : "2.0.15",
+    "newVersion" : "2.0.16",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "unknown"
+}

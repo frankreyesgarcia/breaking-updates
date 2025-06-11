@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/daniel-shuy/kafka-protobuf-serde/pull/312",
+  "project" : "kafka-protobuf-serde",
+  "projectOrganisation" : "daniel-shuy",
+  "breakingCommit" : "57248aad19f2dcfaf66ea88304a11c82d3b1bad8",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.codehaus.mojo",
+    "dependencyArtifactID" : "extra-enforcer-rules",
+    "previousVersion" : "1.6.2",
+    "newVersion" : "1.10.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "buildPlugins"
+  },
+  "licenseInfo" : "MIT License"
+}

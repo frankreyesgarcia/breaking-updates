@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/redis/jedis/pull/4080",
+  "project" : "jedis",
+  "projectOrganisation" : "redis",
+  "breakingCommit" : "a5a7d291ea1969dcbd9eb6a2c5667e36d57b9bb8",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.commons",
+    "dependencyArtifactID" : "commons-pool2",
+    "previousVersion" : "2.12.0",
+    "newVersion" : "2.12.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "MIT License"
+}

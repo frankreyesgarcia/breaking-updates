@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/apache/cxf/pull/2244",
+  "project" : "cxf",
+  "projectOrganisation" : "apache",
+  "breakingCommit" : "71f4d70302578314359d39803264a8f2ba5bef02",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "net.sourceforge.pmd",
+    "dependencyArtifactID" : "pmd-core",
+    "previousVersion" : "6.55.0",
+    "newVersion" : "7.10.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "buildPluginManagement"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

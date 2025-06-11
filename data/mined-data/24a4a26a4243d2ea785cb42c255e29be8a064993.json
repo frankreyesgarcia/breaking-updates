@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/librespot-org/librespot-java/pull/922",
+  "project" : "librespot-java",
+  "projectOrganisation" : "librespot-org",
+  "breakingCommit" : "24a4a26a4243d2ea785cb42c255e29be8a064993",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.electronwill.night-config",
+    "dependencyArtifactID" : "toml",
+    "previousVersion" : "3.6.7",
+    "newVersion" : "3.7.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

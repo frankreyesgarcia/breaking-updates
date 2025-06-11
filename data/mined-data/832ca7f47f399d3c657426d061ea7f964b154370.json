@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/mork-optimization/mork/pull/258",
+  "project" : "mork",
+  "projectOrganisation" : "mork-optimization",
+  "breakingCommit" : "832ca7f47f399d3c657426d061ea7f964b154370",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.springframework",
+    "dependencyArtifactID" : "spring-context",
+    "previousVersion" : "6.1.1",
+    "newVersion" : "6.1.11",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "MIT License"
+}

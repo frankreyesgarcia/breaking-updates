@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/Activiti/activiti-cloud/pull/1697",
+  "project" : "activiti-cloud",
+  "projectOrganisation" : "Activiti",
+  "breakingCommit" : "9dc5d82001ba55a2cd0fdab07c49ded962853e73",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "io.dropwizard.metrics",
+    "dependencyArtifactID" : "metrics-annotation",
+    "previousVersion" : "4.2.26",
+    "newVersion" : "4.2.30",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

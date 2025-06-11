@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/elimu-ai/webapp/pull/2052",
+  "project" : "webapp",
+  "projectOrganisation" : "elimu-ai",
+  "breakingCommit" : "2a3df1e7875eee57bb5e224fc6071492bbd4d328",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "human",
+  "updatedDependency" : {
+    "dependencyGroupID" : "jakarta.servlet.jsp.jstl",
+    "dependencyArtifactID" : "jakarta.servlet.jsp.jstl-api",
+    "previousVersion" : "3.0.0",
+    "newVersion" : "3.0.2",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "MIT License"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/eqasim-org/eqasim-java/pull/352",
+  "project" : "eqasim-java",
+  "projectOrganisation" : "eqasim-org",
+  "breakingCommit" : "5d18e3fddd7adb212b3ae6bd7013efb1ff63ae37",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.fasterxml.jackson.core",
+    "dependencyArtifactID" : "jackson-databind",
+    "previousVersion" : "2.12.7.1",
+    "newVersion" : "2.19.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "GNU General Public License v2.0"
+}

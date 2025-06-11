@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/nicho92/MtgDesktopCompanion/pull/300",
+  "project" : "MtgDesktopCompanion",
+  "projectOrganisation" : "nicho92",
+  "breakingCommit" : "29652204ac06c1ac23ba0722f957950aba980a46",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "unknown",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "io.lettuce",
+    "dependencyArtifactID" : "lettuce-core",
+    "previousVersion" : "6.5.0.RELEASE",
+    "newVersion" : "6.5.1.RELEASE",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/drftpd-ng/drftpd/pull/431",
+  "project" : "drftpd",
+  "projectOrganisation" : "drftpd-ng",
+  "breakingCommit" : "4c25dad10374e4f95ee1f90a60f7d7eff384f66d",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.lucene",
+    "dependencyArtifactID" : "lucene-queries",
+    "previousVersion" : "3.6.2",
+    "newVersion" : "10.0.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "GNU General Public License v2.0"
+}

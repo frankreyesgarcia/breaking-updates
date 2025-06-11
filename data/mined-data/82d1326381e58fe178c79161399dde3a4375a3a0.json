@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/jcabi/jcabi-matchers/pull/128",
+  "project" : "jcabi-matchers",
+  "projectOrganisation" : "jcabi",
+  "breakingCommit" : "82d1326381e58fe178c79161399dde3a4375a3a0",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.projectlombok",
+    "dependencyArtifactID" : "lombok",
+    "previousVersion" : "1.18.36",
+    "newVersion" : "1.18.38",
+    "dependencyScope" : "provided",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Other"
+}
