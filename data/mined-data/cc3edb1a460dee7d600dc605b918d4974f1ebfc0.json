@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/jenkinsci/rest-list-parameter-plugin/pull/234",
+  "project" : "rest-list-parameter-plugin",
+  "projectOrganisation" : "jenkinsci",
+  "breakingCommit" : "cc3edb1a460dee7d600dc605b918d4974f1ebfc0",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "io.jenkins.tools.bom",
+    "dependencyArtifactID" : "bom-${jenkins.baseline}.x",
+    "previousVersion" : "4136.vca_c3202a_7fd1",
+    "newVersion" : "4545.v56392b_7ca_7b_a_",
+    "dependencyScope" : "import",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "GNU General Public License v3.0"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/PhoenicisOrg/phoenicis/pull/2879",
+  "project" : "phoenicis",
+  "projectOrganisation" : "PhoenicisOrg",
+  "breakingCommit" : "c8d35acdf7bb68ca6b47b86d5fadce090a6a84c7",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.jsoup",
+    "dependencyArtifactID" : "jsoup",
+    "previousVersion" : "1.18.2",
+    "newVersion" : "1.20.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "GNU Lesser General Public License v3.0"
+}

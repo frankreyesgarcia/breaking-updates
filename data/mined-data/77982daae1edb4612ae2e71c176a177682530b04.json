@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/PaladinCloud/CE/pull/2204",
+  "project" : "CE",
+  "projectOrganisation" : "PaladinCloud",
+  "breakingCommit" : "77982daae1edb4612ae2e71c176a177682530b04",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.springframework",
+    "dependencyArtifactID" : "spring-context",
+    "previousVersion" : "4.3.8.RELEASE",
+    "newVersion" : "5.2.21.RELEASE",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

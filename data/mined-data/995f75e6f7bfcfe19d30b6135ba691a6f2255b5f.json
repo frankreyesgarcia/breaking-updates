@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/geoadmin/geocat/pull/267",
+  "project" : "geocat",
+  "projectOrganisation" : "geoadmin",
+  "breakingCommit" : "995f75e6f7bfcfe19d30b6135ba691a6f2255b5f",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "unknown",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.jsoup",
+    "dependencyArtifactID" : "jsoup",
+    "previousVersion" : "1.15.3",
+    "newVersion" : "1.18.3",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "GNU General Public License v2.0"
+}

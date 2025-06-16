@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/googleapis/java-firestore/pull/1865",
+  "project" : "java-firestore",
+  "projectOrganisation" : "googleapis",
+  "breakingCommit" : "31e4e9de411a4129b580ded35702c79a7280577e",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.google.cloud",
+    "dependencyArtifactID" : "libraries-bom",
+    "previousVersion" : "26.47.0",
+    "newVersion" : "26.48.0",
+    "dependencyScope" : "import",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

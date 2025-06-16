@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/CourseOrchestra/hurdy-gurdy/pull/317",
+  "project" : "hurdy-gurdy",
+  "projectOrganisation" : "CourseOrchestra",
+  "breakingCommit" : "7e27ec20f4759c50ab9fbe8f32d692606f5863cf",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.squareup",
+    "dependencyArtifactID" : "kotlinpoet",
+    "previousVersion" : "1.14.2",
+    "newVersion" : "1.18.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "GNU Lesser General Public License v3.0"
+}

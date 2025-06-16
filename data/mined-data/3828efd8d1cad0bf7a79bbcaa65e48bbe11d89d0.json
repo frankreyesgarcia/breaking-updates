@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/jenkinsci/priority-sorter-plugin/pull/410",
+  "project" : "priority-sorter-plugin",
+  "projectOrganisation" : "jenkinsci",
+  "breakingCommit" : "3828efd8d1cad0bf7a79bbcaa65e48bbe11d89d0",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.synopsys.arc.jenkinsci.plugins",
+    "dependencyArtifactID" : "job-restrictions",
+    "previousVersion" : "0.8",
+    "newVersion" : "209.va_a_55deb_3ef91",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "MIT License"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/IBM/JSONata4Java/pull/336",
+  "project" : "JSONata4Java",
+  "projectOrganisation" : "IBM",
+  "breakingCommit" : "b6bb730c4e1f111c18f883625eaa7e7be4162d7c",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.fasterxml.jackson.dataformat",
+    "dependencyArtifactID" : "jackson-dataformat-xml",
+    "previousVersion" : "2.17.1",
+    "newVersion" : "2.19.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

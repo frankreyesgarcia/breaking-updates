@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/jenkinsci/postbuildscript-plugin/pull/216",
+  "project" : "postbuildscript-plugin",
+  "projectOrganisation" : "jenkinsci",
+  "breakingCommit" : "531fcd47089d169db21375bfd38e33a55b65c706",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "io.jenkins.tools.bom",
+    "dependencyArtifactID" : "bom-2.452.x",
+    "previousVersion" : "3334.v18e2a_2f48356",
+    "newVersion" : "3358.vea_fa_1f41504d",
+    "dependencyScope" : "import",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "MIT License"
+}

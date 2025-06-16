@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/CarmJos/configured/pull/98",
+  "project" : "configured",
+  "projectOrganisation" : "CarmJos",
+  "breakingCommit" : "abfdf4037d37023377796fea683cc64a7870c676",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.jetbrains",
+    "dependencyArtifactID" : "annotations",
+    "previousVersion" : "25.0.0",
+    "newVersion" : "26.0.1",
+    "dependencyScope" : "provided",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "GNU Lesser General Public License v3.0"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/Kafka-In-Action-Book/Kafka-In-Action-Source-Code/pull/74",
+  "project" : "Kafka-In-Action-Source-Code",
+  "projectOrganisation" : "Kafka-In-Action-Book",
+  "breakingCommit" : "75beefee0f7f002c7b895d48f3cb6294f920536e",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "ch.qos.logback",
+    "dependencyArtifactID" : "logback-classic",
+    "previousVersion" : "1.2.10",
+    "newVersion" : "1.2.13",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

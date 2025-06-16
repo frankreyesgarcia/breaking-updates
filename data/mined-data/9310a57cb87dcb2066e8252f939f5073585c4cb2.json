@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/googleapis/java-spanner/pull/3337",
+  "project" : "java-spanner",
+  "projectOrganisation" : "googleapis",
+  "breakingCommit" : "9310a57cb87dcb2066e8252f939f5073585c4cb2",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.google.cloud",
+    "dependencyArtifactID" : "libraries-bom",
+    "previousVersion" : "26.45.0",
+    "newVersion" : "26.47.0",
+    "dependencyScope" : "import",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

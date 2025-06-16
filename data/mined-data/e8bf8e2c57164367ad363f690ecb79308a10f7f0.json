@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/GluuFederation/oxAuth/pull/1906",
+  "project" : "oxAuth",
+  "projectOrganisation" : "GluuFederation",
+  "breakingCommit" : "e8bf8e2c57164367ad363f690ecb79308a10f7f0",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.bouncycastle",
+    "dependencyArtifactID" : "bcpkix-jdk18on",
+    "previousVersion" : "1.76",
+    "newVersion" : "1.78",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "MIT License"
+}

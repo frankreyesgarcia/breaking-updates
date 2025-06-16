@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/jenkinsci/email-ext-plugin/pull/523",
+  "project" : "email-ext-plugin",
+  "projectOrganisation" : "jenkinsci",
+  "breakingCommit" : "4646fa3fc8e36c86c121aa3c0532ed2a49c01997",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "io.jenkins.tools.bom",
+    "dependencyArtifactID" : "bom-2.440.x",
+    "previousVersion" : "3080.vfa_b_e4a_a_39b_44",
+    "newVersion" : "3105.v672692894683",
+    "dependencyScope" : "import",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "MIT License"
+}

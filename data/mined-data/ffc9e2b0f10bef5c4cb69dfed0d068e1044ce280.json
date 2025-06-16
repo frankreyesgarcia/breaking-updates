@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/informatici/openhospital-api/pull/520",
+  "project" : "openhospital-api",
+  "projectOrganisation" : "informatici",
+  "breakingCommit" : "ffc9e2b0f10bef5c4cb69dfed0d068e1044ce280",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.springdoc",
+    "dependencyArtifactID" : "springdoc-openapi-starter-webmvc-ui",
+    "previousVersion" : "2.5.0",
+    "newVersion" : "2.8.4",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "GNU General Public License v3.0"
+}

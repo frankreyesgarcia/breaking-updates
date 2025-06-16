@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/Decathlon/tzatziki/pull/486",
+  "project" : "tzatziki",
+  "projectOrganisation" : "Decathlon",
+  "breakingCommit" : "46070de714ae4984255e347172361d056c6ab730",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.junit",
+    "dependencyArtifactID" : "junit-bom",
+    "previousVersion" : "5.11.4",
+    "newVersion" : "5.12.1",
+    "dependencyScope" : "import",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

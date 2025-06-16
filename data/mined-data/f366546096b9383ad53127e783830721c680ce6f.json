@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/jenkinsci/workflow-api-plugin/pull/395",
+  "project" : "workflow-api-plugin",
+  "projectOrganisation" : "jenkinsci",
+  "breakingCommit" : "f366546096b9383ad53127e783830721c680ce6f",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "io.jenkins.tools.bom",
+    "dependencyArtifactID" : "bom-${jenkins.baseline}.x",
+    "previousVersion" : "4023.va_eeb_b_4e45f07",
+    "newVersion" : "4669.v0e99c712a_30e",
+    "dependencyScope" : "import",
+    "versionUpdateType" : "other",
+    "dependencySection" : "unknown"
+  },
+  "licenseInfo" : "MIT License"
+}

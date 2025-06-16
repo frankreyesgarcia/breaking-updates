@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/OWASP/wrongsecrets/pull/1722",
+  "project" : "wrongsecrets",
+  "projectOrganisation" : "OWASP",
+  "breakingCommit" : "1ec3e97248ba60456eaa28de32cf55d7771e5400",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "human",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.puppycrawl.tools",
+    "dependencyArtifactID" : "checkstyle",
+    "previousVersion" : "10.18.2",
+    "newVersion" : "10.20.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "buildPluginManagement"
+  },
+  "licenseInfo" : "GNU Affero General Public License v3.0"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/JGameEngine/JGameEngineCore/pull/36",
+  "project" : "JGameEngineCore",
+  "projectOrganisation" : "JGameEngine",
+  "breakingCommit" : "81457c6bfacf5ee43d3d9323c76c02826230aa5c",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "unknown",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.redisson",
+    "dependencyArtifactID" : "redisson",
+    "previousVersion" : "3.5.3",
+    "newVersion" : "3.22.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

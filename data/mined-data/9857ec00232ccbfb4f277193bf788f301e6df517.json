@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/Apicurio/apicurio-registry/pull/5100",
+  "project" : "apicurio-registry",
+  "projectOrganisation" : "Apicurio",
+  "breakingCommit" : "9857ec00232ccbfb4f277193bf788f301e6df517",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.jetbrains.kotlinx",
+    "dependencyArtifactID" : "kotlinx-serialization-core",
+    "previousVersion" : "1.7.1",
+    "newVersion" : "1.7.2",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

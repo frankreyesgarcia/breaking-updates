@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/jenkinsci/maven-plugin/pull/357",
+  "project" : "maven-plugin",
+  "projectOrganisation" : "jenkinsci",
+  "breakingCommit" : "2a6a57547f15e19d92c2cf290c89c1e680b465f6",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.codehaus.plexus",
+    "dependencyArtifactID" : "plexus-utils",
+    "previousVersion" : "3.4.1",
+    "newVersion" : "4.0.2",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "unknown"
+  },
+  "licenseInfo" : "unknown"
+}

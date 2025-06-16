@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/Ericsson/ecaudit/pull/286",
+  "project" : "ecaudit",
+  "projectOrganisation" : "Ericsson",
+  "breakingCommit" : "89e44c0b7f2b6720587e874df1332fb94ea4a28b",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.yaml",
+    "dependencyArtifactID" : "snakeyaml",
+    "previousVersion" : "1.33",
+    "newVersion" : "2.3",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

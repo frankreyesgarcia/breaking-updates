@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/Ardulink/Ardulink-2/pull/517",
+  "project" : "Ardulink-2",
+  "projectOrganisation" : "Ardulink",
+  "breakingCommit" : "4011750a654bd733a5b8a4bf47bc675be5b7e613",
+  "prAuthor" : "human",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.pi4j",
+    "dependencyArtifactID" : "pi4j-core",
+    "previousVersion" : "1.4",
+    "newVersion" : "2.8.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

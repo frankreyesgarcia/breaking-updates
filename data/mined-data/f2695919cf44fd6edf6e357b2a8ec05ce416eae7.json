@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/jenkinsci/http-request-plugin/pull/185",
+  "project" : "http-request-plugin",
+  "projectOrganisation" : "jenkinsci",
+  "breakingCommit" : "f2695919cf44fd6edf6e357b2a8ec05ce416eae7",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "io.jenkins.tools.bom",
+    "dependencyArtifactID" : "bom-${jenkins.baseline}.x",
+    "previousVersion" : "3559.vb_5b_81183b_d23",
+    "newVersion" : "3613.v584fca_12cf5c",
+    "dependencyScope" : "import",
+    "versionUpdateType" : "other",
+    "dependencySection" : "unknown"
+  },
+  "licenseInfo" : "MIT License"
+}

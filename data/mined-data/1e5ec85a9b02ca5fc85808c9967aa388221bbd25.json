@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/OpenLiberty/ci.maven/pull/1876",
+  "project" : "ci.maven",
+  "projectOrganisation" : "OpenLiberty",
+  "breakingCommit" : "1e5ec85a9b02ca5fc85808c9967aa388221bbd25",
+  "prAuthor" : "human",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "human",
+  "updatedDependency" : {
+    "dependencyGroupID" : "io.openliberty.tools",
+    "dependencyArtifactID" : "ci.common",
+    "previousVersion" : "1.8.37",
+    "newVersion" : "1.8.38-SNAPSHOT",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

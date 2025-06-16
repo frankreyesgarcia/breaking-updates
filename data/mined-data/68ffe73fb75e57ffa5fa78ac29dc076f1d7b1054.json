@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/googleapis/java-pubsub/pull/2311",
+  "project" : "java-pubsub",
+  "projectOrganisation" : "googleapis",
+  "breakingCommit" : "68ffe73fb75e57ffa5fa78ac29dc076f1d7b1054",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.google.cloud",
+    "dependencyArtifactID" : "libraries-bom",
+    "previousVersion" : "26.52.0",
+    "newVersion" : "26.53.0",
+    "dependencyScope" : "import",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

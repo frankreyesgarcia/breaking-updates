@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/googleapis/java-bigtable/pull/2363",
+  "project" : "java-bigtable",
+  "projectOrganisation" : "googleapis",
+  "breakingCommit" : "8a334b748edd35567dc926cc6de2405e08c22112",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.google.cloud",
+    "dependencyArtifactID" : "gapic-libraries-bom",
+    "previousVersion" : "1.43.0",
+    "newVersion" : "1.45.0",
+    "dependencyScope" : "import",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

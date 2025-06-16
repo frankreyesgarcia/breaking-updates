@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/googleapis/java-bigquery/pull/3473",
+  "project" : "java-bigquery",
+  "projectOrganisation" : "googleapis",
+  "breakingCommit" : "a5af824170876e48ef51b035d41f20a6675b03d8",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.google.cloud",
+    "dependencyArtifactID" : "google-cloud-bigquerystorage-bom",
+    "previousVersion" : "3.9.0",
+    "newVersion" : "3.9.1",
+    "dependencyScope" : "import",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

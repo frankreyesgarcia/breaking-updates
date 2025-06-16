@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/Hack23/sonar-cloudformation-plugin/pull/671",
+  "project" : "sonar-cloudformation-plugin",
+  "projectOrganisation" : "Hack23",
+  "breakingCommit" : "609086bb60ca4daa46e0f1db4b0a4f4a8f083370",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.maven.scm",
+    "dependencyArtifactID" : "maven-scm-api",
+    "previousVersion" : "1.13.0",
+    "newVersion" : "2.1.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "buildPluginManagement"
+  },
+  "licenseInfo" : "GNU Lesser General Public License v3.0"
+}

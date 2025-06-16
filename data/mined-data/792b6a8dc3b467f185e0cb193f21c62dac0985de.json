@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/jenkinsci/swarm-plugin/pull/691",
+  "project" : "swarm-plugin",
+  "projectOrganisation" : "jenkinsci",
+  "breakingCommit" : "792b6a8dc3b467f185e0cb193f21c62dac0985de",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "io.jenkins.tools.bom",
+    "dependencyArtifactID" : "bom-${jenkins.baseline}.x",
+    "previousVersion" : "4228.v0a_71308d905b_",
+    "newVersion" : "4488.v7fe26526366e",
+    "dependencyScope" : "import",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "unknown"
+}

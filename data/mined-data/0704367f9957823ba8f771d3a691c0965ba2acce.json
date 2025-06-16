@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/ipb-halle/MetFragRelaunched/pull/133",
+  "project" : "MetFragRelaunched",
+  "projectOrganisation" : "ipb-halle",
+  "breakingCommit" : "0704367f9957823ba8f771d3a691c0965ba2acce",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.primefaces",
+    "dependencyArtifactID" : "primefaces",
+    "previousVersion" : "6.2",
+    "newVersion" : "8.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "unknown"
+}

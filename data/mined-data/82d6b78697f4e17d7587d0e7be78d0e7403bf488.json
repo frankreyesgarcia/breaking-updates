@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/googleapis/java-logging/pull/1758",
+  "project" : "java-logging",
+  "projectOrganisation" : "googleapis",
+  "breakingCommit" : "82d6b78697f4e17d7587d0e7be78d0e7403bf488",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.google.cloud",
+    "dependencyArtifactID" : "google-cloud-logging",
+    "previousVersion" : "3.21.1",
+    "newVersion" : "3.21.3",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/Decathlon/tzatziki/pull/343",
+  "project" : "tzatziki",
+  "projectOrganisation" : "Decathlon",
+  "breakingCommit" : "d9599de81653907843261407f0835ce0071c2ca2",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.velocity",
+    "dependencyArtifactID" : "velocity-engine-core",
+    "previousVersion" : "2.3",
+    "newVersion" : "2.4",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

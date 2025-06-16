@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/informatici/openhospital-core/pull/1496",
+  "project" : "openhospital-core",
+  "projectOrganisation" : "informatici",
+  "breakingCommit" : "c6e8d30ea071aed3a12a1dd52043de0c24cd9942",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.logging.log4j",
+    "dependencyArtifactID" : "log4j-core",
+    "previousVersion" : "2.23.1",
+    "newVersion" : "2.24.3",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "GNU General Public License v3.0"
+}

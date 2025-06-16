@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/geonetwork/core-geonetwork/pull/8127",
+  "project" : "core-geonetwork",
+  "projectOrganisation" : "geonetwork",
+  "breakingCommit" : "2a2bed110cbd67cb5ee1d8f75cb641d8212ebb5d",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.google.guava",
+    "dependencyArtifactID" : "guava",
+    "previousVersion" : "30.0-jre",
+    "newVersion" : "33.2.1-jre",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "GNU General Public License v2.0"
+}

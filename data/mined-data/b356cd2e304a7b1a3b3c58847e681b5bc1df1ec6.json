@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/jenkinsci/priority-sorter-plugin/pull/409",
+  "project" : "priority-sorter-plugin",
+  "projectOrganisation" : "jenkinsci",
+  "breakingCommit" : "b356cd2e304a7b1a3b3c58847e681b5bc1df1ec6",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "io.jenkins.tools.bom",
+    "dependencyArtifactID" : "bom-${jenkins.baseline}.x",
+    "previousVersion" : "3722.vcc62e7311580",
+    "newVersion" : "3761.vd922730f0fd2",
+    "dependencyScope" : "import",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "MIT License"
+}

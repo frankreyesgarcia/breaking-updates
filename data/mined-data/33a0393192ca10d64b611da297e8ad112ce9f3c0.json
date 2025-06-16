@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/JanusGraph/janusgraph/pull/4787",
+  "project" : "janusgraph",
+  "projectOrganisation" : "JanusGraph",
+  "breakingCommit" : "33a0393192ca10d64b611da297e8ad112ce9f3c0",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.commons",
+    "dependencyArtifactID" : "commons-configuration2",
+    "previousVersion" : "2.10.1",
+    "newVersion" : "2.12.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "Other"
+}

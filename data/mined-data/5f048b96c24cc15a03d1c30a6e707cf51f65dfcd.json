@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/gtasa-savegame-editor/gtasa-savegame-editor/pull/208",
+  "project" : "gtasa-savegame-editor",
+  "projectOrganisation" : "gtasa-savegame-editor",
+  "breakingCommit" : "5f048b96c24cc15a03d1c30a6e707cf51f65dfcd",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.github.spotbugs",
+    "dependencyArtifactID" : "spotbugs-annotations",
+    "previousVersion" : "4.8.3",
+    "newVersion" : "4.8.6",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "MIT License"
+}

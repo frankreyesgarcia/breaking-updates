@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/indigo-iam/iam/pull/731",
+  "project" : "iam",
+  "projectOrganisation" : "indigo-iam",
+  "breakingCommit" : "874c0f6666e2714ba50471dbcd6c7fe9559d7b79",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.nimbusds",
+    "dependencyArtifactID" : "nimbus-jose-jwt",
+    "previousVersion" : "9.21",
+    "newVersion" : "9.37.2",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Other"
+}

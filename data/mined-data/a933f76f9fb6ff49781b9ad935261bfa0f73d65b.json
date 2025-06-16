@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/Hack23/cia/pull/6206",
+  "project" : "cia",
+  "projectOrganisation" : "Hack23",
+  "breakingCommit" : "a933f76f9fb6ff49781b9ad935261bfa0f73d65b",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.junit.platform",
+    "dependencyArtifactID" : "junit-platform-launcher",
+    "previousVersion" : "1.10.2",
+    "newVersion" : "1.10.3",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

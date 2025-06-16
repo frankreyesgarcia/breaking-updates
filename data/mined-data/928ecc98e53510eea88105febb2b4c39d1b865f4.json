@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/ONLYOFFICE/onlyoffice-confluence/pull/136",
+  "project" : "onlyoffice-confluence",
+  "projectOrganisation" : "ONLYOFFICE",
+  "breakingCommit" : "928ecc98e53510eea88105febb2b4c39d1b865f4",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "commons-io",
+    "dependencyArtifactID" : "commons-io",
+    "previousVersion" : "2.13.0",
+    "newVersion" : "2.14.0",
+    "dependencyScope" : "provided",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

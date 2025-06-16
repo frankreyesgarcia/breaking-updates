@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/Hack23/sonar-cloudformation-plugin/pull/673",
+  "project" : "sonar-cloudformation-plugin",
+  "projectOrganisation" : "Hack23",
+  "breakingCommit" : "729b20c8536f04e3f94583593a44766d7e4719c0",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "xml-apis",
+    "dependencyArtifactID" : "xml-apis",
+    "previousVersion" : "1.4.01",
+    "newVersion" : "2.0.2",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "buildPluginManagement"
+  },
+  "licenseInfo" : "GNU Lesser General Public License v3.0"
+}

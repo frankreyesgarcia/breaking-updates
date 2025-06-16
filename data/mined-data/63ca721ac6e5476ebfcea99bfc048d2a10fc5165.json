@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/nicho92/MtgDesktopCompanion/pull/309",
+  "project" : "MtgDesktopCompanion",
+  "projectOrganisation" : "nicho92",
+  "breakingCommit" : "63ca721ac6e5476ebfcea99bfc048d2a10fc5165",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "unknown",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.postgresql",
+    "dependencyArtifactID" : "postgresql",
+    "previousVersion" : "42.7.6",
+    "newVersion" : "42.7.7",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

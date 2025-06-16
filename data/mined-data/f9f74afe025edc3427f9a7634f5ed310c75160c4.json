@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/geotools/geotools/pull/4910",
+  "project" : "geotools",
+  "projectOrganisation" : "geotools",
+  "breakingCommit" : "f9f74afe025edc3427f9a7634f5ed310c75160c4",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.google.protobuf",
+    "dependencyArtifactID" : "protobuf-java",
+    "previousVersion" : "3.16.3",
+    "newVersion" : "3.25.5",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "GNU Lesser General Public License v2.1"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/IBM/JSONata4Java/pull/338",
+  "project" : "JSONata4Java",
+  "projectOrganisation" : "IBM",
+  "breakingCommit" : "32a22d6b07bc8b0a3637f095deb9f7c13949b31b",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.google.code.gson",
+    "dependencyArtifactID" : "gson",
+    "previousVersion" : "2.11.0",
+    "newVersion" : "2.13.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

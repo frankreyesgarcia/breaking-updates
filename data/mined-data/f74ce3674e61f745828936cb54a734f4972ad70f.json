@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/jenkinsci/swarm-plugin/pull/655",
+  "project" : "swarm-plugin",
+  "projectOrganisation" : "jenkinsci",
+  "breakingCommit" : "f74ce3674e61f745828936cb54a734f4972ad70f",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.jenkins-ci.main",
+    "dependencyArtifactID" : "remoting",
+    "previousVersion" : "3272.ve1ea_5d6a_c99f",
+    "newVersion" : "3273.v4cfe589b_fd83",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "unknown"
+}

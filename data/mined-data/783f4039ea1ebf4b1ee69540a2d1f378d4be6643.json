@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/googleapis/java-storage/pull/2922",
+  "project" : "java-storage",
+  "projectOrganisation" : "googleapis",
+  "breakingCommit" : "783f4039ea1ebf4b1ee69540a2d1f378d4be6643",
+  "prAuthor" : "human",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "human",
+  "updatedDependency" : {
+    "dependencyGroupID" : "io.opentelemetry.semconv",
+    "dependencyArtifactID" : "opentelemetry-semconv",
+    "previousVersion" : "1.27.0-alpha",
+    "newVersion" : "1.26.0-alpha",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

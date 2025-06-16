@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/jenkinsci/github-checks-plugin/pull/407",
+  "project" : "github-checks-plugin",
+  "projectOrganisation" : "jenkinsci",
+  "breakingCommit" : "26fd527ff1656cd49a95c8777e47e8f7f439b1ed",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "io.jenkins.tools.bom",
+    "dependencyArtifactID" : "bom-${jenkins.baseline}.x",
+    "previousVersion" : "3413.v0d896b_76a_30d",
+    "newVersion" : "3435.v238d66a_043fb_",
+    "dependencyScope" : "import",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "MIT License"
+}

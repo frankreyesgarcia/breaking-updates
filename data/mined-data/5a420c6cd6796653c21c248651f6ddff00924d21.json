@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/Hack23/cia/pull/6308",
+  "project" : "cia",
+  "projectOrganisation" : "Hack23",
+  "breakingCommit" : "5a420c6cd6796653c21c248651f6ddff00924d21",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.liquibase",
+    "dependencyArtifactID" : "liquibase-core",
+    "previousVersion" : "4.28.0",
+    "newVersion" : "4.29.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/Pante/chimera/pull/545",
+  "project" : "chimera",
+  "projectOrganisation" : "Pante",
+  "breakingCommit" : "2676aeb6605e75f29ed489a3cde0e30d4863e3cb",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.commons",
+    "dependencyArtifactID" : "commons-text",
+    "previousVersion" : "1.11.0",
+    "newVersion" : "1.13.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "MIT License"
+}

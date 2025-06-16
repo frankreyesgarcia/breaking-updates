@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/jenkinsci/incrementals-tools/pull/119",
+  "project" : "incrementals-tools",
+  "projectOrganisation" : "jenkinsci",
+  "breakingCommit" : "06aac73d39311f5ca7397ed620a1967aea9c66fc",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.eclipse.jgit",
+    "dependencyArtifactID" : "org.eclipse.jgit",
+    "previousVersion" : "6.8.0.202311291450-r",
+    "newVersion" : "7.2.0.202503040940-r",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "unknown"
+  },
+  "licenseInfo" : "unknown"
+}

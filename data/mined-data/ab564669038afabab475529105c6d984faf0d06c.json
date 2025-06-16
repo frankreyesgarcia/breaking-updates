@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/HtmlUnit/htmlunit/pull/912",
+  "project" : "htmlunit",
+  "projectOrganisation" : "HtmlUnit",
+  "breakingCommit" : "ab564669038afabab475529105c6d984faf0d06c",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "commons-codec",
+    "dependencyArtifactID" : "commons-codec",
+    "previousVersion" : "1.17.1",
+    "newVersion" : "1.17.2",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

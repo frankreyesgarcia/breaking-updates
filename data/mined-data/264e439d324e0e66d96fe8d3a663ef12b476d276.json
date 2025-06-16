@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/googleapis/java-pubsub/pull/2222",
+  "project" : "java-pubsub",
+  "projectOrganisation" : "googleapis",
+  "breakingCommit" : "264e439d324e0e66d96fe8d3a663ef12b476d276",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.avro",
+    "dependencyArtifactID" : "avro",
+    "previousVersion" : "1.11.3",
+    "newVersion" : "1.11.4",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/googleapis/google-auth-library-java/pull/1601",
+  "project" : "google-auth-library-java",
+  "projectOrganisation" : "googleapis",
+  "breakingCommit" : "e051a3cc7d5b83baf081c8a50a3790b41d30f936",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.google.cloud",
+    "dependencyArtifactID" : "libraries-bom",
+    "previousVersion" : "26.51.0",
+    "newVersion" : "26.52.0",
+    "dependencyScope" : "import",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "BSD 3-Clause \"New\" or \"Revised\" License"
+}

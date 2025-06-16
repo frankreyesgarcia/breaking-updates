@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/AzBuilder/terrakube/pull/2018",
+  "project" : "terrakube",
+  "projectOrganisation" : "AzBuilder",
+  "breakingCommit" : "2b8c8383fc0e5d93d79132b2100fe4a6bb5d6f64",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.nimbusds",
+    "dependencyArtifactID" : "nimbus-jose-jwt",
+    "previousVersion" : "10.1",
+    "newVersion" : "10.2",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

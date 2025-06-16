@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/OpenAPITools/openapi-diff/pull/708",
+  "project" : "openapi-diff",
+  "projectOrganisation" : "OpenAPITools",
+  "breakingCommit" : "8861ffb82dad9562adfdf1822203297a20bcdcfe",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "ch.qos.logback",
+    "dependencyArtifactID" : "logback-classic",
+    "previousVersion" : "1.3.14",
+    "newVersion" : "1.5.8",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

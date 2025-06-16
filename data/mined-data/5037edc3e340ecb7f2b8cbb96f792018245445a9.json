@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/IBM/JSONata4Java/pull/348",
+  "project" : "JSONata4Java",
+  "projectOrganisation" : "IBM",
+  "breakingCommit" : "5037edc3e340ecb7f2b8cbb96f792018245445a9",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.fasterxml.woodstox",
+    "dependencyArtifactID" : "woodstox-core",
+    "previousVersion" : "6.7.0",
+    "newVersion" : "7.1.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

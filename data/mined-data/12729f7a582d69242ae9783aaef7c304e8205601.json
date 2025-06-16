@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/BetterGUI-MC/BetterGUI/pull/339",
+  "project" : "BetterGUI",
+  "projectOrganisation" : "BetterGUI-MC",
+  "breakingCommit" : "12729f7a582d69242ae9783aaef7c304e8205601",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.jetbrains",
+    "dependencyArtifactID" : "annotations",
+    "previousVersion" : "24.1.0",
+    "newVersion" : "26.0.0",
+    "dependencyScope" : "provided",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "MIT License"
+}

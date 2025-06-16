@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/jenkinsci/build-monitor-plugin/pull/960",
+  "project" : "build-monitor-plugin",
+  "projectOrganisation" : "jenkinsci",
+  "breakingCommit" : "8ecd4eda24c5888f2bb8c39bbde20f3a91d571ed",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.jenkins-ci.plugins",
+    "dependencyArtifactID" : "badge",
+    "previousVersion" : "1.9.1",
+    "newVersion" : "1.13",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "MIT License"
+}
