@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/jenkinsci/build-monitor-plugin/pull/1081",
+  "project" : "build-monitor-plugin",
+  "projectOrganisation" : "jenkinsci",
+  "breakingCommit" : "3d57c53a7575f6f32901220cdf96d1746988a7ea",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "io.jenkins.tools.bom",
+    "dependencyArtifactID" : "bom-${jenkins.baseline}.x",
+    "previousVersion" : "4136.vca_c3202a_7fd1",
+    "newVersion" : "4488.v7fe26526366e",
+    "dependencyScope" : "import",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "MIT License"
+}

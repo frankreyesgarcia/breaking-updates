@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/googleapis/java-logging/pull/1638",
+  "project" : "java-logging",
+  "projectOrganisation" : "googleapis",
+  "breakingCommit" : "1820136e410475b5f626ce5337a272b096a8b940",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "io.opentelemetry",
+    "dependencyArtifactID" : "opentelemetry-bom",
+    "previousVersion" : "1.38.0",
+    "newVersion" : "1.45.0",
+    "dependencyScope" : "import",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

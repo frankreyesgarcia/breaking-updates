@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/jenkinsci/workflow-job-plugin/pull/513",
+  "project" : "workflow-job-plugin",
+  "projectOrganisation" : "jenkinsci",
+  "breakingCommit" : "8dcdfcbd561d6c20c58adadc51e388cec3b98997",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "io.jenkins.tools.bom",
+    "dependencyArtifactID" : "bom-${jenkins.baseline}.x",
+    "previousVersion" : "4023.va_eeb_b_4e45f07",
+    "newVersion" : "4228.v0a_71308d905b_",
+    "dependencyScope" : "import",
+    "versionUpdateType" : "other",
+    "dependencySection" : "unknown"
+  },
+  "licenseInfo" : "MIT License"
+}

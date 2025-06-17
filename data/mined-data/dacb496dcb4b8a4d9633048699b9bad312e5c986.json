@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/jenkinsci/envinject-plugin/pull/292",
+  "project" : "envinject-plugin",
+  "projectOrganisation" : "jenkinsci",
+  "breakingCommit" : "dacb496dcb4b8a4d9633048699b9bad312e5c986",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.jenkins-ci.plugins",
+    "dependencyArtifactID" : "ivy",
+    "previousVersion" : "2.2",
+    "newVersion" : "2.6",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "unknown"
+}

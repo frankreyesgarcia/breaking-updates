@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/gruelbox/transaction-outbox/pull/734",
+  "project" : "transaction-outbox",
+  "projectOrganisation" : "gruelbox",
+  "breakingCommit" : "55580bf51d3af0684c352067168aa3a8ff51b22c",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.jooq",
+    "dependencyArtifactID" : "jooq",
+    "previousVersion" : "3.19.11",
+    "newVersion" : "3.19.13",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

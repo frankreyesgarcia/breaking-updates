@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/FAIRDataTeam/FAIRDataPoint/pull/701",
+  "project" : "FAIRDataPoint",
+  "projectOrganisation" : "FAIRDataTeam",
+  "breakingCommit" : "9f2478a11a5e469ef4bb37b5328c2cdb44157854",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.puppycrawl.tools",
+    "dependencyArtifactID" : "checkstyle",
+    "previousVersion" : "10.23.1",
+    "newVersion" : "10.24.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "buildPlugins"
+  },
+  "licenseInfo" : "MIT License"
+}

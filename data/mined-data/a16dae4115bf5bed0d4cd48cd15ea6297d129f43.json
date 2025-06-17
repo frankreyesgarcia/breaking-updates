@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/gresrun/jesque/pull/260",
+  "project" : "jesque",
+  "projectOrganisation" : "gresrun",
+  "breakingCommit" : "a16dae4115bf5bed0d4cd48cd15ea6297d129f43",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "redis.clients",
+    "dependencyArtifactID" : "jedis",
+    "previousVersion" : "3.8.0",
+    "newVersion" : "5.1.3",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/georchestra/georchestra/pull/4406",
+  "project" : "georchestra",
+  "projectOrganisation" : "georchestra",
+  "breakingCommit" : "76db7e56e7cdec01a9586dcc44ffe4f3a92bbcb6",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.sun.xml.bind",
+    "dependencyArtifactID" : "jaxb-core",
+    "previousVersion" : "2.3.0.1",
+    "newVersion" : "4.0.5",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "GNU General Public License v3.0"
+}

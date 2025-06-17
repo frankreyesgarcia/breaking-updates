@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/PhoenicisOrg/phoenicis/pull/2783",
+  "project" : "phoenicis",
+  "projectOrganisation" : "PhoenicisOrg",
+  "breakingCommit" : "e6f67259a1fd83e6a17c13fcfc12e4a9766e01a9",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "commons-codec",
+    "dependencyArtifactID" : "commons-codec",
+    "previousVersion" : "1.16.1",
+    "newVersion" : "1.17.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "GNU Lesser General Public License v3.0"
+}

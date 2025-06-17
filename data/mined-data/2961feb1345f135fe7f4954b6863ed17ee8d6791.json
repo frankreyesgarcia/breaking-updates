@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/googleapis/java-spanner/pull/3103",
+  "project" : "java-spanner",
+  "projectOrganisation" : "googleapis",
+  "breakingCommit" : "2961feb1345f135fe7f4954b6863ed17ee8d6791",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "io.opentelemetry",
+    "dependencyArtifactID" : "opentelemetry-bom",
+    "previousVersion" : "1.37.0",
+    "newVersion" : "1.39.0",
+    "dependencyScope" : "import",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

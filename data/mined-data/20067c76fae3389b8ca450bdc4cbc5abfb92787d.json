@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/FluentLenium/FluentLenium/pull/2190",
+  "project" : "FluentLenium",
+  "projectOrganisation" : "FluentLenium",
+  "breakingCommit" : "20067c76fae3389b8ca450bdc4cbc5abfb92787d",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.maven",
+    "dependencyArtifactID" : "maven-model",
+    "previousVersion" : "3.9.6",
+    "newVersion" : "3.9.9",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "Other"
+}

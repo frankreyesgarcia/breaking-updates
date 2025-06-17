@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/googleapis/sdk-platform-java/pull/3473",
+  "project" : "sdk-platform-java",
+  "projectOrganisation" : "googleapis",
+  "breakingCommit" : "bc0367ee130438f58409ba4f1e01d16a90e4e1e0",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "human",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.google.guava",
+    "dependencyArtifactID" : "guava",
+    "previousVersion" : "33.3.1-jre",
+    "newVersion" : "33.4.0-jre",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

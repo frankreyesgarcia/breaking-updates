@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/FluentLenium/FluentLenium/pull/2216",
+  "project" : "FluentLenium",
+  "projectOrganisation" : "FluentLenium",
+  "breakingCommit" : "74d05a32bfbd267e7d36aa71ab7fa313a1f60ac7",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.groovy",
+    "dependencyArtifactID" : "groovy-bom",
+    "previousVersion" : "4.0.21",
+    "newVersion" : "4.0.26",
+    "dependencyScope" : "import",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "Other"
+}

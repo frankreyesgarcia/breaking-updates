@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/JanusGraph/janusgraph/pull/4525",
+  "project" : "janusgraph",
+  "projectOrganisation" : "JanusGraph",
+  "breakingCommit" : "b5140a8c1db46e98a7e67dcfb3aab1a99147e1ba",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.carrotsearch",
+    "dependencyArtifactID" : "hppc",
+    "previousVersion" : "0.9.1",
+    "newVersion" : "0.10.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "Other"
+}

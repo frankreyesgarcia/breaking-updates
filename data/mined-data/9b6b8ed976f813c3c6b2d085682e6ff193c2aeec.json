@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/FluentLenium/FluentLenium/pull/2189",
+  "project" : "FluentLenium",
+  "projectOrganisation" : "FluentLenium",
+  "breakingCommit" : "9b6b8ed976f813c3c6b2d085682e6ff193c2aeec",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "commons-io",
+    "dependencyArtifactID" : "commons-io",
+    "previousVersion" : "2.15.1",
+    "newVersion" : "2.18.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "Other"
+}

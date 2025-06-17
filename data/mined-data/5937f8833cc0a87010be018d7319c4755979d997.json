@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/jenkinsci/htmlpublisher-plugin/pull/340",
+  "project" : "htmlpublisher-plugin",
+  "projectOrganisation" : "jenkinsci",
+  "breakingCommit" : "5937f8833cc0a87010be018d7319c4755979d997",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "io.jenkins.tools.bom",
+    "dependencyArtifactID" : "bom-${jenkins.baseline}.x",
+    "previousVersion" : "4051.v78dce3ce8b_d6",
+    "newVersion" : "4583.v0a_f4df179fa_b_",
+    "dependencyScope" : "import",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "MIT License"
+}

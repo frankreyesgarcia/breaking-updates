@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/getgauge/gauge-java/pull/812",
+  "project" : "gauge-java",
+  "projectOrganisation" : "getgauge",
+  "breakingCommit" : "293ad668c1e5c4ac9eaf2909294bc28670a6d38f",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.google.guava",
+    "dependencyArtifactID" : "guava",
+    "previousVersion" : "33.2.0-jre",
+    "newVersion" : "33.2.1-jre",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

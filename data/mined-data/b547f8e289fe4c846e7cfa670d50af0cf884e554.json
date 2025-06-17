@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/googleapis/java-storage/pull/2666",
+  "project" : "java-storage",
+  "projectOrganisation" : "googleapis",
+  "breakingCommit" : "b547f8e289fe4c846e7cfa670d50af0cf884e554",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.google.cloud",
+    "dependencyArtifactID" : "libraries-bom",
+    "previousVersion" : "26.43.0",
+    "newVersion" : "26.44.0",
+    "dependencyScope" : "import",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

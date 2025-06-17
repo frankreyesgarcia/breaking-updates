@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/CROSSINGTUD/CryptoAnalysis/pull/705",
+  "project" : "CryptoAnalysis",
+  "projectOrganisation" : "CROSSINGTUD",
+  "breakingCommit" : "a946e1d9e7d725eae214ccd6facdf0388e4aeaee",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.eclipse.xtext",
+    "dependencyArtifactID" : "org.eclipse.xtext.xbase",
+    "previousVersion" : "2.35.0",
+    "newVersion" : "2.36.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Eclipse Public License 2.0"
+}

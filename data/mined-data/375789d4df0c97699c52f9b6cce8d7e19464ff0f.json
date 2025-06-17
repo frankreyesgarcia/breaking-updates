@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/FluentLenium/FluentLenium/pull/2166",
+  "project" : "FluentLenium",
+  "projectOrganisation" : "FluentLenium",
+  "breakingCommit" : "375789d4df0c97699c52f9b6cce8d7e19464ff0f",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "net.bytebuddy",
+    "dependencyArtifactID" : "byte-buddy-agent",
+    "previousVersion" : "1.14.14",
+    "newVersion" : "1.14.16",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "Other"
+}

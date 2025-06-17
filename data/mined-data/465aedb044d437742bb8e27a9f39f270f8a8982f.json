@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/CycloneDX/cyclonedx-maven-plugin/pull/510",
+  "project" : "cyclonedx-maven-plugin",
+  "projectOrganisation" : "CycloneDX",
+  "breakingCommit" : "465aedb044d437742bb8e27a9f39f270f8a8982f",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.cyclonedx",
+    "dependencyArtifactID" : "cyclonedx-core-java",
+    "previousVersion" : "8.0.3",
+    "newVersion" : "9.0.2",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

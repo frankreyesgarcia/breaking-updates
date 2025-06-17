@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/jenkinsci/support-core-plugin/pull/560",
+  "project" : "support-core-plugin",
+  "projectOrganisation" : "jenkinsci",
+  "breakingCommit" : "240aad4685560d7384d2f5ea904f3b0e921899ab",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "io.jenkins.tools.bom",
+    "dependencyArtifactID" : "bom-2.440.x",
+    "previousVersion" : "3157.vb_3e8b_8a_d185d",
+    "newVersion" : "3193.v330d8248d39e",
+    "dependencyScope" : "import",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "MIT License"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/IBM/cloudant-java-sdk/pull/677",
+  "project" : "cloudant-java-sdk",
+  "projectOrganisation" : "IBM",
+  "breakingCommit" : "318c104d1e806f4efd26cfcc99a4fb32f6bed768",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.google.code.gson",
+    "dependencyArtifactID" : "gson",
+    "previousVersion" : "2.12.1",
+    "newVersion" : "2.13.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

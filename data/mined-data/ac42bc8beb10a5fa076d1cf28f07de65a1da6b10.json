@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/OneBusAway/onebusaway-gtfs-modules/pull/345",
+  "project" : "onebusaway-gtfs-modules",
+  "projectOrganisation" : "OneBusAway",
+  "breakingCommit" : "ac42bc8beb10a5fa076d1cf28f07de65a1da6b10",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.hibernate",
+    "dependencyArtifactID" : "hibernate-core",
+    "previousVersion" : "5.6.15.Final",
+    "newVersion" : "7.0.0.Final",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Other"
+}

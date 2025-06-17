@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/googleapis/java-spanner/pull/3191",
+  "project" : "java-spanner",
+  "projectOrganisation" : "googleapis",
+  "breakingCommit" : "5673c32a624a1b9485c750a73e0526184970cdb4",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.google.auto.value",
+    "dependencyArtifactID" : "auto-value-annotations",
+    "previousVersion" : "1.10.4",
+    "newVersion" : "1.11.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

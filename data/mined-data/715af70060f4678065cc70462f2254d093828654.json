@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/CROSSINGTUD/CryptoAnalysis/pull/548",
+  "project" : "CryptoAnalysis",
+  "projectOrganisation" : "CROSSINGTUD",
+  "breakingCommit" : "715af70060f4678065cc70462f2254d093828654",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.google.crypto.tink",
+    "dependencyArtifactID" : "tink",
+    "previousVersion" : "1.3.0",
+    "newVersion" : "1.13.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Eclipse Public License 2.0"
+}

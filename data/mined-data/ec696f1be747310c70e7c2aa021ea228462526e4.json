@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/jenkinsci/htmlpublisher-plugin/pull/360",
+  "project" : "htmlpublisher-plugin",
+  "projectOrganisation" : "jenkinsci",
+  "breakingCommit" : "ec696f1be747310c70e7c2aa021ea228462526e4",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "io.jenkins.tools.bom",
+    "dependencyArtifactID" : "bom-${jenkins.baseline}.x",
+    "previousVersion" : "4051.v78dce3ce8b_d6",
+    "newVersion" : "4890.vfca_82c6741a_d",
+    "dependencyScope" : "import",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "MIT License"
+}

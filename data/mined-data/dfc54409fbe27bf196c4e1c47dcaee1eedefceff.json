@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/INTO-CPS-Association/maestro/pull/438",
+  "project" : "maestro",
+  "projectOrganisation" : "INTO-CPS-Association",
+  "breakingCommit" : "dfc54409fbe27bf196c4e1c47dcaee1eedefceff",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "commons-beanutils",
+    "dependencyArtifactID" : "commons-beanutils",
+    "previousVersion" : "1.9.4",
+    "newVersion" : "1.11.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "unknown"
+}

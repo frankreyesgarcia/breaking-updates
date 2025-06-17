@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/jenkinsci/testng-plugin-plugin/pull/295",
+  "project" : "testng-plugin-plugin",
+  "projectOrganisation" : "jenkinsci",
+  "breakingCommit" : "a63d0f71b7c5b3e58e01bd78efc681dd41cbb595",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "io.jenkins.tools.bom",
+    "dependencyArtifactID" : "bom-2.426.x",
+    "previousVersion" : "3105.v672692894683",
+    "newVersion" : "3120.v4d898e1e9fc4",
+    "dependencyScope" : "import",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "unknown"
+}

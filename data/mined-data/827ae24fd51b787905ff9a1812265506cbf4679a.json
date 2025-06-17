@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/jenkinsci/role-strategy-plugin/pull/393",
+  "project" : "role-strategy-plugin",
+  "projectOrganisation" : "jenkinsci",
+  "breakingCommit" : "827ae24fd51b787905ff9a1812265506cbf4679a",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "io.jenkins.tools.bom",
+    "dependencyArtifactID" : "bom-${jenkins.baseline}.x",
+    "previousVersion" : "4136.vca_c3202a_7fd1",
+    "newVersion" : "4228.v0a_71308d905b_",
+    "dependencyScope" : "import",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "MIT License"
+}

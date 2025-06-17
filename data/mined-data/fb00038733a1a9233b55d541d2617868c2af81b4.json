@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/QuickShop-Community/QuickShop-Hikari/pull/1906",
+  "project" : "QuickShop-Hikari",
+  "projectOrganisation" : "QuickShop-Community",
+  "breakingCommit" : "fb00038733a1a9233b55d541d2617868c2af81b4",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.slf4j",
+    "dependencyArtifactID" : "slf4j-api",
+    "previousVersion" : "2.0.16",
+    "newVersion" : "2.0.17",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "Other"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/intuit/maven-build-scanner/pull/288",
+  "project" : "maven-build-scanner",
+  "projectOrganisation" : "intuit",
+  "breakingCommit" : "08cc95b0aab55b2232d5073e549776db9da98fda",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.fasterxml.jackson.core",
+    "dependencyArtifactID" : "jackson-databind",
+    "previousVersion" : "2.18.2",
+    "newVersion" : "2.18.3",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

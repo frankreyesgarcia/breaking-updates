@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/Apicurio/apicurio-registry/pull/5583",
+  "project" : "apicurio-registry",
+  "projectOrganisation" : "Apicurio",
+  "breakingCommit" : "334981f852747a7b2e51443ff5a6308c37c0a934",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "commons-logging",
+    "dependencyArtifactID" : "commons-logging",
+    "previousVersion" : "1.0.4",
+    "newVersion" : "1.3.4",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

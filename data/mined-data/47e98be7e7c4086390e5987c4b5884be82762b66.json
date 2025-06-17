@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/NationalSecurityAgency/datawave/pull/2560",
+  "project" : "datawave",
+  "projectOrganisation" : "NationalSecurityAgency",
+  "breakingCommit" : "47e98be7e7c4086390e5987c4b5884be82762b66",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "commons-net",
+    "dependencyArtifactID" : "commons-net",
+    "previousVersion" : "3.6",
+    "newVersion" : "3.9.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

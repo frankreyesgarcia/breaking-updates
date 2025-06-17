@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/jenkinsci/junit-plugin/pull/685",
+  "project" : "junit-plugin",
+  "projectOrganisation" : "jenkinsci",
+  "breakingCommit" : "3d064c7d13079bbfa28d95da0a1fd08ecdea2048",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "io.jenkins.tools.bom",
+    "dependencyArtifactID" : "bom-${jenkins.baseline}.x",
+    "previousVersion" : "4136.vca_c3202a_7fd1",
+    "newVersion" : "4488.v7fe26526366e",
+    "dependencyScope" : "import",
+    "versionUpdateType" : "other",
+    "dependencySection" : "unknown"
+  },
+  "licenseInfo" : "MIT License"
+}

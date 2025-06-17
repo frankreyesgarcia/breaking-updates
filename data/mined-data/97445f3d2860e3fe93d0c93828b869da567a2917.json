@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/frankframework/frankframework/pull/8729",
+  "project" : "frankframework",
+  "projectOrganisation" : "frankframework",
+  "breakingCommit" : "97445f3d2860e3fe93d0c93828b869da567a2917",
+  "prAuthor" : "human",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "human",
+  "updatedDependency" : {
+    "dependencyGroupID" : "net.minidev",
+    "dependencyArtifactID" : "json-smart",
+    "previousVersion" : "2.5.1",
+    "newVersion" : "2.5.2",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

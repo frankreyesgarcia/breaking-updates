@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/Kafka-In-Action-Book/Kafka-In-Action-Source-Code/pull/75",
+  "project" : "Kafka-In-Action-Source-Code",
+  "projectOrganisation" : "Kafka-In-Action-Book",
+  "breakingCommit" : "b4cb68f7cb201dea5685f8d9fc3ff03012fbdf20",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.commons",
+    "dependencyArtifactID" : "commons-text",
+    "previousVersion" : "1.9",
+    "newVersion" : "1.10.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

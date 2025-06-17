@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/PicnicSupermarket/error-prone-support/pull/1703",
+  "project" : "error-prone-support",
+  "projectOrganisation" : "PicnicSupermarket",
+  "breakingCommit" : "7d5c82edee2b156c6bc6f4c80b55d7416302b835",
+  "prAuthor" : "human",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "human",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.openrewrite",
+    "dependencyArtifactID" : "rewrite-templating",
+    "previousVersion" : "1.27.0",
+    "newVersion" : "1.29.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "MIT License"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/jenkinsci/support-core-plugin/pull/586",
+  "project" : "support-core-plugin",
+  "projectOrganisation" : "jenkinsci",
+  "breakingCommit" : "f036daa098c269bdbf5884fc4cdeccd5331db16e",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "io.jenkins.lib",
+    "dependencyArtifactID" : "support-log-formatter",
+    "previousVersion" : "1.2",
+    "newVersion" : "1.3",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "MIT License"
+}

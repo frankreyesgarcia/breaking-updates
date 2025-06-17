@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/QuickShop-Community/QuickShop-Hikari/pull/1748",
+  "project" : "QuickShop-Hikari",
+  "projectOrganisation" : "QuickShop-Community",
+  "breakingCommit" : "7ce674ec5f10655783e5242ec7bcf748b69c45a7",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "net.sourceforge.csvjdbc",
+    "dependencyArtifactID" : "csvjdbc",
+    "previousVersion" : "1.0.42",
+    "newVersion" : "1.0.43",
+    "dependencyScope" : "provided",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Other"
+}

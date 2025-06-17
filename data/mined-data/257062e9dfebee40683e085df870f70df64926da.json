@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/jenkinsci/job-config-history-plugin/pull/369",
+  "project" : "job-config-history-plugin",
+  "projectOrganisation" : "jenkinsci",
+  "breakingCommit" : "257062e9dfebee40683e085df870f70df64926da",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "io.jenkins.tools.bom",
+    "dependencyArtifactID" : "bom-${jenkins.baseline}.x",
+    "previousVersion" : "4051.v78dce3ce8b_d6",
+    "newVersion" : "4890.vfca_82c6741a_d",
+    "dependencyScope" : "import",
+    "versionUpdateType" : "other",
+    "dependencySection" : "unknown"
+  },
+  "licenseInfo" : "MIT License"
+}

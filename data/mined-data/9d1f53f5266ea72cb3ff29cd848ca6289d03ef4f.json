@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/gruelbox/transaction-outbox/pull/731",
+  "project" : "transaction-outbox",
+  "projectOrganisation" : "gruelbox",
+  "breakingCommit" : "9d1f53f5266ea72cb3ff29cd848ca6289d03ef4f",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "net.bytebuddy",
+    "dependencyArtifactID" : "byte-buddy",
+    "previousVersion" : "1.15.0",
+    "newVersion" : "1.15.2",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

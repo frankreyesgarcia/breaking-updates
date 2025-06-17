@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/heroku/heroku-jvm-application-deployer/pull/348",
+  "project" : "heroku-jvm-application-deployer",
+  "projectOrganisation" : "heroku",
+  "breakingCommit" : "633935f299602fbb4f6fbdcf68a583e837ae03b0",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "io.undertow",
+    "dependencyArtifactID" : "undertow-core",
+    "previousVersion" : "2.3.14.Final",
+    "newVersion" : "2.3.16.Final",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "MIT License"
+}

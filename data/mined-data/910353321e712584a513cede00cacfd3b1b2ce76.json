@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/NationalSecurityAgency/datawave/pull/2931",
+  "project" : "datawave",
+  "projectOrganisation" : "NationalSecurityAgency",
+  "breakingCommit" : "910353321e712584a513cede00cacfd3b1b2ce76",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.springframework",
+    "dependencyArtifactID" : "spring-webmvc",
+    "previousVersion" : "5.3.21",
+    "newVersion" : "6.1.14",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

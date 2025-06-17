@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/googleapis/java-bigquerystorage/pull/2693",
+  "project" : "java-bigquerystorage",
+  "projectOrganisation" : "googleapis",
+  "breakingCommit" : "abe43c24b18bb1467729c1f4f45f306df1a74c55",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.avro",
+    "dependencyArtifactID" : "avro",
+    "previousVersion" : "1.11.3",
+    "newVersion" : "1.11.4",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

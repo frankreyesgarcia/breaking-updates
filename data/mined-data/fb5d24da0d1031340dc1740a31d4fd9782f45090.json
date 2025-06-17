@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/QuickShop-Community/QuickShop-Hikari/pull/2028",
+  "project" : "QuickShop-Hikari",
+  "projectOrganisation" : "QuickShop-Community",
+  "breakingCommit" : "fb5d24da0d1031340dc1740a31d4fd9782f45090",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.github.retrooper",
+    "dependencyArtifactID" : "packetevents-spigot",
+    "previousVersion" : "2.7.0",
+    "newVersion" : "2.8.0",
+    "dependencyScope" : "provided",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Other"
+}

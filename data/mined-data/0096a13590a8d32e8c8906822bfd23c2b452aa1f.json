@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/QuickShop-Community/QuickShop-Hikari/pull/1628",
+  "project" : "QuickShop-Hikari",
+  "projectOrganisation" : "QuickShop-Community",
+  "breakingCommit" : "0096a13590a8d32e8c8906822bfd23c2b452aa1f",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.github.stefvanschie.inventoryframework",
+    "dependencyArtifactID" : "IF",
+    "previousVersion" : "0.10.14",
+    "newVersion" : "0.10.15",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Other"
+}

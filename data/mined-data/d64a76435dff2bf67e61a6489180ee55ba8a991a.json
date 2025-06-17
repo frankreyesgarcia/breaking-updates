@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/intuit/maven-build-scanner/pull/290",
+  "project" : "maven-build-scanner",
+  "projectOrganisation" : "intuit",
+  "breakingCommit" : "d64a76435dff2bf67e61a6489180ee55ba8a991a",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.projectlombok",
+    "dependencyArtifactID" : "lombok",
+    "previousVersion" : "1.18.36",
+    "newVersion" : "1.18.38",
+    "dependencyScope" : "provided",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

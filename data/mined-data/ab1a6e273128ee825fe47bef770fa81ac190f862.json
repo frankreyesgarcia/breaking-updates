@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/GoogleCloudPlatform/cloud-opensource-java/pull/2371",
+  "project" : "cloud-opensource-java",
+  "projectOrganisation" : "GoogleCloudPlatform",
+  "breakingCommit" : "ab1a6e273128ee825fe47bef770fa81ac190f862",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.google.protobuf",
+    "dependencyArtifactID" : "protobuf-java",
+    "previousVersion" : "3.12.4",
+    "newVersion" : "3.16.3",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

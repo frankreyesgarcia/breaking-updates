@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/OWASP/wrongsecrets/pull/1468",
+  "project" : "wrongsecrets",
+  "projectOrganisation" : "OWASP",
+  "breakingCommit" : "2d8ed0bc2d5bea4a3bca9e3dc47d27c8b7b99e89",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.github.spotbugs",
+    "dependencyArtifactID" : "spotbugs-annotations",
+    "previousVersion" : "4.8.5",
+    "newVersion" : "4.8.6",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "GNU Affero General Public License v3.0"
+}

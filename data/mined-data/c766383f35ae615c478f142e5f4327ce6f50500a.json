@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/Ekryd/sortpom/pull/467",
+  "project" : "sortpom",
+  "projectOrganisation" : "Ekryd",
+  "breakingCommit" : "c766383f35ae615c478f142e5f4327ce6f50500a",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "commons-beanutils",
+    "dependencyArtifactID" : "commons-beanutils",
+    "previousVersion" : "1.10.1",
+    "newVersion" : "1.11.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "buildPlugins"
+  },
+  "licenseInfo" : "BSD 3-Clause \"New\" or \"Revised\" License"
+}

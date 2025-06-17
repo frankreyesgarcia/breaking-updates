@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/geotools/geotools/pull/5081",
+  "project" : "geotools",
+  "projectOrganisation" : "geotools",
+  "breakingCommit" : "cf6c36a7e8225d3f7772b9603b1474f3f7f19e99",
+  "prAuthor" : "human",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "human",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.google.guava",
+    "dependencyArtifactID" : "guava",
+    "previousVersion" : "33.2.1-jre",
+    "newVersion" : "33.4.0-jre",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "GNU Lesser General Public License v2.1"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/geotools/geotools/pull/5096",
+  "project" : "geotools",
+  "projectOrganisation" : "geotools",
+  "breakingCommit" : "48772369527f5c8a60cd0b4b59f7d6e93ab8db88",
+  "prAuthor" : "human",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "human",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.google.re2j",
+    "dependencyArtifactID" : "re2j",
+    "previousVersion" : "1.6",
+    "newVersion" : "1.8",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "GNU Lesser General Public License v2.1"
+}

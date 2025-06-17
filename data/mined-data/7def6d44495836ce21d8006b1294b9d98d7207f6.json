@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/CarmJos/EasySQL/pull/183",
+  "project" : "EasySQL",
+  "projectOrganisation" : "CarmJos",
+  "breakingCommit" : "7def6d44495836ce21d8006b1294b9d98d7207f6",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.slf4j",
+    "dependencyArtifactID" : "slf4j-api",
+    "previousVersion" : "2.0.16",
+    "newVersion" : "2.0.17",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "MIT License"
+}

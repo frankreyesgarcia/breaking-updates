@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/googleapis/java-storage/pull/2602",
+  "project" : "java-storage",
+  "projectOrganisation" : "googleapis",
+  "breakingCommit" : "c94908f3afe49f789583be5c9ac67918e4014e56",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.google.cloud",
+    "dependencyArtifactID" : "google-cloud-storage",
+    "previousVersion" : "2.40.0",
+    "newVersion" : "2.40.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/JacORB/JacORB/pull/332",
+  "project" : "JacORB",
+  "projectOrganisation" : "JacORB",
+  "breakingCommit" : "d93fdf88d467f33eec77b69b02e8bf06b090d314",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "commons-io",
+    "dependencyArtifactID" : "commons-io",
+    "previousVersion" : "2.8.0",
+    "newVersion" : "2.14.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "Other"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/CarmJos/configured/pull/120",
+  "project" : "configured",
+  "projectOrganisation" : "CarmJos",
+  "breakingCommit" : "5389712ab89846b46b43e8eea084e3eeaed43352",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "cc.carm.lib",
+    "dependencyArtifactID" : "yamlcommentwriter",
+    "previousVersion" : "1.0.1",
+    "newVersion" : "1.1.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "GNU Lesser General Public License v3.0"
+}

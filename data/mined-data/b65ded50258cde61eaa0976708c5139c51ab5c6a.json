@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/CarmJos/EasySQL/pull/143",
+  "project" : "EasySQL",
+  "projectOrganisation" : "CarmJos",
+  "breakingCommit" : "b65ded50258cde61eaa0976708c5139c51ab5c6a",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.h2database",
+    "dependencyArtifactID" : "h2",
+    "previousVersion" : "2.3.230",
+    "newVersion" : "2.3.232",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "MIT License"
+}

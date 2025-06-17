@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/OHDSI/WebAPI/pull/2443",
+  "project" : "WebAPI",
+  "projectOrganisation" : "OHDSI",
+  "breakingCommit" : "a4c7abe281ea39b7ee7b929f6f85fe0054563455",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.springframework.security",
+    "dependencyArtifactID" : "spring-security-crypto",
+    "previousVersion" : "4.2.3.RELEASE",
+    "newVersion" : "6.3.8",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

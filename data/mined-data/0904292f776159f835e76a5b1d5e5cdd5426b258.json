@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/googleapis/google-cloud-java/pull/11231",
+  "project" : "google-cloud-java",
+  "projectOrganisation" : "googleapis",
+  "breakingCommit" : "0904292f776159f835e76a5b1d5e5cdd5426b258",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.google.cloud",
+    "dependencyArtifactID" : "google-cloud-pubsub-bom",
+    "previousVersion" : "1.133.0",
+    "newVersion" : "1.133.1",
+    "dependencyScope" : "import",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

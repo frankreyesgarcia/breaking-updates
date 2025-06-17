@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/informatici/openhospital-api/pull/457",
+  "project" : "openhospital-api",
+  "projectOrganisation" : "informatici",
+  "breakingCommit" : "f29f85b1b48ddb321b719b51ce317c7620557902",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "io.jsonwebtoken",
+    "dependencyArtifactID" : "jjwt-impl",
+    "previousVersion" : "0.11.5",
+    "newVersion" : "0.12.6",
+    "dependencyScope" : "runtime",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "GNU General Public License v3.0"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/jenkinsci/text-finder-plugin/pull/263",
+  "project" : "text-finder-plugin",
+  "projectOrganisation" : "jenkinsci",
+  "breakingCommit" : "bed6d88dfcc956ea1730bc41865e185f87ba4b78",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "io.jenkins.tools.bom",
+    "dependencyArtifactID" : "bom-${jenkins.baseline}.x",
+    "previousVersion" : "4136.vca_c3202a_7fd1",
+    "newVersion" : "4488.v7fe26526366e",
+    "dependencyScope" : "import",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "unknown"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/ClickHouse/clickhouse-java/pull/1829",
+  "project" : "clickhouse-java",
+  "projectOrganisation" : "ClickHouse",
+  "breakingCommit" : "8d8a443a03384d9b3d8e53c1c9562ef849c9700d",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.google.protobuf",
+    "dependencyArtifactID" : "protobuf-java",
+    "previousVersion" : "4.27.1",
+    "newVersion" : "4.27.5",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

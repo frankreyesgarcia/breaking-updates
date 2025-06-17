@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/jenkinsci/schedule-build-plugin/pull/373",
+  "project" : "schedule-build-plugin",
+  "projectOrganisation" : "jenkinsci",
+  "breakingCommit" : "02967abac6e7aaf816f5f6d3127473561148fd8f",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "io.jenkins.tools.bom",
+    "dependencyArtifactID" : "bom-${jenkins.baseline}.x",
+    "previousVersion" : "3696.vb_b_4e2d1a_0542",
+    "newVersion" : "3722.vcc62e7311580",
+    "dependencyScope" : "import",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "unknown"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/jadler-mocking/jadler/pull/337",
+  "project" : "jadler",
+  "projectOrganisation" : "jadler-mocking",
+  "breakingCommit" : "3546e088400c63ddfbca8aa55c33326e152b67e0",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.eclipse.jetty",
+    "dependencyArtifactID" : "jetty-server",
+    "previousVersion" : "8.1.11.v20130520",
+    "newVersion" : "12.0.21",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "unknown"
+  },
+  "licenseInfo" : "MIT License"
+}

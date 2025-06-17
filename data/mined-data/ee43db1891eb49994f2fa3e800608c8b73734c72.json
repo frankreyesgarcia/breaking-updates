@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/georchestra/georchestra/pull/4323",
+  "project" : "georchestra",
+  "projectOrganisation" : "georchestra",
+  "breakingCommit" : "ee43db1891eb49994f2fa3e800608c8b73734c72",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.springframework.amqp",
+    "dependencyArtifactID" : "spring-amqp",
+    "previousVersion" : "2.3.11",
+    "newVersion" : "3.1.7",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "GNU General Public License v3.0"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/GoogleCloudPlatform/google-cloud-spanner-hibernate/pull/1061",
+  "project" : "google-cloud-spanner-hibernate",
+  "projectOrganisation" : "GoogleCloudPlatform",
+  "breakingCommit" : "d9ef770bb3904d305f63eb0d7b27c1db338ee8ac",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.google.googlejavaformat",
+    "dependencyArtifactID" : "google-java-format",
+    "previousVersion" : "1.7",
+    "newVersion" : "1.22.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "buildPluginManagement"
+  },
+  "licenseInfo" : "GNU Lesser General Public License v2.1"
+}

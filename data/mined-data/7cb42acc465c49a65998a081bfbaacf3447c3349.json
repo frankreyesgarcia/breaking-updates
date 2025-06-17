@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/ExpediaGroup/waggle-dance/pull/338",
+  "project" : "waggle-dance",
+  "projectOrganisation" : "ExpediaGroup",
+  "breakingCommit" : "7cb42acc465c49a65998a081bfbaacf3447c3349",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.commons",
+    "dependencyArtifactID" : "commons-vfs2",
+    "previousVersion" : "2.1",
+    "newVersion" : "2.10.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/iterate-ch/cyberduck/pull/16477",
+  "project" : "cyberduck",
+  "projectOrganisation" : "iterate-ch",
+  "breakingCommit" : "54715ed1bb124a349546466839ab7d10db4d956d",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.github.ben-manes.caffeine",
+    "dependencyArtifactID" : "caffeine",
+    "previousVersion" : "2.9.3",
+    "newVersion" : "3.1.8",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "GNU General Public License v3.0"
+}

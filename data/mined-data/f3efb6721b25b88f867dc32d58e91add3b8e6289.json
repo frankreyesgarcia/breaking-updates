@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/ORCID/ORCID-Source/pull/7094",
+  "project" : "ORCID-Source",
+  "projectOrganisation" : "ORCID",
+  "breakingCommit" : "f3efb6721b25b88f867dc32d58e91add3b8e6289",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "commons-io",
+    "dependencyArtifactID" : "commons-io",
+    "previousVersion" : "2.7",
+    "newVersion" : "2.14.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "Other"
+}

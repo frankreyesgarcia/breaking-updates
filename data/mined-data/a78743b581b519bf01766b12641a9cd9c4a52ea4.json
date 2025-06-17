@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/iterate-ch/cyberduck/pull/17123",
+  "project" : "cyberduck",
+  "projectOrganisation" : "iterate-ch",
+  "breakingCommit" : "a78743b581b519bf01766b12641a9cd9c4a52ea4",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.mockito",
+    "dependencyArtifactID" : "mockito-core",
+    "previousVersion" : "4.11.0",
+    "newVersion" : "5.18.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "GNU General Public License v3.0"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/CarmJos/configured/pull/119",
+  "project" : "configured",
+  "projectOrganisation" : "CarmJos",
+  "breakingCommit" : "8a26ced0e1060cd197f4c147f7007195d864f1a9",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.mongodb",
+    "dependencyArtifactID" : "mongodb-driver-sync",
+    "previousVersion" : "5.3.0",
+    "newVersion" : "5.3.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "GNU Lesser General Public License v3.0"
+}

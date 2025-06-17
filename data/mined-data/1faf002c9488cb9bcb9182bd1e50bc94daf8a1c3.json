@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/jenkinsci/workflow-multibranch-plugin/pull/353",
+  "project" : "workflow-multibranch-plugin",
+  "projectOrganisation" : "jenkinsci",
+  "breakingCommit" : "1faf002c9488cb9bcb9182bd1e50bc94daf8a1c3",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "io.jenkins.tools.bom",
+    "dependencyArtifactID" : "bom-${jenkins.baseline}.x",
+    "previousVersion" : "4023.va_eeb_b_4e45f07",
+    "newVersion" : "4228.v0a_71308d905b_",
+    "dependencyScope" : "import",
+    "versionUpdateType" : "other",
+    "dependencySection" : "unknown"
+  },
+  "licenseInfo" : "unknown"
+}

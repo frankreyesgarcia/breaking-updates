@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/georchestra/georchestra/pull/4224",
+  "project" : "georchestra",
+  "projectOrganisation" : "georchestra",
+  "breakingCommit" : "c46f9e6907a992f7d8b6236418b9face709eaf67",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "io.github.threeten-jaxb",
+    "dependencyArtifactID" : "threeten-jaxb-core",
+    "previousVersion" : "1.2",
+    "newVersion" : "2.2.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "GNU General Public License v3.0"
+}

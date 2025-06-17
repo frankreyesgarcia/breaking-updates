@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/javaparser/javaparser/pull/4686",
+  "project" : "javaparser",
+  "projectOrganisation" : "javaparser",
+  "breakingCommit" : "8c80674c702a0ac8148415abd0899b377fe3c649",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.puppycrawl.tools",
+    "dependencyArtifactID" : "checkstyle",
+    "previousVersion" : "10.21.2",
+    "newVersion" : "10.21.3",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "buildPluginManagement"
+  },
+  "licenseInfo" : "Other"
+}

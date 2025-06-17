@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/Decathlon/tzatziki/pull/381",
+  "project" : "tzatziki",
+  "projectOrganisation" : "Decathlon",
+  "breakingCommit" : "7e739b9953aab6ba5ff161ecac9fc991da73e7da",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "human",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.velocity",
+    "dependencyArtifactID" : "velocity-engine-scripting",
+    "previousVersion" : "2.4",
+    "newVersion" : "2.4.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

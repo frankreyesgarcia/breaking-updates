@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/apache/dubbo-spi-extensions/pull/649",
+  "project" : "dubbo-spi-extensions",
+  "projectOrganisation" : "apache",
+  "breakingCommit" : "74f799b879cda305543fd3fef7c52be560b48564",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.bouncycastle",
+    "dependencyArtifactID" : "bcprov-jdk18on",
+    "previousVersion" : "1.78",
+    "newVersion" : "1.81",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

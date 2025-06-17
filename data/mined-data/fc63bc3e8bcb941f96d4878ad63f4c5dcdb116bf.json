@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/GeorgH93/PCGF_PluginLib/pull/73",
+  "project" : "PCGF_PluginLib",
+  "projectOrganisation" : "GeorgH93",
+  "breakingCommit" : "fc63bc3e8bcb941f96d4878ad63f4c5dcdb116bf",
+  "prAuthor" : "human",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "human",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.google.code.gson",
+    "dependencyArtifactID" : "gson",
+    "previousVersion" : "2.13.0",
+    "newVersion" : "2.13.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "GNU General Public License v3.0"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/iterate-ch/cyberduck/pull/17052",
+  "project" : "cyberduck",
+  "projectOrganisation" : "iterate-ch",
+  "breakingCommit" : "0ef5a32d9e37054753badd3be0ee7a4f661c1021",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "ch.iterate.s3",
+    "dependencyArtifactID" : "jets3t",
+    "previousVersion" : "0.9.38",
+    "newVersion" : "0.9.39",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "GNU General Public License v3.0"
+}

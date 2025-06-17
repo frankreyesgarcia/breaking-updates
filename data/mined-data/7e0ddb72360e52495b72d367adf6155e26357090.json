@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/infinitest/infinitest/pull/428",
+  "project" : "infinitest",
+  "projectOrganisation" : "infinitest",
+  "breakingCommit" : "7e0ddb72360e52495b72d367adf6155e26357090",
+  "prAuthor" : "human",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "human",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.springframework",
+    "dependencyArtifactID" : "spring-context",
+    "previousVersion" : "5.3.22",
+    "newVersion" : "6.2.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Other"
+}

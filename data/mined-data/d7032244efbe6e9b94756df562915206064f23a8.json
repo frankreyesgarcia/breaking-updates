@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/jenkinsci/envinject-plugin/pull/319",
+  "project" : "envinject-plugin",
+  "projectOrganisation" : "jenkinsci",
+  "breakingCommit" : "d7032244efbe6e9b94756df562915206064f23a8",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "io.jenkins.tools.bom",
+    "dependencyArtifactID" : "bom-${jenkins.baseline}.x",
+    "previousVersion" : "4051.v78dce3ce8b_d6",
+    "newVersion" : "4669.v0e99c712a_30e",
+    "dependencyScope" : "import",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "unknown"
+}

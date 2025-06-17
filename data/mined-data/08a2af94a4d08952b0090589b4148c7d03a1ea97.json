@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/jenkinsci/git-forensics-plugin/pull/800",
+  "project" : "git-forensics-plugin",
+  "projectOrganisation" : "jenkinsci",
+  "breakingCommit" : "08a2af94a4d08952b0090589b4148c7d03a1ea97",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.jenkins-ci",
+    "dependencyArtifactID" : "acceptance-test-harness",
+    "previousVersion" : "5883.vdea_99c1762a_d",
+    "newVersion" : "5909.vc4fa_3e55b_f84",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "MIT License"
+}

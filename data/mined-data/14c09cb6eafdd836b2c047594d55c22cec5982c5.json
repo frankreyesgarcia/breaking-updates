@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/OpenLiberty/ci.maven/pull/1834",
+  "project" : "ci.maven",
+  "projectOrganisation" : "OpenLiberty",
+  "breakingCommit" : "14c09cb6eafdd836b2c047594d55c22cec5982c5",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "commons-io",
+    "dependencyArtifactID" : "commons-io",
+    "previousVersion" : "2.10.0",
+    "newVersion" : "2.14.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

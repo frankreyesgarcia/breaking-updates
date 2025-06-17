@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/GeorgH93/PCGF_PluginLib/pull/60",
+  "project" : "PCGF_PluginLib",
+  "projectOrganisation" : "GeorgH93",
+  "breakingCommit" : "d12b4ed87469756c73c63b5945372dfbbb4cc813",
+  "prAuthor" : "human",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "human",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.slf4j",
+    "dependencyArtifactID" : "slf4j-jdk14",
+    "previousVersion" : "2.0.13",
+    "newVersion" : "2.0.14",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "GNU General Public License v3.0"
+}

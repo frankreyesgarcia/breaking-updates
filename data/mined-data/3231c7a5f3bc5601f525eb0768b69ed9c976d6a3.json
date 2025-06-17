@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/CROSSINGTUD/CryptoAnalysis/pull/707",
+  "project" : "CryptoAnalysis",
+  "projectOrganisation" : "CROSSINGTUD",
+  "breakingCommit" : "3231c7a5f3bc5601f525eb0768b69ed9c976d6a3",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.eclipse.emf",
+    "dependencyArtifactID" : "org.eclipse.emf.ecore",
+    "previousVersion" : "2.36.0",
+    "newVersion" : "2.37.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Eclipse Public License 2.0"
+}

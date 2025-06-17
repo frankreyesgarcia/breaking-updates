@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/EXXETA/correomqtt/pull/207",
+  "project" : "correomqtt",
+  "projectOrganisation" : "EXXETA",
+  "breakingCommit" : "5e1cf67536c8336b9d1773c266153688575d7bba",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "ch.qos.logback",
+    "dependencyArtifactID" : "logback-core",
+    "previousVersion" : "1.4.12",
+    "newVersion" : "1.5.13",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "GNU General Public License v3.0"
+}

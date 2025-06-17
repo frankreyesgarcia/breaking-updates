@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/GoogleCloudPlatform/appengine-java-standard/pull/227",
+  "project" : "appengine-java-standard",
+  "projectOrganisation" : "GoogleCloudPlatform",
+  "breakingCommit" : "375ff0587f6ce443f48416b6ac869d688a10be42",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.google.api",
+    "dependencyArtifactID" : "gax",
+    "previousVersion" : "2.48.1",
+    "newVersion" : "2.49.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

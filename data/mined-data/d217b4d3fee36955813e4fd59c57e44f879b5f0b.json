@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/getgauge/gauge-java/pull/910",
+  "project" : "gauge-java",
+  "projectOrganisation" : "getgauge",
+  "breakingCommit" : "d217b4d3fee36955813e4fd59c57e44f879b5f0b",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.puppycrawl.tools",
+    "dependencyArtifactID" : "checkstyle",
+    "previousVersion" : "10.21.4",
+    "newVersion" : "10.22.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "buildPlugins"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

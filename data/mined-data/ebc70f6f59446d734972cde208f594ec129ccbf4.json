@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/Hack23/cia/pull/7086",
+  "project" : "cia",
+  "projectOrganisation" : "Hack23",
+  "breakingCommit" : "ebc70f6f59446d734972cde208f594ec129ccbf4",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "commons-beanutils",
+    "dependencyArtifactID" : "commons-beanutils",
+    "previousVersion" : "1.9.4",
+    "newVersion" : "1.10.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

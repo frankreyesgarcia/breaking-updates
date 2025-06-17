@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/FAIRDataTeam/FAIRDataPoint/pull/699",
+  "project" : "FAIRDataPoint",
+  "projectOrganisation" : "FAIRDataTeam",
+  "breakingCommit" : "f25ab8ec85f03ef9c858ad6cbd619e2384cc6037",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "io.spring.javaformat",
+    "dependencyArtifactID" : "spring-javaformat-checkstyle",
+    "previousVersion" : "0.0.43",
+    "newVersion" : "0.0.45",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "buildPlugins"
+  },
+  "licenseInfo" : "MIT License"
+}
