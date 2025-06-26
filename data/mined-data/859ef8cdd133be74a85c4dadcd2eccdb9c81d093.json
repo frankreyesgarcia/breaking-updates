@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/keeps/dbptk-ui/pull/475",
+  "project" : "dbptk-ui",
+  "projectOrganisation" : "keeps",
+  "breakingCommit" : "859ef8cdd133be74a85c4dadcd2eccdb9c81d093",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.eclipse.jetty",
+    "dependencyArtifactID" : "jetty-http",
+    "previousVersion" : "10.0.19",
+    "newVersion" : "12.0.12",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "GNU Lesser General Public License v3.0"
+}

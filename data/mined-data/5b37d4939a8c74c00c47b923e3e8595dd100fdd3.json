@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/apache/camel/pull/18473",
+  "project" : "camel",
+  "projectOrganisation" : "apache",
+  "breakingCommit" : "5b37d4939a8c74c00c47b923e3e8595dd100fdd3",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "tech.allegro.schema.json2avro",
+    "dependencyArtifactID" : "converter",
+    "previousVersion" : "0.2.15",
+    "newVersion" : "0.3.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/jwoehr/ublu/pull/35",
+  "project" : "ublu",
+  "projectOrganisation" : "jwoehr",
+  "breakingCommit" : "a43dc3f98d02b016c78bfbfabf2263863ca57225",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.postgresql",
+    "dependencyArtifactID" : "postgresql",
+    "previousVersion" : "42.7.4",
+    "newVersion" : "42.7.7",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "BSD 2-Clause \"Simplified\" License"
+}

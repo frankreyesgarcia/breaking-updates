@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/apache/camel-kafka-connector/pull/1721",
+  "project" : "camel-kafka-connector",
+  "projectOrganisation" : "apache",
+  "breakingCommit" : "869e315e3782353db8a760323f7ad233abe74046",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.postgresql",
+    "dependencyArtifactID" : "postgresql",
+    "previousVersion" : "42.7.5",
+    "newVersion" : "42.7.7",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

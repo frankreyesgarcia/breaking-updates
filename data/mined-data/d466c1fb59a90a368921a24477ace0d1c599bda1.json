@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/apache/directory-scimple/pull/837",
+  "project" : "directory-scimple",
+  "projectOrganisation" : "apache",
+  "breakingCommit" : "d466c1fb59a90a368921a24477ace0d1c599bda1",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.hibernate.validator",
+    "dependencyArtifactID" : "hibernate-validator",
+    "previousVersion" : "8.0.2.Final",
+    "newVersion" : "9.0.1.Final",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

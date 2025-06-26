@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/knowm/Yank/pull/166",
+  "project" : "Yank",
+  "projectOrganisation" : "knowm",
+  "breakingCommit" : "a09ff0513d0d02e728fd5ca5758da8d4e8392d50",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.slf4j",
+    "dependencyArtifactID" : "slf4j-api",
+    "previousVersion" : "2.0.13",
+    "newVersion" : "2.0.17",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

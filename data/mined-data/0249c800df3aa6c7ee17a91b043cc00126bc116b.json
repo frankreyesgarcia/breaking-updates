@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/matsim-org/matsim-libs/pull/4026",
+  "project" : "matsim-libs",
+  "projectOrganisation" : "matsim-org",
+  "breakingCommit" : "0249c800df3aa6c7ee17a91b043cc00126bc116b",
+  "prAuthor" : "human",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "human",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.fasterxml.woodstox",
+    "dependencyArtifactID" : "woodstox-core",
+    "previousVersion" : "7.0.0",
+    "newVersion" : "7.1.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "unknown"
+}

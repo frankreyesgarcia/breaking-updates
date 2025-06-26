@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/gitbucket/markedj/pull/70",
+  "project" : "markedj",
+  "projectOrganisation" : "gitbucket",
+  "breakingCommit" : "f2ba9466e5b08fee24f7f3298b3561733208eb88",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.jsoup",
+    "dependencyArtifactID" : "jsoup",
+    "previousVersion" : "1.19.1",
+    "newVersion" : "1.21.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

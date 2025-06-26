@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/jnidzwetzki/bitfinex-v2-wss-api-java/pull/373",
+  "project" : "bitfinex-v2-wss-api-java",
+  "projectOrganisation" : "jnidzwetzki",
+  "breakingCommit" : "7dd6ed355229dd550186cc5c39de5fb4b3b7dc96",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.logging.log4j",
+    "dependencyArtifactID" : "log4j-slf4j-impl",
+    "previousVersion" : "2.20.0",
+    "newVersion" : "2.24.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

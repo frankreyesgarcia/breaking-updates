@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/ChrisKujawa/zdb/pull/537",
+  "project" : "zdb",
+  "projectOrganisation" : "ChrisKujawa",
+  "breakingCommit" : "bc6263ccc462687c995739064ef9be4904365ab4",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.openjfx",
+    "dependencyArtifactID" : "javafx-fxml",
+    "previousVersion" : "25-ea+21",
+    "newVersion" : "25-ea+22",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "unknown"
+}

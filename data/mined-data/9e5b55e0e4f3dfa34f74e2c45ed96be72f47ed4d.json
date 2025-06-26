@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/CourseOrchestra/celesta/pull/794",
+  "project" : "celesta",
+  "projectOrganisation" : "CourseOrchestra",
+  "breakingCommit" : "9e5b55e0e4f3dfa34f74e2c45ed96be72f47ed4d",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.asciidoctor",
+    "dependencyArtifactID" : "asciidoctorj-diagram",
+    "previousVersion" : "2.3.2",
+    "newVersion" : "3.0.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "buildPlugins"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

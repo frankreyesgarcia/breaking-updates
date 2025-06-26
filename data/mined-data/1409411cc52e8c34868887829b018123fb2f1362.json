@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/refactorfirst/RefactorFirst/pull/144",
+  "project" : "RefactorFirst",
+  "projectOrganisation" : "refactorfirst",
+  "breakingCommit" : "1409411cc52e8c34868887829b018123fb2f1362",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.eclipse.jgit",
+    "dependencyArtifactID" : "org.eclipse.jgit",
+    "previousVersion" : "6.10.0.202406032230-r",
+    "newVersion" : "7.2.1.202505142326-r",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}
