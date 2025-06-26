@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/camunda/camunda-bpm-platform/pull/5218",
+  "project" : "camunda-bpm-platform",
+  "projectOrganisation" : "camunda",
+  "breakingCommit" : "e24fde1e77ba57d6be806a80bbf41dcce2067950",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.httpcomponents",
+    "dependencyArtifactID" : "httpclient",
+    "previousVersion" : "4.5.9",
+    "newVersion" : "4.5.13",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

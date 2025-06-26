@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/joinfaces/joinfaces-maven-war-example/pull/1147",
+  "project" : "joinfaces-maven-war-example",
+  "projectOrganisation" : "joinfaces",
+  "breakingCommit" : "503c607062215bf2b83e5269adec55d612923e74",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.google.code.gson",
+    "dependencyArtifactID" : "gson",
+    "previousVersion" : "2.12.0",
+    "newVersion" : "2.12.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "unknown"
+}

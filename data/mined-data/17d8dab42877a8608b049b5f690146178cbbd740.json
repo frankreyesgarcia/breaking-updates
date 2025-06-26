@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/mathieucarbou/license-maven-plugin/pull/951",
+  "project" : "license-maven-plugin",
+  "projectOrganisation" : "mathieucarbou",
+  "breakingCommit" : "17d8dab42877a8608b049b5f690146178cbbd740",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.puppycrawl.tools",
+    "dependencyArtifactID" : "checkstyle",
+    "previousVersion" : "10.25.0",
+    "newVersion" : "10.25.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "buildPluginManagement"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

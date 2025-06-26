@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/igniterealtime/Openfire/pull/2814",
+  "project" : "Openfire",
+  "projectOrganisation" : "igniterealtime",
+  "breakingCommit" : "c40b39a427d3a4f5c889dbce277ebd764d660981",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.postgresql",
+    "dependencyArtifactID" : "postgresql",
+    "previousVersion" : "42.7.6",
+    "newVersion" : "42.7.7",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

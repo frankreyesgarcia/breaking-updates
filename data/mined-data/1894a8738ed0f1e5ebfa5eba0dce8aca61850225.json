@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/knowm/Sundial/pull/127",
+  "project" : "Sundial",
+  "projectOrganisation" : "knowm",
+  "breakingCommit" : "1894a8738ed0f1e5ebfa5eba0dce8aca61850225",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "jakarta.servlet",
+    "dependencyArtifactID" : "jakarta.servlet-api",
+    "previousVersion" : "6.0.0",
+    "newVersion" : "6.1.0",
+    "dependencyScope" : "provided",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

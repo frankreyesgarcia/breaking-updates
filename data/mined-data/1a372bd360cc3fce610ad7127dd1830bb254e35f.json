@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/knowm/XChart/pull/872",
+  "project" : "XChart",
+  "projectOrganisation" : "knowm",
+  "breakingCommit" : "1a372bd360cc3fce610ad7127dd1830bb254e35f",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.openjfx",
+    "dependencyArtifactID" : "javafx-swing",
+    "previousVersion" : "11.0.2",
+    "newVersion" : "22.0.2",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

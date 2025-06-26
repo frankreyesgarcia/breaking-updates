@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/khmarbaise/maven-it-extension/pull/491",
+  "project" : "maven-it-extension",
+  "projectOrganisation" : "khmarbaise",
+  "breakingCommit" : "b4d9e4875eb714d46c55ad904ba591b99b943e46",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "commons-io",
+    "dependencyArtifactID" : "commons-io",
+    "previousVersion" : "2.11.0",
+    "newVersion" : "2.14.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

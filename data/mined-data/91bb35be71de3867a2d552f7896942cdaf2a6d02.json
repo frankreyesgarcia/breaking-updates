@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/alphagov/pay-adminusers/pull/2853",
+  "project" : "pay-adminusers",
+  "projectOrganisation" : "alphagov",
+  "breakingCommit" : "91bb35be71de3867a2d552f7896942cdaf2a6d02",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "software.amazon.awssdk",
+    "dependencyArtifactID" : "bom",
+    "previousVersion" : "2.31.63",
+    "newVersion" : "2.31.65",
+    "dependencyScope" : "import",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "MIT License"
+}

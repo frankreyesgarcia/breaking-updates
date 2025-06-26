@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/knowm/Yank/pull/156",
+  "project" : "Yank",
+  "projectOrganisation" : "knowm",
+  "breakingCommit" : "4625be341f855c773f7ef0d421ece98c313e3bab",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.zaxxer",
+    "dependencyArtifactID" : "HikariCP",
+    "previousVersion" : "5.1.0",
+    "newVersion" : "6.2.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

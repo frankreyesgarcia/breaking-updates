@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/joinfaces/joinfaces-maven-war-example/pull/1151",
+  "project" : "joinfaces-maven-war-example",
+  "projectOrganisation" : "joinfaces",
+  "breakingCommit" : "caf6254b33ad86de5cb0f6d2563a7ce6db576244",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "joda-time",
+    "dependencyArtifactID" : "joda-time",
+    "previousVersion" : "2.13.0",
+    "newVersion" : "2.13.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "buildPluginManagement"
+  },
+  "licenseInfo" : "unknown"
+}

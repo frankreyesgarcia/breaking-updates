@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/DSpace/DSpace/pull/10909",
+  "project" : "DSpace",
+  "projectOrganisation" : "DSpace",
+  "breakingCommit" : "c6ed8eb24b87975f533bf96059dedfc5f10dbfa7",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.amazonaws",
+    "dependencyArtifactID" : "aws-java-sdk-s3",
+    "previousVersion" : "1.12.785",
+    "newVersion" : "1.12.787",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "BSD 3-Clause \"New\" or \"Revised\" License"
+}

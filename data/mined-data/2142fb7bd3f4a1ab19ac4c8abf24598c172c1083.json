@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/52North/sensorweb-server-helgoland/pull/754",
+  "project" : "sensorweb-server-helgoland",
+  "projectOrganisation" : "52North",
+  "breakingCommit" : "2142fb7bd3f4a1ab19ac4c8abf24598c172c1083",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.jfree",
+    "dependencyArtifactID" : "jfreechart",
+    "previousVersion" : "1.5.3",
+    "newVersion" : "1.5.6",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "GNU General Public License v2.0"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/GoogleCloudPlatform/DataflowTemplates/pull/2471",
+  "project" : "DataflowTemplates",
+  "projectOrganisation" : "GoogleCloudPlatform",
+  "breakingCommit" : "7584518bea021089b450fb00ab23862696b984b3",
+  "prAuthor" : "human",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "human",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.beam",
+    "dependencyArtifactID" : "beam-runners-direct-java",
+    "previousVersion" : "2.63.0",
+    "newVersion" : "2.65.0",
+    "dependencyScope" : "runtime",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

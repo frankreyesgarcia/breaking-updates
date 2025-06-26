@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/apache/axis-axis2-java-core/pull/939",
+  "project" : "axis-axis2-java-core",
+  "projectOrganisation" : "apache",
+  "breakingCommit" : "7d945b795ae66181824af58b8be7d9601e34c4f1",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.eclipse.platform",
+    "dependencyArtifactID" : "org.eclipse.ui.ide",
+    "previousVersion" : "3.22.500",
+    "newVersion" : "3.22.600",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

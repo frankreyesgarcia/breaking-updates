@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/karatelabs/karate/pull/2614",
+  "project" : "karate",
+  "projectOrganisation" : "karatelabs",
+  "breakingCommit" : "5833bce8651c929e997a58470906ad023dd3d278",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "commons-io",
+    "dependencyArtifactID" : "commons-io",
+    "previousVersion" : "2.7",
+    "newVersion" : "2.14.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "MIT License"
+}

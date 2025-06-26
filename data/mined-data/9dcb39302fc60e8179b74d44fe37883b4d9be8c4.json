@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/jcabi/jcabi-s3/pull/431",
+  "project" : "jcabi-s3",
+  "projectOrganisation" : "jcabi",
+  "breakingCommit" : "9dcb39302fc60e8179b74d44fe37883b4d9be8c4",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.projectlombok",
+    "dependencyArtifactID" : "lombok",
+    "previousVersion" : "1.18.36",
+    "newVersion" : "1.18.38",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Other"
+}

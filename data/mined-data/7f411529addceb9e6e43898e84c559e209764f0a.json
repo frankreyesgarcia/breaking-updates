@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/knowm/XChange/pull/4917",
+  "project" : "XChange",
+  "projectOrganisation" : "knowm",
+  "breakingCommit" : "7f411529addceb9e6e43898e84c559e209764f0a",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.pubnub",
+    "dependencyArtifactID" : "pubnub-gson",
+    "previousVersion" : "4.31.3",
+    "newVersion" : "9.2.2",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "MIT License"
+}

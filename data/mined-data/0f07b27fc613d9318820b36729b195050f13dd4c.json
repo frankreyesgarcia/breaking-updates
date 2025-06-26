@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/DSpace/DSpace/pull/10932",
+  "project" : "DSpace",
+  "projectOrganisation" : "DSpace",
+  "breakingCommit" : "0f07b27fc613d9318820b36729b195050f13dd4c",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.opencsv",
+    "dependencyArtifactID" : "opencsv",
+    "previousVersion" : "5.11.1",
+    "newVersion" : "5.11.2",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "BSD 3-Clause \"New\" or \"Revised\" License"
+}

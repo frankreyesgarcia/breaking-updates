@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/SonarSource/sonar-java/pull/5211",
+  "project" : "sonar-java",
+  "projectOrganisation" : "SonarSource",
+  "breakingCommit" : "4ea7cce5e8c51af3652c8169d4a502d42413030d",
+  "prAuthor" : "human",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "human",
+  "updatedDependency" : {
+    "dependencyGroupID" : "${project.groupId}",
+    "dependencyArtifactID" : "jdt-package",
+    "previousVersion" : "1.5.0.145",
+    "newVersion" : "1.6.0.160",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Other"
+}

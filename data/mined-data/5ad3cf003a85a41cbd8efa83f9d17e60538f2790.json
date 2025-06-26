@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/seize-the-dave/jscep/pull/376",
+  "project" : "jscep",
+  "projectOrganisation" : "seize-the-dave",
+  "breakingCommit" : "5ad3cf003a85a41cbd8efa83f9d17e60538f2790",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "commons-io",
+    "dependencyArtifactID" : "commons-io",
+    "previousVersion" : "2.18.0",
+    "newVersion" : "2.19.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "MIT License"
+}
