@@ -171,12 +171,12 @@ public class ResultManager {
     /**
      * Store results when the reproduction is successful.
      */
-    public void storeResult(BreakingUpdate bu, String postContainerId, String prevContainerId) {
+    public void storeResult(BreakingUpdate bu, String postContainerId, String prevContainerId, FailureCategory failureCategoryFilter, String javaVersion) {
         Path logOutputLocation = successfulReproductionLogDir.resolve(bu.breakingCommit + ".log");
         // Push the saved log file to the cache repo.
         try {
             byte[] fileContent = Files.readAllBytes(logOutputLocation);
-            pushFiles(bu.breakingCommit, logOutputLocation.toFile().getName(), fileContent);
+//            pushFiles(bu.breakingCommit, logOutputLocation.toFile().getName(), fileContent);
         } catch (IOException e) {
             log.error("Failed to push the {} to the {}.", logOutputLocation.toFile().getName(), CACHE_REPO, e);
         }
@@ -207,30 +207,51 @@ public class ResultManager {
         // Delete the BreakingUpdateJSON data from the in-progress-reproductions directory.
         removeBreakingUpdateFile(bu);
         // Set the default Java version used for the reproduction.
-        reproducibleBU.setJavaVersionUsedForReproduction();
+        if (javaVersion != null) {
+            reproducibleBU.setJavaVersionUsedForReproduction(javaVersion);
+        } else {
+            reproducibleBU.setJavaVersionUsedForReproduction();
+
+        }
         // Get failure category.
         FailureCategory failureCategory = getFailureCategory(logOutputLocation);
         // Set failure category for the reproducible breaking update.
         reproducibleBU.setFailureCategory(failureCategory);
 
-        // Create docker images.
-        log.info("Creating images for breaking update {}", reproducibleBU.breakingCommit);
-        createImage(reproducibleBU, prevContainerId, PRECEDING_COMMIT_CONTAINER_TAG);
-        createImage(reproducibleBU, postContainerId, BREAKING_UPDATE_COMMIT_CONTAINER_TAG);
-        log.info("Pushing the created images for breaking update {}", reproducibleBU.breakingCommit);
-        pushImage(reproducibleBU, PRECEDING_COMMIT_CONTAINER_TAG, registryCredentials);
-        pushImage(reproducibleBU, BREAKING_UPDATE_COMMIT_CONTAINER_TAG, registryCredentials);
-        storeImageMetadata(reproducibleBU, List.of(PRECEDING_COMMIT_CONTAINER_TAG, BREAKING_UPDATE_COMMIT_CONTAINER_TAG),
-                List.of("/root/.m2", "/" + reproducibleBU.project));
-        reproducibleBU.setPreCommitReproductionCommand("docker run %s:%s%s".formatted(REPOSITORY, reproducibleBU.breakingCommit,
-                PRECEDING_COMMIT_CONTAINER_TAG));
-        reproducibleBU.setBreakingUpdateReproductionCommand("docker run %s:%s%s".formatted(REPOSITORY,
-                reproducibleBU.breakingCommit, BREAKING_UPDATE_COMMIT_CONTAINER_TAG));
+        //Submit only if the failure category matches the filter.
+        if (failureCategory.equals(failureCategoryFilter)) {
+            // Create docker images.
+            log.info("Creating images for breaking update {}", reproducibleBU.breakingCommit);
+            createImage(reproducibleBU, prevContainerId, PRECEDING_COMMIT_CONTAINER_TAG);
+            createImage(reproducibleBU, postContainerId, BREAKING_UPDATE_COMMIT_CONTAINER_TAG);
+            log.info("Pushing the created images for breaking update {}", reproducibleBU.breakingCommit);
+            pushImage(reproducibleBU, PRECEDING_COMMIT_CONTAINER_TAG, registryCredentials);
+            pushImage(reproducibleBU, BREAKING_UPDATE_COMMIT_CONTAINER_TAG, registryCredentials);
+            storeImageMetadata(reproducibleBU, List.of(PRECEDING_COMMIT_CONTAINER_TAG, BREAKING_UPDATE_COMMIT_CONTAINER_TAG),
+                    List.of("/root/.m2", "/" + reproducibleBU.project));
+            reproducibleBU.setPreCommitReproductionCommand("docker run %s:%s%s".formatted(REPOSITORY, reproducibleBU.breakingCommit,
+                    PRECEDING_COMMIT_CONTAINER_TAG));
+            reproducibleBU.setBreakingUpdateReproductionCommand("docker run %s:%s%s".formatted(REPOSITORY,
+                    reproducibleBU.breakingCommit, BREAKING_UPDATE_COMMIT_CONTAINER_TAG));
 
-        // Add the reproducible breaking update file to the benchmark.
-        log.info("Storing result {} for successfully reproduced breaking update {}", failureCategory, reproducibleBU.breakingCommit);
-        JsonUtils.writeToFile(benchmarkDir.resolve(reproducibleBU.breakingCommit + JsonUtils.JSON_FILE_ENDING),
-                reproducibleBU);
+            // Add the reproducible breaking update file to the benchmark.
+            log.info("Storing result {} for successfully reproduced breaking update {}", failureCategory, reproducibleBU.breakingCommit);
+            JsonUtils.writeToFile(benchmarkDir.resolve(reproducibleBU.breakingCommit + JsonUtils.JSON_FILE_ENDING),
+                    reproducibleBU);
+            // Delete the local images.
+            deleteImages(reproducibleBU.breakingCommit);
+        } else {
+            Path benchmarkDir = this.benchmarkDir.getParent().resolve("breaking-updates-filtered");
+            if(!Files.exists(benchmarkDir)) {
+                try {
+                    Files.createDirectories(benchmarkDir);
+                } catch (IOException e) {
+                    log.error("Could not create the benchmark directory for filtered breaking updates", e);
+                }
+            }
+            JsonUtils.writeToFile(benchmarkDir.resolve(reproducibleBU.breakingCommit + JsonUtils.JSON_FILE_ENDING),
+                    reproducibleBU);
+        }
 
         if (workflowDir != null) {
             // Download the workflow log files.
@@ -241,8 +262,6 @@ public class ResultManager {
                 log.error("Could not download the workflow log files for the BU {}", reproducibleBU.breakingCommit, e);
             }
         }
-        // Delete the local images.
-        deleteImages(reproducibleBU.breakingCommit);
     }
 
     /**
@@ -252,7 +271,8 @@ public class ResultManager {
         log.info("Removing the JSON file from the in-progress-reproductions directory.");
         boolean isRemovingSuccessful = notReproducedDataDir.resolve(bu.breakingCommit + JsonUtils.JSON_FILE_ENDING)
                 .toFile().delete();
-        if (!isRemovingSuccessful) log.error("Could not remove the JSON file from the in-progress-reproductions directory.");
+        if (!isRemovingSuccessful)
+            log.error("Could not remove the JSON file from the in-progress-reproductions directory.");
     }
 
     /**
@@ -298,7 +318,7 @@ public class ResultManager {
                 // Push the saved old jar/pom file to the cache repo.
                 String jarName = "%s__%s__%s___prev.%s".formatted(bu.updatedDependency.dependencyGroupID, bu.updatedDependency
                         .dependencyArtifactID, bu.updatedDependency.previousVersion, type);
-                pushFiles(bu.breakingCommit, jarName, fileContent);
+//                pushFiles(bu.breakingCommit, jarName, fileContent);
             } catch (NotFoundException e) {
                 if (type.equals("jar")) {
                     log.info("Could not find the old jar for breaking update {}. Searching for a pom instead...",
@@ -326,7 +346,7 @@ public class ResultManager {
                 // Push the saved new jar/pom file to the cache repo.
                 String jarName = "%s__%s__%s___new.%s".formatted(bu.updatedDependency.dependencyGroupID, bu.updatedDependency
                         .dependencyArtifactID, bu.updatedDependency.newVersion, type);
-                pushFiles(bu.breakingCommit, jarName, fileContent);
+//                pushFiles(bu.breakingCommit, jarName, fileContent);
                 return updateType;
             } catch (NotFoundException e) {
                 if (type.equals("jar")) {
@@ -514,5 +534,19 @@ public class ResultManager {
     private void deleteImages(String buCommit) {
         client.removeImageCmd(REPOSITORY + ":" + buCommit + PRECEDING_COMMIT_CONTAINER_TAG).withForce(true).exec();
         client.removeImageCmd(REPOSITORY + ":" + buCommit + BREAKING_UPDATE_COMMIT_CONTAINER_TAG).withForce(true).exec();
+    }
+
+
+    /**
+     * Get the GitHub instance using the token queue and HTTP connector.
+     *
+     * @return the GitHub instance
+     */
+    public GitHub getGitHub() {
+        try {
+            return tokenQueue.getGitHub(httpConnector);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
     }
 }

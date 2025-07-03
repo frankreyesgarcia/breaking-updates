@@ -17,7 +17,7 @@ import java.nio.file.StandardOpenOption;
 public class JsonUtils {
 
     /** The default JSON file ending ".json" */
-    public static final String JSON_FILE_ENDING = ".json";
+    public static final String  JSON_FILE_ENDING = ".json";
 
     /** The string representing an empty JSON object */
     public static final String EMPTY_JSON_OBJECT = "{}";

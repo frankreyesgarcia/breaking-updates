@@ -2,6 +2,7 @@ package reproducer;
 
 import miner.BreakingUpdate;
 import miner.JsonUtils;
+import miner.ReproducibleBreakingUpdate;
 import picocli.CommandLine;
 
 import java.io.File;
@@ -103,7 +104,7 @@ public class Main {
                 names = {"-ud", "--user-data-dir"},
                 paramLabel = "USER-DATA-DIR",
                 description = "The directory where the user data in Chrome is saved. This is required to keep an active " +
-                        "web session with GitHub, when downloading the workflow log files. If it is not necessary to download" + 
+                        "web session with GitHub, when downloading the workflow log files. If it is not necessary to download" +
                         "workflow logs, this option can be ignored."
         )
         String userDataDir;
@@ -115,6 +116,14 @@ public class Main {
         )
         String chromeDriverPath;
 
+        @CommandLine.Option(
+                names = {"-fc", "--failure-category"},
+                paramLabel = "FAILURE-CATEGORY",
+                description = "The failure category to reproduce. If not specified, all failure categories will be reproduced.",
+                defaultValue = "TEST_FAILURE"
+        )
+        ReproducibleBreakingUpdate.FailureCategory failureCategory;
+
         @Override
         public void run() {
             try {
@@ -123,7 +132,7 @@ public class Main {
                         .fromJson(credentialsFile);
                 ResultManager resultManager = new ResultManager(apiTokens, benchmarkDir, unsuccessfulReproductionsDir,
                         notReproducedDataDir, logDir, jarDir, workflowDir, userDataDir, chromeDriverPath, credentials);
-                BreakingUpdateReproducer reproducer = new BreakingUpdateReproducer(resultManager);
+                BreakingUpdateReproducer reproducer = new BreakingUpdateReproducer(resultManager, failureCategory);
                 if (breakingUpdateFile != null) {
                     BreakingUpdate bu = JsonUtils.readFromFile(breakingUpdateFile, BreakingUpdate.class);
                     reproducer.reproduce(bu);

@@ -13,10 +13,12 @@ import com.github.dockerjava.transport.DockerHttpClient;
 import miner.BreakingUpdate;
 import miner.JsonUtils;
 import miner.ReproducibleBreakingUpdate;
+import org.kohsuke.github.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.io.File;
+import java.io.IOException;
 import java.util.*;
 
 /**
@@ -27,19 +29,20 @@ import java.util.*;
  */
 public class BreakingUpdateReproducer {
 
-    public static final String BASE_IMAGE = "ghcr.io/chains-project/breaking-updates:base-image";
+    public static String BASE_IMAGE = "ghcr.io/chains-project/breaking-updates:base-image";
     private final Logger log = LoggerFactory.getLogger(this.getClass());
     private static final Short EXIT_CODE_OK = 0;
 
     private final ResultManager resultManager;
     private final DockerClient client;
+    private final ReproducibleBreakingUpdate.FailureCategory failureCategory;
 
     /**
      * Set up a new BreakingUpdateReproducer creating new Docker images based on {@value BASE_IMAGE}
      *
      * @param resultManager the ResultManager that will store information about reproduction results.
      */
-    public BreakingUpdateReproducer(ResultManager resultManager) {
+    public BreakingUpdateReproducer(ResultManager resultManager, ReproducibleBreakingUpdate.FailureCategory failureCategory) {
         this.resultManager = resultManager;
         DockerClientConfig clientConfig = DefaultDockerClientConfig.createDefaultConfigBuilder()
                 .withRegistryUrl("https://hub.docker.com")
@@ -52,15 +55,17 @@ public class BreakingUpdateReproducer {
         client = DockerClientImpl.getInstance(clientConfig, httpClient);
         log.info("Docker client created");
 
-        try {
-            ensureBaseMavenImageExists();
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
-        }
+//        try {
+//            ensureBaseMavenImageExists();
+//        } catch (InterruptedException e) {
+//            throw new RuntimeException(e);
+//        }
+        this.failureCategory = failureCategory;
     }
 
     /**
      * Iterate through a list of breaking updates and attempt to reproduce if not already attempted.
+     *
      * @param breakingUpdates the list of breaking updates to reproduce.
      */
     public void reproduceAll(File[] breakingUpdates) {
@@ -77,10 +82,14 @@ public class BreakingUpdateReproducer {
 
     /**
      * Attempt to reproduce the given breaking update.
+     *
      * @param bu the breaking update to reproduce.
      */
     public void reproduce(BreakingUpdate bu) throws InterruptedException {
-        createBaseImageForBreakingUpdate(bu);
+        String javaVersion = identifyJavaVersionFromCI(bu, resultManager);
+        System.out.println("Java version used in CI for breaking update " + bu.breakingCommit + ": " + javaVersion);
+
+        createBaseImageForBreakingUpdate(bu, javaVersion);
         Map<String, String> startedContainers = new HashMap<>();
         boolean isPrevBuildSuccessful = false;
         int prevAttemptCount;
@@ -124,8 +133,7 @@ public class BreakingUpdateReproducer {
                 if (attemptCount == 1) {
                     prevFailure = resultManager.getFailure(bu,
                             startedContainers.get("postContainer%s".formatted(attemptCount)), true);
-                }
-                else if (!newFailure.equals(prevFailure)) {
+                } else if (!newFailure.equals(prevFailure)) {
                     log.info("Build has failed due to a different reason in the {} attempt than in the previous attempt."
                             , attemptCount);
                     if (attemptCount > 1) resultManager.removeLogFile(bu, "successfulReproductionLogs");
@@ -147,31 +155,56 @@ public class BreakingUpdateReproducer {
             startedContainers.put("prevCommit",
                     createImageForCommit(bu, startedContainers.get("prevContainer%s".formatted(prevAttemptCount - 1)),
                             "pre"));
-            resultManager.storeResult(bu, startedContainers.get("postCommit"), startedContainers.get("prevCommit"));
+            resultManager.storeResult(bu, startedContainers.get("postCommit"), startedContainers.get("prevCommit"), failureCategory, javaVersion);
             removeContainers(bu, startedContainers.values());
-            removeImages(bu, List.of("base", "pre", "post"));
+//            removeImages(bu, List.of("base", "pre", "post"));
             return;
         }
         resultManager.saveUnsuccessfulReproductionResult(bu);
         removeContainers(bu, startedContainers.values());
-        removeImages(bu, List.of("base"));
+//        removeImages(bu, List.of("base"));
     }
 
-    /** Remove the containers created during the reproduction of the breaking update */
+    /**
+     * Identify the Java version used in the CI for the given breaking update.
+     * This method is a placeholder and should be implemented to extract the Java version
+     * from the CI logs or configuration.
+     *
+     * @param bu the breaking update for which to identify the Java version.
+     */
+    private String identifyJavaVersionFromCI(BreakingUpdate bu, ResultManager resultManager) {
+        log.info("Identifying Java version used in CI for breaking update {}", bu.breakingCommit);
+        JavaVersionParser javaVersionParser = new JavaVersionParser(bu, resultManager);
+        String javaVersions = javaVersionParser.parseJavaVersion();
+        if (javaVersions.isEmpty()) {
+            log.warn("No Java versions found in CI for breaking update {}", bu.breakingCommit);
+        } else {
+            log.info("Identified Java versions for breaking update {}: {}", bu.breakingCommit, javaVersions);
+        }
+        return javaVersions;
+    }
+
+    /**
+     * Remove the containers created during the reproduction of the breaking update
+     */
     private void removeContainers(BreakingUpdate bu, Collection<String> startedContainers) {
         log.info("Removing containers for breaking update {}", bu.breakingCommit);
         for (String containerId : startedContainers)
             client.removeContainerCmd(containerId).exec();
     }
 
-    /** Remove unwanted images created in intermediate steps when storing results for the breaking update **/
+    /**
+     * Remove unwanted images created in intermediate steps when storing results for the breaking update
+     **/
     private void removeImages(BreakingUpdate bu, List<String> extraTags) {
         for (String tag : extraTags) {
             client.removeImageCmd(bu.breakingCommit + ":" + tag).exec();
         }
     }
 
-    /** Start a container for the given breaking update with a specific command */
+    /**
+     * Start a container for the given breaking update with a specific command
+     */
     private String startContainer(BreakingUpdate bu, String cmd) {
         CreateContainerResponse container = client.createContainerCmd(bu.breakingCommit + ":base")
                 .withWorkingDir("/" + bu.project)
@@ -181,24 +214,32 @@ public class BreakingUpdateReproducer {
         return container.getId();
     }
 
-    /** Command to compile and test the preceding commit of the breaking update */
+    /**
+     * Command to compile and test the preceding commit of the breaking update
+     */
     private static String getPrevCmd(BreakingUpdate bu) {
         return "set -o pipefail && git checkout %s && git checkout HEAD~1 && rm -rf .git && mvn clean test -B | tee %s.log"
                 .formatted(bu.breakingCommit, bu.breakingCommit);
     }
 
-    /** Command to compile and test the breaking update */
+    /**
+     * Command to compile and test the breaking update
+     */
     private static String getPostCmd(BreakingUpdate bu) {
         return "set -o pipefail && git checkout %s && rm -rf .git && mvn clean test -B | tee %s.log"
                 .formatted(bu.breakingCommit, bu.breakingCommit);
     }
 
-    /** Command to compile and test the breaking update to be used in the final debloated image */
+    /**
+     * Command to compile and test the breaking update to be used in the final debloated image
+     */
     private static String getCmd() {
         return "mvn clean test -B";
     }
 
-    /** Ensure that the maven docker image we use as a base exists */
+    /**
+     * Ensure that the maven docker image we use as a base exists
+     */
     public void ensureBaseMavenImageExists() throws InterruptedException {
         try {
             client.inspectImageCmd(BASE_IMAGE).exec();
@@ -211,10 +252,20 @@ public class BreakingUpdateReproducer {
         }
     }
 
-    /** Create a new base docker image for the given breaking update **/
-    private void createBaseImageForBreakingUpdate(BreakingUpdate bu) {
+    /**
+     * Create a new base docker image for the given breaking update
+     **/
+    private void createBaseImageForBreakingUpdate(BreakingUpdate bu, String javaVersion) throws InterruptedException {
         log.info("Creating docker image for breaking update {}", bu.breakingCommit);
         String projectUrl = bu.url.replaceAll("/pull/\\d+", "");
+
+        //define base image based on the Java version if provided
+        if (javaVersion != null && !javaVersion.isEmpty()) {
+            BASE_IMAGE = JavaVersionParser.baseImage(javaVersion);
+        }
+
+        ensureBaseMavenImageExists();
+
         CreateContainerResponse container = client.createContainerCmd(BASE_IMAGE)
                 .withCmd("/bin/sh", "-c", "git clone " + projectUrl +
                         " && cd " + bu.project + " && git fetch --depth 2 origin " + bu.breakingCommit)
@@ -234,7 +285,9 @@ public class BreakingUpdateReproducer {
         client.removeContainerCmd(container.getId()).exec();
     }
 
-    /** Create new docker images for the previous and post commits of the given breaking update **/
+    /**
+     * Create new docker images for the previous and post commits of the given breaking update
+     **/
     private String createImageForCommit(BreakingUpdate bu, String containerId, String extraTag) {
         client.commitCmd(containerId).withRepository(bu.breakingCommit).withTag(extraTag).exec();
         CreateContainerResponse container = client.createContainerCmd(bu.breakingCommit + ":" + extraTag)
