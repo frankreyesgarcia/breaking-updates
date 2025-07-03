@@ -35,13 +35,14 @@ public class BreakingUpdateReproducer {
 
     private final ResultManager resultManager;
     private final DockerClient client;
+    private final ReproducibleBreakingUpdate.FailureCategory failureCategory;
 
     /**
      * Set up a new BreakingUpdateReproducer creating new Docker images based on {@value BASE_IMAGE}
      *
      * @param resultManager the ResultManager that will store information about reproduction results.
      */
-    public BreakingUpdateReproducer(ResultManager resultManager) {
+    public BreakingUpdateReproducer(ResultManager resultManager, ReproducibleBreakingUpdate.FailureCategory failureCategory) {
         this.resultManager = resultManager;
         DockerClientConfig clientConfig = DefaultDockerClientConfig.createDefaultConfigBuilder()
                 .withRegistryUrl("https://hub.docker.com")
@@ -54,11 +55,12 @@ public class BreakingUpdateReproducer {
         client = DockerClientImpl.getInstance(clientConfig, httpClient);
         log.info("Docker client created");
 
-        try {
-            ensureBaseMavenImageExists();
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
-        }
+//        try {
+//            ensureBaseMavenImageExists();
+//        } catch (InterruptedException e) {
+//            throw new RuntimeException(e);
+//        }
+        this.failureCategory = failureCategory;
     }
 
     /**
@@ -153,7 +155,7 @@ public class BreakingUpdateReproducer {
             startedContainers.put("prevCommit",
                     createImageForCommit(bu, startedContainers.get("prevContainer%s".formatted(prevAttemptCount - 1)),
                             "pre"));
-            resultManager.storeResult(bu, startedContainers.get("postCommit"), startedContainers.get("prevCommit"));
+            resultManager.storeResult(bu, startedContainers.get("postCommit"), startedContainers.get("prevCommit"), failureCategory, javaVersion);
             removeContainers(bu, startedContainers.values());
 //            removeImages(bu, List.of("base", "pre", "post"));
             return;
@@ -261,6 +263,8 @@ public class BreakingUpdateReproducer {
         if (javaVersion != null && !javaVersion.isEmpty()) {
             BASE_IMAGE = JavaVersionParser.baseImage(javaVersion);
         }
+
+        ensureBaseMavenImageExists();
 
         CreateContainerResponse container = client.createContainerCmd(BASE_IMAGE)
                 .withCmd("/bin/sh", "-c", "git clone " + projectUrl +

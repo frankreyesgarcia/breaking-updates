@@ -171,7 +171,7 @@ public class ResultManager {
     /**
      * Store results when the reproduction is successful.
      */
-    public void storeResult(BreakingUpdate bu, String postContainerId, String prevContainerId) {
+    public void storeResult(BreakingUpdate bu, String postContainerId, String prevContainerId, FailureCategory failureCategoryFilter, String javaVersion) {
         Path logOutputLocation = successfulReproductionLogDir.resolve(bu.breakingCommit + ".log");
         // Push the saved log file to the cache repo.
         try {
@@ -207,30 +207,51 @@ public class ResultManager {
         // Delete the BreakingUpdateJSON data from the in-progress-reproductions directory.
         removeBreakingUpdateFile(bu);
         // Set the default Java version used for the reproduction.
-        reproducibleBU.setJavaVersionUsedForReproduction();
+        if (javaVersion != null) {
+            reproducibleBU.setJavaVersionUsedForReproduction(javaVersion);
+        } else {
+            reproducibleBU.setJavaVersionUsedForReproduction();
+
+        }
         // Get failure category.
         FailureCategory failureCategory = getFailureCategory(logOutputLocation);
         // Set failure category for the reproducible breaking update.
         reproducibleBU.setFailureCategory(failureCategory);
 
-        // Create docker images.
-        log.info("Creating images for breaking update {}", reproducibleBU.breakingCommit);
-        createImage(reproducibleBU, prevContainerId, PRECEDING_COMMIT_CONTAINER_TAG);
-        createImage(reproducibleBU, postContainerId, BREAKING_UPDATE_COMMIT_CONTAINER_TAG);
-        log.info("Pushing the created images for breaking update {}", reproducibleBU.breakingCommit);
-        pushImage(reproducibleBU, PRECEDING_COMMIT_CONTAINER_TAG, registryCredentials);
-        pushImage(reproducibleBU, BREAKING_UPDATE_COMMIT_CONTAINER_TAG, registryCredentials);
-        storeImageMetadata(reproducibleBU, List.of(PRECEDING_COMMIT_CONTAINER_TAG, BREAKING_UPDATE_COMMIT_CONTAINER_TAG),
-                List.of("/root/.m2", "/" + reproducibleBU.project));
-        reproducibleBU.setPreCommitReproductionCommand("docker run %s:%s%s".formatted(REPOSITORY, reproducibleBU.breakingCommit,
-                PRECEDING_COMMIT_CONTAINER_TAG));
-        reproducibleBU.setBreakingUpdateReproductionCommand("docker run %s:%s%s".formatted(REPOSITORY,
-                reproducibleBU.breakingCommit, BREAKING_UPDATE_COMMIT_CONTAINER_TAG));
+        //Submit only if the failure category matches the filter.
+        if (failureCategory.equals(failureCategoryFilter)) {
+            // Create docker images.
+            log.info("Creating images for breaking update {}", reproducibleBU.breakingCommit);
+            createImage(reproducibleBU, prevContainerId, PRECEDING_COMMIT_CONTAINER_TAG);
+            createImage(reproducibleBU, postContainerId, BREAKING_UPDATE_COMMIT_CONTAINER_TAG);
+            log.info("Pushing the created images for breaking update {}", reproducibleBU.breakingCommit);
+            pushImage(reproducibleBU, PRECEDING_COMMIT_CONTAINER_TAG, registryCredentials);
+            pushImage(reproducibleBU, BREAKING_UPDATE_COMMIT_CONTAINER_TAG, registryCredentials);
+            storeImageMetadata(reproducibleBU, List.of(PRECEDING_COMMIT_CONTAINER_TAG, BREAKING_UPDATE_COMMIT_CONTAINER_TAG),
+                    List.of("/root/.m2", "/" + reproducibleBU.project));
+            reproducibleBU.setPreCommitReproductionCommand("docker run %s:%s%s".formatted(REPOSITORY, reproducibleBU.breakingCommit,
+                    PRECEDING_COMMIT_CONTAINER_TAG));
+            reproducibleBU.setBreakingUpdateReproductionCommand("docker run %s:%s%s".formatted(REPOSITORY,
+                    reproducibleBU.breakingCommit, BREAKING_UPDATE_COMMIT_CONTAINER_TAG));
 
-        // Add the reproducible breaking update file to the benchmark.
-        log.info("Storing result {} for successfully reproduced breaking update {}", failureCategory, reproducibleBU.breakingCommit);
-        JsonUtils.writeToFile(benchmarkDir.resolve(reproducibleBU.breakingCommit + JsonUtils.JSON_FILE_ENDING),
-                reproducibleBU);
+            // Add the reproducible breaking update file to the benchmark.
+            log.info("Storing result {} for successfully reproduced breaking update {}", failureCategory, reproducibleBU.breakingCommit);
+            JsonUtils.writeToFile(benchmarkDir.resolve(reproducibleBU.breakingCommit + JsonUtils.JSON_FILE_ENDING),
+                    reproducibleBU);
+            // Delete the local images.
+            deleteImages(reproducibleBU.breakingCommit);
+        } else {
+            Path benchmarkDir = this.benchmarkDir.getParent().resolve("breaking-updates-filtered");
+            if(!Files.exists(benchmarkDir)) {
+                try {
+                    Files.createDirectories(benchmarkDir);
+                } catch (IOException e) {
+                    log.error("Could not create the benchmark directory for filtered breaking updates", e);
+                }
+            }
+            JsonUtils.writeToFile(benchmarkDir.resolve(reproducibleBU.breakingCommit + JsonUtils.JSON_FILE_ENDING),
+                    reproducibleBU);
+        }
 
         if (workflowDir != null) {
             // Download the workflow log files.
@@ -241,8 +262,6 @@ public class ResultManager {
                 log.error("Could not download the workflow log files for the BU {}", reproducibleBU.breakingCommit, e);
             }
         }
-        // Delete the local images.
-        deleteImages(reproducibleBU.breakingCommit);
     }
 
     /**

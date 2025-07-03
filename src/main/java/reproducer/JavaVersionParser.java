@@ -69,10 +69,7 @@ public class JavaVersionParser {
 
 
             if (!failedJobDetails.getJavaVersions().isEmpty()) {
-                failedJobDetails.getJavaVersions().forEach(System.out::println);
-                System.out.println("Failed jobs: " + String.join(", ", failedJobDetails.getFailedJobNames()));
                 String candidates = identifyJavaVersionCandidates(failedJobDetails);
-                System.out.println("Identified Java version candidates: " + candidates);
                 return candidates;
             } else {
                 System.out.println("No Java versions found in any failed jobs.");
@@ -124,13 +121,10 @@ public class JavaVersionParser {
             if ("failure".equalsIgnoreCase(String.valueOf(job.getConclusion()))) {
                 System.out.println("  Failed job details:");
                 System.out.println("    Name: " + job.getName());
-                System.out.println("    ID: " + job.getId());
-
                 details.getFailedJobNames().add(job.getName()); // Store failed job name
 
                 List<String> version = parseJavaVersionsFromJobLogsOrFile(job, workflows);
                 if (!version.isEmpty()) {
-                    System.out.println("    Java versions found in logs: " + String.join(", ", version));
                     details.getJavaVersions().addAll(version); // Store Java versions
                 } else {
                     System.out.println("    No Java versions found in logs.");
