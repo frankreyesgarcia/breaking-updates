@@ -22,14 +22,15 @@ import java.io.IOException;
 import java.util.*;
 
 /**
- * The BreakingUpdateReproducer class attempts to reproduce breaking updates in a container.
+ * The BreakingUpdateReproducer class attempts to reproduce breaking updates in
+ * a container.
  * In case of a successful reproduction, the resulting container is stored.
  *
  * @author <a href="mailto:gabsko@kth.se">Gabriel Skoglund</a>
  */
 public class BreakingUpdateReproducer {
 
-    public static String BASE_IMAGE = "ghcr.io/chains-project/breaking-updates:base-image";
+    public String BASE_IMAGE = "ghcr.io/chains-project/breaking-updates:base-image";
     private final Logger log = LoggerFactory.getLogger(this.getClass());
     private static final Short EXIT_CODE_OK = 0;
 
@@ -38,11 +39,14 @@ public class BreakingUpdateReproducer {
     private final ReproducibleBreakingUpdate.FailureCategory failureCategory;
 
     /**
-     * Set up a new BreakingUpdateReproducer creating new Docker images based on {@value BASE_IMAGE}
+     * Set up a new BreakingUpdateReproducer creating new Docker images based on
+     * {@value BASE_IMAGE}
      *
-     * @param resultManager the ResultManager that will store information about reproduction results.
+     * @param resultManager the ResultManager that will store information about
+     *                      reproduction results.
      */
-    public BreakingUpdateReproducer(ResultManager resultManager, ReproducibleBreakingUpdate.FailureCategory failureCategory) {
+    public BreakingUpdateReproducer(ResultManager resultManager,
+            ReproducibleBreakingUpdate.FailureCategory failureCategory) {
         this.resultManager = resultManager;
         DockerClientConfig clientConfig = DefaultDockerClientConfig.createDefaultConfigBuilder()
                 .withRegistryUrl("https://hub.docker.com")
@@ -55,16 +59,17 @@ public class BreakingUpdateReproducer {
         client = DockerClientImpl.getInstance(clientConfig, httpClient);
         log.info("Docker client created");
 
-//        try {
-//            ensureBaseMavenImageExists();
-//        } catch (InterruptedException e) {
-//            throw new RuntimeException(e);
-//        }
+        // try {
+        // ensureBaseMavenImageExists();
+        // } catch (InterruptedException e) {
+        // throw new RuntimeException(e);
+        // }
         this.failureCategory = failureCategory;
     }
 
     /**
-     * Iterate through a list of breaking updates and attempt to reproduce if not already attempted.
+     * Iterate through a list of breaking updates and attempt to reproduce if not
+     * already attempted.
      *
      * @param breakingUpdates the list of breaking updates to reproduce.
      */
@@ -93,16 +98,18 @@ public class BreakingUpdateReproducer {
         Map<String, String> startedContainers = new HashMap<>();
         boolean isPrevBuildSuccessful = false;
         int prevAttemptCount;
-        // Try running tests 3 times for the previous commit to ensure that the build is reproducible.
+        // Try running tests 3 times for the previous commit to ensure that the build is
+        // reproducible.
         for (prevAttemptCount = 1; prevAttemptCount < 4; prevAttemptCount++) {
             log.info("Attempting for the {} time to compile and test the previous commit of breaking update {}",
                     prevAttemptCount, bu.breakingCommit);
             startedContainers.put("prevContainer%s".formatted(prevAttemptCount), startContainer(bu, getPrevCmd(bu)));
             WaitContainerResultCallback result = client.waitContainerCmd(startedContainers.get("prevContainer%s"
-                            .formatted(prevAttemptCount)))
+                    .formatted(prevAttemptCount)))
                     .exec(new WaitContainerResultCallback());
             if (result.awaitStatusCode().intValue() != EXIT_CODE_OK) {
-                log.info("Build failed for the previous commit of {} in the {} attempt.", bu.breakingCommit, prevAttemptCount);
+                log.info("Build failed for the previous commit of {} in the {} attempt.", bu.breakingCommit,
+                        prevAttemptCount);
                 break;
             } else {
                 if (prevAttemptCount > 2) {
@@ -123,7 +130,8 @@ public class BreakingUpdateReproducer {
         ReproducibleBreakingUpdate.FailureCategory newFailure;
         // Try running tests 3 times to ensure that the breakage is reproducible.
         for (attemptCount = 1; attemptCount < 4; attemptCount++) {
-            log.info("Attempting for the {} time to compile and test breaking update {}", attemptCount, bu.breakingCommit);
+            log.info("Attempting for the {} time to compile and test breaking update {}", attemptCount,
+                    bu.breakingCommit);
             startedContainers.put("postContainer%s".formatted(attemptCount), startContainer(bu, getPostCmd(bu)));
             WaitContainerResultCallback result = client.waitContainerCmd(startedContainers.get("postContainer%s"
                     .formatted(attemptCount))).exec(new WaitContainerResultCallback());
@@ -134,17 +142,21 @@ public class BreakingUpdateReproducer {
                     prevFailure = resultManager.getFailure(bu,
                             startedContainers.get("postContainer%s".formatted(attemptCount)), true);
                 } else if (!newFailure.equals(prevFailure)) {
-                    log.info("Build has failed due to a different reason in the {} attempt than in the previous attempt."
-                            , attemptCount);
-                    if (attemptCount > 1) resultManager.removeLogFile(bu, "successfulReproductionLogs");
+                    log.info(
+                            "Build has failed due to a different reason in the {} attempt than in the previous attempt.",
+                            attemptCount);
+                    if (attemptCount > 1)
+                        resultManager.removeLogFile(bu, "successfulReproductionLogs");
                     break;
                 } else if (attemptCount > 2) {
                     isBuildSuccessfullyFailed = true;
                 }
             } else {
                 log.info("Breaking commit did not fail in the {} attempt.", attemptCount);
-                // Remove the log file saved in the successful directory in the previous attempts.
-                if (attemptCount > 1) resultManager.removeLogFile(bu, "successfulReproductionLogs");
+                // Remove the log file saved in the successful directory in the previous
+                // attempts.
+                if (attemptCount > 1)
+                    resultManager.removeLogFile(bu, "successfulReproductionLogs");
                 break;
             }
         }
@@ -155,19 +167,21 @@ public class BreakingUpdateReproducer {
             startedContainers.put("prevCommit",
                     createImageForCommit(bu, startedContainers.get("prevContainer%s".formatted(prevAttemptCount - 1)),
                             "pre"));
-            resultManager.storeResult(bu, startedContainers.get("postCommit"), startedContainers.get("prevCommit"), failureCategory, javaVersion);
+            resultManager.storeResult(bu, startedContainers.get("postCommit"), startedContainers.get("prevCommit"),
+                    failureCategory, javaVersion);
             removeContainers(bu, startedContainers.values());
-//            removeImages(bu, List.of("base", "pre", "post"));
+            removeImages(bu, List.of("base", "pre", "post"));
             return;
         }
         resultManager.saveUnsuccessfulReproductionResult(bu);
         removeContainers(bu, startedContainers.values());
-//        removeImages(bu, List.of("base"));
+        removeImages(bu, List.of("base"));
     }
 
     /**
      * Identify the Java version used in the CI for the given breaking update.
-     * This method is a placeholder and should be implemented to extract the Java version
+     * This method is a placeholder and should be implemented to extract the Java
+     * version
      * from the CI logs or configuration.
      *
      * @param bu the breaking update for which to identify the Java version.
@@ -194,7 +208,8 @@ public class BreakingUpdateReproducer {
     }
 
     /**
-     * Remove unwanted images created in intermediate steps when storing results for the breaking update
+     * Remove unwanted images created in intermediate steps when storing results for
+     * the breaking update
      **/
     private void removeImages(BreakingUpdate bu, List<String> extraTags) {
         for (String tag : extraTags) {
@@ -231,7 +246,8 @@ public class BreakingUpdateReproducer {
     }
 
     /**
-     * Command to compile and test the breaking update to be used in the final debloated image
+     * Command to compile and test the breaking update to be used in the final
+     * debloated image
      */
     private static String getCmd() {
         return "mvn clean test -B";
@@ -259,7 +275,7 @@ public class BreakingUpdateReproducer {
         log.info("Creating docker image for breaking update {}", bu.breakingCommit);
         String projectUrl = bu.url.replaceAll("/pull/\\d+", "");
 
-        //define base image based on the Java version if provided
+        // define base image based on the Java version if provided
         if (javaVersion != null && !javaVersion.isEmpty()) {
             BASE_IMAGE = JavaVersionParser.baseImage(javaVersion);
         }
@@ -286,7 +302,8 @@ public class BreakingUpdateReproducer {
     }
 
     /**
-     * Create new docker images for the previous and post commits of the given breaking update
+     * Create new docker images for the previous and post commits of the given
+     * breaking update
      **/
     private String createImageForCommit(BreakingUpdate bu, String containerId, String extraTag) {
         client.commitCmd(containerId).withRepository(bu.breakingCommit).withTag(extraTag).exec();

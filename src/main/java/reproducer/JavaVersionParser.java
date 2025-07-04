@@ -11,8 +11,10 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 /**
- * The JavaVersionParser class is responsible for parsing the Java versions used in the failed jobs of a GitHub workflow.
- * It retrieves the workflow runs for a specific commit and extracts the Java versions from the job logs or workflow files.
+ * The JavaVersionParser class is responsible for parsing the Java versions used
+ * in the failed jobs of a GitHub workflow.
+ * It retrieves the workflow runs for a specific commit and extracts the Java
+ * versions from the job logs or workflow files.
  */
 
 public class JavaVersionParser {
@@ -23,7 +25,6 @@ public class JavaVersionParser {
     private final String breakingCommit;
     private final GitHub github;
 
-
     public JavaVersionParser(BreakingUpdate breakingUpdate, ResultManager resultManager) {
         this.breakingUpdate = breakingUpdate;
         this.projectOrganisation = breakingUpdate.projectOrganisation;
@@ -31,7 +32,6 @@ public class JavaVersionParser {
         this.breakingCommit = breakingUpdate.breakingCommit;
         this.github = resultManager.getGitHub();
     }
-
 
     public String parseJavaVersion() {
 
@@ -66,7 +66,6 @@ public class JavaVersionParser {
                     }
                 }
             }
-
 
             if (!failedJobDetails.getJavaVersions().isEmpty()) {
                 String candidates = identifyJavaVersionCandidates(failedJobDetails);
@@ -133,7 +132,8 @@ public class JavaVersionParser {
         }
 
         if (!details.getJavaVersions().isEmpty()) {
-            System.out.println("Java versions found in all failed jobs: " + String.join(", ", details.getJavaVersions()));
+            System.out
+                    .println("Java versions found in all failed jobs: " + String.join(", ", details.getJavaVersions()));
         } else {
             System.out.println("No Java versions found in any failed jobs.");
         }
@@ -148,14 +148,15 @@ public class JavaVersionParser {
         return javaVersions;
     }
 
-    private static void parseJavaVersionsFromWorkflowFiles(GHWorkflowJob job, List<GHContent> workflows, List<String> javaVersions) {
+    private static void parseJavaVersionsFromWorkflowFiles(GHWorkflowJob job, List<GHContent> workflows,
+            List<String> javaVersions) {
         for (GHContent workflow : workflows) {
             try (InputStream inputStream = workflow.read()) {
                 String fileContent = new String(inputStream.readAllBytes(), StandardCharsets.UTF_8);
-//                if (fileContent.contains(job.getName())) {
+                // if (fileContent.contains(job.getName())) {
                 parseJavaVersions(new ByteArrayInputStream(fileContent.getBytes(StandardCharsets.UTF_8)), javaVersions);
-//                    break;
-//                }
+                // break;
+                // }
             } catch (IOException e) {
                 logError("Error reading workflow file: " + e.getMessage());
             }
@@ -166,19 +167,19 @@ public class JavaVersionParser {
         System.err.println(message);
     }
 
-
     private static void parseJavaVersions(InputStream inputStream, List<String> javaVersions) throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream, StandardCharsets.UTF_8));
         String line;
 
         // Patterns to match arrays of Java versions
-        Pattern[] arrayPatterns = new Pattern[]{
+        Pattern[] arrayPatterns = new Pattern[] {
                 Pattern.compile("java\\s*:\\s*\\[\\s*([^\\]]+)\\s*\\]", Pattern.CASE_INSENSITIVE),
                 Pattern.compile("java-version\\s*:\\s*\\[\\s*([^\\]]+)\\s*\\]", Pattern.CASE_INSENSITIVE)
         };
 
         // java_version: 21
-        Pattern javaVersionKeyPattern = Pattern.compile("java_version\\s*[:=]\\s*['\"]?([^\"'\\s,\\]]+)['\"]?", Pattern.CASE_INSENSITIVE);
+        Pattern javaVersionKeyPattern = Pattern.compile("java_version\\s*[:=]\\s*['\"]?([^\"'\\s,\\]]+)['\"]?",
+                Pattern.CASE_INSENSITIVE);
 
         // different patterns to match single Java version strings
         Pattern singleVersionPattern = Pattern.compile(
@@ -186,12 +187,11 @@ public class JavaVersionParser {
                         "|java-version\\s*[:=]\\s*['\"]?([^\"'\\s,\\]]+)['\"]?" +
                         "|matrix\\.java\\s*[:=]\\s*['\"]?([^\"'\\s,\\]]+)['\"]?" +
                         "|JAVA_VERSION\\s*[:=]\\s*['\"]?([^\"'\\s,\\]]+)['\"]?",
-                Pattern.CASE_INSENSITIVE
-        );
+                Pattern.CASE_INSENSITIVE);
 
         while ((line = reader.readLine()) != null) {
             // search for array patterns
-//            System.out.println("Processing line: " + line);
+            // System.out.println("Processing line: " + line);
             for (Pattern pattern : arrayPatterns) {
                 Matcher matcher = pattern.matcher(line);
                 if (matcher.find()) {
@@ -263,9 +263,8 @@ public class JavaVersionParser {
                 break;
             default:
                 System.out.println("Unsupported Java version: " + javaVersion + ". Using default base image");
-                break;
+                baseImage = "ghcr.io/chains-project/breaking-updates:base-image";
         }
-
         return baseImage;
     }
 
