@@ -93,7 +93,6 @@ public class JavaVersionParser {
         for (String jobName : failedJobDetails.getFailedJobNames()) {
             for (String javaVersion : failedJobDetails.getJavaVersions()) {
                 if (jobName.contains(javaVersion)) {
-                    System.out.println("Candidate found: " + javaVersion + " in job name: " + jobName);
                     candidates.add(javaVersion);
                 }
             }
@@ -228,8 +227,11 @@ public class JavaVersionParser {
     }
 
     private static void addVersionIfNotPresent(String version, List<String> javaVersions) {
-        if (!version.isEmpty() && !javaVersions.contains(version)) {
-            javaVersions.add(version);
+        // Only allow numeric versions (e.g., 8, 11, 17, 21)
+        if (version != null && !version.isEmpty() && version.matches("\\d+")) {
+            if (!javaVersions.contains(version)) {
+                javaVersions.add(version);
+            }
         }
     }
 
