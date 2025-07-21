@@ -46,7 +46,7 @@ public class BreakingUpdateReproducer {
      *                      reproduction results.
      */
     public BreakingUpdateReproducer(ResultManager resultManager,
-                                    ReproducibleBreakingUpdate.FailureCategory failureCategory) {
+            ReproducibleBreakingUpdate.FailureCategory failureCategory) {
         this.resultManager = resultManager;
         DockerClientConfig clientConfig = DefaultDockerClientConfig.createDefaultConfigBuilder()
                 .withRegistryUrl("https://hub.docker.com")
@@ -105,7 +105,7 @@ public class BreakingUpdateReproducer {
                     prevAttemptCount, bu.breakingCommit);
             startedContainers.put("prevContainer%s".formatted(prevAttemptCount), startContainer(bu, getPrevCmd(bu)));
             WaitContainerResultCallback result = client.waitContainerCmd(startedContainers.get("prevContainer%s"
-                            .formatted(prevAttemptCount)))
+                    .formatted(prevAttemptCount)))
                     .exec(new WaitContainerResultCallback());
             if (result.awaitStatusCode().intValue() != EXIT_CODE_OK) {
                 log.info("Build failed for the previous commit of {} in the {} attempt.", bu.breakingCommit,
@@ -176,6 +176,7 @@ public class BreakingUpdateReproducer {
             return;
         }
         resultManager.saveUnsuccessfulReproductionResult(bu, javaVersion);
+        resultManager.storeLogFile(bu, startedContainers.get("postContainer%s".formatted(attemptCount)), false);
         removeContainers(bu, startedContainers.values());
         removeImages(bu, List.of("base"));
     }
@@ -195,9 +196,10 @@ public class BreakingUpdateReproducer {
         if (javaVersions.isEmpty()) {
             log.warn("No Java versions found in CI for breaking update {}", bu.breakingCommit);
         }
-//        else {
-//            log.info("Identified Java versions for breaking update {}: {}", bu.breakingCommit, javaVersions);
-//        }
+        // else {
+        // log.info("Identified Java versions for breaking update {}: {}",
+        // bu.breakingCommit, javaVersions);
+        // }
         return javaVersions;
     }
 
