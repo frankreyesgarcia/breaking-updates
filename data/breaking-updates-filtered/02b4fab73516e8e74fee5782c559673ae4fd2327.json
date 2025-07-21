@@ -1,0 +1,29 @@
+{
+  "url" : "https://github.com/SonicCloudOrg/sonic-server/pull/479",
+  "project" : "sonic-server",
+  "projectOrganisation" : "SonicCloudOrg",
+  "breakingCommit" : "02b4fab73516e8e74fee5782c559673ae4fd2327",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "licenseInfo" : null,
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.baomidou",
+    "dependencyArtifactID" : "mybatis-plus-boot-starter",
+    "previousVersion" : "3.5.5",
+    "newVersion" : "3.5.8",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies",
+    "githubCompareLink" : "A GitHub repository could not be found for the updated dependency.",
+    "mavenSourceLinkPre" : "https://repo1.maven.org/maven2/com/baomidou/mybatis-plus-boot-starter/3.5.5/mybatis-plus-boot-starter-3.5.5-sources.jar",
+    "mavenSourceLinkBreaking" : "https://repo1.maven.org/maven2/com/baomidou/mybatis-plus-boot-starter/3.5.8/mybatis-plus-boot-starter-3.5.8-sources.jar",
+    "updatedFileType" : "JAR",
+    "licenseInfo" : null,
+    "githubRepoSlug" : null
+  },
+  "preCommitReproductionCommand" : null,
+  "breakingUpdateReproductionCommand" : null,
+  "javaVersionUsedForReproduction" : "17",
+  "failureCategory" : "COMPILATION_FAILURE"
+}

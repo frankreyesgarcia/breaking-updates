@@ -1,0 +1,29 @@
+{
+  "url" : "https://github.com/dropwizard/dropwizard-protobuf/pull/686",
+  "project" : "dropwizard-protobuf",
+  "projectOrganisation" : "dropwizard",
+  "breakingCommit" : "d5ae4f9bdd5191faa96bbc1bdd5e6ca48b6a30e1",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "licenseInfo" : null,
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.google.googlejavaformat",
+    "dependencyArtifactID" : "google-java-format",
+    "previousVersion" : "1.24.0",
+    "newVersion" : "1.27.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "buildPlugins",
+    "githubCompareLink" : "https://github.com/google-java-format/compare/v1.24.0...v1.27.0",
+    "mavenSourceLinkPre" : "https://repo1.maven.org/maven2/com/google/googlejavaformat/google-java-format/1.24.0/google-java-format-1.24.0-sources.jar",
+    "mavenSourceLinkBreaking" : "https://repo1.maven.org/maven2/com/google/googlejavaformat/google-java-format/1.27.0/google-java-format-1.27.0-sources.jar",
+    "updatedFileType" : "JAR",
+    "licenseInfo" : "Other",
+    "githubRepoSlug" : "google-java-format"
+  },
+  "preCommitReproductionCommand" : null,
+  "breakingUpdateReproductionCommand" : null,
+  "javaVersionUsedForReproduction" : "11",
+  "failureCategory" : "UNKNOWN_FAILURE"
+}

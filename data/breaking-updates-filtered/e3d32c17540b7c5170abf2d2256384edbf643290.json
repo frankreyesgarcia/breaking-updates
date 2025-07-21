@@ -1,0 +1,29 @@
+{
+  "url" : "https://github.com/drftpd-ng/drftpd/pull/389",
+  "project" : "drftpd",
+  "projectOrganisation" : "drftpd-ng",
+  "breakingCommit" : "e3d32c17540b7c5170abf2d2256384edbf643290",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "licenseInfo" : null,
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.lucene",
+    "dependencyArtifactID" : "lucene-queries",
+    "previousVersion" : "3.6.2",
+    "newVersion" : "9.11.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencies",
+    "githubCompareLink" : "A GitHub repository could not be found for the updated dependency.",
+    "mavenSourceLinkPre" : "https://repo1.maven.org/maven2/org/apache/lucene/lucene-queries/3.6.2/lucene-queries-3.6.2-sources.jar",
+    "mavenSourceLinkBreaking" : "https://repo1.maven.org/maven2/org/apache/lucene/lucene-queries/9.11.1/lucene-queries-9.11.1-sources.jar",
+    "updatedFileType" : "JAR",
+    "licenseInfo" : null,
+    "githubRepoSlug" : null
+  },
+  "preCommitReproductionCommand" : null,
+  "breakingUpdateReproductionCommand" : null,
+  "javaVersionUsedForReproduction" : "17",
+  "failureCategory" : "COMPILATION_FAILURE"
+}

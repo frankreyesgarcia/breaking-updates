@@ -1,0 +1,29 @@
+{
+  "url" : "https://github.com/SonarOpenCommunity/sonar-cxx/pull/2759",
+  "project" : "sonar-cxx",
+  "projectOrganisation" : "SonarOpenCommunity",
+  "breakingCommit" : "5d6fd065036d9b8fb58cd2c57b1f30084d1ed3a3",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "licenseInfo" : null,
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.slf4j",
+    "dependencyArtifactID" : "slf4j-api",
+    "previousVersion" : "1.7.30",
+    "newVersion" : "2.0.16",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencyManagement",
+    "githubCompareLink" : "A GitHub repository could not be found for the updated dependency.",
+    "mavenSourceLinkPre" : "https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30-sources.jar",
+    "mavenSourceLinkBreaking" : "https://repo1.maven.org/maven2/org/slf4j/slf4j-api/2.0.16/slf4j-api-2.0.16-sources.jar",
+    "updatedFileType" : "JAR",
+    "licenseInfo" : null,
+    "githubRepoSlug" : null
+  },
+  "preCommitReproductionCommand" : "docker run ghcr.io/chains-project/breaking-updates:5d6fd065036d9b8fb58cd2c57b1f30084d1ed3a3-pre",
+  "breakingUpdateReproductionCommand" : "docker run ghcr.io/chains-project/breaking-updates:5d6fd065036d9b8fb58cd2c57b1f30084d1ed3a3-breaking",
+  "javaVersionUsedForReproduction" : "17",
+  "failureCategory" : "TEST_FAILURE"
+}

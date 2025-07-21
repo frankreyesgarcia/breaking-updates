@@ -1,0 +1,29 @@
+{
+  "url" : "https://github.com/jenkinsci/incrementals-tools/pull/129",
+  "project" : "incrementals-tools",
+  "projectOrganisation" : "jenkinsci",
+  "breakingCommit" : "507b67eaa3f7d6f3a5e7f28e0c1b03af01d69e1a",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "licenseInfo" : null,
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.codehaus.mojo",
+    "dependencyArtifactID" : "versions-maven-plugin",
+    "previousVersion" : "2.16.2",
+    "newVersion" : "2.18.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies",
+    "githubCompareLink" : "A GitHub repository could not be found for the updated dependency.",
+    "mavenSourceLinkPre" : "https://repo1.maven.org/maven2/org/codehaus/mojo/versions-maven-plugin/2.16.2/versions-maven-plugin-2.16.2-sources.jar",
+    "mavenSourceLinkBreaking" : "https://repo1.maven.org/maven2/org/codehaus/mojo/versions-maven-plugin/2.18.0/versions-maven-plugin-2.18.0-sources.jar",
+    "updatedFileType" : "JAR",
+    "licenseInfo" : null,
+    "githubRepoSlug" : null
+  },
+  "preCommitReproductionCommand" : null,
+  "breakingUpdateReproductionCommand" : null,
+  "javaVersionUsedForReproduction" : "17",
+  "failureCategory" : "COMPILATION_FAILURE"
+}

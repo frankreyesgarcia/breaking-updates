@@ -1,0 +1,20 @@
+{
+  "url" : "https://github.com/cloudevents/sdk-java/pull/691",
+  "project" : "sdk-java",
+  "projectOrganisation" : "cloudevents",
+  "breakingCommit" : "8cb389ee77e865f5a6c6041cd34e1ec45f7e9161",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "licenseInfo" : "Apache License 2.0",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.eclipse.jetty",
+    "dependencyArtifactID" : "jetty-server",
+    "previousVersion" : "9.4.55.v20240627",
+    "newVersion" : "9.4.56.v20240826",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

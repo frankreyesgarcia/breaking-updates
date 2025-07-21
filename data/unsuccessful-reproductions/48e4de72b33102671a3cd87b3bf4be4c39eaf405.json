@@ -1,0 +1,20 @@
+{
+  "url" : "https://github.com/alibaba/transmittable-thread-local/pull/757",
+  "project" : "transmittable-thread-local",
+  "projectOrganisation" : "alibaba",
+  "breakingCommit" : "48e4de72b33102671a3cd87b3bf4be4c39eaf405",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "licenseInfo" : "Apache License 2.0",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.codehaus.mojo",
+    "dependencyArtifactID" : "extra-enforcer-rules",
+    "previousVersion" : "1.8.0",
+    "newVersion" : "1.10.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "profileBuildPlugins"
+  },
+  "javaVersionUsedForReproduction" : "8"
+}

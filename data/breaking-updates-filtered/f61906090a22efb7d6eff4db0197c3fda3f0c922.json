@@ -1,0 +1,29 @@
+{
+  "url" : "https://github.com/SPARQL-Anything/sparql.anything/pull/534",
+  "project" : "sparql.anything",
+  "projectOrganisation" : "SPARQL-Anything",
+  "breakingCommit" : "f61906090a22efb7d6eff4db0197c3fda3f0c922",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "licenseInfo" : null,
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.poi",
+    "dependencyArtifactID" : "poi-ooxml",
+    "previousVersion" : "5.0.0",
+    "newVersion" : "5.4.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencyManagement",
+    "githubCompareLink" : "A GitHub repository could not be found for the updated dependency.",
+    "mavenSourceLinkPre" : "https://repo1.maven.org/maven2/org/apache/poi/poi-ooxml/5.0.0/poi-ooxml-5.0.0-sources.jar",
+    "mavenSourceLinkBreaking" : "https://repo1.maven.org/maven2/org/apache/poi/poi-ooxml/5.4.0/poi-ooxml-5.4.0-sources.jar",
+    "updatedFileType" : "JAR",
+    "licenseInfo" : null,
+    "githubRepoSlug" : null
+  },
+  "preCommitReproductionCommand" : null,
+  "breakingUpdateReproductionCommand" : null,
+  "javaVersionUsedForReproduction" : "17",
+  "failureCategory" : "COMPILATION_FAILURE"
+}

@@ -1,0 +1,20 @@
+{
+  "url" : "https://github.com/alibaba/fastjson2/pull/2865",
+  "project" : "fastjson2",
+  "projectOrganisation" : "alibaba",
+  "breakingCommit" : "0965b8e5819689014d0d464d8733b1b79d61d80d",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "licenseInfo" : "Apache License 2.0",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.aliyun.odps",
+    "dependencyArtifactID" : "odps-sdk-udf",
+    "previousVersion" : "0.48.6-public",
+    "newVersion" : "0.48.8-public",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencyManagement"
+  },
+  "javaVersionUsedForReproduction" : "8"
+}

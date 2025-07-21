@@ -1,0 +1,29 @@
+{
+  "url" : "https://github.com/knowm/XChange/pull/5012",
+  "project" : "XChange",
+  "projectOrganisation" : "knowm",
+  "breakingCommit" : "57b7dbadcbb369a568260fe87dde4678fe5fd0ce",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "licenseInfo" : null,
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.pubnub",
+    "dependencyArtifactID" : "pubnub-gson",
+    "previousVersion" : "4.31.3",
+    "newVersion" : "10.4.6",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencyManagement",
+    "githubCompareLink" : "A GitHub repository could not be found for the updated dependency.",
+    "mavenSourceLinkPre" : "https://repo1.maven.org/maven2/com/pubnub/pubnub-gson/4.31.3/pubnub-gson-4.31.3-sources.jar",
+    "mavenSourceLinkBreaking" : "https://repo1.maven.org/maven2/com/pubnub/pubnub-gson/10.4.6/pubnub-gson-10.4.6-sources.jar",
+    "updatedFileType" : "JAR",
+    "licenseInfo" : null,
+    "githubRepoSlug" : null
+  },
+  "preCommitReproductionCommand" : null,
+  "breakingUpdateReproductionCommand" : null,
+  "javaVersionUsedForReproduction" : "11",
+  "failureCategory" : "COMPILATION_FAILURE"
+}

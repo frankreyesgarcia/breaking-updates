@@ -1,0 +1,29 @@
+{
+  "url" : "https://github.com/jcabi/jcabi-matchers/pull/121",
+  "project" : "jcabi-matchers",
+  "projectOrganisation" : "jcabi",
+  "breakingCommit" : "3e4363a6b15beeb99d64a954ce3be11d2c88a417",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "licenseInfo" : null,
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.jcabi",
+    "dependencyArtifactID" : "jcabi-xml",
+    "previousVersion" : "0.31.0",
+    "newVersion" : "0.33.3",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies",
+    "githubCompareLink" : "Relevant tags were not found in the GitHub repository jcabi-xml for the updated dependency.",
+    "mavenSourceLinkPre" : "https://repo1.maven.org/maven2/com/jcabi/jcabi-xml/0.31.0/jcabi-xml-0.31.0-sources.jar",
+    "mavenSourceLinkBreaking" : "https://repo1.maven.org/maven2/com/jcabi/jcabi-xml/0.33.3/jcabi-xml-0.33.3-sources.jar",
+    "updatedFileType" : "JAR",
+    "licenseInfo" : "Other",
+    "githubRepoSlug" : "jcabi-xml"
+  },
+  "preCommitReproductionCommand" : null,
+  "breakingUpdateReproductionCommand" : null,
+  "javaVersionUsedForReproduction" : "11",
+  "failureCategory" : "COMPILATION_FAILURE"
+}

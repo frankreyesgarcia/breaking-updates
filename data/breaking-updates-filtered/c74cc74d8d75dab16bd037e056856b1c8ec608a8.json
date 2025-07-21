@@ -1,0 +1,29 @@
+{
+  "url" : "https://github.com/GoogleCloudPlatform/spring-cloud-gcp/pull/3236",
+  "project" : "spring-cloud-gcp",
+  "projectOrganisation" : "GoogleCloudPlatform",
+  "breakingCommit" : "c74cc74d8d75dab16bd037e056856b1c8ec608a8",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "licenseInfo" : null,
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.springframework.shell",
+    "dependencyArtifactID" : "spring-shell-starter",
+    "previousVersion" : "2.1.15",
+    "newVersion" : "3.0.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencies",
+    "githubCompareLink" : "A GitHub repository could not be found for the updated dependency.",
+    "mavenSourceLinkPre" : "https://repo1.maven.org/maven2/org/springframework/shell/spring-shell-starter/2.1.15/spring-shell-starter-2.1.15-sources.jar",
+    "mavenSourceLinkBreaking" : "https://repo1.maven.org/maven2/org/springframework/shell/spring-shell-starter/3.0.0/spring-shell-starter-3.0.0-sources.jar",
+    "updatedFileType" : "JAR",
+    "licenseInfo" : null,
+    "githubRepoSlug" : null
+  },
+  "preCommitReproductionCommand" : null,
+  "breakingUpdateReproductionCommand" : null,
+  "javaVersionUsedForReproduction" : "8",
+  "failureCategory" : "COMPILATION_FAILURE"
+}

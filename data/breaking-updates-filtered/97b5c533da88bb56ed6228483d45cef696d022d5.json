@@ -1,0 +1,29 @@
+{
+  "url" : "https://github.com/googleapis/java-datastore/pull/1549",
+  "project" : "java-datastore",
+  "projectOrganisation" : "googleapis",
+  "breakingCommit" : "97b5c533da88bb56ed6228483d45cef696d022d5",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "licenseInfo" : null,
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.google.cloud",
+    "dependencyArtifactID" : "google-cloud-shared-dependencies",
+    "previousVersion" : "3.33.0",
+    "newVersion" : "3.34.0",
+    "dependencyScope" : "import",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencyManagement",
+    "githubCompareLink" : "A GitHub repository could not be found for the updated dependency.",
+    "mavenSourceLinkPre" : null,
+    "mavenSourceLinkBreaking" : null,
+    "updatedFileType" : "POM",
+    "licenseInfo" : null,
+    "githubRepoSlug" : null
+  },
+  "preCommitReproductionCommand" : null,
+  "breakingUpdateReproductionCommand" : null,
+  "javaVersionUsedForReproduction" : "17",
+  "failureCategory" : "ENFORCER_FAILURE"
+}

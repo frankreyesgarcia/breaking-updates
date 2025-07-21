@@ -1,0 +1,20 @@
+{
+  "url" : "https://github.com/Hack23/cia/pull/7443",
+  "project" : "cia",
+  "projectOrganisation" : "Hack23",
+  "breakingCommit" : "d5cb3aef0e550773763b48c9596f0083e5e119b5",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "licenseInfo" : "Apache License 2.0",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.eclipse.jdt",
+    "dependencyArtifactID" : "ecj",
+    "previousVersion" : "3.41.0",
+    "newVersion" : "3.42.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "21"
+}

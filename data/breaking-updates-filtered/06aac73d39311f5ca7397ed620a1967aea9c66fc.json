@@ -1,0 +1,29 @@
+{
+  "url" : "https://github.com/jenkinsci/incrementals-tools/pull/119",
+  "project" : "incrementals-tools",
+  "projectOrganisation" : "jenkinsci",
+  "breakingCommit" : "06aac73d39311f5ca7397ed620a1967aea9c66fc",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "licenseInfo" : null,
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.eclipse.jgit",
+    "dependencyArtifactID" : "org.eclipse.jgit",
+    "previousVersion" : "6.8.0.202311291450-r",
+    "newVersion" : "7.2.0.202503040940-r",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "unknown",
+    "githubCompareLink" : "A GitHub repository could not be found for the updated dependency.",
+    "mavenSourceLinkPre" : "https://repo1.maven.org/maven2/org/eclipse/jgit/org.eclipse.jgit/6.8.0.202311291450-r/org.eclipse.jgit-6.8.0.202311291450-r-sources.jar",
+    "mavenSourceLinkBreaking" : "https://repo1.maven.org/maven2/org/eclipse/jgit/org.eclipse.jgit/7.2.0.202503040940-r/org.eclipse.jgit-7.2.0.202503040940-r-sources.jar",
+    "updatedFileType" : "JAR",
+    "licenseInfo" : null,
+    "githubRepoSlug" : null
+  },
+  "preCommitReproductionCommand" : null,
+  "breakingUpdateReproductionCommand" : null,
+  "javaVersionUsedForReproduction" : "11",
+  "failureCategory" : "COMPILATION_FAILURE"
+}

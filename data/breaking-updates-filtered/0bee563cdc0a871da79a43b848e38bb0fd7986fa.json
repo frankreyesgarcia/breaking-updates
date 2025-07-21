@@ -1,0 +1,29 @@
+{
+  "url" : "https://github.com/googleapis/java-storage-nio/pull/1488",
+  "project" : "java-storage-nio",
+  "projectOrganisation" : "googleapis",
+  "breakingCommit" : "0bee563cdc0a871da79a43b848e38bb0fd7986fa",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "licenseInfo" : null,
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.google.cloud",
+    "dependencyArtifactID" : "google-cloud-storage",
+    "previousVersion" : "2.43.1",
+    "newVersion" : "2.43.2",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencyManagement",
+    "githubCompareLink" : "A GitHub repository could not be found for the updated dependency.",
+    "mavenSourceLinkPre" : "https://repo1.maven.org/maven2/com/google/cloud/google-cloud-storage/2.43.1/google-cloud-storage-2.43.1-sources.jar",
+    "mavenSourceLinkBreaking" : "https://repo1.maven.org/maven2/com/google/cloud/google-cloud-storage/2.43.2/google-cloud-storage-2.43.2-sources.jar",
+    "updatedFileType" : "JAR",
+    "licenseInfo" : null,
+    "githubRepoSlug" : null
+  },
+  "preCommitReproductionCommand" : null,
+  "breakingUpdateReproductionCommand" : null,
+  "javaVersionUsedForReproduction" : "17",
+  "failureCategory" : "ENFORCER_FAILURE"
+}

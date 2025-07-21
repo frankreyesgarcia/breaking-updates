@@ -1,0 +1,29 @@
+{
+  "url" : "https://github.com/GeorgH93/PCGF_PluginLib/pull/74",
+  "project" : "PCGF_PluginLib",
+  "projectOrganisation" : "GeorgH93",
+  "breakingCommit" : "79b85d95389b38274f8b5aea38144c32b5833feb",
+  "prAuthor" : "human",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "human",
+  "licenseInfo" : null,
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.google.code.gson",
+    "dependencyArtifactID" : "gson",
+    "previousVersion" : "2.12.1",
+    "newVersion" : "2.13.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies",
+    "githubCompareLink" : "https://github.com/gson/compare/gson-parent-2.12.1...gson-parent-2.13.1",
+    "mavenSourceLinkPre" : "https://repo1.maven.org/maven2/com/google/code/gson/gson/2.12.1/gson-2.12.1-sources.jar",
+    "mavenSourceLinkBreaking" : "https://repo1.maven.org/maven2/com/google/code/gson/gson/2.13.1/gson-2.13.1-sources.jar",
+    "updatedFileType" : "JAR",
+    "licenseInfo" : "Apache License 2.0",
+    "githubRepoSlug" : "gson"
+  },
+  "preCommitReproductionCommand" : "docker run ghcr.io/chains-project/breaking-updates:79b85d95389b38274f8b5aea38144c32b5833feb-pre",
+  "breakingUpdateReproductionCommand" : "docker run ghcr.io/chains-project/breaking-updates:79b85d95389b38274f8b5aea38144c32b5833feb-breaking",
+  "javaVersionUsedForReproduction" : "8",
+  "failureCategory" : "TEST_FAILURE"
+}

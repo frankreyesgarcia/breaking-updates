@@ -1,0 +1,29 @@
+{
+  "url" : "https://github.com/cloudbees-oss/zendesk-java-client/pull/711",
+  "project" : "zendesk-java-client",
+  "projectOrganisation" : "cloudbees-oss",
+  "breakingCommit" : "5d9ba4244a3bceffd2da941c4d349edaa1e498ec",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "licenseInfo" : null,
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.asynchttpclient",
+    "dependencyArtifactID" : "async-http-client",
+    "previousVersion" : "2.12.3",
+    "newVersion" : "3.0.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencies",
+    "githubCompareLink" : "https://github.com/async-http-client/compare/async-http-client-project-2.12.3...async-http-client-project-3.0.0",
+    "mavenSourceLinkPre" : "https://repo1.maven.org/maven2/org/asynchttpclient/async-http-client/2.12.3/async-http-client-2.12.3-sources.jar",
+    "mavenSourceLinkBreaking" : "https://repo1.maven.org/maven2/org/asynchttpclient/async-http-client/3.0.0/async-http-client-3.0.0-sources.jar",
+    "updatedFileType" : "JAR",
+    "licenseInfo" : "Other",
+    "githubRepoSlug" : "async-http-client"
+  },
+  "preCommitReproductionCommand" : null,
+  "breakingUpdateReproductionCommand" : null,
+  "javaVersionUsedForReproduction" : "11",
+  "failureCategory" : "ENFORCER_FAILURE"
+}

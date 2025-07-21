@@ -1,0 +1,20 @@
+{
+  "url" : "https://github.com/jboss-logging/jboss-logmanager/pull/499",
+  "project" : "jboss-logmanager",
+  "projectOrganisation" : "jboss-logging",
+  "breakingCommit" : "938a1a9d800316dae6f9a915d3fa0b12b716958a",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "licenseInfo" : "Apache License 2.0",
+  "updatedDependency" : {
+    "dependencyGroupID" : "biz.aQute.bnd",
+    "dependencyArtifactID" : "biz.aQute.bndlib",
+    "previousVersion" : "6.4.1",
+    "newVersion" : "7.1.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "buildPlugins"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

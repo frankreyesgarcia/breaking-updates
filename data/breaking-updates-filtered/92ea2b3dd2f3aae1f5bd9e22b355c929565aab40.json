@@ -1,0 +1,29 @@
+{
+  "url" : "https://github.com/smooks/smooks/pull/764",
+  "project" : "smooks",
+  "projectOrganisation" : "smooks",
+  "breakingCommit" : "92ea2b3dd2f3aae1f5bd9e22b355c929565aab40",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "licenseInfo" : null,
+  "updatedDependency" : {
+    "dependencyGroupID" : "jakarta.annotation",
+    "dependencyArtifactID" : "jakarta.annotation-api",
+    "previousVersion" : "2.1.1",
+    "newVersion" : "3.0.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencies",
+    "githubCompareLink" : "A GitHub repository could not be found for the updated dependency.",
+    "mavenSourceLinkPre" : "https://repo1.maven.org/maven2/jakarta/annotation/jakarta.annotation-api/2.1.1/jakarta.annotation-api-2.1.1-sources.jar",
+    "mavenSourceLinkBreaking" : "https://repo1.maven.org/maven2/jakarta/annotation/jakarta.annotation-api/3.0.0/jakarta.annotation-api-3.0.0-sources.jar",
+    "updatedFileType" : "JAR",
+    "licenseInfo" : null,
+    "githubRepoSlug" : null
+  },
+  "preCommitReproductionCommand" : null,
+  "breakingUpdateReproductionCommand" : null,
+  "javaVersionUsedForReproduction" : "8",
+  "failureCategory" : "COMPILATION_FAILURE"
+}

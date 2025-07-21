@@ -1,0 +1,20 @@
+{
+  "url" : "https://github.com/querydsl/querydsl/pull/3787",
+  "project" : "querydsl",
+  "projectOrganisation" : "querydsl",
+  "breakingCommit" : "ae4c4207cac577868dd9bd25501779b3ed939d40",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "licenseInfo" : "Apache License 2.0",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.fasterxml",
+    "dependencyArtifactID" : "classmate",
+    "previousVersion" : "1.5.1",
+    "newVersion" : "1.7.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "unknown"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

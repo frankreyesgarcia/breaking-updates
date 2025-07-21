@@ -1,0 +1,20 @@
+{
+  "url" : "https://github.com/Hack23/cia/pull/7437",
+  "project" : "cia",
+  "projectOrganisation" : "Hack23",
+  "breakingCommit" : "f0cea28ca3aafc54529e4dc27ad06a04d567b44e",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "licenseInfo" : "Apache License 2.0",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.junit.jupiter",
+    "dependencyArtifactID" : "junit-jupiter-engine",
+    "previousVersion" : "5.13.0",
+    "newVersion" : "5.13.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "21"
+}

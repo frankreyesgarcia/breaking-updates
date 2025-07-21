@@ -1,0 +1,20 @@
+{
+  "url" : "https://github.com/revelc/formatter-maven-plugin/pull/990",
+  "project" : "formatter-maven-plugin",
+  "projectOrganisation" : "revelc",
+  "breakingCommit" : "7bd81570364b31a7faab67602692452100d4ece2",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "licenseInfo" : "Apache License 2.0",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.jsoup",
+    "dependencyArtifactID" : "jsoup",
+    "previousVersion" : "1.20.1",
+    "newVersion" : "1.21.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "21"
+}

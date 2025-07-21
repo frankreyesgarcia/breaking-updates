@@ -1,0 +1,20 @@
+{
+  "url" : "https://github.com/Hack23/cia/pull/7444",
+  "project" : "cia",
+  "projectOrganisation" : "Hack23",
+  "breakingCommit" : "af8aabf76222d0ba51c2ce68668f350a2c4060d0",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "licenseInfo" : "Apache License 2.0",
+  "updatedDependency" : {
+    "dependencyGroupID" : "io.projectreactor",
+    "dependencyArtifactID" : "reactor-core",
+    "previousVersion" : "3.7.6",
+    "newVersion" : "3.7.7",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencyManagement"
+  },
+  "javaVersionUsedForReproduction" : "21"
+}

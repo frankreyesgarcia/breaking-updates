@@ -1,0 +1,29 @@
+{
+  "url" : "https://github.com/microprofile/microprofile-telemetry/pull/181",
+  "project" : "microprofile-telemetry",
+  "projectOrganisation" : "microprofile",
+  "breakingCommit" : "735ff66fa2a1b118ca638e71089671b417e0a528",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "licenseInfo" : null,
+  "updatedDependency" : {
+    "dependencyGroupID" : "jakarta.enterprise.concurrent",
+    "dependencyArtifactID" : "jakarta.enterprise.concurrent-api",
+    "previousVersion" : "3.0.3",
+    "newVersion" : "3.1.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "unknown",
+    "githubCompareLink" : "A GitHub repository could not be found for the updated dependency.",
+    "mavenSourceLinkPre" : "https://repo1.maven.org/maven2/jakarta/enterprise/concurrent/jakarta.enterprise.concurrent-api/3.0.3/jakarta.enterprise.concurrent-api-3.0.3-sources.jar",
+    "mavenSourceLinkBreaking" : "https://repo1.maven.org/maven2/jakarta/enterprise/concurrent/jakarta.enterprise.concurrent-api/3.1.0/jakarta.enterprise.concurrent-api-3.1.0-sources.jar",
+    "updatedFileType" : "JAR",
+    "licenseInfo" : null,
+    "githubRepoSlug" : null
+  },
+  "preCommitReproductionCommand" : null,
+  "breakingUpdateReproductionCommand" : null,
+  "javaVersionUsedForReproduction" : "11",
+  "failureCategory" : "COMPILATION_FAILURE"
+}

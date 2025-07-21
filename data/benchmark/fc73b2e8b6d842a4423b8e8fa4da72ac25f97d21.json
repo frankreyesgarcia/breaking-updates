@@ -1,0 +1,29 @@
+{
+  "url" : "https://github.com/gitbucket/markedj/pull/69",
+  "project" : "markedj",
+  "projectOrganisation" : "gitbucket",
+  "breakingCommit" : "fc73b2e8b6d842a4423b8e8fa4da72ac25f97d21",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "licenseInfo" : null,
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.jsoup",
+    "dependencyArtifactID" : "jsoup",
+    "previousVersion" : "1.19.1",
+    "newVersion" : "1.20.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies",
+    "githubCompareLink" : "A GitHub repository could not be found for the updated dependency.",
+    "mavenSourceLinkPre" : "https://repo1.maven.org/maven2/org/jsoup/jsoup/1.19.1/jsoup-1.19.1-sources.jar",
+    "mavenSourceLinkBreaking" : "https://repo1.maven.org/maven2/org/jsoup/jsoup/1.20.1/jsoup-1.20.1-sources.jar",
+    "updatedFileType" : "JAR",
+    "licenseInfo" : null,
+    "githubRepoSlug" : null
+  },
+  "preCommitReproductionCommand" : "docker run ghcr.io/chains-project/breaking-updates:fc73b2e8b6d842a4423b8e8fa4da72ac25f97d21-pre",
+  "breakingUpdateReproductionCommand" : "docker run ghcr.io/chains-project/breaking-updates:fc73b2e8b6d842a4423b8e8fa4da72ac25f97d21-breaking",
+  "javaVersionUsedForReproduction" : "21",
+  "failureCategory" : "TEST_FAILURE"
+}

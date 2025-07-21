@@ -1,0 +1,29 @@
+{
+  "url" : "https://github.com/matsim-org/pt2matsim/pull/295",
+  "project" : "pt2matsim",
+  "projectOrganisation" : "matsim-org",
+  "breakingCommit" : "aa99f8d4e51300f315a50eba612e7bdcfe9f6409",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "licenseInfo" : null,
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.opencsv",
+    "dependencyArtifactID" : "opencsv",
+    "previousVersion" : "5.11",
+    "newVersion" : "5.11.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies",
+    "githubCompareLink" : "A GitHub repository could not be found for the updated dependency.",
+    "mavenSourceLinkPre" : "https://repo1.maven.org/maven2/com/opencsv/opencsv/5.11/opencsv-5.11-sources.jar",
+    "mavenSourceLinkBreaking" : "https://repo1.maven.org/maven2/com/opencsv/opencsv/5.11.1/opencsv-5.11.1-sources.jar",
+    "updatedFileType" : "JAR",
+    "licenseInfo" : null,
+    "githubRepoSlug" : null
+  },
+  "preCommitReproductionCommand" : "docker run ghcr.io/chains-project/breaking-updates:aa99f8d4e51300f315a50eba612e7bdcfe9f6409-pre",
+  "breakingUpdateReproductionCommand" : "docker run ghcr.io/chains-project/breaking-updates:aa99f8d4e51300f315a50eba612e7bdcfe9f6409-breaking",
+  "javaVersionUsedForReproduction" : "21",
+  "failureCategory" : "TEST_FAILURE"
+}

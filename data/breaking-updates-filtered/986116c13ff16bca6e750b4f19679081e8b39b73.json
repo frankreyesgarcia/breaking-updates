@@ -1,0 +1,29 @@
+{
+  "url" : "https://github.com/librespot-org/librespot-java/pull/1001",
+  "project" : "librespot-java",
+  "projectOrganisation" : "librespot-org",
+  "breakingCommit" : "986116c13ff16bca6e750b4f19679081e8b39b73",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "licenseInfo" : null,
+  "updatedDependency" : {
+    "dependencyGroupID" : "io.undertow",
+    "dependencyArtifactID" : "undertow-core",
+    "previousVersion" : "2.2.16.Final",
+    "newVersion" : "2.3.18.Final",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencies",
+    "githubCompareLink" : "A GitHub repository could not be found for the updated dependency.",
+    "mavenSourceLinkPre" : "https://repo1.maven.org/maven2/io/undertow/undertow-core/2.2.16.Final/undertow-core-2.2.16.Final-sources.jar",
+    "mavenSourceLinkBreaking" : "https://repo1.maven.org/maven2/io/undertow/undertow-core/2.3.18.Final/undertow-core-2.3.18.Final-sources.jar",
+    "updatedFileType" : "JAR",
+    "licenseInfo" : null,
+    "githubRepoSlug" : null
+  },
+  "preCommitReproductionCommand" : null,
+  "breakingUpdateReproductionCommand" : null,
+  "javaVersionUsedForReproduction" : "8",
+  "failureCategory" : "COMPILATION_FAILURE"
+}

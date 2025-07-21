@@ -1,0 +1,29 @@
+{
+  "url" : "https://github.com/googleapis/java-storage/pull/2922",
+  "project" : "java-storage",
+  "projectOrganisation" : "googleapis",
+  "breakingCommit" : "783f4039ea1ebf4b1ee69540a2d1f378d4be6643",
+  "prAuthor" : "human",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "human",
+  "licenseInfo" : null,
+  "updatedDependency" : {
+    "dependencyGroupID" : "io.opentelemetry.semconv",
+    "dependencyArtifactID" : "opentelemetry-semconv",
+    "previousVersion" : "1.27.0-alpha",
+    "newVersion" : "1.26.0-alpha",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencyManagement",
+    "githubCompareLink" : "A GitHub repository could not be found for the updated dependency.",
+    "mavenSourceLinkPre" : "https://repo1.maven.org/maven2/io/opentelemetry/semconv/opentelemetry-semconv/1.27.0-alpha/opentelemetry-semconv-1.27.0-alpha-sources.jar",
+    "mavenSourceLinkBreaking" : "https://repo1.maven.org/maven2/io/opentelemetry/semconv/opentelemetry-semconv/1.26.0-alpha/opentelemetry-semconv-1.26.0-alpha-sources.jar",
+    "updatedFileType" : "JAR",
+    "licenseInfo" : null,
+    "githubRepoSlug" : null
+  },
+  "preCommitReproductionCommand" : null,
+  "breakingUpdateReproductionCommand" : null,
+  "javaVersionUsedForReproduction" : "17",
+  "failureCategory" : "ENFORCER_FAILURE"
+}

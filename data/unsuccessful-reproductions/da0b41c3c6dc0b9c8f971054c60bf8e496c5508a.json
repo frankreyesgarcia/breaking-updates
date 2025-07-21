@@ -1,0 +1,20 @@
+{
+  "url" : "https://github.com/apache/creadur-rat/pull/476",
+  "project" : "creadur-rat",
+  "projectOrganisation" : "apache",
+  "breakingCommit" : "da0b41c3c6dc0b9c8f971054c60bf8e496c5508a",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "licenseInfo" : "Apache License 2.0",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.junit",
+    "dependencyArtifactID" : "junit-bom",
+    "previousVersion" : "5.13.0",
+    "newVersion" : "5.13.1",
+    "dependencyScope" : "import",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencyManagement"
+  },
+  "javaVersionUsedForReproduction" : "8"
+}

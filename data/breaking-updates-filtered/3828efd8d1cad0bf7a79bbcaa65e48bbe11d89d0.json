@@ -1,0 +1,29 @@
+{
+  "url" : "https://github.com/jenkinsci/priority-sorter-plugin/pull/410",
+  "project" : "priority-sorter-plugin",
+  "projectOrganisation" : "jenkinsci",
+  "breakingCommit" : "3828efd8d1cad0bf7a79bbcaa65e48bbe11d89d0",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "licenseInfo" : null,
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.synopsys.arc.jenkinsci.plugins",
+    "dependencyArtifactID" : "job-restrictions",
+    "previousVersion" : "0.8",
+    "newVersion" : "209.va_a_55deb_3ef91",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencies",
+    "githubCompareLink" : "A GitHub repository could not be found for the updated dependency.",
+    "mavenSourceLinkPre" : null,
+    "mavenSourceLinkBreaking" : null,
+    "updatedFileType" : "JAR",
+    "licenseInfo" : null,
+    "githubRepoSlug" : null
+  },
+  "preCommitReproductionCommand" : null,
+  "breakingUpdateReproductionCommand" : null,
+  "javaVersionUsedForReproduction" : "21",
+  "failureCategory" : "ENFORCER_FAILURE"
+}

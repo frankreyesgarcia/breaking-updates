@@ -1,0 +1,29 @@
+{
+  "url" : "https://github.com/CourseOrchestra/hurdy-gurdy/pull/317",
+  "project" : "hurdy-gurdy",
+  "projectOrganisation" : "CourseOrchestra",
+  "breakingCommit" : "7e27ec20f4759c50ab9fbe8f32d692606f5863cf",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "licenseInfo" : null,
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.squareup",
+    "dependencyArtifactID" : "kotlinpoet",
+    "previousVersion" : "1.14.2",
+    "newVersion" : "1.18.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies",
+    "githubCompareLink" : "A GitHub repository could not be found for the updated dependency.",
+    "mavenSourceLinkPre" : "https://repo1.maven.org/maven2/com/squareup/kotlinpoet/1.14.2/kotlinpoet-1.14.2-sources.jar",
+    "mavenSourceLinkBreaking" : "https://repo1.maven.org/maven2/com/squareup/kotlinpoet/1.18.1/kotlinpoet-1.18.1-sources.jar",
+    "updatedFileType" : "JAR",
+    "licenseInfo" : null,
+    "githubRepoSlug" : null
+  },
+  "preCommitReproductionCommand" : null,
+  "breakingUpdateReproductionCommand" : null,
+  "javaVersionUsedForReproduction" : "11",
+  "failureCategory" : "UNKNOWN_FAILURE"
+}

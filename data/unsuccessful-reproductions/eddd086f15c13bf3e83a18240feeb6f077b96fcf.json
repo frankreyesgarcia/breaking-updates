@@ -1,0 +1,20 @@
+{
+  "url" : "https://github.com/slackhq/astra/pull/1166",
+  "project" : "astra",
+  "projectOrganisation" : "slackhq",
+  "breakingCommit" : "eddd086f15c13bf3e83a18240feeb6f077b96fcf",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "licenseInfo" : "MIT License",
+  "updatedDependency" : {
+    "dependencyGroupID" : "software.amazon.awssdk.crt",
+    "dependencyArtifactID" : "aws-crt",
+    "previousVersion" : "0.33.1",
+    "newVersion" : "0.33.2",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "unknown"
+  },
+  "javaVersionUsedForReproduction" : "21"
+}

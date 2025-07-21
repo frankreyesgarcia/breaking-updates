@@ -1,0 +1,29 @@
+{
+  "url" : "https://github.com/OpenLiberty/ci.maven/pull/1887",
+  "project" : "ci.maven",
+  "projectOrganisation" : "OpenLiberty",
+  "breakingCommit" : "4f178da1a6cedd09591217b6285e83ad56900c9a",
+  "prAuthor" : "human",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "human",
+  "licenseInfo" : null,
+  "updatedDependency" : {
+    "dependencyGroupID" : "io.openliberty.tools",
+    "dependencyArtifactID" : "ci.common",
+    "previousVersion" : "1.8.37",
+    "newVersion" : "1.8.38-SNAPSHOT",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencies",
+    "githubCompareLink" : "Relevant tags were not found in the GitHub repository ci.common for the updated dependency.",
+    "mavenSourceLinkPre" : "https://repo1.maven.org/maven2/io/openliberty/tools/ci.common/1.8.37/ci.common-1.8.37-sources.jar",
+    "mavenSourceLinkBreaking" : "https://repo1.maven.org/maven2/io/openliberty/tools/ci.common/1.8.38-SNAPSHOT/ci.common-1.8.38-SNAPSHOT-sources.jar",
+    "updatedFileType" : "JAR",
+    "licenseInfo" : "Apache License 2.0",
+    "githubRepoSlug" : "ci.common"
+  },
+  "preCommitReproductionCommand" : null,
+  "breakingUpdateReproductionCommand" : null,
+  "javaVersionUsedForReproduction" : "17",
+  "failureCategory" : "DEPENDENCY_RESOLUTION_FAILURE"
+}

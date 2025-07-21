@@ -1,0 +1,29 @@
+{
+  "url" : "https://github.com/smooks/smooks/pull/836",
+  "project" : "smooks",
+  "projectOrganisation" : "smooks",
+  "breakingCommit" : "6f067d9679caa4a8b2086f1e2b4d177ab19cb3b3",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "licenseInfo" : null,
+  "updatedDependency" : {
+    "dependencyGroupID" : "xml-apis",
+    "dependencyArtifactID" : "xml-apis",
+    "previousVersion" : "1.4.01",
+    "newVersion" : "2.0.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencies",
+    "githubCompareLink" : "A GitHub repository could not be found for the updated dependency.",
+    "mavenSourceLinkPre" : "https://repo1.maven.org/maven2/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01-sources.jar",
+    "mavenSourceLinkBreaking" : "https://repo1.maven.org/maven2/xml-apis/xml-apis/2.0.0/xml-apis-2.0.0-sources.jar",
+    "updatedFileType" : "JAR",
+    "licenseInfo" : null,
+    "githubRepoSlug" : null
+  },
+  "preCommitReproductionCommand" : null,
+  "breakingUpdateReproductionCommand" : null,
+  "javaVersionUsedForReproduction" : "8",
+  "failureCategory" : "COMPILATION_FAILURE"
+}

@@ -1,0 +1,29 @@
+{
+  "url" : "https://github.com/jcabi/jcabi-ssh/pull/234",
+  "project" : "jcabi-ssh",
+  "projectOrganisation" : "jcabi",
+  "breakingCommit" : "9b1d836e8772202d690dcefb23345fc511dcc3f6",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "licenseInfo" : null,
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.sshd",
+    "dependencyArtifactID" : "sshd-core",
+    "previousVersion" : "2.14.0",
+    "newVersion" : "2.15.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "unknown",
+    "githubCompareLink" : "A GitHub repository could not be found for the updated dependency.",
+    "mavenSourceLinkPre" : "https://repo1.maven.org/maven2/org/apache/sshd/sshd-core/2.14.0/sshd-core-2.14.0-sources.jar",
+    "mavenSourceLinkBreaking" : "https://repo1.maven.org/maven2/org/apache/sshd/sshd-core/2.15.0/sshd-core-2.15.0-sources.jar",
+    "updatedFileType" : "JAR",
+    "licenseInfo" : null,
+    "githubRepoSlug" : null
+  },
+  "preCommitReproductionCommand" : "docker run ghcr.io/chains-project/breaking-updates:9b1d836e8772202d690dcefb23345fc511dcc3f6-pre",
+  "breakingUpdateReproductionCommand" : "docker run ghcr.io/chains-project/breaking-updates:9b1d836e8772202d690dcefb23345fc511dcc3f6-breaking",
+  "javaVersionUsedForReproduction" : "11",
+  "failureCategory" : "TEST_FAILURE"
+}

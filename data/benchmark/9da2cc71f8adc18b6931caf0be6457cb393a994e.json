@@ -1,0 +1,29 @@
+{
+  "url" : "https://github.com/52North/sensorweb-server-helgoland/pull/749",
+  "project" : "sensorweb-server-helgoland",
+  "projectOrganisation" : "52North",
+  "breakingCommit" : "9da2cc71f8adc18b6931caf0be6457cb393a994e",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "licenseInfo" : null,
+  "updatedDependency" : {
+    "dependencyGroupID" : "javax.measure",
+    "dependencyArtifactID" : "unit-api",
+    "previousVersion" : "2.1.3",
+    "newVersion" : "2.2",
+    "dependencyScope" : "runtime",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencyManagement",
+    "githubCompareLink" : "A GitHub repository could not be found for the updated dependency.",
+    "mavenSourceLinkPre" : "https://repo1.maven.org/maven2/javax/measure/unit-api/2.1.3/unit-api-2.1.3-sources.jar",
+    "mavenSourceLinkBreaking" : "https://repo1.maven.org/maven2/javax/measure/unit-api/2.2/unit-api-2.2-sources.jar",
+    "updatedFileType" : "JAR",
+    "licenseInfo" : null,
+    "githubRepoSlug" : null
+  },
+  "preCommitReproductionCommand" : "docker run ghcr.io/chains-project/breaking-updates:9da2cc71f8adc18b6931caf0be6457cb393a994e-pre",
+  "breakingUpdateReproductionCommand" : "docker run ghcr.io/chains-project/breaking-updates:9da2cc71f8adc18b6931caf0be6457cb393a994e-breaking",
+  "javaVersionUsedForReproduction" : "11",
+  "failureCategory" : "TEST_FAILURE"
+}

@@ -1,0 +1,29 @@
+{
+  "url" : "https://github.com/cdi-unit/cdi-unit/pull/255",
+  "project" : "cdi-unit",
+  "projectOrganisation" : "cdi-unit",
+  "breakingCommit" : "aa7744c5d1ac545a49b8092f77cde822962def58",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "licenseInfo" : null,
+  "updatedDependency" : {
+    "dependencyGroupID" : "jakarta.faces",
+    "dependencyArtifactID" : "jakarta.faces-api",
+    "previousVersion" : "4.0.1",
+    "newVersion" : "4.1.0",
+    "dependencyScope" : "provided",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies",
+    "githubCompareLink" : "A GitHub repository could not be found for the updated dependency.",
+    "mavenSourceLinkPre" : "https://repo1.maven.org/maven2/jakarta/faces/jakarta.faces-api/4.0.1/jakarta.faces-api-4.0.1-sources.jar",
+    "mavenSourceLinkBreaking" : "https://repo1.maven.org/maven2/jakarta/faces/jakarta.faces-api/4.1.0/jakarta.faces-api-4.1.0-sources.jar",
+    "updatedFileType" : "JAR",
+    "licenseInfo" : null,
+    "githubRepoSlug" : null
+  },
+  "preCommitReproductionCommand" : null,
+  "breakingUpdateReproductionCommand" : null,
+  "javaVersionUsedForReproduction" : "11",
+  "failureCategory" : "COMPILATION_FAILURE"
+}

@@ -1,0 +1,20 @@
+{
+  "url" : "https://github.com/Ree6-Applications/Ree6/pull/594",
+  "project" : "Ree6",
+  "projectOrganisation" : "Ree6-Applications",
+  "breakingCommit" : "f68eb6c545726624802674e364c5f94c3ff90072",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "licenseInfo" : "GNU General Public License v3.0",
+  "updatedDependency" : {
+    "dependencyGroupID" : "net.dv8tion",
+    "dependencyArtifactID" : "JDA",
+    "previousVersion" : "5.0.0-beta.23",
+    "newVersion" : "5.0.0-beta.24",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "17"
+}

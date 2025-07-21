@@ -1,0 +1,20 @@
+{
+  "url" : "https://github.com/getgauge/gauge-java/pull/882",
+  "project" : "gauge-java",
+  "projectOrganisation" : "getgauge",
+  "breakingCommit" : "68dec218b2ed64975c6754924b3ff0763aff2066",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "licenseInfo" : "Apache License 2.0",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.github.javaparser",
+    "dependencyArtifactID" : "javaparser-core",
+    "previousVersion" : "3.26.2",
+    "newVersion" : "3.26.3",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "17"
+}

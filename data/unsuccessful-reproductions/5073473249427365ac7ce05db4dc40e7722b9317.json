@@ -1,0 +1,20 @@
+{
+  "url" : "https://github.com/jenkinsci/jenkinsfile-runner/pull/729",
+  "project" : "jenkinsfile-runner",
+  "projectOrganisation" : "jenkinsci",
+  "breakingCommit" : "5073473249427365ac7ce05db4dc40e7722b9317",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "licenseInfo" : "MIT License",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.jenkins-ci.plugins",
+    "dependencyArtifactID" : "job-dsl",
+    "previousVersion" : "1.81",
+    "newVersion" : "1.91",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "unknown"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

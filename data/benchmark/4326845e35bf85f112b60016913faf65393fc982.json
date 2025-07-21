@@ -1,0 +1,29 @@
+{
+  "url" : "https://github.com/pkiraly/qa-catalogue/pull/491",
+  "project" : "qa-catalogue",
+  "projectOrganisation" : "pkiraly",
+  "breakingCommit" : "4326845e35bf85f112b60016913faf65393fc982",
+  "prAuthor" : "human",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "human",
+  "licenseInfo" : null,
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.solr",
+    "dependencyArtifactID" : "solr-solrj",
+    "previousVersion" : "9.4.1",
+    "newVersion" : "9.6.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies",
+    "githubCompareLink" : "A GitHub repository could not be found for the updated dependency.",
+    "mavenSourceLinkPre" : "https://repo1.maven.org/maven2/org/apache/solr/solr-solrj/9.4.1/solr-solrj-9.4.1-sources.jar",
+    "mavenSourceLinkBreaking" : "https://repo1.maven.org/maven2/org/apache/solr/solr-solrj/9.6.1/solr-solrj-9.6.1-sources.jar",
+    "updatedFileType" : "JAR",
+    "licenseInfo" : null,
+    "githubRepoSlug" : null
+  },
+  "preCommitReproductionCommand" : "docker run ghcr.io/chains-project/breaking-updates:4326845e35bf85f112b60016913faf65393fc982-pre",
+  "breakingUpdateReproductionCommand" : "docker run ghcr.io/chains-project/breaking-updates:4326845e35bf85f112b60016913faf65393fc982-breaking",
+  "javaVersionUsedForReproduction" : "17",
+  "failureCategory" : "TEST_FAILURE"
+}

@@ -1,0 +1,20 @@
+{
+  "url" : "https://github.com/objectionary/eo-threads/pull/108",
+  "project" : "eo-threads",
+  "projectOrganisation" : "objectionary",
+  "breakingCommit" : "93f21c0e7fd95e76e9a459490fd42f4712d0510f",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "licenseInfo" : "MIT License",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.cactoos",
+    "dependencyArtifactID" : "cactoos",
+    "previousVersion" : "0.55.0",
+    "newVersion" : "0.57.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "17"
+}

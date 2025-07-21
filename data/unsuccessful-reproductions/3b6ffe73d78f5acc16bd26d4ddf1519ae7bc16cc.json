@@ -1,0 +1,20 @@
+{
+  "url" : "https://github.com/kagkarlsson/db-scheduler/pull/652",
+  "project" : "db-scheduler",
+  "projectOrganisation" : "kagkarlsson",
+  "breakingCommit" : "3b6ffe73d78f5acc16bd26d4ddf1519ae7bc16cc",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "licenseInfo" : "Apache License 2.0",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.junit",
+    "dependencyArtifactID" : "junit-bom",
+    "previousVersion" : "5.11.4",
+    "newVersion" : "5.12.1",
+    "dependencyScope" : "import",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencyManagement"
+  },
+  "javaVersionUsedForReproduction" : "17"
+}

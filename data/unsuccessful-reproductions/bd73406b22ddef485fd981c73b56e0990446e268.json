@@ -1,0 +1,20 @@
+{
+  "url" : "https://github.com/jenkinsci/incrementals-tools/pull/118",
+  "project" : "incrementals-tools",
+  "projectOrganisation" : "jenkinsci",
+  "breakingCommit" : "bd73406b22ddef485fd981c73b56e0990446e268",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "licenseInfo" : "unknown",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.kohsuke",
+    "dependencyArtifactID" : "github-api",
+    "previousVersion" : "1.318",
+    "newVersion" : "1.327",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "unknown"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

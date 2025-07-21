@@ -1,0 +1,20 @@
+{
+  "url" : "https://github.com/mybatis/guice/pull/800",
+  "project" : "guice",
+  "projectOrganisation" : "mybatis",
+  "breakingCommit" : "8e0f17ae2109aa5ab977fdc0c2b88efb5f024db3",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "licenseInfo" : "Apache License 2.0",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.mchange",
+    "dependencyArtifactID" : "c3p0",
+    "previousVersion" : "0.10.2",
+    "newVersion" : "0.11.0-pre1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "17"
+}

@@ -1,0 +1,29 @@
+{
+  "url" : "https://github.com/smooks/smooks/pull/798",
+  "project" : "smooks",
+  "projectOrganisation" : "smooks",
+  "breakingCommit" : "1859f5ff367b791367fed4071af0216edba1df3f",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "licenseInfo" : null,
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.fasterxml.woodstox",
+    "dependencyArtifactID" : "woodstox-core",
+    "previousVersion" : "6.6.2",
+    "newVersion" : "7.0.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencies",
+    "githubCompareLink" : "A GitHub repository could not be found for the updated dependency.",
+    "mavenSourceLinkPre" : "https://repo1.maven.org/maven2/com/fasterxml/woodstox/woodstox-core/6.6.2/woodstox-core-6.6.2-sources.jar",
+    "mavenSourceLinkBreaking" : "https://repo1.maven.org/maven2/com/fasterxml/woodstox/woodstox-core/7.0.0/woodstox-core-7.0.0-sources.jar",
+    "updatedFileType" : "JAR",
+    "licenseInfo" : null,
+    "githubRepoSlug" : null
+  },
+  "preCommitReproductionCommand" : "docker run ghcr.io/chains-project/breaking-updates:1859f5ff367b791367fed4071af0216edba1df3f-pre",
+  "breakingUpdateReproductionCommand" : "docker run ghcr.io/chains-project/breaking-updates:1859f5ff367b791367fed4071af0216edba1df3f-breaking",
+  "javaVersionUsedForReproduction" : "8",
+  "failureCategory" : "TEST_FAILURE"
+}

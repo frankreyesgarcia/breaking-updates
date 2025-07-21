@@ -1,0 +1,29 @@
+{
+  "url" : "https://github.com/btrplace/scheduler/pull/498",
+  "project" : "scheduler",
+  "projectOrganisation" : "btrplace",
+  "breakingCommit" : "9cf21d0ed4c03fc59b5739a1fbff4b312712407e",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "licenseInfo" : null,
+  "updatedDependency" : {
+    "dependencyGroupID" : "args4j",
+    "dependencyArtifactID" : "args4j",
+    "previousVersion" : "2.33",
+    "newVersion" : "2.37",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "unknown",
+    "githubCompareLink" : "A GitHub repository could not be found for the updated dependency.",
+    "mavenSourceLinkPre" : "https://repo1.maven.org/maven2/args4j/args4j/2.33/args4j-2.33-sources.jar",
+    "mavenSourceLinkBreaking" : "https://repo1.maven.org/maven2/args4j/args4j/2.37/args4j-2.37-sources.jar",
+    "updatedFileType" : "JAR",
+    "licenseInfo" : null,
+    "githubRepoSlug" : null
+  },
+  "preCommitReproductionCommand" : null,
+  "breakingUpdateReproductionCommand" : null,
+  "javaVersionUsedForReproduction" : "8",
+  "failureCategory" : "COMPILATION_FAILURE"
+}

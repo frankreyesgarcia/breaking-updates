@@ -1,0 +1,20 @@
+{
+  "url" : "https://github.com/slackhq/astra/pull/1335",
+  "project" : "astra",
+  "projectOrganisation" : "slackhq",
+  "breakingCommit" : "eaeeda3e836faf7c4cd3a13063cfd71ddc67468b",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "licenseInfo" : "MIT License",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.checkerframework",
+    "dependencyArtifactID" : "checker-qual",
+    "previousVersion" : "3.49.3",
+    "newVersion" : "3.49.4",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "21"
+}

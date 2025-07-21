@@ -1,0 +1,29 @@
+{
+  "url" : "https://github.com/CycloneDX/cyclonedx-maven-plugin/pull/510",
+  "project" : "cyclonedx-maven-plugin",
+  "projectOrganisation" : "CycloneDX",
+  "breakingCommit" : "465aedb044d437742bb8e27a9f39f270f8a8982f",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "licenseInfo" : null,
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.cyclonedx",
+    "dependencyArtifactID" : "cyclonedx-core-java",
+    "previousVersion" : "8.0.3",
+    "newVersion" : "9.0.2",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencies",
+    "githubCompareLink" : "https://github.com/cyclonedx-core-java/compare/cyclonedx-core-java-8.0.3...cyclonedx-core-java-9.0.2",
+    "mavenSourceLinkPre" : "https://repo1.maven.org/maven2/org/cyclonedx/cyclonedx-core-java/8.0.3/cyclonedx-core-java-8.0.3-sources.jar",
+    "mavenSourceLinkBreaking" : "https://repo1.maven.org/maven2/org/cyclonedx/cyclonedx-core-java/9.0.2/cyclonedx-core-java-9.0.2-sources.jar",
+    "updatedFileType" : "JAR",
+    "licenseInfo" : "Apache License 2.0",
+    "githubRepoSlug" : "cyclonedx-core-java"
+  },
+  "preCommitReproductionCommand" : null,
+  "breakingUpdateReproductionCommand" : null,
+  "javaVersionUsedForReproduction" : "8",
+  "failureCategory" : "COMPILATION_FAILURE"
+}

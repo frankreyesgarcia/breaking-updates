@@ -1,0 +1,20 @@
+{
+  "url" : "https://github.com/jenkinsci/throttle-concurrent-builds-plugin/pull/299",
+  "project" : "throttle-concurrent-builds-plugin",
+  "projectOrganisation" : "jenkinsci",
+  "breakingCommit" : "d30f515caad54c378d3ae974b526343b4c1b0781",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "licenseInfo" : "MIT License",
+  "updatedDependency" : {
+    "dependencyGroupID" : "io.jenkins.tools.bom",
+    "dependencyArtifactID" : "bom-${jenkins.baseline}.x",
+    "previousVersion" : "4136.vca_c3202a_7fd1",
+    "newVersion" : "4228.v0a_71308d905b_",
+    "dependencyScope" : "import",
+    "versionUpdateType" : "other",
+    "dependencySection" : "unknown"
+  },
+  "javaVersionUsedForReproduction" : "21"
+}

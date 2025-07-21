@@ -1,0 +1,29 @@
+{
+  "url" : "https://github.com/apache/directory-scimple/pull/824",
+  "project" : "directory-scimple",
+  "projectOrganisation" : "apache",
+  "breakingCommit" : "cd449a7388b2b180f377abae638acb0d75f8d710",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "licenseInfo" : null,
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.hibernate.validator",
+    "dependencyArtifactID" : "hibernate-validator",
+    "previousVersion" : "8.0.2.Final",
+    "newVersion" : "9.0.0.Final",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencyManagement",
+    "githubCompareLink" : "Relevant tags were not found in the GitHub repository hibernate-validator for the updated dependency.",
+    "mavenSourceLinkPre" : "https://repo1.maven.org/maven2/org/hibernate/validator/hibernate-validator/8.0.2.Final/hibernate-validator-8.0.2.Final-sources.jar",
+    "mavenSourceLinkBreaking" : "https://repo1.maven.org/maven2/org/hibernate/validator/hibernate-validator/9.0.0.Final/hibernate-validator-9.0.0.Final-sources.jar",
+    "updatedFileType" : "JAR",
+    "licenseInfo" : "Apache License 2.0",
+    "githubRepoSlug" : "hibernate-validator"
+  },
+  "preCommitReproductionCommand" : null,
+  "breakingUpdateReproductionCommand" : null,
+  "javaVersionUsedForReproduction" : "21",
+  "failureCategory" : "ENFORCER_FAILURE"
+}

@@ -1,0 +1,20 @@
+{
+  "url" : "https://github.com/camunda/camunda-bpm-platform/pull/5220",
+  "project" : "camunda-bpm-platform",
+  "projectOrganisation" : "camunda",
+  "breakingCommit" : "733a24bb573e21bec02f5551af50e88dffe4721b",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "licenseInfo" : "Apache License 2.0",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.python",
+    "dependencyArtifactID" : "jython",
+    "previousVersion" : "2.5.3",
+    "newVersion" : "2.7.2",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencyManagement"
+  },
+  "javaVersionUsedForReproduction" : "17"
+}

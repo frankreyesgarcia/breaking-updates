@@ -1,0 +1,29 @@
+{
+  "url" : "https://github.com/damianszczepanik/cucumber-reporting/pull/1182",
+  "project" : "cucumber-reporting",
+  "projectOrganisation" : "damianszczepanik",
+  "breakingCommit" : "5054c8f08737a2a49a648015deef7083e31eed81",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "licenseInfo" : null,
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.googlecode.owasp-java-html-sanitizer",
+    "dependencyArtifactID" : "owasp-java-html-sanitizer",
+    "previousVersion" : "20220608.1",
+    "newVersion" : "20240325.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencies",
+    "githubCompareLink" : "A GitHub repository could not be found for the updated dependency.",
+    "mavenSourceLinkPre" : "https://repo1.maven.org/maven2/com/googlecode/owasp-java-html-sanitizer/owasp-java-html-sanitizer/20220608.1/owasp-java-html-sanitizer-20220608.1-sources.jar",
+    "mavenSourceLinkBreaking" : "https://repo1.maven.org/maven2/com/googlecode/owasp-java-html-sanitizer/owasp-java-html-sanitizer/20240325.1/owasp-java-html-sanitizer-20240325.1-sources.jar",
+    "updatedFileType" : "JAR",
+    "licenseInfo" : null,
+    "githubRepoSlug" : null
+  },
+  "preCommitReproductionCommand" : "docker run ghcr.io/chains-project/breaking-updates:5054c8f08737a2a49a648015deef7083e31eed81-pre",
+  "breakingUpdateReproductionCommand" : "docker run ghcr.io/chains-project/breaking-updates:5054c8f08737a2a49a648015deef7083e31eed81-breaking",
+  "javaVersionUsedForReproduction" : "11",
+  "failureCategory" : "TEST_FAILURE"
+}

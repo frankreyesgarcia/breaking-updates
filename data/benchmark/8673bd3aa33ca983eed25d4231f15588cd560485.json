@@ -1,0 +1,29 @@
+{
+  "url" : "https://github.com/gaul/s3proxy/pull/801",
+  "project" : "s3proxy",
+  "projectOrganisation" : "gaul",
+  "breakingCommit" : "8673bd3aa33ca983eed25d4231f15588cd560485",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "licenseInfo" : null,
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.junit.jupiter",
+    "dependencyArtifactID" : "junit-jupiter",
+    "previousVersion" : "5.11.4",
+    "newVersion" : "5.12.1",
+    "dependencyScope" : "provided",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "unknown",
+    "githubCompareLink" : "A GitHub repository could not be found for the updated dependency.",
+    "mavenSourceLinkPre" : "https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter/5.11.4/junit-jupiter-5.11.4-sources.jar",
+    "mavenSourceLinkBreaking" : "https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter/5.12.1/junit-jupiter-5.12.1-sources.jar",
+    "updatedFileType" : "JAR",
+    "licenseInfo" : null,
+    "githubRepoSlug" : null
+  },
+  "preCommitReproductionCommand" : "docker run ghcr.io/chains-project/breaking-updates:8673bd3aa33ca983eed25d4231f15588cd560485-pre",
+  "breakingUpdateReproductionCommand" : "docker run ghcr.io/chains-project/breaking-updates:8673bd3aa33ca983eed25d4231f15588cd560485-breaking",
+  "javaVersionUsedForReproduction" : "11",
+  "failureCategory" : "TEST_FAILURE"
+}

@@ -1,0 +1,20 @@
+{
+  "url" : "https://github.com/seize-the-dave/jscep/pull/378",
+  "project" : "jscep",
+  "projectOrganisation" : "seize-the-dave",
+  "breakingCommit" : "8ad95e5baa3f30ad0f0f9d762cf748b529e55e3d",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "licenseInfo" : "MIT License",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.bouncycastle",
+    "dependencyArtifactID" : "bcpkix-jdk18on",
+    "previousVersion" : "1.80",
+    "newVersion" : "1.81",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "17"
+}

@@ -1,0 +1,20 @@
+{
+  "url" : "https://github.com/opencast/opencast/pull/6342",
+  "project" : "opencast",
+  "projectOrganisation" : "opencast",
+  "breakingCommit" : "60f783eacbec5c2e3625b0bca17e15837f46d7a7",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "unknown",
+  "breakingCommitAuthor" : "bot",
+  "licenseInfo" : "Educational Community License v2.0",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.mariadb.jdbc",
+    "dependencyArtifactID" : "mariadb-java-client",
+    "previousVersion" : "3.2.0",
+    "newVersion" : "3.5.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "17"
+}

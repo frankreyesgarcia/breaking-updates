@@ -1,0 +1,29 @@
+{
+  "url" : "https://github.com/alphagov/pay-adminusers/pull/2524",
+  "project" : "pay-adminusers",
+  "projectOrganisation" : "alphagov",
+  "breakingCommit" : "345ddbc97810448ba7a9612b872362ddc0fd975a",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "licenseInfo" : null,
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.eclipse.persistence",
+    "dependencyArtifactID" : "org.eclipse.persistence.jpa",
+    "previousVersion" : "2.7.13",
+    "newVersion" : "4.0.3",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencies",
+    "githubCompareLink" : "A GitHub repository could not be found for the updated dependency.",
+    "mavenSourceLinkPre" : "https://repo1.maven.org/maven2/org/eclipse/persistence/org.eclipse.persistence.jpa/2.7.13/org.eclipse.persistence.jpa-2.7.13-sources.jar",
+    "mavenSourceLinkBreaking" : "https://repo1.maven.org/maven2/org/eclipse/persistence/org.eclipse.persistence.jpa/4.0.3/org.eclipse.persistence.jpa-4.0.3-sources.jar",
+    "updatedFileType" : "JAR",
+    "licenseInfo" : null,
+    "githubRepoSlug" : null
+  },
+  "preCommitReproductionCommand" : null,
+  "breakingUpdateReproductionCommand" : null,
+  "javaVersionUsedForReproduction" : "11",
+  "failureCategory" : "COMPILATION_FAILURE"
+}

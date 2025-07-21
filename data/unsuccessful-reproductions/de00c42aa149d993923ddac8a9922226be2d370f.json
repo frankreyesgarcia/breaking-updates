@@ -1,0 +1,20 @@
+{
+  "url" : "https://github.com/camunda/camunda/pull/25256",
+  "project" : "camunda",
+  "projectOrganisation" : "camunda",
+  "breakingCommit" : "de00c42aa149d993923ddac8a9922226be2d370f",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "licenseInfo" : "unknown",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.commons",
+    "dependencyArtifactID" : "commons-text",
+    "previousVersion" : "1.11.0",
+    "newVersion" : "1.12.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "22"
+}

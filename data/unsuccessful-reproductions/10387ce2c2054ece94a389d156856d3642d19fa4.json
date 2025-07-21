@@ -1,0 +1,20 @@
+{
+  "url" : "https://github.com/jenkinsci/ws-cleanup-plugin/pull/235",
+  "project" : "ws-cleanup-plugin",
+  "projectOrganisation" : "jenkinsci",
+  "breakingCommit" : "10387ce2c2054ece94a389d156856d3642d19fa4",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "licenseInfo" : "MIT License",
+  "updatedDependency" : {
+    "dependencyGroupID" : "io.jenkins.tools.bom",
+    "dependencyArtifactID" : "bom-${jenkins.baseline}.x",
+    "previousVersion" : "4136.vca_c3202a_7fd1",
+    "newVersion" : "4570.v1b_c718dd3b_1e",
+    "dependencyScope" : "import",
+    "versionUpdateType" : "other",
+    "dependencySection" : "unknown"
+  },
+  "javaVersionUsedForReproduction" : "21"
+}

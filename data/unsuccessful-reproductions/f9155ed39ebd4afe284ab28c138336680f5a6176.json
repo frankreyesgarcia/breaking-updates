@@ -1,0 +1,20 @@
+{
+  "url" : "https://github.com/quarkusio/quarkus-platform/pull/1378",
+  "project" : "quarkus-platform",
+  "projectOrganisation" : "quarkusio",
+  "breakingCommit" : "f9155ed39ebd4afe284ab28c138336680f5a6176",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "licenseInfo" : "Apache License 2.0",
+  "updatedDependency" : {
+    "dependencyGroupID" : "io.quarkus.http",
+    "dependencyArtifactID" : "quarkus-http-core",
+    "previousVersion" : "5.3.3",
+    "newVersion" : "5.3.4",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencyManagement"
+  },
+  "javaVersionUsedForReproduction" : "17"
+}

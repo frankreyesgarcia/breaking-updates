@@ -1,0 +1,29 @@
+{
+  "url" : "https://github.com/AzBuilder/terrakube/pull/2018",
+  "project" : "terrakube",
+  "projectOrganisation" : "AzBuilder",
+  "breakingCommit" : "2b8c8383fc0e5d93d79132b2100fe4a6bb5d6f64",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "licenseInfo" : null,
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.nimbusds",
+    "dependencyArtifactID" : "nimbus-jose-jwt",
+    "previousVersion" : "10.1",
+    "newVersion" : "10.2",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies",
+    "githubCompareLink" : "A GitHub repository could not be found for the updated dependency.",
+    "mavenSourceLinkPre" : "https://repo1.maven.org/maven2/com/nimbusds/nimbus-jose-jwt/10.1/nimbus-jose-jwt-10.1-sources.jar",
+    "mavenSourceLinkBreaking" : "https://repo1.maven.org/maven2/com/nimbusds/nimbus-jose-jwt/10.2/nimbus-jose-jwt-10.2-sources.jar",
+    "updatedFileType" : "JAR",
+    "licenseInfo" : null,
+    "githubRepoSlug" : null
+  },
+  "preCommitReproductionCommand" : "docker run ghcr.io/chains-project/breaking-updates:2b8c8383fc0e5d93d79132b2100fe4a6bb5d6f64-pre",
+  "breakingUpdateReproductionCommand" : "docker run ghcr.io/chains-project/breaking-updates:2b8c8383fc0e5d93d79132b2100fe4a6bb5d6f64-breaking",
+  "javaVersionUsedForReproduction" : "17",
+  "failureCategory" : "TEST_FAILURE"
+}

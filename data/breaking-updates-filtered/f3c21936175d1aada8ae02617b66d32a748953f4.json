@@ -1,0 +1,29 @@
+{
+  "url" : "https://github.com/mathieucarbou/license-maven-plugin/pull/908",
+  "project" : "license-maven-plugin",
+  "projectOrganisation" : "mathieucarbou",
+  "breakingCommit" : "f3c21936175d1aada8ae02617b66d32a748953f4",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "licenseInfo" : null,
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.maven.plugin-testing",
+    "dependencyArtifactID" : "maven-plugin-testing-harness",
+    "previousVersion" : "4.0.0-alpha-2",
+    "newVersion" : "4.0.0-beta-3",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencyManagement",
+    "githubCompareLink" : "A GitHub repository could not be found for the updated dependency.",
+    "mavenSourceLinkPre" : "https://repo1.maven.org/maven2/org/apache/maven/plugin-testing/maven-plugin-testing-harness/4.0.0-alpha-2/maven-plugin-testing-harness-4.0.0-alpha-2-sources.jar",
+    "mavenSourceLinkBreaking" : "https://repo1.maven.org/maven2/org/apache/maven/plugin-testing/maven-plugin-testing-harness/4.0.0-beta-3/maven-plugin-testing-harness-4.0.0-beta-3-sources.jar",
+    "updatedFileType" : "JAR",
+    "licenseInfo" : null,
+    "githubRepoSlug" : null
+  },
+  "preCommitReproductionCommand" : null,
+  "breakingUpdateReproductionCommand" : null,
+  "javaVersionUsedForReproduction" : "11",
+  "failureCategory" : "COMPILATION_FAILURE"
+}

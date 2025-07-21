@@ -1,0 +1,20 @@
+{
+  "url" : "https://github.com/dbmdz/streaming-server-euphoria/pull/312",
+  "project" : "streaming-server-euphoria",
+  "projectOrganisation" : "dbmdz",
+  "breakingCommit" : "b32f615812df3f69008d01674916ea3478609cda",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "licenseInfo" : "MIT License",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.github.spotbugs",
+    "dependencyArtifactID" : "spotbugs",
+    "previousVersion" : "4.8.2",
+    "newVersion" : "4.8.6",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "buildPlugins"
+  },
+  "javaVersionUsedForReproduction" : "17"
+}

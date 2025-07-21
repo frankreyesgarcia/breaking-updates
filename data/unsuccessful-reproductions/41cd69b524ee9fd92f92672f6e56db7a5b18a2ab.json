@@ -1,0 +1,20 @@
+{
+  "url" : "https://github.com/apache/camel-kafka-connector/pull/1636",
+  "project" : "camel-kafka-connector",
+  "projectOrganisation" : "apache",
+  "breakingCommit" : "41cd69b524ee9fd92f92672f6e56db7a5b18a2ab",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "licenseInfo" : "Apache License 2.0",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.amazon.redshift",
+    "dependencyArtifactID" : "redshift-jdbc42",
+    "previousVersion" : "2.1.0.26",
+    "newVersion" : "2.1.0.28",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "17"
+}

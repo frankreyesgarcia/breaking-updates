@@ -1,0 +1,29 @@
+{
+  "url" : "https://github.com/microprofile/microprofile-config/pull/805",
+  "project" : "microprofile-config",
+  "projectOrganisation" : "microprofile",
+  "breakingCommit" : "eec939be771be00631b718ade0fd78478fb27d0a",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "licenseInfo" : null,
+  "updatedDependency" : {
+    "dependencyGroupID" : "biz.aQute.bnd",
+    "dependencyArtifactID" : "biz.aQute.bnd.annotation",
+    "previousVersion" : "6.4.1",
+    "newVersion" : "7.1.0",
+    "dependencyScope" : "provided",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencyManagement",
+    "githubCompareLink" : "A GitHub repository could not be found for the updated dependency.",
+    "mavenSourceLinkPre" : "https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.bnd.annotation/6.4.1/biz.aQute.bnd.annotation-6.4.1-sources.jar",
+    "mavenSourceLinkBreaking" : "https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.bnd.annotation/7.1.0/biz.aQute.bnd.annotation-7.1.0-sources.jar",
+    "updatedFileType" : "JAR",
+    "licenseInfo" : null,
+    "githubRepoSlug" : null
+  },
+  "preCommitReproductionCommand" : null,
+  "breakingUpdateReproductionCommand" : null,
+  "javaVersionUsedForReproduction" : "11",
+  "failureCategory" : "COMPILATION_FAILURE"
+}

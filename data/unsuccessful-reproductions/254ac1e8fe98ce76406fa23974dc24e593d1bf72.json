@@ -1,0 +1,20 @@
+{
+  "url" : "https://github.com/Hack23/cia/pull/6313",
+  "project" : "cia",
+  "projectOrganisation" : "Hack23",
+  "breakingCommit" : "254ac1e8fe98ce76406fa23974dc24e593d1bf72",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "human",
+  "licenseInfo" : "Apache License 2.0",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.google.protobuf",
+    "dependencyArtifactID" : "protobuf-java",
+    "previousVersion" : "4.27.2",
+    "newVersion" : "4.27.3",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "21"
+}

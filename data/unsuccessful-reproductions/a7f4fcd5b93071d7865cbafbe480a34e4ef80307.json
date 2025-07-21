@@ -1,0 +1,20 @@
+{
+  "url" : "https://github.com/objectionary/eo/pull/3408",
+  "project" : "eo",
+  "projectOrganisation" : "objectionary",
+  "breakingCommit" : "a7f4fcd5b93071d7865cbafbe480a34e4ef80307",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "licenseInfo" : "MIT License",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.codehaus.plexus",
+    "dependencyArtifactID" : "plexus-xml",
+    "previousVersion" : "3.0.0",
+    "newVersion" : "3.0.1",
+    "dependencyScope" : "provided",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "20"
+}

@@ -1,0 +1,29 @@
+{
+  "url" : "https://github.com/alibaba/fastjson2/pull/2742",
+  "project" : "fastjson2",
+  "projectOrganisation" : "alibaba",
+  "breakingCommit" : "d284b4a95ea3835ce093fdfe66546013e0fe1e3b",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "licenseInfo" : null,
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.networknt",
+    "dependencyArtifactID" : "json-schema-validator",
+    "previousVersion" : "1.0.88",
+    "newVersion" : "1.4.3",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencyManagement",
+    "githubCompareLink" : "https://github.com/json-schema-validator/compare/1.0.88...1.4.3",
+    "mavenSourceLinkPre" : "https://repo1.maven.org/maven2/com/networknt/json-schema-validator/1.0.88/json-schema-validator-1.0.88-sources.jar",
+    "mavenSourceLinkBreaking" : "https://repo1.maven.org/maven2/com/networknt/json-schema-validator/1.4.3/json-schema-validator-1.4.3-sources.jar",
+    "updatedFileType" : "JAR",
+    "licenseInfo" : "Apache License 2.0",
+    "githubRepoSlug" : "json-schema-validator"
+  },
+  "preCommitReproductionCommand" : null,
+  "breakingUpdateReproductionCommand" : null,
+  "javaVersionUsedForReproduction" : "8",
+  "failureCategory" : "COMPILATION_FAILURE"
+}

@@ -1,0 +1,20 @@
+{
+  "url" : "https://github.com/googleapis/java-cloud-bom/pull/6554",
+  "project" : "java-cloud-bom",
+  "projectOrganisation" : "googleapis",
+  "breakingCommit" : "f36623cb6c65a871c2823d330c50006385966e1c",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "licenseInfo" : "Apache License 2.0",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.google.cloud",
+    "dependencyArtifactID" : "google-cloud-bigquery",
+    "previousVersion" : "2.39.0",
+    "newVersion" : "2.39.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencyManagement"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

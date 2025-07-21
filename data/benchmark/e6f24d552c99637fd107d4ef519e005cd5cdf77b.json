@@ -1,0 +1,29 @@
+{
+  "url" : "https://github.com/GoogleCloudPlatform/pgadapter/pull/3448",
+  "project" : "pgadapter",
+  "projectOrganisation" : "GoogleCloudPlatform",
+  "breakingCommit" : "e6f24d552c99637fd107d4ef519e005cd5cdf77b",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "licenseInfo" : null,
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.postgresql",
+    "dependencyArtifactID" : "postgresql",
+    "previousVersion" : "42.7.6",
+    "newVersion" : "42.7.7",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies",
+    "githubCompareLink" : "A GitHub repository could not be found for the updated dependency.",
+    "mavenSourceLinkPre" : "https://repo1.maven.org/maven2/org/postgresql/postgresql/42.7.6/postgresql-42.7.6-sources.jar",
+    "mavenSourceLinkBreaking" : "https://repo1.maven.org/maven2/org/postgresql/postgresql/42.7.7/postgresql-42.7.7-sources.jar",
+    "updatedFileType" : "JAR",
+    "licenseInfo" : null,
+    "githubRepoSlug" : null
+  },
+  "preCommitReproductionCommand" : "docker run ghcr.io/chains-project/breaking-updates:e6f24d552c99637fd107d4ef519e005cd5cdf77b-pre",
+  "breakingUpdateReproductionCommand" : "docker run ghcr.io/chains-project/breaking-updates:e6f24d552c99637fd107d4ef519e005cd5cdf77b-breaking",
+  "javaVersionUsedForReproduction" : "21",
+  "failureCategory" : "TEST_FAILURE"
+}

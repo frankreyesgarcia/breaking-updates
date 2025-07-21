@@ -1,0 +1,20 @@
+{
+  "url" : "https://github.com/sngular/kloadgen/pull/442",
+  "project" : "kloadgen",
+  "projectOrganisation" : "sngular",
+  "breakingCommit" : "b0b55f0f6e076b01ee24afee123786eaf3d4fed2",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "licenseInfo" : "Mozilla Public License 2.0",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.google.protobuf",
+    "dependencyArtifactID" : "protobuf-java",
+    "previousVersion" : "3.25.1",
+    "newVersion" : "3.25.5",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "17"
+}

@@ -1,0 +1,20 @@
+{
+  "url" : "https://github.com/mojohaus/maven-native/pull/115",
+  "project" : "maven-native",
+  "projectOrganisation" : "mojohaus",
+  "breakingCommit" : "b2f27a55e7504e16f4012c08b9b6bfcb66f910d7",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "licenseInfo" : "MIT License",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.codehaus.plexus",
+    "dependencyArtifactID" : "plexus-xml",
+    "previousVersion" : "3.0.0",
+    "newVersion" : "3.0.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencyManagement"
+  },
+  "javaVersionUsedForReproduction" : "8"
+}

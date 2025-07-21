@@ -1,0 +1,20 @@
+{
+  "url" : "https://github.com/factcast/factcast/pull/3769",
+  "project" : "factcast",
+  "projectOrganisation" : "factcast",
+  "breakingCommit" : "3a33948ebd8af214bc9fd668c50a4ef66257530a",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "licenseInfo" : "Apache License 2.0",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.postgresql",
+    "dependencyArtifactID" : "postgresql",
+    "previousVersion" : "42.7.6",
+    "newVersion" : "42.7.7",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencyManagement"
+  },
+  "javaVersionUsedForReproduction" : "17"
+}

@@ -1,0 +1,20 @@
+{
+  "url" : "https://github.com/jenkinsci/maven-plugin/pull/375",
+  "project" : "maven-plugin",
+  "projectOrganisation" : "jenkinsci",
+  "breakingCommit" : "92f8bedcb836186dc693df6567165c5148c1861e",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "licenseInfo" : "unknown",
+  "updatedDependency" : {
+    "dependencyGroupID" : "io.jenkins.tools.bom",
+    "dependencyArtifactID" : "bom-${jenkins.baseline}.x",
+    "previousVersion" : "4051.v78dce3ce8b_d6",
+    "newVersion" : "4228.v0a_71308d905b_",
+    "dependencyScope" : "import",
+    "versionUpdateType" : "other",
+    "dependencySection" : "unknown"
+  },
+  "javaVersionUsedForReproduction" : "21"
+}

@@ -1,0 +1,20 @@
+{
+  "url" : "https://github.com/googleapis/java-storage-nio/pull/1452",
+  "project" : "java-storage-nio",
+  "projectOrganisation" : "googleapis",
+  "breakingCommit" : "c5fc2d55fea6b03b6a0f505908bbf67b20dbcf74",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "licenseInfo" : "Apache License 2.0",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.google.cloud",
+    "dependencyArtifactID" : "libraries-bom",
+    "previousVersion" : "26.43.0",
+    "newVersion" : "26.44.0",
+    "dependencyScope" : "import",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencyManagement"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

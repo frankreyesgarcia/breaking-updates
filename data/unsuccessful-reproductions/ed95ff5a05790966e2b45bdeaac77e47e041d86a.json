@@ -1,0 +1,20 @@
+{
+  "url" : "https://github.com/quarkusio/quarkus-platform/pull/1200",
+  "project" : "quarkus-platform",
+  "projectOrganisation" : "quarkusio",
+  "breakingCommit" : "ed95ff5a05790966e2b45bdeaac77e47e041d86a",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "licenseInfo" : "Apache License 2.0",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.bouncycastle",
+    "dependencyArtifactID" : "bc-fips",
+    "previousVersion" : "1.0.2.4",
+    "newVersion" : "1.0.2.5",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencyManagement"
+  },
+  "javaVersionUsedForReproduction" : "17"
+}

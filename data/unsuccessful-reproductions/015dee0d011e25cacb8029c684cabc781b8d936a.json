@@ -1,0 +1,20 @@
+{
+  "url" : "https://github.com/frankframework/frankframework/pull/8201",
+  "project" : "frankframework",
+  "projectOrganisation" : "frankframework",
+  "breakingCommit" : "015dee0d011e25cacb8029c684cabc781b8d936a",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "human",
+  "licenseInfo" : "Apache License 2.0",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.google.protobuf",
+    "dependencyArtifactID" : "protobuf-java",
+    "previousVersion" : "4.29.2",
+    "newVersion" : "4.29.3",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencyManagement"
+  },
+  "javaVersionUsedForReproduction" : "17"
+}

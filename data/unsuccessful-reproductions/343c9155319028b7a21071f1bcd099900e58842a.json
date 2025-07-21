@@ -1,0 +1,20 @@
+{
+  "url" : "https://github.com/GoogleCloudPlatform/appengine-java-standard/pull/151",
+  "project" : "appengine-java-standard",
+  "projectOrganisation" : "GoogleCloudPlatform",
+  "breakingCommit" : "343c9155319028b7a21071f1bcd099900e58842a",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "licenseInfo" : "Apache License 2.0",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.google.cloud.sql",
+    "dependencyArtifactID" : "mysql-socket-factory",
+    "previousVersion" : "1.5.0",
+    "newVersion" : "1.13.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "17"
+}
