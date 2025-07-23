@@ -1,0 +1,29 @@
+{
+  "url" : "https://github.com/s4u/sign-maven-plugin/pull/201",
+  "project" : "sign-maven-plugin",
+  "projectOrganisation" : "s4u",
+  "breakingCommit" : "065dc3e56b588330508c8eaa8bba11e66b4d27c1",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "licenseInfo" : null,
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.codehaus.plexus",
+    "dependencyArtifactID" : "plexus-sec-dispatcher",
+    "previousVersion" : "2.0",
+    "newVersion" : "3.0.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencies",
+    "githubCompareLink" : "A GitHub repository could not be found for the updated dependency.",
+    "mavenSourceLinkPre" : "https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-sec-dispatcher/2.0/plexus-sec-dispatcher-2.0-sources.jar",
+    "mavenSourceLinkBreaking" : "https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-sec-dispatcher/3.0.0/plexus-sec-dispatcher-3.0.0-sources.jar",
+    "updatedFileType" : "JAR",
+    "licenseInfo" : null,
+    "githubRepoSlug" : null
+  },
+  "preCommitReproductionCommand" : null,
+  "breakingUpdateReproductionCommand" : null,
+  "javaVersionUsedForReproduction" : "11",
+  "failureCategory" : "COMPILATION_FAILURE"
+}

@@ -1,0 +1,20 @@
+{
+  "url" : "https://github.com/eclipse-tycho/tycho/pull/4323",
+  "project" : "tycho",
+  "projectOrganisation" : "eclipse-tycho",
+  "breakingCommit" : "fdd8cf5a45c7a023aabaff8a7b6ef854414c6785",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "licenseInfo" : "Eclipse Public License 2.0",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.maven.doxia",
+    "dependencyArtifactID" : "doxia-module-markdown",
+    "previousVersion" : "2.0.0-M12",
+    "newVersion" : "2.0.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "unknown"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

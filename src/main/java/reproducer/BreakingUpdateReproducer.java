@@ -195,6 +195,7 @@ public class BreakingUpdateReproducer {
         String javaVersions = javaVersionParser.parseJavaVersion();
         if (javaVersions.isEmpty()) {
             log.warn("No Java versions found in CI for breaking update {}", bu.breakingCommit);
+            return "11";
         }
         // else {
         // log.info("Identified Java versions for breaking update {}: {}",

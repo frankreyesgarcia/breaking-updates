@@ -1,0 +1,29 @@
+{
+  "url" : "https://github.com/davidmoten/rxjava2-extras/pull/198",
+  "project" : "rxjava2-extras",
+  "projectOrganisation" : "davidmoten",
+  "breakingCommit" : "1c060c19a702b81e4d65f433dcce848e2d499367",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "licenseInfo" : null,
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.esotericsoftware",
+    "dependencyArtifactID" : "kryo",
+    "previousVersion" : "4.0.3",
+    "newVersion" : "5.0.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencies",
+    "githubCompareLink" : "https://github.com/kryo/compare/kryo-parent-4.0.3...kryo-parent-5.0.0",
+    "mavenSourceLinkPre" : "https://repo1.maven.org/maven2/com/esotericsoftware/kryo/4.0.3/kryo-4.0.3-sources.jar",
+    "mavenSourceLinkBreaking" : "https://repo1.maven.org/maven2/com/esotericsoftware/kryo/5.0.0/kryo-5.0.0-sources.jar",
+    "updatedFileType" : "JAR",
+    "licenseInfo" : "BSD 3-Clause \"New\" or \"Revised\" License",
+    "githubRepoSlug" : "kryo"
+  },
+  "preCommitReproductionCommand" : null,
+  "breakingUpdateReproductionCommand" : null,
+  "javaVersionUsedForReproduction" : "11",
+  "failureCategory" : "COMPILATION_FAILURE"
+}

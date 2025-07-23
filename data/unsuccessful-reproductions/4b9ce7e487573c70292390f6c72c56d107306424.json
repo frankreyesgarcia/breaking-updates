@@ -1,0 +1,20 @@
+{
+  "url" : "https://github.com/geotools/geotools/pull/5245",
+  "project" : "geotools",
+  "projectOrganisation" : "geotools",
+  "breakingCommit" : "4b9ce7e487573c70292390f6c72c56d107306424",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "licenseInfo" : "GNU Lesser General Public License v2.1",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.codehaus.plexus",
+    "dependencyArtifactID" : "plexus-utils",
+    "previousVersion" : "3.0.16",
+    "newVersion" : "3.0.24",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

@@ -1,0 +1,29 @@
+{
+  "url" : "https://github.com/davidmoten/rtree/pull/258",
+  "project" : "rtree",
+  "projectOrganisation" : "davidmoten",
+  "breakingCommit" : "4977db6f19097a102992d792689c2721b41939cf",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "licenseInfo" : null,
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.google.flatbuffers",
+    "dependencyArtifactID" : "flatbuffers-java",
+    "previousVersion" : "2.0.8",
+    "newVersion" : "25.1.24",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencies",
+    "githubCompareLink" : "A GitHub repository could not be found for the updated dependency.",
+    "mavenSourceLinkPre" : "https://repo1.maven.org/maven2/com/google/flatbuffers/flatbuffers-java/2.0.8/flatbuffers-java-2.0.8-sources.jar",
+    "mavenSourceLinkBreaking" : "https://repo1.maven.org/maven2/com/google/flatbuffers/flatbuffers-java/25.1.24/flatbuffers-java-25.1.24-sources.jar",
+    "updatedFileType" : "JAR",
+    "licenseInfo" : null,
+    "githubRepoSlug" : null
+  },
+  "preCommitReproductionCommand" : null,
+  "breakingUpdateReproductionCommand" : null,
+  "javaVersionUsedForReproduction" : "11",
+  "failureCategory" : "COMPILATION_FAILURE"
+}

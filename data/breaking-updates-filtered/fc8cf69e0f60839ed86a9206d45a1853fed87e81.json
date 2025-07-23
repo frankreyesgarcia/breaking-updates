@@ -1,0 +1,29 @@
+{
+  "url" : "https://github.com/davidmoten/rtree-multi/pull/121",
+  "project" : "rtree-multi",
+  "projectOrganisation" : "davidmoten",
+  "breakingCommit" : "fc8cf69e0f60839ed86a9206d45a1853fed87e81",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "licenseInfo" : null,
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.esotericsoftware",
+    "dependencyArtifactID" : "kryo",
+    "previousVersion" : "5.6.0",
+    "newVersion" : "5.6.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies",
+    "githubCompareLink" : "https://github.com/kryo/compare/kryo-parent-5.6.0...kryo-parent-5.6.1",
+    "mavenSourceLinkPre" : "https://repo1.maven.org/maven2/com/esotericsoftware/kryo/5.6.0/kryo-5.6.0-sources.jar",
+    "mavenSourceLinkBreaking" : "https://repo1.maven.org/maven2/com/esotericsoftware/kryo/5.6.1/kryo-5.6.1-sources.jar",
+    "updatedFileType" : "JAR",
+    "licenseInfo" : "BSD 3-Clause \"New\" or \"Revised\" License",
+    "githubRepoSlug" : "kryo"
+  },
+  "preCommitReproductionCommand" : null,
+  "breakingUpdateReproductionCommand" : null,
+  "javaVersionUsedForReproduction" : "11",
+  "failureCategory" : "COMPILATION_FAILURE"
+}

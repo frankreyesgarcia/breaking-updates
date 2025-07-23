@@ -1,0 +1,20 @@
+{
+  "url" : "https://github.com/PicnicSupermarket/error-prone-support/pull/1722",
+  "project" : "error-prone-support",
+  "projectOrganisation" : "PicnicSupermarket",
+  "breakingCommit" : "cc32396359a06d7bb66e824999ea51826902badc",
+  "prAuthor" : "human",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "human",
+  "licenseInfo" : "MIT License",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.springframework",
+    "dependencyArtifactID" : "spring-framework-bom",
+    "previousVersion" : "6.2.7",
+    "newVersion" : "6.2.8",
+    "dependencyScope" : "import",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencyManagement"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

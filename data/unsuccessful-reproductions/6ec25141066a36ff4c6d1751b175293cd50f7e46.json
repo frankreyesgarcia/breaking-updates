@@ -1,0 +1,20 @@
+{
+  "url" : "https://github.com/influxdata/influxdb-java/pull/1004",
+  "project" : "influxdb-java",
+  "projectOrganisation" : "influxdata",
+  "breakingCommit" : "6ec25141066a36ff4c6d1751b175293cd50f7e46",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "licenseInfo" : "MIT License",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.puppycrawl.tools",
+    "dependencyArtifactID" : "checkstyle",
+    "previousVersion" : "9.3",
+    "newVersion" : "10.16.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "buildPlugins"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

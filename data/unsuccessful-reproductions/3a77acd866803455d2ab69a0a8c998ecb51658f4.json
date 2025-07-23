@@ -1,0 +1,20 @@
+{
+  "url" : "https://github.com/eclipse-tycho/tycho/pull/3938",
+  "project" : "tycho",
+  "projectOrganisation" : "eclipse-tycho",
+  "breakingCommit" : "3a77acd866803455d2ab69a0a8c998ecb51658f4",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "licenseInfo" : "Eclipse Public License 2.0",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.eclipse.platform",
+    "dependencyArtifactID" : "org.eclipse.equinox.p2.publisher.eclipse",
+    "previousVersion" : "1.6.0",
+    "newVersion" : "1.6.100",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "unknown"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

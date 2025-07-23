@@ -1,0 +1,29 @@
+{
+  "url" : "https://github.com/jboss/jboss-threads/pull/179",
+  "project" : "jboss-threads",
+  "projectOrganisation" : "jboss",
+  "breakingCommit" : "cc8b3870e5467a52c4125dc64f343e0c7ea92eb4",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "licenseInfo" : null,
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.jboss.logging",
+    "dependencyArtifactID" : "jboss-logging-processor",
+    "previousVersion" : "2.2.1.Final",
+    "newVersion" : "3.0.0.Final",
+    "dependencyScope" : "provided",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencies",
+    "githubCompareLink" : "A GitHub repository could not be found for the updated dependency.",
+    "mavenSourceLinkPre" : "https://repo1.maven.org/maven2/org/jboss/logging/jboss-logging-processor/2.2.1.Final/jboss-logging-processor-2.2.1.Final-sources.jar",
+    "mavenSourceLinkBreaking" : "https://repo1.maven.org/maven2/org/jboss/logging/jboss-logging-processor/3.0.0.Final/jboss-logging-processor-3.0.0.Final-sources.jar",
+    "updatedFileType" : "JAR",
+    "licenseInfo" : null,
+    "githubRepoSlug" : null
+  },
+  "preCommitReproductionCommand" : null,
+  "breakingUpdateReproductionCommand" : null,
+  "javaVersionUsedForReproduction" : "11",
+  "failureCategory" : "COMPILATION_FAILURE"
+}

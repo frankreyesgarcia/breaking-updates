@@ -1,0 +1,20 @@
+{
+  "url" : "https://github.com/eclipse-tycho/tycho/pull/4957",
+  "project" : "tycho",
+  "projectOrganisation" : "eclipse-tycho",
+  "breakingCommit" : "73850e244cfca0626686c9807fdc3b95504c9c34",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "licenseInfo" : "Eclipse Public License 2.0",
+  "updatedDependency" : {
+    "dependencyGroupID" : "io.takari.maven",
+    "dependencyArtifactID" : "takari-smart-builder",
+    "previousVersion" : "1.0.2",
+    "newVersion" : "1.1.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

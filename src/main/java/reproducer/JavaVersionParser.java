@@ -72,7 +72,7 @@ public class JavaVersionParser {
                 return candidates;
             } else {
                 System.out.println("No Java versions found in any failed jobs.");
-                return null;
+                return "11"; // Default to Java 11 if no versions found
             }
 
         } catch (IOException ex) {

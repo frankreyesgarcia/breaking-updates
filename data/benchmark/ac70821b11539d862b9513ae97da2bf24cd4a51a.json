@@ -1,0 +1,29 @@
+{
+  "url" : "https://github.com/s4u/sign-maven-plugin/pull/182",
+  "project" : "sign-maven-plugin",
+  "projectOrganisation" : "s4u",
+  "breakingCommit" : "ac70821b11539d862b9513ae97da2bf24cd4a51a",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "licenseInfo" : null,
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.bouncycastle",
+    "dependencyArtifactID" : "bcpg-jdk18on",
+    "previousVersion" : "1.77",
+    "newVersion" : "1.78",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies",
+    "githubCompareLink" : "A GitHub repository could not be found for the updated dependency.",
+    "mavenSourceLinkPre" : "https://repo1.maven.org/maven2/org/bouncycastle/bcpg-jdk18on/1.77/bcpg-jdk18on-1.77-sources.jar",
+    "mavenSourceLinkBreaking" : "https://repo1.maven.org/maven2/org/bouncycastle/bcpg-jdk18on/1.78/bcpg-jdk18on-1.78-sources.jar",
+    "updatedFileType" : "JAR",
+    "licenseInfo" : null,
+    "githubRepoSlug" : null
+  },
+  "preCommitReproductionCommand" : "docker run ghcr.io/chains-project/breaking-updates:ac70821b11539d862b9513ae97da2bf24cd4a51a-pre",
+  "breakingUpdateReproductionCommand" : "docker run ghcr.io/chains-project/breaking-updates:ac70821b11539d862b9513ae97da2bf24cd4a51a-breaking",
+  "javaVersionUsedForReproduction" : "11",
+  "failureCategory" : "TEST_FAILURE"
+}
