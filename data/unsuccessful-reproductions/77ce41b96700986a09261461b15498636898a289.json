@@ -1,0 +1,20 @@
+{
+  "url" : "https://github.com/apache/camel/pull/17810",
+  "project" : "camel",
+  "projectOrganisation" : "apache",
+  "breakingCommit" : "77ce41b96700986a09261461b15498636898a289",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "licenseInfo" : "Apache License 2.0",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.google.code.gson",
+    "dependencyArtifactID" : "gson",
+    "previousVersion" : "2.12.1",
+    "newVersion" : "2.13.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "17"
+}

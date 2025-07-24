@@ -1,0 +1,20 @@
+{
+  "url" : "https://github.com/objectionary/eo/pull/4274",
+  "project" : "eo",
+  "projectOrganisation" : "objectionary",
+  "breakingCommit" : "ff70a679c54c0d7ea22369428353629a0458c59e",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "licenseInfo" : "MIT License",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.yegor256",
+    "dependencyArtifactID" : "jaxec",
+    "previousVersion" : "0.4.0",
+    "newVersion" : "0.4.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencyManagement"
+  },
+  "javaVersionUsedForReproduction" : "23"
+}

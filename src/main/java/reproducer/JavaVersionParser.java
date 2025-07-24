@@ -150,14 +150,17 @@ public class JavaVersionParser {
     private static void parseJavaVersionsFromWorkflowFiles(GHWorkflowJob job, List<GHContent> workflows,
             List<String> javaVersions) {
         for (GHContent workflow : workflows) {
-            try (InputStream inputStream = workflow.read()) {
-                String fileContent = new String(inputStream.readAllBytes(), StandardCharsets.UTF_8);
-                // if (fileContent.contains(job.getName())) {
-                parseJavaVersions(new ByteArrayInputStream(fileContent.getBytes(StandardCharsets.UTF_8)), javaVersions);
-                // break;
-                // }
-            } catch (IOException e) {
-                logError("Error reading workflow file: " + e.getMessage());
+            if (workflow.isFile()) {
+                try (InputStream inputStream = workflow.read()) {
+                    String fileContent = new String(inputStream.readAllBytes(), StandardCharsets.UTF_8);
+                    // if (fileContent.contains(job.getName())) {
+                    parseJavaVersions(new ByteArrayInputStream(fileContent.getBytes(StandardCharsets.UTF_8)),
+                            javaVersions);
+                    // break;
+                    // }
+                } catch (IOException e) {
+                    logError("Error reading workflow file: " + e.getMessage());
+                }
             }
         }
     }

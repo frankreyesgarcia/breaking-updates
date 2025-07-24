@@ -1,0 +1,20 @@
+{
+  "url" : "https://github.com/hapifhir/hapi-fhir/pull/6299",
+  "project" : "hapi-fhir",
+  "projectOrganisation" : "hapifhir",
+  "breakingCommit" : "ec28148daf281773332265e038131520af406c91",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "licenseInfo" : "Apache License 2.0",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.webjars.npm",
+    "dependencyArtifactID" : "bootstrap",
+    "previousVersion" : "4.5.2",
+    "newVersion" : "5.0.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencyManagement"
+  },
+  "javaVersionUsedForReproduction" : "17"
+}

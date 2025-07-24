@@ -1,0 +1,20 @@
+{
+  "url" : "https://github.com/TheAlgorithms/Java/pull/6311",
+  "project" : "Java",
+  "projectOrganisation" : "TheAlgorithms",
+  "breakingCommit" : "7d3a985cb0f784cba286752ca555f031df450690",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "licenseInfo" : "MIT License",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.puppycrawl.tools",
+    "dependencyArtifactID" : "checkstyle",
+    "previousVersion" : "10.25.0",
+    "newVersion" : "10.25.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "buildPlugins"
+  },
+  "javaVersionUsedForReproduction" : "21"
+}
