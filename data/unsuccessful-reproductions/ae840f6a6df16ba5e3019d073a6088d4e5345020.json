@@ -6,6 +6,7 @@
   "prAuthor" : "bot",
   "preCommitAuthor" : "human",
   "breakingCommitAuthor" : "bot",
+  "licenseInfo" : "Apache License 2.0",
   "updatedDependency" : {
     "dependencyGroupID" : "org.eclipse.jdt",
     "dependencyArtifactID" : "org.eclipse.jdt.core",
@@ -15,5 +16,5 @@
     "versionUpdateType" : "minor",
     "dependencySection" : "dependencies"
   },
-  "licenseInfo" : "Apache License 2.0"
+  "javaVersionUsedForReproduction" : "23"
 }
