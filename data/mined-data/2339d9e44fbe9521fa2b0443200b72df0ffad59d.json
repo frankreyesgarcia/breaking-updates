@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/nosqlbench/nosqlbench/pull/2201",
+  "project" : "nosqlbench",
+  "projectOrganisation" : "nosqlbench",
+  "breakingCommit" : "2339d9e44fbe9521fa2b0443200b72df0ffad59d",
+  "prAuthor" : "human",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "human",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.logging.log4j",
+    "dependencyArtifactID" : "log4j-jcl",
+    "previousVersion" : "2.24.3",
+    "newVersion" : "2.25.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

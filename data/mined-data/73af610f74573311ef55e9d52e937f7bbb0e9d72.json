@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/smooks/smooks-edi-cartridge/pull/408",
+  "project" : "smooks-edi-cartridge",
+  "projectOrganisation" : "smooks",
+  "breakingCommit" : "73af610f74573311ef55e9d52e937f7bbb0e9d72",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.fasterxml.jackson.core",
+    "dependencyArtifactID" : "jackson-databind",
+    "previousVersion" : "2.16.1",
+    "newVersion" : "2.19.2",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Other"
+}

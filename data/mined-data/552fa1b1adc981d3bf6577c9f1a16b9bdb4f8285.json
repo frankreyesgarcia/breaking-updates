@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/camunda/camunda/pull/35579",
+  "project" : "camunda",
+  "projectOrganisation" : "camunda",
+  "breakingCommit" : "552fa1b1adc981d3bf6577c9f1a16b9bdb4f8285",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "io.github.classgraph",
+    "dependencyArtifactID" : "classgraph",
+    "previousVersion" : "4.8.180",
+    "newVersion" : "4.8.181",
+    "dependencyScope" : "provided",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "unknown"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/GoogleCloudPlatform/spring-cloud-gcp/pull/3944",
+  "project" : "spring-cloud-gcp",
+  "projectOrganisation" : "GoogleCloudPlatform",
+  "breakingCommit" : "519405bb7a6d63b22e73ec5ff223cbdc6a1de476",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "io.opentelemetry",
+    "dependencyArtifactID" : "opentelemetry-api",
+    "previousVersion" : "1.47.0",
+    "newVersion" : "1.52.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "unknown"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

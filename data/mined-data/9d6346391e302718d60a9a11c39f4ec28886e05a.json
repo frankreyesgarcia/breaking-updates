@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/onthegomap/planetiler/pull/1283",
+  "project" : "planetiler",
+  "projectOrganisation" : "onthegomap",
+  "breakingCommit" : "9d6346391e302718d60a9a11c39f4ec28886e05a",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "blue.strategic.parquet",
+    "dependencyArtifactID" : "parquet-floor",
+    "previousVersion" : "1.51",
+    "newVersion" : "1.53",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

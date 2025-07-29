@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/lukas-krecan/ShedLock/pull/2700",
+  "project" : "ShedLock",
+  "projectOrganisation" : "lukas-krecan",
+  "breakingCommit" : "62aa138d0b59c41b50242df1077e78a285abf077",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.microsoft.sqlserver",
+    "dependencyArtifactID" : "mssql-jdbc",
+    "previousVersion" : "12.10.1.jre11",
+    "newVersion" : "13.1.0.jre11-preview",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

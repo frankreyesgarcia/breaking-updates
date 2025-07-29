@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/stefvanschie/IF/pull/2409",
+  "project" : "IF",
+  "projectOrganisation" : "stefvanschie",
+  "breakingCommit" : "60157473780798d86989a022004fa7a32bf4ae52",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.junit.jupiter",
+    "dependencyArtifactID" : "junit-jupiter-engine",
+    "previousVersion" : "5.11.4",
+    "newVersion" : "5.13.4",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "buildPlugins"
+  },
+  "licenseInfo" : "The Unlicense"
+}

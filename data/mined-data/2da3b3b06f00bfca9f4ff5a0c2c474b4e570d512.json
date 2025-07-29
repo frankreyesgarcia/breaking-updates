@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/mediathekview/MLib/pull/167",
+  "project" : "MLib",
+  "projectOrganisation" : "mediathekview",
+  "breakingCommit" : "2da3b3b06f00bfca9f4ff5a0c2c474b4e570d512",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.fasterxml.jackson.core",
+    "dependencyArtifactID" : "jackson-core",
+    "previousVersion" : "2.14.2",
+    "newVersion" : "2.15.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "GNU General Public License v3.0"
+}

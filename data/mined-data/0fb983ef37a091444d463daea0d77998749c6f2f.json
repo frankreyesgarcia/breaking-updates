@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/opencast/opencast/pull/6856",
+  "project" : "opencast",
+  "projectOrganisation" : "opencast",
+  "breakingCommit" : "0fb983ef37a091444d463daea0d77998749c6f2f",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "unknown",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.glassfish.jaxb",
+    "dependencyArtifactID" : "jaxb-runtime",
+    "previousVersion" : "2.3.9",
+    "newVersion" : "4.0.5",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "Educational Community License v2.0"
+}

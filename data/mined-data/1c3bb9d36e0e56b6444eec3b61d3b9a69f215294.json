@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/jcabi/jcabi-maven-plugin/pull/194",
+  "project" : "jcabi-maven-plugin",
+  "projectOrganisation" : "jcabi",
+  "breakingCommit" : "1c3bb9d36e0e56b6444eec3b61d3b9a69f215294",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.commons",
+    "dependencyArtifactID" : "commons-lang3",
+    "previousVersion" : "3.14.0",
+    "newVersion" : "3.18.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Other"
+}

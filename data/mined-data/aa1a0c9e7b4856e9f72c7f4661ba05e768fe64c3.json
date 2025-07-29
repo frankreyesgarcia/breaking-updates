@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/alexcojocaru/elasticsearch-maven-plugin/pull/161",
+  "project" : "elasticsearch-maven-plugin",
+  "projectOrganisation" : "alexcojocaru",
+  "breakingCommit" : "aa1a0c9e7b4856e9f72c7f4661ba05e768fe64c3",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.commons",
+    "dependencyArtifactID" : "commons-lang3",
+    "previousVersion" : "3.5",
+    "newVersion" : "3.18.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

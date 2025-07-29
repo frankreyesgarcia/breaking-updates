@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/alphagov/pay-connector/pull/5892",
+  "project" : "pay-connector",
+  "projectOrganisation" : "alphagov",
+  "breakingCommit" : "6842467ad131b0873e55acb5462f92672da44dd9",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "software.amazon.awssdk",
+    "dependencyArtifactID" : "bom",
+    "previousVersion" : "2.32.4",
+    "newVersion" : "2.32.6",
+    "dependencyScope" : "import",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "MIT License"
+}

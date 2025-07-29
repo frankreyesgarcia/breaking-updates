@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/GoogleCloudPlatform/pgadapter/pull/3565",
+  "project" : "pgadapter",
+  "projectOrganisation" : "GoogleCloudPlatform",
+  "breakingCommit" : "c517b225c95a2fce2ffc2c58f8e1e60c0c3e7556",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.google.cloud",
+    "dependencyArtifactID" : "libraries-bom",
+    "previousVersion" : "26.63.0",
+    "newVersion" : "26.64.0",
+    "dependencyScope" : "import",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/GoogleCloudPlatform/pgadapter/pull/3549",
+  "project" : "pgadapter",
+  "projectOrganisation" : "GoogleCloudPlatform",
+  "breakingCommit" : "28cc3b5cacb1174a71c81223534ae619043d9f7b",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "commons-codec",
+    "dependencyArtifactID" : "commons-codec",
+    "previousVersion" : "1.18.0",
+    "newVersion" : "1.19.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/liquibase/liquibase/pull/7087",
+  "project" : "liquibase",
+  "projectOrganisation" : "liquibase",
+  "breakingCommit" : "bca22785215eb8e14c0f64698c2d3506553d6e71",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.junit.platform",
+    "dependencyArtifactID" : "junit-platform-suite",
+    "previousVersion" : "1.13.2",
+    "newVersion" : "1.13.3",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

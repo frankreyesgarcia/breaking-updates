@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/comixed/comixed/pull/2402",
+  "project" : "comixed",
+  "projectOrganisation" : "comixed",
+  "breakingCommit" : "54cff0628517a0ff5f98867a1c8a2b70e43a7cbf",
+  "prAuthor" : "human",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "human",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.springframework.statemachine",
+    "dependencyArtifactID" : "spring-statemachine-core",
+    "previousVersion" : "2.4.0",
+    "newVersion" : "2.5.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "GNU General Public License v3.0"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/docker-java/docker-java/pull/2474",
+  "project" : "docker-java",
+  "projectOrganisation" : "docker-java",
+  "breakingCommit" : "cb8e0ecaf829a1b5329fad7939d164894b4eaead",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.squareup.okhttp3",
+    "dependencyArtifactID" : "mockwebserver",
+    "previousVersion" : "3.14.9",
+    "newVersion" : "5.1.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

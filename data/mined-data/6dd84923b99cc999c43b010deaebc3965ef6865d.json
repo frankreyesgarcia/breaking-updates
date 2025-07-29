@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/GoogleCloudPlatform/pgadapter/pull/3523",
+  "project" : "pgadapter",
+  "projectOrganisation" : "GoogleCloudPlatform",
+  "breakingCommit" : "6dd84923b99cc999c43b010deaebc3965ef6865d",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.hibernate.orm",
+    "dependencyArtifactID" : "hibernate-core",
+    "previousVersion" : "7.0.4.Final",
+    "newVersion" : "7.0.7.Final",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "unknown"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

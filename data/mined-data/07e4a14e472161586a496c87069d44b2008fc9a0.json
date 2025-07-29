@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/google/gson/pull/2872",
+  "project" : "gson",
+  "projectOrganisation" : "google",
+  "breakingCommit" : "07e4a14e472161586a496c87069d44b2008fc9a0",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "human",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.junit",
+    "dependencyArtifactID" : "junit-bom",
+    "previousVersion" : "5.12.2",
+    "newVersion" : "5.13.3",
+    "dependencyScope" : "import",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "unknown"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

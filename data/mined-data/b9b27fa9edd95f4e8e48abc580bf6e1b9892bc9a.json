@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/jenkinsci/sse-gateway-plugin/pull/261",
+  "project" : "sse-gateway-plugin",
+  "projectOrganisation" : "jenkinsci",
+  "breakingCommit" : "b9b27fa9edd95f4e8e48abc580bf6e1b9892bc9a",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "io.jenkins.tools.bom",
+    "dependencyArtifactID" : "bom-${jenkins.baseline}.x",
+    "previousVersion" : "3893.v213a_42768d35",
+    "newVersion" : "5043.v855ff4819a_0f",
+    "dependencyScope" : "import",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "unknown"
+}

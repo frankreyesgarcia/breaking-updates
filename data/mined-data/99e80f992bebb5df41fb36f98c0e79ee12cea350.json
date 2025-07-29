@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/mock-server/mockserver/pull/1944",
+  "project" : "mockserver",
+  "projectOrganisation" : "mock-server",
+  "breakingCommit" : "99e80f992bebb5df41fb36f98c0e79ee12cea350",
+  "prAuthor" : "human",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "human",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.commons",
+    "dependencyArtifactID" : "commons-lang3",
+    "previousVersion" : "3.12.0",
+    "newVersion" : "3.18.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

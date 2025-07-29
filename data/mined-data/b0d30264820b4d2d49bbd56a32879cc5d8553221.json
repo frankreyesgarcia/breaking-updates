@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/jcabi/jcabi-urn/pull/45",
+  "project" : "jcabi-urn",
+  "projectOrganisation" : "jcabi",
+  "breakingCommit" : "b0d30264820b4d2d49bbd56a32879cc5d8553221",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.commons",
+    "dependencyArtifactID" : "commons-lang3",
+    "previousVersion" : "3.13.0",
+    "newVersion" : "3.18.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Other"
+}

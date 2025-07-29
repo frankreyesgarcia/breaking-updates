@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/chutney-testing/chutney/pull/285",
+  "project" : "chutney",
+  "projectOrganisation" : "chutney-testing",
+  "breakingCommit" : "e71fa871be8617ae101bdc99cc7bf3e88efca456",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.bouncycastle",
+    "dependencyArtifactID" : "bcprov-jdk18on",
+    "previousVersion" : "1.76",
+    "newVersion" : "1.81",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "unknown"
+}

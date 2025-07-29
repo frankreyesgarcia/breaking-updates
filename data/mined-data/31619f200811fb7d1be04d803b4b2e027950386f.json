@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/GoogleCloudPlatform/pgadapter/pull/3538",
+  "project" : "pgadapter",
+  "projectOrganisation" : "GoogleCloudPlatform",
+  "breakingCommit" : "31619f200811fb7d1be04d803b4b2e027950386f",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "io.opentelemetry",
+    "dependencyArtifactID" : "opentelemetry-bom",
+    "previousVersion" : "1.51.0",
+    "newVersion" : "1.52.0",
+    "dependencyScope" : "import",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

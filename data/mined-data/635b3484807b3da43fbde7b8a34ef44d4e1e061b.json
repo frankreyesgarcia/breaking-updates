@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/Ree6-Applications/Ree6/pull/743",
+  "project" : "Ree6",
+  "projectOrganisation" : "Ree6-Applications",
+  "breakingCommit" : "635b3484807b3da43fbde7b8a34ef44d4e1e061b",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "commons-codec",
+    "dependencyArtifactID" : "commons-codec",
+    "previousVersion" : "1.18.0",
+    "newVersion" : "1.19.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "GNU General Public License v3.0"
+}

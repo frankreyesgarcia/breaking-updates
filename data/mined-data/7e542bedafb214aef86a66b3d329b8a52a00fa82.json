@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/GoogleCloudPlatform/DataflowTemplates/pull/2600",
+  "project" : "DataflowTemplates",
+  "projectOrganisation" : "GoogleCloudPlatform",
+  "breakingCommit" : "7e542bedafb214aef86a66b3d329b8a52a00fa82",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.zaxxer",
+    "dependencyArtifactID" : "HikariCP",
+    "previousVersion" : "5.0.1",
+    "newVersion" : "7.0.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

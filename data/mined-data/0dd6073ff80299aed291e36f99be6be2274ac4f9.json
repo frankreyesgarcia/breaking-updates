@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/apache/camel-kamelets/pull/2515",
+  "project" : "camel-kamelets",
+  "projectOrganisation" : "apache",
+  "breakingCommit" : "0dd6073ff80299aed291e36f99be6be2274ac4f9",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.maven.resolver",
+    "dependencyArtifactID" : "maven-resolver-api",
+    "previousVersion" : "2.0.9",
+    "newVersion" : "2.0.10",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

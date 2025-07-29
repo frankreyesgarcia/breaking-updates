@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/frankframework/frankframework/pull/9224",
+  "project" : "frankframework",
+  "projectOrganisation" : "frankframework",
+  "breakingCommit" : "0d04d74cb31d423e27ce92b736f3ded55b393f93",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.puppycrawl.tools",
+    "dependencyArtifactID" : "checkstyle",
+    "previousVersion" : "10.26.0",
+    "newVersion" : "10.26.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "unknown"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

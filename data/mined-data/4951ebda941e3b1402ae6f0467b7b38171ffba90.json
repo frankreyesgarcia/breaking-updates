@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/MorphiaOrg/morphia/pull/3532",
+  "project" : "morphia",
+  "projectOrganisation" : "MorphiaOrg",
+  "breakingCommit" : "4951ebda941e3b1402ae6f0467b7b38171ffba90",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.openrewrite.recipe",
+    "dependencyArtifactID" : "rewrite-recipe-bom",
+    "previousVersion" : "3.11.1",
+    "newVersion" : "3.12.1",
+    "dependencyScope" : "import",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

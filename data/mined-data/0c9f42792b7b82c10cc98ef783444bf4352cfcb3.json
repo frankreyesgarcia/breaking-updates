@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/GoogleCloudPlatform/spring-cloud-gcp/pull/3956",
+  "project" : "spring-cloud-gcp",
+  "projectOrganisation" : "GoogleCloudPlatform",
+  "breakingCommit" : "0c9f42792b7b82c10cc98ef783444bf4352cfcb3",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.google.cloud.tools",
+    "dependencyArtifactID" : "linkage-checker-enforcer-rules",
+    "previousVersion" : "1.5.13",
+    "newVersion" : "1.5.15",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "unknown"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

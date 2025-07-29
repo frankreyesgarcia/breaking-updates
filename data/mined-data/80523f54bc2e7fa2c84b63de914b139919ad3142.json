@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/openhab/openhab-addons/pull/18928",
+  "project" : "openhab-addons",
+  "projectOrganisation" : "openhab",
+  "breakingCommit" : "80523f54bc2e7fa2c84b63de914b139919ad3142",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.commons",
+    "dependencyArtifactID" : "commons-lang3",
+    "previousVersion" : "3.12.0",
+    "newVersion" : "3.18.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Eclipse Public License 2.0"
+}

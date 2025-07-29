@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/stefvanschie/IF/pull/2368",
+  "project" : "IF",
+  "projectOrganisation" : "stefvanschie",
+  "breakingCommit" : "64c0ec6d600f5724168cfbf0553fe624d35d401a",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.maven.surefire",
+    "dependencyArtifactID" : "surefire-junit-platform ",
+    "previousVersion" : "3.5.2",
+    "newVersion" : "3.5.3",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "unknown"
+  },
+  "licenseInfo" : "The Unlicense"
+}

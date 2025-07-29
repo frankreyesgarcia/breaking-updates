@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/GoogleCloudPlatform/pgadapter/pull/3558",
+  "project" : "pgadapter",
+  "projectOrganisation" : "GoogleCloudPlatform",
+  "breakingCommit" : "a0c9f16f74816e9aff89abe2e9436843b3b4cdd7",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.maven",
+    "dependencyArtifactID" : "maven-model",
+    "previousVersion" : "3.9.10",
+    "newVersion" : "3.9.11",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

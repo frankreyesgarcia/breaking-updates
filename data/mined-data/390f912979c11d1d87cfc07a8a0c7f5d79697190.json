@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/TheAlgorithms/Java/pull/6364",
+  "project" : "Java",
+  "projectOrganisation" : "TheAlgorithms",
+  "breakingCommit" : "390f912979c11d1d87cfc07a8a0c7f5d79697190",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.commons",
+    "dependencyArtifactID" : "commons-lang3",
+    "previousVersion" : "3.17.0",
+    "newVersion" : "3.18.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "MIT License"
+}

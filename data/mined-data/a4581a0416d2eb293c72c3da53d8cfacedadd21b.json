@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/ChrisKujawa/zdb/pull/542",
+  "project" : "zdb",
+  "projectOrganisation" : "ChrisKujawa",
+  "breakingCommit" : "a4581a0416d2eb293c72c3da53d8cfacedadd21b",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.openjfx",
+    "dependencyArtifactID" : "javafx-controls",
+    "previousVersion" : "25-ea+22b",
+    "newVersion" : "25-ea+26",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "unknown"
+}

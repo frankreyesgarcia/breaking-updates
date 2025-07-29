@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/terrakube-io/terrakube/pull/2325",
+  "project" : "terrakube",
+  "projectOrganisation" : "terrakube-io",
+  "breakingCommit" : "5b48c3e11bb5acf870ab9ae44cc3af2bdbb5f0d7",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.nimbusds",
+    "dependencyArtifactID" : "nimbus-jose-jwt",
+    "previousVersion" : "10.3.1",
+    "newVersion" : "10.4",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

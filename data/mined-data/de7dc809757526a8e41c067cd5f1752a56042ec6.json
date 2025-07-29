@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/wearefrank/ladybug/pull/522",
+  "project" : "ladybug",
+  "projectOrganisation" : "wearefrank",
+  "breakingCommit" : "de7dc809757526a8e41c067cd5f1752a56042ec6",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.commons",
+    "dependencyArtifactID" : "commons-lang3",
+    "previousVersion" : "3.14.0",
+    "newVersion" : "3.18.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "unknown"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/apache/camel-kamelets/pull/2542",
+  "project" : "camel-kamelets",
+  "projectOrganisation" : "apache",
+  "breakingCommit" : "06048d0c322c772007221155e4fd6343b38ae563",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "commons-io",
+    "dependencyArtifactID" : "commons-io",
+    "previousVersion" : "2.19.0",
+    "newVersion" : "2.20.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

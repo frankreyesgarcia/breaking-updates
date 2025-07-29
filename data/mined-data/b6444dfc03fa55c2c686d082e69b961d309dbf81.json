@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/apache/creadur-rat/pull/493",
+  "project" : "creadur-rat",
+  "projectOrganisation" : "apache",
+  "breakingCommit" : "b6444dfc03fa55c2c686d082e69b961d309dbf81",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.junit",
+    "dependencyArtifactID" : "junit-bom",
+    "previousVersion" : "5.13.2",
+    "newVersion" : "5.13.3",
+    "dependencyScope" : "import",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

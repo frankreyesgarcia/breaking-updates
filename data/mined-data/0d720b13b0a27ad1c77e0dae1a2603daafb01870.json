@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/RIPE-NCC/ipresource/pull/21",
+  "project" : "ipresource",
+  "projectOrganisation" : "RIPE-NCC",
+  "breakingCommit" : "0d720b13b0a27ad1c77e0dae1a2603daafb01870",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.commons",
+    "dependencyArtifactID" : "commons-lang3",
+    "previousVersion" : "3.1",
+    "newVersion" : "3.18.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Other"
+}

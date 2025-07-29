@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/jenkinsci/tekton-client-plugin/pull/422",
+  "project" : "tekton-client-plugin",
+  "projectOrganisation" : "jenkinsci",
+  "breakingCommit" : "dc86e3484eabe13fb62c0fe73ae39df45d0219a4",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.squareup.okhttp3",
+    "dependencyArtifactID" : "okhttp",
+    "previousVersion" : "3.14.9",
+    "newVersion" : "5.0.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

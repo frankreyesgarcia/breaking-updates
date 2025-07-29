@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/openhab/openhab-addons/pull/17897",
+  "project" : "openhab-addons",
+  "projectOrganisation" : "openhab",
+  "breakingCommit" : "507fb8b5c7dac0ed11f953b6629936eaeef049a7",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.asynchttpclient",
+    "dependencyArtifactID" : "async-http-client",
+    "previousVersion" : "2.10.4",
+    "newVersion" : "3.0.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Eclipse Public License 2.0"
+}

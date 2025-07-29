@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/openhab/openhab-addons/pull/15942",
+  "project" : "openhab-addons",
+  "projectOrganisation" : "openhab",
+  "breakingCommit" : "6aa06d3838e65f7e2621eb0e5109c1b5ab6efed3",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.derby",
+    "dependencyArtifactID" : "derby",
+    "previousVersion" : "10.16.1.1",
+    "newVersion" : "10.17.1.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Eclipse Public License 2.0"
+}

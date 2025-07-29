@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/apache/commons-math/pull/279",
+  "project" : "commons-math",
+  "projectOrganisation" : "apache",
+  "breakingCommit" : "c0aafd2d98ddb684d41b77a36eb694116211e50b",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.commons",
+    "dependencyArtifactID" : "commons-lang3",
+    "previousVersion" : "3.1",
+    "newVersion" : "3.18.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

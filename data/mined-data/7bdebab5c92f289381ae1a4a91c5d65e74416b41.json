@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/PANTHEONtech/lighty/pull/2286",
+  "project" : "lighty",
+  "projectOrganisation" : "PANTHEONtech",
+  "breakingCommit" : "7bdebab5c92f289381ae1a4a91c5d65e74416b41",
+  "prAuthor" : "human",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "human",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.pekko",
+    "dependencyArtifactID" : "pekko-stream_2.13",
+    "previousVersion" : "1.0.2",
+    "newVersion" : "1.1.5",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "Eclipse Public License 1.0"
+}

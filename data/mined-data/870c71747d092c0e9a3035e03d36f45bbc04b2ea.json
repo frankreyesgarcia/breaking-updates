@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/michael-simons/neo4j-migrations/pull/1725",
+  "project" : "neo4j-migrations",
+  "projectOrganisation" : "michael-simons",
+  "breakingCommit" : "870c71747d092c0e9a3035e03d36f45bbc04b2ea",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "io.netty",
+    "dependencyArtifactID" : "netty-bom",
+    "previousVersion" : "4.1.123.Final",
+    "newVersion" : "4.2.3.Final",
+    "dependencyScope" : "import",
+    "versionUpdateType" : "other",
+    "dependencySection" : "unknown"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

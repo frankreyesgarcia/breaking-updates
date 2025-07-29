@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/apache/paimon/pull/5884",
+  "project" : "paimon",
+  "projectOrganisation" : "apache",
+  "breakingCommit" : "80c9d74405e1570e5e5c10ee21c17bc71c8a3afa",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.commons",
+    "dependencyArtifactID" : "commons-lang3",
+    "previousVersion" : "3.12.0",
+    "newVersion" : "3.18.0",
+    "dependencyScope" : "provided",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

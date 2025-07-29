@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/jdi-testing/jdi-light/pull/5542",
+  "project" : "jdi-light",
+  "projectOrganisation" : "jdi-testing",
+  "breakingCommit" : "d05dfd42fa7329f1f2b391cb2ba61fc152e0cc55",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.commons",
+    "dependencyArtifactID" : "commons-lang3",
+    "previousVersion" : "3.12.0",
+    "newVersion" : "3.18.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "MIT License"
+}

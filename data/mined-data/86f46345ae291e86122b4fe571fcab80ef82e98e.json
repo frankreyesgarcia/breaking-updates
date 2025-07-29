@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/geonetwork/core-geonetwork/pull/8924",
+  "project" : "core-geonetwork",
+  "projectOrganisation" : "geonetwork",
+  "breakingCommit" : "86f46345ae291e86122b4fe571fcab80ef82e98e",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "commons-fileupload",
+    "dependencyArtifactID" : "commons-fileupload",
+    "previousVersion" : "1.5",
+    "newVersion" : "1.6.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "unknown"
+  },
+  "licenseInfo" : "GNU General Public License v2.0"
+}

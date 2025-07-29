@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/Axway-API-Management-Plus/apim-cli/pull/560",
+  "project" : "apim-cli",
+  "projectOrganisation" : "Axway-API-Management-Plus",
+  "breakingCommit" : "ed0b8e91ca5b5df1a9c486bfa78761df8ad72b8c",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.commons",
+    "dependencyArtifactID" : "commons-lang3",
+    "previousVersion" : "3.12.0",
+    "newVersion" : "3.18.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

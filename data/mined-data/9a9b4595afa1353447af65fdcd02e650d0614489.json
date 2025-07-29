@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/nicho92/MtgDesktopCompanion/pull/310",
+  "project" : "MtgDesktopCompanion",
+  "projectOrganisation" : "nicho92",
+  "breakingCommit" : "9a9b4595afa1353447af65fdcd02e650d0614489",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "unknown",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.commons",
+    "dependencyArtifactID" : "commons-lang3",
+    "previousVersion" : "3.17.0",
+    "newVersion" : "3.18.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

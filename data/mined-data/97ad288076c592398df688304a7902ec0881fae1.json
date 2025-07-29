@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/GoogleCloudPlatform/pgadapter/pull/3566",
+  "project" : "pgadapter",
+  "projectOrganisation" : "GoogleCloudPlatform",
+  "breakingCommit" : "97ad288076c592398df688304a7902ec0881fae1",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.google.googlejavaformat",
+    "dependencyArtifactID" : "google-java-format",
+    "previousVersion" : "1.27.0",
+    "newVersion" : "1.28.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "profileBuildPlugins"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

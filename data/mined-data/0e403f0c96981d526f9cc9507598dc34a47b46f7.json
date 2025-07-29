@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/eclipse-tycho/tycho/pull/5158",
+  "project" : "tycho",
+  "projectOrganisation" : "eclipse-tycho",
+  "breakingCommit" : "0e403f0c96981d526f9cc9507598dc34a47b46f7",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.maven.resolver",
+    "dependencyArtifactID" : "maven-resolver-util",
+    "previousVersion" : "1.9.20",
+    "newVersion" : "2.0.10",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Eclipse Public License 2.0"
+}

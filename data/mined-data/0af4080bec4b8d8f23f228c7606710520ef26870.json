@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/chutney-testing/chutney/pull/284",
+  "project" : "chutney",
+  "projectOrganisation" : "chutney-testing",
+  "breakingCommit" : "0af4080bec4b8d8f23f228c7606710520ef26870",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.google.errorprone",
+    "dependencyArtifactID" : "error_prone_annotations",
+    "previousVersion" : "2.18.0",
+    "newVersion" : "2.39.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "unknown"
+}

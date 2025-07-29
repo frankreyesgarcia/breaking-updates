@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/DevLeoko/AdvancedBan/pull/663",
+  "project" : "AdvancedBan",
+  "projectOrganisation" : "DevLeoko",
+  "breakingCommit" : "04f593fece7b99fd4ad23faf9b1b19adc5fe9883",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.commons",
+    "dependencyArtifactID" : "commons-lang3",
+    "previousVersion" : "3.8.1",
+    "newVersion" : "3.18.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "GNU General Public License v3.0"
+}

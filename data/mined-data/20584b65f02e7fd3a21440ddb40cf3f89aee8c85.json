@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/kumuluz/kumuluzee/pull/224",
+  "project" : "kumuluzee",
+  "projectOrganisation" : "kumuluz",
+  "breakingCommit" : "20584b65f02e7fd3a21440ddb40cf3f89aee8c85",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.commons",
+    "dependencyArtifactID" : "commons-lang3",
+    "previousVersion" : "3.6",
+    "newVersion" : "3.18.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "MIT License"
+}

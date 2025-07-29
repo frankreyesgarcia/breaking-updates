@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/genexuslabs/JavaClasses/pull/987",
+  "project" : "JavaClasses",
+  "projectOrganisation" : "genexuslabs",
+  "breakingCommit" : "42c68eaa341043b74c9c7a4acae1baa601ebf08b",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.nimbusds",
+    "dependencyArtifactID" : "nimbus-jose-jwt",
+    "previousVersion" : "9.39.2",
+    "newVersion" : "10.0.2",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "unknown"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

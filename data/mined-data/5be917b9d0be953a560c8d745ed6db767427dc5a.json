@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/JanusGraph/janusgraph/pull/4812",
+  "project" : "janusgraph",
+  "projectOrganisation" : "JanusGraph",
+  "breakingCommit" : "5be917b9d0be953a560c8d745ed6db767427dc5a",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.nimbusds",
+    "dependencyArtifactID" : "nimbus-jose-jwt",
+    "previousVersion" : "10.0.2",
+    "newVersion" : "10.3.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "Other"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/jenkinsci/tekton-client-plugin/pull/443",
+  "project" : "tekton-client-plugin",
+  "projectOrganisation" : "jenkinsci",
+  "breakingCommit" : "3506ab1b4ab8f8b9d93a73a029ee76f47c3450fb",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.jenkins-ci.plugins",
+    "dependencyArtifactID" : "jackson2-api",
+    "previousVersion" : "2.19.0-404.vb_b_0fd2fea_e10",
+    "newVersion" : "2.19.2-408.v18248a_324cfe",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

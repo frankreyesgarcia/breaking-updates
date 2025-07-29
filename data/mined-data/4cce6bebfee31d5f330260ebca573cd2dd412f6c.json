@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/ASSERT-KTH/flacoco/pull/319",
+  "project" : "flacoco",
+  "projectOrganisation" : "ASSERT-KTH",
+  "breakingCommit" : "4cce6bebfee31d5f330260ebca573cd2dd412f6c",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.junit.platform",
+    "dependencyArtifactID" : "junit-platform-engine",
+    "previousVersion" : "1.3.2",
+    "newVersion" : "1.13.2",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "MIT License"
+}

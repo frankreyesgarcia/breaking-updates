@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/jenkinsci/dependency-track-plugin/pull/344",
+  "project" : "dependency-track-plugin",
+  "projectOrganisation" : "jenkinsci",
+  "breakingCommit" : "e374749746322d0da65204330937cde46c68dea6",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.jenkins-ci.plugins",
+    "dependencyArtifactID" : "plain-credentials",
+    "previousVersion" : "183.va_de8f1dd5a_2b_",
+    "newVersion" : "199.v9f8e1f741799",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/opencast/opencast/pull/6874",
+  "project" : "opencast",
+  "projectOrganisation" : "opencast",
+  "breakingCommit" : "54e40bc52231ecaeaf9bfee5914e3c68110a2ae4",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "unknown",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.puppycrawl.tools",
+    "dependencyArtifactID" : "checkstyle",
+    "previousVersion" : "8.36.2",
+    "newVersion" : "10.26.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "buildPlugins"
+  },
+  "licenseInfo" : "Educational Community License v2.0"
+}

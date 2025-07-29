@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/PANTHEONtech/lighty/pull/2275",
+  "project" : "lighty",
+  "projectOrganisation" : "PANTHEONtech",
+  "breakingCommit" : "9df2737f571e0895c83b7ba6aafd1e851b87edc0",
+  "prAuthor" : "human",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "human",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.casbin",
+    "dependencyArtifactID" : "jcasbin",
+    "previousVersion" : "1.81.0",
+    "newVersion" : "1.82.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Eclipse Public License 1.0"
+}

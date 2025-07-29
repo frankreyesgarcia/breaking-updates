@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/DIGI-UW/OpenELIS-Global-2/pull/2114",
+  "project" : "OpenELIS-Global-2",
+  "projectOrganisation" : "DIGI-UW",
+  "breakingCommit" : "fecf19b77d4fcd5bad3afbfa701355b5c494c27d",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "commons-beanutils",
+    "dependencyArtifactID" : "commons-beanutils",
+    "previousVersion" : "1.9.4",
+    "newVersion" : "1.11.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Mozilla Public License 2.0"
+}

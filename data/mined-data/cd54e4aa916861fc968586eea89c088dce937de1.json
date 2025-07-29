@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/OHDSI/WebAPI/pull/2450",
+  "project" : "WebAPI",
+  "projectOrganisation" : "OHDSI",
+  "breakingCommit" : "cd54e4aa916861fc968586eea89c088dce937de1",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.commons",
+    "dependencyArtifactID" : "commons-lang3",
+    "previousVersion" : "3.12.0",
+    "newVersion" : "3.18.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

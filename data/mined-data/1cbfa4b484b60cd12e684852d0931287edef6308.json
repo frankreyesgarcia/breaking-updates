@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/slackhq/astra/pull/1394",
+  "project" : "astra",
+  "projectOrganisation" : "slackhq",
+  "breakingCommit" : "1cbfa4b484b60cd12e684852d0931287edef6308",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.junit.platform",
+    "dependencyArtifactID" : "junit-platform-launcher",
+    "previousVersion" : "1.13.3",
+    "newVersion" : "1.13.4",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "MIT License"
+}

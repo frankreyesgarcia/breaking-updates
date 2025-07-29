@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/jenkinsci/oic-auth-plugin/pull/626",
+  "project" : "oic-auth-plugin",
+  "projectOrganisation" : "jenkinsci",
+  "breakingCommit" : "787b0dc774f825883a16aba2005a69136cb9a5f6",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "io.jenkins.tools.bom",
+    "dependencyArtifactID" : "bom-${jenkins.baseline}.x",
+    "previousVersion" : "4228.v0a_71308d905b_",
+    "newVersion" : "5054.v620b_5d2b_d5e6",
+    "dependencyScope" : "import",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "MIT License"
+}

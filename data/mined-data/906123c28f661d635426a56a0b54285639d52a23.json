@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/liquibase/liquibase-mssql/pull/159",
+  "project" : "liquibase-mssql",
+  "projectOrganisation" : "liquibase",
+  "breakingCommit" : "906123c28f661d635426a56a0b54285639d52a23",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.microsoft.sqlserver",
+    "dependencyArtifactID" : "mssql-jdbc",
+    "previousVersion" : "12.10.1.jre8",
+    "newVersion" : "13.1.1.jre8-preview",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "unknown"
+}

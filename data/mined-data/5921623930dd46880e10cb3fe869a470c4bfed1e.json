@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/smallrye/smallrye-open-api/pull/2308",
+  "project" : "smallrye-open-api",
+  "projectOrganisation" : "smallrye",
+  "breakingCommit" : "5921623930dd46880e10cb3fe869a470c4bfed1e",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "io.smallrye.common",
+    "dependencyArtifactID" : "smallrye-common-classloader",
+    "previousVersion" : "2.8.0",
+    "newVersion" : "2.13.7",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

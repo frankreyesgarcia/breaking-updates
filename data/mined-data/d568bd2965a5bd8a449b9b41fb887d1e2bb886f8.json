@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/Arakne/Araknemu/pull/365",
+  "project" : "Araknemu",
+  "projectOrganisation" : "Arakne",
+  "breakingCommit" : "d568bd2965a5bd8a449b9b41fb887d1e2bb886f8",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.commons",
+    "dependencyArtifactID" : "commons-lang3",
+    "previousVersion" : "3.15.0",
+    "newVersion" : "3.18.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "GNU Lesser General Public License v3.0"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/digital-preservation/droid/pull/1399",
+  "project" : "droid",
+  "projectOrganisation" : "digital-preservation",
+  "breakingCommit" : "960d76d7af0bf40ed7a055e3a5655176ba3a0cbe",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "commons-codec",
+    "dependencyArtifactID" : "commons-codec",
+    "previousVersion" : "1.18.0",
+    "newVersion" : "1.19.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "BSD 3-Clause \"New\" or \"Revised\" License"
+}

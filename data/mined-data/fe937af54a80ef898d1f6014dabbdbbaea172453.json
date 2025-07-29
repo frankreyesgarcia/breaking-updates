@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/Activiti/Activiti/pull/5075",
+  "project" : "Activiti",
+  "projectOrganisation" : "Activiti",
+  "breakingCommit" : "fe937af54a80ef898d1f6014dabbdbbaea172453",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.springframework.security",
+    "dependencyArtifactID" : "spring-security-core",
+    "previousVersion" : "6.4.5",
+    "newVersion" : "6.5.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

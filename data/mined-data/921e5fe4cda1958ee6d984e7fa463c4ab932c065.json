@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/GoogleCloudPlatform/DataflowTemplates/pull/2559",
+  "project" : "DataflowTemplates",
+  "projectOrganisation" : "GoogleCloudPlatform",
+  "breakingCommit" : "921e5fe4cda1958ee6d984e7fa463c4ab932c065",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "dnsjava",
+    "dependencyArtifactID" : "dnsjava",
+    "previousVersion" : "3.6.0",
+    "newVersion" : "3.6.3",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

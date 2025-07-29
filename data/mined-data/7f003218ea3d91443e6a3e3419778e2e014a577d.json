@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/ere-health/ere-ps-app/pull/173",
+  "project" : "ere-ps-app",
+  "projectOrganisation" : "ere-health",
+  "breakingCommit" : "7f003218ea3d91443e6a3e3419778e2e014a577d",
+  "prAuthor" : "human",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "human",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.commons",
+    "dependencyArtifactID" : "commons-lang3",
+    "previousVersion" : "3.12.0",
+    "newVersion" : "3.18.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "unknown"
+  },
+  "licenseInfo" : "GNU General Public License v3.0"
+}

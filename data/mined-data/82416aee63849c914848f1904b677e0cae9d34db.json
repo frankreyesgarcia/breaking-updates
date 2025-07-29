@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/apache/camel-kamelets/pull/2533",
+  "project" : "camel-kamelets",
+  "projectOrganisation" : "apache",
+  "breakingCommit" : "82416aee63849c914848f1904b677e0cae9d34db",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.maven",
+    "dependencyArtifactID" : "maven-core",
+    "previousVersion" : "3.9.10",
+    "newVersion" : "3.9.11",
+    "dependencyScope" : "provided",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

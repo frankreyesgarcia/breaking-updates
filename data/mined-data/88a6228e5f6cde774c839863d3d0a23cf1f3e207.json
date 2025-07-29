@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/data-integrations/salesforce/pull/313",
+  "project" : "salesforce",
+  "projectOrganisation" : "data-integrations",
+  "breakingCommit" : "88a6228e5f6cde774c839863d3d0a23cf1f3e207",
+  "prAuthor" : "human",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "human",
+  "updatedDependency" : {
+    "dependencyGroupID" : "ch.qos.logback",
+    "dependencyArtifactID" : "logback-classic",
+    "previousVersion" : "1.2.8",
+    "newVersion" : "1.3.15",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

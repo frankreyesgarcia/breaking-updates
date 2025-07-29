@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/aem-vite/aem-vite/pull/47",
+  "project" : "aem-vite",
+  "projectOrganisation" : "aem-vite",
+  "breakingCommit" : "a6986d8ed3209f0fa76acbcb6add9cef360a6005",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "commons-io",
+    "dependencyArtifactID" : "commons-io",
+    "previousVersion" : "2.8.0",
+    "newVersion" : "2.14.0",
+    "dependencyScope" : "provided",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

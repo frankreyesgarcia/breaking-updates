@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/frankframework/frankframework/pull/9225",
+  "project" : "frankframework",
+  "projectOrganisation" : "frankframework",
+  "breakingCommit" : "7593500f34113962eb22362fc90e2cad49c420ce",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.testcontainers",
+    "dependencyArtifactID" : "testcontainers-bom",
+    "previousVersion" : "1.21.2",
+    "newVersion" : "1.21.3",
+    "dependencyScope" : "import",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "unknown"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

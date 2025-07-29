@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/eclipse-tycho/tycho/pull/5173",
+  "project" : "tycho",
+  "projectOrganisation" : "eclipse-tycho",
+  "breakingCommit" : "3431e1c674abcc881f1f9cb5e2352717bfcb0784",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "io.github.java-diff-utils",
+    "dependencyArtifactID" : "java-diff-utils",
+    "previousVersion" : "4.15",
+    "newVersion" : "4.16",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Eclipse Public License 2.0"
+}

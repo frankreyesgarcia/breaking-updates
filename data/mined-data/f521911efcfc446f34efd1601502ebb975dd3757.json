@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/dominicfeliton/WorldwideChat/pull/515",
+  "project" : "WorldwideChat",
+  "projectOrganisation" : "dominicfeliton",
+  "breakingCommit" : "f521911efcfc446f34efd1601502ebb975dd3757",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.google.cloud",
+    "dependencyArtifactID" : "google-cloud-translate",
+    "previousVersion" : "2.67.0",
+    "newVersion" : "2.68.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "unknown"
+}

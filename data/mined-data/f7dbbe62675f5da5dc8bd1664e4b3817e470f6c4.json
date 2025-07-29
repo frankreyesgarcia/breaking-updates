@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/openhab/openhab-addons/pull/17857",
+  "project" : "openhab-addons",
+  "projectOrganisation" : "openhab",
+  "breakingCommit" : "f7dbbe62675f5da5dc8bd1664e4b3817e470f6c4",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "io.ktor",
+    "dependencyArtifactID" : "ktor-client-core-jvm",
+    "previousVersion" : "1.6.8",
+    "newVersion" : "2.3.13",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Eclipse Public License 2.0"
+}

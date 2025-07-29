@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/simpligility/maven-repository-tools/pull/88",
+  "project" : "maven-repository-tools",
+  "projectOrganisation" : "simpligility",
+  "breakingCommit" : "c95f958309e162718ba0db4ee7e62e05796160d1",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.commons",
+    "dependencyArtifactID" : "commons-lang3",
+    "previousVersion" : "3.12.0",
+    "newVersion" : "3.18.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Eclipse Public License 1.0"
+}

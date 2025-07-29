@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/snyk/snyk-eclipse-plugin/pull/317",
+  "project" : "snyk-eclipse-plugin",
+  "projectOrganisation" : "snyk",
+  "breakingCommit" : "47d5a5ab2733d1a6da5b4fdab24f45c83817f035",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.commons",
+    "dependencyArtifactID" : "commons-text",
+    "previousVersion" : "1.10.0",
+    "newVersion" : "1.14.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Other"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/Ree6-Applications/Ree6/pull/744",
+  "project" : "Ree6",
+  "projectOrganisation" : "Ree6-Applications",
+  "breakingCommit" : "445aecfeb7fcb5cae03fe1829ca3e28d1ba8b4b5",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "se.michaelthelin.spotify",
+    "dependencyArtifactID" : "spotify-web-api-java",
+    "previousVersion" : "9.2.0",
+    "newVersion" : "9.3.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "GNU General Public License v3.0"
+}

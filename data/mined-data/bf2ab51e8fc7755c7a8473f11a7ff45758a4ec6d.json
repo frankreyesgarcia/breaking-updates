@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/iterate-ch/cyberduck/pull/17243",
+  "project" : "cyberduck",
+  "projectOrganisation" : "iterate-ch",
+  "breakingCommit" : "bf2ab51e8fc7755c7a8473f11a7ff45758a4ec6d",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.google.guava",
+    "dependencyArtifactID" : "guava",
+    "previousVersion" : "31.0.1-jre",
+    "newVersion" : "32.0.0-jre",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "unknown"
+  },
+  "licenseInfo" : "GNU General Public License v3.0"
+}

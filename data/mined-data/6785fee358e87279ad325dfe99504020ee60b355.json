@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/dogtagpki/pki/pull/5154",
+  "project" : "pki",
+  "projectOrganisation" : "dogtagpki",
+  "breakingCommit" : "6785fee358e87279ad325dfe99504020ee60b355",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.commons",
+    "dependencyArtifactID" : "commons-lang3",
+    "previousVersion" : "3.12.0",
+    "newVersion" : "3.18.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "GNU General Public License v2.0"
+}

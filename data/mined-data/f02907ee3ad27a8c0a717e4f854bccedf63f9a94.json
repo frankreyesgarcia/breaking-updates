@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/ASSERT-KTH/flacoco/pull/318",
+  "project" : "flacoco",
+  "projectOrganisation" : "ASSERT-KTH",
+  "breakingCommit" : "f02907ee3ad27a8c0a717e4f854bccedf63f9a94",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.junit.jupiter",
+    "dependencyArtifactID" : "junit-jupiter-api",
+    "previousVersion" : "5.3.2",
+    "newVersion" : "5.13.2",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "MIT License"
+}

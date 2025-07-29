@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/MyCoRe-Org/mycore/pull/2569",
+  "project" : "mycore",
+  "projectOrganisation" : "MyCoRe-Org",
+  "breakingCommit" : "f2aafa518eb520ed6bdc751bb01146c8ba47fec4",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.commons",
+    "dependencyArtifactID" : "commons-lang3",
+    "previousVersion" : "3.17.0",
+    "newVersion" : "3.18.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "GNU General Public License v3.0"
+}

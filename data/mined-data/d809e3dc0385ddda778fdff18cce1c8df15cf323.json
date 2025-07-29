@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/fabric8io/kubernetes-client/pull/7156",
+  "project" : "kubernetes-client",
+  "projectOrganisation" : "fabric8io",
+  "breakingCommit" : "d809e3dc0385ddda778fdff18cce1c8df15cf323",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "io.github.java-diff-utils",
+    "dependencyArtifactID" : "java-diff-utils",
+    "previousVersion" : "4.15",
+    "newVersion" : "4.16",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "unknown"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

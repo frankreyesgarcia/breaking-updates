@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/jenkinsci/maven-snapshot-check-plugin/pull/118",
+  "project" : "maven-snapshot-check-plugin",
+  "projectOrganisation" : "jenkinsci",
+  "breakingCommit" : "f1fe53a1d535e131276ec7d9381c7e168f32ee34",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "io.jenkins.tools.bom",
+    "dependencyArtifactID" : "bom-${jenkins.baseline}.x",
+    "previousVersion" : "4228.v0a_71308d905b_",
+    "newVersion" : "4969.v6ffa_18d90c9f",
+    "dependencyScope" : "import",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "MIT License"
+}

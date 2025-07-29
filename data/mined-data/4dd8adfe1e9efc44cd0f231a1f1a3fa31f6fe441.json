@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/apache/cxf/pull/2505",
+  "project" : "cxf",
+  "projectOrganisation" : "apache",
+  "breakingCommit" : "4dd8adfe1e9efc44cd0f231a1f1a3fa31f6fe441",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.squareup.okhttp3",
+    "dependencyArtifactID" : "okhttp",
+    "previousVersion" : "4.12.0",
+    "newVersion" : "5.1.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/jenkinsci/warnings-ng-plugin/pull/2050",
+  "project" : "warnings-ng-plugin",
+  "projectOrganisation" : "jenkinsci",
+  "breakingCommit" : "3d07d526c55c20b5a3a4a37f4bd4afcbfa2008aa",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.jenkins-ci",
+    "dependencyArtifactID" : "acceptance-test-harness",
+    "previousVersion" : "6254.vca_87b_2b_59e5a_",
+    "newVersion" : "6276.v6fb_59a_e9edf5",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "MIT License"
+}
